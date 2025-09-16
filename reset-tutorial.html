@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reset Tutorial</title>
+</head>
+<body>
+    <h1>Tutorial Reset</h1>
+    <button onclick="resetTutorial()">Reset Tutorial</button>
+    <button onclick="checkStatus()">Check Tutorial Status</button>
+    <div id="status"></div>
+    
+    <script>
+        function resetTutorial() {
+            localStorage.removeItem('qb_tutorial_completed');
+            document.getElementById('status').innerHTML = 'Tutorial completion flag removed. Refresh RobitQuiz to see tutorial.';
+        }
+        
+        function checkStatus() {
+            const completed = localStorage.getItem('qb_tutorial_completed');
+            document.getElementById('status').innerHTML = `Tutorial completion status: ${completed || 'not set'}`;
+        }
+    </script>
+</body>
+</html>

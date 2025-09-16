@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RobitQuiz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col relative">
+
+  <audio id="snd-correct" src="sounds/correct.wav" preload="auto"></audio>
+  <audio id="snd-wrong"   src="sounds/wrong.wav"   preload="auto"></audio>
+  <audio id="snd-click"   src="sounds/click.wav"   preload="auto"></audio>
+  <audio id="snd-wrong2"  src="sounds/wrong2.wav"  preload="auto"></audio>
+  <audio id="bg-music" loop preload="auto">
+    <!-- Add your background music file here -->
+    <!-- <source src="sounds/background.mp3" type="audio/mpeg"> -->
+    <!-- <source src="sounds/background.ogg" type="audio/ogg"> -->
+  </audio>
+
+  <!-- Fixed Top Bar -->
+  <div id="top-bar" class="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-90 backdrop-filter backdrop-blur-lg border-b border-gray-200 px-4 py-3 flex items-center justify-between">
+    <!-- Left: Back Button (hidden on home screen) -->
+    <button id="top-back-btn" class="hidden px-3 py-1 bg-gray-200 hover:bg-gray-300 rounded text-sm font-medium">
+      ← <span id="top-back-text">Back</span>
+    </button>
+    
+    <!-- Center: Empty space (removed title text) -->
+    <div id="top-title"></div>
+    
+    <!-- Right: Stars, Diamonds and Settings -->
+    <div class="flex items-center space-x-3">
+      <!-- Star Display -->
+      <div id="star-display" class="flex items-center space-x-1 bg-yellow-100 border border-yellow-300 rounded-full px-3 py-1 cursor-pointer hover:bg-yellow-200 transition-colors duration-200">
+        <span class="text-lg">⭐</span>
+        <span id="star-count" class="font-semibold text-gray-800">0</span>
+      </div>
+      
+      <!-- Diamond Display -->
+      <div id="diamond-display" class="flex items-center space-x-1 bg-blue-100 border border-blue-300 rounded-full px-3 py-1 cursor-pointer hover:bg-blue-200 transition-colors duration-200">
+        <span class="text-lg">💎</span>
+        <span id="diamond-count" class="font-semibold text-gray-800">0</span>
+      </div>
+      
+      <!-- Settings Button -->
+      <button id="settings-btn" class="text-xl text-gray-600 hover:text-gray-800 p-1">
+        ⚙️
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Content Area -->
+  <div class="flex-1 flex items-center justify-center p-2 pt-20">
+
+  <!-- Opening Screen -->
+  <div id="home-screen" class="screen relative w-full max-w-md text-center">
+    <div class="flex justify-center mb-2">
+      <img src="images/icons/quiz icoon 4 NB.png" alt="RobitQuiz" class="w-full max-w-md object-contain">
+    </div>
+    <div class="space-y-4">
+
+    <button id="levels-btn"
+      class="w-full font-semibold py-3 rounded shadow text-white"
+    >
+    </button>
+
+    <button id="challenge-modes-btn"
+      class="w-full font-semibold py-3 rounded shadow text-white bg-orange-600 hover:bg-orange-700"
+    >
+      Game Modes
+    </button>
+
+    <button id="leaderboard-btn"
+      class="w-full font-semibold py-3 rounded shadow"
+    >
+    </button>
+
+    <button id="daily-challenge-btn"
+      class="w-full font-semibold py-3 rounded shadow text-white relative"
+    >
+      <span class="daily-challenge-text">Daily Challenge</span>
+      <span class="daily-challenge-status text-xs block mt-1"></span>
+    </button>
+
+    <button id="shop-btn"
+      class="w-full font-semibold py-3 rounded shadow text-white bg-purple-600 hover:bg-purple-700"
+    >
+      Shop
+    </button>
+
+    </div>
+  </div>
+
+  <!-- Roadmap Screen -->
+  <div id="roadmap-screen" class="screen hidden w-full">
+    <div id="roadmap-path" class="flex flex-col items-center w-full pt-8 pb-20">
+      <!-- Subject buttons will be generated here -->
+    </div>
+  </div>
+
+  <!-- Subject Selection Screen -->
+  <div id="subjects-screen" class="screen hidden w-full max-w-4xl space-y-6">
+    <div id="subjects-grid" class="flex flex-col space-y-4"></div>
+  </div>
+
+
+  <!-- Levels Buttons -->
+  <div id="levels-screen" class="screen hidden w-full max-w-4xl space-y-6">
+    <div class="flex justify-center">
+      <img id="levels-subject-image" class="max-w-72 max-h-72 object-contain rounded-lg" alt="Subject Image" />
+    </div>
+    <div id="levels-grid" class="flex flex-col space-y-4"></div>
+  </div>
+
+  <!-- Quiz Screen -->
+  <div id="quiz-screen" class="screen hidden w-full max-w-xl space-y-6">
+    <div class="flex justify-center items-center mb-4">
+      <span id="timer" class="text-2xl font-bold text-red-600 bg-white px-4 py-2 rounded-full shadow">15s</span>
+    </div>
+    <div id="question" class="text-2xl font-semibold text-center"></div>
+    <div id="answers" class="flex flex-col gap-3"></div>
+      <div class="space-x-4">
+        <span id="correct" class="font-medium text-green-600">Correct: 0/10</span>
+        <span id="wrong" class="font-medium text-red-500">Mistakes: 0/2</span>
+      </div>
+        <div class="flex justify-center gap-4 mt-2">
+    <button
+      id="fifty-fifty-btn"
+      class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded disabled:bg-gray-400 disabled:cursor-not-allowed"
+      onclick="window.useFiftyFifty()"
+    >
+      50/50 (<span id="fifty-fifty-count">3</span>)
+    </button>
+    <button
+      id="skip-btn"
+      class="bg-gray-400 hover:bg-gray-500 text-white py-2 px-4 rounded disabled:bg-gray-600 disabled:cursor-not-allowed"
+    >
+      Skip (<span id="skip-count">3</span>)
+    </button>
+    <button
+      id="time-bonus-btn"
+      class="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded disabled:bg-gray-400 disabled:cursor-not-allowed"
+      onclick="window.useTimeBonus()"
+    >
+      Time (<span id="time-bonus-count">3</span>)
+    </button>
+  </div>
+
+  </div>
+
+  <!-- Daily Challenge Screen -->
+  <div id="daily-challenge-screen" class="screen hidden w-full max-w-xl space-y-6">
+    <div class="text-center mb-4">
+      <h2 class="text-2xl font-bold text-golden-yellow mb-2">Daily Challenge</h2>
+      <p class="text-white">5 questions • 10 seconds each • 1 mistake allowed</p>
+    </div>
+    <div class="flex justify-center items-center mb-4">
+      <span id="challenge-timer" class="text-2xl font-bold text-red-600 bg-white px-4 py-2 rounded-full shadow">10s</span>
+    </div>
+    <div id="challenge-question" class="text-2xl font-semibold text-center"></div>
+    <div id="challenge-answers" class="flex flex-col gap-3"></div>
+    <div class="text-center">
+      <span id="challenge-progress" class="font-medium text-cyan">Question 1/5</span>
+      <span id="challenge-wrong" class="font-medium text-pinkish-red ml-4">Mistakes: 0/1</span>
+    </div>
+  </div>
+
+  <!-- Too Many wrong answers Popup -->
+  <div id="error-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center">
+      <h3 id="error-modal-title" class="text-xl font-bold text-red-600">Oops!</h3>
+      <p id="error-modal-text" class="text-gray-800">Too many wrong answers!</p>
+      <p class="text-sm text-gray-600">Continue playing with a second chance or accept 10-minute cooldown?</p>
+      <div class="flex flex-col space-y-2">
+        <button id="error-modal-continue-ad" class="bg-green-600 hover:bg-green-700 text-white py-2 rounded">
+          Continue (📺)
+        </button>
+        <button id="error-modal-continue-gems" class="bg-purple-600 hover:bg-purple-700 text-white py-2 rounded">
+          Continue (5 💎)
+        </button>
+        <button id="error-modal-back" class="bg-red-400 hover:bg-red-500 text-white py-2 rounded">
+          Accept Cooldown (10 min)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Timeout Popup -->
+  <div id="timeout-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center">
+      <h3 id="timeout-modal-title" class="text-xl font-bold text-yellow-600">Time's up!</h3>
+      <p id="timeout-modal-text" class="text-gray-800">Your time has run out!</p>
+      <p class="text-sm text-gray-600">Get extra time and continue or accept 10-minute cooldown?</p>
+      <div class="flex flex-col space-y-2">
+        <button id="timeout-modal-continue-ad" class="bg-green-600 hover:bg-green-700 text-white py-2 rounded">
+          Continue (📺)
+        </button>
+        <button id="timeout-modal-continue-gems" class="bg-purple-600 hover:bg-purple-700 text-white py-2 rounded">
+          Continue (5 💎)
+        </button>
+        <button id="timeout-back" class="bg-red-400 hover:bg-red-500 text-white py-2 rounded">
+          Accept Cooldown (10 min)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Level Complete Popup -->
+  <div id="complete-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-lg shadow-xl max-w-md w-full p-6 space-y-4 text-center relative">
+      <!-- Character Image -->
+      <div class="flex justify-center mb-4">
+        <img src="images/tutorial/opstijgen pose 1 NB.png" alt="Celebration Character" class="w-32 h-32 object-contain animate-bounce-in" 
+             onerror="console.error('Failed to load completion character image:', this.src); this.style.display='none';"
+             onload="console.log('Completion character image loaded successfully');">
+      </div>
+      
+      <h3 id="complete-modal-title" class="text-2xl font-bold text-green-600">Good Job!</h3>
+      <p id="complete-modal-text" class="text-gray-800 text-lg">You got 10 correct answers!</p>
+      <p id="complete-modal-coins" class="text-blue-600 font-semibold text-lg">+10 stars earned!</p>
+      
+      <div class="flex space-x-2 mt-6">
+        <button id="complete-next-level"
+                class="flex-1 bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-semibold">
+          Next Level
+        </button>
+        <button id="complete-back"
+                class="flex-1 bg-gray-300 hover:bg-gray-400 text-gray-900 py-3 rounded-lg font-semibold">
+          Back to Levels
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Daily Challenge Complete Modal -->
+  <div id="challenge-complete-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center">
+      <h3 id="challenge-complete-title" class="text-xl font-bold text-green-600">Challenge Complete!</h3>
+      <p id="challenge-complete-text" class="text-gray-800">Congratulations! You completed today's challenge!</p>
+      <p id="challenge-complete-reward" class="text-blue-600 font-semibold">+20 stars earned!</p>
+      <button id="challenge-complete-back"
+              class="mt-4 w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded">
+        Back to Home
+      </button>
+    </div>
+  </div>
+
+  <!-- Daily Challenge Failed Modal -->
+  <div id="challenge-failed-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center">
+      <h3 id="challenge-failed-title" class="text-xl font-bold text-red-600">Challenge Failed!</h3>
+      <p id="challenge-failed-text" class="text-gray-800">Better luck tomorrow!</p>
+      <p class="text-gray-600 text-sm">The daily challenge resets in <span id="challenge-reset-time">23:59:59</span></p>
+      <button id="challenge-failed-back"
+              class="mt-4 w-full bg-gray-300 hover:bg-gray-400 text-gray-900 py-2 rounded">
+        Back to Home
+      </button>
+    </div>
+  </div>
+
+    <!-- Shop Screen -->
+  <div id="shop-screen" class="screen hidden w-full max-w-4xl space-y-6">
+    <h2 id="shop-title" class="text-2xl font-bold text-center text-golden-yellow">Shop</h2>
+    
+    <!-- Currency Section -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Real Money Purchases -->
+      <div class="bg-gray-800 rounded-lg p-4">
+        <div class="space-y-3">
+          <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
+            <div>
+              <span class="text-white">⭐ 100 Stars</span>
+            </div>
+            <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">$0.99</button>
+          </div>
+          <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
+            <div>
+              <span class="text-white">⭐ 500 Stars</span>
+            </div>
+            <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">$3.99</button>
+          </div>
+          <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
+            <div>
+              <span class="text-white">💎 50 Diamonds</span>
+            </div>
+            <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">$4.99</button>
+          </div>
+          <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
+            <div>
+              <span class="text-white">💎 200 Diamonds</span>
+            </div>
+            <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">$14.99</button>
+          </div>
+          <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
+            <div>
+              <span class="text-white">🚫 Remove Ads Forever</span>
+              <div class="text-gray-400 text-sm">No more advertisements</div>
+            </div>
+            <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded" onclick="buyRemoveAds()">$9.99</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Diamond Purchases - Split Layout -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- 50/50 Power-ups -->
+        <div class="bg-blue-800 rounded-lg p-4">
+          <h3 class="text-xl font-bold mb-4 text-white">50/50 Power-ups</h3>
+          <div class="space-y-3">
+            <div class="flex justify-between items-center bg-blue-700 p-3 rounded">
+              <div>
+                <span class="text-white">5x 50/50</span>
+                <div class="text-blue-200 text-sm">Remove 2 wrong answers</div>
+              </div>
+              <button class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('fifty-fifty', 5, 10)">
+                💎 50
+              </button>
+            </div>
+            <div class="flex justify-between items-center bg-blue-700 p-3 rounded">
+              <div>
+                <span class="text-white">10x 50/50</span>
+                <div class="text-blue-200 text-sm">Remove 2 wrong answers</div>
+              </div>
+              <button class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('fifty-fifty', 10, 18)">
+                💎 90
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Skip Power-ups -->
+        <div class="bg-yellow-800 rounded-lg p-4">
+          <h3 class="text-xl font-bold mb-4 text-white">Skip Question Power-ups</h3>
+          <div class="space-y-3">
+            <div class="flex justify-between items-center bg-yellow-700 p-3 rounded">
+              <div>
+                <span class="text-white">5x Skip</span>
+                <div class="text-yellow-200 text-sm">Skip any question</div>
+              </div>
+              <button class="bg-yellow-600 hover:bg-yellow-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('skip', 5, 8)">
+                💎 50
+              </button>
+            </div>
+            <div class="flex justify-between items-center bg-yellow-700 p-3 rounded">
+              <div>
+                <span class="text-white">10x Skip</span>
+                <div class="text-yellow-200 text-sm">Skip any question</div>
+              </div>
+              <button class="bg-yellow-600 hover:bg-yellow-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('skip', 10, 15)">
+                💎 90
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Time Bonus Power-ups -->
+        <div class="bg-orange-800 rounded-lg p-4">
+          <h3 class="text-xl font-bold mb-4 text-white">Time Bonus Power-ups</h3>
+          <div class="space-y-3">
+            <div class="flex justify-between items-center bg-orange-700 p-3 rounded">
+              <div>
+                <span class="text-white">5x Time Bonus</span>
+                <div class="text-orange-200 text-sm">Add 15 extra seconds</div>
+              </div>
+              <button class="bg-orange-600 hover:bg-orange-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('time-bonus', 5, 12)">
+                💎 60
+              </button>
+            </div>
+            <div class="flex justify-between items-center bg-orange-700 p-3 rounded">
+              <div>
+                <span class="text-white">10x Time Bonus</span>
+                <div class="text-orange-200 text-sm">Add 15 extra seconds</div>
+              </div>
+              <button class="bg-orange-600 hover:bg-orange-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('time-bonus', 10, 22)">
+                💎 110
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Daily Rewards Section -->
+    <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg p-4">
+      <h3 class="text-xl font-bold mb-4 text-white">Daily Rewards</h3>
+      
+      <!-- Daily Diamond Claim -->
+      <div class="flex justify-between items-center bg-purple-700 bg-opacity-50 p-3 rounded mb-3">
+        <div>
+          <span class="text-white text-lg">💎 Daily 5 Diamonds</span>
+          <div class="text-purple-200 text-sm">Claim once per day</div>
+        </div>
+        <button id="daily-claim-btn" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded" onclick="claimDailyDiamonds()">
+          ✨ Claim 5 💎
+        </button>
+      </div>
+
+      <!-- Watch Ads for Diamonds -->
+      <div class="bg-purple-700 bg-opacity-50 p-3 rounded">
+        <div class="flex justify-between items-center mb-2">
+          <div>
+            <span class="text-white text-lg">📺 Watch Ads for Diamonds</span>
+            <div id="ad-watch-status" class="text-purple-200 text-sm">Watch up to 3 ads daily</div>
+          </div>
+          <button id="watch-ad-btn" class="bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded" onclick="watchAdForDiamonds()">
+            📺 Watch Ad
+          </button>
+        </div>
+        <div class="text-sm text-purple-200">
+          1st ad: 10 💎 • 2nd ad: 25 💎 • 3rd ad: 50 💎
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Power-up Purchase Modal -->
+  <div id="powerup-purchase-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center">
+      <h3 id="powerup-modal-title" class="text-xl font-bold text-blue-600">Power-Up Required</h3>
+      <p id="powerup-modal-text" class="text-gray-800">You're out of power-ups! Get more to continue.</p>
+      <div class="flex flex-col space-y-2">
+        <button id="powerup-modal-buy" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded">
+          💎 Buy with Diamonds
+        </button>
+        <button id="powerup-modal-ad" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-4 rounded">
+          📺 Watch Ad (Free)
+        </button>
+        <button id="powerup-modal-back" class="bg-gray-300 hover:bg-gray-400 text-gray-900 py-2 px-4 rounded">
+          Go Back
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Subject Purchase Popup -->
+  <div id="subject-popup-modal" class="hidden fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center" style="z-index: 9999;">
+    <div class="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+      <div class="flex justify-between items-center mb-4">
+        <h3 class="text-xl font-bold text-deep-navy">Locked Subject</h3>
+        <button id="subject-popup-close" class="text-gray-500 hover:text-gray-700 text-xl font-bold">×</button>
+      </div>
+      
+      <div class="text-center mb-6">
+        <div id="subject-popup-icon" class="text-4xl mb-2">🔒</div>
+        <h4 id="subject-popup-name" class="text-lg font-semibold mb-2">Subject Name</h4>
+        <p id="subject-popup-description" class="text-gray-600 text-sm mb-4">Subject description will appear here.</p>
+      </div>
+      
+      <!-- Purchase Options -->
+      <div class="space-y-3 mb-6">
+        <button id="subject-buy-stars" class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-4 rounded-lg flex items-center justify-center space-x-2">
+          <span id="subject-stars-cost">40</span>
+          <span>⭐</span>
+          <span>Buy with Stars</span>
+        </button>
+        
+        <button id="subject-buy-gems" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-4 rounded-lg flex items-center justify-center space-x-2">
+          <span id="subject-gems-cost">5</span>
+          <span>💎</span>
+          <span>Buy with Gems</span>
+        </button>
+      </div>
+      
+      <div class="flex justify-center">
+        <button id="subject-popup-back" class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-6 rounded">
+          Back
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Screen -->
+  <div id="settings-screen" class="screen hidden w-full max-w-md space-y-4 p-4">
+    <h2 class="text-xl font-bold">Settings</h2>
+    <div class="flex items-center space-x-2 mb-4">
+      <label for="sfx-volume-slider" class="font-medium">SFX Volume:</label>
+      <input
+        id="sfx-volume-slider"
+        type="range"
+        min="0"
+        max="1"
+        step="0.01"
+        value="0.5"
+        class="flex-1"
+      />
+    </div>
+    <div class="flex items-center space-x-2 mb-4">
+      <label for="music-volume-slider" class="font-medium">Music Volume:</label>
+      <input
+        id="music-volume-slider"
+        type="range"
+        min="0"
+        max="1"
+        step="0.01"
+        value="0.3"
+        class="flex-1"
+      />
+    </div>
+    <label for="language-select" class="block mb-1">Language:</label>
+      <select id="language-select" class="w-full border p-2 rounded mb-4">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="de">Deutsch</option>
+        <option value="nl">Nederlands</option>
+      </select>
+    
+    <div class="flex items-center space-x-2 mb-4">
+      <input type="checkbox" id="explanations-toggle" class="w-4 h-4" checked>
+      <label for="explanations-toggle" class="font-medium">Show answer explanations</label>
+    </div>
+    
+    <div class="border-t pt-4">
+      <h3 class="text-lg font-semibold mb-3">Tutorial</h3>
+      <button id="restart-tutorial-btn" class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 px-4 rounded transition-colors duration-200">
+        🎓 Restart Tutorial
+      </button>
+      <p class="text-sm text-gray-400 mt-2 text-center">Restart the interactive tutorial to learn the game again</p>
+    </div>
+  </div>
+
+  <!-- Challenge Modes Screen -->
+  <div id="challenge-modes-screen" class="screen hidden w-full max-w-4xl space-y-6">
+    <h2 class="text-2xl font-bold text-center text-orange-600">Game Modes</h2>
+    
+    <div id="challenge-modes-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- True/False Mode -->
+      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-blue-200">
+        <div class="text-center mb-4">
+          <img src="images/icons/true or false .png" alt="True/False Quiz" class="w-48 h-48 mx-auto mb-2 object-contain">
+          <p class="text-sm text-gray-600">Quick binary choice questions</p>
+        </div>
+        <div class="space-y-2 text-sm">
+          <div class="flex justify-between">
+            <span>Questions:</span>
+            <span class="font-semibold">15</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Time per question:</span>
+            <span class="font-semibold">10 seconds</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Reward:</span>
+            <span class="font-semibold">30-60 stars</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Best Score:</span>
+            <span id="tf-best-score" class="font-semibold">-</span>
+          </div>
+        </div>
+        <button id="tf-play-btn" class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded">
+          Play Now
+        </button>
+      </div>
+
+      <!-- Lightning Round -->
+      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-yellow-200">
+        <div class="text-center mb-4">
+          <img src="images/icons/lightning round .png" alt="Lightning Round" class="w-48 h-48 mx-auto mb-2 object-contain">
+          <p class="text-sm text-gray-600">60 seconds of rapid-fire questions</p>
+        </div>
+        <div class="space-y-2 text-sm">
+          <div class="flex justify-between">
+            <span>Duration:</span>
+            <span class="font-semibold">60 seconds</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Time per question:</span>
+            <span class="font-semibold">5 seconds</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Cooldown:</span>
+            <span class="font-semibold">2 hours</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Best Score:</span>
+            <span id="lr-best-score" class="font-semibold">-</span>
+          </div>
+        </div>
+        <div id="lr-status" class="mt-4">
+          <button id="lr-play-btn" class="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 rounded">
+            Play Now
+          </button>
+          <div id="lr-cooldown" class="hidden text-center mt-2">
+            <div class="text-sm text-gray-600">Available in: <span id="lr-timer" class="font-semibold"></span></div>
+            <div class="flex space-x-2 mt-2">
+              <button id="lr-watch-ad" class="flex-1 bg-green-600 hover:bg-green-700 text-white text-xs py-1 rounded">
+                Watch Ad (-2h)
+              </button>
+              <button id="lr-buy-gems" class="flex-1 bg-purple-600 hover:bg-purple-700 text-white text-xs py-1 rounded">
+                10💎 Reset
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Survivor Mode -->
+      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-green-200">
+        <div class="text-center mb-4">
+          <img src="images/icons/survival mode.png" alt="Survivor Mode" class="w-48 h-48 mx-auto mb-2 object-contain">
+          <p class="text-sm text-gray-600">Progressive difficulty with 3 lives</p>
+        </div>
+        <div class="space-y-2 text-sm">
+          <div class="flex justify-between">
+            <span>Lives:</span>
+            <span class="font-semibold">3</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Time per question:</span>
+            <span class="font-semibold">12 seconds</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Cooldown:</span>
+            <span class="font-semibold">4 hours</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Best Tier:</span>
+            <span id="sm-best-tier" class="font-semibold">-</span>
+          </div>
+        </div>
+        <div id="sm-status" class="mt-4">
+          <button id="sm-play-btn" class="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-2 rounded">
+            Play Now
+          </button>
+          <div id="sm-cooldown" class="hidden text-center mt-2">
+            <div class="text-sm text-gray-600">Available in: <span id="sm-timer" class="font-semibold"></span></div>
+            <div class="flex space-x-2 mt-2">
+              <button id="sm-watch-ad" class="flex-1 bg-green-600 hover:bg-green-700 text-white text-xs py-1 rounded">
+                Watch Ad (-2h)
+              </button>
+              <button id="sm-buy-gems" class="flex-1 bg-purple-600 hover:bg-purple-700 text-white text-xs py-1 rounded">
+                20💎 Reset
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Extreme Survival Mode -->
+      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-red-200">
+        <div class="text-center mb-4">
+          <img src="images/icons/extreme survival 2.png" alt="Extreme Survival" class="w-48 h-48 mx-auto mb-2 object-contain">
+          <p class="text-sm text-gray-600">One life, faster progression</p>
+        </div>
+        <div class="space-y-2 text-sm">
+          <div class="flex justify-between">
+            <span>Lives:</span>
+            <span class="font-semibold">1</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Time per question:</span>
+            <span class="font-semibold">8 seconds</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Cooldown:</span>
+            <span class="font-semibold">6 hours</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Best Tier:</span>
+            <span id="esm-best-tier" class="font-semibold">-</span>
+          </div>
+        </div>
+        <div id="esm-status" class="mt-4">
+          <button id="esm-play-btn" class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 rounded">
+            Play Now
+          </button>
+          <div id="esm-cooldown" class="hidden text-center mt-2">
+            <div class="text-sm text-gray-600">Available in: <span id="esm-timer" class="font-semibold"></span></div>
+            <div class="flex space-x-2 mt-2">
+              <button id="esm-watch-ad" class="flex-1 bg-green-600 hover:bg-green-700 text-white text-xs py-1 rounded">
+                Watch Ad (-2h)
+              </button>
+              <button id="esm-buy-gems" class="flex-1 bg-purple-600 hover:bg-purple-700 text-white text-xs py-1 rounded">
+                30💎 Reset
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- True/False Quiz Screen -->
+  <div id="true-false-screen" class="screen hidden w-full max-w-xl space-y-6">
+    <div class="text-center mb-4">
+      <h2 class="text-2xl font-bold text-blue-700">🎯 True/False Quiz</h2>
+      <div class="flex justify-center items-center space-x-4 mt-2">
+        <span id="tf-timer" class="text-xl font-bold text-red-600 bg-white px-3 py-1 rounded-full shadow">10s</span>
+        <span id="tf-progress" class="text-lg font-semibold text-gray-700">1/15</span>
+      </div>
+    </div>
+    
+    <div id="tf-question-card" class="bg-white rounded-lg shadow-lg p-6">
+      <h3 id="tf-question-text" class="text-lg font-semibold mb-4 text-center"></h3>
+      <div id="tf-answers" class="flex space-x-4">
+        <button id="tf-true-btn" class="flex-1 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded text-lg">
+          ✓ TRUE
+        </button>
+        <button id="tf-false-btn" class="flex-1 bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded text-lg">
+          ✗ FALSE
+        </button>
+      </div>
+    </div>
+    
+    <div class="text-center">
+      <div id="tf-score" class="text-lg font-semibold text-gray-700">Score: 0/15</div>
+    </div>
+  </div>
+
+  <!-- Lightning Round Screen -->
+  <div id="lightning-round-screen" class="screen hidden w-full max-w-xl space-y-6">
+    <div class="text-center mb-4">
+      <h2 class="text-2xl font-bold text-yellow-700">⚡ Lightning Round</h2>
+      <div class="flex justify-center items-center space-x-4 mt-2">
+        <span id="lr-timer-display" class="text-xl font-bold text-red-600 bg-white px-3 py-1 rounded-full shadow">60s</span>
+        <span id="lr-score-display" class="text-lg font-semibold text-gray-700">Score: 0</span>
+        <span id="lr-combo" class="text-sm font-semibold text-yellow-600 bg-yellow-100 px-2 py-1 rounded">x1</span>
+      </div>
+    </div>
+    
+    <div id="lr-question-card" class="bg-white rounded-lg shadow-lg p-6">
+      <h3 id="lr-question-text" class="text-lg font-semibold mb-4 text-center"></h3>
+      <div id="lr-answers" class="space-y-3">
+        <!-- Answer buttons will be generated here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Survivor Mode Screen -->
+  <div id="survivor-screen" class="screen hidden w-full max-w-xl space-y-6">
+    <div class="text-center mb-4">
+      <h2 class="text-2xl font-bold text-green-700">🏆 Survivor Mode</h2>
+      <div class="flex justify-center items-center space-x-4 mt-2">
+        <span id="sm-timer-display" class="text-xl font-bold text-red-600 bg-white px-3 py-1 rounded-full shadow">12s</span>
+        <div id="sm-lives" class="flex space-x-1">
+          <span class="text-red-500 text-xl">❤️</span>
+          <span class="text-red-500 text-xl">❤️</span>
+          <span class="text-red-500 text-xl">❤️</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Progress Bar -->
+    <div class="bg-white rounded-lg shadow-lg p-4">
+      <div class="text-center mb-2">
+        <span id="sm-current-tier" class="text-lg font-bold text-green-700">Warm-Up Tier</span>
+      </div>
+      <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
+        <div id="sm-progress-bar" class="bg-green-600 h-3 rounded-full transition-all duration-300" style="width: 0%"></div>
+      </div>
+      <div class="text-center text-sm text-gray-600">
+        <span id="sm-progress-text">0/3 questions to next tier</span>
+      </div>
+    </div>
+    
+    <div id="sm-question-card" class="bg-white rounded-lg shadow-lg p-6">
+      <h3 id="sm-question-text" class="text-lg font-semibold mb-4 text-center"></h3>
+      <div id="sm-answers" class="space-y-3">
+        <!-- Answer buttons will be generated here -->
+      </div>
+    </div>
+    
+    <div class="text-center">
+      <div id="sm-score-display" class="text-lg font-semibold text-gray-700">Score: 0 stars</div>
+    </div>
+  </div>
+
+  <!-- Extreme Survivor Mode Screen -->
+  <div id="extreme-survivor-screen" class="screen hidden w-full max-w-xl space-y-6">
+    <div class="text-center mb-4">
+      <h2 class="text-2xl font-bold text-red-700">💀 Extreme Survival</h2>
+      <div class="flex justify-center items-center space-x-4 mt-2">
+        <span id="esm-timer-display" class="text-xl font-bold text-red-600 bg-white px-3 py-1 rounded-full shadow">8s</span>
+        <div id="esm-lives" class="flex space-x-1">
+          <span class="text-red-500 text-xl">💀</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Progress Bar -->
+    <div class="bg-white rounded-lg shadow-lg p-4">
+      <div class="text-center mb-2">
+        <span id="esm-current-tier" class="text-lg font-bold text-red-700">Brain Teaser Tier</span>
+      </div>
+      <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
+        <div id="esm-progress-bar" class="bg-red-600 h-3 rounded-full transition-all duration-300" style="width: 0%"></div>
+      </div>
+      <div class="text-center text-sm text-gray-600">
+        <span id="esm-progress-text">0/2 questions to next tier</span>
+      </div>
+    </div>
+    
+    <div id="esm-question-card" class="bg-white rounded-lg shadow-lg p-6">
+      <h3 id="esm-question-text" class="text-lg font-semibold mb-4 text-center"></h3>
+      <div id="esm-answers" class="space-y-3">
+        <!-- Answer buttons will be generated here -->
+      </div>
+    </div>
+    
+    <div class="text-center">
+      <div id="esm-score-display" class="text-lg font-semibold text-gray-700">Score: 0 stars</div>
+    </div>
+  </div>
+
+  </div> <!-- End Main Content Area -->
+
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Load main questions file first to set up infrastructure -->
+  <script src="JS/questions.js"></script>
+  
+  <!-- Load Warm-up Tier: Animals subject levels -->
+  <script src="JS/subjects/warm-up/animals/level1.js"></script>
+  <script src="JS/subjects/warm-up/animals/level2.js"></script>
+  <script src="JS/subjects/warm-up/animals/level3.js"></script>
+  <script src="JS/subjects/warm-up/animals/level4.js"></script>
+  <script src="JS/subjects/warm-up/animals/level5.js"></script>
+  <script src="JS/subjects/warm-up/animals/level6.js"></script>
+  <script src="JS/subjects/warm-up/animals/level7.js"></script>
+  <script src="JS/subjects/warm-up/animals/level8.js"></script>
+  <script src="JS/subjects/warm-up/animals/level9.js"></script>
+  <script src="JS/subjects/warm-up/animals/level10.js"></script>
+  
+  <!-- Load Warm-up Tier: Ocean Mysteries subject levels -->
+  <script src="JS/subjects/warm-up/ocean-mysteries/level1.js"></script>
+  <script src="JS/subjects/warm-up/ocean-mysteries/level2.js"></script>
+  <script src="JS/subjects/warm-up/ocean-mysteries/level3.js"></script>
+  <script src="JS/subjects/warm-up/ocean-mysteries/level4.js"></script>
+  <script src="JS/subjects/warm-up/ocean-mysteries/level5.js"></script>
+  <script src="JS/subjects/warm-up/ocean-mysteries/level6.js"></script>
+  <script src="JS/subjects/warm-up/ocean-mysteries/level7.js"></script>
+  <script src="JS/subjects/warm-up/ocean-mysteries/level8.js"></script>
+  <script src="JS/subjects/warm-up/ocean-mysteries/level9.js"></script>
+  <script src="JS/subjects/warm-up/ocean-mysteries/level10.js"></script>
+  
+  <!-- Load Warm-up Tier: Arts & Culture subject levels -->
+  <script src="JS/subjects/warm-up/arts-culture/level1.js"></script>
+  <script src="JS/subjects/warm-up/arts-culture/level2.js"></script>
+  <script src="JS/subjects/warm-up/arts-culture/level3.js"></script>
+  <script src="JS/subjects/warm-up/arts-culture/level4.js"></script>
+  <script src="JS/subjects/warm-up/arts-culture/level5.js"></script>
+  <script src="JS/subjects/warm-up/arts-culture/level6.js"></script>
+  <script src="JS/subjects/warm-up/arts-culture/level7.js"></script>
+  <script src="JS/subjects/warm-up/arts-culture/level8.js"></script>
+  <script src="JS/subjects/warm-up/arts-culture/level9.js"></script>
+  <script src="JS/subjects/warm-up/arts-culture/level10.js"></script>
+  
+  <!-- Load Warm-up Tier: Dinosaurs subject levels -->
+  <script src="JS/subjects/warm-up/dinosaurs/level1.js"></script>
+  <script src="JS/subjects/warm-up/dinosaurs/level2.js"></script>
+  <script src="JS/subjects/warm-up/dinosaurs/level3.js"></script>
+  <script src="JS/subjects/warm-up/dinosaurs/level4.js"></script>
+  <script src="JS/subjects/warm-up/dinosaurs/level5.js"></script>
+  <script src="JS/subjects/warm-up/dinosaurs/level6.js"></script>
+  <script src="JS/subjects/warm-up/dinosaurs/level7.js"></script>
+  <script src="JS/subjects/warm-up/dinosaurs/level8.js"></script>
+  <script src="JS/subjects/warm-up/dinosaurs/level9.js"></script>
+  <script src="JS/subjects/warm-up/dinosaurs/level10.js"></script>
+  
+  <!-- Load Warm-up Tier: History subject levels -->
+  <script src="JS/subjects/warm-up/history/level1.js"></script>
+  <script src="JS/subjects/warm-up/history/level2.js"></script>
+  <script src="JS/subjects/warm-up/history/level3.js"></script>
+  <script src="JS/subjects/warm-up/history/level4.js"></script>
+  <script src="JS/subjects/warm-up/history/level5.js"></script>
+  <script src="JS/subjects/warm-up/history/level6.js"></script>
+  <script src="JS/subjects/warm-up/history/level7.js"></script>
+  <script src="JS/subjects/warm-up/history/level8.js"></script>
+  <script src="JS/subjects/warm-up/history/level9.js"></script>
+  <script src="JS/subjects/warm-up/history/level10.js"></script>
+  
+  <!-- Load Warm-up Tier: Science subject levels -->
+  <script src="JS/subjects/warm-up/science/level1.js"></script>
+  <script src="JS/subjects/warm-up/science/level2.js"></script>
+  <script src="JS/subjects/warm-up/science/level3.js"></script>
+  <script src="JS/subjects/warm-up/science/level4.js"></script>
+  <script src="JS/subjects/warm-up/science/level5.js"></script>
+  <script src="JS/subjects/warm-up/science/level6.js"></script>
+  <script src="JS/subjects/warm-up/science/level7.js"></script>
+  <script src="JS/subjects/warm-up/science/level8.js"></script>
+  <script src="JS/subjects/warm-up/science/level9.js"></script>
+  <script src="JS/subjects/warm-up/science/level10.js"></script>
+  
+  <!-- Load Warm-up Tier: Space Astronomy subject levels -->
+  <script src="JS/subjects/warm-up/space-astronomy/level1.js"></script>
+  <script src="JS/subjects/warm-up/space-astronomy/level2.js"></script>
+  <script src="JS/subjects/warm-up/space-astronomy/level3.js"></script>
+  <script src="JS/subjects/warm-up/space-astronomy/level4.js"></script>
+  <script src="JS/subjects/warm-up/space-astronomy/level5.js"></script>
+  <script src="JS/subjects/warm-up/space-astronomy/level6.js"></script>
+  <script src="JS/subjects/warm-up/space-astronomy/level7.js"></script>
+  <script src="JS/subjects/warm-up/space-astronomy/level8.js"></script>
+  <script src="JS/subjects/warm-up/space-astronomy/level9.js"></script>
+  <script src="JS/subjects/warm-up/space-astronomy/level10.js"></script>
+  
+  <!-- Load Warm-up Tier: Sports subject levels -->
+  <script src="JS/subjects/warm-up/sports/level1.js"></script>
+  <script src="JS/subjects/warm-up/sports/level2.js"></script>
+  <script src="JS/subjects/warm-up/sports/level3.js"></script>
+  <script src="JS/subjects/warm-up/sports/level4.js"></script>
+  <script src="JS/subjects/warm-up/sports/level5.js"></script>
+  <script src="JS/subjects/warm-up/sports/level6.js"></script>
+  <script src="JS/subjects/warm-up/sports/level7.js"></script>
+  <script src="JS/subjects/warm-up/sports/level8.js"></script>
+  <script src="JS/subjects/warm-up/sports/level9.js"></script>
+  <script src="JS/subjects/warm-up/sports/level10.js"></script>
+  
+  <!-- Load Warm-up Tier: Technology subject levels -->
+  <script src="JS/subjects/warm-up/technology/level1.js"></script>
+  <script src="JS/subjects/warm-up/technology/level2.js"></script>
+  <script src="JS/subjects/warm-up/technology/level3.js"></script>
+  <script src="JS/subjects/warm-up/technology/level4.js"></script>
+  <script src="JS/subjects/warm-up/technology/level5.js"></script>
+  <script src="JS/subjects/warm-up/technology/level6.js"></script>
+  <script src="JS/subjects/warm-up/technology/level7.js"></script>
+  <script src="JS/subjects/warm-up/technology/level8.js"></script>
+  <script src="JS/subjects/warm-up/technology/level9.js"></script>
+  <script src="JS/subjects/warm-up/technology/level10.js"></script>
+  
+  <!-- Load Warm-up Tier: World Geography subject levels -->
+  <script src="JS/subjects/warm-up/world-geography/level1.js"></script>
+  <script src="JS/subjects/warm-up/world-geography/level2.js"></script>
+  <script src="JS/subjects/warm-up/world-geography/level3.js"></script>
+  <script src="JS/subjects/warm-up/world-geography/level4.js"></script>
+  <script src="JS/subjects/warm-up/world-geography/level5.js"></script>
+  <script src="JS/subjects/warm-up/world-geography/level6.js"></script>
+  <script src="JS/subjects/warm-up/world-geography/level7.js"></script>
+  <script src="JS/subjects/warm-up/world-geography/level8.js"></script>
+  <script src="JS/subjects/warm-up/world-geography/level9.js"></script>
+  <script src="JS/subjects/warm-up/world-geography/level10.js"></script>
+  
+  <!-- Load daily challenges system -->
+  <script src="JS/daily-challenges.js"></script>
+  
+  <!-- Load challenge mode questions and logic -->
+  <script src="JS/challenge-questions/true-false-pool.js"></script>
+  <script src="JS/challenge-questions/lightning-pool.js"></script>
+  <script src="JS/challenge-questions/survivor-questions.js"></script>
+  
+  <!-- Load challenge mode game logic -->
+  <script src="JS/game-modes/cooldown-manager.js"></script>
+  <script src="JS/game-modes/true-false-mode.js"></script>
+  <script src="JS/game-modes/lightning-round.js"></script>
+  <script src="JS/game-modes/survivor-mode.js"></script>
+  <script src="JS/game-modes/extreme-survivor.js"></script>
+  
+  <!-- Finally load game logic -->
+  <script src="JS/ui.js"></script>
+  <script src="JS/game.js"></script>
+  <script src="JS/tutorial.js"></script>
+</body>
+</html>
