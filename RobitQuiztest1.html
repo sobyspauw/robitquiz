@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>RobitQuiz</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#02B7CE">
   <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
@@ -510,12 +512,21 @@
       <label for="explanations-toggle" class="font-medium">Show answer explanations</label>
     </div>
     
-    <div class="border-t pt-4">
-      <h3 class="text-lg font-semibold mb-3">Tutorial</h3>
-      <button id="restart-tutorial-btn" class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 px-4 rounded transition-colors duration-200">
-        🎓 Restart Tutorial
+    <!-- Tutorial Section with improved styling -->
+    <div class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg p-4 border border-yellow-200 mt-6">
+      <div class="flex items-center mb-3">
+        <span class="text-2xl mr-2">🎓</span>
+        <h3 class="text-lg font-bold text-gray-800">Tutorial</h3>
+      </div>
+      <p class="text-sm text-gray-600 mb-3">Need a refresher on how to play? Restart the interactive tutorial anytime.</p>
+      <button id="restart-tutorial-btn" class="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white font-bold py-2.5 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02]">
+        <span class="flex items-center justify-center">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+          </svg>
+          Restart Tutorial
+        </span>
       </button>
-      <p class="text-sm text-gray-400 mt-2 text-center">Restart the interactive tutorial to learn the game again</p>
     </div>
   </div>
 
@@ -951,5 +962,16 @@
   <script src="JS/ui.js"></script>
   <script src="JS/game.js"></script>
   <script src="JS/tutorial.js"></script>
+  
+  <!-- Register Service Worker for PWA -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(reg => console.log('Service Worker registered'))
+          .catch(err => console.log('Service Worker registration failed'));
+      });
+    }
+  </script>
 </body>
 </html>

@@ -1,0 +1,11 @@
+{
+  "name": "robitquiz",
+  "version": "1.0.0",
+  "description": "RobitQuiz - Educational Quiz Game",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo Build complete"
+  },
+  "author": "sobyspauw",
+  "license": "MIT"
+}
