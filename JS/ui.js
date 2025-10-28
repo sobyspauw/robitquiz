@@ -130,6 +130,12 @@ const translations = {
     de: "Du hattest {n} richtige Antworten!",
     nl: "Je had {n} juiste antwoorden!"
   },
+  levelCompleted: {
+    en: "Level {level} Completed!",
+    es: "¡Nivel {level} Completado!",
+    de: "Level {level} Abgeschlossen!",
+    nl: "Level {level} Voltooid!"
+  },
   coinsEarned: {
     en: "+{n} stars earned!",
     es: "¡+{n} monedas ganadas!",
@@ -201,6 +207,174 @@ const translations = {
     es: "Inténtalo mañana",
     de: "Versuche es morgen",
     nl: "Probeer morgen opnieuw"
+  },
+  sfxVolume: {
+    en: "SFX Volume:",
+    es: "Volumen de efectos:",
+    de: "Effektlautstärke:",
+    nl: "SFX Volume:"
+  },
+  musicVolume: {
+    en: "Music Volume:",
+    es: "Volumen de música:",
+    de: "Musiklautstärke:",
+    nl: "Muziek Volume:"
+  },
+  language: {
+    en: "Language:",
+    es: "Idioma:",
+    de: "Sprache:",
+    nl: "Taal:"
+  },
+  showExplanations: {
+    en: "Show answer explanations",
+    es: "Mostrar explicaciones de respuestas",
+    de: "Antworten Erklärungen anzeigen",
+    nl: "Toon antwoord uitleg"
+  },
+  darkMode: {
+    en: "Dark Mode",
+    es: "Modo Oscuro",
+    de: "Dunkelmodus",
+    nl: "Donkere Modus"
+  },
+  lightMode: {
+    en: "Light Mode",
+    es: "Modo Claro",
+    de: "Hellmodus",
+    nl: "Lichte Modus"
+  },
+  tutorial: {
+    en: "Tutorial",
+    es: "Tutorial",
+    de: "Tutorial",
+    nl: "Handleiding"
+  },
+  tutorialDescription: {
+    en: "Need a refresher on how to play? Restart the interactive tutorial anytime.",
+    es: "¿Necesitas un repaso sobre cómo jugar? Reinicia el tutorial interactivo en cualquier momento.",
+    de: "Brauchst du eine Auffrischung? Starte das interaktive Tutorial jederzeit neu.",
+    nl: "Wil je een opfrissing? Herstart de interactieve handleiding wanneer je wilt."
+  },
+  restartTutorial: {
+    en: "Restart Tutorial",
+    es: "Reiniciar Tutorial",
+    de: "Tutorial neu starten",
+    nl: "Herstart Handleiding"
+  },
+  shop: {
+    en: "Shop",
+    es: "Tienda",
+    de: "Laden",
+    nl: "Winkel"
+  },
+  fiftyFiftyPowerups: {
+    en: "50/50 Power-ups",
+    es: "Power-ups 50/50",
+    de: "50/50 Power-ups",
+    nl: "50/50 Hulpmiddelen"
+  },
+  skipPowerups: {
+    en: "Skip Question Power-ups",
+    es: "Power-ups para Saltar Preguntas",
+    de: "Frage Überspringen Power-ups",
+    nl: "Vraag Overslaan Hulpmiddelen"
+  },
+  timeBonusPowerups: {
+    en: "Time Bonus Power-ups",
+    es: "Power-ups de Bono de Tiempo",
+    de: "Zeitbonus Power-ups",
+    nl: "Tijd Bonus Hulpmiddelen"
+  },
+  removeWrongAnswers: {
+    en: "Remove 2 wrong answers",
+    es: "Eliminar 2 respuestas incorrectas",
+    de: "2 falsche Antworten entfernen",
+    nl: "Verwijder 2 foute antwoorden"
+  },
+  skipAnyQuestion: {
+    en: "Skip any question",
+    es: "Saltar cualquier pregunta",
+    de: "Beliebige Frage überspringen",
+    nl: "Sla elke vraag over"
+  },
+  addExtraSeconds: {
+    en: "Add 15 extra seconds",
+    es: "Añadir 15 segundos extra",
+    de: "15 zusätzliche Sekunden hinzufügen",
+    nl: "Voeg 15 extra seconden toe"
+  },
+  removeAdsForever: {
+    en: "Remove Ads Forever",
+    es: "Eliminar Anuncios Para Siempre",
+    de: "Werbung für immer entfernen",
+    nl: "Verwijder advertenties voor altijd"
+  },
+  noMoreAds: {
+    en: "No more advertisements",
+    es: "No más anuncios",
+    de: "Keine Werbung mehr",
+    nl: "Geen advertenties meer"
+  },
+  dailyRewards: {
+    en: "Daily Rewards",
+    es: "Recompensas Diarias",
+    de: "Tägliche Belohnungen",
+    nl: "Dagelijkse Beloningen"
+  },
+  dailyDiamonds: {
+    en: "Daily 5 Diamonds",
+    es: "5 Diamantes Diarios",
+    de: "Täglich 5 Diamanten",
+    nl: "Dagelijks 5 Diamanten"
+  },
+  claimOncePerDay: {
+    en: "Claim once per day",
+    es: "Reclamar una vez al día",
+    de: "Einmal pro Tag einlösen",
+    nl: "Claim eens per dag"
+  },
+  claimDiamonds: {
+    en: "✨ Claim 5 💎",
+    es: "✨ Reclamar 5 💎",
+    de: "✨ 5 💎 einlösen",
+    nl: "✨ Claim 5 💎"
+  },
+  watchAdsForDiamonds: {
+    en: "Watch Ads for Diamonds",
+    es: "Ver Anuncios por Diamantes",
+    de: "Werbung für Diamanten ansehen",
+    nl: "Bekijk advertenties voor diamanten"
+  },
+  watchUpTo3Ads: {
+    en: "Watch up to 3 ads daily",
+    es: "Ver hasta 3 anuncios al día",
+    de: "Bis zu 3 Anzeigen täglich ansehen",
+    nl: "Bekijk maximaal 3 advertenties per dag"
+  },
+  watchAd: {
+    en: "📺 Watch Ad",
+    es: "📺 Ver Anuncio",
+    de: "📺 Werbung ansehen",
+    nl: "📺 Bekijk advertentie"
+  },
+  adRewards: {
+    en: "1st ad: 10 💎 • 2nd ad: 25 💎 • 3rd ad: 50 💎",
+    es: "1er anuncio: 10 💎 • 2do anuncio: 25 💎 • 3er anuncio: 50 💎",
+    de: "1. Anzeige: 10 💎 • 2. Anzeige: 25 💎 • 3. Anzeige: 50 💎",
+    nl: "1e advertentie: 10 💎 • 2e advertentie: 25 💎 • 3e advertentie: 50 💎"
+  },
+  topics: {
+    en: "topics",
+    es: "temas",
+    de: "Themen",
+    nl: "onderwerpen"
+  },
+  unlock: {
+    en: "Unlock:",
+    es: "Desbloquear:",
+    de: "Freischalten:",
+    nl: "Ontgrendelen:"
   }
 };
 
@@ -491,12 +665,131 @@ function applyTranslations() {
   const challengeFailedTitle = document.getElementById('challenge-failed-title');
   const challengeFailedText = document.getElementById('challenge-failed-text');
   const challengeFailedBack = document.getElementById('challenge-failed-back');
-  
+
   if (challengeFailedTitle) challengeFailedTitle.innerText = t('challengeFailedTitle');
   if (challengeFailedText) challengeFailedText.innerText = t('challengeFailedText');
   if (challengeFailedBack) challengeFailedBack.innerText = t('backToLevels');
-  
+
+  // Settings screen translations
+  const settingsTitle = document.getElementById('settings-title');
+  const sfxVolumeLabel = document.getElementById('sfx-volume-label');
+  const musicVolumeLabel = document.getElementById('music-volume-label');
+  const languageLabel = document.getElementById('language-label');
+  const explanationsLabel = document.getElementById('explanations-label');
+  const themeLabel = document.getElementById('theme-label');
+  const tutorialTitle = document.getElementById('tutorial-title');
+  const tutorialDescription = document.getElementById('tutorial-description');
+  const restartTutorialBtn = document.getElementById('restart-tutorial-btn');
+
+  if (settingsTitle) settingsTitle.innerText = t('settings');
+  if (sfxVolumeLabel) sfxVolumeLabel.innerText = t('sfxVolume');
+  if (musicVolumeLabel) musicVolumeLabel.innerText = t('musicVolume');
+  if (languageLabel) languageLabel.innerText = t('language');
+  if (explanationsLabel) explanationsLabel.innerText = t('showExplanations');
+  if (tutorialTitle) tutorialTitle.innerText = t('tutorial');
+  if (tutorialDescription) tutorialDescription.innerText = t('tutorialDescription');
+
+  // Theme label changes based on current mode
+  if (themeLabel) {
+    const isDarkMode = document.getElementById('theme-toggle').checked;
+    themeLabel.innerText = isDarkMode ? t('darkMode') : t('lightMode');
+  }
+
+  // Restart tutorial button text (keep the SVG icon)
+  if (restartTutorialBtn) {
+    const svg = restartTutorialBtn.querySelector('svg');
+    if (svg) {
+      restartTutorialBtn.innerHTML = '';
+      const span = document.createElement('span');
+      span.className = 'flex items-center justify-center';
+      span.appendChild(svg);
+      span.appendChild(document.createTextNode(t('restartTutorial')));
+      restartTutorialBtn.appendChild(span);
+    } else {
+      restartTutorialBtn.innerText = t('restartTutorial');
+    }
+  }
+
+  // Update daily challenge button status text
+  if (typeof updateDailyChallengeButton === 'function') {
+    updateDailyChallengeButton();
+  }
+
+  // Update shop screen translations
+  updateShopTranslations();
+
   console.log('Translations applied successfully');
+}
+
+// Update shop screen translations
+function updateShopTranslations() {
+  // Shop title
+  const shopTitle = document.getElementById('shop-title');
+  if (shopTitle) shopTitle.innerText = t('shop');
+
+  // Power-up section titles - find by text content
+  const headers = document.querySelectorAll('#shop-screen h3');
+  headers.forEach(h3 => {
+    const text = h3.innerText.trim();
+    if (text.includes('50/50')) {
+      h3.innerText = t('fiftyFiftyPowerups');
+    } else if (text.includes('Skip')) {
+      h3.innerText = t('skipPowerups');
+    } else if (text.includes('Time')) {
+      h3.innerText = t('timeBonusPowerups');
+    } else if (text.includes('Daily Rewards') || text.includes('Dagelijkse Beloningen') || text.includes('Tägliche Belohnungen') || text.includes('Recompensas Diarias')) {
+      h3.innerText = t('dailyRewards');
+    }
+  });
+
+  // Power-up descriptions
+  const powerupDescriptions = document.querySelectorAll('#shop-screen .text-sm');
+  powerupDescriptions.forEach(desc => {
+    const text = desc.innerText.trim();
+    if (text.includes('Remove') || text.includes('Eliminar') || text.includes('entfernen') || text.includes('Verwijder')) {
+      desc.innerText = t('removeWrongAnswers');
+    } else if (text.includes('Skip') || text.includes('Saltar') || text.includes('überspringen') || text.includes('Sla')) {
+      desc.innerText = t('skipAnyQuestion');
+    } else if (text.includes('15') || text.includes('extra')) {
+      desc.innerText = t('addExtraSeconds');
+    } else if (text.includes('advertisement') || text.includes('anuncios') || text.includes('Werbung') || text.includes('advertenties')) {
+      desc.innerText = t('noMoreAds');
+    } else if (text.includes('once per day') || text.includes('una vez al día') || text.includes('Einmal pro Tag') || text.includes('eens per dag')) {
+      desc.innerText = t('claimOncePerDay');
+    } else if (text.includes('up to 3') || text.includes('hasta 3') || text.includes('Bis zu 3') || text.includes('maximaal 3')) {
+      desc.innerText = t('watchUpTo3Ads');
+    } else if (text.includes('1st ad') || text.includes('1er anuncio') || text.includes('1. Anzeige') || text.includes('1e advertentie')) {
+      desc.innerText = t('adRewards');
+    }
+  });
+
+  // Remove Ads Forever
+  const removeAdsSpan = Array.from(document.querySelectorAll('#shop-screen span')).find(span =>
+    span.innerText.includes('Remove Ads') || span.innerText.includes('Eliminar Anuncios') ||
+    span.innerText.includes('Werbung für immer') || span.innerText.includes('Verwijder advertenties')
+  );
+  if (removeAdsSpan) removeAdsSpan.innerText = '🚫 ' + t('removeAdsForever');
+
+  // Daily Diamonds
+  const dailyDiamondsSpan = Array.from(document.querySelectorAll('#shop-screen span')).find(span =>
+    span.innerText.includes('Daily 5 Diamonds') || span.innerText.includes('5 Diamantes Diarios') ||
+    span.innerText.includes('Täglich 5 Diamanten') || span.innerText.includes('Dagelijks 5 Diamanten')
+  );
+  if (dailyDiamondsSpan) dailyDiamondsSpan.innerText = '💎 ' + t('dailyDiamonds');
+
+  // Watch Ads for Diamonds
+  const watchAdsSpan = Array.from(document.querySelectorAll('#shop-screen span')).find(span =>
+    span.innerText.includes('Watch Ads for Diamonds') || span.innerText.includes('Ver Anuncios por Diamantes') ||
+    span.innerText.includes('Werbung für Diamanten') || span.innerText.includes('Bekijk advertenties voor diamanten')
+  );
+  if (watchAdsSpan) watchAdsSpan.innerText = '📺 ' + t('watchAdsForDiamonds');
+
+  // Buttons
+  const dailyClaimBtn = document.getElementById('daily-claim-btn');
+  if (dailyClaimBtn) dailyClaimBtn.innerText = t('claimDiamonds');
+
+  const watchAdBtn = document.getElementById('watch-ad-btn');
+  if (watchAdBtn) watchAdBtn.innerText = t('watchAd');
 }
 
 // These will be handled later in the file
@@ -511,6 +804,31 @@ function updateDiamondDisplay() {
   const diamondCountEl = document.getElementById('diamond-count');
   if (diamondCountEl) {
     diamondCountEl.innerText = diamonds;
+  }
+}
+
+// Apply theme (dark or light mode)
+function applyTheme(isDarkMode) {
+  const body = document.body;
+
+  if (isDarkMode) {
+    body.classList.remove('light-mode');
+  } else {
+    body.classList.add('light-mode');
+  }
+
+  // Update theme toggle UI with translations
+  const themeEmoji = document.getElementById('theme-emoji');
+  const themeLabel = document.getElementById('theme-label');
+
+  if (themeEmoji && themeLabel) {
+    if (isDarkMode) {
+      themeEmoji.innerText = '🌙';
+      themeLabel.innerText = t('darkMode');
+    } else {
+      themeEmoji.innerText = '☀️';
+      themeLabel.innerText = t('lightMode');
+    }
   }
 }
 
@@ -567,8 +885,18 @@ function updatePowerUpCounts() {
 
 // —— 5) Render a quiz question ——
 function renderQuestion() {
-  console.log('renderQuestion called - currentIndex:', currentIndex);
-  const q = questions[currentIndex];
+  console.log('renderQuestion called - questionNumber:', questionNumber, 'currentIndex:', currentIndex);
+
+  // Support both new system (window.currentQuestions) and old system (questions array)
+  const questionsArray = window.currentQuestions || questions;
+  const index = window.currentQuestions ? questionNumber : currentIndex;
+
+  const q = questionsArray[index];
+  if (!q) {
+    console.error('No question found at index:', index);
+    return;
+  }
+
   const lang = window.lang || 'en'; // Use same pattern as other functions
   document.getElementById('question').innerText = q.question[lang];
 
@@ -624,7 +952,10 @@ function useFiftyFifty() {
     return;
   }
 
-  const q = questions[currentIndex];
+  // Support both new system (window.currentQuestions) and old system (questions array)
+  const questionsArray = window.currentQuestions || questions;
+  const index = window.currentQuestions ? questionNumber : currentIndex;
+  const q = questionsArray[index];
   const lang = window.lang || 'en'; // Use same pattern as other functions
   
   if (!q || !q.options || (q.correctIndex === undefined && q.correct === undefined)) {
@@ -722,38 +1053,53 @@ function useSkip() {
   }
 
   skipCount--;
-  
+
   // Save to localStorage
   localStorage.setItem('qb_skip_count', skipCount.toString());
-  
+
   updatePowerUpCounts();
-  
+
   // Move to next question (same logic as regular skip)
   clearTimeout(timer);
   clearInterval(timerInterval);
-  currentIndex++;
-  
+
+  // Support both new system (window.currentQuestions) and old system (questions array)
+  const questionsArray = window.currentQuestions || questions;
+
+  if (window.currentQuestions) {
+    questionNumber++;
+  } else {
+    currentIndex++;
+  }
+  const index = window.currentQuestions ? questionNumber : currentIndex;
+
   // Check if user has achieved 10 correct answers or reached end of questions
-  if (correctCount >= 10 || currentIndex >= questions.length) {
+  if (correctCount >= 10 || index >= questionsArray.length) {
     // Level complete - calculate tier-based star rewards
     let starsEarned = 0;
     if (correctCount >= 10) {
-      // Get the subject tier to determine reward amount
-      const currentGroup = window.groups[selectedGroupIndex];
-      if (currentGroup && currentGroup.name) {
-        // Find the subject in subjectDefinitions to get tier info
-        const subjectKey = Object.keys(window.subjectDefinitions).find(key => {
-          const subject = window.subjectDefinitions[key];
-          return subject.name[window.lang || 'en'] === currentGroup.name[window.lang || 'en'];
-        });
-        
-        if (subjectKey && window.subjectDefinitions[subjectKey]) {
-          starsEarned = window.subjectDefinitions[subjectKey].levelReward || 10;
-        } else {
-          starsEarned = 10; // Fallback for warm-up subjects
-        }
+      // Check if this is the new subcategory system
+      if (window.currentQuizContext) {
+        // New system: fixed 10 stars per level
+        starsEarned = 10;
       } else {
-        starsEarned = 10; // Default fallback
+        // Old system: tier-based rewards
+        const currentGroup = window.groups[selectedGroupIndex];
+        if (currentGroup && currentGroup.name) {
+          // Find the subject in subjectDefinitions to get tier info
+          const subjectKey = Object.keys(window.subjectDefinitions).find(key => {
+            const subject = window.subjectDefinitions[key];
+            return subject.name[window.lang || 'en'] === currentGroup.name[window.lang || 'en'];
+          });
+
+          if (subjectKey && window.subjectDefinitions[subjectKey]) {
+            starsEarned = window.subjectDefinitions[subjectKey].levelReward || 10;
+          } else {
+            starsEarned = 10; // Fallback for warm-up subjects
+          }
+        } else {
+          starsEarned = 10; // Default fallback
+        }
       }
     }
     if (starsEarned > 0) {
@@ -761,7 +1107,17 @@ function useSkip() {
       localStorage.setItem('qb_stars', stars.toString());
       updateStarDisplay();
     }
-    showCompletePopup(correctCount, starsEarned);
+
+    // Update progress for new subcategory system
+    if (window.currentQuizContext && typeof window.updateSubcategoryProgress === 'function') {
+      const { mainTopicId, subcategoryId, level } = window.currentQuizContext;
+      window.updateSubcategoryProgress(mainTopicId, subcategoryId, level + 1);
+    }
+
+    // Check if this is level 10 completion (last level of a subcategory)
+    const isLevel10 = window.currentQuizContext && window.currentQuizContext.level === 10;
+    console.log('Level completion - isLevel10:', isLevel10, 'currentQuizContext:', window.currentQuizContext);
+    showCompletePopup(correctCount, starsEarned, isLevel10);
   } else {
     renderQuestion();
   }
@@ -920,10 +1276,8 @@ function startCooldownUpdater() {
   }
   
   cooldownUpdateInterval = setInterval(() => {
-    console.log('Cooldown timer tick - updating buttons');
     updateCooldownTimers();
   }, 1000);
-  console.log('Cooldown updater started with interval ID:', cooldownUpdateInterval);
 }
 
 function stopCooldownUpdater() {
@@ -934,38 +1288,18 @@ function stopCooldownUpdater() {
 }
 
 function updateCooldownTimers() {
-  console.log('updateCooldownTimers called - currentScreen:', window.currentScreen);
-  
   // Only update if we're on the levels screen
   if (window.currentScreen !== 'levels-screen') {
-    console.log('Not on levels screen, current screen:', window.currentScreen);
     return;
   }
-  
+
   const cooldownButtons = document.querySelectorAll('[data-is-on-cooldown="true"]');
-  console.log('Found', cooldownButtons.length, 'cooldown buttons to update');
-  
-  if (cooldownButtons.length === 0) {
-    // Also try alternative selector
-    const altButtons = document.querySelectorAll('.play-btn[data-is-on-cooldown="true"]');
-    console.log('Alternative selector found', altButtons.length, 'buttons');
-    
-    // Also check all play buttons
-    const allPlayButtons = document.querySelectorAll('.play-btn');
-    console.log('Total play buttons found:', allPlayButtons.length);
-    allPlayButtons.forEach((btn, i) => {
-      console.log(`Button ${i}:`, btn.dataset.isOnCooldown, btn.innerHTML.substring(0, 50));
-    });
-  }
-  
-  cooldownButtons.forEach((button, index) => {
+
+  cooldownButtons.forEach((button) => {
     const groupIndex = parseInt(button.dataset.groupIndex);
     const levelIndex = parseInt(button.dataset.levelIndex);
-    
-    console.log(`Updating button ${index}: group ${groupIndex}, level ${levelIndex}`);
-    
+
     const cooldownStatus = checkLevelCooldown(groupIndex, levelIndex);
-    console.log('Cooldown status:', cooldownStatus);
     
     if (cooldownStatus.canPlay) {
       // Cooldown expired - update button to playable state
@@ -1074,237 +1408,324 @@ function resumeTimer() {
 function showSubjects() {
   const grid = document.getElementById('subjects-grid');
   grid.innerHTML = '';
-  
-  // Get user stars and unlocked subjects
+
+  // NEW: Show main topics (AI, Egypt, Food, F1) instead of tier-based subjects
   const userStars = parseInt(localStorage.getItem('qb_stars') || '0');
-  const unlockedSubjects = JSON.parse(localStorage.getItem('qb_unlocked_tiers') || '["warm-up/animals"]'); // Animals always unlocked
+  const unlockedMainTopics = JSON.parse(localStorage.getItem('qb_unlocked_main_topics') || '["ai"]'); // AI always unlocked
   
-  // Define tier order (hardest to easiest for display)
-  const tierOrder = ['impossible-mode', 'mastermind', 'mind-bender', 'brain-teaser', 'warm-up'];
-  const tierColors = {
-    'impossible-mode': 'from-red-600 to-black',
-    'mastermind': 'from-purple-600 to-indigo-600',
-    'mind-bender': 'from-indigo-600 to-blue-600',
-    'brain-teaser': 'from-blue-600 to-teal-600',
-    'warm-up': 'from-green-600 to-blue-600'
-  };
-  
-  // Create subjects array from subjectDefinitions in tier order
-  const allSubjects = [];
-  let animalsSubject = null;
-  
-  tierOrder.forEach(tier => {
-    Object.keys(window.subjectDefinitions).forEach(subjectKey => {
-      const subject = window.subjectDefinitions[subjectKey];
-      if (subject.tier === tier) {
-        // Special handling: move animals to the very bottom
-        if (subjectKey === 'warm-up/animals') {
-          animalsSubject = {
-            key: subjectKey,
-            ...subject
-          };
-        } else {
-          allSubjects.push({
-            key: subjectKey,
-            ...subject
-          });
-        }
-      }
-    });
-  });
-  
-  // Add animals at the very end
-  if (animalsSubject) {
-    allSubjects.push(animalsSubject);
+  // Get all main topics from the new structure
+  const allMainTopics = Object.values(window.mainTopics || {});
+
+  if (allMainTopics.length === 0) {
+    grid.innerHTML = '<div class="text-center text-gray-600 p-8">No topics available yet. Please refresh the page.</div>';
+    showScreen('subjects-screen');
+    return;
   }
-  
-  allSubjects.forEach((subject, index) => {
-    const isUnlocked = unlockedSubjects.includes(subject.key);
-    const cost = subject.unlockCost;
-    
-    // Calculate progress (placeholder for now)
-    const completedLevels = 0; // TODO: Implement actual progress tracking
-    const totalLevels = 10;
-    const progressPercent = (completedLevels / totalLevels) * 100;
+
+  allMainTopics.forEach((topic) => {
+    const isUnlocked = unlockedMainTopics.includes(topic.id);
+    const cost = topic.unlockCost;
     
     const container = document.createElement('div');
     container.className = 'w-full mb-4';
-    
+
     const btn = document.createElement('button');
-    const tierColor = tierColors[subject.tier] || 'from-gray-600 to-gray-700';
+    // Color based on topic
+    const topicColors = {
+      'ai': 'from-purple-600 to-blue-600',
+      'egypt': 'from-yellow-600 to-orange-600',
+      'food': 'from-green-600 to-emerald-600',
+      'f1': 'from-red-600 to-pink-600',
+      'board-games': 'from-indigo-600 to-purple-600',
+      'books': 'from-amber-600 to-yellow-600',
+      'currencies': 'from-yellow-500 to-green-600',
+      'desserts': 'from-pink-500 to-rose-600',
+      'dinosaurs': 'from-green-700 to-teal-600',
+      'drinks': 'from-cyan-600 to-blue-500',
+      'famous-buildings': 'from-stone-600 to-gray-600',
+      'famous-people': 'from-orange-500 to-red-600'
+    };
+    const color = topicColors[topic.id] || 'from-gray-600 to-gray-700';
+
     btn.className = `w-full font-semibold py-6 px-6 rounded-xl shadow-lg text-white transition-all duration-300 relative ${
-      isUnlocked 
-        ? `bg-gradient-to-r ${tierColor} hover:opacity-90 cursor-pointer` 
+      isUnlocked
+        ? `bg-gradient-to-r ${color} hover:opacity-90 cursor-pointer`
         : 'bg-gray-600 cursor-not-allowed opacity-75'
     }`;
-    
-    // Tier badge - positioned at top right of the button with more spacing
-    const tierBadge = document.createElement('div');
-    tierBadge.className = 'absolute top-4 right-4 z-10';
-    tierBadge.innerHTML = `<span class="text-xs bg-black bg-opacity-30 px-2 py-1 rounded-full">${subject.tierIcon} ${subject.tierName[lang]}</span>`;
-    
-    // Main content container - now flex with image on left and status on right
+
+    // Main content container - flex with icon and name
     const mainContent = document.createElement('div');
-    mainContent.className = 'flex items-start space-x-4 mb-3';
-    
-    // Left side: Custom image (full button height)
-    const imageContainer = document.createElement('div');
-    imageContainer.className = 'flex-shrink-0';
-    
-    // Create image element instead of emoji icon - much taller but auto width
-    const img = document.createElement('img');
-    img.className = 'h-32 w-auto object-contain'; // Much taller: 128px height, auto width
-    
-    // Map subject name to image filename
-    const subjectImageMap = {
-      'animals': 'animals.png',
-      'dinosaurs': 'dinosaurs.png', 
-      'arts-culture': 'arts & culture.png',
-      'history': 'history.png',
-      'movies-entertainment': 'movies & entertainment.png',
-      'science': 'science.png',
-      'space-astronomy': 'space & astronomy.png',
-      'sports': 'sports.png',
-      'technology': 'technology.png',
-      'world-geography': 'world geography.png'
-    };
-    
-    // Get the subject key (e.g., "warm-up/animals" -> "animals")
-    const subjectKey = subject.key.split('/').pop();
-    const imageFileName = subjectImageMap[subjectKey] || 'default.png';
-    
-    img.src = `images/subjects/${imageFileName}`;
-    img.alt = subject.name[lang];
-    img.onerror = () => {
-      console.warn(`Image not found: ${img.src}, falling back to emoji`);
-      // Fallback to emoji if image not found
-      img.style.display = 'none';
-      const fallbackIcon = document.createElement('span');
-      fallbackIcon.className = 'text-6xl'; // Much larger emoji to match new image size
-      fallbackIcon.innerText = subject.icon;
-      imageContainer.appendChild(fallbackIcon);
-    };
-    
-    // Add the image to the image container
-    imageContainer.appendChild(img);
-    
-    // Right side: Status text (taking remaining space) - moved down to avoid tier badge
-    const statusContainer = document.createElement('div');
-    statusContainer.className = 'flex-1 text-center flex flex-col justify-center mt-6';
-    
+    mainContent.className = 'flex items-center justify-between space-x-4';
+
+    // Left side: Icon and name
+    const leftSide = document.createElement('div');
+    leftSide.className = 'flex items-center space-x-4';
+
+    const icon = document.createElement('span');
+    icon.className = 'text-5xl';
+    icon.innerText = topic.icon;
+
+    const nameText = document.createElement('div');
+    nameText.className = 'text-2xl font-bold';
+    nameText.innerText = topic.name[lang];
+
+    leftSide.appendChild(icon);
+    leftSide.appendChild(nameText);
+
+    // Right side: Status (unlock/subcategory count)
+    const rightSide = document.createElement('div');
+    rightSide.className = 'text-right';
+
     if (isUnlocked) {
-      // Reward text on first line
-      const rewardLabel = document.createElement('div');
-      rewardLabel.className = 'text-sm opacity-90 mb-1';
-      rewardLabel.innerText = 'Reward:';
-      
-      // Stars on second line
-      const starsText = document.createElement('div');
-      starsText.className = 'text-sm opacity-90';
-      starsText.innerText = `${subject.levelReward} ⭐`;
-      
-      statusContainer.appendChild(rewardLabel);
-      statusContainer.appendChild(starsText);
+      const subCount = document.createElement('div');
+      subCount.className = 'text-sm opacity-90';
+      subCount.innerText = `${topic.subcategories.length} ${t('topics')}`;
+      rightSide.appendChild(subCount);
     } else {
-      // Unlock label on first line
-      const unlockLabel = document.createElement('div');
-      unlockLabel.className = 'text-sm opacity-90 mb-1';
-      unlockLabel.innerText = 'Unlock:';
-      
-      // Unlock stars on second line
-      const unlockStars = document.createElement('div');
-      unlockStars.className = 'text-sm opacity-90 mb-2';
-      unlockStars.innerText = `${cost} ⭐`;
-      
-      // Rewards label on third line
-      const rewardLabel = document.createElement('div');
-      rewardLabel.className = 'text-sm opacity-90 mb-1';
-      rewardLabel.innerText = 'Rewards:';
-      
-      // Reward stars on fourth line
-      const rewardStars = document.createElement('div');
-      rewardStars.className = 'text-sm opacity-90';
-      rewardStars.innerText = `${subject.levelReward} ⭐`;
-      
-      statusContainer.appendChild(unlockLabel);
-      statusContainer.appendChild(unlockStars);
-      statusContainer.appendChild(rewardLabel);
-      statusContainer.appendChild(rewardStars);
+      const unlockText = document.createElement('div');
+      unlockText.className = 'text-sm opacity-90 mb-1';
+      unlockText.innerText = `🔒 ${t('unlock')}`;
+
+      const costText = document.createElement('div');
+      costText.className = 'text-lg font-bold';
+      costText.innerText = `${cost} ⭐`;
+
+      rightSide.appendChild(unlockText);
+      rightSide.appendChild(costText);
     }
-    
-    // Assemble main content: image on left, status on right
-    mainContent.appendChild(imageContainer);
-    mainContent.appendChild(statusContainer);
-    
-    // Progress bar
-    const progressContainer = document.createElement('div');
-    progressContainer.className = 'w-full bg-gray-700 rounded-full h-2';
-    
-    const progressBar = document.createElement('div');
-    progressBar.className = 'bg-gradient-to-r from-green-400 to-blue-500 h-2 rounded-full transition-all duration-500';
-    progressBar.style.width = isUnlocked ? `${progressPercent}%` : '0%';
-    
-    progressContainer.appendChild(progressBar);
-    
-    // Add tier badge first, then main content and progress bar
-    btn.appendChild(tierBadge);
+
+    mainContent.appendChild(leftSide);
+    mainContent.appendChild(rightSide);
     btn.appendChild(mainContent);
-    btn.appendChild(progressContainer);
     
     // Click handler
     btn.addEventListener('click', (e) => {
-      console.log('SUBJECTS PAGE BUTTON CLICKED:', subject.name[lang], 'isUnlocked:', isUnlocked);
+      console.log('MAIN TOPIC CLICKED:', topic.name[lang], 'isUnlocked:', isUnlocked);
       e.preventDefault();
       e.stopPropagation();
-      
+
       if (isUnlocked) {
-        // For unlocked subjects, go directly to levels (no popup)
-        const groupIndex = window.groups.findIndex(group => {
-          return group.name[lang] === subject.name[lang];
-        });
-        if (groupIndex !== -1) {
-          openLevels(groupIndex);
-        }
+        // Show subcategories for this main topic
+        showSubcategories(topic.id);
       } else {
-        // Show popup for locked subject
-        const subjectInfo = {
-          icon: '🔒',
-          name: subject.name[lang],
-          description: `This subject is locked. Choose how you want to unlock it and start challenging yourself with multiple levels!`,
-          key: subject.key,
-          starsCost: cost,
-          gemsCost: Math.ceil(cost / 8) // Gems cost less (e.g., 40 stars = 5 gems)
-        };
-        console.log('Calling openSubjectPopup for locked subject:', subjectInfo);
-        openSubjectPopup(subjectInfo);
+        // Show unlock popup
+        if (userStars >= cost) {
+          const confirmed = confirm(`Unlock "${topic.name[lang]}" for ${cost} stars?`);
+          if (confirmed) {
+            // Deduct stars and unlock
+            const newStars = userStars - cost;
+            localStorage.setItem('qb_stars', newStars.toString());
+            stars = newStars;
+            updateStarDisplay();
+
+            // Add to unlocked topics
+            unlockedMainTopics.push(topic.id);
+            localStorage.setItem('qb_unlocked_main_topics', JSON.stringify(unlockedMainTopics));
+
+            // Refresh screen
+            showSubjects();
+          }
+        } else {
+          alert(`You need ${cost} stars to unlock this topic. You currently have ${userStars} stars.`);
+        }
       }
     });
-    
+
     container.appendChild(btn);
     grid.appendChild(container);
   });
   
   showScreen('subjects-screen');
-  
-  // Scroll to bottom so user sees Animals first (which is now at the bottom) and can scroll up
-  const scrollToBottom = () => {
-    const maxScroll = Math.max(
-      document.body.scrollHeight,
-      document.documentElement.scrollHeight,
-      document.body.offsetHeight,
-      document.documentElement.offsetHeight
-    );
-    
-    // Force immediate scroll
-    window.scrollTo(0, maxScroll);
-    document.documentElement.scrollTop = maxScroll;
-    document.body.scrollTop = maxScroll;
+}
+
+// NEW: Show subcategories with progress bars
+function showSubcategories(mainTopicId) {
+  const topic = window.mainTopics[mainTopicId];
+  if (!topic) {
+    console.error('Topic not found:', mainTopicId);
+    return;
+  }
+
+  // Store current main topic for back button navigation
+  window.currentMainTopic = mainTopicId;
+
+  // Use the levels-screen to show subcategories
+  const grid = document.getElementById('levels-grid');
+  grid.innerHTML = '';
+
+  // Set the subject image (use topic icon for now)
+  const img = document.getElementById('levels-subject-image');
+  img.style.display = 'none'; // Hide image, we'll just use text title
+
+  // Create subcategory buttons
+  topic.subcategories.forEach((subcat) => {
+    const currentLevel = window.getSubcategoryProgress(mainTopicId, subcat.id);
+    // If all 10 levels completed, currentLevel = 11, so we need to cap at 100%
+    const progressPercent = Math.min(((currentLevel - 1) / 10) * 100, 100); // Level 1 = 0%, Level 10 = 90%, Level 11 (all completed) = 100%
+    const isFullyCompleted = currentLevel > 10;
+
+    // DEBUG: Log progress calculation
+    console.log(`📊 ${subcat.name.en}:`, {
+      currentLevel,
+      progressPercent,
+      isFullyCompleted,
+      calculation: `((${currentLevel} - 1) / 10) * 100 = ${((currentLevel - 1) / 10) * 100}`
+    });
+
+    const container = document.createElement('div');
+    container.className = 'w-full mb-4';
+
+    const btn = document.createElement('button');
+    // Disable button if all levels completed
+    if (isFullyCompleted) {
+      btn.className = 'w-full font-semibold py-4 px-6 rounded-xl shadow-lg bg-gradient-to-r from-green-500 to-green-600 text-white opacity-75 cursor-not-allowed';
+      btn.disabled = true;
+    } else {
+      btn.className = 'w-full font-semibold py-4 px-6 rounded-xl shadow-lg bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:opacity-90 transition-all duration-300';
+    }
+
+    // Top section: Icon, name, and level indicator
+    const topSection = document.createElement('div');
+    topSection.className = 'flex items-center justify-between mb-3';
+
+    const leftPart = document.createElement('div');
+    leftPart.className = 'flex items-center space-x-3';
+
+    const icon = document.createElement('span');
+    icon.className = 'text-3xl';
+    icon.innerText = subcat.icon;
+
+    const name = document.createElement('div');
+    name.className = 'text-lg font-bold text-left';
+    name.innerText = subcat.name[lang];
+
+    leftPart.appendChild(icon);
+    leftPart.appendChild(name);
+
+    const levelIndicator = document.createElement('div');
+    levelIndicator.className = 'text-sm opacity-90';
+    if (isFullyCompleted) {
+      levelIndicator.innerText = '✅ Completed!';
+    } else {
+      levelIndicator.innerText = `Level ${currentLevel}`;
+    }
+
+    topSection.appendChild(leftPart);
+    topSection.appendChild(levelIndicator);
+
+    // Progress bar
+    const progressContainer = document.createElement('div');
+    progressContainer.className = 'w-full bg-gray-200 bg-opacity-30 rounded-full h-3';
+
+    const progressBar = document.createElement('div');
+    progressBar.className = 'bg-gradient-to-r from-green-400 to-green-500 h-3 rounded-full transition-all duration-500';
+    progressBar.style.width = `${progressPercent}%`;
+
+    progressContainer.appendChild(progressBar);
+
+    // Assemble button
+    btn.appendChild(topSection);
+    btn.appendChild(progressContainer);
+
+    // Click handler - only if not fully completed
+    if (!isFullyCompleted) {
+      btn.addEventListener('click', () => {
+        console.log(`Starting ${subcat.name[lang]} at level ${currentLevel}`);
+        startSubcategoryQuiz(mainTopicId, subcat.id, currentLevel);
+      });
+    }
+
+    container.appendChild(btn);
+    grid.appendChild(container);
+  });
+
+  showScreen('levels-screen');
+}
+
+// NEW: Start quiz for a specific subcategory at a specific level
+function startSubcategoryQuiz(mainTopicId, subcategoryId, level) {
+  console.log(`Starting quiz: ${mainTopicId}/${subcategoryId}/level${level}`);
+
+  // Don't allow starting if level > 10 (all levels completed)
+  if (level > 10) {
+    console.log('All levels completed, cannot start level', level);
+    return;
+  }
+
+  // Get topic and subcategory info
+  const topic = window.mainTopics[mainTopicId];
+  if (!topic) {
+    alert('Topic not found!');
+    return;
+  }
+
+  const subcat = topic.subcategories.find(s => s.id === subcategoryId);
+  if (!subcat) {
+    alert('Subcategory not found!');
+    return;
+  }
+
+  // Dynamically load the level file
+  const scriptPath = `JS/subjects/${topic.folder}/${subcat.folder}/level${level}.js`;
+  console.log('Loading level file:', scriptPath);
+
+  // Create a script tag to load the level
+  const script = document.createElement('script');
+  script.src = scriptPath;
+  script.onload = () => {
+    console.log('Level file loaded successfully');
+
+    // The level file should export a module with questions
+    // Try to access it via window or require
+    const levelModule = window[`level${level}`];
+
+    if (levelModule && levelModule.questions) {
+      console.log(`Found ${levelModule.questions.length} questions`);
+
+      // Store current context for after quiz completion
+      window.currentQuizContext = {
+        mainTopicId,
+        subcategoryId,
+        level
+      };
+
+      // Start the quiz with these questions
+      startQuizWithQuestions(levelModule.questions, subcat.name[lang]);
+    } else {
+      alert(`Level file loaded but no questions found. Please check the file format.`);
+    }
   };
-  
-  // Try multiple times with different delays to ensure it works
-  setTimeout(scrollToBottom, 100);
-  setTimeout(scrollToBottom, 300);
-  setTimeout(scrollToBottom, 600);
+
+  script.onerror = () => {
+    console.error('Failed to load level file:', scriptPath);
+    alert(`Failed to load level file:\n${scriptPath}\n\nPlease make sure the file exists.`);
+  };
+
+  document.head.appendChild(script);
+}
+
+// Helper function to start quiz with loaded questions
+function startQuizWithQuestions(questions, subjectName) {
+  // Initialize quiz state - use the same variable names as game.js
+  questionNumber = 0;
+  correctCount = 0;
+  wrongCount = 0;
+  maxWrong = 2;
+  selectedSubjectName = subjectName;
+
+  // Store questions
+  window.currentQuestions = questions;
+
+  // Reset power-ups
+  fiftyFiftyCount = parseInt(localStorage.getItem('qb_fiftyfifty_count') || '3');
+  skipCount = parseInt(localStorage.getItem('qb_skip_count') || '3');
+  timeBonusCount = parseInt(localStorage.getItem('qb_timebonus_count') || '3');
+  updatePowerUpCounts();
+
+  // Show quiz screen and start
+  showScreen('quiz-screen');
+  renderQuestion();
+  startTimer();
 }
 
 function openLevels(groupIdx) {
@@ -1565,12 +1986,21 @@ function hideErrorPopup() {
   document.getElementById('error-modal').classList.add('hidden');
 }
 
-function showCompletePopup(correctCount, starsEarned) {
+function showCompletePopup(correctCount, starsEarned, isLevel10 = false) {
   const modal = document.getElementById('complete-modal');
   const textEl = document.getElementById('complete-modal-text');
   const starsEl = document.getElementById('complete-modal-coins');
-  
-  if (textEl) textEl.innerText = t('correctAnswers').replace('{n}', correctCount);
+
+  // Show level number if context is available
+  if (textEl) {
+    if (window.currentQuizContext && window.currentQuizContext.level) {
+      const levelNum = window.currentQuizContext.level;
+      textEl.innerText = t('levelCompleted').replace('{level}', levelNum) + ' ' + t('correctAnswers').replace('{n}', correctCount);
+    } else {
+      textEl.innerText = t('correctAnswers').replace('{n}', correctCount);
+    }
+  }
+
   if (starsEl) {
     if (starsEarned > 0) {
       starsEl.innerText = t('coinsEarned').replace('{n}', starsEarned);
@@ -1579,9 +2009,75 @@ function showCompletePopup(correctCount, starsEarned) {
       starsEl.classList.add('hidden');
     }
   }
-  
+
+  // If this is level 10, modify the buttons
+  const nextLevelBtn = document.getElementById('complete-next-level');
+  const backBtn = document.getElementById('complete-back');
+
+  console.log('🎉 showCompletePopup called with:');
+  console.log('  - correctCount:', correctCount);
+  console.log('  - starsEarned:', starsEarned);
+  console.log('  - isLevel10:', isLevel10);
+  console.log('  - window.currentQuizContext:', window.currentQuizContext);
+
+  // First, always clean up any existing "Next Subject" buttons
+  const existingNextBtn = document.getElementById('complete-next-subject');
+  if (existingNextBtn) {
+    existingNextBtn.remove();
+  }
+
+  if (isLevel10 && window.currentQuizContext) {
+    const { mainTopicId, subcategoryId } = window.currentQuizContext;
+    const topic = window.mainTopics[mainTopicId];
+
+    console.log('✅ Level 10 completion detected! Setting up special popup...');
+    console.log('  - mainTopicId:', mainTopicId);
+    console.log('  - subcategoryId:', subcategoryId);
+    console.log('  - topic:', topic);
+
+    // Find current subcategory index
+    const currentSubcatIndex = topic.subcategories.findIndex(s => s.id === subcategoryId);
+    const nextSubcat = topic.subcategories[currentSubcatIndex + 1];
+
+    console.log('  - currentSubcatIndex:', currentSubcatIndex);
+    console.log('  - nextSubcat:', nextSubcat);
+
+    // Hide "Next Level" button and show custom buttons
+    nextLevelBtn.style.display = 'none';
+
+    // Change back button text and add override handler
+    backBtn.innerText = 'Back to Subject Screen';
+    backBtn.onclick = () => {
+      hideCompletePopup();
+      showSubcategories(mainTopicId);
+    };
+
+    // Add "Next Subject" button if there is one
+    if (nextSubcat) {
+      const nextSubcatBtn = document.createElement('button');
+      nextSubcatBtn.id = 'complete-next-subject';
+      nextSubcatBtn.className = 'flex-1 bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold';
+      nextSubcatBtn.innerText = `Next: ${nextSubcat.name[window.lang || 'en']}`;
+      nextSubcatBtn.onclick = () => {
+        hideCompletePopup();
+        startSubcategoryQuiz(mainTopicId, nextSubcat.id, 1);
+      };
+
+      // Insert before back button
+      backBtn.parentElement.insertBefore(nextSubcatBtn, backBtn);
+      console.log('  - Added "Next Subject" button for:', nextSubcat.name[window.lang || 'en']);
+    } else {
+      console.log('  - No next subcategory found (this is the last one)');
+    }
+  } else {
+    // Normal completion - restore default state
+    nextLevelBtn.style.display = '';
+    backBtn.innerText = 'Back';
+    backBtn.onclick = null; // Remove override handler
+  }
+
   modal.classList.remove('hidden');
-  
+
   // 🎉 Create confetti effect when level is completed!
   console.log('Level completed! Triggering confetti effect...');
   setTimeout(() => {
@@ -1772,22 +2268,22 @@ function handleChallengeAnswer(answer, btn) {
   if (answer === correctAnswer) {
     document.getElementById('snd-correct').play();
     challengeCorrect++;
-    btn.style.background = '#02B7CE'; // bright cyan
-    btn.style.color = '#121C3A';
-    btn.style.border = '2px solid #02B7CE';
+    btn.style.background = '#22c55e'; // green
+    btn.style.color = '#FFFFFF';
+    btn.style.border = '2px solid #22c55e';
   } else {
     document.getElementById('snd-wrong').play();
     challengeWrong++;
     btn.style.background = '#F23F5D'; // pinkish red
     btn.style.color = '#FFFFFF';
     btn.style.border = '2px solid #F23F5D';
-    
+
     // Show correct answer
     document.querySelectorAll('#challenge-answers button').forEach(b => {
       if (b.innerText === correctAnswer) {
-        b.style.background = '#02B7CE';
-        b.style.color = '#121C3A';
-        b.style.border = '2px solid #02B7CE';
+        b.style.background = '#22c55e'; // green
+        b.style.color = '#FFFFFF';
+        b.style.border = '2px solid #22c55e';
       }
     });
   }
@@ -2100,10 +2596,14 @@ function showExplanation(question, isCorrect) {
     explanationDiv = document.createElement('div');
     explanationDiv.id = 'explanation-container';
     explanationDiv.className = 'mt-4 p-4 rounded-lg';
-    
+    explanationDiv.style.background = 'transparent';
+
     // Insert after the answers div
     const answersDiv = document.getElementById('answers');
     answersDiv.parentNode.insertBefore(explanationDiv, answersDiv.nextSibling);
+  } else {
+    // Ensure background stays transparent even if div already exists
+    explanationDiv.style.background = 'transparent';
   }
   
   // Set the explanation text
@@ -2680,6 +3180,12 @@ function attachEventListeners() {
   }
   
   if (settingsBtn) settingsBtn.addEventListener('click', () => {
+    // If already in settings, go back to home
+    if (currentScreen === 'settings-screen') {
+      showScreen('home-screen');
+      return;
+    }
+
     if (currentScreen === 'quiz-screen') {
       clearTimeout(timer);
       clearInterval(timerInterval);
@@ -2701,10 +3207,25 @@ function attachEventListeners() {
         showScreen('home-screen');
         break;
       case 'levels-screen':
-        showSubjects();
+        // Check if we're in the new subcategory view or old level view
+        if (window.currentMainTopic) {
+          // New system: Go back to main topics
+          window.currentMainTopic = null;
+          showSubjects();
+        } else {
+          // Old system: Go back to subjects
+          showSubjects();
+        }
         break;
       case 'quiz-screen':
-        showScreen('levels-screen');
+        // Check if we're in the new subcategory system
+        if (window.currentQuizContext) {
+          const { mainTopicId } = window.currentQuizContext;
+          showSubcategories(mainTopicId);
+        } else {
+          // Old system: Go back to levels
+          showScreen('levels-screen');
+        }
         break;
       case 'daily-challenge-screen':
         showScreen('home-screen');
@@ -2746,12 +3267,19 @@ function attachEventListeners() {
   const completeBack = document.getElementById('complete-back');
   
   if (timeoutBack) timeoutBack.addEventListener('click', () => {
-    // Set 10-minute cooldown for this level
-    setLevelFailureCooldown(selectedGroupIndex, selectedLevelIndex);
     hideTimeoutPopup();
-    showScreen('levels-screen');
-    // Refresh level buttons to show cooldown immediately
-    openLevels(selectedGroupIndex);
+
+    // Check if this is the new subcategory system
+    if (window.currentQuizContext) {
+      const { mainTopicId } = window.currentQuizContext;
+      showSubcategories(mainTopicId);
+    } else {
+      // Old system: Set 10-minute cooldown for this level
+      setLevelFailureCooldown(selectedGroupIndex, selectedLevelIndex);
+      showScreen('levels-screen');
+      // Refresh level buttons to show cooldown immediately
+      openLevels(selectedGroupIndex);
+    }
   });
   
   if (timeoutContinueAd) timeoutContinueAd.addEventListener('click', () => {
@@ -2763,12 +3291,19 @@ function attachEventListeners() {
   });
   
   if (errorModalBack) errorModalBack.addEventListener('click', () => {
-    // Set 10-minute cooldown for this level
-    setLevelFailureCooldown(selectedGroupIndex, selectedLevelIndex);
     hideErrorPopup();
-    showScreen('levels-screen');
-    // Refresh level buttons to show cooldown immediately
-    openLevels(selectedGroupIndex);
+
+    // Check if this is the new subcategory system
+    if (window.currentQuizContext) {
+      const { mainTopicId } = window.currentQuizContext;
+      showSubcategories(mainTopicId);
+    } else {
+      // Old system: Set 10-minute cooldown for this level
+      setLevelFailureCooldown(selectedGroupIndex, selectedLevelIndex);
+      showScreen('levels-screen');
+      // Refresh level buttons to show cooldown immediately
+      openLevels(selectedGroupIndex);
+    }
   });
   
   if (errorContinueAd) errorContinueAd.addEventListener('click', () => {
@@ -2781,22 +3316,44 @@ function attachEventListeners() {
   
   if (completeNext) completeNext.addEventListener('click', () => {
     hideCompletePopup();
-    // Try to go to next level in same subject
-    const currentSubject = window.groups[selectedGroupIndex];
-    if (selectedLevelIndex + 1 < currentSubject.levels.length) {
-      startLevel(selectedGroupIndex, selectedLevelIndex + 1);
+
+    // Check if this is the new subcategory system
+    if (window.currentQuizContext) {
+      const { mainTopicId, subcategoryId, level } = window.currentQuizContext;
+      const currentLevel = window.getSubcategoryProgress(mainTopicId, subcategoryId);
+
+      // Try to start next level if available
+      if (currentLevel <= 10) {
+        startSubcategoryQuiz(mainTopicId, subcategoryId, currentLevel);
+      } else {
+        // All levels completed, return to subcategories
+        showSubcategories(mainTopicId);
+      }
     } else {
-      showScreen('levels-screen');
+      // Old system: Try to go to next level in same subject
+      const currentSubject = window.groups[selectedGroupIndex];
+      if (selectedLevelIndex + 1 < currentSubject.levels.length) {
+        startLevel(selectedGroupIndex, selectedLevelIndex + 1);
+      } else {
+        showScreen('levels-screen');
+      }
     }
   });
-  
+
   if (completeBack) completeBack.addEventListener('click', () => {
     hideCompletePopup();
-    // Refresh the levels display to show completed status
-    if (typeof selectedGroupIndex !== 'undefined' && window.groups && window.groups[selectedGroupIndex]) {
-      openLevels(selectedGroupIndex);
+
+    // Check if this is the new subcategory system
+    if (window.currentQuizContext) {
+      const { mainTopicId } = window.currentQuizContext;
+      showSubcategories(mainTopicId);
     } else {
-      showScreen('levels-screen');
+      // Old system: Refresh the levels display to show completed status
+      if (typeof selectedGroupIndex !== 'undefined' && window.groups && window.groups[selectedGroupIndex]) {
+        openLevels(selectedGroupIndex);
+      } else {
+        showScreen('levels-screen');
+      }
     }
   });
 
@@ -2891,6 +3448,15 @@ function attachEventListeners() {
     window.showExplanations = showExplanations; // Sync the window variable
     localStorage.setItem('qb_show_explanations', showExplanations.toString());
     console.log('Explanations toggled to:', showExplanations);
+  });
+
+  // Theme toggle
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) themeToggle.addEventListener('change', (e) => {
+    const isDarkMode = e.target.checked;
+    applyTheme(isDarkMode);
+    localStorage.setItem('qb_theme', isDarkMode ? 'dark' : 'light');
+    console.log('Theme changed to:', isDarkMode ? 'dark' : 'light');
   });
   
   console.log('Event listeners attached successfully');
@@ -3084,7 +3650,15 @@ function initializeApp() {
     if (explanationsToggle) explanationsToggle.checked = showExplanations;
     console.log('Loaded explanations setting:', showExplanations);
   }
-  
+
+  // Load theme setting (dark mode is default)
+  const savedTheme = localStorage.getItem('qb_theme') || 'dark';
+  const isDarkMode = savedTheme === 'dark';
+  applyTheme(isDarkMode);
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) themeToggle.checked = isDarkMode;
+  console.log('Loaded theme:', savedTheme);
+
   // Ensure lang is available globally
   window.lang = lang;
   
@@ -3532,6 +4106,38 @@ function testCompletionPopup() {
   console.log('Testing completion popup with confetti...');
   showCompletePopup(10, 15);
 }
+
+// Helper function to list all subcategories (for testing)
+window.listSubcategories = function() {
+  if (!window.mainTopics) {
+    console.log('❌ Main topics not loaded yet');
+    return;
+  }
+
+  console.log('📋 Available subcategories:');
+  Object.keys(window.mainTopics).forEach(topicId => {
+    const topic = window.mainTopics[topicId];
+    console.log(`\n${topic.name.en} (${topicId}):`);
+    topic.subcategories.forEach(subcat => {
+      const progress = window.getSubcategoryProgress(topicId, subcat.id);
+      console.log(`  - ${subcat.name.en} (${subcat.id}) - Level ${progress}/10`);
+    });
+  });
+  console.log('\n💡 Use: setSubcategoryProgress("topicId", "subcatId", 9) to set to level 9');
+};
+
+// Helper function to set progress for a subcategory (for testing)
+window.setSubcategoryProgress = function(mainTopicId, subcategoryId, level) {
+  const key = `qb_progress_${mainTopicId}_${subcategoryId}`;
+  localStorage.setItem(key, level.toString());
+  console.log(`✅ Set progress for ${mainTopicId}/${subcategoryId} to level ${level}`);
+  console.log(`To test level 10 completion, start this subcategory and complete it.`);
+
+  // Refresh the UI if we're currently on the subcategories screen
+  if (window.currentQuizContext && window.currentQuizContext.mainTopicId === mainTopicId) {
+    showSubcategories(mainTopicId);
+  }
+};
 
 // ─── Level Completion Tracking System ───
 function markLevelAsCompleted(groupIndex, levelIndex) {

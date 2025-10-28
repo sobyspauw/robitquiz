@@ -255,7 +255,9 @@
       "Bash(if [ -f \"C:/Users/rbosch/OneDrive - A.S. Watson Europe/prive/RobitQuiz/JS/subjects/mind-bender/robotics/level$i.js\" ])",
       "Bash(then grep -c \"question:\" \"C:/Users/rbosch/OneDrive - A.S. Watson Europe/prive/RobitQuiz/JS/subjects/mind-bender/robotics/level$i.js\")",
       "Bash(start \"\" \"RobitQuiztest1.html\")",
-      "Bash(start \"\" \"reset-tutorial.html\")"
+      "Bash(start \"\" \"reset-tutorial.html\")",
+      "Bash(git fsck:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

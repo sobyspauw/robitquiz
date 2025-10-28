@@ -199,6 +199,7 @@
   pointer-events: none;
   z-index: 1000;
   overflow: hidden;
+  background: transparent !important;
 }
 
 .confetti-piece {
@@ -344,10 +345,10 @@ body {
 
 /* Screen-specific backgrounds */
 #home-screen {
-  background: radial-gradient(circle at center, rgba(226, 106, 44, 0.1) 0%, transparent 70%);
+  background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%);
   backdrop-filter: blur(10px);
   border-radius: 16px;
-  border: 1px solid rgba(244, 185, 66, 0.3);
+  border: 3px solid var(--vibrant-orange);
   padding: 2rem;
   color: var(--white);
 }
@@ -361,11 +362,12 @@ body {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
+
 #quiz-screen {
-  background: linear-gradient(135deg, rgba(2, 183, 206, 0.1) 0%, rgba(242, 63, 93, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%);
   backdrop-filter: blur(10px);
   border-radius: 16px;
-  border: 1px solid rgba(244, 185, 66, 0.3);
+  border: 3px solid var(--vibrant-orange);
   padding: 2rem;
   color: var(--white);
 }
@@ -390,7 +392,7 @@ body {
   background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%);
   backdrop-filter: blur(10px);
   border-radius: 16px;
-  border: 1px solid rgba(244, 185, 66, 0.3);
+  border: 3px solid var(--vibrant-orange);
   padding: 2rem;
   color: var(--white);
   overflow-x: hidden;
@@ -410,10 +412,11 @@ body {
 
 /* Top bar styling */
 #top-bar {
-  background: rgba(18, 28, 58, 0.95);
+  background-color: var(--bg-primary);
+  background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(244, 185, 66, 0.3);
+  border-bottom: 3px solid var(--vibrant-orange);
 }
 
 #top-title {
@@ -423,7 +426,7 @@ body {
 #top-back-btn {
   background: rgba(2, 183, 206, 0.2);
   color: var(--white);
-  border: 1px solid var(--bright-cyan);
+  border: 3px solid var(--bright-cyan);
 }
 
 #top-back-btn:hover {
@@ -614,6 +617,31 @@ input[type="range"]::-moz-range-thumb {
   /* Keep their specific colors as defined above */
 }
 
+/* Main modal box background - same as home/subjects/settings screens */
+#timeout-modal > div,
+#error-modal > div,
+#complete-modal > div {
+  background-color: var(--bg-primary) !important;
+  background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
+  border: 3px solid var(--pinkish-red) !important;
+}
+
+/* Light mode - same as home/subjects/settings screens */
+body.light-mode #timeout-modal > div,
+body.light-mode #error-modal > div,
+body.light-mode #complete-modal > div {
+  background-color: var(--bg-primary) !important;
+  background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
+  border: 3px solid var(--pinkish-red) !important;
+}
+
+/* Ensure button containers in modals have transparent backgrounds */
+#timeout-modal > div > div,
+#error-modal > div > div,
+#complete-modal > div > div {
+  background: transparent !important;
+}
+
 /* Modal buttons */
 #error-modal-back, #timeout-back {
   background: rgba(244, 185, 66, 0.2) !important;
@@ -709,28 +737,103 @@ input[type="range"]::-moz-range-thumb {
 
 
 
-/* Skip button */
-#skip-btn {
-  background: rgba(244, 185, 66, 0.2) !important;
-  color: var(--golden-yellow) !important;
-  border: 1px solid var(--golden-yellow) !important;
+/* Power-up buttons */
+#fifty-fifty-btn {
   font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%) !important;
+  border: 2px solid rgba(59, 130, 246, 0.7) !important;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4) !important;
+  animation: bounce 2s infinite;
+}
+
+#fifty-fifty-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.5) !important;
+  animation: bounce-hover 1s infinite;
+}
+
+#fifty-fifty-btn::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+  transform: rotate(45deg);
+  animation: shine 3s infinite;
+}
+
+#time-bonus-btn {
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #eab308 0%, #ca8a04 100%) !important;
+  border: 2px solid rgba(234, 179, 8, 0.7) !important;
+  box-shadow: 0 4px 15px rgba(234, 179, 8, 0.4) !important;
+  animation: bounce 2s infinite;
+}
+
+#time-bonus-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(234, 179, 8, 0.5) !important;
+  animation: bounce-hover 1s infinite;
+}
+
+#time-bonus-btn::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+  transform: rotate(45deg);
+  animation: shine 3s infinite;
+}
+
+/* Skip button - Purple/Pink with bounce effect like daily challenge */
+#skip-btn {
+  background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%) !important;
+  color: white !important;
+  border: 2px solid rgba(168, 85, 247, 0.7) !important;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4) !important;
+  animation: bounce 2s infinite;
 }
 
 #skip-btn:hover {
-  background: var(--golden-yellow) !important;
-  color: var(--deep-navy) !important;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(168, 85, 247, 0.5) !important;
+  animation: bounce-hover 1s infinite;
+}
+
+/* Shine effect for skip button */
+#skip-btn::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+  transform: rotate(45deg);
+  animation: shine 3s infinite;
 }
 
 /* Ensure skip count is visible */
 #skip-count {
-  color: var(--white) !important;
+  color: white !important;
   font-weight: bold !important;
   font-size: 1rem !important;
 }
 
 #skip-btn:hover #skip-count {
-  color: var(--deep-navy) !important;
+  color: white !important;
 }
 
 /* Daily Challenge Button - Available (Green with bounce) */
@@ -838,7 +941,7 @@ input[type="range"]::-moz-range-thumb {
   background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(147, 51, 234, 0.1) 100%);
   backdrop-filter: blur(10px);
   border-radius: 16px;
-  border: 1px solid rgba(244, 185, 66, 0.3);
+  border: 3px solid var(--vibrant-orange);
   padding: 2rem;
   color: var(--white);
   overflow-x: hidden;
@@ -854,12 +957,20 @@ input[type="range"]::-moz-range-thumb {
 
 /* Explanation display */
 #explanation-container {
-  background: linear-gradient(135deg, rgba(2, 183, 206, 0.1) 0%, rgba(244, 185, 66, 0.1) 100%) !important;
+  background: transparent !important;
   border: 2px solid var(--bright-cyan) !important;
-  color: var(--white) !important;
-  backdrop-filter: blur(10px);
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
+/* Ensure all child elements also have transparent backgrounds */
+#explanation-container > div,
+#explanation-container > div > div,
+#explanation-container div {
+  background: transparent !important;
+}
+
+/* Dark mode - light text */
 #explanation-container h4 {
   color: var(--golden-yellow) !important;
 }
@@ -868,10 +979,23 @@ input[type="range"]::-moz-range-thumb {
   color: var(--white) !important;
 }
 
+/* Light mode - dark text */
+body.light-mode #explanation-container h4 {
+  color: #d97706 !important;
+}
+
+body.light-mode #explanation-container p {
+  color: #1f2937 !important;
+}
+
 /* Settings screen */
 #settings-screen {
-  background: rgba(18, 28, 58, 0.95);
-  border: 1px solid rgba(244, 185, 66, 0.3);
+  background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(147, 51, 234, 0.1) 100%);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 3px solid var(--vibrant-orange);
+  padding: 2rem;
+  color: var(--white);
 }
 
 #settings-screen h2 {
@@ -891,7 +1015,7 @@ input[type="range"]::-moz-range-thumb {
 /* Level cards */
 .level-card {
   background: linear-gradient(135deg, var(--deep-navy) 0%, rgba(18, 28, 58, 0.8) 100%) !important;
-  border: 2px solid var(--vibrant-orange);
+  border: 6px solid var(--vibrant-orange);
   transition: all 0.3s ease;
   max-width: 300px;
   width: 100%;
@@ -975,7 +1099,7 @@ input[type="range"]::-moz-range-thumb {
 /* Subject card styling */
 .subject-card {
   background: linear-gradient(135deg, var(--deep-navy) 0%, rgba(18, 28, 58, 0.8) 100%) !important;
-  border: 2px solid var(--vibrant-orange);
+  border: 6px solid var(--vibrant-orange);
   transition: all 0.3s ease;
 }
 
@@ -1036,7 +1160,7 @@ input[type="range"]::-moz-range-thumb {
 .subject-btn {
   background: var(--deep-navy);
   color: var(--white);
-  border: 2px solid var(--vibrant-orange);
+  border: 6px solid var(--vibrant-orange);
 }
 
 .subject-btn:hover {
@@ -1060,15 +1184,87 @@ input[type="range"]::-moz-range-thumb {
   animation: modalFadeIn 0.3s ease-out;
 }
 
+/* Modal overlay background - consistent in both modes */
+#error-modal,
+#timeout-modal,
+#complete-modal {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+body.light-mode #error-modal,
+body.light-mode #timeout-modal,
+body.light-mode #complete-modal {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
 @keyframes modalFadeIn {
-  from { 
-    opacity: 0; 
+  from {
+    opacity: 0;
     transform: scale(0.9);
   }
-  to { 
-    opacity: 1; 
+  to {
+    opacity: 1;
     transform: scale(1);
   }
+}
+
+/* Answer feedback animations */
+@keyframes correctPulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0px #22c55e;
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 0 30px #22c55e;
+  }
+  100% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #22c55e;
+  }
+}
+
+@keyframes wrongShake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-8px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(8px);
+  }
+}
+
+/* Tutorial light mode styling */
+body.light-mode #tutorial-strip {
+  background: linear-gradient(to right, #fef9e7, #fef5e7) !important;
+  border-color: #fcd34d !important;
+}
+
+body.light-mode #tutorial-title,
+body.light-mode #tutorial-content {
+  color: #1f2937 !important;
+}
+
+body.light-mode #tutorial-skip,
+body.light-mode #tutorial-prev {
+  background-color: #9ca3af !important;
+  color: white !important;
+}
+
+body.light-mode #tutorial-skip:hover,
+body.light-mode #tutorial-prev:hover {
+  background-color: #6b7280 !important;
+}
+
+body.light-mode #tutorial-next {
+  background-color: #fbbf24 !important;
+  color: #1f2937 !important;
+}
+
+body.light-mode #tutorial-next:hover {
+  background-color: #f59e0b !important;
 }
 
 /* Responsive adjustments */
@@ -1076,12 +1272,31 @@ input[type="range"]::-moz-range-thumb {
   #top-bar {
     padding: 0.75rem 1rem;
   }
-  
+
   #top-title {
     font-size: 1rem;
   }
-  
+
   .main-content {
     padding-top: 80px;
+  }
+}
+/* Feedback icon animation */
+@keyframes feedbackIconPop {
+  0% {
+    transform: translate(-50%, -50%) scale(0) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(10deg);
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-50%, -50%) scale(0.9) rotate(-5deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0) rotate(0deg);
+    opacity: 0;
   }
 }

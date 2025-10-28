@@ -38,7 +38,7 @@ function quickStart() {
 // —— 4) Starting a new level ——
 function startLevel(groupIdx, levelIdx) {
   console.log('startLevel called with:', groupIdx, levelIdx);
-  
+
   selectedGroupIndex = groupIdx;
   selectedLevelIndex = levelIdx;
   currentIndex       = 0;
@@ -46,7 +46,11 @@ function startLevel(groupIdx, levelIdx) {
   wrongCount         = 0;
   // Don't reset stars when starting a new level
   stars = parseInt(localStorage.getItem('qb_stars') || '0');
-  
+
+  // Reset answer processing flag for new level
+  window.answerProcessing = false;
+  console.log('Reset answerProcessing flag for new level');
+
   // Reset continue button processing state
   if (window.continueButtonProcessing !== undefined) {
     window.continueButtonProcessing = false;
@@ -81,19 +85,31 @@ function startLevel(groupIdx, levelIdx) {
 function handleAnswer(answer, btn) {
   console.log('handleAnswer called with answer:', answer);
   console.log('Button clicked:', btn);
-  console.log('Current question:', currentIndex);
-  
+  console.log('Current question index:', currentIndex, 'questionNumber:', questionNumber);
+
+  // Prevent multiple answers for the same question (race condition guard)
+  if (window.answerProcessing) {
+    console.log('Answer already being processed, ignoring duplicate click');
+    return;
+  }
+  window.answerProcessing = true;
+  console.log('Set answerProcessing flag to prevent duplicate clicks');
+
   // disable further clicks
   document.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
   console.log('Disabled all answer buttons');
-  
+
   // stop countdown
   clearTimeout(timer);
   clearInterval(timerInterval);
   console.log('Stopped timer and interval');
 
+  // Support both new system (window.currentQuestions) and old system (questions array)
+  const questionsArray = window.currentQuestions || questions;
+  const index = window.currentQuestions ? questionNumber : currentIndex;
+
   // find correct text
-  const q = questions[currentIndex];
+  const q = questionsArray[index];
   console.log('Question object:', q);
   // Use 'correct' property instead of 'correctIndex' if available
   const correctIndex = q.correctIndex !== undefined ? q.correctIndex : q.correct;
@@ -109,32 +125,51 @@ function handleAnswer(answer, btn) {
   // play sound + highlight
   console.log('Applying feedback styling...');
   if (isCorrect) {
-    console.log('Answer is correct - applying green/cyan styling');
+    console.log('Answer is correct - applying green styling');
     document.getElementById('snd-correct').play();
     correctCount++;
     // Don't add stars here - only on level completion
-    btn.style.background = '#02B7CE'; // bright cyan for correct
-    btn.style.color = '#121C3A'; // deep navy text
-    btn.style.border = '2px solid #02B7CE';
-    console.log('Applied correct answer styling to button');
+    btn.style.background = '#22c55e'; // green for correct
+    btn.style.color = '#FFFFFF'; // white text
+    btn.style.border = '2px solid #22c55e';
+    btn.style.boxShadow = '0 0 20px #22c55e'; // Add glow effect
+    btn.style.transform = 'scale(1.05)'; // Slight scale up
+    btn.style.transition = 'all 0.3s ease';
+
+    // Add pulse animation
+    btn.style.animation = 'correctPulse 0.6s ease';
+    console.log('Applied correct answer styling with animation to button');
+    // Show thumbs up icon
+    showFeedbackIcon('✓', '#22c55e');
   } else {
     console.log('Answer is wrong - applying red styling and highlighting correct answer');
     document.getElementById('snd-wrong').play();
     wrongCount++;
+    console.log('❌ WRONG ANSWER - wrongCount is now:', wrongCount, '(limit is 2)');
     btn.style.background = '#F23F5D'; // pinkish red for wrong
     btn.style.color = '#FFFFFF'; // white text
     btn.style.border = '2px solid #F23F5D';
-    console.log('Applied wrong answer styling to clicked button');
-    
+    btn.style.boxShadow = '0 0 20px #F23F5D'; // Add glow effect
+
+    // Add shake animation for wrong answer
+    btn.style.animation = 'wrongShake 0.5s ease';
+    // Show cross icon
+    showFeedbackIcon('✗', '#F23F5D');
+    console.log('Applied wrong answer styling with shake animation to clicked button');
+
     // Show correct answer
     let correctButtonFound = false;
     document.querySelectorAll('#answers button').forEach(b => {
       if (b.innerText === correctAnswer) {
-        b.style.background = '#02B7CE'; // bright cyan for correct
-        b.style.color = '#121C3A'; // deep navy text
-        b.style.border = '2px solid #02B7CE';
+        b.style.background = '#22c55e'; // green for correct
+        b.style.color = '#FFFFFF'; // white text
+        b.style.border = '2px solid #22c55e';
+        b.style.boxShadow = '0 0 20px #22c55e'; // Add glow effect
+        b.style.transform = 'scale(1.05)'; // Slight scale up
+        b.style.transition = 'all 0.3s ease';
+        b.style.animation = 'correctPulse 0.6s ease';
         correctButtonFound = true;
-        console.log('Found and highlighted correct answer button:', b.innerText);
+        console.log('Found and highlighted correct answer button with animation:', b.innerText);
       }
     });
     if (!correctButtonFound) {
@@ -165,9 +200,13 @@ function handleAnswer(answer, btn) {
   setTimeout(() => {
     console.log('Timeout fired - checking progression logic');
     console.log('wrongCount:', wrongCount, 'correctCount:', correctCount);
-    
+
+    // Support both new system (window.currentQuestions) and old system (questions array)
+    const questionsArray = window.currentQuestions || questions;
+    const index = window.currentQuestions ? questionNumber : currentIndex;
+
     // Check if there's an explanation to show first
-    const q = questions[currentIndex];
+    const q = questionsArray[index];
     const hasExplanation = q.explanation && (q.explanation[window.lang || 'en'] || q.explanation['en']);
     const showExplanationsEnabled = window.showExplanations === true; // Only true if explicitly true
     const shouldShowExplanation = showExplanationsEnabled && hasExplanation;
@@ -205,29 +244,47 @@ function handleAnswer(answer, btn) {
 
 // New function to handle continuing to next question
 function continueToNextQuestion() {
-  currentIndex++;
-  
+  // Reset answer processing flag for next question
+  window.answerProcessing = false;
+  console.log('Reset answerProcessing flag for next question');
+
+  // Support both new system (window.currentQuestions) and old system (questions array)
+  const questionsArray = window.currentQuestions || questions;
+
+  if (window.currentQuestions) {
+    questionNumber++;
+  } else {
+    currentIndex++;
+  }
+  const index = window.currentQuestions ? questionNumber : currentIndex;
+
   // Check if user has achieved 10 correct answers or reached end of questions
-  if (correctCount >= 10 || currentIndex >= questions.length) {
+  if (correctCount >= 10 || index >= questionsArray.length) {
     // Level complete - calculate tier-based star rewards
     let starsEarned = 0;
     if (correctCount >= 10) {
-      // Get the subject tier to determine reward amount
-      const currentGroup = window.groups[selectedGroupIndex];
-      if (currentGroup && currentGroup.name) {
-        // Find the subject in subjectDefinitions to get tier info
-        const subjectKey = Object.keys(window.subjectDefinitions).find(key => {
-          const subject = window.subjectDefinitions[key];
-          return subject.name[window.lang || 'en'] === currentGroup.name[window.lang || 'en'];
-        });
-        
-        if (subjectKey && window.subjectDefinitions[subjectKey]) {
-          starsEarned = window.subjectDefinitions[subjectKey].levelReward || 10;
-        } else {
-          starsEarned = 10; // Fallback for warm-up subjects
-        }
+      // Check if this is the new subcategory system
+      if (window.currentQuizContext) {
+        // New system: fixed 10 stars per level
+        starsEarned = 10;
       } else {
-        starsEarned = 10; // Default fallback
+        // Old system: tier-based rewards
+        const currentGroup = window.groups[selectedGroupIndex];
+        if (currentGroup && currentGroup.name) {
+          // Find the subject in subjectDefinitions to get tier info
+          const subjectKey = Object.keys(window.subjectDefinitions).find(key => {
+            const subject = window.subjectDefinitions[key];
+            return subject.name[window.lang || 'en'] === currentGroup.name[window.lang || 'en'];
+          });
+
+          if (subjectKey && window.subjectDefinitions[subjectKey]) {
+            starsEarned = window.subjectDefinitions[subjectKey].levelReward || 10;
+          } else {
+            starsEarned = 10; // Fallback for warm-up subjects
+          }
+        } else {
+          starsEarned = 10; // Default fallback
+        }
       }
     }
     if (starsEarned > 0) {
@@ -235,19 +292,37 @@ function continueToNextQuestion() {
       localStorage.setItem('qb_stars', stars.toString());
       window.updateStarDisplay();
     }
-    
-    // Mark level as completed
-    if (typeof window.markLevelAsCompleted === 'function') {
+
+    // Update progress for new subcategory system
+    if (window.currentQuizContext && typeof window.updateSubcategoryProgress === 'function') {
+      const { mainTopicId, subcategoryId, level } = window.currentQuizContext;
+      window.updateSubcategoryProgress(mainTopicId, subcategoryId, level + 1);
+    }
+
+    // Mark level as completed (old system)
+    if (typeof window.markLevelAsCompleted === 'function' && !window.currentQuizContext) {
       window.markLevelAsCompleted(selectedGroupIndex, selectedLevelIndex);
     }
-    
-    // Check for subject completion rewards
-    if (typeof window.checkSubjectCompletion === 'function') {
+
+    // Check for subject completion rewards (old system)
+    if (typeof window.checkSubjectCompletion === 'function' && !window.currentQuizContext) {
       window.checkSubjectCompletion(selectedGroupIndex, selectedLevelIndex);
     }
-    
+
+    // Check if this is level 10 completion (last level of a subcategory)
+    console.log('🎯 DEBUG - Checking level 10 completion:');
+    console.log('  - window.currentQuizContext exists?', !!window.currentQuizContext);
+    console.log('  - currentQuizContext:', window.currentQuizContext);
+    if (window.currentQuizContext) {
+      console.log('  - currentQuizContext.level:', window.currentQuizContext.level);
+      console.log('  - currentQuizContext.level === 10?', window.currentQuizContext.level === 10);
+    }
+    const isLevel10 = window.currentQuizContext && window.currentQuizContext.level === 10;
+    console.log('  - FINAL isLevel10 value:', isLevel10);
+
     // Show completion popup instead of alert
-    window.showCompletePopup(correctCount, starsEarned);
+    console.log('📞 Calling showCompletePopup with isLevel10:', isLevel10);
+    window.showCompletePopup(correctCount, starsEarned, isLevel10);
   } else {
     // Continue to next question
     if (window.timerState) {
@@ -280,3 +355,38 @@ window.showErrorPopup       = showErrorPopup;
 window.showTimeoutPopup     = showTimeoutPopup;
 // These are now handled by ui.js
 window.showInterstitialAd   = showInterstitialAd;
+
+// —— 8) Feedback icon animation ——
+function showFeedbackIcon(icon, color) {
+  // Remove any existing feedback icon
+  const existing = document.getElementById('feedback-icon');
+  if (existing) existing.remove();
+
+  // Create new feedback icon
+  const feedbackIcon = document.createElement('div');
+  feedbackIcon.id = 'feedback-icon';
+  feedbackIcon.style.cssText = `
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 120px;
+    font-weight: bold;
+    color: ${color};
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    z-index: 9999;
+    pointer-events: none;
+    animation: feedbackIconPop 0.8s ease-out forwards;
+  `;
+  feedbackIcon.innerText = icon;
+  document.body.appendChild(feedbackIcon);
+
+  // Remove after animation
+  setTimeout(() => {
+    feedbackIcon.remove();
+  }, 800);
+}
+
+window.showFeedbackIcon = showFeedbackIcon;

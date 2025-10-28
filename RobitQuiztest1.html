@@ -8,8 +8,365 @@
   <meta name="theme-color" content="#02B7CE">
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <style>
+    /* Theme CSS Variables */
+    :root {
+      /* Dark Mode (default) */
+      --bg-primary: #1f2937;
+      --bg-secondary: #111827;
+      --bg-tertiary: #374151;
+      --text-primary: #f9fafb;
+      --text-secondary: #d1d5db;
+      --border-color: #4b5563;
+      --card-bg: #1f2937;
+      --modal-bg: #111827;
+      --input-bg: #374151;
+      --input-border: #4b5563;
+    }
+
+    /* Light Mode */
+    body.light-mode {
+      --bg-primary: #f9fafb;
+      --bg-secondary: #ffffff;
+      --bg-tertiary: #f3f4f6;
+      --text-primary: #111827;
+      --text-secondary: #4b5563;
+      --border-color: #d1d5db;
+      --card-bg: #ffffff;
+      --modal-bg: #ffffff;
+      --input-bg: #ffffff;
+      --input-border: #d1d5db;
+    }
+
+    /* Apply theme colors */
+    body {
+      background-color: var(--bg-primary) !important;
+      color: var(--text-primary) !important;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* All screens - force background color */
+    .screen,
+    #home-screen,
+    #subjects-screen,
+    #levels-screen,
+    #quiz-screen,
+    #settings-screen,
+    #roadmap-screen,
+    #challenge-modes-screen,
+    #shop-screen {
+      background-color: var(--bg-primary) !important;
+      color: var(--text-primary) !important;
+    }
+
+
+    /* Main container and flex containers */
+    main,
+    .flex-1 {
+      background-color: var(--bg-primary) !important;
+    }
+
+    /* Force background on container divs */
+    body > div,
+    body > div > div {
+      background-color: var(--bg-primary);
+    }
+
+    /* All text elements */
+    h1, h2, h3, h4, h5, h6, p, span, div:not([class*="from-"]):not([class*="to-"]):not([class*="bg-gradient"]) label {
+      color: var(--text-primary);
+    }
+
+    /* Quiz screen specific */
+    #quiz-screen #question,
+    #quiz-screen #answers,
+    #quiz-screen div:not(#correct):not(#wrong),
+    #quiz-screen p {
+      color: var(--text-primary) !important;
+    }
+
+    /* Keep correct/wrong counter colors - ALWAYS dark for readability in both modes */
+    #quiz-screen #correct,
+    #quiz-screen span#correct,
+    span#correct {
+      color: #15803d !important; /* Dark green for correct - readable in both modes */
+    }
+
+    #quiz-screen #wrong,
+    #quiz-screen span#wrong,
+    span#wrong {
+      color: #dc2626 !important; /* Dark red for wrong - readable in both modes */
+    }
+
+    /* Override any inherited text color for these specific elements */
+    body #correct,
+    body.light-mode #correct {
+      color: #15803d !important;
+    }
+
+    body #wrong,
+    body.light-mode #wrong {
+      color: #dc2626 !important;
+    }
+
+    /* Answer buttons should have proper colors (but allow inline styles to override) */
+    #answers .answer-btn:not([style*="background"]) {
+      background-color: var(--input-bg);
+      color: var(--text-primary);
+      border: 2px solid var(--border-color);
+    }
+
+    /* Cards and modals */
+    .modal-content, .card-bg {
+      background-color: var(--card-bg);
+      color: var(--text-primary);
+    }
+
+    /* Subject and level grids - ensure cards have proper background */
+    #subjects-grid > div > button,
+    #levels-grid > div > button {
+      /* Keep gradients but ensure they're visible in both modes */
+    }
+
+    /* In light mode, subject/subcategory containers should be lighter */
+    body.light-mode #subjects-grid,
+    body.light-mode #levels-grid {
+      background-color: transparent !important;
+    }
+
+    body.light-mode #subjects-grid > div,
+    body.light-mode #levels-grid > div {
+      background-color: transparent !important;
+    }
+
+    /* Top bar - match home/subjects/settings screens */
+    #top-bar {
+      background-color: var(--bg-primary) !important;
+      background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
+      border-color: var(--border-color);
+    }
+
+    body.light-mode #top-bar {
+      background-color: var(--bg-primary) !important;
+      background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
+    }
+
+    /* Top bar container divs should be transparent */
+    #top-bar > div {
+      background-color: transparent !important;
+    }
+
+    /* Star and Diamond displays - blend with top bar */
+    #star-display,
+    #diamond-display {
+      background-color: rgba(255, 255, 255, 0.1) !important;
+      border-color: rgba(255, 255, 255, 0.2) !important;
+    }
+
+    body.light-mode #star-display,
+    body.light-mode #diamond-display {
+      background-color: rgba(0, 0, 0, 0.05) !important;
+      border-color: rgba(0, 0, 0, 0.1) !important;
+    }
+
+    #star-display:hover,
+    #diamond-display:hover {
+      background-color: rgba(255, 255, 255, 0.15) !important;
+    }
+
+    body.light-mode #star-display:hover,
+    body.light-mode #diamond-display:hover {
+      background-color: rgba(0, 0, 0, 0.08) !important;
+    }
+
+    /* Star and diamond count text */
+    #star-count,
+    #diamond-count {
+      color: var(--text-primary) !important;
+    }
+
+    /* Question text in quiz screen */
+    #quiz-screen #question {
+      color: var(--text-primary) !important;
+    }
+
+    /* Settings screen */
+    #settings-screen {
+      color: var(--text-primary);
+    }
+
+    #settings-screen h2,
+    #settings-screen label:not([for="theme-toggle"]),
+    #settings-screen p {
+      color: var(--text-primary) !important;
+    }
+
+    /* Tutorial box - should have darker text always for readability */
+    #settings-screen .bg-gradient-to-r.from-yellow-50 {
+      background: linear-gradient(to right, #fef9e7, #fef5e7) !important;
+    }
+
+    #settings-screen .bg-gradient-to-r.from-yellow-50 h3,
+    #settings-screen .bg-gradient-to-r.from-yellow-50 p,
+    #settings-screen .bg-gradient-to-r.from-yellow-50 span {
+      color: #1f2937 !important; /* Always dark text for tutorial box */
+    }
+
+    /* Theme toggle container - keep original colors */
+    .flex.items-center.justify-between.mb-4.p-3.bg-gray-100 {
+      background-color: var(--bg-tertiary) !important;
+    }
+
+    .flex.items-center.justify-between.mb-4.p-3.bg-gray-100 label,
+    .flex.items-center.justify-between.mb-4.p-3.bg-gray-100 span {
+      color: var(--text-primary) !important;
+    }
+
+    /* Settings items */
+    .settings-item {
+      background-color: var(--bg-tertiary);
+      color: var(--text-primary);
+    }
+
+    /* Range sliders - make them visible */
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 8px;
+      border-radius: 5px;
+      background: #d1d5db !important; /* Light gray track in dark mode */
+      outline: none;
+      opacity: 1 !important;
+    }
+
+    /* Light mode - darker track */
+    body.light-mode input[type="range"] {
+      background: #9ca3af !important; /* Darker gray in light mode */
+    }
+
+    /* Track styling for WebKit browsers (Chrome, Safari) */
+    input[type="range"]::-webkit-slider-runnable-track {
+      width: 100%;
+      height: 8px;
+      background: #d1d5db;
+      border-radius: 5px;
+    }
+
+    body.light-mode input[type="range"]::-webkit-slider-runnable-track {
+      background: #9ca3af;
+    }
+
+    /* Track styling for Firefox */
+    input[type="range"]::-moz-range-track {
+      width: 100%;
+      height: 8px;
+      background: #d1d5db;
+      border-radius: 5px;
+    }
+
+    body.light-mode input[type="range"]::-moz-range-track {
+      background: #9ca3af;
+    }
+
+    /* Thumb (bolletje) - WebKit */
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #02B7CE;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      margin-top: -6px; /* Center the thumb on the track */
+    }
+
+    /* Thumb (bolletje) - Firefox */
+    input[type="range"]::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #02B7CE;
+      cursor: pointer;
+      border: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    /* Hover effects */
+    input[type="range"]::-webkit-slider-thumb:hover {
+      background: #01a0b5;
+      transform: scale(1.1);
+    }
+
+    input[type="range"]::-moz-range-thumb:hover {
+      background: #01a0b5;
+      transform: scale(1.1);
+    }
+
+    /* Modal popups - use theme backgrounds */
+    #error-modal > div > div,
+    #timeout-modal > div > div,
+    #complete-modal > div > div {
+      background-color: var(--modal-bg) !important;
+    }
+
+    /* Modal text should be themed */
+    #error-modal h3,
+    #error-modal p,
+    #timeout-modal h3,
+    #timeout-modal p,
+    #complete-modal h3,
+    #complete-modal p {
+      color: var(--text-primary) !important;
+    }
+
+    /* Keep title colors for visibility */
+    #error-modal-title {
+      color: #dc2626 !important; /* Red for error */
+    }
+
+    #timeout-modal-title {
+      color: #d97706 !important; /* Orange for timeout */
+    }
+
+    /* Inputs */
+    input[type="text"], input[type="number"], select, textarea {
+      background-color: var(--input-bg) !important;
+      color: var(--text-primary) !important;
+      border-color: var(--input-border) !important;
+    }
+
+    /* Buttons that should maintain theme */
+    button:not(.bg-gradient-to-r):not([class*="from-"]):not([class*="to-"]):not(.text-white) {
+      color: var(--text-primary);
+    }
+
+    /* Keep gradient buttons text white */
+    .bg-gradient-to-r,
+    [class*="from-"],
+    [class*="to-"],
+    .text-white {
+      color: white !important;
+    }
+
+    /* Override Tailwind gray backgrounds in light mode */
+    body.light-mode .bg-gray-100,
+    body.light-mode .bg-gray-200,
+    body.light-mode .bg-gray-50 {
+      background-color: var(--bg-tertiary) !important;
+      color: var(--text-primary) !important;
+    }
+
+    /* Modals should use card background */
+    .modal-content,
+    [class*="modal"] > div {
+      background-color: var(--modal-bg) !important;
+    }
+  </style>
+
 </head>
-<body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col relative">
+<body class="min-h-screen flex flex-col relative">
 
   <audio id="snd-correct" src="sounds/correct.wav" preload="auto"></audio>
   <audio id="snd-wrong"   src="sounds/wrong.wav"   preload="auto"></audio>
@@ -117,38 +474,37 @@
 
   <!-- Quiz Screen -->
   <div id="quiz-screen" class="screen hidden w-full max-w-xl space-y-6">
-    <div class="flex justify-center items-center mb-4">
+    <div class="flex justify-center items-center mb-6">
       <span id="timer" class="text-2xl font-bold text-red-600 bg-white px-4 py-2 rounded-full shadow">15s</span>
     </div>
-    <div id="question" class="text-2xl font-semibold text-center"></div>
-    <div id="answers" class="flex flex-col gap-3"></div>
-      <div class="space-x-4">
-        <span id="correct" class="font-medium text-green-600">Correct: 0/10</span>
-        <span id="wrong" class="font-medium text-red-500">Mistakes: 0/2</span>
-      </div>
-        <div class="flex justify-center gap-4 mt-2">
-    <button
-      id="fifty-fifty-btn"
-      class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded disabled:bg-gray-400 disabled:cursor-not-allowed"
-      onclick="window.useFiftyFifty()"
-    >
-      50/50 (<span id="fifty-fifty-count">3</span>)
-    </button>
-    <button
-      id="skip-btn"
-      class="bg-gray-400 hover:bg-gray-500 text-white py-2 px-4 rounded disabled:bg-gray-600 disabled:cursor-not-allowed"
-    >
-      Skip (<span id="skip-count">3</span>)
-    </button>
-    <button
-      id="time-bonus-btn"
-      class="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded disabled:bg-gray-400 disabled:cursor-not-allowed"
-      onclick="window.useTimeBonus()"
-    >
-      Time (<span id="time-bonus-count">3</span>)
-    </button>
-  </div>
-
+    <div id="question" class="text-2xl font-semibold text-center mb-6"></div>
+    <div id="answers" class="flex flex-col gap-3 mb-6"></div>
+    <div class="space-x-4 mb-4 text-center">
+      <span id="correct" class="font-medium">Correct: 0/10</span>
+      <span id="wrong" class="font-medium">Mistakes: 0/2</span>
+    </div>
+    <div class="flex justify-center gap-4 mt-2">
+      <button
+        id="fifty-fifty-btn"
+        class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded disabled:bg-gray-400 disabled:cursor-not-allowed"
+        onclick="window.useFiftyFifty()"
+      >
+        50/50 (<span id="fifty-fifty-count">3</span>)
+      </button>
+      <button
+        id="skip-btn"
+        class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded disabled:bg-gray-600 disabled:cursor-not-allowed"
+      >
+        Skip (<span id="skip-count">3</span>)
+      </button>
+      <button
+        id="time-bonus-btn"
+        class="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded disabled:bg-gray-400 disabled:cursor-not-allowed"
+        onclick="window.useTimeBonus()"
+      >
+        Time (<span id="time-bonus-count">3</span>)
+      </button>
+    </div>
   </div>
 
   <!-- Daily Challenge Screen -->
@@ -190,11 +546,11 @@
 
   <!-- Timeout Popup -->
   <div id="timeout-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-    <div class="bg-white rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center">
+    <div class="rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center" style="background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%)">
       <h3 id="timeout-modal-title" class="text-xl font-bold text-yellow-600">Time's up!</h3>
       <p id="timeout-modal-text" class="text-gray-800">Your time has run out!</p>
       <p class="text-sm text-gray-600">Get extra time and continue or accept 10-minute cooldown?</p>
-      <div class="flex flex-col space-y-2">
+      <div class="flex flex-col space-y-2" style="background: transparent;">
         <button id="timeout-modal-continue-ad" class="bg-green-600 hover:bg-green-700 text-white py-2 rounded">
           Continue (📺)
         </button>
@@ -474,9 +830,9 @@
 
   <!-- Settings Screen -->
   <div id="settings-screen" class="screen hidden w-full max-w-md space-y-4 p-4">
-    <h2 class="text-xl font-bold">Settings</h2>
+    <h2 id="settings-title" class="text-xl font-bold">Settings</h2>
     <div class="flex items-center space-x-2 mb-4">
-      <label for="sfx-volume-slider" class="font-medium">SFX Volume:</label>
+      <label id="sfx-volume-label" for="sfx-volume-slider" class="font-medium w-32 flex-shrink-0">SFX Volume:</label>
       <input
         id="sfx-volume-slider"
         type="range"
@@ -488,7 +844,7 @@
       />
     </div>
     <div class="flex items-center space-x-2 mb-4">
-      <label for="music-volume-slider" class="font-medium">Music Volume:</label>
+      <label id="music-volume-label" for="music-volume-slider" class="font-medium w-32 flex-shrink-0">Music Volume:</label>
       <input
         id="music-volume-slider"
         type="range"
@@ -499,26 +855,38 @@
         class="flex-1"
       />
     </div>
-    <label for="language-select" class="block mb-1">Language:</label>
+    <label id="language-label" for="language-select" class="block mb-1">Language:</label>
       <select id="language-select" class="w-full border p-2 rounded mb-4">
         <option value="en">English</option>
         <option value="es">Español</option>
         <option value="de">Deutsch</option>
         <option value="nl">Nederlands</option>
       </select>
-    
+
     <div class="flex items-center space-x-2 mb-4">
       <input type="checkbox" id="explanations-toggle" class="w-4 h-4" checked>
-      <label for="explanations-toggle" class="font-medium">Show answer explanations</label>
+      <label id="explanations-label" for="explanations-toggle" class="font-medium">Show answer explanations</label>
     </div>
-    
+
+    <!-- Theme Toggle -->
+    <div class="flex items-center justify-between mb-4 p-3 bg-gray-100 rounded-lg">
+      <div class="flex items-center space-x-2">
+        <span id="theme-emoji" class="text-xl">🌙</span>
+        <label id="theme-label" for="theme-toggle" class="font-medium">Dark Mode</label>
+      </div>
+      <label class="relative inline-flex items-center cursor-pointer">
+        <input type="checkbox" id="theme-toggle" class="sr-only peer" checked>
+        <div class="w-11 h-6 bg-gray-300 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
+      </label>
+    </div>
+
     <!-- Tutorial Section with improved styling -->
     <div class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg p-4 border border-yellow-200 mt-6">
       <div class="flex items-center mb-3">
         <span class="text-2xl mr-2">🎓</span>
-        <h3 class="text-lg font-bold text-gray-800">Tutorial</h3>
+        <h3 id="tutorial-title" class="text-lg font-bold text-gray-800">Tutorial</h3>
       </div>
-      <p class="text-sm text-gray-600 mb-3">Need a refresher on how to play? Restart the interactive tutorial anytime.</p>
+      <p id="tutorial-description" class="text-sm text-gray-600 mb-3">Need a refresher on how to play? Restart the interactive tutorial anytime.</p>
       <button id="restart-tutorial-btn" class="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white font-bold py-2.5 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02]">
         <span class="flex items-center justify-center">
           <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
