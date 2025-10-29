@@ -1713,6 +1713,20 @@ function startQuizWithQuestions(questions, subjectName) {
   maxWrong = 2;
   selectedSubjectName = subjectName;
 
+  // Reset answer processing flag for new quiz
+  window.answerProcessing = false;
+  console.log('Reset answerProcessing flag for new quiz');
+
+  // Reset game over flag for new quiz
+  window.gameIsOver = false;
+  console.log('Reset gameIsOver flag for new quiz');
+
+  // Reset continue button processing state
+  if (window.continueButtonProcessing !== undefined) {
+    window.continueButtonProcessing = false;
+    console.log('Reset continue button processing state for new quiz');
+  }
+
   // Store questions
   window.currentQuestions = questions;
 
@@ -2540,6 +2554,36 @@ function buyPowerUp(type, amount, cost) {
   updatePowerUpCounts();
   
   alert(`Successfully purchased ${amount}x ${type === 'fifty-fifty' ? '50/50' : 'Skip'} for ${cost} diamonds!`);
+}
+
+// Buy power-up bundles with discount
+function buyPowerUpBundle(bundleType, amount, cost) {
+  if (diamonds < cost) {
+    alert(`Not enough diamonds! You need ${cost} diamonds but only have ${diamonds}.`);
+    return;
+  }
+
+  // Deduct diamonds
+  diamonds -= cost;
+  localStorage.setItem('qb_diamonds', diamonds.toString());
+
+  // Add all three power-ups
+  fiftyFiftyCount += amount;
+  localStorage.setItem('qb_fifty_fifty_count', fiftyFiftyCount.toString());
+
+  skipCount += amount;
+  localStorage.setItem('qb_skip_count', skipCount.toString());
+
+  timeBonusCount += amount;
+  localStorage.setItem('qb_time_bonus_count', timeBonusCount.toString());
+
+  // Update displays
+  updateDiamondDisplay();
+  updatePowerUpCounts();
+
+  // Show success message with bundle name
+  let bundleName = bundleType.charAt(0).toUpperCase() + bundleType.slice(1);
+  alert(`🎁 Successfully purchased ${bundleName} Bundle!\n\n✅ ${amount}x 50/50\n✅ ${amount}x Skip\n✅ ${amount}x Time Bonus\n\nTotal: ${cost} diamonds`);
 }
 
 // —— 6.9) Subject completion rewards ——
@@ -3542,6 +3586,7 @@ window.showSubjects = showSubjects;
 window.showRoadmap = showRoadmap;
 window.showShop = showShop;
 window.buyPowerUp = buyPowerUp;
+window.buyPowerUpBundle = buyPowerUpBundle;
 window.checkSubjectCompletion = checkSubjectCompletion;
 window.showExplanation = showExplanation;
 window.hideExplanation = hideExplanation;

@@ -40,12 +40,11 @@
 
     /* Apply theme colors */
     body {
-      background-color: var(--bg-primary) !important;
       color: var(--text-primary) !important;
       transition: background-color 0.3s ease, color 0.3s ease;
     }
 
-    /* All screens - force background color */
+    /* All screens - only set text color, let styles.css handle backgrounds */
     .screen,
     #home-screen,
     #subjects-screen,
@@ -55,21 +54,7 @@
     #roadmap-screen,
     #challenge-modes-screen,
     #shop-screen {
-      background-color: var(--bg-primary) !important;
       color: var(--text-primary) !important;
-    }
-
-
-    /* Main container and flex containers */
-    main,
-    .flex-1 {
-      background-color: var(--bg-primary) !important;
-    }
-
-    /* Force background on container divs */
-    body > div,
-    body > div > div {
-      background-color: var(--bg-primary);
     }
 
     /* All text elements */
@@ -660,6 +645,70 @@
         </div>
       </div>
       
+      <!-- Premium Power-up Packs -->
+      <div class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg p-4 mb-4">
+        <h3 class="text-xl font-bold mb-2 text-white">🎁 Premium Power-up Packs</h3>
+        <p class="text-indigo-100 text-sm mb-4">One-time purchase bundles with the best value!</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <!-- Beginner Pack -->
+          <div class="bg-indigo-700 bg-opacity-60 rounded-lg p-4 border-2 border-blue-400">
+            <div class="text-center mb-3">
+              <span class="text-white font-bold text-lg">Beginner Pack</span>
+              <div class="text-blue-200 text-xs">Save 20%!</div>
+            </div>
+            <div class="bg-indigo-800 bg-opacity-50 rounded p-3 mb-3" style="min-height: 120px;">
+              <div class="text-white text-sm font-semibold mb-2">Includes:</div>
+              <div class="text-white text-sm" style="line-height: 1.8;">
+                <div>✓ 10x 50/50 Power-up</div>
+                <div>✓ 5x Time Bonus</div>
+                <div>✓ 100 💎 Diamonds</div>
+              </div>
+            </div>
+            <button class="w-full bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded font-semibold" onclick="alert('Purchase feature coming soon!')">
+              $1.99 <span class="line-through text-blue-300 text-xs ml-1">$2.49</span>
+            </button>
+          </div>
+
+          <!-- Expert Pack -->
+          <div class="bg-indigo-700 bg-opacity-60 rounded-lg p-4 border-2 border-yellow-400">
+            <div class="text-center mb-3">
+              <span class="text-white font-bold text-lg">Expert Pack</span>
+              <div class="text-yellow-200 text-xs">Save 25%! ⭐</div>
+            </div>
+            <div style="background-color: rgba(49, 46, 129, 0.5) !important; border-radius: 0.5rem !important; padding: 0.75rem !important; margin-bottom: 0.75rem !important; min-height: 140px !important; display: block !important; overflow: visible !important; position: relative !important;">
+              <p style="color: white !important; font-size: 0.875rem !important; font-weight: 600 !important; margin-bottom: 0.5rem !important; display: block !important;">Includes:</p>
+              <p style="color: white !important; font-size: 0.875rem !important; margin: 0 !important; padding: 0 !important; display: block !important;">✓ 15x 50/50 Power-up</p>
+              <p style="color: white !important; font-size: 0.875rem !important; margin: 4px 0 !important; padding: 0 !important; display: block !important;">✓ 20x Skip Question</p>
+              <p style="color: white !important; font-size: 0.875rem !important; margin: 4px 0 !important; padding: 0 !important; display: block !important;">✓ 10x Time Bonus</p>
+              <p style="color: white !important; font-size: 0.875rem !important; margin: 4px 0 0 0 !important; padding: 0 !important; display: block !important;">✓ 250 💎 Diamonds</p>
+            </div>
+            <button class="w-full bg-yellow-600 hover:bg-yellow-500 text-white px-4 py-2 rounded font-semibold" onclick="alert('Purchase feature coming soon!')">
+              $4.99 <span class="line-through text-yellow-300 text-xs ml-1">$6.66</span>
+            </button>
+          </div>
+
+          <!-- Ultimate Pack -->
+          <div class="bg-indigo-700 bg-opacity-60 rounded-lg p-4 border-2 border-pink-400 relative" style="overflow: visible;">
+            <div class="absolute top-0 right-0 bg-pink-500 text-white text-xs px-2 py-1 font-bold">BEST VALUE</div>
+            <div class="text-center mb-3 mt-2">
+              <span class="text-white font-bold text-lg">Ultimate Pack</span>
+              <div class="text-pink-200 text-xs">Save 33%! 🔥</div>
+            </div>
+            <div style="background-color: rgba(49, 46, 129, 0.5) !important; border-radius: 0.5rem !important; padding: 0.75rem !important; margin-bottom: 0.75rem !important; min-height: 140px !important; display: block !important; overflow: visible !important; position: relative !important;">
+              <p style="color: white !important; font-size: 0.875rem !important; font-weight: 600 !important; margin-bottom: 0.5rem !important; display: block !important;">Includes:</p>
+              <p style="color: white !important; font-size: 0.875rem !important; margin: 0 !important; padding: 0 !important; display: block !important;">✓ 40x 50/50 Power-up</p>
+              <p style="color: white !important; font-size: 0.875rem !important; margin: 4px 0 !important; padding: 0 !important; display: block !important;">✓ 50x Skip Question</p>
+              <p style="color: white !important; font-size: 0.875rem !important; margin: 4px 0 !important; padding: 0 !important; display: block !important;">✓ 30x Time Bonus</p>
+              <p style="color: white !important; font-size: 0.875rem !important; margin: 4px 0 0 0 !important; padding: 0 !important; display: block !important;">✓ 600 💎 Diamonds</p>
+            </div>
+            <button class="w-full bg-pink-600 hover:bg-pink-500 text-white px-4 py-2 rounded font-semibold" onclick="alert('Purchase feature coming soon!')">
+              $9.99 <span class="line-through text-pink-300 text-xs ml-1">$14.99</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
       <!-- Diamond Purchases - Split Layout -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <!-- 50/50 Power-ups -->
@@ -1188,129 +1237,8 @@
 
   <link rel="stylesheet" href="styles.css">
   
-  <!-- Load main questions file first to set up infrastructure -->
   <script src="JS/questions.js"></script>
-  
-  <!-- Load Warm-up Tier: Animals subject levels -->
-  <script src="JS/subjects/warm-up/animals/level1.js"></script>
-  <script src="JS/subjects/warm-up/animals/level2.js"></script>
-  <script src="JS/subjects/warm-up/animals/level3.js"></script>
-  <script src="JS/subjects/warm-up/animals/level4.js"></script>
-  <script src="JS/subjects/warm-up/animals/level5.js"></script>
-  <script src="JS/subjects/warm-up/animals/level6.js"></script>
-  <script src="JS/subjects/warm-up/animals/level7.js"></script>
-  <script src="JS/subjects/warm-up/animals/level8.js"></script>
-  <script src="JS/subjects/warm-up/animals/level9.js"></script>
-  <script src="JS/subjects/warm-up/animals/level10.js"></script>
-  
-  <!-- Load Warm-up Tier: Ocean Mysteries subject levels -->
-  <script src="JS/subjects/warm-up/ocean-mysteries/level1.js"></script>
-  <script src="JS/subjects/warm-up/ocean-mysteries/level2.js"></script>
-  <script src="JS/subjects/warm-up/ocean-mysteries/level3.js"></script>
-  <script src="JS/subjects/warm-up/ocean-mysteries/level4.js"></script>
-  <script src="JS/subjects/warm-up/ocean-mysteries/level5.js"></script>
-  <script src="JS/subjects/warm-up/ocean-mysteries/level6.js"></script>
-  <script src="JS/subjects/warm-up/ocean-mysteries/level7.js"></script>
-  <script src="JS/subjects/warm-up/ocean-mysteries/level8.js"></script>
-  <script src="JS/subjects/warm-up/ocean-mysteries/level9.js"></script>
-  <script src="JS/subjects/warm-up/ocean-mysteries/level10.js"></script>
-  
-  <!-- Load Warm-up Tier: Arts & Culture subject levels -->
-  <script src="JS/subjects/warm-up/arts-culture/level1.js"></script>
-  <script src="JS/subjects/warm-up/arts-culture/level2.js"></script>
-  <script src="JS/subjects/warm-up/arts-culture/level3.js"></script>
-  <script src="JS/subjects/warm-up/arts-culture/level4.js"></script>
-  <script src="JS/subjects/warm-up/arts-culture/level5.js"></script>
-  <script src="JS/subjects/warm-up/arts-culture/level6.js"></script>
-  <script src="JS/subjects/warm-up/arts-culture/level7.js"></script>
-  <script src="JS/subjects/warm-up/arts-culture/level8.js"></script>
-  <script src="JS/subjects/warm-up/arts-culture/level9.js"></script>
-  <script src="JS/subjects/warm-up/arts-culture/level10.js"></script>
-  
-  <!-- Load Warm-up Tier: Dinosaurs subject levels -->
-  <script src="JS/subjects/warm-up/dinosaurs/level1.js"></script>
-  <script src="JS/subjects/warm-up/dinosaurs/level2.js"></script>
-  <script src="JS/subjects/warm-up/dinosaurs/level3.js"></script>
-  <script src="JS/subjects/warm-up/dinosaurs/level4.js"></script>
-  <script src="JS/subjects/warm-up/dinosaurs/level5.js"></script>
-  <script src="JS/subjects/warm-up/dinosaurs/level6.js"></script>
-  <script src="JS/subjects/warm-up/dinosaurs/level7.js"></script>
-  <script src="JS/subjects/warm-up/dinosaurs/level8.js"></script>
-  <script src="JS/subjects/warm-up/dinosaurs/level9.js"></script>
-  <script src="JS/subjects/warm-up/dinosaurs/level10.js"></script>
-  
-  <!-- Load Warm-up Tier: History subject levels -->
-  <script src="JS/subjects/warm-up/history/level1.js"></script>
-  <script src="JS/subjects/warm-up/history/level2.js"></script>
-  <script src="JS/subjects/warm-up/history/level3.js"></script>
-  <script src="JS/subjects/warm-up/history/level4.js"></script>
-  <script src="JS/subjects/warm-up/history/level5.js"></script>
-  <script src="JS/subjects/warm-up/history/level6.js"></script>
-  <script src="JS/subjects/warm-up/history/level7.js"></script>
-  <script src="JS/subjects/warm-up/history/level8.js"></script>
-  <script src="JS/subjects/warm-up/history/level9.js"></script>
-  <script src="JS/subjects/warm-up/history/level10.js"></script>
-  
-  <!-- Load Warm-up Tier: Science subject levels -->
-  <script src="JS/subjects/warm-up/science/level1.js"></script>
-  <script src="JS/subjects/warm-up/science/level2.js"></script>
-  <script src="JS/subjects/warm-up/science/level3.js"></script>
-  <script src="JS/subjects/warm-up/science/level4.js"></script>
-  <script src="JS/subjects/warm-up/science/level5.js"></script>
-  <script src="JS/subjects/warm-up/science/level6.js"></script>
-  <script src="JS/subjects/warm-up/science/level7.js"></script>
-  <script src="JS/subjects/warm-up/science/level8.js"></script>
-  <script src="JS/subjects/warm-up/science/level9.js"></script>
-  <script src="JS/subjects/warm-up/science/level10.js"></script>
-  
-  <!-- Load Warm-up Tier: Space Astronomy subject levels -->
-  <script src="JS/subjects/warm-up/space-astronomy/level1.js"></script>
-  <script src="JS/subjects/warm-up/space-astronomy/level2.js"></script>
-  <script src="JS/subjects/warm-up/space-astronomy/level3.js"></script>
-  <script src="JS/subjects/warm-up/space-astronomy/level4.js"></script>
-  <script src="JS/subjects/warm-up/space-astronomy/level5.js"></script>
-  <script src="JS/subjects/warm-up/space-astronomy/level6.js"></script>
-  <script src="JS/subjects/warm-up/space-astronomy/level7.js"></script>
-  <script src="JS/subjects/warm-up/space-astronomy/level8.js"></script>
-  <script src="JS/subjects/warm-up/space-astronomy/level9.js"></script>
-  <script src="JS/subjects/warm-up/space-astronomy/level10.js"></script>
-  
-  <!-- Load Warm-up Tier: Sports subject levels -->
-  <script src="JS/subjects/warm-up/sports/level1.js"></script>
-  <script src="JS/subjects/warm-up/sports/level2.js"></script>
-  <script src="JS/subjects/warm-up/sports/level3.js"></script>
-  <script src="JS/subjects/warm-up/sports/level4.js"></script>
-  <script src="JS/subjects/warm-up/sports/level5.js"></script>
-  <script src="JS/subjects/warm-up/sports/level6.js"></script>
-  <script src="JS/subjects/warm-up/sports/level7.js"></script>
-  <script src="JS/subjects/warm-up/sports/level8.js"></script>
-  <script src="JS/subjects/warm-up/sports/level9.js"></script>
-  <script src="JS/subjects/warm-up/sports/level10.js"></script>
-  
-  <!-- Load Warm-up Tier: Technology subject levels -->
-  <script src="JS/subjects/warm-up/technology/level1.js"></script>
-  <script src="JS/subjects/warm-up/technology/level2.js"></script>
-  <script src="JS/subjects/warm-up/technology/level3.js"></script>
-  <script src="JS/subjects/warm-up/technology/level4.js"></script>
-  <script src="JS/subjects/warm-up/technology/level5.js"></script>
-  <script src="JS/subjects/warm-up/technology/level6.js"></script>
-  <script src="JS/subjects/warm-up/technology/level7.js"></script>
-  <script src="JS/subjects/warm-up/technology/level8.js"></script>
-  <script src="JS/subjects/warm-up/technology/level9.js"></script>
-  <script src="JS/subjects/warm-up/technology/level10.js"></script>
-  
-  <!-- Load Warm-up Tier: World Geography subject levels -->
-  <script src="JS/subjects/warm-up/world-geography/level1.js"></script>
-  <script src="JS/subjects/warm-up/world-geography/level2.js"></script>
-  <script src="JS/subjects/warm-up/world-geography/level3.js"></script>
-  <script src="JS/subjects/warm-up/world-geography/level4.js"></script>
-  <script src="JS/subjects/warm-up/world-geography/level5.js"></script>
-  <script src="JS/subjects/warm-up/world-geography/level6.js"></script>
-  <script src="JS/subjects/warm-up/world-geography/level7.js"></script>
-  <script src="JS/subjects/warm-up/world-geography/level8.js"></script>
-  <script src="JS/subjects/warm-up/world-geography/level9.js"></script>
-  <script src="JS/subjects/warm-up/world-geography/level10.js"></script>
-  
+
   <!-- Load daily challenges system -->
   <script src="JS/daily-challenges.js"></script>
   

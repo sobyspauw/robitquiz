@@ -40,7 +40,7 @@
     {
       id: 'subjects-explained',
       title: 'Choose Your Subject',
-      content: 'Browse through all the different subjects in the different difficulty tiers. Each subject has unique questions and different star rewards! You can unlock the subjects with stars.',
+      content: 'Here you see all the awesome topics! The first one is free, but unlock the others with stars you earn! 🌟',
       target: null,
       position: 'center',
       image: 'images/tutorial/nadenken pose 4 NB.png'
@@ -163,7 +163,7 @@
     overlay.className = 'tutorial-overlay fixed inset-0 z-50 pointer-events-none';
     overlay.innerHTML = `
       <!-- Interaction blocking overlay -->
-      <div id="tutorial-interaction-blocker" class="fixed inset-0 z-40 pointer-events-auto" style="background: rgba(0, 0, 0, 0.1);"></div>
+      <div id="tutorial-interaction-blocker" class="fixed inset-0 pointer-events-auto" style="background: transparent; z-index: -1;"></div>
       
       <!-- Highlight square for targeted elements -->
       <div id="tutorial-highlight" class="tutorial-highlight fixed border-4 border-yellow-400 shadow-lg transition-all duration-500 pointer-events-none" style="display: none; background: rgba(255, 235, 59, 0.1);"></div>
@@ -846,22 +846,11 @@
     
     switch(step.id) {
       case 'welcome':
-        // Step 1: Position below the game logo
-        // Find the game logo image
-        const logo = document.querySelector('#home-screen img[alt="RobitQuiz"]');
-        if (logo) {
-          const logoRect = logo.getBoundingClientRect();
-          tutorialStrip.style.top = (logoRect.bottom + 20) + 'px';
-          tutorialStrip.style.bottom = '';
-          tutorialStrip.style.transform = 'translateX(-50%)';
-          console.log('Tutorial: Positioned below logo at', logoRect.bottom + 20);
-        } else {
-          // Fallback position if logo not found
-          tutorialStrip.style.top = '200px';
-          tutorialStrip.style.bottom = '';
-          tutorialStrip.style.transform = 'translateX(-50%)';
-          console.log('Tutorial: Logo not found, using fallback position');
-        }
+        // Step 1: Position at the bottom of the screen
+        tutorialStrip.style.bottom = '20px';
+        tutorialStrip.style.top = '';
+        tutorialStrip.style.transform = 'translateX(-50%)';
+        console.log('Tutorial: Positioned welcome step at bottom');
         break;
         
       case 'home-navigation':
@@ -915,46 +904,11 @@
         break;
         
       case 'play-button':
-        // Step 2: Position bottom of tutorial box to touch top of play button highlight
-        setTimeout(() => {
-          const playButton = document.querySelector('#levels-btn');
-          
-          if (playButton) {
-            const rect = playButton.getBoundingClientRect();
-            
-            // Get actual tutorial box height by forcing a layout update
-            tutorialStrip.style.visibility = 'hidden';
-            tutorialStrip.style.position = 'fixed';
-            tutorialStrip.style.top = '0px';
-            const tutorialRect = tutorialStrip.getBoundingClientRect();
-            const tutorialBoxHeight = tutorialRect.height;
-            
-            // Calculate where the highlight box starts (top edge)
-            const highlightPadding = 20; // padding around button in highlight
-            const highlightTopEdge = rect.top - highlightPadding;
-            
-            // Position tutorial box so its bottom edge touches the highlight top edge
-            const tutorialTopPosition = highlightTopEdge - tutorialBoxHeight;
-            
-            // Apply the positioning
-            tutorialStrip.style.visibility = 'visible';
-            tutorialStrip.style.top = tutorialTopPosition + 'px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-            
-            console.log('Tutorial: Positioned tutorial box above play button');
-          } else {
-            console.log('Tutorial: Play button not found, using fallback top position');
-            tutorialStrip.style.top = '20px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-          }
-        }, 100);
-        
-        // Initial fallback position
-        tutorialStrip.style.top = '20px';
-        tutorialStrip.style.bottom = '';
+        // Step 2: Position at the bottom of the screen
+        tutorialStrip.style.bottom = '20px';
+        tutorialStrip.style.top = '';
         tutorialStrip.style.transform = 'translateX(-50%)';
+        console.log('Tutorial: Positioned play button step at bottom');
         break;
         
       case 'game-modes-intro':
@@ -1251,11 +1205,11 @@
         break;
 
       case 'subjects-explained':
-        // Other steps: Position at top
-        tutorialStrip.style.top = '20px';
-        tutorialStrip.style.bottom = '';
+        // Step 3: Position at the bottom of the screen
+        tutorialStrip.style.bottom = '20px';
+        tutorialStrip.style.top = '';
         tutorialStrip.style.transform = 'translateX(-50%)';
-        console.log('Tutorial: Positioned at top');
+        console.log('Tutorial: Positioned subjects-explained step at bottom');
         break;
         
       case 'currency-system':

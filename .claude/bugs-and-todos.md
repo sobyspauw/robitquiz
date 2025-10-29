@@ -3,18 +3,19 @@
 **Last Updated:** 2025-10-22
 
 ---
+tutorial laat geen schermen zien.
+
+tutorial text checken bij de explaination text bijvoegen dat het uit gezet kan worden in de settings. daily challange text aanpassen.
+
+in de tutorial beginnen met de taal instellen. 
+
+scherm vinkje en kruisje lijken een licht donkere/transpirate achtergrond te hebben.
+
+het is mogenlijk bij 2 fouten als je snel doorklikt om 3 fouten te maekn en als je te snel klikt op het oude verkeerde antwoord voordat de volgende vraag is geladen dan kan je gelijk de melding krijgen oop s too much errors
 
 ## 🎯 ACTIEVE TAKEN
 
 ### 🐛 Bugs - High Priority
-- [ ] **CRITICAL: 2758 duplicate questions found across all subjects** - Discovered 2025-10-23
-  - **Monopoly**: Levels 2-10 have ~20 identical questions each (180 dups total)
-  - **Scrabble**: Levels 2-10 have ~20 identical questions each (180 dups total)
-  - **Chess**: Levels 2-10 have placeholder text "Sample question in English?" (45 dups)
-  - **Beer**: Levels 5-10 have same 10 questions repeated (50 dups total)
-  - **Mummification (Egypt)**: Levels 1-3 share 20 questions (40 dups)
-  - Plus 100+ smaller duplicate clusters in AI, Books, Drinks, etc.
-  - Script created: `check-duplicates.js` for detection
 - [ ] **Level 10 special popup shows multiple "Next" buttons** - Needs testing after recent fix
 
 ### 🐛 Bugs - Medium Priority
@@ -33,14 +34,10 @@
 - [ ] **"Watch ad or diamond" optie aantrekkelijker maken** - In timeout/mistakes popups
 - [ ] **Survival en Extreme Survival questions systeem** - Subjects folder hergebruiken?
 
-### ✨ Features - Low Priority
-- [ ] **Test level 10 completion flow end-to-end**
-- [ ] **Verify progress bar reaches 100%** - When all levels completed
-- [ ] **Verify button styling** - Turns green and gets disabled when completed
 
 ---
 
-## ✅ RECENT VOLTOOID (2025-10-23)
+## ✅ RECENT VOLTOOID (2025-10-22)
 
 ### Answer Length Optimalisatie - 100% COMPLEET
 **Probleem:** Langste antwoord optie was vaak het juiste antwoord
@@ -53,14 +50,11 @@
 - ✅ Egypt: 300+ vragen (alle subcategorieën)
 - ✅ Books, AI, F1, Famous People: 450+ vragen
 - ✅ Globale patterns: 6,000+ vragen via batch sed commands
-- ✅ **AI Ethics: 4 batch edits over alle 10 levels** (2025-10-23)
-- ✅ **Neurale netwerken: 17 batch edits over alle 10 levels** (2025-10-23)
 
 **Methodologie:**
 - Fase 1-8: Numbers, abbreviations, filler words, passive voice
 - Fase 9-16: Comparisons, time/measurement/direction abbreviations
 - Fase 17-23: Location/scientific abbreviations, phrase simplifications
-- AI Ethics & Neurale netwerken: Targeted patterns voor verbose technical descriptions
 - Difficulty NIET verhoogd, betekenis 100% behouden
 
 ### UI/UX Verbeteringen

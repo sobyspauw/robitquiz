@@ -51,6 +51,10 @@ function startLevel(groupIdx, levelIdx) {
   window.answerProcessing = false;
   console.log('Reset answerProcessing flag for new level');
 
+  // Reset game over flag for new level
+  window.gameIsOver = false;
+  console.log('Reset gameIsOver flag for new level');
+
   // Reset continue button processing state
   if (window.continueButtonProcessing !== undefined) {
     window.continueButtonProcessing = false;
@@ -146,6 +150,14 @@ function handleAnswer(answer, btn) {
     document.getElementById('snd-wrong').play();
     wrongCount++;
     console.log('❌ WRONG ANSWER - wrongCount is now:', wrongCount, '(limit is 2)');
+
+    // Check immediately if game over (2 mistakes)
+    if (wrongCount >= 2) {
+      console.log('🚨 IMMEDIATE GAME OVER - Preventing further interaction');
+      // Set a flag to prevent any further question loading
+      window.gameIsOver = true;
+    }
+
     btn.style.background = '#F23F5D'; // pinkish red for wrong
     btn.style.color = '#FFFFFF'; // white text
     btn.style.border = '2px solid #F23F5D';
@@ -244,6 +256,12 @@ function handleAnswer(answer, btn) {
 
 // New function to handle continuing to next question
 function continueToNextQuestion() {
+  // Check if game is over before continuing
+  if (window.gameIsOver) {
+    console.log('🚨 Game is over - blocking continue to next question');
+    return;
+  }
+
   // Reset answer processing flag for next question
   window.answerProcessing = false;
   console.log('Reset answerProcessing flag for next question');

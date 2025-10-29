@@ -270,7 +270,9 @@ const isDark = localStorage.getItem('qb_dark_mode') === 'true';
 localStorage.setItem('qb_dark_mode', (!isDark).toString());
 location.reload()
 ```
-
+const islight = localStorage.getItem('qb_light_mode') === 'true';
+localStorage.setItem('qb_light_mode', (!islight).toString());
+location.reload()
 ---
 
 ## 💡 Quick Start Testing Scenario

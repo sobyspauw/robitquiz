@@ -92,6 +92,7 @@
   display: flex !important;
   flex-direction: column !important;
   height: 100% !important;
+  background: transparent !important;
 }
 
 .tutorial-main-content {
@@ -100,6 +101,7 @@
   justify-content: space-between !important;
   gap: 2rem !important;
   flex: 1 !important;
+  background: transparent !important;
 }
 
 .tutorial-text {
@@ -107,6 +109,15 @@
   text-align: left !important;
   max-width: 70% !important;
   padding-right: 2rem !important;
+  background: transparent !important;
+}
+
+.tutorial-text h3 {
+  font-size: 1.5rem !important;
+}
+
+.tutorial-text p {
+  font-size: 1.125rem !important;
 }
 
 #tutorial-character {
@@ -1236,6 +1247,108 @@ body.light-mode #complete-modal {
   }
 }
 
+/* Light mode styling for body and screens */
+body.light-mode {
+  background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%) !important;
+  color: #1f2937 !important;
+}
+
+body.light-mode #home-screen {
+  background-color: var(--bg-primary) !important;
+  background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
+}
+
+body.light-mode #home-screen h1,
+body.light-mode #home-screen * {
+  color: #1f2937 !important;
+}
+
+body.light-mode #home-welcome {
+  color: #d97706 !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+body.light-mode #quiz-screen,
+body.light-mode #subjects-screen,
+body.light-mode #levels-screen,
+body.light-mode #settings-screen,
+body.light-mode #shop-screen,
+body.light-mode #challenge-modes-screen {
+  background-color: var(--bg-primary) !important;
+  background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
+}
+
+body.light-mode #quiz-screen h1,
+body.light-mode #quiz-screen h2,
+body.light-mode #quiz-screen h3,
+body.light-mode #quiz-screen p,
+body.light-mode #quiz-screen span,
+body.light-mode #quiz-screen div,
+body.light-mode #subjects-screen *,
+body.light-mode #levels-screen *,
+body.light-mode #settings-screen *,
+body.light-mode #shop-screen *,
+body.light-mode #challenge-modes-screen * {
+  color: #1f2937 !important;
+}
+
+body.light-mode #question {
+  color: #1f2937 !important;
+  text-shadow: none;
+}
+
+body.light-mode #levels-screen h2,
+body.light-mode #subjects-screen h2 {
+  color: #d97706 !important;
+}
+
+/* Light mode button styling */
+body.light-mode .answer-btn {
+  background: #ffffff !important;
+  color: #1f2937 !important;
+  border: 2px solid #3b82f6 !important;
+}
+
+body.light-mode .answer-btn:hover:not(:disabled) {
+  background: #3b82f6 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
+}
+
+body.light-mode .subject-btn {
+  background: #ffffff !important;
+  color: #1f2937 !important;
+  border: 6px solid #f59e0b !important;
+}
+
+body.light-mode .subject-btn:hover {
+  background: #f59e0b !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3) !important;
+}
+
+body.light-mode .roadmap-subject-btn {
+  background: #ffffff !important;
+  color: #1f2937 !important;
+  border: 3px solid #f59e0b !important;
+}
+
+body.light-mode .roadmap-subject-btn.unlocked:hover {
+  background: #f59e0b !important;
+  color: #ffffff !important;
+}
+
+body.light-mode .roadmap-subject-btn.locked {
+  background: #e5e7eb !important;
+  color: #6b7280 !important;
+  border-color: #9ca3af !important;
+}
+
+body.light-mode #top-bar {
+  background-color: var(--bg-primary) !important;
+  background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
+}
+
 /* Tutorial light mode styling */
 body.light-mode #tutorial-strip {
   background: linear-gradient(to right, #fef9e7, #fef5e7) !important;
@@ -1299,4 +1412,17 @@ body.light-mode #tutorial-next:hover {
     transform: translate(-50%, -50%) scale(0) rotate(0deg);
     opacity: 0;
   }
+}
+
+/* Premium Bundle Cards Fix */
+.bg-indigo-700 > div[style*="min-height"] {
+  display: block !important;
+  overflow: visible !important;
+  max-height: none !important;
+  height: auto !important;
+}
+
+.bg-indigo-700 > div[style*="min-height"] > div {
+  display: block !important;
+  visibility: visible !important;
 }

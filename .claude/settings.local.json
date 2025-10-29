@@ -257,7 +257,9 @@
       "Bash(start \"\" \"RobitQuiztest1.html\")",
       "Bash(start \"\" \"reset-tutorial.html\")",
       "Bash(git fsck:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd new subject categories and restore light/dark mode functionality\n\nMajor changes:\n- Added new subject categories: AI, Board Games, Books, Currencies, Desserts, Dinosaurs, Drinks, Egypt, F1, Famous People, Famous Buildings, Food\n- Removed old subject structure (warm-up, brain-teaser, mind-bender, mastermind, impossible-mode)\n- Restored light/dark mode toggle with slider UI in settings\n- Updated styles.css with light mode styling\n- Cleaned up temporary files (duplicate checkers, crash dumps)\n- Updated UI translations and theme functionality\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
