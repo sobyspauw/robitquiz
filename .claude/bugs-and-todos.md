@@ -9,9 +9,14 @@ tutorial text checken bij de explaination text bijvoegen dat het uit gezet kan w
 
 in de tutorial beginnen met de taal instellen. 
 
-scherm vinkje en kruisje lijken een licht donkere/transpirate achtergrond te hebben.
+prijzen in de shop checken
 
-het is mogenlijk bij 2 fouten als je snel doorklikt om 3 fouten te maekn en als je te snel klikt op het oude verkeerde antwoord voordat de volgende vraag is geladen dan kan je gelijk de melding krijgen oop s too much errors
+daily challange dezelfde look geven als de normale levels.
+
+game modes vragen maken
+
+game modes fixen
+
 
 ## 🎯 ACTIEVE TAKEN
 
@@ -93,7 +98,6 @@ het is mogenlijk bij 2 fouten als je snel doorklikt om 3 fouten te maekn en als 
 
 ### UX/UI
 - Visual feedback upgrade: Overweeg trillingen (vibration API) bij antwoorden
-- Progress visualization: Confetti burst bij volledig voltooide onderwerpen
 - Tutorial improvements: Maak interactiever - laat gebruiker stappen uitvoeren
 
 ### Game Mechanics
@@ -104,7 +108,6 @@ het is mogenlijk bij 2 fouten als je snel doorklikt om 3 fouten te maekn en als 
 
 ### Monetization
 - Watch ad incentive: 2x stars/rewards na ad bekijken
-- Power-up bundles: Pakketten met korting
 - Achievement system: Badges voor prestaties
 
 ### Technical

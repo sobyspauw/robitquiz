@@ -94,6 +94,12 @@ const translations = {
     de: "Zurück zu Levels",
     nl: "Terug naar Levels"
   },
+  backToHome: {
+    en: "Back to Home",
+    es: "Volver al Inicio",
+    de: "Zurück zur Startseite",
+    nl: "Terug naar Home"
+  },
   oops: {
     en: "Oops!",
     es: "¡Ups!",
@@ -269,22 +275,22 @@ const translations = {
     nl: "Winkel"
   },
   fiftyFiftyPowerups: {
-    en: "50/50 Power-ups",
-    es: "Power-ups 50/50",
-    de: "50/50 Power-ups",
-    nl: "50/50 Hulpmiddelen"
+    en: "50/50",
+    es: "50/50",
+    de: "50/50",
+    nl: "50/50"
   },
   skipPowerups: {
-    en: "Skip Question Power-ups",
-    es: "Power-ups para Saltar Preguntas",
-    de: "Frage Überspringen Power-ups",
-    nl: "Vraag Overslaan Hulpmiddelen"
+    en: "Skip",
+    es: "Saltar",
+    de: "Überspringen",
+    nl: "Overslaan"
   },
   timeBonusPowerups: {
-    en: "Time Bonus Power-ups",
-    es: "Power-ups de Bono de Tiempo",
-    de: "Zeitbonus Power-ups",
-    nl: "Tijd Bonus Hulpmiddelen"
+    en: "Time",
+    es: "Tiempo",
+    de: "Zeit",
+    nl: "Tijd"
   },
   removeWrongAnswers: {
     en: "Remove 2 wrong answers",
@@ -335,10 +341,10 @@ const translations = {
     nl: "Claim eens per dag"
   },
   claimDiamonds: {
-    en: "✨ Claim 5 💎",
-    es: "✨ Reclamar 5 💎",
-    de: "✨ 5 💎 einlösen",
-    nl: "✨ Claim 5 💎"
+    en: '<span>Claim 5 💎</span><span class="text-sm mt-1">Free</span>',
+    es: '<span>Reclamar 5 💎</span><span class="text-sm mt-1">Gratis</span>',
+    de: '<span>5 💎 einlösen</span><span class="text-sm mt-1">Kostenlos</span>',
+    nl: '<span>Claim 5 💎</span><span class="text-sm mt-1">Gratis</span>'
   },
   watchAdsForDiamonds: {
     en: "Watch Ads for Diamonds",
@@ -353,10 +359,10 @@ const translations = {
     nl: "Bekijk maximaal 3 advertenties per dag"
   },
   watchAd: {
-    en: "📺 Watch Ad",
-    es: "📺 Ver Anuncio",
-    de: "📺 Werbung ansehen",
-    nl: "📺 Bekijk advertentie"
+    en: '<span>Get 10 💎</span><span class="text-2xl mt-1">📺</span>',
+    es: '<span>Obtener 10 💎</span><span class="text-2xl mt-1">📺</span>',
+    de: '<span>Erhalte 10 💎</span><span class="text-2xl mt-1">📺</span>',
+    nl: '<span>Krijg 10 💎</span><span class="text-2xl mt-1">📺</span>'
   },
   adRewards: {
     en: "1st ad: 10 💎 • 2nd ad: 25 💎 • 3rd ad: 50 💎",
@@ -423,6 +429,7 @@ let challengeWrong = 0;
 let challengeTimer;
 let challengeTimerInterval;
 let isDailyChallenge = false;
+let challengeResetTimerInterval = null;
 
 // —— Timer state management ——
 let timerState = {
@@ -463,6 +470,13 @@ function showScreen(screenId) {
     startCooldownUpdater();
   } else {
     stopCooldownUpdater();
+  }
+
+  // Start/stop daily rewards timer based on screen
+  if (screenId === 'shop-screen') {
+    startDailyRewardsTimer();
+  } else {
+    stopDailyRewardsTimer();
   }
   
   // Update top bar
@@ -668,7 +682,7 @@ function applyTranslations() {
 
   if (challengeFailedTitle) challengeFailedTitle.innerText = t('challengeFailedTitle');
   if (challengeFailedText) challengeFailedText.innerText = t('challengeFailedText');
-  if (challengeFailedBack) challengeFailedBack.innerText = t('backToLevels');
+  if (challengeFailedBack) challengeFailedBack.innerText = t('backToHome');
 
   // Settings screen translations
   const settingsTitle = document.getElementById('settings-title');
@@ -786,10 +800,10 @@ function updateShopTranslations() {
 
   // Buttons
   const dailyClaimBtn = document.getElementById('daily-claim-btn');
-  if (dailyClaimBtn) dailyClaimBtn.innerText = t('claimDiamonds');
+  if (dailyClaimBtn) dailyClaimBtn.innerHTML = t('claimDiamonds');
 
   const watchAdBtn = document.getElementById('watch-ad-btn');
-  if (watchAdBtn) watchAdBtn.innerText = t('watchAd');
+  if (watchAdBtn) watchAdBtn.innerHTML = t('watchAd');
 }
 
 // These will be handled later in the file
@@ -1427,7 +1441,7 @@ function showSubjects() {
     const cost = topic.unlockCost;
     
     const container = document.createElement('div');
-    container.className = 'w-full mb-4';
+    container.className = 'w-full';
 
     const btn = document.createElement('button');
     // Color based on topic
@@ -1573,7 +1587,7 @@ function showSubcategories(mainTopicId) {
     });
 
     const container = document.createElement('div');
-    container.className = 'w-full mb-4';
+    container.className = 'w-full';
 
     const btn = document.createElement('button');
     // Disable button if all levels completed
@@ -2162,53 +2176,49 @@ function updateDailyChallengeButton() {
   console.log('Daily challenge button classes after update:', btn.className);
 }
 
-function startDailyChallenge() {
+async function startDailyChallenge() {
   const status = getDailyChallengeStatus();
   if (!status.available) {
     console.log('Daily challenge not available:', status);
     return;
   }
-  
-  // Check if groups are loaded
-  if (!window.groups || window.groups.length === 0) {
-    console.log('Groups not loaded yet, cannot start daily challenge');
-    alert('Please wait for subjects to load and try again.');
-    return;
-  }
-  
-  console.log('Starting daily challenge with', window.groups.length, 'subjects loaded');
-  
+
   // Reset challenge state
   isDailyChallenge = true;
   challengeIndex = 0;
   challengeCorrect = 0;
   challengeWrong = 0;
-  
-  // Get random questions from all groups
-  const allQuestions = [];
-  window.groups.forEach(group => {
-    if (group.levels && group.levels.length > 0) {
-      group.levels.forEach(level => {
-        if (level.questions && level.questions.length > 0) {
-          allQuestions.push(...level.questions);
-        }
-      });
-    }
-  });
-  
-  console.log('Total questions available for daily challenge:', allQuestions.length);
-  
-  if (allQuestions.length < 5) {
-    alert('Not enough questions loaded yet. Please wait and try again.');
+
+  // Determine which day of October it is (1-31)
+  const today = new Date();
+  const dayOfMonth = today.getDate();
+  const month = today.getMonth(); // 0-11, where 9 = October
+
+  // Check if we're in October
+  if (month !== 9) {
+    alert('Daily challenges are only available in October!');
     return;
   }
-  
-  // Select 5 random questions
-  challengeQuestions = [...allQuestions]
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 5);
-  
-  console.log('Selected 5 questions for daily challenge');
+
+  // Get the challenges for this month
+  if (!window.monthlyChallenges || !window.monthlyChallenges.october) {
+    console.error('October challenges not loaded');
+    alert('Daily challenges not available. Please refresh the page.');
+    return;
+  }
+
+  const dayKey = `day${dayOfMonth}`;
+  const todaysChallenges = window.monthlyChallenges.october[dayKey];
+
+  if (!todaysChallenges || todaysChallenges.length !== 5) {
+    console.error('No challenges found for day:', dayOfMonth);
+    alert('No challenges available for today.');
+    return;
+  }
+
+  console.log(`Loading daily challenge for October ${dayOfMonth}`);
+  challengeQuestions = todaysChallenges;
+
   showScreen('daily-challenge-screen');
   renderChallengeQuestion();
 }
@@ -2255,6 +2265,7 @@ function startChallengeTimer() {
   
   challengeTimer = setTimeout(() => {
     // Time's up - count as wrong answer
+    document.getElementById('snd-wrong').play();
     challengeWrong++;
     if (challengeWrong > 1) {
       failDailyChallenge();
@@ -2275,9 +2286,11 @@ function handleChallengeAnswer(answer, btn) {
   document.querySelectorAll('#challenge-answers .answer-btn').forEach(b => b.disabled = true);
   clearTimeout(challengeTimer);
   clearInterval(challengeTimerInterval);
-  
+
   const q = challengeQuestions[challengeIndex];
-  const correctAnswer = q.options[q.correctIndex][lang];
+  // Support both 'correct' and 'correctIndex' property names
+  const correctIndex = q.correct !== undefined ? q.correct : q.correctIndex;
+  const correctAnswer = q.options[correctIndex][lang];
   
   if (answer === correctAnswer) {
     document.getElementById('snd-correct').play();
@@ -2285,12 +2298,22 @@ function handleChallengeAnswer(answer, btn) {
     btn.style.background = '#22c55e'; // green
     btn.style.color = '#FFFFFF';
     btn.style.border = '2px solid #22c55e';
+
+    // Show checkmark animation
+    if (typeof window.showFeedbackIcon === 'function') {
+      window.showFeedbackIcon('✓', '#22c55e');
+    }
   } else {
     document.getElementById('snd-wrong').play();
     challengeWrong++;
     btn.style.background = '#F23F5D'; // pinkish red
     btn.style.color = '#FFFFFF';
     btn.style.border = '2px solid #F23F5D';
+
+    // Show cross animation
+    if (typeof window.showFeedbackIcon === 'function') {
+      window.showFeedbackIcon('✗', '#F23F5D');
+    }
 
     // Show correct answer
     document.querySelectorAll('#challenge-answers button').forEach(b => {
@@ -2323,49 +2346,73 @@ function completeDailyChallenge() {
     completed: true,
     failed: false
   }));
-  
-  // Award 20 stars and 10 diamonds
+
+  // Award 20 stars and 15 diamonds (increased from 10)
   stars += 20;
-  diamonds += 10;
+  diamonds += 15;
   localStorage.setItem('qb_stars', stars.toString());
   localStorage.setItem('qb_diamonds', diamonds.toString());
   updateStarDisplay();
   updateDiamondDisplay();
   updateDailyChallengeButton();
-  
+
   // Show completion modal
   document.getElementById('challenge-complete-modal').classList.remove('hidden');
 }
 
 function failDailyChallenge() {
+  // Play failure sound
+  document.getElementById('snd-wrong2').play();
+
   const today = new Date().toDateString();
   localStorage.setItem('qb_daily_challenge', JSON.stringify({
     date: today,
     completed: false,
     failed: true
   }));
-  
+
   updateDailyChallengeButton();
-  updateChallengeResetTimer();
-  
+
   // Show failure modal
   document.getElementById('challenge-failed-modal').classList.remove('hidden');
 }
 
 function updateChallengeResetTimer() {
+  const timeEl = document.getElementById('challenge-reset-time');
+  if (!timeEl) return;
+
   const now = new Date();
   const tomorrow = new Date(now);
   tomorrow.setDate(tomorrow.getDate() + 1);
   tomorrow.setHours(0, 0, 0, 0);
-  
+
   const timeDiff = tomorrow.getTime() - now.getTime();
   const hours = Math.floor(timeDiff / (1000 * 60 * 60));
   const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
-  
-  const timeEl = document.getElementById('challenge-reset-time');
-  if (timeEl) {
-    timeEl.innerText = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+  timeEl.innerText = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+}
+
+function startChallengeResetTimer() {
+  // Clear any existing interval
+  if (challengeResetTimerInterval) {
+    clearInterval(challengeResetTimerInterval);
+  }
+
+  // Update immediately
+  updateChallengeResetTimer();
+
+  // Then update every second
+  challengeResetTimerInterval = setInterval(() => {
+    updateChallengeResetTimer();
+  }, 1000);
+}
+
+function stopChallengeResetTimer() {
+  if (challengeResetTimerInterval) {
+    clearInterval(challengeResetTimerInterval);
+    challengeResetTimerInterval = null;
   }
 }
 
@@ -2373,60 +2420,87 @@ function updateChallengeResetTimer() {
 function showShop() {
   updateDailyClaimButton();
   updateAdWatchButton();
+  startDailyRewardsTimer();
   showScreen('shop-screen');
 }
 
 // Daily diamond claim functionality
 function getDailyClaimStatus() {
-  const today = new Date().toDateString();
   const claimData = JSON.parse(localStorage.getItem('qb_daily_claim') || '{}');
-  
+
+  if (!claimData.timestamp) {
+    return {
+      available: true,
+      lastClaimed: null,
+      nextAvailable: null
+    };
+  }
+
+  const claimTime = new Date(claimData.timestamp);
+  const now = new Date();
+  const hoursSinceClaim = (now - claimTime) / (1000 * 60 * 60);
+
   return {
-    available: claimData.date !== today,
-    lastClaimed: claimData.date || null
+    available: hoursSinceClaim >= 24,
+    lastClaimed: claimData.timestamp,
+    nextAvailable: new Date(claimTime.getTime() + 24 * 60 * 60 * 1000)
   };
 }
 
 function claimDailyDiamonds() {
   const status = getDailyClaimStatus();
   if (!status.available) {
-    alert('You have already claimed your daily diamonds today!');
+    alert('You have already claimed your daily diamonds! Come back later.');
     return;
   }
-  
-  // Award 5 diamonds
-  diamonds += 5;
+
+  // Award 10 diamonds (increased from 5 for better F2P balance)
+  diamonds += 10;
   localStorage.setItem('qb_diamonds', diamonds.toString());
   updateDiamondDisplay();
-  
-  // Mark as claimed today
-  const today = new Date().toDateString();
+
+  // Mark as claimed with timestamp
   localStorage.setItem('qb_daily_claim', JSON.stringify({
-    date: today,
+    timestamp: new Date().toISOString(),
     claimed: true
   }));
-  
+
   // Update button states
   updateDailyClaimButton();
   updateShopButtonIndicator();
-  
-  alert('🎉 You claimed 5 diamonds! 💎');
+
+  alert('🎉 You claimed 10 diamonds! 💎');
+}
+
+function getTimeUntilAvailable(nextAvailableTime) {
+  if (!nextAvailableTime) return '00:00:00';
+
+  const now = new Date();
+  const diff = nextAvailableTime - now;
+
+  if (diff <= 0) return '00:00:00';
+
+  const hours = Math.floor(diff / (1000 * 60 * 60));
+  const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+  return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 }
 
 function updateDailyClaimButton() {
   const claimBtn = document.getElementById('daily-claim-btn');
   if (!claimBtn) return;
-  
+
   const status = getDailyClaimStatus();
-  
+
   if (status.available) {
     claimBtn.disabled = false;
-    claimBtn.className = 'bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded';
-    claimBtn.innerHTML = '✨ Claim 5 💎';
+    claimBtn.className = 'w-full bg-green-600 hover:bg-green-700 text-white px-4 py-3 rounded font-semibold flex flex-col items-center';
+    claimBtn.innerHTML = '<span>Claim 5 💎</span><span class="text-sm mt-1">Free</span>';
   } else {
     claimBtn.disabled = true;
-    claimBtn.className = 'bg-gray-600 text-white px-4 py-2 rounded cursor-not-allowed';
-    claimBtn.innerHTML = '✅ Claimed Today';
+    claimBtn.className = 'w-full bg-green-600 text-white px-4 py-3 rounded cursor-not-allowed flex flex-col items-center font-semibold relative overflow-hidden';
+    claimBtn.innerHTML = '<span>Claim 5 💎</span><span class="text-sm mt-1">Free</span><div class="absolute inset-0 bg-gray-800 bg-opacity-70 flex items-center justify-center text-lg font-bold" id="claim-timer" data-next-available="' + (status.nextAvailable ? status.nextAvailable.toISOString() : '') + '">' + getTimeUntilAvailable(status.nextAvailable) + '</div>';
   }
 }
 
@@ -2454,25 +2528,39 @@ function updateShopButtonIndicator() {
 
 // Ad watching functionality
 function getDailyAdWatchStatus() {
-  const today = new Date().toDateString();
   const adData = JSON.parse(localStorage.getItem('qb_daily_ads') || '{}');
-  
-  if (adData.date !== today) {
-    // New day, reset ad count
-    return { 
-      adsWatched: 0, 
+
+  if (!adData.timestamp) {
+    return {
+      adsWatched: 0,
       canWatch: true,
-      nextReward: 10
+      nextReward: 15,
+      nextAvailable: null
     };
   }
-  
+
+  const lastAdTime = new Date(adData.timestamp);
+  const now = new Date();
+  const hoursSinceLastAd = (now - lastAdTime) / (1000 * 60 * 60);
+
   const adsWatched = adData.adsWatched || 0;
-  const rewards = [10, 25, 50];
-  
+  const rewards = [15, 30, 60]; // Increased from [10, 25, 50] for better F2P balance
+
+  // Reset after 24 hours
+  if (hoursSinceLastAd >= 24) {
+    return {
+      adsWatched: 0,
+      canWatch: true,
+      nextReward: 15,
+      nextAvailable: null
+    };
+  }
+
   return {
     adsWatched: adsWatched,
     canWatch: adsWatched < 3,
-    nextReward: adsWatched < 3 ? rewards[adsWatched] : 0
+    nextReward: adsWatched < 3 ? rewards[adsWatched] : 0,
+    nextAvailable: adsWatched >= 3 ? new Date(lastAdTime.getTime() + 24 * 60 * 60 * 1000) : null
   };
 }
 
@@ -2490,11 +2578,10 @@ function watchAdForDiamonds() {
     diamonds += status.nextReward;
     localStorage.setItem('qb_diamonds', diamonds.toString());
     updateDiamondDisplay();
-    
-    // Update ad watch count
-    const today = new Date().toDateString();
+
+    // Update ad watch count with timestamp
     const newAdData = {
-      date: today,
+      timestamp: new Date().toISOString(),
       adsWatched: status.adsWatched + 1
     };
     localStorage.setItem('qb_daily_ads', JSON.stringify(newAdData));
@@ -2509,21 +2596,72 @@ function watchAdForDiamonds() {
 function updateAdWatchButton() {
   const watchBtn = document.getElementById('watch-ad-btn');
   const statusText = document.getElementById('ad-watch-status');
-  
-  if (!watchBtn || !statusText) return;
-  
+
+  if (!watchBtn) return;
+
   const status = getDailyAdWatchStatus();
-  
+
   if (status.canWatch) {
     watchBtn.disabled = false;
-    watchBtn.className = 'bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded';
-    watchBtn.innerHTML = `📺 Get ${status.nextReward} 💎`;
-    statusText.innerText = `${status.adsWatched}/3 ads watched today`;
+    watchBtn.className = 'w-full bg-orange-600 hover:bg-orange-700 text-white px-4 py-3 rounded font-semibold flex flex-col items-center';
+    watchBtn.innerHTML = `<span>Get ${status.nextReward} 💎</span><span class="text-2xl mt-1">📺</span>`;
+    if (statusText) statusText.innerText = `${status.adsWatched}/3 ads watched today`;
   } else {
     watchBtn.disabled = true;
-    watchBtn.className = 'bg-gray-600 text-white px-4 py-2 rounded cursor-not-allowed';
-    watchBtn.innerHTML = '✅ All Done';
-    statusText.innerText = '3/3 ads watched today - Come back tomorrow!';
+    watchBtn.className = 'w-full bg-orange-600 text-white px-4 py-3 rounded cursor-not-allowed flex flex-col items-center font-semibold relative overflow-hidden';
+    watchBtn.innerHTML = '<span>Get 10 💎</span><span class="text-2xl mt-1">📺</span><div class="absolute inset-0 bg-gray-800 bg-opacity-70 flex items-center justify-center text-lg font-bold" id="watch-timer" data-next-available="' + (status.nextAvailable ? status.nextAvailable.toISOString() : '') + '">' + getTimeUntilAvailable(status.nextAvailable) + '</div>';
+    if (statusText) statusText.innerText = '3/3 ads watched today';
+  }
+}
+
+function updateTimerDisplays() {
+  const claimTimer = document.getElementById('claim-timer');
+  const watchTimer = document.getElementById('watch-timer');
+
+  if (claimTimer) {
+    const nextAvailable = claimTimer.getAttribute('data-next-available');
+    if (nextAvailable) {
+      const timeString = getTimeUntilAvailable(new Date(nextAvailable));
+      claimTimer.textContent = timeString;
+
+      // If timer reached 00:00:00, refresh button state
+      if (timeString === '00:00:00') {
+        updateDailyClaimButton();
+      }
+    }
+  }
+
+  if (watchTimer) {
+    const nextAvailable = watchTimer.getAttribute('data-next-available');
+    if (nextAvailable) {
+      const timeString = getTimeUntilAvailable(new Date(nextAvailable));
+      watchTimer.textContent = timeString;
+
+      // If timer reached 00:00:00, refresh button state
+      if (timeString === '00:00:00') {
+        updateAdWatchButton();
+      }
+    }
+  }
+}
+
+// Start timer interval for daily rewards
+let dailyRewardsTimerInterval = null;
+
+function startDailyRewardsTimer() {
+  if (dailyRewardsTimerInterval) {
+    clearInterval(dailyRewardsTimerInterval);
+  }
+
+  dailyRewardsTimerInterval = setInterval(() => {
+    updateTimerDisplays();
+  }, 1000);
+}
+
+function stopDailyRewardsTimer() {
+  if (dailyRewardsTimerInterval) {
+    clearInterval(dailyRewardsTimerInterval);
+    dailyRewardsTimerInterval = null;
   }
 }
 
@@ -3272,6 +3410,12 @@ function attachEventListeners() {
         }
         break;
       case 'daily-challenge-screen':
+        // If challenge is in progress, fail it
+        if (isDailyChallenge) {
+          clearTimeout(challengeTimer);
+          clearInterval(challengeTimerInterval);
+          failDailyChallenge();
+        }
         showScreen('home-screen');
         break;
       case 'challenge-modes-screen':

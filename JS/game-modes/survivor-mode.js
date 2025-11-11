@@ -118,23 +118,51 @@
 
   // Get unused questions for current tier
   function getUnusedQuestionsForTier(tier) {
-    if (!window.survivorQuestions || !window.survivorQuestions[tier]) {
-      console.error(`Survivor questions not loaded for tier: ${tier}!`);
+    // Use QuestionPool service to get questions
+    if (!window.QuestionPool) {
+      console.error('QuestionPool service not loaded!');
       return [];
     }
 
+    // Map tier to difficulty
+    const tierDifficultyMap = {
+      'warm-up': 'easy',
+      'brain-teaser': 'medium',
+      'mind-bender': 'medium',
+      'mastermind': 'hard',
+      'impossible-mode': 'hard'
+    };
+
+    const difficulty = tierDifficultyMap[tier] || 'medium';
+
+    // Get all questions for this difficulty from QuestionPool
+    const allQuestions = window.QuestionPool.getQuestionsByDifficulty(difficulty, 100);
+
+    if (allQuestions.length === 0) {
+      console.error(`No questions available for tier: ${tier}!`);
+      return [];
+    }
+
+    // Generate unique ID for each question if not present
+    const questionsWithIds = allQuestions.map((q, index) => ({
+      ...q,
+      id: q.id || `${q.metadata.topic.en}_${q.metadata.subcategory.en}_${q.metadata.level}_${index}`,
+      // Convert to Survivor Mode format
+      correctIndex: q.correct  // Map 'correct' to 'correctIndex' for consistency
+    }));
+
     const recentlyUsed = smGameState.usedQuestions[tier];
-    const availableQuestions = window.survivorQuestions[tier].filter(q => 
+    const availableQuestions = questionsWithIds.filter(q =>
       !recentlyUsed.includes(q.id)
     );
-    
+
     // If we don't have enough questions, reset the pool but keep the last few
     if (availableQuestions.length < 3) {
       const keepRecent = recentlyUsed.slice(-5);
       smGameState.usedQuestions[tier] = keepRecent;
-      return window.survivorQuestions[tier].filter(q => !keepRecent.includes(q.id));
+      return questionsWithIds.filter(q => !keepRecent.includes(q.id));
     }
-    
+
     return availableQuestions;
   }
 

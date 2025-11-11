@@ -76,22 +76,40 @@
 
   // Anti-repetition system for Lightning Round
   function getUnusedLightningQuestions() {
-    if (!window.lightningQuestions) {
-      console.error('Lightning Round questions not loaded!');
+    // Use QuestionPool service to get all questions
+    if (!window.QuestionPool) {
+      console.error('QuestionPool service not loaded!');
       return [];
     }
 
+    // Get all questions from normal game mode
+    const allQuestions = window.QuestionPool.getAllQuestions();
+
+    if (allQuestions.length === 0) {
+      console.error('No questions available from QuestionPool!');
+      return [];
+    }
+
+    // Generate unique ID for each question if not present
+    const questionsWithIds = allQuestions.map((q, index) => ({
+      ...q,
+      id: q.id || `${q.metadata.topic.en}_${q.metadata.subcategory.en}_${q.metadata.level}_${index}`,
+      // Convert to Lightning Round format
+      correctIndex: q.correct  // Map 'correct' to 'correctIndex' for consistency
+    }));
+
     const recentlyUsed = JSON.parse(localStorage.getItem('lr_recent_questions') || '[]');
-    const availableQuestions = window.lightningQuestions.filter(q => 
+    const availableQuestions = questionsWithIds.filter(q =>
       !recentlyUsed.includes(q.id)
     );
-    
+
+    // If we're running low on unused questions, reset the recent list
     if (availableQuestions.length < 30) {
       const keepRecent = recentlyUsed.slice(-15);
       localStorage.setItem('lr_recent_questions', JSON.stringify(keepRecent));
-      return window.lightningQuestions.filter(q => !keepRecent.includes(q.id));
+      return questionsWithIds.filter(q => !keepRecent.includes(q.id));
     }
-    
+
     return availableQuestions;
   }
 

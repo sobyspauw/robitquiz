@@ -615,23 +615,24 @@ input[type="range"]::-moz-range-thumb {
 }
 
 /* Force all modal text to be white for visibility */
-#error-modal p, #timeout-modal p, #complete-modal p {
+#error-modal p, #timeout-modal p, #complete-modal p, #challenge-failed-modal p {
   color: var(--white) !important;
 }
 
-#error-modal *, #timeout-modal *, #complete-modal * {
+#error-modal *, #timeout-modal *, #complete-modal *, #challenge-failed-modal * {
   color: var(--white) !important;
 }
 
 /* Exception for titles which have their own colors */
-#error-modal h3, #timeout-modal h3, #complete-modal h3 {
+#error-modal h3, #timeout-modal h3, #complete-modal h3, #challenge-failed-modal h3 {
   /* Keep their specific colors as defined above */
 }
 
 /* Main modal box background - same as home/subjects/settings screens */
 #timeout-modal > div,
 #error-modal > div,
-#complete-modal > div {
+#complete-modal > div,
+#challenge-failed-modal > div {
   background-color: var(--bg-primary) !important;
   background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
   border: 3px solid var(--pinkish-red) !important;
@@ -640,7 +641,8 @@ input[type="range"]::-moz-range-thumb {
 /* Light mode - same as home/subjects/settings screens */
 body.light-mode #timeout-modal > div,
 body.light-mode #error-modal > div,
-body.light-mode #complete-modal > div {
+body.light-mode #complete-modal > div,
+body.light-mode #challenge-failed-modal > div {
   background-color: var(--bg-primary) !important;
   background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
   border: 3px solid var(--pinkish-red) !important;
@@ -649,7 +651,8 @@ body.light-mode #complete-modal > div {
 /* Ensure button containers in modals have transparent backgrounds */
 #timeout-modal > div > div,
 #error-modal > div > div,
-#complete-modal > div > div {
+#complete-modal > div > div,
+#challenge-failed-modal > div > div {
   background: transparent !important;
 }
 
@@ -926,10 +929,10 @@ body.light-mode #complete-modal > div {
 
 /* Daily Challenge Screen */
 #daily-challenge-screen {
-  background: linear-gradient(135deg, rgba(242, 63, 93, 0.1) 0%, rgba(244, 185, 66, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%);
   backdrop-filter: blur(10px);
   border-radius: 16px;
-  border: 1px solid rgba(244, 185, 66, 0.3);
+  border: 3px solid var(--vibrant-orange);
   padding: 2rem;
   color: var(--white);
 }
@@ -1191,20 +1194,22 @@ body.light-mode #explanation-container p {
 }
 
 /* Modal animations */
-#error-modal, #timeout-modal, #complete-modal {
+#error-modal, #timeout-modal, #complete-modal, #challenge-failed-modal {
   animation: modalFadeIn 0.3s ease-out;
 }
 
 /* Modal overlay background - consistent in both modes */
 #error-modal,
 #timeout-modal,
-#complete-modal {
+#complete-modal,
+#challenge-failed-modal {
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 body.light-mode #error-modal,
 body.light-mode #timeout-modal,
-body.light-mode #complete-modal {
+body.light-mode #complete-modal,
+body.light-mode #challenge-failed-modal {
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
 

@@ -494,18 +494,13 @@
 
   <!-- Daily Challenge Screen -->
   <div id="daily-challenge-screen" class="screen hidden w-full max-w-xl space-y-6">
-    <div class="text-center mb-4">
-      <h2 class="text-2xl font-bold text-golden-yellow mb-2">Daily Challenge</h2>
-      <p class="text-white">5 questions • 10 seconds each • 1 mistake allowed</p>
-    </div>
-    <div class="flex justify-center items-center mb-4">
+    <div class="flex justify-center items-center mb-6">
       <span id="challenge-timer" class="text-2xl font-bold text-red-600 bg-white px-4 py-2 rounded-full shadow">10s</span>
     </div>
-    <div id="challenge-question" class="text-2xl font-semibold text-center"></div>
-    <div id="challenge-answers" class="flex flex-col gap-3"></div>
-    <div class="text-center">
-      <span id="challenge-progress" class="font-medium text-cyan">Question 1/5</span>
-      <span id="challenge-wrong" class="font-medium text-pinkish-red ml-4">Mistakes: 0/1</span>
+    <div id="challenge-question" class="text-2xl font-semibold text-center mb-6"></div>
+    <div id="challenge-answers" class="flex flex-col gap-3 mb-6"></div>
+    <div class="space-x-4 mb-4 text-center">
+      <span id="challenge-progress" class="font-medium">Question 1/5</span>
     </div>
   </div>
 
@@ -581,7 +576,10 @@
     <div class="bg-white rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center">
       <h3 id="challenge-complete-title" class="text-xl font-bold text-green-600">Challenge Complete!</h3>
       <p id="challenge-complete-text" class="text-gray-800">Congratulations! You completed today's challenge!</p>
-      <p id="challenge-complete-reward" class="text-blue-600 font-semibold">+20 stars earned!</p>
+      <div class="space-y-2">
+        <p class="text-yellow-600 font-semibold text-lg">⭐ +20 Stars</p>
+        <p class="text-blue-600 font-semibold text-lg">💎 +15 Diamonds</p>
+      </div>
       <button id="challenge-complete-back"
               class="mt-4 w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded">
         Back to Home
@@ -591,14 +589,15 @@
 
   <!-- Daily Challenge Failed Modal -->
   <div id="challenge-failed-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-    <div class="bg-white rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center">
+    <div class="rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center" style="background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%)">
       <h3 id="challenge-failed-title" class="text-xl font-bold text-red-600">Challenge Failed!</h3>
       <p id="challenge-failed-text" class="text-gray-800">Better luck tomorrow!</p>
-      <p class="text-gray-600 text-sm">The daily challenge resets in <span id="challenge-reset-time">23:59:59</span></p>
-      <button id="challenge-failed-back"
-              class="mt-4 w-full bg-gray-300 hover:bg-gray-400 text-gray-900 py-2 rounded">
-        Back to Home
-      </button>
+      <p id="challenge-reset-text" class="text-sm text-gray-600">The daily challenge resets in 24 hours</p>
+      <div class="flex flex-col space-y-2" style="background: transparent;">
+        <button id="challenge-failed-back" class="bg-red-400 hover:bg-red-500 text-white py-2 rounded">
+          Back to Home
+        </button>
+      </div>
     </div>
   </div>
 
@@ -626,14 +625,23 @@
           <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
             <div>
               <span class="text-white">💎 50 Diamonds</span>
+              <div class="text-gray-400 text-xs">$0.10 per diamond</div>
             </div>
             <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">$4.99</button>
           </div>
           <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
             <div>
               <span class="text-white">💎 200 Diamonds</span>
+              <div class="text-gray-400 text-xs">$0.075 per diamond</div>
             </div>
             <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">$14.99</button>
+          </div>
+          <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
+            <div>
+              <span class="text-white">💎 650 Diamonds</span>
+              <div class="text-green-400 text-xs">Best Value! $0.06 per diamond</div>
+            </div>
+            <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">$39.99</button>
           </div>
           <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
             <div>
@@ -709,113 +717,91 @@
         </div>
       </div>
 
-      <!-- Diamond Purchases - Split Layout -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- Power-ups Section Title -->
+      <h2 class="text-2xl font-bold mb-4 text-white text-center">💎 Power-ups</h2>
+
+      <!-- Diamond Purchases - 50/50 and Skip side by side -->
+      <div class="grid grid-cols-2 gap-4 mb-4">
         <!-- 50/50 Power-ups -->
         <div class="bg-blue-800 rounded-lg p-4">
-          <h3 class="text-xl font-bold mb-4 text-white">50/50 Power-ups</h3>
+          <h3 class="text-xl font-bold mb-1 text-white text-center">50/50</h3>
+          <p class="text-blue-200 text-sm mb-4 text-center">Remove 2 wrong answers</p>
           <div class="space-y-3">
             <div class="flex justify-between items-center bg-blue-700 p-3 rounded">
-              <div>
-                <span class="text-white">5x 50/50</span>
-                <div class="text-blue-200 text-sm">Remove 2 wrong answers</div>
-              </div>
-              <button class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('fifty-fifty', 5, 10)">
+              <span class="text-white font-semibold">5x 50/50</span>
+              <button class="bg-blue-600 hover:bg-blue-500 text-white px-2 py-1 rounded text-sm" onclick="buyPowerUp('fifty-fifty', 5, 10)">
                 💎 50
               </button>
             </div>
             <div class="flex justify-between items-center bg-blue-700 p-3 rounded">
-              <div>
-                <span class="text-white">10x 50/50</span>
-                <div class="text-blue-200 text-sm">Remove 2 wrong answers</div>
-              </div>
-              <button class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('fifty-fifty', 10, 18)">
+              <span class="text-white font-semibold">10x 50/50</span>
+              <button class="bg-blue-600 hover:bg-blue-500 text-white px-2 py-1 rounded text-sm" onclick="buyPowerUp('fifty-fifty', 10, 18)">
                 💎 90
               </button>
             </div>
           </div>
         </div>
-        
+
         <!-- Skip Power-ups -->
         <div class="bg-yellow-800 rounded-lg p-4">
-          <h3 class="text-xl font-bold mb-4 text-white">Skip Question Power-ups</h3>
+          <h3 class="text-xl font-bold mb-1 text-white text-center">Skip</h3>
+          <p class="text-yellow-200 text-sm mb-4 text-center">Skip any question</p>
           <div class="space-y-3">
             <div class="flex justify-between items-center bg-yellow-700 p-3 rounded">
-              <div>
-                <span class="text-white">5x Skip</span>
-                <div class="text-yellow-200 text-sm">Skip any question</div>
-              </div>
-              <button class="bg-yellow-600 hover:bg-yellow-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('skip', 5, 8)">
+              <span class="text-white font-semibold">5x Skip</span>
+              <button class="bg-yellow-600 hover:bg-yellow-500 text-white px-2 py-1 rounded text-sm" onclick="buyPowerUp('skip', 5, 8)">
                 💎 50
               </button>
             </div>
             <div class="flex justify-between items-center bg-yellow-700 p-3 rounded">
-              <div>
-                <span class="text-white">10x Skip</span>
-                <div class="text-yellow-200 text-sm">Skip any question</div>
-              </div>
-              <button class="bg-yellow-600 hover:bg-yellow-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('skip', 10, 15)">
+              <span class="text-white font-semibold">10x Skip</span>
+              <button class="bg-yellow-600 hover:bg-yellow-500 text-white px-2 py-1 rounded text-sm" onclick="buyPowerUp('skip', 10, 15)">
                 💎 90
               </button>
             </div>
           </div>
         </div>
-        
+      </div>
+
+      <!-- Time Bonus and Daily Rewards side by side -->
+      <div class="grid grid-cols-2 gap-4">
         <!-- Time Bonus Power-ups -->
         <div class="bg-orange-800 rounded-lg p-4">
-          <h3 class="text-xl font-bold mb-4 text-white">Time Bonus Power-ups</h3>
+          <h3 class="text-xl font-bold mb-1 text-white text-center">Time</h3>
+          <p class="text-orange-200 text-sm mb-4 text-center">Add 15 extra seconds</p>
           <div class="space-y-3">
             <div class="flex justify-between items-center bg-orange-700 p-3 rounded">
-              <div>
-                <span class="text-white">5x Time Bonus</span>
-                <div class="text-orange-200 text-sm">Add 15 extra seconds</div>
-              </div>
-              <button class="bg-orange-600 hover:bg-orange-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('time-bonus', 5, 12)">
+              <span class="text-white font-semibold">5x Time</span>
+              <button class="bg-orange-600 hover:bg-orange-500 text-white px-2 py-1 rounded text-sm" onclick="buyPowerUp('time-bonus', 5, 12)">
                 💎 60
               </button>
             </div>
             <div class="flex justify-between items-center bg-orange-700 p-3 rounded">
-              <div>
-                <span class="text-white">10x Time Bonus</span>
-                <div class="text-orange-200 text-sm">Add 15 extra seconds</div>
-              </div>
-              <button class="bg-orange-600 hover:bg-orange-500 text-white px-4 py-2 rounded" onclick="buyPowerUp('time-bonus', 10, 22)">
+              <span class="text-white font-semibold">10x Time</span>
+              <button class="bg-orange-600 hover:bg-orange-500 text-white px-2 py-1 rounded text-sm" onclick="buyPowerUp('time-bonus', 10, 22)">
                 💎 110
               </button>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    
-    <!-- Daily Rewards Section -->
-    <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg p-4">
-      <h3 class="text-xl font-bold mb-4 text-white">Daily Rewards</h3>
-      
-      <!-- Daily Diamond Claim -->
-      <div class="flex justify-between items-center bg-purple-700 bg-opacity-50 p-3 rounded mb-3">
-        <div>
-          <span class="text-white text-lg">💎 Daily 5 Diamonds</span>
-          <div class="text-purple-200 text-sm">Claim once per day</div>
-        </div>
-        <button id="daily-claim-btn" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded" onclick="claimDailyDiamonds()">
-          ✨ Claim 5 💎
-        </button>
-      </div>
 
-      <!-- Watch Ads for Diamonds -->
-      <div class="bg-purple-700 bg-opacity-50 p-3 rounded">
-        <div class="flex justify-between items-center mb-2">
-          <div>
-            <span class="text-white text-lg">📺 Watch Ads for Diamonds</span>
-            <div id="ad-watch-status" class="text-purple-200 text-sm">Watch up to 3 ads daily</div>
+        <!-- Daily Rewards Section -->
+        <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg p-4">
+          <h3 class="text-xl font-bold mb-4 text-white text-center">Daily Rewards</h3>
+
+          <div class="space-y-3">
+            <!-- Daily Diamond Claim Button -->
+            <button id="daily-claim-btn" class="w-full bg-green-600 hover:bg-green-700 text-white px-4 py-3 rounded font-semibold flex flex-col items-center" onclick="claimDailyDiamonds()">
+              <span>Claim 10 💎</span>
+              <span class="text-sm mt-1">Daily Free Reward</span>
+            </button>
+
+            <!-- Watch Ads Button -->
+            <button id="watch-ad-btn" class="w-full bg-orange-600 hover:bg-orange-700 text-white px-4 py-3 rounded font-semibold flex flex-col items-center" onclick="watchAdForDiamonds()">
+              <span>Get 15 💎</span>
+              <span class="text-2xl mt-1">📺 Watch Ad</span>
+            </button>
           </div>
-          <button id="watch-ad-btn" class="bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded" onclick="watchAdForDiamonds()">
-            📺 Watch Ad
-          </button>
-        </div>
-        <div class="text-sm text-purple-200">
-          1st ad: 10 💎 • 2nd ad: 25 💎 • 3rd ad: 50 💎
         </div>
       </div>
     </div>
@@ -1241,11 +1227,31 @@
 
   <!-- Load daily challenges system -->
   <script src="JS/daily-challenges.js"></script>
-  
-  <!-- Load challenge mode questions and logic -->
-  <script src="JS/challenge-questions/true-false-pool.js"></script>
-  <script src="JS/challenge-questions/lightning-pool.js"></script>
-  <script src="JS/challenge-questions/survivor-questions.js"></script>
+  <script src="JS/daily-challenges/october.js"></script>
+
+  <!-- Load QuestionPool service (shared question access for game modes) -->
+  <script src="JS/shared/question-pool.js"></script>
+
+  <!-- Load True/False questions from category files -->
+  <script src="JS/challenge-questions/true-false/general-knowledge.js"></script>
+  <script src="JS/challenge-questions/true-false/science.js"></script>
+  <script src="JS/challenge-questions/true-false/animals-nature.js"></script>
+  <script src="JS/challenge-questions/true-false/history.js"></script>
+  <script src="JS/challenge-questions/true-false/geography.js"></script>
+  <script src="JS/challenge-questions/true-false/technology.js"></script>
+  <script src="JS/challenge-questions/true-false/human-body.js"></script>
+  <script src="JS/challenge-questions/true-false/sports.js"></script>
+  <script src="JS/challenge-questions/true-false/pop-culture.js"></script>
+  <script src="JS/challenge-questions/true-false/food-drink.js"></script>
+  <!-- Loader combines all categories into window.trueFalseQuestions -->
+  <script src="JS/challenge-questions/true-false-loader.js"></script>
+
+  <!-- OLD single file - keeping for reference, can be removed later -->
+  <!-- <script src="JS/challenge-questions/true-false-pool.js"></script> -->
+
+  <!-- Lightning pool and survivor questions no longer needed - using QuestionPool instead -->
+  <!-- <script src="JS/challenge-questions/lightning-pool.js"></script> -->
+  <!-- <script src="JS/challenge-questions/survivor-questions.js"></script> -->
   
   <!-- Load challenge mode game logic -->
   <script src="JS/game-modes/cooldown-manager.js"></script>

@@ -169,18 +169,27 @@
     loadSeasonalChallenges();
   }
   
+  // Storage for monthly challenges
+  window.monthlyChallenges = {};
+
+  // Function to add monthly challenges
+  window.addMonthChallenges = function(monthName, challenges) {
+    window.monthlyChallenges[monthName] = challenges;
+    console.log(`Loaded ${monthName} challenges:`, challenges);
+  };
+
   // Public API
   window.DailyChallenges = {
     getCurrentChallenge: function() {
       return window.dailyChallenge || getFallbackChallenge(getCurrentDateInfo());
     },
-    
+
     isAvailable: function() {
       const today = new Date().toDateString();
       const challengeData = JSON.parse(localStorage.getItem('qb_daily_challenge') || '{}');
       return challengeData.date !== today || (!challengeData.completed && !challengeData.failed);
     },
-    
+
     getTimeUntilReset: function() {
       const now = new Date();
       const tomorrow = new Date(now);
