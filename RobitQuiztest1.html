@@ -1223,47 +1223,41 @@
 
   <link rel="stylesheet" href="styles.css">
   
-  <script src="JS/questions.js"></script>
+  <!-- Load subject questions loader -->
+  <script src="src/questions/loaders/subject-loader.js"></script>
 
   <!-- Load daily challenges system -->
-  <script src="JS/daily-challenges.js"></script>
-  <script src="JS/daily-challenges/10-october.js"></script>
+  <script src="src/questions/loaders/daily-challenge-loader.js"></script>
+  <script src="src/questions/data/daily-challenges/10-october.js"></script>
 
   <!-- Load QuestionPool service (shared question access for game modes) -->
-  <script src="JS/shared/question-pool.js"></script>
+  <script src="src/questions/pools/question-pool.js"></script>
 
   <!-- Load True/False questions from category files -->
-  <script src="JS/challenge-questions/true-false/general-knowledge.js"></script>
-  <script src="JS/challenge-questions/true-false/science.js"></script>
-  <script src="JS/challenge-questions/true-false/animals-nature.js"></script>
-  <script src="JS/challenge-questions/true-false/history.js"></script>
-  <script src="JS/challenge-questions/true-false/geography.js"></script>
-  <script src="JS/challenge-questions/true-false/technology.js"></script>
-  <script src="JS/challenge-questions/true-false/human-body.js"></script>
-  <script src="JS/challenge-questions/true-false/sports.js"></script>
-  <script src="JS/challenge-questions/true-false/pop-culture.js"></script>
-  <script src="JS/challenge-questions/true-false/food-drink.js"></script>
+  <script src="src/questions/data/true-false/general-knowledge.js"></script>
+  <script src="src/questions/data/true-false/science.js"></script>
+  <script src="src/questions/data/true-false/animals-nature.js"></script>
+  <script src="src/questions/data/true-false/history.js"></script>
+  <script src="src/questions/data/true-false/geography.js"></script>
+  <script src="src/questions/data/true-false/technology.js"></script>
+  <script src="src/questions/data/true-false/human-body.js"></script>
+  <script src="src/questions/data/true-false/sports.js"></script>
+  <script src="src/questions/data/true-false/pop-culture.js"></script>
+  <script src="src/questions/data/true-false/food-drink.js"></script>
   <!-- Loader combines all categories into window.trueFalseQuestions -->
-  <script src="JS/challenge-questions/true-false-loader.js"></script>
+  <script src="src/questions/loaders/true-false-loader.js"></script>
 
-  <!-- OLD single file - keeping for reference, can be removed later -->
-  <!-- <script src="JS/challenge-questions/true-false-pool.js"></script> -->
-
-  <!-- Lightning pool and survivor questions no longer needed - using QuestionPool instead -->
-  <!-- <script src="JS/challenge-questions/lightning-pool.js"></script> -->
-  <!-- <script src="JS/challenge-questions/survivor-questions.js"></script> -->
-  
   <!-- Load challenge mode game logic -->
-  <script src="JS/game-modes/cooldown-manager.js"></script>
-  <script src="JS/game-modes/true-false-mode.js"></script>
-  <script src="JS/game-modes/lightning-round.js"></script>
-  <script src="JS/game-modes/survivor-mode.js"></script>
-  <script src="JS/game-modes/extreme-survivor.js"></script>
-  
+  <script src="src/game-modes/utils/cooldown-manager.js"></script>
+  <script src="src/game-modes/true-false-mode.js"></script>
+  <script src="src/game-modes/lightning-round.js"></script>
+  <script src="src/game-modes/survivor-mode.js"></script>
+  <script src="src/game-modes/extreme-survivor.js"></script>
+
   <!-- Finally load game logic -->
-  <script src="JS/ui.js"></script>
-  <script src="JS/game.js"></script>
-  <script src="JS/tutorial.js"></script>
+  <script src="src/ui/ui-controller.js"></script>
+  <script src="src/core/game-engine.js"></script>
+  <script src="src/ui/tutorial.js"></script>
   
   <!-- Register Service Worker for PWA -->
   <script>
