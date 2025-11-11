@@ -79,7 +79,7 @@ window.mainTopics = {
     name: { en: "AI", es: "IA", de: "KI", nl: "AI" },
     icon: "🤖",
     unlockCost: 0,
-    folder: "1 AI",
+    folder: "ai",
     subcategories: [
       { id: 'ai-ethiek', name: { en: "AI Ethics", es: "Ética de IA", de: "KI-Ethik", nl: "AI Ethiek" }, icon: "⚖️", folder: "AI ethiek" },
       { id: 'ai-geschiedenis', name: { en: "AI History", es: "Historia de IA", de: "KI-Geschichte", nl: "AI Geschiedenis" }, icon: "📚", folder: "AI geschiedenis" },
@@ -98,7 +98,7 @@ window.mainTopics = {
     name: { en: "Egypt", es: "Egipto", de: "Ägypten", nl: "Egypte" },
     icon: "🏛️",
     unlockCost: 50,
-    folder: "1 Egypt",
+    folder: "egypt",
     subcategories: [
       { id: 'cleopatra', name: { en: "Cleopatra", es: "Cleopatra", de: "Kleopatra", nl: "Cleopatra" }, icon: "👑", folder: "Cleopatra" },
       { id: 'egyptian-art', name: { en: "Egyptian Art", es: "Arte Egipcio", de: "Ägyptische Kunst", nl: "Egyptische Kunst" }, icon: "🎨", folder: "Egyptian Art" },
@@ -117,7 +117,7 @@ window.mainTopics = {
     name: { en: "Food", es: "Comida", de: "Essen", nl: "Eten" },
     icon: "🍽️",
     unlockCost: 50,
-    folder: "1 Food",
+    folder: "food",
     subcategories: [
       { id: 'barbecue', name: { en: "Barbecue", es: "Barbacoa", de: "Grill", nl: "Barbecue" }, icon: "🍖", folder: "Barbecue" },
       { id: 'bread-types', name: { en: "Bread Types", es: "Tipos de Pan", de: "Brotarten", nl: "Broodsoorten" }, icon: "🍞", folder: "Bread Types" },
@@ -136,7 +136,7 @@ window.mainTopics = {
     name: { en: "F1", es: "F1", de: "F1", nl: "F1" },
     icon: "🏎️",
     unlockCost: 70,
-    folder: "1 F1",
+    folder: "f1",
     subcategories: [
       { id: 'auto-innovaties', name: { en: "Car Innovations", es: "Innovaciones de Autos", de: "Auto-Innovationen", nl: "Auto-innovaties" }, icon: "🔧", folder: "Auto-innovaties" },
       { id: 'bekende-circuits', name: { en: "Famous Circuits", es: "Circuitos Famosos", de: "Berühmte Strecken", nl: "Bekende Circuits" }, icon: "🏁", folder: "Bekende circuits" },
@@ -154,7 +154,7 @@ window.mainTopics = {
     name: { en: "Board Games", es: "Juegos de Mesa", de: "Brettspiele", nl: "Bordspellen" },
     icon: "🎲",
     unlockCost: 60,
-    folder: "1 Board Games",
+    folder: "board-games",
     subcategories: [
       { id: 'backgammon', name: { en: "Backgammon", es: "Backgammon", de: "Backgammon", nl: "Backgammon" }, icon: "⚫", folder: "Backgammon" },
       { id: 'card-games', name: { en: "Card Games", es: "Juegos de Cartas", de: "Kartenspiele", nl: "Kaartspellen" }, icon: "🃏", folder: "Card Games" },
@@ -173,7 +173,7 @@ window.mainTopics = {
     name: { en: "Books", es: "Libros", de: "Bücher", nl: "Boeken" },
     icon: "📚",
     unlockCost: 40,
-    folder: "1 Books",
+    folder: "books",
     subcategories: [
       { id: 'adventure-books', name: { en: "Adventure Books", es: "Libros de Aventuras", de: "Abenteuerbücher", nl: "Avonturenboeken" }, icon: "🗺️", folder: "Adventure Books" },
       { id: 'biographies', name: { en: "Biographies", es: "Biografías", de: "Biografien", nl: "Biografieën" }, icon: "👤", folder: "Biographies" },
@@ -192,7 +192,7 @@ window.mainTopics = {
     name: { en: "Currencies", es: "Monedas", de: "Währungen", nl: "Valuta" },
     icon: "💰",
     unlockCost: 55,
-    folder: "1 Currencies",
+    folder: "currencies",
     subcategories: [
       { id: 'cryptocurrency', name: { en: "Cryptocurrency", es: "Criptomonedas", de: "Kryptowährung", nl: "Cryptocurrency" }, icon: "₿", folder: "Cryptocurrency" },
       { id: 'dollar', name: { en: "Dollar", es: "Dólar", de: "Dollar", nl: "Dollar" }, icon: "💵", folder: "Dollar" },
@@ -211,7 +211,7 @@ window.mainTopics = {
     name: { en: "Desserts", es: "Postres", de: "Desserts", nl: "Desserts" },
     icon: "🍰",
     unlockCost: 35,
-    folder: "1 Desserts",
+    folder: "desserts",
     subcategories: [
       { id: 'cakes', name: { en: "Cakes", es: "Pasteles", de: "Kuchen", nl: "Taarten" }, icon: "🎂", folder: "Cakes" },
       { id: 'chocolate-desserts', name: { en: "Chocolate Desserts", es: "Postres de Chocolate", de: "Schokoladendesserts", nl: "Chocoladedesserts" }, icon: "🍫", folder: "Chocolate Desserts" },
@@ -230,7 +230,7 @@ window.mainTopics = {
     name: { en: "Dinosaurs", es: "Dinosaurios", de: "Dinosaurier", nl: "Dinosaurussen" },
     icon: "🦕",
     unlockCost: 45,
-    folder: "1 Dinosaurs",
+    folder: "dinosaurs",
     subcategories: [
       { id: 'cretaceous', name: { en: "Cretaceous Dinosaurs", es: "Dinosaurios del Cretácico", de: "Kreidezeit-Dinosaurier", nl: "Krijt Dinosaurussen" }, icon: "🦖", folder: "Cretaceous Dinosaurs" },
       { id: 'fossils', name: { en: "Dinosaur Fossils", es: "Fósiles de Dinosaurios", de: "Dinosaurier-Fossilien", nl: "Dinosaurus Fossielen" }, icon: "🦴", folder: "Dinosaur Fossils" },
@@ -249,7 +249,7 @@ window.mainTopics = {
     name: { en: "Drinks", es: "Bebidas", de: "Getränke", nl: "Dranken" },
     icon: "🍹",
     unlockCost: 40,
-    folder: "1 Drinks",
+    folder: "drinks",
     subcategories: [
       { id: 'beer', name: { en: "Beer", es: "Cerveza", de: "Bier", nl: "Bier" }, icon: "🍺", folder: "Beer" },
       { id: 'cocktails', name: { en: "Cocktails", es: "Cócteles", de: "Cocktails", nl: "Cocktails" }, icon: "🍸", folder: "Cocktails" },
@@ -268,7 +268,7 @@ window.mainTopics = {
     name: { en: "Famous Buildings", es: "Edificios Famosos", de: "Berühmte Gebäude", nl: "Beroemde Gebouwen" },
     icon: "🏛️",
     unlockCost: 50,
-    folder: "1 Famous buildings",
+    folder: "famous-buildings",
     subcategories: [
       { id: 'big-ben', name: { en: "Big Ben", es: "Big Ben", de: "Big Ben", nl: "Big Ben" }, icon: "🕰️", folder: "Big Ben" },
       { id: 'burj-khalifa', name: { en: "Burj Khalifa", es: "Burj Khalifa", de: "Burj Khalifa", nl: "Burj Khalifa" }, icon: "🏙️", folder: "Burj Khalifa" },
@@ -289,7 +289,7 @@ window.mainTopics = {
     name: { en: "Famous People", es: "Personas Famosas", de: "Berühmte Personen", nl: "Beroemde Personen" },
     icon: "⭐",
     unlockCost: 45,
-    folder: "1 Famous People",
+    folder: "famous-people",
     subcategories: [
       { id: 'actors', name: { en: "Actors and Actresses", es: "Actores y Actrices", de: "Schauspieler", nl: "Acteurs en Actrices" }, icon: "🎬", folder: "Actors and Actresses" },
       { id: 'artists', name: { en: "Artists", es: "Artistas", de: "Künstler", nl: "Kunstenaars" }, icon: "🎨", folder: "Artists" },
