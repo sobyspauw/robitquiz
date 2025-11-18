@@ -509,7 +509,7 @@
     <div class="bg-white rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center">
       <h3 id="error-modal-title" class="text-xl font-bold text-red-600">Oops!</h3>
       <p id="error-modal-text" class="text-gray-800">Too many wrong answers!</p>
-      <p class="text-sm text-gray-600">Continue playing with a second chance or accept 10-minute cooldown?</p>
+      <p id="error-modal-cooldown-text" class="text-sm text-gray-600">Continue playing with a second chance or accept 15-minute cooldown?</p>
       <div class="flex flex-col space-y-2">
         <button id="error-modal-continue-ad" class="bg-green-600 hover:bg-green-700 text-white py-2 rounded">
           Continue (📺)
@@ -518,7 +518,7 @@
           Continue (5 💎)
         </button>
         <button id="error-modal-back" class="bg-red-400 hover:bg-red-500 text-white py-2 rounded">
-          Accept Cooldown (10 min)
+          Accept Cooldown (15 min)
         </button>
       </div>
     </div>
@@ -529,7 +529,7 @@
     <div class="rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center" style="background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%)">
       <h3 id="timeout-modal-title" class="text-xl font-bold text-yellow-600">Time's up!</h3>
       <p id="timeout-modal-text" class="text-gray-800">Your time has run out!</p>
-      <p class="text-sm text-gray-600">Get extra time and continue or accept 10-minute cooldown?</p>
+      <p id="timeout-modal-cooldown-text" class="text-sm text-gray-600">Get extra time and continue or accept 15-minute cooldown?</p>
       <div class="flex flex-col space-y-2" style="background: transparent;">
         <button id="timeout-modal-continue-ad" class="bg-green-600 hover:bg-green-700 text-white py-2 rounded">
           Continue (📺)
@@ -538,7 +538,7 @@
           Continue (5 💎)
         </button>
         <button id="timeout-back" class="bg-red-400 hover:bg-red-500 text-white py-2 rounded">
-          Accept Cooldown (10 min)
+          Accept Cooldown (15 min)
         </button>
       </div>
     </div>
@@ -807,6 +807,22 @@
     </div>
   </div>
 
+  <!-- Game Mode Info Modal -->
+  <div id="gamemode-info-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-lg shadow-xl max-w-md w-full p-6 mx-4">
+      <div class="flex justify-between items-center mb-4">
+        <h3 id="gamemode-info-title" class="text-2xl font-bold text-blue-600">Game Mode</h3>
+        <button id="gamemode-info-close" class="text-gray-500 hover:text-gray-700 text-3xl font-bold leading-none">&times;</button>
+      </div>
+      <div id="gamemode-info-content" class="text-gray-800 space-y-3">
+        <!-- Content will be dynamically inserted -->
+      </div>
+      <button id="gamemode-info-ok" class="w-full mt-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded">
+        Got it!
+      </button>
+    </div>
+  </div>
+
   <!-- Power-up Purchase Modal -->
   <div id="powerup-purchase-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
     <div class="bg-white rounded-lg shadow-xl max-w-sm w-full p-6 space-y-4 text-center">
@@ -886,7 +902,7 @@
         min="0"
         max="1"
         step="0.01"
-        value="0.3"
+        value="0.5"
         class="flex-1"
       />
     </div>
@@ -940,56 +956,53 @@
     <div id="challenge-modes-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
       
       <!-- True/False Mode -->
-      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-blue-200">
-        <div class="text-center mb-4">
-          <img src="images/icons/true or false .png" alt="True/False Quiz" class="w-48 h-48 mx-auto mb-2 object-contain">
-          <p class="text-sm text-gray-600">Quick binary choice questions</p>
-        </div>
-        <div class="space-y-2 text-sm">
-          <div class="flex justify-between">
-            <span>Questions:</span>
-            <span class="font-semibold">15</span>
+      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-blue-200 relative">
+        <button onclick="showGameModeInfo('true-false')" class="absolute top-4 right-4 w-8 h-8 bg-blue-600 hover:bg-blue-700 text-white rounded-full flex items-center justify-center font-bold text-sm z-10">
+          i
+        </button>
+        <div class="flex items-start gap-4 mb-4">
+          <!-- Scores on the left -->
+          <div class="flex-1 space-y-2">
+            <div class="text-lg font-bold">
+              <div class="mb-1">Weekly Best:</div>
+              <div id="tf-weekly-score" class="text-lg font-bold">-</div>
+            </div>
+            <div class="text-lg font-bold">
+              <div class="mb-1">All-Time Best:</div>
+              <div id="tf-best-score" class="text-lg font-bold">-</div>
+            </div>
           </div>
-          <div class="flex justify-between">
-            <span>Time per question:</span>
-            <span class="font-semibold">10 seconds</span>
-          </div>
-          <div class="flex justify-between">
-            <span>Reward:</span>
-            <span class="font-semibold">30-60 stars</span>
-          </div>
-          <div class="flex justify-between">
-            <span>Best Score:</span>
-            <span id="tf-best-score" class="font-semibold">-</span>
+          <!-- Banner on the right -->
+          <div class="flex-shrink-0">
+            <img src="images/icons/true or false .png" alt="True/False Quiz" class="w-32 h-32 object-contain">
           </div>
         </div>
+        <div id="tf-cooldown" class="hidden text-sm text-red-600 font-semibold text-center mt-2 mb-2"></div>
         <button id="tf-play-btn" class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded">
           Play Now
         </button>
       </div>
 
       <!-- Lightning Round -->
-      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-yellow-200">
-        <div class="text-center mb-4">
-          <img src="images/icons/lightning round .png" alt="Lightning Round" class="w-48 h-48 mx-auto mb-2 object-contain">
-          <p class="text-sm text-gray-600">60 seconds of rapid-fire questions</p>
-        </div>
-        <div class="space-y-2 text-sm">
-          <div class="flex justify-between">
-            <span>Duration:</span>
-            <span class="font-semibold">60 seconds</span>
+      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-yellow-200 relative">
+        <button onclick="showGameModeInfo('lightning')" class="absolute top-4 right-4 w-8 h-8 bg-yellow-600 hover:bg-yellow-700 text-white rounded-full flex items-center justify-center font-bold text-sm z-10">
+          i
+        </button>
+        <div class="flex items-start gap-4 mb-4">
+          <!-- Scores on the left -->
+          <div class="flex-1 space-y-2">
+            <div class="text-lg font-bold">
+              <div class="mb-1">Weekly Best:</div>
+              <div id="lr-weekly-score" class="text-lg font-bold">-</div>
+            </div>
+            <div class="text-lg font-bold">
+              <div class="mb-1">All-Time Best:</div>
+              <div id="lr-best-score" class="text-lg font-bold">-</div>
+            </div>
           </div>
-          <div class="flex justify-between">
-            <span>Time per question:</span>
-            <span class="font-semibold">5 seconds</span>
-          </div>
-          <div class="flex justify-between">
-            <span>Cooldown:</span>
-            <span class="font-semibold">2 hours</span>
-          </div>
-          <div class="flex justify-between">
-            <span>Best Score:</span>
-            <span id="lr-best-score" class="font-semibold">-</span>
+          <!-- Banner on the right -->
+          <div class="flex-shrink-0">
+            <img src="images/icons/lightning round .png" alt="Lightning Round" class="w-32 h-32 object-contain">
           </div>
         </div>
         <div id="lr-status" class="mt-4">
@@ -1011,27 +1024,25 @@
       </div>
 
       <!-- Survivor Mode -->
-      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-green-200">
-        <div class="text-center mb-4">
-          <img src="images/icons/survival mode.png" alt="Survivor Mode" class="w-48 h-48 mx-auto mb-2 object-contain">
-          <p class="text-sm text-gray-600">Progressive difficulty with 3 lives</p>
-        </div>
-        <div class="space-y-2 text-sm">
-          <div class="flex justify-between">
-            <span>Lives:</span>
-            <span class="font-semibold">3</span>
+      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-green-200 relative">
+        <button onclick="showGameModeInfo('survivor')" class="absolute top-4 right-4 w-8 h-8 bg-green-600 hover:bg-green-700 text-white rounded-full flex items-center justify-center font-bold text-sm z-10">
+          i
+        </button>
+        <div class="flex items-start gap-4 mb-4">
+          <!-- Scores on the left -->
+          <div class="flex-1 space-y-2">
+            <div class="text-lg font-bold">
+              <div class="mb-1">Weekly Best:</div>
+              <div id="sm-weekly-tier" class="text-lg font-bold">-</div>
+            </div>
+            <div class="text-lg font-bold">
+              <div class="mb-1">All-Time Best:</div>
+              <div id="sm-best-tier" class="text-lg font-bold">-</div>
+            </div>
           </div>
-          <div class="flex justify-between">
-            <span>Time per question:</span>
-            <span class="font-semibold">12 seconds</span>
-          </div>
-          <div class="flex justify-between">
-            <span>Cooldown:</span>
-            <span class="font-semibold">4 hours</span>
-          </div>
-          <div class="flex justify-between">
-            <span>Best Tier:</span>
-            <span id="sm-best-tier" class="font-semibold">-</span>
+          <!-- Banner on the right -->
+          <div class="flex-shrink-0">
+            <img src="images/icons/survival mode.png" alt="Survivor Mode" class="w-32 h-32 object-contain">
           </div>
         </div>
         <div id="sm-status" class="mt-4">
@@ -1053,27 +1064,25 @@
       </div>
 
       <!-- Extreme Survival Mode -->
-      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-red-200">
-        <div class="text-center mb-4">
-          <img src="images/icons/extreme survival 2.png" alt="Extreme Survival" class="w-48 h-48 mx-auto mb-2 object-contain">
-          <p class="text-sm text-gray-600">One life, faster progression</p>
-        </div>
-        <div class="space-y-2 text-sm">
-          <div class="flex justify-between">
-            <span>Lives:</span>
-            <span class="font-semibold">1</span>
+      <div class="challenge-mode-card bg-white rounded-lg shadow-lg p-6 border-2 border-red-200 relative">
+        <button onclick="showGameModeInfo('extreme-survivor')" class="absolute top-4 right-4 w-8 h-8 bg-red-600 hover:bg-red-700 text-white rounded-full flex items-center justify-center font-bold text-sm z-10">
+          i
+        </button>
+        <div class="flex items-start gap-4 mb-4">
+          <!-- Scores on the left -->
+          <div class="flex-1 space-y-2">
+            <div class="text-lg font-bold">
+              <div class="mb-1">Weekly Best:</div>
+              <div id="esm-weekly-tier" class="text-lg font-bold">-</div>
+            </div>
+            <div class="text-lg font-bold">
+              <div class="mb-1">All-Time Best:</div>
+              <div id="esm-best-tier" class="text-lg font-bold">-</div>
+            </div>
           </div>
-          <div class="flex justify-between">
-            <span>Time per question:</span>
-            <span class="font-semibold">8 seconds</span>
-          </div>
-          <div class="flex justify-between">
-            <span>Cooldown:</span>
-            <span class="font-semibold">6 hours</span>
-          </div>
-          <div class="flex justify-between">
-            <span>Best Tier:</span>
-            <span id="esm-best-tier" class="font-semibold">-</span>
+          <!-- Banner on the right -->
+          <div class="flex-shrink-0">
+            <img src="images/icons/extreme survival 2.png" alt="Extreme Survival" class="w-32 h-32 object-contain">
           </div>
         </div>
         <div id="esm-status" class="mt-4">
@@ -1117,8 +1126,17 @@
           ✗ FALSE
         </button>
       </div>
+
+      <!-- Explanation container -->
+      <div id="tf-explanation" class="hidden mt-4 p-4 rounded-lg border-2 border-cyan-400">
+        <h4 class="font-bold mb-2">💡 Explanation:</h4>
+        <p id="tf-explanation-text" class="text-sm mb-3"></p>
+        <button id="tf-continue-btn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded">
+          Continue →
+        </button>
+      </div>
     </div>
-    
+
     <div class="text-center">
       <div id="tf-score" class="text-lg font-semibold text-gray-700">Score: 0/15</div>
     </div>
@@ -1139,6 +1157,15 @@
       <h3 id="lr-question-text" class="text-lg font-semibold mb-4 text-center"></h3>
       <div id="lr-answers" class="space-y-3">
         <!-- Answer buttons will be generated here -->
+      </div>
+
+      <!-- Explanation Container -->
+      <div id="lr-explanation" class="hidden mt-4 p-4 rounded-lg" style="background: transparent; border: 2px solid var(--bright-cyan);">
+        <h4 class="font-bold mb-2">💡 Explanation:</h4>
+        <p id="lr-explanation-text" class="text-sm mb-3"></p>
+        <button id="lr-continue-btn" class="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 rounded">
+          Continue →
+        </button>
       </div>
     </div>
   </div>
@@ -1175,8 +1202,17 @@
       <div id="sm-answers" class="space-y-3">
         <!-- Answer buttons will be generated here -->
       </div>
+
+      <!-- Explanation Container -->
+      <div id="sm-explanation" class="hidden mt-4 p-4 rounded-lg" style="background: transparent; border: 2px solid var(--bright-cyan);">
+        <h4 class="font-bold mb-2">💡 Explanation:</h4>
+        <p id="sm-explanation-text" class="text-sm mb-3"></p>
+        <button id="sm-continue-btn" class="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-2 rounded">
+          Continue →
+        </button>
+      </div>
     </div>
-    
+
     <div class="text-center">
       <div id="sm-score-display" class="text-lg font-semibold text-gray-700">Score: 0 stars</div>
     </div>
@@ -1212,8 +1248,17 @@
       <div id="esm-answers" class="space-y-3">
         <!-- Answer buttons will be generated here -->
       </div>
+
+      <!-- Explanation Container -->
+      <div id="esm-explanation" class="hidden mt-4 p-4 rounded-lg" style="background: transparent; border: 2px solid var(--bright-cyan);">
+        <h4 class="font-bold mb-2">💡 Explanation:</h4>
+        <p id="esm-explanation-text" class="text-sm mb-3"></p>
+        <button id="esm-continue-btn" class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 rounded">
+          Continue →
+        </button>
+      </div>
     </div>
-    
+
     <div class="text-center">
       <div id="esm-score-display" class="text-lg font-semibold text-gray-700">Score: 0 stars</div>
     </div>
@@ -1228,12 +1273,31 @@
 
   <!-- Load daily challenges system -->
   <script src="src/questions/loaders/daily-challenge-loader.js"></script>
+  <script src="src/questions/data/daily-challenges/01-january.js"></script>
+  <script src="src/questions/data/daily-challenges/02-february.js"></script>
+  <script src="src/questions/data/daily-challenges/03-march.js"></script>
+  <script src="src/questions/data/daily-challenges/04-april.js"></script>
+  <script src="src/questions/data/daily-challenges/05-may.js"></script>
+  <script src="src/questions/data/daily-challenges/06-june.js"></script>
+  <script src="src/questions/data/daily-challenges/07-july.js"></script>
+  <script src="src/questions/data/daily-challenges/08-august.js"></script>
+  <script src="src/questions/data/daily-challenges/09-september.js"></script>
   <script src="src/questions/data/daily-challenges/10-october.js"></script>
+  <script src="src/questions/data/daily-challenges/11-november.js"></script>
+  <script src="src/questions/data/daily-challenges/12-december.js"></script>
 
   <!-- Load QuestionPool service (shared question access for game modes) -->
   <script src="src/questions/pools/question-pool.js"></script>
 
+  <script>
+    console.log('=== DEBUG: Before loading true-false files ===');
+    console.log('window.trueFalseCategories exists?', typeof window.trueFalseCategories);
+    console.log('window.monthlyChallenges exists?', typeof window.monthlyChallenges);
+    console.log('All previous scripts loaded successfully');
+  </script>
+
   <!-- Load True/False questions from category files -->
+  <script src="src/questions/data/true-false/test-minimal.js"></script>
   <script src="src/questions/data/true-false/general-knowledge.js"></script>
   <script src="src/questions/data/true-false/science.js"></script>
   <script src="src/questions/data/true-false/animals-nature.js"></script>
@@ -1246,6 +1310,23 @@
   <script src="src/questions/data/true-false/food-drink.js"></script>
   <!-- Loader combines all categories into window.trueFalseQuestions -->
   <script src="src/questions/loaders/true-false-loader.js"></script>
+
+  <!-- Force load true/false questions after a delay -->
+  <script>
+    // Backup mechanism: force load after 2 seconds if not already loaded
+    setTimeout(() => {
+      console.log('=== BACKUP LOADER CHECK (2s) ===');
+      console.log('trueFalseCategories keys:', Object.keys(window.trueFalseCategories || {}));
+      console.log('trueFalseQuestions length:', window.trueFalseQuestions ? window.trueFalseQuestions.length : 0);
+
+      if (!window.trueFalseQuestions || window.trueFalseQuestions.length === 0) {
+        console.log('BACKUP: Calling loadTrueFalseQuestions manually');
+        if (window.loadTrueFalseQuestions) {
+          window.loadTrueFalseQuestions();
+        }
+      }
+    }, 2000);
+  </script>
 
   <!-- Load challenge mode game logic -->
   <script src="src/game-modes/utils/cooldown-manager.js"></script>

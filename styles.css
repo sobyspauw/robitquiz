@@ -445,6 +445,18 @@ body {
   color: var(--deep-navy);
 }
 
+/* Back button - same styling in light mode as dark mode */
+body.light-mode #top-back-btn {
+  background: rgba(2, 183, 206, 0.2) !important;
+  color: var(--white) !important;
+  border: 3px solid var(--bright-cyan) !important;
+}
+
+body.light-mode #top-back-btn:hover {
+  background: var(--bright-cyan) !important;
+  color: var(--deep-navy) !important;
+}
+
 /* Button styling */
 button {
   transition: all 0.3s ease;
@@ -489,6 +501,10 @@ button:hover {
   color: var(--white);
   border: 2px solid var(--bright-cyan);
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .answer-btn:hover:not(:disabled) {
@@ -909,6 +925,20 @@ body.light-mode #challenge-failed-modal > div {
   }
 }
 
+/* Free badge bounce animation */
+.free-bounce {
+  animation: free-bounce 1.5s ease-in-out infinite;
+}
+
+@keyframes free-bounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-5px) scale(1.1);
+  }
+}
+
 #daily-challenge-btn::before {
   content: '';
   position: absolute;
@@ -935,6 +965,202 @@ body.light-mode #challenge-failed-modal > div {
   border: 3px solid var(--vibrant-orange);
   padding: 2rem;
   color: var(--white);
+}
+
+/* Challenge Mode Cards - same styling as quiz screen */
+.challenge-mode-card {
+  background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
+  backdrop-filter: blur(10px);
+  border: 3px solid var(--vibrant-orange) !important;
+  color: var(--white) !important;
+}
+
+.challenge-mode-card * {
+  color: var(--white) !important;
+}
+
+/* Light mode challenge mode cards - same gradient as quiz screen */
+body.light-mode .challenge-mode-card {
+  background-color: var(--bg-primary) !important;
+  background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
+  backdrop-filter: blur(10px);
+  border: 3px solid var(--vibrant-orange) !important;
+}
+
+/* Force orange text in game mode cards in light mode */
+body.light-mode .challenge-mode-card,
+body.light-mode .challenge-mode-card *,
+body.light-mode .challenge-mode-card div,
+body.light-mode .challenge-mode-card span,
+body.light-mode .challenge-mode-card p,
+body.light-mode .challenge-mode-card .text-sm,
+body.light-mode .challenge-mode-card .text-2xl,
+body.light-mode .challenge-mode-card .font-bold,
+body.light-mode #tf-weekly-score,
+body.light-mode #tf-best-score,
+body.light-mode #lr-weekly-score,
+body.light-mode #lr-best-score,
+body.light-mode #sm-weekly-tier,
+body.light-mode #sm-best-tier,
+body.light-mode #esm-weekly-tier,
+body.light-mode #esm-best-tier {
+  color: #d97706 !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Keep info button text white */
+body.light-mode .challenge-mode-card button,
+body.light-mode .challenge-mode-card button *,
+body.light-mode .challenge-mode-card .text-white {
+  color: white !important;
+  text-shadow: none !important;
+}
+
+/* Game Modes title - always orange */
+#challenge-modes-screen h2 {
+  color: var(--vibrant-orange) !important;
+}
+body.light-mode #challenge-modes-screen h2 {
+  color: var(--vibrant-orange) !important;
+}
+
+/* All Game Mode Screens - same styling as quiz screen */
+#true-false-screen,
+#lightning-round-screen,
+#survivor-screen,
+#extreme-survivor-screen {
+  background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 3px solid var(--vibrant-orange);
+  padding: 2rem;
+  color: var(--white);
+}
+
+#true-false-screen h1, #true-false-screen h2, #true-false-screen h3, #true-false-screen p, #true-false-screen span, #true-false-screen div,
+#lightning-round-screen h1, #lightning-round-screen h2, #lightning-round-screen h3, #lightning-round-screen p, #lightning-round-screen span, #lightning-round-screen div,
+#survivor-screen h1, #survivor-screen h2, #survivor-screen h3, #survivor-screen p, #survivor-screen span, #survivor-screen div,
+#extreme-survivor-screen h1, #extreme-survivor-screen h2, #extreme-survivor-screen h3, #extreme-survivor-screen p, #extreme-survivor-screen span, #extreme-survivor-screen div {
+  color: var(--white) !important;
+}
+
+/* Light mode for game mode screens */
+body.light-mode #true-false-screen,
+body.light-mode #lightning-round-screen,
+body.light-mode #survivor-screen,
+body.light-mode #extreme-survivor-screen {
+  background-color: var(--bg-primary) !important;
+  background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
+  border: 3px solid var(--vibrant-orange) !important;
+}
+
+body.light-mode #true-false-screen h1, body.light-mode #true-false-screen h2, body.light-mode #true-false-screen h3, body.light-mode #true-false-screen p, body.light-mode #true-false-screen span, body.light-mode #true-false-screen div,
+body.light-mode #lightning-round-screen h1, body.light-mode #lightning-round-screen h2, body.light-mode #lightning-round-screen h3, body.light-mode #lightning-round-screen p, body.light-mode #lightning-round-screen span, body.light-mode #lightning-round-screen div,
+body.light-mode #survivor-screen h1, body.light-mode #survivor-screen h2, body.light-mode #survivor-screen h3, body.light-mode #survivor-screen p, body.light-mode #survivor-screen span, body.light-mode #survivor-screen div,
+body.light-mode #extreme-survivor-screen h1, body.light-mode #extreme-survivor-screen h2, body.light-mode #extreme-survivor-screen h3, body.light-mode #extreme-survivor-screen p, body.light-mode #extreme-survivor-screen span, body.light-mode #extreme-survivor-screen div {
+  color: #1f2937 !important;
+}
+
+/* All Game Mode Timers, Questions and Cards */
+#tf-timer,
+#lr-timer-display,
+#sm-timer-display,
+#esm-timer-display {
+  background: var(--pinkish-red) !important;
+  color: var(--white) !important;
+  border: none !important;
+}
+
+#tf-question-card,
+#lr-question-card,
+#sm-question-card,
+#esm-question-card {
+  background: transparent !important;
+  border: 2px solid var(--bright-cyan) !important;
+  box-shadow: none !important;
+}
+
+#tf-question-text,
+#lr-question-text,
+#sm-question-text,
+#esm-question-text {
+  color: var(--white) !important;
+}
+
+#tf-progress,
+#lr-score-display,
+#sm-score-display,
+#esm-score-display {
+  color: var(--white) !important;
+}
+
+#lr-combo {
+  background: rgba(234, 179, 8, 0.3) !important;
+  color: var(--golden-yellow) !important;
+  border: 1px solid var(--golden-yellow) !important;
+}
+
+/* Survivor mode specific */
+#sm-current-tier,
+#esm-current-tier {
+  color: var(--white) !important;
+}
+
+#sm-progress-text,
+#esm-progress-text {
+  color: var(--white) !important;
+}
+
+.bg-white.rounded-lg.shadow-lg.p-4 {
+  background: transparent !important;
+  border: 2px solid var(--golden-yellow) !important;
+  box-shadow: none !important;
+}
+
+/* Light mode for all game modes */
+body.light-mode #tf-timer,
+body.light-mode #lr-timer-display,
+body.light-mode #sm-timer-display,
+body.light-mode #esm-timer-display {
+  background: var(--pinkish-red) !important;
+  color: var(--white) !important;
+}
+
+body.light-mode #tf-question-card,
+body.light-mode #lr-question-card,
+body.light-mode #sm-question-card,
+body.light-mode #esm-question-card {
+  background: transparent !important;
+  border: 2px solid var(--bright-cyan) !important;
+}
+
+body.light-mode #tf-question-text,
+body.light-mode #lr-question-text,
+body.light-mode #sm-question-text,
+body.light-mode #esm-question-text {
+  color: #1f2937 !important;
+}
+
+body.light-mode #tf-progress,
+body.light-mode #lr-score-display,
+body.light-mode #sm-score-display,
+body.light-mode #esm-score-display {
+  color: #1f2937 !important;
+}
+
+body.light-mode #sm-current-tier,
+body.light-mode #esm-current-tier {
+  color: #1f2937 !important;
+}
+
+body.light-mode #sm-progress-text,
+body.light-mode #esm-progress-text {
+  color: #1f2937 !important;
+}
+
+body.light-mode .bg-white.rounded-lg.shadow-lg.p-4 {
+  background: transparent !important;
+  border: 2px solid var(--golden-yellow) !important;
 }
 
 #challenge-timer {
@@ -1266,6 +1492,7 @@ body.light-mode #home-screen {
 body.light-mode #home-screen h1,
 body.light-mode #home-screen * {
   color: #1f2937 !important;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
 }
 
 body.light-mode #home-welcome {
@@ -1277,10 +1504,15 @@ body.light-mode #quiz-screen,
 body.light-mode #subjects-screen,
 body.light-mode #levels-screen,
 body.light-mode #settings-screen,
-body.light-mode #shop-screen,
-body.light-mode #challenge-modes-screen {
+body.light-mode #shop-screen {
   background-color: var(--bg-primary) !important;
   background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
+}
+
+/* Challenge modes screen has no background, only the cards have styling */
+body.light-mode #challenge-modes-screen {
+  background: transparent !important;
+  background-image: none !important;
 }
 
 body.light-mode #quiz-screen h1,
@@ -1292,8 +1524,7 @@ body.light-mode #quiz-screen div,
 body.light-mode #subjects-screen *,
 body.light-mode #levels-screen *,
 body.light-mode #settings-screen *,
-body.light-mode #shop-screen *,
-body.light-mode #challenge-modes-screen * {
+body.light-mode #shop-screen * {
   color: #1f2937 !important;
 }
 
@@ -1308,16 +1539,29 @@ body.light-mode #subjects-screen h2 {
 }
 
 /* Light mode button styling */
-body.light-mode .answer-btn {
+body.light-mode .answer-btn:not(:disabled):not([style*="background"]) {
   background: #ffffff !important;
   color: #1f2937 !important;
   border: 2px solid #3b82f6 !important;
 }
 
-body.light-mode .answer-btn:hover:not(:disabled) {
+body.light-mode .answer-btn:hover:not(:disabled):not([style*="background"]) {
   background: #3b82f6 !important;
   color: #ffffff !important;
   box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
+}
+
+/* Allow inline styles (green/red feedback) to show in light mode */
+body.light-mode .answer-btn[style*="background"] {
+  /* Inline styles will take precedence - no override needed */
+}
+
+/* Keep powerup button text white in light mode */
+body.light-mode #quiz-screen button span,
+body.light-mode #fifty-fifty-count,
+body.light-mode #skip-count,
+body.light-mode #time-bonus-count {
+  color: #ffffff !important;
 }
 
 body.light-mode .subject-btn {
@@ -1398,7 +1642,51 @@ body.light-mode #tutorial-next:hover {
   .main-content {
     padding-top: 80px;
   }
+
+  /* Fix power-up shop buttons on mobile */
+  #shop-screen .grid-cols-2 > div {
+    padding: 0.75rem !important;
+  }
+
+  #shop-screen .grid-cols-2 h3 {
+    font-size: 1rem !important;
+  }
+
+  #shop-screen .grid-cols-2 p {
+    font-size: 0.75rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  #shop-screen .flex.justify-between.items-center {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.5rem !important;
+    padding: 0.5rem !important;
+  }
+
+  #shop-screen .flex.justify-between.items-center span {
+    text-align: center;
+    font-size: 0.875rem !important;
+  }
+
+  #shop-screen .flex.justify-between.items-center button {
+    width: 100% !important;
+    padding: 0.5rem !important;
+  }
 }
+
+/* Extra small screens - stack power-up cards vertically */
+@media (max-width: 480px) {
+  #shop-screen .grid-cols-2 {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  #shop-screen .grid-cols-2 > div {
+    width: 100% !important;
+  }
+}
+
 /* Feedback icon animation */
 @keyframes feedbackIconPop {
   0% {
