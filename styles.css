@@ -9,6 +9,44 @@
   --white: #FFFFFF;          /* White (text/icons) */
 }
 
+/* Loading Screen Styles */
+#loading-screen {
+  background: linear-gradient(135deg, var(--deep-navy) 0%, #1a2642 100%);
+  transition: opacity 1.5s ease-out;
+}
+
+#loading-screen.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2s ease-in-out infinite;
+}
+
+/* Light mode loading screen */
+body.light-mode #loading-screen {
+  background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
+}
+
+body.light-mode #loading-screen h2,
+body.light-mode #loading-screen p {
+  color: #1f2937 !important;
+}
+
+body.light-mode #loading-screen .bg-gray-700 {
+  background-color: #e5e7eb !important;
+}
+
 /* Tutorial System Styles */
 .tutorial-overlay {
   z-index: 1000;
@@ -1523,9 +1561,39 @@ body.light-mode #quiz-screen span,
 body.light-mode #quiz-screen div,
 body.light-mode #subjects-screen *,
 body.light-mode #levels-screen *,
-body.light-mode #settings-screen *,
 body.light-mode #shop-screen * {
   color: #1f2937 !important;
+}
+
+body.light-mode #settings-screen * {
+  color: #d97706 !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Keep language select and tutorial text black without shadow */
+body.light-mode #language-select,
+body.light-mode #language-select option,
+body.light-mode #tutorial-title,
+body.light-mode #tutorial-description,
+body.light-mode #restart-tutorial-btn,
+body.light-mode #restart-tutorial-btn *,
+body.light-mode #theme-emoji,
+body.light-mode #tutorial-emoji {
+  color: #1f2937 !important;
+  text-shadow: none !important;
+}
+
+/* Keep restart tutorial button text white */
+body.light-mode #restart-tutorial-btn,
+body.light-mode #restart-tutorial-btn *,
+body.light-mode #restart-tutorial-btn span,
+body.light-mode #restart-tutorial-btn svg,
+body.light-mode #restart-tutorial-btn svg *,
+body.light-mode #restart-tutorial-btn path {
+  color: white !important;
+  text-shadow: none !important;
+  stroke: white !important;
+  fill: none !important;
 }
 
 body.light-mode #question {

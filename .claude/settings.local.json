@@ -285,7 +285,19 @@
       "Bash(copy october.js october.js.backup-fix-count)",
       "Bash(del:*)",
       "Bash(git commit -m \"$(cat <<''EOF''\nImprove daily challenges quality and refactor challenge questions\n\nDaily Challenges improvements (all 12 months, 1,830 questions):\n- Fixed 782+ correctIndex bugs across all months pointing to wrong answers\n- Randomized answer options for 782 questions to prevent pattern recognition\n- Added header comments to all month files documenting historical accuracy\n- March: Fixed 8 date mismatches, added 8 new historically accurate questions\n- April: Fixed all 150 correctIndex values\n- May: Fixed all 155 correctIndex values, reduced Lindbergh questions from 8 to 3\n- June: Removed duplicate days 26-30 (reduced from 175 to 150 questions)\n- July: Replaced day 1 trivial questions with historical events\n- August: Restructured to add missing days 27-28 (split day 26''s 15 questions)\n- October: Removed 10 extra questions (reduced from 165 to 155)\n- December: Converted format from answers to options structure\n- Verified: All 365 days have exactly 5 questions each\n\nChallenge Questions restructuring:\n- Consolidated true/false questions into organized folder structure\n- Added true-false-loader.js for modular loading\n- Removed monolithic pool files (lightning-pool.js, survivor-questions.js, true-false-pool.js)\n- Created JS/shared/ folder for shared utilities\n- Organized true/false questions by category in JS/challenge-questions/true-false/\n\nGame modes updates:\n- Updated extreme-survivor.js to use new true-false loader\n- Updated lightning-round.js to use new true-false loader\n- Updated survivor-mode.js to use new true-false loader\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(while read f)",
+      "Bash(echo \"FILE: $f\")",
+      "Bash(while IFS= read -r file)",
+      "Bash(then echo \"ERROR IN: $file\")",
+      "Bash(echo \"=== $game ===\")",
+      "Bash(then echo -n \"Level $i: \")",
+      "Bash(if grep -q \"sample question\\|placeholder\\|question [0-9] for level\\|Option [A-D] for Q[0-9]\\|What is optimal.*play?\" \"src/questions/data/subjects/board-games/$game/level$i.js\")",
+      "Bash(then echo \"⚠️ HAS PLACEHOLDERS\")",
+      "Bash(else echo \"✓ Real questions\")",
+      "Bash(if [ -f \"$filepath\" ])",
+      "Bash(if grep -qi \"sample question\\|placeholder\\|question [0-9] for level\\|Option [A-D] for Q\" \"$filepath\")",
+      "Bash(else echo \"✓ OK\")"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

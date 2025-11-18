@@ -1,21 +1,38 @@
 # Bugs & To-Do List
 
-**Last Updated:** 2025-10-22
+**Last Updated:** 2025-11-11
 
 ---
-tutorial laat geen schermen zien.
+daily challanges laad nu alleen in ocktober
 
 tutorial text checken bij de explaination text bijvoegen dat het uit gezet kan worden in de settings. daily challange text aanpassen.
 
-in de tutorial beginnen met de taal instellen. 
+in de tutorial beginnen met de taal instellen.
 
-prijzen in de shop checken
+normale game mode lijkt te crashen na te veel fout(geen too many mistakes pop up)
 
-daily challange dezelfde look geven als de normale levels.
+sizing dubbel check
 
-game modes vragen maken
+uitleg bij daily challanges
 
-game modes fixen
+✅ **Board games vragen compleet gecontroleerd** - Alle 10 games (Backgammon, Card Games, Catan, Checkers, Chess, Clue, Monopoly, Risk, Scrabble, Stratego) levels 1-10 hebben échte vragen met goede meertalige vertalingen (EN/ES/DE/NL). **Totaal: 2007 vragen!** Geen sample/placeholder content gevonden.
+
+sizing shop fixen(klein scherm en groot scherm)
+
+sizing klein scherm hoofdonderwerpen scherm
+
+geluid glitch fixen
+
+nieue ai plaatjes maken voor de onderwerpen
+
+back button geeft soms verkeerde kleur
+
+daily challange aantrekkelijker maken op het home screen
+
+wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met vrienden?)
+
+geluid settings beginnen op de helft
+
 
 
 ## 🎯 ACTIEVE TAKEN
@@ -42,7 +59,50 @@ game modes fixen
 
 ---
 
-## ✅ RECENT VOLTOOID (2025-10-22)
+## ✅ RECENT VOLTOOID (2025-11-11)
+
+### Game Modes Explanation System - COMPLEET ✅
+**Probleem:**
+- Game modes gingen automatisch door naar volgende vraag, gebruikers hadden geen tijd om explanations te lezen
+- Game bleef doorlopen na op "back" klikken
+- Geen controle over wanneer explanations getoond werden
+
+**Oplossing:**
+1. ✅ **Explanation Toggle Integratie**
+   - Settings checkbox gebruikt om explanations aan/uit te zetten
+   - Wanneer UIT: Auto-advance na 1.5s (oude gedrag)
+   - Wanneer AAN: Toon explanation met "Continue" button, geen auto-advance
+
+2. ✅ **Continue Button in Alle Game Modes**
+   - True/False: Blauwe continue button in explanation box
+   - Lightning Round: Gele continue button
+   - Survivor Mode: Groene continue button
+   - Extreme Survivor: Rode continue button
+   - Button alleen zichtbaar wanneer explanation wordt getoond
+
+3. ✅ **Timer/State Management**
+   - `showScreen()` functie stopt nu alle game mode timers bij schermwissel
+   - Game states (`isPlaying` flag) worden correct gereset
+   - Voorkomt "phantom questions" na back button
+   - Alle timers (question timer, interval, next question timeout) worden gecleared
+
+4. ✅ **Code Updates**
+   - HTML: Continue buttons toegevoegd aan alle 4 game mode explanation containers
+   - JavaScript: Event listeners voor continue buttons in alle modes
+   - ui-controller.js: Screen change handlers voor alle game modes
+   - Game state export: Alle gameState objecten geëxporteerd naar window scope
+
+**Bestanden aangepast:**
+- `RobitQuiztest1.html` - Continue buttons toegevoegd (4x)
+- `src/game-modes/true-false-mode.js` - Explanation logic + continue handler
+- `src/game-modes/lightning-round.js` - Explanation logic + continue handler
+- `src/game-modes/survivor-mode.js` - Explanation logic + continue handler
+- `src/game-modes/extreme-survivor.js` - Explanation logic + continue handler (extra tijd bij game over)
+- `src/ui/ui-controller.js` - Game mode cleanup handlers in showScreen()
+
+---
+
+## ✅ EERDER VOLTOOID (2025-10-22)
 
 ### Answer Length Optimalisatie - 100% COMPLEET
 **Probleem:** Langste antwoord optie was vaak het juiste antwoord

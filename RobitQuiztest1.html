@@ -353,6 +353,35 @@
 </head>
 <body class="min-h-screen flex flex-col relative">
 
+  <!-- Load theme preference immediately to prevent flash -->
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('qb_theme') || 'dark';
+      if (savedTheme === 'light') {
+        document.body.classList.add('light-mode');
+      }
+    })();
+  </script>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="fixed inset-0 z-[9999] flex flex-col items-center justify-center">
+    <div class="text-center">
+      <!-- Logo -->
+      <img src="images/icons/quiz icoon 4 NB.png" alt="RobitQuiz Logo" class="w-64 h-64 mx-auto mb-8 animate-bounce-slow object-contain">
+
+      <!-- Loading Text -->
+      <h2 class="text-2xl font-bold mb-6">Loading RobitQuiz...</h2>
+
+      <!-- Progress Bar Container -->
+      <div class="w-80 h-3 bg-gray-700 rounded-full overflow-hidden mb-2">
+        <div id="loading-progress" class="h-full bg-gradient-to-r from-blue-500 to-cyan-400 transition-all duration-300 ease-out" style="width: 0%"></div>
+      </div>
+
+      <!-- Progress Text -->
+      <p id="loading-text" class="text-sm text-gray-400">Initializing...</p>
+    </div>
+  </div>
+
   <audio id="snd-correct" src="sounds/correct.wav" preload="auto"></audio>
   <audio id="snd-wrong"   src="sounds/wrong.wav"   preload="auto"></audio>
   <audio id="snd-click"   src="sounds/click.wav"   preload="auto"></audio>
@@ -883,7 +912,7 @@
   <div id="settings-screen" class="screen hidden w-full max-w-md space-y-4 p-4">
     <h2 id="settings-title" class="text-xl font-bold">Settings</h2>
     <div class="flex items-center space-x-2 mb-4">
-      <label id="sfx-volume-label" for="sfx-volume-slider" class="font-medium w-32 flex-shrink-0">SFX Volume:</label>
+      <label id="sfx-volume-label" for="sfx-volume-slider" class="text-lg font-bold w-32 flex-shrink-0">SFX Volume:</label>
       <input
         id="sfx-volume-slider"
         type="range"
@@ -895,7 +924,7 @@
       />
     </div>
     <div class="flex items-center space-x-2 mb-4">
-      <label id="music-volume-label" for="music-volume-slider" class="font-medium w-32 flex-shrink-0">Music Volume:</label>
+      <label id="music-volume-label" for="music-volume-slider" class="text-lg font-bold w-32 flex-shrink-0">Music Volume:</label>
       <input
         id="music-volume-slider"
         type="range"
@@ -906,7 +935,7 @@
         class="flex-1"
       />
     </div>
-    <label id="language-label" for="language-select" class="block mb-1">Language:</label>
+    <label id="language-label" for="language-select" class="block mb-1 text-lg font-bold">Language:</label>
       <select id="language-select" class="w-full border p-2 rounded mb-4">
         <option value="en">English</option>
         <option value="es">Español</option>
@@ -916,14 +945,14 @@
 
     <div class="flex items-center space-x-2 mb-4">
       <input type="checkbox" id="explanations-toggle" class="w-4 h-4" checked>
-      <label id="explanations-label" for="explanations-toggle" class="font-medium">Show answer explanations</label>
+      <label id="explanations-label" for="explanations-toggle" class="text-lg font-bold">Show answer explanations</label>
     </div>
 
     <!-- Theme Toggle -->
-    <div class="flex items-center justify-between mb-4 p-3 bg-gray-100 rounded-lg">
+    <div class="flex items-center justify-between mb-4 p-3 rounded-lg">
       <div class="flex items-center space-x-2">
         <span id="theme-emoji" class="text-xl">🌙</span>
-        <label id="theme-label" for="theme-toggle" class="font-medium">Dark Mode</label>
+        <label id="theme-label" for="theme-toggle" class="text-lg font-bold">Dark Mode</label>
       </div>
       <label class="relative inline-flex items-center cursor-pointer">
         <input type="checkbox" id="theme-toggle" class="sr-only peer" checked>
@@ -934,13 +963,13 @@
     <!-- Tutorial Section with improved styling -->
     <div class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg p-4 border border-yellow-200 mt-6">
       <div class="flex items-center mb-3">
-        <span class="text-2xl mr-2">🎓</span>
+        <span id="tutorial-emoji" class="text-2xl mr-2">🎓</span>
         <h3 id="tutorial-title" class="text-lg font-bold text-gray-800">Tutorial</h3>
       </div>
       <p id="tutorial-description" class="text-sm text-gray-600 mb-3">Need a refresher on how to play? Restart the interactive tutorial anytime.</p>
       <button id="restart-tutorial-btn" class="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white font-bold py-2.5 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02]">
         <span class="flex items-center justify-center">
-          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
           </svg>
           Restart Tutorial
@@ -977,10 +1006,12 @@
             <img src="images/icons/true or false .png" alt="True/False Quiz" class="w-32 h-32 object-contain">
           </div>
         </div>
-        <div id="tf-cooldown" class="hidden text-sm text-red-600 font-semibold text-center mt-2 mb-2"></div>
-        <button id="tf-play-btn" class="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded">
-          Play Now
-        </button>
+        <div id="tf-status" class="mt-4">
+          <button id="tf-play-btn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded">
+            Play Now
+          </button>
+          <div id="tf-cooldown" class="hidden text-sm text-red-600 font-semibold text-center mt-2"></div>
+        </div>
       </div>
 
       <!-- Lightning Round -->
@@ -1336,6 +1367,7 @@
   <script src="src/game-modes/extreme-survivor.js"></script>
 
   <!-- Finally load game logic -->
+  <script src="src/ui/loading-screen.js"></script>
   <script src="src/ui/ui-controller.js"></script>
   <script src="src/core/game-engine.js"></script>
   <script src="src/ui/tutorial.js"></script>

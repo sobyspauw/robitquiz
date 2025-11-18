@@ -38,21 +38,10 @@
     const season = getSeason(dateInfo.month);
     const dateKey = `${dateInfo.month}/${dateInfo.day}`;
     const isSpecialDate = specialDates[dateKey];
-    
-    // Try to load from appropriate seasonal file
-    const scriptElement = document.createElement('script');
-    scriptElement.src = `JS/daily-challenges/${season}.js`;
-    scriptElement.onload = function() {
-      // Once loaded, get today's challenge
-      const todaysChallenge = getTodaysChallenge(dateInfo, isSpecialDate);
-      window.dailyChallenge = todaysChallenge;
-    };
-    scriptElement.onerror = function() {
-      console.log('Seasonal challenges not found, using fallback');
-      window.dailyChallenge = getFallbackChallenge(dateInfo);
-    };
-    
-    document.head.appendChild(scriptElement);
+
+    // Monthly challenges are already loaded, get today's challenge
+    const todaysChallenge = getTodaysChallenge(dateInfo, isSpecialDate);
+    window.dailyChallenge = todaysChallenge;
   }
   
   // Fallback challenge if seasonal files aren't available
@@ -151,16 +140,31 @@
   
   // Get today's specific challenge
   function getTodaysChallenge(dateInfo, specialTheme) {
-    // This will be called after the seasonal file loads
-    if (specialTheme && window.specialChallenges && window.specialChallenges[specialTheme]) {
-      return window.specialChallenges[specialTheme];
+    // Get month name in lowercase
+    const monthNames = ['january', 'february', 'march', 'april', 'may', 'june',
+                        'july', 'august', 'september', 'october', 'november', 'december'];
+    const monthName = monthNames[dateInfo.month - 1];
+
+    // Get today's challenges from the monthly challenges
+    if (window.monthlyChallenges && window.monthlyChallenges[monthName]) {
+      const monthChallenges = window.monthlyChallenges[monthName];
+
+      // Find challenge for today's date
+      const todayChallenge = monthChallenges.find(challenge =>
+        challenge.day === dateInfo.day
+      );
+
+      if (todayChallenge) {
+        console.log(`Found daily challenge for ${monthName} ${dateInfo.day}`);
+        return {
+          theme: 'daily_challenge',
+          name: todayChallenge.name,
+          questions: todayChallenge.questions
+        };
+      }
     }
-    
-    if (window.seasonalChallenges) {
-      const challengeIndex = dateInfo.dayOfYear % window.seasonalChallenges.length;
-      return window.seasonalChallenges[challengeIndex];
-    }
-    
+
+    console.log('No daily challenge found, using fallback');
     return getFallbackChallenge(dateInfo);
   }
   

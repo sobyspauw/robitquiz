@@ -113,21 +113,21 @@
   function purchaseGemReset(mode) {
     const config = cooldownConfig[mode];
     if (!config) return false;
-    
+
     // Check gem balance
-    const gems = parseInt(localStorage.getItem('qb_gems') || '0');
+    const gems = parseInt(localStorage.getItem('qb_diamonds') || '0');
     if (gems < config.gemCost) {
       alert(`Not enough gems! You need ${config.gemCost} gems but only have ${gems}.`);
       return false;
     }
-    
+
     // Confirm purchase
     const confirmed = confirm(`Reset ${mode} cooldown for ${config.gemCost} gems?`);
     if (!confirmed) return false;
-    
+
     // Deduct gems
     const newGemBalance = gems - config.gemCost;
-    localStorage.setItem('qb_gems', newGemBalance.toString());
+    localStorage.setItem('qb_diamonds', newGemBalance.toString());
     window.updateDiamondDisplay();
     
     // Reset cooldown

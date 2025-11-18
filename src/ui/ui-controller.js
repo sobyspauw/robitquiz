@@ -381,6 +381,48 @@ const translations = {
     es: "Desbloquear:",
     de: "Freischalten:",
     nl: "Ontgrendelen:"
+  },
+  cooldown15min: {
+    en: "15 minutes",
+    es: "15 minutos",
+    de: "15 Minuten",
+    nl: "15 minuten"
+  },
+  cooldown2hours: {
+    en: "2 hours",
+    es: "2 horas",
+    de: "2 Stunden",
+    nl: "2 uur"
+  },
+  cooldown4hours: {
+    en: "4 hours",
+    es: "4 horas",
+    de: "4 Stunden",
+    nl: "4 uur"
+  },
+  cooldown6hours: {
+    en: "6 hours",
+    es: "6 horas",
+    de: "6 Stunden",
+    nl: "6 uur"
+  },
+  errorModalCooldownText: {
+    en: "Continue playing with a second chance or accept {time} cooldown?",
+    es: "¿Continuar jugando con una segunda oportunidad o aceptar tiempo de espera de {time}?",
+    de: "Mit einer zweiten Chance weiterspielen oder {time} Wartezeit akzeptieren?",
+    nl: "Doorgaan met een tweede kans of {time} cooldown accepteren?"
+  },
+  timeoutModalCooldownText: {
+    en: "Get extra time and continue or accept {time} cooldown?",
+    es: "¿Obtener tiempo extra y continuar o aceptar tiempo de espera de {time}?",
+    de: "Extra Zeit erhalten und weitermachen oder {time} Wartezeit akzeptieren?",
+    nl: "Extra tijd krijgen en doorgaan of {time} cooldown accepteren?"
+  },
+  acceptCooldown: {
+    en: "Accept Cooldown ({time})",
+    es: "Aceptar tiempo de espera ({time})",
+    de: "Wartezeit akzeptieren ({time})",
+    nl: "Accepteer Cooldown ({time})"
   }
 };
 
@@ -495,6 +537,39 @@ function showScreen(screenId) {
     // Stop challenge timer when leaving challenge screen
     clearTimeout(challengeTimer);
     clearInterval(challengeTimerInterval);
+  } else if (lastScreen === 'true-false-screen' && screenId !== 'true-false-screen') {
+    // Stop True/False game when leaving screen
+    if (window.tfGameState) {
+      window.tfGameState.isPlaying = false;
+      clearTimeout(window.tfGameState.timer);
+      clearInterval(window.tfGameState.timerInterval);
+    }
+  } else if (lastScreen === 'lightning-round-screen' && screenId !== 'lightning-round-screen') {
+    // Stop Lightning Round when leaving screen
+    if (window.lrGameState) {
+      window.lrGameState.isPlaying = false;
+      clearTimeout(window.lrGameState.gameTimer);
+      clearInterval(window.lrGameState.gameTimerInterval);
+      clearTimeout(window.lrGameState.questionTimer);
+      clearInterval(window.lrGameState.questionTimerInterval);
+      clearTimeout(window.lrGameState.nextQuestionTimer);
+    }
+  } else if (lastScreen === 'survivor-screen' && screenId !== 'survivor-screen') {
+    // Stop Survivor Mode when leaving screen
+    if (window.smGameState) {
+      window.smGameState.isPlaying = false;
+      clearTimeout(window.smGameState.timer);
+      clearTimeout(window.smGameState.nextQuestionTimer);
+      clearInterval(window.smGameState.timerInterval);
+    }
+  } else if (lastScreen === 'extreme-survivor-screen' && screenId !== 'extreme-survivor-screen') {
+    // Stop Extreme Survivor Mode when leaving screen
+    if (window.esmGameState) {
+      window.esmGameState.isPlaying = false;
+      clearTimeout(window.esmGameState.timer);
+      clearTimeout(window.esmGameState.nextQuestionTimer);
+      clearInterval(window.esmGameState.timerInterval);
+    }
   } else if (screenId === 'quiz-screen' && lastScreen !== 'quiz-screen') {
     // Resume timer when entering quiz screen
     if (questions && questions.length > 0 && currentIndex < questions.length) {
@@ -815,6 +890,8 @@ function updateStarDisplay() {
 }
 
 function updateDiamondDisplay() {
+  // Always read from localStorage to ensure we have the latest value
+  diamonds = parseInt(localStorage.getItem('qb_diamonds') || '0');
   const diamondCountEl = document.getElementById('diamond-count');
   if (diamondCountEl) {
     diamondCountEl.innerText = diamonds;
@@ -920,7 +997,16 @@ function renderQuestion() {
   // Reset fifty-fifty for new question
   fiftyFiftyUsed = false;
   console.log('Reset fiftyFiftyUsed to false');
-  
+
+  // Re-enable powerup buttons for new question
+  const fiftyFiftyBtn = document.getElementById('fifty-fifty-btn');
+  const skipBtn = document.getElementById('skip-btn');
+  const timeBonusBtn = document.getElementById('time-bonus-btn');
+  if (fiftyFiftyBtn && fiftyFiftyCount > 0) fiftyFiftyBtn.disabled = false;
+  if (skipBtn && skipCount > 0) skipBtn.disabled = false;
+  if (timeBonusBtn && timeBonusCount > 0) timeBonusBtn.disabled = false;
+  console.log('Re-enabled powerup buttons for new question');
+
   // Hide any previous explanation
   hideExplanation();
 
@@ -1067,6 +1153,12 @@ function useSkip() {
   }
 
   skipCount--;
+
+  // Play a sound effect for Skip usage (same as other powerups)
+  const correctSound = document.getElementById('snd-correct');
+  if (correctSound) {
+    correctSound.play();
+  }
 
   // Save to localStorage
   localStorage.setItem('qb_skip_count', skipCount.toString());
@@ -1234,36 +1326,70 @@ function isTimeBonusAvailable() {
 }
 
 // —— 5.3) Level Failure Cooldown System ——
+// Cooldown duration constant (15 minutes)
+const COOLDOWN_DURATION = 15 * 60 * 1000; // 15 minutes in milliseconds
+
 function getLevelCooldownKey(groupIndex, levelIndex) {
   return `qb_level_cooldown_${groupIndex}_${levelIndex}`;
+}
+
+function getSubcategoryCooldownKey(mainTopicId, subcategoryId, level) {
+  return `qb_subcategory_cooldown_${mainTopicId}_${subcategoryId}_${level}`;
 }
 
 function checkLevelCooldown(groupIndex, levelIndex) {
   const cooldownKey = getLevelCooldownKey(groupIndex, levelIndex);
   const failureTime = localStorage.getItem(cooldownKey);
-  
+
   if (!failureTime) return { canPlay: true, timeRemaining: 0 };
-  
+
   const failureTimestamp = parseInt(failureTime);
-  const cooldownDuration = 10 * 60 * 1000; // 10 minutes in milliseconds
   const now = Date.now();
   const timePassed = now - failureTimestamp;
-  
-  if (timePassed >= cooldownDuration) {
+
+  if (timePassed >= COOLDOWN_DURATION) {
     // Cooldown expired, remove from storage
     localStorage.removeItem(cooldownKey);
     return { canPlay: true, timeRemaining: 0 };
   }
-  
-  return { 
-    canPlay: false, 
-    timeRemaining: cooldownDuration - timePassed 
+
+  return {
+    canPlay: false,
+    timeRemaining: COOLDOWN_DURATION - timePassed
+  };
+}
+
+function checkSubcategoryCooldown(mainTopicId, subcategoryId, level) {
+  const cooldownKey = getSubcategoryCooldownKey(mainTopicId, subcategoryId, level);
+  const failureTime = localStorage.getItem(cooldownKey);
+
+  if (!failureTime) return { canPlay: true, timeRemaining: 0 };
+
+  const failureTimestamp = parseInt(failureTime);
+  const now = Date.now();
+  const timePassed = now - failureTimestamp;
+
+  if (timePassed >= COOLDOWN_DURATION) {
+    // Cooldown expired, remove from storage
+    localStorage.removeItem(cooldownKey);
+    return { canPlay: true, timeRemaining: 0 };
+  }
+
+  return {
+    canPlay: false,
+    timeRemaining: COOLDOWN_DURATION - timePassed
   };
 }
 
 function setLevelFailureCooldown(groupIndex, levelIndex) {
   const cooldownKey = getLevelCooldownKey(groupIndex, levelIndex);
   localStorage.setItem(cooldownKey, Date.now().toString());
+}
+
+function setSubcategoryFailureCooldown(mainTopicId, subcategoryId, level) {
+  const cooldownKey = getSubcategoryCooldownKey(mainTopicId, subcategoryId, level);
+  localStorage.setItem(cooldownKey, Date.now().toString());
+  console.log(`Set 15-minute cooldown for ${mainTopicId}/${subcategoryId}/level${level}`);
 }
 
 function formatCooldownTime(milliseconds) {
@@ -1307,6 +1433,7 @@ function updateCooldownTimers() {
     return;
   }
 
+  // Update old system cooldown buttons
   const cooldownButtons = document.querySelectorAll('[data-is-on-cooldown="true"]');
 
   cooldownButtons.forEach((button) => {
@@ -1314,7 +1441,7 @@ function updateCooldownTimers() {
     const levelIndex = parseInt(button.dataset.levelIndex);
 
     const cooldownStatus = checkLevelCooldown(groupIndex, levelIndex);
-    
+
     if (cooldownStatus.canPlay) {
       // Cooldown expired - update button to playable state
       button.className = 'play-btn bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full text-sm transition-colors duration-200 flex items-center justify-center w-full';
@@ -1328,6 +1455,31 @@ function updateCooldownTimers() {
       const newText = `🔒 Cooldown: ${timeRemaining}`;
       console.log(`Updating button text to: ${newText}`);
       button.innerHTML = newText;
+    }
+  });
+
+  // Update new system (subcategory) cooldown timers
+  const cooldownTimers = document.querySelectorAll('[id^="cooldown-timer-"]');
+  cooldownTimers.forEach((timerEl) => {
+    // Parse the ID to get mainTopicId, subcategoryId, and level
+    const idParts = timerEl.id.replace('cooldown-timer-', '').split('-');
+    if (idParts.length >= 3) {
+      const level = parseInt(idParts[idParts.length - 1]);
+      const subcategoryId = idParts[idParts.length - 2];
+      const mainTopicId = idParts.slice(0, idParts.length - 2).join('-');
+
+      const cooldownStatus = checkSubcategoryCooldown(mainTopicId, subcategoryId, level);
+
+      if (cooldownStatus.canPlay) {
+        // Cooldown expired - refresh the subcategories view
+        console.log(`Cooldown expired for ${mainTopicId}/${subcategoryId}/level${level}`);
+        if (window.currentMainTopic) {
+          showSubcategories(window.currentMainTopic);
+        }
+      } else {
+        // Update timer display
+        timerEl.innerText = formatCooldownTime(cooldownStatus.timeRemaining);
+      }
     }
   });
 }
@@ -1578,21 +1730,29 @@ function showSubcategories(mainTopicId) {
     const progressPercent = Math.min(((currentLevel - 1) / 10) * 100, 100); // Level 1 = 0%, Level 10 = 90%, Level 11 (all completed) = 100%
     const isFullyCompleted = currentLevel > 10;
 
+    // Check if current level is on cooldown
+    const cooldownStatus = checkSubcategoryCooldown(mainTopicId, subcat.id, currentLevel);
+    const isOnCooldown = !cooldownStatus.canPlay;
+
     // DEBUG: Log progress calculation
     console.log(`📊 ${subcat.name.en}:`, {
       currentLevel,
       progressPercent,
       isFullyCompleted,
+      isOnCooldown,
       calculation: `((${currentLevel} - 1) / 10) * 100 = ${((currentLevel - 1) / 10) * 100}`
     });
 
     const container = document.createElement('div');
-    container.className = 'w-full';
+    container.className = 'w-full relative';
 
     const btn = document.createElement('button');
-    // Disable button if all levels completed
+    // Disable button if all levels completed or on cooldown
     if (isFullyCompleted) {
       btn.className = 'w-full font-semibold py-4 px-6 rounded-xl shadow-lg bg-gradient-to-r from-green-500 to-green-600 text-white opacity-75 cursor-not-allowed';
+      btn.disabled = true;
+    } else if (isOnCooldown) {
+      btn.className = 'w-full font-semibold py-4 px-6 rounded-xl shadow-lg bg-gradient-to-r from-blue-500 to-purple-600 text-white opacity-50 cursor-not-allowed';
       btn.disabled = true;
     } else {
       btn.className = 'w-full font-semibold py-4 px-6 rounded-xl shadow-lg bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:opacity-90 transition-all duration-300';
@@ -1641,8 +1801,29 @@ function showSubcategories(mainTopicId) {
     btn.appendChild(topSection);
     btn.appendChild(progressContainer);
 
-    // Click handler - only if not fully completed
-    if (!isFullyCompleted) {
+    // Add cooldown overlay if on cooldown
+    if (isOnCooldown) {
+      const overlay = document.createElement('div');
+      overlay.className = 'absolute inset-0 bg-gray-900 bg-opacity-70 rounded-xl flex flex-col items-center justify-center pointer-events-none';
+      overlay.style.backdropFilter = 'blur(2px)';
+
+      const lockIcon = document.createElement('div');
+      lockIcon.className = 'text-4xl mb-2';
+      lockIcon.innerText = '🔒';
+
+      const timerText = document.createElement('div');
+      timerText.className = 'text-white font-bold text-xl';
+      timerText.id = `cooldown-timer-${mainTopicId}-${subcat.id}-${currentLevel}`;
+      timerText.innerText = formatCooldownTime(cooldownStatus.timeRemaining);
+
+      overlay.appendChild(lockIcon);
+      overlay.appendChild(timerText);
+
+      container.appendChild(overlay);
+    }
+
+    // Click handler - only if not fully completed and not on cooldown
+    if (!isFullyCompleted && !isOnCooldown) {
       btn.addEventListener('click', () => {
         console.log(`Starting ${subcat.name[lang]} at level ${currentLevel}`);
         startSubcategoryQuiz(mainTopicId, subcat.id, currentLevel);
@@ -1659,6 +1840,14 @@ function showSubcategories(mainTopicId) {
 // NEW: Start quiz for a specific subcategory at a specific level
 function startSubcategoryQuiz(mainTopicId, subcategoryId, level) {
   console.log(`Starting quiz: ${mainTopicId}/${subcategoryId}/level${level}`);
+
+  // Check if level is on cooldown (15-minute lockout after failure)
+  const cooldownStatus = checkSubcategoryCooldown(mainTopicId, subcategoryId, level);
+  if (!cooldownStatus.canPlay) {
+    const timeLeft = formatCooldownTime(cooldownStatus.timeRemaining);
+    alert(`This level is locked for ${timeLeft} due to a previous failure. Try again later or use diamonds to continue.`);
+    return;
+  }
 
   // Don't allow starting if level > 10 (all levels completed)
   if (level > 10) {
@@ -1680,7 +1869,7 @@ function startSubcategoryQuiz(mainTopicId, subcategoryId, level) {
   }
 
   // Dynamically load the level file
-  const scriptPath = `JS/subjects/${topic.folder}/${subcat.folder}/level${level}.js`;
+  const scriptPath = `src/questions/data/subjects/${topic.folder}/${subcat.folder}/level${level}.js`;
   console.log('Loading level file:', scriptPath);
 
   // Create a script tag to load the level
@@ -2006,6 +2195,58 @@ function openLevels(groupIdx) {
 }
 
 // —— 6.5) Modal helpers ——
+
+// Set modal cooldown text based on game mode
+function setModalCooldownText(gameMode) {
+  const errorCooldownText = document.getElementById('error-modal-cooldown-text');
+  const errorBackButton = document.getElementById('error-modal-back');
+  const timeoutCooldownText = document.getElementById('timeout-modal-cooldown-text');
+  const timeoutBackButton = document.getElementById('timeout-back');
+
+  let cooldownMinutes;
+  let cooldownKey;
+
+  switch(gameMode) {
+    case 'normal':
+      cooldownMinutes = 15;
+      cooldownKey = 'cooldown15min';
+      break;
+    case 'lightning':
+      cooldownMinutes = 120;
+      cooldownKey = 'cooldown2hours';
+      break;
+    case 'survivor':
+      cooldownMinutes = 240;
+      cooldownKey = 'cooldown4hours';
+      break;
+    case 'extreme-survivor':
+      cooldownMinutes = 360;
+      cooldownKey = 'cooldown6hours';
+      break;
+    default:
+      cooldownMinutes = 15;
+      cooldownKey = 'cooldown15min';
+  }
+
+  const cooldownLabel = t(cooldownKey);
+
+  if (errorCooldownText) {
+    errorCooldownText.textContent = t('errorModalCooldownText').replace('{time}', cooldownLabel);
+  }
+  if (errorBackButton) {
+    errorBackButton.textContent = t('acceptCooldown').replace('{time}', cooldownLabel);
+  }
+  if (timeoutCooldownText) {
+    timeoutCooldownText.textContent = t('timeoutModalCooldownText').replace('{time}', cooldownLabel);
+  }
+  if (timeoutBackButton) {
+    timeoutBackButton.textContent = t('acceptCooldown').replace('{time}', cooldownLabel);
+  }
+
+  // Store the cooldown duration for use when accepting cooldown
+  window.currentModalCooldownMinutes = cooldownMinutes;
+}
+
 function hideTimeoutPopup() {
   document.getElementById('timeout-modal').classList.add('hidden');
 }
@@ -2189,34 +2430,34 @@ async function startDailyChallenge() {
   challengeCorrect = 0;
   challengeWrong = 0;
 
-  // Determine which day of October it is (1-31)
+  // Get current date info
   const today = new Date();
   const dayOfMonth = today.getDate();
-  const month = today.getMonth(); // 0-11, where 9 = October
+  const month = today.getMonth(); // 0-11, where 0 = January
 
-  // Check if we're in October
-  if (month !== 9) {
-    alert('Daily challenges are only available in October!');
-    return;
-  }
+  // Get month name
+  const monthNames = ['january', 'february', 'march', 'april', 'may', 'june',
+                      'july', 'august', 'september', 'october', 'november', 'december'];
+  const monthName = monthNames[month];
 
   // Get the challenges for this month
-  if (!window.monthlyChallenges || !window.monthlyChallenges.october) {
-    console.error('October challenges not loaded');
+  if (!window.monthlyChallenges || !window.monthlyChallenges[monthName]) {
+    console.error(`${monthName} challenges not loaded`);
     alert('Daily challenges not available. Please refresh the page.');
     return;
   }
 
+  // Get today's challenge using the day key (e.g., "day1", "day2", etc.)
   const dayKey = `day${dayOfMonth}`;
-  const todaysChallenges = window.monthlyChallenges.october[dayKey];
+  const todaysChallenges = window.monthlyChallenges[monthName][dayKey];
 
-  if (!todaysChallenges || todaysChallenges.length !== 5) {
-    console.error('No challenges found for day:', dayOfMonth);
+  if (!todaysChallenges || !Array.isArray(todaysChallenges) || todaysChallenges.length !== 5) {
+    console.error('No challenges found for day:', dayOfMonth, 'Key:', dayKey);
     alert('No challenges available for today.');
     return;
   }
 
-  console.log(`Loading daily challenge for October ${dayOfMonth}`);
+  console.log(`Loading daily challenge for ${monthName} ${dayOfMonth}`);
   challengeQuestions = todaysChallenges;
 
   showScreen('daily-challenge-screen');
@@ -2519,8 +2760,8 @@ function updateShopButtonIndicator() {
   if (claimStatus.available || adStatus.canWatch) {
     // Add indicator for available rewards
     const indicator = document.createElement('span');
-    indicator.className = 'daily-indicator absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center animate-pulse';
-    indicator.innerHTML = '!';
+    indicator.className = 'daily-indicator absolute -top-1 -right-1 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full flex items-center justify-center free-bounce';
+    indicator.innerHTML = 'FREE';
     shopBtn.appendChild(indicator);
     shopBtn.style.position = 'relative';
   }
@@ -3459,10 +3700,12 @@ function attachEventListeners() {
 
     // Check if this is the new subcategory system
     if (window.currentQuizContext) {
-      const { mainTopicId } = window.currentQuizContext;
+      const { mainTopicId, subcategoryId, level } = window.currentQuizContext;
+      // Set 15-minute cooldown for this level
+      setSubcategoryFailureCooldown(mainTopicId, subcategoryId, level);
       showSubcategories(mainTopicId);
     } else {
-      // Old system: Set 10-minute cooldown for this level
+      // Old system: Set 15-minute cooldown for this level
       setLevelFailureCooldown(selectedGroupIndex, selectedLevelIndex);
       showScreen('levels-screen');
       // Refresh level buttons to show cooldown immediately
@@ -3483,10 +3726,12 @@ function attachEventListeners() {
 
     // Check if this is the new subcategory system
     if (window.currentQuizContext) {
-      const { mainTopicId } = window.currentQuizContext;
+      const { mainTopicId, subcategoryId, level } = window.currentQuizContext;
+      // Set 15-minute cooldown for this level
+      setSubcategoryFailureCooldown(mainTopicId, subcategoryId, level);
       showSubcategories(mainTopicId);
     } else {
-      // Old system: Set 10-minute cooldown for this level
+      // Old system: Set 15-minute cooldown for this level
       setLevelFailureCooldown(selectedGroupIndex, selectedLevelIndex);
       showScreen('levels-screen');
       // Refresh level buttons to show cooldown immediately
@@ -3545,10 +3790,21 @@ function attachEventListeners() {
     }
   });
 
+  // Game mode info modal buttons
+  const gamemodeInfoClose = document.getElementById('gamemode-info-close');
+  const gamemodeInfoOk = document.getElementById('gamemode-info-ok');
+
+  if (gamemodeInfoClose) {
+    gamemodeInfoClose.addEventListener('click', hideGameModeInfo);
+  }
+  if (gamemodeInfoOk) {
+    gamemodeInfoOk.addEventListener('click', hideGameModeInfo);
+  }
+
   // Daily challenge modal buttons
   const challengeCompleteBack = document.getElementById('challenge-complete-back');
   const challengeFailedBack = document.getElementById('challenge-failed-back');
-  
+
   if (challengeCompleteBack) challengeCompleteBack.addEventListener('click', () => {
     document.getElementById('challenge-complete-modal').classList.add('hidden');
     showScreen('home-screen');
@@ -3715,6 +3971,132 @@ function startBackgroundMusic() {
 
 // Add click sound to buttons (moved to attachEventListeners to avoid conflicts)
 
+// —— 7.5) Game Mode Info Modal ——
+function showGameModeInfo(mode) {
+  const modal = document.getElementById('gamemode-info-modal');
+  const title = document.getElementById('gamemode-info-title');
+  const content = document.getElementById('gamemode-info-content');
+
+  const gameModeInfo = {
+    'true-false': {
+      title: 'True/False Quiz',
+      content: `
+        <div class="bg-blue-50 border-l-4 border-blue-600 p-3 mb-4 rounded">
+          <p class="text-blue-900 font-semibold">Test your knowledge with quick true or false statements! A perfect warm-up challenge with binary choices that keep you on your toes.</p>
+        </div>
+
+        <h4 class="font-bold text-lg mb-2">How to Play:</h4>
+        <p class="mb-3">Answer 15 true/false questions as quickly and accurately as possible!</p>
+
+        <h4 class="font-bold text-lg mb-2">Game Details:</h4>
+        <ul class="list-disc list-inside space-y-1 mb-3">
+          <li><strong>Questions:</strong> 15 total</li>
+          <li><strong>Time per question:</strong> 10 seconds</li>
+          <li><strong>Reward:</strong> 30-60 stars (30 base + 2 per correct answer)</li>
+          <li><strong>Cooldown:</strong> 15 minutes after completion</li>
+        </ul>
+
+        <h4 class="font-bold text-lg mb-2">Tips:</h4>
+        <p>• Answer quickly to maximize your score</p>
+        <p>• Time penalties apply if you run out of time</p>
+        <p>• Questions are randomly selected from a large pool</p>
+      `
+    },
+    'lightning': {
+      title: '⚡ Lightning Round',
+      content: `
+        <div class="bg-yellow-50 border-l-4 border-yellow-600 p-3 mb-4 rounded">
+          <p class="text-yellow-900 font-semibold">Race against the clock in this adrenaline-pumping challenge! Answer as many questions as possible in just 60 seconds and build epic combos for massive multipliers!</p>
+        </div>
+
+        <h4 class="font-bold text-lg mb-2">How to Play:</h4>
+        <p class="mb-3">Answer as many questions as you can in 60 seconds!</p>
+
+        <h4 class="font-bold text-lg mb-2">Game Details:</h4>
+        <ul class="list-disc list-inside space-y-1 mb-3">
+          <li><strong>Duration:</strong> 60 seconds total</li>
+          <li><strong>Questions:</strong> Unlimited (as many as you can answer)</li>
+          <li><strong>Reward:</strong> 2 stars per correct answer</li>
+          <li><strong>Combo system:</strong> Build streaks for multipliers!</li>
+          <li><strong>Cooldown:</strong> 2 hours after completion</li>
+        </ul>
+
+        <h4 class="font-bold text-lg mb-2">Tips:</h4>
+        <p>• Speed is key - don't overthink!</p>
+        <p>• Maintain combos for bonus multipliers</p>
+        <p>• Questions get progressively harder</p>
+      `
+    },
+    'survivor': {
+      title: '🏆 Survivor Mode',
+      content: `
+        <div class="bg-green-50 border-l-4 border-green-600 p-3 mb-4 rounded">
+          <p class="text-green-900 font-semibold">Climb through 10 challenging levels with only 3 lives! Each level tests your knowledge with progressively harder questions. Can you reach the top and become a Grand Master?</p>
+        </div>
+
+        <h4 class="font-bold text-lg mb-2">How to Play:</h4>
+        <p class="mb-3">Progress through 10 levels with 3 lives. Each level has 3 questions!</p>
+
+        <h4 class="font-bold text-lg mb-2">Game Details:</h4>
+        <ul class="list-disc list-inside space-y-1 mb-3">
+          <li><strong>Lives:</strong> 3 (game over when all lost)</li>
+          <li><strong>Levels:</strong> 10 progressive difficulty levels</li>
+          <li><strong>Questions per level:</strong> 3</li>
+          <li><strong>Time per question:</strong> 12 seconds</li>
+          <li><strong>Reward:</strong> 5-25 stars per question (increases with level)</li>
+          <li><strong>Bonus:</strong> Level completion bonuses (15-60 stars)</li>
+          <li><strong>Cooldown:</strong> 4 hours after completion</li>
+        </ul>
+
+        <h4 class="font-bold text-lg mb-2">Tips:</h4>
+        <p>• Difficulty increases with each level</p>
+        <p>• Complete all 3 questions to advance</p>
+        <p>• Lose a life for wrong answers or timeouts</p>
+      `
+    },
+    'extreme-survivor': {
+      title: '💀 Extreme Survivor',
+      content: `
+        <div class="bg-red-50 border-l-4 border-red-600 p-3 mb-4 rounded">
+          <p class="text-red-900 font-semibold">The ultimate test of skill and knowledge! Only ONE life stands between you and glory. Faster questions, higher stakes, and massive rewards for those brave enough to accept the challenge!</p>
+        </div>
+
+        <h4 class="font-bold text-lg mb-2">How to Play:</h4>
+        <p class="mb-3">The ultimate challenge! Progress through 10 levels with only 1 life!</p>
+
+        <h4 class="font-bold text-lg mb-2">Game Details:</h4>
+        <ul class="list-disc list-inside space-y-1 mb-3">
+          <li><strong>Lives:</strong> 1 (one mistake = game over!)</li>
+          <li><strong>Levels:</strong> 10 progressive difficulty levels</li>
+          <li><strong>Questions per level:</strong> 2</li>
+          <li><strong>Time per question:</strong> 8 seconds (faster!)</li>
+          <li><strong>Reward:</strong> 8-40 stars per question (higher rewards)</li>
+          <li><strong>Bonus:</strong> Level completion bonuses (25-70 stars)</li>
+          <li><strong>Cooldown:</strong> 6 hours after completion</li>
+        </ul>
+
+        <h4 class="font-bold text-lg mb-2">Tips:</h4>
+        <p>• Only for experienced players!</p>
+        <p>• Higher risk = higher rewards</p>
+        <p>• One wrong answer ends the game</p>
+        <p>• Time runs out faster than normal Survivor</p>
+      `
+    }
+  };
+
+  const info = gameModeInfo[mode];
+  if (info) {
+    title.textContent = info.title;
+    content.innerHTML = info.content;
+    modal.classList.remove('hidden');
+  }
+}
+
+function hideGameModeInfo() {
+  const modal = document.getElementById('gamemode-info-modal');
+  modal.classList.add('hidden');
+}
+
 // —— 8) Export functions to window for global access ——
 window.showScreen = showScreen;
 window.updateStarDisplay = updateStarDisplay;
@@ -3759,6 +4141,13 @@ window.hideCompletePopup = hideCompletePopup;
 window.startDailyChallenge = startDailyChallenge;
 window.updateDailyChallengeButton = updateDailyChallengeButton;
 window.getDailyChallengeStatus = getDailyChallengeStatus;
+window.checkLevelCooldown = checkLevelCooldown;
+window.checkSubcategoryCooldown = checkSubcategoryCooldown;
+window.formatCooldownTime = formatCooldownTime;
+window.setSubcategoryFailureCooldown = setSubcategoryFailureCooldown;
+window.setModalCooldownText = setModalCooldownText;
+window.showGameModeInfo = showGameModeInfo;
+window.hideGameModeInfo = hideGameModeInfo;
 window.t = t;
 window.lang = lang;
 
@@ -3850,13 +4239,23 @@ function initializeApp() {
 
   // Ensure lang is available globally
   window.lang = lang;
-  
+
+  // Preload all questions asynchronously
+  if (window.QuestionPool && typeof window.QuestionPool.loadAllQuestionsAsync === 'function') {
+    console.log('Preloading all questions for challenge modes...');
+    window.QuestionPool.loadAllQuestionsAsync().then(() => {
+      console.log('All questions preloaded successfully!');
+    }).catch(error => {
+      console.error('Failed to preload questions:', error);
+    });
+  }
+
   // Load audio settings
   loadAudioSettings();
-  
+
   // Apply translations after language is set
   applyTranslations();
-  
+
   // Update daily challenge button status
   updateDailyChallengeButton();
   

@@ -1612,11 +1612,3 @@
   console.log(`Loaded ${generalKnowledgeQuestions.length} general knowledge true/false questions`);
 
 })();
-
-  // Export to window
-  window.trueFalseCategories = window.trueFalseCategories || {};
-  window.trueFalseCategories['general-knowledge'] = generalKnowledgeQuestions;
-
-  console.log(`Loaded ${generalKnowledgeQuestions.length} general knowledge true/false questions`);
-
-})();

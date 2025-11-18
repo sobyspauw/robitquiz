@@ -1,10 +1,10 @@
 // Survivor Mode Challenge Mode Logic
 (function() {
-  
+
   // Survivor Mode game state
   let smGameState = {
-    currentTier: 'warm-up',
-    tierProgress: 0, // Questions answered in current tier (0-2, advance at 3)
+    currentLevel: 1,
+    levelProgress: 0, // Questions answered in current level (0-2, advance at 3)
     lives: 3,
     totalScore: 0,
     currentQuestionIndex: 0,
@@ -12,72 +12,46 @@
     timer: null,
     timerInterval: null,
     isPlaying: false,
-    currentQuestions: [],
-    usedQuestions: {
-      'warm-up': [],
-      'brain-teaser': [],
-      'mind-bender': [],
-      'mastermind': [],
-      'impossible-mode': []
-    }
+    currentQuestion: null,
+    usedQuestions: {} // Will store arrays per level: { 1: [], 2: [], ... }
   };
 
-  // Tier configuration
-  const tierConfig = {
-    'warm-up': {
-      name: { en: 'Warm-Up', es: 'Calentamiento', de: 'Aufwärmen', nl: 'Opwarming' },
-      icon: '🔥',
-      starsPerQuestion: 5,
-      tierBonus: 30,
-      nextTier: 'brain-teaser'
-    },
-    'brain-teaser': {
-      name: { en: 'Brain Teaser', es: 'Rompecabezas', de: 'Gehirntrainer', nl: 'Hersenbreker' },
-      icon: '🧩',
-      starsPerQuestion: 8,
-      tierBonus: 30,
-      nextTier: 'mind-bender'
-    },
-    'mind-bender': {
-      name: { en: 'Mind Bender', es: 'Dobla Mentes', de: 'Gedankenbrecher', nl: 'Geestverbuiger' },
-      icon: '🌀',
-      starsPerQuestion: 12,
-      tierBonus: 30,
-      nextTier: 'mastermind'
-    },
-    'mastermind': {
-      name: { en: 'Mastermind', es: 'Mente Maestra', de: 'Mastermind', nl: 'Meesterbrein' },
-      icon: '🧠',
-      starsPerQuestion: 18,
-      tierBonus: 30,
-      nextTier: 'impossible-mode'
-    },
-    'impossible-mode': {
-      name: { en: 'Impossible Mode', es: 'Modo Imposible', de: 'Unmöglicher Modus', nl: 'Onmogelijke Modus' },
-      icon: '🚫',
-      starsPerQuestion: 25,
-      tierBonus: 30,
-      nextTier: null
-    }
+  // Initialize used questions for all levels
+  for (let i = 1; i <= 10; i++) {
+    smGameState.usedQuestions[i] = [];
+  }
+
+  // Level configuration (levels 1-10)
+  const levelConfig = {
+    1: { starsPerQuestion: 5, levelBonus: 15 },
+    2: { starsPerQuestion: 7, levelBonus: 20 },
+    3: { starsPerQuestion: 9, levelBonus: 25 },
+    4: { starsPerQuestion: 11, levelBonus: 30 },
+    5: { starsPerQuestion: 13, levelBonus: 35 },
+    6: { starsPerQuestion: 15, levelBonus: 40 },
+    7: { starsPerQuestion: 17, levelBonus: 45 },
+    8: { starsPerQuestion: 19, levelBonus: 50 },
+    9: { starsPerQuestion: 21, levelBonus: 55 },
+    10: { starsPerQuestion: 25, levelBonus: 60 }
   };
 
   // Cooldown management
   function checkSurvivorCooldown() {
     const lastPlayed = localStorage.getItem('sm_last_played');
     if (!lastPlayed) return { canPlay: true, timeRemaining: 0 };
-    
+
     const lastPlayedTime = parseInt(lastPlayed);
     const cooldownDuration = 4 * 60 * 60 * 1000; // 4 hours in milliseconds
     const now = Date.now();
     const timePassed = now - lastPlayedTime;
-    
+
     if (timePassed >= cooldownDuration) {
       return { canPlay: true, timeRemaining: 0 };
     }
-    
-    return { 
-      canPlay: false, 
-      timeRemaining: cooldownDuration - timePassed 
+
+    return {
+      canPlay: false,
+      timeRemaining: cooldownDuration - timePassed
     };
   }
 
@@ -85,7 +59,7 @@
   function formatTimeRemaining(ms) {
     const hours = Math.floor(ms / (60 * 60 * 1000));
     const minutes = Math.floor((ms % (60 * 60 * 1000)) / (60 * 1000));
-    
+
     if (hours > 0) {
       return `${hours}h ${minutes}m`;
     } else {
@@ -99,13 +73,13 @@
     const playBtn = document.getElementById('sm-play-btn');
     const cooldownDiv = document.getElementById('sm-cooldown');
     const timerSpan = document.getElementById('sm-timer');
-    const bestTier = localStorage.getItem('sm_best_tier') || '-';
-    const bestTierElement = document.getElementById('sm-best-tier');
-    
-    if (bestTierElement) {
-      bestTierElement.textContent = bestTier === '-' ? '-' : bestTier;
+    const bestLevel = localStorage.getItem('sm_best_level') || '-';
+    const bestLevelElement = document.getElementById('sm-best-tier'); // Keep existing element ID
+
+    if (bestLevelElement) {
+      bestLevelElement.textContent = bestLevel === '-' ? '-' : `Level ${bestLevel}`;
     }
-    
+
     if (cooldownStatus.canPlay) {
       playBtn.style.display = 'block';
       cooldownDiv.classList.add('hidden');
@@ -116,30 +90,22 @@
     }
   }
 
-  // Get unused questions for current tier
-  function getUnusedQuestionsForTier(tier) {
+  // Get unused questions for current level
+  function getUnusedQuestionsForLevel(level) {
     // Use QuestionPool service to get questions
     if (!window.QuestionPool) {
       console.error('QuestionPool service not loaded!');
       return [];
     }
 
-    // Map tier to difficulty
-    const tierDifficultyMap = {
-      'warm-up': 'easy',
-      'brain-teaser': 'medium',
-      'mind-bender': 'medium',
-      'mastermind': 'hard',
-      'impossible-mode': 'hard'
-    };
+    // Calculate difficulty based on level (levels 1-3 = easy, 4-7 = medium, 8-10 = hard)
+    const difficulty = window.QuestionPool.calculateDifficulty(level);
 
-    const difficulty = tierDifficultyMap[tier] || 'medium';
-
-    // Get all questions for this difficulty from QuestionPool
-    const allQuestions = window.QuestionPool.getQuestionsByDifficulty(difficulty, 100);
+    // Get questions at this difficulty level
+    const allQuestions = window.QuestionPool.getRandomQuestions(100, { difficulty });
 
     if (allQuestions.length === 0) {
-      console.error(`No questions available for tier: ${tier}!`);
+      console.error(`No questions available for level ${level} (difficulty: ${difficulty})!`);
       return [];
     }
 
@@ -151,7 +117,7 @@
       correctIndex: q.correct  // Map 'correct' to 'correctIndex' for consistency
     }));
 
-    const recentlyUsed = smGameState.usedQuestions[tier];
+    const recentlyUsed = smGameState.usedQuestions[level] || [];
     const availableQuestions = questionsWithIds.filter(q =>
       !recentlyUsed.includes(q.id)
     );
@@ -159,7 +125,7 @@
     // If we don't have enough questions, reset the pool but keep the last few
     if (availableQuestions.length < 3) {
       const keepRecent = recentlyUsed.slice(-5);
-      smGameState.usedQuestions[tier] = keepRecent;
+      smGameState.usedQuestions[level] = keepRecent;
       return questionsWithIds.filter(q => !keepRecent.includes(q.id));
     }
 
@@ -168,55 +134,77 @@
 
   // Select next question
   function selectNextQuestion() {
-    const availableQuestions = getUnusedQuestionsForTier(smGameState.currentTier);
+    const availableQuestions = getUnusedQuestionsForLevel(smGameState.currentLevel);
     if (availableQuestions.length === 0) {
-      console.error('No questions available for tier:', smGameState.currentTier);
+      console.error('No questions available for level:', smGameState.currentLevel);
       return null;
     }
-    
+
     const randomIndex = Math.floor(Math.random() * availableQuestions.length);
     const selectedQuestion = availableQuestions[randomIndex];
-    
+
     // Add to used questions
-    smGameState.usedQuestions[smGameState.currentTier].push(selectedQuestion.id);
-    
+    if (!smGameState.usedQuestions[smGameState.currentLevel]) {
+      smGameState.usedQuestions[smGameState.currentLevel] = [];
+    }
+    smGameState.usedQuestions[smGameState.currentLevel].push(selectedQuestion.id);
+
     return selectedQuestion;
   }
 
   // Start Survivor Mode
-  function startSurvivorMode() {
+  async function startSurvivorMode() {
     console.log('Starting Survivor Mode...');
-    
+
     const cooldownStatus = checkSurvivorCooldown();
     if (!cooldownStatus.canPlay) {
       alert(`Survivor Mode is on cooldown. Try again in ${formatTimeRemaining(cooldownStatus.timeRemaining)}.`);
       return;
     }
-    
+
+    // Set modal cooldown text for survivor mode
+    if (typeof window.setModalCooldownText === 'function') {
+      window.setModalCooldownText('survivor');
+    }
+
+    // Check if questions are already loaded, if not load them
+    if (window.QuestionPool && window.QuestionPool.getAllQuestions().length === 0) {
+      try {
+        console.log('Questions not preloaded, loading now...');
+        await window.QuestionPool.loadAllQuestionsAsync();
+      } catch (error) {
+        console.error('Failed to load questions:', error);
+        alert('Failed to load questions. Please try again later.');
+        return;
+      }
+    } else {
+      console.log('Using preloaded questions for Survivor Mode');
+    }
+
     // Reset game state
-    smGameState.currentTier = 'warm-up';
-    smGameState.tierProgress = 0;
+    smGameState.currentLevel = 1;
+    smGameState.levelProgress = 0;
     smGameState.lives = 3;
     smGameState.totalScore = 0;
     smGameState.currentQuestionIndex = 0;
     smGameState.timeLeft = 12;
     smGameState.isPlaying = true;
-    
+
     // Reset used questions for this session
-    Object.keys(smGameState.usedQuestions).forEach(tier => {
-      smGameState.usedQuestions[tier] = [];
-    });
-    
+    for (let i = 1; i <= 10; i++) {
+      smGameState.usedQuestions[i] = [];
+    }
+
     // Set cooldown
     localStorage.setItem('sm_last_played', Date.now().toString());
     updateSurvivorDisplay();
-    
+
     // Show Survivor screen
     window.showScreen('survivor-screen');
-    
+
     // Initialize UI
     updateSurvivorUI();
-    
+
     // Start first question
     nextSurvivorQuestion();
   }
@@ -224,11 +212,27 @@
   // Update Survivor Mode UI
   function updateSurvivorUI() {
     const lang = window.lang || 'en';
-    const config = tierConfig[smGameState.currentTier];
-    
-    // Update tier display
-    document.getElementById('sm-current-tier').textContent = `${config.icon} ${config.name[lang]}`;
-    
+    const config = levelConfig[smGameState.currentLevel];
+
+    // Level icons/emojis based on level number
+    const levelIcons = {
+      1: '⭐', 2: '🌟', 3: '✨', 4: '💫', 5: '🌠',
+      6: '🔥', 7: '💥', 8: '⚡', 9: '🌪️', 10: '🏆'
+    };
+
+    const levelNames = {
+      en: ['Beginner', 'Novice', 'Apprentice', 'Skilled', 'Expert', 'Master', 'Champion', 'Legend', 'Hero', 'Grand Master'],
+      es: ['Principiante', 'Novato', 'Aprendiz', 'Hábil', 'Experto', 'Maestro', 'Campeón', 'Leyenda', 'Héroe', 'Gran Maestro'],
+      de: ['Anfänger', 'Neuling', 'Lehrling', 'Geschickt', 'Experte', 'Meister', 'Champion', 'Legende', 'Held', 'Großmeister'],
+      nl: ['Beginner', 'Novice', 'Leerling', 'Bekwaam', 'Expert', 'Meester', 'Kampioen', 'Legende', 'Held', 'Grootmeester']
+    };
+
+    const levelIcon = levelIcons[smGameState.currentLevel] || '⭐';
+    const levelName = levelNames[lang][smGameState.currentLevel - 1] || `Level ${smGameState.currentLevel}`;
+
+    // Update level display
+    document.getElementById('sm-current-tier').textContent = `${levelIcon} ${levelName} (Level ${smGameState.currentLevel}/10)`;
+
     // Update lives
     const livesDiv = document.getElementById('sm-lives');
     livesDiv.innerHTML = '';
@@ -238,17 +242,17 @@
       heart.textContent = '❤️';
       livesDiv.appendChild(heart);
     }
-    
+
     // Update progress bar
-    const progressPercent = (smGameState.tierProgress / 3) * 100;
+    const progressPercent = (smGameState.levelProgress / 3) * 100;
     document.getElementById('sm-progress-bar').style.width = `${progressPercent}%`;
-    document.getElementById('sm-progress-text').textContent = 
-      `${smGameState.tierProgress}/3 questions to next tier`;
-    
+    document.getElementById('sm-progress-text').textContent =
+      `${smGameState.levelProgress}/3 questions to next level`;
+
     // Update score
-    document.getElementById('sm-score-display').textContent = 
+    document.getElementById('sm-score-display').textContent =
       `Score: ${smGameState.totalScore} stars`;
-    
+
     // Update timer
     document.getElementById('sm-timer-display').textContent = `${smGameState.timeLeft}s`;
   }
@@ -257,30 +261,86 @@
   function startSurvivorTimer() {
     clearTimeout(smGameState.timer);
     clearInterval(smGameState.timerInterval);
-    
+
     smGameState.timeLeft = 12;
-    
+
     smGameState.timerInterval = setInterval(() => {
       smGameState.timeLeft--;
       document.getElementById('sm-timer-display').textContent = `${smGameState.timeLeft}s`;
-      
+
       if (smGameState.timeLeft <= 0) {
-        handleSurvivorAnswer(null); // Time's up
+        clearInterval(smGameState.timerInterval);
+        showSurvivorTimeoutModal();
       }
     }, 1000);
+  }
+
+  // Show timeout modal for Survivor Mode
+  function showSurvivorTimeoutModal() {
+    smGameState.isPlaying = false;
+
+    // Show timeout modal
+    const timeoutModal = document.getElementById('timeout-modal');
+    if (timeoutModal) {
+      timeoutModal.classList.remove('hidden');
+
+      // Update modal text for Survivor Mode context
+      const timeoutText = document.getElementById('timeout-modal-text');
+      if (timeoutText) {
+        timeoutText.textContent = `Time's up! You reached Level ${smGameState.currentLevel} with ${smGameState.totalScore} stars.`;
+      }
+
+      // Handle back button - end survivor mode
+      const backBtn = document.getElementById('timeout-modal-back');
+      if (backBtn) {
+        backBtn.onclick = () => {
+          timeoutModal.classList.add('hidden');
+          endSurvivorMode(false);
+        };
+      }
+    }
+  }
+
+  // Show error modal for Survivor Mode (too many mistakes)
+  function showSurvivorErrorModal() {
+    smGameState.isPlaying = false;
+
+    // Show error modal
+    const errorModal = document.getElementById('error-modal');
+    if (errorModal) {
+      errorModal.classList.remove('hidden');
+
+      // Update modal text for Survivor Mode context
+      const errorText = document.getElementById('error-modal-text');
+      if (errorText) {
+        errorText.textContent = `Too many mistakes! You reached Level ${smGameState.currentLevel} with ${smGameState.totalScore} stars.`;
+      }
+
+      // Handle back button - end survivor mode
+      const backBtn = document.getElementById('error-modal-back');
+      if (backBtn) {
+        backBtn.onclick = () => {
+          errorModal.classList.add('hidden');
+          endSurvivorMode(false);
+        };
+      }
+    }
   }
 
   // Render current question
   function renderSurvivorQuestion(question) {
     const lang = window.lang || 'en';
-    
+
     // Update question text
     document.getElementById('sm-question-text').textContent = question.question[lang];
-    
+
+    // Hide explanation from previous question
+    document.getElementById('sm-explanation').classList.add('hidden');
+
     // Create answer buttons
     const answersDiv = document.getElementById('sm-answers');
     answersDiv.innerHTML = '';
-    
+
     question.options.forEach((option, index) => {
       const btn = document.createElement('button');
       btn.className = 'w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-2 rounded';
@@ -294,87 +354,117 @@
   // Handle answer selection
   function handleSurvivorAnswer(selectedIndex) {
     if (!smGameState.isPlaying) return;
-    
+
     // Stop timer
     clearTimeout(smGameState.timer);
     clearInterval(smGameState.timerInterval);
-    
+
     // Disable buttons
     document.querySelectorAll('#sm-answers button').forEach(btn => btn.disabled = true);
-    
+
     const currentQuestion = smGameState.currentQuestion;
     const isCorrect = selectedIndex === currentQuestion.correctIndex && selectedIndex !== null;
-    
+
     if (isCorrect) {
       document.getElementById('snd-correct').play();
-      
-      // Award stars
-      const starsEarned = tierConfig[smGameState.currentTier].starsPerQuestion;
-      smGameState.totalScore += starsEarned;
-      
-      // Advance tier progress
-      smGameState.tierProgress++;
-      
-      // Highlight correct answer
-      const buttons = document.querySelectorAll('#sm-answers button');
-      if (buttons[selectedIndex]) {
-        buttons[selectedIndex].className = 'w-full bg-green-800 text-white font-semibold py-2 rounded';
+
+      // Show large checkmark in center of screen
+      if (typeof window.showFeedbackIcon === 'function') {
+        window.showFeedbackIcon('✓', '#22c55e');
       }
-      
-      // Check for tier advancement
-      if (smGameState.tierProgress >= 3) {
-        advanceToNextTier();
+
+      // Award stars
+      const starsEarned = levelConfig[smGameState.currentLevel].starsPerQuestion;
+      smGameState.totalScore += starsEarned;
+
+      // Advance level progress
+      smGameState.levelProgress++;
+
+      // Add border to correct answer based on theme
+      const isLightMode = document.body.classList.contains('light-mode');
+      const borderColor = isLightMode ? '#1f2937' : '#ffffff';
+      const buttons = document.querySelectorAll('#sm-answers button');
+
+      if (buttons[selectedIndex]) {
+        buttons[selectedIndex].style.border = `4px solid ${borderColor}`;
+      }
+
+      // Check for level advancement
+      if (smGameState.levelProgress >= 3) {
+        advanceToNextLevel();
       }
     } else {
       document.getElementById('snd-wrong').play();
-      
+
+      // Show large cross in center of screen
+      if (typeof window.showFeedbackIcon === 'function') {
+        window.showFeedbackIcon('✗', '#F23F5D');
+      }
+
       // Lose a life
       smGameState.lives--;
-      
-      // Highlight correct and wrong answers
+
+      // Show correct answer
+      const isLightMode = document.body.classList.contains('light-mode');
+      const borderColor = isLightMode ? '#1f2937' : '#ffffff';
       const buttons = document.querySelectorAll('#sm-answers button');
-      if (selectedIndex !== null && buttons[selectedIndex]) {
-        buttons[selectedIndex].className = 'w-full bg-red-800 text-white font-semibold py-2 rounded';
-      }
+
+      // Correct answer - add border based on theme
       if (buttons[currentQuestion.correctIndex]) {
-        buttons[currentQuestion.correctIndex].className = 'w-full bg-green-800 text-white font-semibold py-2 rounded';
+        buttons[currentQuestion.correctIndex].style.border = `4px solid ${borderColor}`;
       }
-      
+
       // Check for game over
       if (smGameState.lives <= 0) {
-        setTimeout(() => endSurvivorMode(false), 1500);
+        setTimeout(() => showSurvivorErrorModal(), 2000);
         return;
       }
     }
-    
+
     // Update UI
     updateSurvivorUI();
-    
-    // Continue to next question after delay
-    setTimeout(() => {
-      nextSurvivorQuestion();
-    }, 1500);
+
+    // Check if explanations are enabled
+    const showExplanations = document.getElementById('explanations-toggle')?.checked ?? true;
+    const lang = localStorage.getItem('language') || 'en';
+
+    if (showExplanations && currentQuestion.explanation && currentQuestion.explanation[lang]) {
+      // Show explanation with continue button
+      const explanationContainer = document.getElementById('sm-explanation');
+      const explanationText = document.getElementById('sm-explanation-text');
+      explanationText.textContent = currentQuestion.explanation[lang];
+      explanationContainer.classList.remove('hidden');
+
+      // Don't auto-advance - wait for continue button click
+    } else {
+      // Auto-advance after delay when explanations are off
+      smGameState.nextQuestionTimer = setTimeout(() => {
+        if (smGameState.isPlaying) {
+          nextSurvivorQuestion();
+        }
+      }, 1500);
+    }
   }
 
-  // Advance to next tier
-  function advanceToNextTier() {
-    const currentConfig = tierConfig[smGameState.currentTier];
-    
-    // Award tier bonus
-    smGameState.totalScore += currentConfig.tierBonus;
-    
-    // Check if there's a next tier
-    if (!currentConfig.nextTier) {
+  // Advance to next level
+  function advanceToNextLevel() {
+    const currentConfig = levelConfig[smGameState.currentLevel];
+
+    // Award level bonus
+    smGameState.totalScore += currentConfig.levelBonus;
+
+    // Check if we've completed all levels
+    if (smGameState.currentLevel >= 10) {
       // Game complete!
       setTimeout(() => endSurvivorMode(true), 1500);
       return;
     }
-    
-    // Advance to next tier
-    smGameState.currentTier = currentConfig.nextTier;
-    smGameState.tierProgress = 0;
-    
-    console.log(`Advanced to tier: ${smGameState.currentTier}`);
+
+    // Advance to next level
+    smGameState.currentLevel++;
+    smGameState.levelProgress = 0;
+
+    console.log(`Advanced to level: ${smGameState.currentLevel}`);
   }
 
   // Move to next question
@@ -384,7 +474,7 @@
       endSurvivorMode(false);
       return;
     }
-    
+
     smGameState.currentQuestion = question;
     renderSurvivorQuestion(question);
     updateSurvivorUI();
@@ -396,37 +486,32 @@
     smGameState.isPlaying = false;
     clearTimeout(smGameState.timer);
     clearInterval(smGameState.timerInterval);
-    
+
     // Add stars to player
     let stars = parseInt(localStorage.getItem('qb_stars') || '0');
     stars += smGameState.totalScore;
     localStorage.setItem('qb_stars', stars.toString());
-    window.updateCoinDisplay();
-    
-    // Update best tier
-    const tierNames = Object.keys(tierConfig);
-    const currentTierIndex = tierNames.indexOf(smGameState.currentTier);
-    const currentBest = localStorage.getItem('sm_best_tier') || '';
-    const bestTierIndex = tierNames.indexOf(currentBest);
-    
-    if (currentTierIndex > bestTierIndex) {
-      const lang = window.lang || 'en';
-      const tierDisplayName = tierConfig[smGameState.currentTier].name[lang];
-      localStorage.setItem('sm_best_tier', tierDisplayName);
+    if (typeof window.updateStarDisplay === 'function') {
+      window.updateStarDisplay();
+    }
+
+    // Update best level
+    const currentBest = parseInt(localStorage.getItem('sm_best_level') || '0');
+
+    if (smGameState.currentLevel > currentBest) {
+      localStorage.setItem('sm_best_level', smGameState.currentLevel.toString());
       updateSurvivorDisplay();
     }
-    
+
     // Show completion message
     let message;
     if (completed) {
-      message = `🏆 INCREDIBLE! You've conquered all tiers!\n\nFinal Score: ${smGameState.totalScore} stars\nYou are truly a quiz master!`;
+      message = `🏆 INCREDIBLE! You've conquered all 10 levels!\n\nFinal Score: ${smGameState.totalScore} stars\nYou are truly a quiz master!`;
     } else {
-      const lang = window.lang || 'en';
-      const tierName = tierConfig[smGameState.currentTier].name[lang];
-      message = `Survivor Mode Complete!\n\nReached: ${tierName}\nScore: ${smGameState.totalScore} stars\nGreat effort!`;
+      message = `Survivor Mode Complete!\n\nReached: Level ${smGameState.currentLevel}\nScore: ${smGameState.totalScore} stars\nGreat effort!`;
     }
     alert(message);
-    
+
     // Return to challenge modes screen
     window.showScreen('challenge-modes-screen');
   }
@@ -434,29 +519,35 @@
   // Initialize Survivor Mode
   function initializeSurvivorMode() {
     console.log('Initializing Survivor Mode...');
-    
+
     // Add event listeners
     document.getElementById('sm-play-btn')?.addEventListener('click', startSurvivorMode);
-    
+    document.getElementById('sm-continue-btn')?.addEventListener('click', () => {
+      if (smGameState.isPlaying) {
+        nextSurvivorQuestion();
+      }
+    });
+
     // Update display
     updateSurvivorDisplay();
-    
+
     // Update cooldown display every minute
     setInterval(updateSurvivorDisplay, 60000);
-    
+
     console.log('Survivor Mode initialized');
   }
 
-  // Export functions
+  // Export functions and state
   window.startSurvivorMode = startSurvivorMode;
   window.initializeSurvivorMode = initializeSurvivorMode;
   window.updateSurvivorDisplay = updateSurvivorDisplay;
-  
+  window.smGameState = smGameState;
+
   // Initialize when DOM is ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initializeSurvivorMode);
   } else {
     initializeSurvivorMode();
   }
-  
+
 })();

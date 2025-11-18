@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Test</title>
+</head>
+<body>
+  <h1>Simple JS Test</h1>
+  <script>
+    console.log('=== START ===');
+    window.testCategories = {};
+  </script>
+
+  <script>
+    (function() {
+      console.log('Test script 1 running');
+      window.testCategories['test1'] = ['question1', 'question2'];
+      console.log('Test script 1 done');
+    })();
+  </script>
+
+  <script>
+    console.log('After test script 1');
+    console.log('testCategories:', window.testCategories);
+  </script>
+
+  <script src="src/questions/data/true-false/general-knowledge.js"></script>
+
+  <script>
+    console.log('After loading general-knowledge.js');
+    console.log('trueFalseCategories:', window.trueFalseCategories);
+  </script>
+</body>
+</html>

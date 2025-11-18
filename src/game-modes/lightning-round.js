@@ -7,11 +7,8 @@
     currentQuestionIndex: 0,
     score: 0,
     totalTimeLeft: 60,
-    questionTimeLeft: 5,
     gameTimer: null,
-    questionTimer: null,
     gameTimerInterval: null,
-    questionTimerInterval: null,
     combo: 0,
     comboMultiplier: 1,
     usedQuestionIds: [],
@@ -131,71 +128,72 @@
   }
 
   // Start Lightning Round
-  function startLightningRound() {
+  async function startLightningRound() {
     console.log('Starting Lightning Round...');
-    
+
     const cooldownStatus = checkLightningRoundCooldown();
     if (!cooldownStatus.canPlay) {
       alert(`Lightning Round is on cooldown. Try again in ${formatTimeRemaining(cooldownStatus.timeRemaining)}.`);
       return;
     }
-    
+
+    // Set modal cooldown text for lightning mode
+    if (typeof window.setModalCooldownText === 'function') {
+      window.setModalCooldownText('lightning');
+    }
+
+    // Check if questions are already loaded, if not load them
+    if (window.QuestionPool && window.QuestionPool.getAllQuestions().length === 0) {
+      try {
+        console.log('Questions not preloaded, loading now...');
+        await window.QuestionPool.loadAllQuestionsAsync();
+      } catch (error) {
+        console.error('Failed to load questions:', error);
+        alert('Failed to load questions. Please try again later.');
+        return;
+      }
+    } else {
+      console.log('Using preloaded questions for Lightning Round');
+    }
+
     // Reset game state
     lrGameState.questions = selectLightningQuestions();
     lrGameState.currentQuestionIndex = 0;
     lrGameState.score = 0;
     lrGameState.totalTimeLeft = 60;
-    lrGameState.questionTimeLeft = 5;
     lrGameState.combo = 0;
     lrGameState.comboMultiplier = 1;
     lrGameState.isPlaying = true;
     lrGameState.questionsAnswered = 0;
-    
+
     if (lrGameState.questions.length === 0) {
       alert('No questions available. Please try again later.');
       return;
     }
-    
+
     // Set cooldown
     localStorage.setItem('lr_last_played', Date.now().toString());
     updateLightningRoundDisplay();
-    
+
     // Show Lightning Round screen
     window.showScreen('lightning-round-screen');
-    
+
     // Start game timer and render first question
     startLightningGameTimer();
     renderLightningQuestion();
-    startLightningQuestionTimer();
   }
 
   // Start 60-second game timer
   function startLightningGameTimer() {
     clearTimeout(lrGameState.gameTimer);
     clearInterval(lrGameState.gameTimerInterval);
-    
+
     lrGameState.gameTimerInterval = setInterval(() => {
       lrGameState.totalTimeLeft--;
       document.getElementById('lr-timer-display').textContent = `${lrGameState.totalTimeLeft}s`;
-      
+
       if (lrGameState.totalTimeLeft <= 0) {
         endLightningRound();
-      }
-    }, 1000);
-  }
-
-  // Start 5-second question timer
-  function startLightningQuestionTimer() {
-    clearTimeout(lrGameState.questionTimer);
-    clearInterval(lrGameState.questionTimerInterval);
-    
-    lrGameState.questionTimeLeft = 5;
-    
-    lrGameState.questionTimerInterval = setInterval(() => {
-      lrGameState.questionTimeLeft--;
-      
-      if (lrGameState.questionTimeLeft <= 0) {
-        handleLightningAnswer(null); // Time's up
       }
     }, 1000);
   }
@@ -228,11 +226,14 @@
     // Update score and combo display
     document.getElementById('lr-score-display').textContent = `Score: ${lrGameState.score}`;
     document.getElementById('lr-combo').textContent = `x${lrGameState.comboMultiplier}`;
-    
+
+    // Hide explanation from previous question
+    document.getElementById('lr-explanation').classList.add('hidden');
+
     // Create answer buttons
     const answersDiv = document.getElementById('lr-answers');
     answersDiv.innerHTML = '';
-    
+
     question.options.forEach((option, index) => {
       const btn = document.createElement('button');
       btn.className = 'w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded';
@@ -246,72 +247,103 @@
   // Handle answer selection
   function handleLightningAnswer(selectedIndex) {
     if (!lrGameState.isPlaying) return;
-    
-    // Stop question timer
-    clearTimeout(lrGameState.questionTimer);
-    clearInterval(lrGameState.questionTimerInterval);
-    
+
+    // PAUSE the game timer when showing explanation
+    clearInterval(lrGameState.gameTimerInterval);
+
     // Disable buttons
     document.querySelectorAll('#lr-answers button').forEach(btn => btn.disabled = true);
-    
+
     const question = lrGameState.questions[lrGameState.currentQuestionIndex];
     const isCorrect = selectedIndex === question.correctIndex && selectedIndex !== null;
-    
+
     lrGameState.questionsAnswered++;
-    
+
     if (isCorrect) {
       document.getElementById('snd-correct').play();
-      
+
+      // Show large checkmark in center of screen
+      if (typeof window.showFeedbackIcon === 'function') {
+        window.showFeedbackIcon('✓', '#22c55e');
+      }
+
       // Update combo
       lrGameState.combo++;
       updateComboMultiplier();
-      
+
       // Add score with multiplier
       const basePoints = 3;
       const pointsEarned = basePoints * lrGameState.comboMultiplier;
       lrGameState.score += pointsEarned;
-      
-      // Highlight correct answer
+
+      // Add border to correct answer based on theme
+      const isLightMode = document.body.classList.contains('light-mode');
+      const borderColor = isLightMode ? '#1f2937' : '#ffffff';
       const buttons = document.querySelectorAll('#lr-answers button');
+
       if (buttons[selectedIndex]) {
-        buttons[selectedIndex].className = 'w-full bg-green-700 text-white font-semibold py-2 rounded';
+        buttons[selectedIndex].style.border = `4px solid ${borderColor}`;
       }
     } else {
       document.getElementById('snd-wrong').play();
-      
+
+      // Show large cross in center of screen
+      if (typeof window.showFeedbackIcon === 'function') {
+        window.showFeedbackIcon('✗', '#F23F5D');
+      }
+
       // Reset combo
       lrGameState.combo = 0;
       lrGameState.comboMultiplier = 1;
-      
-      // Highlight correct and wrong answers
+
+      // Show correct answer with border based on theme
+      const isLightMode = document.body.classList.contains('light-mode');
+      const borderColor = isLightMode ? '#1f2937' : '#ffffff';
       const buttons = document.querySelectorAll('#lr-answers button');
-      if (selectedIndex !== null && buttons[selectedIndex]) {
-        buttons[selectedIndex].className = 'w-full bg-red-700 text-white font-semibold py-2 rounded';
-      }
+
+      // Correct answer - add border based on theme
       if (buttons[question.correctIndex]) {
-        buttons[question.correctIndex].className = 'w-full bg-green-700 text-white font-semibold py-2 rounded';
+        buttons[question.correctIndex].style.border = `4px solid ${borderColor}`;
       }
     }
-    
+
     // Update displays
     document.getElementById('lr-score-display').textContent = `Score: ${lrGameState.score}`;
     document.getElementById('lr-combo').textContent = `x${lrGameState.comboMultiplier}`;
-    
-    // Move to next question after short delay
-    setTimeout(() => {
-      nextLightningQuestion();
-    }, 800);
+
+    // Check if explanations are enabled
+    const showExplanations = document.getElementById('explanations-toggle')?.checked ?? true;
+    const lang = localStorage.getItem('language') || 'en';
+
+    if (showExplanations && question.explanation && question.explanation[lang]) {
+      // Show explanation with continue button (timer is paused)
+      const explanationContainer = document.getElementById('lr-explanation');
+      const explanationText = document.getElementById('lr-explanation-text');
+      explanationText.textContent = question.explanation[lang];
+      explanationContainer.classList.remove('hidden');
+
+      // Timer will resume when continue button is clicked
+    } else {
+      // Auto-advance after delay when explanations are off
+      lrGameState.nextQuestionTimer = setTimeout(() => {
+        if (lrGameState.isPlaying) {
+          nextLightningQuestion();
+        }
+      }, 1500);
+    }
   }
 
   // Move to next question
   function nextLightningQuestion() {
     lrGameState.currentQuestionIndex++;
-    
+
     if (lrGameState.totalTimeLeft <= 0 || lrGameState.currentQuestionIndex >= lrGameState.questions.length) {
       endLightningRound();
     } else {
+      // Resume the game timer (it was paused during explanation)
+      startLightningGameTimer();
+
       renderLightningQuestion();
-      startLightningQuestionTimer();
     }
   }
 
@@ -320,8 +352,6 @@
     lrGameState.isPlaying = false;
     clearTimeout(lrGameState.gameTimer);
     clearInterval(lrGameState.gameTimerInterval);
-    clearTimeout(lrGameState.questionTimer);
-    clearInterval(lrGameState.questionTimerInterval);
     
     // Update used questions tracking
     updateUsedLightningQuestions();
@@ -359,23 +389,29 @@
   // Initialize Lightning Round mode
   function initializeLightningRound() {
     console.log('Initializing Lightning Round...');
-    
+
     // Add event listeners
     document.getElementById('lr-play-btn')?.addEventListener('click', startLightningRound);
-    
+    document.getElementById('lr-continue-btn')?.addEventListener('click', () => {
+      if (lrGameState.isPlaying) {
+        nextLightningQuestion();
+      }
+    });
+
     // Update display
     updateLightningRoundDisplay();
-    
+
     // Update cooldown display every minute
     setInterval(updateLightningRoundDisplay, 60000);
-    
+
     console.log('Lightning Round initialized');
   }
 
-  // Export functions
+  // Export functions and state
   window.startLightningRound = startLightningRound;
   window.initializeLightningRound = initializeLightningRound;
   window.updateLightningRoundDisplay = updateLightningRoundDisplay;
+  window.lrGameState = lrGameState;
   
   // Initialize when DOM is ready
   if (document.readyState === 'loading') {

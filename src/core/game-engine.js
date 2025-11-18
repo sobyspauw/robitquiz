@@ -39,6 +39,21 @@ function quickStart() {
 function startLevel(groupIdx, levelIdx) {
   console.log('startLevel called with:', groupIdx, levelIdx);
 
+  // Set modal cooldown text for normal game mode
+  if (typeof window.setModalCooldownText === 'function') {
+    window.setModalCooldownText('normal');
+  }
+
+  // Check if level is on cooldown (15-minute lockout after failure)
+  if (typeof window.checkLevelCooldown === 'function') {
+    const cooldownStatus = window.checkLevelCooldown(groupIdx, levelIdx);
+    if (!cooldownStatus.canPlay) {
+      const timeLeft = window.formatCooldownTime(cooldownStatus.timeRemaining);
+      alert(`This level is locked for ${timeLeft} due to a previous failure. Try again later or use diamonds to continue.`);
+      return;
+    }
+  }
+
   selectedGroupIndex = groupIdx;
   selectedLevelIndex = levelIdx;
   currentIndex       = 0;
@@ -103,6 +118,15 @@ function handleAnswer(answer, btn) {
   document.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
   console.log('Disabled all answer buttons');
 
+  // disable powerup buttons after answer is given
+  const fiftyFiftyBtn = document.getElementById('fifty-fifty-btn');
+  const skipBtn = document.getElementById('skip-btn');
+  const timeBonusBtn = document.getElementById('time-bonus-btn');
+  if (fiftyFiftyBtn) fiftyFiftyBtn.disabled = true;
+  if (skipBtn) skipBtn.disabled = true;
+  if (timeBonusBtn) timeBonusBtn.disabled = true;
+  console.log('Disabled all powerup buttons');
+
   // stop countdown
   clearTimeout(timer);
   clearInterval(timerInterval);
@@ -135,14 +159,13 @@ function handleAnswer(answer, btn) {
     // Don't add stars here - only on level completion
     btn.style.background = '#22c55e'; // green for correct
     btn.style.color = '#FFFFFF'; // white text
-    btn.style.border = '2px solid #22c55e';
-    btn.style.boxShadow = '0 0 20px #22c55e'; // Add glow effect
-    btn.style.transform = 'scale(1.05)'; // Slight scale up
+    btn.style.border = '4px solid #16a34a'; // Thicker dark green border
+    btn.style.boxShadow = 'none'; // Remove glow
+    btn.style.transform = 'scale(1)'; // No scale
     btn.style.transition = 'all 0.3s ease';
+    btn.style.animation = 'none'; // Remove pulse animation
 
-    // Add pulse animation
-    btn.style.animation = 'correctPulse 0.6s ease';
-    console.log('Applied correct answer styling with animation to button');
+    console.log('Applied correct answer styling to button');
     // Show thumbs up icon
     showFeedbackIcon('✓', '#22c55e');
   } else {
@@ -156,18 +179,30 @@ function handleAnswer(answer, btn) {
       console.log('🚨 IMMEDIATE GAME OVER - Preventing further interaction');
       // Set a flag to prevent any further question loading
       window.gameIsOver = true;
+
+      // Check if we need to show explanation first
+      const questionsArray = window.currentQuestions || questions;
+      const index = window.currentQuestions ? questionNumber : currentIndex;
+      const q = questionsArray[index];
+      const hasExplanation = q && q.explanation && (q.explanation[window.lang || 'en'] || q.explanation['en']);
+      const showExplanationsEnabled = window.showExplanations === true;
+
+      if (showExplanationsEnabled && hasExplanation) {
+        console.log('🚨 Setting gameOverAfterExplanation flag IMMEDIATELY');
+        window.gameOverAfterExplanation = true;
+      }
     }
 
     btn.style.background = '#F23F5D'; // pinkish red for wrong
     btn.style.color = '#FFFFFF'; // white text
-    btn.style.border = '2px solid #F23F5D';
-    btn.style.boxShadow = '0 0 20px #F23F5D'; // Add glow effect
+    btn.style.border = '4px solid #dc2626'; // Thicker dark red border
+    btn.style.boxShadow = 'none'; // Remove glow
+    btn.style.transform = 'scale(1)'; // No scale
+    btn.style.animation = 'none'; // Remove shake animation
 
-    // Add shake animation for wrong answer
-    btn.style.animation = 'wrongShake 0.5s ease';
+    console.log('Applied wrong answer styling to clicked button');
     // Show cross icon
     showFeedbackIcon('✗', '#F23F5D');
-    console.log('Applied wrong answer styling with shake animation to clicked button');
 
     // Show correct answer
     let correctButtonFound = false;
@@ -175,13 +210,14 @@ function handleAnswer(answer, btn) {
       if (b.innerText === correctAnswer) {
         b.style.background = '#22c55e'; // green for correct
         b.style.color = '#FFFFFF'; // white text
-        b.style.border = '2px solid #22c55e';
-        b.style.boxShadow = '0 0 20px #22c55e'; // Add glow effect
-        b.style.transform = 'scale(1.05)'; // Slight scale up
+        b.style.border = '4px solid #16a34a'; // Thicker dark green border
+        b.style.boxShadow = 'none'; // Remove glow
+        b.style.transform = 'scale(1)'; // No scale
         b.style.transition = 'all 0.3s ease';
-        b.style.animation = 'correctPulse 0.6s ease';
+        b.style.animation = 'none'; // Remove pulse animation
+
         correctButtonFound = true;
-        console.log('Found and highlighted correct answer button with animation:', b.innerText);
+        console.log('Found and highlighted correct answer button:', b.innerText);
       }
     });
     if (!correctButtonFound) {

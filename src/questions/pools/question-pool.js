@@ -4,6 +4,128 @@
 
 (function() {
 
+  // Cache for converted questions
+  let questionCache = null;
+  let questionsLoaded = false;
+  let loadingPromise = null;
+
+  /**
+   * Load all question files dynamically
+   * @returns {Promise} Promise that resolves when all questions are loaded
+   */
+  function loadAllQuestions() {
+    if (questionsLoaded && questionCache && questionCache.length > 0) {
+      return Promise.resolve(questionCache);
+    }
+
+    if (loadingPromise) {
+      return loadingPromise;
+    }
+
+    loadingPromise = new Promise((resolve, reject) => {
+      console.log('QuestionPool: Starting to load all questions...');
+
+      if (!window.mainTopics || typeof window.mainTopics !== 'object') {
+        console.error('QuestionPool: window.mainTopics not available');
+        reject('mainTopics not available');
+        return;
+      }
+
+      const allQuestions = [];
+      const scriptsToLoad = [];
+
+      // Build list of all script paths to load
+      for (const [topicKey, topic] of Object.entries(window.mainTopics)) {
+        if (!topic.subcategories || !Array.isArray(topic.subcategories)) continue;
+
+        for (const subcategory of topic.subcategories) {
+          for (let level = 1; level <= 10; level++) {
+            const scriptPath = `src/questions/data/subjects/${topic.folder}/${subcategory.folder}/level${level}.js`;
+            scriptsToLoad.push({
+              path: scriptPath,
+              topicKey,
+              topic,
+              subcategory,
+              level
+            });
+          }
+        }
+      }
+
+      console.log(`QuestionPool: Found ${scriptsToLoad.length} level files to load`);
+
+      let loadedCount = 0;
+      let errorCount = 0;
+
+      // Load all scripts
+      scriptsToLoad.forEach(scriptInfo => {
+        const script = document.createElement('script');
+        script.src = scriptInfo.path;
+
+        script.onload = () => {
+          loadedCount++;
+
+          // Try to get the level data
+          const levelData = window[`level${scriptInfo.level}`];
+
+          if (levelData && levelData.questions && Array.isArray(levelData.questions)) {
+            // Add each question from this level
+            for (const question of levelData.questions) {
+              if (question.question && question.options && typeof question.correct === 'number') {
+                allQuestions.push({
+                  question: question.question,
+                  options: question.options,
+                  correct: question.correct,
+                  correctIndex: question.correct, // Alias for consistency
+                  explanation: question.explanation,
+                  metadata: {
+                    topic: scriptInfo.topic.name,
+                    topicIcon: scriptInfo.topic.icon,
+                    subcategory: scriptInfo.subcategory.name,
+                    subcategoryIcon: scriptInfo.subcategory.icon,
+                    level: scriptInfo.level,
+                    difficulty: window.QuestionPool.calculateDifficulty(scriptInfo.level)
+                  }
+                });
+              }
+            }
+          }
+
+          // Check if all scripts are loaded
+          if (loadedCount + errorCount >= scriptsToLoad.length) {
+            questionCache = allQuestions;
+            questionsLoaded = true;
+            console.log(`QuestionPool: Loaded ${allQuestions.length} questions from ${loadedCount} files (${errorCount} errors)`);
+            resolve(allQuestions);
+          }
+        };
+
+        script.onerror = () => {
+          errorCount++;
+          console.warn(`QuestionPool: Failed to load ${scriptInfo.path}`);
+
+          // Check if all scripts are done (including errors)
+          if (loadedCount + errorCount >= scriptsToLoad.length) {
+            questionCache = allQuestions;
+            questionsLoaded = true;
+            console.log(`QuestionPool: Loaded ${allQuestions.length} questions from ${loadedCount} files (${errorCount} errors)`);
+            resolve(allQuestions);
+          }
+        };
+
+        document.head.appendChild(script);
+      });
+
+      // If no scripts to load, resolve immediately
+      if (scriptsToLoad.length === 0) {
+        console.warn('QuestionPool: No question files found to load');
+        resolve([]);
+      }
+    });
+
+    return loadingPromise;
+  }
+
   window.QuestionPool = {
 
     /**
@@ -11,59 +133,22 @@
      * @returns {Array} Array of question objects with metadata
      */
     getAllQuestions() {
-      const allQuestions = [];
-
-      // Check if mainTopics exists
-      if (!window.mainTopics) {
-        console.error('QuestionPool: window.mainTopics not found');
-        return allQuestions;
+      // Return cached questions if available
+      if (questionCache && questionCache.length > 0) {
+        console.log(`QuestionPool: Returning ${questionCache.length} cached questions`);
+        return questionCache;
       }
 
-      // Iterate through all topics
-      for (const topicKey in window.mainTopics) {
-        const topic = window.mainTopics[topicKey];
+      console.warn('QuestionPool: Questions not loaded yet. Call loadAllQuestions() first.');
+      return [];
+    },
 
-        // Check if topic has subcategories
-        if (!topic.subcategories || !Array.isArray(topic.subcategories)) {
-          continue;
-        }
-
-        // Iterate through subcategories
-        for (const subcategory of topic.subcategories) {
-          // Check if subcategory has levels
-          if (!subcategory.levels || !Array.isArray(subcategory.levels)) {
-            continue;
-          }
-
-          // Iterate through levels
-          for (let levelIndex = 0; levelIndex < subcategory.levels.length; levelIndex++) {
-            const level = subcategory.levels[levelIndex];
-
-            // Check if level has questions
-            if (!level.questions || !Array.isArray(level.questions)) {
-              continue;
-            }
-
-            // Add each question with metadata
-            for (const question of level.questions) {
-              allQuestions.push({
-                ...question,
-                metadata: {
-                  topic: topic.name,
-                  topicIcon: topic.icon,
-                  subcategory: subcategory.name,
-                  subcategoryIcon: subcategory.icon,
-                  level: levelIndex + 1, // 1-indexed
-                  difficulty: this.calculateDifficulty(levelIndex + 1)
-                }
-              });
-            }
-          }
-        }
-      }
-
-      console.log(`QuestionPool: Loaded ${allQuestions.length} questions from mainTopics`);
-      return allQuestions;
+    /**
+     * Load all questions asynchronously
+     * @returns {Promise<Array>} Promise that resolves with all questions
+     */
+    async loadAllQuestionsAsync() {
+      return await loadAllQuestions();
     },
 
     /**
