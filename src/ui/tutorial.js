@@ -1,5 +1,6 @@
-// Tutorial System for RobitQuiz
-// Interactive step-by-step guide for first-time users
+// Interactive Tutorial System for RobitQuiz
+// Features: Speech bubbles, typing effect, interactive steps
+// Character: Robit the robot guides users through the game
 
 (function() {
   'use strict';
@@ -8,1505 +9,823 @@
   let tutorialState = {
     isActive: false,
     currentStep: 0,
-    totalSteps: 0,
+    totalSteps: 21,
     isCompleted: false,
-    canSkip: true,
-    isLoaded: false,
-    isInitializing: false
+    typingInProgress: false,
+    currentTypingTimeout: null
   };
+
+  // Tutorial translations
+  const tutorialTexts = {
+    en: {
+      welcome: "Hey there! I'm Robit!\nWelcome to my quiz world! Let's get started together!",
+      languageSelect: "First, let's set which language you want to play in!",
+      themeSelect: "Do you prefer Light Mode or Dark Mode? Choose what you like!\nTry Light Mode!",
+      starsDiamonds: "See those stars and diamonds at the top?\nYou earn them by playing quizzes and need them to progress!",
+      playButton: "This is where the adventure begins!\nPress PLAY to see all subjects!",
+      gameModesButton: "Want an extra challenge? Then Game Modes are for you!\nI'll show you what's possible later!",
+      dailyChallengeButton: "Every day a new challenge with nice rewards!\nDon't forget to check in daily!",
+      subjects: "Here you see all available subjects!\nClick on the first subject to get started!",
+      levels: "Each subject has multiple subcategories!\nClick on the first one to start your quiz!",
+      quizScreen: "Here I'll ask you questions!\nLet's try one question together!",
+      timer: "Watch the timer! You have limited time per question.\nIf the timer runs out, it counts as a mistake!",
+      mistakes: "You can make 2 mistakes before it's game over.\nKeep an eye on your mistakes and correct answers here!",
+      answerButtons: "Click the answer you think is correct!\nTry answering this question!",
+      answerExplanation: "After each answer you get an explanation!\nThis helps you learn from your answers!",
+      powerUps: "Stuck? Use a power-up!\n50/50 removes 2 wrong answers, Skip jumps to the next question!",
+      explanationsToggle: "Don't want to see those explanations? You can turn them off here!\nTry switching it!",
+      trueFalseMode: "True or False - simple but tricky!\nSee how many questions you can get right in a row!",
+      lightningRound: "Super fast! As many questions as possible in a short time!\nHow quick are your reflexes?",
+      survivorMode: "Keep answering until you make a mistake!\nHow long can you survive?",
+      extremeSurvivor: "For the real go-getters!\nEven harder than normal survivor mode!",
+      shopButton: "Want more power-ups or extras?\nIn the shop you can buy everything you need!",
+      shop: "In the shop you buy power-ups with stars and diamonds!\nAnd you can also claim free daily gems here!",
+      settingsButton: "Here you can adjust all settings!\nLike the explanations, language, and theme!",
+      complete: "Yes! You're all set to begin!\nGood luck and have fun quizzing!",
+      nextButton: "Next →",
+      doneButton: "Done!"
+    },
+    nl: {
+      welcome: "Hey daar! Ik ben Robit!\nWelkom bij mijn quiz wereld! Laten we samen beginnen!",
+      languageSelect: "Eerst even instellen in welke taal je wilt spelen!",
+      themeSelect: "Hou je van Light Mode of Dark Mode? Kies wat jij fijn vindt!\nProbeer Light Mode!",
+      starsDiamonds: "Zie je die sterren en diamanten bovenin?\nDie verdien je met quizzen en heb je nodig om verder te komen!",
+      playButton: "Hier begint het avontuur!\nDruk op PLAY om alle onderwerpen te zien!",
+      gameModesButton: "Wil je een extra uitdaging? Dan zijn de Game Modes iets voor jou!\nLater laat ik je zien wat er allemaal mogelijk is!",
+      dailyChallengeButton: "Elke dag een nieuwe uitdaging met leuke beloningen!\nVergeet niet dagelijks even langs te komen!",
+      subjects: "Hier zie je alle beschikbare onderwerpen!\nKlik op het eerste onderwerp om te beginnen!",
+      levels: "Elk onderwerp heeft meerdere subcategorieën!\nKlik op de eerste om je quiz te starten!",
+      quizScreen: "Hier stel ik je vragen!\nLaten we samen één vraag proberen!",
+      timer: "Let op de timer! Je hebt beperkte tijd per vraag.\nAls de timer afloopt, telt dat als een fout!",
+      mistakes: "Je mag 2 fouten maken voordat het game over is.\nHoud hier je fouten en goede antwoorden in de gaten!",
+      answerButtons: "Klik op het antwoord dat jij denkt dat klopt!\nProbeer deze vraag te beantwoorden!",
+      answerExplanation: "Na elk antwoord krijg je uitleg!\nZo leer je van je antwoorden!",
+      powerUps: "Zit je vast? Gebruik een power-up!\n50/50 haalt 2 foute antwoorden weg, Skip slaat de vraag over!",
+      explanationsToggle: "Wil je die uitleg niet zien? Dan kun je het hier uitzetten!\nProbeer maar eens te schakelen!",
+      trueFalseMode: "Waar of Onwaar - simpel maar tricky!\nZie hoeveel vragen jij op een rij goed krijgt!",
+      lightningRound: "Supersnel! Zoveel mogelijk vragen in korte tijd!\nHoe snel zijn jouw reflexen?",
+      survivorMode: "Blijf antwoorden tot je een fout maakt!\nHoe lang kun jij overleven?",
+      extremeSurvivor: "Voor de échte doorzetters!\nNog moeilijker dan normale survivor mode!",
+      shopButton: "Wil je meer power-ups of extra's?\nIn de shop kun je alles kopen wat je nodig hebt!",
+      shop: "In de shop koop je power-ups met sterren en diamanten!\nEn je kunt hier ook gratis dagelijkse gems claimen!",
+      settingsButton: "Hier kun je alle instellingen aanpassen!\nZoals de uitleg, taal en thema!",
+      complete: "Yes! Je bent helemaal klaar om te beginnen!\nVeel succes en plezier met quizzen!",
+      nextButton: "Volgende →",
+      doneButton: "Klaar!"
+    },
+    de: {
+      welcome: "Hey! Ich bin Robit!\nWillkommen in meiner Quiz-Welt! Lass uns zusammen starten!",
+      languageSelect: "Zuerst stellen wir ein, in welcher Sprache du spielen möchtest!",
+      themeSelect: "Magst du Light Mode oder Dark Mode? Wähle, was dir gefällt!\nProbiere Light Mode aus!",
+      starsDiamonds: "Siehst du die Sterne und Diamanten oben?\nDu verdienst sie durch Quizzen und brauchst sie zum Weiterkommen!",
+      playButton: "Hier beginnt das Abenteuer!\nDrücke PLAY, um alle Themen zu sehen!",
+      gameModesButton: "Willst du eine extra Herausforderung? Dann sind die Game Modes für dich!\nIch zeige dir später, was möglich ist!",
+      dailyChallengeButton: "Jeden Tag eine neue Herausforderung mit tollen Belohnungen!\nVergiss nicht, täglich vorbeizuschauen!",
+      subjects: "Hier siehst du alle verfügbaren Themen!\nKlicke auf das erste Thema, um zu beginnen!",
+      levels: "Jedes Thema hat mehrere Unterkategorien!\nKlicke auf die erste, um dein Quiz zu starten!",
+      quizScreen: "Hier stelle ich dir Fragen!\nLass uns zusammen eine Frage ausprobieren!",
+      timer: "Achte auf den Timer! Du hast begrenzte Zeit pro Frage.\nWenn die Zeit abläuft, zählt das als Fehler!",
+      mistakes: "Du darfst 2 Fehler machen, bevor es Game Over ist.\nBehalte hier deine Fehler und richtigen Antworten im Auge!",
+      answerButtons: "Klicke auf die Antwort, die du für richtig hältst!\nVersuche diese Frage zu beantworten!",
+      answerExplanation: "Nach jeder Antwort bekommst du eine Erklärung!\nDas hilft dir, aus deinen Antworten zu lernen!",
+      powerUps: "Steckst du fest? Benutze ein Power-up!\n50/50 entfernt 2 falsche Antworten, Skip springt zur nächsten Frage!",
+      explanationsToggle: "Willst du diese Erklärungen nicht sehen? Du kannst sie hier ausschalten!\nProbiere es mal!",
+      trueFalseMode: "Wahr oder Falsch - einfach aber trickreich!\nSieh, wie viele Fragen du hintereinander richtig bekommst!",
+      lightningRound: "Super schnell! So viele Fragen wie möglich in kurzer Zeit!\nWie schnell sind deine Reflexe?",
+      survivorMode: "Antworte weiter, bis du einen Fehler machst!\nWie lange kannst du überleben?",
+      extremeSurvivor: "Für die echten Durchhalter!\nNoch schwerer als der normale Survivor-Modus!",
+      shopButton: "Willst du mehr Power-ups oder Extras?\nIm Shop kannst du alles kaufen, was du brauchst!",
+      shop: "Im Shop kaufst du Power-ups mit Sternen und Diamanten!\nUnd du kannst hier auch kostenlose tägliche Edelsteine abholen!",
+      settingsButton: "Hier kannst du alle Einstellungen anpassen!\nWie die Erklärungen, Sprache und Thema!",
+      complete: "Ja! Du bist bereit zum Loslegen!\nViel Glück und viel Spaß beim Quizzen!",
+      nextButton: "Weiter →",
+      doneButton: "Fertig!"
+    },
+    es: {
+      welcome: "¡Hola! ¡Soy Robit!\n¡Bienvenido a mi mundo de quiz! ¡Empecemos juntos!",
+      languageSelect: "Primero, vamos a configurar en qué idioma quieres jugar!",
+      themeSelect: "¿Prefieres Light Mode o Dark Mode? ¡Elige lo que te guste!\n¡Prueba Light Mode!",
+      starsDiamonds: "¿Ves esas estrellas y diamantes arriba?\n¡Los ganas jugando quizzes y los necesitas para progresar!",
+      playButton: "¡Aquí comienza la aventura!\n¡Presiona PLAY para ver todos los temas!",
+      gameModesButton: "¿Quieres un desafío extra? ¡Entonces los Game Modes son para ti!\n¡Te mostraré lo que es posible más tarde!",
+      dailyChallengeButton: "¡Cada día un nuevo desafío con buenas recompensas!\n¡No olvides visitarnos diariamente!",
+      subjects: "¡Aquí ves todos los temas disponibles!\n¡Haz clic en el primer tema para comenzar!",
+      levels: "¡Cada tema tiene múltiples subcategorías!\n¡Haz clic en la primera para comenzar tu quiz!",
+      quizScreen: "¡Aquí te haré preguntas!\n¡Intentemos una pregunta juntos!",
+      timer: "¡Mira el temporizador! Tienes tiempo limitado por pregunta.\n¡Si se acaba el tiempo, cuenta como un error!",
+      mistakes: "¡Puedes cometer 2 errores antes de que sea Game Over.\n¡Mantén un ojo en tus errores y respuestas correctas aquí!",
+      answerButtons: "¡Haz clic en la respuesta que crees que es correcta!\n¡Intenta responder esta pregunta!",
+      answerExplanation: "¡Después de cada respuesta obtienes una explicación!\n¡Esto te ayuda a aprender de tus respuestas!",
+      powerUps: "¿Atascado? ¡Usa un power-up!\n50/50 elimina 2 respuestas incorrectas, Skip salta a la siguiente pregunta!",
+      explanationsToggle: "¿No quieres ver esas explicaciones? ¡Puedes desactivarlas aquí!\n¡Prueba a cambiarla!",
+      trueFalseMode: "¡Verdadero o Falso - simple pero complicado!\n¡Mira cuántas preguntas puedes acertar seguidas!",
+      lightningRound: "¡Súper rápido! ¡Tantas preguntas como sea posible en poco tiempo!\n¿Qué tan rápidos son tus reflejos?",
+      survivorMode: "¡Sigue respondiendo hasta que cometas un error!\n¿Cuánto tiempo puedes sobrevivir?",
+      extremeSurvivor: "¡Para los verdaderos persistentes!\n¡Aún más difícil que el modo survivor normal!",
+      shopButton: "¿Quieres más power-ups o extras?\n¡En la tienda puedes comprar todo lo que necesitas!",
+      shop: "¡En la tienda compras power-ups con estrellas y diamantes!\n¡Y también puedes reclamar gemas diarias gratis aquí!",
+      settingsButton: "¡Aquí puedes ajustar toda la configuración!\n¡Como las explicaciones, idioma y tema!",
+      complete: "¡Sí! ¡Estás listo para comenzar!\n¡Buena suerte y diviértete haciendo quizzes!",
+      nextButton: "Siguiente →",
+      doneButton: "¡Listo!"
+    }
+  };
+
+  // Get current tutorial language (defaults to English)
+  function getTutorialLang() {
+    return window.lang || 'en';
+  }
 
   // Tutorial steps configuration
   const tutorialSteps = [
-    // Step 1: Introduction
+    // Welkom & Instellingen (Stappen 1-3)
     {
       id: 'welcome',
-      title: 'Welcome to RobitQuiz!',
-      content: 'Your ultimate quiz challenge awaits! Press Next to continue or Skip to exit the tutorial.',
+      textKey: 'welcome',
+      screen: 'home-screen',
       target: null,
-      position: 'center',
-      showSkip: true,
-      image: 'images/tutorial/zwaaien pose 3 NB.png'
+      interactiveStep: false
     },
-    // Step 2: Explain the Play button
     {
-      id: 'play-button',
-      title: 'Start Playing Here!',
-      content: 'This is your main play button! Click here to access all quiz subjects and begin your learning journey.',
-      target: '#levels-btn',
-      position: 'top',
-      image: 'images/tutorial/Idee pose 3 NB.png'
-    },
-    // Step 3: Explain subjects and rewards
-    {
-      id: 'subjects-explained',
-      title: 'Choose Your Subject',
-      content: 'Here you see all the awesome topics! The first one is free, but unlock the others with stars you earn! 🌟',
+      id: 'language-select',
+      textKey: 'languageSelect',
+      screen: 'home-screen',
       target: null,
-      position: 'center',
-      image: 'images/tutorial/nadenken pose 4 NB.png'
+      interactiveStep: true,
+      waitFor: 'language-change',
+      showLanguageButtons: true
     },
-    // Step 4: Explain levels screen
     {
-      id: 'levels-screen',
-      title: 'Level Progression',
-      content: 'Each subject has 10 levels of increasing difficulty. Master all levels to complete the subject!',
+      id: 'theme-select',
+      textKey: 'themeSelect',
+      screen: 'home-screen',
       target: null,
-      position: 'center',
-      image: 'images/tutorial/armen over elkaar 1 NB.png'
+      interactiveStep: true,
+      waitFor: 'theme-change',
+      showThemeButtons: true
     },
-    // Step 5: Explain quiz screen
-    {
-      id: 'quiz-screen',
-      title: 'Quiz Gameplay',
-      content: 'Answer 10 questions correctly to pass the level! You have 2 mistakes allowed. Time runs out if you take too long!',
-      target: ['#question', '#answers', '#correct', '#wrong'],
-      position: 'center',
-      image: 'images/tutorial/nadenken pose 4 NB.png'
-    },
-    // Step 6: Explain power-ups
-    {
-      id: 'power-ups',
-      title: 'Power-Up Help',
-      content: '50/50 removes 2 wrong answers, Skip jumps to next question, Time Bonus gives extra seconds. Use them wisely to succeed!',
-      target: ['#fifty-fifty-btn', '#skip-btn', '#time-bonus-btn'],
-      position: 'center',
-      image: 'images/tutorial/Idee pose 3 NB.png'
-    },
-    // Step 6a: Explain answer explanations
-    {
-      id: 'answer-explanations',
-      title: 'Learning from Answers',
-      content: 'After answering, you\'ll see explanations to help you learn. These explanations help you understand why an answer is correct!',
-      target: '#explanation-container',
-      position: 'center',
-      image: 'images/tutorial/nadenken pose 4 NB.png'
-    },
-    // Step 7: Explain game modes (home screen)
-    {
-      id: 'game-modes-intro',
-      title: 'Special Game Modes',
-      content: 'Ready for more excitement? Game modes offer unique twists on the classic quiz format with bigger rewards!',
-      target: '#challenge-modes-btn',
-      position: 'top',
-      image: 'images/tutorial/armen over elkaar 1 NB.png'
-    },
-    // Step 8: True/False mode
-    {
-      id: 'true-false-mode',
-      title: 'True/False Challenge',
-      content: 'Quick thinking required! Only True or False answers. Simple format, but questions get tricky fast!',
-      target: '.challenge-mode-card:first-child', // True/False card (first card)
-      position: 'bottom',
-      image: 'images/tutorial/Idee pose 3 NB.png'
-    },
-    // Step 9: Lightning Round
-    {
-      id: 'lightning-round',
-      title: 'Lightning Round',
-      content: 'Speed is key! Answer as many questions as possible before time runs out. Fast reflexes earn bonus points!',
-      target: '.challenge-mode-card:nth-child(2)', // Lightning Round card (second card)
-      position: 'bottom',
-      image: 'images/tutorial/opstijgen pose 1 NB.png'
-    },
-    // Step 10: Survivor modes
-    {
-      id: 'survivor-modes',
-      title: 'Survivor & Extreme Modes',
-      content: 'Ultimate endurance test! Keep answering until you make mistakes. How long can you survive the challenge?',
-      target: '.challenge-mode-card:nth-child(3), .challenge-mode-card:nth-child(4)', // Survivor and Extreme cards
-      position: 'bottom',
-      image: 'images/tutorial/Balen pose 2 NB.png'
-    },
-    // Step 11: Daily challenge and rewards
-    {
-      id: 'daily-challenge',
-      title: 'Daily Challenge & Rewards',
-      content: 'Every day brings a new special challenge! Complete it for bonus stars, gems, and exclusive daily rewards.',
-      target: '#daily-challenge-btn',
-      position: 'center',
-      image: 'images/tutorial/Juichen pose 1 NB.png'
-    },
-    // Step 12: Shop and daily rewards
-    {
-      id: 'shop-daily-rewards',
-      title: 'Shop & Daily Rewards',
-      content: 'Spend your earned stars and gems here! Buy power-ups, unlock bonuses, and collect your daily login rewards.',
-      target: '#shop-btn',
-      position: 'top',
-      image: 'images/tutorial/volledig still 2 NB.png'
-    },
-    // Step 13: Stars and gems
-    {
-      id: 'currency-system',
-      title: 'Stars & Diamonds',
-      content: 'Stars are earned by completing levels and challenges. Diamonds are premium currency for special power-ups and bonuses!',
-      target: ['#star-display', '#diamond-display'],
-      position: 'bottom',
-      image: 'images/tutorial/Juichen pose 1 NB.png'
-    },
-    // Step 14: End
-    {
-      id: 'tutorial-complete',
-      title: 'Ready to Become a Quiz Master!',
-      content: 'You know everything now! Start with easy subjects, try game modes, and don\'t forget your daily rewards. Good luck!',
-      target: null,
-      position: 'center',
-      showSkip: false,
-      image: 'images/tutorial/zwaaien pose 3 NB.png'
-    }
+
+    // PLAY Flow: Play knop → Subjects → Levels → Quiz
+    { id: 'play-button', textKey: 'playButton', screen: 'home-screen', target: '#levels-btn', interactiveStep: true, waitFor: 'play-clicked' },
+    { id: 'subjects', textKey: 'subjects', screen: 'subjects-screen', target: '#subjects-grid > div:first-child button', interactiveStep: true, waitFor: 'subject-selected' },
+    { id: 'levels', textKey: 'levels', screen: 'levels-screen', target: '#levels-grid > div:first-child button', interactiveStep: true, waitFor: 'quiz-started' },
+    { id: 'timer', textKey: 'timer', screen: 'quiz-screen', target: '#timer', pauseTimer: true },
+    { id: 'mistakes', textKey: 'mistakes', screen: 'quiz-screen', target: ['#correct', '#wrong'], pauseTimer: true, bubblePosition: 'top' },
+    { id: 'power-ups', textKey: 'powerUps', screen: 'quiz-screen', target: ['#fifty-fifty-btn', '#skip-btn', '#time-bonus-btn'], pauseTimer: true },
+    { id: 'answer-buttons', textKey: 'answerButtons', screen: 'quiz-screen', target: null, pauseTimer: true, hideBackdrop: true, interactiveStep: true, waitFor: 'answer-given' },
+    { id: 'answer-explanation', textKey: 'answerExplanation', screen: 'quiz-screen', target: null, pauseTimer: true, hideBackdrop: true },
+
+    // Sterren & Diamanten (after earning some from quiz)
+    { id: 'stars-diamonds', textKey: 'starsDiamonds', screen: 'home-screen', target: null },
+
+    // Terug naar Home → GAME MODES Flow
+    { id: 'game-modes-button', textKey: 'gameModesButton', screen: 'home-screen', target: '#challenge-modes-btn', interactiveStep: true, waitFor: 'game-modes-clicked' },
+    { id: 'true-false-mode', textKey: 'trueFalseMode', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(1)' },
+    { id: 'lightning-round', textKey: 'lightningRound', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(2)' },
+    { id: 'survivor-mode', textKey: 'survivorMode', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(3)' },
+    { id: 'extreme-survivor', textKey: 'extremeSurvivor', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(4)' },
+
+    // Terug naar Home → DAILY CHALLENGE
+    { id: 'daily-challenge-button', textKey: 'dailyChallengeButton', screen: 'home-screen', target: '#daily-challenge-btn' },
+
+    // Terug naar Home → SHOP
+    { id: 'shop-button', textKey: 'shopButton', screen: 'home-screen', target: '#shop-btn', interactiveStep: true, waitFor: 'shop-clicked' },
+    { id: 'shop', textKey: 'shop', screen: 'shop-screen', target: '#daily-rewards' },
+
+    // Terug naar Home → SETTINGS
+    { id: 'settings-button', textKey: 'settingsButton', screen: 'home-screen', target: '#settings-btn', interactiveStep: true, waitFor: 'settings-clicked' },
+    { id: 'explanations-toggle', textKey: 'explanationsToggle', screen: 'settings-screen', target: '#explanations-toggle' },
+
+    // Afsluiting
+    { id: 'complete', textKey: 'complete', screen: 'home-screen', target: null }
   ];
 
   // Create tutorial overlay HTML
   function createTutorialOverlay() {
     const overlay = document.createElement('div');
     overlay.id = 'tutorial-overlay';
-    overlay.className = 'tutorial-overlay fixed inset-0 z-50 pointer-events-none';
+    overlay.className = 'fixed inset-0 z-[9999] pointer-events-none';
     overlay.innerHTML = `
-      <!-- Interaction blocking overlay -->
-      <div id="tutorial-interaction-blocker" class="fixed inset-0 pointer-events-auto" style="background: transparent; z-index: -1;"></div>
-      
-      <!-- Highlight square for targeted elements -->
-      <div id="tutorial-highlight" class="tutorial-highlight fixed border-4 border-yellow-400 shadow-lg transition-all duration-500 pointer-events-none" style="display: none; background: rgba(255, 235, 59, 0.1);"></div>
-      
-      <!-- Tutorial strip - position will be set dynamically -->
-      <div id="tutorial-strip" class="tutorial-strip fixed bg-gradient-to-r from-blue-600 to-purple-600 text-white p-3 rounded-lg shadow-2xl transition-all duration-300 pointer-events-auto flex flex-col z-50" style="width: 90%; max-width: 380px; min-width: 280px; min-height: 200px; left: 50%; bottom: -300px; transform: translateX(-50%);">
-        <div class="tutorial-content w-full flex flex-col h-full">
-          <!-- Progress indicator -->
-          <div class="tutorial-progress flex justify-center mb-2">
-            <div class="progress-dots flex space-x-1">
-              <!-- Progress dots will be generated here -->
-            </div>
-          </div>
-          
-          <!-- Main content with character inside - flex-1 to take available space -->
-          <div class="tutorial-main-content flex items-center justify-between relative flex-1">
-            <!-- Text content on the left -->
-            <div class="tutorial-text flex-1 text-left">
-              <h3 id="tutorial-title" class="text-base sm:text-lg font-bold mb-2"></h3>
-              <p id="tutorial-content" class="text-xs sm:text-sm leading-relaxed"></p>
-            </div>
-            
-            <!-- Tutorial character image on the right -->
-            <div id="tutorial-character" class="relative w-24 h-24 sm:w-32 sm:h-32 pointer-events-none transition-all duration-500 flex-shrink-0" style="display: none;">
-              <img id="tutorial-character-img" src="" alt="Tutorial Character" class="w-full h-full object-contain drop-shadow-lg" />
-            </div>
-          </div>
-          
-          <!-- Navigation buttons - always at bottom -->
-          <div class="tutorial-controls flex justify-between items-center mt-auto pt-1">
-            <button id="tutorial-skip" class="tutorial-btn bg-gray-600 hover:bg-gray-700 text-white px-3 py-1 rounded text-xs">
+      <!-- Darkened background (always visible, blocks clicks on non-highlighted areas) -->
+      <div id="tutorial-backdrop" class="fixed inset-0 bg-black bg-opacity-50 pointer-events-auto"></div>
+
+      <!-- Highlight for targeted elements (punch-through for the backdrop) -->
+      <div id="tutorial-highlight" class="fixed border-4 border-yellow-400 rounded-lg transition-all duration-300 bg-transparent pointer-events-none" style="display: none;"></div>
+
+      <!-- Click layer for highlighted element (sits above backdrop, allows clicks only on highlighted area) -->
+      <div id="tutorial-click-layer" class="fixed pointer-events-auto" style="display: none; z-index: 10001;"></div>
+
+      <!-- Speech bubble container -->
+      <div id="tutorial-bubble-container" class="fixed bottom-20 left-1/2 transform -translate-x-1/2 pointer-events-auto z-[10000]" style="width: 90%; max-width: 500px;">
+        <!-- Robit character -->
+        <div id="tutorial-robit" class="absolute -top-32 right-8 w-32 h-32 pointer-events-none">
+          <img src="images/icons/quiz icoon 4 NB.png" alt="Robit" class="w-full h-full object-contain drop-shadow-2xl animate-bounce-slow" />
+        </div>
+
+        <!-- Speech bubble -->
+        <div id="tutorial-bubble" class="bg-white rounded-2xl p-6 shadow-2xl relative pb-3">
+          <!-- Triangle pointer -->
+          <div class="absolute -top-4 right-12 w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-b-[20px] border-b-white"></div>
+
+          <!-- Text content -->
+          <div id="tutorial-text" class="text-gray-800 text-lg leading-relaxed mb-0 min-h-[80px]"></div>
+
+          <!-- Buttons container (positioned at bottom right, mostly outside bubble) -->
+          <div class="absolute right-6 bottom-0 translate-y-[60%] flex gap-2">
+            <button id="tutorial-skip-btn" class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 shadow-lg" style="display: none;">
               Skip
             </button>
-            
-            <div class="tutorial-nav flex space-x-1">
-              <button id="tutorial-prev" class="tutorial-btn bg-gray-600 hover:bg-gray-700 text-white px-3 py-1 rounded text-xs" style="display: none;">
-                ← Back
-              </button>
-              <button id="tutorial-next" class="tutorial-btn bg-yellow-500 hover:bg-yellow-600 text-black px-3 py-1 rounded text-xs font-semibold">
-                Next →
-              </button>
-            </div>
+            <button id="tutorial-next-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 shadow-lg">
+              Volgende →
+            </button>
           </div>
         </div>
       </div>
     `;
-    
+
     document.body.appendChild(overlay);
-    
-    // Disable scrolling on challenge modes screen during tutorial
-    const challengeModesScreen = document.getElementById('challenge-modes-screen');
-    if (challengeModesScreen) {
-      challengeModesScreen.style.overflow = 'hidden';
-      console.log('Tutorial: Disabled scrolling on challenge modes screen');
-    }
-    
     return overlay;
   }
 
-  // Create progress dots
-  function createProgressDots() {
-    const container = document.querySelector('.progress-dots');
-    if (!container) return;
-    
-    container.innerHTML = '';
-    tutorialSteps.forEach((_, index) => {
-      const dot = document.createElement('div');
-      dot.className = 'progress-dot w-2 h-2 rounded-full transition-colors duration-200';
-      dot.className += index === tutorialState.currentStep ? ' bg-yellow-400' : ' bg-gray-400';
-      container.appendChild(dot);
-    });
-  }
-
-  // Update progress dots
-  function updateProgressDots() {
-    const dots = document.querySelectorAll('.progress-dot');
-    dots.forEach((dot, index) => {
-      dot.className = 'progress-dot w-2 h-2 rounded-full transition-colors duration-200';
-      dot.className += index === tutorialState.currentStep ? ' bg-yellow-400' : ' bg-gray-400';
-    });
-  }
-
-  // Highlight target element
-  function highlightElement(target) {
-    const highlight = document.getElementById('tutorial-highlight');
-    
-    console.log('highlightElement called with target:', target);
-    
-    if (!highlight) {
-      console.error('Highlight element not found!');
-      return;
+  // Typing effect for text
+  function typeText(text, element, callback) {
+    if (tutorialState.currentTypingTimeout) {
+      clearTimeout(tutorialState.currentTypingTimeout);
     }
 
-    // Hide highlight by default
-    highlight.style.display = 'none';
+    element.textContent = '';
+    tutorialState.typingInProgress = true;
 
-    if (!target) {
-      console.log('No target specified, hiding highlight');
-      return;
-    }
+    let index = 0;
+    const speed = 30; // milliseconds per character
 
-    // Handle array of targets (multiple elements)
-    if (Array.isArray(target)) {
-      const elements = target.map(t => document.querySelector(t)).filter(el => el !== null);
-      if (elements.length === 0) {
-        console.warn('No elements found for array target:', target);
-        return;
-      }
-      
-      console.log(`Found ${elements.length} elements for highlighting:`, elements);
-
-      // For main menu buttons (3 buttons), create a large square highlight
-      if (target.length >= 3 && target.includes('#levels-btn')) {
-        // This is the main menu - create a square highlight
-        let minLeft = Infinity, minTop = Infinity, maxRight = -Infinity, maxBottom = -Infinity;
-        
-        elements.forEach(element => {
-          const rect = element.getBoundingClientRect();
-          minLeft = Math.min(minLeft, rect.left);
-          minTop = Math.min(minTop, rect.top);
-          maxRight = Math.max(maxRight, rect.right);
-          maxBottom = Math.max(maxBottom, rect.bottom);
-        });
-        
-        // Add padding around the combined area
-        const padding = 20;
-        const totalWidth = (maxRight - minLeft) + (padding * 2);
-        const totalHeight = (maxBottom - minTop) + (padding * 2);
-        const centerX = minLeft + (maxRight - minLeft) / 2;
-        const centerY = minTop + (maxBottom - minTop) / 2;
-        
-        // Make it square with sharp corners
-        highlight.style.display = 'block';
-        highlight.style.borderRadius = '8px';
-        highlight.style.background = 'rgba(255, 235, 59, 0.1)';
-        highlight.style.border = '4px solid rgb(250, 204, 21)';
-        highlight.style.left = (centerX - totalWidth / 2) + 'px';
-        highlight.style.top = (centerY - totalHeight / 2) + 'px';
-        highlight.style.width = totalWidth + 'px';
-        highlight.style.height = totalHeight + 'px';
-        
-        console.log(`Created square highlight for menu: ${totalWidth}x${totalHeight} at (${centerX - totalWidth / 2}, ${centerY - totalHeight / 2})`);
+    function typeNextChar() {
+      if (index < text.length) {
+        element.textContent += text[index];
+        index++;
+        tutorialState.currentTypingTimeout = setTimeout(typeNextChar, speed);
       } else {
-        // For other arrays (like stars & gems), create square box
-        let minLeft = Infinity, minTop = Infinity, maxRight = -Infinity, maxBottom = -Infinity;
-        
-        elements.forEach(element => {
-          const rect = element.getBoundingClientRect();
-          minLeft = Math.min(minLeft, rect.left);
-          minTop = Math.min(minTop, rect.top);
-          maxRight = Math.max(maxRight, rect.right);
-          maxBottom = Math.max(maxBottom, rect.bottom);
-        });
-        
-        // Add padding around the combined area
-        const padding = 20; // Use same padding as menu buttons for consistency
-        const totalWidth = (maxRight - minLeft) + (padding * 2);
-        const totalHeight = (maxBottom - minTop) + (padding * 2);
-        const centerX = minLeft + (maxRight - minLeft) / 2;
-        const centerY = minTop + (maxBottom - minTop) / 2;
-        
-        // Make it square with sharp corners
-        highlight.style.display = 'block';
-        highlight.style.borderRadius = '8px';
-        highlight.style.background = 'rgba(255, 235, 59, 0.1)';
-        highlight.style.border = '4px solid rgb(250, 204, 21)';
-        highlight.style.left = (centerX - totalWidth / 2) + 'px';
-        highlight.style.top = (centerY - totalHeight / 2) + 'px';
-        highlight.style.width = totalWidth + 'px';
-        highlight.style.height = totalHeight + 'px';
-        
-        console.log(`Created square highlight: ${totalWidth}x${totalHeight} at (${centerX - totalWidth / 2}, ${centerY - totalHeight / 2})`);
+        tutorialState.typingInProgress = false;
+        if (callback) callback();
       }
-      
-    } else {
-      // Handle single target (existing behavior)
-      const element = document.querySelector(target);
-      if (!element) {
-        console.warn(`Target element not found: ${target}`);
-        return;
-      }
-      console.log(`Found single target element:`, element);
+    }
 
-      const rect = element.getBoundingClientRect();
-      const padding = 20;
-      const width = rect.width + (padding * 2);
-      const height = rect.height + (padding * 2);
-      
-      highlight.style.display = 'block';
-      highlight.style.borderRadius = '8px';
-      highlight.style.background = 'rgba(255, 235, 59, 0.1)';
-      highlight.style.border = '4px solid rgb(250, 204, 21)';
-      highlight.style.left = (rect.left - padding) + 'px';
-      highlight.style.top = (rect.top - padding) + 'px';
-      highlight.style.width = width + 'px';
-      highlight.style.height = height + 'px';
-      
-      console.log(`Single square highlight created at (${rect.left - padding}, ${rect.top - padding}) with size ${width}x${height}px`);
+    typeNextChar();
+  }
+
+  // Highlight target element(s)
+  function highlightElement(target, makeInteractive = false) {
+    const highlight = document.getElementById('tutorial-highlight');
+    const backdrop = document.getElementById('tutorial-backdrop');
+    const clickLayer = document.getElementById('tutorial-click-layer');
+
+    // No target means no highlight - backdrop stays visible but no cutout
+    if (!highlight || !target) {
+      if (highlight) {
+        highlight.style.display = 'none';
+      }
+      if (backdrop) {
+        backdrop.style.clipPath = 'none';
+      }
+      if (clickLayer) {
+        clickLayer.style.display = 'none';
+      }
+      return;
+    }
+
+    let elements = [];
+    if (Array.isArray(target)) {
+      elements = target.map(t => document.querySelector(t)).filter(el => el !== null);
+    } else {
+      const el = document.querySelector(target);
+      if (el) elements = [el];
+    }
+
+    // No elements found - no highlight, no cutout
+    if (elements.length === 0) {
+      if (highlight) {
+        highlight.style.display = 'none';
+      }
+      if (backdrop) {
+        backdrop.style.clipPath = 'none';
+      }
+      if (clickLayer) {
+        clickLayer.style.display = 'none';
+      }
+      return;
+    }
+
+    // Calculate bounding box for all elements
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    elements.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      minX = Math.min(minX, rect.left);
+      minY = Math.min(minY, rect.top);
+      maxX = Math.max(maxX, rect.right);
+      maxY = Math.max(maxY, rect.bottom);
+    });
+
+    const padding = 12;
+    const x = minX - padding;
+    const y = minY - padding;
+    const width = maxX - minX + padding * 2;
+    const height = maxY - minY + padding * 2;
+
+    // Show and position highlight border
+    highlight.style.display = 'block';
+    highlight.style.left = x + 'px';
+    highlight.style.top = y + 'px';
+    highlight.style.width = width + 'px';
+    highlight.style.height = height + 'px';
+    highlight.style.zIndex = '10002';
+
+    // Create a cutout in the backdrop using CSS polygon clip-path
+    // This makes the highlighted area fully visible with normal colors
+    if (backdrop) {
+      const cutoutPath = `polygon(
+        0% 0%,
+        0% 100%,
+        ${x}px 100%,
+        ${x}px ${y}px,
+        ${x + width}px ${y}px,
+        ${x + width}px ${y + height}px,
+        ${x}px ${y + height}px,
+        ${x}px 100%,
+        100% 100%,
+        100% 0%
+      )`;
+      backdrop.style.clipPath = cutoutPath;
+    }
+
+    // Position click layer over highlighted area to allow clicks
+    if (clickLayer && makeInteractive) {
+      clickLayer.style.display = 'block';
+      clickLayer.style.left = x + 'px';
+      clickLayer.style.top = y + 'px';
+      clickLayer.style.width = width + 'px';
+      clickLayer.style.height = height + 'px';
+      clickLayer.style.pointerEvents = 'auto';
+    } else if (clickLayer) {
+      clickLayer.style.display = 'none';
+    }
+
+    // Make highlighted elements clickable by ensuring they're above the backdrop
+    if (makeInteractive) {
+      elements.forEach(el => {
+        el.style.position = 'relative';
+        el.style.zIndex = '10003'; // Above backdrop and click layer
+      });
     }
   }
 
   // Show tutorial step
-  // Function to switch background screen based on tutorial step
-  function switchTutorialScreen(step) {
-    console.log(`Tutorial: Switching to appropriate screen for step '${step.id}'`);
-    
-    // Handle special screen transitions that require setup
-    switch(step.id) {
-      case 'welcome':
-      case 'currency-system':
-      case 'tutorial-complete':
-        window.showScreen('home-screen');
-        break;
-        
-      case 'play-button':
-        // Stay on home screen but highlight the play button
-        window.showScreen('home-screen');
-        break;
-        
-      case 'subjects-explained':
-        // Show subjects screen when explaining subjects
-        if (typeof window.showSubjects === 'function') {
-          console.log('Tutorial: Showing subjects screen');
-          window.showSubjects();
-        } else {
-          window.showScreen('subjects-screen');
-        }
-        break;
-        
-      case 'levels-screen':
-        // Show levels screen, preferably with a subject selected
-        if (typeof window.openLevels === 'function' && window.groups && window.groups[0]) {
-          console.log('Tutorial: Opening levels screen with first subject');
-          window.openLevels(0); // Show levels for first subject
-        } else {
-          window.showScreen('levels-screen');
-        }
-        break;
-        
-      case 'quiz-screen':
-        // For quiz screen demo, we need to simulate being in a quiz
-        console.log('Tutorial: Simulating quiz screen for demonstration');
-        window.showScreen('quiz-screen');
-        
-        // Move quiz container to top during tutorial
-        setTimeout(() => {
-          const quizScreen = document.getElementById('quiz-screen');
-          if (quizScreen) {
-            quizScreen.style.position = 'fixed';
-            quizScreen.style.top = '20px';
-            quizScreen.style.left = '50%';
-            quizScreen.style.transform = 'translateX(-50%)';
-            quizScreen.style.zIndex = '30'; // Below tutorial overlay but above normal content
-            quizScreen.classList.add('tutorial-quiz-positioned');
-            console.log('Tutorial: Moved quiz box to top of screen');
-          }
-        }, 100);
-        
-        // Show specific demo question from animals/level1
-        setTimeout(() => {
-          try {
-            // Use specific animals level 1 question for demo
-            const demoQuestion = {
-              question: {
-                en: "Which animal is the fastest on land?",
-                es: "¿Qué animal es el más rápido en tierra?",
-                de: "Welches Tier ist das schnellste an Land?",
-                nl: "Welk dier is het snelst op land?"
-              },
-              options: [
-                { en: "Cheetah", es: "Guepardo", de: "Gepard", nl: "Jachtluipaard" },
-                { en: "Lion", es: "León", de: "Löwe", nl: "Leeuw" },
-                { en: "Horse", es: "Caballo", de: "Pferd", nl: "Paard" },
-                { en: "Gazelle", es: "Gacela", de: "Gazelle", nl: "Gazelle" }
-              ],
-              correct: 0,
-              explanation: {
-                en: "The cheetah can reach speeds up to 70 mph (112 km/h), making it the fastest land animal in the world.",
-                es: "El guepardo puede alcanzar velocidades de hasta 112 km/h, convirtiéndolo en el animal terrestre más rápido del mundo.",
-                de: "Der Gepard kann Geschwindigkeiten von bis zu 112 km/h erreichen, was ihn zum schnellsten Landtier der Welt macht.",
-                nl: "De jachtluipaard kan snelheden bereiken tot 112 km/u, waardoor het het snelste landdier ter wereld is."
-              }
-            };
-            
-            // Set up tutorial quiz state with specific question
-            window.selectedGroupIndex = 0; // Animals group
-            window.selectedLevelIndex = 0; // Level 1
-            window.questions = [demoQuestion];
-            window.currentIndex = 0;
-            window.correctCount = 0;
-            window.wrongCount = 0;
-            
-            // Update UI elements
-            document.getElementById('correct').innerText = `${window.t ? window.t('correct') : 'Correct'}: 0/10`;
-            document.getElementById('wrong').innerText = `${window.t ? window.t('mistakes') : 'Mistakes'}: 0/2`;
-            
-            // Force manual rendering to ensure question shows up
-            const lang = window.lang || 'en';
-            const questionElement = document.getElementById('question');
-            const answersDiv = document.getElementById('answers');
-            
-            if (questionElement) {
-              questionElement.textContent = demoQuestion.question[lang];
-              console.log('Tutorial: Set question text to:', demoQuestion.question[lang]);
-            }
-            
-            if (answersDiv) {
-              answersDiv.innerHTML = '';
-              demoQuestion.options.forEach((option, index) => {
-                const button = document.createElement('button');
-                button.className = 'answer-btn w-full p-3 text-left bg-white border-2 border-gray-300 rounded-lg hover:border-blue-400 hover:bg-blue-50 transition-colors';
-                button.textContent = option[lang];
-                button.onclick = () => console.log('Tutorial demo - answer clicked:', option[lang]);
-                answersDiv.appendChild(button);
-              });
-              console.log('Tutorial: Added', demoQuestion.options.length, 'answer buttons');
-            }
-            
-            // Also try the renderQuestion function as backup
-            if (typeof window.renderQuestion === 'function') {
-              try {
-                window.renderQuestion();
-                console.log('Tutorial: Also called renderQuestion function');
-              } catch (error) {
-                console.log('Tutorial: renderQuestion failed, but manual rendering should work');
-              }
-            }
-          } catch (error) {
-            console.log('Tutorial: Error setting up animals demo question:', error);
-          }
-        }, 500); // Increased delay to ensure screen is fully loaded and quiz state is set
-        break;
-        
-      case 'power-ups':
-        // For power-ups step, show quiz screen but keep it in original position
-        console.log('Tutorial: Showing quiz screen for power-ups demonstration');
-        window.showScreen('quiz-screen');
-        
-        // Show specific demo question from animals/level1 (same as other quiz steps)
-        setTimeout(() => {
-          try {
-            // Use specific animals level 1 question for demo
-            const demoQuestion = {
-              question: {
-                en: "Which animal is the fastest on land?",
-                es: "¿Qué animal es el más rápido en tierra?",
-                de: "Welches Tier ist das schnellste an Land?",
-                nl: "Welk dier is het snelst op land?"
-              },
-              options: [
-                { en: "Cheetah", es: "Guepardo", de: "Gepard", nl: "Jachtluipaard" },
-                { en: "Lion", es: "León", de: "Löwe", nl: "Leeuw" },
-                { en: "Horse", es: "Caballo", de: "Pferd", nl: "Paard" },
-                { en: "Gazelle", es: "Gacela", de: "Gazelle", nl: "Gazelle" }
-              ],
-              correct: 0,
-              explanation: {
-                en: "The cheetah can reach speeds up to 70 mph (112 km/h), making it the fastest land animal in the world.",
-                es: "El guepardo puede alcanzar velocidades de hasta 112 km/h, convirtiéndolo en el animal terrestre más rápido del mundo.",
-                de: "Der Gepard kann Geschwindigkeiten von bis zu 112 km/h erreichen, was ihn zum schnellsten Landtier der Welt macht.",
-                nl: "De jachtluipaard kan snelheden bereiken tot 112 km/u, waardoor het het snelste landdier ter wereld is."
-              }
-            };
-            
-            // Set up tutorial quiz state with specific question
-            window.selectedGroupIndex = 0; // Animals group
-            window.selectedLevelIndex = 0; // Level 1
-            window.questions = [demoQuestion];
-            window.currentIndex = 0;
-            window.correctCount = 0;
-            window.wrongCount = 0;
-            
-            // Update UI elements
-            document.getElementById('correct').innerText = `${window.t ? window.t('correct') : 'Correct'}: 0/10`;
-            document.getElementById('wrong').innerText = `${window.t ? window.t('mistakes') : 'Mistakes'}: 0/2`;
-            
-            // Force manual rendering to ensure question shows up
-            const lang = window.lang || 'en';
-            const questionElement = document.getElementById('question');
-            const answersDiv = document.getElementById('answers');
-            
-            if (questionElement) {
-              questionElement.textContent = demoQuestion.question[lang];
-              console.log('Tutorial: Set question text to:', demoQuestion.question[lang]);
-            }
-            
-            if (answersDiv) {
-              answersDiv.innerHTML = '';
-              demoQuestion.options.forEach((option, index) => {
-                const button = document.createElement('button');
-                button.className = 'answer-btn w-full p-3 text-left bg-white border-2 border-gray-300 rounded-lg hover:border-blue-400 hover:bg-blue-50 transition-colors';
-                button.textContent = option[lang];
-                button.onclick = () => console.log('Tutorial demo - answer clicked:', option[lang]);
-                answersDiv.appendChild(button);
-              });
-              console.log('Tutorial: Added', demoQuestion.options.length, 'answer buttons');
-            }
-            
-            // Also try the renderQuestion function as backup
-            if (typeof window.renderQuestion === 'function') {
-              try {
-                window.renderQuestion();
-                console.log('Tutorial: Also called renderQuestion function');
-              } catch (error) {
-                console.log('Tutorial: renderQuestion failed, but manual rendering should work');
-              }
-            }
-          } catch (error) {
-            console.log('Tutorial: Error setting up animals demo question:', error);
-          }
-        }, 500);
-        break;
-        
-      case 'answer-explanations':
-        // For answer explanations demo, show quiz screen with explanation
-        console.log('Tutorial: Simulating quiz screen with explanation for demonstration');
-        window.showScreen('quiz-screen');
-        
-        // Move quiz container to top during tutorial
-        setTimeout(() => {
-          const quizScreen = document.getElementById('quiz-screen');
-          if (quizScreen) {
-            quizScreen.style.position = 'fixed';
-            quizScreen.style.top = '20px';
-            quizScreen.style.left = '50%';
-            quizScreen.style.transform = 'translateX(-50%)';
-            quizScreen.style.zIndex = '30'; // Below tutorial overlay but above normal content
-            quizScreen.classList.add('tutorial-quiz-positioned');
-            console.log('Tutorial: Moved quiz box to top of screen for explanations demo');
-          }
-        }, 100);
-        
-        // Show specific demo question with explanation displayed
-        setTimeout(() => {
-          try {
-            // Use specific animals level 1 question for demo
-            const demoQuestion = {
-              question: {
-                en: "Which animal is the fastest on land?",
-                es: "¿Qué animal es el más rápido en tierra?",
-                de: "Welches Tier ist das schnellste an Land?",
-                nl: "Welk dier is het snelst op land?"
-              },
-              options: [
-                { en: "Cheetah", es: "Guepardo", de: "Gepard", nl: "Jachtluipaard" },
-                { en: "Lion", es: "León", de: "Löwe", nl: "Leeuw" },
-                { en: "Horse", es: "Caballo", de: "Pferd", nl: "Paard" },
-                { en: "Gazelle", es: "Gacela", de: "Gazelle", nl: "Gazelle" }
-              ],
-              correct: 2, // Horse is now the correct answer (3rd option, index 2)
-              explanation: {
-                en: "Actually, the horse is not the fastest land animal. The cheetah can reach speeds up to 70 mph (112 km/h), making it the fastest land animal in the world.",
-                es: "En realidad, el caballo no es el animal terrestre más rápido. El guepardo puede alcanzar velocidades de hasta 112 km/h, convirtiéndolo en el animal terrestre más rápido del mundo.",
-                de: "Eigentlich ist das Pferd nicht das schnellste Landtier. Der Gepard kann Geschwindigkeiten von bis zu 112 km/h erreichen, was ihn zum schnellsten Landtier der Welt macht.",
-                nl: "Eigenlijk is het paard niet het snelste landdier. De jachtluipaard kan snelheden bereiken tot 112 km/u, waardoor het het snelste landdier ter wereld is."
-              }
-            };
-            
-            // Set up tutorial quiz state with specific question
-            window.selectedGroupIndex = 0; // Animals group
-            window.selectedLevelIndex = 0; // Level 1
-            window.questions = [demoQuestion];
-            window.currentIndex = 0;
-            window.correctCount = 0;
-            window.wrongCount = 0;
-            
-            // Update UI elements
-            document.getElementById('correct').innerText = `${window.t ? window.t('correct') : 'Correct'}: 0/10`;
-            document.getElementById('wrong').innerText = `${window.t ? window.t('mistakes') : 'Mistakes'}: 0/2`;
-            
-            // Force manual rendering to ensure question shows up
-            const lang = window.lang || 'en';
-            const questionElement = document.getElementById('question');
-            const answersDiv = document.getElementById('answers');
-            
-            if (questionElement) {
-              questionElement.textContent = demoQuestion.question[lang];
-              console.log('Tutorial: Set question text to:', demoQuestion.question[lang]);
-            }
-            
-            if (answersDiv) {
-              answersDiv.innerHTML = '';
-              demoQuestion.options.forEach((option, index) => {
-                const button = document.createElement('button');
-                button.className = 'answer-btn w-full p-3 text-left bg-white border-2 border-gray-300 rounded-lg hover:border-blue-400 hover:bg-blue-50 transition-colors';
-                button.textContent = option[lang];
-                
-                // Style buttons to show as if wrong answer was clicked
-                if (index === 3) { // Gazelle (wrong answer - 4th option)
-                  button.style.background = '#F23F5D'; // pinkish red for wrong
-                  button.style.color = '#FFFFFF'; // white text
-                  button.style.border = '2px solid #F23F5D';
-                } else if (index === 2) { // Horse (correct answer - 3rd option)
-                  button.style.background = '#02B7CE'; // bright cyan for correct
-                  button.style.color = '#121C3A'; // deep navy text
-                  button.style.border = '2px solid #02B7CE';
-                }
-                
-                button.onclick = () => console.log('Tutorial demo - answer clicked:', option[lang]);
-                answersDiv.appendChild(button);
-              });
-              console.log('Tutorial: Added', demoQuestion.options.length, 'answer buttons with wrong/correct styling');
-            }
-            
-            // Show explanation as if user got it wrong
-            if (typeof window.showExplanation === 'function') {
-              // Simulate wrong answer scenario
-              window.showExplanation(demoQuestion, false); // false = wrong answer
-              console.log('Tutorial: Showing explanation for wrong answer demo');
-              
-              // Highlight the explanation box after it's shown
-              setTimeout(() => {
-                const explanationContainer = document.getElementById('explanation-container');
-                if (explanationContainer) {
-                  console.log('Tutorial: Highlighting explanation container after it appears');
-                  // Force highlight the explanation box
-                  const step = tutorialSteps.find(s => s.id === 'answer-explanations');
-                  if (step) {
-                    highlightElement(step.target);
-                  }
-                } else {
-                  console.warn('Tutorial: explanation-container not found after showExplanation call');
-                }
-              }, 200); // Small delay to ensure explanation is rendered
-            } else {
-              // Manual explanation display if showExplanation function not available
-              console.log('Tutorial: showExplanation function not available, explanation demo may not show');
-            }
-            
-          } catch (error) {
-            console.log('Tutorial: Error setting up explanation demo:', error);
-          }
-        }, 700); // Longer delay to ensure everything is set up
-        break;
-        
-      case 'game-modes-intro':
-        // Return to home screen to show the game modes button
-        window.showScreen('home-screen');
-        break;
-        
-      case 'true-false-mode':
-        window.showScreen('challenge-modes-screen');
-        // Scroll down to hide the title and give more room for tutorial box
-        setTimeout(() => {
-          const challengeModesScreen = document.getElementById('challenge-modes-screen');
-          if (challengeModesScreen) {
-            challengeModesScreen.scrollTop = 80; // Scroll down to hide the title
-            challengeModesScreen.classList.add('tutorial-no-scroll'); // Prevent further scrolling
-            challengeModesScreen.style.overflow = 'hidden';
-            challengeModesScreen.style.overflowY = 'hidden';
-            challengeModesScreen.style.height = '100vh'; // Fix height to prevent scroll
-            challengeModesScreen.style.position = 'fixed';
-            
-            // Add event listeners to prevent all forms of scrolling
-            const preventScroll = (e) => {
-              e.preventDefault();
-              e.stopPropagation();
-            };
-            
-            challengeModesScreen.addEventListener('wheel', preventScroll, { passive: false });
-            challengeModesScreen.addEventListener('touchmove', preventScroll, { passive: false });
-            challengeModesScreen.addEventListener('scroll', preventScroll, { passive: false });
-            
-            // Store event listeners for cleanup
-            challengeModesScreen._tutorialScrollPrevention = preventScroll;
-            
-            console.log('Tutorial: Scrolled down and completely prevented scrolling on Game Modes');
-          }
-        }, 100);
-        break;
-        
-      case 'survivor-modes':
-        window.showScreen('challenge-modes-screen');
-        // Scroll so Lightning Round bottom border aligns with top of screen
-        setTimeout(() => {
-          const lightningCard = document.querySelector('.challenge-mode-card:nth-child(2)');
-          const challengeModesScreen = document.getElementById('challenge-modes-screen');
-          
-          if (lightningCard && challengeModesScreen) {
-            // Get Lightning Round card position and calculate scroll to align bottom with top
-            const lightningOffsetTop = lightningCard.offsetTop;
-            const lightningHeight = lightningCard.offsetHeight;
-            
-            // Calculate scroll position so Lightning Round bottom border is at top of screen
-            const targetScrollTop = lightningOffsetTop + lightningHeight;
-            challengeModesScreen.scrollTo({ top: targetScrollTop, behavior: 'smooth' });
-            
-            // After scrolling, lock the position
-            setTimeout(() => {
-              challengeModesScreen.classList.add('tutorial-no-scroll');
-              challengeModesScreen.style.overflow = 'hidden';
-              challengeModesScreen.style.overflowY = 'hidden';
-              
-              // Add event listeners to prevent all forms of scrolling
-              const preventScroll = (e) => {
-                e.preventDefault();
-                e.stopPropagation();
-              };
-              
-              challengeModesScreen.addEventListener('wheel', preventScroll, { passive: false });
-              challengeModesScreen.addEventListener('touchmove', preventScroll, { passive: false });
-              challengeModesScreen.addEventListener('scroll', preventScroll, { passive: false });
-              
-              // Store event listeners for cleanup
-              challengeModesScreen._tutorialScrollPrevention = preventScroll;
-              
-              console.log('Tutorial: Scrolled so Lightning Round bottom aligns with screen top and prevented scrolling');
-            }, 500); // Wait for scroll animation to complete
-          }
-        }, 100);
-        break;
-        
-      case 'lightning-round':
-        window.showScreen('challenge-modes-screen');
-        // Scroll so True/False bottom border aligns with top of screen
-        setTimeout(() => {
-          const trueFalseCard = document.querySelector('.challenge-mode-card:nth-child(1)');
-          const challengeModesScreen = document.getElementById('challenge-modes-screen');
-          
-          if (trueFalseCard && challengeModesScreen) {
-            // Get True/False card position and calculate scroll to align bottom with top
-            const trueFalseRect = trueFalseCard.getBoundingClientRect();
-            const trueFalseOffsetTop = trueFalseCard.offsetTop;
-            const trueFalseHeight = trueFalseCard.offsetHeight;
-            
-            // Calculate scroll position so True/False bottom border is at top of screen
-            const targetScrollTop = trueFalseOffsetTop + trueFalseHeight;
-            challengeModesScreen.scrollTo({ top: targetScrollTop, behavior: 'smooth' });
-            
-            // After scrolling, lock the position
-            setTimeout(() => {
-              challengeModesScreen.classList.add('tutorial-no-scroll');
-              challengeModesScreen.style.overflow = 'hidden';
-              challengeModesScreen.style.overflowY = 'hidden';
-              
-              // Add event listeners to prevent all forms of scrolling
-              const preventScroll = (e) => {
-                e.preventDefault();
-                e.stopPropagation();
-              };
-              
-              challengeModesScreen.addEventListener('wheel', preventScroll, { passive: false });
-              challengeModesScreen.addEventListener('touchmove', preventScroll, { passive: false });
-              challengeModesScreen.addEventListener('scroll', preventScroll, { passive: false });
-              
-              // Store event listeners for cleanup
-              challengeModesScreen._tutorialScrollPrevention = preventScroll;
-              
-              console.log('Tutorial: Scrolled so True/False bottom aligns with screen top and prevented scrolling');
-            }, 500); // Wait for scroll animation to complete
-          }
-        }, 100);
-        break;
-        
-      case 'daily-challenge':
-        // Show home screen for daily challenges
-        window.showScreen('home-screen');
-        break;
-        
-      case 'shop-daily-rewards':
-        // Show home screen where the shop button is located
-        console.log('Tutorial: Showing home screen for shop button');
-        window.showScreen('home-screen');
-        break;
-        
-      default:
-        console.log(`Tutorial: No specific screen handling for step '${step.id}', staying on current screen`);
-        break;
-    }
-  }
-
-  // Position tutorial box dynamically based on step
-  function positionTutorialBox(step) {
-    const tutorialStrip = document.getElementById('tutorial-strip');
-    if (!tutorialStrip) return;
-    
-    // Reset styles and animate into position
-    tutorialStrip.style.top = '';
-    tutorialStrip.style.bottom = '';
-    
-    switch(step.id) {
-      case 'welcome':
-        // Step 1: Position at the bottom of the screen
-        tutorialStrip.style.bottom = '20px';
-        tutorialStrip.style.top = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        console.log('Tutorial: Positioned welcome step at bottom');
-        break;
-        
-      case 'home-navigation':
-        // Step 2: Position bottom of tutorial box to touch top of highlight
-        // Use setTimeout to ensure buttons are rendered and highlighted
-        setTimeout(() => {
-          const menuButtons = ['#levels-btn', '#challenge-modes-btn', '#shop-btn'];
-          const buttonElements = menuButtons.map(selector => document.querySelector(selector)).filter(el => el !== null);
-          
-          if (buttonElements.length > 0) {
-            // Find the topmost button for highlight calculation
-            let minTop = Infinity;
-            buttonElements.forEach(element => {
-              const rect = element.getBoundingClientRect();
-              minTop = Math.min(minTop, rect.top);
-            });
-            
-            // Get actual tutorial box height by forcing a layout update
-            tutorialStrip.style.visibility = 'hidden';
-            tutorialStrip.style.position = 'fixed';
-            tutorialStrip.style.top = '0px';
-            const tutorialRect = tutorialStrip.getBoundingClientRect();
-            const tutorialBoxHeight = tutorialRect.height;
-            
-            // Calculate where the highlight box starts (top edge)
-            const highlightPadding = 20; // padding around buttons in highlight (from highlightElement function)
-            const highlightTopEdge = minTop - highlightPadding;
-            
-            // Position tutorial box so its bottom edge touches the highlight top edge
-            const tutorialTopPosition = highlightTopEdge - tutorialBoxHeight;
-            
-            // Apply the positioning
-            tutorialStrip.style.visibility = 'visible';
-            tutorialStrip.style.top = tutorialTopPosition + 'px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-            
-            console.log('Tutorial: Positioned tutorial box - bottom at', highlightTopEdge, 'top at', tutorialTopPosition, 'height', tutorialBoxHeight);
-          } else {
-            console.log('Tutorial: Menu buttons not found, using fallback top position');
-            tutorialStrip.style.top = '20px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-          }
-        }, 100); // Slightly longer delay to ensure highlight is created
-        
-        // Initial fallback position (will be overridden by setTimeout)
-        tutorialStrip.style.top = '20px';
-        tutorialStrip.style.bottom = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        break;
-        
-      case 'play-button':
-        // Step 2: Position at the bottom of the screen
-        tutorialStrip.style.bottom = '20px';
-        tutorialStrip.style.top = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        console.log('Tutorial: Positioned play button step at bottom');
-        break;
-        
-      case 'game-modes-intro':
-        // Step 7: Position bottom of tutorial box to touch top of game modes button highlight
-        setTimeout(() => {
-          const gameModeButton = document.querySelector('#challenge-modes-btn');
-          
-          if (gameModeButton) {
-            const rect = gameModeButton.getBoundingClientRect();
-            
-            // Get actual tutorial box height by forcing a layout update
-            tutorialStrip.style.visibility = 'hidden';
-            tutorialStrip.style.position = 'fixed';
-            tutorialStrip.style.top = '0px';
-            const tutorialRect = tutorialStrip.getBoundingClientRect();
-            const tutorialBoxHeight = tutorialRect.height;
-            
-            // Calculate where the highlight box starts (top edge)
-            const highlightPadding = 20; // padding around button in highlight
-            const highlightTopEdge = rect.top - highlightPadding;
-            
-            // Position tutorial box so its bottom edge touches the highlight top edge
-            const tutorialTopPosition = highlightTopEdge - tutorialBoxHeight;
-            
-            // Apply the positioning
-            tutorialStrip.style.visibility = 'visible';
-            tutorialStrip.style.top = tutorialTopPosition + 'px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-            
-            console.log('Tutorial: Positioned tutorial box above game modes button');
-          } else {
-            console.log('Tutorial: Game modes button not found, using fallback top position');
-            tutorialStrip.style.top = '20px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-          }
-        }, 100);
-        
-        // Initial fallback position
-        tutorialStrip.style.top = '20px';
-        tutorialStrip.style.bottom = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        break;
-        
-      case 'shop-daily-rewards':
-        // Step 12: Position bottom of tutorial box to touch top of shop button highlight
-        setTimeout(() => {
-          const shopButton = document.querySelector('#shop-btn');
-          
-          if (shopButton) {
-            const rect = shopButton.getBoundingClientRect();
-            
-            // Get actual tutorial box height by forcing a layout update
-            tutorialStrip.style.visibility = 'hidden';
-            tutorialStrip.style.position = 'fixed';
-            tutorialStrip.style.top = '0px';
-            const tutorialRect = tutorialStrip.getBoundingClientRect();
-            const tutorialBoxHeight = tutorialRect.height;
-            
-            // Calculate where the highlight box starts (top edge)
-            const highlightPadding = 20; // padding around button in highlight
-            const highlightTopEdge = rect.top - highlightPadding;
-            
-            // Position tutorial box so its bottom edge touches the highlight top edge
-            let tutorialTopPosition = highlightTopEdge - tutorialBoxHeight;
-            
-            // Safety check: ensure tutorial box doesn't go off-screen
-            if (tutorialTopPosition < 20) {
-              // If there's no room above, position below the shop button
-              const highlightBottomEdge = rect.bottom + highlightPadding;
-              tutorialStrip.style.visibility = 'visible';
-              tutorialStrip.style.top = (highlightBottomEdge + 10) + 'px'; // 10px gap
-              tutorialStrip.style.bottom = '';
-              tutorialStrip.style.transform = 'translateX(-50%)';
-              console.log('Tutorial: Positioned tutorial box below shop button (no room above)');
-            } else {
-              // Apply the positioning above the button
-              tutorialStrip.style.visibility = 'visible';
-              tutorialStrip.style.top = tutorialTopPosition + 'px';
-              tutorialStrip.style.bottom = '';
-              tutorialStrip.style.transform = 'translateX(-50%)';
-              console.log('Tutorial: Positioned tutorial box above shop button');
-            }
-          } else {
-            console.log('Tutorial: Shop button not found, using fallback top position');
-            tutorialStrip.style.top = '20px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-          }
-        }, 100);
-        
-        // Initial fallback position
-        tutorialStrip.style.top = '20px';
-        tutorialStrip.style.bottom = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        break;
-        
-      case 'power-ups':
-        // Step 6: Position tutorial box above power-up buttons in middle of screen
-        setTimeout(() => {
-          const powerUpButtons = ['#fifty-fifty-btn', '#skip-btn', '#time-bonus-btn'];
-          const elements = powerUpButtons.map(selector => document.querySelector(selector)).filter(el => el !== null);
-          
-          if (elements.length > 0) {
-            // Find the topmost power-up button
-            let minTop = Infinity;
-            elements.forEach(element => {
-              const rect = element.getBoundingClientRect();
-              minTop = Math.min(minTop, rect.top);
-            });
-            
-            // Get actual tutorial box height by forcing a layout update
-            tutorialStrip.style.visibility = 'hidden';
-            tutorialStrip.style.position = 'fixed';
-            tutorialStrip.style.top = '0px';
-            const tutorialRect = tutorialStrip.getBoundingClientRect();
-            const tutorialBoxHeight = tutorialRect.height;
-            
-            // Calculate where the highlight box starts (top edge)
-            const highlightPadding = 20; // padding around buttons in highlight
-            const highlightTopEdge = minTop - highlightPadding;
-            
-            // Position tutorial box so its bottom edge touches the highlight top edge
-            const tutorialTopPosition = highlightTopEdge - tutorialBoxHeight - 20; // Extra 20px gap
-            
-            // Apply the positioning
-            tutorialStrip.style.visibility = 'visible';
-            tutorialStrip.style.top = tutorialTopPosition + 'px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-            
-            console.log('Tutorial: Positioned tutorial box above power-up buttons in middle of screen');
-          } else {
-            console.log('Tutorial: Power-up buttons not found, using fallback center position');
-            tutorialStrip.style.top = '50%';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translate(-50%, -50%)';
-          }
-        }, 200); // Increased delay to ensure power-up buttons are rendered
-        
-        // Initial fallback position
-        tutorialStrip.style.top = '50%';
-        tutorialStrip.style.bottom = '';
-        tutorialStrip.style.transform = 'translate(-50%, -50%)';
-        break;
-        
-      case 'true-false-mode':
-        // Step 8: Position tutorial box below true/false card (no additional scrolling)
-        setTimeout(() => {
-          const trueFalseCard = document.querySelector('.challenge-mode-card:first-child');
-          
-          if (trueFalseCard) {
-            const rect = trueFalseCard.getBoundingClientRect();
-            const highlightPadding = 20;
-            const highlightBottomEdge = rect.bottom + highlightPadding;
-            
-            tutorialStrip.style.visibility = 'visible';
-            tutorialStrip.style.top = (highlightBottomEdge + 20) + 'px'; // Add some gap
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-            
-            console.log('Tutorial: Positioned below True/False card');
-          } else {
-            tutorialStrip.style.top = '20px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-          }
-        }, 200); // Increased delay to account for initial scroll
-        
-        tutorialStrip.style.top = '20px';
-        tutorialStrip.style.bottom = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        break;
-        
-      case 'lightning-round':
-        // Step 9: Position tutorial at bottom after Lightning Round card is scrolled to top
-        setTimeout(() => {
-          // Position tutorial box at bottom of screen
-          tutorialStrip.style.visibility = 'visible';
-          tutorialStrip.style.bottom = '20px';
-          tutorialStrip.style.top = '';
-          tutorialStrip.style.transform = 'translateX(-50%)';
-          
-          console.log('Tutorial: Positioned tutorial box at bottom for Lightning Round');
-        }, 600); // Increased delay to account for scrolling animation
-        
-        tutorialStrip.style.bottom = '20px';
-        tutorialStrip.style.top = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        break;
-        
-      case 'survivor-modes':
-        // Step 10: Position tutorial at bottom without additional scrolling
-        setTimeout(() => {
-          // Position tutorial box at bottom of screen
-          tutorialStrip.style.visibility = 'visible';
-          tutorialStrip.style.bottom = '20px';
-          tutorialStrip.style.top = '';
-          tutorialStrip.style.transform = 'translateX(-50%)';
-          
-          console.log('Tutorial: Positioned tutorial box at bottom for Survivor modes');
-        }, 200); // Increased delay to account for initial scroll
-        
-        tutorialStrip.style.bottom = '20px';
-        tutorialStrip.style.top = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        break;
-        
-      case 'daily-challenge':
-        // Step 11: Position bottom of tutorial box to touch top of daily challenge button highlight
-        setTimeout(() => {
-          const dailyChallengeBtn = document.querySelector('#daily-challenge-btn');
-          
-          if (dailyChallengeBtn) {
-            const rect = dailyChallengeBtn.getBoundingClientRect();
-            
-            // Get actual tutorial box height by forcing a layout update
-            tutorialStrip.style.visibility = 'hidden';
-            tutorialStrip.style.position = 'fixed';
-            tutorialStrip.style.top = '0px';
-            const tutorialRect = tutorialStrip.getBoundingClientRect();
-            const tutorialBoxHeight = tutorialRect.height;
-            
-            // Calculate where the highlight box starts (top edge)
-            const highlightPadding = 20; // padding around button in highlight
-            const highlightTopEdge = rect.top - highlightPadding;
-            
-            // Position tutorial box so its bottom edge touches the highlight top edge
-            const tutorialTopPosition = highlightTopEdge - tutorialBoxHeight;
-            
-            // Apply the positioning
-            tutorialStrip.style.visibility = 'visible';
-            tutorialStrip.style.top = tutorialTopPosition + 'px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-            
-            console.log('Tutorial: Positioned tutorial box above daily challenge button');
-          } else {
-            console.log('Tutorial: Daily challenge button not found, using fallback top position');
-            tutorialStrip.style.top = '20px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-          }
-        }, 100);
-        
-        // Initial fallback position
-        tutorialStrip.style.top = '20px';
-        tutorialStrip.style.bottom = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        break;
-
-      case 'quiz-screen':
-        // Quiz tutorial step: Position tutorial box at bottom since quiz is at top
-        tutorialStrip.style.bottom = '20px';
-        tutorialStrip.style.top = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        console.log('Tutorial: Positioned quiz tutorial box at bottom');
-        break;
-
-      case 'answer-explanations':
-        // Answer explanations step: Position tutorial box at top
-        tutorialStrip.style.top = '20px';
-        tutorialStrip.style.bottom = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        console.log('Tutorial: Positioned answer explanations tutorial box at top');
-        break;
-
-      case 'levels-screen':
-        // Level progression step: Position at bottom
-        tutorialStrip.style.bottom = '20px';
-        tutorialStrip.style.top = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        console.log('Tutorial: Positioned level progression at bottom');
-        break;
-
-      case 'tutorial-complete':
-        // Position tutorial complete same as welcome step - below the game logo
-        // Find the game logo image
-        const logoComplete = document.querySelector('#home-screen img[alt="RobitQuiz"]');
-        if (logoComplete) {
-          const logoRect = logoComplete.getBoundingClientRect();
-          tutorialStrip.style.top = (logoRect.bottom + 20) + 'px';
-          tutorialStrip.style.bottom = '';
-          tutorialStrip.style.transform = 'translateX(-50%)';
-          console.log('Tutorial: Positioned tutorial complete below logo at', logoRect.bottom + 20);
-        } else {
-          // Fallback position if logo not found
-          tutorialStrip.style.top = '200px';
-          tutorialStrip.style.bottom = '';
-          tutorialStrip.style.transform = 'translateX(-50%)';
-          console.log('Tutorial: Logo not found for complete step, using fallback position');
-        }
-        break;
-
-      case 'subjects-explained':
-        // Step 3: Position at the bottom of the screen
-        tutorialStrip.style.bottom = '20px';
-        tutorialStrip.style.top = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        console.log('Tutorial: Positioned subjects-explained step at bottom');
-        break;
-        
-      case 'currency-system':
-        // Step 3: Position top of tutorial box to touch bottom of highlight
-        // Use setTimeout to ensure stars & gems elements are rendered and highlighted
-        setTimeout(() => {
-          const currencyElements = ['#star-display', '#diamond-display'];
-          const elements = currencyElements.map(selector => document.querySelector(selector)).filter(el => el !== null);
-          
-          if (elements.length > 0) {
-            // Find the bottommost element for highlight calculation
-            let maxBottom = -Infinity;
-            elements.forEach(element => {
-              const rect = element.getBoundingClientRect();
-              maxBottom = Math.max(maxBottom, rect.bottom);
-            });
-            
-            // Calculate where the highlight box ends (bottom edge)
-            const highlightPadding = 20; // padding around elements in highlight (same as step 2)
-            const highlightBottomEdge = maxBottom + highlightPadding;
-            
-            // Position tutorial box so its top edge touches the highlight bottom edge
-            tutorialStrip.style.visibility = 'visible';
-            tutorialStrip.style.top = highlightBottomEdge + 'px';
-            tutorialStrip.style.bottom = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-            
-            console.log('Tutorial: Positioned tutorial box for currency - top at', highlightBottomEdge, 'touching highlight bottom');
-          } else {
-            console.log('Tutorial: Currency elements not found, using fallback bottom position');
-            tutorialStrip.style.bottom = '20px';
-            tutorialStrip.style.top = '';
-            tutorialStrip.style.transform = 'translateX(-50%)';
-          }
-        }, 100); // Delay to ensure highlight is created
-        
-        // Initial fallback position (will be overridden by setTimeout)
-        tutorialStrip.style.bottom = '20px';
-        tutorialStrip.style.top = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        break;
-        
-      default:
-        // Default to top
-        tutorialStrip.style.top = '20px';
-        tutorialStrip.style.bottom = '';
-        tutorialStrip.style.transform = 'translateX(-50%)';
-        break;
-    }
-  }
-
-  function showTutorialStep(stepIndex) {
+  function showStep(stepIndex) {
     if (stepIndex < 0 || stepIndex >= tutorialSteps.length) return;
-    
-    const step = tutorialSteps[stepIndex];
-    const previousStep = tutorialState.currentStep >= 0 ? tutorialSteps[tutorialState.currentStep] : null;
-    
-    // Hide explanation if leaving the answer-explanations step
-    if (previousStep && previousStep.id === 'answer-explanations' && step.id !== 'answer-explanations') {
-      if (typeof window.hideExplanation === 'function') {
-        window.hideExplanation();
-        console.log('Tutorial: Hidden explanation when leaving answer-explanations step');
-      }
-    }
-    
-    // Reset quiz positioning if leaving a quiz step (excluding power-ups which uses original positioning)
-    if (previousStep && ['quiz-screen', 'answer-explanations'].includes(previousStep.id) && 
-        !['quiz-screen', 'answer-explanations'].includes(step.id)) {
-      const quizScreen = document.getElementById('quiz-screen');
-      if (quizScreen && quizScreen.classList.contains('tutorial-quiz-positioned')) {
-        quizScreen.style.position = '';
-        quizScreen.style.top = '';
-        quizScreen.style.left = '';
-        quizScreen.style.transform = '';
-        quizScreen.style.zIndex = '';
-        quizScreen.classList.remove('tutorial-quiz-positioned');
-        console.log('Tutorial: Reset quiz positioning when leaving quiz step');
-      }
-    }
-    
-    tutorialState.currentStep = stepIndex;
-    
-    // Position the tutorial box based on step
-    positionTutorialBox(step);
-    
-    // Update content
-    document.getElementById('tutorial-title').textContent = step.title;
-    document.getElementById('tutorial-content').textContent = step.content;
-    
-    // Update character image
-    const characterDiv = document.getElementById('tutorial-character');
-    const characterImg = document.getElementById('tutorial-character-img');
-    if (step.image) {
-      characterImg.src = step.image;
-      characterDiv.style.display = 'block';
-      // Add animation class
-      characterDiv.classList.remove('animate-bounce-in');
-      void characterDiv.offsetWidth; // Trigger reflow
-      characterDiv.classList.add('animate-bounce-in');
-    } else {
-      characterDiv.style.display = 'none';
-    }
-    
-    // Update navigation buttons
-    const prevBtn = document.getElementById('tutorial-prev');
-    const nextBtn = document.getElementById('tutorial-next');
-    const skipBtn = document.getElementById('tutorial-skip');
-    
-    prevBtn.style.display = stepIndex > 0 ? 'block' : 'none';
-    
-    if (stepIndex === tutorialSteps.length - 1) {
-      nextBtn.textContent = 'Finish';
-      nextBtn.className = 'tutorial-btn bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded text-xs font-semibold';
-    } else {
-      nextBtn.textContent = 'Next →';
-      nextBtn.className = 'tutorial-btn bg-yellow-500 hover:bg-yellow-600 text-black px-3 py-1 rounded text-xs font-semibold';
-    }
-    
-    skipBtn.style.display = (step.showSkip !== false) ? 'block' : 'none';
-    
-    // Switch background screen based on tutorial step
-    switchTutorialScreen(step);
-    
-    // Highlight target element with delay for certain steps that need screen loading
-    if (step.id === 'lightning-round') {
-      // Longer delay for lightning-round to account for scrolling animation
-      setTimeout(() => {
-        highlightElement(step.target);
-        console.log('Tutorial: Delayed highlighting for lightning-round after scroll animation:', step.id);
-      }, 700); // Wait for scrolling animation to complete (500ms + buffer)
-    } else if (step.id === 'quiz-screen') {
-      // Delay highlighting for quiz screen to ensure demo question is loaded
-      setTimeout(() => {
-        highlightElement(step.target);
-        console.log('Tutorial: Delayed highlighting for quiz elements after demo question loaded:', step.id);
-      }, 600); // Wait for quiz positioning and demo question loading (500ms + buffer)
-    } else if (step.id === 'survivor-modes') {
-      // Longer delay for survivor-modes to account for scrolling animation
-      setTimeout(() => {
-        highlightElement(step.target);
-        console.log('Tutorial: Delayed highlighting for survivor-modes after scroll animation:', step.id);
-      }, 700); // Wait for scrolling animation to complete (500ms + buffer)
-    } else if (step.id === 'true-false-mode') {
-      // Delay highlighting for true-false-mode to ensure cards are rendered
-      setTimeout(() => {
-        highlightElement(step.target);
-        console.log('Tutorial: Delayed highlighting for true-false-mode:', step.id);
-      }, 300); // Wait for challenge-modes-screen to fully render
-    } else {
-      // Immediate highlighting for other steps
-      highlightElement(step.target);
-    }
-    
-    // Update progress dots
-    updateProgressDots();
-  }
 
-  // Recalculate positions on window resize
-  function handleWindowResize() {
-    if (tutorialState.isActive) {
-      const currentStep = tutorialSteps[tutorialState.currentStep];
-      if (currentStep) {
-        positionTutorialBox(currentStep);
-        // Use delayed highlighting for challenge mode steps
-        if (currentStep.id === 'lightning-round') {
-          setTimeout(() => {
-            highlightElement(currentStep.target);
-          }, 200); // Shorter delay for resize
-        } else if (currentStep.id === 'quiz-screen') {
-          setTimeout(() => {
-            highlightElement(currentStep.target);
-          }, 150); // Shorter delay for resize
-        } else if (currentStep.id === 'survivor-modes') {
-          setTimeout(() => {
-            highlightElement(currentStep.target);
-          }, 200); // Shorter delay for resize
-        } else if (currentStep.id === 'true-false-mode') {
-          setTimeout(() => {
-            highlightElement(currentStep.target);
-          }, 100);
+    const step = tutorialSteps[stepIndex];
+    tutorialState.currentStep = stepIndex;
+
+    // Switch to correct screen
+    if (step.screen && window.showScreen) {
+      window.showScreen(step.screen);
+    }
+
+    // Pause timer if this step requires it
+    if (step.pauseTimer && window.pauseQuizTimer) {
+      window.pauseQuizTimer();
+      tutorialState.timerWasPaused = true;
+    } else if (tutorialState.timerWasPaused && window.resumeQuizTimer) {
+      // Resume timer when leaving a pauseTimer step
+      window.resumeQuizTimer();
+      tutorialState.timerWasPaused = false;
+    }
+
+    // Hide or show backdrop based on step configuration
+    const backdrop = document.getElementById('tutorial-backdrop');
+    if (backdrop) {
+      if (step.hideBackdrop) {
+        backdrop.style.display = 'none';
+      } else {
+        backdrop.style.display = 'block';
+      }
+    }
+
+    // Position bubble based on step configuration
+    const bubbleContainer = document.getElementById('tutorial-bubble-container');
+    if (bubbleContainer) {
+      if (step.bubblePosition === 'center') {
+        bubbleContainer.style.bottom = '50%';
+        bubbleContainer.style.top = 'auto';
+        bubbleContainer.style.transform = 'translate(-50%, 50%)';
+      } else if (step.bubblePosition === 'top') {
+        bubbleContainer.style.bottom = 'auto';
+        bubbleContainer.style.top = '5rem'; // top-20
+        bubbleContainer.style.transform = 'translateX(-50%)';
+      } else {
+        // Default position (bottom)
+        bubbleContainer.style.bottom = '5rem'; // bottom-20
+        bubbleContainer.style.top = 'auto';
+        bubbleContainer.style.transform = 'translateX(-50%)';
+      }
+    }
+
+    // Wait a bit for screen transition
+    setTimeout(() => {
+      // Highlight target (make interactive if it's an interactive step)
+      highlightElement(step.target, step.interactiveStep);
+
+      // Get text in current language
+      const lang = getTutorialLang();
+      const texts = tutorialTexts[lang] || tutorialTexts.en;
+      const text = texts[step.textKey] || step.textKey;
+
+      // Type out text with animation
+      const textElement = document.getElementById('tutorial-text');
+      if (textElement) {
+        textElement.innerHTML = '';
+
+        // Split by line breaks and type each line
+        const lines = text.split('\n');
+        let fullText = '';
+
+        lines.forEach((line, index) => {
+          if (index > 0) fullText += '<br>';
+          fullText += line;
+        });
+
+        // Typing animation
+        let charIndex = 0;
+        const speed = 15; // ms per character (faster)
+
+        function typeChar() {
+          if (charIndex < fullText.length) {
+            // Handle <br> tags
+            if (fullText.substr(charIndex, 4) === '<br>') {
+              textElement.innerHTML += '<br>';
+              charIndex += 4;
+            } else {
+              textElement.innerHTML += fullText[charIndex];
+              charIndex++;
+            }
+            tutorialState.currentTypingTimeout = setTimeout(typeChar, speed);
+          } else {
+            tutorialState.typingInProgress = false;
+          }
+        }
+
+        tutorialState.typingInProgress = true;
+        typeChar();
+      }
+
+      // Update button text and visibility
+      const nextBtn = document.getElementById('tutorial-next-btn');
+      const skipBtn = document.getElementById('tutorial-skip-btn');
+
+      if (nextBtn) {
+        // Reset button to visible (may be hidden by interactive steps)
+        nextBtn.style.display = 'flex';
+        nextBtn.disabled = false;
+        nextBtn.style.opacity = '1';
+        nextBtn.style.cursor = 'pointer';
+
+        if (stepIndex === tutorialSteps.length - 1) {
+          nextBtn.textContent = texts.doneButton || 'Done!';
+          nextBtn.className = 'bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 shadow-lg';
         } else {
-          highlightElement(currentStep.target);
+          nextBtn.textContent = texts.nextButton || 'Next →';
+          nextBtn.className = 'bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 shadow-lg';
         }
       }
+
+      // Show skip button only on first step
+      if (skipBtn) {
+        if (stepIndex === 0) {
+          skipBtn.style.display = 'flex';
+        } else {
+          skipBtn.style.display = 'none';
+        }
+      }
+
+      // Handle interactive steps with custom UI
+      if (step.showLanguageButtons) {
+        showLanguageButtons();
+      } else if (step.showThemeButtons) {
+        showThemeButtons();
+      } else if (step.interactiveStep) {
+        setupInteractiveStep(step);
+      }
+    }, 300);
+  }
+
+  // Show language selection buttons in tutorial bubble
+  function showLanguageButtons() {
+    const textElement = document.getElementById('tutorial-text');
+    const nextBtn = document.getElementById('tutorial-next-btn');
+
+    if (!textElement || !nextBtn) return;
+
+    // Hide next button for this step
+    nextBtn.style.display = 'none';
+
+    // Add language buttons after text in 2x2 grid
+    setTimeout(() => {
+      const buttonsHtml = `
+        <div id="tutorial-lang-container" class="grid grid-cols-2 gap-3">
+          <button class="tutorial-lang-btn px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-all hover:scale-105" data-lang="en">English</button>
+          <button class="tutorial-lang-btn px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-all hover:scale-105" data-lang="nl">Nederlands</button>
+          <button class="tutorial-lang-btn px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-all hover:scale-105" data-lang="de">Deutsch</button>
+          <button class="tutorial-lang-btn px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-all hover:scale-105" data-lang="es">Español</button>
+        </div>
+      `;
+      textElement.insertAdjacentHTML('afterend', buttonsHtml);
+
+      // Add click handlers
+      document.querySelectorAll('.tutorial-lang-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const selectedLang = btn.dataset.lang;
+
+          // Update language
+          window.lang = selectedLang;
+          localStorage.setItem('qb_language', selectedLang);
+
+          // Update language select in settings
+          const langSelect = document.getElementById('language-select');
+          if (langSelect) langSelect.value = selectedLang;
+
+          // Apply translations
+          if (window.applyTranslations) {
+            window.applyTranslations();
+          }
+
+          // Dispatch event
+          window.dispatchEvent(new CustomEvent('language-change', { detail: { language: selectedLang } }));
+
+          // Remove language buttons
+          const langButtonContainer = document.getElementById('tutorial-lang-container');
+          if (langButtonContainer) {
+            langButtonContainer.remove();
+          }
+
+          // Go to next step automatically
+          setTimeout(() => {
+            nextStep();
+          }, 300);
+        });
+      });
+    }, 500);
+  }
+
+  // Show theme selection buttons in tutorial bubble
+  function showThemeButtons() {
+    const textElement = document.getElementById('tutorial-text');
+    const nextBtn = document.getElementById('tutorial-next-btn');
+    const bubble = document.getElementById('tutorial-bubble');
+
+    if (!textElement || !nextBtn || !bubble) return;
+
+    // Add extra padding for theme step
+    bubble.classList.remove('pb-3');
+    bubble.classList.add('pb-8');
+    textElement.classList.add('mb-4');
+
+    // Keep next button visible but disabled initially
+    nextBtn.disabled = true;
+    nextBtn.style.opacity = '0.5';
+    nextBtn.style.cursor = 'not-allowed';
+    nextBtn.style.display = 'flex';
+
+    // Add theme buttons after text
+    setTimeout(() => {
+      const lang = getTutorialLang();
+      const lightText = lang === 'nl' ? 'Light Mode' : lang === 'de' ? 'Hell' : 'Light Mode';
+      const darkText = lang === 'nl' ? 'Dark Mode' : lang === 'de' ? 'Dunkel' : 'Dark Mode';
+
+      const buttonsHtml = `
+        <div class="flex gap-3 mt-4 justify-center">
+          <button class="tutorial-theme-btn px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-all hover:scale-105" data-theme="light">☀️ ${lightText}</button>
+          <button class="tutorial-theme-btn px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg font-semibold transition-all hover:scale-105" data-theme="dark">🌙 ${darkText}</button>
+        </div>
+      `;
+      textElement.insertAdjacentHTML('afterend', buttonsHtml);
+
+      // Enable next button immediately since dark mode is already selected
+      nextBtn.disabled = false;
+      nextBtn.style.opacity = '1';
+      nextBtn.style.cursor = 'pointer';
+
+      // Add click handlers
+      document.querySelectorAll('.tutorial-theme-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const selectedTheme = btn.dataset.theme;
+          const isDarkMode = selectedTheme === 'dark';
+
+          // Update theme
+          if (window.applyTheme) {
+            window.applyTheme(isDarkMode);
+          }
+          localStorage.setItem('qb_theme', selectedTheme);
+
+          // Update theme toggle in settings
+          const themeToggle = document.getElementById('theme-toggle');
+          if (themeToggle) themeToggle.checked = isDarkMode;
+
+          // Dispatch event
+          window.dispatchEvent(new CustomEvent('theme-change', { detail: { isDarkMode } }));
+
+          // Enable next button
+          nextBtn.disabled = false;
+          nextBtn.style.opacity = '1';
+          nextBtn.style.cursor = 'pointer';
+
+          // Highlight selected button
+          document.querySelectorAll('.tutorial-theme-btn').forEach(b => {
+            b.classList.remove('bg-green-600', 'hover:bg-green-700');
+            b.classList.add('bg-blue-500', 'hover:bg-blue-600');
+          });
+          btn.classList.remove('bg-blue-500', 'hover:bg-blue-600');
+          btn.classList.add('bg-green-600', 'hover:bg-green-700');
+        });
+      });
+    }, 500);
+  }
+
+  // Setup interactive step (wait for user action)
+  function setupInteractiveStep(step) {
+    const nextBtn = document.getElementById('tutorial-next-btn');
+    const clickLayer = document.getElementById('tutorial-click-layer');
+
+    if (!nextBtn) return;
+
+    // Hide next button for interactive steps where user must click highlighted element
+    nextBtn.style.display = 'none';
+
+    // Special case: answer-buttons step waits for user to click any answer
+    if (step.id === 'answer-buttons') {
+      const answerHandler = (e) => {
+        console.log('Tutorial: Click detected', e.target);
+        // Check if an answer button was clicked
+        const target = e.target;
+        const isAnswerBtn = target.classList.contains('answer-btn') || target.closest('.answer-btn');
+        console.log('Tutorial: Is answer button?', isAnswerBtn, target.className);
+
+        if (isAnswerBtn) {
+          console.log('Tutorial: Answer button clicked! Proceeding to next step');
+          // User clicked an answer button - proceed to next step after a delay
+          setTimeout(() => {
+            // Dispatch the custom event
+            if (step.waitFor) {
+              window.dispatchEvent(new CustomEvent(step.waitFor));
+            }
+            nextStep();
+            // Remove event listener
+            document.removeEventListener('click', answerHandler, true);
+          }, 500);
+        }
+      };
+
+      // Add global click listener during this step (capture phase to catch it first)
+      document.addEventListener('click', answerHandler, true);
+      console.log('Tutorial: Answer handler installed');
+
+      // Store handler so we can remove it if tutorial is skipped
+      tutorialState.answerHandler = answerHandler;
+      return;
+    }
+
+    // Get the highlighted element(s)
+    if (!step.target) return;
+
+    let elements = [];
+    if (Array.isArray(step.target)) {
+      elements = step.target.map(t => document.querySelector(t)).filter(el => el !== null);
+    } else {
+      const el = document.querySelector(step.target);
+      if (el) elements = [el];
+    }
+
+    if (elements.length === 0) return;
+
+    // Add click handler to the click layer that forwards clicks to the actual element
+    if (clickLayer) {
+      let isProcessing = false; // Prevent multiple rapid clicks
+
+      const clickHandler = (e) => {
+        // Prevent multiple clicks while processing
+        if (isProcessing) {
+          console.log('Tutorial: Click ignored - already processing');
+          return;
+        }
+
+        console.log('Tutorial: Interactive element clicked');
+
+        // If typing is in progress, first complete the text
+        if (tutorialState.typingInProgress) {
+          console.log('Tutorial: Completing typing animation first');
+
+          // Stop typing animation and show full text
+          if (tutorialState.currentTypingTimeout) {
+            clearTimeout(tutorialState.currentTypingTimeout);
+          }
+          const currentStep = tutorialSteps[tutorialState.currentStep];
+          const textElement = document.getElementById('tutorial-text');
+          if (textElement && currentStep) {
+            const lang = getTutorialLang();
+            const texts = tutorialTexts[lang] || tutorialTexts.en;
+            const text = texts[currentStep.textKey] || currentStep.textKey;
+            textElement.innerHTML = text.replace(/\n/g, '<br>');
+          }
+          tutorialState.typingInProgress = false;
+
+          // Don't proceed to next step yet - wait for second click
+          return;
+        }
+
+        // Typing is complete, now we can proceed
+        isProcessing = true;
+        console.log('Tutorial: Proceeding to next step');
+
+        // Get the actual element under the click layer
+        const targetElement = elements[0];
+
+        // Simulate a click on the actual element
+        targetElement.click();
+
+        // Dispatch the custom event if specified
+        if (step.waitFor) {
+          window.dispatchEvent(new CustomEvent(step.waitFor));
+        }
+
+        // Remove click handler immediately to prevent double-clicks
+        clickLayer.removeEventListener('click', clickHandler);
+
+        // Go to next step after a short delay
+        setTimeout(() => {
+          nextStep();
+        }, 300);
+      };
+
+      clickLayer.addEventListener('click', clickHandler);
+      clickLayer.style.cursor = 'pointer';
     }
   }
 
-  // Initialize tutorial
-  function initTutorial() {
-    console.log('initTutorial called');
-    
-    // Prevent multiple simultaneous initializations
-    if (tutorialState.isInitializing) {
-      console.log('Tutorial is already initializing, skipping duplicate call');
-      return false;
-    }
-    
-    // Check if tutorial was already completed
-    if (localStorage.getItem('qb_tutorial_completed') === 'true') {
-      console.log('Tutorial already completed, exiting');
-      tutorialState.isLoaded = true;
-      return false;
+  // Next step
+  function nextStep() {
+    if (tutorialState.typingInProgress) {
+      // Skip typing animation - complete the text immediately
+      if (tutorialState.currentTypingTimeout) {
+        clearTimeout(tutorialState.currentTypingTimeout);
+      }
+      const step = tutorialSteps[tutorialState.currentStep];
+      const textElement = document.getElementById('tutorial-text');
+      if (textElement && step) {
+        const lang = getTutorialLang();
+        const texts = tutorialTexts[lang] || tutorialTexts.en;
+        const text = texts[step.textKey] || step.textKey;
+        textElement.innerHTML = text.replace(/\n/g, '<br>');
+      }
+      tutorialState.typingInProgress = false;
+
+      // Enable the next button so user can click again to actually advance
+      const nextBtn = document.getElementById('tutorial-next-btn');
+      if (nextBtn) {
+        nextBtn.disabled = false;
+        nextBtn.style.opacity = '1';
+        nextBtn.style.cursor = 'pointer';
+      }
+      return;
     }
 
-    // Make sure document body exists
-    if (!document.body) {
-      console.error('Document body not available, retrying tutorial in 500ms');
-      setTimeout(initTutorial, 500);
-      return false;
+    // Clean up any interactive elements from previous step
+    const langButtons = document.getElementById('tutorial-lang-container');
+    if (langButtons) langButtons.remove();
+
+    const themeButtons = document.querySelectorAll('.tutorial-theme-btn');
+    if (themeButtons.length > 0) {
+      themeButtons.forEach(btn => btn.parentElement?.remove());
     }
 
-    console.log('Starting tutorial initialization...');
-    tutorialState.isInitializing = true;
-    tutorialState.isActive = true;
-    tutorialState.currentStep = 0;
-    tutorialState.totalSteps = tutorialSteps.length;
-    
-    try {
-      // Create overlay
-      console.log('Creating tutorial overlay...');
-      createTutorialOverlay();
-      
-      console.log('Creating progress dots...');
-      createProgressDots();
-      
-      // Show first step
-      console.log('Showing first tutorial step...');
-      showTutorialStep(0);
-      
-      // Add event listeners
-      console.log('Adding tutorial event listeners...');
-      addTutorialEventListeners();
-      
-      console.log('Tutorial successfully initialized!');
-      tutorialState.isLoaded = true;
-      tutorialState.isInitializing = false;
-      
-      // Add resize listener
-      window.addEventListener('resize', handleWindowResize);
-      console.log('Added window resize listener for tutorial');
-      
-      // Dispatch custom event to notify that tutorial is ready
-      window.dispatchEvent(new CustomEvent('tutorialReady', { detail: { loaded: true } }));
-      
-      return true;
-    } catch (error) {
-      console.error('Error initializing tutorial:', error);
-      tutorialState.isInitializing = false;
-      return false;
-    }
-  }
-
-  // Add event listeners
-  function addTutorialEventListeners() {
-    const nextBtn = document.getElementById('tutorial-next');
-    const prevBtn = document.getElementById('tutorial-prev');
-    const skipBtn = document.getElementById('tutorial-skip');
-    
-    if (nextBtn) {
-      nextBtn.addEventListener('click', nextTutorialStep);
-    }
-    
-    if (prevBtn) {
-      prevBtn.addEventListener('click', prevTutorialStep);
-    }
-    
-    if (skipBtn) {
-      skipBtn.addEventListener('click', skipTutorial);
+    // Clean up answer handler if it exists
+    if (tutorialState.answerHandler) {
+      document.removeEventListener('click', tutorialState.answerHandler, true);
+      tutorialState.answerHandler = null;
     }
 
-    // Allow clicking outside to advance tutorial
-    const background = document.querySelector('.tutorial-background');
-    if (background) {
-      background.addEventListener('click', nextTutorialStep);
+    // Reset bubble padding to default
+    const bubble = document.getElementById('tutorial-bubble');
+    const textElement = document.getElementById('tutorial-text');
+    if (bubble) {
+      bubble.classList.remove('pb-8');
+      bubble.classList.add('pb-3');
     }
-  }
+    if (textElement) {
+      textElement.classList.remove('mb-4');
+    }
 
-  // Next tutorial step
-  function nextTutorialStep() {
     if (tutorialState.currentStep >= tutorialSteps.length - 1) {
       completeTutorial();
     } else {
-      showTutorialStep(tutorialState.currentStep + 1);
-    }
-  }
-
-  // Previous tutorial step
-  function prevTutorialStep() {
-    if (tutorialState.currentStep > 0) {
-      showTutorialStep(tutorialState.currentStep - 1);
-    }
-  }
-
-  // Skip tutorial
-  function skipTutorial() {
-    if (confirm('Are you sure you want to skip the tutorial? You can always restart it from settings.')) {
-      completeTutorial();
+      showStep(tutorialState.currentStep + 1);
     }
   }
 
@@ -1514,159 +833,138 @@
   function completeTutorial() {
     tutorialState.isActive = false;
     tutorialState.isCompleted = true;
-    
-    // Save completion state
+
     localStorage.setItem('qb_tutorial_completed', 'true');
-    
-    // Remove overlay
+
+    // Remove scroll prevention handlers
+    if (tutorialState.scrollPreventHandlers) {
+      const { preventScroll } = tutorialState.scrollPreventHandlers;
+      document.removeEventListener('wheel', preventScroll);
+      document.removeEventListener('touchmove', preventScroll);
+      document.removeEventListener('keydown', preventScroll);
+      tutorialState.scrollPreventHandlers = null;
+    }
+
+    // Remove answer handler if it exists
+    if (tutorialState.answerHandler) {
+      document.removeEventListener('click', tutorialState.answerHandler, true);
+      tutorialState.answerHandler = null;
+    }
+
     const overlay = document.getElementById('tutorial-overlay');
     if (overlay) {
       overlay.remove();
     }
-    
-    // Re-enable scrolling on challenge modes screen
-    const challengeModesScreen = document.getElementById('challenge-modes-screen');
-    if (challengeModesScreen) {
-      challengeModesScreen.style.overflow = '';
-      challengeModesScreen.style.overflowY = '';
-      challengeModesScreen.style.height = '';
-      challengeModesScreen.style.position = '';
-      challengeModesScreen.classList.remove('tutorial-no-scroll');
-      
-      // Remove event listeners if they exist
-      if (challengeModesScreen._tutorialScrollPrevention) {
-        challengeModesScreen.removeEventListener('wheel', challengeModesScreen._tutorialScrollPrevention);
-        challengeModesScreen.removeEventListener('touchmove', challengeModesScreen._tutorialScrollPrevention);
-        challengeModesScreen.removeEventListener('scroll', challengeModesScreen._tutorialScrollPrevention);
-        delete challengeModesScreen._tutorialScrollPrevention;
-      }
-      
-      console.log('Tutorial: Re-enabled scrolling and removed all scroll prevention on challenge modes screen');
-    }
-    
-    // Reset quiz screen positioning
-    const quizScreen = document.getElementById('quiz-screen');
-    if (quizScreen && quizScreen.classList.contains('tutorial-quiz-positioned')) {
-      quizScreen.style.position = '';
-      quizScreen.style.top = '';
-      quizScreen.style.left = '';
-      quizScreen.style.transform = '';
-      quizScreen.style.zIndex = '';
-      quizScreen.classList.remove('tutorial-quiz-positioned');
-      console.log('Tutorial: Reset quiz screen positioning');
-    }
-    
-    // Remove resize listener
-    window.removeEventListener('resize', handleWindowResize);
-    console.log('Removed window resize listener');
-    
-    // Return to home screen
+
     window.showScreen('home-screen');
-    
-    // Show completion message
-    alert('Tutorial completed! Welcome to RobitQuiz! 🎉');
   }
 
-  // Reset tutorial (for settings menu)
-  function resetTutorial() {
-    console.log('resetTutorial called');
-    
-    // Clear the completion flag
-    localStorage.removeItem('qb_tutorial_completed');
-    tutorialState.isCompleted = false;
-    tutorialState.isActive = false;
+  // Initialize tutorial
+  function initTutorial() {
+    if (tutorialState.isActive) return;
+    if (localStorage.getItem('qb_tutorial_completed') === 'true') return;
+
+    tutorialState.isActive = true;
     tutorialState.currentStep = 0;
-    tutorialState.isInitializing = false;
-    
-    // Remove existing overlay if present
+
+    createTutorialOverlay();
+
+    // Block scrolling during tutorial
+    const preventScroll = (e) => {
+      // Allow scrolling only within the tutorial bubble
+      const bubble = document.getElementById('tutorial-bubble-container');
+      if (bubble && bubble.contains(e.target)) {
+        return;
+      }
+      e.preventDefault();
+      e.stopPropagation();
+    };
+
+    // Prevent scroll with wheel, touch, and keys
+    document.addEventListener('wheel', preventScroll, { passive: false });
+    document.addEventListener('touchmove', preventScroll, { passive: false });
+    document.addEventListener('keydown', (e) => {
+      // Prevent arrow keys, page up/down, space, home, end
+      if ([32, 33, 34, 35, 36, 37, 38, 39, 40].includes(e.keyCode)) {
+        e.preventDefault();
+      }
+    }, { passive: false });
+
+    // Store handlers so we can remove them later
+    tutorialState.scrollPreventHandlers = { preventScroll };
+
+    // Add event listener for next button
+    const nextBtn = document.getElementById('tutorial-next-btn');
+    if (nextBtn) {
+      nextBtn.addEventListener('click', nextStep);
+    }
+
+    // Add event listener for skip button
+    const skipBtn = document.getElementById('tutorial-skip-btn');
+    if (skipBtn) {
+      skipBtn.addEventListener('click', completeTutorial);
+    }
+
+    // Show first step
+    showStep(0);
+  }
+
+  // Reset tutorial
+  function resetTutorial() {
+    localStorage.removeItem('qb_tutorial_completed');
+    tutorialState.isActive = false;
+    tutorialState.isCompleted = false;
+    tutorialState.currentStep = 0;
+
     const existingOverlay = document.getElementById('tutorial-overlay');
     if (existingOverlay) {
-      console.log('Removing existing tutorial overlay');
       existingOverlay.remove();
     }
-    
-    // Start tutorial with a short delay
-    console.log('Starting tutorial after reset...');
-    setTimeout(() => {
-      const result = initTutorial();
-      if (!result) {
-        console.log('Tutorial init returned false, may already be completed or initializing');
-      }
-    }, 100);
+
+    setTimeout(initTutorial, 100);
   }
 
-  // Check if tutorial should start automatically
-  function checkAutoStartTutorial() {
-    console.log('Checking tutorial auto-start...');
-    
-    // Check current state
-    const hasStars = localStorage.getItem('qb_stars');
-    const hasDiamonds = localStorage.getItem('qb_diamonds');
+  // Auto-start check
+  function checkAutoStart() {
     const tutorialCompleted = localStorage.getItem('qb_tutorial_completed');
-    
-    console.log('Tutorial check:', {hasStars, hasDiamonds, tutorialCompleted});
-    console.log('Document ready state:', document.readyState);
-    console.log('Body available:', !!document.body);
-    
-    // Start tutorial for new players or if not completed
-    const shouldStartTutorial = !tutorialCompleted || tutorialCompleted !== 'true';
-    
-    console.log('Should start tutorial:', shouldStartTutorial);
-    
-    if (shouldStartTutorial) {
-      // Quick start - just check if document is ready
-      if (document.body) {
-        console.log('Starting tutorial immediately...');
-        const result = initTutorial();
-        console.log('Tutorial init result:', result);
-      } else {
-        // Small fallback delay if body isn't ready yet
-        console.log('Body not ready, using minimal delay...');
-        setTimeout(() => {
-          console.log('Attempting to start tutorial now...');
-          const result = initTutorial();
-          console.log('Tutorial init result:', result);
-        }, 100);
+
+    if (!tutorialCompleted || tutorialCompleted !== 'true') {
+      // Wait for loading screen to finish
+      const loadingScreen = document.getElementById('loading-screen');
+      if (loadingScreen && loadingScreen.style.display !== 'none') {
+        // Loading screen still visible, wait for it to finish
+        console.log('Tutorial: Waiting for loading screen to finish...');
+        setTimeout(checkAutoStart, 500);
+        return;
       }
-    } else {
-      console.log('Tutorial already completed, skipping auto-start');
+
+      if (document.body) {
+        console.log('Tutorial: Starting after loading screen finished');
+        initTutorial();
+      } else {
+        setTimeout(checkAutoStart, 100);
+      }
     }
   }
 
-  // Force start tutorial (for debugging)
-  function forceStartTutorial() {
-    console.log('Force starting tutorial...');
-    localStorage.removeItem('qb_tutorial_completed');
-    setTimeout(() => {
-      const result = initTutorial();
-      console.log('Force tutorial result:', result);
-    }, 100);
-  }
-
-  // Export functions
+  // Export to window
   window.Tutorial = {
     init: initTutorial,
     reset: resetTutorial,
-    checkAutoStart: checkAutoStartTutorial,
-    forceStart: forceStartTutorial,
+    checkAutoStart: checkAutoStart,
     isActive: () => tutorialState.isActive,
-    isCompleted: () => tutorialState.isCompleted,
-    isLoaded: () => tutorialState.isLoaded,
-    getState: () => tutorialState
+    isCompleted: () => tutorialState.isCompleted
   };
-  
-  // Mark tutorial as loaded for external scripts
-  tutorialState.isLoaded = true;
-  console.log('Tutorial module loaded and exported to window.Tutorial');
 
-  // Auto-start check when script loads (browser-compatible)
-  if (document.readyState === 'loading') {
-    console.log('Document still loading, waiting for DOMContentLoaded...');
-    document.addEventListener('DOMContentLoaded', checkAutoStartTutorial);
-  } else {
-    console.log('Document already loaded, starting tutorial check immediately...');
-    // DOM already loaded, start tutorial check after a short delay
-    setTimeout(checkAutoStartTutorial, 100);
+  // Listen for loading screen completion
+  window.addEventListener('load', () => {
+    // Start tutorial immediately after loading screen
+    checkAutoStart();
+  });
+
+  // Fallback if window.load already fired
+  if (document.readyState === 'complete') {
+    checkAutoStart();
   }
 
 })();

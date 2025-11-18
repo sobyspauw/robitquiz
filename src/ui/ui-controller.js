@@ -432,6 +432,54 @@ window.currentScreen = currentScreen;
 let lastScreen    = 'null';
 let timer;              // reused by game.js via global
 let timerInterval;      // ditto
+let timerPaused = false;
+let pausedTimerValue = 0;
+
+// Timer control functions for tutorial
+window.pauseQuizTimer = function() {
+  if (timerState && timerState.isRunning && !timerPaused) {
+    clearInterval(timerInterval);
+    clearTimeout(timer);
+    timerPaused = true;
+    pausedTimerValue = timerState.timeLeft;
+    timerState.isPaused = true;
+    timerState.isRunning = false;
+  }
+};
+
+window.resumeQuizTimer = function() {
+  if (timerPaused && window.currentScreen === 'quiz-screen') {
+    timerPaused = false;
+    timerState.timeLeft = pausedTimerValue;
+    timerState.isPaused = false;
+    timerState.isRunning = true;
+
+    const display = document.getElementById('timer');
+    if (display) {
+      display.innerText = timerState.timeLeft + 's';
+    }
+
+    // Restart interval
+    clearInterval(timerInterval);
+    timerInterval = setInterval(() => {
+      timerState.timeLeft--;
+      if (display) {
+        display.innerText = timerState.timeLeft + 's';
+      }
+      if (timerState.timeLeft <= 0) {
+        clearInterval(timerInterval);
+        timerState.isRunning = false;
+      }
+    }, 1000);
+
+    // Restart timeout
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      timerState.isRunning = false;
+      showTimeoutPopup();
+    }, timerState.timeLeft * 1000);
+  }
+};
 
 // —— Game state variables (shared with game.js) ——
 let selectedGroupIndex = null;
@@ -1671,6 +1719,8 @@ function showSubjects() {
       e.stopPropagation();
 
       if (isUnlocked) {
+        // Dispatch event for tutorial
+        window.dispatchEvent(new CustomEvent('subject-selected'));
         // Show subcategories for this main topic
         showSubcategories(topic.id);
       } else {
@@ -1943,6 +1993,9 @@ function startQuizWithQuestions(questions, subjectName) {
   showScreen('quiz-screen');
   renderQuestion();
   startTimer();
+
+  // Dispatch event for tutorial to know quiz has started
+  window.dispatchEvent(new CustomEvent('quiz-started'));
 }
 
 function openLevels(groupIdx) {
@@ -3466,6 +3519,8 @@ function attachEventListeners() {
   if (levelsBtn) {
     levelsBtn.addEventListener('click', (e) => {
       console.log('Levels button clicked');
+      // Dispatch event for tutorial
+      window.dispatchEvent(new CustomEvent('play-clicked'));
       showSubjects();
     });
     console.log('Levels button event listener added');
@@ -3870,6 +3925,9 @@ function attachEventListeners() {
     window.lang = lang; // Update window reference too
     localStorage.setItem('qb_language', lang);
     applyTranslations();
+
+    // Dispatch event for tutorial
+    window.dispatchEvent(new CustomEvent('language-change', { detail: { language: lang } }));
   });
   
   if (sfxVolumeSlider) sfxVolumeSlider.addEventListener('input', (e) => {
@@ -3892,6 +3950,9 @@ function attachEventListeners() {
     window.showExplanations = showExplanations; // Sync the window variable
     localStorage.setItem('qb_show_explanations', showExplanations.toString());
     console.log('Explanations toggled to:', showExplanations);
+
+    // Dispatch event for tutorial
+    window.dispatchEvent(new CustomEvent('explanations-change', { detail: { enabled: showExplanations } }));
   });
 
   // Theme toggle
@@ -3901,6 +3962,9 @@ function attachEventListeners() {
     applyTheme(isDarkMode);
     localStorage.setItem('qb_theme', isDarkMode ? 'dark' : 'light');
     console.log('Theme changed to:', isDarkMode ? 'dark' : 'light');
+
+    // Dispatch event for tutorial
+    window.dispatchEvent(new CustomEvent('theme-change', { detail: { isDarkMode } }));
   });
   
   console.log('Event listeners attached successfully');
