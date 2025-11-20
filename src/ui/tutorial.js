@@ -18,114 +18,118 @@
   // Tutorial translations
   const tutorialTexts = {
     en: {
-      welcome: "Hey there! I'm Robit!\nWelcome to my quiz world! Let's get started together!",
+      welcome: "Hey there! I'm Robit! Welcome to my quiz world! Let's get started together!",
       languageSelect: "First, let's set which language you want to play in!",
-      themeSelect: "Do you prefer Light Mode or Dark Mode? Choose what you like!\nTry Light Mode!",
-      starsDiamonds: "See those stars and diamonds at the top?\nYou earn them by playing quizzes and need them to progress!",
-      playButton: "This is where the adventure begins!\nPress PLAY to see all subjects!",
-      gameModesButton: "Want an extra challenge? Then Game Modes are for you!\nI'll show you what's possible later!",
-      dailyChallengeButton: "Every day a new challenge with nice rewards!\nDon't forget to check in daily!",
-      subjects: "Here you see all available subjects!\nClick on the first subject to get started!",
-      levels: "Each subject has multiple subcategories!\nClick on the first one to start your quiz!",
-      quizScreen: "Here I'll ask you questions!\nLet's try one question together!",
-      timer: "Watch the timer! You have limited time per question.\nIf the timer runs out, it counts as a mistake!",
-      mistakes: "You can make 2 mistakes before it's game over.\nKeep an eye on your mistakes and correct answers here!",
-      answerButtons: "Click the answer you think is correct!\nTry answering this question!",
-      answerExplanation: "After each answer you get an explanation!\nThis helps you learn from your answers!",
-      powerUps: "Stuck? Use a power-up!\n50/50 removes 2 wrong answers, Skip jumps to the next question!",
-      explanationsToggle: "Don't want to see those explanations? You can turn them off here!\nTry switching it!",
-      trueFalseMode: "True or False - simple but tricky!\nSee how many questions you can get right in a row!",
-      lightningRound: "Super fast! As many questions as possible in a short time!\nHow quick are your reflexes?",
-      survivorMode: "Keep answering until you make a mistake!\nHow long can you survive?",
-      extremeSurvivor: "For the real go-getters!\nEven harder than normal survivor mode!",
-      shopButton: "Want more power-ups or extras?\nIn the shop you can buy everything you need!",
-      shop: "In the shop you buy power-ups with stars and diamonds!\nAnd you can also claim free daily gems here!",
-      settingsButton: "Here you can adjust all settings!\nLike the explanations, language, and theme!",
-      complete: "Yes! You're all set to begin!\nGood luck and have fun quizzing!",
+      themeSelect: "Do you prefer Light Mode or Dark Mode? Choose what you like! Try Light Mode!",
+      starsDiamonds: "See those stars and diamonds at the top? You earn them by playing quizzes and need them to progress!",
+      playButton: "This is where the adventure begins! Press PLAY to see all subjects!",
+      gameModesButton: "Want an extra challenge? Then Game Modes are for you!",
+      dailyChallengeButton: "Every day a new challenge with nice rewards! Don't forget to check in daily!",
+      subjects: "Here you see all available subjects! Click on the first subject to get started!",
+      levels: "Each subject has multiple subcategories! Click on the first one to start your quiz!",
+      quizScreen: "Here I'll ask you questions! Let's try one question together!",
+      timer: "Watch the timer! You have limited time per question. If the timer runs out, it counts as a mistake!",
+      mistakes: "You can make 2 mistakes before it's game over. Keep an eye on your mistakes and correct answers here!",
+      answerButtons: "Click the answer you think is correct! Try answering this question!",
+      answerExplanation: "After each answer you get an explanation! For faster gameplay, you can turn these off in the settings.",
+      powerUps: "Stuck? Use a power-up! 50/50 removes 2 wrong answers, Skip jumps to next question, Time gives extra seconds!",
+      freePowerUps: "Good news! You start with 3 free power-ups of each type! Want more? You can buy them in the shop with stars and diamonds!",
+      explanationsToggle: "Don't want to see those explanations? You can turn them off here! Try switching it!",
+      trueFalseMode: "True or False - simple but tricky! See how many questions you can get right in a row!",
+      lightningRound: "Super fast! As many questions as possible in a short time! How quick are your reflexes?",
+      survivorMode: "Keep answering until you make a mistake! How long can you survive?",
+      extremeSurvivor: "For the real go-getters! Even harder than normal survivor mode!",
+      shopButton: "Want more power-ups or extras? In the shop you can buy everything you need!",
+      shop: "In the shop you buy power-ups with stars and diamonds! And you can also claim free daily gems here!",
+      settingsButton: "Here you can adjust all settings! Like the explanations, language, and theme!",
+      complete: "Yes! You're all set to begin! Good luck and have fun quizzing!",
       nextButton: "Next →",
       doneButton: "Done!"
     },
     nl: {
-      welcome: "Hey daar! Ik ben Robit!\nWelkom bij mijn quiz wereld! Laten we samen beginnen!",
+      welcome: "Hey daar! Ik ben Robit! Welkom bij mijn quiz wereld! Laten we samen beginnen!",
       languageSelect: "Eerst even instellen in welke taal je wilt spelen!",
-      themeSelect: "Hou je van Light Mode of Dark Mode? Kies wat jij fijn vindt!\nProbeer Light Mode!",
-      starsDiamonds: "Zie je die sterren en diamanten bovenin?\nDie verdien je met quizzen en heb je nodig om verder te komen!",
-      playButton: "Hier begint het avontuur!\nDruk op PLAY om alle onderwerpen te zien!",
-      gameModesButton: "Wil je een extra uitdaging? Dan zijn de Game Modes iets voor jou!\nLater laat ik je zien wat er allemaal mogelijk is!",
-      dailyChallengeButton: "Elke dag een nieuwe uitdaging met leuke beloningen!\nVergeet niet dagelijks even langs te komen!",
-      subjects: "Hier zie je alle beschikbare onderwerpen!\nKlik op het eerste onderwerp om te beginnen!",
-      levels: "Elk onderwerp heeft meerdere subcategorieën!\nKlik op de eerste om je quiz te starten!",
-      quizScreen: "Hier stel ik je vragen!\nLaten we samen één vraag proberen!",
-      timer: "Let op de timer! Je hebt beperkte tijd per vraag.\nAls de timer afloopt, telt dat als een fout!",
-      mistakes: "Je mag 2 fouten maken voordat het game over is.\nHoud hier je fouten en goede antwoorden in de gaten!",
-      answerButtons: "Klik op het antwoord dat jij denkt dat klopt!\nProbeer deze vraag te beantwoorden!",
-      answerExplanation: "Na elk antwoord krijg je uitleg!\nZo leer je van je antwoorden!",
-      powerUps: "Zit je vast? Gebruik een power-up!\n50/50 haalt 2 foute antwoorden weg, Skip slaat de vraag over!",
-      explanationsToggle: "Wil je die uitleg niet zien? Dan kun je het hier uitzetten!\nProbeer maar eens te schakelen!",
-      trueFalseMode: "Waar of Onwaar - simpel maar tricky!\nZie hoeveel vragen jij op een rij goed krijgt!",
-      lightningRound: "Supersnel! Zoveel mogelijk vragen in korte tijd!\nHoe snel zijn jouw reflexen?",
-      survivorMode: "Blijf antwoorden tot je een fout maakt!\nHoe lang kun jij overleven?",
-      extremeSurvivor: "Voor de échte doorzetters!\nNog moeilijker dan normale survivor mode!",
-      shopButton: "Wil je meer power-ups of extra's?\nIn de shop kun je alles kopen wat je nodig hebt!",
-      shop: "In de shop koop je power-ups met sterren en diamanten!\nEn je kunt hier ook gratis dagelijkse gems claimen!",
-      settingsButton: "Hier kun je alle instellingen aanpassen!\nZoals de uitleg, taal en thema!",
-      complete: "Yes! Je bent helemaal klaar om te beginnen!\nVeel succes en plezier met quizzen!",
+      themeSelect: "Hou je van Light Mode of Dark Mode? Kies wat jij fijn vindt! Probeer Light Mode!",
+      starsDiamonds: "Zie je die sterren en diamanten bovenin? Die verdien je met quizzen en heb je nodig om verder te komen!",
+      playButton: "Hier begint het avontuur! Druk op PLAY om alle onderwerpen te zien!",
+      gameModesButton: "Wil je een extra uitdaging? Dan zijn de Game Modes iets voor jou!",
+      dailyChallengeButton: "Elke dag een nieuwe uitdaging met leuke beloningen! Vergeet niet dagelijks even langs te komen!",
+      subjects: "Hier zie je alle beschikbare onderwerpen! Klik op het eerste onderwerp om te beginnen!",
+      levels: "Elk onderwerp heeft meerdere subcategorieën! Klik op de eerste om je quiz te starten!",
+      quizScreen: "Hier stel ik je vragen! Laten we samen één vraag proberen!",
+      timer: "Let op de timer! Je hebt beperkte tijd per vraag. Als de timer afloopt, telt dat als een fout!",
+      mistakes: "Je mag 2 fouten maken voordat het game over is. Houd hier je fouten en goede antwoorden in de gaten!",
+      answerButtons: "Klik op het antwoord dat jij denkt dat klopt! Probeer deze vraag te beantwoorden!",
+      answerExplanation: "Na elk antwoord krijg je uitleg! Voor sneller spelen kun je deze uitzetten in de instellingen.",
+      powerUps: "Zit je vast? Gebruik een power-up! 50/50 haalt 2 foute antwoorden weg, Skip slaat de vraag over, Time geeft extra seconden!",
+      freePowerUps: "Goed nieuws! Je begint met 3 gratis power-ups van elk type! Wil je er meer? Die kun je kopen in de shop met sterren en diamanten!",
+      explanationsToggle: "Wil je die uitleg niet zien? Dan kun je het hier uitzetten! Probeer maar eens te schakelen!",
+      trueFalseMode: "Waar of Onwaar - simpel maar tricky! Zie hoeveel vragen jij op een rij goed krijgt!",
+      lightningRound: "Supersnel! Zoveel mogelijk vragen in korte tijd! Hoe snel zijn jouw reflexen?",
+      survivorMode: "Blijf antwoorden tot je een fout maakt! Hoe lang kun jij overleven?",
+      extremeSurvivor: "Voor de échte doorzetters! Nog moeilijker dan normale survivor mode!",
+      shopButton: "Wil je meer power-ups of extra's? In de shop kun je alles kopen wat je nodig hebt!",
+      shop: "In de shop koop je power-ups met sterren en diamanten! En je kunt hier ook gratis dagelijkse gems claimen!",
+      settingsButton: "Hier kun je alle instellingen aanpassen! Zoals de uitleg, taal en thema!",
+      complete: "Yes! Je bent helemaal klaar om te beginnen! Veel succes en plezier met quizzen!",
       nextButton: "Volgende →",
       doneButton: "Klaar!"
     },
     de: {
-      welcome: "Hey! Ich bin Robit!\nWillkommen in meiner Quiz-Welt! Lass uns zusammen starten!",
+      welcome: "Hey! Ich bin Robit! Willkommen in meiner Quiz-Welt! Lass uns zusammen starten!",
       languageSelect: "Zuerst stellen wir ein, in welcher Sprache du spielen möchtest!",
-      themeSelect: "Magst du Light Mode oder Dark Mode? Wähle, was dir gefällt!\nProbiere Light Mode aus!",
-      starsDiamonds: "Siehst du die Sterne und Diamanten oben?\nDu verdienst sie durch Quizzen und brauchst sie zum Weiterkommen!",
-      playButton: "Hier beginnt das Abenteuer!\nDrücke PLAY, um alle Themen zu sehen!",
-      gameModesButton: "Willst du eine extra Herausforderung? Dann sind die Game Modes für dich!\nIch zeige dir später, was möglich ist!",
-      dailyChallengeButton: "Jeden Tag eine neue Herausforderung mit tollen Belohnungen!\nVergiss nicht, täglich vorbeizuschauen!",
-      subjects: "Hier siehst du alle verfügbaren Themen!\nKlicke auf das erste Thema, um zu beginnen!",
-      levels: "Jedes Thema hat mehrere Unterkategorien!\nKlicke auf die erste, um dein Quiz zu starten!",
-      quizScreen: "Hier stelle ich dir Fragen!\nLass uns zusammen eine Frage ausprobieren!",
-      timer: "Achte auf den Timer! Du hast begrenzte Zeit pro Frage.\nWenn die Zeit abläuft, zählt das als Fehler!",
-      mistakes: "Du darfst 2 Fehler machen, bevor es Game Over ist.\nBehalte hier deine Fehler und richtigen Antworten im Auge!",
-      answerButtons: "Klicke auf die Antwort, die du für richtig hältst!\nVersuche diese Frage zu beantworten!",
-      answerExplanation: "Nach jeder Antwort bekommst du eine Erklärung!\nDas hilft dir, aus deinen Antworten zu lernen!",
-      powerUps: "Steckst du fest? Benutze ein Power-up!\n50/50 entfernt 2 falsche Antworten, Skip springt zur nächsten Frage!",
-      explanationsToggle: "Willst du diese Erklärungen nicht sehen? Du kannst sie hier ausschalten!\nProbiere es mal!",
-      trueFalseMode: "Wahr oder Falsch - einfach aber trickreich!\nSieh, wie viele Fragen du hintereinander richtig bekommst!",
-      lightningRound: "Super schnell! So viele Fragen wie möglich in kurzer Zeit!\nWie schnell sind deine Reflexe?",
-      survivorMode: "Antworte weiter, bis du einen Fehler machst!\nWie lange kannst du überleben?",
-      extremeSurvivor: "Für die echten Durchhalter!\nNoch schwerer als der normale Survivor-Modus!",
-      shopButton: "Willst du mehr Power-ups oder Extras?\nIm Shop kannst du alles kaufen, was du brauchst!",
-      shop: "Im Shop kaufst du Power-ups mit Sternen und Diamanten!\nUnd du kannst hier auch kostenlose tägliche Edelsteine abholen!",
-      settingsButton: "Hier kannst du alle Einstellungen anpassen!\nWie die Erklärungen, Sprache und Thema!",
-      complete: "Ja! Du bist bereit zum Loslegen!\nViel Glück und viel Spaß beim Quizzen!",
+      themeSelect: "Magst du Light Mode oder Dark Mode? Wähle, was dir gefällt! Probiere Light Mode aus!",
+      starsDiamonds: "Siehst du die Sterne und Diamanten oben? Du verdienst sie durch Quizzen und brauchst sie zum Weiterkommen!",
+      playButton: "Hier beginnt das Abenteuer! Drücke PLAY, um alle Themen zu sehen!",
+      gameModesButton: "Willst du eine extra Herausforderung? Dann sind die Game Modes für dich!",
+      dailyChallengeButton: "Jeden Tag eine neue Herausforderung mit tollen Belohnungen! Vergiss nicht, täglich vorbeizuschauen!",
+      subjects: "Hier siehst du alle verfügbaren Themen! Klicke auf das erste Thema, um zu beginnen!",
+      levels: "Jedes Thema hat mehrere Unterkategorien! Klicke auf die erste, um dein Quiz zu starten!",
+      quizScreen: "Hier stelle ich dir Fragen! Lass uns zusammen eine Frage ausprobieren!",
+      timer: "Achte auf den Timer! Du hast begrenzte Zeit pro Frage. Wenn die Zeit abläuft, zählt das als Fehler!",
+      mistakes: "Du darfst 2 Fehler machen, bevor es Game Over ist. Behalte hier deine Fehler und richtigen Antworten im Auge!",
+      answerButtons: "Klicke auf die Antwort, die du für richtig hältst! Versuche diese Frage zu beantworten!",
+      answerExplanation: "Nach jeder Antwort bekommst du eine Erklärung! Für schnelleres Spielen kannst du diese in den Einstellungen ausschalten.",
+      powerUps: "Steckst du fest? Benutze ein Power-up! 50/50 entfernt 2 falsche Antworten, Skip springt zur nächsten Frage, Time gibt extra Sekunden!",
+      freePowerUps: "Gute Nachrichten! Du startest mit 3 kostenlosen Power-ups von jedem Typ! Willst du mehr? Du kannst sie im Shop mit Sternen und Diamanten kaufen!",
+      explanationsToggle: "Willst du diese Erklärungen nicht sehen? Du kannst sie hier ausschalten! Probiere es mal!",
+      trueFalseMode: "Wahr oder Falsch - einfach aber trickreich! Sieh, wie viele Fragen du hintereinander richtig bekommst!",
+      lightningRound: "Super schnell! So viele Fragen wie möglich in kurzer Zeit! Wie schnell sind deine Reflexe?",
+      survivorMode: "Antworte weiter, bis du einen Fehler machst! Wie lange kannst du überleben?",
+      extremeSurvivor: "Für die echten Durchhalter! Noch schwerer als der normale Survivor-Modus!",
+      shopButton: "Willst du mehr Power-ups oder Extras? Im Shop kannst du alles kaufen, was du brauchst!",
+      shop: "Im Shop kaufst du Power-ups mit Sternen und Diamanten! Und du kannst hier auch kostenlose tägliche Edelsteine abholen!",
+      settingsButton: "Hier kannst du alle Einstellungen anpassen! Wie die Erklärungen, Sprache und Thema!",
+      complete: "Ja! Du bist bereit zum Loslegen! Viel Glück und viel Spaß beim Quizzen!",
       nextButton: "Weiter →",
       doneButton: "Fertig!"
     },
     es: {
-      welcome: "¡Hola! ¡Soy Robit!\n¡Bienvenido a mi mundo de quiz! ¡Empecemos juntos!",
+      welcome: "¡Hola! ¡Soy Robit! ¡Bienvenido a mi mundo de quiz! ¡Empecemos juntos!",
       languageSelect: "Primero, vamos a configurar en qué idioma quieres jugar!",
-      themeSelect: "¿Prefieres Light Mode o Dark Mode? ¡Elige lo que te guste!\n¡Prueba Light Mode!",
-      starsDiamonds: "¿Ves esas estrellas y diamantes arriba?\n¡Los ganas jugando quizzes y los necesitas para progresar!",
-      playButton: "¡Aquí comienza la aventura!\n¡Presiona PLAY para ver todos los temas!",
-      gameModesButton: "¿Quieres un desafío extra? ¡Entonces los Game Modes son para ti!\n¡Te mostraré lo que es posible más tarde!",
-      dailyChallengeButton: "¡Cada día un nuevo desafío con buenas recompensas!\n¡No olvides visitarnos diariamente!",
-      subjects: "¡Aquí ves todos los temas disponibles!\n¡Haz clic en el primer tema para comenzar!",
-      levels: "¡Cada tema tiene múltiples subcategorías!\n¡Haz clic en la primera para comenzar tu quiz!",
-      quizScreen: "¡Aquí te haré preguntas!\n¡Intentemos una pregunta juntos!",
-      timer: "¡Mira el temporizador! Tienes tiempo limitado por pregunta.\n¡Si se acaba el tiempo, cuenta como un error!",
-      mistakes: "¡Puedes cometer 2 errores antes de que sea Game Over.\n¡Mantén un ojo en tus errores y respuestas correctas aquí!",
-      answerButtons: "¡Haz clic en la respuesta que crees que es correcta!\n¡Intenta responder esta pregunta!",
-      answerExplanation: "¡Después de cada respuesta obtienes una explicación!\n¡Esto te ayuda a aprender de tus respuestas!",
-      powerUps: "¿Atascado? ¡Usa un power-up!\n50/50 elimina 2 respuestas incorrectas, Skip salta a la siguiente pregunta!",
-      explanationsToggle: "¿No quieres ver esas explicaciones? ¡Puedes desactivarlas aquí!\n¡Prueba a cambiarla!",
-      trueFalseMode: "¡Verdadero o Falso - simple pero complicado!\n¡Mira cuántas preguntas puedes acertar seguidas!",
-      lightningRound: "¡Súper rápido! ¡Tantas preguntas como sea posible en poco tiempo!\n¿Qué tan rápidos son tus reflejos?",
-      survivorMode: "¡Sigue respondiendo hasta que cometas un error!\n¿Cuánto tiempo puedes sobrevivir?",
-      extremeSurvivor: "¡Para los verdaderos persistentes!\n¡Aún más difícil que el modo survivor normal!",
-      shopButton: "¿Quieres más power-ups o extras?\n¡En la tienda puedes comprar todo lo que necesitas!",
-      shop: "¡En la tienda compras power-ups con estrellas y diamantes!\n¡Y también puedes reclamar gemas diarias gratis aquí!",
-      settingsButton: "¡Aquí puedes ajustar toda la configuración!\n¡Como las explicaciones, idioma y tema!",
-      complete: "¡Sí! ¡Estás listo para comenzar!\n¡Buena suerte y diviértete haciendo quizzes!",
+      themeSelect: "¿Prefieres Light Mode o Dark Mode? ¡Elige lo que te guste! ¡Prueba Light Mode!",
+      starsDiamonds: "¿Ves esas estrellas y diamantes arriba? ¡Los ganas jugando quizzes y los necesitas para progresar!",
+      playButton: "¡Aquí comienza la aventura! ¡Presiona PLAY para ver todos los temas!",
+      gameModesButton: "¿Quieres un desafío extra? ¡Entonces los Game Modes son para ti!",
+      dailyChallengeButton: "¡Cada día un nuevo desafío con buenas recompensas! ¡No olvides visitarnos diariamente!",
+      subjects: "¡Aquí ves todos los temas disponibles! ¡Haz clic en el primer tema para comenzar!",
+      levels: "¡Cada tema tiene múltiples subcategorías! ¡Haz clic en la primera para comenzar tu quiz!",
+      quizScreen: "¡Aquí te haré preguntas! ¡Intentemos una pregunta juntos!",
+      timer: "¡Mira el temporizador! Tienes tiempo limitado por pregunta. ¡Si se acaba el tiempo, cuenta como un error!",
+      mistakes: "¡Puedes cometer 2 errores antes de que sea Game Over. ¡Mantén un ojo en tus errores y respuestas correctas aquí!",
+      answerButtons: "¡Haz clic en la respuesta que crees que es correcta! ¡Intenta responder esta pregunta!",
+      answerExplanation: "¡Después de cada respuesta obtienes una explicación! Para jugar más rápido, puedes desactivarlas en la configuración.",
+      powerUps: "¿Atascado? ¡Usa un power-up! 50/50 elimina 2 respuestas incorrectas, Skip salta a la siguiente pregunta, Time da segundos extra!",
+      freePowerUps: "¡Buenas noticias! ¡Empiezas con 3 power-ups gratis de cada tipo! ¿Quieres más? ¡Puedes comprarlos en la tienda con estrellas y diamantes!",
+      explanationsToggle: "¿No quieres ver esas explicaciones? ¡Puedes desactivarlas aquí! ¡Prueba a cambiarla!",
+      trueFalseMode: "¡Verdadero o Falso - simple pero complicado! ¡Mira cuántas preguntas puedes acertar seguidas!",
+      lightningRound: "¡Súper rápido! ¡Tantas preguntas como sea posible en poco tiempo! ¿Qué tan rápidos son tus reflejos?",
+      survivorMode: "¡Sigue respondiendo hasta que cometas un error! ¿Cuánto tiempo puedes sobrevivir?",
+      extremeSurvivor: "¡Para los verdaderos persistentes! ¡Aún más difícil que el modo survivor normal!",
+      shopButton: "¿Quieres más power-ups o extras? ¡En la tienda puedes comprar todo lo que necesitas!",
+      shop: "¡En la tienda compras power-ups con estrellas y diamantes! ¡Y también puedes reclamar gemas diarias gratis aquí!",
+      settingsButton: "¡Aquí puedes ajustar toda la configuración! ¡Como las explicaciones, idioma y tema!",
+      complete: "¡Sí! ¡Estás listo para comenzar! ¡Buena suerte y diviértete haciendo quizzes!",
       nextButton: "Siguiente →",
       doneButton: "¡Listo!"
     }
@@ -170,13 +174,14 @@
     { id: 'subjects', textKey: 'subjects', screen: 'subjects-screen', target: '#subjects-grid > div:first-child button', interactiveStep: true, waitFor: 'subject-selected' },
     { id: 'levels', textKey: 'levels', screen: 'levels-screen', target: '#levels-grid > div:first-child button', interactiveStep: true, waitFor: 'quiz-started' },
     { id: 'timer', textKey: 'timer', screen: 'quiz-screen', target: '#timer', pauseTimer: true },
-    { id: 'mistakes', textKey: 'mistakes', screen: 'quiz-screen', target: ['#correct', '#wrong'], pauseTimer: true, bubblePosition: 'top' },
-    { id: 'power-ups', textKey: 'powerUps', screen: 'quiz-screen', target: ['#fifty-fifty-btn', '#skip-btn', '#time-bonus-btn'], pauseTimer: true },
+    { id: 'mistakes', textKey: 'mistakes', screen: 'quiz-screen', target: ['#correct', '#wrong'], pauseTimer: true, bubblePosition: 'middle' },
+    { id: 'power-ups', textKey: 'powerUps', screen: 'quiz-screen', target: ['#fifty-fifty-btn', '#skip-btn', '#time-bonus-btn'], pauseTimer: true, bubblePosition: 'middle' },
+    { id: 'free-power-ups', textKey: 'freePowerUps', screen: 'quiz-screen', target: ['#fifty-fifty-btn', '#skip-btn', '#time-bonus-btn'], pauseTimer: true, bubblePosition: 'middle' },
     { id: 'answer-buttons', textKey: 'answerButtons', screen: 'quiz-screen', target: null, pauseTimer: true, hideBackdrop: true, interactiveStep: true, waitFor: 'answer-given' },
-    { id: 'answer-explanation', textKey: 'answerExplanation', screen: 'quiz-screen', target: null, pauseTimer: true, hideBackdrop: true },
+    { id: 'answer-explanation', textKey: 'answerExplanation', screen: 'quiz-screen', target: null, pauseTimer: true, hideBackdrop: true, bubblePosition: 'middle' },
 
     // Sterren & Diamanten (after earning some from quiz)
-    { id: 'stars-diamonds', textKey: 'starsDiamonds', screen: 'home-screen', target: null },
+    { id: 'stars-diamonds', textKey: 'starsDiamonds', screen: 'quiz-screen', target: ['#star-display', '#diamond-display'], pauseTimer: true },
 
     // Terug naar Home → GAME MODES Flow
     { id: 'game-modes-button', textKey: 'gameModesButton', screen: 'home-screen', target: '#challenge-modes-btn', interactiveStep: true, waitFor: 'game-modes-clicked' },
@@ -194,7 +199,7 @@
 
     // Terug naar Home → SETTINGS
     { id: 'settings-button', textKey: 'settingsButton', screen: 'home-screen', target: '#settings-btn', interactiveStep: true, waitFor: 'settings-clicked' },
-    { id: 'explanations-toggle', textKey: 'explanationsToggle', screen: 'settings-screen', target: '#explanations-toggle' },
+    { id: 'explanations-toggle', textKey: 'explanationsToggle', screen: 'settings-screen', target: '#explanations-toggle', interactiveStep: true, waitFor: 'explanations-toggled' },
 
     // Afsluiting
     { id: 'complete', textKey: 'complete', screen: 'home-screen', target: null }
@@ -216,22 +221,22 @@
       <div id="tutorial-click-layer" class="fixed pointer-events-auto" style="display: none; z-index: 10001;"></div>
 
       <!-- Speech bubble container -->
-      <div id="tutorial-bubble-container" class="fixed bottom-20 left-1/2 transform -translate-x-1/2 pointer-events-auto z-[10000]" style="width: 90%; max-width: 500px;">
+      <div id="tutorial-bubble-container" class="fixed bottom-4 left-1/2 transform -translate-x-1/2 pointer-events-auto z-[10000]" style="width: 90%; max-width: 500px;">
         <!-- Robit character -->
         <div id="tutorial-robit" class="absolute -top-32 right-8 w-32 h-32 pointer-events-none">
           <img src="images/icons/quiz icoon 4 NB.png" alt="Robit" class="w-full h-full object-contain drop-shadow-2xl animate-bounce-slow" />
         </div>
 
         <!-- Speech bubble -->
-        <div id="tutorial-bubble" class="bg-white rounded-2xl p-6 shadow-2xl relative pb-3">
+        <div id="tutorial-bubble" class="bg-white rounded-2xl px-5 pt-3 pb-3 shadow-2xl relative">
           <!-- Triangle pointer -->
           <div class="absolute -top-4 right-12 w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-b-[20px] border-b-white"></div>
 
           <!-- Text content -->
-          <div id="tutorial-text" class="text-gray-800 text-lg leading-relaxed mb-0 min-h-[80px]"></div>
+          <div id="tutorial-text" class="text-gray-800 text-lg leading-relaxed mb-0"></div>
 
           <!-- Buttons container (positioned at bottom right, mostly outside bubble) -->
-          <div class="absolute right-6 bottom-0 translate-y-[60%] flex gap-2">
+          <div class="absolute right-6 bottom-0 translate-y-[90%] flex gap-2">
             <button id="tutorial-skip-btn" class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 shadow-lg" style="display: none;">
               Skip
             </button>
@@ -421,6 +426,10 @@
         bubbleContainer.style.bottom = 'auto';
         bubbleContainer.style.top = '5rem'; // top-20
         bubbleContainer.style.transform = 'translateX(-50%)';
+      } else if (step.bubblePosition === 'middle') {
+        bubbleContainer.style.bottom = 'auto';
+        bubbleContainer.style.top = '35%'; // Between top and center
+        bubbleContainer.style.transform = 'translateX(-50%)';
       } else {
         // Default position (bottom)
         bubbleContainer.style.bottom = '5rem'; // bottom-20
@@ -521,16 +530,23 @@
   function showLanguageButtons() {
     const textElement = document.getElementById('tutorial-text');
     const nextBtn = document.getElementById('tutorial-next-btn');
+    const bubble = document.getElementById('tutorial-bubble');
 
     if (!textElement || !nextBtn) return;
 
     // Hide next button for this step
     nextBtn.style.display = 'none';
 
+    // Adjust padding for language buttons step to keep it balanced
+    if (bubble) {
+      bubble.classList.remove('pt-3', 'pt-4', 'pb-1', 'pb-2', 'pb-3', 'pb-4', 'pb-5', 'pb-8');
+      bubble.classList.add('pt-3', 'pb-3');
+    }
+
     // Add language buttons after text in 2x2 grid
     setTimeout(() => {
       const buttonsHtml = `
-        <div id="tutorial-lang-container" class="grid grid-cols-2 gap-3">
+        <div id="tutorial-lang-container" class="grid grid-cols-2 gap-3" style="margin-top: 0.75rem;">
           <button class="tutorial-lang-btn px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-all hover:scale-105" data-lang="en">English</button>
           <button class="tutorial-lang-btn px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-all hover:scale-105" data-lang="nl">Nederlands</button>
           <button class="tutorial-lang-btn px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-all hover:scale-105" data-lang="de">Deutsch</button>
@@ -560,6 +576,12 @@
           // Dispatch event
           window.dispatchEvent(new CustomEvent('language-change', { detail: { language: selectedLang } }));
 
+          // Hide the entire bubble during transition
+          const bubbleContainer = document.getElementById('tutorial-bubble-container');
+          if (bubbleContainer) {
+            bubbleContainer.style.opacity = '0';
+          }
+
           // Remove language buttons
           const langButtonContainer = document.getElementById('tutorial-lang-container');
           if (langButtonContainer) {
@@ -568,6 +590,9 @@
 
           // Go to next step automatically
           setTimeout(() => {
+            if (bubbleContainer) {
+              bubbleContainer.style.opacity = '1';
+            }
             nextStep();
           }, 300);
         });
@@ -583,10 +608,9 @@
 
     if (!textElement || !nextBtn || !bubble) return;
 
-    // Add extra padding for theme step
-    bubble.classList.remove('pb-3');
-    bubble.classList.add('pb-8');
-    textElement.classList.add('mb-4');
+    // Adjust padding for theme buttons step to keep it balanced
+    bubble.classList.remove('py-3', 'pb-1', 'pb-2', 'pb-3', 'pb-5', 'pb-8');
+    bubble.classList.add('pt-3', 'pb-3');
 
     // Keep next button visible but disabled initially
     nextBtn.disabled = true;
@@ -601,7 +625,7 @@
       const darkText = lang === 'nl' ? 'Dark Mode' : lang === 'de' ? 'Dunkel' : 'Dark Mode';
 
       const buttonsHtml = `
-        <div class="flex gap-3 mt-4 justify-center">
+        <div class="flex gap-3 justify-center" style="margin-top: 0.75rem;">
           <button class="tutorial-theme-btn px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-all hover:scale-105" data-theme="light">☀️ ${lightText}</button>
           <button class="tutorial-theme-btn px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg font-semibold transition-all hover:scale-105" data-theme="dark">🌙 ${darkText}</button>
         </div>
@@ -653,11 +677,18 @@
   function setupInteractiveStep(step) {
     const nextBtn = document.getElementById('tutorial-next-btn');
     const clickLayer = document.getElementById('tutorial-click-layer');
+    const bubble = document.getElementById('tutorial-bubble');
 
     if (!nextBtn) return;
 
     // Hide next button for interactive steps where user must click highlighted element
     nextBtn.style.display = 'none';
+
+    // Adjust padding for interactive steps to keep it balanced
+    if (bubble) {
+      bubble.classList.remove('pt-3', 'pt-4', 'pb-1', 'pb-2', 'pb-3', 'pb-4', 'pb-5', 'pb-8');
+      bubble.classList.add('pt-3', 'pb-3');
+    }
 
     // Special case: answer-buttons step waits for user to click any answer
     if (step.id === 'answer-buttons') {
@@ -815,11 +846,11 @@
     const bubble = document.getElementById('tutorial-bubble');
     const textElement = document.getElementById('tutorial-text');
     if (bubble) {
-      bubble.classList.remove('pb-8');
-      bubble.classList.add('pb-3');
+      bubble.classList.remove('pt-3', 'pt-4', 'pb-1', 'pb-2', 'pb-3', 'pb-4', 'pb-5', 'pb-6', 'pb-8');
+      bubble.classList.add('pt-3', 'pb-3');
     }
     if (textElement) {
-      textElement.classList.remove('mb-4');
+      textElement.classList.remove('mb-2', 'mb-4');
     }
 
     if (tutorialState.currentStep >= tutorialSteps.length - 1) {
@@ -931,16 +962,30 @@
     if (!tutorialCompleted || tutorialCompleted !== 'true') {
       // Wait for loading screen to finish
       const loadingScreen = document.getElementById('loading-screen');
-      if (loadingScreen && loadingScreen.style.display !== 'none') {
-        // Loading screen still visible, wait for it to finish
-        console.log('Tutorial: Waiting for loading screen to finish...');
+
+      // Check if loading screen is still visible or fading out
+      const isLoadingScreenVisible = loadingScreen && (
+        loadingScreen.style.display !== 'none' &&
+        !loadingScreen.classList.contains('fade-out')
+      );
+
+      // Also check if LoadingScreen class reports it's still loading
+      const isLoadingComplete = window.loadingScreen && window.loadingScreen.isComplete;
+
+      if (isLoadingScreenVisible || !isLoadingComplete) {
+        // Loading screen still visible or fading, wait for it to finish completely
+        console.log('Tutorial: Waiting for loading screen to finish...', {
+          visible: isLoadingScreenVisible,
+          complete: isLoadingComplete
+        });
         setTimeout(checkAutoStart, 500);
         return;
       }
 
       if (document.body) {
         console.log('Tutorial: Starting after loading screen finished');
-        initTutorial();
+        // Add extra delay to ensure fade-out animation is complete
+        setTimeout(initTutorial, 200);
       } else {
         setTimeout(checkAutoStart, 100);
       }
