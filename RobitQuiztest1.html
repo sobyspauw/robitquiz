@@ -396,7 +396,7 @@
   <div id="top-bar" class="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-90 backdrop-filter backdrop-blur-lg border-b border-gray-200 px-4 py-3 flex items-center justify-between">
     <!-- Left: Back Button (hidden on home screen) -->
     <button id="top-back-btn" class="hidden px-3 py-1 bg-gray-200 hover:bg-gray-300 rounded text-sm font-medium">
-      ← <span id="top-back-text">Back</span>
+      <span id="top-back-text">Back</span>
     </button>
     
     <!-- Center: Empty space (removed title text) -->
@@ -654,21 +654,19 @@
           <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
             <div>
               <span class="text-white">💎 50 Diamonds</span>
-              <div class="text-gray-400 text-xs">$0.10 per diamond</div>
             </div>
             <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">$4.99</button>
           </div>
           <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
             <div>
               <span class="text-white">💎 200 Diamonds</span>
-              <div class="text-gray-400 text-xs">$0.075 per diamond</div>
             </div>
             <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">$14.99</button>
           </div>
           <div class="flex justify-between items-center bg-gray-700 p-3 rounded">
             <div>
               <span class="text-white">💎 650 Diamonds</span>
-              <div class="text-green-400 text-xs">Best Value! $0.06 per diamond</div>
+              <div class="text-green-400 text-xs">Best Value!</div>
             </div>
             <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">$39.99</button>
           </div>
@@ -960,22 +958,6 @@
       </label>
     </div>
 
-    <!-- Tutorial Section with improved styling -->
-    <div class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg p-4 border border-yellow-200 mt-6">
-      <div class="flex items-center mb-3">
-        <span id="tutorial-emoji" class="text-2xl mr-2">🎓</span>
-        <h3 id="tutorial-title" class="text-lg font-bold text-gray-800">Tutorial</h3>
-      </div>
-      <p id="tutorial-description" class="text-sm text-gray-600 mb-3">Need a refresher on how to play? Restart the interactive tutorial anytime.</p>
-      <button id="restart-tutorial-btn" class="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white font-bold py-2.5 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-[1.02]">
-        <span class="flex items-center justify-center">
-          <svg class="w-5 h-5 mr-2" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
-          </svg>
-          Restart Tutorial
-        </span>
-      </button>
-    </div>
   </div>
 
   <!-- Challenge Modes Screen -->

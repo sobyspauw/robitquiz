@@ -434,21 +434,16 @@ body {
   border: 3px solid var(--bright-cyan);
 }
 
-#top-back-btn:hover {
-  background: var(--bright-cyan);
-  color: var(--deep-navy);
-}
-
-/* Back button - same styling in light mode as dark mode */
+/* Back button - same styling in light mode as dark mode, no hover effects */
 body.light-mode #top-back-btn {
   background: rgba(2, 183, 206, 0.2) !important;
   color: var(--white) !important;
   border: 3px solid var(--bright-cyan) !important;
 }
 
-body.light-mode #top-back-btn:hover {
-  background: var(--bright-cyan) !important;
-  color: var(--deep-navy) !important;
+body.light-mode #top-back-btn *,
+body.light-mode #top-back-text {
+  color: var(--white) !important;
 }
 
 /* Button styling */
@@ -1519,6 +1514,11 @@ body.light-mode #subjects-screen *,
 body.light-mode #levels-screen *,
 body.light-mode #shop-screen * {
   color: #1f2937 !important;
+}
+
+/* Keep shop title golden yellow in light mode */
+body.light-mode #shop-title {
+  color: var(--golden-yellow) !important;
 }
 
 /* Keep countdown timer text white on dark overlay in light mode */
