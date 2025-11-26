@@ -1511,12 +1511,11 @@ body.light-mode #quiz-screen p,
 body.light-mode #quiz-screen span,
 body.light-mode #quiz-screen div,
 body.light-mode #subjects-screen *,
-body.light-mode #levels-screen *,
-body.light-mode #shop-screen * {
+body.light-mode #levels-screen * {
   color: #1f2937 !important;
 }
 
-/* Keep shop title golden yellow in light mode */
+/* Shop screen keeps same colors in light mode as dark mode */
 body.light-mode #shop-title {
   color: var(--golden-yellow) !important;
 }
