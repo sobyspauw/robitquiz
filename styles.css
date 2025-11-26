@@ -47,107 +47,63 @@ body.light-mode #loading-screen .bg-gray-700 {
   background-color: #e5e7eb !important;
 }
 
-/* Tutorial System Styles */
-.tutorial-overlay {
-  z-index: 1000;
+/* Tutorial System Styles - Speech Bubble Design */
+
+/* Backdrop with darkening effect */
+#tutorial-backdrop {
+  animation: fadeIn 0.3s ease-out;
 }
 
-.tutorial-highlight {
-  z-index: 1001;
-  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.6);
-  animation: tutorialPulse 2s infinite ease-in-out;
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-@keyframes tutorialPulse {
-  0%, 100% { 
-    transform: scale(1);
-    border-color: var(--golden-yellow);
+/* Highlight glow effect */
+#tutorial-highlight {
+  z-index: 9998;
+  animation: highlightPulse 2s ease-in-out infinite;
+}
+
+@keyframes highlightPulse {
+  0%, 100% {
+    border-color: rgb(250, 204, 21);
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.6);
   }
-  50% { 
-    transform: scale(1.05);
-    border-color: var(--bright-cyan);
+  50% {
+    border-color: rgb(34, 211, 238);
+    box-shadow: 0 0 30px rgba(34, 211, 238, 0.8);
   }
 }
 
-.tutorial-strip {
-  z-index: 1002;
-  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
-  border-top: 2px solid var(--golden-yellow);
-  animation: slideUpFromBottom 0.5s ease-out;
+/* Speech bubble container */
+#tutorial-bubble-container {
+  animation: slideUp 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-@keyframes slideUpFromBottom {
+@keyframes slideUp {
   from {
-    transform: translateY(100%);
+    transform: translate(-50%, 100px);
     opacity: 0;
   }
   to {
-    transform: translateY(0);
+    transform: translate(-50%, 0);
     opacity: 1;
   }
 }
 
-/* Tutorial Character Styles */
-#tutorial-character {
-  animation: characterFloat 3s ease-in-out infinite;
+/* Robit character bouncing */
+#tutorial-robit img {
+  animation: robitBounce 2s ease-in-out infinite;
 }
 
-#tutorial-character.animate-bounce-in {
-  animation: bounceIn 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-@keyframes characterFloat {
+@keyframes robitBounce {
   0%, 100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(-10px);
   }
-}
-
-@keyframes bounceIn {
-  0% {
-    transform: translateX(100%) scale(0.3);
-    opacity: 0;
-  }
-  50% {
-    transform: translateX(0) scale(1.1);
-  }
-  100% {
-    transform: translateX(0) scale(1);
-    opacity: 1;
-  }
-}
-
-/* Tutorial content layout with proper flexbox structure */
-#tutorial-strip {
-  display: flex !important;
-  flex-direction: column !important;
-  min-height: 360px !important;
-}
-
-.tutorial-content {
-  display: flex !important;
-  flex-direction: column !important;
-  height: 100% !important;
-  background: transparent !important;
-}
-
-.tutorial-main-content {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  gap: 2rem !important;
-  flex: 1 !important;
-  background: transparent !important;
-}
-
-.tutorial-text {
-  flex: 1 1 auto !important;
-  text-align: left !important;
-  max-width: 70% !important;
-  padding-right: 2rem !important;
-  background: transparent !important;
 }
 
 .tutorial-text h3 {

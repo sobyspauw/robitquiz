@@ -3951,8 +3951,9 @@ function attachEventListeners() {
     localStorage.setItem('qb_show_explanations', showExplanations.toString());
     console.log('Explanations toggled to:', showExplanations);
 
-    // Dispatch event for tutorial
+    // Dispatch events for tutorial
     window.dispatchEvent(new CustomEvent('explanations-change', { detail: { enabled: showExplanations } }));
+    window.dispatchEvent(new CustomEvent('explanations-toggled'));
   });
 
   // Theme toggle

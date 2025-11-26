@@ -9,7 +9,7 @@
   let tutorialState = {
     isActive: false,
     currentStep: 0,
-    totalSteps: 21,
+    totalSteps: 23,
     isCompleted: false,
     typingInProgress: false,
     currentTypingTimeout: null
@@ -35,15 +35,18 @@
       powerUps: "Stuck? Use a power-up! 50/50 removes 2 wrong answers, Skip jumps to next question, Time gives extra seconds!",
       freePowerUps: "Good news! You start with 3 free power-ups of each type! Want more? You can buy them in the shop with stars and diamonds!",
       explanationsToggle: "Don't want to see those explanations? You can turn them off here! Try switching it!",
-      trueFalseMode: "True or False - simple but tricky! See how many questions you can get right in a row!",
-      lightningRound: "Super fast! As many questions as possible in a short time! How quick are your reflexes?",
-      survivorMode: "Keep answering until you make a mistake! How long can you survive?",
-      extremeSurvivor: "For the real go-getters! Even harder than normal survivor mode!",
-      shopButton: "Want more power-ups or extras? In the shop you can buy everything you need!",
-      shop: "In the shop you buy power-ups with stars and diamonds! And you can also claim free daily gems here!",
+      trueFalseMode: "True or False - simple but tricky! Answer as many True/False questions correctly in a row as you can!",
+      trueFalseDetails: "Perfect for quick games! Each correct answer adds to your streak. One mistake and your streak resets. Can you beat your high score?",
+      lightningRound: "Lightning Round - race against the clock! Answer as many questions as possible before time runs out!",
+      lightningDetails: "Time pressure makes it exciting! Every correct answer gives you bonus time. How high can you score in 60 seconds?",
+      survivorMode: "Survivor Mode - keep going as long as you can! One mistake means game over!",
+      survivorDetails: "Test your knowledge limits! Questions get progressively harder. The further you get, the more rewards you earn!",
+      extremeSurvivor: "Extreme Survivor - the ultimate challenge! Even harder questions and no room for error!",
+      extremeSurvivorDetails: "Only for true quiz masters! Questions are significantly harder and time is shorter. Are you ready for the ultimate test?",
+      shopButton: "Want more power-ups or extras? In the shop you can buy everything you need with stars and diamonds! And you can also claim free daily gems here!",
       settingsButton: "Here you can adjust all settings! Like the explanations, language, and theme!",
       complete: "Yes! You're all set to begin! Good luck and have fun quizzing!",
-      nextButton: "Next →",
+      nextButton: "Next",
       doneButton: "Done!"
     },
     nl: {
@@ -64,15 +67,18 @@
       powerUps: "Zit je vast? Gebruik een power-up! 50/50 haalt 2 foute antwoorden weg, Skip slaat de vraag over, Time geeft extra seconden!",
       freePowerUps: "Goed nieuws! Je begint met 3 gratis power-ups van elk type! Wil je er meer? Die kun je kopen in de shop met sterren en diamanten!",
       explanationsToggle: "Wil je die uitleg niet zien? Dan kun je het hier uitzetten! Probeer maar eens te schakelen!",
-      trueFalseMode: "Waar of Onwaar - simpel maar tricky! Zie hoeveel vragen jij op een rij goed krijgt!",
-      lightningRound: "Supersnel! Zoveel mogelijk vragen in korte tijd! Hoe snel zijn jouw reflexen?",
-      survivorMode: "Blijf antwoorden tot je een fout maakt! Hoe lang kun jij overleven?",
-      extremeSurvivor: "Voor de échte doorzetters! Nog moeilijker dan normale survivor mode!",
-      shopButton: "Wil je meer power-ups of extra's? In de shop kun je alles kopen wat je nodig hebt!",
-      shop: "In de shop koop je power-ups met sterren en diamanten! En je kunt hier ook gratis dagelijkse gems claimen!",
+      trueFalseMode: "Waar of Onwaar - simpel maar tricky! Beantwoord zoveel mogelijk Waar/Onwaar vragen achter elkaar goed!",
+      trueFalseDetails: "Perfect voor een snel spelletje! Elk goed antwoord voegt toe aan je streak. Eén fout en je streak reset. Kun jij je highscore verslaan?",
+      lightningRound: "Lightning Round - race tegen de klok! Beantwoord zoveel mogelijk vragen voordat de tijd op is!",
+      lightningDetails: "Tijdsdruk maakt het spannend! Elk goed antwoord geeft je bonus tijd. Hoe hoog scoor jij in 60 seconden?",
+      survivorMode: "Survivor Mode - blijf doorgaan zolang je kunt! Eén fout betekent game over!",
+      survivorDetails: "Test je kennis grenzen! Vragen worden steeds moeilijker. Hoe verder je komt, hoe meer beloningen je verdient!",
+      extremeSurvivor: "Extreme Survivor - de ultieme uitdaging! Nog moeilijkere vragen en geen ruimte voor fouten!",
+      extremeSurvivorDetails: "Alleen voor échte quiz masters! Vragen zijn significant moeilijker en tijd is korter. Ben jij klaar voor de ultieme test?",
+      shopButton: "Wil je meer power-ups of extra's? In de shop kun je alles kopen wat je nodig hebt met sterren en diamanten! En je kunt hier ook gratis dagelijkse gems claimen!",
       settingsButton: "Hier kun je alle instellingen aanpassen! Zoals de uitleg, taal en thema!",
       complete: "Yes! Je bent helemaal klaar om te beginnen! Veel succes en plezier met quizzen!",
-      nextButton: "Volgende →",
+      nextButton: "Volgende",
       doneButton: "Klaar!"
     },
     de: {
@@ -93,15 +99,19 @@
       powerUps: "Steckst du fest? Benutze ein Power-up! 50/50 entfernt 2 falsche Antworten, Skip springt zur nächsten Frage, Time gibt extra Sekunden!",
       freePowerUps: "Gute Nachrichten! Du startest mit 3 kostenlosen Power-ups von jedem Typ! Willst du mehr? Du kannst sie im Shop mit Sternen und Diamanten kaufen!",
       explanationsToggle: "Willst du diese Erklärungen nicht sehen? Du kannst sie hier ausschalten! Probiere es mal!",
-      trueFalseMode: "Wahr oder Falsch - einfach aber trickreich! Sieh, wie viele Fragen du hintereinander richtig bekommst!",
-      lightningRound: "Super schnell! So viele Fragen wie möglich in kurzer Zeit! Wie schnell sind deine Reflexe?",
-      survivorMode: "Antworte weiter, bis du einen Fehler machst! Wie lange kannst du überleben?",
-      extremeSurvivor: "Für die echten Durchhalter! Noch schwerer als der normale Survivor-Modus!",
+      trueFalseMode: "Wahr oder Falsch - einfach aber trickreich! Beantworte so viele Wahr/Falsch-Fragen hintereinander richtig wie möglich!",
+      trueFalseDetails: "Perfekt für schnelle Spiele! Jede richtige Antwort erhöht deine Serie. Ein Fehler und deine Serie wird zurückgesetzt. Kannst du deinen Highscore schlagen?",
+      lightningRound: "Lightning Round - Rennen gegen die Zeit! Beantworte so viele Fragen wie möglich, bevor die Zeit abläuft!",
+      lightningDetails: "Zeitdruck macht es aufregend! Jede richtige Antwort gibt dir Bonuszeit. Wie hoch kannst du in 60 Sekunden punkten?",
+      survivorMode: "Survivor-Modus - mach weiter, solange du kannst! Ein Fehler bedeutet Game Over!",
+      survivorDetails: "Teste deine Wissensgrenzen! Fragen werden zunehmend schwieriger. Je weiter du kommst, desto mehr Belohnungen verdienst du!",
+      extremeSurvivor: "Extreme Survivor - die ultimative Herausforderung! Noch schwierigere Fragen und kein Spielraum für Fehler!",
+      extremeSurvivorDetails: "Nur für echte Quiz-Meister! Fragen sind deutlich schwieriger und die Zeit ist kürzer. Bist du bereit für den ultimativen Test?",
       shopButton: "Willst du mehr Power-ups oder Extras? Im Shop kannst du alles kaufen, was du brauchst!",
       shop: "Im Shop kaufst du Power-ups mit Sternen und Diamanten! Und du kannst hier auch kostenlose tägliche Edelsteine abholen!",
       settingsButton: "Hier kannst du alle Einstellungen anpassen! Wie die Erklärungen, Sprache und Thema!",
       complete: "Ja! Du bist bereit zum Loslegen! Viel Glück und viel Spaß beim Quizzen!",
-      nextButton: "Weiter →",
+      nextButton: "Weiter",
       doneButton: "Fertig!"
     },
     es: {
@@ -122,15 +132,19 @@
       powerUps: "¿Atascado? ¡Usa un power-up! 50/50 elimina 2 respuestas incorrectas, Skip salta a la siguiente pregunta, Time da segundos extra!",
       freePowerUps: "¡Buenas noticias! ¡Empiezas con 3 power-ups gratis de cada tipo! ¿Quieres más? ¡Puedes comprarlos en la tienda con estrellas y diamantes!",
       explanationsToggle: "¿No quieres ver esas explicaciones? ¡Puedes desactivarlas aquí! ¡Prueba a cambiarla!",
-      trueFalseMode: "¡Verdadero o Falso - simple pero complicado! ¡Mira cuántas preguntas puedes acertar seguidas!",
-      lightningRound: "¡Súper rápido! ¡Tantas preguntas como sea posible en poco tiempo! ¿Qué tan rápidos son tus reflejos?",
-      survivorMode: "¡Sigue respondiendo hasta que cometas un error! ¿Cuánto tiempo puedes sobrevivir?",
-      extremeSurvivor: "¡Para los verdaderos persistentes! ¡Aún más difícil que el modo survivor normal!",
+      trueFalseMode: "¡Verdadero o Falso - simple pero complicado! ¡Responde tantas preguntas de Verdadero/Falso seguidas correctamente como puedas!",
+      trueFalseDetails: "¡Perfecto para juegos rápidos! Cada respuesta correcta añade a tu racha. Un error y tu racha se reinicia. ¿Puedes superar tu puntuación más alta?",
+      lightningRound: "¡Lightning Round - carrera contra el reloj! ¡Responde tantas preguntas como sea posible antes de que se acabe el tiempo!",
+      lightningDetails: "¡La presión del tiempo lo hace emocionante! Cada respuesta correcta te da tiempo extra. ¿Qué tan alto puedes puntuar en 60 segundos?",
+      survivorMode: "¡Modo Survivor - sigue adelante mientras puedas! ¡Un error significa game over!",
+      survivorDetails: "¡Prueba los límites de tu conocimiento! Las preguntas se vuelven progresivamente más difíciles. ¡Cuanto más lejos llegues, más recompensas ganas!",
+      extremeSurvivor: "¡Extreme Survivor - el desafío definitivo! ¡Preguntas aún más difíciles y sin margen de error!",
+      extremeSurvivorDetails: "¡Solo para verdaderos maestros del quiz! Las preguntas son significativamente más difíciles y el tiempo es más corto. ¿Estás listo para la prueba definitiva?",
       shopButton: "¿Quieres más power-ups o extras? ¡En la tienda puedes comprar todo lo que necesitas!",
       shop: "¡En la tienda compras power-ups con estrellas y diamantes! ¡Y también puedes reclamar gemas diarias gratis aquí!",
       settingsButton: "¡Aquí puedes ajustar toda la configuración! ¡Como las explicaciones, idioma y tema!",
       complete: "¡Sí! ¡Estás listo para comenzar! ¡Buena suerte y diviértete haciendo quizzes!",
-      nextButton: "Siguiente →",
+      nextButton: "Siguiente",
       doneButton: "¡Listo!"
     }
   };
@@ -175,31 +189,33 @@
     { id: 'levels', textKey: 'levels', screen: 'levels-screen', target: '#levels-grid > div:first-child button', interactiveStep: true, waitFor: 'quiz-started' },
     { id: 'timer', textKey: 'timer', screen: 'quiz-screen', target: '#timer', pauseTimer: true },
     { id: 'mistakes', textKey: 'mistakes', screen: 'quiz-screen', target: ['#correct', '#wrong'], pauseTimer: true, bubblePosition: 'middle' },
-    { id: 'power-ups', textKey: 'powerUps', screen: 'quiz-screen', target: ['#fifty-fifty-btn', '#skip-btn', '#time-bonus-btn'], pauseTimer: true, bubblePosition: 'middle' },
-    { id: 'free-power-ups', textKey: 'freePowerUps', screen: 'quiz-screen', target: ['#fifty-fifty-btn', '#skip-btn', '#time-bonus-btn'], pauseTimer: true, bubblePosition: 'middle' },
-    { id: 'answer-buttons', textKey: 'answerButtons', screen: 'quiz-screen', target: null, pauseTimer: true, hideBackdrop: true, interactiveStep: true, waitFor: 'answer-given' },
-    { id: 'answer-explanation', textKey: 'answerExplanation', screen: 'quiz-screen', target: null, pauseTimer: true, hideBackdrop: true, bubblePosition: 'middle' },
+    { id: 'power-ups', textKey: 'powerUps', screen: 'quiz-screen', target: ['#fifty-fifty-btn', '#skip-btn', '#time-bonus-btn'], pauseTimer: true, bubblePosition: 'middle', blockClicks: true },
+    { id: 'free-power-ups', textKey: 'freePowerUps', screen: 'quiz-screen', target: ['#fifty-fifty-btn', '#skip-btn', '#time-bonus-btn'], pauseTimer: true, bubblePosition: 'middle', blockClicks: true },
+    { id: 'answer-buttons', textKey: 'answerButtons', screen: 'quiz-screen', target: ['#question', '#answers'], pauseTimer: true, interactiveStep: true, waitFor: 'answer-given' },
+    { id: 'answer-explanation', textKey: 'answerExplanation', screen: 'quiz-screen', target: '#explanation-container', pauseTimer: true, bubblePosition: 'middle', blockClicks: true },
 
     // Sterren & Diamanten (after earning some from quiz)
-    { id: 'stars-diamonds', textKey: 'starsDiamonds', screen: 'quiz-screen', target: ['#star-display', '#diamond-display'], pauseTimer: true },
+    { id: 'stars-diamonds', textKey: 'starsDiamonds', screen: 'quiz-screen', target: ['#star-display', '#diamond-display'], pauseTimer: true, blockClicks: true },
 
     // Terug naar Home → GAME MODES Flow
-    { id: 'game-modes-button', textKey: 'gameModesButton', screen: 'home-screen', target: '#challenge-modes-btn', interactiveStep: true, waitFor: 'game-modes-clicked' },
-    { id: 'true-false-mode', textKey: 'trueFalseMode', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(1)' },
-    { id: 'lightning-round', textKey: 'lightningRound', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(2)' },
-    { id: 'survivor-mode', textKey: 'survivorMode', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(3)' },
-    { id: 'extreme-survivor', textKey: 'extremeSurvivor', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(4)' },
+    { id: 'game-modes-button', textKey: 'gameModesButton', screen: 'home-screen', target: '#challenge-modes-btn', interactiveStep: true, waitFor: 'game-modes-clicked', bubblePosition: 'center' },
+    { id: 'true-false-mode', textKey: 'trueFalseMode', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(1)', scrollToTarget: true, blockClicks: true },
+    { id: 'true-false-details', textKey: 'trueFalseDetails', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(1)', scrollToTarget: true, blockClicks: true },
+    { id: 'lightning-round', textKey: 'lightningRound', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(2)', scrollToTarget: true, blockClicks: true },
+    { id: 'lightning-details', textKey: 'lightningDetails', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(2)', scrollToTarget: true, blockClicks: true },
+    { id: 'survivor-mode', textKey: 'survivorMode', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(3)', scrollToTarget: true, blockClicks: true },
+    { id: 'survivor-details', textKey: 'survivorDetails', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(3)', scrollToTarget: true, blockClicks: true },
+    { id: 'extreme-survivor', textKey: 'extremeSurvivor', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(4)', scrollToTarget: true, blockClicks: true, bubblePosition: 'middle' },
+    { id: 'extreme-survivor-details', textKey: 'extremeSurvivorDetails', screen: 'challenge-modes-screen', target: '.challenge-mode-card:nth-child(4)', scrollToTarget: true, blockClicks: true, bubblePosition: 'middle' },
 
     // Terug naar Home → DAILY CHALLENGE
-    { id: 'daily-challenge-button', textKey: 'dailyChallengeButton', screen: 'home-screen', target: '#daily-challenge-btn' },
+    { id: 'daily-challenge-button', textKey: 'dailyChallengeButton', screen: 'home-screen', target: '#daily-challenge-btn', bubblePosition: 'middle', blockClicks: true },
 
     // Terug naar Home → SHOP
-    { id: 'shop-button', textKey: 'shopButton', screen: 'home-screen', target: '#shop-btn', interactiveStep: true, waitFor: 'shop-clicked' },
-    { id: 'shop', textKey: 'shop', screen: 'shop-screen', target: '#daily-rewards' },
+    { id: 'shop-button', textKey: 'shopButton', screen: 'home-screen', target: '#shop-btn', bubblePosition: 'middle', blockClicks: true },
 
     // Terug naar Home → SETTINGS
-    { id: 'settings-button', textKey: 'settingsButton', screen: 'home-screen', target: '#settings-btn', interactiveStep: true, waitFor: 'settings-clicked' },
-    { id: 'explanations-toggle', textKey: 'explanationsToggle', screen: 'settings-screen', target: '#explanations-toggle', interactiveStep: true, waitFor: 'explanations-toggled' },
+    { id: 'settings-button', textKey: 'settingsButton', screen: 'home-screen', target: '#settings-btn', bubblePosition: 'middle', blockClicks: true },
 
     // Afsluiting
     { id: 'complete', textKey: 'complete', screen: 'home-screen', target: null }
@@ -220,8 +236,14 @@
       <!-- Click layer for highlighted element (sits above backdrop, allows clicks only on highlighted area) -->
       <div id="tutorial-click-layer" class="fixed pointer-events-auto" style="display: none; z-index: 10001;"></div>
 
+      <!-- Click blockers for interactive steps (4 rectangles around the cutout) -->
+      <div id="tutorial-blocker-top" class="fixed bg-transparent pointer-events-auto" style="display: none; z-index: 10001;"></div>
+      <div id="tutorial-blocker-bottom" class="fixed bg-transparent pointer-events-auto" style="display: none; z-index: 10001;"></div>
+      <div id="tutorial-blocker-left" class="fixed bg-transparent pointer-events-auto" style="display: none; z-index: 10001;"></div>
+      <div id="tutorial-blocker-right" class="fixed bg-transparent pointer-events-auto" style="display: none; z-index: 10001;"></div>
+
       <!-- Speech bubble container -->
-      <div id="tutorial-bubble-container" class="fixed bottom-4 left-1/2 transform -translate-x-1/2 pointer-events-auto z-[10000]" style="width: 90%; max-width: 500px;">
+      <div id="tutorial-bubble-container" class="fixed bottom-0 left-1/2 transform -translate-x-1/2 pointer-events-auto z-[10000]" style="width: 90%; max-width: 500px;">
         <!-- Robit character -->
         <div id="tutorial-robit" class="absolute -top-32 right-8 w-32 h-32 pointer-events-none">
           <img src="images/icons/quiz icoon 4 NB.png" alt="Robit" class="w-full h-full object-contain drop-shadow-2xl animate-bounce-slow" />
@@ -279,7 +301,7 @@
   }
 
   // Highlight target element(s)
-  function highlightElement(target, makeInteractive = false) {
+  function highlightElement(target, makeInteractive = false, blockClicks = false) {
     const highlight = document.getElementById('tutorial-highlight');
     const backdrop = document.getElementById('tutorial-backdrop');
     const clickLayer = document.getElementById('tutorial-click-layer');
@@ -360,25 +382,92 @@
         100% 0%
       )`;
       backdrop.style.clipPath = cutoutPath;
+
+      // For interactive steps, we keep backdrop visible but ensure elements are clickable
+      if (makeInteractive && !blockClicks) {
+        backdrop.style.zIndex = '9999'; // Below highlighted elements
+        backdrop.style.pointerEvents = 'none'; // Don't block any clicks
+
+        // Position invisible click blockers around the cutout to block clicks outside highlighted area
+        const blockerTop = document.getElementById('tutorial-blocker-top');
+        const blockerBottom = document.getElementById('tutorial-blocker-bottom');
+        const blockerLeft = document.getElementById('tutorial-blocker-left');
+        const blockerRight = document.getElementById('tutorial-blocker-right');
+
+        if (blockerTop && blockerBottom && blockerLeft && blockerRight) {
+          // Top blocker: from screen top to cutout top
+          blockerTop.style.display = 'block';
+          blockerTop.style.left = '0';
+          blockerTop.style.top = '0';
+          blockerTop.style.width = '100%';
+          blockerTop.style.height = y + 'px';
+
+          // Bottom blocker: from cutout bottom to screen bottom
+          blockerBottom.style.display = 'block';
+          blockerBottom.style.left = '0';
+          blockerBottom.style.top = (y + height) + 'px';
+          blockerBottom.style.width = '100%';
+          blockerBottom.style.height = `calc(100% - ${y + height}px)`;
+
+          // Left blocker: from cutout top to cutout bottom, screen left to cutout left
+          blockerLeft.style.display = 'block';
+          blockerLeft.style.left = '0';
+          blockerLeft.style.top = y + 'px';
+          blockerLeft.style.width = x + 'px';
+          blockerLeft.style.height = height + 'px';
+
+          // Right blocker: from cutout top to cutout bottom, cutout right to screen right
+          blockerRight.style.display = 'block';
+          blockerRight.style.left = (x + width) + 'px';
+          blockerRight.style.top = y + 'px';
+          blockerRight.style.width = `calc(100% - ${x + width}px)`;
+          blockerRight.style.height = height + 'px';
+        }
+      } else {
+        backdrop.style.zIndex = '10000'; // Normal z-index
+        backdrop.style.pointerEvents = 'auto'; // Block clicks normally
+
+        // Hide blockers for non-interactive steps
+        const blockerTop = document.getElementById('tutorial-blocker-top');
+        const blockerBottom = document.getElementById('tutorial-blocker-bottom');
+        const blockerLeft = document.getElementById('tutorial-blocker-left');
+        const blockerRight = document.getElementById('tutorial-blocker-right');
+
+        if (blockerTop) blockerTop.style.display = 'none';
+        if (blockerBottom) blockerBottom.style.display = 'none';
+        if (blockerLeft) blockerLeft.style.display = 'none';
+        if (blockerRight) blockerRight.style.display = 'none';
+      }
     }
 
     // Position click layer over highlighted area to allow clicks
-    if (clickLayer && makeInteractive) {
-      clickLayer.style.display = 'block';
-      clickLayer.style.left = x + 'px';
-      clickLayer.style.top = y + 'px';
-      clickLayer.style.width = width + 'px';
-      clickLayer.style.height = height + 'px';
-      clickLayer.style.pointerEvents = 'auto';
-    } else if (clickLayer) {
-      clickLayer.style.display = 'none';
+    // If blockClicks is true, keep the click layer hidden to prevent interaction
+    // For interactive steps, we DON'T want the click layer - it blocks the actual elements
+    if (clickLayer) {
+      if (makeInteractive && !blockClicks) {
+        // For interactive steps, hide click layer so elements underneath can be clicked
+        clickLayer.style.display = 'none';
+        clickLayer.style.pointerEvents = 'none';
+      } else {
+        // For non-interactive steps, click layer can be shown if needed
+        clickLayer.style.display = 'none';
+      }
     }
 
     // Make highlighted elements clickable by ensuring they're above the backdrop
-    if (makeInteractive) {
+    // Unless blockClicks is true, in which case we want them highlighted but not clickable
+    if (makeInteractive && !blockClicks) {
       elements.forEach(el => {
         el.style.position = 'relative';
-        el.style.zIndex = '10003'; // Above backdrop and click layer
+        el.style.zIndex = '10005'; // Above everything else
+
+        // Also ensure all child buttons are clickable and have pointer-events enabled
+        const buttons = el.querySelectorAll('button');
+        buttons.forEach(btn => {
+          btn.style.position = 'relative';
+          btn.style.zIndex = '10005';
+          btn.style.pointerEvents = 'auto';
+        });
       });
     }
   }
@@ -410,8 +499,161 @@
     if (backdrop) {
       if (step.hideBackdrop) {
         backdrop.style.display = 'none';
+        backdrop.style.clipPath = 'none';
       } else {
         backdrop.style.display = 'block';
+        // Reset clip-path to ensure full backdrop coverage
+        if (!step.target) {
+          backdrop.style.clipPath = 'none';
+        }
+        // For interactive steps with targets, keep backdrop visible to block other elements
+        // The backdrop will have a cutout made by highlightElement() for the target
+        // For interactive steps without targets:
+        // - Language/theme buttons are IN the bubble, so keep backdrop to block background
+        // - Answer buttons need no backdrop (hideBackdrop: true handles this)
+        if (step.interactiveStep && !step.blockClicks && !step.target && !step.showLanguageButtons && !step.showThemeButtons) {
+          backdrop.style.display = 'none';
+        }
+
+        // Ensure backdrop blocks clicks when visible
+        if (backdrop.style.display !== 'none') {
+          backdrop.style.pointerEvents = 'auto';
+        }
+      }
+    }
+
+    // Block clicks on highlighted elements if blockClicks is true
+    if (step.blockClicks) {
+      // Wait a bit for elements to be created, then block them
+      setTimeout(() => {
+        // Block continue button
+        const continueBtn = document.getElementById('continue-question-btn');
+        if (continueBtn) {
+          continueBtn.style.pointerEvents = 'none';
+          continueBtn.style.opacity = '0.5';
+        }
+
+        // Block power-up buttons
+        const fiftyFiftyBtn = document.getElementById('fifty-fifty-btn');
+        const skipBtn = document.getElementById('skip-btn');
+        const timeBonusBtn = document.getElementById('time-bonus-btn');
+
+        [fiftyFiftyBtn, skipBtn, timeBonusBtn].forEach(btn => {
+          if (btn) {
+            btn.style.pointerEvents = 'none';
+            btn.style.opacity = '0.5';
+          }
+        });
+
+        // Block star and diamond displays
+        const starDisplay = document.getElementById('star-display');
+        const diamondDisplay = document.getElementById('diamond-display');
+
+        [starDisplay, diamondDisplay].forEach(display => {
+          if (display) {
+            display.style.pointerEvents = 'none';
+            display.style.opacity = '0.7';
+          }
+        });
+
+        // Block all buttons in game mode cards (Play Now and info buttons)
+        document.querySelectorAll('.challenge-mode-card button').forEach(btn => {
+          btn.style.pointerEvents = 'none';
+          btn.style.opacity = '0.5';
+        });
+
+        // Block all buttons in shop screen
+        document.querySelectorAll('#shop-screen button').forEach(btn => {
+          // Don't block the back button
+          if (btn.id !== 'back-btn') {
+            btn.style.pointerEvents = 'none';
+            btn.style.opacity = '0.5';
+          }
+        });
+
+        // Block daily challenge button
+        const dailyChallengeBtn = document.getElementById('daily-challenge-btn');
+        if (dailyChallengeBtn) {
+          dailyChallengeBtn.style.pointerEvents = 'none';
+          dailyChallengeBtn.style.opacity = '0.7';
+        }
+
+        // Block shop button
+        const shopBtn = document.getElementById('shop-btn');
+        if (shopBtn) {
+          shopBtn.style.pointerEvents = 'none';
+          shopBtn.style.opacity = '0.7';
+        }
+
+        // Block settings button
+        const settingsBtn = document.getElementById('settings-btn');
+        if (settingsBtn) {
+          settingsBtn.style.pointerEvents = 'none';
+          settingsBtn.style.opacity = '0.7';
+        }
+      }, 100);
+    } else {
+      // Re-enable buttons when leaving blockClicks step
+      const continueBtn = document.getElementById('continue-question-btn');
+      if (continueBtn) {
+        continueBtn.style.pointerEvents = 'auto';
+        continueBtn.style.opacity = '1';
+      }
+
+      // Re-enable power-up buttons
+      const fiftyFiftyBtn = document.getElementById('fifty-fifty-btn');
+      const skipBtn = document.getElementById('skip-btn');
+      const timeBonusBtn = document.getElementById('time-bonus-btn');
+
+      [fiftyFiftyBtn, skipBtn, timeBonusBtn].forEach(btn => {
+        if (btn) {
+          btn.style.pointerEvents = 'auto';
+          btn.style.opacity = '1';
+        }
+      });
+
+      // Re-enable star and diamond displays
+      const starDisplay = document.getElementById('star-display');
+      const diamondDisplay = document.getElementById('diamond-display');
+
+      [starDisplay, diamondDisplay].forEach(display => {
+        if (display) {
+          display.style.pointerEvents = 'auto';
+          display.style.opacity = '1';
+        }
+      });
+
+      // Re-enable all buttons in game mode cards
+      document.querySelectorAll('.challenge-mode-card button').forEach(btn => {
+        btn.style.pointerEvents = 'auto';
+        btn.style.opacity = '1';
+      });
+
+      // Re-enable all buttons in shop screen
+      document.querySelectorAll('#shop-screen button').forEach(btn => {
+        btn.style.pointerEvents = 'auto';
+        btn.style.opacity = '1';
+      });
+
+      // Re-enable daily challenge button
+      const dailyChallengeBtn = document.getElementById('daily-challenge-btn');
+      if (dailyChallengeBtn) {
+        dailyChallengeBtn.style.pointerEvents = 'auto';
+        dailyChallengeBtn.style.opacity = '1';
+      }
+
+      // Re-enable shop button
+      const shopBtn = document.getElementById('shop-btn');
+      if (shopBtn) {
+        shopBtn.style.pointerEvents = 'auto';
+        shopBtn.style.opacity = '1';
+      }
+
+      // Re-enable settings button
+      const settingsBtn = document.getElementById('settings-btn');
+      if (settingsBtn) {
+        settingsBtn.style.pointerEvents = 'auto';
+        settingsBtn.style.opacity = '1';
       }
     }
 
@@ -440,8 +682,49 @@
 
     // Wait a bit for screen transition
     setTimeout(() => {
-      // Highlight target (make interactive if it's an interactive step)
-      highlightElement(step.target, step.interactiveStep);
+      // Scroll to target FIRST if specified, then highlight
+      if (step.scrollToTarget && step.target) {
+        const targetElement = Array.isArray(step.target)
+          ? document.querySelector(step.target[0])
+          : document.querySelector(step.target);
+
+        if (targetElement) {
+          console.log('Tutorial: Scrolling to target', step.id);
+
+          // Get the target element's position on the page
+          const targetRect = targetElement.getBoundingClientRect();
+
+          // Calculate scroll position to put target near top of viewport
+          // Account for current scroll position and desired offset from top
+          const desiredOffset = 150; // Leave space for header and "Game Modes" title
+          const currentScrollY = window.scrollY || window.pageYOffset;
+          const scrollTo = currentScrollY + targetRect.top - desiredOffset;
+
+          console.log('Tutorial: Scroll calculation', {
+            currentScrollY,
+            targetTop: targetRect.top,
+            desiredOffset,
+            scrollTo: Math.max(0, scrollTo)
+          });
+
+          // Scroll the window
+          window.scrollTo({
+            top: Math.max(0, scrollTo),
+            behavior: 'smooth'
+          });
+
+          // Wait for scroll to complete, then highlight
+          setTimeout(() => {
+            highlightElement(step.target, step.interactiveStep, step.blockClicks);
+          }, 400); // Wait for smooth scroll to finish
+        } else {
+          console.log('Tutorial: Target element not found');
+          highlightElement(step.target, step.interactiveStep, step.blockClicks);
+        }
+      } else {
+        // No scrolling needed, just highlight immediately
+        highlightElement(step.target, step.interactiveStep, step.blockClicks);
+      }
 
       // Get text in current language
       const lang = getTutorialLang();
@@ -496,10 +779,12 @@
         nextBtn.disabled = false;
         nextBtn.style.opacity = '1';
         nextBtn.style.cursor = 'pointer';
+        nextBtn.style.pointerEvents = 'auto'; // Ensure button is clickable
 
         if (stepIndex === tutorialSteps.length - 1) {
           nextBtn.textContent = texts.doneButton || 'Done!';
           nextBtn.className = 'bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 shadow-lg';
+          console.log('Tutorial: Done button configured', { text: nextBtn.textContent, visible: nextBtn.style.display });
         } else {
           nextBtn.textContent = texts.nextButton || 'Next →';
           nextBtn.className = 'bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-200 shadow-lg';
@@ -736,11 +1021,11 @@
 
     if (elements.length === 0) return;
 
-    // Add click handler to the click layer that forwards clicks to the actual element
-    if (clickLayer) {
-      let isProcessing = false; // Prevent multiple rapid clicks
+    // Add click handler to the actual elements (not the click layer since we hide it for interactive steps)
+    // We'll listen to clicks on the actual highlighted elements
+    let isProcessing = false; // Prevent multiple rapid clicks
 
-      const clickHandler = (e) => {
+    const clickHandler = (e) => {
         // Prevent multiple clicks while processing
         if (isProcessing) {
           console.log('Tutorial: Click ignored - already processing');
@@ -749,11 +1034,9 @@
 
         console.log('Tutorial: Interactive element clicked');
 
-        // If typing is in progress, first complete the text
+        // Complete typing animation if in progress
         if (tutorialState.typingInProgress) {
-          console.log('Tutorial: Completing typing animation first');
-
-          // Stop typing animation and show full text
+          console.log('Tutorial: Completing typing animation');
           if (tutorialState.currentTypingTimeout) {
             clearTimeout(tutorialState.currentTypingTimeout);
           }
@@ -766,42 +1049,43 @@
             textElement.innerHTML = text.replace(/\n/g, '<br>');
           }
           tutorialState.typingInProgress = false;
-
-          // Don't proceed to next step yet - wait for second click
-          return;
         }
 
-        // Typing is complete, now we can proceed
+        // Now proceed with the tutorial (let the click happen naturally)
         isProcessing = true;
         console.log('Tutorial: Proceeding to next step');
-
-        // Get the actual element under the click layer
-        const targetElement = elements[0];
-
-        // Simulate a click on the actual element
-        targetElement.click();
 
         // Dispatch the custom event if specified
         if (step.waitFor) {
           window.dispatchEvent(new CustomEvent(step.waitFor));
         }
 
-        // Remove click handler immediately to prevent double-clicks
-        clickLayer.removeEventListener('click', clickHandler);
+        // Remove click handlers from all elements
+        elements.forEach(el => {
+          el.removeEventListener('click', clickHandler, true);
+        });
 
-        // Go to next step after a short delay
+        // Go to next step after a short delay (allow the natural click to process first)
         setTimeout(() => {
           nextStep();
         }, 300);
       };
 
-      clickLayer.addEventListener('click', clickHandler);
-      clickLayer.style.cursor = 'pointer';
-    }
+    // Add click handler to each highlighted element
+    elements.forEach(element => {
+      element.addEventListener('click', clickHandler, true);
+      element.style.cursor = 'pointer';
+    });
   }
 
   // Next step
   function nextStep() {
+    console.log('Tutorial: nextStep called', {
+      currentStep: tutorialState.currentStep,
+      totalSteps: tutorialSteps.length,
+      isLastStep: tutorialState.currentStep >= tutorialSteps.length - 1
+    });
+
     if (tutorialState.typingInProgress) {
       // Skip typing animation - complete the text immediately
       if (tutorialState.currentTypingTimeout) {
@@ -854,25 +1138,31 @@
     }
 
     if (tutorialState.currentStep >= tutorialSteps.length - 1) {
+      console.log('Tutorial: Completing tutorial');
       completeTutorial();
     } else {
+      console.log('Tutorial: Going to next step');
       showStep(tutorialState.currentStep + 1);
     }
   }
 
   // Complete tutorial
   function completeTutorial() {
+    console.log('Tutorial: completeTutorial called');
     tutorialState.isActive = false;
     tutorialState.isCompleted = true;
 
     localStorage.setItem('qb_tutorial_completed', 'true');
+    console.log('Tutorial: Saved completion to localStorage');
 
     // Remove scroll prevention handlers
     if (tutorialState.scrollPreventHandlers) {
-      const { preventScroll } = tutorialState.scrollPreventHandlers;
+      const { preventScroll, preventKeyScroll } = tutorialState.scrollPreventHandlers;
       document.removeEventListener('wheel', preventScroll);
       document.removeEventListener('touchmove', preventScroll);
-      document.removeEventListener('keydown', preventScroll);
+      if (preventKeyScroll) {
+        document.removeEventListener('keydown', preventKeyScroll);
+      }
       tutorialState.scrollPreventHandlers = null;
     }
 
@@ -907,6 +1197,26 @@
       if (bubble && bubble.contains(e.target)) {
         return;
       }
+
+      // Allow scrolling in shop screen during shop step
+      const currentStep = tutorialSteps[tutorialState.currentStep];
+      if (currentStep && currentStep.id === 'shop') {
+        const shopScreen = document.getElementById('shop-screen');
+        // Check if target is shop screen itself OR is inside shop screen
+        if (shopScreen && (e.target === shopScreen || shopScreen.contains(e.target) || e.target.closest('#shop-screen'))) {
+          return; // Allow scrolling in shop
+        }
+      }
+
+      // Allow scrolling in challenge modes screen during game mode steps
+      if (currentStep && currentStep.screen === 'challenge-modes-screen' && currentStep.scrollToTarget) {
+        const challengeModesScreen = document.getElementById('challenge-modes-screen');
+        if (challengeModesScreen && challengeModesScreen.contains(e.target)) {
+          return; // Allow scrolling in game modes screen
+        }
+      }
+
+
       e.preventDefault();
       e.stopPropagation();
     };
@@ -914,20 +1224,37 @@
     // Prevent scroll with wheel, touch, and keys
     document.addEventListener('wheel', preventScroll, { passive: false });
     document.addEventListener('touchmove', preventScroll, { passive: false });
-    document.addEventListener('keydown', (e) => {
+
+    const preventKeyScroll = (e) => {
+      // Allow keyboard scrolling in shop screen during shop step
+      const currentStep = tutorialSteps[tutorialState.currentStep];
+      if (currentStep && currentStep.id === 'shop') {
+        return; // Allow keyboard scrolling in shop
+      }
+
+      // Allow keyboard scrolling in challenge modes screen during game mode steps
+      if (currentStep && currentStep.screen === 'challenge-modes-screen' && currentStep.scrollToTarget) {
+        return; // Allow keyboard scrolling in game modes screen
+      }
+
       // Prevent arrow keys, page up/down, space, home, end
       if ([32, 33, 34, 35, 36, 37, 38, 39, 40].includes(e.keyCode)) {
         e.preventDefault();
       }
-    }, { passive: false });
+    };
+
+    document.addEventListener('keydown', preventKeyScroll, { passive: false });
 
     // Store handlers so we can remove them later
-    tutorialState.scrollPreventHandlers = { preventScroll };
+    tutorialState.scrollPreventHandlers = { preventScroll, preventKeyScroll };
 
     // Add event listener for next button
     const nextBtn = document.getElementById('tutorial-next-btn');
     if (nextBtn) {
-      nextBtn.addEventListener('click', nextStep);
+      nextBtn.addEventListener('click', () => {
+        console.log('Tutorial: Next/Done button clicked');
+        nextStep();
+      });
     }
 
     // Add event listener for skip button
