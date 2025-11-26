@@ -1521,6 +1521,13 @@ body.light-mode #shop-screen * {
   color: #1f2937 !important;
 }
 
+/* Keep countdown timer text white on dark overlay in light mode */
+body.light-mode #levels-screen [id^="cooldown-timer-"],
+body.light-mode #subjects-screen [id^="cooldown-timer-"] {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 1) !important;
+}
+
 body.light-mode #settings-screen * {
   color: #d97706 !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);

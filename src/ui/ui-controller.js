@@ -1864,6 +1864,7 @@ function showSubcategories(mainTopicId) {
       const timerText = document.createElement('div');
       timerText.className = 'text-white font-bold text-xl';
       timerText.id = `cooldown-timer-${mainTopicId}-${subcat.id}-${currentLevel}`;
+      timerText.style.color = '#ffffff'; // Force white color with inline style
       timerText.innerText = formatCooldownTime(cooldownStatus.timeRemaining);
 
       overlay.appendChild(lockIcon);
