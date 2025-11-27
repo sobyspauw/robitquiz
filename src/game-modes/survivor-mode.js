@@ -75,18 +75,40 @@
     const timerSpan = document.getElementById('sm-timer');
     const bestLevel = localStorage.getItem('sm_best_level') || '-';
     const bestLevelElement = document.getElementById('sm-best-tier'); // Keep existing element ID
+    const overlay = document.getElementById('sm-cooldown-overlay');
+    const timerElement = document.getElementById('sm-cooldown-timer');
 
     if (bestLevelElement) {
       bestLevelElement.textContent = bestLevel === '-' ? '-' : `Level ${bestLevel}`;
     }
 
     if (cooldownStatus.canPlay) {
-      playBtn.style.display = 'block';
-      cooldownDiv.classList.add('hidden');
+      if (playBtn) playBtn.style.display = 'block';
+      if (cooldownDiv) cooldownDiv.classList.add('hidden');
+
+      // Hide overlay
+      if (overlay) {
+        overlay.classList.add('hidden');
+        overlay.onclick = null;
+      }
     } else {
-      playBtn.style.display = 'none';
-      cooldownDiv.classList.remove('hidden');
-      timerSpan.textContent = formatTimeRemaining(cooldownStatus.timeRemaining);
+      if (playBtn) playBtn.style.display = 'none'; // Hide play button
+      if (cooldownDiv) cooldownDiv.classList.add('hidden'); // Hide text cooldown message
+
+      // Show overlay with timer
+      if (overlay && timerElement) {
+        const hours = Math.floor(cooldownStatus.timeRemaining / (60 * 60 * 1000));
+        const minutes = Math.floor((cooldownStatus.timeRemaining % (60 * 60 * 1000)) / (60 * 1000));
+        timerElement.textContent = hours > 0 ? `${hours}h ${minutes}m` : `${minutes}m`;
+        overlay.classList.remove('hidden');
+
+        // Add click handler to show modal
+        overlay.onclick = () => {
+          if (typeof window.showGameModeLockedModal === 'function') {
+            window.showGameModeLockedModal('survivor-mode', 'sm_last_played', cooldownStatus.timeRemaining);
+          }
+        };
+      }
     }
   }
 
@@ -347,6 +369,15 @@
       btn.textContent = option[lang];
       btn.disabled = false;
       btn.addEventListener('click', () => handleSurvivorAnswer(index));
+
+      // Admin Mode: Highlight correct answer
+      if (window.adminModeActive && index === question.correctIndex) {
+        btn.style.backgroundColor = '#fef08a'; // yellow-200
+        btn.style.border = '3px solid #eab308'; // yellow-500
+        btn.style.color = '#000000'; // black text for better contrast
+        console.log('🔍 Admin Mode (Survivor): Highlighted correct answer');
+      }
+
       answersDiv.appendChild(btn);
     });
   }
@@ -503,17 +534,93 @@
       updateSurvivorDisplay();
     }
 
-    // Show completion message
-    let message;
-    if (completed) {
-      message = `🏆 INCREDIBLE! You've conquered all 10 levels!\n\nFinal Score: ${smGameState.totalScore} stars\nYou are truly a quiz master!`;
-    } else {
-      message = `Survivor Mode Complete!\n\nReached: Level ${smGameState.currentLevel}\nScore: ${smGameState.totalScore} stars\nGreat effort!`;
-    }
-    alert(message);
+    // Set cooldown (4 hours)
+    localStorage.setItem('sm_last_played', Date.now().toString());
 
-    // Return to challenge modes screen
-    window.showScreen('challenge-modes-screen');
+    // Show completion popup
+    showSurvivorCompletePopup(completed, smGameState.currentLevel, smGameState.totalScore);
+  }
+
+  // Show Survivor Mode completion popup
+  function showSurvivorCompletePopup(completed, levelReached, totalScore) {
+    const modal = document.getElementById('sm-complete-modal');
+    const titleElement = document.getElementById('sm-complete-title');
+    const levelElement = document.getElementById('sm-complete-level');
+    const scoreElement = document.getElementById('sm-complete-score');
+    const starsElement = document.getElementById('sm-complete-stars');
+    const messageElement = document.getElementById('sm-complete-message');
+    const backBtn = document.getElementById('sm-complete-back');
+
+    if (!modal || !titleElement || !levelElement || !scoreElement || !starsElement || !messageElement || !backBtn) {
+      console.error('Survivor Mode complete modal elements not found');
+      const msg = completed ? `🏆 INCREDIBLE! Level ${levelReached}, Score: ${totalScore}` : `Survivor Mode Complete!\nLevel: ${levelReached}, Score: ${totalScore}`;
+      alert(msg);
+      window.showScreen('challenge-modes-screen');
+      updateSurvivorDisplay();
+      return;
+    }
+
+    const currentLang = window.lang || 'en';
+
+    const translations = {
+      title: {
+        en: '🏆 Finished! 🏆',
+        nl: '🏆 Voltooid! 🏆',
+        fr: '🏆 Terminé! 🏆',
+        es: '🏆 ¡Terminado! 🏆'
+      },
+      levelReached: {
+        en: 'Level Reached',
+        nl: 'Level Bereikt',
+        fr: 'Niveau Atteint',
+        es: 'Nivel Alcanzado'
+      },
+      score: {
+        en: 'Score',
+        nl: 'Score',
+        fr: 'Score',
+        es: 'Puntuación'
+      },
+      starsEarned: {
+        en: 'stars earned!',
+        nl: 'sterren verdiend!',
+        fr: 'étoiles gagnées!',
+        es: 'estrellas ganadas!'
+      },
+      messageComplete: {
+        en: '🏆 Incredible! All levels conquered!',
+        nl: '🏆 Ongelooflijk! Alle levels veroverd!',
+        fr: '🏆 Incroyable! Tous les niveaux conquis!',
+        es: '🏆 ¡Increíble! ¡Todos los niveles conquistados!'
+      },
+      messagePartial: {
+        en: '🏆 Great survival skills!',
+        nl: '🏆 Geweldige overlevingsvaardigheden!',
+        fr: '🏆 Excellentes compétences de survie!',
+        es: '🏆 ¡Grandes habilidades de supervivencia!'
+      },
+      backButton: {
+        en: 'Back to Challenges',
+        nl: 'Terug naar Uitdagingen',
+        fr: 'Retour aux Défis',
+        es: 'Volver a Desafíos'
+      }
+    };
+
+    titleElement.textContent = translations.title[currentLang];
+    levelElement.textContent = `${translations.levelReached[currentLang]}: ${levelReached}`;
+    scoreElement.textContent = `${translations.score[currentLang]}: ${totalScore}`;
+    starsElement.textContent = `⭐ +${totalScore} ${translations.starsEarned[currentLang]}`;
+    messageElement.textContent = completed ? translations.messageComplete[currentLang] : translations.messagePartial[currentLang];
+    backBtn.textContent = translations.backButton[currentLang];
+
+    modal.classList.remove('hidden');
+
+    backBtn.onclick = () => {
+      modal.classList.add('hidden');
+      window.showScreen('challenge-modes-screen');
+      updateSurvivorDisplay();
+    };
   }
 
   // Initialize Survivor Mode

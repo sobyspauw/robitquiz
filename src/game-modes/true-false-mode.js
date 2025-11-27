@@ -91,6 +91,8 @@
     const playBtn = document.getElementById('tf-play-btn');
     const cooldownDiv = document.getElementById('tf-cooldown');
     const bestScoreElement = document.getElementById('tf-best-score');
+    const overlay = document.getElementById('tf-cooldown-overlay');
+    const timerElement = document.getElementById('tf-cooldown-timer');
 
     // Update best score
     const bestScore = localStorage.getItem('tf_best_score') || '-';
@@ -100,14 +102,38 @@
 
     // Update cooldown display
     if (!cooldownStatus.canPlay) {
-      if (playBtn) playBtn.disabled = true;
-      if (cooldownDiv) {
-        cooldownDiv.textContent = `On cooldown: ${formatTimeRemaining(cooldownStatus.timeRemaining)}`;
-        cooldownDiv.classList.remove('hidden');
+      if (playBtn) {
+        playBtn.disabled = true;
+        playBtn.style.display = 'none'; // Hide play button
+      }
+      if (cooldownDiv) cooldownDiv.classList.add('hidden'); // Hide text cooldown message
+
+      // Show overlay with timer
+      if (overlay && timerElement) {
+        const hours = Math.floor(cooldownStatus.timeRemaining / (60 * 60 * 1000));
+        const minutes = Math.floor((cooldownStatus.timeRemaining % (60 * 60 * 1000)) / (60 * 1000));
+        timerElement.textContent = hours > 0 ? `${hours}h ${minutes}m` : `${minutes}m`;
+        overlay.classList.remove('hidden');
+
+        // Add click handler to show modal
+        overlay.onclick = () => {
+          if (typeof window.showGameModeLockedModal === 'function') {
+            window.showGameModeLockedModal('true-false', 'tf_last_played', cooldownStatus.timeRemaining);
+          }
+        };
       }
     } else {
-      if (playBtn) playBtn.disabled = false;
+      if (playBtn) {
+        playBtn.disabled = false;
+        playBtn.style.display = 'block'; // Show play button
+      }
       if (cooldownDiv) cooldownDiv.classList.add('hidden');
+
+      // Hide overlay
+      if (overlay) {
+        overlay.classList.add('hidden');
+        overlay.onclick = null;
+      }
     }
   }
 
@@ -200,6 +226,20 @@
     falseBtn.className = 'flex-1 bg-red-600 hover:bg-red-700 text-white font-semibold py-3 rounded text-lg';
     falseBtn.style.removeProperty('border'); // Remove inline border style
     falseBtn.innerHTML = '✗ FALSE';
+
+    // Admin Mode: Highlight correct answer
+    if (window.adminModeActive) {
+      const correctAnswer = question.isTrue;
+      if (correctAnswer) {
+        trueBtn.style.backgroundColor = '#fef08a'; // yellow-200
+        trueBtn.style.border = '3px solid #eab308'; // yellow-500
+        console.log('🔍 Admin Mode (True/False): Correct answer is TRUE');
+      } else {
+        falseBtn.style.backgroundColor = '#fef08a'; // yellow-200
+        falseBtn.style.border = '3px solid #eab308'; // yellow-500
+        console.log('🔍 Admin Mode (True/False): Correct answer is FALSE');
+      }
+    }
 
     // Hide explanation
     document.getElementById('tf-explanation').classList.add('hidden');
@@ -353,13 +393,81 @@
       localStorage.setItem('tf_best_score', tfGameState.score.toString());
     }
 
-    // Show completion message
-    const message = `True/False Complete!\n\nScore: ${tfGameState.score}/15\nStars earned: ${totalStars}\n\nWell done!`;
-    alert(message);
+    // Show completion popup
+    showTrueFalseCompletePopup(tfGameState.score, totalStars);
+  }
 
-    // Return to challenge modes screen and update display
-    window.showScreen('challenge-modes-screen');
-    updateTrueFalseDisplay();
+  // Show True/False completion popup
+  function showTrueFalseCompletePopup(score, stars) {
+    const modal = document.getElementById('tf-complete-modal');
+    const titleElement = document.getElementById('tf-complete-title');
+    const scoreElement = document.getElementById('tf-complete-score');
+    const starsElement = document.getElementById('tf-complete-stars');
+    const messageElement = document.getElementById('tf-complete-message');
+    const backBtn = document.getElementById('tf-complete-back');
+
+    if (!modal || !titleElement || !scoreElement || !starsElement || !messageElement || !backBtn) {
+      console.error('True/False complete modal elements not found');
+      // Fallback to alert
+      alert(`True/False Complete!\n\nScore: ${score}/15\nStars earned: ${stars}\n\nWell done!`);
+      window.showScreen('challenge-modes-screen');
+      updateTrueFalseDisplay();
+      return;
+    }
+
+    // Get current language
+    const currentLang = window.lang || 'en';
+
+    // Translations
+    const translations = {
+      title: {
+        en: '🎉 Finished! 🎉',
+        nl: '🎉 Voltooid! 🎉',
+        fr: '🎉 Terminé! 🎉',
+        es: '🎉 ¡Terminado! 🎉'
+      },
+      score: {
+        en: 'Score',
+        nl: 'Score',
+        fr: 'Score',
+        es: 'Puntuación'
+      },
+      starsEarned: {
+        en: 'stars earned!',
+        nl: 'sterren verdiend!',
+        fr: 'étoiles gagnées!',
+        es: 'estrellas ganadas!'
+      },
+      message: {
+        en: '🏆 Excellent work!',
+        nl: '🏆 Geweldig werk!',
+        fr: '🏆 Excellent travail!',
+        es: '🏆 ¡Excelente trabajo!'
+      },
+      backButton: {
+        en: 'Back to Challenges',
+        nl: 'Terug naar Uitdagingen',
+        fr: 'Retour aux Défis',
+        es: 'Volver a Desafíos'
+      }
+    };
+
+    // Update text with translations
+    titleElement.textContent = translations.title[currentLang];
+    scoreElement.textContent = `${translations.score[currentLang]}: ${score}/15`;
+    starsElement.textContent = `⭐ +${stars} ${translations.starsEarned[currentLang]}`;
+    messageElement.textContent = translations.message[currentLang];
+    backBtn.textContent = translations.backButton[currentLang];
+
+    // Show modal
+    modal.classList.remove('hidden');
+
+    // Setup back button
+    backBtn.onclick = () => {
+      modal.classList.add('hidden');
+      window.showScreen('challenge-modes-screen');
+      updateTrueFalseDisplay();
+    };
   }
 
 

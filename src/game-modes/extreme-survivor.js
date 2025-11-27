@@ -74,18 +74,40 @@
     const timerSpan = document.getElementById('esm-timer');
     const bestLevel = localStorage.getItem('esm_best_level') || '-';
     const bestLevelElement = document.getElementById('esm-best-tier'); // Keep existing element ID
+    const overlay = document.getElementById('esm-cooldown-overlay');
+    const timerElement = document.getElementById('esm-cooldown-timer');
 
     if (bestLevelElement) {
       bestLevelElement.textContent = bestLevel === '-' ? '-' : `Level ${bestLevel}`;
     }
 
     if (cooldownStatus.canPlay) {
-      playBtn.style.display = 'block';
-      cooldownDiv.classList.add('hidden');
+      if (playBtn) playBtn.style.display = 'block';
+      if (cooldownDiv) cooldownDiv.classList.add('hidden');
+
+      // Hide overlay
+      if (overlay) {
+        overlay.classList.add('hidden');
+        overlay.onclick = null;
+      }
     } else {
-      playBtn.style.display = 'none';
-      cooldownDiv.classList.remove('hidden');
-      timerSpan.textContent = formatTimeRemaining(cooldownStatus.timeRemaining);
+      if (playBtn) playBtn.style.display = 'none'; // Hide play button
+      if (cooldownDiv) cooldownDiv.classList.add('hidden'); // Hide text cooldown message
+
+      // Show overlay with timer
+      if (overlay && timerElement) {
+        const hours = Math.floor(cooldownStatus.timeRemaining / (60 * 60 * 1000));
+        const minutes = Math.floor((cooldownStatus.timeRemaining % (60 * 60 * 1000)) / (60 * 1000));
+        timerElement.textContent = hours > 0 ? `${hours}h ${minutes}m` : `${minutes}m`;
+        overlay.classList.remove('hidden');
+
+        // Add click handler to show modal
+        overlay.onclick = () => {
+          if (typeof window.showGameModeLockedModal === 'function') {
+            window.showGameModeLockedModal('extreme-survivor', 'esm_last_played', cooldownStatus.timeRemaining);
+          }
+        };
+      }
     }
   }
 
@@ -329,6 +351,15 @@
       btn.textContent = option[lang];
       btn.disabled = false;
       btn.addEventListener('click', () => handleExtremeSurvivorAnswer(index));
+
+      // Admin Mode: Highlight correct answer
+      if (window.adminModeActive && index === question.correctIndex) {
+        btn.style.backgroundColor = '#fef08a'; // yellow-200
+        btn.style.border = '3px solid #eab308'; // yellow-500
+        btn.style.color = '#000000'; // black text for better contrast
+        console.log('🔍 Admin Mode (Extreme Survivor): Highlighted correct answer');
+      }
+
       answersDiv.appendChild(btn);
     });
   }
@@ -472,6 +503,96 @@
     startExtremeSurvivorTimer();
   }
 
+  // Show Extreme Survivor Mode completion popup
+  function showExtremeSurvivorCompletePopup(level, score, completed) {
+    const modal = document.getElementById('esm-complete-modal');
+    const titleElement = document.getElementById('esm-complete-title');
+    const levelElement = document.getElementById('esm-complete-level');
+    const scoreElement = document.getElementById('esm-complete-score');
+    const messageElement = document.getElementById('esm-complete-message');
+    const backBtn = document.getElementById('esm-complete-back');
+
+    // Get current language
+    const currentLang = window.lang || 'en';
+
+    // Translations
+    const translations = {
+      titleComplete: {
+        en: '💀 LEGENDARY! 💀',
+        nl: '💀 LEGENDARISCH! 💀',
+        fr: '💀 LÉGENDAIRE! 💀',
+        es: '💀 ¡LEGENDARIO! 💀'
+      },
+      titlePartial: {
+        en: '💀 Extreme Survival! 💀',
+        nl: '💀 Extreme Overleving! 💀',
+        fr: '💀 Survie Extrême! 💀',
+        es: '💀 ¡Supervivencia Extrema! 💀'
+      },
+      levelReached: {
+        en: 'Reached',
+        nl: 'Bereikt',
+        fr: 'Atteint',
+        es: 'Alcanzado'
+      },
+      score: {
+        en: 'Score',
+        nl: 'Score',
+        fr: 'Score',
+        es: 'Puntuación'
+      },
+      starsEarned: {
+        en: 'stars earned!',
+        nl: 'sterren verdiend!',
+        fr: 'étoiles gagnées!',
+        es: 'estrellas ganadas!'
+      },
+      messageComplete: {
+        en: '🏆 You are the ultimate quiz champion!',
+        nl: '🏆 Jij bent de ultieme quiz kampioen!',
+        fr: '🏆 Vous êtes le champion ultime du quiz!',
+        es: '🏆 ¡Eres el campeón definitivo del quiz!'
+      },
+      messagePartial: {
+        en: '⚡ That was intense! Keep pushing!',
+        nl: '⚡ Dat was intens! Blijf doorgaan!',
+        fr: '⚡ C\'était intense! Continuez!',
+        es: '⚡ ¡Eso fue intenso! ¡Sigue adelante!'
+      },
+      backButton: {
+        en: 'Back to Challenges',
+        nl: 'Terug naar Uitdagingen',
+        fr: 'Retour aux Défis',
+        es: 'Volver a Desafíos'
+      }
+    };
+
+    // Update text with translations
+    if (completed) {
+      titleElement.textContent = translations.titleComplete[currentLang];
+      messageElement.textContent = translations.messageComplete[currentLang];
+      levelElement.textContent = `${translations.levelReached[currentLang]}: Level 10/10 (MASTERED!)`;
+    } else {
+      titleElement.textContent = translations.titlePartial[currentLang];
+      messageElement.textContent = translations.messagePartial[currentLang];
+      levelElement.textContent = `${translations.levelReached[currentLang]}: Level ${level}/10`;
+    }
+
+    scoreElement.textContent = `${translations.score[currentLang]}: ${score}`;
+    document.getElementById('esm-complete-stars').textContent = `⭐ +${score} ${translations.starsEarned[currentLang]}`;
+    backBtn.textContent = translations.backButton[currentLang];
+
+    // Show modal
+    modal.classList.remove('hidden');
+
+    // Setup back button
+    backBtn.onclick = () => {
+      modal.classList.add('hidden');
+      window.showScreen('challenge-modes-screen');
+      updateExtremeSurvivorDisplay();
+    };
+  }
+
   // End Extreme Survivor Mode
   function endExtremeSurvivorMode(completed) {
     esmGameState.isPlaying = false;
@@ -494,17 +615,8 @@
       updateExtremeSurvivorDisplay();
     }
 
-    // Show completion message
-    let message;
-    if (completed) {
-      message = `💀 LEGENDARY! You've mastered Extreme Survival!\n\nFinal Score: ${esmGameState.totalScore} stars\nYou are the ultimate quiz champion!`;
-    } else {
-      message = `💀 Extreme Survival Complete!\n\nReached: Level ${esmGameState.currentLevel}\nScore: ${esmGameState.totalScore} stars\nThat was intense!`;
-    }
-    alert(message);
-
-    // Return to challenge modes screen
-    window.showScreen('challenge-modes-screen');
+    // Show completion popup
+    showExtremeSurvivorCompletePopup(esmGameState.currentLevel, esmGameState.totalScore, completed);
   }
 
   // Initialize Extreme Survivor Mode

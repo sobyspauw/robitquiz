@@ -499,6 +499,7 @@ let timeBonusCount     = 3;
 let adminSequence = [];
 let adminSequenceTimer = null;
 let adminModeActive = false;
+window.adminModeActive = false; // Initialize as window property for game modes
 const targetSequence = ['star', 'gem', 'gem', 'star', 'gem', 'gem', 'star'];
 
 // ─── Secret Reset Mode Variables ───
@@ -1446,6 +1447,532 @@ function formatCooldownTime(milliseconds) {
   return `${minutes}:${seconds.toString().padStart(2, '0')}`;
 }
 
+// Timer interval for locked modal
+let lockedModalTimerInterval = null;
+
+// Show locked subcategory modal
+function showLockedModal(timeLeft, mainTopicId, subcategoryId, level) {
+  const currentLang = window.lang || 'en';
+
+  // Translations for locked modal
+  const translations = {
+    title: {
+      en: 'Oops!',
+      nl: 'Helaas!',
+      fr: 'Dommage!',
+      es: '¡Vaya!'
+    },
+    message: {
+      en: 'This level is locked!',
+      nl: 'Dit level is vergrendeld!',
+      fr: 'Ce niveau est verrouillé!',
+      es: '¡Este nivel está bloqueado!'
+    },
+    remaining: {
+      en: 'remaining',
+      nl: 'resterend',
+      fr: 'restant',
+      es: 'restante'
+    },
+    question: {
+      en: 'Continue playing with a second chance or accept cooldown?',
+      nl: 'Doorgaan met een tweede kans of cooldown accepteren?',
+      fr: 'Continuer avec une seconde chance ou accepter le temps d\'attente?',
+      es: '¿Continuar con una segunda oportunidad o aceptar el tiempo de espera?'
+    },
+    continue: {
+      en: 'Continue',
+      nl: 'Doorgaan',
+      fr: 'Continuer',
+      es: 'Continuar'
+    },
+    acceptCooldown: {
+      en: 'Accept Cooldown',
+      nl: 'Accepteer Cooldown',
+      fr: 'Accepter l\'attente',
+      es: 'Aceptar Espera'
+    }
+  };
+
+  const modal = document.getElementById('locked-modal');
+  const timerElement = document.getElementById('locked-modal-timer');
+  const titleElement = document.getElementById('locked-modal-title');
+  const messageElement = document.getElementById('locked-modal-message');
+  const remainingElement = document.getElementById('locked-modal-remaining');
+  const questionElement = document.getElementById('locked-modal-question');
+  const adTextElement = document.getElementById('locked-modal-ad-text');
+  const gemsTextElement = document.getElementById('locked-modal-gems-text');
+  const backTextElement = document.getElementById('locked-modal-back-text');
+  const continueAdBtn = document.getElementById('locked-modal-continue-ad');
+  const continueGemsBtn = document.getElementById('locked-modal-continue-gems');
+  const backBtn = document.getElementById('locked-modal-back');
+
+  if (!modal || !timerElement || !continueAdBtn || !continueGemsBtn || !backBtn) {
+    console.error('Locked modal elements not found');
+    // Fallback to alert
+    alert(`This level is locked for ${timeLeft} due to a previous failure. Try again later or use diamonds to continue.`);
+    return;
+  }
+
+  // Update translations
+  if (titleElement) titleElement.textContent = translations.title[currentLang];
+  if (messageElement) messageElement.textContent = translations.message[currentLang];
+  if (remainingElement) remainingElement.textContent = translations.remaining[currentLang];
+  if (questionElement) questionElement.textContent = translations.question[currentLang];
+  if (adTextElement) adTextElement.textContent = translations.continue[currentLang];
+  if (gemsTextElement) gemsTextElement.textContent = translations.continue[currentLang];
+  if (backTextElement) backTextElement.textContent = translations.acceptCooldown[currentLang];
+
+  // Clear any existing timer
+  if (lockedModalTimerInterval) {
+    clearInterval(lockedModalTimerInterval);
+    lockedModalTimerInterval = null;
+  }
+
+  // Get cooldown status to calculate remaining time
+  const cooldownStatus = checkSubcategoryCooldown(mainTopicId, subcategoryId, level);
+  let timeRemaining = cooldownStatus.timeRemaining;
+
+  // Update timer text initially
+  timerElement.textContent = formatCooldownTime(timeRemaining);
+
+  // Start countdown timer
+  lockedModalTimerInterval = setInterval(() => {
+    timeRemaining -= 1000; // Decrease by 1 second
+
+    if (timeRemaining <= 0) {
+      // Cooldown expired
+      clearInterval(lockedModalTimerInterval);
+      lockedModalTimerInterval = null;
+      modal.classList.add('hidden');
+      // Refresh the subcategories screen
+      if (window.currentMainTopic) {
+        showSubcategories(window.currentMainTopic);
+      }
+    } else {
+      timerElement.textContent = formatCooldownTime(timeRemaining);
+    }
+  }, 1000);
+
+  // Show modal
+  modal.classList.remove('hidden');
+
+  // Helper function to close modal and clear timer
+  const closeModal = () => {
+    modal.classList.add('hidden');
+    if (lockedModalTimerInterval) {
+      clearInterval(lockedModalTimerInterval);
+      lockedModalTimerInterval = null;
+    }
+  };
+
+  // Watch ad button - just close modal and start quiz (simulated)
+  continueAdBtn.onclick = () => {
+    console.log('Watch ad to continue - simulated for now');
+    closeModal();
+    // TODO: Show actual ad, then clear cooldown and start quiz
+    alert('Ad feature coming soon! For now, starting quiz...');
+    clearSubcategoryCooldown(mainTopicId, subcategoryId, level);
+    startSubcategoryQuiz(mainTopicId, subcategoryId, level);
+  };
+
+  // Pay 5 diamonds button
+  continueGemsBtn.onclick = () => {
+    if (diamonds >= 5) {
+      diamonds -= 5;
+      localStorage.setItem('qb_diamonds', diamonds.toString());
+      updateDiamondDisplay();
+      closeModal();
+      clearSubcategoryCooldown(mainTopicId, subcategoryId, level);
+      startSubcategoryQuiz(mainTopicId, subcategoryId, level);
+    } else {
+      alert('Not enough diamonds! You need 5 diamonds to continue.');
+    }
+  };
+
+  // Accept cooldown button
+  backBtn.onclick = () => {
+    closeModal();
+  };
+
+  // Close on clicking outside
+  modal.onclick = (e) => {
+    if (e.target === modal) {
+      closeModal();
+    }
+  };
+}
+
+// Clear subcategory cooldown
+function clearSubcategoryCooldown(mainTopicId, subcategoryId, level) {
+  const cooldownKey = `cooldown_${mainTopicId}_${subcategoryId}_${level}`;
+  localStorage.removeItem(cooldownKey);
+  console.log(`Cleared cooldown for ${mainTopicId}/${subcategoryId}/level${level}`);
+}
+
+// Timer interval for game mode locked modal
+let gameModeLockedTimerInterval = null;
+
+// Show game mode locked modal
+function showGameModeLockedModal(gameMode, cooldownKey, timeRemaining) {
+  const currentLang = window.lang || 'en';
+
+  // Translations
+  const translations = {
+    title: {
+      en: 'Oops!',
+      nl: 'Helaas!',
+      fr: 'Dommage!',
+      es: '¡Vaya!'
+    },
+    message: {
+      en: 'This game mode is locked!',
+      nl: 'Deze game mode is vergrendeld!',
+      fr: 'Ce mode de jeu est verrouillé!',
+      es: '¡Este modo de juego está bloqueado!'
+    },
+    remaining: {
+      en: 'remaining',
+      nl: 'resterend',
+      fr: 'restant',
+      es: 'restante'
+    },
+    question: {
+      en: 'Reduce cooldown by watching an ad or unlock completely?',
+      nl: 'Verlaag cooldown door een advertentie te kijken of volledig ontgrendelen?',
+      fr: 'Réduire le temps d\'attente en regardant une pub ou débloquer complètement?',
+      es: '¿Reducir tiempo de espera viendo un anuncio o desbloquear completamente?'
+    },
+    reduce: {
+      en: '-2 hours',
+      nl: '-2 uur',
+      fr: '-2 heures',
+      es: '-2 horas'
+    },
+    unlock: {
+      en: 'Full Unlock',
+      nl: 'Volledig Ontgrendelen',
+      fr: 'Déblocage Complet',
+      es: 'Desbloqueo Completo'
+    },
+    acceptCooldown: {
+      en: 'Accept Cooldown',
+      nl: 'Accepteer Cooldown',
+      fr: 'Accepter l\'attente',
+      es: 'Aceptar Espera'
+    }
+  };
+
+  const modal = document.getElementById('gamemode-locked-modal');
+  const timerElement = document.getElementById('gamemode-locked-timer');
+  const titleElement = document.getElementById('gamemode-locked-title');
+  const messageElement = document.getElementById('gamemode-locked-message');
+  const remainingElement = document.getElementById('gamemode-locked-remaining');
+  const questionElement = document.getElementById('gamemode-locked-question');
+  const adTextElement = document.getElementById('gamemode-locked-ad-text');
+  const gemsTextElement = document.getElementById('gamemode-locked-gems-text');
+  const backTextElement = document.getElementById('gamemode-locked-back-text');
+  const continueAdBtn = document.getElementById('gamemode-locked-continue-ad');
+  const continueGemsBtn = document.getElementById('gamemode-locked-continue-gems');
+  const backBtn = document.getElementById('gamemode-locked-back');
+
+  if (!modal) {
+    console.error('Game mode locked modal not found');
+    return;
+  }
+
+  // Check if this is True/False or Lightning Round (short cooldowns)
+  const isShortCooldown = gameMode === 'true-false' || gameMode === 'lightning-round';
+
+  // Update translations
+  if (titleElement) titleElement.textContent = translations.title[currentLang];
+  if (messageElement) messageElement.textContent = translations.message[currentLang];
+  if (remainingElement) remainingElement.textContent = translations.remaining[currentLang];
+  if (questionElement) questionElement.textContent = translations.question[currentLang];
+  // For short cooldowns, ad button shows "Full Unlock", otherwise "-2 hours"
+  if (adTextElement) adTextElement.textContent = isShortCooldown ? translations.unlock[currentLang] : translations.reduce[currentLang];
+  if (gemsTextElement) gemsTextElement.textContent = translations.unlock[currentLang];
+  if (backTextElement) backTextElement.textContent = translations.acceptCooldown[currentLang];
+
+  // Clear any existing timer
+  if (gameModeLockedTimerInterval) {
+    clearInterval(gameModeLockedTimerInterval);
+    gameModeLockedTimerInterval = null;
+  }
+
+  let currentTimeRemaining = timeRemaining;
+
+  // Format time for game modes (hours and minutes)
+  const formatGameModeTime = (ms) => {
+    const hours = Math.floor(ms / (60 * 60 * 1000));
+    const minutes = Math.floor((ms % (60 * 60 * 1000)) / (60 * 1000));
+    if (hours > 0) {
+      return `${hours}h ${minutes}m`;
+    }
+    return `${minutes}m`;
+  };
+
+  // Update timer initially
+  timerElement.textContent = formatGameModeTime(currentTimeRemaining);
+
+  // Start countdown
+  gameModeLockedTimerInterval = setInterval(() => {
+    currentTimeRemaining -= 1000;
+
+    if (currentTimeRemaining <= 0) {
+      clearInterval(gameModeLockedTimerInterval);
+      gameModeLockedTimerInterval = null;
+      modal.classList.add('hidden');
+      // Refresh game modes display
+      if (typeof window.updateTrueFalseDisplay === 'function') window.updateTrueFalseDisplay();
+      if (typeof window.updateLightningDisplay === 'function') window.updateLightningDisplay();
+      if (typeof window.updateSurvivorDisplay === 'function') window.updateSurvivorDisplay();
+      if (typeof window.updateExtremeSurvivorDisplay === 'function') window.updateExtremeSurvivorDisplay();
+    } else {
+      timerElement.textContent = formatGameModeTime(currentTimeRemaining);
+    }
+  }, 1000);
+
+  // Show modal
+  modal.classList.remove('hidden');
+
+  const closeModal = () => {
+    modal.classList.add('hidden');
+    if (gameModeLockedTimerInterval) {
+      clearInterval(gameModeLockedTimerInterval);
+      gameModeLockedTimerInterval = null;
+    }
+  };
+
+  // Watch ad button - full unlock for short cooldowns, -2 hours for long cooldowns
+  continueAdBtn.onclick = () => {
+    closeModal();
+
+    if (isShortCooldown) {
+      // True/False or Lightning Round - full unlock
+      console.log('Watch ad to fully unlock');
+      alert('Ad feature coming soon! Unlocking completely...');
+      localStorage.removeItem(cooldownKey);
+    } else {
+      // Survivor or Extreme Survivor - reduce by 2 hours
+      console.log('Watch ad to reduce cooldown by 2 hours');
+      alert('Ad feature coming soon! Reducing cooldown by 2 hours...');
+      const currentCooldown = parseInt(localStorage.getItem(cooldownKey) || '0');
+      const twoHours = 2 * 60 * 60 * 1000;
+      const newCooldown = Math.max(0, currentCooldown - twoHours + Date.now());
+      localStorage.setItem(cooldownKey, newCooldown.toString());
+    }
+
+    // Refresh displays
+    if (typeof window.updateTrueFalseDisplay === 'function') window.updateTrueFalseDisplay();
+    if (typeof window.updateLightningRoundDisplay === 'function') window.updateLightningRoundDisplay();
+    if (typeof window.updateSurvivorDisplay === 'function') window.updateSurvivorDisplay();
+    if (typeof window.updateExtremeSurvivorDisplay === 'function') window.updateExtremeSurvivorDisplay();
+  };
+
+  // Pay 15 diamonds - full unlock
+  continueGemsBtn.onclick = () => {
+    // Get current diamonds from localStorage
+    let currentDiamonds = parseInt(localStorage.getItem('qb_diamonds') || '0');
+
+    if (currentDiamonds >= 15) {
+      currentDiamonds -= 15;
+      localStorage.setItem('qb_diamonds', currentDiamonds.toString());
+
+      // Update global variable if it exists
+      if (typeof window.diamonds !== 'undefined') {
+        window.diamonds = currentDiamonds;
+      }
+
+      if (typeof updateDiamondDisplay === 'function') {
+        updateDiamondDisplay();
+      }
+
+      closeModal();
+
+      // Clear cooldown completely
+      localStorage.removeItem(cooldownKey);
+
+      // Refresh displays
+      if (typeof window.updateTrueFalseDisplay === 'function') window.updateTrueFalseDisplay();
+      if (typeof window.updateLightningRoundDisplay === 'function') window.updateLightningRoundDisplay();
+      if (typeof window.updateSurvivorDisplay === 'function') window.updateSurvivorDisplay();
+      if (typeof window.updateExtremeSurvivorDisplay === 'function') window.updateExtremeSurvivorDisplay();
+    } else {
+      alert('Not enough diamonds! You need 15 diamonds to unlock.');
+    }
+  };
+
+  // Accept cooldown
+  backBtn.onclick = () => {
+    closeModal();
+  };
+
+  // Close on clicking outside
+  modal.onclick = (e) => {
+    if (e.target === modal) {
+      closeModal();
+    }
+  };
+}
+
+// Export function for game modes to use
+window.showGameModeLockedModal = showGameModeLockedModal;
+
+// Show unlock topic confirmation modal
+function showUnlockTopicModal(topicName, cost, onConfirm) {
+  const modal = document.getElementById('unlock-topic-modal');
+  const topicNameElement = document.getElementById('unlock-topic-name');
+  const costElement = document.getElementById('unlock-topic-cost');
+  const questionElement = document.getElementById('unlock-topic-question');
+  const titleElement = document.getElementById('unlock-topic-title');
+  const confirmBtn = document.getElementById('unlock-topic-confirm');
+  const cancelBtn = document.getElementById('unlock-topic-cancel');
+  const confirmTextElement = document.getElementById('unlock-topic-confirm-text');
+  const cancelTextElement = document.getElementById('unlock-topic-cancel-text');
+
+  // Get current language
+  const currentLang = window.lang || 'en';
+
+  // Translations
+  const translations = {
+    title: {
+      en: '🔓 Unlock Topic?',
+      nl: '🔓 Onderwerp Ontgrendelen?',
+      fr: '🔓 Débloquer le Sujet?',
+      es: '🔓 ¿Desbloquear Tema?'
+    },
+    question: {
+      en: 'Do you want to unlock this topic?',
+      nl: 'Wil je dit onderwerp ontgrendelen?',
+      fr: 'Voulez-vous débloquer ce sujet?',
+      es: '¿Quieres desbloquear este tema?'
+    },
+    cost: {
+      en: 'Cost',
+      nl: 'Kosten',
+      fr: 'Coût',
+      es: 'Costo'
+    },
+    confirm: {
+      en: 'Unlock Now',
+      nl: 'Nu Ontgrendelen',
+      fr: 'Débloquer Maintenant',
+      es: 'Desbloquear Ahora'
+    },
+    cancel: {
+      en: 'Cancel',
+      nl: 'Annuleren',
+      fr: 'Annuler',
+      es: 'Cancelar'
+    }
+  };
+
+  // Update text
+  titleElement.textContent = translations.title[currentLang];
+  topicNameElement.textContent = topicName;
+  costElement.textContent = `${translations.cost[currentLang]}: ${cost} ⭐`;
+  questionElement.textContent = translations.question[currentLang];
+  confirmTextElement.textContent = translations.confirm[currentLang];
+  cancelTextElement.textContent = translations.cancel[currentLang];
+
+  // Show modal
+  modal.classList.remove('hidden');
+
+  // Setup buttons
+  confirmBtn.onclick = () => {
+    modal.classList.add('hidden');
+    onConfirm();
+  };
+
+  cancelBtn.onclick = () => {
+    modal.classList.add('hidden');
+  };
+
+  // Close on clicking outside
+  modal.onclick = (e) => {
+    if (e.target === modal) {
+      modal.classList.add('hidden');
+    }
+  };
+}
+
+// Show insufficient stars modal
+function showInsufficientStarsModal(topicName, cost, currentStars) {
+  const modal = document.getElementById('insufficient-stars-modal');
+  const titleElement = document.getElementById('insufficient-stars-title');
+  const topicElement = document.getElementById('insufficient-stars-topic');
+  const costElement = document.getElementById('insufficient-stars-cost');
+  const currentElement = document.getElementById('insufficient-stars-current');
+  const messageElement = document.getElementById('insufficient-stars-message');
+  const closeBtn = document.getElementById('insufficient-stars-close');
+  const closeTextElement = document.getElementById('insufficient-stars-close-text');
+
+  // Get current language
+  const currentLang = window.lang || 'en';
+
+  // Translations
+  const translations = {
+    title: {
+      en: '⭐ Not Enough Stars',
+      nl: '⭐ Niet Genoeg Sterren',
+      fr: '⭐ Pas Assez d\'Étoiles',
+      es: '⭐ No Hay Suficientes Estrellas'
+    },
+    required: {
+      en: 'Required',
+      nl: 'Vereist',
+      fr: 'Requis',
+      es: 'Requerido'
+    },
+    youHave: {
+      en: 'You have',
+      nl: 'Je hebt',
+      fr: 'Vous avez',
+      es: 'Tienes'
+    },
+    message: {
+      en: 'Keep playing to earn more stars!',
+      nl: 'Blijf spelen om meer sterren te verdienen!',
+      fr: 'Continuez à jouer pour gagner plus d\'étoiles!',
+      es: '¡Sigue jugando para ganar más estrellas!'
+    },
+    close: {
+      en: 'OK',
+      nl: 'OK',
+      fr: 'OK',
+      es: 'OK'
+    }
+  };
+
+  // Update text
+  titleElement.textContent = translations.title[currentLang];
+  topicElement.textContent = topicName;
+  costElement.textContent = `${translations.required[currentLang]}: ${cost} ⭐`;
+  currentElement.textContent = `${translations.youHave[currentLang]}: ${currentStars} ⭐`;
+  messageElement.textContent = translations.message[currentLang];
+  closeTextElement.textContent = translations.close[currentLang];
+
+  // Show modal
+  modal.classList.remove('hidden');
+
+  // Setup close button
+  closeBtn.onclick = () => {
+    modal.classList.add('hidden');
+  };
+
+  // Close on clicking outside
+  modal.onclick = (e) => {
+    if (e.target === modal) {
+      modal.classList.add('hidden');
+    }
+  };
+}
+
+// Export functions
+window.showUnlockTopicModal = showUnlockTopicModal;
+window.showInsufficientStarsModal = showInsufficientStarsModal;
+
 function resetLevelCooldown(groupIndex, levelIndex) {
   const cooldownKey = getLevelCooldownKey(groupIndex, levelIndex);
   localStorage.removeItem(cooldownKey);
@@ -1644,20 +2171,20 @@ function showSubjects() {
     container.className = 'w-full';
 
     const btn = document.createElement('button');
-    // Color based on topic
+    // Color based on topic - each topic gets unique gradient
     const topicColors = {
-      'ai': 'from-purple-600 to-blue-600',
-      'egypt': 'from-yellow-600 to-orange-600',
-      'food': 'from-green-600 to-emerald-600',
-      'f1': 'from-red-600 to-pink-600',
-      'board-games': 'from-indigo-600 to-purple-600',
-      'books': 'from-amber-600 to-yellow-600',
-      'currencies': 'from-yellow-500 to-green-600',
-      'desserts': 'from-pink-500 to-rose-600',
-      'dinosaurs': 'from-green-700 to-teal-600',
-      'drinks': 'from-cyan-600 to-blue-500',
-      'famous-buildings': 'from-stone-600 to-gray-600',
-      'famous-people': 'from-orange-500 to-red-600'
+      'ai': 'from-purple-600 to-indigo-600',
+      'egypt': 'from-amber-500 to-yellow-600',
+      'food': 'from-lime-600 to-green-600',
+      'f1': 'from-red-600 to-rose-600',
+      'board-games': 'from-violet-600 to-purple-600',
+      'books': 'from-orange-600 to-amber-600',
+      'currencies': 'from-emerald-600 to-teal-600',
+      'desserts': 'from-pink-600 to-fuchsia-600',
+      'dinosaurs': 'from-green-700 to-emerald-700',
+      'drinks': 'from-cyan-600 to-sky-600',
+      'famous-buildings': 'from-blue-700 to-indigo-700',
+      'famous-people': 'from-orange-500 to-red-500'
     };
     const color = topicColors[topic.id] || 'from-gray-600 to-gray-700';
 
@@ -1726,8 +2253,7 @@ function showSubjects() {
       } else {
         // Show unlock popup
         if (userStars >= cost) {
-          const confirmed = confirm(`Unlock "${topic.name[lang]}" for ${cost} stars?`);
-          if (confirmed) {
+          showUnlockTopicModal(topic.name[lang], cost, () => {
             // Deduct stars and unlock
             const newStars = userStars - cost;
             localStorage.setItem('qb_stars', newStars.toString());
@@ -1740,9 +2266,9 @@ function showSubjects() {
 
             // Refresh screen
             showSubjects();
-          }
+          });
         } else {
-          alert(`You need ${cost} stars to unlock this topic. You currently have ${userStars} stars.`);
+          showInsufficientStarsModal(topic.name[lang], cost, userStars);
         }
       }
     });
@@ -1773,6 +2299,23 @@ function showSubcategories(mainTopicId) {
   const img = document.getElementById('levels-subject-image');
   img.style.display = 'none'; // Hide image, we'll just use text title
 
+  // Get color for this main topic - each topic gets unique gradient
+  const topicColors = {
+    'ai': 'from-purple-600 to-indigo-600',
+    'egypt': 'from-amber-500 to-yellow-600',
+    'food': 'from-lime-600 to-green-600',
+    'f1': 'from-red-600 to-rose-600',
+    'board-games': 'from-violet-600 to-purple-600',
+    'books': 'from-orange-600 to-amber-600',
+    'currencies': 'from-emerald-600 to-teal-600',
+    'desserts': 'from-pink-600 to-fuchsia-600',
+    'dinosaurs': 'from-green-700 to-emerald-700',
+    'drinks': 'from-cyan-600 to-sky-600',
+    'famous-buildings': 'from-blue-700 to-indigo-700',
+    'famous-people': 'from-orange-500 to-red-500'
+  };
+  const topicColor = topicColors[mainTopicId] || 'from-blue-500 to-purple-600';
+
   // Create subcategory buttons
   topic.subcategories.forEach((subcat) => {
     const currentLevel = window.getSubcategoryProgress(mainTopicId, subcat.id);
@@ -1797,15 +2340,15 @@ function showSubcategories(mainTopicId) {
     container.className = 'w-full relative';
 
     const btn = document.createElement('button');
-    // Disable button if all levels completed or on cooldown
+    // Disable button if all levels completed, make clickable if on cooldown (to show modal)
     if (isFullyCompleted) {
       btn.className = 'w-full font-semibold py-4 px-6 rounded-xl shadow-lg bg-gradient-to-r from-green-500 to-green-600 text-white opacity-75 cursor-not-allowed';
       btn.disabled = true;
     } else if (isOnCooldown) {
-      btn.className = 'w-full font-semibold py-4 px-6 rounded-xl shadow-lg bg-gradient-to-r from-blue-500 to-purple-600 text-white opacity-50 cursor-not-allowed';
-      btn.disabled = true;
+      btn.className = `w-full font-semibold py-4 px-6 rounded-xl shadow-lg bg-gradient-to-r ${topicColor} text-white opacity-50 cursor-pointer`;
+      btn.disabled = false; // Keep clickable to show modal
     } else {
-      btn.className = 'w-full font-semibold py-4 px-6 rounded-xl shadow-lg bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:opacity-90 transition-all duration-300';
+      btn.className = `w-full font-semibold py-4 px-6 rounded-xl shadow-lg bg-gradient-to-r ${topicColor} text-white hover:opacity-90 transition-all duration-300`;
     }
 
     // Top section: Icon, name, and level indicator
@@ -1873,12 +2416,21 @@ function showSubcategories(mainTopicId) {
       container.appendChild(overlay);
     }
 
-    // Click handler - only if not fully completed and not on cooldown
-    if (!isFullyCompleted && !isOnCooldown) {
-      btn.addEventListener('click', () => {
-        console.log(`Starting ${subcat.name[lang]} at level ${currentLevel}`);
-        startSubcategoryQuiz(mainTopicId, subcat.id, currentLevel);
-      });
+    // Click handler
+    if (!isFullyCompleted) {
+      if (isOnCooldown) {
+        // Show locked modal when clicking on locked subcategory
+        btn.addEventListener('click', () => {
+          const timeLeft = formatCooldownTime(cooldownStatus.timeRemaining);
+          showLockedModal(timeLeft, mainTopicId, subcat.id, currentLevel);
+        });
+      } else {
+        // Normal start quiz handler
+        btn.addEventListener('click', () => {
+          console.log(`Starting ${subcat.name[lang]} at level ${currentLevel}`);
+          startSubcategoryQuiz(mainTopicId, subcat.id, currentLevel);
+        });
+      }
     }
 
     container.appendChild(btn);
@@ -1896,7 +2448,7 @@ function startSubcategoryQuiz(mainTopicId, subcategoryId, level) {
   const cooldownStatus = checkSubcategoryCooldown(mainTopicId, subcategoryId, level);
   if (!cooldownStatus.canPlay) {
     const timeLeft = formatCooldownTime(cooldownStatus.timeRemaining);
-    alert(`This level is locked for ${timeLeft} due to a previous failure. Try again later or use diamonds to continue.`);
+    showLockedModal(timeLeft, mainTopicId, subcategoryId, level);
     return;
   }
 
@@ -2521,23 +3073,36 @@ async function startDailyChallenge() {
 function renderChallengeQuestion() {
   const q = challengeQuestions[challengeIndex];
   document.getElementById('challenge-question').innerText = q.question[lang];
-  
+
   const answersDiv = document.getElementById('challenge-answers');
   answersDiv.innerHTML = '';
-  
+
+  // Get correct answer before shuffling
+  const correctIndex = q.correctIndex !== undefined ? q.correctIndex : q.correct;
+  const correctAnswer = q.options[correctIndex][lang];
+
   [...q.options].sort(() => Math.random() - 0.5).forEach(optObj => {
     const btn = document.createElement('button');
     btn.classList.add('answer-btn', 'px-4', 'py-2', 'rounded', 'w-full', 'text-left', 'font-semibold');
     btn.disabled = false;
     btn.innerText = optObj[lang];
     btn.addEventListener('click', () => handleChallengeAnswer(optObj[lang], btn));
+
+    // Admin Mode: Highlight correct answer
+    if (adminModeActive && optObj[lang] === correctAnswer) {
+      btn.style.backgroundColor = '#fef08a'; // yellow-200
+      btn.style.border = '3px solid #eab308'; // yellow-500
+      btn.style.color = '#000000'; // black text for better contrast
+      console.log('🔍 Admin Mode (Daily Challenge): Highlighted correct answer');
+    }
+
     answersDiv.appendChild(btn);
   });
-  
+
   // Update progress
   document.getElementById('challenge-progress').innerText = `Question ${challengeIndex + 1}/5`;
   document.getElementById('challenge-wrong').innerText = `Mistakes: ${challengeWrong}/1`;
-  
+
   startChallengeTimer();
 }
 
@@ -4251,13 +4816,19 @@ function initializeApp() {
   fiftyFiftyCount = parseInt(localStorage.getItem('qb_fifty_fifty_count') || '3');
   skipCount = parseInt(localStorage.getItem('qb_skip_count') || '3');
   timeBonusCount = parseInt(localStorage.getItem('qb_time_bonus_count') || '3');
-  
+
   // Initialize new player items or missing power-ups
   const isNewPlayer = !localStorage.getItem('qb_stars') && !localStorage.getItem('qb_diamonds');
   const hasNoFiftyFifty = !localStorage.getItem('qb_fifty_fifty_count');
   const hasNoSkip = !localStorage.getItem('qb_skip_count');
   const hasNoTimeBonus = !localStorage.getItem('qb_time_bonus_count');
-  
+
+  // Give new players 25 free gems
+  if (isNewPlayer) {
+    diamonds = 25;
+    localStorage.setItem('qb_diamonds', diamonds.toString());
+  }
+
   // Always ensure users have their free power-ups if not set or if they have 0
   if (isNewPlayer || hasNoFiftyFifty || fiftyFiftyCount === 0) {
     fiftyFiftyCount = Math.max(fiftyFiftyCount, 3);
@@ -4391,19 +4962,20 @@ function handleAdminSequence(type) {
 function activateAdminMode() {
   console.log('🎉 ADMIN MODE ACTIVATED!');
   adminModeActive = true;
-  
+  window.adminModeActive = true; // Export to window for game modes
+
   // Grant 1,000,000 stars and gems
   stars += 1000000;
   diamonds += 1000000;
-  
-  // Update displays
-  updateStarDisplay();
-  updateDiamondDisplay();
-  
-  // Update localStorage
+
+  // Update localStorage FIRST (before updating displays)
   localStorage.setItem('qb_stars', stars.toString());
   localStorage.setItem('qb_diamonds', diamonds.toString());
-  
+
+  // Update displays (these read from localStorage)
+  updateStarDisplay();
+  updateDiamondDisplay();
+
   // Show confirmation
   alert('🎉 ADMIN MODE ACTIVATED!\n💰 1,000,000 Stars & Gems Added!');
 }
@@ -4411,6 +4983,7 @@ function activateAdminMode() {
 function disableAdminMode() {
   console.log('Admin mode disabled');
   adminModeActive = false;
+  window.adminModeActive = false; // Export to window for game modes
   adminSequence = [];
   if (adminSequenceTimer) {
     clearTimeout(adminSequenceTimer);

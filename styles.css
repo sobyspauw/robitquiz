@@ -637,7 +637,16 @@ input[type="range"]::-moz-range-thumb {
 #timeout-modal > div,
 #error-modal > div,
 #complete-modal > div,
-#challenge-failed-modal > div {
+#challenge-failed-modal > div,
+#locked-modal > div,
+#gamemode-locked-modal > div,
+#gamemode-info-modal > div,
+#tf-complete-modal > div,
+#lr-complete-modal > div,
+#sm-complete-modal > div,
+#esm-complete-modal > div,
+#unlock-topic-modal > div,
+#insufficient-stars-modal > div {
   background-color: var(--bg-primary) !important;
   background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
   border: 3px solid var(--pinkish-red) !important;
@@ -647,7 +656,16 @@ input[type="range"]::-moz-range-thumb {
 body.light-mode #timeout-modal > div,
 body.light-mode #error-modal > div,
 body.light-mode #complete-modal > div,
-body.light-mode #challenge-failed-modal > div {
+body.light-mode #challenge-failed-modal > div,
+body.light-mode #locked-modal > div,
+body.light-mode #gamemode-locked-modal > div,
+body.light-mode #gamemode-info-modal > div,
+body.light-mode #tf-complete-modal > div,
+body.light-mode #lr-complete-modal > div,
+body.light-mode #sm-complete-modal > div,
+body.light-mode #esm-complete-modal > div,
+body.light-mode #unlock-topic-modal > div,
+body.light-mode #insufficient-stars-modal > div {
   background-color: var(--bg-primary) !important;
   background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
   border: 3px solid var(--pinkish-red) !important;
@@ -657,20 +675,158 @@ body.light-mode #challenge-failed-modal > div {
 #timeout-modal > div > div,
 #error-modal > div > div,
 #complete-modal > div > div,
-#challenge-failed-modal > div > div {
+#challenge-failed-modal > div > div,
+#locked-modal > div > div,
+#gamemode-locked-modal > div > div,
+#gamemode-info-modal > div > div,
+#tf-complete-modal > div > div,
+#lr-complete-modal > div > div,
+#sm-complete-modal > div > div,
+#esm-complete-modal > div > div {
   background: transparent !important;
 }
 
 /* Modal buttons */
-#error-modal-back, #timeout-back {
+#error-modal-back, #timeout-back, #locked-modal-back, #gamemode-locked-back {
   background: rgba(244, 185, 66, 0.2) !important;
   color: var(--white) !important;
   border: 1px solid var(--golden-yellow) !important;
 }
 
-#error-modal-back:hover, #timeout-back:hover {
+#error-modal-back:hover, #timeout-back:hover, #locked-modal-back:hover, #gamemode-locked-back:hover {
   background: var(--golden-yellow) !important;
   color: var(--deep-navy) !important;
+}
+
+/* Timer and text in locked modals - always white */
+#locked-modal-timer,
+#gamemode-locked-timer,
+#locked-modal-remaining,
+#gamemode-locked-remaining,
+#locked-modal-ad-text,
+#locked-modal-gems-text,
+#locked-modal-back-text,
+#gamemode-locked-ad-text,
+#gamemode-locked-gems-text,
+#gamemode-locked-back-text {
+  color: var(--white) !important;
+}
+
+body.light-mode #locked-modal-timer,
+body.light-mode #gamemode-locked-timer,
+body.light-mode #locked-modal-remaining,
+body.light-mode #gamemode-locked-remaining,
+body.light-mode #locked-modal-ad-text,
+body.light-mode #locked-modal-gems-text,
+body.light-mode #locked-modal-back-text,
+body.light-mode #gamemode-locked-ad-text,
+body.light-mode #gamemode-locked-gems-text,
+body.light-mode #gamemode-locked-back-text {
+  color: var(--white) !important;
+}
+
+/* Game Mode Info Modal styling */
+#gamemode-info-title {
+  color: var(--white) !important;
+}
+
+#gamemode-info-content {
+  color: var(--white) !important;
+}
+
+#gamemode-info-content h4 {
+  color: var(--golden-yellow) !important;
+}
+
+#gamemode-info-content ul,
+#gamemode-info-content p {
+  color: var(--white) !important;
+}
+
+/* Info boxes within game mode info */
+#gamemode-info-content .bg-blue-50,
+#gamemode-info-content .bg-yellow-50,
+#gamemode-info-content .bg-green-50,
+#gamemode-info-content .bg-red-50 {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-left-color: var(--bright-cyan) !important;
+}
+
+#gamemode-info-content .text-blue-900,
+#gamemode-info-content .text-yellow-900,
+#gamemode-info-content .text-green-900,
+#gamemode-info-content .text-red-900 {
+  color: var(--white) !important;
+}
+
+#gamemode-info-close {
+  color: var(--white) !important;
+}
+
+#gamemode-info-close:hover {
+  color: var(--golden-yellow) !important;
+}
+
+#gamemode-info-ok {
+  background: var(--bright-cyan) !important;
+  color: var(--deep-navy) !important;
+}
+
+#gamemode-info-ok:hover {
+  background: #029bb5 !important;
+}
+
+body.light-mode #gamemode-info-title,
+body.light-mode #gamemode-info-content,
+body.light-mode #gamemode-info-content h4,
+body.light-mode #gamemode-info-content ul,
+body.light-mode #gamemode-info-content p,
+body.light-mode #gamemode-info-close {
+  color: var(--white) !important;
+}
+
+body.light-mode #gamemode-info-content .text-blue-900,
+body.light-mode #gamemode-info-content .text-yellow-900,
+body.light-mode #gamemode-info-content .text-green-900,
+body.light-mode #gamemode-info-content .text-red-900 {
+  color: var(--white) !important;
+}
+
+/* Game Mode Complete Modals styling */
+#tf-complete-title, #tf-complete-score, #tf-complete-stars, #tf-complete-message,
+#lr-complete-title, #lr-complete-questions, #lr-complete-score, #lr-complete-stars, #lr-complete-message,
+#sm-complete-title, #sm-complete-level, #sm-complete-score, #sm-complete-stars, #sm-complete-message,
+#esm-complete-title, #esm-complete-level, #esm-complete-score, #esm-complete-stars, #esm-complete-message {
+  color: var(--white) !important;
+}
+
+body.light-mode #tf-complete-title, body.light-mode #tf-complete-score, body.light-mode #tf-complete-stars, body.light-mode #tf-complete-message,
+body.light-mode #lr-complete-title, body.light-mode #lr-complete-questions, body.light-mode #lr-complete-score, body.light-mode #lr-complete-stars, body.light-mode #lr-complete-message,
+body.light-mode #sm-complete-title, body.light-mode #sm-complete-level, body.light-mode #sm-complete-score, body.light-mode #sm-complete-stars, body.light-mode #sm-complete-message,
+body.light-mode #esm-complete-title, body.light-mode #esm-complete-level, body.light-mode #esm-complete-score, body.light-mode #esm-complete-stars, body.light-mode #esm-complete-message {
+  color: var(--white) !important;
+}
+
+/* Unlock Topic Modal styling */
+#unlock-topic-title, #unlock-topic-name, #unlock-topic-cost, #unlock-topic-question,
+#unlock-topic-confirm-text, #unlock-topic-cancel-text {
+  color: var(--white) !important;
+}
+
+body.light-mode #unlock-topic-title, body.light-mode #unlock-topic-name, body.light-mode #unlock-topic-cost, body.light-mode #unlock-topic-question,
+body.light-mode #unlock-topic-confirm-text, body.light-mode #unlock-topic-cancel-text {
+  color: var(--white) !important;
+}
+
+/* Insufficient Stars Modal styling */
+#insufficient-stars-title, #insufficient-stars-topic, #insufficient-stars-cost,
+#insufficient-stars-current, #insufficient-stars-message, #insufficient-stars-close-text {
+  color: var(--white) !important;
+}
+
+body.light-mode #insufficient-stars-title, body.light-mode #insufficient-stars-topic, body.light-mode #insufficient-stars-cost,
+body.light-mode #insufficient-stars-current, body.light-mode #insufficient-stars-message, body.light-mode #insufficient-stars-close-text {
+  color: var(--white) !important;
 }
 
 #complete-next-level {
@@ -1518,6 +1674,16 @@ body.light-mode #levels-screen * {
 /* Shop screen keeps same colors in light mode as dark mode */
 body.light-mode #shop-title {
   color: var(--golden-yellow) !important;
+}
+
+/* True/False complete modal - keep modal background white and text readable in light mode */
+body.light-mode #tf-complete-modal .bg-white {
+  background-color: #ffffff !important;
+}
+
+body.light-mode #tf-complete-score,
+body.light-mode #tf-complete-stars {
+  color: inherit !important;
 }
 
 /* Keep countdown timer text white on dark overlay in light mode */

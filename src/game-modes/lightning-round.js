@@ -56,18 +56,40 @@
     const timerSpan = document.getElementById('lr-timer');
     const bestScore = localStorage.getItem('lr_best_score') || '-';
     const bestScoreElement = document.getElementById('lr-best-score');
-    
+    const overlay = document.getElementById('lr-cooldown-overlay');
+    const timerElement = document.getElementById('lr-cooldown-timer');
+
     if (bestScoreElement) {
       bestScoreElement.textContent = bestScore === '-' ? '-' : `${bestScore} questions`;
     }
-    
+
     if (cooldownStatus.canPlay) {
-      playBtn.style.display = 'block';
-      cooldownDiv.classList.add('hidden');
+      if (playBtn) playBtn.style.display = 'block';
+      if (cooldownDiv) cooldownDiv.classList.add('hidden');
+
+      // Hide overlay
+      if (overlay) {
+        overlay.classList.add('hidden');
+        overlay.onclick = null;
+      }
     } else {
-      playBtn.style.display = 'none';
-      cooldownDiv.classList.remove('hidden');
-      timerSpan.textContent = formatTimeRemaining(cooldownStatus.timeRemaining);
+      if (playBtn) playBtn.style.display = 'none'; // Hide play button
+      if (cooldownDiv) cooldownDiv.classList.add('hidden'); // Hide text cooldown message
+
+      // Show overlay with timer
+      if (overlay && timerElement) {
+        const hours = Math.floor(cooldownStatus.timeRemaining / (60 * 60 * 1000));
+        const minutes = Math.floor((cooldownStatus.timeRemaining % (60 * 60 * 1000)) / (60 * 1000));
+        timerElement.textContent = hours > 0 ? `${hours}h ${minutes}m` : `${minutes}m`;
+        overlay.classList.remove('hidden');
+
+        // Add click handler to show modal
+        overlay.onclick = () => {
+          if (typeof window.showGameModeLockedModal === 'function') {
+            window.showGameModeLockedModal('lightning-round', 'lr_last_played', cooldownStatus.timeRemaining);
+          }
+        };
+      }
     }
   }
 
@@ -240,6 +262,15 @@
       btn.textContent = option[lang];
       btn.disabled = false;
       btn.addEventListener('click', () => handleLightningAnswer(index));
+
+      // Admin Mode: Highlight correct answer
+      if (window.adminModeActive && index === question.correctIndex) {
+        btn.style.backgroundColor = '#fef08a'; // yellow-200
+        btn.style.border = '3px solid #eab308'; // yellow-500
+        btn.style.color = '#000000'; // black text for better contrast
+        console.log('🔍 Admin Mode (Lightning Round): Highlighted correct answer');
+      }
+
       answersDiv.appendChild(btn);
     });
   }
@@ -377,13 +408,87 @@
       updateLightningRoundDisplay();
     }
     
-    // Show completion message
+    // Set cooldown (2 hours)
+    localStorage.setItem('lr_last_played', Date.now().toString());
+
+    // Show completion popup
     const completionBonus = lrGameState.questionsAnswered >= 12 ? 50 : 0;
-    const message = `Lightning Round Complete!\n\nQuestions answered: ${lrGameState.questionsAnswered}\nTotal score: ${lrGameState.score}\nCompletion bonus: ${completionBonus}\nTotal stars earned: ${totalStars}\n\nExcellent speed!`;
-    alert(message);
-    
-    // Return to challenge modes screen
-    window.showScreen('challenge-modes-screen');
+    showLightningCompletePopup(lrGameState.questionsAnswered, lrGameState.score, completionBonus, totalStars);
+  }
+
+  // Show Lightning Round completion popup
+  function showLightningCompletePopup(questionsAnswered, score, bonus, totalStars) {
+    const modal = document.getElementById('lr-complete-modal');
+    const titleElement = document.getElementById('lr-complete-title');
+    const questionsElement = document.getElementById('lr-complete-questions');
+    const scoreElement = document.getElementById('lr-complete-score');
+    const starsElement = document.getElementById('lr-complete-stars');
+    const messageElement = document.getElementById('lr-complete-message');
+    const backBtn = document.getElementById('lr-complete-back');
+
+    if (!modal || !titleElement || !questionsElement || !scoreElement || !starsElement || !messageElement || !backBtn) {
+      console.error('Lightning Round complete modal elements not found');
+      alert(`Lightning Round Complete!\n\nQuestions: ${questionsAnswered}\nScore: ${score}\nBonus: ${bonus}\nTotal stars: ${totalStars}`);
+      window.showScreen('challenge-modes-screen');
+      updateLightningRoundDisplay();
+      return;
+    }
+
+    const currentLang = window.lang || 'en';
+
+    const translations = {
+      title: {
+        en: '⚡ Finished! ⚡',
+        nl: '⚡ Voltooid! ⚡',
+        fr: '⚡ Terminé! ⚡',
+        es: '⚡ ¡Terminado! ⚡'
+      },
+      questions: {
+        en: 'Questions',
+        nl: 'Vragen',
+        fr: 'Questions',
+        es: 'Preguntas'
+      },
+      score: {
+        en: 'Score',
+        nl: 'Score',
+        fr: 'Score',
+        es: 'Puntuación'
+      },
+      starsEarned: {
+        en: 'stars earned!',
+        nl: 'sterren verdiend!',
+        fr: 'étoiles gagnées!',
+        es: 'estrellas ganadas!'
+      },
+      message: {
+        en: '⚡ Excellent speed!',
+        nl: '⚡ Uitstekende snelheid!',
+        fr: '⚡ Excellente vitesse!',
+        es: '⚡ ¡Excelente velocidad!'
+      },
+      backButton: {
+        en: 'Back to Challenges',
+        nl: 'Terug naar Uitdagingen',
+        fr: 'Retour aux Défis',
+        es: 'Volver a Desafíos'
+      }
+    };
+
+    titleElement.textContent = translations.title[currentLang];
+    questionsElement.textContent = `${translations.questions[currentLang]}: ${questionsAnswered}`;
+    scoreElement.textContent = `${translations.score[currentLang]}: ${score}`;
+    starsElement.textContent = `⭐ +${totalStars} ${translations.starsEarned[currentLang]}`;
+    messageElement.textContent = translations.message[currentLang];
+    backBtn.textContent = translations.backButton[currentLang];
+
+    modal.classList.remove('hidden');
+
+    backBtn.onclick = () => {
+      modal.classList.add('hidden');
+      window.showScreen('challenge-modes-screen');
+      updateLightningRoundDisplay();
+    };
   }
 
   // Initialize Lightning Round mode
