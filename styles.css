@@ -1217,7 +1217,12 @@ body.light-mode #extreme-survivor-screen h1, body.light-mode #extreme-survivor-s
 }
 
 #tf-question-card,
-#lr-question-card,
+#lr-question-card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 #sm-question-card,
 #esm-question-card {
   background: transparent !important;
@@ -1272,7 +1277,11 @@ body.light-mode #esm-timer-display {
 }
 
 body.light-mode #tf-question-card,
-body.light-mode #lr-question-card,
+body.light-mode #lr-question-card {
+  background: transparent !important;
+  border: none !important;
+}
+
 body.light-mode #sm-question-card,
 body.light-mode #esm-question-card {
   background: transparent !important;

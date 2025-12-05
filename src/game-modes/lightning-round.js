@@ -188,6 +188,9 @@
     lrGameState.isPlaying = true;
     lrGameState.questionsAnswered = 0;
 
+    // Hide back button during game
+    if (typeof updateTopBar === 'function') updateTopBar('lightning-round-screen');
+
     if (lrGameState.questions.length === 0) {
       alert('No questions available. Please try again later.');
       return;
@@ -383,7 +386,10 @@
     lrGameState.isPlaying = false;
     clearTimeout(lrGameState.gameTimer);
     clearInterval(lrGameState.gameTimerInterval);
-    
+
+    // Show back button again
+    if (typeof updateTopBar === 'function') updateTopBar('lightning-round-screen');
+
     // Update used questions tracking
     updateUsedLightningQuestions();
     

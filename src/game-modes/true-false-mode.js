@@ -164,6 +164,9 @@
     tfGameState.timeLeft = 10;
     tfGameState.isPlaying = true;
 
+    // Hide back button during game
+    if (typeof updateTopBar === 'function') updateTopBar('true-false-screen');
+
     // Clear any existing timers
     clearTimeout(tfGameState.timer);
     clearInterval(tfGameState.timerInterval);
@@ -372,6 +375,9 @@
     tfGameState.isPlaying = false;
     clearTimeout(tfGameState.timer);
     clearInterval(tfGameState.timerInterval);
+
+    // Show back button again
+    if (typeof updateTopBar === 'function') updateTopBar('true-false-screen');
 
     // Set cooldown (15 minutes)
     localStorage.setItem('tf_last_played', Date.now().toString());

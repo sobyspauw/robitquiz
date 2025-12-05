@@ -12,7 +12,10 @@
     totalSteps: 23,
     isCompleted: false,
     typingInProgress: false,
-    currentTypingTimeout: null
+    currentTypingTimeout: null,
+    currentTarget: null, // Store current target for scroll updates
+    currentInteractive: false,
+    currentBlockClicks: false
   };
 
   // Tutorial translations
@@ -306,6 +309,11 @@
     const backdrop = document.getElementById('tutorial-backdrop');
     const clickLayer = document.getElementById('tutorial-click-layer');
 
+    // Store current target for scroll updates
+    tutorialState.currentTarget = target;
+    tutorialState.currentInteractive = makeInteractive;
+    tutorialState.currentBlockClicks = blockClicks;
+
     // No target means no highlight - backdrop stays visible but no cutout
     if (!highlight || !target) {
       if (highlight) {
@@ -317,6 +325,7 @@
       if (clickLayer) {
         clickLayer.style.display = 'none';
       }
+      tutorialState.currentTarget = null;
       return;
     }
 
@@ -358,6 +367,10 @@
     const width = maxX - minX + padding * 2;
     const height = maxY - minY + padding * 2;
 
+    // Check if target is inside top bar
+    const topBar = document.getElementById('top-bar');
+    const isInTopBar = topBar && elements.some(el => topBar.contains(el));
+
     // Show and position highlight border
     highlight.style.display = 'block';
     highlight.style.left = x + 'px';
@@ -366,17 +379,49 @@
     highlight.style.height = height + 'px';
     highlight.style.zIndex = '10002';
 
+    // If not in top bar, clip the highlight so it doesn't go over the top bar
+    if (!isInTopBar && topBar) {
+      const topBarRect = topBar.getBoundingClientRect();
+      const topBarBottom = topBarRect.bottom;
+
+      // Use clip-path to cut off the top part if it goes over top bar
+      if (y < topBarBottom) {
+        const clipTop = Math.max(0, topBarBottom - y);
+        highlight.style.clipPath = `inset(${clipTop}px 0px 0px 0px)`;
+      } else {
+        highlight.style.clipPath = 'none';
+      }
+    } else {
+      highlight.style.clipPath = 'none';
+    }
+
     // Create a cutout in the backdrop using CSS polygon clip-path
     // This makes the highlighted area fully visible with normal colors
     if (backdrop) {
+      // Adjust cutout to not go above top bar
+      let cutoutY = y;
+      let cutoutHeight = height;
+
+      if (!isInTopBar && topBar) {
+        const topBarRect = topBar.getBoundingClientRect();
+        const topBarBottom = topBarRect.bottom;
+
+        if (y < topBarBottom) {
+          // Adjust cutout to start at top bar bottom
+          const clipAmount = topBarBottom - y;
+          cutoutY = topBarBottom;
+          cutoutHeight = Math.max(0, height - clipAmount);
+        }
+      }
+
       const cutoutPath = `polygon(
         0% 0%,
         0% 100%,
         ${x}px 100%,
-        ${x}px ${y}px,
-        ${x + width}px ${y}px,
-        ${x + width}px ${y + height}px,
-        ${x}px ${y + height}px,
+        ${x}px ${cutoutY}px,
+        ${x + width}px ${cutoutY}px,
+        ${x + width}px ${cutoutY + cutoutHeight}px,
+        ${x}px ${cutoutY + cutoutHeight}px,
         ${x}px 100%,
         100% 100%,
         100% 0%
@@ -472,6 +517,28 @@
     }
   }
 
+  // Update highlight position on scroll
+  function updateHighlightPosition() {
+    if (!tutorialState.currentTarget) return;
+
+    // Re-run highlightElement with current target
+    highlightElement(
+      tutorialState.currentTarget,
+      tutorialState.currentInteractive,
+      tutorialState.currentBlockClicks
+    );
+  }
+
+  // Add scroll listener for tutorial
+  let scrollUpdateTimeout;
+  function onTutorialScroll() {
+    // Use requestAnimationFrame for smooth updates
+    if (scrollUpdateTimeout) {
+      cancelAnimationFrame(scrollUpdateTimeout);
+    }
+    scrollUpdateTimeout = requestAnimationFrame(updateHighlightPosition);
+  }
+
   // Show tutorial step
   function showStep(stepIndex) {
     if (stepIndex < 0 || stepIndex >= tutorialSteps.length) return;
@@ -481,7 +548,18 @@
 
     // Switch to correct screen
     if (step.screen && window.showScreen) {
-      window.showScreen(step.screen);
+      // If this step will scroll to a target, temporarily disable scroll-to-top
+      if (step.scrollToTarget) {
+        // Temporarily store the scroll position or disable the auto-scroll
+        const currentScrollY = window.scrollY;
+        window.showScreen(step.screen);
+        // Restore scroll position immediately if screen didn't change
+        if (window.currentScreen === step.screen) {
+          window.scrollTo(0, currentScrollY);
+        }
+      } else {
+        window.showScreen(step.screen);
+      }
     }
 
     // Pause timer if this step requires it
@@ -1155,6 +1233,9 @@
     localStorage.setItem('qb_tutorial_completed', 'true');
     console.log('Tutorial: Saved completion to localStorage');
 
+    // Remove scroll listener
+    window.removeEventListener('scroll', onTutorialScroll);
+
     // Remove scroll prevention handlers
     if (tutorialState.scrollPreventHandlers) {
       const { preventScroll, preventKeyScroll } = tutorialState.scrollPreventHandlers;
@@ -1190,7 +1271,10 @@
 
     createTutorialOverlay();
 
-    // Block scrolling during tutorial
+    // Enable scroll listener to update highlights
+    window.addEventListener('scroll', onTutorialScroll, { passive: true });
+
+    // Block scrolling during tutorial EXCEPT when allowed
     const preventScroll = (e) => {
       // Allow scrolling only within the tutorial bubble
       const bubble = document.getElementById('tutorial-bubble-container');
@@ -1216,14 +1300,16 @@
         }
       }
 
+      // ALWAYS allow scrolling - just update highlights
+      return;
 
-      e.preventDefault();
-      e.stopPropagation();
+      // e.preventDefault();  // DISABLED - allow scrolling
+      // e.stopPropagation(); // DISABLED - allow scrolling
     };
 
-    // Prevent scroll with wheel, touch, and keys
-    document.addEventListener('wheel', preventScroll, { passive: false });
-    document.addEventListener('touchmove', preventScroll, { passive: false });
+    // Prevent scroll with wheel, touch, and keys - BUT ALLOWING IT NOW
+    // document.addEventListener('wheel', preventScroll, { passive: false }); // DISABLED
+    // document.addEventListener('touchmove', preventScroll, { passive: false }); // DISABLED
 
     const preventKeyScroll = (e) => {
       // Allow keyboard scrolling in shop screen during shop step

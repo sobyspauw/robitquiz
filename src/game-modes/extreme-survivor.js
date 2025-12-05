@@ -205,6 +205,9 @@
     esmGameState.timeLeft = 8;
     esmGameState.isPlaying = true;
 
+    // Hide back button during game
+    if (typeof updateTopBar === 'function') updateTopBar('extreme-survivor-screen');
+
     // Reset used questions for this session
     for (let i = 1; i <= 10; i++) {
       esmGameState.usedQuestions[i] = [];
@@ -283,6 +286,9 @@
   function showExtremeSurvivorTimeoutModal() {
     esmGameState.isPlaying = false;
 
+    // Show back button again
+    if (typeof updateTopBar === 'function') updateTopBar('extreme-survivor-screen');
+
     // Show timeout modal
     const timeoutModal = document.getElementById('timeout-modal');
     if (timeoutModal) {
@@ -308,6 +314,9 @@
   // Show error modal for Extreme Survivor Mode (one mistake = game over)
   function showExtremeSurvivorErrorModal() {
     esmGameState.isPlaying = false;
+
+    // Show back button again
+    if (typeof updateTopBar === 'function') updateTopBar('extreme-survivor-screen');
 
     // Show error modal
     const errorModal = document.getElementById('error-modal');
@@ -598,6 +607,9 @@
     esmGameState.isPlaying = false;
     clearTimeout(esmGameState.timer);
     clearInterval(esmGameState.timerInterval);
+
+    // Show back button again
+    if (typeof updateTopBar === 'function') updateTopBar('extreme-survivor-screen');
 
     // Add stars to player
     let stars = parseInt(localStorage.getItem('qb_stars') || '0');

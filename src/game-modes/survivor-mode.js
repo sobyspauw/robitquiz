@@ -212,6 +212,9 @@
     smGameState.timeLeft = 12;
     smGameState.isPlaying = true;
 
+    // Hide back button during game
+    if (typeof updateTopBar === 'function') updateTopBar('survivor-screen');
+
     // Reset used questions for this session
     for (let i = 1; i <= 10; i++) {
       smGameState.usedQuestions[i] = [];
@@ -301,6 +304,9 @@
   function showSurvivorTimeoutModal() {
     smGameState.isPlaying = false;
 
+    // Show back button again
+    if (typeof updateTopBar === 'function') updateTopBar('survivor-screen');
+
     // Show timeout modal
     const timeoutModal = document.getElementById('timeout-modal');
     if (timeoutModal) {
@@ -326,6 +332,9 @@
   // Show error modal for Survivor Mode (too many mistakes)
   function showSurvivorErrorModal() {
     smGameState.isPlaying = false;
+
+    // Show back button again
+    if (typeof updateTopBar === 'function') updateTopBar('survivor-screen');
 
     // Show error modal
     const errorModal = document.getElementById('error-modal');
@@ -517,6 +526,9 @@
     smGameState.isPlaying = false;
     clearTimeout(smGameState.timer);
     clearInterval(smGameState.timerInterval);
+
+    // Show back button again
+    if (typeof updateTopBar === 'function') updateTopBar('survivor-screen');
 
     // Add stars to player
     let stars = parseInt(localStorage.getItem('qb_stars') || '0');

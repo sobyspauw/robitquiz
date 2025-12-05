@@ -481,6 +481,50 @@ window.resumeQuizTimer = function() {
   }
 };
 
+// Daily Challenge timer pause/resume
+let challengeTimerPaused = false;
+let pausedChallengeTime = 0;
+
+window.pauseChallengeTimer = function() {
+  if (challengeTimerInterval && !challengeTimerPaused) {
+    clearInterval(challengeTimerInterval);
+    clearTimeout(challengeTimer);
+    challengeTimerPaused = true;
+    const display = document.getElementById('challenge-timer');
+    if (display) {
+      pausedChallengeTime = parseInt(display.innerText);
+    }
+  }
+};
+
+window.resumeChallengeTimer = function() {
+  if (challengeTimerPaused && window.currentScreen === 'daily-challenge-screen') {
+    challengeTimerPaused = false;
+    const display = document.getElementById('challenge-timer');
+
+    if (display) {
+      display.innerText = pausedChallengeTime + 's';
+
+      // Restart interval
+      clearInterval(challengeTimerInterval);
+      challengeTimerInterval = setInterval(() => {
+        pausedChallengeTime--;
+        display.innerText = pausedChallengeTime + 's';
+        if (pausedChallengeTime <= 0) {
+          clearInterval(challengeTimerInterval);
+          failDailyChallenge();
+        }
+      }, 1000);
+
+      // Restart timeout
+      clearTimeout(challengeTimer);
+      challengeTimer = setTimeout(() => {
+        failDailyChallenge();
+      }, pausedChallengeTime * 1000);
+    }
+  }
+};
+
 // —— Game state variables (shared with game.js) ——
 let selectedGroupIndex = null;
 let selectedLevelIndex = null;
@@ -555,6 +599,11 @@ function showScreen(screenId) {
   lastScreen    = currentScreen;
   currentScreen = screenId;
   window.currentScreen = screenId;
+
+  // Always scroll to top when switching screens
+  window.scrollTo(0, 0);
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
   
   // Start/stop cooldown updater based on screen
   if (screenId === 'levels-screen') {
@@ -661,10 +710,10 @@ function updateTopBar(screenId) {
       topBackBtn.classList.remove('hidden');
       break;
     case 'quiz-screen':
-      topBackBtn.classList.remove('hidden');
+      topBackBtn.classList.add('hidden');
       break;
     case 'daily-challenge-screen':
-      topBackBtn.classList.remove('hidden');
+      topBackBtn.classList.add('hidden');
       break;
     case 'settings-screen':
       topBackBtn.classList.remove('hidden');
@@ -676,16 +725,36 @@ function updateTopBar(screenId) {
       topBackBtn.classList.remove('hidden');
       break;
     case 'true-false-screen':
-      topBackBtn.classList.remove('hidden');
+      // Hide back button if game is active
+      if (window.tfGameState && window.tfGameState.isPlaying) {
+        topBackBtn.classList.add('hidden');
+      } else {
+        topBackBtn.classList.remove('hidden');
+      }
       break;
     case 'lightning-round-screen':
-      topBackBtn.classList.remove('hidden');
+      // Hide back button if game is active
+      if (window.lrGameState && window.lrGameState.isPlaying) {
+        topBackBtn.classList.add('hidden');
+      } else {
+        topBackBtn.classList.remove('hidden');
+      }
       break;
     case 'survivor-screen':
-      topBackBtn.classList.remove('hidden');
+      // Hide back button if game is active
+      if (window.smGameState && window.smGameState.isPlaying) {
+        topBackBtn.classList.add('hidden');
+      } else {
+        topBackBtn.classList.remove('hidden');
+      }
       break;
     case 'extreme-survivor-screen':
-      topBackBtn.classList.remove('hidden');
+      // Hide back button if game is active
+      if (window.esmGameState && window.esmGameState.isPlaying) {
+        topBackBtn.classList.add('hidden');
+      } else {
+        topBackBtn.classList.remove('hidden');
+      }
       break;
     default:
       topBackBtn.classList.add('hidden');
@@ -1759,7 +1828,7 @@ function showGameModeLockedModal(gameMode, cooldownKey, timeRemaining) {
       alert('Ad feature coming soon! Reducing cooldown by 2 hours...');
       const currentCooldown = parseInt(localStorage.getItem(cooldownKey) || '0');
       const twoHours = 2 * 60 * 60 * 1000;
-      const newCooldown = Math.max(0, currentCooldown - twoHours + Date.now());
+      const newCooldown = currentCooldown - twoHours;
       localStorage.setItem(cooldownKey, newCooldown.toString());
     }
 
@@ -4230,12 +4299,11 @@ function attachEventListeners() {
       return;
     }
 
+    // Pause timers when opening settings
     if (currentScreen === 'quiz-screen') {
-      clearTimeout(timer);
-      clearInterval(timerInterval);
+      window.pauseQuizTimer();
     } else if (currentScreen === 'daily-challenge-screen') {
-      clearTimeout(challengeTimer);
-      clearInterval(challengeTimerInterval);
+      window.pauseChallengeTimer();
     }
     showScreen('settings-screen');
   });
@@ -4297,6 +4365,12 @@ function attachEventListeners() {
         break;
       case 'settings-screen':
         showScreen(lastScreen);
+        // Resume timers when going back from settings
+        if (lastScreen === 'quiz-screen') {
+          window.resumeQuizTimer();
+        } else if (lastScreen === 'daily-challenge-screen') {
+          window.resumeChallengeTimer();
+        }
         break;
       case 'shop-screen':
         showScreen('home-screen');
@@ -4612,10 +4686,6 @@ function showGameModeInfo(mode) {
     'true-false': {
       title: 'True/False Quiz',
       content: `
-        <div class="bg-blue-50 border-l-4 border-blue-600 p-3 mb-4 rounded">
-          <p class="text-blue-900 font-semibold">Test your knowledge with quick true or false statements! A perfect warm-up challenge with binary choices that keep you on your toes.</p>
-        </div>
-
         <h4 class="font-bold text-lg mb-2">How to Play:</h4>
         <p class="mb-3">Answer 15 true/false questions as quickly and accurately as possible!</p>
 
@@ -4626,20 +4696,11 @@ function showGameModeInfo(mode) {
           <li><strong>Reward:</strong> 30-60 stars (30 base + 2 per correct answer)</li>
           <li><strong>Cooldown:</strong> 15 minutes after completion</li>
         </ul>
-
-        <h4 class="font-bold text-lg mb-2">Tips:</h4>
-        <p>• Answer quickly to maximize your score</p>
-        <p>• Time penalties apply if you run out of time</p>
-        <p>• Questions are randomly selected from a large pool</p>
       `
     },
     'lightning': {
       title: '⚡ Lightning Round',
       content: `
-        <div class="bg-yellow-50 border-l-4 border-yellow-600 p-3 mb-4 rounded">
-          <p class="text-yellow-900 font-semibold">Race against the clock in this adrenaline-pumping challenge! Answer as many questions as possible in just 60 seconds and build epic combos for massive multipliers!</p>
-        </div>
-
         <h4 class="font-bold text-lg mb-2">How to Play:</h4>
         <p class="mb-3">Answer as many questions as you can in 60 seconds!</p>
 
@@ -4651,20 +4712,11 @@ function showGameModeInfo(mode) {
           <li><strong>Combo system:</strong> Build streaks for multipliers!</li>
           <li><strong>Cooldown:</strong> 2 hours after completion</li>
         </ul>
-
-        <h4 class="font-bold text-lg mb-2">Tips:</h4>
-        <p>• Speed is key - don't overthink!</p>
-        <p>• Maintain combos for bonus multipliers</p>
-        <p>• Questions get progressively harder</p>
       `
     },
     'survivor': {
       title: '🏆 Survivor Mode',
       content: `
-        <div class="bg-green-50 border-l-4 border-green-600 p-3 mb-4 rounded">
-          <p class="text-green-900 font-semibold">Climb through 10 challenging levels with only 3 lives! Each level tests your knowledge with progressively harder questions. Can you reach the top and become a Grand Master?</p>
-        </div>
-
         <h4 class="font-bold text-lg mb-2">How to Play:</h4>
         <p class="mb-3">Progress through 10 levels with 3 lives. Each level has 3 questions!</p>
 
@@ -4678,20 +4730,11 @@ function showGameModeInfo(mode) {
           <li><strong>Bonus:</strong> Level completion bonuses (15-60 stars)</li>
           <li><strong>Cooldown:</strong> 4 hours after completion</li>
         </ul>
-
-        <h4 class="font-bold text-lg mb-2">Tips:</h4>
-        <p>• Difficulty increases with each level</p>
-        <p>• Complete all 3 questions to advance</p>
-        <p>• Lose a life for wrong answers or timeouts</p>
       `
     },
     'extreme-survivor': {
       title: '💀 Extreme Survivor',
       content: `
-        <div class="bg-red-50 border-l-4 border-red-600 p-3 mb-4 rounded">
-          <p class="text-red-900 font-semibold">The ultimate test of skill and knowledge! Only ONE life stands between you and glory. Faster questions, higher stakes, and massive rewards for those brave enough to accept the challenge!</p>
-        </div>
-
         <h4 class="font-bold text-lg mb-2">How to Play:</h4>
         <p class="mb-3">The ultimate challenge! Progress through 10 levels with only 1 life!</p>
 
@@ -4705,12 +4748,6 @@ function showGameModeInfo(mode) {
           <li><strong>Bonus:</strong> Level completion bonuses (25-70 stars)</li>
           <li><strong>Cooldown:</strong> 6 hours after completion</li>
         </ul>
-
-        <h4 class="font-bold text-lg mb-2">Tips:</h4>
-        <p>• Only for experienced players!</p>
-        <p>• Higher risk = higher rewards</p>
-        <p>• One wrong answer ends the game</p>
-        <p>• Time runs out faster than normal Survivor</p>
       `
     }
   };
