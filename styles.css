@@ -474,14 +474,15 @@ button:hover {
   background: #029bb5;
 }
 
-#leaderboard-btn {
-  background: var(--golden-yellow);
-  border-color: var(--golden-yellow);
-  color: var(--deep-navy);
+#achievements-btn {
+  background: linear-gradient(135deg, #eab308 0%, #ca8a04 100%);
+  color: white;
+  transition: all 0.3s ease;
 }
 
-#leaderboard-btn:hover {
-  background: #e2a93c;
+#achievements-btn:hover {
+  background: linear-gradient(135deg, #fbbf24 0%, #eab308 100%);
+  transform: scale(1.02);
 }
 
 /* Answer buttons */
@@ -1923,4 +1924,173 @@ body.light-mode #tutorial-next:hover {
 .bg-indigo-700 > div[style*="min-height"] > div {
   display: block !important;
   visibility: visible !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════════
+   ACHIEVEMENTS SYSTEM
+   ═══════════════════════════════════════════════════════════════════════════════ */
+
+/* Achievement Notification Slide Animation */
+#achievement-notification.show {
+  transform: translateY(0) !important;
+}
+
+#achievement-notification.hide {
+  transform: translateY(-8rem) !important;
+}
+
+/* Progress bar fill animation */
+.progress-fill-animation {
+  transition: width 2.5s ease-out;
+  width: 100% !important;
+}
+
+/* Achievement Filter Buttons */
+.achievement-filter {
+  transition: all 0.2s ease;
+}
+
+.achievement-filter.active {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+  transform: scale(1.05);
+}
+
+.achievement-filter:not(.active) {
+  background: linear-gradient(135deg, #4b5563 0%, #374151 100%) !important;
+}
+
+.achievement-filter:not(.active):hover {
+  background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%) !important;
+  transform: scale(1.02);
+}
+
+/* Light mode filter buttons */
+body.light-mode .achievement-filter.active {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%) !important;
+}
+
+body.light-mode .achievement-filter:not(.active) {
+  background: linear-gradient(135deg, #d1d5db 0%, #9ca3af 100%) !important;
+  color: #1f2937 !important;
+}
+
+body.light-mode .achievement-filter:not(.active):hover {
+  background: linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%) !important;
+}
+
+/* Achievement card glow for recently unlocked (within 24 hours) */
+.achievement-card.recent {
+  animation: glow 2s ease-in-out infinite;
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.6);
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(34, 197, 94, 0.5),
+                0 0 20px rgba(34, 197, 94, 0.3),
+                0 0 30px rgba(34, 197, 94, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.8),
+                0 0 30px rgba(34, 197, 94, 0.6),
+                0 0 40px rgba(34, 197, 94, 0.4);
+  }
+}
+
+/* Achievement Card Styling */
+.achievement-card {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.achievement-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Light mode achievement cards */
+body.light-mode .achievement-card:not([class*="from-"]) {
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  border-color: #d1d5db;
+}
+
+body.light-mode .achievement-card:not([class*="from-"]) h3,
+body.light-mode .achievement-card:not([class*="from-"]) p {
+  color: #1f2937 !important;
+}
+
+/* Locked achievement styling - darker/grayed out */
+.achievement-card:not([class*="from-green"]) {
+  opacity: 0.7;
+}
+
+.achievement-card:not([class*="from-green"]):hover {
+  opacity: 0.85;
+}
+
+/* Unlocked achievement styling - bright green gradient */
+.achievement-card.from-green-500 {
+  opacity: 1 !important;
+}
+
+/* Achievement progress bar */
+.achievement-card .bg-blue-500 {
+  transition: width 0.5s ease-out;
+}
+
+/* Achievements screen header gradient */
+#achievements-screen .bg-gradient-to-r {
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+/* Light mode achievements header */
+body.light-mode #achievements-screen .bg-gradient-to-r {
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+}
+
+/* Stats display in header */
+#achievement-stats-unlocked,
+#achievement-stats-gems {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Achievement notification in light mode */
+body.light-mode #achievement-notification .bg-gradient-to-r {
+  /* Keep green gradient for success in both modes */
+}
+
+/* Responsive adjustments for achievements */
+@media (max-width: 768px) {
+  #achievements-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .achievement-card {
+    padding: 0.75rem;
+  }
+
+  .achievement-card .text-4xl {
+    font-size: 2rem;
+  }
+
+  .achievement-card h3 {
+    font-size: 0.875rem;
+  }
+
+  .achievement-card p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #achievements-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #achievement-notification {
+    left: 0.5rem;
+    right: 0.5rem;
+  }
 }

@@ -465,6 +465,21 @@
     messageElement.textContent = translations.message[currentLang];
     backBtn.textContent = translations.backButton[currentLang];
 
+    // Update achievement stats
+    if (typeof window.updateAchievementStats === 'function') {
+      const statsUpdate = {
+        trueFalseCompleted: 1,
+        gameModesPlayed: ['true-false']
+      };
+
+      // Check if perfect score (15/15)
+      if (score === 15) {
+        statsUpdate.trueFalsePerfect = 1;
+      }
+
+      window.updateAchievementStats(statsUpdate);
+    }
+
     // Show modal
     modal.classList.remove('hidden');
 

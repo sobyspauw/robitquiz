@@ -363,6 +363,33 @@ function continueToNextQuestion() {
       window.checkSubjectCompletion(selectedGroupIndex, selectedLevelIndex);
     }
 
+    // Update achievement stats for quiz completion
+    if (typeof window.updateAchievementStats === 'function') {
+      const statsUpdate = {
+        quizzesCompleted: 1,
+        totalQuestions: questionsArray.length,
+        totalCorrect: correctCount
+      };
+
+      // Check if perfect score (10/10)
+      if (correctCount >= 10) {
+        statsUpdate.perfectScores = 1;
+      }
+
+      // Check if no mistakes
+      if (wrongCount === 0) {
+        statsUpdate.quizzesNoMistakes = 1;
+      }
+
+      // Check if no timeout happened (we need to track this in timer logic)
+      if (!window.quizTimedOut) {
+        statsUpdate.quizzesNoTimeout = 1;
+      }
+      window.quizTimedOut = false; // Reset flag
+
+      window.updateAchievementStats(statsUpdate);
+    }
+
     // Check if this is level 10 completion (last level of a subcategory)
     console.log('🎯 DEBUG - Checking level 10 completion:');
     console.log('  - window.currentQuizContext exists?', !!window.currentQuizContext);

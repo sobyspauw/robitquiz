@@ -591,6 +591,16 @@
     document.getElementById('esm-complete-stars').textContent = `⭐ +${score} ${translations.starsEarned[currentLang]}`;
     backBtn.textContent = translations.backButton[currentLang];
 
+    // Update achievement stats
+    if (typeof window.updateAchievementStats === 'function') {
+      const statsUpdate = {
+        extremeSurvivorBestLevel: Math.max(level, parseInt(localStorage.getItem('esm_best_level') || '0')),
+        gameModesPlayed: ['extreme-survivor']
+      };
+
+      window.updateAchievementStats(statsUpdate);
+    }
+
     // Show modal
     modal.classList.remove('hidden');
 

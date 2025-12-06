@@ -1233,6 +1233,13 @@
     localStorage.setItem('qb_tutorial_completed', 'true');
     console.log('Tutorial: Saved completion to localStorage');
 
+    // Update achievement stats for tutorial completion
+    if (typeof window.updateAchievementStats === 'function') {
+      window.updateAchievementStats({
+        tutorialCompleted: true
+      });
+    }
+
     // Remove scroll listener
     window.removeEventListener('scroll', onTutorialScroll);
 

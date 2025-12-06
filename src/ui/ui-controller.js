@@ -16,11 +16,11 @@ const translations = {
     de: "Spielen",
     nl: "Spelen"
   },
-  leaderboard: {
-    en: "Leaderboard",
-    es: "Clasificación",
-    de: "Bestenliste",
-    nl: "Ranglijst"
+  achievements: {
+    en: "Achievements",
+    es: "Logros",
+    de: "Erfolge",
+    nl: "Prestaties"
   },
   chooseSubject: {
     en: "Choose a Subject",
@@ -591,6 +591,7 @@ function showScreen(screenId) {
     'lightning-round-screen',
     'survivor-screen',
     'extreme-survivor-screen',
+    'achievements-screen',
   ];
   all.forEach(id => {
     const el = document.getElementById(id);
@@ -618,7 +619,12 @@ function showScreen(screenId) {
   } else {
     stopDailyRewardsTimer();
   }
-  
+
+  // Render achievements screen when shown
+  if (screenId === 'achievements-screen' && typeof window.renderAchievementsScreen === 'function') {
+    window.renderAchievementsScreen();
+  }
+
   // Update top bar
   updateTopBar(screenId);
   
@@ -721,6 +727,9 @@ function updateTopBar(screenId) {
     case 'shop-screen':
       topBackBtn.classList.remove('hidden');
       break;
+    case 'achievements-screen':
+      topBackBtn.classList.remove('hidden');
+      break;
     case 'challenge-modes-screen':
       topBackBtn.classList.remove('hidden');
       break;
@@ -779,28 +788,28 @@ function applyTranslations() {
   // Check if elements exist before setting text
   // const homeWelcome = document.getElementById('home-welcome'); // Now using image instead of text
   const levelsBtn = document.getElementById('levels-btn');
-  const leaderboardBtn = document.getElementById('leaderboard-btn');
-  
-  console.log('Found elements:', {levelsBtn, leaderboardBtn});
-  
+  const achievementsBtn = document.getElementById('achievements-btn');
+
+  console.log('Found elements:', {levelsBtn, achievementsBtn});
+
   // Welcome text replaced with quiz icon image
   // if (homeWelcome) {
   //   homeWelcome.innerText = t('welcome');
   //   console.log('Set welcome text:', homeWelcome.innerText);
   // }
-  
+
   if (levelsBtn) {
     levelsBtn.innerText = t('levels');
     console.log('Set levels text:', levelsBtn.innerText);
   } else {
     console.error('Levels button not found!');
   }
-  
-  if (leaderboardBtn) {
-    leaderboardBtn.innerText = t('leaderboard');
-    console.log('Set leaderboard text:', leaderboardBtn.innerText);
+
+  if (achievementsBtn) {
+    achievementsBtn.innerText = t('achievements');
+    console.log('Set achievements text:', achievementsBtn.innerText);
   } else {
-    console.error('Leaderboard button not found!');
+    console.error('Achievements button not found!');
   }
   
   // Levels - now uses subject image instead of text title
@@ -1248,19 +1257,26 @@ function useFiftyFifty() {
 
   fiftyFiftyCount--;
   fiftyFiftyUsed = true;
-  
+
+  // Track powerup usage for achievements
+  if (typeof window.updateAchievementStats === 'function') {
+    window.updateAchievementStats({
+      powerupsUsed: 1
+    });
+  }
+
   // Play a sound effect for 50/50 usage (using correct sound)
   const correctSound = document.getElementById('snd-correct');
   if (correctSound) {
     correctSound.play();
   }
-  
+
   // Save to localStorage
   localStorage.setItem('qb_fifty_fifty_count', fiftyFiftyCount.toString());
-  
+
   // Update the display immediately
   updatePowerUpCounts();
-  
+
   console.log('50/50 used successfully. Remaining count:', fiftyFiftyCount);
 }
 
@@ -1271,6 +1287,13 @@ function useSkip() {
   }
 
   skipCount--;
+
+  // Track powerup usage for achievements
+  if (typeof window.updateAchievementStats === 'function') {
+    window.updateAchievementStats({
+      powerupsUsed: 1
+    });
+  }
 
   // Play a sound effect for Skip usage (same as other powerups)
   const correctSound = document.getElementById('snd-correct');
@@ -1389,19 +1412,26 @@ function useTimeBonus() {
   }
 
   timeBonusCount--;
-  
+
+  // Track powerup usage for achievements
+  if (typeof window.updateAchievementStats === 'function') {
+    window.updateAchievementStats({
+      powerupsUsed: 1
+    });
+  }
+
   // Play a positive sound effect
   const correctSound = document.getElementById('snd-correct');
   if (correctSound) {
     correctSound.play();
   }
-  
+
   // Save to localStorage
   localStorage.setItem('qb_time_bonus_count', timeBonusCount.toString());
-  
+
   // Update the display immediately
   updatePowerUpCounts();
-  
+
   console.log('Time Bonus used successfully. Remaining count:', timeBonusCount);
   
   // Visual feedback
@@ -4146,11 +4176,11 @@ function attachEventListeners() {
   // Main navigation buttons
   const levelsBtn = document.getElementById('levels-btn');
   const challengeModesBtn = document.getElementById('challenge-modes-btn');
-  const leaderboardBtn = document.getElementById('leaderboard-btn');
+  const achievementsBtn = document.getElementById('achievements-btn');
   const settingsBtn = document.getElementById('settings-btn');
   const shopBtn = document.getElementById('shop-btn');
-  
-  console.log('Found button elements:', {levelsBtn, challengeModesBtn, leaderboardBtn, settingsBtn, shopBtn});
+
+  console.log('Found button elements:', {levelsBtn, challengeModesBtn, achievementsBtn, settingsBtn, shopBtn});
   if (levelsBtn) {
     levelsBtn.addEventListener('click', (e) => {
       console.log('Levels button clicked');
@@ -4261,14 +4291,18 @@ function attachEventListeners() {
   } else {
     console.log('Restart tutorial button not found');
   }
-  if (leaderboardBtn) {
-    leaderboardBtn.addEventListener('click', (e) => {
-      console.log('Leaderboard button clicked');
-      alert('Leaderboard coming soon!');
+  if (achievementsBtn) {
+    achievementsBtn.addEventListener('click', (e) => {
+      console.log('Achievements button clicked');
+      showScreen('achievements-screen');
+      // Render achievements when screen is shown
+      if (typeof window.renderAchievementsScreen === 'function') {
+        window.renderAchievementsScreen();
+      }
     });
-    console.log('Leaderboard button event listener added');
+    console.log('Achievements button event listener added');
   } else {
-    console.log('Leaderboard button not found');
+    console.log('Achievements button not found');
   }
   
   const dailyChallengeBtn = document.getElementById('daily-challenge-btn');

@@ -423,6 +423,23 @@
     </div>
   </div>
 
+  <!-- Achievement Notification (slides from top) -->
+  <div id="achievement-notification" class="fixed top-16 left-4 right-4 mx-auto max-w-md hidden z-[9999] transform -translate-y-32 transition-transform duration-400">
+    <div class="bg-gradient-to-r from-green-500 to-green-600 rounded-lg shadow-2xl p-4 border-2 border-green-400">
+      <div class="flex justify-between items-center mb-2">
+        <span class="text-white font-bold text-lg flex items-center">
+          <span id="achievement-notif-emoji" class="mr-2 text-2xl">🏆</span>
+          <span id="achievement-notif-name">Achievement Name</span>
+        </span>
+        <span id="achievement-notif-reward" class="text-white font-semibold">+10💎</span>
+      </div>
+      <!-- Progress bar container -->
+      <div class="w-full h-2 bg-green-800 bg-opacity-50 rounded-full overflow-hidden">
+        <div id="achievement-notif-progress" class="h-full bg-white rounded-full" style="width: 0%"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- Main Content Area -->
   <div class="flex-1 flex items-center justify-center p-2 pt-20">
 
@@ -444,9 +461,10 @@
       Game Modes
     </button>
 
-    <button id="leaderboard-btn"
-      class="w-full font-semibold py-3 rounded shadow"
+    <button id="achievements-btn"
+      class="w-full font-semibold py-3 rounded shadow text-white bg-yellow-400 hover:bg-yellow-500"
     >
+      Achievements
     </button>
 
     <button id="daily-challenge-btn"
@@ -1129,6 +1147,36 @@
 
   </div>
 
+  <!-- Achievements Screen -->
+  <div id="achievements-screen" class="screen hidden w-full max-w-4xl space-y-6">
+    <!-- Stats Header -->
+    <div class="bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg p-6 text-white text-center shadow-lg">
+      <h2 class="text-3xl font-bold mb-3">🏆 Achievements</h2>
+      <div class="flex justify-center gap-8 text-lg font-semibold">
+        <span id="achievement-stats-unlocked">0/45 Unlocked</span>
+        <span id="achievement-stats-gems">0💎 Earned</span>
+      </div>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="flex gap-3 justify-center">
+      <button class="achievement-filter active px-6 py-2 rounded-lg font-semibold transition-all duration-200 bg-blue-600 hover:bg-blue-700 text-white" data-filter="all" onclick="filterAchievements('all')">
+        All
+      </button>
+      <button class="achievement-filter px-6 py-2 rounded-lg font-semibold transition-all duration-200 bg-gray-600 hover:bg-gray-700 text-white" data-filter="locked" onclick="filterAchievements('locked')">
+        Locked
+      </button>
+      <button class="achievement-filter px-6 py-2 rounded-lg font-semibold transition-all duration-200 bg-gray-600 hover:bg-gray-700 text-white" data-filter="unlocked" onclick="filterAchievements('unlocked')">
+        Unlocked
+      </button>
+    </div>
+
+    <!-- Achievement Grid -->
+    <div id="achievements-grid" class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <!-- Achievement cards generated here by renderAchievementsScreen() -->
+    </div>
+  </div>
+
   <!-- Challenge Modes Screen -->
   <div id="challenge-modes-screen" class="screen hidden w-full max-w-4xl space-y-6">
     <h2 class="text-2xl font-bold text-center text-orange-600">Game Modes</h2>
@@ -1529,6 +1577,9 @@
       }
     }, 2000);
   </script>
+
+  <!-- Load achievement system -->
+  <script src="src/achievements/achievement-manager.js"></script>
 
   <!-- Load challenge mode game logic -->
   <script src="src/game-modes/utils/cooldown-manager.js"></script>

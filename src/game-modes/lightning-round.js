@@ -488,6 +488,17 @@
     messageElement.textContent = translations.message[currentLang];
     backBtn.textContent = translations.backButton[currentLang];
 
+    // Update achievement stats
+    if (typeof window.updateAchievementStats === 'function') {
+      const statsUpdate = {
+        lightningCompleted: 1,
+        lightningBestScore: Math.max(questionsAnswered, parseInt(localStorage.getItem('qb_lr_best_score') || '0')),
+        gameModesPlayed: ['lightning']
+      };
+
+      window.updateAchievementStats(statsUpdate);
+    }
+
     modal.classList.remove('hidden');
 
     backBtn.onclick = () => {

@@ -626,6 +626,16 @@
     messageElement.textContent = completed ? translations.messageComplete[currentLang] : translations.messagePartial[currentLang];
     backBtn.textContent = translations.backButton[currentLang];
 
+    // Update achievement stats
+    if (typeof window.updateAchievementStats === 'function') {
+      const statsUpdate = {
+        survivorBestLevel: Math.max(levelReached, parseInt(localStorage.getItem('qb_sm_best_level') || '0')),
+        gameModesPlayed: ['survivor']
+      };
+
+      window.updateAchievementStats(statsUpdate);
+    }
+
     modal.classList.remove('hidden');
 
     backBtn.onclick = () => {
