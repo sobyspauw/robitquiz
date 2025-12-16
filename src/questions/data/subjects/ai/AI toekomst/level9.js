@@ -310,7 +310,7 @@
           nl: "Wat zouden de milieuimplicaties kunnen zijn van wijdverspreide AGI-inzet?"
         },
         options: [
-          { en: "Massive computational demands requiring sustainable energy solutions and efficient optimization of global systems", es: "Demandas computacionales masivas requiriendo soluciones de energía sostenible y optimización eficiente de sistemas globales", de: "Massive Rechenanforderungen die nachhaltige Energielösungen und effiziente Optimierung globaler Systeme erfordern", nl: "Massale computationele eisen die duurzame energieoplossingen en efficiënte optimalisatie van mondiale systemen vereisen" },
+          { en: "Massive computational demands requiring sustainable energy solutions and efficient optimization of global systems", es: "Demandas computacionales masivas requiriendo soluciones de energía sostenible y optimización eficiente de sistemas globales", de: "Massive Rechenanforderungen die nachhaltige Energielösungen und effiziente Optimierung globaler Systeme erfordern", nl: "Massale computationele eisen die duurzame energieoplossingen en efficiënte optimalisatie mondiale systemen vereisen" },
           { en: "No environmental impact whatsoever", es: "Ningún impacto ambiental en absoluto", de: "Überhaupt keine Umweltauswirkung", nl: "Helemaal geen milieuimpact" },
           { en: "Only positive environmental effects", es: "Solo efectos ambientales positivos", de: "Nur positive Umwelteffekte", nl: "Alleen positieve milieueffecten" },
           { en: "Complete environmental destruction", es: "Destrucción ambiental completa", de: "Vollständige Umweltzerstörung", nl: "Volledige milieuvernietiging" }
