@@ -167,21 +167,235 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 
 ## 📋 VOLLEDIGE VOORBEELDVRAGEN (voor dubbelcheck)
 
-### AI ethiek - 3 voorbeelden
+### AI ethiek - Voorbeeld 1: Level 1 Q1 (AI bias)
 
-*Deze sectie komt nog - complete vragen met VOOR/NA*
+**VOOR:**
+```javascript
+options: [
+  { en: "AI makes unfair decisions from biased data",
+    es: "Cuando los sistemas de IA toman decisiones injustas basadas en datos prejuiciosos", // 83 chars
+    de: "Wenn KI-Systeme unfaire Entscheidungen basierend auf voreingenommenen Daten treffen", // 85 chars
+    nl: "Wanneer AI systemen oneerlijke beslissingen nemen gebaseerd op bevooroordeelde data" } // 85 chars
+]
+explanation: {
+  es: "El sesgo de IA ocurre cuando los sistemas de aprendizaje automatico toman decisiones injustas o discriminatorias, a menudo porque fueron entrenados con datos historicos sesgados que reflejan prejuicios pasados.", // 216 chars
+  de: "KI-Verzerrung tritt auf, wenn maschinelle Lernsysteme unfaire oder diskriminierende Entscheidungen treffen, oft weil sie mit verzerrten historischen Daten trainiert wurden, die vergangene Vorurteile widerspiegeln.", // 218 chars
+}
+```
 
-### AI geschiedenis - 3 voorbeelden
+**NA:**
+```javascript
+options: [
+  { en: "AI makes unfair decisions from biased data",
+    es: "IA toma decisiones injustas basadas en datos sesgados", // 54 chars (-29)
+    de: "KI trifft unfaire Entscheidungen basierend auf verzerrten Daten", // 65 chars (-20)
+    nl: "AI neemt oneerlijke beslissingen gebaseerd op bevooroordeelde data" } // 67 chars (-18)
+]
+explanation: {
+  es: "Sesgo IA ocurre cuando sistemas ML toman decisiones injustas, a menudo por entrenamiento con datos sesgados que reflejan prejuicios.", // 134 chars (-82)
+  de: "KI-Verzerrung tritt auf wenn ML-Systeme unfaire Entscheidungen treffen, oft durch Training mit verzerrten historischen Daten.", // 127 chars (-91)
+}
+```
 
-*Deze sectie komt nog - complete vragen met VOOR/NA*
+### AI ethiek - Voorbeeld 2: Level 1 Q3 (Job loss)
 
-### AI in transport - 3 voorbeelden
+**VOOR:**
+```javascript
+options: [
+  { en: "Job loss & rising inequality",
+    es: "Las personas pueden perder sus medios de subsistencia y la desigualdad economica podria aumentar", // 98 chars
+    de: "Menschen koennten ihre Lebensgrundlage verlieren und wirtschaftliche Ungleichheit koennte zunehmen", // 100 chars
+    nl: "Mensen kunnen hun levensonderhoud verliezen en economische ongelijkheid zou kunnen toenemen" } // 93 chars
+]
+explanation: {
+  es: "La principal preocupacion etica es que la automatizacion generalizada de IA podria llevar al desempleo masivo, afectando la capacidad de las personas para ganarse la vida y potencialmente aumentando la desigualdad social y economica.", // 241 chars
+  de: "Die hauptsaechliche ethische Sorge ist, dass weit verbreitete KI-Automatisierung zu Massenarbeitslosigkeit fuehren koennte, was die Faehigkeit der Menschen beeintraechtigt, ihren Lebensunterhalt zu verdienen und moeglicherweise soziale und wirtschaftliche Ungleichheit vergroessert.", // 290 chars
+  nl: "De belangrijkste ethische zorg is dat wijdverspreide AI automatisering tot massale werkloosheid zou kunnen leiden, wat de mogelijkheid van mensen om in hun levensonderhoud te voorzien aantast en mogelijk sociale en economische ongelijkheid vergroot." // 257 chars
+}
+```
 
-*Deze sectie komt nog - complete vragen met VOOR/NA*
+**NA:**
+```javascript
+options: [
+  { en: "Job loss & rising inequality",
+    es: "Perdida de empleos y aumento de desigualdad economica", // 54 chars (-44)
+    de: "Arbeitsplatzverlust und zunehmende Ungleichheit", // 48 chars (-52)
+    nl: "Banenverlies en toenemende economische ongelijkheid" } // 52 chars (-41)
+]
+explanation: {
+  es: "La automatizacion IA generalizada podria causar desempleo masivo, afectando sustento de personas y aumentando desigualdad social y economica.", // 143 chars (-98)
+  de: "Weit verbreitete KI-Automatisierung koennte Massenarbeitslosigkeit verursachen, Lebensunterhalt beeintraechtigen und soziale und wirtschaftliche Ungleichheit erhoehen.", // 172 chars (-118)
+  nl: "Wijdverspreide AI automatisering kan massale werkloosheid veroorzaken, levensonderhoud aantasten en sociale en economische ongelijkheid vergroten." // 149 chars (-108)
+}
+```
 
-### AI toekomst - 3 voorbeelden
+### AI ethiek - Voorbeeld 3: Level 1 Q9 (AI in hiring)
 
-*Deze sectie komt nog - complete vragen met VOOR/NA*
+**VOOR:**
+```javascript
+options: [
+  { en: "No discrimination vs protected groups",
+    es: "Asegurar que la IA no discrimine contra grupos protegidos", // 59 chars
+    de: "Sicherstellen dass die KI nicht gegen geschuetzte Gruppen diskriminiert", // 73 chars
+    nl: "Ervoor zorgen dat de AI niet discrimineert tegen beschermde groepen" } // 68 chars
+]
+```
+
+**NA:**
+```javascript
+options: [
+  { en: "No discrimination vs protected groups",
+    es: "IA no discrimine contra grupos protegidos", // 42 chars (-17)
+    de: "KI nicht gegen geschuetzte Gruppen diskriminiert", // 50 chars (-23)
+    nl: "AI niet discrimineert tegen beschermde groepen" } // 47 chars (-21)
+]
+```
+
+### AI geschiedenis - Voorbeeld 1: Level 10 Q4 (von Neumann architecture)
+
+**Question:** "What was the impact of the von Neumann architecture on AI development?"
+
+**VOOR:**
+```javascript
+es: "Permitió computación de programa almacenado pero creó el cuello de botella von Neumann limitando procesamiento paralelo" // 123 chars
+de: "Es ermöglichte gespeicherte Programmberechnung schuf aber den von Neumann-Flaschenhals der parallele Verarbeitung begrenzt" // 124 chars
+nl: "Het maakte opgeslagen-programma computing mogelijk maar creëerde de von Neumann bottleneck die parallelle verwerking beperkt" // 127 chars
+```
+
+**NA:**
+```javascript
+es: "Permitió computación de programa almacenado pero creó cuello de botella limitando procesamiento paralelo" // 107 chars (-16)
+de: "Ermöglichte gespeicherte Programmberechnung schuf aber von Neumann-Flaschenhals für parallele Verarbeitung" // 108 chars (-16)
+nl: "Maakte opgeslagen-programma computing mogelijk maar creëerde von Neumann bottleneck voor parallelle verwerking" // 112 chars (-15)
+```
+
+### AI geschiedenis - Voorbeeld 2: Level 10 Q10 (AI alignment)
+
+**Question:** "What is the 'AI alignment problem'?"
+
+**VOOR:**
+```javascript
+es: "Es el desafío de asegurar que los sistemas de IA persigan objetivos alineados con valores e intenciones humanas" // 115 chars
+de: "Es ist die Herausforderung sicherzustellen dass KI-Systeme Ziele verfolgen die mit menschlichen Werten und Absichten übereinstimmen" // 132 chars
+nl: "Het is de uitdaging om ervoor te zorgen dat AI systemen doelen nastreven die overeenkomen met menselijke waarden en intenties" // 128 chars
+```
+
+**NA:**
+```javascript
+es: "El desafío de asegurar que IA persiga objetivos alineados con valores e intenciones humanas" // 93 chars (-22)
+de: "Die Herausforderung sicherzustellen dass KI-Systeme Ziele verfolgen die mit menschlichen Werten übereinstimmen" // 112 chars (-20)
+nl: "De uitdaging ervoor te zorgen dat AI systemen doelen nastreven die overeenkomen met menselijke waarden" // 105 chars (-23)
+```
+
+### AI geschiedenis - Voorbeeld 3: Level 10 Q19 (ethical frameworks)
+
+**Question:** "What ethical frameworks are being developed specifically for AI?"
+
+**VOOR:**
+```javascript
+es: "Principios como beneficencia, no maleficencia, autonomía, justicia y transparencia, además de nuevos marcos para desafíos específicos de IA" // 143 chars
+de: "Prinzipien wie Wohltätigkeit, Schadensvermeidung, Autonomie, Gerechtigkeit und Transparenz, plus neue Rahmenwerke für KI-spezifische Herausforderungen" // 153 chars
+nl: "Principes zoals weldadigheid, niet-schadelijkheid, autonomie, rechtvaardigheid en transparantie, plus nieuwe kaders voor AI-specifieke uitdagingen" // 149 chars
+```
+
+**NA:**
+```javascript
+es: "Principios como beneficencia, no maleficencia, autonomía, justicia, transparencia, y nuevos marcos para desafíos de IA" // 120 chars (-23)
+de: "Prinzipien wie Wohltätigkeit, Schadensvermeidung, Autonomie, Gerechtigkeit, Transparenz, plus neue KI-Rahmenwerke" // 115 chars (-38)
+nl: "Principes zoals weldadigheid, niet-schadelijkheid, autonomie, rechtvaardigheid, transparantie, en nieuwe AI kaders" // 116 chars (-33)
+```
+
+### AI in transport - Voorbeeld 1: Level 6 Q16 (Swarm robotics)
+
+**Question:** "What does swarm robotics enable for autonomous vehicle coordination?"
+
+**VOOR:**
+```javascript
+es: "Permitir a miles de vehículos auto-organizarse y coordinarse usando reglas locales simples para lograr comportamientos globales complejos como flujo de tráfico eficiente y evitación de colisiones" // 195 chars
+de: "Tausenden von Fahrzeugen ermöglichen sich selbst zu organisieren und zu koordinieren mit einfachen lokalen Regeln um komplexe globale Verhaltensweisen wie effizienten Verkehrsfluss und Kollisionsvermeidung zu erreichen" // 218 chars
+nl: "Duizenden voertuigen in staat stellen zichzelf te organiseren en te coördineren met eenvoudige lokale regels om complexe globale gedragingen te bereiken zoals efficiënte verkeersstroom en botsingvermijding" // 205 chars
+```
+
+**NA:**
+```javascript
+es: "Miles de vehículos auto-organizarse y coordinarse con reglas locales simples logrando comportamientos complejos como flujo eficiente y evitación colisiones" // 154 chars (-41)
+de: "Tausende Fahrzeuge selbst organisieren und koordinieren mit lokalen Regeln für komplexe Verhaltensweisen wie Verkehrsfluss und Kollisionsvermeidung" // 148 chars (-70)
+nl: "Duizenden voertuigen zelf organiseren en coördineren met lokale regels voor complexe gedragingen zoals verkeersstroom en botsingvermijding" // 139 chars (-66)
+```
+
+### AI in transport - Voorbeeld 2: Level 9 Q10 (Dynamic road pricing)
+
+**Question:** "What is dynamic road pricing in smart cities?"
+
+**VOOR:**
+```javascript
+es: "Reducción de congestión en tiempo real ajustando tarifas de uso de carretera basadas en densidad de tráfico, calidad del aire y disponibilidad de rutas alternativas" // 162 chars
+nl: "Realtime congestierductie door wegengebruikskosten aan te passen gebaseerd op verkeersdichtheid, luchtkwaliteit en beschikbaarheid van alternatieve routes" // 159 chars
+```
+
+**NA:**
+```javascript
+es: "Reducción de congestión en tiempo real ajustando tarifas de uso de carretera basadas en densidad tráfico, calidad aire y rutas alternativas" // 138 chars (-24)
+nl: "Realtime congestiereductie door wegengebruikskosten aan te passen gebaseerd op verkeersdichtheid, luchtkwaliteit en beschikbaarheid alternatieve routes" // 140 chars (-19)
+```
+
+### AI in transport - Voorbeeld 3: Level 10 Q17 (Temporal coordination)
+
+**Question:** "What is temporal coordination in AI transportation systems?"
+
+**VOOR:**
+```javascript
+es: "Sistemas IA que coordinan transporte a través de múltiples horizontes temporales, desde respuestas vehiculares de microsegundos hasta planificación de infraestructura de escala de décadas" // 176 chars
+```
+
+**NA:**
+```javascript
+es: "Sistemas IA que coordinan transporte a través múltiples horizontes temporales, desde respuestas vehiculares de microsegundos hasta planificación infraestructura escala décadas" // 149 chars (-27)
+```
+
+### AI toekomst - Voorbeeld 1: Level 7 Q17 (AI representation)
+
+**Question:** "How might 'AI representation' look in global governance institutions by 2085?"
+
+**VOOR:**
+```javascript
+nl: "Adviserende rollen waar AI-systemen expertise bijdragen terwijl mensen besluitvormingsbevoegdheid behouden" // 149 chars
+```
+
+**NA:**
+```javascript
+nl: "Adviserende rollen waar AI-systemen expertise bijdragen terwijl mensen uiteindelijke beslissingsbevoegdheid behouden" // 140 chars (-9)
+```
+
+### AI toekomst - Voorbeeld 2: Level 10 Q11 (Instrumental convergence)
+
+**Question:** "What is 'instrumental convergence' in superintelligent goal pursuit?"
+
+**VOOR:**
+```javascript
+nl: "Neiging van diverse superintelligente systemen om vergelijkbare tussentijdse doelen na te streven zoals zelfbehoud en het verkrijgen van bronnen" // 144 chars
+```
+
+**NA:**
+```javascript
+nl: "Neiging van diverse superintelligente systemen om vergelijkbare tussentijdse doelen na te streven zoals zelfbehoud en bronnenverwerving" // 139 chars (-5)
+```
+
+### AI toekomst - Voorbeeld 3: Level 10 Q15 (Optimization pressure)
+
+**Question:** "What might 'optimization pressure' mean for human survival post-singularity?"
+
+**VOOR:**
+```javascript
+es: "Sistemas superinteligentes podrían optimizar recursos de maneras que no priorizan bienestar humano a menos que estén específicamente alineados" // 142 chars
+de: "Superintelligente Systeme könnten Ressourcen auf Weise optimieren die menschliches Wohlergehen nicht priorisieren außer wenn spezifisch ausgerichtet" // 148 chars
+```
+
+**NA:**
+```javascript
+es: "Sistemas superinteligentes podrían optimizar recursos de maneras que no priorizan bienestar humano a menos que específicamente alineados" // 134 chars (-8)
+de: "Superintelligente Systeme könnten Ressourcen optimieren ohne menschliches Wohlergehen zu priorisieren außer wenn spezifisch ausgerichtet" // 138 chars (-10)
+```
 
 ---
 
