@@ -10,10 +10,10 @@
     questions: [
       {
         question: {
-          en: "In the context of Universal Composability (UC) framework, what fundamental limitation prevents achieving perfect privacy in concurrent zero-knowledge protocols under polynomial-time assumptions?",
-          es: "En el contexto del marco de Composabilidad Universal (UC), ¿qué limitación fundamental impide lograr privacidad perfecta en protocolos de conocimiento cero concurrentes bajo suposiciones de tiempo polinomial?",
-          de: "Im Kontext des Universal Composability (UC) Frameworks, welche fundamentale Begrenzung verhindert das Erreichen perfekter Privatsphäre in konkurrierenden Zero-Knowledge-Protokollen unter polynomialen Zeitannahmen?",
-          nl: "In de context van het Universal Composability (UC) framework, welke fundamentele beperking voorkomt het bereiken van perfecte privacy in gelijktijdige zero-knowledge protocollen onder polynomiale tijd aannames?"
+          en: "What UC framework limitation prevents perfect privacy in concurrent zero-knowledge protocols?",
+          es: "¿Qué limitación UC impide privacidad perfecta en protocolos zero-knowledge concurrentes?",
+          de: "Welche UC-Framework-Begrenzung verhindert perfekte Privatsphäre in concurrent Zero-Knowledge?",
+          nl: "Welke UC-framework beperking voorkomt perfecte privacy in gelijktijdige zero-knowledge?"
         },
         options: [
           {
@@ -51,10 +51,10 @@
       },
       {
         question: {
-          en: "What is the fundamental reason why Rational Proofs cannot achieve soundness error below 1/2 against computationally unbounded provers in the utility-maximizing game-theoretic model?",
-          es: "¿Cuál es la razón fundamental por la que las Pruebas Racionales no pueden lograr un error de solidez por debajo de 1/2 contra probadores computacionalmente ilimitados en el modelo teórico de juegos que maximiza la utilidad?",
-          de: "Was ist der fundamentale Grund, warum Rational Proofs keinen Soundness-Fehler unter 1/2 gegen rechnerisch unbegrenzte Beweiser im nutzenmaximierenden spieltheoretischen Modell erreichen können?",
-          nl: "Wat is de fundamentele reden waarom Rational Proofs geen soundness fout onder de 1/2 kunnen bereiken tegen computationeel onbegrensde bewijzers in het nut-maximaliserende speltheoretische model?"
+          en: "Why can't Rational Proofs achieve soundness error below 1/2 against unbounded provers?",
+          es: "¿Por qué las Pruebas Racionales no pueden lograr error de solidez < 1/2 contra probadores ilimitados?",
+          de: "Warum können Rational Proofs keinen Soundness-Fehler unter 1/2 gegen unbegrenzte Beweiser erreichen?",
+          nl: "Waarom kunnen Rational Proofs geen soundness fout onder 1/2 bereiken tegen onbegrensde bewijzers?"
         },
         options: [
           {
@@ -133,10 +133,10 @@
       },
       {
         question: {
-          en: "What fundamental cryptographic assumption is violated when a blockchain achieves both perfect forward secrecy and post-compromise security simultaneously in the continuous key-leakage model?",
-          es: "¿Qué suposición criptográfica fundamental se viola cuando una blockchain logra tanto secreto hacia adelante perfecto como seguridad post-compromiso simultáneamente en el modelo de fuga continua de claves?",
-          de: "Welche fundamentale kryptographische Annahme wird verletzt, wenn eine Blockchain sowohl perfekte Forward Secrecy als auch Post-Compromise Security gleichzeitig im kontinuierlichen Schlüssel-Leakage-Modell erreicht?",
-          nl: "Welke fundamentele cryptografische aanname wordt geschonden wanneer een blockchain zowel perfecte forward secrecy als post-compromise security gelijktijdig bereikt in het continue sleutel-lekkage model?"
+          en: "What assumption is violated with perfect forward secrecy and post-compromise security simultaneously?",
+          es: "¿Qué suposición se viola con perfect forward secrecy y post-compromise security simultáneos?",
+          de: "Welche Annahme wird verletzt bei gleichzeitiger Forward Secrecy und Post-Compromise Security?",
+          nl: "Welke aanname wordt geschonden bij gelijktijdige forward secrecy en post-compromise security?"
         },
         options: [
           {
@@ -174,10 +174,10 @@
       },
       {
         question: {
-          en: "In the context of Incrementally Verifiable Computation (IVC), what mathematical structure is required for the folding scheme to maintain perfect completeness under adversarial accumulator manipulation?",
-          es: "En el contexto de Computación Incrementalmente Verificable (IVC), ¿qué estructura matemática se requiere para que el esquema de plegado mantenga completitud perfecta bajo manipulación adversarial del acumulador?",
-          de: "Im Kontext der Incrementally Verifiable Computation (IVC), welche mathematische Struktur ist erforderlich, damit das Folding-Schema perfekte Vollständigkeit unter adversarialer Akkumulator-Manipulation aufrechterhält?",
-          nl: "In de context van Incrementally Verifiable Computation (IVC), welke wiskundige structuur is vereist voor het folding schema om perfecte volledigheid te behouden onder adversariële accumulator manipulatie?"
+          en: "What IVC structure maintains perfect completeness under adversarial accumulator manipulation?",
+          es: "¿Qué estructura IVC mantiene completitud perfecta bajo manipulación adversarial del acumulador?",
+          de: "Welche IVC-Struktur erhält perfekte Vollständigkeit unter adversarialer Akkumulator-Manipulation?",
+          nl: "Welke IVC-structuur behoudt perfecte volledigheid onder adversariële accumulator manipulatie?"
         },
         options: [
           {
@@ -256,10 +256,10 @@
       },
       {
         question: {
-          en: "In Multi-Party Computation with Covert Security, what mathematical property ensures that the probability of detecting malicious behavior approaches 1 as the number of parallel executions increases?",
-          es: "En Computación Multi-Parte con Seguridad Encubierta, ¿qué propiedad matemática asegura que la probabilidad de detectar comportamiento malicioso se acerque a 1 a medida que aumenta el número de ejecuciones paralelas?",
-          de: "In Multi-Party Computation mit Covert Security, welche mathematische Eigenschaft stellt sicher, dass die Wahrscheinlichkeit der Erkennung bösartigen Verhaltens sich 1 nähert, wenn die Anzahl paralleler Ausführungen steigt?",
-          nl: "In Multi-Party Computation met Covert Security, welke wiskundige eigenschap zorgt ervoor dat de kans op het detecteren van kwaadaardig gedrag nadert tot 1 naarmate het aantal parallelle uitvoeringen toeneemt?"
+          en: "What MPC property ensures malicious behavior detection probability → 1 with more executions?",
+          es: "¿Qué propiedad MPC asegura que la detección de comportamiento malicioso → 1 con más ejecuciones?",
+          de: "Welche MPC-Eigenschaft stellt sicher dass Erkennung bösartigen Verhaltens → 1 bei mehr Ausführungen?",
+          nl: "Welke MPC-eigenschap zorgt dat detectie kwaadaardig gedrag → 1 bij meer uitvoeringen?"
         },
         options: [
           {
@@ -297,10 +297,10 @@
       },
       {
         question: {
-          en: "What fundamental impossibility result explains why Byzantine Fault Tolerant consensus cannot achieve both optimal resilience (f < n/3) and optimal communication complexity (O(n²)) simultaneously in asynchronous networks?",
-          es: "¿Qué resultado fundamental de imposibilidad explica por qué el consenso Tolerante a Fallas Bizantinas no puede lograr tanto resistencia óptima (f < n/3) como complejidad de comunicación óptima (O(n²)) simultáneamente en redes asíncronas?",
-          de: "Welches fundamentale Unmöglichkeitsergebnis erklärt, warum Byzantine Fault Tolerant Konsens nicht sowohl optimale Widerstandsfähigkeit (f < n/3) als auch optimale Kommunikationskomplexität (O(n²)) gleichzeitig in asynchronen Netzwerken erreichen kann?",
-          nl: "Welk fundamenteel onmogelijkheidsresultaat verklaart waarom Byzantine Fault Tolerant consensus niet zowel optimale veerkracht (f < n/3) als optimale communicatie complexiteit (O(n²)) gelijktijdig kan bereiken in asynchrone netwerken?"
+          en: "Why can't BFT consensus achieve both optimal resilience (f<n/3) and O(n²) complexity simultaneously?",
+          es: "¿Por qué BFT no puede lograr resistencia óptima (f<n/3) y complejidad O(n²) simultáneamente?",
+          de: "Warum kann BFT nicht Widerstandsfähigkeit (f<n/3) und Komplexität O(n²) gleichzeitig erreichen?",
+          nl: "Waarom kan BFT niet veerkracht (f<n/3) en complexiteit O(n²) gelijktijdig bereiken?"
         },
         options: [
           {
@@ -420,10 +420,10 @@
       },
       {
         question: {
-          en: "In lattice-based Post-Quantum Cryptography, what fundamental trade-off prevents achieving both CCA2 security and compact ciphertexts without structured assumptions beyond Ring-LWE?",
-          es: "En criptografía post-cuántica basada en retículas, ¿qué intercambio fundamental impide lograr tanto seguridad CCA2 como textos cifrados compactos sin suposiciones estructuradas más allá de Ring-LWE?",
-          de: "In gitterbasierten Post-Quanten-Kryptographie, welcher fundamentale Kompromiss verhindert das Erreichen sowohl von CCA2-Sicherheit als auch kompakten Chiffretexten ohne strukturierte Annahmen jenseits von Ring-LWE?",
-          nl: "In rooster-gebaseerde Post-Quantum Cryptografie, welke fundamentele afweging voorkomt het bereiken van zowel CCA2 beveiliging als compacte cijferteksten zonder gestructureerde aannames voorbij Ring-LWE?"
+          en: "What trade-off prevents CCA2 security and compact ciphertexts without assumptions beyond Ring-LWE?",
+          es: "¿Qué intercambio impide seguridad CCA2 y textos cifrados compactos sin suposiciones más allá de Ring-LWE?",
+          de: "Welcher Kompromiss verhindert CCA2-Sicherheit und kompakte Chiffretexte ohne Ring-LWE?",
+          nl: "Welke afweging voorkomt CCA2-beveiliging en compacte cijferteksten zonder Ring-LWE?"
         },
         options: [
           {
@@ -502,10 +502,10 @@
       },
       {
         question: {
-          en: "In the context of Functional Encryption with indistinguishability-based security, what mathematical barrier prevents achieving simulation-based security for general functionalities without indistinguishability obfuscation?",
-          es: "En el contexto de Cifrado Funcional con seguridad basada en indistinguibilidad, ¿qué barrera matemática impide lograr seguridad basada en simulación para funcionalidades generales sin ofuscación de indistinguibilidad?",
-          de: "Im Kontext von Functional Encryption mit ununterscheidbarkeitsbasierter Sicherheit, welche mathematische Barriere verhindert das Erreichen simulationsbasierter Sicherheit für allgemeine Funktionalitäten ohne Indistinguishability Obfuscation?",
-          nl: "In de context van Functional Encryption met ononderscheidbaarheidgebaseerde beveiliging, welke wiskundige barrière voorkomt het bereiken van simulatiegebaseerde beveiliging voor algemene functionaliteiten zonder indistinguishability obfuscation?"
+          en: "What barrier prevents simulation-based FE security without indistinguishability obfuscation?",
+          es: "¿Qué barrera impide seguridad basada en simulación en FE sin ofuscación de indistinguibilidad?",
+          de: "Welche Barriere verhindert simulationsbasierte FE-Sicherheit ohne Indistinguishability Obfuscation?",
+          nl: "Welke barrière voorkomt simulatiegebaseerde FE-beveiliging zonder indistinguishability obfuscation?"
         },
         options: [
           {
@@ -543,10 +543,10 @@
       },
       {
         question: {
-          en: "What complexity-theoretic assumption underlies the hardness of the Unique Shortest Vector Problem (uSVP) that makes it potentially easier than the general Shortest Vector Problem (SVP) in high dimensions?",
-          es: "¿Qué suposición teórica de complejidad subyace a la dureza del Problema del Vector Más Corto Único (uSVP) que lo hace potencialmente más fácil que el Problema del Vector Más Corto general (SVP) en altas dimensiones?",
-          de: "Welche komplexitätstheoretische Annahme liegt der Härte des Unique Shortest Vector Problem (uSVP) zugrunde, die es in hohen Dimensionen möglicherweise einfacher macht als das allgemeine Shortest Vector Problem (SVP)?",
-          nl: "Welke complexiteittheoretische aanname ligt ten grondslag aan de hardheid van het Unique Shortest Vector Problem (uSVP) dat het mogelijk makkelijker maakt dan het algemene Shortest Vector Problem (SVP) in hoge dimensies?"
+          en: "What assumption makes uSVP potentially easier than general SVP in high dimensions?",
+          es: "¿Qué suposición hace uSVP potencialmente más fácil que SVP general en altas dimensiones?",
+          de: "Welche Annahme macht uSVP potenziell einfacher als allgemeines SVP in hohen Dimensionen?",
+          nl: "Welke aanname maakt uSVP mogelijk makkelijker dan algemene SVP in hoge dimensies?"
         },
         options: [
           {
@@ -584,10 +584,10 @@
       },
       {
         question: {
-          en: "In Interactive Oracle Proofs (IOPs), what fundamental limitation prevents achieving both polylogarithmic query complexity and constant soundness error simultaneously for NP relations?",
-          es: "En Pruebas de Oráculo Interactivas (IOPs), ¿qué limitación fundamental impide lograr tanto complejidad de consulta polivalgarítmica como error de solidez constante simultáneamente para relaciones NP?",
-          de: "In Interactive Oracle Proofs (IOPs), welche fundamentale Begrenzung verhindert das gleichzeitige Erreichen sowohl polylogarithmischer Query-Komplexität als auch konstanten Soundness-Fehlers für NP-Relationen?",
-          nl: "In Interactive Oracle Proofs (IOPs), welke fundamentele beperking voorkomt het bereiken van zowel polylogaritmische query complexiteit als constante soundness fout gelijktijdig voor NP relaties?"
+          en: "What IOP limitation prevents polylogarithmic query complexity and constant soundness error simultaneously?",
+          es: "¿Qué limitación IOP impide complejidad de consulta polilogarítmica y error de solidez constante simultáneamente?",
+          de: "Welche IOP-Begrenzung verhindert polylogarithmische Query-Komplexität und konstanten Soundness-Fehler?",
+          nl: "Welke IOP-beperking voorkomt polylogaritmische query complexiteit en constante soundness fout?"
         },
         options: [
           {
@@ -666,10 +666,10 @@
       },
       {
         question: {
-          en: "In the context of Succinct Non-interactive Arguments of Knowledge (SNARKs), what mathematical barrier prevents achieving both universal setup and post-quantum security simultaneously?",
-          es: "En el contexto de Argumentos Sucintos No Interactivos de Conocimiento (SNARKs), ¿qué barrera matemática impide lograr tanto configuración universal como seguridad post-cuántica simultáneamente?",
-          de: "Im Kontext von Succinct Non-interactive Arguments of Knowledge (SNARKs), welche mathematische Barriere verhindert das gleichzeitige Erreichen sowohl universeller Einrichtung als auch Post-Quanten-Sicherheit?",
-          nl: "In de context van Succinct Non-interactive Arguments of Knowledge (SNARKs), welke wiskundige barrière voorkomt het bereiken van zowel universele setup als post-quantum beveiliging gelijktijdig?"
+          en: "What SNARK barrier prevents universal setup and post-quantum security simultaneously?",
+          es: "¿Qué barrera SNARK impide configuración universal y seguridad post-cuántica simultáneamente?",
+          de: "Welche SNARK-Barriere verhindert universelle Einrichtung und Post-Quanten-Sicherheit gleichzeitig?",
+          nl: "Welke SNARK-barrière voorkomt universele setup en post-quantum beveiliging gelijktijdig?"
         },
         options: [
           {
@@ -748,10 +748,10 @@
       },
       {
         question: {
-          en: "In threshold cryptography for distributed key generation (DKG), what fundamental impossibility arises when attempting to achieve both non-interactive setup and adaptive security simultaneously?",
-          es: "En criptografía de umbral para generación de claves distribuidas (DKG), ¿qué imposibilidad fundamental surge al intentar lograr tanto configuración no interactiva como seguridad adaptiva simultáneamente?",
-          de: "In der Threshold-Kryptographie für verteilte Schlüsselerzeugung (DKG), welche fundamentale Unmöglichkeit entsteht beim Versuch, sowohl nicht-interaktive Einrichtung als auch adaptive Sicherheit gleichzeitig zu erreichen?",
-          nl: "In drempel cryptografie voor gedistribueerde sleutelgeneratie (DKG), welke fundamentele onmogelijkheid ontstaat bij het proberen om zowel non-interactieve setup als adaptieve beveiliging gelijktijdig te bereiken?"
+          en: "What DKG impossibility arises when attempting non-interactive setup and adaptive security?",
+          es: "¿Qué imposibilidad DKG surge al intentar configuración no interactiva y seguridad adaptiva?",
+          de: "Welche DKG-Unmöglichkeit entsteht bei nicht-interaktiver Einrichtung und adaptiver Sicherheit?",
+          nl: "Welke DKG-onmogelijkheid ontstaat bij non-interactieve setup en adaptieve beveiliging?"
         },
         options: [
           {

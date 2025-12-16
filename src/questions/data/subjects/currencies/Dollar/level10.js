@@ -115,10 +115,10 @@
       },
       {
         question: {
-          en: "In advanced econometric analysis, what is the coefficient of determination (R²) for the relationship between the US dollar index (DXY) and global commodity prices over the past 50 years?",
-          es: "En análisis econométrico avanzado, ¿cuál es el coeficiente de determinación (R²) para la relación entre el índice del dólar estadounidense (DXY) y los precios globales de materias primas durante los últimos 50 años?",
-          de: "In der fortgeschrittenen ökonometrischen Analyse, wie hoch ist der Bestimmtheitskoeffizient (R²) für die Beziehung zwischen dem US-Dollar-Index (DXY) und globalen Rohstoffpreisen über die letzten 50 Jahre?",
-          nl: "In geavanceerde econometrische analyse, wat is de determinatiecoëfficiënt (R²) voor de relatie tussen de Amerikaanse dollar index (DXY) en wereldwijde grondstofprijzen over de afgelopen 50 jaar?"
+          en: "What is the R² for the DXY vs global commodity prices relationship (past 50 years)?",
+          es: "¿Cuál es el R² entre el índice DXY y precios globales de materias primas (últimos 50 años)?",
+          de: "Wie hoch ist der R² zwischen US-Dollar-Index (DXY) und globalen Rohstoffpreisen (50 Jahre)?",
+          nl: "Wat is de R² voor de relatie tussen DXY en wereldwijde grondstofprijzen (afgelopen 50 jaar)?"
         },
         options: [
           { en: "R² = 0.847 ±0.023 with negative correlation", es: "R² = 0.847 ±0.023 con correlación negativa", de: "R² = 0,847 ±0,023 mit negativer Korrelation", nl: "R² = 0,847 ±0,023 met negatieve correlatie" },
@@ -178,10 +178,10 @@
       },
       {
         question: {
-          en: "According to advanced monetary theory, what is the optimal Federal Reserve balance sheet size as a percentage of GDP to maintain price stability while maximizing seigniorage revenue?",
-          es: "Según la teoría monetaria avanzada, ¿cuál es el tamaño óptimo del balance de la Reserva Federal como porcentaje del PIB para mantener la estabilidad de precios mientras se maximizan los ingresos por señoreaje?",
-          de: "Laut fortgeschrittener Geldtheorie, wie groß sollte die optimale Federal Reserve-Bilanz als Prozentsatz des BIP sein, um Preisstabilität zu erhalten und gleichzeitig Seigniorage-Einnahmen zu maximieren?",
-          nl: "Volgens geavanceerde monetaire theorie, wat is de optimale Federal Reserve balansgrootte als percentage van het BBP om prijsstabiliteit te handhaven terwijl seigniorage-inkomsten worden gemaximaliseerd?"
+          en: "What is the optimal Fed balance sheet size (% GDP) for price stability and max seigniorage?",
+          es: "¿Cuál es el tamaño óptimo del balance de la Fed (% PIB) para estabilidad de precios y máximo señoreaje?",
+          de: "Wie groß sollte die optimale Fed-Bilanz (% BIP) für Preisstabilität und maximale Seigniorage sein?",
+          nl: "Wat is de optimale Fed-balansgrootte (% BBP) voor prijsstabiliteit en maximale seigniorage?"
         },
         options: [
           { en: "8.7% ±0.8% of GDP under normal economic conditions", es: "8.7% ±0.8% del PIB bajo condiciones económicas normales", de: "8,7% ±0,8% des BIP unter normalen wirtschaftlichen Bedingungen", nl: "8,7% ±0,8% van het BBP onder normale economische omstandigheden" },
@@ -220,10 +220,10 @@
       },
       {
         question: {
-          en: "In the context of international central bank digital currencies (CBDCs), what is the theoretical maximum transaction throughput that would be required to fully replace physical US dollar circulation globally?",
-          es: "En el contexto de las monedas digitales de bancos centrales internacionales (CBDCs), ¿cuál es el rendimiento máximo teórico de transacciones que se requeriría para reemplazar completamente la circulación física del dólar estadounidense globalmente?",
-          de: "Im Kontext internationaler digitaler Zentralbankwährungen (CBDCs), wie hoch ist der theoretische maximale Transaktionsdurchsatz, der erforderlich wäre, um die physische US-Dollar-Zirkulation global vollständig zu ersetzen?",
-          nl: "In de context van internationale centrale bank digitale valuta's (CBDCs), wat is de theoretische maximale transactiedoorvoer die vereist zou zijn om fysieke Amerikaanse dollarcirculatie wereldwijd volledig te vervangen?"
+          en: "What theoretical max transaction throughput would replace physical USD circulation globally with CBDCs?",
+          es: "¿Cuál es el rendimiento máximo teórico de transacciones CBDC para reemplazar USD físico globalmente?",
+          de: "Wie hoch ist der theoretische maximale CBDC-Transaktionsdurchsatz für globalen USD-Ersatz?",
+          nl: "Wat is de theoretische maximale CBDC-transactiedoorvoer voor wereldwijde USD-vervanging?"
         },
         options: [
           { en: "1.2 million transactions per second during peak global commerce", es: "1.2 millones de transacciones por segundo durante el pico del comercio global", de: "1,2 Millionen Transaktionen pro Sekunde während des globalen Handelshöhepunkts", nl: "1,2 miljoen transacties per seconde tijdens piek wereldhandel" },
@@ -241,10 +241,10 @@
       },
       {
         question: {
-          en: "What is the precise electromagnetic signature frequency range of the magnetic ink character recognition (MICR) technology used in Federal Reserve check processing systems?",
-          es: "¿Cuál es el rango de frecuencia de firma electromagnética precisa de la tecnología de reconocimiento de caracteres de tinta magnética (MICR) utilizada en los sistemas de procesamiento de cheques de la Reserva Federal?",
-          de: "Wie ist der präzise elektromagnetische Signatur-Frequenzbereich der Magnetschrift-Erkennungstechnologie (MICR) in Federal Reserve-Scheckverarbeitungssystemen?",
-          nl: "Wat is het precieze elektromagnetische signatuurfrequentiebereik van de magnetische inkt karakterherkenning (MICR) technologie gebruikt in Federal Reserve cheque verwerkingssystemen?"
+          en: "What is the electromagnetic frequency range of MICR technology in Federal Reserve systems?",
+          es: "¿Cuál es el rango de frecuencia electromagnética de la tecnología MICR de la Reserva Federal?",
+          de: "Wie ist der elektromagnetische Frequenzbereich der MICR-Technologie in Federal Reserve-Systemen?",
+          nl: "Wat is het elektromagnetische frequentiebereik van MICR-technologie in Federal Reserve-systemen?"
         },
         options: [
           { en: "2.4-3.8 MHz with harmonic resonance at 12.7 MHz", es: "2.4-3.8 MHz con resonancia armónica a 12.7 MHz", de: "2,4-3,8 MHz mit harmonischer Resonanz bei 12,7 MHz", nl: "2,4-3,8 MHz met harmonische resonantie bij 12,7 MHz" },
@@ -262,10 +262,10 @@
       },
       {
         question: {
-          en: "According to the most advanced computational fluid dynamics models, what is the optimal air circulation pattern in Bureau of Engraving and Printing facilities to minimize particulate contamination during currency production?",
-          es: "Según los modelos computacionales de dinámica de fluidos más avanzados, ¿cuál es el patrón óptimo de circulación de aire en las instalaciones de la Oficina de Grabado e Impresión para minimizar la contaminación de partículas durante la producción de moneda?",
-          de: "Laut den fortgeschrittensten rechnerischen Strömungsdynamik-Modellen, wie ist das optimale Luftzirkulationsmuster in Bureau of Engraving and Printing-Anlagen zur Minimierung von Partikelkontamination während der Währungsproduktion?",
-          nl: "Volgens de meest geavanceerde computationele vloeistofdynamica modellen, wat is het optimale luchtcirculatiepatroon in Bureau of Engraving and Printing faciliteiten om particulaire verontreiniging tijdens valutaproductie te minimaliseren?"
+          en: "What is the optimal air circulation pattern in BEP facilities to minimize contamination?",
+          es: "¿Cuál es el patrón óptimo de circulación de aire en BEP para minimizar contaminación?",
+          de: "Wie ist das optimale Luftzirkulationsmuster in BEP-Anlagen zur Minimierung von Kontamination?",
+          nl: "Wat is het optimale luchtcirculatiepatroon in BEP-faciliteiten om verontreiniging te minimaliseren?"
         },
         options: [
           { en: "Laminar flow at 0.35 m/s with ISO Class 5 filtration (0.3μm)", es: "Flujo laminar a 0.35 m/s con filtración ISO Clase 5 (0.3μm)", de: "Laminare Strömung bei 0,35 m/s mit ISO Klasse 5 Filterung (0,3μm)", nl: "Laminaire stroming bij 0,35 m/s met ISO Klasse 5 filtratie (0,3μm)" },
@@ -325,10 +325,10 @@
       },
       {
         question: {
-          en: "In the context of advanced cryptanalysis, what is the computational complexity class for breaking the algorithmic security patterns embedded in Series 2013 and later US banknotes?",
-          es: "En el contexto del criptoanálisis avanzado, ¿cuál es la clase de complejidad computacional para romper los patrones de seguridad algorítmicos incrustados en los billetes estadounidenses Serie 2013 y posteriores?",
-          de: "Im Kontext fortgeschrittener Kryptanalyse, was ist die rechnerische Komplexitätsklasse zum Brechen der algorithmischen Sicherheitsmuster in US-Banknoten der Serie 2013 und später?",
-          nl: "In de context van geavanceerde cryptoanalyse, wat is de computationele complexiteitsklasse voor het breken van de algoritmische veiligheidspatronen ingebed in Amerikaanse bankbiljetten Serie 2013 en later?"
+          en: "What is the complexity class for breaking algorithmic security patterns in US bills Series 2013+?",
+          es: "¿Cuál es la clase de complejidad para romper patrones de seguridad en billetes US Serie 2013+?",
+          de: "Was ist die Komplexitätsklasse zum Brechen von Sicherheitsmustern in US-Scheinen Serie 2013+?",
+          nl: "Wat is de complexiteitsklasse voor het breken van veiligheidspatronen in US-biljetten Serie 2013+?"
         },
         options: [
           { en: "NP-complete with 2^256 average case complexity", es: "NP-completo con complejidad de caso promedio 2^256", de: "NP-vollständig mit 2^256 durchschnittlicher Fallkomplexität", nl: "NP-compleet met 2^256 gemiddelde gevalkomplexiteit" },

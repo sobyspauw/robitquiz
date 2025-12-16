@@ -6,21 +6,11 @@
 
 tutorial stap quiz kies een antwoord staat de highlight line over de text heen.
 
-druk op play stap tutorial icoontje staat op de play knop/highlight.
-
-de learn more text staat te laag/kan niet naar beneden scrollen.
-
-badges/adchievements toevoegen.
-
-een game mode blijft heel lang locked(na -2h cooldown)
+badges/adchievements scherm bettere looks geven.
 
 sommige vragen zijn veel te lang
 
-bij info game modes mag de tips text weg en het eerste stuk tekst mag weg.
-
 nog een keer naar de rewards balancing kijken.
-
-sommige schermen beginnen halverwegen. als je op play drukt 
 
 alle opties van de vragen ongeveer even lang maken. nog steeds vaak de langste de juiste(3 opties zijn 1 zin en 1 optie is 2 zinnen dan is die het)
 
@@ -28,7 +18,7 @@ pop up maken voor het afmaken van de game modes en stylen???(nog checken)
 
 looks game modes quiz schermen dubbelchecken
 
-sterren costen normale game mode op basis van hoeveel topics
+sterren kosten normale game mode op basis van hoeveel topics
 
 tutorial robotje toevoegen in plaats van het logo.
 
