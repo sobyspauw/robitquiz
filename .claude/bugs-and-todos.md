@@ -399,6 +399,18 @@ de: "Superintelligente Systeme könnten Ressourcen optimieren ohne menschliches 
 
 ---
 
+## ⏳ LOPENDE WERKZAAMHEDEN
+
+### Deep learning - IN PROGRESS
+**Status:** Levels 2-3 complete (18/201 violations fixed)
+- ✅ Level 2: 7 violations fixed
+- ✅ Level 3: 11 violations fixed
+- ⏳ Levels 4-10: 183 violations remaining (86 extreme >160 chars)
+
+**Note:** Deep learning heeft veel violations. Focus eerst op andere sub-onderwerpen, kom later terug.
+
+---
+
 **Totaal te verkorten:** 6,733 questions (28% van 24,163 totaal)
 
 **🎯 Overall Progress - AI ethiek (VOLTOOID):**
