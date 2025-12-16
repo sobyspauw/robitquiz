@@ -98,6 +98,17 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 - Questions: L1-5: ~120, L6-8: ~140, L9-10: ~160 chars
 - Options: ~100 chars (all levels)
 - Explanations: L1-5: ~350, L6-8: ~400, L9-10: ~450 chars
+
+### ✅ AI in transport - COMPLETED (2025-12-16)
+**Status:** All levels 6, 8, 9, 10 complete - 38 extreme violations fixed
+- Level 6: 15 extreme violations fixed (Q6-Q20)
+- Level 8: 8 extreme violations fixed (Q3, Q11-Q13, Q17-Q18, Q20)
+- Level 9: 15 extreme violations fixed (Q2, Q6-Q8, Q10-Q11, Q16-Q17)
+- Level 10: 13 extreme violations fixed (Q2, Q4, Q7-Q9, Q11, Q13-Q18)
+
+**Example edits:**
+- Level 9 Q2 (line 40): ES 147→145 chars, NL 135→122 chars
+- Level 10 Q16 (line 334): ES 149→140 chars
 - **Note:** Richtlijnen, geen harde limieten. Focus op >120 chars violations.
 
 **Totaal te verkorten:** 6,733 questions (28% van 24,163 totaal)
