@@ -100,7 +100,7 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 - Explanations: L1-5: ~350, L6-8: ~400, L9-10: ~450 chars
 
 ### ✅ AI in transport - COMPLETED (2025-12-16)
-**Status:** All levels 6, 8, 9, 10 complete - 38 extreme violations fixed
+**Status:** All levels 6, 8, 9, 10 complete - 51 extreme violations fixed
 - Level 6: 15 extreme violations fixed (Q6-Q20)
 - Level 8: 8 extreme violations fixed (Q3, Q11-Q13, Q17-Q18, Q20)
 - Level 9: 15 extreme violations fixed (Q2, Q6-Q8, Q10-Q11, Q16-Q17)
@@ -109,7 +109,17 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 **Example edits:**
 - Level 9 Q2 (line 40): ES 147→145 chars, NL 135→122 chars
 - Level 10 Q16 (line 334): ES 149→140 chars
-- **Note:** Richtlijnen, geen harde limieten. Focus op >120 chars violations.
+
+### ✅ AI toekomst - COMPLETED (2025-12-16)
+**Status:** All levels 7, 9, 10 complete - 7 extreme violations fixed
+- Level 7: 1 extreme violation fixed (Q17 NL 149→140 chars)
+- Level 9: 2 extreme violations fixed (Q16 DE 142→139, NL 147→140 chars)
+- Level 10: 4 extreme violations fixed (Q11 NL 144→139, Q15 ES 142→134/DE 148→138, Q20 DE 150→139 chars)
+
+**Example edits:**
+- Level 7 Q17 (line 334): NL "besluitvormingsbevoegdheid" → "uiteindelijke beslissingsbevoegdheid"
+- Level 10 Q15 (line 313): ES 142→134, DE 148→138 chars
+- **Note:** Richtlijnen, geen harde limieten. Focus op >140 chars violations.
 
 **Totaal te verkorten:** 6,733 questions (28% van 24,163 totaal)
 
