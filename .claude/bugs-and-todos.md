@@ -163,6 +163,28 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 
 **Note:** Richtlijnen, geen harde limieten. Focus op >140 chars violations.
 
+---
+
+## 📋 VOLLEDIGE VOORBEELDVRAGEN (voor dubbelcheck)
+
+### AI ethiek - 3 voorbeelden
+
+*Deze sectie komt nog - complete vragen met VOOR/NA*
+
+### AI geschiedenis - 3 voorbeelden
+
+*Deze sectie komt nog - complete vragen met VOOR/NA*
+
+### AI in transport - 3 voorbeelden
+
+*Deze sectie komt nog - complete vragen met VOOR/NA*
+
+### AI toekomst - 3 voorbeelden
+
+*Deze sectie komt nog - complete vragen met VOOR/NA*
+
+---
+
 **Totaal te verkorten:** 6,733 questions (28% van 24,163 totaal)
 
 **🎯 Overall Progress - AI ethiek (VOLTOOID):**
