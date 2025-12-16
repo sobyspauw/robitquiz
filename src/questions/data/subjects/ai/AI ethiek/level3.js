@@ -142,7 +142,7 @@
           nl: "Wat is 'pseudonimisering' in data privacy?"
         },
         options: [
-          { en: "Replacing direct identifiers with artificial identifiers that can be reversed", es: "Reemplazar identificadores directos con identificadores artificiales que pueden ser revertidos", de: "Direkte Identifikatoren durch kuenstliche Identifikatoren ersetzen die rueckgaengig gemacht werden koennen", nl: "Directe identificatoren vervangen door kunstmatige identificatoren die omkeerbaar zijn" },
+          { en: "Replacing direct identifiers with artificial identifiers that can be reversed", es: "Reemplazar identificadores directos con identificadores artificiales que pueden ser revertidos", de: "Direkte IDs durch kuenstliche IDs ersetzen die rueckgaengig gemacht werden koennen", nl: "Directe identificatoren vervangen door kunstmatige identificatoren die omkeerbaar zijn" },
           { en: "Using fake names for everyone", es: "Usar nombres falsos para todos", de: "Gefaelschte Namen fuer alle verwenden", nl: "Valse namen gebruiken voor iedereen" },
           { en: "Creating fictional characters", es: "Crear personajes ficticios", de: "Fiktive Charaktere erstellen", nl: "Fictieve karakters creëren" },
           { en: "Using nicknames instead of real names", es: "Usar apodos en lugar de nombres reales", de: "Spitznamen anstatt echter Namen verwenden", nl: "Bijnamen gebruiken in plaats van echte namen" }
@@ -310,7 +310,7 @@
           nl: "Wat zijn 'privacy-bewarende technologieën' in AI?"
         },
         options: [
-          { en: "Technical methods that enable AI functionality while protecting personal data", es: "Metodos tecnicos que habilitan funcionalidad de IA mientras protegen datos personales", de: "Technische Methoden die KI-Funktionalitaet ermoeglichen waehrend persoenliche Daten geschuetzt werden", nl: "Technische methoden die AI functionaliteit mogelijk maken terwijl persoonlijke data beschermd wordt" },
+          { en: "Technical methods that enable AI functionality while protecting personal data", es: "Metodos tecnicos que habilitan funcionalidad de IA mientras protegen datos personales", de: "Technische Methoden die KI-Funktionalitaet ermoeglichen waehrend Daten geschuetzt werden", nl: "Technische methoden die AI functionaliteit mogelijk maken terwijl persoonlijke data beschermd wordt" },
           { en: "Old technologies that respect privacy", es: "Tecnologias antiguas que respetan privacidad", de: "Alte Technologien die Privatsphaere respektieren", nl: "Oude technologieën die privacy respecteren" },
           { en: "Only using public data", es: "Solo usar datos publicos", de: "Nur oeffentliche Daten verwenden", nl: "Alleen publieke data gebruiken" },
           { en: "Avoiding all personal information", es: "Evitar toda informacion personal", de: "Alle persoenlichen Informationen vermeiden", nl: "Alle persoonlijke informatie vermijden" }

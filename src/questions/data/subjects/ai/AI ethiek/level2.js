@@ -310,7 +310,7 @@
           nl: "Wat betekent 'gelijke kansen' in AI eerlijkheid?"
         },
         options: [
-          { en: "Equal true positive and false positive rates across groups for the same actual outcome", es: "Tasas iguales de verdaderos positivos y falsos positivos entre grupos para el mismo resultado real", de: "Gleiche wahre positive und falsche positive Raten zwischen Gruppen fuer das gleiche tatsaechliche Ergebnis", nl: "Gelijke echte positieve en vals positieve percentages tussen groepen voor hetzelfde werkelijke resultaat" },
+          { en: "Equal true positive and false positive rates across groups for the same actual outcome", es: "Tasas iguales de verdaderos positivos y falsos positivos entre grupos para el mismo resultado real", de: "Gleiche wahre/falsche positive Raten zwischen Gruppen fuer gleiches tatsaechliches Ergebnis", nl: "Gelijke echte/vals positieve percentages tussen groepen voor hetzelfde werkelijke resultaat" },
           { en: "Making gambling odds the same for everyone", es: "Hacer que las probabilidades de apuesta sean iguales para todos", de: "Gluecksspielquoten fuer alle gleich machen", nl: "Gokodds voor iedereen gelijk maken" },
           { en: "Balancing computational resources", es: "Equilibrar recursos computacionales", de: "Rechenressourcen ausbalancieren", nl: "Computationele middelen balanceren" },
           { en: "Equal processing time for all users", es: "Tiempo de procesamiento igual para todos los usuarios", de: "Gleiche Verarbeitungszeit fuer alle Nutzer", nl: "Gelijke verwerkingstijd voor alle gebruikers" }
@@ -331,7 +331,7 @@
           nl: "Wat is 'kalibratie' in de context van AI eerlijkheid?"
         },
         options: [
-          { en: "Ensuring predicted probabilities match actual outcomes equally across groups", es: "Asegurar que probabilidades predichas coincidan con resultados reales igualmente entre grupos", de: "Sicherstellen dass vorhergesagte Wahrscheinlichkeiten tatsaechlichen Ergebnissen gleich zwischen Gruppen entsprechen", nl: "Ervoor zorgen dat voorspelde kansen gelijk overeenkomen met werkelijke uitkomsten tussen groepen" },
+          { en: "Ensuring predicted probabilities match actual outcomes equally across groups", es: "Asegurar que probabilidades predichas coincidan con resultados reales igualmente entre grupos", de: "Sicherstellen dass Vorhersagen tatsaechlichen Ergebnissen gleich zwischen Gruppen entsprechen", nl: "Ervoor zorgen dat voorspellingen overeenkomen met werkelijke uitkomsten tussen groepen" },
           { en: "Adjusting computer settings", es: "Ajustar configuraciones de computadora", de: "Computereinstellungen anpassen", nl: "Computerinstellingen aanpassen" },
           { en: "Measuring system performance", es: "Medir rendimiento del sistema", de: "Systemleistung messen", nl: "Systeemprestaties meten" },
           { en: "Setting up hardware correctly", es: "Configurar hardware correctamente", de: "Hardware korrekt einrichten", nl: "Hardware correct instellen" }
@@ -394,7 +394,7 @@
           nl: "Wat is 'onevenredige impact' in AI besluitvorming?"
         },
         options: [
-          { en: "When AI decisions disproportionately affect certain groups negatively", es: "Cuando decisiones de IA afectan desproporcionadamente ciertos grupos negativamente", de: "Wenn KI-Entscheidungen bestimmte Gruppen unverhaeltnismaessig negativ beeinflussen", nl: "Wanneer AI beslissingen bepaalde groepen onevenredig negatief beïnvloeden" },
+          { en: "When AI decisions disproportionately affect certain groups negatively", es: "Cuando decisiones de IA afectan desproporcionadamente ciertos grupos negativamente", de: "Wenn KI-Entscheidungen bestimmte Gruppen unverhaeltnismaessig negativ betreffen", nl: "Wanneer AI beslissingen bepaalde groepen onevenredig negatief treffen" },
           { en: "When AI systems crash unexpectedly", es: "Cuando sistemas de IA fallan inesperadamente", de: "Wenn KI-Systeme unerwartet abstuerzen", nl: "Wanneer AI systemen onverwacht crashen" },
           { en: "When decisions are made too quickly", es: "Cuando decisiones se toman demasiado rapido", de: "Wenn Entscheidungen zu schnell getroffen werden", nl: "Wanneer beslissingen te snel genomen worden" },
           { en: "When AI impacts are scattered randomly", es: "Cuando impactos de IA se dispersan aleatoriamente", de: "Wenn KI-Auswirkungen zufaellig verstreut sind", nl: "Wanneer AI impacts willekeurig verspreid zijn" }

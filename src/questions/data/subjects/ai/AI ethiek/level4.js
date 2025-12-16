@@ -184,7 +184,7 @@
           nl: "Wat is het 'black box' probleem in machine learning modellen?"
         },
         options: [
-          { en: "When AI decision-making processes are opaque and cannot be easily understood or explained", es: "Cuando procesos de toma de decisiones de IA son opacos y no pueden ser facilmente entendidos o explicados", de: "Wenn KI-Entscheidungsprozesse undurchsichtig sind und nicht leicht verstanden oder erklaert werden koennen", nl: "Wanneer AI besluitvormingsprocessen ondoorzichtig zijn en niet gemakkelijk begrepen of uitgelegd kunnen worden" },
+          { en: "When AI decision-making processes are opaque and cannot be easily understood or explained", es: "Cuando procesos de decision IA son opacos y no pueden entenderse o explicarse facilmente", de: "Wenn KI-Entscheidungsprozesse undurchsichtig sind und nicht leicht verstanden werden koennen", nl: "Wanneer AI besluitvormingsprocessen ondoorzichtig zijn en niet gemakkelijk begrepen kunnen worden" },
           { en: "When AI systems are stored in black containers", es: "Cuando sistemas de IA se almacenan en contenedores negros", de: "Wenn KI-Systeme in schwarzen Behaeltern gespeichert werden", nl: "Wanneer AI systemen in zwarte containers worden opgeslagen" },
           { en: "When AI systems fail to process dark images", es: "Cuando sistemas de IA fallan en procesar imagenes oscuras", de: "Wenn KI-Systeme dunkle Bilder nicht verarbeiten koennen", nl: "Wanneer AI systemen falen bij het verwerken van donkere afbeeldingen" },
           { en: "When AI systems crash and show black screens", es: "Cuando sistemas de IA se bloquean y muestran pantallas negras", de: "Wenn KI-Systeme abstuerzen und schwarze Bildschirme zeigen", nl: "Wanneer AI systemen crashen en zwarte schermen tonen" }
@@ -205,7 +205,7 @@
           nl: "Wat zijn LIME en SHAP in uitlegbare AI?"
         },
         options: [
-          { en: "Methods for explaining individual AI model predictions by showing feature importance", es: "Metodos para explicar predicciones individuales de modelos de IA mostrando importancia de caracteristicas", de: "Methoden zur Erklaerung individueller KI-Modellvorhersagen durch Anzeigen der Merkmalswichtigkeit", nl: "Methoden voor het uitleggen van individuele AI model voorspellingen door feature belangrijkheid te tonen" },
+          { en: "Methods for explaining individual AI model predictions by showing feature importance", es: "Metodos para explicar predicciones de modelos IA mostrando importancia de caracteristicas", de: "Methoden zur Erklaerung individueller KI-Modellvorhersagen durch Merkmalswichtigkeit", nl: "Methoden voor uitleggen van individuele AI voorspellingen door feature belangrijkheid te tonen" },
           { en: "Types of citrus fruits used in AI training", es: "Tipos de frutas citricas usadas en entrenamiento de IA", de: "Arten von Zitrusfruechten die im KI-Training verwendet werden", nl: "Soorten citrusvruchten gebruikt in AI training" },
           { en: "Programming languages for AI development", es: "Lenguajes de programacion para desarrollo de IA", de: "Programmiersprachen fuer KI-Entwicklung", nl: "Programmeertalen voor AI ontwikkeling" },
           { en: "Hardware components for AI systems", es: "Componentes de hardware para sistemas de IA", de: "Hardware-Komponenten fuer KI-Systeme", nl: "Hardware componenten voor AI systemen" }
@@ -352,7 +352,7 @@
           nl: "Wat is 'concept drift' en hoe beïnvloedt het AI uitlegbaarheid?"
         },
         options: [
-          { en: "When the relationship between inputs and outputs changes over time, requiring updated explanations", es: "Cuando la relacion entre entradas y salidas cambia con el tiempo, requiriendo explicaciones actualizadas", de: "Wenn sich die Beziehung zwischen Eingaben und Ausgaben ueber die Zeit aendert und aktualisierte Erklaerungen erfordert", nl: "Wanneer de relatie tussen inputs en outputs verandert over tijd, wat bijgewerkte verklaringen vereist" },
+          { en: "When the relationship between inputs and outputs changes over time, requiring updated explanations", es: "Cuando relacion entre entradas y salidas cambia con tiempo requiriendo explicaciones nuevas", de: "Wenn die Beziehung zwischen Ein-/Ausgaben sich aendert und neue Erklaerungen erfordert", nl: "Wanneer relatie tussen inputs/outputs verandert en bijgewerkte verklaringen vereist" },
           { en: "When AI concepts become outdated and need replacement", es: "Cuando conceptos de IA se vuelven obsoletos y necesitan reemplazo", de: "Wenn KI-Konzepte veraltet werden und Ersatz benoetigen", nl: "Wanneer AI concepten verouderd raken en vervanging nodig hebben" },
           { en: "When AI explanations become too complex", es: "Cuando explicaciones de IA se vuelven demasiado complejas", de: "Wenn KI-Erklaerungen zu komplex werden", nl: "Wanneer AI verklaringen te complex worden" },
           { en: "When users lose interest in AI explanations", es: "Cuando usuarios pierden interes en explicaciones de IA", de: "Wenn Nutzer das Interesse an KI-Erklaerungen verlieren", nl: "Wanneer gebruikers interesse verliezen in AI verklaringen" }
@@ -373,7 +373,7 @@
           nl: "Wat is 'gradient-gebaseerde attributie' in neurale netwerk uitlegbaarheid?"
         },
         options: [
-          { en: "Using derivatives to determine which input features most influence network outputs", es: "Usar derivadas para determinar que caracteristicas de entrada mas influyen en las salidas de la red", de: "Ableitungen verwenden um zu bestimmen welche Eingabemerkmale die Netzwerkausgaben am meisten beeinflussen", nl: "Gebruik van afgeleiden om te bepalen welke input features de netwerk outputs het meest beïnvloeden" },
+          { en: "Using derivatives to determine which input features most influence network outputs", es: "Usar derivadas para determinar que caracteristicas de entrada mas influyen en las salidas de la red", de: "Ableitungen verwenden um zu bestimmen welche Eingabemerkmale Netzwerkausgaben beeinflussen", nl: "Gebruik van afgeleiden om te bepalen welke input features de netwerk outputs het meest beïnvloeden" },
           { en: "Gradually increasing the difficulty of training examples", es: "Aumentar gradualmente la dificultad de ejemplos de entrenamiento", de: "Die Schwierigkeit von Trainingsbeispielen graduell erhoehen", nl: "Geleidelijk verhogen van de moeilijkheid van trainingsvoorbeelden" },
           { en: "Assigning colors based on gradient values", es: "Asignar colores basados en valores de gradiente", de: "Farben basierend auf Gradientenwerten zuweisen", nl: "Kleuren toewijzen gebaseerd op gradient waarden" },
           { en: "Creating smooth transitions between network layers", es: "Crear transiciones suaves entre capas de red", de: "Sanfte Uebergaenge zwischen Netzwerkschichten erstellen", nl: "Vloeiende overgangen maken tussen netwerklagen" }
@@ -415,7 +415,7 @@
           nl: "Wat is 'model transparantie' in de context van regelgevingsnaleving?"
         },
         options: [
-          { en: "Providing clear documentation about model architecture, training data, and decision processes for regulatory review", es: "Proporcionar documentacion clara sobre arquitectura del modelo, datos de entrenamiento y procesos de decision para revision regulatoria", de: "Klare Dokumentation ueber Modellarchitektur, Trainingsdaten und Entscheidungsprozesse fuer regulatorische Pruefung bereitzustellen", nl: "Het verstrekken van duidelijke documentatie over modelarchitectuur, trainingsdata en besluitvormingsprocessen voor regulatoire toetsing" },
+          { en: "Clear documentation about model architecture, training data, and decisions for regulatory review", es: "Documentacion clara sobre arquitectura, datos de entrenamiento y decisiones para revision", de: "Klare Dokumentation ueber Modellarchitektur, Trainingsdaten und Entscheidungen fuer Pruefung", nl: "Duidelijke documentatie over modelarchitectuur, trainingsdata en beslissingen voor toetsing" },
           { en: "Making AI models completely open source", es: "Hacer que modelos de IA sean completamente de codigo abierto", de: "KI-Modelle vollstaendig Open Source machen", nl: "AI modellen volledig open source maken" },
           { en: "Using only simple algorithms that everyone can understand", es: "Usar solo algoritmos simples que todos puedan entender", de: "Nur einfache Algorithmen verwenden die jeder verstehen kann", nl: "Alleen eenvoudige algoritmes gebruiken die iedereen kan begrijpen" },
           { en: "Publishing all training data publicly", es: "Publicar todos los datos de entrenamiento publicamente", de: "Alle Trainingsdaten oeffentlich veroeffentlichen", nl: "Alle trainingsdata publiek publiceren" }

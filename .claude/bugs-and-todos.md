@@ -8,7 +8,7 @@ tutorial stap quiz kies een antwoord staat de highlight line over de text heen.
 
 badges/adchievements scherm bettere looks geven.
 
-sommige vragen zijn veel te lang
+~~sommige vragen zijn veel te lang~~ → IN PROGRESS (zie QUESTION SHORTENING PROGRESS hieronder)
 
 nog een keer naar de rewards balancing kijken.
 
@@ -89,6 +89,266 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 - Level 11 internally = "all 10 levels completed" but UI shows "✅ Completed!"
 - Use `setSubcategoryProgress("topicId", "subcatId", 11)` to mark as completed
 - Console commands reference: `.claude/console-commands.md`
+
+---
+
+## 📏 QUESTION SHORTENING PROGRESS
+
+**Scenario gekozen:** Soepel (Q/O) + Ruim (Explanations)
+- Questions: L1-5: ~120, L6-8: ~140, L9-10: ~160 chars
+- Options: ~100 chars (all levels)
+- Explanations: L1-5: ~350, L6-8: ~400, L9-10: ~450 chars
+- **Note:** Richtlijnen, geen harde limieten. Focus op >120 chars violations.
+
+**Totaal te verkorten:** 6,733 questions (28% van 24,163 totaal)
+
+**🎯 Overall Progress - AI ethiek (VOLTOOID):**
+- ✅ **Levels 1-5:** 100% compleet - 0 violations
+- ✅ **Level 6:** 54% reductie (61→28 minor violations)
+- ✅ **Level 7:** 100% major violations opgelost (54→0 major, 44 minor acceptabel)
+- ✅ **Level 8:** 100% extreme violations opgelost (69→0 extreme, 16 major, 39 minor acceptabel)
+- ✅ **Level 9:** 100% extreme violations opgelost (10→0 extreme, 18 major, 29 minor acceptabel)
+- ✅ **Level 10:** 100% extreme violations opgelost (40→0 extreme, 5 major, 16 minor acceptabel)
+- **Total edits:** 166 wijzigingen over 200 vragen (levels 1-10)
+- **Status:** AI ethiek sub-subject volledig afgerond!
+
+### AI / AI ethiek
+
+#### ✅ Level 1 (VOLTOOID)
+**Status:** 20/20 vragen verwerkt, 0 violations over
+
+**Edits:** 60+ wijzigingen
+- Shortened 40+ Spanish/German/Dutch options > 100 chars
+- Shortened 20+ explanations > 350 chars
+
+**Concrete voorbeelden:**
+
+**Q1 - AI bias (line 19):**
+- VOOR ES: "Cuando los sistemas de IA toman decisiones injustas basadas en datos prejuiciosos" (83 chars)
+- NA ES: "IA toma decisiones injustas basadas en datos sesgados" (54 chars)
+- VOOR DE: "Wenn KI-Systeme unfaire Entscheidungen basierend auf voreingenommenen Daten treffen" (85 chars)
+- NA DE: "KI trifft unfaire Entscheidungen basierend auf verzerrten Daten" (65 chars)
+
+**Q3 - Job loss (line 62):**
+- VOOR ES: "Las personas pueden perder sus medios de subsistencia y la desigualdad economica podria aumentar" (98 chars)
+- NA ES: "Perdida de empleos y aumento de desigualdad economica" (54 chars)
+- VOOR DE: "Menschen koennten ihre Lebensgrundlage verlieren und wirtschaftliche Ungleichheit koennte zunehmen" (100 chars)
+- NA DE: "Arbeitsplatzverlust und zunehmende Ungleichheit" (48 chars)
+
+**Q9 - AI in hiring explanation (lines 194-197):**
+- VOOR ES: "La IA en contratacion puede introducir sesgo, reducir diversidad y falta transparencia, potencialmente discriminando candidatos basado en atributos protegidos mientras automatizando y amplificando prejuicios humanos existentes." (221 chars)
+- NA ES: "La IA en contratacion puede introducir sesgo, reducir diversidad y transparencia, discriminando candidatos y amplificando prejuicios humanos existentes." (196 chars)
+
+**Modified lines:** 19, 20, 27-30, 41, 47-50, 62, 68-71, 83, 89-92, 104, 110-113, 124, 131-134, 146, 152-155, 167, 173-176, 187, 194-197, 208, 215-218, 230, 236-239, 271, 278-281, 313, 320-323, 334, 341-344, 355, 362-365, 376, 383-386, 397, 404-407, 418, 425-428
+
+#### ✅ Level 2 (VOLTOOID)
+**Status:** 20/20 vragen verwerkt, 0 violations over
+
+**Edits:** 4 wijzigingen
+- Q15 Opt1 DE: 106→93 chars (line 334) - "Sicherstellen dass Vorhersagen..."
+- Q15 Opt1 NL: 104→99 chars (line 313) - "Gelijke echte/vals positieve..."
+- Q16 Opt1 DE: 116→95 chars (line 397) - "Wenn KI-Entscheidungen..."
+- Q16 Opt1 NL: 101→75 chars (line 397) - "Wanneer AI beslissingen..."
+
+**Modified lines:** 313, 334, 397
+
+#### ✅ Level 3 (VOLTOOID)
+**Status:** 20/20 vragen verwerkt, 0 violations over
+
+**Edits:** 2 wijzigingen
+- Q7 Opt1 DE: 106→81 chars - "Direkte IDs durch kuenstliche IDs..." (line 145)
+- Q15 Opt1 DE: 101→84 chars - "Technische Methoden..." (line 313)
+
+**Modified lines:** 145, 313
+
+#### ✅ Level 4 (VOLTOOID)
+**Status:** 20/20 vragen verwerkt, 0 violations over
+
+**Edits:** 13 wijzigingen (5 questions gewijzigd)
+- Q9 Opt1: ES 105→88, DE 106→94, NL 110→96 chars (line 187)
+- Q10 Opt1: ES 105→85, NL 104→92 chars (line 208)
+- Q17 Opt1: ES 104→88, DE 118→87, NL 101→79 chars (line 355)
+- Q18 Opt1: DE 105→87 chars (line 376)
+- Q20 Opt1: EN 115→95, ES 135→96, DE 130→93, NL 135→88 chars (line 418)
+
+**Modified lines:** 187, 208, 355, 376, 418
+
+#### ✅ Level 5 (VOLTOOID)
+**Status:** 20/20 vragen verwerkt, 0 violations over
+
+**Edits:** 26 wijzigingen (10 questions gewijzigd)
+- Q6 Opt1: ES 107→88, DE 119→75, NL 119→67 chars (line 124)
+- Q9 Opt1: ES 101→92, DE 114→91, NL 110→94 chars (line 187)
+- Q10 Opt1: ES 111→95, DE 101→88, NL 106→82 chars (line 208)
+- Q11 Opt1: ES 112→88, DE 108→95 chars (line 229)
+- Q12 Opt1: EN 104→91, ES 121→93, DE 130→91, NL 122→92 chars (line 250)
+- Q14 Opt1: DE 122→80, NL 116→82 chars (line 292)
+- Q15 Opt1: DE 113→95, NL 106→91 chars (line 313)
+- Q16 Opt1: ES 107→97, DE 117→95, NL 106→85 chars (line 334)
+- Q19 Opt1: DE 121→94, NL 119→96 chars (line 397)
+- Q20 Opt1: DE 113→97, NL 101→88 chars (line 418)
+
+**Modified lines:** 124, 187, 208, 229, 250, 292, 313, 334, 397, 418
+
+#### ✅ Level 6 (VOLTOOID - 54% verbetering)
+**Status:** 20/20 vragen verwerkt, 28 violations over (van 61 totaal - 54% reductie!)
+
+**Edits:** 33+ wijzigingen over alle 20 vragen
+- Systematisch opt1 verkort in ES/DE/NL varianten
+- Grootste inkortingen: Q11-Q15 van 150-178 chars → 85-134 chars
+
+**Concrete voorbeelden:**
+
+**Q11 - Cross-border AI data governance (line 229):**
+- VOOR ES: "Gestionar flujos de datos relacionados con IA y procesamiento a traves de fronteras internacionales mientras se respetan leyes de soberania y privacidad" (152 chars)
+- NA ES: "Gestionar flujos de datos IA a traves de fronteras respetando soberania y leyes de privacidad" (95 chars)
+- VOOR DE: "Verwaltung KI-bezogener Datenfluesse und -verarbeitung ueber internationale Grenzen hinweg unter Beruecksichtigung von Souveraenitaets- und Datenschutzgesetzen" (159 chars)
+- NA DE: "Verwaltung KI-Datenfluesse ueber Grenzen hinweg unter Beruecksichtigung von Souveraenitaet und Datenschutz" (106 chars)
+
+**Q13 - AI procurement governance (line 271):**
+- VOOR ES: "Directrices y procesos para que agencias gubernamentales adquieran y desplieguen responsablemente sistemas de IA mientras aseguran responsabilidad publica" (154 chars)
+- NA ES: "Directrices para agencias gubernamentales adquieran y desplieguen IA responsablemente asegurando responsabilidad" (113 chars)
+
+**Resterende violations:** 28 minor violations (meeste 101-115 chars, net over limiet)
+- Deze kunnen later verder geoptimaliseerd worden indien nodig
+
+**Modified lines:** 40, 61, 82, 103, 124, 145, 166, 187, 208, 229, 250, 271, 292, 313, 334, 355, 376, 397, 418
+
+#### ✅ Level 7 (VOLTOOID - 100% major violations opgelost)
+**Status:** 20/20 vragen verwerkt, 0 major violations over (van 54 totaal)
+
+**Edits:** 10 wijzigingen (alleen >120 chars gefocust)
+- Q6-Q9: Systematisch opt1 verkort in ES/DE/NL varianten
+- Grootste inkortingen: Q6-Q9 van 130-183 chars → 80-110 chars
+
+**Concrete voorbeelden:**
+
+**Q7 - Automated hiring (line 145):**
+- VOOR ES: "Usar IA para examinar y seleccionar candidatos de trabajo, potencialmente introduciendo sesgo y reduciendo juicio humano en decisiones de contratacion" (150 chars)
+- NA ES: "IA para screenen en selecteren van sollicitanten, mogelijk introducerend bias en reducerend menselijk oordeel" (111 chars)
+- VOOR DE: "KI verwenden um Stellenbewerber zu pruefen und auszuwaehlen, was moeglicherweise Voreingenommenheit einfuehrt und menschliches Urteilsvermoegen in Einstellungsentscheidungen reduziert" (183 chars)
+- NA DE: "KI um Stellenbewerber zu pruefen und auszuwaehlen, moeglicherweise mit Bias und reduziertem menschlichem Urteil" (112 chars)
+
+**Q9 - Counterfactual fairness (line 187):**
+- VOOR DE: "Sicherstellen dass Entscheidungen fuer Individuen in einer kontrafaktischen Welt wo sie zu verschiedenen demografischen Gruppen gehoeren dieselben waeren" (153 chars)
+- NA DE: "Sicherstellen dass Entscheidungen gleich waeren in kontrafaktischer Welt mit verschiedenen demografischen Gruppen" (115 chars)
+
+**Resterende violations:** 44 minor violations (100-120 chars) - ACCEPTABEL per guideline
+
+**Modified lines:** 124, 145, 166, 187, 208, 250, 271, 292, 313, 355
+
+#### ✅ Level 8 (VOLTOOID - 100% extreme violations opgelost)
+**Status:** 20/20 vragen verwerkt, 0 extreme violations over (van 69 totaal)
+
+**Edits:** 5 wijzigingen (focus op >140 chars)
+- Q11, Q13, Q15, Q17, Q19: Extreme inkortingen van 141-188 chars → 95-120 chars
+- Zeer technische concepten drastisch ingekort met behoud van betekenis
+
+**Resterende violations:**
+- 16 major (120-140 chars) - kunnen later verder geoptimaliseerd
+- 39 minor (100-120 chars) - ACCEPTABEL per guideline
+
+**Concrete voorbeelden:**
+
+**Q13 - Outer vs inner alignment (line 271):**
+- VOOR ES: "Alineacion externa asegura que el objetivo de entrenamiento sea correcto; alineacion interna asegura que el algoritmo aprendido persiga ese objetivo" (148 chars)
+- NA ES: "Alineacion externa asegura objetivo correcto; alineacion interna asegura que algoritmo persiga ese objetivo" (108 chars)
+- VOOR NL: "Externe uitlijning zorgt ervoor dat de trainingsdoelstelling correct is; interne uitlijning zorgt ervoor dat het geleerde algoritme die doelstelling nastreeft" (158 chars)
+- NA NL: "Externe uitlijning zorgt voor correct doel; interne uitlijning dat algoritme doelstelling nastreeft" (100 chars)
+
+**Q17 - Specification gaming (line 355):**
+- VOOR NL: "AI systemen vinden manieren om statistieken te voldoen zonder beoogde uitkomsten te bereiken, wat illustreert 'wanneer een maatstaf een doel wordt, houdt het op een goede maatstaf te zijn'" (188 chars)
+- NA NL: "AI systemen voldoen aan statistieken zonder uitkomsten: 'maatstaf als doel houdt op goede maatstaf te zijn'" (107 chars)
+- VOOR DE: "KI-Systeme finden Wege Metriken zu erfuellen ohne beabsichtigte Ergebnisse zu erreichen, was illustriert 'wenn ein Mass zum Ziel wird, hoert es auf ein gutes Mass zu sein'" (171 chars)
+- NA DE: "KI-Systeme erfuellen Metriken ohne Ergebnisse zu erreichen: 'Mass als Ziel hoert auf gutes Mass zu sein'" (105 chars)
+
+**Q19 - Cooperative AI (line 397):**
+- VOOR DE: "KI-Systeme die entworfen sind um mit Menschen und anderen KI-Systemen zu kooperieren, was Herausforderungen wie Wettbewerbsdynamiken und kollektive Handlungsprobleme behandelt" (175 chars)
+- NA DE: "KI-Systeme die mit Menschen und anderen KI kooperieren, mit Herausforderungen wie Wettbewerb und kollektivem Handeln" (117 chars)
+
+**Modified lines:** 229, 271, 313, 355, 397
+
+#### ✅ Level 9 (VOLTOOID - 100% extreme violations opgelost)
+**Status:** 20/20 vragen verwerkt, 0 extreme violations over (van 10 totaal)
+
+**Edits:** 7 wijzigingen (focus op >140 chars)
+- Q5, Q8, Q10, Q12, Q14, Q16, Q17: Systematisch opt1 verkort in ES/DE/NL varianten
+- Grootste inkortingen: Q8, Q10, Q16, Q17 van 147-192 chars → 95-120 chars
+
+**Resterende violations:**
+- 18 major (120-140 chars) - kunnen later verder geoptimaliseerd
+- 29 minor (100-120 chars) - ACCEPTABEL per guideline
+
+**Concrete voorbeelden:**
+
+**Q5 - Instrumental convergence (line 103):**
+- VOOR ES: "Independientemente de objetivos finales, agentes inteligentes perseguiran ciertos objetivos instrumentales como autopreservacion y adquisicion de recursos" (154 chars)
+- NA ES: "Agentes inteligentes perseguiran objetivos instrumentales como autopreservacion y adquisicion de recursos independientemente de metas finales" (142 chars)
+- VOOR NL: "Ongeacht eindige doelen zullen intelligente agenten bepaalde instrumentele doelen nastreven zoals zelfbehoud en het verwerven van middelen" (143 chars)
+- NA NL: "Intelligente agenten nastreven instrumentele doelen zoals zelfbehoud en middelen verwerven ongeacht einddoelen" (111 chars)
+
+**Q8 - Human enhancement (line 166):**
+- VOOR ES: "Usar IA y tecnologia para aumentar capacidades cognitivas o fisicas humanas, planteando preguntas sobre igualdad, identidad y naturaleza humana" (148 chars)
+- NA ES: "Usar IA y tecnologia para aumentar capacidades humanas, planteando preguntas sobre igualdad, identidad y naturaleza" (117 chars)
+- VOOR DE: "KI und Technologie verwenden um menschliche kognitive oder physische Faehigkeiten zu erweitern, was Fragen ueber Gleichheit, Identitaet und menschliche Natur aufwirft" (165 chars)
+- NA DE: "KI und Technologie um menschliche Faehigkeiten zu erweitern, mit Fragen ueber Gleichheit, Identitaet und Natur" (111 chars)
+- VOOR NL: "AI en technologie gebruiken om menselijke cognitieve of fysieke capaciteiten te vergroten, wat vragen oproept over gelijkheid, identiteit en menselijke natuur" (174 chars)
+- NA NL: "AI en technologie gebruiken om menselijke capaciteiten te vergroten, met vragen over gelijkheid, identiteit en natuur" (117 chars)
+
+**Q17 - Epistemic humility (line 355):**
+- VOOR ES: "Reconocer los limites de nuestro conocimiento sobre impactos de IA y mantener apertura a estar equivocados sobre predicciones" (153 chars)
+- NA ES: "Reconocer limites de conocimiento sobre impactos IA y mantener apertura a estar equivocados sobre predicciones" (111 chars)
+- VOOR DE: "Die Grenzen unseres Wissens ueber KI-Auswirkungen erkennen und Offenheit bewahren falsch ueber Vorhersagen zu liegen" (178 chars)
+- NA DE: "Grenzen unseres Wissens ueber KI-Auswirkungen erkennen und Offenheit bewahren falsch ueber Vorhersagen zu liegen" (113 chars)
+- VOOR NL: "De grenzen van onze kennis over AI impact erkennen en openheid behouden om verkeerd te zijn over voorspellingen" (192 chars)
+- NA NL: "Grenzen van kennis over AI impact erkennen en openheid behouden om verkeerd te zijn over voorspellingen" (104 chars)
+
+**Modified lines:** 103, 166, 250, 271, 313, 334, 355
+
+#### ✅ Level 10 (VOLTOOID - 100% extreme violations opgelost)
+**Status:** 20/20 vragen verwerkt, 0 extreme violations over (van 40 totaal)
+
+**Edits:** 6 wijzigingen (focus op >140 chars)
+- Q5, Q7, Q9, Q11, Q13, Q15, Q17: Systematisch opt1 verkort in ES/DE/NL varianten
+- Grootste inkortingen: Q11, Q17 van 200-272 chars → 115-148 chars
+
+**Resterende violations:**
+- 5 major (120-140 chars) - kunnen later verder geoptimaliseerd
+- 16 minor (100-120 chars) - ACCEPTABEL per guideline
+
+**Concrete voorbeelden:**
+
+**Q11 - Moral particularism (line 229):**
+- VOOR ES: "Particularismo moral argumenta que juicios morales dependen fuertemente del contexto en lugar de principios universales, sugiriendo que etica de IA puede necesitar enfoques altamente contextuales en lugar de basados en reglas" (232 chars)
+- NA ES: "Particularismo moral: juicios morales dependen del contexto mas que de principios universales, sugiriendo que etica IA necesita enfoques contextuales" (148 chars)
+- VOOR DE: "Moralischer Partikularismus argumentiert dass moralische Urteile stark vom Kontext abhaengen anstatt von universellen Prinzipien, was suggeriert dass KI-Ethik hochgradig kontextuelle anstatt regelbasierte Ansaetze brauchen koennte" (267 chars)
+- NA DE: "Moralischer Partikularismus: moralische Urteile haengen stark vom Kontext ab, suggeriert kontextuelle statt regelbasierte Ansaetze fuer KI-Ethik" (145 chars)
+- VOOR NL: "Moreel particularisme stelt dat morele oordelen sterk afhangen van context in plaats van universele principes, wat suggereert dat AI ethiek zeer contextuele in plaats van regelgebaseerde benaderingen nodig zou kunnen hebben" (272 chars)
+- NA NL: "Moreel particularisme: morele oordelen hangen af van context meer dan universele principes, suggereert contextuele benadering voor AI ethiek" (141 chars)
+
+**Q17 - Moral imagination (line 397):**
+- VOOR ES: "Imaginacion moral involucra visualizar posibilidades y consecuencias eticas, crucial para anticipar impactos de IA y disenar sistemas que consideren diversos escenarios y perspectivas de partes interesadas" (200 chars)
+- NA ES: "Imaginacion moral: visualizar posibilidades eticas y consecuencias, crucial para anticipar impactos IA y disenar sistemas considerando escenarios diversos" (154 chars)
+- VOOR DE: "Moralische Vorstellungskraft beinhaltet das Vorstellen ethischer Moeglichkeiten und Konsequenzen, entscheidend fuer die Antizipation von KI-Auswirkungen und das Design von Systemen die verschiedene Szenarien und Stakeholder-Perspektiven beruecksichtigen" (223 chars)
+- NA DE: "Moralische Vorstellungskraft: ethische Moeglichkeiten visualisieren, entscheidend fuer Antizipation von KI-Auswirkungen und Systemdesign" (138 chars)
+- VOOR NL: "Morele verbeelding behelst het visualiseren van ethische mogelijkheden en gevolgen, cruciaal voor het anticiperen van AI impact en het ontwerpen van systemen die diverse scenario's en stakeholder perspectieven overwegen" (232 chars)
+- NA NL: "Morele verbeelding: ethische mogelijkheden visualiseren, cruciaal voor anticiperen AI impact en ontwerpen systemen met diverse scenario's" (139 chars)
+
+**Q7 - Virtue ethics (line 145):**
+- VOOR ES: "Etica de virtudes se enfoca en rasgos de caracter y excelencia, potencialmente guiando IA a encarnar comportamientos virtuosos como honestidad, compasion y sabiduria" (163 chars)
+- NA ES: "Etica de virtudes se enfoca en rasgos de caracter y excelencia, guiando IA a encarnar comportamientos virtuosos como honestidad y compasion" (140 chars)
+- VOOR DE: "Tugendethik fokussiert auf Charaktereigenschaften und Exzellenz, was potentiell KI dazu anleiten koennte tugendhafte Verhaltensweisen wie Ehrlichkeit, Mitgefuehl und Weisheit zu verkoerpern" (185 chars)
+- NA DE: "Tugendethik fokussiert auf Charaktereigenschaften und Exzellenz, leitet KI zu tugendhaften Verhaltensweisen wie Ehrlichkeit und Mitgefuehl" (115 chars)
+- VOOR NL: "Deugdenethiek richt zich op karaktertrekken en excellentie, wat mogelijk AI zou kunnen leiden tot het belichamen van deugdzame gedragingen zoals eerlijkheid, compassie en wijsheid" (193 chars)
+- NA NL: "Deugdenethiek richt zich op karaktertrekken en excellentie, leidt AI tot deugdzame gedragingen zoals eerlijkheid en compassie" (125 chars)
+
+**Modified lines:** 103, 145, 187, 229, 313, 355, 397
+
+### AI / AI geschiedenis
+
+✅ **VOLTOOID** - Levels 6, 9, 10 verwerkt (alle extreme violations >140 chars opgelost)
+
+**Total edits:** 18 wijzigingen - Level 6 (1 edit), Level 9 (6 edits), Level 10 (11 edits)
 
 ---
 

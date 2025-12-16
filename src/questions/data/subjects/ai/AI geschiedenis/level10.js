@@ -58,7 +58,7 @@
           nl: "Wat was de bijdrage van de von Neumann architectuur aan de ontwikkeling van AI, en wat zijn de beperkingen voor AI computing?"
         },
         options: [
-          { en: "It enabled stored-program computing but created the von Neumann bottleneck limiting parallel processing", es: "Permitió computación de programa almacenado pero creó el cuello de botella von Neumann limitando procesamiento paralelo", de: "Es ermöglichte gespeicherte Programmberechnung schuf aber den von Neumann-Flaschenhals der parallele Verarbeitung begrenzt", nl: "Het maakte opgeslagen-programma computing mogelijk maar creëerde de von Neumann bottleneck die parallelle verwerking beperkt" },
+          { en: "It enabled stored-program computing but created the von Neumann bottleneck limiting parallel processing", es: "Permitió computación de programa almacenado pero creó cuello de botella limitando procesamiento paralelo", de: "Ermöglichte gespeicherte Programmberechnung schuf aber von Neumann-Flaschenhals für parallele Verarbeitung", nl: "Maakte opgeslagen-programma computing mogelijk maar creëerde von Neumann bottleneck voor parallelle verwerking" },
           { en: "It solved all AI problems completely", es: "Resolvió todos los problemas de IA completamente", de: "Es löste alle KI-Probleme vollständig", nl: "Het loste alle AI problemen volledig op" },
           { en: "It made AI impossible to develop", es: "Hizo imposible desarrollar IA", de: "Es machte KI-Entwicklung unmöglich", nl: "Het maakte AI ontwikkeling onmogelijk" },
           { en: "It had no impact on AI development", es: "No tuvo impacto en el desarrollo de IA", de: "Es hatte keinen Einfluss auf KI-Entwicklung", nl: "Het had geen impact op AI ontwikkeling" }
@@ -142,7 +142,7 @@
           nl: "Wat is het AI alignment probleem en waarom wordt het als cruciaal beschouwd voor toekomstige AI veiligheid?"
         },
         options: [
-          { en: "It's the challenge of ensuring AI systems pursue goals aligned with human values and intentions", es: "Es el desafío de asegurar que los sistemas de IA persigan objetivos alineados con valores e intenciones humanas", de: "Es ist die Herausforderung sicherzustellen dass KI-Systeme Ziele verfolgen die mit menschlichen Werten und Absichten übereinstimmen", nl: "Het is de uitdaging om ervoor te zorgen dat AI systemen doelen nastreven die overeenkomen met menselijke waarden en intenties" },
+          { en: "It's the challenge of ensuring AI systems pursue goals aligned with human values and intentions", es: "El desafío de asegurar que IA persiga objetivos alineados con valores e intenciones humanas", de: "Die Herausforderung sicherzustellen dass KI-Systeme Ziele verfolgen die mit menschlichen Werten übereinstimmen", nl: "De uitdaging ervoor te zorgen dat AI systemen doelen nastreven die overeenkomen met menselijke waarden" },
           { en: "It's about making AI systems run faster", es: "Se trata de hacer que los sistemas de IA funcionen más rápido", de: "Es geht darum KI-Systeme schneller laufen zu lassen", nl: "Het gaat over het sneller laten draaien van AI systemen" },
           { en: "It's the problem of AI systems being too expensive", es: "Es el problema de que los sistemas de IA sean demasiado caros", de: "Es ist das Problem dass KI-Systeme zu teuer sind", nl: "Het is het probleem dat AI systemen te duur zijn" },
           { en: "It's about organizing AI research teams", es: "Se trata de organizar equipos de investigación de IA", de: "Es geht um die Organisation von KI-Forschungsteams", nl: "Het gaat over het organiseren van AI onderzoeksteams" }
@@ -289,7 +289,7 @@
           nl: "Welke potentiële doorbraak zou quantum computing kunnen brengen voor AI ontwikkeling?"
         },
         options: [
-          { en: "Exponential speedup for certain optimization problems and potentially new quantum machine learning algorithms", es: "Aceleración exponencial para ciertos problemas de optimización y potencialmente nuevos algoritmos de aprendizaje automático cuántico", de: "Exponentielle Beschleunigung für bestimmte Optimierungsprobleme und möglicherweise neue Quantenmaschinenlernalgorithmen", nl: "Exponentiële versnelling voor bepaalde optimalisatieproblemen en mogelijk nieuwe quantum machine learning algoritmen" },
+          { en: "Exponential speedup for certain optimization problems and potentially new quantum machine learning algorithms", es: "Aceleración exponencial para problemas de optimización y nuevos algoritmos de aprendizaje automático cuántico", de: "Exponentielle Beschleunigung für Optimierungsprobleme und möglicherweise neue Quantenmaschinenlernalgorithmen", nl: "Exponentiële versnelling voor optimalisatieproblemen en mogelijk nieuwe quantum machine learning algoritmen" },
           { en: "Only faster data storage", es: "Solo almacenamiento de datos más rápido", de: "Nur schnellere Datenspeicherung", nl: "Alleen snellere dataopslag" },
           { en: "No significant impact on AI", es: "Ningún impacto significativo en IA", de: "Keine erhebliche Auswirkung auf KI", nl: "Geen significante impact op AI" },
           { en: "Only improved graphics processing", es: "Solo mejor procesamiento de gráficos", de: "Nur verbesserte Grafikverarbeitung", nl: "Alleen verbeterde grafische verwerking" }
@@ -331,7 +331,7 @@
           nl: "Wat is het concept van 'AI democratisering' en wat zijn de potentiële implicaties?"
         },
         options: [
-          { en: "Making AI tools and capabilities accessible to everyone, not just large tech companies and experts", es: "Hacer herramientas y capacidades de IA accesibles para todos, no solo grandes empresas tecnológicas y expertos", de: "KI-Tools und -Fähigkeiten für alle zugänglich machen, nicht nur für große Tech-Unternehmen und Experten", nl: "AI tools en mogelijkheden toegankelijk maken voor iedereen, niet alleen grote tech bedrijven en experts" },
+          { en: "Making AI tools and capabilities accessible to everyone, not just large tech companies and experts", es: "Hacer herramientas y capacidades IA accesibles para todos, no solo grandes empresas tech y expertos", de: "KI-Tools und -Fähigkeiten für alle zugänglich machen, nicht nur für große Tech-Unternehmen", nl: "AI tools en mogelijkheden toegankelijk maken voor iedereen, niet alleen grote tech bedrijven" },
           { en: "Holding elections for AI development decisions", es: "Realizando elecciones para decisiones de desarrollo de IA", de: "Abhaltung von Wahlen für KI-Entwicklungsentscheidungen", nl: "Verkiezingen houden voor AI ontwikkelingsbeslissingen" },
           { en: "Making AI systems vote on political issues", es: "Hacer que los sistemas de IA voten en temas políticos", de: "KI-Systeme über politische Themen abstimmen lassen", nl: "AI systemen laten stemmen over politieke kwesties" },
           { en: "Only allowing governments to develop AI", es: "Solo permitir que los gobiernos desarrollen IA", de: "Nur Regierungen erlauben KI zu entwickeln", nl: "Alleen overheden toestaan AI te ontwikkelen" }
@@ -352,7 +352,7 @@
           nl: "Welke rol zouden brein-computer interfaces kunnen spelen in de toekomst van mens-AI interactie?"
         },
         options: [
-          { en: "Direct neural communication with AI systems, potentially enabling thought-speed interaction and cognitive augmentation", es: "Comunicación neural directa con sistemas de IA, potencialmente habilitando interacción a velocidad del pensamiento y aumento cognitivo", de: "Direkte neuronale Kommunikation mit KI-Systemen, möglicherweise Interaktion in Gedankengeschwindigkeit und kognitive Erweiterung ermöglichend", nl: "Directe neurale communicatie met AI systemen, mogelijk interactie op gedachtesnelheid en cognitieve versterking mogelijk makend" },
+          { en: "Direct neural communication with AI systems, potentially enabling thought-speed interaction and cognitive augmentation", es: "Comunicación neural directa con IA, habilitando interacción a velocidad del pensamiento y aumento cognitivo", de: "Direkte neuronale Kommunikation mit KI-Systemen, Interaktion in Gedankengeschwindigkeit und kognitive Erweiterung ermöglichend", nl: "Directe neurale communicatie met AI systemen, interactie op gedachtesnelheid en cognitieve versterking mogelijk makend" },
           { en: "Only controlling computer mice with thoughts", es: "Solo controlando ratones de computadora con pensamientos", de: "Nur Computermeuse mit Gedanken kontrollieren", nl: "Alleen computermuizen met gedachten besturen" },
           { en: "No role in AI interaction", es: "Ningún papel en interacción con IA", de: "Keine Rolle in KI-Interaktion", nl: "Geen rol in AI interactie" },
           { en: "Only for medical applications", es: "Solo para aplicaciones médicas", de: "Nur für medizinische Anwendungen", nl: "Alleen voor medische toepassingen" }
@@ -394,7 +394,7 @@
           nl: "Welke ethische kaders worden ontwikkeld om AI ontwikkeling en implementatie te begeleiden?"
         },
         options: [
-          { en: "Principles like beneficence, non-maleficence, autonomy, justice, and transparency, plus new frameworks for AI-specific challenges", es: "Principios como beneficencia, no maleficencia, autonomía, justicia y transparencia, además de nuevos marcos para desafíos específicos de IA", de: "Prinzipien wie Wohltätigkeit, Schadensvermeidung, Autonomie, Gerechtigkeit und Transparenz, plus neue Rahmenwerke für KI-spezifische Herausforderungen", nl: "Principes zoals weldadigheid, niet-schadelijkheid, autonomie, rechtvaardigheid en transparantie, plus nieuwe kaders voor AI-specifieke uitdagingen" },
+          { en: "Principles like beneficence, non-maleficence, autonomy, justice, and transparency, plus new frameworks for AI-specific challenges", es: "Principios como beneficencia, no maleficencia, autonomía, justicia, transparencia, y nuevos marcos para desafíos de IA", de: "Prinzipien wie Wohltätigkeit, Schadensvermeidung, Autonomie, Gerechtigkeit, Transparenz, plus neue KI-Rahmenwerke", nl: "Principes zoals weldadigheid, niet-schadelijkheid, autonomie, rechtvaardigheid, transparantie, en nieuwe AI kaders" },
           { en: "Only profit maximization principles", es: "Solo principios de maximización de ganancias", de: "Nur Gewinnmaximierungsprinzipien", nl: "Alleen winstmaximalisatie principes" },
           { en: "No ethical frameworks are needed for AI", es: "No se necesitan marcos éticos para IA", de: "Keine ethischen Rahmenwerke für KI nötig", nl: "Geen ethische kaders nodig voor AI" },
           { en: "Only technical performance metrics", es: "Solo métricas de rendimiento técnico", de: "Nur technische Leistungsmetriken", nl: "Alleen technische prestatiemetrieken" }

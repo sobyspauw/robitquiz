@@ -121,7 +121,7 @@
           nl: "Wat is 'morele handelingsbevoegdheid' in AI en wie draagt verantwoordelijkheid voor AI beslissingen?"
         },
         options: [
-          { en: "Humans remain responsible as AI lacks moral agency and cannot be held accountable", es: "Los humanos siguen siendo responsables ya que la IA carece de agencia moral y no puede ser responsabilizada", de: "Menschen bleiben verantwortlich da KI moralische Handlungsfaehigkeit fehlt und nicht verantwortlich gemacht werden kann", nl: "Mensen blijven verantwoordelijk omdat AI morele handelingsbevoegdheid mist en niet verantwoordelijk gehouden kan worden" },
+          { en: "Humans remain responsible as AI lacks moral agency and cannot be held accountable", es: "Humanos siguen responsables ya que IA carece de agencia moral y no puede responsabilizarse", de: "Menschen bleiben verantwortlich da KI moralische Handlungsfaehigkeit fehlt", nl: "Mensen blijven verantwoordelijk omdat AI morele handelingsbevoegdheid mist" },
           { en: "AI systems are fully responsible for their own decisions", es: "Los sistemas de IA son completamente responsables de sus propias decisiones", de: "KI-Systeme sind vollstaendig verantwortlich fuer ihre eigenen Entscheidungen", nl: "AI systemen zijn volledig verantwoordelijk voor hun eigen beslissingen" },
           { en: "No one is responsible for AI decisions", es: "Nadie es responsable de las decisiones de IA", de: "Niemand ist verantwortlich fuer KI-Entscheidungen", nl: "Niemand is verantwoordelijk voor AI beslissingen" },
           { en: "Only the computer programmers are responsible", es: "Solo los programadores de computadoras son responsables", de: "Nur die Computerprogrammierer sind verantwortlich", nl: "Alleen de computerprogrammeurs zijn verantwoordelijk" }
@@ -184,7 +184,7 @@
           nl: "Wat is 'algoritmische verantwoordelijkheid' in AI governance?"
         },
         options: [
-          { en: "Systems and processes to ensure AI decisions can be explained, challenged, and corrected", es: "Sistemas y procesos para asegurar que decisiones de IA puedan ser explicadas, desafiadas y corregidas", de: "Systeme und Prozesse um sicherzustellen dass KI-Entscheidungen erklaert, angefochten und korrigiert werden koennen", nl: "Systemen en processen om ervoor te zorgen dat AI beslissingen uitgelegd, betwist en gecorrigeerd kunnen worden" },
+          { en: "Systems and processes to ensure AI decisions can be explained, challenged, and corrected", es: "Sistemas y procesos para asegurar que decisiones IA puedan explicarse, desafiarse y corregirse", de: "Systeme und Prozesse um sicherzustellen dass KI-Entscheidungen erklaert werden koennen", nl: "Systemen en processen om ervoor te zorgen dat AI beslissingen uitgelegd kunnen worden" },
           { en: "Making algorithms count numbers correctly", es: "Hacer que algoritmos cuenten numeros correctamente", de: "Algorithmen dazu bringen Zahlen korrekt zu zaehlen", nl: "Algoritmes getallen correct laten tellen" },
           { en: "Ensuring algorithms run efficiently", es: "Asegurar que algoritmos funcionen eficientemente", de: "Sicherstellen dass Algorithmen effizient laufen", nl: "Ervoor zorgen dat algoritmes efficiënt werken" },
           { en: "Publishing all algorithm source code", es: "Publicar todo el codigo fuente de algoritmos", de: "Allen Algorithmus-Quellcode veroeffentlichen", nl: "Alle algoritme broncode publiceren" }
@@ -205,7 +205,7 @@
           nl: "Wat is 'verspreide verantwoordelijkheid' in AI systemen?"
         },
         options: [
-          { en: "Responsibility shared among multiple stakeholders in the AI development and deployment chain", es: "Responsabilidad compartida entre multiples partes interesadas en la cadena de desarrollo e implementacion de IA", de: "Verantwortung geteilt zwischen mehreren Stakeholdern in der KI-Entwicklungs- und Bereitstellungskette", nl: "Verantwoordelijkheid gedeeld tussen meerdere belanghebbenden in de AI ontwikkelings- en implementatieketen" },
+          { en: "Responsibility shared among multiple stakeholders in the AI development and deployment chain", es: "Responsabilidad compartida entre multiples partes en cadena de desarrollo e implementacion IA", de: "Verantwortung geteilt zwischen mehreren Stakeholdern in KI-Entwicklungs- und Einsatzkette", nl: "Verantwoordelijkheid gedeeld tussen meerdere belanghebbenden in AI ontwikkeling en inzet" },
           { en: "Responsibility handled by distributed computing systems", es: "Responsabilidad manejada por sistemas de computacion distribuida", de: "Verantwortung behandelt durch verteilte Computersysteme", nl: "Verantwoordelijkheid behandeld door gedistribueerde computersystemen" },
           { en: "Spreading liability costs across many companies", es: "Distribuir costos de responsabilidad entre muchas companias", de: "Haftungskosten auf viele Unternehmen verteilen", nl: "Aansprakelijkheidskosten spreiden over vele bedrijven" },
           { en: "Giving everyone equal responsibility regardless of involvement", es: "Dar a todos responsabilidad igual independientemente de la participacion", de: "Allen gleiche Verantwortung geben unabhaengig von der Beteiligung", nl: "Iedereen gelijke verantwoordelijkheid geven ongeacht betrokkenheid" }
@@ -226,7 +226,7 @@
           nl: "Wat is 'moral hazard' in AI besluitvormingssystemen?"
         },
         options: [
-          { en: "When people take greater risks because they don't bear full consequences of AI decisions", es: "Cuando las personas toman mayores riesgos porque no soportan las consecuencias completas de las decisiones de IA", de: "Wenn Menschen groessere Risiken eingehen weil sie nicht die vollen Konsequenzen von KI-Entscheidungen tragen", nl: "Wanneer mensen grotere risico's nemen omdat ze niet de volledige gevolgen van AI beslissingen dragen" },
+          { en: "When people take greater risks because they don't bear full consequences of AI decisions", es: "Cuando personas toman mayores riesgos porque no soportan consecuencias completas de IA", de: "Wenn Menschen groessere Risiken eingehen weil sie nicht volle Konsequenzen von KI tragen", nl: "Wanneer mensen grotere risico's nemen omdat ze niet de volledige gevolgen van AI beslissingen dragen" },
           { en: "AI systems becoming dangerous to humans", es: "Sistemas de IA volviendose peligrosos para humanos", de: "KI-Systeme werden gefaehrlich fuer Menschen", nl: "AI systemen die gevaarlijk worden voor mensen" },
           { en: "Ethical dilemmas built into AI programming", es: "Dilemas eticos incorporados en la programacion de IA", de: "Ethische Dilemmata in KI-Programmierung eingebaut", nl: "Ethische dilemma's ingebouwd in AI programmering" },
           { en: "AI making morally wrong decisions", es: "IA tomando decisiones moralmente incorrectas", de: "KI trifft moralisch falsche Entscheidungen", nl: "AI die moreel verkeerde beslissingen neemt" }
@@ -247,7 +247,7 @@
           nl: "Wat is 'strikte aansprakelijkheid' versus 'nalatigheidsaansprakelijkheid' voor AI systemen?"
         },
         options: [
-          { en: "Strict liability holds parties responsible regardless of fault; negligence requires proving carelessness", es: "Responsabilidad estricta responsabiliza a las partes independientemente de la culpa; negligencia requiere probar descuido", de: "Gefaehrdungshaftung macht Parteien unabhaengig von Verschulden verantwortlich; Fahrlässigkeit erfordert Nachweis von Sorglosigkeit", nl: "Strikte aansprakelijkheid houdt partijen verantwoordelijk ongeacht schuld; nalatigheid vereist bewijs van onzorgvuldigheid" },
+          { en: "Strict liability holds parties responsible regardless of fault; negligence requires proof", es: "Responsabilidad estricta responsabiliza sin importar culpa; negligencia requiere probar descuido", de: "Gefaehrdungshaftung macht verantwortlich ohne Verschulden; Fahrlässigkeit erfordert Nachweis", nl: "Strikte aansprakelijkheid houdt verantwoordelijk ongeacht schuld; nalatigheid vereist bewijs" },
           { en: "Strict liability is for serious crimes; negligence is for minor issues", es: "Responsabilidad estricta es para crimenes serios; negligencia es para problemas menores", de: "Gefaehrdungshaftung ist fuer schwere Verbrechen; Fahrlässigkeit ist fuer kleinere Probleme", nl: "Strikte aansprakelijkheid is voor ernstige misdrijven; nalatigheid is voor kleine problemen" },
           { en: "Both concepts mean exactly the same thing", es: "Ambos conceptos significan exactamente lo mismo", de: "Beide Konzepte bedeuten genau dasselbe", nl: "Beide concepten betekenen precies hetzelfde" },
           { en: "Strict liability applies only to humans; negligence applies only to AI", es: "Responsabilidad estricta aplica solo a humanos; negligencia aplica solo a IA", de: "Gefaehrdungshaftung gilt nur fuer Menschen; Fahrlässigkeit gilt nur fuer KI", nl: "Strikte aansprakelijkheid geldt alleen voor mensen; nalatigheid geldt alleen voor AI" }
@@ -289,7 +289,7 @@
           nl: "Wat is 'retrospectieve verantwoordelijkheid' versus 'prospectieve verantwoordelijkheid' in AI?"
         },
         options: [
-          { en: "Retrospective assigns blame after harm occurs; prospective focuses on preventing future harm", es: "Retrospectiva asigna culpa despues de que ocurre dano; prospectiva se enfoca en prevenir dano futuro", de: "Retrospektiv weist Schuld zu nachdem Schaden aufgetreten ist; prospektiv fokussiert auf Verhinderung zukuenftigen Schadens", nl: "Retrospectief wijst schuld toe nadat schade optreedt; prospectief richt zich op het voorkomen van toekomstige schade" },
+          { en: "Retrospective assigns blame after harm occurs; prospective focuses on preventing future harm", es: "Retrospectiva asigna culpa despues de que ocurre dano; prospectiva se enfoca en prevenir dano futuro", de: "Retrospektiv weist Schuld zu nach Schaden; prospektiv fokussiert auf Schadenspraevention", nl: "Retrospectief wijst schuld toe na schade; prospectief richt zich op voorkomen toekomstige schade" },
           { en: "Retrospective is for past AI decisions; prospective is for current AI decisions", es: "Retrospectiva es para decisiones pasadas de IA; prospectiva es para decisiones actuales de IA", de: "Retrospektiv ist fuer vergangene KI-Entscheidungen; prospektiv ist fuer aktuelle KI-Entscheidungen", nl: "Retrospectief is voor eerdere AI beslissingen; prospectief is voor huidige AI beslissingen" },
           { en: "Retrospective looks at AI performance; prospective looks at AI potential", es: "Retrospectiva examina rendimiento de IA; prospectiva examina potencial de IA", de: "Retrospektiv betrachtet KI-Leistung; prospektiv betrachtet KI-Potenzial", nl: "Retrospectief kijkt naar AI prestaties; prospectief kijkt naar AI potentieel" },
           { en: "Both concepts are identical in meaning", es: "Ambos conceptos son identicos en significado", de: "Beide Konzepte sind identisch in der Bedeutung", nl: "Beide concepten zijn identiek in betekenis" }
@@ -310,7 +310,7 @@
           nl: "Wat is 'organisatorische verantwoordelijkheid' voor AI systemen?"
         },
         options: [
-          { en: "Institutional processes and structures to ensure responsible AI development and deployment", es: "Procesos y estructuras institucionales para asegurar desarrollo e implementacion responsable de IA", de: "Institutionelle Prozesse und Strukturen um verantwortungsvolle KI-Entwicklung und -Bereitstellung sicherzustellen", nl: "Institutionele processen en structuren om verantwoordelijke AI ontwikkeling en implementatie te waarborgen" },
+          { en: "Institutional processes and structures to ensure responsible AI development and deployment", es: "Procesos y estructuras institucionales para asegurar desarrollo e implementacion responsable de IA", de: "Institutionelle Prozesse und Strukturen um verantwortungsvolle KI-Entwicklung sicherzustellen", nl: "Institutionele processen en structuren om verantwoordelijke AI ontwikkeling te waarborgen" },
           { en: "Making individual employees personally liable for all AI decisions", es: "Hacer que empleados individuales sean personalmente responsables de todas las decisiones de IA", de: "Einzelne Mitarbeiter persoenlich haftbar fuer alle KI-Entscheidungen machen", nl: "Individuele werknemers persoonlijk aansprakelijk maken voor alle AI beslissingen" },
           { en: "Only the CEO being responsible for AI outcomes", es: "Solo el CEO siendo responsable de resultados de IA", de: "Nur der CEO ist verantwortlich fuer KI-Ergebnisse", nl: "Alleen de CEO is verantwoordelijk voor AI uitkomsten" },
           { en: "Organizing AI systems alphabetically", es: "Organizar sistemas de IA alfabeticamente", de: "KI-Systeme alphabetisch organisieren", nl: "AI systemen alfabetisch organiseren" }
@@ -331,7 +331,7 @@
           nl: "Wat is de 'algoritmische transparantie' vereiste in verantwoordelijkheidskaders?"
         },
         options: [
-          { en: "Obligation to disclose how AI systems work and make decisions to relevant stakeholders", es: "Obligacion de divulgar como funcionan los sistemas de IA y toman decisiones a partes interesadas relevantes", de: "Verpflichtung offenzulegen wie KI-Systeme funktionieren und Entscheidungen treffen gegenueber relevanten Stakeholdern", nl: "Verplichting om bekend te maken hoe AI systemen werken en beslissingen nemen aan relevante belanghebbenden" },
+          { en: "Obligation to disclose how AI systems work and make decisions to relevant stakeholders", es: "Obligacion de divulgar como funcionan sistemas IA y toman decisiones a partes interesadas relevantes", de: "Verpflichtung offenzulegen wie KI-Systeme funktionieren und entscheiden gegenueber Stakeholdern", nl: "Verplichting om bekend te maken hoe AI systemen werken en beslissen aan belanghebbenden" },
           { en: "Making all AI algorithms completely public on the internet", es: "Hacer todos los algoritmos de IA completamente publicos en internet", de: "Alle KI-Algorithmen vollstaendig oeffentlich im Internet machen", nl: "Alle AI algoritmes volledig openbaar maken op internet" },
           { en: "Using only open-source software for AI development", es: "Usar solo software de codigo abierto para desarrollo de IA", de: "Nur Open-Source-Software fuer KI-Entwicklung verwenden", nl: "Alleen open-source software gebruiken voor AI ontwikkeling" },
           { en: "Providing glass cases for AI hardware", es: "Proporcionar cajas de vidrio para hardware de IA", de: "Glasgehaeuse fuer KI-Hardware bereitstellen", nl: "Glazen kasten bieden voor AI hardware" }
@@ -394,7 +394,7 @@
           nl: "Wat is 'remediatie' in AI verantwoordelijkheidskaders?"
         },
         options: [
-          { en: "Processes to correct harm, compensate affected parties, and prevent future similar issues", es: "Procesos para corregir dano, compensar partes afectadas y prevenir problemas similares futuros", de: "Prozesse um Schaden zu korrigieren, betroffene Parteien zu entschaedigen und zukuenftige aehnliche Probleme zu verhindern", nl: "Processen om schade te corrigeren, getroffen partijen te compenseren en toekomstige soortgelijke problemen te voorkomen" },
+          { en: "Processes to correct harm, compensate affected parties, and prevent future similar issues", es: "Procesos para corregir dano, compensar partes afectadas y prevenir problemas similares futuros", de: "Prozesse um Schaden zu korrigieren, Parteien zu entschaedigen und aehnliche Probleme zu verhindern", nl: "Processen om schade te corrigeren, partijen te compenseren en soortgelijke problemen te voorkomen" },
           { en: "Teaching AI systems about medicine", es: "Ensenar a sistemas de IA sobre medicina", de: "KI-Systemen Medizin beibringen", nl: "AI systemen leren over geneeskunde" },
           { en: "Removing AI systems entirely", es: "Eliminar sistemas de IA completamente", de: "KI-Systeme vollstaendig entfernen", nl: "AI systemen volledig verwijderen" },
           { en: "Upgrading AI hardware regularly", es: "Actualizar hardware de IA regularmente", de: "KI-Hardware regelmaessig aufrüsten", nl: "AI hardware regelmatig upgraden" }
@@ -415,7 +415,7 @@
           nl: "Wat is 'morele verantwoordelijkheid' in AI ontwikkeling?"
         },
         options: [
-          { en: "The ethical obligation to consider consequences and be answerable for AI system impacts", es: "La obligacion etica de considerar consecuencias y ser responsable por los impactos del sistema de IA", de: "Die ethische Verpflichtung Konsequenzen zu beruecksichtigen und fuer KI-Systemauswirkungen verantwortlich zu sein", nl: "De ethische verplichting om gevolgen te overwegen en verantwoordelijk te zijn voor AI systeem impacts" },
+          { en: "The ethical obligation to consider consequences and be answerable for AI system impacts", es: "La obligacion etica de considerar consecuencias y ser responsable por los impactos del sistema de IA", de: "Die ethische Verpflichtung Konsequenzen zu beruecksichtigen und fuer KI-Auswirkungen verantwortlich", nl: "De ethische verplichting gevolgen te overwegen en verantwoordelijk te zijn voor AI impacts" },
           { en: "Only legal liability for AI failures", es: "Solo responsabilidad legal por fallas de IA", de: "Nur rechtliche Haftung fuer KI-Versagen", nl: "Alleen juridische aansprakelijkheid voor AI falen" },
           { en: "Teaching AI systems to be moral", es: "Ensenar a sistemas de IA a ser morales", de: "KI-Systeme Moral beibringen", nl: "AI systemen leren moreel te zijn" },
           { en: "Avoiding all responsibility for AI actions", es: "Evitar toda responsabilidad por acciones de IA", de: "Jede Verantwortung fuer KI-Aktionen vermeiden", nl: "Alle verantwoordelijkheid voor AI acties vermijden" }

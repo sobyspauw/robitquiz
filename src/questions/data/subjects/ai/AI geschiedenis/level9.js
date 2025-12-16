@@ -289,7 +289,7 @@
           nl: "Wat was de impact van de release van LLaMA (Large Language Model Meta AI) in 2023?"
         },
         options: [
-          { en: "It sparked open source LLM development by being leaked and showing competitive performance with smaller models", es: "Desencadenó desarrollo de LLM de código abierto al ser filtrado y mostrar rendimiento competitivo con modelos más pequeños", de: "Es entfachte Open Source LLM-Entwicklung durch Leaks und zeigte wettbewerbsfähige Leistung mit kleineren Modellen", nl: "Het ontketende open source LLM ontwikkeling door te lekken en competitieve prestaties te tonen met kleinere modellen" },
+          { en: "It sparked open source LLM development by being leaked and showing competitive performance with smaller models", es: "Desencadenó desarrollo LLM open source al ser filtrado y mostrar rendimiento competitivo con modelos pequeños", de: "Entfachte Open Source LLM-Entwicklung durch Leaks und zeigte wettbewerbsfähige Leistung mit kleineren Modellen", nl: "Ontketende open source LLM ontwikkeling door te lekken en competitieve prestaties te tonen met kleinere modellen" },
           { en: "It solved world hunger", es: "Resolvió el hambre mundial", de: "Es löste den Welthunger", nl: "Het loste wereldhonger op" },
           { en: "It created the first computer", es: "Creó la primera computadora", de: "Es schuf den ersten Computer", nl: "Het creëerde de eerste computer" },
           { en: "It invented time travel", es: "Inventó el viaje en el tiempo", de: "Es erfand Zeitreisen", nl: "Het vond tijdreizen uit" }
@@ -352,7 +352,7 @@
           nl: "Wat was de betekenis van de opkomst van multimodale AI modellen zoals GPT-4V en DALL-E 3 in 2023?"
         },
         options: [
-          { en: "They unified text, image, and visual understanding in single models, approaching human-like multimodal reasoning", es: "Unificaron texto, imagen y comprensión visual en modelos únicos, acercándose al razonamiento multimodal similar al humano", de: "Sie vereinigten Text, Bild und visuelles Verständnis in einzelnen Modellen und näherten sich menschlichähnlichem multimodalem Denken", nl: "Ze verenigden tekst, beeld en visueel begrip in enkele modellen, wat menselijk-achtige multimodale redenering benaderde" },
+          { en: "They unified text, image, and visual understanding in single models, approaching human-like multimodal reasoning", es: "Unificaron texto, imagen y comprensión visual en modelos únicos, acercándose a razonamiento multimodal humano", de: "Vereinigten Text, Bild und visuelles Verständnis in Modellen, näherten sich menschlichähnlichem multimodalem Denken", nl: "Verenigden tekst, beeld en visueel begrip in modellen, benaderden menselijk-achtige multimodale redenering" },
           { en: "They solved world hunger", es: "Resolvieron el hambre mundial", de: "Sie lösten den Welthunger", nl: "Ze losten wereldhonger op" },
           { en: "They created time travel", es: "Crearon viaje en el tiempo", de: "Sie schufen Zeitreisen", nl: "Ze creëerden tijdreizen" },
           { en: "They invented quantum physics", es: "Inventaron la física cuántica", de: "Sie erfanden die Quantenphysik", nl: "Ze vonden quantumfysica uit" }
@@ -394,7 +394,7 @@
           nl: "Wat was de betekenis van de snelle adoptie van AI tools in professionele workflows tijdens 2022-2023?"
         },
         options: [
-          { en: "It marked the beginning of AI's mainstream integration into knowledge work, transforming productivity across industries", es: "Marcó el comienzo de la integración mainstream de IA en trabajo de conocimiento, transformando productividad a través de industrias", de: "Es markierte den Beginn von KIs Mainstream-Integration in Wissensarbeit und transformierte Produktivität branchenwegs", nl: "Het markeerde het begin van AI's mainstream integratie in kenniswerk, wat productiviteit transformeerde over industrieën heen" },
+          { en: "It marked the beginning of AI's mainstream integration into knowledge work, transforming productivity across industries", es: "Marcó el comienzo de integración mainstream de IA en trabajo de conocimiento, transformando productividad", de: "Markierte den Beginn von KIs Mainstream-Integration in Wissensarbeit, transformierte Produktivität", nl: "Markeerde het begin van AI's mainstream integratie in kenniswerk, transformeerde productiviteit" },
           { en: "It replaced all human workers", es: "Reemplazó a todos los trabajadores humanos", de: "Es ersetzte alle menschlichen Arbeiter", nl: "Het verving alle menselijke werknemers" },
           { en: "It solved unemployment", es: "Resolvió el desempleo", de: "Es löste die Arbeitslosigkeit", nl: "Het loste werkloosheid op" },
           { en: "It eliminated the need for education", es: "Eliminó la necesidad de educación", de: "Es eliminierte den Bildungsbedarf", nl: "Het elimineerde de behoefte aan onderwijs" }
@@ -415,7 +415,7 @@
           nl: "Wat was de betekenis van Anthropic's ontwikkeling van Claude en de Constitutional AI benadering?"
         },
         options: [
-          { en: "It pioneered a new approach to AI safety by training models to be helpful, harmless, and honest through constitutional principles", es: "Fue pionero en un nuevo enfoque para seguridad de IA entrenando modelos para ser útiles, inofensivos y honestos a través de principios constitucionales", de: "Es war wegweisend für einen neuen Ansatz zur KI-Sicherheit durch Training von Modellen hilfsbereit, harmlos und ehrlich durch verfassungsmäßige Prinzipien zu sein", nl: "Het was baanbrekend in een nieuwe benadering voor AI veiligheid door modellen te trainen om behulpzaam, onschadelijk en eerlijk te zijn door constitutionele principes" },
+          { en: "It pioneered a new approach to AI safety by training models to be helpful, harmless, and honest through constitutional principles", es: "Fue pionero en nuevo enfoque para seguridad IA entrenando modelos útiles, inofensivos y honestos via principios constitucionales", de: "War wegweisend für neuen KI-Sicherheitsansatz durch Training hilfsbereit, harmlos, ehrlich via verfassungsmäßige Prinzipien", nl: "Was baanbrekend in nieuwe AI veiligheid benadering door modellen te trainen behulpzaam, onschadelijk, eerlijk via constitutionele principes" },
           { en: "It created the first large language model", es: "Creó el primer modelo de lenguaje grande", de: "Es schuf das erste große Sprachmodell", nl: "Het creëerde het eerste grote taalmodel" },
           { en: "It solved artificial general intelligence", es: "Resolvió la inteligencia artificial general", de: "Es löste künstliche allgemeine Intelligenz", nl: "Het loste kunstmatige algemene intelligentie op" },
           { en: "It invented neural networks", es: "Inventó las redes neuronales", de: "Es erfand neuronale Netzwerke", nl: "Het vond neurale netwerken uit" }
