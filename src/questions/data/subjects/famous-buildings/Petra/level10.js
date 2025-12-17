@@ -374,7 +374,7 @@
         },
         options: [
           { en: "No chemical treatments available", es: "No hay tratamientos químicos disponibles", de: "Keine chemischen Behandlungen verfügbar", nl: "Geen chemische behandelingen beschikbaar" },
-          { en: "Desalination poultices, barium hydroxide treatments, and ethyl silicate consolidation", es: "Cataplasmas de desalinización, tratamientos de hidróxido de bario y consolidación con silicato de etilo", de: "Entsalzungskompressen, Bariumhydroxid-Behandlungen und Ethylsilikat-Konsolidierung", nl: "Ontzoutingspakkingen, bariumhydroxide behandelingen en ethylsilicaat consolidatie" },
+          { en: "Desalination poultices, barium hydroxide treatments, and ethyl silicate consolidation", es: "Cataplasmas desalinización, tratamientos hidróxido de bario y consolidación silicato de etilo", de: "Entsalzungskompressen, Bariumhydroxid-Behandlungen und Ethylsilikat-Konsolidierung", nl: "Ontzoutingspakkingen, bariumhydroxide behandelingen en ethylsilicaat consolidatie" },
           { en: "Simple water washing only", es: "Solo lavado simple con agua", de: "Nur einfaches Waschen mit Wasser", nl: "Alleen eenvoudig wassen met water" },
           { en: "Painting over damage", es: "Pintar sobre el daño", de: "Übermalen von Schäden", nl: "Overschilderen van schade" }
         ],

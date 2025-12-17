@@ -395,7 +395,7 @@
         },
         options: [
           { en: "By copying European opera houses", es: "Copiando casas de ópera europeas", de: "Durch Kopieren europäischer Opernhäuser", nl: "Door Europese operahuizen te kopiëren" },
-          { en: "By creating a unique building reflecting Australia's maritime culture and natural beauty", es: "Creando un edificio único que refleja la cultura marítima y la belleza natural de Australia", de: "Durch Schaffung eines einzigartigen Gebäudes, das Australiens maritime Kultur und natürliche Schönheit widerspiegelt", nl: "Door een uniek gebouw te creëren dat Australië's maritieme cultuur en natuurlijke schoonheid weerspiegelt" },
+          { en: "By creating a unique building reflecting Australia's maritime culture and natural beauty", es: "Creando un edificio único que refleja la cultura marítima y la belleza natural de Australia", de: "Durch einzigartiges Gebäude das Australiens maritime Kultur und natürliche Schönheit widerspiegelt", nl: "Door uniek gebouw dat Australië's maritieme cultuur en natuurlijke schoonheid weerspiegelt" },
           { en: "By using Aboriginal architectural forms", es: "Usando formas arquitectónicas aborígenes", de: "Durch Verwendung aboriginaler architektonischer Formen", nl: "Door Aboriginale architectonische vormen te gebruiken" },
           { en: "By making it look like British colonial architecture", es: "Haciéndolo parecer arquitectura colonial británica", de: "Durch britische Kolonialarchitektur-Optik", nl: "Door het eruit te laten zien als Britse koloniale architectuur" }
         ],
