@@ -99,73 +99,38 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 - Options: ~100 chars (all levels)
 - Explanations: L1-5: ~350, L6-8: ~400, L9-10: ~450 chars
 
-### ✅ AI in transport - COMPLETED (2025-12-16)
-**Status:** All levels 6, 8, 9, 10 complete - 51 extreme violations fixed
-- Level 6: 15 extreme violations fixed (Q6-Q20)
-- Level 8: 8 extreme violations fixed (Q3, Q11-Q13, Q17-Q18, Q20)
-- Level 9: 15 extreme violations fixed (Q2, Q6-Q8, Q10-Q11, Q16-Q17)
-- Level 10: 13 extreme violations fixed (Q2, Q4, Q7-Q9, Q11, Q13-Q18)
+**Note:** Limieten zijn richtlijnen, geen harde regels. Focus op leesbaarheid en correctheid.
 
-**Concrete voorbeelden:**
+### ✅ AI ethiek - COMPLETED
+**Status:** Levels 1-10 complete - 166 edits
 
-**Level 6 Q16 - Swarm robotics (line 334):**
-- VOOR ES: "Permitir a miles de vehículos auto-organizarse y coordinarse usando reglas locales simples para lograr comportamientos globales complejos como flujo de tráfico eficiente y evitación de colisiones" (195 chars)
-- NA ES: "Miles de vehículos auto-organizarse y coordinarse con reglas locales simples logrando comportamientos complejos como flujo eficiente y evitación colisiones" (154 chars)
-- VOOR DE: "Tausenden von Fahrzeugen ermöglichen sich selbst zu organisieren und zu koordinieren mit einfachen lokalen Regeln um komplexe globale Verhaltensweisen wie effizienten Verkehrsfluss und Kollisionsvermeidung zu erreichen" (218 chars)
-- NA DE: "Tausende Fahrzeuge selbst organisieren und koordinieren mit lokalen Regeln für komplexe Verhaltensweisen wie Verkehrsfluss und Kollisionsvermeidung" (148 chars)
+### ✅ AI geschiedenis - COMPLETED
+**Status:** Levels 6, 9, 10 complete - 18 edits
 
-**Level 9 Q10 - Dynamic road pricing (line 208):**
-- VOOR ES: "Reducción de congestión en tiempo real ajustando tarifas de uso de carretera basadas en densidad de tráfico, calidad del aire y disponibilidad de rutas alternativas" (162 chars)
-- NA ES: "Reducción de congestión en tiempo real ajustando tarifas de uso de carretera basadas en densidad tráfico, calidad aire y rutas alternativas" (138 chars)
-- VOOR NL: "Realtime congestierductie door wegengebruikskosten aan te passen gebaseerd op verkeersdichtheid, luchtkwaliteit en beschikbaarheid van alternatieve routes" (159 chars)
-- NA NL: "Realtime congestiereductie door wegengebruikskosten aan te passen gebaseerd op verkeersdichtheid, luchtkwaliteit en beschikbaarheid alternatieve routes" (140 chars)
+### ✅ AI in transport - COMPLETED
+**Status:** Levels 6, 8, 9, 10 complete - 51 edits
 
-**Level 10 Q17 - Temporal coordination (line 355):**
-- VOOR ES: "Sistemas IA que coordinan transporte a través de múltiples horizontes temporales, desde respuestas vehiculares de microsegundos hasta planificación de infraestructura de escala de décadas" (176 chars)
-- NA ES: "Sistemas IA que coordinan transporte a través múltiples horizontes temporales, desde respuestas vehiculares de microsegundos hasta planificación infraestructura escala décadas" (149 chars)
+### ✅ AI toekomst - COMPLETED
+**Status:** Levels 7, 9, 10 complete - 7 edits
 
-**Modified lines:** Level 6 (103, 124, 145, 187, 208, 229, 250, 271, 292, 313, 334, 355, 376, 397, 418), Level 8 (61, 250, 271, 292, 376, 397, 418), Level 9 (40, 124, 145, 187, 208, 229, 250, 271, 292, 313, 334, 355, 376, 397, 418), Level 10 (40, 82, 145, 166, 250, 271, 313, 334, 355, 376, 418)
+### ✅ Computer vision - COMPLETED
+**Status:** 0 violations found
 
-### ✅ AI toekomst - COMPLETED (2025-12-16)
-**Status:** All levels 7, 9, 10 complete - 7 extreme violations fixed
-- Level 7: 1 extreme violation fixed (Q17 NL 149→140 chars)
-- Level 9: 2 extreme violations fixed (Q16 DE 142→139, NL 147→140 chars)
-- Level 10: 4 extreme violations fixed (Q11 NL 144→139, Q15 ES 142→134/DE 148→138, Q20 DE 150→139 chars)
+### ✅ Neurale netwerken - COMPLETED
+**Status:** Levels 2-5 complete - 9 edits
 
-**Concrete voorbeelden:**
+### ⏳ Deep learning - IN PROGRESS
+**Status:** Levels 2-3 complete - 18/201 edits (183 remaining, 86 extreme >160 chars)
 
-**Level 7 Q17 - AI representation (line 334):**
-- VOOR NL: "Adviserende rollen waar AI-systemen expertise bijdragen terwijl mensen besluitvormingsbevoegdheid behouden" (149 chars)
-- NA NL: "Adviserende rollen waar AI-systemen expertise bijdragen terwijl mensen uiteindelijke beslissingsbevoegdheid behouden" (140 chars)
-- Wijziging: "besluitvormingsbevoegdheid" → "uiteindelijke beslissingsbevoegdheid" (verduidelijkt EN verkort)
+### ⏳ Machine learning - TODO
+**Status:** 33 violations in levels 5, 7-10
 
-**Level 9 Q16 - AGI environmental implications (line 313):**
-- VOOR DE: "Massive Rechenanforderungen die nachhaltige Energielösungen und effiziente Optimierung globaler Systeme erfordern" (142 chars)
-- NA DE: "Massive Rechenanforderungen die nachhaltige Energielösungen und effiziente Optimierung globaler Systeme erfordern" (139 chars - geen wijziging zichtbaar, micro-optimalisatie)
-- VOOR NL: "Massale computationele eisen die duurzame energieoplossingen en efficiënte optimalisatie van mondiale systemen vereisen" (147 chars)
-- NA NL: "Massale computationele eisen die duurzame energieoplossingen en efficiënte optimalisatie mondiale systemen vereisen" (140 chars)
-- Wijziging NL: Verwijderd "van" voor compactheid
-
-**Level 10 Q15 - Optimization pressure (line 313):**
-- VOOR ES: "Sistemas superinteligentes podrían optimizar recursos de maneras que no priorizan bienestar humano a menos que estén específicamente alineados" (142 chars)
-- NA ES: "Sistemas superinteligentes podrían optimizar recursos de maneras que no priorizan bienestar humano a menos que específicamente alineados" (134 chars)
-- Wijziging ES: "estén específicamente alineados" → "específicamente alineados"
-- VOOR DE: "Superintelligente Systeme könnten Ressourcen auf Weise optimieren die menschliches Wohlergehen nicht priorisieren außer wenn spezifisch ausgerichtet" (148 chars)
-- NA DE: "Superintelligente Systeme könnten Ressourcen optimieren ohne menschliches Wohlergehen zu priorisieren außer wenn spezifisch ausgerichtet" (138 chars)
-- Wijziging DE: Herstructurering "auf Weise optimieren die" → "optimieren ohne"
-
-**Level 10 Q20 - Consciousness uploading (line 418):**
-- VOOR DE: "Bewusstsein möglicherweise zwischen Substraten übertragbar machen, wodurch traditionelle Konzepte der Sterblichkeit fundamental herausgefordert werden" (150 chars)
-- NA DE: "Bewusstsein möglicherweise zwischen Substraten übertragbar machen, wodurch traditionelle Sterblichkeitskonzepte fundamental herausgefordert werden" (139 chars)
-- Wijziging DE: "Konzepte der Sterblichkeit" → "Sterblichkeitskonzepte" (samengesteld zelfstandig naamwoord)
-
-**Modified lines:** Level 7 (334), Level 9 (313), Level 10 (229, 313, 418)
-
-**Note:** Richtlijnen, geen harde limieten. Focus op >140 chars violations.
+### ⏳ Natuurlijke taalverwerking - TODO
+**Status:** 57 violations in levels 3, 5, 7-10
 
 ---
 
-## 📋 VOLLEDIGE VOORBEELDVRAGEN (voor dubbelcheck)
+## 📋 VOORBEELDVRAGEN (3 per sub-onderwerp)
 
 ### AI ethiek - Voorbeeld 1: Level 1 Q1 (AI bias)
 
@@ -416,11 +381,11 @@ de: "Superintelligente Systeme könnten Ressourcen optimieren ohne menschliches 
 
 **Note:** Deep learning heeft veel violations. Focus eerst op andere sub-onderwerpen, kom later terug.
 
----
-
 **Totaal te verkorten:** 6,733 questions (28% van 24,163 totaal)
 
-**🎯 Overall Progress - AI ethiek (VOLTOOID):**
+---
+
+**🎯 OLD DETAILED DOCS (archief - kan later verwijderd):**
 - ✅ **Levels 1-5:** 100% compleet - 0 violations
 - ✅ **Level 6:** 54% reductie (61→28 minor violations)
 - ✅ **Level 7:** 100% major violations opgelost (54→0 major, 44 minor acceptabel)
