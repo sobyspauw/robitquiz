@@ -103,7 +103,12 @@
                 de: "Was ist das Porpoising-Phänomen?",
                 nl: "Wat is het porpoising-fenomeen?"
             },
-            options: ["Tire vibration", "Aerodynamic bouncing caused by ground effect stall-reattachment cycle", "Engine issue", "Suspension problem"],
+            options: [
+                { en: "Tire vibration", es: "Vibración de neumáticos", de: "Reifenvibration", nl: "Bandvibratie" },
+                { en: "Aerodynamic bouncing from ground effect stall-reattachment cycle", es: "Rebote aerodinámico por ciclo de pérdida-readherencia efecto suelo", de: "Aerodynamisches Hüpfen durch Bodeneffekt-Abreiß-Wiederanhaft-Zyklus", nl: "Aerodynamisch stuiteren door grondeffect stal-heraansluiting cyclus" },
+                { en: "Engine issue", es: "Problema de motor", de: "Motorproblem", nl: "Motorprobleem" },
+                { en: "Suspension problem", es: "Problema de suspensión", de: "Aufhängungsproblem", nl: "Ophanging probleem" }
+            ],
             correct: 1,
             explanation: {
                 en: "Porpoising is vertical bouncing caused by ground effect repeatedly stalling and reattaching as ride height oscillates.",
