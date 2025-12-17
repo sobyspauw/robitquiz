@@ -133,6 +133,27 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 
 ---
 
+## 📏 OTHER SUBJECTS PROGRESS
+
+### ✅ board-games - COMPLETED
+**Status:** 2 extreme violations fixed (111 minor violations 100-140 chars acceptable)
+
+### ✅ famous-buildings - COMPLETED
+**Status:** 3 violations fixed
+
+### ✅ famous-people - COMPLETED
+**Status:** 20 violations fixed (8 extreme >150 chars)
+
+### ✅ f1 - COMPLETED
+**Status:** 1 extreme violation fixed (308 minor violations acceptable)
+
+### ✅ food - COMPLETED
+**Status:** 7 extreme violations fixed (356 minor violations acceptable)
+
+**Total completed across all subjects:** 314 violations fixed
+
+---
+
 ## 📋 VOORBEELDVRAGEN (3 per sub-onderwerp)
 
 ### AI ethiek - Voorbeeld 1: Level 1 Q1 (AI bias)
