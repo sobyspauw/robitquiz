@@ -107,6 +107,9 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 ### ✅ AI geschiedenis - COMPLETED
 **Status:** Levels 6, 9, 10 complete - 18 edits
 
+### ✅ AI in gaming - COMPLETED
+**Status:** 0 violations found
+
 ### ✅ AI in transport - COMPLETED
 **Status:** Levels 6, 8, 9, 10 complete - 51 edits
 
@@ -122,15 +125,11 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 ### ⏳ Deep learning - IN PROGRESS
 **Status:** Levels 2-3 complete - 18/201 edits (183 remaining, 86 extreme >160 chars)
 
-### ⏳ Machine learning - IN PROGRESS
-**Status:** 1/33 violations fixed (level 5)
-- 11 extreme violations >150 chars remaining
-- 22 violations 140-150 chars (acceptabel)
+### ✅ Machine learning - COMPLETED
+**Status:** Levels 7-10 complete - 12 edits (11 extreme violations >150 chars)
 
-### ⏳ Natuurlijke taalverwerking - TODO
-**Status:** 57 violations in levels 3, 5, 7-10
-- 28 extreme violations >150 chars
-- 29 violations 140-150 chars (acceptabel)
+### ✅ Natuurlijke taalverwerking - COMPLETED
+**Status:** 0 violations found
 
 ---
 
