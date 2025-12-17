@@ -94,10 +94,10 @@
       },
       {
         question: {
-          en: "Which novel by Gabriel García Márquez begins with the line 'Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice'?",
-          es: "¿Qué novela de Gabriel García Márquez comienza con la línea 'Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo'?",
-          de: "Welcher Roman von Gabriel García Márquez beginnt mit der Zeile 'Viele Jahre später, als er vor dem Erschießungskommando stand, sollte sich Oberst Aureliano Buendía an jenen fernen Nachmittag erinnern, an dem sein Vater ihn mitnahm, um das Eis zu entdecken'?",
-          nl: "Welke roman van Gabriel García Márquez begint met de regel 'Vele jaren later, toen hij tegenover het vuurpeloton stond, zou kolonel Aureliano Buendía zich die verre middag herinneren waarop zijn vader hem meenam om het ijs te ontdekken'?"
+          en: "Which García Márquez novel begins 'facing the firing squad, Colonel Aureliano Buendía remembered discovering ice with his father'?",
+          es: "¿Qué novela de García Márquez comienza 'frente al pelotón de fusilamiento, el coronel Aureliano Buendía recordó descubrir el hielo con su padre'?",
+          de: "Welcher García Márquez Roman beginnt 'vor dem Erschießungskommando erinnerte sich Oberst Aureliano Buendía ans Eis entdecken mit seinem Vater'?",
+          nl: "Welke García Márquez roman begint 'tegenover het vuurpeloton herinnerde kolonel Aureliano Buendía zich ijs ontdekken met zijn vader'?"
         },
         options: [
           {en: "Love in the Time of Cholera", es: "El amor en los tiempos del cólera", de: "Die Liebe in den Zeiten der Cholera", nl: "Liefde in tijden van cholera"},

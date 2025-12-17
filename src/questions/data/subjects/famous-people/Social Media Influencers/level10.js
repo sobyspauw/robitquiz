@@ -283,10 +283,10 @@
       },
       {
         question: {
-          en: "Which controversial monetization practice involves creators accepting payment to feature products without clearly disclosing the sponsorship, violating advertising regulations?",
-          es: "¿Qué práctica de monetización controvertida involucra a creadores aceptando pago para presentar productos sin revelar claramente el patrocinio, violando regulaciones publicitarias?",
-          de: "Welche kontroverse Monetarisierungspraxis beinhaltet, dass Creators Zahlungen akzeptieren, um Produkte zu zeigen, ohne das Sponsoring klar offenzulegen, was Werbevorschriften verletzt?",
-          nl: "Welke controversiële monetarisatiepraktijk omvat creators die betaling accepteren om producten te tonen zonder de sponsoring duidelijk bekend te maken, wat advertentieregels schendt?"
+          en: "Which practice involves creators accepting payment for product features without disclosing sponsorship, violating ad regulations?",
+          es: "¿Qué práctica involucra creadores aceptando pago por productos sin revelar patrocinio, violando regulaciones publicitarias?",
+          de: "Welche Praxis beinhaltet Creators Zahlung für Produktplatzierung akzeptieren ohne Sponsoring offenzulegen, Werbevorschriften verletzend?",
+          nl: "Welke praktijk omvat creators die betaling accepteren voor productplaatsing zonder sponsoring bekend te maken, advertentieregels schendend?"
         },
         options: [
           { en: "Undisclosed native advertising / covert endorsement", es: "Publicidad nativa no revelada / endorso encubierto", de: "Nicht offengelegte Native Advertising / verdeckte Befürwortung", nl: "Niet-bekendgemaakte native advertising / heimelijke endorsement" },

@@ -136,10 +136,10 @@
       },
       {
         question: {
-          en: "Which controversial pickup artist and self-help guru was banned from multiple platforms in 2022 for violating policies on dangerous organizations and individuals?",
-          es: "¿Qué controvertido artista del ligue y gurú de autoayuda fue prohibido de múltiples plataformas en 2022 por violar políticas sobre organizaciones e individuos peligrosos?",
-          de: "Welcher kontroverse Pickup-Artist und Selbsthilfe-Guru wurde 2022 von mehreren Plattformen verbannt wegen Verstößen gegen Richtlinien zu gefährlichen Organisationen und Individuen?",
-          nl: "Welke controversiële versierkunstenaar en zelfhulpgoeroe werd in 2022 verbannen van meerdere platforms wegens schending van beleid over gevaarlijke organisaties en individuen?"
+          en: "Which controversial self-help guru was banned from multiple platforms in 2022 for violating dangerous individuals policies?",
+          es: "¿Qué controvertido gurú de autoayuda fue prohibido de múltiples plataformas en 2022 por violar políticas sobre individuos peligrosos?",
+          de: "Welcher kontroverse Selbsthilfe-Guru wurde 2022 von mehreren Plattformen verbannt wegen Verstößen gegen gefährliche Individuen Richtlinien?",
+          nl: "Welke controversiële zelfhulpgoeroe werd in 2022 verbannen van meerdere platforms wegens schending gevaarlijke individuen beleid?"
         },
         options: [
           { en: "Andrew Tate", es: "Andrew Tate", de: "Andrew Tate", nl: "Andrew Tate" },
@@ -409,10 +409,10 @@
       },
       {
         question: {
-          en: "Which YouTube controversy involved creators discovering their LGBTQ+-related content was being restricted in Restricted Mode, limiting visibility and monetization?",
-          es: "¿Qué controversia de YouTube involucró a creadores descubriendo que su contenido relacionado con LGBTQ+ estaba siendo restringido en Modo Restringido, limitando la visibilidad y monetización?",
-          de: "Welche YouTube-Kontroverse beinhaltete, dass Creators entdeckten, dass ihre LGBTQ+-bezogenen Inhalte im eingeschränkten Modus eingeschränkt wurden, was Sichtbarkeit und Monetarisierung limitierte?",
-          nl: "Welke YouTube-controverse betrof creators die ontdekten dat hun LGBTQ+-gerelateerde inhoud werd beperkt in Beperkte Modus, waardoor zichtbaarheid en monetarisatie werden beperkt?"
+          en: "Which YouTube controversy involved LGBTQ+ content being restricted in Restricted Mode, limiting visibility and monetization?",
+          es: "¿Qué controversia de YouTube involucró contenido LGBTQ+ siendo restringido en Modo Restringido, limitando visibilidad y monetización?",
+          de: "Welche YouTube-Kontroverse beinhaltete LGBTQ+-Inhalte eingeschränkt im Restricted Mode, was Sichtbarkeit und Monetarisierung limitierte?",
+          nl: "Welke YouTube-controverse betrof LGBTQ+-inhoud beperkt in Beperkte Modus, waardoor zichtbaarheid en monetarisatie werden beperkt?"
         },
         options: [
           { en: "The 2017 Restricted Mode LGBTQ+ filtering scandal", es: "El escándalo de filtrado LGBTQ+ de Modo Restringido de 2017", de: "Der Restricted-Mode-LGBTQ+-Filterungsskandal von 2017", nl: "Het 2017 Beperkte Modus LGBTQ+ filterschandaal" },

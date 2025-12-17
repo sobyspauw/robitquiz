@@ -157,10 +157,10 @@
       },
       {
         question: {
-          en: "Which Spanish Romantic painter's 'The Disasters of War' print series wasn't published until 35 years after his death due to its graphic depictions of war atrocities?",
-          es: "¿La serie de grabados 'Los Desastres de la Guerra' de qué pintor romántico español no se publicó hasta 35 años después de su muerte debido a sus representaciones gráficas de atrocidades de guerra?",
-          de: "Welches spanischen romantischen Malers Druckserie 'Die Schrecken des Krieges' wurde erst 35 Jahre nach seinem Tod veröffentlicht aufgrund seiner grafischen Darstellungen von Kriegsgräueln?",
-          nl: "Welke Spaanse romantische schilder's prentenreeks 'De Rampen van de Oorlog' werd pas 35 jaar na zijn dood gepubliceerd vanwege de grafische afbeeldingen van oorlogsmisdaden?"
+          en: "Which Spanish Romantic painter's 'The Disasters of War' print series was published 35 years posthumously due to graphic war atrocities?",
+          es: "¿La serie de grabados 'Los Desastres de la Guerra' de qué pintor romántico español se publicó 35 años después de su muerte por representaciones gráficas de guerra?",
+          de: "Welches spanischen Malers Druckserie 'Die Schrecken des Krieges' wurde 35 Jahre nach Tod veröffentlicht aufgrund grafischer Kriegsgräuel?",
+          nl: "Welke Spaanse schilder's prentenreeks 'De Rampen van de Oorlog' werd 35 jaar na zijn dood gepubliceerd vanwege grafische oorlogsmisdaden?"
         },
         options: [
           { en: "Francisco Goya", es: "Francisco Goya", de: "Francisco Goya", nl: "Francisco Goya" },
@@ -199,10 +199,10 @@
       },
       {
         question: {
-          en: "Which Vienna Secession artist's 'Beethoven Frieze' was created for the 14th Vienna Secession exhibition and features his interpretation of Wagner's 9th Symphony?",
-          es: "¿El 'Friso de Beethoven' de qué artista de la Secesión de Viena fue creado para la 14ª exposición de la Secesión de Viena y presenta su interpretación de la 9ª Sinfonía de Wagner?",
-          de: "Welches Wiener Sezession-Künstlers 'Beethoven-Fries' wurde für die 14. Wiener Sezessionsausstellung geschaffen und zeigt seine Interpretation von Wagners 9. Symphonie?",
-          nl: "Welke Weense Secessie-kunstenaar's 'Beethoven Fries' werd gecreëerd voor de 14e Weense Secessie-tentoonstelling en toont zijn interpretatie van Wagner's 9e Symfonie?"
+          en: "Which Vienna Secession artist created 'Beethoven Frieze' for the 14th exhibition interpreting Wagner's 9th Symphony?",
+          es: "¿Qué artista de la Secesión de Viena creó 'Friso de Beethoven' para la 14ª exposición interpretando la 9ª Sinfonía de Wagner?",
+          de: "Welcher Wiener Sezession-Künstler schuf 'Beethoven-Fries' für die 14. Ausstellung nach Wagners 9. Symphonie?",
+          nl: "Welke Weense Secessie-kunstenaar creëerde 'Beethoven Fries' voor de 14e tentoonstelling naar Wagner's 9e Symfonie?"
         },
         options: [
           { en: "Gustav Klimt", es: "Gustav Klimt", de: "Gustav Klimt", nl: "Gustav Klimt" },
@@ -388,10 +388,10 @@
       },
       {
         question: {
-          en: "Which Netherlandish painter's 'Arnolfini Portrait' features a convex mirror reflecting the entire room and is considered a masterpiece of oil painting technique?",
-          es: "¿El 'Retrato de Arnolfini' de qué pintor neerlandés presenta un espejo convexo que refleja toda la habitación y se considera una obra maestra de la técnica de pintura al óleo?",
-          de: "Welches niederländischen Malers 'Arnolfini-Porträt' zeigt einen konvexen Spiegel, der den gesamten Raum reflektiert, und gilt als Meisterwerk der Ölmaltechnik?",
-          nl: "Welke Nederlandse schilder's 'Arnolfini Portret' toont een convexe spiegel die de hele kamer weerspiegelt en wordt beschouwd als een meesterwerk van olieverftechniek?"
+          en: "Which painter's 'Arnolfini Portrait' features a convex mirror reflecting the room, a masterpiece of oil painting technique?",
+          es: "¿El 'Retrato de Arnolfini' de qué pintor presenta un espejo convexo reflejando la habitación, obra maestra de pintura al óleo?",
+          de: "Welches Malers 'Arnolfini-Porträt' zeigt konvexen Spiegel der Raum reflektiert, Meisterwerk der Ölmaltechnik?",
+          nl: "Welke schilder's 'Arnolfini Portret' toont convexe spiegel die kamer weerspiegelt, meesterwerk van olieverftechniek?"
         },
         options: [
           { en: "Jan van Eyck", es: "Jan van Eyck", de: "Jan van Eyck", nl: "Jan van Eyck" },
@@ -409,10 +409,10 @@
       },
       {
         question: {
-          en: "Which Swiss-German painter's 'Twittering Machine' combines mechanical and organic elements, exemplifying his belief that 'art does not reproduce the visible; rather, it makes visible'?",
-          es: "¿La 'Máquina de Gorjeo' de qué pintor suizo-alemán combina elementos mecánicos y orgánicos, ejemplificando su creencia de que 'el arte no reproduce lo visible; más bien, hace visible'?",
-          de: "Welches schweizerisch-deutschen Malers 'Zwitschermaschine' kombiniert mechanische und organische Elemente und verkörpert seine Überzeugung, dass 'Kunst nicht das Sichtbare wiedergibt; vielmehr macht sie sichtbar'?",
-          nl: "Welke Zwitsers-Duitse schilder's 'Tjilpmachine' combineert mechanische en organische elementen, wat zijn overtuiging illustreert dat 'kunst niet het zichtbare reproduceert; het maakt eerder zichtbaar'?"
+          en: "Which painter's 'Twittering Machine' exemplifies his belief that 'art does not reproduce the visible; it makes visible'?",
+          es: "¿La 'Máquina de Gorjeo' de qué pintor ejemplifica su creencia de que 'el arte no reproduce lo visible; hace visible'?",
+          de: "Welches Malers 'Zwitschermaschine' verkörpert seine Überzeugung 'Kunst nicht das Sichtbare wiedergibt; macht sichtbar'?",
+          nl: "Welke schilder's 'Tjilpmachine' illustreert zijn overtuiging dat 'kunst niet het zichtbare reproduceert; maakt zichtbaar'?"
         },
         options: [
           { en: "Paul Klee", es: "Paul Klee", de: "Paul Klee", nl: "Paul Klee" },
