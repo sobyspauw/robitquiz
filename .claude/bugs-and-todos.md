@@ -122,11 +122,15 @@ wat te doen met leaderbords?(voor nu verwijderen? zo ja hoe anders challange met
 ### ⏳ Deep learning - IN PROGRESS
 **Status:** Levels 2-3 complete - 18/201 edits (183 remaining, 86 extreme >160 chars)
 
-### ⏳ Machine learning - TODO
-**Status:** 33 violations in levels 5, 7-10
+### ⏳ Machine learning - IN PROGRESS
+**Status:** 1/33 violations fixed (level 5)
+- 11 extreme violations >150 chars remaining
+- 22 violations 140-150 chars (acceptabel)
 
 ### ⏳ Natuurlijke taalverwerking - TODO
 **Status:** 57 violations in levels 3, 5, 7-10
+- 28 extreme violations >150 chars
+- 29 violations 140-150 chars (acceptabel)
 
 ---
 
