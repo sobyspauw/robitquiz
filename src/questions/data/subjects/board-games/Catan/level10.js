@@ -215,8 +215,8 @@
       },
       {
         question: {
-          en: "What is the theoretical maximum expected value (in victory points per turn) achievable from perfect probability-weighted settlement placement?",
-          es: "¿Cuál es el valor esperado teórico máximo (en puntos de victoria por turno) alcanzable desde una colocación de asentamiento ponderada por probabilidad perfecta?",
+          en: "What is the theoretical maximum expected value (victory points per turn) from perfect probability-weighted settlement placement?",
+          es: "¿Cuál es el valor esperado teórico máximo (puntos victoria por turno) de colocación asentamiento ponderada por probabilidad perfecta?",
           de: "Was ist der theoretische maximale Erwartungswert (in Siegpunkten pro Runde) erreichbar durch perfekte wahrscheinlichkeitsgewichtete Siedlungsplatzierung?",
           nl: "Wat is de theoretische maximale verwachte waarde (in overwinningspunten per beurt) bereikbaar vanuit perfecte waarschijnlijkheidsgewogen nederzettingsplaatsing?"
         },
