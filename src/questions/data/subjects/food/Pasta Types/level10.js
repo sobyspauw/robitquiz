@@ -420,9 +420,9 @@
             options: [
                 {
                     en: "Cellular agriculture producing lab-grown meat, fermentation-derived proteins, and plant-based mycoprotein alternatives",
-                    es: "Agricultura celular produciendo carne cultivada en laboratorio, proteínas derivadas de fermentación y alternativas de micoproteína a base de plantas",
-                    de: "Zelluläre Landwirtschaft zur Produktion von im Labor gezüchtetem Fleisch, fermentationsabgeleiteten Proteinen und pflanzlichen Mykoprotein-Alternativen",
-                    nl: "Cellulaire landbouw die in het lab gekweekt vlees, fermentatie-afgeleide eiwitten en plantaardige mycoproteine-alternatieven produceert"
+                    es: "Agricultura celular produciendo carne cultivada en laboratorio, proteínas fermentación y alternativas micoproteína vegetal",
+                    de: "Zelluläre Landwirtschaft Labor-Fleisch, Fermentationsproteine und pflanzliche Mykoprotein-Alternativen",
+                    nl: "Cellulaire landbouw die lab-gekweekt vlees, fermentatie-eiwitten en plantaardige mycoproteine-alternatieven produceert"
                 },
                 {
                     en: "Only traditional animal meat will ever be used in pasta sauces",
@@ -583,10 +583,10 @@
             },
             options: [
                 {
-                    en: "Local production generally has lower transportation emissions, but total impact depends on agricultural practices, energy sources, and production methods",
-                    es: "La producción local generalmente tiene emisiones de transporte más bajas, pero el impacto total depende de prácticas agrícolas, fuentes de energía y métodos de producción",
-                    de: "Lokale Produktion hat im Allgemeinen niedrigere Transportemissionen, aber die Gesamtwirkung hängt von landwirtschaftlichen Praktiken, Energiequellen und Produktionsmethoden ab",
-                    nl: "Lokale productie heeft over het algemeen lagere transportemissies, maar de totale impact hangt af van landbouwpraktijken, energiebronnen en productiemethoden"
+                    en: "Local production has lower transport emissions, but total impact depends on agricultural practices, energy sources, and production methods",
+                    es: "Producción local tiene emisiones transporte más bajas, pero impacto total depende de prácticas agrícolas, energía y producción",
+                    de: "Lokale Produktion hat niedrigere Transportemissionen, aber Gesamtwirkung hängt von Landwirtschaft, Energie und Produktion ab",
+                    nl: "Lokale productie heeft lagere transportemissies, maar totale impact hangt af van landbouw, energiebronnen en productiemethoden"
                 },
                 {
                     en: "Imported pasta always has higher carbon footprint in all cases",
