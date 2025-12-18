@@ -388,10 +388,10 @@
       },
       {
         question: {
-          en: "In advanced chocolate crystallization, what is the relationship between nucleation rate, growth rate, and the critical radius for forming stable β(V) crystals, and how does this affect tempering efficiency?",
-          es: "En cristalización avanzada de chocolate, ¿cuál es la relación entre tasa de nucleación, tasa de crecimiento y radio crítico para formar cristales β(V) estables, y cómo afecta esto la eficiencia del templado?",
-          de: "In fortgeschrittener Schokoladenkristallisation, was ist die Beziehung zwischen Nukleationsrate, Wachstumsrate und kritischem Radius für die Bildung stabiler β(V)-Kristalle, und wie beeinflusst dies die Temperier-Effizienz?",
-          nl: "In geavanceerde chocolade kristallisatie, wat is de relatie tussen nucleatie snelheid, groei snelheid en de kritische radius voor het vormen van stabiele β(V) kristallen, en hoe beïnvloedt dit tempereer efficiëntie?"
+          en: "What is the relationship between nucleation rate, growth rate, and critical radius for forming stable β(V) crystals in chocolate tempering?",
+          es: "¿Cuál es la relación entre tasa nucleación, tasa crecimiento y radio crítico para formar cristales β(V) estables en templado chocolate?",
+          de: "Was ist die Beziehung zwischen Nukleationsrate, Wachstumsrate und kritischem Radius für stabile β(V)-Kristalle beim Temperieren?",
+          nl: "Wat is de relatie tussen nucleatie snelheid, groei snelheid en kritische radius voor stabiele β(V) kristallen bij tempereren?"
         },
         options: [
           { en: "Critical radius r* = 2γVm/(kTlnS); optimal nucleation requires r* = 1.2-1.8 nm with J ∝ exp(-16πγ³Vm²/3k³T³ln²S)", es: "Radio crítico r* = 2γVm/(kTlnS); nucleación óptima requiere r* = 1.2-1.8 nm con J ∝ exp(-16πγ³Vm²/3k³T³ln²S)", de: "Kritischer Radius r* = 2γVm/(kTlnS); optimale Nukleation erfordert r* = 1.2-1.8 nm mit J ∝ exp(-16πγ³Vm²/3k³T³ln²S)", nl: "Kritische radius r* = 2γVm/(kTlnS); optimale nucleatie vereist r* = 1.2-1.8 nm met J ∝ exp(-16πγ³Vm²/3k³T³ln²S)" },
@@ -409,9 +409,9 @@
       },
       {
         question: {
-          en: "What is the thermodynamic basis for the glass transition in sugar confections, and how does the Williams-Landel-Ferry (WLF) equation predict viscosity changes in relation to storage stability?",
-          es: "¿Cuál es la base termodinámica para la transición vítrea en confecciones azucaradas, y cómo predice la ecuación Williams-Landel-Ferry (WLF) cambios de viscosidad en relación con estabilidad de almacenamiento?",
-          de: "Was ist die thermodynamische Grundlage für den Glasübergang in Zuckerkonfekt, und wie sagt die Williams-Landel-Ferry (WLF)-Gleichung Viskositätsänderungen in Bezug auf Lagerungsstabilität voraus?",
+          en: "What is the thermodynamic basis for glass transition in sugar confections, and how does WLF equation predict viscosity changes?",
+          es: "¿Cuál es la base termodinámica para transición vítrea en confecciones azucaradas, y cómo predice ecuación WLF cambios viscosidad?",
+          de: "Was ist die thermodynamische Grundlage für Glasübergang in Zuckerkonfekt, und wie sagt WLF-Gleichung Viskositätsänderungen voraus?",
           nl: "Wat is de thermodynamische basis voor de glas overgang in suiker confiserie, en hoe voorspelt de Williams-Landel-Ferry (WLF) vergelijking viscositeit veranderingen in relatie tot opslag stabiliteit?"
         },
         options: [

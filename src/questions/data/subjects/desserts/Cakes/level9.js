@@ -409,10 +409,10 @@
       },
       {
         question: {
-          en: "In molecular gastronomy applications for desserts, what is the critical concentration threshold for agar-agar to achieve thermoreversible gel formation, and how does its gel strength compare to gelatin?",
-          es: "En aplicaciones de gastronomía molecular para postres, ¿cuál es el umbral de concentración crítica para agar-agar para lograr formación de gel termoreverible, y cómo se compara su fuerza de gel con la gelatina?",
-          de: "In molekulargastronomischen Anwendungen für Desserts, was ist die kritische Konzentrationsgrenze für Agar-Agar um thermoreversible Gelbildung zu erreichen, und wie vergleicht sich seine Gelstärke mit Gelatine?",
-          nl: "In moleculaire gastronomie toepassingen voor desserts, wat is de kritische concentratiedrempel voor agar-agar om thermoreversibele gelvorming te bereiken, en hoe vergelijkt zijn gelsterkte met gelatine?"
+          en: "What is the critical agar-agar concentration for thermoreversible gel formation, and how does its gel strength compare to gelatin?",
+          es: "¿Cuál es la concentración crítica de agar-agar para formación gel termoreverible, y cómo se compara su fuerza con gelatina?",
+          de: "Was ist die kritische Agar-Agar Konzentration für thermoreversible Gelbildung, und wie vergleicht sich Gelstärke mit Gelatine?",
+          nl: "Wat is de kritische agar-agar concentratie voor thermoreversibele gelvorming, en hoe vergelijkt gelsterkte met gelatine?"
         },
         options: [
           { en: "0.5-1% concentration; 10x stronger than gelatin; sets at 35°C, melts at 85°C", es: "Concentración 0.5-1%; 10x más fuerte que gelatina; cuaja a 35°C, se derrite a 85°C", de: "0,5-1% Konzentration; 10x stärker als Gelatine; erstarrt bei 35°C, schmilzt bei 85°C", nl: "0.5-1% concentratie; 10x sterker dan gelatine; stolt bij 35°C, smelt bij 85°C" },
