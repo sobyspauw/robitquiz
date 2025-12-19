@@ -299,7 +299,8 @@
       "Bash(if grep -qi \"sample question\\|placeholder\\|question [0-9] for level\\|Option [A-D] for Q\" \"$filepath\")",
       "Bash(else echo \"✓ OK\")",
       "Bash(then echo -n \"L$i: \")",
-      "Bash(git fetch:*)"
+      "Bash(git fetch:*)",
+      "Bash(lsof:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
