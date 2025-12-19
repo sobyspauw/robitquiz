@@ -827,6 +827,785 @@
         de: "Offizielle Turnierspiele haben ein 60-Minuten-Zeitlimit, wobei der reichste Spieler gewinnt, wenn niemand bankrott geht.",
         nl: "Officiële toernooispelen gebruiken een 60-minuten tijdslimiet, waarbij de rijkste speler wint als niemand failliet gaat."
       }
+    },
+    {
+      question: {
+        en: "What's the optimal strategy for the first few rounds of the game?",
+        es: "¿Cuál es la estrategia óptima para las primeras rondas del juego?",
+        de: "Was ist die optimale Strategie für die ersten Runden des Spiels?",
+        nl: "Wat is de optimale strategie voor de eerste ronden van het spel?"
+      },
+      options: [
+        {
+          en: "Buy every property you land on",
+          es: "Comprar cada propiedad en la que caigas",
+          de: "Jede Immobilie kaufen, auf der Sie landen",
+          nl: "Koop elk eigendom waarop je landt"
+        },
+        {
+          en: "Save money and only buy strategic properties",
+          es: "Ahorrar dinero y solo comprar propiedades estratégicas",
+          de: "Geld sparen und nur strategische Immobilien kaufen",
+          nl: "Spaar geld en koop alleen strategische eigendommen"
+        },
+        {
+          en: "Focus on railroads first",
+          es: "Enfocarse primero en ferrocarriles",
+          de: "Zuerst auf Eisenbahnen konzentrieren",
+          nl: "Focus eerst op spoorwegen"
+        },
+        {
+          en: "Wait to see what others buy before deciding",
+          es: "Esperar a ver qué compran otros antes de decidir",
+          de: "Warten, um zu sehen, was andere kaufen, bevor Sie entscheiden",
+          nl: "Wacht om te zien wat anderen kopen voordat je beslist"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Early game: buy every property you can afford - ownership creates trading opportunities and blocks opponents.",
+        es: "Juego temprano: compra cada propiedad que puedas pagar - la propiedad crea oportunidades de intercambio y bloquea a oponentes.",
+        de: "Frühes Spiel: Kaufen Sie jede Immobilie, die Sie sich leisten können - Besitz schafft Handelsmöglichkeiten und blockiert Gegner.",
+        nl: "Vroeg spel: koop elk eigendom dat je je kunt veroorloven - eigendom creëert ruilmogelijkheden en blokkeert tegenstanders."
+      }
+    },
+    {
+      question: {
+        en: "What's the expected value of landing on an opponent's orange monopoly with 3 houses?",
+        es: "¿Cuál es el valor esperado de caer en un monopolio naranja de un oponente con 3 casas?",
+        de: "Was ist der Erwartungswert einer Landung auf einem orangefarbenen Monopol eines Gegners mit 3 Häusern?",
+        nl: "Wat is de verwachte waarde van landen op een oranje monopolie van een tegenstander met 3 huizen?"
+      },
+      options: [
+        {
+          en: "$450-500 average rent",
+          es: "Alquiler promedio de $450-500",
+          de: "Durchschnittliche Miete $450-500",
+          nl: "Gemiddelde huur $450-500"
+        },
+        {
+          en: "$700-800 average rent",
+          es: "Alquiler promedio de $700-800",
+          de: "Durchschnittliche Miete $700-800",
+          nl: "Gemiddelde huur $700-800"
+        },
+        {
+          en: "$1000+ average rent",
+          es: "Alquiler promedio de $1000+",
+          de: "Durchschnittliche Miete $1000+",
+          nl: "Gemiddelde huur $1000+"
+        },
+        {
+          en: "Depends on which orange property",
+          es: "Depende de qué propiedad naranja",
+          de: "Hängt davon ab, welche orangefarbene Immobilie",
+          nl: "Hangt af van welk oranje eigendom"
+        }
+      },
+      correct: 1,
+      explanation: {
+        en: "Orange properties with 3 houses charge $700-800 rent, making them extremely dangerous landing zones.",
+        es: "Las propiedades naranjas con 3 casas cobran $700-800 de alquiler, convirtiéndolas en zonas de aterrizaje extremadamente peligrosas.",
+        de: "Orangefarbene Immobilien mit 3 Häusern verlangen $700-800 Miete, was sie zu extrem gefährlichen Landezonen macht.",
+        nl: "Oranje eigendommen met 3 huizen vragen $700-800 huur, waardoor ze extreem gevaarlijke landingszones zijn."
+      }
+    },
+    {
+      question: {
+        en: "When trading, what's the value of a 'Get Out of Jail Free' card?",
+        es: "Al negociar, ¿cuál es el valor de una carta 'Salir de la Cárcel Gratis'?",
+        de: "Beim Handel, was ist der Wert einer 'Gefängnis Frei'-Karte?",
+        nl: "Bij ruilen, wat is de waarde van een 'Verlaat de Gevangenis Gratis' kaart?"
+      },
+      options: [
+        {
+          en: "$50 (the cost to get out of Jail)",
+          es: "$50 (el costo de salir de la Cárcel)",
+          de: "$50 (die Kosten, um aus dem Gefängnis zu kommen)",
+          nl: "$50 (de kosten om uit de Gevangenis te komen)"
+        },
+        {
+          en: "$50-200 depending on game situation",
+          es: "$50-200 dependiendo de la situación del juego",
+          de: "$50-200 je nach Spielsituation",
+          nl: "$50-200 afhankelijk van de spelsituatie"
+        },
+        {
+          en: "Cannot be traded in official rules",
+          es: "No se puede negociar en reglas oficiales",
+          de: "Kann in offiziellen Regeln nicht gehandelt werden",
+          nl: "Kan niet worden geruild in officiële regels"
+        },
+        {
+          en: "Worth one property trade",
+          es: "Vale un intercambio de propiedad",
+          de: "Wert eines Immobilientauschs",
+          nl: "Waard één eigendomsruil"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Get Out of Jail Free cards can be traded for $50-200 - more valuable late game when avoiding hotels is critical.",
+        es: "Las cartas Salir de la Cárcel Gratis pueden negociarse por $50-200 - más valiosas en juego tardío cuando evitar hoteles es crítico.",
+        de: "Gefängnis-Frei-Karten können für $50-200 gehandelt werden - wertvoller im späten Spiel, wenn Hotelvermeidung kritisch ist.",
+        nl: "Verlaat de Gevangenis Gratis kaarten kunnen worden geruild voor $50-200 - waardevoller laat in het spel wanneer hotels vermijden kritisch is."
+      }
+    },
+    {
+      question: {
+        en: "What determines who wins when time expires in tournament play?",
+        es: "¿Qué determina quién gana cuando expira el tiempo en el juego de torneo?",
+        de: "Was bestimmt, wer gewinnt, wenn die Zeit im Turnierspiel abläuft?",
+        nl: "Wat bepaalt wie wint wanneer de tijd afloopt in toernooispel?"
+      },
+      options: [
+        {
+          en: "Most properties owned",
+          es: "Más propiedades poseídas",
+          de: "Die meisten besessenen Immobilien",
+          nl: "Meeste eigendommen bezeten"
+        },
+        {
+          en: "Most cash on hand",
+          es: "Más efectivo en mano",
+          de: "Das meiste Bargeld",
+          nl: "Meeste geld in handen"
+        },
+        {
+          en: "Highest total net worth",
+          es: "Mayor patrimonio neto total",
+          de: "Höchstes Gesamtnettovermögen",
+          nl: "Hoogste totale nettowaarde"
+        },
+        {
+          en: "Player with most monopolies",
+          es: "Jugador con más monopolios",
+          de: "Spieler mit den meisten Monopolen",
+          nl: "Speler met meeste monopolies"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Winner is determined by total net worth: cash + property values + buildings at cost.",
+        es: "El ganador se determina por patrimonio neto total: efectivo + valores de propiedades + edificios al costo.",
+        de: "Gewinner wird durch Gesamtnettovermögen bestimmt: Bargeld + Immobilienwerte + Gebäude zu Kosten.",
+        nl: "Winnaar wordt bepaald door totale nettowaarde: geld + eigendomswaarden + gebouwen tegen kostprijs."
+      }
+    },
+    {
+      question: {
+        en: "What's the danger of having too much cash late in the game?",
+        es: "¿Cuál es el peligro de tener demasiado efectivo tarde en el juego?",
+        de: "Was ist die Gefahr, zu viel Bargeld spät im Spiel zu haben?",
+        nl: "Wat is het gevaar van te veel geld laat in het spel?"
+      },
+      options: [
+        {
+          en: "No danger - cash is always good",
+          es: "No hay peligro - el efectivo siempre es bueno",
+          de: "Keine Gefahr - Bargeld ist immer gut",
+          nl: "Geen gevaar - geld is altijd goed"
+        },
+        {
+          en: "Unused cash isn't generating rent income",
+          es: "Efectivo sin usar no genera ingresos por alquiler",
+          de: "Ungenutztes Bargeld generiert keine Mieteinnahmen",
+          nl: "Ongebruikt geld genereert geen huurinkomsten"
+        },
+        {
+          en: "Other players will target you",
+          es: "Otros jugadores te atacarán",
+          de: "Andere Spieler werden Sie angreifen",
+          nl: "Andere spelers zullen je targeten"
+        },
+        {
+          en: "Bank takes 10% tax on excess cash",
+          es: "El banco toma 10% de impuesto sobre efectivo excedente",
+          de: "Bank nimmt 10% Steuer auf überschüssiges Bargeld",
+          nl: "Bank neemt 10% belasting op overtollig geld"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Late game, excess cash not invested in houses/hotels is wasted opportunity - you should maximize development.",
+        es: "Tarde en el juego, el efectivo excedente no invertido en casas/hoteles es oportunidad desperdiciada - debes maximizar el desarrollo.",
+        de: "Im späten Spiel ist überschüssiges Bargeld, das nicht in Häuser/Hotels investiert wird, verschwendete Gelegenheit - Sie sollten die Entwicklung maximieren.",
+        nl: "Laat in het spel is overtollig geld dat niet is geïnvesteerd in huizen/hotels verspilde kans - je moet ontwikkeling maximaliseren."
+      }
+    },
+    {
+      question: {
+        en: "Why is Illinois Avenue considered one of the best properties statistically?",
+        es: "¿Por qué se considera Illinois Avenue una de las mejores propiedades estadísticamente?",
+        de: "Warum gilt Illinois Avenue statistisch als eine der besten Immobilien?",
+        nl: "Waarom wordt Illinois Avenue beschouwd als een van de beste eigendommen statistisch?"
+      },
+      options: [
+        {
+          en: "It has the highest rent",
+          es: "Tiene el alquiler más alto",
+          de: "Es hat die höchste Miete",
+          nl: "Het heeft de hoogste huur"
+        },
+        {
+          en: "Most landed-on property in the game",
+          es: "Propiedad más visitada del juego",
+          de: "Am meisten besuchte Immobilie im Spiel",
+          nl: "Meest bezochte eigendom in het spel"
+        },
+        {
+          en: "Cheapest to develop",
+          es: "Más barata para desarrollar",
+          de: "Am günstigsten zu entwickeln",
+          nl: "Goedkoopst om te ontwikkelen"
+        },
+        {
+          en: "Multiple Chance cards lead to it",
+          es: "Múltiples cartas de Chance llevan a ella",
+          de: "Mehrere Ereigniskarten führen dorthin",
+          nl: "Meerdere kanskaarten leiden ernaar toe"
+        }
+      },
+      correct: 1,
+      explanation: {
+        en: "Illinois Avenue is the most landed-on property due to Jail positioning and Chance card effects.",
+        es: "Illinois Avenue es la propiedad más visitada debido a la posición de la Cárcel y efectos de cartas de Chance.",
+        de: "Illinois Avenue ist die am häufigsten besuchte Immobilie aufgrund der Gefängnisposition und Ereigniskarteneffekte.",
+        nl: "Illinois Avenue is het meest bezochte eigendom vanwege Gevangenispositie en effecten van kanskaarten."
+      }
+    },
+    {
+      question: {
+        en: "What's the 'nuclear option' in desperate late-game situations?",
+        es: "¿Cuál es la 'opción nuclear' en situaciones desesperadas de juego tardío?",
+        de: "Was ist die 'nukleare Option' in verzweifelten Spätspiel-Situationen?",
+        nl: "Wat is de 'nucleaire optie' in wanhopige late-game situaties?"
+      },
+      options: [
+        {
+          en: "Mortgaging everything to buy one hotel",
+          es: "Hipotecar todo para comprar un hotel",
+          de: "Alles beleihen, um ein Hotel zu kaufen",
+          nl: "Alles hypothekeren om één hotel te kopen"
+        },
+        {
+          en: "Trading your monopoly to the weakest player",
+          es: "Intercambiar tu monopolio al jugador más débil",
+          de: "Ihr Monopol dem schwächsten Spieler tauschen",
+          nl: "Je monopolie ruilen naar de zwakste speler"
+        },
+        {
+          en: "Declaring bankruptcy to deny assets to leader",
+          es: "Declarar bancarrota para negar activos al líder",
+          de: "Bankrott erklären, um dem Anführer Vermögenswerte zu verweigern",
+          nl: "Faillissement aanvragen om activa aan leider te ontzeggen"
+        },
+        {
+          en: "Selling houses below market value to allies",
+          es: "Vender casas por debajo del valor de mercado a aliados",
+          de: "Häuser unter Marktwert an Verbündete verkaufen",
+          nl: "Huizen onder marktwaarde verkopen aan bondgenoten"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "When desperate, mortgage everything and focus all resources on maxing out one deadly monopoly with hotels.",
+        es: "Cuando estés desesperado, hipoteca todo y enfoca todos los recursos en maximizar un monopolio mortal con hoteles.",
+        de: "Wenn verzweifelt, beleihen Sie alles und konzentrieren Sie alle Ressourcen auf die Maximierung eines tödlichen Monopols mit Hotels.",
+        nl: "Wanneer wanhopig, hypothekeer alles en focus alle middelen op het maximaliseren van één dodelijk monopolie met hotels."
+      }
+    },
+    {
+      question: {
+        en: "In multi-player games, what's the kingmaker problem?",
+        es: "En juegos multijugador, ¿cuál es el problema del hacedor de reyes?",
+        de: "Was ist das Königsmacher-Problem in Mehrspieler-Spielen?",
+        nl: "Wat is het kingmaker probleem in meerspelersspellen?"
+      },
+      options: [
+        {
+          en: "The richest player always wins",
+          es: "El jugador más rico siempre gana",
+          de: "Der reichste Spieler gewinnt immer",
+          nl: "De rijkste speler wint altijd"
+        },
+        {
+          en: "Eliminated players determine who wins through trades",
+          es: "Jugadores eliminados determinan quién gana mediante intercambios",
+          de: "Eliminierte Spieler bestimmen durch Handel, wer gewinnt",
+          nl: "Geëlimineerde spelers bepalen wie wint door ruilen"
+        },
+        {
+          en: "Losing players' final trades can decide the winner",
+          es: "Intercambios finales de jugadores perdedores pueden decidir el ganador",
+          de: "Letzte Geschäfte verlierender Spieler können den Gewinner entscheiden",
+          nl: "Laatste ruilen van verliezende spelers kunnen de winnaar bepalen"
+        },
+        {
+          en: "Only the banker can win",
+          es: "Solo el banquero puede ganar",
+          de: "Nur der Banker kann gewinnen",
+          nl: "Alleen de bankier kan winnen"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Kingmaker problem: when losing, your final trades can determine which remaining player wins - controversial but strategic.",
+        es: "Problema del hacedor de reyes: al perder, tus intercambios finales pueden determinar qué jugador restante gana - controvertido pero estratégico.",
+        de: "Königsmacher-Problem: Beim Verlieren können Ihre letzten Geschäfte bestimmen, welcher verbleibende Spieler gewinnt - kontrovers, aber strategisch.",
+        nl: "Kingmaker probleem: bij verliezen kunnen je laatste ruilen bepalen welke overgebleven speler wint - controversieel maar strategisch."
+      }
+    },
+    {
+      question: {
+        en: "What's the mathematical breakeven point for buying houses on red properties?",
+        es: "¿Cuál es el punto de equilibrio matemático para comprar casas en propiedades rojas?",
+        de: "Was ist der mathematische Break-Even-Punkt für den Kauf von Häusern auf roten Immobilien?",
+        nl: "Wat is het wiskundige break-even punt voor het kopen van huizen op rode eigendommen?"
+      },
+      options: [
+        {
+          en: "1-2 rent collections per property",
+          es: "1-2 cobros de alquiler por propiedad",
+          de: "1-2 Mieteinnahmen pro Immobilie",
+          nl: "1-2 huurinningen per eigendom"
+        },
+        {
+          en: "3-4 rent collections per property",
+          es: "3-4 cobros de alquiler por propiedad",
+          de: "3-4 Mieteinnahmen pro Immobilie",
+          nl: "3-4 huurinningen per eigendom"
+        },
+        {
+          en: "5-6 rent collections per property",
+          es: "5-6 cobros de alquiler por propiedad",
+          de: "5-6 Mieteinnahmen pro Immobilie",
+          nl: "5-6 huurinningen per eigendom"
+        },
+        {
+          en: "10+ rent collections needed",
+          es: "10+ cobros de alquiler necesarios",
+          de: "10+ Mieteinnahmen erforderlich",
+          nl: "10+ huurinningen nodig"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "With $150 houses and rent jumping from $90 to $450+, you break even after just 1-2 opponent landings.",
+        es: "Con casas de $150 y alquiler saltando de $90 a $450+, alcanzas el equilibrio después de solo 1-2 caídas de oponentes.",
+        de: "Mit $150 Häusern und Miete, die von $90 auf $450+ springt, erreichen Sie den Break-Even nach nur 1-2 Gegnerlandungen.",
+        nl: "Met $150 huizen en huur die springt van $90 naar $450+, bereik je break-even na slechts 1-2 tegenstanders landingen."
+      }
+    },
+    {
+      question: {
+        en: "What advantage do brown and light blue monopolies have over expensive ones?",
+        es: "¿Qué ventaja tienen los monopolios marrón y azul claro sobre los caros?",
+        de: "Welchen Vorteil haben braune und hellblaue Monopole gegenüber teuren?",
+        nl: "Welk voordeel hebben bruine en lichtblauwe monopolies ten opzichte van dure?"
+      },
+      options: [
+        {
+          en: "Higher rent per investment dollar",
+          es: "Mayor alquiler por dólar de inversión",
+          de: "Höhere Miete pro Investitionsdollar",
+          nl: "Hogere huur per investeringsdollar"
+        },
+        {
+          en: "Can be developed much earlier",
+          es: "Pueden desarrollarse mucho antes",
+          de: "Können viel früher entwickelt werden",
+          nl: "Kunnen veel eerder ontwikkeld worden"
+        },
+        {
+          en: "More frequently landed on",
+          es: "Más frecuentemente visitados",
+          de: "Häufiger besucht",
+          nl: "Vaker bezocht"
+        },
+        {
+          en: "Can build hotels immediately",
+          es: "Pueden construir hoteles inmediatamente",
+          de: "Können sofort Hotels bauen",
+          nl: "Kunnen meteen hotels bouwen"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Cheap monopolies can be developed quickly early-game, generating cash flow before opponents can afford development.",
+        es: "Los monopolios baratos pueden desarrollarse rápidamente al principio del juego, generando flujo de efectivo antes de que los oponentes puedan permitirse el desarrollo.",
+        de: "Billige Monopole können früh im Spiel schnell entwickelt werden und generieren Cashflow, bevor Gegner sich Entwicklung leisten können.",
+        nl: "Goedkope monopolies kunnen snel vroeg in het spel worden ontwikkeld, wat cashflow genereert voordat tegenstanders ontwikkeling kunnen betalen."
+      }
+    },
+    {
+      question: {
+        en: "Which Chance card is statistically most valuable to receive?",
+        es: "¿Qué carta de Chance es estadísticamente más valiosa para recibir?",
+        de: "Welche Ereigniskarte ist statistisch am wertvollsten zu erhalten?",
+        nl: "Welke kanskaart is statistisch het meest waardevol om te ontvangen?"
+      },
+      options: [
+        {
+          en: "Advance to Go (collect $200)",
+          es: "Avanza a Go (cobra $200)",
+          de: "Gehe zu Los (kassiere $200)",
+          nl: "Ga naar Start (ontvang $200)"
+        },
+        {
+          en: "Bank pays dividend of $50",
+          es: "Banco paga dividendo de $50",
+          de: "Bank zahlt Dividende von $50",
+          nl: "Bank betaalt dividend van $50"
+        },
+        {
+          en: "Get Out of Jail Free",
+          es: "Salir de la Cárcel Gratis",
+          de: "Gefängnis Frei",
+          nl: "Verlaat de Gevangenis Gratis"
+        },
+        {
+          en: "Advance to Illinois Avenue",
+          es: "Avanza a Illinois Avenue",
+          de: "Gehe zu Illinois Avenue",
+          nl: "Ga naar Illinois Avenue"
+        }
+      },
+      correct: 0,
+      explanation: {
+        en: "Advance to Go gives $200 immediately with no risk, making it the most consistently valuable Chance card.",
+        es: "Avanza a Go da $200 inmediatamente sin riesgo, convirtiéndola en la carta de Chance más consistentemente valiosa.",
+        de: "Gehe zu Los gibt sofort $200 ohne Risiko, was es zur konsistent wertvollsten Ereigniskarte macht.",
+        nl: "Ga naar Start geeft $200 onmiddellijk zonder risico, waardoor het de meest consistent waardevolle kanskaart is."
+      }
+    },
+    {
+      question: {
+        en: "Why do experienced players prefer 3-4 houses over hotels?",
+        es: "¿Por qué los jugadores experimentados prefieren 3-4 casas sobre hoteles?",
+        de: "Warum bevorzugen erfahrene Spieler 3-4 Häuser gegenüber Hotels?",
+        de: "Waarom geven ervaren spelers de voorkeur aan 3-4 huizen boven hotels?"
+      },
+      options: [
+        {
+          en: "Hotels are too expensive",
+          es: "Los hoteles son demasiado caros",
+          de: "Hotels sind zu teuer",
+          nl: "Hotels zijn te duur"
+        },
+        {
+          en: "House shortage denies opponents development",
+          es: "Escasez de casas niega desarrollo a oponentes",
+          de: "Hausknappheit verweigert Gegnern Entwicklung",
+          nl: "Huizenschaarste ontzegt tegenstanders ontwikkeling"
+        },
+        {
+          en: "3-4 houses have better rent",
+          es: "3-4 casas tienen mejor alquiler",
+          de: "3-4 Häuser haben bessere Miete",
+          nl: "3-4 huizen hebben betere huur"
+        },
+        {
+          en: "Hotels can be stolen by opponents",
+          es: "Los hoteles pueden ser robados por oponentes",
+          de: "Hotels können von Gegnern gestohlen werden",
+          nl: "Hotels kunnen door tegenstanders worden gestolen"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Keeping 3-4 houses (not hotels) maximizes house usage, preventing opponents from building on their monopolies.",
+        es: "Mantener 3-4 casas (no hoteles) maximiza el uso de casas, evitando que los oponentes construyan en sus monopolios.",
+        de: "3-4 Häuser behalten (keine Hotels) maximiert die Hausnutzung und verhindert, dass Gegner auf ihren Monopolen bauen.",
+        nl: "3-4 huizen houden (geen hotels) maximaliseert huisgebruik, voorkomt dat tegenstanders bouwen op hun monopolies."
+      }
+    },
+    {
+      question: {
+        en: "What's the optimal bid in auctions for blocking properties?",
+        es: "¿Cuál es la oferta óptima en subastas para propiedades de bloqueo?",
+        de: "Was ist das optimale Gebot in Auktionen für blockierende Immobilien?",
+        nl: "Wat is het optimale bod in veilingen voor blokkerende eigendommen?"
+      },
+      options: [
+        {
+          en: "Never pay above 50% of printed price",
+          es: "Nunca pagar más del 50% del precio impreso",
+          de: "Niemals über 50% des gedruckten Preises zahlen",
+          nl: "Betaal nooit meer dan 50% van de gedrukte prijs"
+        },
+        {
+          en: "Bid up to 100% of printed price",
+          es: "Pujar hasta 100% del precio impreso",
+          de: "Bis zu 100% des gedruckten Preises bieten",
+          nl: "Bied tot 100% van de gedrukte prijs"
+        },
+        {
+          en: "Bid above printed price if it blocks strong opponent",
+          es: "Pujar por encima del precio impreso si bloquea a oponente fuerte",
+          de: "Über dem gedruckten Preis bieten, wenn es starken Gegner blockiert",
+          nl: "Bied boven gedrukte prijs als het sterke tegenstander blokkeert"
+        },
+        {
+          en: "Always let opponents buy in auctions",
+          es: "Siempre dejar que oponentes compren en subastas",
+          de: "Immer Gegner in Auktionen kaufen lassen",
+          nl: "Laat tegenstanders altijd kopen in veilingen"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Blocking a strong opponent's monopoly is often worth paying above printed price in auctions.",
+        es: "Bloquear el monopolio de un oponente fuerte a menudo vale pagar por encima del precio impreso en subastas.",
+        de: "Das Blockieren eines Monopols eines starken Gegners ist oft den Preis über dem gedruckten Preis in Auktionen wert.",
+        nl: "Het blokkeren van een monopolie van een sterke tegenstander is vaak waard om boven de gedrukte prijs in veilingen te betalen."
+      }
+    },
+    {
+      question: {
+        en: "What's the strategic value of Mediterranean and Baltic Avenue?",
+        es: "¿Cuál es el valor estratégico de Mediterranean y Baltic Avenue?",
+        de: "Was ist der strategische Wert von Mediterranean und Baltic Avenue?",
+        nl: "Wat is de strategische waarde van Mediterranean en Baltic Avenue?"
+      },
+      options: [
+        {
+          en: "Nearly worthless - lowest rent in game",
+          es: "Casi sin valor - alquiler más bajo del juego",
+          de: "Fast wertlos - niedrigste Miete im Spiel",
+          nl: "Bijna waardeloos - laagste huur in het spel"
+        },
+        {
+          en: "Cheapest monopoly to develop early",
+          es: "Monopolio más barato para desarrollar temprano",
+          de: "Billigstes Monopol für frühe Entwicklung",
+          nl: "Goedkoopste monopolie om vroeg te ontwikkelen"
+        },
+        {
+          en: "High landing frequency",
+          es: "Alta frecuencia de caída",
+          de: "Hohe Besuchsfrequenz",
+          nl: "Hoge landingsfrequentie"
+        },
+        {
+          en: "Good for blocking opponents",
+          es: "Bueno para bloquear oponentes",
+          de: "Gut zum Blockieren von Gegnern",
+          nl: "Goed voor het blokkeren van tegenstanders"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Brown monopoly costs only $560 total for 2 hotels - can generate early cash before opponents develop.",
+        es: "El monopolio marrón cuesta solo $560 en total por 2 hoteles - puede generar efectivo temprano antes de que los oponentes desarrollen.",
+        de: "Braunes Monopol kostet nur $560 gesamt für 2 Hotels - kann frühes Geld generieren, bevor Gegner entwickeln.",
+        nl: "Bruin monopolie kost slechts $560 totaal voor 2 hotels - kan vroeg geld genereren voordat tegenstanders ontwikkelen."
+      }
+    },
+    {
+      question: {
+        en: "When should you mortgage properties instead of selling houses?",
+        es: "¿Cuándo debes hipotecar propiedades en lugar de vender casas?",
+        de: "Wann sollten Sie Immobilien beleihen statt Häuser zu verkaufen?",
+        nl: "Wanneer moet je eigendommen hypothekeren in plaats van huizen verkopen?"
+      },
+      options: [
+        {
+          en: "Always mortgage first - keep the houses",
+          es: "Siempre hipotecar primero - mantener las casas",
+          de: "Immer zuerst beleihen - Häuser behalten",
+          nl: "Altijd eerst hypothekeren - houd de huizen"
+        },
+        {
+          en: "Always sell houses first - more cash",
+          es: "Siempre vender casas primero - más efectivo",
+          de: "Immer zuerst Häuser verkaufen - mehr Geld",
+          nl: "Altijd eerst huizen verkopen - meer geld"
+        },
+        {
+          en: "Mortgage undeveloped properties, keep houses",
+          es: "Hipotecar propiedades no desarrolladas, mantener casas",
+          de: "Unbebaute Immobilien beleihen, Häuser behalten",
+          nl: "Hypothekeer onontwikkelde eigendommen, houd huizen"
+        },
+        {
+          en: "Never mortgage - always sell houses",
+          es: "Nunca hipotecar - siempre vender casas",
+          de: "Niemals beleihen - immer Häuser verkaufen",
+          nl: "Nooit hypothekeren - altijd huizen verkopen"
+        }
+      },
+      correct: 2,
+      explanation: {
+        en: "Mortgage single properties and undeveloped monopolies first - keep houses on developed monopolies as long as possible.",
+        es: "Hipoteca primero propiedades individuales y monopolios no desarrollados - mantén casas en monopolios desarrollados tanto como sea posible.",
+        de: "Beleihen Sie zuerst einzelne Immobilien und unbebaute Monopole - behalten Sie Häuser auf entwickelten Monopolen so lange wie möglich.",
+        nl: "Hypothekeer eerst enkele eigendommen en onontwikkelde monopolies - houd huizen op ontwikkelde monopolies zo lang mogelijk."
+      }
+    },
+    {
+      question: {
+        en: "What's the probability of landing on any orange property from Jail?",
+        es: "¿Cuál es la probabilidad de caer en cualquier propiedad naranja desde la Cárcel?",
+        de: "Was ist die Wahrscheinlichkeit, auf einer orangefarbenen Immobilie vom Gefängnis aus zu landen?",
+        nl: "Wat is de kans om op enig oranje eigendom te landen vanuit de Gevangenis?"
+      },
+      options: [
+        {
+          en: "About 10%",
+          es: "Alrededor del 10%",
+          de: "Etwa 10%",
+          nl: "Ongeveer 10%"
+        },
+        {
+          en: "About 20%",
+          es: "Alrededor del 20%",
+          de: "Etwa 20%",
+          nl: "Ongeveer 20%"
+        },
+        {
+          en: "About 30%",
+          es: "Alrededor del 30%",
+          de: "Etwa 30%",
+          nl: "Ongeveer 30%"
+        },
+        {
+          en: "About 40%",
+          es: "Alrededor del 40%",
+          de: "Etwa 40%",
+          nl: "Ongeveer 40%"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Orange properties are 6-9 spaces from Jail, making them ~20% landing probability - highest in the game.",
+        es: "Las propiedades naranjas están a 6-9 espacios de la Cárcel, dándoles ~20% de probabilidad de caída - la más alta del juego.",
+        de: "Orangefarbene Immobilien sind 6-9 Felder vom Gefängnis entfernt, was ~20% Landungswahrscheinlichkeit ergibt - die höchste im Spiel.",
+        nl: "Oranje eigendommen zijn 6-9 vakken van de Gevangenis, wat ~20% landingskans geeft - hoogste in het spel."
+      }
+    },
+    {
+      question: {
+        en: "Which trading strategy is most effective in 4-player games?",
+        es: "¿Qué estrategia de negociación es más efectiva en juegos de 4 jugadores?",
+        de: "Welche Handelsstrategie ist in 4-Spieler-Spielen am effektivsten?",
+        nl: "Welke ruilstrategie is het meest effectief in 4-spelersspellen?"
+      },
+      options: [
+        {
+          en: "Never trade - wait for bankruptcies",
+          es: "Nunca negociar - esperar bancarrotas",
+          de: "Niemals handeln - auf Bankrotte warten",
+          nl: "Nooit ruilen - wacht op faillissementen"
+        },
+        {
+          en: "Trade with everyone equally",
+          es: "Negociar con todos por igual",
+          de: "Mit allen gleich handeln",
+          nl: "Ruil met iedereen gelijkelijk"
+        },
+        {
+          en: "Form alliances to isolate the leader",
+          es: "Formar alianzas para aislar al líder",
+          de: "Allianzen bilden, um den Anführer zu isolieren",
+          nl: "Vorm allianties om de leider te isoleren"
+        },
+        {
+          en: "Only trade when you get clear advantage",
+          es: "Solo negociar cuando obtienes ventaja clara",
+          de: "Nur handeln, wenn Sie klaren Vorteil haben",
+          nl: "Ruil alleen wanneer je duidelijk voordeel krijgt"
+        }
+      },
+      correct: 3,
+      explanation: {
+        en: "In competitive play, only make trades where you gain more value than your opponent - avoid 'fair' deals.",
+        es: "En juego competitivo, solo haz intercambios donde ganes más valor que tu oponente - evita tratos 'justos'.",
+        de: "Im Wettkampfspiel machen Sie nur Geschäfte, bei denen Sie mehr Wert als Ihr Gegner gewinnen - vermeiden Sie 'faire' Geschäfte.",
+        nl: "In competitief spel maak alleen ruilen waarbij je meer waarde krijgt dan je tegenstander - vermijd 'eerlijke' deals."
+      }
+    },
+    {
+      question: {
+        en: "What determines optimal house placement on 3-property monopolies?",
+        es: "¿Qué determina la colocación óptima de casas en monopolios de 3 propiedades?",
+        de: "Was bestimmt die optimale Hausplatzierung auf 3-Immobilien-Monopolen?",
+        nl: "Wat bepaalt optimale huisplaatsing op 3-eigendom monopolies?"
+      },
+      options: [
+        {
+          en: "Put all houses on most expensive property",
+          es: "Poner todas las casas en la propiedad más cara",
+          de: "Alle Häuser auf teuerste Immobilie setzen",
+          nl: "Zet alle huizen op duurste eigendom"
+        },
+        {
+          en: "Must build evenly due to rules",
+          es: "Debe construir uniformemente debido a reglas",
+          de: "Muss aufgrund von Regeln gleichmäßig bauen",
+          nl: "Moet gelijkmatig bouwen volgens regels"
+        },
+        {
+          en: "Focus on middle property for position",
+          es: "Enfocarse en propiedad del medio por posición",
+          de: "Auf mittlere Immobilie für Position konzentrieren",
+          nl: "Focus op middelste eigendom voor positie"
+        },
+        {
+          en: "Build on cheapest property first",
+          es: "Construir primero en propiedad más barata",
+          de: "Zuerst auf billigster Immobilie bauen",
+          nl: "Bouw eerst op goedkoopste eigendom"
+        }
+      },
+      correct: 1,
+      explanation: {
+        en: "Rules require even building - you cannot put 2 houses on one property until all properties have 1 house.",
+        es: "Las reglas requieren construcción uniforme - no puedes poner 2 casas en una propiedad hasta que todas tengan 1 casa.",
+        de: "Regeln erfordern gleichmäßiges Bauen - Sie können nicht 2 Häuser auf eine Immobilie setzen, bis alle 1 Haus haben.",
+        nl: "Regels vereisen gelijkmatig bouwen - je kunt geen 2 huizen op één eigendom zetten totdat alle eigendommen 1 huis hebben."
+      }
+    },
+    {
+      question: {
+        en: "Why is St. James Place particularly valuable in the orange monopoly?",
+        es: "¿Por qué St. James Place es particularmente valioso en el monopolio naranja?",
+        de: "Warum ist St. James Place im orangefarbenen Monopol besonders wertvoll?",
+        nl: "Waarom is St. James Place bijzonder waardevol in het oranje monopolie?"
+      },
+      options: [
+        {
+          en: "It has the highest rent",
+          es: "Tiene el alquiler más alto",
+          de: "Es hat die höchste Miete",
+          nl: "Het heeft de hoogste huur"
+        },
+        {
+          en: "First orange property from Jail (6 spaces)",
+          es: "Primera propiedad naranja desde la Cárcel (6 espacios)",
+          de: "Erste orangefarbene Immobilie vom Gefängnis (6 Felder)",
+          nl: "Eerste oranje eigendom vanaf Gevangenis (6 vakken)"
+        },
+        {
+          en: "Cheapest orange property",
+          es: "Propiedad naranja más barata",
+          de: "Billigste orangefarbene Immobilie",
+          nl: "Goedkoopste oranje eigendom"
+        },
+        {
+          en: "All orange properties are equal",
+          es: "Todas las propiedades naranjas son iguales",
+          de: "Alle orangefarbenen Immobilien sind gleich",
+          nl: "Alle oranje eigendommen zijn gelijk"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "St. James Place is exactly 6 spaces from Jail - most common roll (6 or doubles 3+3) lands here.",
+        es: "St. James Place está exactamente a 6 espacios de la Cárcel - la tirada más común (6 o dobles 3+3) cae aquí.",
+        de: "St. James Place ist genau 6 Felder vom Gefängnis entfernt - häufigster Wurf (6 oder Pasch 3+3) landet hier.",
+        nl: "St. James Place is precies 6 vakken van de Gevangenis - meest voorkomende worp (6 of dubbel 3+3) landt hier."
+      }
     }
   ]
 };

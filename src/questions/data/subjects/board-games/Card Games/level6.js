@@ -427,6 +427,426 @@
           de: "Equity Denial bedeutet aggressiv zu setzen um Gegner mit Drawing Hands zu hindern.",
           nl: "Equity denial is agressief inzetten om tegenstanders met drawing hands te verhinderen extra kaarten goedkoop te zien."
         }
+      },
+      {
+        question: {
+          en: "In Bridge, what is a 'Crocodile Coup'?",
+          es: "En Bridge, ¿qué es un 'Crocodile Coup'?",
+          de: "Was ist ein 'Krokodil-Coup' beim Bridge?",
+          nl: "Wat is een 'Crocodile Coup' bij Bridge?"
+        },
+        options: [
+          { en: "Covering opponent's honor with higher honor to force out an even higher card", es: "Cubrir honor del oponente con honor más alto para forzar una carta aún más alta", de: "Ehrenkarte des Gegners mit höherer Ehrenkarte decken um noch höhere Karte zu erzwingen", nl: "Erenkaart van tegenstander dekken met hogere erenkaart om nog hogere kaart af te dwingen" },
+          { en: "Snapping up tricks quickly", es: "Capturar bazas rápidamente", de: "Stiche schnell schnappen", nl: "Slagen snel pakken" },
+          { en: "Slow playing a strong hand", es: "Jugar lento una mano fuerte", de: "Starkes Blatt langsam spielen", nl: "Sterke hand langzaam spelen" },
+          { en: "Trapping opponent with false signals", es: "Atrapar oponente con señales falsas", de: "Gegner mit falschen Signalen fangen", nl: "Tegenstander vangen met valse signalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Crocodile Coup involves covering an opponent's honor card with a higher honor to force out an even higher card from their partner, like covering a Queen with King to force the Ace.",
+          es: "El Crocodile Coup involucra cubrir la carta de honor de un oponente con un honor más alto para forzar una carta aún más alta de su compañero, como cubrir una Reina con Rey para forzar el As.",
+          de: "Der Krokodil-Coup beinhaltet eine Ehrenkarte des Gegners mit einer höheren Ehrenkarte zu decken um eine noch höhere Karte von deren Partner zu erzwingen, wie Dame mit König decken um das Ass zu erzwingen.",
+          nl: "De Crocodile Coup houdt in een erenkaart van tegenstander dekken met een hogere erenkaart om een nog hogere kaart van hun partner af te dwingen, zoals Vrouw dekken met Koning om de Aas af te dwingen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'polarization' in poker?",
+          es: "¿Qué es 'polarización' en el póker?",
+          de: "Was ist 'Polarisierung' beim Poker?",
+          nl: "Wat is 'polarisatie' bij poker?"
+        },
+        options: [
+          { en: "Range containing only very strong or very weak hands", es: "Rango que contiene solo manos muy fuertes o muy débiles", de: "Range enthält nur sehr starke oder sehr schwache Blätter", nl: "Range bevat alleen zeer sterke of zeer zwakke handen" },
+          { en: "Playing only premium hands", es: "Jugar solo manos premium", de: "Nur Premium-Blätter spielen", nl: "Alleen premium handen spelen" },
+          { en: "Switching between tight and loose play", es: "Cambiar entre juego apretado y suelto", de: "Zwischen engem und losem Spiel wechseln", nl: "Wisselen tussen strak en los spel" },
+          { en: "Betting opposite of opponents", es: "Apostar opuesto a los oponentes", de: "Entgegengesetzt zu Gegnern setzen", nl: "Tegengesteld aan tegenstanders inzetten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A polarized range contains only very strong value hands and bluffs, with no medium-strength hands. This strategy is effective for large bets where opponents must make difficult decisions.",
+          es: "Un rango polarizado contiene solo manos de valor muy fuertes y farol, sin manos de fuerza media. Esta estrategia es efectiva para apuestas grandes donde los oponentes deben tomar decisiones difíciles.",
+          de: "Eine polarisierte Range enthält nur sehr starke Value-Blätter und Bluffs, ohne mittelstarke Blätter. Diese Strategie ist effektiv für große Einsätze wo Gegner schwierige Entscheidungen treffen müssen.",
+          nl: "Een gepolariseerde range bevat alleen zeer sterke value handen en bluffs, zonder middel sterke handen. Deze strategie is effectief voor grote inzetten waar tegenstanders moeilijke beslissingen moeten nemen."
+        }
+      },
+      {
+        question: {
+          en: "In French Tarot, what is the 'Petit sec'?",
+          es: "En Tarot francés, ¿qué es el 'Petit sec'?",
+          de: "Was ist 'Petit sec' im französischen Tarot?",
+          nl: "Wat is de 'Petit sec' in Frans Tarot?"
+        },
+        options: [
+          { en: "Having only the 1 of trump with no other trumps", es: "Tener solo el 1 de triunfo sin otros triunfos", de: "Nur die 1 von Trumpf ohne andere Trümpfe haben", nl: "Alleen de 1 van troef hebben zonder andere troeven" },
+          { en: "The smallest point value", es: "El valor de punto más pequeño", de: "Der kleinste Punktwert", nl: "De kleinste puntwaarde" },
+          { en: "A dry suit with no honors", es: "Un palo seco sin honores", de: "Eine trockene Farbe ohne Ehrenkarten", nl: "Een droge kleur zonder erenkaarten" },
+          { en: "Leading with low cards", es: "Liderar con cartas bajas", de: "Mit niedrigen Karten ausspielen", nl: "Leiden met lage kaarten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Petit sec means holding the 1 of trumps (the Petit) as your only trump card, which is a dangerous situation requiring special announcements and defensive play.",
+          es: "Petit sec significa tener el 1 de triunfos (el Petit) como tu única carta de triunfo, lo cual es una situación peligrosa que requiere anuncios especiales y juego defensivo.",
+          de: "Petit sec bedeutet die 1 von Trumpf (das Petit) als einzige Trumpfkarte zu haben, was eine gefährliche Situation ist die spezielle Ankündigungen und defensives Spiel erfordert.",
+          nl: "Petit sec betekent de 1 van troef (de Petit) als je enige troefkaart hebben, wat een gevaarlijke situatie is die speciale aankondigingen en defensief spel vereist."
+        }
+      },
+      {
+        question: {
+          en: "What is 'range merging' in poker?",
+          es: "¿Qué es 'fusión de rango' en el póker?",
+          de: "Was ist 'Range Merging' beim Poker?",
+          nl: "Wat is 'range merging' bij poker?"
+        },
+        options: [
+          { en: "Betting medium-strength hands for value and protection", es: "Apostar manos de fuerza media para valor y protección", de: "Mittelstarke Blätter für Value und Schutz setzen", nl: "Middelsterke handen inzetten voor value en bescherming" },
+          { en: "Combining different poker variants", es: "Combinar diferentes variantes de póker", de: "Verschiedene Poker-Varianten kombinieren", nl: "Verschillende pokervarianten combineren" },
+          { en: "Playing two tables simultaneously", es: "Jugar dos mesas simultáneamente", de: "Zwei Tische gleichzeitig spielen", nl: "Twee tafels tegelijkertijd spelen" },
+          { en: "Bluffing with marginal hands", es: "Hacer bluff con manos marginales", de: "Mit marginalen Blättern bluffen", nl: "Bluffen met marginale handen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Range merging involves betting medium-strength hands that aren't strong enough for pure value but benefit from denying equity and occasionally getting called by worse hands.",
+          es: "La fusión de rango involucra apostar manos de fuerza media que no son lo suficientemente fuertes para puro valor pero se benefician de negar equidad y ocasionalmente ser igualadas por manos peores.",
+          de: "Range Merging beinhaltet mittelstarke Blätter zu setzen die nicht stark genug für reinen Value sind aber von Equity Denial profitieren und gelegentlich von schlechteren Blättern gecallt werden.",
+          nl: "Range merging houdt in middelsterke handen inzetten die niet sterk genoeg zijn voor pure value maar profiteren van equity denial en af en toe gecalled worden door slechtere handen."
+        }
+      },
+      {
+        question: {
+          en: "In Schafkopf, what is a 'Wenz'?",
+          es: "En Schafkopf, ¿qué es un 'Wenz'?",
+          de: "Was ist ein 'Wenz' beim Schafkopf?",
+          nl: "Wat is een 'Wenz' bij Schafkopf?"
+        },
+        options: [
+          { en: "Game type where only Jacks are trump", es: "Tipo de juego donde solo las Jotas son triunfo", de: "Spielart bei der nur Buben Trumpf sind", nl: "Speltype waarbij alleen Boeren troef zijn" },
+          { en: "Winning all tricks", es: "Ganar todas las bazas", de: "Alle Stiche gewinnen", nl: "Alle slagen winnen" },
+          { en: "The starting player", es: "El jugador inicial", de: "Der Startspieler", nl: "De startspeler" },
+          { en: "A penalty for missing bid", es: "Una penalización por fallar puja", de: "Eine Strafe für verfehltes Gebot", nl: "Een straf voor gemist bod" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wenz is a game type in Schafkopf where only the four Jacks are trumps (no other trumps or trump suit), ranked in the order Acorns, Leaves, Hearts, Bells.",
+          es: "Wenz es un tipo de juego en Schafkopf donde solo las cuatro Jotas son triunfo (sin otros triunfos o palo de triunfo), clasificadas en el orden Bellotas, Hojas, Corazones, Campanas.",
+          de: "Wenz ist eine Spielart beim Schafkopf bei der nur die vier Buben Trumpf sind (keine anderen Trümpfe oder Trumpffarbe), geordnet Eichel, Laub, Herz, Schellen.",
+          nl: "Wenz is een speltype bij Schafkopf waarbij alleen de vier Boeren troef zijn (geen andere troeven of troefkleur), gerangschikt Eikels, Bladeren, Harten, Schellen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'floating' in poker?",
+          es: "¿Qué es 'flotar' en el póker?",
+          de: "Was ist 'Floating' beim Poker?",
+          nl: "Wat is 'floaten' bij poker?"
+        },
+        options: [
+          { en: "Calling with weak hand to bluff later streets", es: "Igualar con mano débil para hacer bluff en calles posteriores", de: "Mit schwachem Blatt callen um später zu bluffen", nl: "Callen met zwakke hand om later te bluffen" },
+          { en: "Playing without clear strategy", es: "Jugar sin estrategia clara", de: "Ohne klare Strategie spielen", nl: "Spelen zonder duidelijke strategie" },
+          { en: "Maintaining even chip stack", es: "Mantener pila de fichas uniforme", de: "Gleichmäßigen Chip-Stack beibehalten", nl: "Gelijkmatige fiche stapel behouden" },
+          { en: "Moving tables frequently", es: "Cambiar de mesa frecuentemente", de: "Häufig Tische wechseln", nl: "Vaak van tafel wisselen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Floating is calling a bet with a weak or marginal hand in position, intending to take the pot away with a bluff on a later street if opponent shows weakness.",
+          es: "Flotar es igualar una apuesta con una mano débil o marginal en posición, con la intención de llevarse el bote con un bluff en una calle posterior si el oponente muestra debilidad.",
+          de: "Floating bedeutet einen Einsatz mit einem schwachen oder marginalen Blatt in Position zu callen, mit der Absicht den Pot später mit einem Bluff zu nehmen wenn der Gegner Schwäche zeigt.",
+          nl: "Floaten is een inzet callen met een zwakke of marginale hand in positie, met de intentie de pot later weg te nemen met een bluff als tegenstander zwakte toont."
+        }
+      },
+      {
+        question: {
+          en: "In Cribbage, what is a 'perfect 29 hand'?",
+          es: "En Cribbage, ¿qué es una 'mano perfecta de 29'?",
+          de: "Was ist eine 'perfekte 29-Hand' beim Cribbage?",
+          nl: "Wat is een 'perfecte 29 hand' bij Cribbage?"
+        },
+        options: [
+          { en: "5-5-5-J with starter 5 of same suit as Jack", es: "5-5-5-J con carta inicial 5 del mismo palo que la Jota", de: "5-5-5-B mit Startkarte 5 der gleichen Farbe wie Bube", nl: "5-5-5-B met startkaart 5 van dezelfde kleur als Boer" },
+          { en: "Four Aces and a King", es: "Cuatro Ases y un Rey", de: "Vier Asse und einen König", nl: "Vier Azen en een Koning" },
+          { en: "Royal flush in crib", es: "Escalera real en crib", de: "Royal Flush im Crib", nl: "Royal flush in crib" },
+          { en: "All cards of same suit", es: "Todas las cartas del mismo palo", de: "Alle Karten der gleichen Farbe", nl: "Alle kaarten van dezelfde kleur" }
+        },
+        correct: 0,
+        explanation: {
+          en: "The perfect 29 hand contains three 5s and a Jack (his nobs), with the starter card being the fourth 5 of the same suit as the Jack, scoring maximum points possible.",
+          es: "La mano perfecta de 29 contiene tres 5s y una Jota (his nobs), con la carta inicial siendo el cuarto 5 del mismo palo que la Jota, anotando el máximo de puntos posible.",
+          de: "Die perfekte 29-Hand enthält drei 5en und einen Buben (sein Bube), wobei die Startkarte die vierte 5 der gleichen Farbe wie der Bube ist, was maximale Punkte ergibt.",
+          nl: "De perfecte 29 hand bevat drie 5'en en een Boer (zijn boer), waarbij de startkaart de vierde 5 van dezelfde kleur als de Boer is, wat maximale punten scoort."
+        }
+      },
+      {
+        question: {
+          en: "What is 'balance' in poker strategy?",
+          es: "¿Qué es el 'equilibrio' en la estrategia de póker?",
+          de: "Was ist 'Balance' in der Poker-Strategie?",
+          nl: "Wat is 'balans' in pokerstrategie?"
+        },
+        options: [
+          { en: "Playing value hands and bluffs in same way to be unexploitable", es: "Jugar manos de valor y faroles de la misma manera para ser inexplotable", de: "Value-Blätter und Bluffs gleich spielen um nicht ausnutzbar zu sein", nl: "Value handen en bluffs op dezelfde manier spelen om niet uitbuitbaar te zijn" },
+          { en: "Having equal chips to opponents", es: "Tener fichas iguales a los oponentes", de: "Gleich viele Chips wie Gegner haben", nl: "Gelijke fiches hebben als tegenstanders" },
+          { en: "Playing same number of hands per hour", es: "Jugar el mismo número de manos por hora", de: "Gleiche Anzahl Hände pro Stunde spielen", nl: "Hetzelfde aantal handen per uur spelen" },
+          { en: "Maintaining emotional stability", es: "Mantener estabilidad emocional", de: "Emotionale Stabilität bewahren", nl: "Emotionele stabiliteit behouden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Balance means constructing ranges so that strong and weak hands take the same actions with appropriate frequencies, making it impossible for opponents to exploit your tendencies.",
+          es: "Equilibrio significa construir rangos para que manos fuertes y débiles tomen las mismas acciones con frecuencias apropiadas, haciendo imposible que los oponentes exploten tus tendencias.",
+          de: "Balance bedeutet Ranges so zu konstruieren dass starke und schwache Blätter die gleichen Aktionen mit angemessenen Frequenzen machen, wodurch es unmöglich wird dass Gegner deine Tendenzen ausnutzen.",
+          nl: "Balans betekent ranges zo construeren dat sterke en zwakke handen dezelfde acties nemen met passende frequenties, waardoor het onmogelijk wordt voor tegenstanders om je tendensen uit te buiten."
+        }
+      },
+      {
+        question: {
+          en: "In Mus, what is the 'grande' worth?",
+          es: "En Mus, ¿cuánto vale la 'grande'?",
+          de: "Was ist die 'Grande' beim Mus wert?",
+          nl: "Wat is de 'grande' waard bij Mus?"
+        },
+        options: [
+          { en: "1 point for highest hand value", es: "1 punto por el valor de mano más alto", de: "1 Punkt für höchsten Handwert", nl: "1 punt voor hoogste handwaarde" },
+          { en: "3 points for four of a kind", es: "3 puntos por póker", de: "3 Punkte für Vierling", nl: "3 punten voor vier gelijke" },
+          { en: "The game itself", es: "El juego mismo", de: "Das Spiel selbst", nl: "Het spel zelf" },
+          { en: "5 points for winning all rounds", es: "5 puntos por ganar todas las rondas", de: "5 Punkte fürs Gewinnen aller Runden", nl: "5 punten voor winnen van alle rondes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In Mus, Grande (Big) is worth 1 point and goes to the team with the highest total hand value, calculated by adding card values together.",
+          es: "En Mus, Grande vale 1 punto y va al equipo con el valor total de mano más alto, calculado sumando los valores de las cartas.",
+          de: "Beim Mus ist Grande 1 Punkt wert und geht an das Team mit dem höchsten Gesamt-Handwert, berechnet durch Addition der Kartenwerte.",
+          nl: "Bij Mus is Grande 1 punt waard en gaat naar het team met de hoogste totale handwaarde, berekend door kaartwaarden op te tellen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'pot geometry' in poker?",
+          es: "¿Qué es 'geometría de bote' en el póker?",
+          de: "Was ist 'Pot Geometrie' beim Poker?",
+          nl: "Wat is 'pot geometrie' bij poker?"
+        },
+        options: [
+          { en: "How pot size relates to stack sizes and future betting", es: "Cómo el tamaño del bote se relaciona con los tamaños de pila y apuestas futuras", de: "Wie Pot-Größe zu Stack-Größen und zukünftigen Einsätzen steht", nl: "Hoe potgrootte zich verhoudt tot stapelgroottes en toekomstige inzetten" },
+          { en: "Physical arrangement of chips", es: "Disposición física de fichas", de: "Physische Anordnung der Chips", nl: "Fysieke rangschikking van fiches" },
+          { en: "Table shape and positions", es: "Forma de mesa y posiciones", de: "Tischform und Positionen", nl: "Tafelvorm en posities" },
+          { en: "Betting pattern graphs", es: "Gráficos de patrones de apuesta", de: "Einsatzmuster-Grafiken", nl: "Inzetpatroon grafieken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pot geometry refers to understanding how current pot size, remaining stack sizes, and number of streets left interact to determine optimal bet sizing strategies.",
+          es: "La geometría de bote se refiere a entender cómo el tamaño actual del bote, los tamaños de pila restantes y el número de calles restantes interactúan para determinar estrategias óptimas de tamaño de apuesta.",
+          de: "Pot Geometrie bezieht sich auf das Verstehen wie aktuelle Pot-Größe, verbleibende Stack-Größen und Anzahl verbleibender Streets interagieren um optimale Bet-Sizing-Strategien zu bestimmen.",
+          nl: "Pot geometrie verwijst naar begrijpen hoe huidige potgrootte, resterende stapelgroottes en aantal overgebleven streets interacteren om optimale inzetgrootte strategieën te bepalen."
+        }
+      },
+      {
+        question: {
+          en: "In Preferans, what is 'whist'?",
+          es: "En Preferans, ¿qué es 'whist'?",
+          de: "Was ist 'Whist' beim Preferans?",
+          nl: "Wat is 'whist' bij Preferans?"
+        },
+        options: [
+          { en: "Opponents playing together to defeat declarer's contract", es: "Oponentes jugando juntos para derrotar el contrato del declarante", de: "Gegner spielen zusammen um Kontrakt des Alleinspielers zu besiegen", nl: "Tegenstanders spelen samen om contract van declarer te verslaan" },
+          { en: "Passing without bidding", es: "Pasar sin pujar", de: "Passen ohne zu bieten", nl: "Passen zonder te bieden" },
+          { en: "Silent agreement between partners", es: "Acuerdo silencioso entre compañeros", de: "Stille Vereinbarung zwischen Partnern", nl: "Stille overeenkomst tussen partners" },
+          { en: "Winning with minimum bid", es: "Ganar con puja mínima", de: "Mit Mindestgebot gewinnen", nl: "Winnen met minimumbod" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In Preferans, whist occurs when the two non-declaring players team up to try to defeat the declarer's contract, each trying to take as many tricks as possible.",
+          es: "En Preferans, whist ocurre cuando los dos jugadores no declarantes se unen para intentar derrotar el contrato del declarante, cada uno intentando tomar tantas bazas como sea posible.",
+          de: "Beim Preferans tritt Whist auf wenn die zwei nicht-deklarierenden Spieler zusammenarbeiten um den Kontrakt des Alleinspielers zu besiegen, wobei jeder versucht so viele Stiche wie möglich zu nehmen.",
+          nl: "Bij Preferans treedt whist op wanneer de twee niet-declarerende spelers samenwerken om het contract van de declarer te verslaan, waarbij elk probeert zoveel mogelijk slagen te nemen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'c-betting' in poker?",
+          es: "¿Qué es 'c-betting' en el póker?",
+          de: "Was ist 'C-Betting' beim Poker?",
+          nl: "Wat is 'c-betting' bij poker?"
+        },
+        options: [
+          { en: "Continuation betting after raising pre-flop", es: "Apuesta de continuación después de subir pre-flop", de: "Fortsetzungs-Bet nach Pre-Flop-Erhöhung", nl: "Voortzettingsinzet na pre-flop verhogen" },
+          { en: "Calling bets consistently", es: "Igualar apuestas consistentemente", de: "Einsätze konsistent callen", nl: "Inzetten consistent callen" },
+          { en: "Betting with pocket Aces", es: "Apostar con Ases en mano", de: "Mit Pocket Assen setzen", nl: "Inzetten met pocket Azen" },
+          { en: "Check-raising opponents", es: "Check-raise a oponentes", de: "Gegner check-raisen", nl: "Check-raisen tegen tegenstanders" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "C-betting (continuation betting) means betting on the flop after being the pre-flop aggressor, representing continued strength regardless of whether the flop helped your hand.",
+          es: "C-betting (apuesta de continuación) significa apostar en el flop después de ser el agresor pre-flop, representando fuerza continua independientemente de si el flop ayudó tu mano.",
+          de: "C-Betting (Continuation Betting) bedeutet auf dem Flop zu setzen nachdem man der Pre-Flop-Aggressor war, was fortgesetzte Stärke darstellt unabhängig davon ob der Flop der Hand geholfen hat.",
+          nl: "C-betting (voortzettingsinzet) betekent inzetten op de flop na pre-flop aggressor te zijn geweest, wat voortdurende sterkte vertegenwoordigt ongeacht of de flop je hand hielp."
+        }
+      },
+      {
+        question: {
+          en: "In Briscola, what determines which card wins a trick?",
+          es: "En Briscola, ¿qué determina qué carta gana una baza?",
+          de: "Was bestimmt beim Briscola welche Karte einen Stich gewinnt?",
+          nl: "Wat bepaalt bij Briscola welke kaart een slag wint?"
+        },
+        options: [
+          { en: "Highest trump, or if no trump highest card of led suit", es: "Triunfo más alto, o si no hay triunfo carta más alta del palo liderado", de: "Höchster Trumpf, oder ohne Trumpf höchste Karte der ausgespielten Farbe", nl: "Hoogste troef, of zonder troef hoogste kaart van geleide kleur" },
+          { en: "Always the highest card played", es: "Siempre la carta más alta jugada", de: "Immer die höchste gespielte Karte", nl: "Altijd de hoogste gespeelde kaart" },
+          { en: "Card with highest point value", es: "Carta con mayor valor de puntos", de: "Karte mit höchstem Punktwert", nl: "Kaart met hoogste puntwaarde" },
+          { en: "Last card played", es: "Última carta jugada", de: "Zuletzt gespielte Karte", nl: "Laatst gespeelde kaart" }
+        },
+        correct: 0,
+        explanation: {
+          en: "In Briscola, the highest trump card wins the trick. If no trump is played, the highest card of the suit led wins. Players are not required to follow suit.",
+          es: "En Briscola, la carta de triunfo más alta gana la baza. Si no se juega triunfo, la carta más alta del palo liderado gana. Los jugadores no están obligados a seguir el palo.",
+          de: "Beim Briscola gewinnt die höchste Trumpfkarte den Stich. Wenn kein Trumpf gespielt wird, gewinnt die höchste Karte der ausgespielten Farbe. Spieler müssen nicht Farbe bedienen.",
+          nl: "Bij Briscola wint de hoogste troefkaart de slag. Als geen troef gespeeld wordt, wint de hoogste kaart van de geleide kleur. Spelers hoeven niet kleur te volgen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'reverse implied odds' in poker?",
+          es: "¿Qué son las 'probabilidades implícitas inversas' en el póker?",
+          de: "Was sind 'Reverse Implied Odds' beim Poker?",
+          nl: "Wat zijn 'reverse implied odds' bij poker?"
+        },
+        options: [
+          { en: "Money you'll lose on later streets when you hit but are beaten", es: "Dinero que perderás en calles posteriores cuando completas pero eres derrotado", de: "Geld das man auf späteren Streets verliert wenn man trifft aber geschlagen ist", nl: "Geld dat je verliest op latere streets wanneer je raakt maar verslagen bent" },
+          { en: "Odds of losing current pot", es: "Probabilidades de perder el bote actual", de: "Chancen den aktuellen Pot zu verlieren", nl: "Kansen om huidige pot te verliezen" },
+          { en: "Betting in reverse order", es: "Apostar en orden inverso", de: "In umgekehrter Reihenfolge setzen", nl: "In omgekeerde volgorde inzetten" },
+          { en: "Opponent's implied odds", es: "Probabilidades implícitas del oponente", de: "Implied Odds des Gegners", nl: "Implied odds van tegenstander" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reverse implied odds are the expected money you'll lose on future streets when you make your hand but it's still beaten by a better hand, making drawing hands less profitable.",
+          es: "Las probabilidades implícitas inversas son el dinero esperado que perderás en calles futuras cuando completas tu mano pero aún es derrotada por una mano mejor, haciendo las manos de ligadura menos rentables.",
+          de: "Reverse Implied Odds ist das erwartete Geld das man auf zukünftigen Streets verliert wenn man seine Hand trifft aber sie trotzdem von einer besseren Hand geschlagen wird, was Drawing Hands weniger profitabel macht.",
+          nl: "Reverse implied odds is het verwachte geld dat je verliest op toekomstige streets wanneer je je hand maakt maar deze toch verslagen wordt door een betere hand, wat drawing hands minder winstgevend maakt."
+        }
+      },
+      {
+        question: {
+          en: "In Jass, what is the 'Stöck-Wyss-Stich' scoring?",
+          es: "En Jass, ¿qué es el puntaje 'Stöck-Wyss-Stich'?",
+          de: "Was ist die 'Stöck-Wyss-Stich' Wertung beim Jass?",
+          nl: "Wat is de 'Stöck-Wyss-Stich' scoring bij Jass?"
+        },
+        options: [
+          { en: "Bonuses for sequences, trump K-Q, and last trick", es: "Bonificaciones por secuencias, K-Q de triunfo y última baza", de: "Boni für Sequenzen, Trumpf K-D und letzten Stich", nl: "Bonussen voor sequenties, troef K-V en laatste slag" },
+          { en: "Three-way tie scoring", es: "Puntaje de empate a tres", de: "Dreifach-Unentschieden-Wertung", nl: "Drie-weg gelijkspel scoring" },
+          { en: "Penalty for failing bid", es: "Penalización por fallar puja", de: "Strafe für verfehltes Gebot", nl: "Straf voor gemist bod" },
+          { en: "Points per trick taken", es: "Puntos por baza tomada", de: "Punkte pro genommenen Stich", nl: "Punten per genomen slag" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Stöck-Wyss-Stich refers to three bonus categories: Stöck (King-Queen of trump for 20 points), Wyss (sequences worth varying points), and Stich (5 points for last trick).",
+          es: "Stöck-Wyss-Stich se refiere a tres categorías de bonificación: Stöck (Rey-Reina de triunfo por 20 puntos), Wyss (secuencias que valen puntos variables) y Stich (5 puntos por última baza).",
+          de: "Stöck-Wyss-Stich bezieht sich auf drei Bonuskategorien: Stöck (König-Dame von Trumpf für 20 Punkte), Wyss (Sequenzen mit variablen Punkten) und Stich (5 Punkte für letzten Stich).",
+          nl: "Stöck-Wyss-Stich verwijst naar drie bonuscategorieën: Stöck (Koning-Vrouw van troef voor 20 punten), Wyss (sequenties met variërende punten) en Stich (5 punten voor laatste slag)."
+        }
+      },
+      {
+        question: {
+          en: "What is 'MDF' (Minimum Defense Frequency) in poker?",
+          es: "¿Qué es 'MDF' (Frecuencia Mínima de Defensa) en el póker?",
+          de: "Was ist 'MDF' (Minimum Defense Frequency) beim Poker?",
+          nl: "Wat is 'MDF' (Minimum Defense Frequency) bij poker?"
+        },
+        options: [
+          { en: "Minimum % you must continue to prevent opponent from auto-profiting with any two cards", es: "% mínimo que debes continuar para evitar que el oponente gane automáticamente con cualesquiera dos cartas", de: "Minimum % das man weitermachen muss um zu verhindern dass Gegner mit beliebigen zwei Karten Auto-Profit macht", nl: "Minimum % dat je moet doorgaan om te voorkomen dat tegenstander auto-winst maakt met twee kaarten" },
+          { en: "Mandatory defense protocol", es: "Protocolo de defensa obligatorio", de: "Obligatorisches Verteidigungsprotokoll", nl: "Verplicht verdedigingsprotocol" },
+          { en: "Most defensive folds", es: "Retiros más defensivos", de: "Defensivste Folds", nl: "Meest defensieve folds" },
+          { en: "Minimum dollar amount to defend", es: "Cantidad mínima en dólares para defender", de: "Minimaler Dollarbetrag zum Verteidigen", nl: "Minimaal dollarbedrag om te verdedigen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MDF is the minimum percentage of your range you must continue with (call or raise) to prevent your opponent from profitably bluffing with any two cards, calculated from pot odds.",
+          es: "MDF es el porcentaje mínimo de tu rango con el que debes continuar (igualar o subir) para evitar que tu oponente pueda hacer bluff rentablemente con cualesquiera dos cartas, calculado desde las pot odds.",
+          de: "MDF ist der minimale Prozentsatz deiner Range mit dem du weitermachen musst (callen oder raisen) um zu verhindern dass dein Gegner profitabel mit beliebigen zwei Karten bluffen kann, berechnet aus Pot Odds.",
+          nl: "MDF is het minimale percentage van je range waarmee je moet doorgaan (callen of raisen) om te voorkomen dat je tegenstander winstgevend kan bluffen met twee kaarten, berekend uit pot odds."
+        }
+      },
+      {
+        question: {
+          en: "In Scopone, what is the most valuable capture?",
+          es: "En Scopone, ¿cuál es la captura más valiosa?",
+          de: "Was ist der wertvollste Fang beim Scopone?",
+          nl: "Wat is de meest waardevolle vangst bij Scopone?"
+        },
+        options: [
+          { en: "Scopa (sweeping the table)", es: "Scopa (barrer la mesa)", de: "Scopa (den Tisch fegen)", nl: "Scopa (de tafel vegen)" },
+          { en: "Taking the most cards", es: "Tomar la mayoría de cartas", de: "Die meisten Karten nehmen", nl: "De meeste kaarten nemen" },
+          { en: "Capturing all diamonds", es: "Capturar todos los diamantes", de: "Alle Karos fangen", nl: "Alle ruiten vangen" },
+          { en: "Taking the 7 of diamonds", es: "Tomar el 7 de diamantes", de: "Die Karo-7 nehmen", nl: "De ruiten 7 nemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In Scopone, a scopa (sweeping all cards from the table in one capture) is worth 1 point and is one of the most valuable achievements, though other categories also score.",
+          es: "En Scopone, una scopa (barrer todas las cartas de la mesa en una captura) vale 1 punto y es uno de los logros más valiosos, aunque otras categorías también puntúan.",
+          de: "Beim Scopone ist eine Scopa (alle Karten vom Tisch in einem Fang fegen) 1 Punkt wert und eine der wertvollsten Leistungen, obwohl andere Kategorien auch punkten.",
+          nl: "Bij Scopone is een scopa (alle kaarten van de tafel vegen in één vangst) 1 punt waard en een van de meest waardevolle prestaties, hoewel andere categorieën ook scoren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'thin value betting' in poker?",
+          es: "¿Qué es 'apostar valor delgado' en el póker?",
+          de: "Was ist 'Thin Value Betting' beim Poker?",
+          nl: "Wat is 'thin value betting' bij poker?"
+        },
+        options: [
+          { en: "Betting marginal hands expecting to be called by worse slightly more than 50%", es: "Apostar manos marginales esperando ser igualado por peores ligeramente más del 50%", de: "Marginale Blätter setzen in Erwartung von schlechteren Calls etwas über 50%", nl: "Marginale handen inzetten verwachtend gecalled te worden door slechtere net iets meer dan 50%" },
+          { en: "Betting small amounts", es: "Apostar pequeñas cantidades", de: "Kleine Beträge setzen", nl: "Kleine bedragen inzetten" },
+          { en: "Value betting with nut hands", es: "Apostar valor con manos nuts", de: "Value Betting mit Nuts-Blättern", nl: "Value betting met nut handen" },
+          { en: "Betting only premium hands", es: "Apostar solo manos premium", de: "Nur Premium-Blätter setzen", nl: "Alleen premium handen inzetten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thin value betting involves betting marginal hands for value when you expect to be called by worse hands just slightly more than half the time, extracting maximum value from borderline situations.",
+          es: "Apostar valor delgado involucra apostar manos marginales para valor cuando esperas ser igualado por manos peores justo un poco más de la mitad del tiempo, extrayendo valor máximo de situaciones límite.",
+          de: "Thin Value Betting beinhaltet marginale Blätter für Value zu setzen wenn man erwartet von schlechteren Blättern knapp über die Hälfte der Zeit gecallt zu werden, um maximalen Value aus Grenzsituationen zu extrahieren.",
+          nl: "Thin value betting houdt in marginale handen voor value inzetten wanneer je verwacht net iets meer dan de helft van de tijd gecalled te worden door slechtere handen, maximale value extraheren uit grenssituaties."
+        }
+      },
+      {
+        question: {
+          en: "In Tute, what is a 'cante de 40'?",
+          es: "En Tute, ¿qué es un 'cante de 40'?",
+          de: "Was ist ein 'Cante de 40' beim Tute?",
+          nl: "Wat is een 'cante de 40' bij Tute?"
+        },
+        options: [
+          { en: "Declaring King and Queen of trump suit for 40 points", es: "Declarar Rey y Reina del palo de triunfo por 40 puntos", de: "König und Dame der Trumpffarbe für 40 Punkte ansagen", nl: "Koning en Vrouw van troefkleur declareren voor 40 punten" },
+          { en: "Winning 40 points in tricks", es: "Ganar 40 puntos en bazas", de: "40 Punkte in Stichen gewinnen", nl: "40 punten winnen in slagen" },
+          { en: "Reaching score of 40", es: "Alcanzar puntuación de 40", de: "Punktzahl von 40 erreichen", nl: "Score van 40 bereiken" },
+          { en: "Taking 40% of cards", es: "Tomar 40% de las cartas", de: "40% der Karten nehmen", nl: "40% van de kaarten nemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cante de 40 is declaring (singing) the King and Queen of the trump suit, worth 40 bonus points in Tute, more valuable than the 20 points for non-trump suit pairs.",
+          es: "Cante de 40 es declarar (cantar) el Rey y la Reina del palo de triunfo, vale 40 puntos de bonificación en Tute, más valioso que los 20 puntos para pares de palos no triunfo.",
+          de: "Cante de 40 ist das Ansagen (Singen) von König und Dame der Trumpffarbe, wert 40 Bonuspunkte beim Tute, wertvoller als die 20 Punkte für Nicht-Trumpf-Paare.",
+          nl: "Cante de 40 is het declareren (zingen) van Koning en Vrouw van de troefkleur, waard 40 bonuspunten bij Tute, waardevoller dan de 20 punten voor niet-troef paren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'range construction' in poker?",
+          es: "¿Qué es 'construcción de rango' en el póker?",
+          de: "Was ist 'Range Construction' beim Poker?",
+          nl: "Wat is 'range constructie' bij poker?"
+        },
+        options: [
+          { en: "Building your range of hands to play in each situation strategically", es: "Construir tu rango de manos para jugar en cada situación estratégicamente", de: "Range von Blättern strategisch aufbauen um in jeder Situation zu spielen", nl: "Je range van handen strategisch opbouwen om in elke situatie te spelen" },
+          { en: "Organizing chips by value", es: "Organizar fichas por valor", de: "Chips nach Wert organisieren", nl: "Fiches ordenen op waarde" },
+          { en: "Setting table limits", es: "Establecer límites de mesa", de: "Tischlimits festlegen", nl: "Tafellimieten instellen" },
+          { en: "Building bankroll gradually", es: "Construir bankroll gradualmente", de: "Bankroll schrittweise aufbauen", nl: "Bankroll geleidelijk opbouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Range construction involves strategically deciding which hands to include in your range for each action (raise, call, fold) in different positions and situations to maintain balance and maximize EV.",
+          es: "La construcción de rango involucra decidir estratégicamente qué manos incluir en tu rango para cada acción (subir, igualar, retirarse) en diferentes posiciones y situaciones para mantener equilibrio y maximizar EV.",
+          de: "Range Construction beinhaltet strategisch zu entscheiden welche Blätter in die Range für jede Aktion (Raise, Call, Fold) in verschiedenen Positionen und Situationen einzubeziehen sind um Balance zu halten und EV zu maximieren.",
+          nl: "Range constructie houdt in strategisch beslissen welke handen op te nemen in je range voor elke actie (raise, call, fold) in verschillende posities en situaties om balans te behouden en EV te maximaliseren."
+        }
       }
     ]
   };

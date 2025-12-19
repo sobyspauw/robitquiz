@@ -427,6 +427,405 @@
           de: "Die Jacoby-Regel (üblich in Geldspielen, nie in Matches) besagt dass Gammons und Backgammons nur zählen wenn der Würfel gedreht wurde. Dies beschleunigt das Spiel durch Eliminierung langsamer Gammon-Schleif-Positionen wo ein Spieler nur auf Gammon weiterspielt ohne zu verdoppeln. Es fördert aggressivere Würfelaktion.",
           nl: "De Jacoby regel (gebruikelijk in geldspellen, nooit in wedstrijden) stelt dat gammons en backgammons alleen tellen als de dobbelsteen is gedraaid. Dit versnelt het spel door trage gammon-slijp posities te elimineren waar één speler gewoon doorspeelt voor de gammon zonder te verdubbelen. Het moedigt agressievere dobbelsteenactie aan."
         }
+      },
+      {
+        question: {
+          en: "What is 'PropCount' in racing analysis?",
+          es: "¿Qué es 'PropCount' en análisis de carreras?",
+          de: "Was ist 'PropCount' in der Rennanalyse?",
+          nl: "Wat is 'PropCount' in race analyse?"
+        },
+        options: [
+          { en: "Probability-based pip count adjusting for checker distribution", es: "Conteo de pips basado en probabilidad ajustando por distribución de fichas", de: "Wahrscheinlichkeitsbasierte Pip-Zählung angepasst für Steinverteilung", nl: "Waarschijnlijkheid-gebaseerde pip count aangepast voor steenverdeling" },
+          { en: "Proper checker count verification", es: "Verificación adecuada de conteo de fichas", de: "Korrekte Steinzählungsüberprüfung", nl: "Juiste steen telling verificatie" },
+          { en: "Proportional counting system", es: "Sistema de conteo proporcional", de: "Proportionales Zählsystem", nl: "Proportioneel telsysteem" },
+          { en: "Property ownership count", es: "Conteo de propiedad", de: "Eigentumszählung", nl: "Eigendom telling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "PropCount (Proportional Count) is an advanced racing formula that adjusts pip count based on probability of bearing off efficiently. It accounts for distribution, gaps, and crossovers more accurately than simple effective pip count, providing better racing equity estimates in close positions.",
+          es: "PropCount (Conteo Proporcional) es una fórmula avanzada de carreras que ajusta el conteo de pips basándose en la probabilidad de sacar fichas eficientemente. Tiene en cuenta distribución, huecos y cruces con más precisión que el conteo efectivo de pips simple, proporcionando mejores estimaciones de equity de carrera en posiciones cercanas.",
+          de: "PropCount (Proportionaler Count) ist eine fortgeschrittene Rennformel die Pip-Zählung basierend auf Wahrscheinlichkeit effizient auszuwürfeln anpasst. Es berücksichtigt Verteilung, Lücken und Überquerungen genauer als einfache effektive Pip-Zählung und liefert bessere Renn-Equity-Schätzungen in knappen Positionen.",
+          nl: "PropCount (Proportionele Telling) is een geavanceerde race formule die pip count aanpast op basis van waarschijnlijkheid om efficiënt uit te gooien. Het houdt rekening met verdeling, gaten en overgangen nauwkeuriger dan simpele effectieve pip count, wat betere race equity schattingen biedt in krappe posities."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'symmetric position' in backgammon?",
+          es: "¿Qué es una 'posición simétrica' en backgammon?",
+          de: "Was ist eine 'symmetrische Position' im Backgammon?",
+          nl: "Wat is een 'symmetrische positie' in backgammon?"
+        },
+        options: [
+          { en: "Mirror image position where both players have identical structure", es: "Posición de imagen espejo donde ambos jugadores tienen estructura idéntica", de: "Spiegelbildposition wo beide Spieler identische Struktur haben", nl: "Spiegelbeeld positie waar beide spelers identieke structuur hebben" },
+          { en: "Balanced board position", es: "Posición equilibrada del tablero", de: "Ausgewogene Brettposition", nl: "Gebalanceerde bordpositie" },
+          { en: "Equal point distribution", es: "Distribución igual de puntos", de: "Gleiche Punktverteilung", nl: "Gelijke puntenverdeling" },
+          { en: "Mathematically perfect position", es: "Posición matemáticamente perfecta", de: "Mathematisch perfekte Position", nl: "Mathematisch perfecte positie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A symmetric position is a mirror image where both players have identical checker positions (reflected). These are interesting theoretically because equity should be exactly 0.000 for both players. Symmetric positions help understand pure strategic concepts without positional advantages.",
+          es: "Una posición simétrica es una imagen espejo donde ambos jugadores tienen posiciones de fichas idénticas (reflejadas). Estas son interesantes teóricamente porque la equity debería ser exactamente 0.000 para ambos jugadores. Las posiciones simétricas ayudan a entender conceptos estratégicos puros sin ventajas posicionales.",
+          de: "Eine symmetrische Position ist ein Spiegelbild wo beide Spieler identische Steinpositionen haben (reflektiert). Diese sind theoretisch interessant weil Equity genau 0,000 für beide Spieler sein sollte. Symmetrische Positionen helfen reine strategische Konzepte ohne Positionsvorteile zu verstehen.",
+          nl: "Een symmetrische positie is een spiegelbeeld waar beide spelers identieke steenposities hebben (gereflecteerd). Deze zijn theoretisch interessant omdat equity precies 0,000 zou moeten zijn voor beide spelers. Symmetrische posities helpen pure strategische concepten te begrijpen zonder positionele voordelen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'error rate' in post-game analysis?",
+          es: "¿Qué es 'tasa de error' en análisis post-juego?",
+          de: "Was ist 'Fehlerrate' in der Nach-Spiel-Analyse?",
+          nl: "Wat is 'foutpercentage' in na-spel analyse?"
+        },
+        options: [
+          { en: "Average equity lost per decision compared to optimal play", es: "Equity promedio perdido por decisión comparado con juego óptimo", de: "Durchschnittliches verlorenes Equity pro Entscheidung verglichen mit optimalem Spiel", nl: "Gemiddeld verloren equity per beslissing vergeleken met optimaal spel" },
+          { en: "Percentage of wrong moves made", es: "Porcentaje de movimientos incorrectos hechos", de: "Prozentsatz falscher Züge gemacht", nl: "Percentage verkeerde zetten gemaakt" },
+          { en: "How often errors occur", es: "Qué tan a menudo ocurren errores", de: "Wie oft Fehler auftreten", nl: "Hoe vaak fouten voorkomen" },
+          { en: "Speed of error correction", es: "Velocidad de corrección de errores", de: "Geschwindigkeit der Fehlerkorrektur", nl: "Snelheid van foutcorrectie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Error rate measures average equity loss per move or decision. Strong players have low error rates (2-4 points/game), while beginners may lose 10+ points/game. Modern software categorizes errors as blunders (>0.1 equity), errors (>0.05), and doubtful moves, helping identify improvement areas.",
+          es: "La tasa de error mide la pérdida promedio de equity por movimiento o decisión. Jugadores fuertes tienen tasas de error bajas (2-4 puntos/juego), mientras que principiantes pueden perder 10+ puntos/juego. El software moderno categoriza errores como desaciertos (>0.1 equity), errores (>0.05) y movimientos dudosos, ayudando a identificar áreas de mejora.",
+          de: "Fehlerrate misst durchschnittlichen Equity-Verlust pro Zug oder Entscheidung. Starke Spieler haben niedrige Fehlerraten (2-4 Punkte/Spiel), während Anfänger 10+ Punkte/Spiel verlieren können. Moderne Software kategorisiert Fehler als Patzer (>0,1 Equity), Fehler (>0,05) und zweifelhafte Züge, was hilft Verbesserungsbereiche zu identifizieren.",
+          nl: "Foutpercentage meet gemiddeld equity verlies per zet of beslissing. Sterke spelers hebben lage foutpercentages (2-4 punten/spel), terwijl beginners 10+ punten/spel kunnen verliezen. Moderne software categoriseert fouten als blunders (>0,1 equity), fouten (>0,05) en twijfelachtige zetten, wat helpt verbetergebieden te identificeren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cube leverage' in match play?",
+          es: "¿Qué es 'apalancamiento de cubo' en juego de match?",
+          de: "Was ist 'Würfelhebel' im Match-Spiel?",
+          nl: "Wat is 'dobbelsteen hefboomwerking' in wedstrijdspel?"
+        },
+        options: [
+          { en: "Strategic value of cube ownership beyond immediate winning chances", es: "Valor estratégico de propiedad del cubo más allá de posibilidades inmediatas de ganar", de: "Strategischer Wert des Würfelbesitzes jenseits sofortiger Gewinnchancen", nl: "Strategische waarde van dobbelsteenbezit naast directe winkansen" },
+          { en: "Physical leverage on cube", es: "Apalancamiento físico en cubo", de: "Physischer Hebel am Würfel", nl: "Fysieke hefboomwerking op dobbelsteen" },
+          { en: "Cube multiplication power", es: "Poder de multiplicación del cubo", de: "Würfel-Multiplikationskraft", nl: "Dobbelsteen vermenigvuldigingskracht" },
+          { en: "Advantage at match score", es: "Ventaja en marcador de match", de: "Vorteil beim Match-Stand", nl: "Voordeel bij wedstrijdscore" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cube leverage is the strategic advantage of owning the doubling cube - you can threaten efficient redoubles while opponent cannot. In volatile positions, cube ownership can be worth significant equity even when position is slightly worse. This is why taking at 22-23% (with recube vig) is often correct.",
+          es: "El apalancamiento de cubo es la ventaja estratégica de poseer el cubo de doblar - puedes amenazar redoblajes eficientes mientras el oponente no puede. En posiciones volátiles, la propiedad del cubo puede valer equity significativo incluso cuando la posición es ligeramente peor. Por esto aceptar al 22-23% (con recube vig) es a menudo correcto.",
+          de: "Würfelhebel ist der strategische Vorteil den Dopplungswürfel zu besitzen - Sie können effiziente Rückverdopplungen androhen während Gegner nicht kann. In volatilen Positionen kann Würfelbesitz signifikantes Equity wert sein selbst wenn Position etwas schlechter ist. Deshalb ist Annehmen bei 22-23% (mit Recube Vig) oft korrekt.",
+          nl: "Dobbelsteen hefboomwerking is het strategische voordeel van het bezitten van de verdubbeldobbelsteen - je kunt efficiënte herverdubbeling dreigen terwijl tegenstander dat niet kan. In volatiele posities kan dobbelsteenbezit aanzienlijke equity waard zijn zelfs wanneer positie iets slechter is. Daarom is accepteren bij 22-23% (met recube vig) vaak correct."
+        }
+      },
+      {
+        question: {
+          en: "What is 'normalized score' in tournament reporting?",
+          es: "¿Qué es 'puntuación normalizada' en informes de torneo?",
+          de: "Was ist 'normalisierte Punktzahl' in Turnierberichten?",
+          nl: "Wat is 'genormaliseerde score' in toernooirapportage?"
+        },
+        options: [
+          { en: "Converting match results to standard scale for comparison", es: "Convertir resultados de match a escala estándar para comparación", de: "Match-Ergebnisse auf Standardskala für Vergleich konvertieren", nl: "Wedstrijdresultaten converteren naar standaardschaal voor vergelijking" },
+          { en: "Normal distribution of scores", es: "Distribución normal de puntuaciones", de: "Normalverteilung von Punktzahlen", nl: "Normale verdeling van scores" },
+          { en: "Average tournament score", es: "Puntuación promedio de torneo", de: "Durchschnittliche Turnierpunktzahl", nl: "Gemiddelde toernooiscore" },
+          { en: "Standardized point system", es: "Sistema de puntos estandarizado", de: "Standardisiertes Punktesystem", nl: "Gestandaardiseerd puntensysteem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Normalized score adjusts match results to account for match length - winning 5-0 in a 5-point match is different from 11-0 in an 11-pointer. Normalization converts all results to equivalent values (often to 11-point match scale) for fair player rating and performance comparison.",
+          es: "La puntuación normalizada ajusta resultados de match para tener en cuenta la longitud del match - ganar 5-0 en un match de 5 puntos es diferente de 11-0 en uno de 11 puntos. La normalización convierte todos los resultados a valores equivalentes (a menudo a escala de match de 11 puntos) para clasificación justa de jugadores y comparación de rendimiento.",
+          de: "Normalisierte Punktzahl passt Match-Ergebnisse an um Match-Länge zu berücksichtigen - 5-0 zu gewinnen in einem 5-Punkt-Match ist anders als 11-0 in einem 11-Punkte-Match. Normalisierung konvertiert alle Ergebnisse zu äquivalenten Werten (oft zu 11-Punkt-Match-Skala) für faire Spielerbewertung und Leistungsvergleich.",
+          nl: "Genormaliseerde score past wedstrijdresultaten aan om wedstrijdlengte te verrekenen - 5-0 winnen in een 5-punts wedstrijd is anders dan 11-0 in een 11-punter. Normalisatie converteert alle resultaten naar equivalente waarden (vaak naar 11-punts wedstrijdschaal) voor eerlijke spelersbeoordeling en prestatie vergelijking."
+        }
+      },
+      {
+        question: {
+          en: "What is 'equity distribution' in rollout analysis?",
+          es: "¿Qué es 'distribución de equity' en análisis de rollout?",
+          de: "Was ist 'Equity-Verteilung' in der Rollout-Analyse?",
+          nl: "Wat is 'equity verdeling' in rollout analyse?"
+        },
+        options: [
+          { en: "Range of possible outcomes showing equity variance", es: "Rango de resultados posibles mostrando varianza de equity", de: "Bereich möglicher Ergebnisse zeigt Equity-Varianz", nl: "Bereik van mogelijke uitkomsten die equity variantie tonen" },
+          { en: "How equity is divided between players", es: "Cómo se divide el equity entre jugadores", de: "Wie Equity zwischen Spielern aufgeteilt wird", nl: "Hoe equity wordt verdeeld tussen spelers" },
+          { en: "Spreading equity evenly", es: "Distribuir equity uniformemente", de: "Equity gleichmäßig verteilen", nl: "Equity gelijkmatig verdelen" },
+          { en: "Geographic equity spread", es: "Dispersión geográfica de equity", de: "Geografische Equity-Verteilung", nl: "Geografische equity spreiding" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Equity distribution shows the range of possible outcomes from a position. A rollout might show average equity of +0.500, but distribution reveals whether this comes from consistent small wins or volatile gammon chances. Understanding variance helps with risk assessment and cube decisions.",
+          es: "La distribución de equity muestra el rango de resultados posibles de una posición. Un rollout podría mostrar equity promedio de +0.500, pero la distribución revela si esto proviene de victorias pequeñas consistentes o posibilidades volátiles de gammon. Entender la varianza ayuda con evaluación de riesgo y decisiones de cubo.",
+          de: "Equity-Verteilung zeigt den Bereich möglicher Ergebnisse aus einer Position. Ein Rollout könnte durchschnittliches Equity von +0,500 zeigen, aber Verteilung offenbart ob dies von konsistenten kleinen Siegen oder volatilen Gammon-Chancen kommt. Varianz zu verstehen hilft bei Risikobewertung und Würfelentscheidungen.",
+          nl: "Equity verdeling toont het bereik van mogelijke uitkomsten uit een positie. Een rollout zou gemiddelde equity van +0,500 kunnen tonen, maar verdeling onthult of dit komt van consistente kleine overwinningen of volatiele gammon kansen. Variantie begrijpen helpt met risicobeoordeling en dobbelsteenbeslissingen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'post-Crawford' strategy?",
+          es: "¿Qué es estrategia 'post-Crawford'?",
+          de: "Was ist 'Nach-Crawford'-Strategie?",
+          nl: "Wat is 'na-Crawford' strategie?"
+        },
+        options: [
+          { en: "Strategy after Crawford game when trailing player must double first turn", es: "Estrategia después del juego Crawford cuando jugador perdedor debe doblar primer turno", de: "Strategie nach Crawford-Spiel wenn zurückliegender Spieler im ersten Zug verdoppeln muss", nl: "Strategie na Crawford spel wanneer achterliggende speler eerste beurt moet verdubbelen" },
+          { en: "Playing after tournament ends", es: "Jugar después de que termina el torneo", de: "Spielen nachdem Turnier endet", nl: "Spelen nadat toernooi eindigt" },
+          { en: "Strategy following Crawford's teachings", es: "Estrategia siguiendo enseñanzas de Crawford", de: "Strategie nach Crawfords Lehren", nl: "Strategie volgend op Crawford's lessen" },
+          { en: "Post-game analysis method", es: "Método de análisis post-juego", de: "Nach-Spiel-Analysemethode", nl: "Na-spel analyse methode" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Post-Crawford refers to games after the Crawford game when one player is 1-away. The trailer (still 2+ away) must double immediately or never (automatic double on first turn). The leader should almost never double. This creates unique strategic dynamics where cube decisions are predetermined.",
+          es: "Post-Crawford se refiere a juegos después del juego Crawford cuando un jugador está a 1 de ganar. El perdedor (todavía a 2+ de distancia) debe doblar inmediatamente o nunca (doble automático en primer turno). El líder casi nunca debería doblar. Esto crea dinámicas estratégicas únicas donde las decisiones de cubo están predeterminadas.",
+          de: "Nach-Crawford bezieht sich auf Spiele nach dem Crawford-Spiel wenn ein Spieler 1-away ist. Der Zurückliegende (noch 2+ away) muss sofort verdoppeln oder nie (automatisches Verdoppeln im ersten Zug). Der Führende sollte fast nie verdoppeln. Dies schafft einzigartige strategische Dynamiken wo Würfelentscheidungen vorbestimmt sind.",
+          nl: "Na-Crawford verwijst naar spellen na het Crawford spel wanneer één speler 1-away is. De achterliggende (nog 2+ away) moet onmiddellijk verdubbelen of nooit (automatische verdubbeling bij eerste beurt). De leider zou bijna nooit moeten verdubbelen. Dit creëert unieke strategische dynamiek waarbij dobbelsteenbeslissingen vooraf bepaald zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'take/pass point' precision?",
+          es: "¿Qué es precisión de 'punto de aceptar/pasar'?",
+          de: "Was ist 'Nehmen/Passen-Punkt'-Präzision?",
+          nl: "Wat is 'nemen/passen punt' precisie?"
+        },
+        options: [
+          { en: "Exact winning percentage where taking and passing have equal value", es: "Porcentaje exacto de victoria donde aceptar y pasar tienen igual valor", de: "Exakter Gewinnprozentsatz wo Nehmen und Passen gleichen Wert haben", nl: "Exact winpercentage waar nemen en passen gelijke waarde hebben" },
+          { en: "Accuracy of take decisions", es: "Precisión de decisiones de aceptar", de: "Genauigkeit von Nehmen-Entscheidungen", nl: "Nauwkeurigheid van neem beslissingen" },
+          { en: "Point location accuracy", es: "Precisión de ubicación de punto", de: "Punktort-Genauigkeit", nl: "Punt locatie nauwkeurigheid" },
+          { en: "Decision timing precision", es: "Precisión de tiempo de decisión", de: "Entscheidungszeitpräzision", nl: "Beslissing timing precisie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Take/pass point precision is the exact winning percentage where you're indifferent between taking and passing a double. In money games it's theoretically 25%, but adjusts for gammons, recube vig, and cube efficiency. Knowing precise take points for different position types improves cube decisions dramatically.",
+          es: "La precisión del punto de aceptar/pasar es el porcentaje exacto de victoria donde eres indiferente entre aceptar y pasar un doble. En juegos de dinero es teóricamente 25%, pero se ajusta por gammons, recube vig y eficiencia de cubo. Conocer puntos de aceptación precisos para diferentes tipos de posición mejora dramáticamente las decisiones de cubo.",
+          de: "Nehmen/Passen-Punkt-Präzision ist der exakte Gewinnprozentsatz wo Sie indifferent zwischen Nehmen und Passen eines Doppelns sind. In Geldspielen ist es theoretisch 25%, passt sich aber an für Gammons, Recube Vig und Würfeleffizienz. Präzise Annahmepunkte für verschiedene Positionstypen zu kennen verbessert Würfelentscheidungen dramatisch.",
+          nl: "Nemen/passen punt precisie is het exacte winpercentage waar je onverschillig bent tussen nemen en passen van een verdubbeling. In geldspellen is het theoretisch 25%, maar past aan voor gammons, recube vig en dobbelsteenefficiëntie. Precieze acceptatiepunten kennen voor verschillende positietypes verbetert dobbelsteenbeslissingen dramatisch."
+        }
+      },
+      {
+        question: {
+          en: "What is 'variance reduction' in rollouts?",
+          es: "¿Qué es 'reducción de varianza' en rollouts?",
+          de: "Was ist 'Varianzreduktion' in Rollouts?",
+          nl: "Wat is 'variantie reductie' in rollouts?"
+        },
+        options: [
+          { en: "Using same dice sequences for both sides to reduce random noise", es: "Usar las mismas secuencias de dados para ambos lados para reducir ruido aleatorio", de: "Dieselben Würfelsequenzen für beide Seiten verwenden um zufälliges Rauschen zu reduzieren", nl: "Dezelfde dobbelsteenreeksen gebruiken voor beide kanten om willekeurige ruis te verminderen" },
+          { en: "Reducing number of rollout trials", es: "Reducir número de pruebas de rollout", de: "Anzahl von Rollout-Versuchen reduzieren", nl: "Aantal rollout proeven verminderen" },
+          { en: "Minimizing position variance", es: "Minimizar varianza de posición", de: "Positionsvarianz minimieren", nl: "Positie variantie minimaliseren" },
+          { en: "Lowering equity spread", es: "Reducir dispersión de equity", de: "Equity-Streuung senken", nl: "Equity spreiding verlagen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Variance reduction uses the same random dice sequences for comparing alternatives, eliminating luck as a factor. If both your move and the alternative face the same dice, differences in results come purely from position quality, not random variation. This makes rollouts more efficient and accurate.",
+          es: "La reducción de varianza usa las mismas secuencias aleatorias de dados para comparar alternativas, eliminando la suerte como factor. Si tanto tu movimiento como la alternativa enfrentan los mismos dados, las diferencias en resultados provienen puramente de calidad de posición, no variación aleatoria. Esto hace los rollouts más eficientes y precisos.",
+          de: "Varianzreduktion verwendet dieselben zufälligen Würfelsequenzen zum Vergleichen von Alternativen, wodurch Glück als Faktor eliminiert wird. Wenn sowohl Ihr Zug als auch die Alternative denselben Würfeln gegenüberstehen kommen Unterschiede in Ergebnissen rein von Positionsqualität, nicht zufälliger Variation. Dies macht Rollouts effizienter und genauer.",
+          nl: "Variantie reductie gebruikt dezelfde willekeurige dobbelsteenreeksen voor het vergelijken van alternatieven, waardoor geluk als factor wordt geëlimineerd. Als zowel jouw zet als het alternatief dezelfde dobbelstenen tegenkomen, komen verschillen in resultaten puur van positiekwaliteit, niet willekeurige variatie. Dit maakt rollouts efficiënter en nauwkeuriger."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cubeful equity' vs 'cubeless equity'?",
+          es: "¿Qué es 'equity con cubo' vs 'equity sin cubo'?",
+          de: "Was ist 'Equity mit Würfel' vs 'Equity ohne Würfel'?",
+          nl: "Wat is 'equity met dobbelsteen' vs 'equity zonder dobbelsteen'?"
+        },
+        options: [
+          { en: "Cubeful includes doubling cube impact; cubeless evaluates position only", es: "Con cubo incluye impacto del cubo de doblar; sin cubo evalúa solo posición", de: "Mit Würfel beinhaltet Dopplungswürfel-Einfluss; ohne Würfel bewertet nur Position", nl: "Met dobbelsteen omvat verdubbeldobbelsteen impact; zonder dobbelsteen evalueert alleen positie" },
+          { en: "Different equity calculation methods", es: "Diferentes métodos de cálculo de equity", de: "Verschiedene Equity-Berechnungsmethoden", nl: "Verschillende equity berekenings methoden" },
+          { en: "Cube ownership vs no ownership", es: "Propiedad de cubo vs sin propiedad", de: "Würfelbesitz vs kein Besitz", nl: "Dobbelsteenbezit vs geen bezit" },
+          { en: "Full game vs single position", es: "Juego completo vs posición única", de: "Vollständiges Spiel vs einzelne Position", nl: "Volledig spel vs enkele positie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cubeless equity evaluates just the position as if the doubling cube didn't exist - pure winning/gammon/backgammon chances. Cubeful equity includes optimal cube actions (doubles, takes, passes), which significantly affects value. The difference reveals how much cube decisions matter in that position.",
+          es: "Equity sin cubo evalúa solo la posición como si el cubo de doblar no existiera - puras posibilidades de ganar/gammon/backgammon. Equity con cubo incluye acciones óptimas de cubo (dobles, aceptaciones, pases), lo que afecta significativamente el valor. La diferencia revela cuánto importan las decisiones de cubo en esa posición.",
+          de: "Equity ohne Würfel bewertet nur die Position als ob der Dopplungswürfel nicht existierte - reine Gewinn/Gammon/Backgammon-Chancen. Equity mit Würfel beinhaltet optimale Würfelaktionen (Verdopplungen, Annahmen, Pässe), was den Wert signifikant beeinflusst. Der Unterschied zeigt wie viel Würfelentscheidungen in dieser Position zählen.",
+          nl: "Equity zonder dobbelsteen evalueert alleen de positie alsof de verdubbeldobbelsteen niet bestond - pure win/gammon/backgammon kansen. Equity met dobbelsteen omvat optimale dobbelsteenacties (verdubbelen, nemen, passen), wat de waarde aanzienlijk beïnvloedt. Het verschil onthult hoeveel dobbelsteenbeslissingen ertoe doen in die positie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'skill luck gradient' in backgammon?",
+          es: "¿Qué es 'gradiente de habilidad-suerte' en backgammon?",
+          de: "Was ist 'Fähigkeit-Glück-Gradient' im Backgammon?",
+          nl: "Wat is 'vaardigheid geluk gradiënt' in backgammon?"
+        },
+        options: [
+          { en: "Balance between skill and luck determining outcomes over time", es: "Balance entre habilidad y suerte determinando resultados con el tiempo", de: "Balance zwischen Fähigkeit und Glück bestimmt Ergebnisse über Zeit", nl: "Balans tussen vaardigheid en geluk die uitkomsten bepaalt over tijd" },
+          { en: "Learning curve steepness", es: "Inclinación de curva de aprendizaje", de: "Steilheit der Lernkurve", nl: "Steilheid van leercurve" },
+          { en: "Luck distribution pattern", es: "Patrón de distribución de suerte", de: "Glücksverteilungsmuster", nl: "Geluk verdelingspatroon" },
+          { en: "Skill rating slope", es: "Pendiente de calificación de habilidad", de: "Fähigkeitsbewertungssteigung", nl: "Vaardigheid beoordeling helling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Backgammon has significant short-term luck but skill dominates long-term. A beginner might beat a world champion in a single game (40% luck), but over 100+ games skill determines outcomes. Understanding this gradient helps manage emotions and focus on decision quality over results.",
+          es: "Backgammon tiene suerte significativa a corto plazo pero la habilidad domina a largo plazo. Un principiante podría vencer a un campeón mundial en un solo juego (40% suerte), pero en 100+ juegos la habilidad determina resultados. Entender este gradiente ayuda a manejar emociones y enfocarse en calidad de decisión sobre resultados.",
+          de: "Backgammon hat signifikantes kurzfristiges Glück aber Fähigkeit dominiert langfristig. Ein Anfänger könnte einen Weltmeister in einem einzelnen Spiel schlagen (40% Glück), aber über 100+ Spiele bestimmt Fähigkeit Ergebnisse. Diesen Gradienten zu verstehen hilft Emotionen zu managen und sich auf Entscheidungsqualität über Ergebnisse zu fokussieren.",
+          nl: "Backgammon heeft aanzienlijk korte termijn geluk maar vaardigheid domineert lange termijn. Een beginner zou een wereldkampioen kunnen verslaan in een enkel spel (40% geluk), maar over 100+ spellen bepaalt vaardigheid uitkomsten. Deze gradiënt begrijpen helpt emoties te beheren en te focussen op beslissingskwaliteit boven resultaten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'match score dependency' in cube decisions?",
+          es: "¿Qué es 'dependencia de marcador de match' en decisiones de cubo?",
+          de: "Was ist 'Match-Stand-Abhängigkeit' bei Würfelentscheidungen?",
+          nl: "Wat is 'wedstrijdscore afhankelijkheid' bij dobbelsteenbeslissingen?"
+        },
+        options: [
+          { en: "How cube decisions change dramatically based on current match score", es: "Cómo las decisiones de cubo cambian dramáticamente según marcador actual de match", de: "Wie Würfelentscheidungen sich dramatisch ändern basierend auf aktuellem Match-Stand", nl: "Hoe dobbelsteenbeslissingen dramatisch veranderen op basis van huidige wedstrijdscore" },
+          { en: "Relying on score for decisions", es: "Depender del marcador para decisiones", de: "Auf Stand für Entscheidungen verlassen", nl: "Afhankelijk van score voor beslissingen" },
+          { en: "Match score tracking accuracy", es: "Precisión de seguimiento de marcador", de: "Match-Stand-Tracking-Genauigkeit", nl: "Wedstrijdscore tracking nauwkeurigheid" },
+          { en: "Score-based strategy selection", es: "Selección de estrategia basada en marcador", de: "Punktbasierte Strategieauswahl", nl: "Score-gebaseerde strategie selectie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Match score dependency means cube decisions vary wildly by score. At 2-away 2-away, you pass almost any double. At 2-away 3-away trailing, you take very aggressively. At DMP (0-0 Crawford), the cube is dead. Understanding these dependencies is crucial for correct match play.",
+          es: "La dependencia de marcador de match significa que las decisiones de cubo varían enormemente según el marcador. En 2-away 2-away, pasas casi cualquier doble. En 2-away 3-away perdiendo, aceptas muy agresivamente. En DMP (0-0 Crawford), el cubo está muerto. Entender estas dependencias es crucial para juego de match correcto.",
+          de: "Match-Stand-Abhängigkeit bedeutet Würfelentscheidungen variieren wild je nach Stand. Bei 2-away 2-away passen Sie fast jedes Doppeln. Bei 2-away 3-away zurückliegend nehmen Sie sehr aggressiv an. Bei DMP (0-0 Crawford) ist der Würfel tot. Diese Abhängigkeiten zu verstehen ist entscheidend für korrektes Match-Spiel.",
+          nl: "Wedstrijdscore afhankelijkheid betekent dat dobbelsteenbeslissingen wild variëren per score. Bij 2-away 2-away pas je bijna elke verdubbeling. Bij 2-away 3-away achterliggend accepteer je zeer agressief. Bij DMP (0-0 Crawford) is de dobbelsteen dood. Deze afhankelijkheden begrijpen is cruciaal voor correct wedstrijdspel."
+        }
+      },
+      {
+        question: {
+          en: "What is 'optimal strategy' in backgammon AI?",
+          es: "¿Qué es 'estrategia óptima' en IA de backgammon?",
+          de: "Was ist 'optimale Strategie' in Backgammon-KI?",
+          nl: "Wat is 'optimale strategie' in backgammon AI?"
+        },
+        options: [
+          { en: "Strategy that maximizes equity over infinite trials", es: "Estrategia que maximiza equity sobre ensayos infinitos", de: "Strategie die Equity über unendliche Versuche maximiert", nl: "Strategie die equity maximaliseert over oneindige proeven" },
+          { en: "Best known strategy", es: "Mejor estrategia conocida", de: "Beste bekannte Strategie", nl: "Beste bekende strategie" },
+          { en: "Perfect play without errors", es: "Juego perfecto sin errores", de: "Perfektes Spiel ohne Fehler", nl: "Perfect spel zonder fouten" },
+          { en: "AI-recommended moves", es: "Movimientos recomendados por IA", de: "KI-empfohlene Züge", nl: "AI-aanbevolen zetten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Optimal strategy maximizes expected equity across all possible dice sequences and opponent responses. Modern neural network bots approximate this through training on billions of positions. While we can't guarantee perfection, top bots play near-optimally with error rates under 2 points/game.",
+          es: "La estrategia óptima maximiza la equity esperada a través de todas las secuencias posibles de dados y respuestas del oponente. Los bots de redes neuronales modernos aproximan esto mediante entrenamiento en miles de millones de posiciones. Aunque no podemos garantizar perfección, los mejores bots juegan casi óptimamente con tasas de error bajo 2 puntos/juego.",
+          de: "Optimale Strategie maximiert erwartetes Equity über alle möglichen Würfelsequenzen und Gegnerantworten. Moderne neuronale Netzwerk-Bots approximieren dies durch Training auf Milliarden von Positionen. Obwohl wir Perfektion nicht garantieren können, spielen Top-Bots nahezu optimal mit Fehlerraten unter 2 Punkten/Spiel.",
+          nl: "Optimale strategie maximaliseert verwachte equity over alle mogelijke dobbelsteenreeksen en tegenstander reacties. Moderne neurale netwerk bots benaderen dit door training op miljarden posities. Hoewel we perfectie niet kunnen garanderen, spelen top bots bijna optimaal met foutpercentages onder 2 punten/spel."
+        }
+      },
+      {
+        question: {
+          en: "What is 'thermometer position' analysis?",
+          es: "¿Qué es análisis de 'posición de termómetro'?",
+          de: "Was ist 'Thermometer-Positions'-Analyse?",
+          nl: "Wat is 'thermometer positie' analyse?"
+        },
+        options: [
+          { en: "Testing position at different cube levels to measure cube efficiency", es: "Probar posición en diferentes niveles de cubo para medir eficiencia de cubo", de: "Position bei verschiedenen Würfelniveaus testen um Würfeleffizienz zu messen", nl: "Positie testen op verschillende dobbelsteenniveaus om dobbelsteenefficiëntie te meten" },
+          { en: "Measuring position temperature", es: "Medir temperatura de posición", de: "Positionstemperatur messen", nl: "Positie temperatuur meten" },
+          { en: "Heat mapping board positions", es: "Mapeo de calor de posiciones del tablero", de: "Hitzekarte von Brettpositionen", nl: "Warmte mapping van bordposities" },
+          { en: "Testing position volatility", es: "Probar volatilidad de posición", de: "Positionsvolatilität testen", nl: "Positie volatiliteit testen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Thermometer analysis evaluates the same position at cube levels 1, 2, 4, etc. to measure cube efficiency. If equity scales proportionally (doubles at each level), cube efficiency is 100%. If it scales less, efficiency is lower. This reveals how much cube power matters in that position type.",
+          es: "El análisis de termómetro evalúa la misma posición en niveles de cubo 1, 2, 4, etc. para medir eficiencia de cubo. Si el equity escala proporcionalmente (se duplica en cada nivel), la eficiencia de cubo es 100%. Si escala menos, la eficiencia es menor. Esto revela cuánto importa el poder del cubo en ese tipo de posición.",
+          de: "Thermometer-Analyse bewertet dieselbe Position bei Würfelniveaus 1, 2, 4, usw. um Würfeleffizienz zu messen. Wenn Equity proportional skaliert (verdoppelt bei jedem Niveau) ist Würfeleffizienz 100%. Wenn es weniger skaliert ist Effizienz niedriger. Dies zeigt wie viel Würfelkraft in diesem Positionstyp zählt.",
+          nl: "Thermometer analyse evalueert dezelfde positie op dobbelsteenniveaus 1, 2, 4, etc. om dobbelsteenefficiëntie te meten. Als equity proportioneel schaalt (verdubbelt bij elk niveau) is dobbelsteenefficiëntie 100%. Als het minder schaalt is efficiëntie lager. Dit onthult hoeveel dobbelsteenkracht ertoe doet in dat positietype."
+        }
+      },
+      {
+        question: {
+          en: "What is 'gammon price' in cube theory?",
+          es: "¿Qué es 'precio de gammon' en teoría de cubo?",
+          de: "Was ist 'Gammon-Preis' in der Würfeltheorie?",
+          nl: "Wat is 'gammon prijs' in dobbelsteentheorie?"
+        },
+        options: [
+          { en: "Cost in equity of allowing opponent gammon chances vs doubling now", es: "Costo en equity de permitir posibilidades de gammon al oponente vs doblar ahora", de: "Kosten in Equity Gegner Gammon-Chancen zu erlauben vs jetzt verdoppeln", nl: "Kosten in equity van tegenstander gammon kansen toestaan vs nu verdubbelen" },
+          { en: "Value of winning gammon", es: "Valor de ganar gammon", de: "Wert des Gammon-Gewinnens", nl: "Waarde van gammon winnen" },
+          { en: "Gammon probability percentage", es: "Porcentaje de probabilidad de gammon", de: "Gammon-Wahrscheinlichkeitsprozentsatz", nl: "Gammon waarschijnlijkheid percentage" },
+          { en: "Economic cost of gammons", es: "Costo económico de gammons", de: "Wirtschaftliche Kosten von Gammons", nl: "Economische kosten van gammons" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gammon price is the equity you sacrifice by waiting instead of doubling when you have gammon chances. If you're too good to double (opponent would pass), you pay the 'gammon price' - the difference between playing for gammon at 1x vs. winning outright at 2x. Balancing this is key cube skill.",
+          es: "El precio de gammon es el equity que sacrificas al esperar en lugar de doblar cuando tienes posibilidades de gammon. Si eres demasiado bueno para doblar (oponente pasaría), pagas el 'precio de gammon' - la diferencia entre jugar por gammon a 1x vs. ganar directamente a 2x. Balancear esto es habilidad clave de cubo.",
+          de: "Gammon-Preis ist das Equity das Sie opfern indem Sie warten statt zu verdoppeln wenn Sie Gammon-Chancen haben. Wenn Sie zu gut zum Verdoppeln sind (Gegner würde passen) zahlen Sie den 'Gammon-Preis' - der Unterschied zwischen auf Gammon bei 1x spielen vs. direkt bei 2x gewinnen. Dies zu balancieren ist Schlüssel-Würfelfähigkeit.",
+          nl: "Gammon prijs is de equity die je opoffert door te wachten in plaats van te verdubbelen wanneer je gammon kansen hebt. Als je te goed bent om te verdubbelen (tegenstander zou passen) betaal je de 'gammon prijs' - het verschil tussen spelen voor gammon op 1x vs. direct winnen op 2x. Dit balanceren is belangrijke dobbelsteenvaardigheid."
+        }
+      },
+      {
+        question: {
+          en: "What is 'checkerplay equity' vs 'cube equity'?",
+          es: "¿Qué es 'equity de juego de fichas' vs 'equity de cubo'?",
+          de: "Was ist 'Steinspiel-Equity' vs 'Würfel-Equity'?",
+          nl: "Wat is 'steenspel equity' vs 'dobbelsteen equity'?"
+        },
+        options: [
+          { en: "Checkerplay: equity from move decisions; Cube: from doubling decisions", es: "Juego de fichas: equity de decisiones de movimiento; Cubo: de decisiones de doblar", de: "Steinspiel: Equity aus Zugentscheidungen; Würfel: aus Verdopplungsentscheidungen", nl: "Steenspel: equity van zetbeslissingen; Dobbelsteen: van verdubbelbeslissingen" },
+          { en: "Different equity calculation methods", es: "Diferentes métodos de cálculo de equity", de: "Verschiedene Equity-Berechnungsmethoden", nl: "Verschillende equity berekenings methoden" },
+          { en: "Position vs game equity", es: "Equity de posición vs juego", de: "Positions- vs Spiel-Equity", nl: "Positie vs spel equity" },
+          { en: "Tactical vs strategic equity", es: "Equity táctica vs estratégica", de: "Taktisches vs strategisches Equity", nl: "Tactische vs strategische equity" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Checkerplay equity measures your skill at moving checkers optimally each turn. Cube equity measures your doubling cube decisions. Top players excel at both, but many intermediate players are stronger at one than the other. Modern bots separate these for targeted analysis and improvement.",
+          es: "Equity de juego de fichas mide tu habilidad para mover fichas óptimamente cada turno. Equity de cubo mide tus decisiones de cubo de doblar. Los mejores jugadores sobresalen en ambos, pero muchos jugadores intermedios son más fuertes en uno que en el otro. Los bots modernos separan estos para análisis y mejora dirigidos.",
+          de: "Steinspiel-Equity misst Ihre Fähigkeit Steine optimal zu bewegen jeden Zug. Würfel-Equity misst Ihre Dopplungswürfel-Entscheidungen. Top-Spieler brillieren in beidem, aber viele Fortgeschrittene sind stärker in einem als im anderen. Moderne Bots trennen diese für gezielte Analyse und Verbesserung.",
+          nl: "Steenspel equity meet je vaardigheid om stenen optimaal te bewegen elke beurt. Dobbelsteen equity meet je verdubbeldobbelsteen beslissingen. Top spelers blinken uit in beide, maar veel gemiddelde spelers zijn sterker in de ene dan de andere. Moderne bots scheiden deze voor gerichte analyse en verbetering."
+        }
+      },
+      {
+        question: {
+          en: "What is 'live cube' vs 'dead cube' in match play?",
+          es: "¿Qué es 'cubo vivo' vs 'cubo muerto' en juego de match?",
+          de: "Was ist 'lebender Würfel' vs 'toter Würfel' im Match-Spiel?",
+          nl: "Wat is 'levende dobbelsteen' vs 'dode dobbelsteen' in wedstrijdspel?"
+        },
+        options: [
+          { en: "Live: cube may be used; Dead: cube strategically useless at score", es: "Vivo: cubo puede usarse; Muerto: cubo estratégicamente inútil en marcador", de: "Lebendig: Würfel kann verwendet werden; Tot: Würfel strategisch nutzlos beim Stand", nl: "Levend: dobbelsteen kan worden gebruikt; Dood: dobbelsteen strategisch nutteloos bij score" },
+          { en: "Active vs inactive cube", es: "Cubo activo vs inactivo", de: "Aktiver vs inaktiver Würfel", nl: "Actieve vs inactieve dobbelsteen" },
+          { en: "Working vs broken cube", es: "Cubo funcionando vs roto", de: "Funktionierender vs kaputter Würfel", nl: "Werkende vs kapotte dobbelsteen" },
+          { en: "Valuable vs worthless cube", es: "Cubo valioso vs sin valor", de: "Wertvoller vs wertloser Würfel", nl: "Waardevolle vs waardeloze dobbelsteen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A live cube may be used by either player. A dead cube occurs at match scores where neither player should ever double (like 2-away 2-away post-Crawford, or DMP). The game plays out as if there's no cube. Recognizing dead cube situations prevents blunders and simplifies decisions.",
+          es: "Un cubo vivo puede ser usado por cualquier jugador. Un cubo muerto ocurre en marcadores de match donde ningún jugador debería doblar nunca (como 2-away 2-away post-Crawford, o DMP). El juego se desarrolla como si no hubiera cubo. Reconocer situaciones de cubo muerto previene desaciertos y simplifica decisiones.",
+          de: "Ein lebender Würfel kann von jedem Spieler verwendet werden. Ein toter Würfel tritt bei Match-Ständen auf wo kein Spieler jemals verdoppeln sollte (wie 2-away 2-away nach-Crawford, oder DMP). Das Spiel läuft ab als gäbe es keinen Würfel. Tote-Würfel-Situationen zu erkennen verhindert Patzer und vereinfacht Entscheidungen.",
+          nl: "Een levende dobbelsteen kan door beide spelers worden gebruikt. Een dode dobbelsteen vindt plaats bij wedstrijdscores waar geen enkele speler ooit zou moeten verdubbelen (zoals 2-away 2-away na-Crawford, of DMP). Het spel speelt zich af alsof er geen dobbelsteen is. Dode dobbelsteen situaties herkennen voorkomt blunders en vereenvoudigt beslissingen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'position ID' in backgammon software?",
+          es: "¿Qué es 'ID de posición' en software de backgammon?",
+          de: "Was ist 'Positions-ID' in Backgammon-Software?",
+          nl: "Wat is 'positie ID' in backgammon software?"
+        },
+        options: [
+          { en: "Unique identifier encoding exact checker positions for sharing", es: "Identificador único codificando posiciones exactas de fichas para compartir", de: "Eindeutige Kennung kodiert exakte Steinpositionen zum Teilen", nl: "Unieke identificatie codeert exacte steenposities voor delen" },
+          { en: "Position identification number", es: "Número de identificación de posición", de: "Positionsidentifikationsnummer", nl: "Positie identificatie nummer" },
+          { en: "Player ID in position", es: "ID de jugador en posición", de: "Spieler-ID in Position", nl: "Speler ID in positie" },
+          { en: "Position classification code", es: "Código de clasificación de posición", de: "Positionsklassifizierungscode", nl: "Positie classificatie code" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Position ID is a standardized string encoding the exact location of all checkers, cube level, and whose turn it is. This allows sharing positions between players and software. For example, you can paste a Position ID into GNU Backgammon or XG to analyze the same position someone else is discussing.",
+          es: "ID de posición es una cadena estandarizada codificando la ubicación exacta de todas las fichas, nivel de cubo y de quién es el turno. Esto permite compartir posiciones entre jugadores y software. Por ejemplo, puedes pegar un ID de Posición en GNU Backgammon o XG para analizar la misma posición que alguien más está discutiendo.",
+          de: "Positions-ID ist eine standardisierte Zeichenfolge die den exakten Standort aller Steine, Würfelniveau und wer am Zug ist kodiert. Dies erlaubt Positionen zwischen Spielern und Software zu teilen. Zum Beispiel können Sie eine Positions-ID in GNU Backgammon oder XG einfügen um dieselbe Position zu analysieren die jemand anders diskutiert.",
+          nl: "Positie ID is een gestandaardiseerde string die de exacte locatie van alle stenen, dobbelsteenniveau en wiens beurt het is codeert. Dit maakt het delen van posities tussen spelers en software mogelijk. Bijvoorbeeld, je kunt een Positie ID plakken in GNU Backgammon of XG om dezelfde positie te analyseren die iemand anders bespreekt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'money equity' vs 'match equity'?",
+          es: "¿Qué es 'equity de dinero' vs 'equity de match'?",
+          de: "Was ist 'Geld-Equity' vs 'Match-Equity'?",
+          nl: "Wat is 'geld equity' vs 'wedstrijd equity'?"
+        },
+        options: [
+          { en: "Money: points/stake in single game; Match: probability of winning match", es: "Dinero: puntos/apuesta en juego único; Match: probabilidad de ganar match", de: "Geld: Punkte/Einsatz in Einzelspiel; Match: Wahrscheinlichkeit Match zu gewinnen", nl: "Geld: punten/inzet in enkel spel; Wedstrijd: waarschijnlijkheid om wedstrijd te winnen" },
+          { en: "Cash games vs tournament games", es: "Juegos de efectivo vs juegos de torneo", de: "Bargeldspiele vs Turnierspiele", nl: "Contante spellen vs toernooi spellen" },
+          { en: "Dollar value vs point value", es: "Valor en dólares vs valor en puntos", de: "Dollarwert vs Punktwert", nl: "Dollarwaarde vs puntwaarde" },
+          { en: "Different equity systems", es: "Diferentes sistemas de equity", de: "Verschiedene Equity-Systeme", nl: "Verschillende equity systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Money equity is expected value in points or dollars for the current game, treating each game independently. Match equity is your probability of winning the entire match from the current score. A +0.400 money position might be worth different match equity at different scores (e.g., worthless at DMP, huge at 2-away 3-away).",
+          es: "Equity de dinero es valor esperado en puntos o dólares para el juego actual, tratando cada juego independientemente. Equity de match es tu probabilidad de ganar el match completo desde el marcador actual. Una posición de dinero +0.400 podría valer equity de match diferente en diferentes marcadores (ej., sin valor en DMP, enorme en 2-away 3-away).",
+          de: "Geld-Equity ist erwarteter Wert in Punkten oder Dollar für das aktuelle Spiel, jedes Spiel unabhängig behandelnd. Match-Equity ist Ihre Wahrscheinlichkeit das gesamte Match vom aktuellen Stand zu gewinnen. Eine +0,400 Geld-Position könnte unterschiedliches Match-Equity bei verschiedenen Ständen wert sein (z.B. wertlos bei DMP, riesig bei 2-away 3-away).",
+          nl: "Geld equity is verwachte waarde in punten of dollars voor het huidige spel, elk spel onafhankelijk behandelend. Wedstrijd equity is je waarschijnlijkheid om de hele wedstrijd te winnen vanaf de huidige score. Een +0,400 geld positie zou verschillende wedstrijd equity waard kunnen zijn bij verschillende scores (bijv. waardeloos bij DMP, enorm bij 2-away 3-away)."
+        }
       }
     ]
   };

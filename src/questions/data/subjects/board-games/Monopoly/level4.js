@@ -427,6 +427,426 @@
           de: "Park Place mit 1 Haus verlangt $175 Miete.",
           nl: "Park Place met 1 huis vraagt $175 huur."
         }
+      },
+      {
+        question: {
+          en: "What is the rent on Boardwalk with 2 houses?",
+          es: "¿Cuál es el alquiler en Boardwalk con 2 casas?",
+          de: "Was ist die Miete auf Boardwalk mit 2 Häusern?",
+          nl: "Wat is de huur op Boardwalk met 2 huizen?"
+        },
+        options: [
+          { en: "$200", es: "$200", de: "$200", nl: "$200" },
+          { en: "$400", es: "$400", de: "$400", nl: "$400" },
+          { en: "$600", es: "$600", de: "$600", nl: "$600" },
+          { en: "$800", es: "$800", de: "$800", nl: "$800" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Boardwalk with 2 houses charges $600 in rent, making it one of the most expensive properties.",
+          es: "Boardwalk con 2 casas cobra $600 de alquiler, convirtiéndola en una de las propiedades más caras.",
+          de: "Boardwalk mit 2 Häusern verlangt $600 Miete, was es zu einer der teuersten Eigenschaften macht.",
+          nl: "Boardwalk met 2 huizen vraagt $600 huur, waardoor het een van de duurste eigendommen is."
+        }
+      },
+      {
+        question: {
+          en: "How much does a hotel cost on red properties?",
+          es: "¿Cuánto cuesta un hotel en las propiedades rojas?",
+          de: "Wie viel kostet ein Hotel auf roten Eigenschaften?",
+          nl: "Hoeveel kost een hotel op rode eigendommen?"
+        },
+        options: [
+          { en: "$150", es: "$150", de: "$150", nl: "$150" },
+          { en: "$200", es: "$200", de: "$200", nl: "$200" },
+          { en: "$250", es: "$250", de: "$250", nl: "$250" },
+          { en: "$300", es: "$300", de: "$300", nl: "$300" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hotels on red properties cost $150 (same as house cost). Total investment: 4 houses + hotel = $750.",
+          es: "Los hoteles en propiedades rojas cuestan $150 (igual que el costo de una casa). Inversión total: 4 casas + hotel = $750.",
+          de: "Hotels auf roten Eigenschaften kosten $150 (gleich wie Hauskosten). Gesamtinvestition: 4 Häuser + Hotel = $750.",
+          nl: "Hotels op rode eigendommen kosten $150 (zelfde als huiskosten). Totale investering: 4 huizen + hotel = $750."
+        }
+      },
+      {
+        question: {
+          en: "Which property group is landed on most frequently?",
+          es: "¿En qué grupo de propiedades se cae con más frecuencia?",
+          de: "Welche Eigenschaftsgruppe wird am häufigsten betreten?",
+          nl: "Op welke eigendomsgroep wordt het vaakst geland?"
+        },
+        options: [
+          { en: "Orange properties", es: "Propiedades naranjas", de: "Orange Eigenschaften", nl: "Oranje eigendommen" },
+          { en: "Red properties", es: "Propiedades rojas", de: "Rote Eigenschaften", nl: "Rode eigendommen" },
+          { en: "Dark blue properties", es: "Propiedades azul oscuro", de: "Dunkelblaue Eigenschaften", nl: "Donkerblauwe eigendommen" },
+          { en: "Green properties", es: "Propiedades verdes", de: "Grüne Eigenschaften", nl: "Groene eigendommen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Orange properties are statistically landed on most due to their position relative to Jail (6-9 spaces away).",
+          es: "Las propiedades naranjas son estadísticamente las más visitadas debido a su posición relativa a la Cárcel (6-9 espacios de distancia).",
+          de: "Orange Eigenschaften werden statistisch am häufigsten betreten aufgrund ihrer Position relativ zum Gefängnis (6-9 Felder entfernt).",
+          nl: "Oranje eigendommen worden statistisch het vaakst bezocht vanwege hun positie ten opzichte van de Gevangenis (6-9 vakken afstand)."
+        }
+      },
+      {
+        question: {
+          en: "What is the best return on investment property group?",
+          es: "¿Cuál es el grupo de propiedades con mejor retorno de inversión?",
+          de: "Welche Eigenschaftsgruppe hat den besten Return on Investment?",
+          nl: "Wat is de eigendomsgroep met het beste rendement?"
+        },
+        options: [
+          { en: "Orange", es: "Naranja", de: "Orange", nl: "Oranje" },
+          { en: "Light blue", es: "Azul claro", de: "Hellblau", nl: "Lichtblauw" },
+          { en: "Dark blue", es: "Azul oscuro", de: "Dunkelblau", nl: "Donkerblauw" },
+          { en: "Railroad", es: "Ferrocarril", de: "Eisenbahn", nl: "Spoorweg" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Orange properties offer the best ROI - frequently landed on, moderate cost, and strong rent progression.",
+          es: "Las propiedades naranjas ofrecen el mejor ROI - se visitan frecuentemente, costo moderado y fuerte progresión de alquiler.",
+          de: "Orange Eigenschaften bieten den besten ROI - häufig betreten, moderate Kosten und starke Mietsteigerung.",
+          nl: "Oranje eigendommen bieden het beste ROI - vaak bezocht, gematigde kosten en sterke huurstijging."
+        }
+      },
+      {
+        question: {
+          en: "How many houses return to the bank when you upgrade to a hotel?",
+          es: "¿Cuántas casas regresan al banco cuando mejoras a un hotel?",
+          de: "Wie viele Häuser gehen zurück zur Bank, wenn Sie auf ein Hotel upgraden?",
+          nl: "Hoeveel huizen gaan terug naar de bank als je upgradet naar een hotel?"
+        },
+        options: [
+          { en: "3 houses", es: "3 casas", de: "3 Häuser", nl: "3 huizen" },
+          { en: "4 houses", es: "4 casas", de: "4 Häuser", nl: "4 huizen" },
+          { en: "5 houses", es: "5 casas", de: "5 Häuser", nl: "5 huizen" },
+          { en: "No houses return", es: "Ninguna casa regresa", de: "Keine Häuser kehren zurück", nl: "Geen huizen gaan terug" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "When upgrading to a hotel, all 4 houses from that property return to the bank and are replaced by 1 hotel.",
+          es: "Al mejorar a un hotel, las 4 casas de esa propiedad regresan al banco y son reemplazadas por 1 hotel.",
+          de: "Beim Upgrade auf ein Hotel gehen alle 4 Häuser von dieser Eigenschaft zurück zur Bank und werden durch 1 Hotel ersetzt.",
+          nl: "Bij een upgrade naar een hotel gaan alle 4 huizen van dat eigendom terug naar de bank en worden vervangen door 1 hotel."
+        }
+      },
+      {
+        question: {
+          en: "Can you build on a property if one in the group is mortgaged?",
+          es: "¿Puedes construir en una propiedad si una del grupo está hipotecada?",
+          de: "Können Sie auf einer Eigenschaft bauen, wenn eine in der Gruppe beliehen ist?",
+          nl: "Kun je bouwen op een eigendom als er één in de groep gehypothekeerd is?"
+        },
+        options: [
+          { en: "Yes, on unmortgaged properties", es: "Sí, en propiedades no hipotecadas", de: "Ja, auf nicht beliehenen Eigenschaften", nl: "Ja, op niet-gehypothekeerde eigendommen" },
+          { en: "No, all must be unmortgaged", es: "No, todas deben estar sin hipotecar", de: "Nein, alle müssen entbeleiht sein", nl: "Nee, alle moeten onthypothekeerd zijn" },
+          { en: "Yes, but costs double", es: "Sí, pero cuesta el doble", de: "Ja, aber kostet doppelt", nl: "Ja, maar kost dubbel" },
+          { en: "Only with bank permission", es: "Solo con permiso del banco", de: "Nur mit Bankerlaubnis", nl: "Alleen met toestemming van de bank" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "You cannot build on any property in a color group if any property in that group is mortgaged.",
+          es: "No puedes construir en ninguna propiedad de un grupo de colores si alguna propiedad de ese grupo está hipotecada.",
+          de: "Sie können auf keiner Eigenschaft einer Farbgruppe bauen, wenn eine Eigenschaft in dieser Gruppe beliehen ist.",
+          nl: "Je kunt niet bouwen op enig eigendom in een kleurgroep als enig eigendom in die groep gehypothekeerd is."
+        }
+      },
+      {
+        question: {
+          en: "What is the maximum rent on Boardwalk with a hotel?",
+          es: "¿Cuál es el alquiler máximo en Boardwalk con un hotel?",
+          de: "Was ist die maximale Miete auf Boardwalk mit einem Hotel?",
+          nl: "Wat is de maximale huur op Boardwalk met een hotel?"
+        },
+        options: [
+          { en: "$1,000", es: "$1,000", de: "$1,000", nl: "$1,000" },
+          { en: "$1,500", es: "$1,500", de: "$1,500", nl: "$1,500" },
+          { en: "$2,000", es: "$2,000", de: "$2,000", nl: "$2,000" },
+          { en: "$2,500", es: "$2,500", de: "$2,500", nl: "$2,500" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Boardwalk with a hotel charges $2,000 rent - the highest rent in the game.",
+          es: "Boardwalk con un hotel cobra $2,000 de alquiler - el alquiler más alto del juego.",
+          de: "Boardwalk mit einem Hotel verlangt $2,000 Miete - die höchste Miete im Spiel.",
+          nl: "Boardwalk met een hotel vraagt $2,000 huur - de hoogste huur in het spel."
+        }
+      },
+      {
+        question: {
+          en: "How much is the rent on a utility with both owned?",
+          es: "¿Cuánto es el alquiler en un servicio público si posees ambos?",
+          de: "Wie viel ist die Miete für ein Versorgungsunternehmen, wenn beide besessen werden?",
+          nl: "Hoeveel is de huur op een nutsbedrijf als je beide bezit?"
+        },
+        options: [
+          { en: "4 times dice roll", es: "4 veces la tirada de dados", de: "4-facher Würfelwurf", nl: "4 keer dobbelsteenworp" },
+          { en: "6 times dice roll", es: "6 veces la tirada de dados", de: "6-facher Würfelwurf", nl: "6 keer dobbelsteenworp" },
+          { en: "8 times dice roll", es: "8 veces la tirada de dados", de: "8-facher Würfelwurf", nl: "8 keer dobbelsteenworp" },
+          { en: "10 times dice roll", es: "10 veces la tirada de dados", de: "10-facher Würfelwurf", nl: "10 keer dobbelsteenworp" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "If you own both utilities, rent is 10 times the dice roll amount (vs. 4 times for owning just one).",
+          es: "Si posees ambos servicios públicos, el alquiler es 10 veces la tirada de dados (vs. 4 veces por poseer solo uno).",
+          de: "Wenn Sie beide Versorgungsunternehmen besitzen, ist die Miete das 10-fache des Würfelwurfs (vs. 4-fach für nur eines).",
+          nl: "Als je beide nutsbedrijven bezit, is de huur 10 keer de dobbelsteenworp (vs. 4 keer voor slechts één)."
+        }
+      },
+      {
+        question: {
+          en: "What is the strategic value of owning all four railroads?",
+          es: "¿Cuál es el valor estratégico de poseer los cuatro ferrocarriles?",
+          de: "Was ist der strategische Wert, alle vier Eisenbahnen zu besitzen?",
+          nl: "Wat is de strategische waarde van het bezitten van alle vier spoorwegen?"
+        },
+        options: [
+          { en: "Guaranteed $200 per landing", es: "$200 garantizados por aterrizaje", de: "$200 garantiert pro Landung", nl: "$200 gegarandeerd per landing" },
+          { en: "No houses needed for strong income", es: "No se necesitan casas para ingresos fuertes", de: "Keine Häuser für starkes Einkommen nötig", nl: "Geen huizen nodig voor sterk inkomen" },
+          { en: "Can trade them for properties", es: "Puedes cambiarlos por propiedades", de: "Kann sie gegen Eigenschaften tauschen", nl: "Kunt ze ruilen voor eigendommen" },
+          { en: "All of the above", es: "Todo lo anterior", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "All 4 railroads provide steady $200 rent without requiring house investment, offering consistent cashflow.",
+          es: "Los 4 ferrocarriles proporcionan un alquiler constante de $200 sin requerir inversión en casas, ofreciendo flujo de efectivo constante.",
+          de: "Alle 4 Eisenbahnen bieten stetige $200 Miete ohne Hausinvestition und bieten konstanten Cashflow.",
+          nl: "Alle 4 spoorwegen bieden stabiele $200 huur zonder huizeninvestering, wat consistente cashflow oplevert."
+        }
+      },
+      {
+        question: {
+          en: "Which monopoly requires the least total investment to develop?",
+          es: "¿Qué monopolio requiere la menor inversión total para desarrollar?",
+          de: "Welches Monopol erfordert die geringste Gesamtinvestition zur Entwicklung?",
+          nl: "Welk monopolie vereist de minste totale investering om te ontwikkelen?"
+        },
+        options: [
+          { en: "Brown properties", es: "Propiedades marrones", de: "Braune Eigenschaften", nl: "Bruine eigendommen" },
+          { en: "Light blue properties", es: "Propiedades azul claro", de: "Hellblaue Eigenschaften", nl: "Lichtblauwe eigendommen" },
+          { en: "Orange properties", es: "Propiedades naranjas", de: "Orange Eigenschaften", nl: "Oranje eigendommen" },
+          { en: "Railroads", es: "Ferrocarriles", de: "Eisenbahnen", nl: "Spoorwegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brown properties cost only $110 to buy and $300 for hotels (3 houses × $50 + hotel $50), lowest in game.",
+          es: "Las propiedades marrones cuestan solo $110 para comprar y $300 para hoteles (3 casas × $50 + hotel $50), lo más bajo del juego.",
+          de: "Braune Eigenschaften kosten nur $110 zum Kauf und $300 für Hotels (3 Häuser × $50 + Hotel $50), am niedrigsten im Spiel.",
+          nl: "Bruine eigendommen kosten slechts $110 om te kopen en $300 voor hotels (3 huizen × $50 + hotel $50), laagste in het spel."
+        }
+      },
+      {
+        question: {
+          en: "What happens to mortgaged properties when you declare bankruptcy?",
+          es: "¿Qué pasa con las propiedades hipotecadas cuando te declaras en bancarrota?",
+          de: "Was passiert mit beliehenen Eigenschaften, wenn Sie Konkurs anmelden?",
+          nl: "Wat gebeurt er met gehypothekeerde eigendommen als je failliet gaat?"
+        },
+        options: [
+          { en: "They return to the bank", es: "Vuelven al banco", de: "Sie gehen zurück an die Bank", nl: "Ze gaan terug naar de bank" },
+          { en: "The creditor receives them mortgaged", es: "El acreedor las recibe hipotecadas", de: "Gläubiger erhält sie beliehen", nl: "Schuldeiser ontvangt ze gehypothekeerd" },
+          { en: "They are auctioned", es: "Se subastan", de: "Sie werden versteigert", nl: "Ze worden geveild" },
+          { en: "They are lost forever", es: "Se pierden para siempre", de: "Sie sind für immer verloren", nl: "Ze zijn voor altijd verloren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "When you go bankrupt to a player, they receive all your properties including mortgaged ones (still mortgaged).",
+          es: "Cuando te declaras en bancarrota a un jugador, recibe todas tus propiedades incluyendo las hipotecadas (aún hipotecadas).",
+          de: "Wenn Sie gegenüber einem Spieler Konkurs anmelden, erhält dieser alle Ihre Eigenschaften einschließlich beliehener (noch beliehen).",
+          nl: "Als je failliet gaat bij een speler, ontvangt deze al je eigendommen inclusief gehypothekeerde (nog steeds gehypothekeerd)."
+        }
+      },
+      {
+        question: {
+          en: "Can you buy houses on your turn in Jail?",
+          es: "¿Puedes comprar casas en tu turno en la cárcel?",
+          de: "Können Sie in Ihrem Zug im Gefängnis Häuser kaufen?",
+          nl: "Kun je huizen kopen tijdens je beurt in de gevangenis?"
+        },
+        options: [
+          { en: "No, cannot build in Jail", es: "No, no puedes construir en la cárcel", de: "Nein, kann im Gefängnis nicht bauen", nl: "Nee, kan niet bouwen in gevangenis" },
+          { en: "Yes, you can still build", es: "Sí, aún puedes construir", de: "Ja, Sie können weiterhin bauen", nl: "Ja, je kunt nog steeds bouwen" },
+          { en: "Only if you pay $50 first", es: "Solo si pagas $50 primero", de: "Nur wenn Sie zuerst $50 zahlen", nl: "Alleen als je eerst $50 betaalt" },
+          { en: "Only on railroads", es: "Solo en ferrocarriles", de: "Nur auf Eisenbahnen", nl: "Alleen op spoorwegen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Being in Jail doesn't restrict building - you can buy/sell houses and trade normally.",
+          es: "Estar en la cárcel no restringe la construcción - puedes comprar/vender casas y negociar normalmente.",
+          de: "Im Gefängnis zu sein schränkt das Bauen nicht ein - Sie können Häuser kaufen/verkaufen und normal handeln.",
+          nl: "In de gevangenis zijn beperkt bouwen niet - je kunt huizen kopen/verkopen en normaal handelen."
+        }
+      },
+      {
+        question: {
+          en: "What is the total cost to fully develop all orange properties?",
+          es: "¿Cuál es el costo total para desarrollar completamente todas las propiedades naranjas?",
+          de: "Was sind die Gesamtkosten für die vollständige Entwicklung aller orangefarbenen Eigenschaften?",
+          nl: "Wat zijn de totale kosten om alle oranje eigendommen volledig te ontwikkelen?"
+        },
+        options: [
+          { en: "$1,500", es: "$1,500", de: "$1,500", nl: "$1,500" },
+          { en: "$1,800", es: "$1,800", de: "$1,800", nl: "$1,800" },
+          { en: "$2,000", es: "$2,000", de: "$2,000", nl: "$2,000" },
+          { en: "$2,200", es: "$2,200", de: "$2,200", nl: "$2,200" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Orange properties cost $880 to buy + 3 hotels at $400 each ($1,200) = $2,080 total (houses: $100 each).",
+          es: "Las propiedades naranjas cuestan $880 para comprar + 3 hoteles a $400 cada uno ($1,200) = $2,080 total (casas: $100 cada una).",
+          de: "Orange Eigenschaften kosten $880 zum Kauf + 3 Hotels zu je $400 ($1,200) = $2,080 gesamt (Häuser: je $100).",
+          nl: "Oranje eigendommen kosten $880 om te kopen + 3 hotels à $400 elk ($1,200) = $2,080 totaal (huizen: $100 elk)."
+        }
+      },
+      {
+        question: {
+          en: "Which chance card sends you directly to Boardwalk?",
+          es: "¿Qué carta de Chance te envía directamente a Boardwalk?",
+          de: "Welche Ereigniskarte schickt Sie direkt zu Boardwalk?",
+          nl: "Welke kanskaart stuurt je direct naar Boardwalk?"
+        },
+        options: [
+          { en: "Advance to Boardwalk", es: "Avanza a Boardwalk", de: "Gehe zu Boardwalk", nl: "Ga naar Boardwalk" },
+          { en: "Go to nearest utility", es: "Ve al servicio público más cercano", de: "Gehe zum nächsten Versorgungsunternehmen", nl: "Ga naar dichtstbijzijnde nutsbedrijf" },
+          { en: "Take a walk on the Boardwalk", es: "Da un paseo por el Boardwalk", de: "Machen Sie einen Spaziergang auf dem Boardwalk", nl: "Maak een wandeling op de Boardwalk" },
+          { en: "No such card exists", es: "No existe tal carta", de: "Keine solche Karte existiert", nl: "Zo'n kaart bestaat niet" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "There is no Chance card that sends you to Boardwalk. Cards go to specific locations but not Boardwalk.",
+          es: "No hay carta de Chance que te envíe a Boardwalk. Las cartas van a ubicaciones específicas pero no a Boardwalk.",
+          de: "Es gibt keine Ereigniskarte, die Sie zu Boardwalk schickt. Karten gehen zu bestimmten Orten, aber nicht zu Boardwalk.",
+          nl: "Er is geen kanskaart die je naar Boardwalk stuurt. Kaarten gaan naar specifieke locaties maar niet naar Boardwalk."
+        }
+      },
+      {
+        question: {
+          en: "What is a key advantage of the light blue monopoly?",
+          es: "¿Cuál es una ventaja clave del monopolio azul claro?",
+          de: "Was ist ein wichtiger Vorteil des hellblauen Monopols?",
+          nl: "Wat is een belangrijk voordeel van het lichtblauwe monopolie?"
+        },
+        options: [
+          { en: "Cheap to develop with decent returns", es: "Barato de desarrollar con retornos decentes", de: "Günstig zu entwickeln mit ordentlichen Renditen", nl: "Goedkoop om te ontwikkelen met degelijke rendementen" },
+          { en: "Highest rent in game", es: "Alquiler más alto del juego", de: "Höchste Miete im Spiel", nl: "Hoogste huur in het spel" },
+          { en: "Most landed on properties", es: "Propiedades más visitadas", de: "Am häufigsten betreten", nl: "Meest bezochte eigendommen" },
+          { en: "Cannot be mortgaged", es: "No se puede hipotecar", de: "Kann nicht beliehen werden", nl: "Kan niet gehypothekeerd worden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Light blue properties are inexpensive to buy and develop, offering good early-game value with $50 houses.",
+          es: "Las propiedades azul claro son baratas de comprar y desarrollar, ofreciendo buen valor inicial con casas de $50.",
+          de: "Hellblaue Eigenschaften sind günstig zu kaufen und zu entwickeln und bieten mit $50-Häusern guten Frühspielwert.",
+          nl: "Lichtblauwe eigendommen zijn goedkoop om te kopen en ontwikkelen, en bieden goede vroege spelwaarde met $50 huizen."
+        }
+      },
+      {
+        question: {
+          en: "How much total money is in a standard Monopoly bank?",
+          es: "¿Cuánto dinero total hay en un banco de Monopoly estándar?",
+          de: "Wie viel Geld insgesamt ist in einer Standard-Monopoly-Bank?",
+          nl: "Hoeveel geld in totaal zit er in een standaard Monopoly bank?"
+        },
+        options: [
+          { en: "$15,140", es: "$15,140", de: "$15,140", nl: "$15,140" },
+          { en: "$20,580", es: "$20,580", de: "$20,580", nl: "$20,580" },
+          { en: "$25,000", es: "$25,000", de: "$25,000", nl: "$25,000" },
+          { en: "Unlimited", es: "Ilimitado", de: "Unbegrenzt", nl: "Onbeperkt" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A standard Monopoly set has $20,580 total. If the bank runs out, use paper as substitutes.",
+          es: "Un set estándar de Monopoly tiene $20,580 en total. Si el banco se queda sin dinero, usa papel como sustituto.",
+          de: "Ein Standard-Monopoly-Set hat insgesamt $20,580. Wenn die Bank ausgeht, verwenden Sie Papier als Ersatz.",
+          nl: "Een standaard Monopoly set heeft in totaal $20,580. Als de bank opraakt, gebruik papier als vervanging."
+        }
+      },
+      {
+        question: {
+          en: "Which property has the highest rent with 4 houses?",
+          es: "¿Qué propiedad tiene el alquiler más alto con 4 casas?",
+          de: "Welche Eigenschaft hat die höchste Miete mit 4 Häusern?",
+          nl: "Welk eigendom heeft de hoogste huur met 4 huizen?"
+        },
+        options: [
+          { en: "Boardwalk - $1,400", es: "Boardwalk - $1,400", de: "Boardwalk - $1,400", nl: "Boardwalk - $1,400" },
+          { en: "Park Place - $1,200", es: "Park Place - $1,200", de: "Park Place - $1,200", nl: "Park Place - $1,200" },
+          { en: "Pennsylvania Avenue - $1,000", es: "Pennsylvania Avenue - $1,000", de: "Pennsylvania Avenue - $1,000", nl: "Pennsylvania Avenue - $1,000" },
+          { en: "Illinois Avenue - $900", es: "Illinois Avenue - $900", de: "Illinois Avenue - $900", nl: "Illinois Avenue - $900" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Boardwalk with 4 houses charges $1,400 rent, the highest 4-house rent in the game.",
+          es: "Boardwalk con 4 casas cobra $1,400 de alquiler, el alquiler de 4 casas más alto del juego.",
+          de: "Boardwalk mit 4 Häusern verlangt $1,400 Miete, die höchste 4-Haus-Miete im Spiel.",
+          nl: "Boardwalk met 4 huizen vraagt $1,400 huur, de hoogste 4-huizen huur in het spel."
+        }
+      },
+      {
+        question: {
+          en: "What is the rent multiplier for owning a complete color group?",
+          es: "¿Cuál es el multiplicador de alquiler por poseer un grupo de colores completo?",
+          de: "Was ist der Mietmultiplikator für den Besitz einer vollständigen Farbgruppe?",
+          nl: "Wat is de huurmultiplicator voor het bezitten van een complete kleurgroep?"
+        },
+        options: [
+          { en: "Rent stays the same", es: "El alquiler permanece igual", de: "Miete bleibt gleich", nl: "Huur blijft hetzelfde" },
+          { en: "Rent doubles", es: "El alquiler se duplica", de: "Miete verdoppelt sich", nl: "Huur verdubbelt" },
+          { en: "Rent triples", es: "El alquiler se triplica", de: "Miete verdreifacht sich", nl: "Huur verdriedubbelt" },
+          { en: "Rent quadruples", es: "El alquiler se cuadruplica", de: "Miete vervierfacht sich", nl: "Huur verviervoudigt" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "When you own all properties in a color group (monopoly), rent doubles even without houses.",
+          es: "Cuando posees todas las propiedades de un grupo de colores (monopolio), el alquiler se duplica incluso sin casas.",
+          de: "Wenn Sie alle Eigenschaften einer Farbgruppe (Monopol) besitzen, verdoppelt sich die Miete auch ohne Häuser.",
+          nl: "Als je alle eigendommen in een kleurgroep bezit (monopolie), verdubbelt de huur zelfs zonder huizen."
+        }
+      },
+      {
+        question: {
+          en: "Can a player refuse to participate in an auction?",
+          es: "¿Puede un jugador negarse a participar en una subasta?",
+          de: "Kann ein Spieler die Teilnahme an einer Auktion ablehnen?",
+          nl: "Kan een speler weigeren om deel te nemen aan een veiling?"
+        },
+        options: [
+          { en: "No, must bid at least $1", es: "No, debe ofertar al menos $1", de: "Nein, muss mindestens $1 bieten", nl: "Nee, moet minstens $1 bieden" },
+          { en: "Yes, can choose not to bid", es: "Sí, puede elegir no ofertar", de: "Ja, kann sich entscheiden nicht zu bieten", nl: "Ja, kan kiezen om niet te bieden" },
+          { en: "Only if bankrupt", es: "Solo si está en bancarrota", de: "Nur bei Konkurs", nl: "Alleen bij faillissement" },
+          { en: "Must pay $10 to opt out", es: "Debe pagar $10 para no participar", de: "Muss $10 zahlen zum Ausstieg", nl: "Moet $10 betalen om niet deel te nemen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Any player can choose not to bid in an auction - participation is optional.",
+          es: "Cualquier jugador puede elegir no ofertar en una subasta - la participación es opcional.",
+          de: "Jeder Spieler kann sich entscheiden, nicht in einer Auktion zu bieten - Teilnahme ist optional.",
+          nl: "Elke speler kan kiezen om niet te bieden in een veiling - deelname is optioneel."
+        }
+      },
+      {
+        question: {
+          en: "What is the purchase price of Connecticut Avenue?",
+          es: "¿Cuál es el precio de compra de Connecticut Avenue?",
+          de: "Was ist der Kaufpreis von Connecticut Avenue?",
+          nl: "Wat is de aankoopprijs van Connecticut Avenue?"
+        },
+        options: [
+          { en: "$100", es: "$100", de: "$100", nl: "$100" },
+          { en: "$120", es: "$120", de: "$120", nl: "$120" },
+          { en: "$140", es: "$140", de: "$140", nl: "$140" },
+          { en: "$160", es: "$160", de: "$160", nl: "$160" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Connecticut Avenue, the third light blue property, costs $120 to purchase.",
+          es: "Connecticut Avenue, la tercera propiedad azul claro, cuesta $120 para comprar.",
+          de: "Connecticut Avenue, die dritte hellblaue Eigenschaft, kostet $120 zum Kauf.",
+          nl: "Connecticut Avenue, het derde lichtblauwe eigendom, kost $120 om te kopen."
+        }
       }
     ]
   };

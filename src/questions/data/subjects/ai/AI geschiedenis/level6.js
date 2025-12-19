@@ -427,6 +427,426 @@
           de: "Naive Bayes Klassifikatoren wurden in den 1990ern extrem populär für Textklassifikationsaufgaben, trotz ihrer starken Unabhängigkeitsannahme. Sie waren schnell zu trainieren, benötigten relativ wenig Daten, behandelten hochdimensionale sparse Features gut und wurden zur Grundlage für frühe Spam-Filter und Dokumentklassifikationssysteme.",
           nl: "Naive Bayes classificeerders werden extreem populair in de jaren 1990 voor tekstclassificatie taken, ondanks hun sterke onafhankelijkheidsaanname. Ze waren snel te trainen, vereisten relatief weinig data, behandelden hoogdimensionale sparse features goed en werden de basis voor vroege spam filters en documentclassificatie systemen."
         }
+      },
+      {
+        question: {
+          en: "What was the kernel trick in SVMs and why was it important?",
+          es: "¿Qué fue el truco del kernel en SVM y por qué fue importante?",
+          de: "Was war der Kernel-Trick in SVMs und warum war er wichtig?",
+          nl: "Wat was de kernel truc in SVMs en waarom was het belangrijk?"
+        },
+        options: [
+          { en: "It allowed mapping data to higher dimensions for linear separation without explicit computation", es: "Permitió mapear datos a dimensiones superiores para separación lineal sin cómputo explícito", de: "Es ermöglichte Mapping von Daten zu höheren Dimensionen für lineare Trennung ohne explizite Berechnung", nl: "Het maakte het mogelijk data te mappen naar hogere dimensies voor lineaire scheiding zonder expliciete berekening" },
+          { en: "It was a hacking technique for computer security", es: "Fue una técnica de hacking para seguridad informática", de: "Es war eine Hacking-Technik für Computersicherheit", nl: "Het was een hacking techniek voor computerbeveiliging" },
+          { en: "It compressed data files", es: "Comprimió archivos de datos", de: "Es komprimierte Datendateien", nl: "Het comprimeerde databestanden" },
+          { en: "It was a programming language feature", es: "Fue una característica de lenguaje de programación", de: "Es war ein Programmiersprachen-Feature", nl: "Het was een programmeertaal functie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The kernel trick allowed SVMs to efficiently handle non-linear classification by implicitly mapping data to very high (even infinite) dimensional spaces where linear separation becomes possible, without actually computing the coordinates in that space. This made SVMs extremely powerful for complex problems.",
+          es: "El truco del kernel permitió a los SVM manejar eficientemente clasificación no lineal mapeando implícitamente datos a espacios de dimensiones muy altas (incluso infinitas) donde la separación lineal se vuelve posible, sin calcular realmente las coordenadas en ese espacio.",
+          de: "Der Kernel-Trick ermöglichte SVMs effiziente Behandlung nicht-linearer Klassifikation durch implizites Mapping von Daten zu sehr hochdimensionalen (sogar unendlichen) Räumen wo lineare Trennung möglich wird, ohne tatsächlich die Koordinaten in diesem Raum zu berechnen.",
+          nl: "De kernel truc stelde SVMs in staat om efficiënt niet-lineaire classificatie te behandelen door impliciet data te mappen naar zeer hoogdimensionale (zelfs oneindige) ruimtes waar lineaire scheiding mogelijk wordt, zonder daadwerkelijk de coördinaten in die ruimte te berekenen."
+        }
+      },
+      {
+        question: {
+          en: "What was the EM (Expectation-Maximization) algorithm's role in 1990s ML?",
+          es: "¿Cuál fue el papel del algoritmo EM (Expectation-Maximization) en ML de los 1990?",
+          de: "Was war die Rolle des EM (Expectation-Maximization) Algorithmus im ML der 1990er?",
+          nl: "Wat was de rol van het EM (Expectation-Maximization) algoritme in ML van de jaren 1990?"
+        },
+        options: [
+          { en: "It enabled learning with missing data and became foundation for clustering and mixture models", es: "Permitió aprendizaje con datos faltantes y se convirtió en base para clustering y modelos de mezcla", de: "Es ermöglichte Lernen mit fehlenden Daten und wurde Grundlage für Clustering und Mischmodelle", nl: "Het maakte leren met ontbrekende data mogelijk en werd de basis voor clustering en mengselmodellen" },
+          { en: "It was an email protocol", es: "Fue un protocolo de correo electrónico", de: "Es war ein E-Mail-Protokoll", nl: "Het was een e-mail protocol" },
+          { en: "It was a programming paradigm", es: "Fue un paradigma de programación", de: "Es war ein Programmierparadigma", nl: "Het was een programmeerparadigma" },
+          { en: "It managed computer memory", es: "Gestionó memoria de computadora", de: "Es verwaltete Computerspeicher", nl: "Het beheerde computergeheugen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The EM algorithm became widely used in the 1990s for parameter estimation in probabilistic models with latent variables. It was particularly important for Gaussian Mixture Models (GMMs), hidden Markov models, and handling incomplete data, alternating between expectation and maximization steps to find maximum likelihood estimates.",
+          es: "El algoritmo EM se volvió ampliamente usado en los 1990 para estimación de parámetros en modelos probabilísticos con variables latentes. Fue particularmente importante para Modelos de Mezcla Gaussiana, modelos ocultos de Markov y manejo de datos incompletos.",
+          de: "Der EM-Algorithmus wurde in den 1990ern weit verbreitet für Parameterschätzung in probabilistischen Modellen mit latenten Variablen. Er war besonders wichtig für Gaussian Mixture Models, Hidden Markov Models und Behandlung unvollständiger Daten.",
+          nl: "Het EM algoritme werd veel gebruikt in de jaren 1990 voor parameter schatting in probabilistische modellen met latente variabelen. Het was vooral belangrijk voor Gaussian Mixture Models, hidden Markov modellen en het behandelen van onvolledige data."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of the PageRank algorithm developed by Google founders in 1998?",
+          es: "¿Cuál fue la importancia del algoritmo PageRank desarrollado por los fundadores de Google en 1998?",
+          de: "Was war die Bedeutung des PageRank-Algorithmus entwickelt von Google-Gründern 1998?",
+          nl: "Wat was de betekenis van het PageRank algoritme ontwikkeld door Google oprichters in 1998?"
+        },
+        options: [
+          { en: "It used machine learning and graph theory to rank web pages by importance, revolutionizing search", es: "Usó aprendizaje automático y teoría de grafos para clasificar páginas web por importancia, revolucionando la búsqueda", de: "Es nutzte maschinelles Lernen und Graphentheorie um Webseiten nach Wichtigkeit zu ranken und revolutionierte Suche", nl: "Het gebruikte machine learning en grafentheorie om webpagina's op belangrijkheid te rangschikken, wat zoeken revolutioneerde" },
+          { en: "It was the first computer virus", es: "Fue el primer virus informático", de: "Es war der erste Computervirus", nl: "Het was het eerste computervirus" },
+          { en: "It created social media", es: "Creó las redes sociales", de: "Es schuf soziale Medien", nl: "Het creëerde sociale media" },
+          { en: "It invented email", es: "Inventó el correo electrónico", de: "Es erfand E-Mail", nl: "Het vond e-mail uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "PageRank applied ML and graph algorithms to the web's link structure, treating links as votes and computing page importance iteratively. This breakthrough made Google's search far superior to competitors and demonstrated how ML could solve real-world problems at massive scale, transforming the internet landscape.",
+          es: "PageRank aplicó ML y algoritmos de grafos a la estructura de enlaces de la web, tratando enlaces como votos y calculando importancia de páginas iterativamente. Este avance hizo que la búsqueda de Google fuera muy superior a competidores.",
+          de: "PageRank wendete ML und Graphalgorithmen auf die Link-Struktur des Webs an, behandelte Links als Stimmen und berechnete Seitenwichtigkeit iterativ. Dieser Durchbruch machte Googles Suche weit überlegen gegenüber Konkurrenten.",
+          nl: "PageRank paste ML en graaf algoritmen toe op de link structuur van het web, behandelde links als stemmen en berekende pagina belangrijkheid iteratief. Deze doorbraak maakte Google's zoeken veel beter dan concurrenten."
+        }
+      },
+      {
+        question: {
+          en: "What was k-means clustering's contribution to unsupervised learning in the 1990s?",
+          es: "¿Cuál fue la contribución de k-means clustering al aprendizaje no supervisado en los 1990?",
+          de: "Was war k-means Clustering's Beitrag zu unüberwachtem Lernen in den 1990ern?",
+          nl: "Wat was de bijdrage van k-means clustering aan onbewaakt leren in de jaren 1990?"
+        },
+        options: [
+          { en: "It provided a simple, fast, and widely applicable method for partitioning data into clusters", es: "Proporcionó un método simple, rápido y ampliamente aplicable para particionar datos en clusters", de: "Es bot eine einfache, schnelle und weit anwendbare Methode zur Partitionierung von Daten in Cluster", nl: "Het bood een eenvoudige, snelle en breed toepasbare methode voor het partitioneren van data in clusters" },
+          { en: "It was the first AI algorithm ever created", es: "Fue el primer algoritmo de IA jamás creado", de: "Es war der erste jemals geschaffene KI-Algorithmus", nl: "Het was het eerste AI algoritme ooit gecreëerd" },
+          { en: "It solved supervised learning", es: "Resolvió el aprendizaje supervisado", de: "Es löste überwachtes Lernen", nl: "Het loste bewaakt leren op" },
+          { en: "It created neural networks", es: "Creó redes neuronales", de: "Es schuf neuronale Netzwerke", nl: "Het creëerde neurale netwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "K-means became one of the most popular clustering algorithms in the 1990s-2000s due to its simplicity and efficiency. Despite dating to 1957, it saw widespread adoption as data mining and unsupervised learning gained importance. It remains a standard baseline for clustering tasks in customer segmentation, image compression, and data analysis.",
+          es: "K-means se convirtió en uno de los algoritmos de clustering más populares en los 1990-2000 debido a su simplicidad y eficiencia. A pesar de datar de 1957, vio adopción generalizada cuando la minería de datos y el aprendizaje no supervisado ganaron importancia.",
+          de: "K-means wurde in den 1990er-2000ern zu einem der beliebtesten Clustering-Algorithmen aufgrund seiner Einfachheit und Effizienz. Trotz Ursprung in 1957 sah es weitverbreitete Adoption als Data Mining und unüberwachtes Lernen an Bedeutung gewannen.",
+          nl: "K-means werd een van de meest populaire clustering algoritmen in de jaren 1990-2000 vanwege zijn eenvoud en efficiëntie. Ondanks zijn oorsprong in 1957 zag het brede adoptie toen data mining en onbewaakt leren belangrijker werden."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of Vapnik-Chervonenkis (VC) dimension theory?",
+          es: "¿Cuál fue la importancia de la teoría de dimensión Vapnik-Chervonenkis (VC)?",
+          de: "Was war die Bedeutung der Vapnik-Chervonenkis (VC) Dimensionstheorie?",
+          nl: "Wat was de betekenis van de Vapnik-Chervonenkis (VC) dimensie theorie?"
+        },
+        options: [
+          { en: "It provided theoretical bounds on learning and generalization, linking training error to test error", es: "Proporcionó límites teóricos sobre aprendizaje y generalización, vinculando error de entrenamiento con error de prueba", de: "Es bot theoretische Grenzen für Lernen und Generalisierung und verband Trainingsfehler mit Testfehler", nl: "Het bood theoretische grenzen aan leren en generalisatie, waarbij trainings- en testfout werden verbonden" },
+          { en: "It was a programming language", es: "Fue un lenguaje de programación", de: "Es war eine Programmiersprache", nl: "Het was een programmeertaal" },
+          { en: "It measured computer processor speed", es: "Midió la velocidad del procesador de computadora", de: "Es maß Computerprozessor-Geschwindigkeit", nl: "Het mat computer processor snelheid" },
+          { en: "It was a database system", es: "Fue un sistema de base de datos", de: "Es war ein Datenbanksystem", nl: "Het was een database systeem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "VC dimension theory provided rigorous mathematical foundations for statistical learning, explaining when and why machine learning algorithms generalize from training data to unseen examples. It quantified model complexity and established fundamental relationships between sample size, model capacity, and generalization error, guiding algorithm design and theoretical understanding.",
+          es: "La teoría de dimensión VC proporcionó fundamentos matemáticos rigurosos para aprendizaje estadístico, explicando cuándo y por qué los algoritmos de ML generalizan de datos de entrenamiento a ejemplos no vistos. Cuantificó complejidad de modelo y estableció relaciones fundamentales.",
+          de: "VC-Dimensionstheorie bot rigorose mathematische Grundlagen für statistisches Lernen und erklärte wann und warum maschinelle Lernalgorithmen von Trainingsdaten zu ungesehenen Beispielen generalisieren. Sie quantifizierte Modellkomplexität.",
+          nl: "VC dimensie theorie bood rigoureuze wiskundige fundamenten voor statistisch leren, en verklaarde wanneer en waarom machine learning algoritmen generaliseren van trainingsdata naar ongeziene voorbeelden. Het kwantificeerde modelcomplexiteit."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of decision trees like C4.5 and CART in the 1990s?",
+          es: "¿Cuál fue la contribución de árboles de decisión como C4.5 y CART en los 1990?",
+          de: "Was war der Beitrag von Entscheidungsbäumen wie C4.5 und CART in den 1990ern?",
+          nl: "Wat was de bijdrage van beslissingsbomen zoals C4.5 en CART in de jaren 1990?"
+        },
+        options: [
+          { en: "They provided interpretable models that humans could understand and verify", es: "Proporcionaron modelos interpretables que los humanos podían entender y verificar", de: "Sie boten interpretierbare Modelle die Menschen verstehen und verifizieren konnten", nl: "Ze boden interpreteerbare modellen die mensen konden begrijpen en verifiëren" },
+          { en: "They were the first neural networks", es: "Fueron las primeras redes neuronales", de: "Sie waren die ersten neuronalen Netzwerke", nl: "Ze waren de eerste neurale netwerken" },
+          { en: "They solved quantum physics", es: "Resolvieron física cuántica", de: "Sie lösten Quantenphysik", nl: "Ze losten quantumfysica op" },
+          { en: "They created the internet", es: "Crearon internet", de: "Sie schufen das Internet", nl: "Ze creëerden het internet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Decision tree algorithms like C4.5 (Quinlan, 1993) and CART became extremely popular because they produced models that domain experts could understand and validate. This interpretability was crucial for medical diagnosis, credit scoring, and other domains requiring explainable decisions. They also handled mixed data types and missing values naturally.",
+          es: "Algoritmos de árboles de decisión como C4.5 y CART se volvieron extremadamente populares porque producían modelos que expertos de dominio podían entender y validar. Esta interpretabilidad fue crucial para diagnóstico médico, puntuación crediticia.",
+          de: "Entscheidungsbaum-Algorithmen wie C4.5 und CART wurden extrem populär weil sie Modelle produzierten die Domänenexperten verstehen und validieren konnten. Diese Interpretierbarkeit war entscheidend für medizinische Diagnose, Kreditbewertung.",
+          nl: "Beslissingsboom algoritmen zoals C4.5 en CART werden extreem populair omdat ze modellen produceerden die domeinexperts konden begrijpen en valideren. Deze interpreteerbaarheid was cruciaal voor medische diagnose, kredietbeoordeling."
+        }
+      },
+      {
+        question: {
+          en: "What was the role of cross-validation in machine learning methodology?",
+          es: "¿Cuál fue el papel de la validación cruzada en metodología de aprendizaje automático?",
+          de: "Was war die Rolle der Kreuzvalidierung in maschineller Lernmethodologie?",
+          nl: "Wat was de rol van cross-validatie in machine learning methodologie?"
+        },
+        options: [
+          { en: "It provided reliable estimates of model performance on unseen data and helped prevent overfitting", es: "Proporcionó estimaciones confiables del rendimiento del modelo en datos no vistos y ayudó a prevenir sobreajuste", de: "Es bot zuverlässige Schätzungen der Modellleistung auf ungesehenen Daten und half Overfitting zu verhindern", nl: "Het bood betrouwbare schattingen van modelprestaties op ongeziene data en hielp overfitting voorkomen" },
+          { en: "It was a programming language", es: "Fue un lenguaje de programación", de: "Es war eine Programmiersprache", nl: "Het was een programmeertaal" },
+          { en: "It measured computer speed", es: "Midió la velocidad de la computadora", de: "Es maß Computergeschwindigkeit", nl: "Het mat computersnelheid" },
+          { en: "It created neural networks", es: "Creó redes neuronales", de: "Es schuf neuronale Netzwerke", nl: "Het creëerde neurale netwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cross-validation, especially k-fold cross-validation, became a standard practice in the 1990s for model evaluation and selection. By partitioning data into multiple folds and testing on held-out portions, it provided more reliable performance estimates than simple train/test splits, especially with limited data. This methodology became fundamental to rigorous ML research and practice.",
+          es: "La validación cruzada, especialmente k-fold, se convirtió en práctica estándar en los 1990 para evaluación y selección de modelos. Al particionar datos en múltiples folds y probar en porciones retenidas, proporcionó estimaciones de rendimiento más confiables.",
+          de: "Kreuzvalidierung, besonders k-fold Kreuzvalidierung, wurde in den 1990ern zur Standardpraxis für Modellevaluierung und -auswahl. Durch Partitionierung von Daten in mehrere Folds und Testen auf zurückgehaltenen Teilen bot es zuverlässigere Leistungsschätzungen.",
+          nl: "Cross-validatie, vooral k-fold cross-validatie, werd een standaardpraktijk in de jaren 1990 voor modelevaluatie en selectie. Door data te partitioneren in meerdere folds en te testen op achtergehouden delen, bood het betrouwbaardere prestatie schattingen."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of the bias-variance tradeoff in ML theory?",
+          es: "¿Cuál fue la importancia del compromiso sesgo-varianza en teoría de ML?",
+          de: "Was war die Bedeutung des Bias-Variance Tradeoffs in ML-Theorie?",
+          nl: "Wat was de betekenis van de bias-variance tradeoff in ML theorie?"
+        },
+        options: [
+          { en: "It explained model error as combination of bias, variance, and irreducible error, guiding model complexity choices", es: "Explicó el error del modelo como combinación de sesgo, varianza y error irreducible, guiando elecciones de complejidad del modelo", de: "Es erklärte Modellfehler als Kombination von Bias, Varianz und irreduziblem Fehler und leitete Modellkomplexitätswahlen", nl: "Het verklaarde modelfout als combinatie van bias, variantie en onverminderbare fout, wat keuzes voor modelcomplexiteit leidde" },
+          { en: "It was a political theory", es: "Fue una teoría política", de: "Es war eine politische Theorie", nl: "Het was een politieke theorie" },
+          { en: "It measured computer performance", es: "Midió el rendimiento de la computadora", de: "Es maß Computerleistung", nl: "Het mat computerprestaties" },
+          { en: "It was a database concept", es: "Fue un concepto de base de datos", de: "Es war ein Datenbank-Konzept", nl: "Het was een database concept" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The bias-variance tradeoff became central to understanding ML in the 1990s-2000s. It showed that prediction error decomposes into bias (underfitting), variance (overfitting), and irreducible noise. This framework explained why both too-simple and too-complex models fail, guiding practitioners toward appropriate model complexity and regularization strategies.",
+          es: "El compromiso sesgo-varianza se volvió central para entender ML en los 1990-2000. Mostró que el error de predicción se descompone en sesgo (subajuste), varianza (sobreajuste) y ruido irreducible. Este marco explicó por qué fallan modelos demasiado simples y complejos.",
+          de: "Der Bias-Variance Tradeoff wurde zentral für ML-Verständnis in den 1990er-2000ern. Er zeigte dass Vorhersagefehler sich in Bias (Underfitting), Varianz (Overfitting) und irreduzibles Rauschen zerlegt. Dieses Framework erklärte warum zu einfache und zu komplexe Modelle versagen.",
+          nl: "De bias-variance tradeoff werd centraal voor het begrip van ML in de jaren 1990-2000. Het toonde dat voorspellingsfout zich ontleedt in bias (underfitting), variantie (overfitting) en onverminderbare ruis. Dit framework verklaarde waarom te simpele en te complexe modellen falen."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of principal component analysis (PCA) to ML in the 1990s?",
+          es: "¿Cuál fue la contribución del análisis de componentes principales (PCA) a ML en los 1990?",
+          de: "Was war der Beitrag der Hauptkomponentenanalyse (PCA) zu ML in den 1990ern?",
+          nl: "Wat was de bijdrage van principale componenten analyse (PCA) aan ML in de jaren 1990?"
+        },
+        options: [
+          { en: "It reduced data dimensionality while preserving variance, enabling visualization and faster learning", es: "Redujo la dimensionalidad de datos mientras preservaba varianza, permitiendo visualización y aprendizaje más rápido", de: "Es reduzierte Datendimensionalität während Varianz erhalten blieb, ermöglichte Visualisierung und schnelleres Lernen", nl: "Het verminderde data dimensionaliteit terwijl variantie behouden bleef, wat visualisatie en sneller leren mogelijk maakte" },
+          { en: "It was a programming language", es: "Fue un lenguaje de programación", de: "Es war eine Programmiersprache", nl: "Het was een programmeertaal" },
+          { en: "It created neural networks", es: "Creó redes neuronales", de: "Es schuf neuronale Netzwerke", nl: "Het creëerde neurale netwerken" },
+          { en: "It was a database system", es: "Fue un sistema de base de datos", de: "Es war ein Datenbanksystem", nl: "Het was een database systeem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "PCA became widely used in the 1990s for dimensionality reduction, projecting high-dimensional data onto principal components capturing maximum variance. This helped with visualization, noise reduction, and overcoming the curse of dimensionality. Applications included eigenfaces for face recognition, data compression, and preprocessing for other ML algorithms.",
+          es: "PCA se volvió ampliamente usado en los 1990 para reducción de dimensionalidad, proyectando datos de alta dimensión en componentes principales capturando varianza máxima. Esto ayudó con visualización, reducción de ruido y superar la maldición de dimensionalidad.",
+          de: "PCA wurde in den 1990ern weit verbreitet für Dimensionalitätsreduktion verwendet, projizierte hochdimensionale Daten auf Hauptkomponenten die maximale Varianz erfassen. Dies half bei Visualisierung, Rauschreduktion und Überwindung des Fluchs der Dimensionalität.",
+          nl: "PCA werd breed gebruikt in de jaren 1990 voor dimensionaliteitsreductie, waarbij hoogdimensionale data geprojecteerd werd op principale componenten die maximale variantie vastleggen. Dit help bij visualisatie, ruisreductie en het overwinnen van de vloek van dimensionaliteit."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of regularization techniques like L1/L2 in ML?",
+          es: "¿Cuál fue la importancia de técnicas de regularización como L1/L2 en ML?",
+          de: "Was war die Bedeutung von Regularisierungstechniken wie L1/L2 in ML?",
+          nl: "Wat was de betekenis van regularisatie technieken zoals L1/L2 in ML?"
+        },
+        options: [
+          { en: "They prevented overfitting by penalizing model complexity, improving generalization", es: "Previnieron sobreajuste penalizando complejidad del modelo, mejorando generalización", de: "Sie verhinderten Overfitting durch Bestrafung von Modellkomplexität und verbesserten Generalisierung", nl: "Ze voorkwamen overfitting door modelcomplexiteit te bestraffen, wat generalisatie verbeterde" },
+          { en: "They were database indexing methods", es: "Fueron métodos de indexación de base de datos", de: "Sie waren Datenbank-Indexierungsmethoden", nl: "Ze waren database indexeringsmethoden" },
+          { en: "They measured computer speed", es: "Midieron velocidad de computadora", de: "Sie maßen Computergeschwindigkeit", nl: "Ze maten computersnelheid" },
+          { en: "They created programming languages", es: "Crearon lenguajes de programación", de: "Sie schufen Programmiersprachen", nl: "Ze creëerden programmeertalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regularization techniques became fundamental in the 1990s-2000s. L2 regularization (ridge regression, weight decay) penalized large weights, while L1 regularization (LASSO) promoted sparsity and feature selection. These techniques prevented overfitting in high-dimensional problems and became standard tools, integrated into SVMs, neural networks, and linear models.",
+          es: "Las técnicas de regularización se volvieron fundamentales en los 1990-2000. La regularización L2 penalizó pesos grandes, mientras L1 promovió dispersión y selección de características. Estas técnicas previnieron sobreajuste en problemas de alta dimensión.",
+          de: "Regularisierungstechniken wurden in den 1990er-2000ern fundamental. L2-Regularisierung bestrafte große Gewichte, während L1-Regularisierung Sparsamkeit und Feature-Auswahl förderte. Diese Techniken verhinderten Overfitting in hochdimensionalen Problemen.",
+          nl: "Regularisatie technieken werden fundamenteel in de jaren 1990-2000. L2 regularisatie bestrafte grote gewichten, terwijl L1 regularisatie sparseheid en feature selectie bevorderde. Deze technieken voorkwamen overfitting in hoogdimensionale problemen."
+        }
+      },
+      {
+        question: {
+          en: "What was the impact of AdaBoost algorithm developed by Freund and Schapire in 1995?",
+          es: "¿Cuál fue el impacto del algoritmo AdaBoost desarrollado por Freund y Schapire en 1995?",
+          de: "Was war die Auswirkung des AdaBoost-Algorithmus entwickelt von Freund und Schapire 1995?",
+          nl: "Wat was de impact van het AdaBoost algoritme ontwikkeld door Freund en Schapire in 1995?"
+        },
+        options: [
+          { en: "It demonstrated that combining many weak learners creates strong classifiers, launching ensemble learning", es: "Demostró que combinar muchos aprendices débiles crea clasificadores fuertes, lanzando aprendizaje de conjunto", de: "Es demonstrierte dass Kombination vieler schwacher Lerner starke Klassifikatoren schafft und startete Ensemble-Lernen", nl: "Het toonde aan dat het combineren van veel zwakke leerders sterke classificeerders creëert, wat ensemble learning lanceerde" },
+          { en: "It was the first computer virus", es: "Fue el primer virus informático", de: "Es war der erste Computervirus", nl: "Het was het eerste computervirus" },
+          { en: "It created social media", es: "Creó redes sociales", de: "Es schuf soziale Medien", nl: "Het creëerde sociale media" },
+          { en: "It invented the internet", es: "Inventó internet", de: "Es erfand das Internet", nl: "Het vond het internet uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AdaBoost (Adaptive Boosting) revolutionized ML by showing that combining many simple, weak classifiers (even just slightly better than random) could create highly accurate strong classifiers. This sparked the ensemble learning revolution, leading to gradient boosting and other methods. AdaBoost won the Gödel Prize for its theoretical and practical impact.",
+          es: "AdaBoost revolucionó ML mostrando que combinar muchos clasificadores débiles simples podía crear clasificadores fuertes altamente precisos. Esto provocó la revolución del aprendizaje de conjunto. AdaBoost ganó el Premio Gödel por su impacto teórico y práctico.",
+          de: "AdaBoost revolutionierte ML indem es zeigte dass Kombination vieler einfacher schwacher Klassifikatoren hochgenaue starke Klassifikatoren schaffen kann. Dies löste die Ensemble-Lern-Revolution aus. AdaBoost gewann den Gödel-Preis für seinen theoretischen und praktischen Einfluss.",
+          nl: "AdaBoost revolutioneerde ML door te tonen dat het combineren van veel eenvoudige, zwakke classificeerders zeer nauwkeurige sterke classificeerders kon creëren. Dit leidde tot de ensemble learning revolutie. AdaBoost won de Gödel Prize voor zijn theoretische en praktische impact."
+        }
+      },
+      {
+        question: {
+          en: "What was the role of hidden Markov models (HMMs) in 1990s machine learning?",
+          es: "¿Cuál fue el papel de los modelos ocultos de Markov (HMM) en aprendizaje automático de los 1990?",
+          de: "Was war die Rolle der Hidden Markov Models (HMMs) im maschinellen Lernen der 1990er?",
+          nl: "Wat was de rol van hidden Markov modellen (HMMs) in machine learning van de jaren 1990?"
+        },
+        options: [
+          { en: "They became the dominant approach for speech recognition and sequence modeling", es: "Se convirtieron en el enfoque dominante para reconocimiento de voz y modelado de secuencias", de: "Sie wurden zum dominanten Ansatz für Spracherkennung und Sequenzmodellierung", nl: "Ze werden de dominante benadering voor spraakherkenning en sequentie modellering" },
+          { en: "They were database management systems", es: "Fueron sistemas de gestión de bases de datos", de: "Sie waren Datenbankverwaltungssysteme", nl: "Ze waren database beheersystemen" },
+          { en: "They created computer graphics", es: "Crearon gráficos por computadora", de: "Sie schufen Computergrafik", nl: "Ze creëerden computergrafica" },
+          { en: "They were programming languages", es: "Fueron lenguajes de programación", de: "Sie waren Programmiersprachen", nl: "Ze waren programmeertalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "HMMs dominated speech recognition throughout the 1990s-2000s, used in systems from Dragon Dictate to early Siri. They model sequences with hidden states, learning patterns in temporal data using the Baum-Welch algorithm. HMMs were also applied to gene finding, part-of-speech tagging, and other sequential pattern recognition tasks.",
+          es: "Los HMM dominaron reconocimiento de voz durante los 1990-2000, usados en sistemas desde Dragon Dictate hasta Siri temprano. Modelan secuencias con estados ocultos, aprendiendo patrones en datos temporales usando el algoritmo Baum-Welch.",
+          de: "HMMs dominierten Spracherkennung während der 1990er-2000er, verwendet in Systemen von Dragon Dictate bis frühem Siri. Sie modellieren Sequenzen mit versteckten Zuständen und lernen Muster in zeitlichen Daten mit dem Baum-Welch-Algorithmus.",
+          nl: "HMMs domineerden spraakherkenning gedurende de jaren 1990-2000, gebruikt in systemen van Dragon Dictate tot vroege Siri. Ze modelleren sequenties met verborgen toestanden, waarbij patronen in temporele data geleerd worden met het Baum-Welch algoritme."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of gradient descent optimization to ML in the 1990s?",
+          es: "¿Cuál fue la contribución de la optimización por descenso de gradiente a ML en los 1990?",
+          de: "Was war der Beitrag der Gradientenabstiegs-Optimierung zu ML in den 1990ern?",
+          nl: "Wat was de bijdrage van gradient descent optimalisatie aan ML in de jaren 1990?"
+        },
+        options: [
+          { en: "It enabled training of complex models by iteratively adjusting parameters to minimize error", es: "Permitió entrenar modelos complejos ajustando iterativamente parámetros para minimizar error", de: "Es ermöglichte Training komplexer Modelle durch iterative Anpassung von Parametern zur Fehlerminimierung", nl: "Het maakte het trainen van complexe modellen mogelijk door iteratief parameters aan te passen om fout te minimaliseren" },
+          { en: "It was a database query language", es: "Fue un lenguaje de consulta de base de datos", de: "Es war eine Datenbank-Abfragesprache", nl: "Het was een database querytaal" },
+          { en: "It measured computer memory", es: "Midió memoria de computadora", de: "Es maß Computerspeicher", nl: "Het mat computergeheugen" },
+          { en: "It created operating systems", es: "Creó sistemas operativos", de: "Es schuf Betriebssysteme", nl: "Het creëerde besturingssystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Gradient descent and its variants (stochastic gradient descent, mini-batch) became the workhorse of ML training in the 1990s-2000s. By computing gradients of loss functions and updating parameters in the direction of steepest descent, it enabled training neural networks, SVMs, logistic regression, and many other models on increasingly large datasets.",
+          es: "El descenso de gradiente y sus variantes se convirtieron en el caballo de batalla del entrenamiento de ML en los 1990-2000. Al calcular gradientes de funciones de pérdida y actualizar parámetros en la dirección de descenso más pronunciado, permitió entrenar redes neuronales.",
+          de: "Gradientenabstieg und seine Varianten wurden zum Arbeitspferd des ML-Trainings in den 1990er-2000ern. Durch Berechnung von Gradienten von Verlustfunktionen und Aktualisierung von Parametern in Richtung steilsten Abstiegs ermöglichte es Training von neuronalen Netzwerken.",
+          nl: "Gradient descent en zijn varianten werden het werkpaard van ML training in de jaren 1990-2000. Door gradiënten van verliesfuncties te berekenen en parameters bij te werken in de richting van de steilste afdaling, maakte het het trainen van neurale netwerken mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of the Netflix Prize competition (2006-2009)?",
+          es: "¿Cuál fue la importancia del concurso Netflix Prize (2006-2009)?",
+          de: "Was war die Bedeutung des Netflix Prize Wettbewerbs (2006-2009)?",
+          nl: "Wat was de betekenis van de Netflix Prize competitie (2006-2009)?"
+        },
+        options: [
+          { en: "It demonstrated the power of ensemble methods and collaborative filtering for recommendation systems", es: "Demostró el poder de métodos de conjunto y filtrado colaborativo para sistemas de recomendación", de: "Es demonstrierte die Kraft von Ensemble-Methoden und kollaborativer Filterung für Empfehlungssysteme", nl: "Het toonde de kracht van ensemble methoden en collaboratieve filtering voor aanbevelingssystemen" },
+          { en: "It was the first streaming service", es: "Fue el primer servicio de streaming", de: "Es war der erste Streaming-Dienst", nl: "Het was de eerste streaming dienst" },
+          { en: "It created social media", es: "Creó redes sociales", de: "Es schuf soziale Medien", nl: "Het creëerde sociale media" },
+          { en: "It invented AI", es: "Inventó la IA", de: "Es erfand KI", nl: "Het vond AI uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Netflix Prize challenged teams to improve movie recommendations by 10%. The winning solution combined over 100 different ML algorithms through sophisticated ensembling. This competition popularized collaborative filtering, matrix factorization, and ensemble methods, demonstrating how combining diverse models could achieve superior performance and spurring ML innovation.",
+          es: "El Netflix Prize desafió a equipos a mejorar recomendaciones de películas en 10%. La solución ganadora combinó más de 100 algoritmos ML diferentes. Esta competencia popularizó filtrado colaborativo, factorización matricial y métodos de conjunto.",
+          de: "Der Netflix Prize forderte Teams heraus Filmempfehlungen um 10% zu verbessern. Die Gewinnerlösung kombinierte über 100 verschiedene ML-Algorithmen. Dieser Wettbewerb popularisierte kollaborative Filterung, Matrixfaktorisierung und Ensemble-Methoden.",
+          nl: "De Netflix Prize daagde teams uit om filmrecommendaties met 10% te verbeteren. De winnende oplossing combineerde meer dan 100 verschillende ML algoritmen. Deze competitie populariseerde collaboratieve filtering, matrix factorisatie en ensemble methoden."
+        }
+      },
+      {
+        question: {
+          en: "What was the role of backpropagation improvements in reviving neural networks?",
+          es: "¿Cuál fue el papel de las mejoras en retropropagación en revivir redes neuronales?",
+          de: "Was war die Rolle von Backpropagation-Verbesserungen bei der Wiederbelebung neuronaler Netzwerke?",
+          nl: "Wat was de rol van backpropagation verbeteringen bij het herleven van neurale netwerken?"
+        },
+        options: [
+          { en: "Better optimizers and initialization made training deeper networks feasible in late 2000s", es: "Mejores optimizadores e inicialización hicieron factible entrenar redes más profundas a finales de los 2000", de: "Bessere Optimierer und Initialisierung machten Training tieferer Netzwerke Ende der 2000er möglich", nl: "Betere optimizers en initialisatie maakten het trainen van diepere netwerken haalbaar in de late jaren 2000" },
+          { en: "Backpropagation was invented in the 2000s", es: "Retropropagación fue inventada en los 2000", de: "Backpropagation wurde in den 2000ern erfunden", nl: "Backpropagation werd uitgevonden in de jaren 2000" },
+          { en: "It created quantum computers", es: "Creó computadoras cuánticas", de: "Es schuf Quantencomputer", nl: "Het creëerde quantumcomputers" },
+          { en: "It was a programming language", es: "Fue un lenguaje de programación", de: "Es war eine Programmiersprache", nl: "Het was een programmeertaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "While backpropagation existed since the 1980s, innovations in the 2000s made it practical for deeper networks: better weight initialization (Xavier/He), improved activation functions (ReLU replacing sigmoid), batch normalization, dropout, and advanced optimizers (Adam, RMSprop). These advances set the stage for the deep learning revolution starting around 2006-2012.",
+          es: "Aunque la retropropagación existía desde los 1980, innovaciones en los 2000 la hicieron práctica para redes más profundas: mejor inicialización de pesos, funciones de activación mejoradas, normalización por lotes, dropout y optimizadores avanzados.",
+          de: "Während Backpropagation seit den 1980ern existierte, machten Innovationen in den 2000ern es praktisch für tiefere Netzwerke: bessere Gewichtsinitialisierung, verbesserte Aktivierungsfunktionen, Batch-Normalisierung, Dropout und fortgeschrittene Optimierer.",
+          nl: "Hoewel backpropagation bestond sinds de jaren 1980, maakten innovaties in de jaren 2000 het praktisch voor diepere netwerken: betere gewichtsinitialisatie, verbeterde activatiefuncties, batch normalisatie, dropout en geavanceerde optimizers."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of libsvm and other ML libraries to the field?",
+          es: "¿Cuál fue la contribución de libsvm y otras bibliotecas de ML al campo?",
+          de: "Was war der Beitrag von libsvm und anderen ML-Bibliotheken zum Feld?",
+          nl: "Wat was de bijdrage van libsvm en andere ML bibliotheken aan het veld?"
+        },
+        options: [
+          { en: "They made advanced ML algorithms accessible to non-experts, democratizing machine learning", es: "Hicieron algoritmos ML avanzados accesibles a no expertos, democratizando aprendizaje automático", de: "Sie machten fortgeschrittene ML-Algorithmen für Nicht-Experten zugänglich und demokratisierten maschinelles Lernen", nl: "Ze maakten geavanceerde ML algoritmen toegankelijk voor niet-experts, wat machine learning democratiseerde" },
+          { en: "They were video game engines", es: "Fueron motores de videojuegos", de: "Sie waren Videospiel-Engines", nl: "Ze waren videogame engines" },
+          { en: "They created social media platforms", es: "Crearon plataformas de redes sociales", de: "Sie schufen Social-Media-Plattformen", nl: "Ze creëerden sociale media platforms" },
+          { en: "They were operating systems", es: "Fueron sistemas operativos", de: "Sie waren Betriebssysteme", nl: "Ze waren besturingssystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Software libraries like libsvm (2000), Weka (1997), and later scikit-learn (2007) democratized ML by providing well-tested implementations of algorithms. Researchers and practitioners could apply SVMs, decision trees, and other methods without implementing them from scratch, accelerating ML adoption across domains and enabling rapid experimentation.",
+          es: "Bibliotecas de software como libsvm, Weka y luego scikit-learn democratizaron ML proporcionando implementaciones bien probadas de algoritmos. Los investigadores podían aplicar SVM, árboles de decisión sin implementarlos desde cero.",
+          de: "Software-Bibliotheken wie libsvm, Weka und später scikit-learn demokratisierten ML durch gut getestete Implementierungen von Algorithmen. Forscher konnten SVMs, Entscheidungsbäume anwenden ohne sie von Grund auf zu implementieren.",
+          nl: "Software bibliotheken zoals libsvm, Weka en later scikit-learn democratiseerden ML door goed geteste implementaties van algoritmen te bieden. Onderzoekers konden SVMs, beslissingsbomen toepassen zonder ze vanaf nul te implementeren."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of UCI Machine Learning Repository launched in 1987?",
+          es: "¿Cuál fue la importancia del UCI Machine Learning Repository lanzado en 1987?",
+          de: "Was war die Bedeutung des UCI Machine Learning Repository gestartet 1987?",
+          nl: "Wat was de betekenis van de UCI Machine Learning Repository gelanceerd in 1987?"
+        },
+        options: [
+          { en: "It provided standardized benchmark datasets enabling fair algorithm comparisons across research", es: "Proporcionó conjuntos de datos de referencia estandarizados permitiendo comparaciones justas de algoritmos en investigación", de: "Es bot standardisierte Benchmark-Datensätze die faire Algorithmenvergleiche in der Forschung ermöglichten", nl: "Het bood gestandaardiseerde benchmark datasets die eerlijke algoritme vergelijkingen in onderzoek mogelijk maakten" },
+          { en: "It was a social media platform", es: "Fue una plataforma de redes sociales", de: "Es war eine Social-Media-Plattform", nl: "Het was een sociale media platform" },
+          { en: "It created the internet", es: "Creó internet", de: "Es schuf das Internet", nl: "Het creëerde het internet" },
+          { en: "It was a programming language", es: "Fue un lenguaje de programación", de: "Es war eine Programmiersprache", nl: "Het was een programmeertaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The UCI ML Repository became essential infrastructure for ML research by providing curated, standardized datasets (Iris, Wine, Breast Cancer, etc.). Researchers could test algorithms on common benchmarks, enabling objective comparisons and reproducible results. It fostered ML progress by creating shared evaluation standards and remains widely used today.",
+          es: "El UCI ML Repository se volvió infraestructura esencial para investigación de ML proporcionando conjuntos de datos curados y estandarizados. Los investigadores podían probar algoritmos en benchmarks comunes, permitiendo comparaciones objetivas y resultados reproducibles.",
+          de: "Das UCI ML Repository wurde essentielle Infrastruktur für ML-Forschung durch bereitgestellte kuratierte, standardisierte Datensätze. Forscher konnten Algorithmen auf gemeinsamen Benchmarks testen, was objektive Vergleiche und reproduzierbare Ergebnisse ermöglichte.",
+          nl: "De UCI ML Repository werd essentiële infrastructuur voor ML onderzoek door het bieden van gecureerde, gestandaardiseerde datasets. Onderzoekers konden algoritmen testen op gemeenschappelijke benchmarks, wat objectieve vergelijkingen en reproduceerbare resultaten mogelijk maakte."
+        }
+      },
+      {
+        question: {
+          en: "What was the impact of data mining and KDD on machine learning in the 1990s?",
+          es: "¿Cuál fue el impacto de la minería de datos y KDD en aprendizaje automático en los 1990?",
+          de: "Was war die Auswirkung von Data Mining und KDD auf maschinelles Lernen in den 1990ern?",
+          nl: "Wat was de impact van data mining en KDD op machine learning in de jaren 1990?"
+        },
+        options: [
+          { en: "They shifted focus to extracting knowledge from large databases, driving practical ML applications", es: "Cambiaron enfoque a extraer conocimiento de grandes bases de datos, impulsando aplicaciones prácticas de ML", de: "Sie verlagerten Fokus auf Wissensextraktion aus großen Datenbanken und trieben praktische ML-Anwendungen an", nl: "Ze verschoven de focus naar het extraheren van kennis uit grote databases, wat praktische ML toepassingen stimuleerde" },
+          { en: "They were video game genres", es: "Fueron géneros de videojuegos", de: "Sie waren Videospiel-Genres", nl: "Ze waren videogame genres" },
+          { en: "They created cryptocurrencies", es: "Crearon criptomonedas", de: "Sie schufen Kryptowährungen", nl: "Ze creëerden cryptocurrencies" },
+          { en: "They were programming paradigms", es: "Fueron paradigmas de programación", de: "Sie waren Programmierparadigmen", nl: "Ze waren programmeerparadigma's" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Knowledge Discovery in Databases (KDD) and data mining emerged in the 1990s as businesses generated massive databases. This drove ML from academic toy problems to real-world applications: customer segmentation, fraud detection, market basket analysis, and recommendation systems. The KDD conference (started 1995) became a premier venue for applied ML research.",
+          es: "El Descubrimiento de Conocimiento en Bases de Datos y minería de datos surgieron en los 1990 cuando empresas generaban bases de datos masivas. Esto impulsó ML de problemas académicos a aplicaciones del mundo real: segmentación de clientes, detección de fraude.",
+          de: "Knowledge Discovery in Databases und Data Mining entstanden in den 1990ern als Unternehmen massive Datenbanken generierten. Dies trieb ML von akademischen Spielzeugproblemen zu realen Anwendungen: Kundensegmentierung, Betrugserkennung.",
+          nl: "Knowledge Discovery in Databases en data mining ontstonden in de jaren 1990 toen bedrijven massieve databases genereerden. Dit dreef ML van academische speelgoedproblemen naar echte toepassingen: klantsegmentatie, fraudedetectie."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of convolutional neural networks (CNNs) in the late 1990s?",
+          es: "¿Cuál fue la contribución de redes neuronales convolucionales (CNN) a finales de los 1990?",
+          de: "Was war der Beitrag von Convolutional Neural Networks (CNNs) Ende der 1990er?",
+          nl: "Wat was de bijdrage van convolutional neural networks (CNNs) in de late jaren 1990?"
+        },
+        options: [
+          { en: "LeNet-5 demonstrated CNNs could recognize handwritten digits, used in check processing systems", es: "LeNet-5 demostró que las CNN podían reconocer dígitos escritos a mano, usado en sistemas de procesamiento de cheques", de: "LeNet-5 demonstrierte dass CNNs handgeschriebene Ziffern erkennen konnten, verwendet in Scheckverarbeitungssystemen", nl: "LeNet-5 toonde aan dat CNNs handgeschreven cijfers konden herkennen, gebruikt in cheque verwerkingssystemen" },
+          { en: "CNNs were invented in 2012", es: "Las CNN fueron inventadas en 2012", de: "CNNs wurden 2012 erfunden", nl: "CNNs werden uitgevonden in 2012" },
+          { en: "They created the internet", es: "Crearon internet", de: "Sie schufen das Internet", nl: "Ze creëerden het internet" },
+          { en: "They were database systems", es: "Fueron sistemas de base de datos", de: "Sie waren Datenbanksysteme", nl: "Ze waren database systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Yann LeCun's LeNet-5 (1998) successfully applied CNNs to handwritten digit recognition, processing millions of checks daily for banks. While CNNs had limited impact in the 1990s due to computational constraints, LeNet established the architecture (convolution, pooling, fully-connected layers) that would dominate computer vision after 2012's AlexNet breakthrough.",
+          es: "LeNet-5 de Yann LeCun (1998) aplicó con éxito CNN a reconocimiento de dígitos escritos a mano, procesando millones de cheques diariamente para bancos. Aunque las CNN tuvieron impacto limitado en los 1990 por restricciones computacionales.",
+          de: "Yann LeCuns LeNet-5 (1998) wendete CNNs erfolgreich auf handgeschriebene Ziffernerkennung an und verarbeitete täglich Millionen Schecks für Banken. Während CNNs in den 1990ern begrenzten Einfluss hatten wegen Rechenbeschränkungen.",
+          nl: "Yann LeCun's LeNet-5 (1998) paste CNNs succesvol toe op handgeschreven cijferherkenning, waarbij dagelijks miljoenen cheques voor banken verwerkt werden. Hoewel CNNs beperkte impact hadden in de jaren 1990 door computationele beperkingen."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of online learning algorithms in the late 1990s-2000s?",
+          es: "¿Cuál fue la importancia de algoritmos de aprendizaje en línea a finales de los 1990-2000?",
+          de: "Was war die Bedeutung von Online-Lern-Algorithmen Ende der 1990er-2000er?",
+          nl: "Wat was de betekenis van online leer algoritmen in de late jaren 1990-2000?"
+        },
+        options: [
+          { en: "They enabled learning from streaming data and updating models incrementally as new data arrived", es: "Permitieron aprender de datos en streaming y actualizar modelos incrementalmente cuando llegaban nuevos datos", de: "Sie ermöglichten Lernen aus Streaming-Daten und inkrementelle Modellaktualisierung bei neuen Daten", nl: "Ze maakten leren van streaming data mogelijk en het incrementeel updaten van modellen wanneer nieuwe data arriveerde" },
+          { en: "They created social media", es: "Crearon redes sociales", de: "Sie schufen soziale Medien", nl: "Ze creëerden sociale media" },
+          { en: "They were internet browsers", es: "Fueron navegadores de internet", de: "Sie waren Internet-Browser", nl: "Ze waren internetbrowsers" },
+          { en: "They managed databases", es: "Gestionaron bases de datos", de: "Sie verwalteten Datenbanken", nl: "Ze beheerden databases" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Online learning algorithms (perceptron variants, online gradient descent, winnow) became important as internet applications generated continuous data streams. Unlike batch learning requiring complete datasets, online algorithms updated models incrementally with each new example, enabling adaptive systems for spam filtering, recommendation, and other dynamic environments where data constantly evolved.",
+          es: "Los algoritmos de aprendizaje en línea se volvieron importantes cuando aplicaciones de internet generaban flujos continuos de datos. A diferencia del aprendizaje por lotes, los algoritmos en línea actualizaban modelos incrementalmente con cada nuevo ejemplo.",
+          de: "Online-Lern-Algorithmen wurden wichtig als Internet-Anwendungen kontinuierliche Datenströme generierten. Anders als Batch-Lernen aktualisierten Online-Algorithmen Modelle inkrementell mit jedem neuen Beispiel für Spam-Filterung, Empfehlungen.",
+          nl: "Online leer algoritmen werden belangrijk toen internet applicaties continue data stromen genereerden. Anders dan batch learning, updateden online algoritmen modellen incrementeel met elk nieuw voorbeeld voor spam filtering, aanbevelingen."
+        }
       }
     ]
   };

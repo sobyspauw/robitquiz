@@ -427,6 +427,426 @@
           de: "Die Figur heißt einfach 'Zylinderhut' und ist seit der ursprünglichen Version eine der klassischen Monopoly-Spielfiguren. Sie ist eine der erkennbarsten Spielsteine im Spiel.",
           nl: "Het stuk heet gewoon 'Hoge Hoed' en is sinds de originele versie een van de klassieke Monopoly-speelstukken. Het is een van de meest herkenbare fiches in het spel."
         }
+      },
+      {
+        question: {
+          en: "How many tokens/pieces are traditionally in a Monopoly game?",
+          es: "¿Cuántas fichas/piezas hay tradicionalmente en un juego de Monopoly?",
+          de: "Wie viele Spielsteine gibt es traditionell in einem Monopoly-Spiel?",
+          nl: "Hoeveel fiches/stukken zijn er traditioneel in een Monopoly-spel?"
+        },
+        options: [
+          { en: "6", es: "6", de: "6", nl: "6" },
+          { en: "8", es: "8", de: "8", nl: "8" },
+          { en: "10", es: "10", de: "10", nl: "10" },
+          { en: "12", es: "12", de: "12", nl: "12" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Traditional Monopoly sets came with 8 tokens: Top Hat, Thimble, Iron, Boot, Battleship, Car, Dog, and Wheelbarrow. Modern versions may have different tokens.",
+          es: "Los sets tradicionales de Monopoly venían con 8 fichas: Sombrero de Copa, Dedal, Plancha, Bota, Acorazado, Automóvil, Perro y Carretilla. Las versiones modernas pueden tener diferentes fichas.",
+          de: "Traditionelle Monopoly-Sets enthielten 8 Spielsteine: Zylinderhut, Fingerhut, Bügeleisen, Stiefel, Schlachtschiff, Auto, Hund und Schubkarre. Moderne Versionen können andere Spielsteine haben.",
+          nl: "Traditionele Monopoly-sets kwamen met 8 fiches: Hoge Hoed, Vingerhoed, Strijkijzer, Laars, Slagschip, Auto, Hond en Kruiwagen. Moderne versies kunnen andere fiches hebben."
+        }
+      },
+      {
+        question: {
+          en: "What color are the properties Boardwalk and Park Place?",
+          es: "¿De qué color son las propiedades Boardwalk y Park Place?",
+          de: "Welche Farbe haben die Eigenschaften Boardwalk und Park Place?",
+          nl: "Welke kleur hebben de eigendommen Boardwalk en Park Place?"
+        },
+        options: [
+          { en: "Green", es: "Verde", de: "Grün", nl: "Groen" },
+          { en: "Blue", es: "Azul", de: "Blau", nl: "Blauw" },
+          { en: "Dark Blue", es: "Azul Oscuro", de: "Dunkelblau", nl: "Donkerblauw" },
+          { en: "Purple", es: "Morado", de: "Lila", nl: "Paars" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Boardwalk and Park Place are the two most expensive properties and are colored dark blue. They form the smallest color group with only two properties.",
+          es: "Boardwalk y Park Place son las dos propiedades más caras y son de color azul oscuro. Forman el grupo de color más pequeño con solo dos propiedades.",
+          de: "Boardwalk und Park Place sind die beiden teuersten Eigenschaften und sind dunkelblau gefärbt. Sie bilden die kleinste Farbgruppe mit nur zwei Eigenschaften.",
+          nl: "Boardwalk en Park Place zijn de twee duurste eigendommen en zijn donkerblauw gekleurd. Ze vormen de kleinste kleurgroep met slechts twee eigendommen."
+        }
+      },
+      {
+        question: {
+          en: "How many dice do you roll in Monopoly?",
+          es: "¿Cuántos dados lanzas en Monopoly?",
+          de: "Wie viele Würfel wirfst du in Monopoly?",
+          nl: "Hoeveel dobbelstenen gooi je in Monopoly?"
+        },
+        options: [
+          { en: "1", es: "1", de: "1", nl: "1" },
+          { en: "2", es: "2", de: "2", nl: "2" },
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "4", es: "4", de: "4", nl: "4" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Players roll two dice at the start of each turn to determine how many spaces they move. Rolling doubles (same number on both dice) allows another turn.",
+          es: "Los jugadores lanzan dos dados al inicio de cada turno para determinar cuántos espacios se mueven. Sacar dobles (mismo número en ambos dados) permite otro turno.",
+          de: "Spieler werfen zwei Würfel zu Beginn jedes Zuges, um zu bestimmen, wie viele Felder sie bewegen. Ein Pasch (gleiche Zahl auf beiden Würfeln) erlaubt einen weiteren Zug.",
+          nl: "Spelers gooien twee dobbelstenen aan het begin van elke beurt om te bepalen hoeveel vakjes ze verplaatsen. Dubbel gooien (hetzelfde nummer op beide dobbelstenen) geeft nog een beurt."
+        }
+      },
+      {
+        question: {
+          en: "What happens if you roll doubles three times in a row?",
+          es: "¿Qué pasa si sacas dobles tres veces seguidas?",
+          de: "Was passiert, wenn du dreimal hintereinander einen Pasch würfelst?",
+          nl: "Wat gebeurt er als je drie keer achter elkaar dubbel gooit?"
+        },
+        options: [
+          { en: "You win $500", es: "Ganas $500", de: "Du gewinnst $500", nl: "Je wint $500" },
+          { en: "You go to Jail", es: "Vas a la Cárcel", de: "Du gehst ins Gefängnis", nl: "Je gaat naar de gevangenis" },
+          { en: "You get an extra turn", es: "Obtienes un turno extra", de: "Du bekommst einen extra Zug", nl: "Je krijgt een extra beurt" },
+          { en: "You lose a turn", es: "Pierdes un turno", de: "Du verlierst einen Zug", nl: "Je verliest een beurt" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Rolling doubles three consecutive times sends you directly to Jail. This prevents players from getting too many turns in a row.",
+          es: "Sacar dobles tres veces consecutivas te envía directamente a la Cárcel. Esto evita que los jugadores obtengan demasiados turnos seguidos.",
+          de: "Dreimal hintereinander einen Pasch zu würfeln schickt dich direkt ins Gefängnis. Dies verhindert, dass Spieler zu viele Züge hintereinander bekommen.",
+          nl: "Drie keer achter elkaar dubbel gooien stuurt je direct naar de gevangenis. Dit voorkomt dat spelers te veel beurten achter elkaar krijgen."
+        }
+      },
+      {
+        question: {
+          en: "How much money does each player start with in classic Monopoly?",
+          es: "¿Con cuánto dinero empieza cada jugador en Monopoly clásico?",
+          de: "Mit wie viel Geld startet jeder Spieler im klassischen Monopoly?",
+          nl: "Met hoeveel geld begint elke speler in klassiek Monopoly?"
+        },
+        options: [
+          { en: "$1,000", es: "$1,000", de: "$1,000", nl: "$1,000" },
+          { en: "$1,500", es: "$1,500", de: "$1,500", nl: "$1,500" },
+          { en: "$2,000", es: "$2,000", de: "$2,000", nl: "$2,000" },
+          { en: "$2,500", es: "$2,500", de: "$2,500", nl: "$2,500" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Each player starts with $1,500 distributed as: two $500s, two $100s, two $50s, six $20s, five $10s, five $5s, and five $1s.",
+          es: "Cada jugador comienza con $1,500 distribuidos así: dos de $500, dos de $100, dos de $50, seis de $20, cinco de $10, cinco de $5 y cinco de $1.",
+          de: "Jeder Spieler startet mit $1,500 verteilt als: zwei $500, zwei $100, zwei $50, sechs $20, fünf $10, fünf $5 und fünf $1.",
+          nl: "Elke speler begint met $1,500 verdeeld als: twee $500, twee $100, twee $50, zes $20, vijf $10, vijf $5 en vijf $1."
+        }
+      },
+      {
+        question: {
+          en: "Which property is located between GO and Mediterranean Avenue?",
+          es: "¿Qué propiedad está ubicada entre SALIDA y Mediterranean Avenue?",
+          de: "Welche Eigenschaft befindet sich zwischen LOS und Mediterranean Avenue?",
+          nl: "Welke eigendom bevindt zich tussen START en Mediterranean Avenue?"
+        },
+        options: [
+          { en: "Community Chest", es: "Arca Comunal", de: "Gemeinschaftskasse", nl: "Algemeen Fonds" },
+          { en: "Chance", es: "Suerte", de: "Ereignis", nl: "Kans" },
+          { en: "Baltic Avenue", es: "Baltic Avenue", de: "Baltic Avenue", nl: "Baltic Avenue" },
+          { en: "Reading Railroad", es: "Reading Railroad", de: "Reading Railroad", nl: "Reading Railroad" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Community Chest is the first square after GO, followed by Mediterranean Avenue (the cheapest property) and then Baltic Avenue.",
+          es: "Arca Comunal es la primera casilla después de SALIDA, seguida de Mediterranean Avenue (la propiedad más barata) y luego Baltic Avenue.",
+          de: "Gemeinschaftskasse ist das erste Feld nach LOS, gefolgt von Mediterranean Avenue (die billigste Eigenschaft) und dann Baltic Avenue.",
+          nl: "Algemeen Fonds is het eerste vakje na START, gevolgd door Mediterranean Avenue (de goedkoopste eigendom) en dan Baltic Avenue."
+        }
+      },
+      {
+        question: {
+          en: "What color are the cheapest properties on the board?",
+          es: "¿De qué color son las propiedades más baratas del tablero?",
+          de: "Welche Farbe haben die billigsten Eigenschaften auf dem Brett?",
+          nl: "Welke kleur hebben de goedkoopste eigendommen op het bord?"
+        },
+        options: [
+          { en: "Brown", es: "Marrón", de: "Braun", nl: "Bruin" },
+          { en: "Light Blue", es: "Azul Claro", de: "Hellblau", nl: "Lichtblauw" },
+          { en: "Pink", es: "Rosa", de: "Rosa", nl: "Roze" },
+          { en: "Purple", es: "Morado", de: "Lila", nl: "Paars" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The brown (sometimes called dark purple) properties - Mediterranean Avenue and Baltic Avenue - are the cheapest, costing $60 and $60 respectively.",
+          es: "Las propiedades marrones (a veces llamadas morado oscuro) - Mediterranean Avenue y Baltic Avenue - son las más baratas, costando $60 y $60 respectivamente.",
+          de: "Die braunen (manchmal dunkel lila genannt) Eigenschaften - Mediterranean Avenue und Baltic Avenue - sind die billigsten und kosten jeweils $60 und $60.",
+          nl: "De bruine (soms donkerpaars genoemd) eigendommen - Mediterranean Avenue en Baltic Avenue - zijn de goedkoopste en kosten $60 en $60 respectievelijk."
+        }
+      },
+      {
+        question: {
+          en: "How many houses must you have before building a hotel?",
+          es: "¿Cuántas casas debes tener antes de construir un hotel?",
+          de: "Wie viele Häuser muss man haben, bevor man ein Hotel bauen kann?",
+          nl: "Hoeveel huizen moet je hebben voordat je een hotel kunt bouwen?"
+        },
+        options: [
+          { en: "2", es: "2", de: "2", nl: "2" },
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "4", es: "4", de: "4", nl: "4" },
+          { en: "5", es: "5", de: "5", nl: "5" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "You must have exactly 4 houses on each property of a color group before you can build a hotel. The hotel replaces the 4 houses.",
+          es: "Debes tener exactamente 4 casas en cada propiedad de un grupo de color antes de poder construir un hotel. El hotel reemplaza las 4 casas.",
+          de: "Du musst genau 4 Häuser auf jeder Eigenschaft einer Farbgruppe haben, bevor du ein Hotel bauen kannst. Das Hotel ersetzt die 4 Häuser.",
+          nl: "Je moet precies 4 huizen op elke eigendom van een kleurgroep hebben voordat je een hotel kunt bouwen. Het hotel vervangt de 4 huizen."
+        }
+      },
+      {
+        question: {
+          en: "How many railroads are there on the Monopoly board?",
+          es: "¿Cuántos ferrocarriles hay en el tablero de Monopoly?",
+          de: "Wie viele Eisenbahnen gibt es auf dem Monopoly-Brett?",
+          nl: "Hoeveel spoorwegen zijn er op het Monopoly-bord?"
+        },
+        options: [
+          { en: "2", es: "2", de: "2", nl: "2" },
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "4", es: "4", de: "4", nl: "4" },
+          { en: "5", es: "5", de: "5", nl: "5" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are 4 railroads: Reading Railroad, Pennsylvania Railroad, B&O Railroad, and Short Line. Each costs $200 and rent increases with how many you own.",
+          es: "Hay 4 ferrocarriles: Reading Railroad, Pennsylvania Railroad, B&O Railroad y Short Line. Cada uno cuesta $200 y el alquiler aumenta con cuántos posees.",
+          de: "Es gibt 4 Eisenbahnen: Reading Railroad, Pennsylvania Railroad, B&O Railroad und Short Line. Jede kostet $200 und die Miete steigt mit der Anzahl, die du besitzt.",
+          nl: "Er zijn 4 spoorwegen: Reading Railroad, Pennsylvania Railroad, B&O Railroad en Short Line. Elk kost $200 en de huur stijgt met hoeveel je bezit."
+        }
+      },
+      {
+        question: {
+          en: "How many utilities are there in Monopoly?",
+          es: "¿Cuántas empresas de servicios públicos hay en Monopoly?",
+          de: "Wie viele Versorgungsunternehmen gibt es in Monopoly?",
+          nl: "Hoeveel nutsbedrijven zijn er in Monopoly?"
+        },
+        options: [
+          { en: "1", es: "1", de: "1", nl: "1" },
+          { en: "2", es: "2", de: "2", nl: "2" },
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "4", es: "4", de: "4", nl: "4" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "There are 2 utilities: Electric Company and Water Works. Each costs $150 and rent is determined by multiplying the dice roll by 4 (one utility) or 10 (both utilities).",
+          es: "Hay 2 empresas de servicios públicos: Electric Company y Water Works. Cada una cuesta $150 y el alquiler se determina multiplicando la tirada de dados por 4 (una empresa) o 10 (ambas empresas).",
+          de: "Es gibt 2 Versorgungsunternehmen: Electric Company und Water Works. Jedes kostet $150 und die Miete wird durch Multiplikation des Würfelwurfs mit 4 (ein Unternehmen) oder 10 (beide Unternehmen) bestimmt.",
+          nl: "Er zijn 2 nutsbedrijven: Electric Company en Water Works. Elk kost $150 en de huur wordt bepaald door de dobbelsteenworp te vermenigvuldigen met 4 (één nutsbedrijf) of 10 (beide nutsbedrijven)."
+        }
+      },
+      {
+        question: {
+          en: "What is the most landed-on property statistically?",
+          es: "¿Cuál es la propiedad en la que más se cae estadísticamente?",
+          de: "Welche Eigenschaft wird statistisch am häufigsten besucht?",
+          nl: "Welke eigendom wordt statistisch het vaakst bezocht?"
+        },
+        options: [
+          { en: "Boardwalk", es: "Boardwalk", de: "Boardwalk", nl: "Boardwalk" },
+          { en: "Illinois Avenue", es: "Illinois Avenue", de: "Illinois Avenue", nl: "Illinois Avenue" },
+          { en: "GO", es: "SALIDA", de: "LOS", nl: "START" },
+          { en: "Free Parking", es: "Estacionamiento Gratuito", de: "Frei Parken", nl: "Vrij Parkeren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Illinois Avenue is statistically the most landed-on property because of its position relative to Jail and various Chance/Community Chest cards that send players there.",
+          es: "Illinois Avenue es estadísticamente la propiedad en la que más se cae debido a su posición relativa a la Cárcel y varias cartas de Suerte/Arca Comunal que envían a los jugadores allí.",
+          de: "Illinois Avenue wird statistisch am häufigsten besucht aufgrund ihrer Position relativ zum Gefängnis und verschiedener Ereignis-/Gemeinschaftskarten, die Spieler dorthin schicken.",
+          nl: "Illinois Avenue wordt statistisch het vaakst bezocht vanwege de positie ten opzichte van de gevangenis en verschillende Kans/Algemeen Fonds-kaarten die spelers daarheen sturen."
+        }
+      },
+      {
+        question: {
+          en: "How much does a house cost on the most expensive properties (dark blue)?",
+          es: "¿Cuánto cuesta una casa en las propiedades más caras (azul oscuro)?",
+          de: "Wie viel kostet ein Haus auf den teuersten Eigenschaften (dunkelblau)?",
+          nl: "Hoeveel kost een huis op de duurste eigendommen (donkerblauw)?"
+        },
+        options: [
+          { en: "$100", es: "$100", de: "$100", nl: "$100" },
+          { en: "$150", es: "$150", de: "$150", nl: "$150" },
+          { en: "$200", es: "$200", de: "$200", nl: "$200" },
+          { en: "$250", es: "$250", de: "$250", nl: "$250" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Houses on Boardwalk and Park Place (dark blue properties) cost $200 each. Hotels cost the same plus the 4 houses ($1,000 total).",
+          es: "Las casas en Boardwalk y Park Place (propiedades azul oscuro) cuestan $200 cada una. Los hoteles cuestan lo mismo más las 4 casas ($1,000 en total).",
+          de: "Häuser auf Boardwalk und Park Place (dunkelblaue Eigenschaften) kosten jeweils $200. Hotels kosten das gleiche plus die 4 Häuser ($1,000 insgesamt).",
+          nl: "Huizen op Boardwalk en Park Place (donkerblauwe eigendommen) kosten elk $200. Hotels kosten hetzelfde plus de 4 huizen ($1,000 in totaal)."
+        }
+      },
+      {
+        question: {
+          en: "What is the rent on Boardwalk with a hotel?",
+          es: "¿Cuál es el alquiler de Boardwalk con un hotel?",
+          de: "Wie hoch ist die Miete auf Boardwalk mit einem Hotel?",
+          nl: "Wat is de huur op Boardwalk met een hotel?"
+        },
+        options: [
+          { en: "$1,000", es: "$1,000", de: "$1,000", nl: "$1,000" },
+          { en: "$1,500", es: "$1,500", de: "$1,500", nl: "$1,500" },
+          { en: "$2,000", es: "$2,000", de: "$2,000", nl: "$2,000" },
+          { en: "$2,500", es: "$2,500", de: "$2,500", nl: "$2,500" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Boardwalk with a hotel charges $2,000 in rent, the highest possible rent in the game. Park Place with a hotel charges $1,400.",
+          es: "Boardwalk con un hotel cobra $2,000 de alquiler, el alquiler más alto posible en el juego. Park Place con un hotel cobra $1,400.",
+          de: "Boardwalk mit einem Hotel verlangt $2,000 Miete, die höchstmögliche Miete im Spiel. Park Place mit einem Hotel verlangt $1,400.",
+          nl: "Boardwalk met een hotel vraagt $2,000 huur, de hoogst mogelijke huur in het spel. Park Place met een hotel vraagt $1,400."
+        }
+      },
+      {
+        question: {
+          en: "Which city's street names are used in the original American Monopoly?",
+          es: "¿De qué ciudad se usan los nombres de calles en el Monopoly americano original?",
+          de: "Welche Stadt lieferte die Straßennamen für das ursprüngliche amerikanische Monopoly?",
+          nl: "Van welke stad worden de straatnamen gebruikt in het originele Amerikaanse Monopoly?"
+        },
+        options: [
+          { en: "New York City", es: "Nueva York", de: "New York City", nl: "New York City" },
+          { en: "Atlantic City", es: "Atlantic City", de: "Atlantic City", nl: "Atlantic City" },
+          { en: "Philadelphia", es: "Filadelfia", de: "Philadelphia", nl: "Philadelphia" },
+          { en: "Boston", es: "Boston", de: "Boston", nl: "Boston" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The original American Monopoly uses street names from Atlantic City, New Jersey. Boardwalk and Park Place are real locations in Atlantic City.",
+          es: "El Monopoly americano original usa nombres de calles de Atlantic City, Nueva Jersey. Boardwalk y Park Place son ubicaciones reales en Atlantic City.",
+          de: "Das ursprüngliche amerikanische Monopoly verwendet Straßennamen aus Atlantic City, New Jersey. Boardwalk und Park Place sind echte Orte in Atlantic City.",
+          nl: "Het originele Amerikaanse Monopoly gebruikt straatnamen van Atlantic City, New Jersey. Boardwalk en Park Place zijn echte locaties in Atlantic City."
+        }
+      },
+      {
+        question: {
+          en: "How many total properties can you build on (not including railroads and utilities)?",
+          es: "¿En cuántas propiedades totales puedes construir (sin incluir ferrocarriles y empresas de servicios)?",
+          de: "Auf wie vielen Eigenschaften insgesamt kann man bauen (ohne Eisenbahnen und Versorgungsunternehmen)?",
+          nl: "Op hoeveel totale eigendommen kun je bouwen (zonder spoorwegen en nutsbedrijven)?"
+        },
+        options: [
+          { en: "20", es: "20", de: "20", nl: "20" },
+          { en: "22", es: "22", de: "22", nl: "22" },
+          { en: "24", es: "24", de: "24", nl: "24" },
+          { en: "28", es: "28", de: "28", nl: "28" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "There are 22 color-coded properties on which you can build houses and hotels, divided into 8 color groups (brown, light blue, pink, orange, red, yellow, green, and dark blue).",
+          es: "Hay 22 propiedades codificadas por color en las que puedes construir casas y hoteles, divididas en 8 grupos de color (marrón, azul claro, rosa, naranja, rojo, amarillo, verde y azul oscuro).",
+          de: "Es gibt 22 farbcodierte Eigenschaften, auf denen man Häuser und Hotels bauen kann, aufgeteilt in 8 Farbgruppen (braun, hellblau, rosa, orange, rot, gelb, grün und dunkelblau).",
+          nl: "Er zijn 22 kleurgecodeerde eigendommen waarop je huizen en hotels kunt bouwen, verdeeld in 8 kleurgroepen (bruin, lichtblauw, roze, oranje, rood, geel, groen en donkerblauw)."
+        }
+      },
+      {
+        question: {
+          en: "What is the first property after GO?",
+          es: "¿Cuál es la primera propiedad después de SALIDA?",
+          de: "Was ist die erste Eigenschaft nach LOS?",
+          nl: "Wat is de eerste eigendom na START?"
+        },
+        options: [
+          { en: "Baltic Avenue", es: "Baltic Avenue", de: "Baltic Avenue", nl: "Baltic Avenue" },
+          { en: "Mediterranean Avenue", es: "Mediterranean Avenue", de: "Mediterranean Avenue", nl: "Mediterranean Avenue" },
+          { en: "Reading Railroad", es: "Reading Railroad", de: "Reading Railroad", nl: "Reading Railroad" },
+          { en: "Oriental Avenue", es: "Oriental Avenue", de: "Oriental Avenue", nl: "Oriental Avenue" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Mediterranean Avenue is the first property on the board, located right after the Community Chest square following GO. It costs $60 to purchase.",
+          es: "Mediterranean Avenue es la primera propiedad en el tablero, ubicada justo después de la casilla de Arca Comunal que sigue a SALIDA. Cuesta $60 comprarla.",
+          de: "Mediterranean Avenue ist die erste Eigenschaft auf dem Brett, direkt nach dem Gemeinschaftskasse-Feld nach LOS. Sie kostet $60 zum Kauf.",
+          nl: "Mediterranean Avenue is de eerste eigendom op het bord, gelegen direct na het Algemeen Fonds-vakje na START. Het kost $60 om te kopen."
+        }
+      },
+      {
+        question: {
+          en: "How many color groups have three properties?",
+          es: "¿Cuántos grupos de color tienen tres propiedades?",
+          de: "Wie viele Farbgruppen haben drei Eigenschaften?",
+          nl: "Hoeveel kleurgroepen hebben drie eigendommen?"
+        },
+        options: [
+          { en: "5", es: "5", de: "5", nl: "5" },
+          { en: "6", es: "6", de: "6", nl: "6" },
+          { en: "7", es: "7", de: "7", nl: "7" },
+          { en: "8", es: "8", de: "8", nl: "8" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Six color groups have three properties each: light blue, pink, orange, red, yellow, and green. The brown and dark blue groups have only two properties each.",
+          es: "Seis grupos de color tienen tres propiedades cada uno: azul claro, rosa, naranja, rojo, amarillo y verde. Los grupos marrón y azul oscuro tienen solo dos propiedades cada uno.",
+          de: "Sechs Farbgruppen haben jeweils drei Eigenschaften: hellblau, rosa, orange, rot, gelb und grün. Die braune und dunkelblaue Gruppe haben jeweils nur zwei Eigenschaften.",
+          nl: "Zes kleurgroepen hebben elk drie eigendommen: lichtblauw, roze, oranje, rood, geel en groen. De bruine en donkerblauwe groepen hebben elk slechts twee eigendommen."
+        }
+      },
+      {
+        question: {
+          en: "What happens to properties when a player goes bankrupt?",
+          es: "¿Qué pasa con las propiedades cuando un jugador quiebra?",
+          de: "Was passiert mit Eigenschaften, wenn ein Spieler bankrott geht?",
+          nl: "Wat gebeurt er met eigendommen wanneer een speler failliet gaat?"
+        },
+        options: [
+          { en: "They return to the bank for auction", es: "Vuelven al banco para subasta", de: "Sie kehren zur Bank für Auktion zurück", nl: "Ze keren terug naar de bank voor veiling" },
+          { en: "They go to the player who bankrupted them", es: "Van al jugador que los dejó en bancarrota", de: "Sie gehen an den Spieler, der sie bankrott gemacht hat", nl: "Ze gaan naar de speler die hen failliet maakte" },
+          { en: "They are removed from the game", es: "Se eliminan del juego", de: "Sie werden aus dem Spiel entfernt", nl: "Ze worden uit het spel verwijderd" },
+          { en: "They are distributed equally among remaining players", es: "Se distribuyen equitativamente entre los jugadores restantes", de: "Sie werden gleichmäßig unter den verbleibenden Spielern verteilt", nl: "Ze worden gelijk verdeeld onder de resterende spelers" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "When a player goes bankrupt to another player (not the bank), all their properties, cash, and Get Out of Jail Free cards go to that player. If bankrupt to the bank, properties are auctioned.",
+          es: "Cuando un jugador quiebra ante otro jugador (no el banco), todas sus propiedades, efectivo y tarjetas de Salir de la Cárcel Gratis van a ese jugador. Si quiebra ante el banco, las propiedades se subastan.",
+          de: "Wenn ein Spieler gegenüber einem anderen Spieler (nicht der Bank) bankrott geht, gehen alle seine Eigenschaften, Bargeld und Frei-aus-dem-Gefängnis-Karten an diesen Spieler. Bei Bankrott gegenüber der Bank werden Eigenschaften versteigert.",
+          nl: "Wanneer een speler failliet gaat bij een andere speler (niet de bank), gaan al hun eigendommen, contant geld en Uit de Gevangenis Vrij-kaarten naar die speler. Bij faillissement bij de bank worden eigendommen geveild."
+        }
+      },
+      {
+        question: {
+          en: "How many total spaces are on the Monopoly board?",
+          es: "¿Cuántos espacios totales hay en el tablero de Monopoly?",
+          de: "Wie viele Felder gibt es insgesamt auf dem Monopoly-Brett?",
+          nl: "Hoeveel vakjes zijn er in totaal op het Monopoly-bord?"
+        },
+        options: [
+          { en: "36", es: "36", de: "36", nl: "36" },
+          { en: "38", es: "38", de: "38", nl: "38" },
+          { en: "40", es: "40", de: "40", nl: "40" },
+          { en: "42", es: "42", de: "42", nl: "42" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are 40 spaces on the Monopoly board: 22 properties, 4 railroads, 2 utilities, 3 Chance, 3 Community Chest, 2 tax spaces, and the 4 corner squares (GO, Jail, Free Parking, Go to Jail).",
+          es: "Hay 40 espacios en el tablero de Monopoly: 22 propiedades, 4 ferrocarriles, 2 empresas de servicios, 3 Suerte, 3 Arca Comunal, 2 espacios de impuestos y las 4 esquinas (SALIDA, Cárcel, Estacionamiento Gratuito, Ve a la Cárcel).",
+          de: "Es gibt 40 Felder auf dem Monopoly-Brett: 22 Eigenschaften, 4 Eisenbahnen, 2 Versorgungsunternehmen, 3 Ereignis, 3 Gemeinschaftskasse, 2 Steuerfelder und die 4 Eckfelder (LOS, Gefängnis, Frei Parken, Gehe ins Gefängnis).",
+          nl: "Er zijn 40 vakjes op het Monopoly-bord: 22 eigendommen, 4 spoorwegen, 2 nutsbedrijven, 3 Kans, 3 Algemeen Fonds, 2 belastingvakjes en de 4 hoekvakjes (START, Gevangenis, Vrij Parkeren, Ga naar de gevangenis)."
+        }
+      },
+      {
+        question: {
+          en: "What does Free Parking do in official Monopoly rules?",
+          es: "¿Qué hace Estacionamiento Gratuito en las reglas oficiales de Monopoly?",
+          de: "Was macht Frei Parken in den offiziellen Monopoly-Regeln?",
+          nl: "Wat doet Vrij Parkeren in de officiële Monopoly-regels?"
+        },
+        options: [
+          { en: "Collect all tax and fine money", es: "Recoger todo el dinero de impuestos y multas", de: "Alle Steuer- und Strafgelder einsammeln", nl: "Al het belasting- en boetegeld verzamelen" },
+          { en: "Nothing - it's just a rest space", es: "Nada - es solo un espacio de descanso", de: "Nichts - es ist nur ein Ruhefeld", nl: "Niets - het is gewoon een rustplek" },
+          { en: "Collect $500", es: "Recoger $500", de: "$500 sammeln", nl: "$500 verzamelen" },
+          { en: "Get an extra turn", es: "Obtener un turno extra", de: "Einen extra Zug bekommen", nl: "Een extra beurt krijgen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "In official rules, Free Parking does nothing - it's just a safe space where nothing happens. The 'collect money' house rule is popular but not official.",
+          es: "En las reglas oficiales, Estacionamiento Gratuito no hace nada - es solo un espacio seguro donde no pasa nada. La regla casera de 'recoger dinero' es popular pero no oficial.",
+          de: "In den offiziellen Regeln macht Frei Parken nichts - es ist nur ein sicheres Feld, wo nichts passiert. Die 'Geld einsammeln' Hausregel ist beliebt, aber nicht offiziell.",
+          nl: "In de officiële regels doet Vrij Parkeren niets - het is gewoon een veilige plek waar niets gebeurt. De 'geld verzamelen' huisregel is populair maar niet officieel."
+        }
       }
     ]
   };

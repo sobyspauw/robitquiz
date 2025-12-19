@@ -427,6 +427,426 @@
           de: "GUIDON war ein wegweisendes intelligentes Tutoring-System das Ende der 1970er entwickelt und in den 1980ern verfeinert wurde und MYCINs medizinische Wissensbasis nutzte um diagnostisches Denken an Medizinstudenten zu lehren. Es demonstrierte wie Expertensysteme für Bildung umfunktioniert werden konnten und etablierte Prinzipien für intelligente Tutoring-Systeme.",
           nl: "GUIDON was een baanbrekend intelligent tutor systeem ontwikkeld in de late jaren 1970 en verfijnd in de jaren 1980 dat MYCIN's medische kennisbasis gebruikte om diagnostisch redeneren aan medische studenten te leren. Het toonde hoe expertsystemen hergebruikt konden worden voor onderwijs, waarbij principes voor intelligente tutor systemen werden gevestigd."
         }
+      },
+      {
+        question: {
+          en: "What was EMYCIN and how did it contribute to expert system development?",
+          es: "¿Qué fue EMYCIN y cómo contribuyó al desarrollo de sistemas expertos?",
+          de: "Was war EMYCIN und wie trug es zur Expertensystementwicklung bei?",
+          nl: "Wat was EMYCIN en hoe droeg het bij aan expertsysteem ontwikkeling?"
+        },
+        options: [
+          { en: "A domain-independent expert system shell extracted from MYCIN for building new expert systems", es: "Una shell de sistema experto independiente del dominio extraída de MYCIN para construir nuevos sistemas expertos", de: "Eine domänenunabhängige Expertensystem-Shell extrahiert aus MYCIN zum Bau neuer Expertensysteme", nl: "Een domein-onafhankelijke expertsysteem shell geëxtraheerd uit MYCIN voor het bouwen van nieuwe expertsystemen" },
+          { en: "An enhanced version of MYCIN with more medical knowledge", es: "Una versión mejorada de MYCIN con más conocimiento médico", de: "Eine verbesserte Version von MYCIN mit mehr medizinischem Wissen", nl: "Een verbeterde versie van MYCIN met meer medische kennis" },
+          { en: "A neural network system", es: "Un sistema de red neuronal", de: "Ein neuronales Netzwerksystem", nl: "Een neuraal netwerk systeem" },
+          { en: "A programming language", es: "Un lenguaje de programación", de: "Eine Programmiersprache", nl: "Een programmeertaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "EMYCIN (Essential MYCIN) was created by removing the medical knowledge from MYCIN, leaving just the inference engine and control structure. This 'shell' approach allowed developers to build new expert systems by adding domain-specific knowledge, pioneering the expert system shell concept.",
+          es: "EMYCIN (Essential MYCIN) fue creado removiendo el conocimiento médico de MYCIN, dejando solo el motor de inferencia y estructura de control. Este enfoque de 'shell' permitió a desarrolladores construir nuevos sistemas expertos agregando conocimiento específico del dominio.",
+          de: "EMYCIN (Essential MYCIN) wurde durch Entfernung des medizinischen Wissens aus MYCIN erstellt, wodurch nur die Inferenzmaschine und Kontrollstruktur übrig blieben. Dieser 'Shell'-Ansatz erlaubte Entwicklern neue Expertensysteme durch Hinzufügen domänenspezifischen Wissens zu bauen.",
+          nl: "EMYCIN (Essential MYCIN) werd gecreëerd door de medische kennis uit MYCIN te verwijderen, waardoor alleen de inferentie-engine en controlestructuur overbleef. Deze 'shell' benadering stelde ontwikkelaars in staat nieuwe expertsystemen te bouwen door domein-specifieke kennis toe te voegen."
+        }
+      },
+      {
+        question: {
+          en: "What was the role of explanation facilities in expert systems?",
+          es: "¿Cuál fue el papel de las facilidades de explicación en sistemas expertos?",
+          de: "Was war die Rolle von Erklärungseinrichtungen in Expertensystemen?",
+          nl: "Wat was de rol van uitlegfaciliteiten in expertsystemen?"
+        },
+        options: [
+          { en: "Providing justifications for conclusions by showing reasoning chains and rules used", es: "Proporcionar justificaciones para conclusiones mostrando cadenas de razonamiento y reglas usadas", de: "Bereitstellung von Begründungen für Schlussfolgerungen durch Zeigen von Argumentationsketten und verwendeten Regeln", nl: "Het bieden van rechtvaardigingen voor conclusies door redeneringketens en gebruikte regels te tonen" },
+          { en: "Translating between programming languages", es: "Traducir entre lenguajes de programación", de: "Übersetzen zwischen Programmiersprachen", nl: "Vertalen tussen programmeertalen" },
+          { en: "Generating documentation automatically", es: "Generar documentación automáticamente", de: "Automatisches Generieren von Dokumentation", nl: "Automatisch documentatie genereren" },
+          { en: "Training new users", es: "Entrenar nuevos usuarios", de: "Training neuer Benutzer", nl: "Nieuwe gebruikers trainen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Explanation facilities were crucial in expert systems, allowing users to ask 'why' (why is this information needed) and 'how' (how was this conclusion reached) questions. This transparency helped build user trust and made systems more acceptable in critical domains like medicine.",
+          es: "Las facilidades de explicación fueron cruciales en sistemas expertos, permitiendo a usuarios preguntar 'por qué' y 'cómo'. Esta transparencia ayudó a construir confianza del usuario y hizo sistemas más aceptables en dominios críticos.",
+          de: "Erklärungseinrichtungen waren entscheidend in Expertensystemen und erlaubten Benutzern 'warum' und 'wie' Fragen zu stellen. Diese Transparenz half Benutzervertrauen aufzubauen und machte Systeme akzeptabler in kritischen Bereichen.",
+          nl: "Uitlegfaciliteiten waren cruciaal in expertsystemen, waardoor gebruikers 'waarom' en 'hoe' vragen konden stellen. Deze transparantie hielp gebruikersvertrouwen op te bouwen en maakte systemen acceptabeler in kritieke domeinen."
+        }
+      },
+      {
+        question: {
+          en: "What was XCON/R1's commercial impact at Digital Equipment Corporation?",
+          es: "¿Cuál fue el impacto comercial de XCON/R1 en Digital Equipment Corporation?",
+          de: "Was war XCON/R1s kommerzielle Auswirkung bei Digital Equipment Corporation?",
+          nl: "Wat was XCON/R1's commerciële impact bij Digital Equipment Corporation?"
+        },
+        options: [
+          { en: "Saved millions annually by automating VAX computer system configuration", es: "Ahorró millones anualmente automatizando configuración de sistemas VAX", de: "Sparte jährlich Millionen durch Automatisierung der VAX-Systemkonfiguration", nl: "Bespaarde jaarlijks miljoenen door VAX computersysteem configuratie te automatiseren" },
+          { en: "Had minimal business impact", es: "Tuvo impacto comercial mínimo", de: "Hatte minimale geschäftliche Auswirkung", nl: "Had minimale bedrijfsimpact" },
+          { en: "Only used in research labs", es: "Solo usado en laboratorios de investigación", de: "Nur in Forschungslabors verwendet", nl: "Alleen gebruikt in onderzoekslabs" },
+          { en: "Failed and was abandoned", es: "Falló y fue abandonado", de: "Scheiterte und wurde aufgegeben", nl: "Faalde en werd opgegeven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "XCON/R1 was one of the first commercially successful expert systems, deployed at DEC in 1980. It configured VAX computer orders with thousands of rules, saving $25-40 million annually and demonstrating expert systems' business value, spurring the 1980s AI boom.",
+          es: "XCON/R1 fue uno de los primeros sistemas expertos comercialmente exitosos, desplegado en DEC en 1980. Configuró pedidos VAX con miles de reglas, ahorrando $25-40 millones anualmente y demostrando valor comercial.",
+          de: "XCON/R1 war eines der ersten kommerziell erfolgreichen Expertensysteme, 1980 bei DEC eingesetzt. Es konfigurierte VAX-Bestellungen mit Tausenden Regeln, sparte $25-40 Millionen jährlich und demonstrierte geschäftlichen Wert.",
+          nl: "XCON/R1 was een van de eerste commercieel succesvolle expertsystemen, ingezet bij DEC in 1980. Het configureerde VAX bestellingen met duizenden regels, bespaarde $25-40 miljoen jaarlijks en toonde bedrijfswaarde."
+        }
+      },
+      {
+        question: {
+          en: "What reasoning strategy did MYCIN use for handling uncertainty?",
+          es: "¿Qué estrategia de razonamiento usó MYCIN para manejar incertidumbre?",
+          de: "Welche Argumentationsstrategie verwendete MYCIN für Unsicherheitsbehandlung?",
+          nl: "Welke redeneringsstrategie gebruikte MYCIN voor het behandelen van onzekerheid?"
+        },
+        options: [
+          { en: "Certainty factors combining evidence with confidence values between -1 and 1", es: "Factores de certeza combinando evidencia con valores de confianza entre -1 y 1", de: "Gewissheitsfaktoren die Evidenz mit Konfidenuwerten zwischen -1 und 1 kombinieren", nl: "Zekerheids factoren die bewijs combineren met vertrouwenswaarden tussen -1 en 1" },
+          { en: "Pure boolean logic with no uncertainty", es: "Lógica booleana pura sin incertidumbre", de: "Reine boolesche Logik ohne Unsicherheit", nl: "Pure booleaanse logica zonder onzekerheid" },
+          { en: "Random probability assignment", es: "Asignación aleatoria de probabilidad", de: "Zufällige Wahrscheinlichkeitszuweisung", nl: "Willekeurige kans toewijzing" },
+          { en: "Neural network confidence scores", es: "Puntuaciones de confianza de red neuronal", de: "Neuronale Netzwerk-Konfidenzbewertungen", nl: "Neurale netwerk vertrouwensscores" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MYCIN pioneered certainty factors (CF), a method for combining uncertain evidence. Each rule had a CF value (-1 to 1), and the system combined multiple CFs to reach conclusions, providing a practical alternative to formal probability theory.",
+          es: "MYCIN fue pionero en factores de certeza (CF), un método para combinar evidencia incierta. Cada regla tenía un valor CF (-1 a 1), y el sistema combinó múltiples CF para alcanzar conclusiones.",
+          de: "MYCIN war Pionier bei Gewissheitsfaktoren (CF), einer Methode zur Kombination unsicherer Evidenz. Jede Regel hatte einen CF-Wert (-1 bis 1), und das System kombinierte mehrere CFs um Schlussfolgerungen zu erreichen.",
+          nl: "MYCIN was pionier in zekerheids factoren (CF), een methode voor het combineren van onzeker bewijs. Elke regel had een CF waarde (-1 tot 1), en het systeem combineerde meerdere CF's om conclusies te bereiken."
+        }
+      },
+      {
+        question: {
+          en: "What was the knowledge engineering bottleneck's main cause?",
+          es: "¿Cuál fue la causa principal del cuello de botella de ingeniería de conocimiento?",
+          de: "Was war die Hauptursache des Wissenstechnik-Engpasses?",
+          nl: "Wat was de hoofdoorzaak van het kennistechniek knelpunt?"
+        },
+        options: [
+          { en: "Difficulty extracting tacit knowledge from experts and formalizing it into rules", es: "Dificultad extrayendo conocimiento tácito de expertos y formalizándolo en reglas", de: "Schwierigkeit implizites Wissen von Experten zu extrahieren und in Regeln zu formalisieren", nl: "Moeilijkheid impliciete kennis van experts te extraheren en te formaliseren in regels" },
+          { en: "Lack of computing power", es: "Falta de poder computacional", de: "Mangel an Rechenleistung", nl: "Gebrek aan rekenkracht" },
+          { en: "Too many experts available", es: "Demasiados expertos disponibles", de: "Zu viele Experten verfügbar", nl: "Te veel experts beschikbaar" },
+          { en: "Programming languages were too simple", es: "Los lenguajes de programación eran demasiado simples", de: "Programmiersprachen waren zu einfach", nl: "Programmeertalen waren te simpel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The knowledge engineering bottleneck arose because expert knowledge is often tacit (unconscious), making it hard to articulate. Converting this into formal rules required intensive interviews with experts and knowledge engineers, a slow, expensive process that limited expert system scalability.",
+          es: "El cuello de botella surgió porque el conocimiento experto es a menudo tácito, haciéndolo difícil de articular. Convertirlo en reglas formales requería entrevistas intensivas, un proceso lento y caro que limitó escalabilidad.",
+          de: "Der Engpass entstand weil Expertenwissen oft implizit ist und schwer zu artikulieren. Die Umwandlung in formale Regeln erforderte intensive Interviews, ein langsamer, teurer Prozess der Skalierbarkeit begrenzte.",
+          nl: "Het knelpunt ontstond omdat expertkennis vaak impliciet is, waardoor het moeilijk te verwoorden is. Het converteren naar formele regels vereiste intensieve interviews, een langzaam, duur proces dat schaalbaarheid beperkte."
+        }
+      },
+      {
+        question: {
+          en: "What was frames' contribution to knowledge representation?",
+          es: "¿Cuál fue la contribución de los marcos a la representación de conocimiento?",
+          de: "Was war der Beitrag von Frames zur Wissensrepräsentation?",
+          nl: "Wat was de bijdrage van frames aan kennisrepresentatie?"
+        },
+        options: [
+          { en: "Structured data representation with slots, defaults, and inheritance hierarchies", es: "Representación de datos estructurados con ranuras, valores predeterminados y jerarquías de herencia", de: "Strukturierte Datenrepräsentation mit Slots, Standardwerten und Vererbungshierarchien", nl: "Gestructureerde data representatie met slots, standaardwaarden en overervingshiërarchieën" },
+          { en: "Only used for image processing", es: "Solo usado para procesamiento de imágenes", de: "Nur für Bildverarbeitung verwendet", nl: "Alleen gebruikt voor beeldverwerking" },
+          { en: "Replaced all other knowledge representations", es: "Reemplazó todas las demás representaciones de conocimiento", de: "Ersetzte alle anderen Wissensrepräsentationen", nl: "Verving alle andere kennisrepresentaties" },
+          { en: "Had no practical applications", es: "No tuvo aplicaciones prácticas", de: "Hatte keine praktischen Anwendungen", nl: "Had geen praktische toepassingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Frames, introduced by Marvin Minsky in 1974, provided structured knowledge representation with slots for attributes, default values, and inheritance. This influenced object-oriented programming and became important in expert systems for representing complex structured knowledge.",
+          es: "Los marcos, introducidos por Marvin Minsky en 1974, proporcionaron representación estructurada con ranuras para atributos, valores predeterminados y herencia. Esto influyó en programación orientada a objetos y se volvió importante en sistemas expertos.",
+          de: "Frames, 1974 von Marvin Minsky eingeführt, boten strukturierte Wissensrepräsentation mit Slots für Attribute, Standardwerte und Vererbung. Dies beeinflusste objektorientierte Programmierung und wurde wichtig in Expertensystemen.",
+          nl: "Frames, geïntroduceerd door Marvin Minsky in 1974, boden gestructureerde kennisrepresentatie met slots voor attributen, standaardwaarden en overerving. Dit beïnvloedde object-georiënteerd programmeren en werd belangrijk in expertsystemen."
+        }
+      },
+      {
+        question: {
+          en: "What was the main limitation of first-generation expert systems?",
+          es: "¿Cuál fue la limitación principal de los sistemas expertos de primera generación?",
+          de: "Was war die Hauptbeschränkung von Expertensystemen der ersten Generation?",
+          nl: "Wat was de hoofdbeperking van eerste generatie expertsystemen?"
+        },
+        options: [
+          { en: "Brittleness - they failed catastrophically outside their narrow domain", es: "Fragilidad - fallaban catastróficamente fuera de su dominio estrecho", de: "Sprödigkeit - sie versagten katastrophal außerhalb ihrer engen Domäne", nl: "Broosheid - ze faalden catastrofaal buiten hun smalle domein" },
+          { en: "Too much computing power required", es: "Demasiado poder computacional requerido", de: "Zu viel Rechenleistung erforderlich", nl: "Te veel rekenkracht vereist" },
+          { en: "Too expensive hardware", es: "Hardware demasiado caro", de: "Zu teure Hardware", nl: "Te dure hardware" },
+          { en: "Lack of users", es: "Falta de usuarios", de: "Mangel an Benutzern", nl: "Gebrek aan gebruikers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Brittleness was the defining weakness of early expert systems. Designed for narrow domains, they had no graceful degradation - even slightly unusual inputs could cause complete failure. They couldn't handle edge cases, learn from experience, or adapt to new situations.",
+          es: "La fragilidad fue la debilidad definitoria de los sistemas expertos tempranos. Diseñados para dominios estrechos, no tenían degradación elegante - incluso entradas ligeramente inusuales podían causar falla completa.",
+          de: "Sprödigkeit war die definierende Schwäche früher Expertensysteme. Für enge Bereiche entworfen, hatten sie keine sanfte Degradation - selbst leicht ungewöhnliche Eingaben konnten vollständiges Versagen verursachen.",
+          nl: "Broosheid was de bepalende zwakte van vroege expertsystemen. Ontworpen voor smalle domeinen, hadden ze geen elegante degradatie - zelfs licht ongebruikelijke inputs konden complete faling veroorzaken."
+        }
+      },
+      {
+        question: {
+          en: "What was the Lisp Machine and why was it important for expert systems?",
+          es: "¿Qué fue la Máquina Lisp y por qué fue importante para sistemas expertos?",
+          de: "Was war die Lisp-Maschine und warum war sie wichtig für Expertensysteme?",
+          nl: "Wat was de Lisp Machine en waarom was het belangrijk voor expertsystemen?"
+        },
+        options: [
+          { en: "Specialized hardware optimized for running Lisp-based AI applications", es: "Hardware especializado optimizado para ejecutar aplicaciones de IA basadas en Lisp", de: "Spezialisierte Hardware optimiert für Lisp-basierte KI-Anwendungen", nl: "Gespecialiseerde hardware geoptimaliseerd voor het draaien van Lisp-gebaseerde AI applicaties" },
+          { en: "A programming language", es: "Un lenguaje de programación", de: "Eine Programmiersprache", nl: "Een programmeertaal" },
+          { en: "A database system", es: "Un sistema de base de datos", de: "Ein Datenbanksystem", nl: "Een database systeem" },
+          { en: "An expert system shell", es: "Una shell de sistema experto", de: "Eine Expertensystem-Shell", nl: "Een expertsysteem shell" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lisp Machines were specialized computers (1970s-80s) with hardware support for Lisp features like garbage collection and symbol processing. Companies like Symbolics and LMI built them for AI research and expert systems, though they eventually lost to cheaper general-purpose workstations.",
+          es: "Las Máquinas Lisp fueron computadoras especializadas (1970s-80s) con soporte de hardware para características de Lisp como recolección de basura. Compañías como Symbolics las construyeron para investigación de IA, aunque eventualmente perdieron ante estaciones más baratas.",
+          de: "Lisp-Maschinen waren spezialisierte Computer (1970-80er) mit Hardware-Unterstützung für Lisp-Features wie Garbage Collection. Firmen wie Symbolics bauten sie für KI-Forschung, obwohl sie schließlich gegen billigere Workstations verloren.",
+          nl: "Lisp Machines waren gespecialiseerde computers (jaren 1970-80) met hardware ondersteuning voor Lisp functies zoals garbage collection. Bedrijven zoals Symbolics bouwden ze voor AI onderzoek, hoewel ze uiteindelijk verloren van goedkopere werkstations."
+        }
+      },
+      {
+        question: {
+          en: "What was the difference between production rules and semantic networks?",
+          es: "¿Cuál fue la diferencia entre reglas de producción y redes semánticas?",
+          de: "Was war der Unterschied zwischen Produktionsregeln und semantischen Netzwerken?",
+          nl: "Wat was het verschil tussen productieregels en semantische netwerken?"
+        },
+        options: [
+          { en: "Production rules encoded procedural knowledge (IF-THEN), semantic networks represented declarative knowledge (concepts and relationships)", es: "Las reglas de producción codificaban conocimiento procesal (SI-ENTONCES), las redes semánticas representaban conocimiento declarativo (conceptos y relaciones)", de: "Produktionsregeln kodierten prozedurales Wissen (WENN-DANN), semantische Netzwerke repräsentierten deklaratives Wissen (Konzepte und Beziehungen)", nl: "Productieregels codeerden procedurele kennis (ALS-DAN), semantische netwerken representeerden declaratieve kennis (concepten en relaties)" },
+          { en: "They were identical", es: "Eran idénticos", de: "Sie waren identisch", nl: "Ze waren identiek" },
+          { en: "Only production rules were used in AI", es: "Solo se usaron reglas de producción en IA", de: "Nur Produktionsregeln wurden in KI verwendet", nl: "Alleen productieregels werden gebruikt in AI" },
+          { en: "Semantic networks came after expert systems", es: "Las redes semánticas vinieron después de sistemas expertos", de: "Semantische Netzwerke kamen nach Expertensystemen", nl: "Semantische netwerken kwamen na expertsystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Production rules (IF conditions THEN actions) captured procedural 'how-to' knowledge for reasoning, while semantic networks (nodes and labeled links) represented declarative 'what-is' knowledge about concepts and relationships. Expert systems often combined both representations.",
+          es: "Las reglas de producción capturaron conocimiento procesal 'cómo hacer', mientras que las redes semánticas representaron conocimiento declarativo 'qué es' sobre conceptos. Los sistemas expertos a menudo combinaron ambas representaciones.",
+          de: "Produktionsregeln erfassten prozedurales 'Wie'-Wissen, während semantische Netzwerke deklaratives 'Was'-Wissen über Konzepte repräsentierten. Expertensysteme kombinierten oft beide Repräsentationen.",
+          nl: "Productieregels legden procedurele 'hoe-doe-je' kennis vast, terwijl semantische netwerken declaratieve 'wat-is' kennis over concepten representeerden. Expertsystemen combineerden vaak beide representaties."
+        }
+      },
+      {
+        question: {
+          en: "What was the role of meta-rules in expert systems?",
+          es: "¿Cuál fue el papel de las meta-reglas en sistemas expertos?",
+          de: "Was war die Rolle von Meta-Regeln in Expertensystemen?",
+          nl: "Wat was de rol van meta-regels in expertsystemen?"
+        },
+        options: [
+          { en: "Rules about rules that controlled conflict resolution and reasoning strategy", es: "Reglas sobre reglas que controlaban resolución de conflictos y estrategia de razonamiento", de: "Regeln über Regeln die Konfliktlösung und Argumentationsstrategie kontrollierten", nl: "Regels over regels die conflictoplossing en redeneringsstrategie controleerden" },
+          { en: "Marketing rules for selling expert systems", es: "Reglas de marketing para vender sistemas expertos", de: "Marketing-Regeln zum Verkauf von Expertensystemen", nl: "Marketing regels voor het verkopen van expertsystemen" },
+          { en: "Database indexing rules", es: "Reglas de indexación de base de datos", de: "Datenbank-Indexierungsregeln", nl: "Database indexering regels" },
+          { en: "User interface design rules", es: "Reglas de diseño de interfaz de usuario", de: "Regeln für Benutzeroberflächen-Design", nl: "Gebruikersinterface ontwerp regels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Meta-rules were higher-level rules that controlled the application of object-level rules. They determined which rules to fire when multiple rules matched (conflict resolution) and guided reasoning strategy, providing more sophisticated control over expert system behavior.",
+          es: "Las meta-reglas fueron reglas de nivel superior que controlaban la aplicación de reglas de nivel de objeto. Determinaban qué reglas disparar cuando múltiples reglas coincidían y guiaban la estrategia de razonamiento.",
+          de: "Meta-Regeln waren höherstufige Regeln die die Anwendung von Objekt-Ebenen-Regeln kontrollierten. Sie bestimmten welche Regeln bei mehreren Übereinstimmungen auszulösen waren und leiteten Argumentationsstrategien.",
+          nl: "Meta-regels waren hogere niveau regels die de toepassing van object-niveau regels controleerden. Ze bepaalden welke regels af te vuren bij meerdere matches en geleidden redeneringsstrategie."
+        }
+      },
+      {
+        question: {
+          en: "What was ACE and what domain did it serve?",
+          es: "¿Qué fue ACE y qué dominio servía?",
+          de: "Was war ACE und welche Domäne bediente es?",
+          nl: "Wat was ACE en welk domein bediende het?"
+        },
+        options: [
+          { en: "AT&T's expert system for telephone cable maintenance diagnosis", es: "Sistema experto de AT&T para diagnóstico de mantenimiento de cables telefónicos", de: "AT&Ts Expertensystem für Telefonkabel-Wartungsdiagnose", nl: "AT&T's expertsysteem voor telefoonkabel onderhoud diagnose" },
+          { en: "An aerospace control system", es: "Un sistema de control aeroespacial", de: "Ein Luft- und Raumfahrt-Kontrollsystem", nl: "Een ruimtevaart controle systeem" },
+          { en: "A computer graphics program", es: "Un programa de gráficos por computadora", de: "Ein Computergrafik-Programm", nl: "Een computergrafica programma" },
+          { en: "A programming language", es: "Un lenguaje de programación", de: "Eine Programmiersprache", nl: "Een programmeertaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ACE (Automated Cable Expertise) was a successful expert system deployed by AT&T in the mid-1980s to diagnose and maintain telephone cables. It demonstrated expert systems' value in telecommunications, saving millions in maintenance costs.",
+          es: "ACE fue un sistema experto exitoso desplegado por AT&T a mediados de los 1980 para diagnosticar y mantener cables telefónicos. Demostró el valor de sistemas expertos en telecomunicaciones, ahorrando millones en costos de mantenimiento.",
+          de: "ACE war ein erfolgreiches Expertensystem das Mitte der 1980er von AT&T eingesetzt wurde um Telefonkabel zu diagnostizieren und zu warten. Es demonstrierte den Wert von Expertensystemen in Telekommunikation.",
+          nl: "ACE was een succesvol expertsysteem ingezet door AT&T in het midden van de jaren 1980 om telefoonkabels te diagnosticeren en te onderhouden. Het toonde de waarde van expertsystemen in telecommunicatie."
+        }
+      },
+      {
+        question: {
+          en: "What was the truth maintenance system (TMS) in expert systems?",
+          es: "¿Qué fue el sistema de mantenimiento de verdad (TMS) en sistemas expertos?",
+          de: "Was war das Truth Maintenance System (TMS) in Expertensystemen?",
+          nl: "Wat was het truth maintenance system (TMS) in expertsystemen?"
+        },
+        options: [
+          { en: "A mechanism for tracking dependencies between beliefs and retracting conclusions when assumptions change", es: "Un mecanismo para rastrear dependencias entre creencias y retraer conclusiones cuando cambian suposiciones", de: "Ein Mechanismus zur Verfolgung von Abhängigkeiten zwischen Überzeugungen und Zurückziehen von Schlussfolgerungen bei Änderung von Annahmen", nl: "Een mechanisme voor het volgen van afhankelijkheden tussen overtuigingen en het intrekken van conclusies wanneer aannames veranderen" },
+          { en: "A fact-checking database", es: "Una base de datos de verificación de hechos", de: "Eine Faktenprüfungs-Datenbank", nl: "Een feitencontrole database" },
+          { en: "A user authentication system", es: "Un sistema de autenticación de usuario", de: "Ein Benutzer-Authentifizierungssystem", nl: "Een gebruikers authenticatie systeem" },
+          { en: "A data backup mechanism", es: "Un mecanismo de respaldo de datos", de: "Ein Datensicherungsmechanismus", nl: "Een data backup mechanisme" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "TMS maintained consistency in knowledge bases by tracking justifications for beliefs and automatically retracting conclusions when their supporting assumptions changed. This was crucial for handling dynamic information and avoiding contradictions in expert systems.",
+          es: "TMS mantuvo consistencia en bases de conocimiento rastreando justificaciones para creencias y retractando automáticamente conclusiones cuando cambiaban sus suposiciones de apoyo. Esto fue crucial para manejar información dinámica.",
+          de: "TMS erhielt Konsistenz in Wissensbasen durch Verfolgung von Begründungen für Überzeugungen und automatisches Zurückziehen von Schlussfolgerungen bei Änderung unterstützender Annahmen. Dies war entscheidend für dynamische Information.",
+          nl: "TMS handhaafde consistentie in kennisbanken door rechtvaardigingen voor overtuigingen te volgen en automatisch conclusies in te trekken wanneer ondersteunende aannames veranderden. Dit was cruciaal voor het behandelen van dynamische informatie."
+        }
+      },
+      {
+        question: {
+          en: "What was CADUCEUS and what distinguished it from MYCIN?",
+          es: "¿Qué fue CADUCEUS y qué lo distinguió de MYCIN?",
+          de: "Was war CADUCEUS und was unterschied es von MYCIN?",
+          nl: "Wat was CADUCEUS en wat onderscheidde het van MYCIN?"
+        },
+        options: [
+          { en: "A medical diagnostic system covering broader range of diseases using causal models", es: "Un sistema de diagnóstico médico cubriendo rango más amplio de enfermedades usando modelos causales", de: "Ein medizinisches Diagnosesystem mit breiterer Krankheitsabdeckung unter Verwendung kausaler Modelle", nl: "Een medisch diagnose systeem met bredere dekking van ziekten met behulp van causale modellen" },
+          { en: "An identical copy of MYCIN", es: "Una copia idéntica de MYCIN", de: "Eine identische Kopie von MYCIN", nl: "Een identieke kopie van MYCIN" },
+          { en: "A chess-playing program", es: "Un programa para jugar ajedrez", de: "Ein Schachspielprogramm", nl: "Een schaakspelprogramma" },
+          { en: "A robotics control system", es: "Un sistema de control de robótica", de: "Ein Robotik-Kontrollsystem", nl: "Een robotica controle systeem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CADUCEUS (formerly INTERNIST) was a more ambitious medical diagnostic system than MYCIN, covering hundreds of diseases using causal reasoning models rather than just IF-THEN rules. It attempted deeper understanding of disease processes but faced greater complexity challenges.",
+          es: "CADUCEUS fue un sistema de diagnóstico médico más ambicioso que MYCIN, cubriendo cientos de enfermedades usando modelos de razonamiento causal en lugar de solo reglas SI-ENTONCES. Intentó comprensión más profunda de procesos de enfermedad.",
+          de: "CADUCEUS war ein ehrgeizigeres medizinisches Diagnosesystem als MYCIN, deckte Hunderte von Krankheiten ab unter Verwendung kausaler Argumentationsmodelle statt nur WENN-DANN-Regeln. Es versuchte tieferes Verständnis von Krankheitsprozessen.",
+          nl: "CADUCEUS was een ambitieuzer medisch diagnose systeem dan MYCIN, dat honderden ziekten dekte met behulp van causale redeneermodellen in plaats van alleen ALS-DAN regels. Het probeerde dieper begrip van ziekte processen."
+        }
+      },
+      {
+        question: {
+          en: "What was the non-monotonic reasoning problem in expert systems?",
+          es: "¿Qué fue el problema de razonamiento no monotónico en sistemas expertos?",
+          de: "Was war das Problem des nicht-monotonen Schließens in Expertensystemen?",
+          nl: "Wat was het niet-monotone redenering probleem in expertsystemen?"
+        },
+        options: [
+          { en: "The need to retract previous conclusions when new information contradicts them", es: "La necesidad de retractar conclusiones previas cuando nueva información las contradice", de: "Die Notwendigkeit frühere Schlussfolgerungen zurückzuziehen wenn neue Informationen widersprechen", nl: "De noodzaak eerdere conclusies in te trekken wanneer nieuwe informatie ze tegenspreekt" },
+          { en: "Systems running too slowly", es: "Sistemas ejecutándose demasiado lentamente", de: "Systeme liefen zu langsam", nl: "Systemen draaiden te langzaam" },
+          { en: "Too much memory usage", es: "Demasiado uso de memoria", de: "Zu viel Speichernutzung", nl: "Te veel geheugen gebruik" },
+          { en: "User interface problems", es: "Problemas de interfaz de usuario", de: "Benutzeroberflächen-Probleme", nl: "Gebruikersinterface problemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Non-monotonic reasoning deals with the fact that adding new information can invalidate previous conclusions. Real-world reasoning often requires retracting beliefs (unlike monotonic logic where conclusions only grow). Expert systems needed special mechanisms like truth maintenance to handle this.",
+          es: "El razonamiento no monotónico trata con el hecho de que agregar nueva información puede invalidar conclusiones previas. El razonamiento del mundo real a menudo requiere retractar creencias. Los sistemas expertos necesitaban mecanismos especiales.",
+          de: "Nicht-monotones Schließen befasst sich damit dass neue Informationen frühere Schlussfolgerungen ungültig machen können. Reales Schließen erfordert oft Zurückziehen von Überzeugungen. Expertensysteme brauchten spezielle Mechanismen.",
+          nl: "Niet-monotoon redeneren behandelt het feit dat toevoegen van nieuwe informatie eerdere conclusies ongeldig kan maken. Echte wereld redeneren vereist vaak het intrekken van overtuigingen. Expertsystemen hadden speciale mechanismen nodig."
+        }
+      },
+      {
+        question: {
+          en: "What was the blackboard architecture's key innovation?",
+          es: "¿Cuál fue la innovación clave de la arquitectura de pizarra?",
+          de: "Was war die Schlüsselinnovation der Blackboard-Architektur?",
+          nl: "Wat was de belangrijkste innovatie van de blackboard architectuur?"
+        },
+        options: [
+          { en: "Multiple independent knowledge sources collaborating via shared workspace", es: "Múltiples fuentes de conocimiento independientes colaborando vía espacio de trabajo compartido", de: "Mehrere unabhängige Wissensquellen die über gemeinsamen Arbeitsbereich zusammenarbeiten", nl: "Meerdere onafhankelijke kennisbronnen samenwerkend via gedeelde werkruimte" },
+          { en: "Single expert making all decisions", es: "Un solo experto tomando todas las decisiones", de: "Ein einzelner Experte der alle Entscheidungen trifft", nl: "Enkele expert die alle beslissingen neemt" },
+          { en: "Sequential processing only", es: "Solo procesamiento secuencial", de: "Nur sequentielle Verarbeitung", nl: "Alleen sequentiële verwerking" },
+          { en: "No knowledge sharing between components", es: "Sin compartir conocimiento entre componentes", de: "Kein Wissensaustausch zwischen Komponenten", nl: "Geen kennisdeling tussen componenten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The blackboard architecture, exemplified by Hearsay-II speech system, allowed multiple specialized knowledge sources to contribute incrementally to problem-solving via a shared 'blackboard' data structure. This opportunistic reasoning approach influenced multi-agent systems and collaborative AI.",
+          es: "La arquitectura de pizarra, ejemplificada por el sistema de habla Hearsay-II, permitió a múltiples fuentes de conocimiento especializadas contribuir incrementalmente a resolución de problemas vía estructura de datos de 'pizarra' compartida.",
+          de: "Die Blackboard-Architektur, exemplifiziert durch das Hearsay-II-Sprachsystem, erlaubte mehreren spezialisierten Wissensquellen inkrementell zur Problemlösung über eine gemeinsame 'Blackboard'-Datenstruktur beizutragen.",
+          nl: "De blackboard architectuur, geïllustreerd door het Hearsay-II spraaksysteem, stelde meerdere gespecialiseerde kennisbronnen in staat incrementeel bij te dragen aan probleemoplossing via een gedeelde 'blackboard' datastructuur."
+        }
+      },
+      {
+        question: {
+          en: "What was DART and what was its significance?",
+          es: "¿Qué fue DART y cuál fue su importancia?",
+          de: "Was war DART und was war seine Bedeutung?",
+          nl: "Wat was DART en wat was zijn betekenis?"
+        },
+        options: [
+          { en: "An expert system that paid for itself in first day of Gulf War by optimizing logistics", es: "Un sistema experto que se pagó a sí mismo en el primer día de la Guerra del Golfo optimizando logística", de: "Ein Expertensystem das sich am ersten Tag des Golfkriegs durch Logistikoptimierung amortisierte", nl: "Een expertsysteem dat zichzelf terugverdiende in de eerste dag van de Golfoorlog door logistiek te optimaliseren" },
+          { en: "A programming language", es: "Un lenguaje de programación", de: "Eine Programmiersprache", nl: "Een programmeertaal" },
+          { en: "A database system", es: "Un sistema de base de datos", de: "Ein Datenbanksystem", nl: "Een database systeem" },
+          { en: "A graphics renderer", es: "Un renderizador de gráficos", de: "Ein Grafik-Renderer", nl: "Een graphics renderer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "DART (Dynamic Analysis and Replanning Tool) was a logistics expert system used during the 1991 Gulf War. It reportedly saved enough in transportation costs on its first day to cover its entire development cost, demonstrating expert systems' practical military value.",
+          es: "DART fue un sistema experto de logística usado durante la Guerra del Golfo de 1991. Reportadamente ahorró suficiente en costos de transporte en su primer día para cubrir todo su costo de desarrollo, demostrando valor militar práctico.",
+          de: "DART war ein Logistik-Expertensystem das während des Golfkriegs 1991 verwendet wurde. Es sparte angeblich am ersten Tag genug Transportkosten um seine gesamten Entwicklungskosten zu decken und demonstrierte praktischen militärischen Wert.",
+          nl: "DART was een logistiek expertsysteem gebruikt tijdens de Golfoorlog van 1991. Het bespaarde naar verluidt genoeg in transportkosten op de eerste dag om de volledige ontwikkelkosten te dekken, wat praktische militaire waarde toonde."
+        }
+      },
+      {
+        question: {
+          en: "What lessons did the expert systems era teach about AI development?",
+          es: "¿Qué lecciones enseñó la era de sistemas expertos sobre desarrollo de IA?",
+          de: "Welche Lektionen lehrte die Expertensystem-Ära über KI-Entwicklung?",
+          nl: "Welke lessen leerde het expertsystemen tijdperk over AI ontwikkeling?"
+        },
+        options: [
+          { en: "Importance of learning from data, need for robustness, and limitations of pure knowledge engineering", es: "Importancia de aprender de datos, necesidad de robustez y limitaciones de ingeniería de conocimiento puro", de: "Wichtigkeit des Lernens aus Daten, Bedarf an Robustheit und Grenzen reiner Wissenstechnik", nl: "Belang van leren van data, behoefte aan robuustheid en beperkingen van pure kennistechniek" },
+          { en: "Expert systems were perfect and needed no improvement", es: "Los sistemas expertos eran perfectos y no necesitaban mejora", de: "Expertensysteme waren perfekt und brauchten keine Verbesserung", nl: "Expertsystemen waren perfect en hadden geen verbetering nodig" },
+          { en: "AI should only use symbolic reasoning", es: "La IA solo debería usar razonamiento simbólico", de: "KI sollte nur symbolisches Schließen verwenden", nl: "AI zou alleen symbolisch redeneren moeten gebruiken" },
+          { en: "Machine learning is unnecessary", es: "El aprendizaje automático es innecesario", de: "Maschinelles Lernen ist unnötig", nl: "Machine learning is onnodig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The expert systems era's limitations - brittleness, knowledge acquisition bottlenecks, maintenance costs - taught that AI systems need learning capabilities, must handle uncertainty robustly, and benefit from data-driven approaches rather than relying solely on hand-crafted knowledge.",
+          es: "Las limitaciones de la era de sistemas expertos - fragilidad, cuellos de botella de adquisición, costos de mantenimiento - enseñaron que los sistemas de IA necesitan capacidades de aprendizaje, deben manejar incertidumbre robustamente.",
+          de: "Die Limitationen der Expertensystem-Ära - Sprödigkeit, Wissenserwerbsengpässe, Wartungskosten - lehrten dass KI-Systeme Lernfähigkeiten brauchen, Unsicherheit robust handhaben müssen und von datengetriebenen Ansätzen profitieren.",
+          nl: "De beperkingen van het expertsystemen tijdperk - broosheid, kennisacquisitie knelpunten, onderhoudskosten - leerden dat AI systemen leer capaciteiten nodig hebben, onzekerheid robuust moeten behandelen en profiteren van data-gedreven benaderingen."
+        }
+      },
+      {
+        question: {
+          en: "What was SOAR and its approach to cognitive architecture?",
+          es: "¿Qué fue SOAR y su enfoque de arquitectura cognitiva?",
+          de: "Was war SOAR und sein Ansatz zur kognitiven Architektur?",
+          nl: "Wat was SOAR en zijn benadering van cognitieve architectuur?"
+        },
+        options: [
+          { en: "A unified cognitive architecture integrating multiple problem-solving methods", es: "Una arquitectura cognitiva unificada integrando múltiples métodos de resolución de problemas", de: "Eine einheitliche kognitive Architektur die mehrere Problemlösungsmethoden integriert", nl: "Een uniforme cognitieve architectuur die meerdere probleemoplossingsmethoden integreert" },
+          { en: "Only a rule-based expert system", es: "Solo un sistema experto basado en reglas", de: "Nur ein regelbasiertes Expertensystem", nl: "Alleen een op regels gebaseerd expertsysteem" },
+          { en: "A neural network system", es: "Un sistema de red neuronal", de: "Ein neuronales Netzwerksystem", nl: "Een neuraal netwerk systeem" },
+          { en: "A database management system", es: "Un sistema de gestión de bases de datos", de: "Ein Datenbankverwaltungssystem", nl: "Een database beheersysteem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SOAR, developed by Allen Newell and colleagues in the 1980s, was an ambitious cognitive architecture attempting to unify different AI approaches (problem-solving, learning, memory) into a single framework for modeling human cognition and building intelligent systems.",
+          es: "SOAR, desarrollado por Allen Newell y colegas en los 1980, fue una arquitectura cognitiva ambiciosa intentando unificar diferentes enfoques de IA en un solo framework para modelar cognición humana y construir sistemas inteligentes.",
+          de: "SOAR, entwickelt von Allen Newell und Kollegen in den 1980ern, war eine ehrgeizige kognitive Architektur die versuchte verschiedene KI-Ansätze in einem einzigen Framework zur Modellierung menschlicher Kognition zu vereinen.",
+          nl: "SOAR, ontwikkeld door Allen Newell en collega's in de jaren 1980, was een ambitieuze cognitieve architectuur die probeerde verschillende AI benaderingen te verenigen in een enkel framework voor het modelleren van menselijke cognitie."
+        }
+      },
+      {
+        question: {
+          en: "What was the main economic factor behind the AI Winter following expert systems boom?",
+          es: "¿Cuál fue el factor económico principal detrás del Invierno de IA siguiendo el boom de sistemas expertos?",
+          de: "Was war der Hauptwirtschaftsfaktor hinter dem KI-Winter nach dem Expertensystem-Boom?",
+          nl: "Wat was de belangrijkste economische factor achter de AI Winter na de expertsystemen boom?"
+        },
+        options: [
+          { en: "High maintenance costs and failure to deliver promised ROI led companies to cut AI investments", es: "Altos costos de mantenimiento y falla en entregar ROI prometido llevaron a compañías a cortar inversiones en IA", de: "Hohe Wartungskosten und Nichterreichen versprochener ROI führten Unternehmen dazu KI-Investitionen zu kürzen", nl: "Hoge onderhoudskosten en falen om beloofde ROI te leveren leidden bedrijven ertoe AI investeringen te verminderen" },
+          { en: "Expert systems were too profitable", es: "Los sistemas expertos eran demasiado rentables", de: "Expertensysteme waren zu profitabel", nl: "Expertsystemen waren te winstgevend" },
+          { en: "Government banned AI research", es: "El gobierno prohibió investigación de IA", de: "Regierung verbot KI-Forschung", nl: "Overheid verbood AI onderzoek" },
+          { en: "No companies used expert systems", es: "Ninguna compañía usó sistemas expertos", de: "Keine Unternehmen verwendeten Expertensysteme", nl: "Geen bedrijven gebruikten expertsystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The late 1980s AI Winter occurred because expert systems proved expensive to develop and maintain, couldn't adapt to changing conditions, and often failed to deliver the promised business value and ROI. Disillusionment led to dramatic funding cuts and market collapse for AI companies.",
+          es: "El Invierno de IA de finales de los 1980 ocurrió porque los sistemas expertos resultaron caros de desarrollar y mantener, no podían adaptarse a condiciones cambiantes y a menudo fallaban en entregar el valor comercial prometido.",
+          de: "Der KI-Winter Ende der 1980er trat auf weil Expertensysteme teuer in Entwicklung und Wartung waren, sich nicht an ändernde Bedingungen anpassen konnten und oft den versprochenen Geschäftswert nicht lieferten.",
+          nl: "De AI Winter van de late jaren 1980 ontstond omdat expertsystemen duur bleken te ontwikkelen en onderhouden, zich niet konden aanpassen aan veranderende omstandigheden en vaak faalden om de beloofde bedrijfswaarde te leveren."
+        }
+      },
+      {
+        question: {
+          en: "What was the symbolic vs. connectionist debate in 1980s AI?",
+          es: "¿Qué fue el debate simbólico vs. conexionista en la IA de los 1980?",
+          de: "Was war die Debatte symbolisch vs. konnektionistisch in der KI der 1980er?",
+          nl: "Wat was het symbolische vs. connectionistische debat in AI van de jaren 1980?"
+        },
+        options: [
+          { en: "Debate between rule-based symbolic AI and neural network approaches", es: "Debate entre IA simbólica basada en reglas y enfoques de redes neuronales", de: "Debatte zwischen regelbasierter symbolischer KI und neuronalen Netzwerkansätzen", nl: "Debat tussen regelgebaseerde symbolische AI en neurale netwerk benaderingen" },
+          { en: "Debate about computer hardware architecture", es: "Debate sobre arquitectura de hardware de computadora", de: "Debatte über Computerhardware-Architektur", nl: "Debat over computer hardware architectuur" },
+          { en: "Debate about programming languages", es: "Debate sobre lenguajes de programación", de: "Debatte über Programmiersprachen", nl: "Debat over programmeertalen" },
+          { en: "Debate about AI ethics", es: "Debate sobre ética de IA", de: "Debatte über KI-Ethik", nl: "Debat over AI ethiek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 1980s saw intense debate between symbolic AI (using explicit rules and logic) championed by expert systems, and connectionist AI (using neural networks) that was experiencing revival. This tension shaped AI research directions, with both approaches eventually contributing to modern AI systems.",
+          es: "Los 1980 vieron intenso debate entre IA simbólica (usando reglas y lógica explícitas) defendida por sistemas expertos, e IA conexionista (usando redes neuronales) que experimentaba revival. Esta tensión moldeó direcciones de investigación de IA.",
+          de: "Die 1980er sahen intensive Debatte zwischen symbolischer KI (mit expliziten Regeln und Logik) verfochten von Expertensystemen, und konnektionistischer KI (mit neuronalen Netzwerken) die ein Revival erlebte. Diese Spannung formte KI-Forschungsrichtungen.",
+          nl: "De jaren 1980 zagen een intens debat tussen symbolische AI (met expliciete regels en logica) verdedigd door expertsystemen, en connectionistische AI (met neurale netwerken) dat een heropleving beleefde. Deze spanning vormde AI onderzoeksrichtingen."
+        }
       }
     ]
   };

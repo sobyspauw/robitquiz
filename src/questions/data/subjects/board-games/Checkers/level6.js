@@ -827,7 +827,796 @@
           de: "Eine Festung ist eine so solide Verteidigungsformation, dass selbst bei materiellem Nachteil der Gegner nicht durchbrechen kann, um den Sieg zu erzielen. Die verteidigenden Steine schaffen eine uneinnehmbare Struktur, bei der alle Penetrationsversuche scheitern und durch perfekte Verteidigungsgeometrie ein Remis sichern, trotz materiellem Rückstand.",
           nl: "Een fort is een verdedigingsformatie zo solide dat zelfs met materiaal nadeel de tegenstander niet kan doorbreken om overwinning te behalen. De verdedigende stukken creëren een oninneembare structuur waarbij alle penetratie pogingen falen, waarbij remise wordt veiliggesteld door perfecte verdedigingsgeometrie ondanks materiaal tekort."
         }
+      },
+      {
+        question: {
+          en: "What is the 'Stroke' in checkers tactics?",
+          es: "¿Qué es el 'Golpe' en tácticas de damas?",
+          de: "Was ist der 'Streich' in der Dame-Taktik?",
+          nl: "Wat is de 'Slag' in dammen tactieken?"
+        },
+        options: [
+          {
+            en: "A sudden tactical blow that captures multiple pieces in one sequence",
+            es: "Un golpe táctico repentino que captura múltiples piezas en una secuencia",
+            de: "Ein plötzlicher taktischer Schlag, der mehrere Steine in einer Sequenz schlägt",
+            nl: "Een plotselinge tactische slag die meerdere stukken in één sequentie slaat"
+          },
+          {
+            en: "The first move of the game",
+            es: "El primer movimiento del juego",
+            de: "Der erste Zug des Spiels",
+            nl: "De eerste zet van het spel"
+          },
+          {
+            en: "A defensive maneuver",
+            es: "Una maniobra defensiva",
+            de: "Ein Verteidigungsmanöver",
+            nl: "Een defensieve manoeuvre"
+          },
+          {
+            en: "Moving with perfect timing",
+            es: "Mover con tiempo perfecto",
+            de: "Bewegen mit perfektem Timing",
+            nl: "Bewegen met perfecte timing"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Stroke is a powerful tactical concept where a player delivers a sudden, decisive combination that captures multiple opponent pieces in a forced sequence, often turning the game's momentum completely. Like a master stroke in art, it represents brilliant tactical execution that changes the position dramatically.",
+          es: "El Golpe es un concepto táctico poderoso donde un jugador entrega una combinación repentina y decisiva que captura múltiples piezas del oponente en una secuencia forzada, a menudo cambiando completamente el impulso del juego. Como un golpe maestro en el arte, representa ejecución táctica brillante que cambia la posición dramáticamente.",
+          de: "Der Streich ist ein mächtiges taktisches Konzept, bei dem ein Spieler eine plötzliche, entscheidende Kombination liefert, die mehrere Gegnersteine in einer erzwungenen Sequenz schlägt und oft die Dynamik des Spiels völlig umkehrt. Wie ein Meisterstreich in der Kunst repräsentiert es brillante taktische Ausführung, die die Position dramatisch verändert.",
+          nl: "De Slag is een krachtig tactisch concept waarbij een speler een plotselinge, beslissende combinatie levert die meerdere tegenstander stukken slaat in een gedwongen sequentie, waarbij vaak het momentum van het spel volledig verandert. Zoals een meesterslag in kunst, vertegenwoordigt het briljante tactische uitvoering die de positie dramatisch verandert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'overloading' in checkers tactics?",
+          es: "¿Qué es la 'sobrecarga' en tácticas de damas?",
+          de: "Was ist 'Überlastung' in der Dame-Taktik?",
+          nl: "Wat is 'overbelasting' in dammen tactieken?"
+        },
+        options: [
+          {
+            en: "Forcing a piece to defend multiple threats simultaneously beyond its capacity",
+            es: "Forzar una pieza a defender múltiples amenazas simultáneamente más allá de su capacidad",
+            de: "Einen Stein zwingen, mehrere Drohungen gleichzeitig über seine Kapazität hinaus zu verteidigen",
+            nl: "Een stuk dwingen meerdere dreigingen tegelijkertijd te verdedigen boven zijn capaciteit"
+          },
+          {
+            en: "Having too many pieces on the board",
+            es: "Tener demasiadas piezas en el tablero",
+            de: "Zu viele Steine auf dem Brett haben",
+            nl: "Te veel stukken op het bord hebben"
+          },
+          {
+            en: "Calculating too many variations",
+            es: "Calcular demasiadas variaciones",
+            de: "Zu viele Varianten berechnen",
+            nl: "Te veel variaties berekenen"
+          },
+          {
+            en: "Playing too aggressively",
+            es: "Jugar demasiado agresivamente",
+            de: "Zu aggressiv spielen",
+            nl: "Te agressief spelen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Overloading occurs when a defending piece is burdened with protecting multiple critical squares or pieces simultaneously, exceeding its defensive capacity. By creating multiple threats, the attacker exploits the fact that one piece cannot adequately defend everything, allowing breakthrough on the undefended front.",
+          es: "La sobrecarga ocurre cuando una pieza defensora está cargada con proteger múltiples casillas o piezas críticas simultáneamente, excediendo su capacidad defensiva. Al crear múltiples amenazas, el atacante explota el hecho de que una pieza no puede defender adecuadamente todo, permitiendo avance en el frente no defendido.",
+          de: "Überlastung tritt auf, wenn ein verteidigender Stein mit dem Schutz mehrerer kritischer Felder oder Steine gleichzeitig belastet wird und seine Verteidigungskapazität übersteigt. Durch Schaffen mehrerer Drohungen nutzt der Angreifer aus, dass ein Stein nicht alles angemessen verteidigen kann, wodurch Durchbruch an der unverteidigten Front ermöglicht wird.",
+          nl: "Overbelasting vindt plaats wanneer een verdedigend stuk belast is met het beschermen van meerdere kritieke velden of stukken tegelijkertijd, waarbij zijn verdedigingscapaciteit wordt overschreden. Door meerdere dreigingen te creëren, exploiteert de aanvaller het feit dat één stuk niet alles adequaat kan verdedigen, waardoor doorbraak mogelijk wordt op het onverdedigde front."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'opposition square rule' in king endgames?",
+          es: "¿Qué es la 'regla del cuadrado de oposición' en finales de damas?",
+          de: "Was ist die 'Oppositionsquadrat-Regel' in Damen-Endspielen?",
+          nl: "Wat is de 'oppositie veld regel' in dam eindspelen?"
+        },
+        options: [
+          {
+            en: "Identifying critical squares where gaining opposition ensures victory",
+            es: "Identificar casillas críticas donde ganar oposición asegura victoria",
+            de: "Kritische Felder identifizieren, wo das Gewinnen der Opposition den Sieg sichert",
+            nl: "Kritieke velden identificeren waar oppositie winnen overwinning garandeert"
+          },
+          {
+            en: "Keeping kings on opposite sides",
+            es: "Mantener damas en lados opuestos",
+            de: "Damen auf gegenüberliegenden Seiten halten",
+            nl: "Dammen op tegenovergestelde kanten houden"
+          },
+          {
+            en: "Moving to square positions",
+            es: "Mover a posiciones cuadradas",
+            de: "Zu quadratischen Positionen bewegen",
+            nl: "Naar vierkante posities bewegen"
+          },
+          {
+            en: "Controlling four-square formations",
+            es: "Controlar formaciones de cuatro casillas",
+            de: "Vier-Feld-Formationen kontrollieren",
+            nl: "Vier-veld formaties controleren"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The opposition square rule helps identify key squares in king endgames where, if the stronger side's king reaches these squares with opposition, victory becomes forced. Understanding these critical squares allows precise navigation through complex endgames, transforming theoretical knowledge into practical winning technique.",
+          es: "La regla del cuadrado de oposición ayuda a identificar casillas clave en finales de damas donde, si el rey del lado más fuerte alcanza estas casillas con oposición, la victoria se vuelve forzada. Entender estas casillas críticas permite navegación precisa a través de finales complejos, transformando conocimiento teórico en técnica ganadora práctica.",
+          de: "Die Oppositionsquadrat-Regel hilft, Schlüsselfelder in Damen-Endspielen zu identifizieren, wo, wenn die Dame der stärkeren Seite diese Felder mit Opposition erreicht, der Sieg erzwungen wird. Das Verständnis dieser kritischen Felder ermöglicht präzise Navigation durch komplexe Endspiele und transformiert theoretisches Wissen in praktische Siegtechnik.",
+          nl: "De oppositie veld regel helpt sleutelvelden te identificeren in dam eindspelen waar, als de dam van de sterkere kant deze velden met oppositie bereikt, overwinning wordt afgedwongen. Het begrijpen van deze kritieke velden maakt precieze navigatie door complexe eindspelen mogelijk, waarbij theoretische kennis wordt getransformeerd in praktische winnende techniek."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'stalemate trap' in checkers?",
+          es: "¿Qué es una 'trampa de ahogado' en damas?",
+          de: "Was ist eine 'Patt-Falle' beim Dame?",
+          nl: "Wat is een 'pat val' in dammen?"
+        },
+        options: [
+          {
+            en: "Engineering a position where opponent has no legal moves, forcing a draw",
+            es: "Diseñar una posición donde el oponente no tenga movimientos legales, forzando tablas",
+            de: "Eine Position konstruieren, wo der Gegner keine legalen Züge hat, was ein Remis erzwingt",
+            nl: "Een positie engineeren waar tegenstander geen legale zetten heeft, waarbij remise wordt afgedwongen"
+          },
+          {
+            en: "A position that never changes",
+            es: "Una posición que nunca cambia",
+            de: "Eine Position, die sich nie ändert",
+            nl: "Een positie die nooit verandert"
+          },
+          {
+            en: "Running out of time",
+            es: "Quedarse sin tiempo",
+            de: "Keine Zeit mehr haben",
+            nl: "Zonder tijd komen"
+          },
+          {
+            en: "A stuck piece",
+            es: "Una pieza atascada",
+            de: "Ein festsitzender Stein",
+            nl: "Een vastgelopen stuk"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A stalemate trap is a defensive resource where the losing side maneuvers into a position where they have no legal moves available. In standard checkers rules, this results in a draw rather than a loss, providing a last-ditch salvation from otherwise hopeless positions through clever piece positioning.",
+          es: "Una trampa de ahogado es un recurso defensivo donde el lado perdedor maniobra hacia una posición donde no tiene movimientos legales disponibles. En las reglas estándar de damas, esto resulta en tablas en lugar de una pérdida, proporcionando salvación de último recurso de posiciones de otra manera sin esperanza a través de posicionamiento astuto de piezas.",
+          de: "Eine Patt-Falle ist eine Verteidigungsressource, bei der die verlierende Seite in eine Position manövriert, wo sie keine legalen Züge verfügbar hat. In den Standard-Dame-Regeln resultiert dies in einem Remis anstatt einer Niederlage und bietet eine letzte Rettung aus sonst hoffnungslosen Positionen durch clevere Steinpositionierung.",
+          nl: "Een pat val is een defensieve hulpbron waarbij de verliezende kant manoeuvreert naar een positie waar geen legale zetten beschikbaar zijn. In standaard dammen regels resulteert dit in remise in plaats van verlies, waarbij een laatste redding wordt geboden uit anders hopeloze posities door slimme stuk positionering."
+        }
+      },
+      {
+        question: {
+          en: "What is 'king leverage' in advanced endgames?",
+          es: "¿Qué es el 'apalancamiento de dama' en finales avanzados?",
+          de: "Was ist 'Damen-Hebelwirkung' in fortgeschrittenen Endspielen?",
+          nl: "Wat is 'dam hefboomwerking' in geavanceerde eindspelen?"
+        },
+        options: [
+          {
+            en: "Using king's superior mobility to create multiple simultaneous threats",
+            es: "Usar movilidad superior de dama para crear múltiples amenazas simultáneas",
+            de: "Überlegene Damenmobilität nutzen, um mehrere gleichzeitige Drohungen zu schaffen",
+            nl: "Superieure dam mobiliteit gebruiken om meerdere gelijktijdige dreigingen te creëren"
+          },
+          {
+            en: "Promoting pieces to kings",
+            es: "Promover piezas a damas",
+            de: "Steine zu Damen befördern",
+            nl: "Stukken tot dammen promoveren"
+          },
+          {
+            en: "Trading regular pieces for kings",
+            es: "Intercambiar piezas regulares por damas",
+            de: "Normale Steine gegen Damen tauschen",
+            nl: "Normale stukken ruilen voor dammen"
+          },
+          {
+            en: "Pushing kings forward aggressively",
+            es: "Empujar damas hacia adelante agresivamente",
+            de: "Damen aggressiv nach vorne drücken",
+            nl: "Dammen agressief vooruit duwen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "King leverage exploits a king's ability to move both forward and backward, creating multiple threats across different board areas simultaneously. This superior mobility allows the king to pressure multiple weaknesses at once, forcing the opponent into impossible defensive choices where defending one threat exposes another.",
+          es: "El apalancamiento de dama explota la capacidad de una dama de moverse tanto hacia adelante como hacia atrás, creando múltiples amenazas en diferentes áreas del tablero simultáneamente. Esta movilidad superior permite que la dama presione múltiples debilidades a la vez, forzando al oponente a elecciones defensivas imposibles donde defender una amenaza expone otra.",
+          de: "Damen-Hebelwirkung nutzt die Fähigkeit einer Dame, sich sowohl vorwärts als auch rückwärts zu bewegen, um mehrere Drohungen über verschiedene Brettbereiche gleichzeitig zu schaffen. Diese überlegene Mobilität ermöglicht es der Dame, mehrere Schwächen gleichzeitig unter Druck zu setzen und den Gegner in unmögliche Verteidigungsentscheidungen zu zwingen, bei denen die Verteidigung einer Drohung eine andere freilegt.",
+          nl: "Dam hefboomwerking exploiteert het vermogen van een dam om zowel vooruit als achteruit te bewegen, waarbij meerdere dreigingen over verschillende bordgebieden tegelijkertijd worden gecreëerd. Deze superieure mobiliteit stelt de dam in staat meerdere zwaktes tegelijk onder druk te zetten, waarbij de tegenstander gedwongen wordt tot onmogelijke defensieve keuzes waar het verdedigen van één dreiging een andere blootlegt."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'exchange sacrifice' positional concept?",
+          es: "¿Qué es el concepto posicional del 'sacrificio de intercambio'?",
+          de: "Was ist das 'Tauschopfer'-Positionskonzept?",
+          nl: "Wat is het 'ruil offer' positioneel concept?"
+        },
+        options: [
+          {
+            en: "Trading material for superior positional compensation like better structure or initiative",
+            es: "Intercambiar material por compensación posicional superior como mejor estructura o iniciativa",
+            de: "Material gegen überlegene positionelle Kompensation wie bessere Struktur oder Initiative tauschen",
+            nl: "Materiaal ruilen voor superieure positionele compensatie zoals betere structuur of initiatief"
+          },
+          {
+            en: "Trading pieces of equal value",
+            es: "Intercambiar piezas de igual valor",
+            de: "Steine gleichen Werts tauschen",
+            nl: "Stukken van gelijke waarde ruilen"
+          },
+          {
+            en: "Sacrificing for immediate checkmate",
+            es: "Sacrificar por jaque mate inmediato",
+            de: "Opfern für sofortiges Schachmatt",
+            nl: "Offeren voor onmiddellijke schaakmat"
+          },
+          {
+            en: "Exchanging all pieces to reach endgame",
+            es: "Intercambiar todas las piezas para alcanzar el final",
+            de: "Alle Steine tauschen, um das Endspiel zu erreichen",
+            nl: "Alle stukken ruilen om eindspel te bereiken"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An exchange sacrifice willingly gives up material for intangible positional advantages such as superior piece placement, better pawn structure, or sustained initiative. Unlike tactical sacrifices seeking immediate concrete gain, exchange sacrifices invest in long-term positional superiority that gradually converts into winning advantages.",
+          es: "Un sacrificio de intercambio entrega voluntariamente material por ventajas posicionales intangibles como mejor colocación de piezas, mejor estructura de peones, o iniciativa sostenida. A diferencia de sacrificios tácticos que buscan ganancia concreta inmediata, los sacrificios de intercambio invierten en superioridad posicional a largo plazo que gradualmente se convierte en ventajas ganadoras.",
+          de: "Ein Tauschopfer gibt bereitwillig Material für immaterielle positionelle Vorteile wie überlegene Steinplatzierung, bessere Bauernstruktur oder anhaltende Initiative auf. Anders als taktische Opfer, die sofortigen konkreten Gewinn suchen, investieren Tauschopfer in langfristige positionelle Überlegenheit, die sich allmählich in gewinnende Vorteile verwandelt.",
+          nl: "Een ruil offer geeft vrijwillig materiaal op voor ontastbare positionele voordelen zoals superieure stuk plaatsing, betere pionstructuur, of aanhoudend initiatief. Anders dan tactische offers die onmiddellijke concrete winst zoeken, investeren ruil offers in langdurige positionele superioriteit die geleidelijk wordt omgezet in winnende voordelen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tempo play' in middlegame strategy?",
+          es: "¿Qué es el 'juego de tempo' en estrategia de medio juego?",
+          de: "Was ist 'Tempospiel' in der Mittelspielstrategie?",
+          nl: "Wat is 'tempo spel' in middenspel strategie?"
+        },
+        options: [
+          {
+            en: "Gaining time by forcing opponent responses while improving position",
+            es: "Ganar tiempo forzando respuestas del oponente mientras se mejora la posición",
+            de: "Zeit gewinnen, indem man Gegnerantworten erzwingt während man die Position verbessert",
+            nl: "Tijd winnen door tegenstander reacties te dwingen terwijl positie wordt verbeterd"
+          },
+          {
+            en: "Playing very quickly",
+            es: "Jugar muy rápidamente",
+            de: "Sehr schnell spielen",
+            nl: "Heel snel spelen"
+          },
+          {
+            en: "Managing the game clock",
+            es: "Gestionar el reloj del juego",
+            de: "Die Spieluhr verwalten",
+            nl: "De spelklok beheren"
+          },
+          {
+            en: "Maintaining a steady rhythm",
+            es: "Mantener un ritmo constante",
+            de: "Einen stetigen Rhythmus beibehalten",
+            nl: "Een stabiel ritme handhaven"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tempo play involves making moves that force opponent responses (like threats or checks) while simultaneously improving your own position. Each move gains time because the opponent must respond to threats rather than pursuing their own plans, allowing you to build overwhelming positional advantages through accumulated tempo gains.",
+          es: "El juego de tempo implica hacer movimientos que fuerzan respuestas del oponente (como amenazas o jaques) mientras simultáneamente se mejora la propia posición. Cada movimiento gana tiempo porque el oponente debe responder a amenazas en lugar de perseguir sus propios planes, permitiéndote construir ventajas posicionales abrumadoras a través de ganancias de tempo acumuladas.",
+          de: "Tempospiel beinhaltet Züge, die Gegnerantworten erzwingen (wie Drohungen oder Schachs) während gleichzeitig die eigene Position verbessert wird. Jeder Zug gewinnt Zeit, weil der Gegner auf Drohungen reagieren muss, anstatt eigene Pläne zu verfolgen, wodurch überwältigende positionelle Vorteile durch akkumulierte Tempogewinne aufgebaut werden können.",
+          nl: "Tempo spel houdt in dat zetten worden gemaakt die tegenstander reacties dwingen (zoals dreigingen of schaaks) terwijl tegelijkertijd de eigen positie wordt verbeterd. Elke zet wint tijd omdat de tegenstander moet reageren op dreigingen in plaats van eigen plannen te volgen, waardoor overweldigende positionele voordelen kunnen worden opgebouwd door geaccumuleerde tempo winsten."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'minority attack' positional strategy?",
+          es: "¿Qué es la estrategia posicional del 'ataque minoritario'?",
+          de: "Was ist die 'Minderheitsangriff'-Positionsstrategie?",
+          nl: "Wat is de 'minderheidsaanval' positionele strategie?"
+        },
+        options: [
+          {
+            en: "Using fewer pieces to attack opponent's larger pawn group, creating weaknesses",
+            es: "Usar menos piezas para atacar grupo de peones más grande del oponente, creando debilidades",
+            de: "Weniger Steine nutzen, um die größere Bauerngruppe des Gegners anzugreifen und Schwächen zu schaffen",
+            nl: "Minder stukken gebruiken om de grotere piongroep van de tegenstander aan te vallen, waarbij zwaktes worden gecreëerd"
+          },
+          {
+            en: "Attacking with a material disadvantage",
+            es: "Atacar con desventaja material",
+            de: "Mit materiellem Nachteil angreifen",
+            nl: "Aanvallen met materiaal nadeel"
+          },
+          {
+            en: "A small tactical threat",
+            es: "Una pequeña amenaza táctica",
+            de: "Eine kleine taktische Drohung",
+            nl: "Een kleine tactische dreiging"
+          },
+          {
+            en: "Defending with fewer pieces",
+            es: "Defender con menos piezas",
+            de: "Mit weniger Steinen verteidigen",
+            nl: "Verdedigen met minder stukken"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A minority attack uses a smaller group of pawns to attack the opponent's larger pawn chain, aiming to create permanent structural weaknesses. Though you have fewer attacking pieces in that sector, exchanges often leave the opponent with isolated or backward pawns that become long-term liabilities in the endgame.",
+          es: "Un ataque minoritario usa un grupo más pequeño de peones para atacar la cadena de peones más grande del oponente, apuntando a crear debilidades estructurales permanentes. Aunque tienes menos piezas atacantes en ese sector, los intercambios a menudo dejan al oponente con peones aislados o retrasados que se convierten en pasivos a largo plazo en el final.",
+          de: "Ein Minderheitsangriff nutzt eine kleinere Bauerngruppe, um die größere Bauernkette des Gegners anzugreifen, mit dem Ziel, permanente strukturelle Schwächen zu schaffen. Obwohl man in diesem Sektor weniger angreifende Steine hat, hinterlassen Tausche oft beim Gegner isolierte oder rückständige Bauern, die zu langfristigen Belastungen im Endspiel werden.",
+          nl: "Een minderheidsaanval gebruikt een kleinere piongroep om de grotere pionketen van de tegenstander aan te vallen, met als doel permanente structurele zwaktes te creëren. Hoewel je minder aanvallende stukken in die sector hebt, laten ruilen vaak de tegenstander achter met geïsoleerde of achtergebleven pionnen die langdurige lasten worden in het eindspel."
+        }
+      },
+      {
+        question: {
+          en: "What is 'zugzwang reciprocal' in theoretical endgames?",
+          es: "¿Qué es el 'zugzwang recíproco' en finales teóricos?",
+          de: "Was ist 'reziproker Zugzwang' in theoretischen Endspielen?",
+          nl: "Wat is 'wederzijdse zugzwang' in theoretische eindspelen?"
+        },
+        options: [
+          {
+            en: "A position where whoever moves first loses, creating mutual zugzwang",
+            es: "Una posición donde quien mueve primero pierde, creando zugzwang mutuo",
+            de: "Eine Position, wo derjenige, der zuerst zieht, verliert und gegenseitigen Zugzwang schafft",
+            nl: "Een positie waar wie eerst zet verliest, waarbij wederzijdse zugzwang wordt gecreëerd"
+          },
+          {
+            en: "Two zugzwangs in one game",
+            es: "Dos zugzwangs en un juego",
+            de: "Zwei Zugzwänge in einem Spiel",
+            nl: "Twee zugzwangs in één game"
+          },
+          {
+            en: "Exchanging zugzwang positions",
+            es: "Intercambiar posiciones de zugzwang",
+            de: "Zugzwang-Positionen tauschen",
+            nl: "Zugzwang posities ruilen"
+          },
+          {
+            en: "Creating zugzwang for opponent",
+            es: "Crear zugzwang para el oponente",
+            de: "Zugzwang für Gegner schaffen",
+            nl: "Zugzwang creëren voor tegenstander"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Reciprocal zugzwang is a rare theoretical position where both sides would prefer not to move—whoever's turn it is to move will worsen their position and lose. These positions are critically important in endgame theory, as they often determine whether positions are theoretical wins or draws based solely on who moves first.",
+          es: "El zugzwang recíproco es una posición teórica rara donde ambos lados preferirían no mover—quien sea que le toque mover empeorará su posición y perderá. Estas posiciones son críticamente importantes en teoría de finales, ya que a menudo determinan si las posiciones son victorias teóricas o tablas basándose únicamente en quién mueve primero.",
+          de: "Reziproker Zugzwang ist eine seltene theoretische Position, bei der beide Seiten lieber nicht ziehen würden—wer auch immer am Zug ist, wird seine Position verschlechtern und verlieren. Diese Positionen sind in der Endspieltheorie kritisch wichtig, da sie oft bestimmen, ob Positionen theoretische Siege oder Remis sind, basierend allein darauf, wer zuerst zieht.",
+          nl: "Wederzijdse zugzwang is een zeldzame theoretische positie waar beide kanten liever niet zouden zetten—wie er ook aan zet is zal zijn positie verslechteren en verliezen. Deze posities zijn kritiek belangrijk in eindspel theorie, omdat ze vaak bepalen of posities theoretische winsten of remises zijn gebaseerd alleen op wie eerst zet."
+        }
+      },
+      {
+        question: {
+          en: "What is 'key square theory' in pawn endgames?",
+          es: "¿Qué es la 'teoría de casillas clave' en finales de peones?",
+          de: "Was ist 'Schlüsselfeldtheorie' in Bauern-Endspielen?",
+          nl: "Wat is 'sleutelveld theorie' in pion eindspelen?"
+        },
+        options: [
+          {
+            en: "Identifying critical squares whose occupation by the king guarantees promotion",
+            es: "Identificar casillas críticas cuya ocupación por el rey garantiza promoción",
+            de: "Kritische Felder identifizieren, deren Besetzung durch den König Beförderung garantiert",
+            nl: "Kritieke velden identificeren waarvan bezetting door de koning promotie garandeert"
+          },
+          {
+            en: "The most important square on the board",
+            es: "La casilla más importante del tablero",
+            de: "Das wichtigste Feld auf dem Brett",
+            nl: "Het belangrijkste veld op het bord"
+          },
+          {
+            en: "Controlling the center squares",
+            es: "Controlar las casillas centrales",
+            de: "Die Zentralfelder kontrollieren",
+            nl: "De centrale velden controleren"
+          },
+          {
+            en: "The square where promotion occurs",
+            es: "La casilla donde ocurre la promoción",
+            de: "Das Feld, wo Beförderung stattfindet",
+            nl: "Het veld waar promotie plaatsvindt"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Key square theory identifies specific critical squares in pawn endgames where, if the attacking king can occupy them, the pawn's promotion becomes unstoppable. These squares form a pattern related to the pawn's position, and understanding them allows precise calculation of whether pawn endgames are winning or drawn without complex analysis.",
+          es: "La teoría de casillas clave identifica casillas críticas específicas en finales de peones donde, si el rey atacante puede ocuparlas, la promoción del peón se vuelve imparable. Estas casillas forman un patrón relacionado con la posición del peón, y entenderlas permite cálculo preciso de si los finales de peones son ganadores o tablas sin análisis complejo.",
+          de: "Die Schlüsselfeldtheorie identifiziert spezifische kritische Felder in Bauern-Endspielen, wo, wenn der angreifende König sie besetzen kann, die Bauernbeförderung unstoppbar wird. Diese Felder bilden ein Muster in Bezug auf die Bauernposition, und ihr Verständnis ermöglicht präzise Berechnung, ob Bauern-Endspiele gewinnend oder remis sind ohne komplexe Analyse.",
+          nl: "Sleutelveld theorie identificeert specifieke kritieke velden in pion eindspelen waar, als de aanvallende koning ze kan bezetten, de pion promotie onstuitbaar wordt. Deze velden vormen een patroon gerelateerd aan de pion positie, en het begrijpen ervan maakt precieze berekening mogelijk of pion eindspelen winnend of remise zijn zonder complexe analyse."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'rule of the square' in race endgames?",
+          es: "¿Qué es la 'regla del cuadrado' en finales de carrera?",
+          de: "Was ist die 'Quadratregel' in Wettlauf-Endspielen?",
+          nl: "Wat is de 'vierkant regel' in race eindspelen?"
+        },
+        options: [
+          {
+            en: "Determining if a king can catch a passed pawn by visualizing a square",
+            es: "Determinar si un rey puede alcanzar un peón pasado visualizando un cuadrado",
+            de: "Bestimmen, ob ein König einen Freibauern fangen kann, indem man ein Quadrat visualisiert",
+            nl: "Bepalen of een koning een doorgebroken pion kan inhalen door een vierkant te visualiseren"
+          },
+          {
+            en: "Moving in a square pattern",
+            es: "Mover en un patrón cuadrado",
+            de: "In einem quadratischen Muster bewegen",
+            nl: "Bewegen in een vierkant patroon"
+          },
+          {
+            en: "Controlling four squares",
+            es: "Controlar cuatro casillas",
+            de: "Vier Felder kontrollieren",
+            nl: "Vier velden controleren"
+          },
+          {
+            en: "Racing along a square diagonal",
+            es: "Correr a lo largo de una diagonal cuadrada",
+            de: "Entlang einer quadratischen Diagonale rasen",
+            nl: "Racen langs een vierkante diagonaal"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The rule of the square is a visual shortcut for calculating whether a king can catch a passed pawn. Draw an imaginary square from the pawn to the promotion square; if the defending king is inside or can enter this square on its move, it catches the pawn. This eliminates complex move-counting in race positions.",
+          es: "La regla del cuadrado es un atajo visual para calcular si un rey puede alcanzar un peón pasado. Dibuja un cuadrado imaginario desde el peón hasta la casilla de promoción; si el rey defensor está dentro o puede entrar a este cuadrado en su movimiento, alcanza el peón. Esto elimina conteo de movimientos complejo en posiciones de carrera.",
+          de: "Die Quadratregel ist eine visuelle Abkürzung zur Berechnung, ob ein König einen Freibauern fangen kann. Zeichne ein imaginäres Quadrat vom Bauern zum Beförderungsfeld; wenn der verteidigende König innerhalb ist oder bei seinem Zug in dieses Quadrat eintreten kann, fängt er den Bauern. Dies eliminiert komplexes Zug-Zählen in Wettlaufpositionen.",
+          nl: "De vierkant regel is een visuele snelkoppeling voor het berekenen of een koning een doorgebroken pion kan inhalen. Teken een denkbeeldig vierkant van de pion naar het promotieveld; als de verdedigende koning binnen is of bij zijn zet dit vierkant kan betreden, haalt hij de pion in. Dit elimineert complex zetten-tellen in race posities."
+        }
+      },
+      {
+        question: {
+          en: "What is 'distant opposition' in king endgames?",
+          es: "¿Qué es la 'oposición distante' en finales de rey?",
+          de: "Was ist 'entfernte Opposition' in König-Endspielen?",
+          nl: "Wat is 'verre oppositie' in koning eindspelen?"
+        },
+        options: [
+          {
+            en: "Kings facing each other with multiple squares between them, maintaining strategic tension",
+            es: "Reyes enfrentándose con múltiples casillas entre ellos, manteniendo tensión estratégica",
+            de: "Könige, die sich mit mehreren Feldern zwischen ihnen gegenüberstehen und strategische Spannung aufrechterhalten",
+            nl: "Koningen die elkaar met meerdere velden tussen hen onder ogen zien, waarbij strategische spanning wordt gehandhaafd"
+          },
+          {
+            en: "Kings on opposite sides of the board",
+            es: "Reyes en lados opuestos del tablero",
+            de: "Könige auf gegenüberliegenden Seiten des Bretts",
+            nl: "Koningen op tegenovergestelde kanten van het bord"
+          },
+          {
+            en: "A far-away defensive position",
+            es: "Una posición defensiva lejana",
+            de: "Eine weit entfernte Verteidigungsposition",
+            nl: "Een verre defensieve positie"
+          },
+          {
+            en: "Opposition in the endgame only",
+            es: "Oposición solo en el final",
+            de: "Opposition nur im Endspiel",
+            nl: "Oppositie alleen in eindspel"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Distant opposition occurs when kings face each other along a file, rank, or diagonal with three or five squares between them (odd number). Like close opposition, the player not to move holds the advantage. Understanding distant opposition allows precise maneuvering to convert it into close opposition and win endgames.",
+          es: "La oposición distante ocurre cuando los reyes se enfrentan a lo largo de una fila, columna o diagonal con tres o cinco casillas entre ellos (número impar). Como la oposición cercana, el jugador que no mueve tiene la ventaja. Entender la oposición distante permite maniobrar con precisión para convertirla en oposición cercana y ganar finales.",
+          de: "Entfernte Opposition tritt auf, wenn Könige sich entlang einer Linie, Reihe oder Diagonale mit drei oder fünf Feldern zwischen ihnen (ungerade Zahl) gegenüberstehen. Wie bei naher Opposition hat der Spieler, der nicht am Zug ist, den Vorteil. Das Verständnis entfernter Opposition ermöglicht präzises Manövrieren, um sie in nahe Opposition umzuwandeln und Endspiele zu gewinnen.",
+          nl: "Verre oppositie vindt plaats wanneer koningen elkaar onder ogen zien langs een rij, kolom of diagonaal met drie of vijf velden tussen hen (oneven aantal). Zoals bij nabije oppositie heeft de speler die niet aan zet is het voordeel. Het begrijpen van verre oppositie maakt precieze manoeuvres mogelijk om het om te zetten in nabije oppositie en eindspelen te winnen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'corresponding squares' endgame technique?",
+          es: "¿Qué es una técnica de final de 'casillas correspondientes'?",
+          de: "Was ist eine 'Korrespondierende Felder'-Endspieltechnik?",
+          nl: "Wat is een 'corresponderende velden' eindspel techniek?"
+        },
+        options: [
+          {
+            en: "Pairs of squares where if one king occupies one, the other must occupy its pair",
+            es: "Pares de casillas donde si un rey ocupa una, el otro debe ocupar su par",
+            de: "Feldpaare, bei denen, wenn ein König eines besetzt, der andere sein Paar besetzen muss",
+            nl: "Veldparen waarbij als één koning er één bezet, de ander zijn paar moet bezetten"
+          },
+          {
+            en: "Matching piece positions",
+            es: "Coincidencia de posiciones de piezas",
+            de: "Übereinstimmende Steinpositionen",
+            nl: "Matchende stuk posities"
+          },
+          {
+            en: "Symmetrical pawn structures",
+            es: "Estructuras de peones simétricas",
+            de: "Symmetrische Bauernstrukturen",
+            nl: "Symmetrische pionstructuren"
+          },
+          {
+            en: "Adjacent squares for both kings",
+            es: "Casillas adyacentes para ambos reyes",
+            de: "Angrenzende Felder für beide Könige",
+            nl: "Aangrenzende velden voor beide koningen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Corresponding squares are pairs of squares in complex endgames where maintaining the correct relationship between kings is crucial. If your king reaches square A, the opponent must reach square B (its corresponding square) to maintain the position. This sophisticated concept helps navigate intricate endgames where simple opposition doesn't apply.",
+          es: "Las casillas correspondientes son pares de casillas en finales complejos donde mantener la relación correcta entre reyes es crucial. Si tu rey alcanza la casilla A, el oponente debe alcanzar la casilla B (su casilla correspondiente) para mantener la posición. Este concepto sofisticado ayuda a navegar finales intrincados donde la oposición simple no aplica.",
+          de: "Korrespondierende Felder sind Feldpaare in komplexen Endspielen, bei denen die Aufrechterhaltung der korrekten Beziehung zwischen Königen entscheidend ist. Wenn Ihr König Feld A erreicht, muss der Gegner Feld B (sein korrespondierendes Feld) erreichen, um die Position zu halten. Dieses ausgefeilte Konzept hilft bei der Navigation durch komplizierte Endspiele, bei denen einfache Opposition nicht anwendbar ist.",
+          nl: "Corresponderende velden zijn veldparen in complexe eindspelen waarbij het handhaven van de correcte relatie tussen koningen cruciaal is. Als jouw koning veld A bereikt, moet de tegenstander veld B (zijn corresponderende veld) bereiken om de positie te behouden. Dit verfijnde concept helpt bij het navigeren door ingewikkelde eindspelen waar simpele oppositie niet van toepassing is."
+        }
+      },
+      {
+        question: {
+          en: "What is 'outflanking' in king and pawn endgames?",
+          es: "¿Qué es 'flanquear' en finales de rey y peón?",
+          de: "Was ist 'Umgehen' in König-und-Bauern-Endspielen?",
+          nl: "Wat is 'omtrekken' in koning en pion eindspelen?"
+        },
+        options: [
+          {
+            en: "Maneuvering the king around opponent's king to gain access to critical squares",
+            es: "Maniobrar el rey alrededor del rey oponente para ganar acceso a casillas críticas",
+            de: "Den König um den gegnerischen König manövrieren, um Zugang zu kritischen Feldern zu erhalten",
+            nl: "De koning manoeuvreren rond de tegenstander koning om toegang te krijgen tot kritieke velden"
+          },
+          {
+            en: "Attacking from the side",
+            es: "Atacar desde el lado",
+            de: "Von der Seite angreifen",
+            nl: "Van de zijkant aanvallen"
+          },
+          {
+            en: "Moving pawns to the flanks",
+            es: "Mover peones a los flancos",
+            de: "Bauern zu den Flanken bewegen",
+            nl: "Pionnen naar de flanken bewegen"
+          },
+          {
+            en: "King and pawns on opposite wings",
+            es: "Rey y peones en alas opuestas",
+            de: "König und Bauern auf gegenüberliegenden Flügeln",
+            nl: "Koning en pionnen op tegenovergestelde vleugels"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Outflanking is a winning technique where the attacking king maneuvers around the defending king's position to gain access to key squares behind enemy lines. Like a military flanking maneuver, this sidesteps direct opposition, allowing the king to penetrate the position and support pawn advancement to promotion.",
+          es: "Flanquear es una técnica ganadora donde el rey atacante maniobra alrededor de la posición del rey defensor para ganar acceso a casillas clave detrás de las líneas enemigas. Como una maniobra de flanqueo militar, esto evita la oposición directa, permitiendo que el rey penetre la posición y apoye el avance del peón hacia la promoción.",
+          de: "Umgehen ist eine Siegtechnik, bei der der angreifende König um die Position des verteidigenden Königs manövriert, um Zugang zu Schlüsselfeldern hinter feindlichen Linien zu erhalten. Wie ein militärisches Umgehungsmanöver umgeht dies direkte Opposition und ermöglicht es dem König, in die Position einzudringen und die Bauernförderung zur Beförderung zu unterstützen.",
+          nl: "Omtrekken is een winnende techniek waarbij de aanvallende koning manoeuvreert rond de positie van de verdedigende koning om toegang te krijgen tot sleutelvelden achter vijandelijke linies. Zoals een militaire omtrekkende manoeuvre omzeilt dit directe oppositie, waardoor de koning de positie kan penetreren en pion vooruitgang naar promotie kan ondersteunen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'underpromotion' strategy in checkers?",
+          es: "¿Qué es la estrategia de 'subpromoción' en damas?",
+          de: "Was ist 'Unterverwandlung'-Strategie beim Dame?",
+          nl: "Wat is 'onderpromotie' strategie in dammen?"
+        },
+        options: [
+          {
+            en: "Deliberately delaying promotion to maintain tactical threats or positioning",
+            es: "Retrasar deliberadamente la promoción para mantener amenazas tácticas o posicionamiento",
+            de: "Beförderung absichtlich verzögern, um taktische Drohungen oder Positionierung aufrechtzuerhalten",
+            nl: "Promotie opzettelijk vertragen om tactische dreigingen of positionering te behouden"
+          },
+          {
+            en: "Promoting to a piece other than a queen",
+            es: "Promover a una pieza que no sea dama",
+            de: "Zu einem anderen Stein als einer Dame befördern",
+            nl: "Promoveren naar een ander stuk dan een dame"
+          },
+          {
+            en: "Promoting on a lower rank",
+            es: "Promover en una fila inferior",
+            de: "Auf einer niedrigeren Reihe befördern",
+            nl: "Promoveren op een lagere rij"
+          },
+          {
+            en: "Not promoting at all",
+            es: "No promover en absoluto",
+            de: "Überhaupt nicht befördern",
+            nl: "Helemaal niet promoveren"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Underpromotion strategy involves deliberately keeping a piece from crowning when it could, because the uncrowned piece maintains better tactical positioning or threats. Sometimes an uncrowned piece on the seventh row controls critical squares or maintains forcing threats that would be lost upon promotion to a less mobile king.",
+          es: "La estrategia de subpromoción implica deliberadamente mantener una pieza sin coronar cuando podría, porque la pieza sin coronar mantiene mejor posicionamiento táctico o amenazas. A veces una pieza sin coronar en la séptima fila controla casillas críticas o mantiene amenazas forzantes que se perderían al promover a un rey menos móvil.",
+          de: "Die Unterverwandlung-Strategie beinhaltet, absichtlich einen Stein vom Krönen abzuhalten, obwohl es möglich wäre, weil der ungekrönte Stein bessere taktische Positionierung oder Drohungen beibehält. Manchmal kontrolliert ein ungekrönter Stein auf der siebten Reihe kritische Felder oder behält erzwingende Drohungen bei, die bei Beförderung zu einem weniger mobilen König verloren gehen würden.",
+          nl: "Onderpromotie strategie houdt in dat opzettelijk een stuk wordt weerhouden van kronen terwijl het zou kunnen, omdat het ongekroonde stuk betere tactische positionering of dreigingen behoudt. Soms controleert een ongekroond stuk op de zevende rij kritieke velden of behoudt dwingende dreigingen die verloren zouden gaan bij promotie naar een minder mobiele koning."
+        }
+      },
+      {
+        question: {
+          en: "What is 'backward tempo' in advanced tactical play?",
+          es: "¿Qué es el 'tempo hacia atrás' en juego táctico avanzado?",
+          de: "Was ist 'Rückwärts-Tempo' im fortgeschrittenen taktischen Spiel?",
+          nl: "Wat is 'achterwaarts tempo' in geavanceerd tactisch spel?"
+        },
+        options: [
+          {
+            en: "King retreating to gain tempo and force opponent into zugzwang",
+            es: "Rey retirándose para ganar tempo y forzar al oponente en zugzwang",
+            de: "König zieht sich zurück, um Tempo zu gewinnen und Gegner in Zugzwang zu zwingen",
+            nl: "Koning die zich terugtrekt om tempo te winnen en tegenstander in zugzwang te dwingen"
+          },
+          {
+            en: "Losing time deliberately",
+            es: "Perder tiempo deliberadamente",
+            de: "Absichtlich Zeit verlieren",
+            nl: "Opzettelijk tijd verliezen"
+          },
+          {
+            en: "Moving pieces backward only",
+            es: "Mover piezas solo hacia atrás",
+            de: "Steine nur rückwärts bewegen",
+            nl: "Stukken alleen achteruit bewegen"
+          },
+          {
+            en: "Retreating when losing",
+            es: "Retirarse cuando se pierde",
+            de: "Sich zurückziehen beim Verlieren",
+            nl: "Terugtrekken bij verliezen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Backward tempo is a sophisticated technique where a king deliberately retreats (moves backward) to manipulate the move count, ultimately forcing the opponent into zugzwang. This paradoxical concept shows that moving away from the goal can sometimes be the fastest path to victory, as the retreat changes whose turn it is at critical moments.",
+          es: "El tempo hacia atrás es una técnica sofisticada donde un rey deliberadamente retrocede (se mueve hacia atrás) para manipular el conteo de movimientos, finalmente forzando al oponente en zugzwang. Este concepto paradójico muestra que alejarse del objetivo a veces puede ser el camino más rápido hacia la victoria, ya que el retroceso cambia de quién es el turno en momentos críticos.",
+          de: "Rückwärts-Tempo ist eine ausgefeilte Technik, bei der ein König sich absichtlich zurückzieht (rückwärts bewegt), um die Zuganzahl zu manipulieren und den Gegner letztendlich in Zugzwang zu zwingen. Dieses paradoxe Konzept zeigt, dass das Wegbewegen vom Ziel manchmal der schnellste Weg zum Sieg sein kann, da der Rückzug ändert, wer in kritischen Momenten am Zug ist.",
+          nl: "Achterwaarts tempo is een verfijnde techniek waarbij een koning opzettelijk terugtrekt (achteruit beweegt) om het zettenaantal te manipuleren, waarbij uiteindelijk de tegenstander in zugzwang wordt gedwongen. Dit paradoxale concept toont dat van het doel wegbewegen soms het snelste pad naar overwinning kan zijn, omdat de terugtrekking verandert wiens beurt het is op kritieke momenten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tempo sacrifice' for strategic gain?",
+          es: "¿Qué es el 'sacrificio de tempo' para ganancia estratégica?",
+          de: "Was ist 'Tempoopfer' für strategischen Gewinn?",
+          nl: "Wat is 'tempo offer' voor strategische winst?"
+        },
+        options: [
+          {
+            en: "Deliberately losing a move to improve position or create better piece coordination",
+            es: "Perder deliberadamente un movimiento para mejorar la posición o crear mejor coordinación de piezas",
+            de: "Absichtlich einen Zug verlieren, um die Position zu verbessern oder bessere Steinkoordination zu schaffen",
+            nl: "Opzettelijk een zet verliezen om positie te verbeteren of betere stuk coördinatie te creëren"
+          },
+          {
+            en: "Trading time for material",
+            es: "Intercambiar tiempo por material",
+            de: "Zeit gegen Material tauschen",
+            nl: "Tijd ruilen voor materiaal"
+          },
+          {
+            en: "Playing slowly to think",
+            es: "Jugar lentamente para pensar",
+            de: "Langsam spielen zum Nachdenken",
+            nl: "Langzaam spelen om na te denken"
+          },
+          {
+            en: "Wasting opponent's time",
+            es: "Desperdiciar el tiempo del oponente",
+            de: "Zeit des Gegners verschwenden",
+            nl: "Tijd van tegenstander verspillen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A tempo sacrifice intentionally wastes a move to reach the same position but with the opponent to move, often creating zugzwang or improving piece coordination. While losing time seems counterintuitive, the improved positioning or forcing the opponent to move first can provide advantages worth more than the tempo lost.",
+          es: "Un sacrificio de tempo intencionalmente desperdicia un movimiento para alcanzar la misma posición pero con el oponente a mover, a menudo creando zugzwang o mejorando la coordinación de piezas. Aunque perder tiempo parece contraintuitivo, la posición mejorada o forzar al oponente a mover primero puede proporcionar ventajas que valen más que el tempo perdido.",
+          de: "Ein Tempoopfer verschwendet absichtlich einen Zug, um dieselbe Position zu erreichen, aber mit dem Gegner am Zug, was oft Zugzwang schafft oder die Steinkoordination verbessert. Während Zeit zu verlieren kontraintuitiv erscheint, kann die verbesserte Positionierung oder das Zwingen des Gegners, zuerst zu ziehen, Vorteile bieten, die mehr wert sind als das verlorene Tempo.",
+          nl: "Een tempo offer verspilt opzettelijk een zet om dezelfde positie te bereiken maar met de tegenstander aan zet, waarbij vaak zugzwang wordt gecreëerd of stuk coördinatie wordt verbeterd. Hoewel tijd verliezen contra-intuïtief lijkt, kan de verbeterde positionering of het dwingen van de tegenstander om eerst te zetten voordelen bieden die meer waard zijn dan het verloren tempo."
+        }
+      },
+      {
+        question: {
+          en: "What is 'diagonal control domination' in king endgames?",
+          es: "¿Qué es la 'dominación de control diagonal' en finales de rey?",
+          de: "Was ist 'Diagonalkontroll-Dominanz' in König-Endspielen?",
+          nl: "Wat is 'diagonale controle dominantie' in koning eindspelen?"
+        },
+        options: [
+          {
+            en: "Establishing king control over main diagonals to restrict opponent mobility",
+            es: "Establecer control de rey sobre diagonales principales para restringir movilidad del oponente",
+            de: "Königskontrolle über Hauptdiagonalen etablieren, um Gegnermobilität einzuschränken",
+            nl: "Koning controle vestigen over hoofd diagonalen om tegenstander mobiliteit te beperken"
+          },
+          {
+            en: "Controlling all diagonal moves",
+            es: "Controlar todos los movimientos diagonales",
+            de: "Alle Diagonalzüge kontrollieren",
+            nl: "Alle diagonale zetten controleren"
+          },
+          {
+            en: "Having more pieces on diagonals",
+            es: "Tener más piezas en diagonales",
+            de: "Mehr Steine auf Diagonalen haben",
+            nl: "Meer stukken op diagonalen hebben"
+          },
+          {
+            en: "Moving only diagonally",
+            es: "Mover solo diagonalmente",
+            de: "Nur diagonal bewegen",
+            nl: "Alleen diagonaal bewegen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Diagonal control domination involves positioning your king to control the board's main diagonals, which are the longest paths and provide maximum mobility. By dominating these key diagonals, you restrict the opponent king's movement options, control critical squares, and create winning opportunities through superior piece activity and board control.",
+          es: "La dominación de control diagonal implica posicionar tu rey para controlar las diagonales principales del tablero, que son los caminos más largos y proporcionan máxima movilidad. Al dominar estas diagonales clave, restringes las opciones de movimiento del rey oponente, controlas casillas críticas y creas oportunidades ganadoras a través de actividad de pieza superior y control del tablero.",
+          de: "Diagonalkontroll-Dominanz beinhaltet die Positionierung Ihres Königs zur Kontrolle der Hauptdiagonalen des Bretts, die die längsten Wege sind und maximale Mobilität bieten. Durch Dominanz über diese Schlüsseldiagonalen schränken Sie die Bewegungsoptionen des gegnerischen Königs ein, kontrollieren kritische Felder und schaffen Gewinnchancen durch überlegene Steinaktivität und Brettkontrolle.",
+          nl: "Diagonale controle dominantie houdt in dat je koning wordt gepositioneerd om de hoofd diagonalen van het bord te controleren, die de langste paden zijn en maximale mobiliteit bieden. Door deze sleutel diagonalen te domineren, beperk je de bewegingsopties van de tegenstander koning, controleer je kritieke velden en creëer je winnende kansen door superieure stuk activiteit en bord controle."
+        }
+      },
+      {
+        question: {
+          en: "What is 'perfect information endgame solving' in computer analysis?",
+          es: "¿Qué es la 'resolución de final de información perfecta' en análisis de computadora?",
+          de: "Was ist 'Perfekte-Information-Endspiel-Lösung' in Computeranalyse?",
+          nl: "Wat is 'perfecte informatie eindspel oplossen' in computer analyse?"
+        },
+        options: [
+          {
+            en: "Computer databases with mathematically proven optimal play for every position",
+            es: "Bases de datos de computadora con juego óptimo matemáticamente probado para cada posición",
+            de: "Computerdatenbanken mit mathematisch bewiesenem optimalem Spiel für jede Position",
+            nl: "Computer databases met wiskundig bewezen optimaal spel voor elke positie"
+          },
+          {
+            en: "Computers knowing all past games",
+            es: "Computadoras conociendo todos los juegos pasados",
+            de: "Computer kennen alle vergangenen Spiele",
+            nl: "Computers die alle eerdere games kennen"
+          },
+          {
+            en: "Analyzing only simple positions",
+            es: "Analizar solo posiciones simples",
+            de: "Nur einfache Positionen analysieren",
+            nl: "Alleen simpele posities analyseren"
+          },
+          {
+            en: "Perfect move calculation speed",
+            es: "Velocidad de cálculo de movimiento perfecta",
+            de: "Perfekte Zugberechnungsgeschwindigkeit",
+            nl: "Perfecte zet berekeningssnelheid"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Perfect information endgame solving uses computers to exhaustively calculate every possible position in specific endgames (like all 6-piece positions), proving mathematically whether each position is won, lost, or drawn with perfect play. These solved databases revolutionized checkers theory by providing absolute truth about complex endgames previously understood only through human intuition and experience.",
+          es: "La resolución de final de información perfecta usa computadoras para calcular exhaustivamente cada posición posible en finales específicos (como todas las posiciones de 6 piezas), probando matemáticamente si cada posición es ganada, perdida o tablas con juego perfecto. Estas bases de datos resueltas revolucionaron la teoría de damas proporcionando verdad absoluta sobre finales complejos previamente entendidos solo a través de intuición y experiencia humana.",
+          de: "Perfekte-Information-Endspiel-Lösung nutzt Computer, um jede mögliche Position in spezifischen Endspielen (wie alle 6-Stein-Positionen) erschöpfend zu berechnen und mathematisch zu beweisen, ob jede Position mit perfektem Spiel gewonnen, verloren oder remis ist. Diese gelösten Datenbanken revolutionierten die Dame-Theorie, indem sie absolute Wahrheit über komplexe Endspiele lieferten, die zuvor nur durch menschliche Intuition und Erfahrung verstanden wurden.",
+          nl: "Perfecte informatie eindspel oplossen gebruikt computers om uitputtend elke mogelijke positie in specifieke eindspelen (zoals alle 6-stuk posities) te berekenen, waarbij wiskundig wordt bewezen of elke positie gewonnen, verloren of remise is met perfect spel. Deze opgeloste databases revolutioneerden dammen theorie door absolute waarheid te bieden over complexe eindspelen die eerder alleen werden begrepen door menselijke intuïtie en ervaring."
+        }
       }
+    ]
+  };
+
+  // Export for use in the quiz application
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = level6;
+  } else if (typeof window !== 'undefined') {
+    window.level6 = level6;
+  }
+})();
     ]
   };
 

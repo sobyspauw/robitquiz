@@ -827,6 +827,426 @@
         de: "OXYPHENBUTAZONE (ein ehemaliges entzündungshemmendes Medikament) könnte theoretisch 1,778-1,782 Punkte erzielen wenn es über zwei Dreifach-Wort-Werte mit perfektem Brett-Aufbau gespielt wird, obwohl dies im tatsächlichen Spiel praktisch unmöglich ist.",
         nl: "OXYPHENBUTAZONE (een voormalig ontstekingsremmend medicijn) zou theoretisch 1,778-1,782 punten kunnen scoren als het over twee driedubbele woordwaarden wordt gespeeld met perfecte bord setup, hoewel dit vrijwel onmogelijk is in daadwerkelijk spel."
       }
+    },
+    {
+      question: {
+        en: "What is 'clocking' in tournament Scrabble?",
+        es: "¿Qué es 'cronometraje' en Scrabble de torneo?",
+        de: "Was ist 'Zeitnahme' im Turnier-Scrabble?",
+        nl: "Wat is 'klokken' in toernooi Scrabble?"
+      },
+      options: [
+        {en: "Tracking opponent's time", es: "Rastrear el tiempo del oponente", de: "Zeit des Gegners verfolgen", nl: "Tijd van tegenstander bijhouden"},
+        {en: "Managing your own time wisely", es: "Gestionar tu propio tiempo sabiamente", de: "Eigene Zeit klug verwalten", nl: "Je eigen tijd verstandig beheren"},
+        {en: "Using a chess clock for time control", es: "Usar un reloj de ajedrez para control de tiempo", de: "Eine Schachuhr zur Zeitkontrolle verwenden", nl: "Een schaakklok gebruiken voor tijdscontrole"},
+        {en: "Recording game duration", es: "Registrar duración del juego", de: "Spieldauer aufzeichnen", nl: "Spelduur opnemen"}
+      ],
+      correct: 2,
+      explanation: {
+        en: "Clocking refers to using chess clocks in tournament play where each player has a time limit (typically 25 minutes). Exceeding time results in losing 10 points per minute.",
+        es: "Cronometraje se refiere al uso de relojes de ajedrez en juego de torneo donde cada jugador tiene un límite de tiempo (típicamente 25 minutos). Exceder el tiempo resulta en perder 10 puntos por minuto.",
+        de: "Zeitnahme bezieht sich auf die Verwendung von Schachuhren im Turnierspiel wo jeder Spieler ein Zeitlimit hat (typischerweise 25 Minuten). Das Überschreiten der Zeit führt zum Verlust von 10 Punkten pro Minute.",
+        nl: "Klokken verwijst naar het gebruik van schaakklokken in toernooispel waar elke speler een tijdslimiet heeft (typisch 25 minuten). Tijd overschrijden resulteert in verlies van 10 punten per minuut."
+      }
+    },
+    {
+      question: {
+        en: "What is a 'power tile' in Scrabble strategy?",
+        es: "¿Qué es una 'ficha de poder' en estrategia de Scrabble?",
+        de: "Was ist ein 'Power-Stein' in der Scrabble-Strategie?",
+        nl: "Wat is een 'power steen' in Scrabble strategie?"
+      },
+      options: [
+        {en: "Blank tiles only", es: "Solo fichas en blanco", de: "Nur Blanko-Steine", nl: "Alleen blanco stenen"},
+        {en: "High-value letters (J,Q,X,Z) and blanks", es: "Letras de alto valor (J,Q,X,Z) y blancos", de: "Hochwertige Buchstaben (J,Q,X,Z) und Blanko-Steine", nl: "Hoogwaardige letters (J,Q,X,Z) en blanco's"},
+        {en: "S tiles only", es: "Solo fichas S", de: "Nur S-Steine", nl: "Alleen S-stenen"},
+        {en: "All consonants", es: "Todas las consonantes", de: "Alle Konsonanten", nl: "Alle medeklinkers"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Power tiles are the high-value letters (J,Q,X,Z worth 8-10 points) and the two blank tiles. Managing these 6 tiles effectively is crucial to winning.",
+        es: "Las fichas de poder son las letras de alto valor (J,Q,X,Z valen 8-10 puntos) y las dos fichas en blanco. Gestionar estas 6 fichas efectivamente es crucial para ganar.",
+        de: "Power-Steine sind die hochwertigen Buchstaben (J,Q,X,Z wert 8-10 Punkte) und die zwei Blanko-Steine. Diese 6 Steine effektiv zu verwalten ist entscheidend zum Gewinnen.",
+        nl: "Power stenen zijn de hoogwaardige letters (J,Q,X,Z waard 8-10 punten) en de twee blanco stenen. Deze 6 stenen effectief beheren is cruciaal voor winnen."
+      }
+    },
+    {
+      question: {
+        en: "What does 'spread' mean in tournament Scrabble?",
+        es: "¿Qué significa 'diferencial' en Scrabble de torneo?",
+        de: "Was bedeutet 'Spread' im Turnier-Scrabble?",
+        nl: "Wat betekent 'spread' in toernooi Scrabble?"
+      },
+      options: [
+        {en: "Tile distribution", es: "Distribución de fichas", de: "Steinverteilung", nl: "Stenen verdeling"},
+        {en: "Point difference between players", es: "Diferencia de puntos entre jugadores", de: "Punktedifferenz zwischen Spielern", nl: "Puntenverschil tussen spelers"},
+        {en: "Board coverage", es: "Cobertura del tablero", de: "Brett-Abdeckung", nl: "Bord dekking"},
+        {en: "Word diversity", es: "Diversidad de palabras", de: "Wort-Vielfalt", nl: "Woord diversiteit"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Spread is the point difference (your score minus opponent's score). Tournaments often rank by wins first, then by cumulative spread across all games.",
+        es: "El diferencial es la diferencia de puntos (tu puntuación menos la del oponente). Los torneos a menudo clasifican por victorias primero, luego por diferencial acumulativo en todos los juegos.",
+        de: "Spread ist die Punktedifferenz (Ihre Punktzahl minus Gegner-Punktzahl). Turniere rangieren oft nach Siegen zuerst, dann nach kumulativem Spread über alle Spiele.",
+        nl: "Spread is het puntenverschil (jouw score min tegenstander score). Toernooien rangschikken vaak eerst op overwinningen, dan op cumulatieve spread over alle spellen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'defensive play' in Scrabble endgame?",
+        es: "¿Qué es el 'juego defensivo' en el final de Scrabble?",
+        de: "Was ist 'defensives Spiel' im Scrabble-Endspiel?",
+        nl: "Wat is 'defensief spel' in Scrabble eindspel?"
+      },
+      options: [
+        {en: "Playing only on your side of board", es: "Jugar solo en tu lado del tablero", de: "Nur auf Ihrer Seite des Bretts spielen", nl: "Alleen op jouw kant van het bord spelen"},
+        {en: "Blocking opponent's high-scoring spots when ahead", es: "Bloquear puntos de alta puntuación del oponente cuando vas adelante", de: "Hochbewertende Stellen des Gegners blockieren wenn man vorne liegt", nl: "Hoogscorende plekken van tegenstander blokkeren wanneer voor"},
+        {en: "Saving blanks for defense", es: "Guardar blancos para defensa", de: "Blanko-Steine für Verteidigung aufheben", nl: "Blanco's sparen voor verdediging"},
+        {en: "Exchanging tiles frequently", es: "Intercambiar fichas frecuentemente", de: "Steine häufig tauschen", nl: "Stenen vaak ruilen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Defensive play means limiting opponent's scoring opportunities when you're ahead, often by blocking high-value spots or playing to close down the board.",
+        es: "El juego defensivo significa limitar las oportunidades de puntuación del oponente cuando vas adelante, a menudo bloqueando puntos de alto valor o jugando para cerrar el tablero.",
+        de: "Defensives Spiel bedeutet die Punktemöglichkeiten des Gegners zu begrenzen wenn man vorne liegt, oft durch Blockieren hochwertiger Stellen oder Spielen um das Brett zu schließen.",
+        nl: "Defensief spel betekent scoringsmogelijkheden van tegenstander beperken wanneer je voor staat, vaak door hoogwaardige plekken te blokkeren of te spelen om het bord te sluiten."
+      }
+    },
+    {
+      question: {
+        en: "What is 'rack leave' valuation in computer analysis?",
+        es: "¿Qué es la valoración de 'lo que queda en el soporte' en análisis por computadora?",
+        de: "Was ist 'Rack-Leave-Bewertung' in der Computeranalyse?",
+        nl: "Wat is 'rek leave' waardering in computeranalyse?"
+      },
+      options: [
+        {en: "Number of tiles left", es: "Número de fichas restantes", de: "Anzahl der verbleibenden Steine", nl: "Aantal resterende stenen"},
+        {en: "Scoring potential of remaining tiles", es: "Potencial de puntuación de fichas restantes", de: "Punktepotenzial der verbleibenden Steine", nl: "Scoring potentieel van resterende stenen"},
+        {en: "Time to replace tiles", es: "Tiempo para reemplazar fichas", de: "Zeit zum Ersetzen der Steine", nl: "Tijd om stenen te vervangen"},
+        {en: "Color of tiles remaining", es: "Color de fichas restantes", de: "Farbe der verbleibenden Steine", nl: "Kleur van resterende stenen"}
+      },
+      correct: 1,
+      explanation: {
+        en: "Rack leave valuation assigns a value to the tiles remaining after a play, based on their synergy and bingo potential. Good software like Quackle uses this to evaluate moves.",
+        es: "La valoración de lo que queda en el soporte asigna un valor a las fichas restantes después de una jugada, basado en su sinergia y potencial de bingo. Buen software como Quackle usa esto para evaluar jugadas.",
+        de: "Rack-Leave-Bewertung weist den nach einem Zug verbleibenden Steinen einen Wert zu, basierend auf ihrer Synergie und ihrem Bingo-Potenzial. Gute Software wie Quackle verwendet dies zur Zugbewertung.",
+        nl: "Rek leave waardering kent een waarde toe aan de stenen die overblijven na een zet, gebaseerd op hun synergie en bingo potentieel. Goede software zoals Quackle gebruikt dit om zetten te evalueren."
+      }
+    },
+    {
+      question: {
+        en: "What is 'out-in-two' in Scrabble endgame?",
+        es: "¿Qué es 'salir-en-dos' en el final de Scrabble?",
+        de: "Was ist 'Out-in-Two' im Scrabble-Endspiel?",
+        nl: "Wat is 'uit-in-twee' in Scrabble eindspel?"
+      },
+      options: [
+        {en: "Playing two tiles to end game", es: "Jugar dos fichas para terminar juego", de: "Zwei Steine spielen um Spiel zu beenden", nl: "Twee stenen spelen om spel te beëindigen"},
+        {en: "Having two turns left to empty rack", es: "Tener dos turnos restantes para vaciar soporte", de: "Zwei Züge übrig haben um Rack zu leeren", nl: "Twee beurten over hebben om rek te legen"},
+        {en: "Two players finishing simultaneously", es: "Dos jugadores terminando simultáneamente", de: "Zwei Spieler beenden gleichzeitig", nl: "Twee spelers eindigen tegelijkertijd"},
+        {en: "Playing two bingos", es: "Jugar dos bingos", de: "Zwei Bingos spielen", nl: "Twee bingo's spelen"}
+      },
+      correct: 1,
+      explanation: {
+        en: "Out-in-two means you can empty your rack in exactly two more turns. Calculating this correctly is crucial for optimal endgame play when the bag is empty.",
+        es: "Salir-en-dos significa que puedes vaciar tu soporte en exactamente dos turnos más. Calcular esto correctamente es crucial para juego óptimo del final cuando la bolsa está vacía.",
+        de: "Out-in-Two bedeutet dass Sie Ihr Rack in genau zwei weiteren Zügen leeren können. Dies korrekt zu berechnen ist entscheidend für optimales Endspiel wenn der Beutel leer ist.",
+        nl: "Uit-in-twee betekent dat je je rek in precies twee beurten meer kunt legen. Dit correct berekenen is cruciaal voor optimaal eindspel wanneer de zak leeg is."
+      }
+    },
+    {
+      question: {
+        en: "What percentage of tiles are vowels in standard English Scrabble?",
+        es: "¿Qué porcentaje de fichas son vocales en Scrabble inglés estándar?",
+        de: "Welcher Prozentsatz der Steine sind Vokale im Standard-Englisch-Scrabble?",
+        nl: "Welk percentage van de stenen zijn klinkers in standaard Engels Scrabble?"
+      },
+      options: [
+        {en: "38%", es: "38%", de: "38%", nl: "38%"},
+        {en: "42%", es: "42%", de: "42%", nl: "42%"},
+        {en: "48%", es: "48%", de: "48%", nl: "48%"},
+        {en: "52%", es: "52%", de: "52%", nl: "52%"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "42 out of 98 letter tiles are vowels (A=9, E=12, I=9, O=8, U=4), which equals 42.9%. The two blanks can represent any letter.",
+        es: "42 de 98 fichas de letras son vocales (A=9, E=12, I=9, O=8, U=4), lo que equivale al 42.9%. Los dos blancos pueden representar cualquier letra.",
+        de: "42 von 98 Buchstabensteinen sind Vokale (A=9, E=12, I=9, O=8, U=4), was 42.9% entspricht. Die zwei Blanko-Steine können jeden Buchstaben darstellen.",
+        nl: "42 van 98 letterstenen zijn klinkers (A=9, E=12, I=9, O=8, U=4), wat gelijk is aan 42.9%. De twee blanco's kunnen elke letter voorstellen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'parallel play' in Scrabble?",
+        es: "¿Qué es el 'juego paralelo' en Scrabble?",
+        de: "Was ist 'Parallel-Spiel' im Scrabble?",
+        nl: "Wat is 'parallel spel' in Scrabble?"
+      },
+      options: [
+        {en: "Two games played at once", es: "Dos juegos jugados a la vez", de: "Zwei Spiele gleichzeitig gespielt", nl: "Twee spellen tegelijk gespeeld"},
+        {en: "Playing words adjacent and parallel to existing words", es: "Jugar palabras adyacentes y paralelas a palabras existentes", de: "Wörter neben und parallel zu bestehenden Wörtern spielen", nl: "Woorden naast en parallel aan bestaande woorden spelen"},
+        {en: "Playing horizontally only", es: "Jugar solo horizontalmente", de: "Nur horizontal spielen", nl: "Alleen horizontaal spelen"},
+        {en: "Mirroring opponent's moves", es: "Reflejar movimientos del oponente", de: "Züge des Gegners spiegeln", nl: "Zetten van tegenstander spiegelen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Parallel play involves placing a word adjacent to an existing word, creating multiple short words perpendicular to both. This often scores well using two-letter words.",
+        es: "El juego paralelo implica colocar una palabra adyacente a una palabra existente, creando múltiples palabras cortas perpendiculares a ambas. Esto a menudo puntúa bien usando palabras de dos letras.",
+        de: "Parallel-Spiel beinhaltet das Platzieren eines Wortes neben einem bestehenden Wort, wobei mehrere kurze Wörter senkrecht zu beiden erstellt werden. Dies punktet oft gut mit Zwei-Buchstaben-Wörtern.",
+        nl: "Parallel spel houdt in dat je een woord naast een bestaand woord plaatst, waarbij meerdere korte woorden loodrecht op beide worden gecreëerd. Dit scoort vaak goed met twee-letterwoorden."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'probability paradigm' in rack management?",
+        es: "¿Qué es el 'paradigma de probabilidad' en gestión del soporte?",
+        de: "Was ist das 'Wahrscheinlichkeitsparadigma' im Rack-Management?",
+        nl: "Wat is het 'waarschijnlijkheidsparadigma' in rek beheer?"
+      },
+      options: [
+        {en: "Using statistics to predict opponent moves", es: "Usar estadísticas para predecir movimientos del oponente", de: "Statistiken verwenden um Gegnerzüge vorherzusagen", nl: "Statistieken gebruiken om tegenstander zetten te voorspellen"},
+        {en: "Keeping tiles with high bingo probability", es: "Mantener fichas con alta probabilidad de bingo", de: "Steine mit hoher Bingo-Wahrscheinlichkeit behalten", nl: "Stenen met hoge bingo waarschijnlijkheid houden"},
+        {en: "Random tile selection", es: "Selección aleatoria de fichas", de: "Zufällige Steinauswahl", nl: "Willekeurige steen selectie"},
+        {en: "Equal distribution of vowels/consonants", es: "Distribución igual de vocales/consonantes", de: "Gleichverteilung von Vokalen/Konsonanten", nl: "Gelijke verdeling van klinkers/medeklinkers"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "The probability paradigm means keeping letter combinations with highest statistical chance of forming bingos, like common stems (RETINA, SATIRE) or high-synergy tiles.",
+        es: "El paradigma de probabilidad significa mantener combinaciones de letras con la mayor probabilidad estadística de formar bingos, como tallos comunes (RETINA, SATIRE) o fichas de alta sinergia.",
+        de: "Das Wahrscheinlichkeitsparadigma bedeutet Buchstabenkombinationen mit höchster statistischer Chance auf Bingo-Bildung zu behalten, wie häufige Stämme (RETINA, SATIRE) oder hochsyn ergische Steine.",
+        nl: "Het waarschijnlijkheidsparadigma betekent lettercombinaties houden met hoogste statistische kans op bingo vorming, zoals veelvoorkomende stammen (RETINA, SATIRE) of hoge-synergie stenen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'tile turnover strategy'?",
+        es: "¿Qué es la 'estrategia de rotación de fichas'?",
+        de: "Was ist 'Stein-Umsatz-Strategie'?",
+        nl: "Wat is 'steen omzet strategie'?"
+      },
+      options: [
+        {en: "Exchanging frequently", es: "Intercambiar frecuentemente", de: "Häufig tauschen", nl: "Vaak ruilen"},
+        {en: "Playing many tiles per turn to cycle through bag", es: "Jugar muchas fichas por turno para ciclar a través de la bolsa", de: "Viele Steine pro Zug spielen um durch Beutel zu zyklieren", nl: "Veel stenen per beurt spelen om door zak te fietsen"},
+        {en: "Flipping tiles over", es: "Voltear fichas", de: "Steine umdrehen", nl: "Stenen omdraaien"},
+        {en: "Rotating rack position", es: "Rotar posición del soporte", de: "Rack-Position drehen", nl: "Rek positie roteren"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "High turnover means playing 5-6 tiles per turn to quickly cycle through the bag, increasing chances of drawing power tiles and blanks, though sometimes at cost of immediate points.",
+        es: "Alta rotación significa jugar 5-6 fichas por turno para ciclar rápidamente a través de la bolsa, aumentando las posibilidades de sacar fichas de poder y blancos, aunque a veces a costa de puntos inmediatos.",
+        de: "Hoher Umsatz bedeutet 5-6 Steine pro Zug zu spielen um schnell durch den Beutel zu zyklieren, was die Chancen erhöht Power-Steine und Blanko-Steine zu ziehen, manchmal auf Kosten sofortiger Punkte.",
+        nl: "Hoge omzet betekent 5-6 stenen per beurt spelen om snel door de zak te fietsen, waardoor kansen toenemen op trekken van power stenen en blanco's, hoewel soms ten koste van directe punten."
+      }
+    },
+    {
+      question: {
+        en: "What does 'overplaying the blank' mean?",
+        es: "¿Qué significa 'sobreju gar el blanco'?",
+        de: "Was bedeutet 'das Blanko überspielen'?",
+        nl: "Wat betekent 'de blanco overspelen'?"
+      },
+      options: [
+        {en: "Using blank for low-scoring play", es: "Usar blanco para jugada de baja puntuación", de: "Blanko für niedrig punktenden Zug verwenden", nl: "Blanco gebruiken voor laag scorende zet"},
+        {en: "Playing both blanks at once", es: "Jugar ambos blancos a la vez", de: "Beide Blanko-Steine auf einmal spielen", nl: "Beide blanco's tegelijk spelen"},
+        {en: "Saving blank too long", es: "Guardar blanco demasiado tiempo", de: "Blanko zu lange aufheben", nl: "Blanco te lang bewaren"},
+        {en: "Using blank incorrectly", es: "Usar blanco incorrectamente", de: "Blanko falsch verwenden", nl: "Blanco verkeerd gebruiken"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Overplaying the blank means using it for a mediocre-scoring play when you should save it for a high-value bingo or strategic opportunity. Blanks should typically score 25+ points.",
+        es: "Sobrejugar el blanco significa usarlo para una jugada de puntuación mediocre cuando deberías guardarlo para un bingo de alto valor u oportunidad estratégica. Los blancos típicamente deberían anotar 25+ puntos.",
+        de: "Das Blanko überspielen bedeutet es für einen mittelmäßig punktenden Zug zu verwenden wenn man es für ein hochw ertiges Bingo oder strategische Gelegenheit aufheben sollte. Blanko-Steine sollten typischerweise 25+ Punkte erzielen.",
+        nl: "De blanco overspelen betekent het gebruiken voor een matig scorende zet wanneer je het moet sparen voor een hoogwaardige bingo of strategische kans. Blanco's zouden typisch 25+ punten moeten scoren."
+      }
+    },
+    {
+      question: {
+        en: "What is 'bingo equity' in move evaluation?",
+        es: "¿Qué es la 'equidad de bingo' en evaluación de jugadas?",
+        de: "Was ist 'Bingo-Eigenkapital' bei der Zugbewertung?",
+        nl: "Wat is 'bingo waarde' in zet evaluatie?"
+      },
+      options: [
+        {en: "Points from actual bingos", es: "Puntos de bingos reales", de: "Punkte von tatsächlichen Bingos", nl: "Punten van werkelijke bingo's"},
+        {en: "Expected future value from bingo potential", es: "Valor futuro esperado del potencial de bingo", de: "Erwarteter zukünftiger Wert aus Bingo-Potenzial", nl: "Verwachte toekomstige waarde van bingo potentieel"},
+        {en: "Bonus points", es: "Puntos de bonificación", de: "Bonuspunkte", nl: "Bonuspunten"},
+        {en: "Fair play score", es: "Puntuación de juego limpio", de: "Fair-Play-Punktzahl", nl: "Eerlijk spel score"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Bingo equity is the expected point value added by keeping a rack with good bingo potential versus playing more tiles now. Computer programs calculate this to find optimal plays.",
+        es: "La equidad de bingo es el valor esperado en puntos agregado al mantener un soporte con buen potencial de bingo versus jugar más fichas ahora. Los programas de computadora calculan esto para encontrar jugadas óptimas.",
+        de: "Bingo-Eigenkapital ist der erwartete Punktwert der hinzugefügt wird indem man ein Rack mit gutem Bingo-Potenzial behält versus jetzt mehr Steine zu spielen. Computerprogramme berechnen dies um optimale Züge zu finden.",
+        nl: "Bingo waarde is de verwachte puntwaarde toegevoegd door een rek met goed bingo potentieel te houden versus nu meer stenen te spelen. Computerprogramma's berekenen dit om optimale zetten te vinden."
+      }
+    },
+    {
+      question: {
+        en: "What is 'knowing your opponent' in tournament strategy?",
+        es: "¿Qué es 'conocer a tu oponente' en estrategia de torneo?",
+        de: "Was ist 'Ihren Gegner kennen' in Turnierstrategie?",
+        nl: "Wat is 'je tegenstander kennen' in toernooi strategie?"
+      },
+      options: [
+        {en: "Personal friendship", es: "Amistad personal", de: "Persönliche Freundschaft", nl: "Persoonlijke vriendschap"},
+        {en: "Adjusting play style based on opponent's skill and tendencies", es: "Ajustar estilo de juego según habilidad y tendencias del oponente", de: "Spielstil basierend auf Fähigkeit und Tendenzen des Gegners anpassen", nl: "Speelstijl aanpassen op basis van vaardigheid en neigingen van tegenstander"},
+        {en: "Socializing between games", es: "Socializar entre juegos", de: "Zwischen Spielen sozialisieren", nl: "Socializen tussen spellen"},
+        {en: "Memorizing their past scores", es: "Memorizar sus puntuaciones pasadas", de: "Ihre früheren Punktzahlen auswendig lernen", nl: "Hun eerdere scores onthouden"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Knowing your opponent means adjusting strategy based on their skill level - playing more defensively against experts, opening up the board against weaker players to maximize spread.",
+        es: "Conocer a tu oponente significa ajustar la estrategia según su nivel de habilidad - jugando más defensivamente contra expertos, abriendo el tablero contra jugadores más débiles para maximizar el diferencial.",
+        de: "Ihren Gegner kennen bedeutet die Strategie basierend auf ihrem Fähigkeitsniveau anzupassen - defensiver gegen Experten spielen, das Brett gegen schwächere Spieler öffnen um Spread zu maximieren.",
+        nl: "Je tegenstander kennen betekent strategie aanpassen op basis van hun vaardigheidsniveau - defensiever spelen tegen experts, het bord openen tegen zwakkere spelers om spread te maximaliseren."
+      }
+    },
+    {
+      question: {
+        en: "What is 'unseen tile inference' in tracking?",
+        es: "¿Qué es la 'inferencia de fichas no vistas' en rastreo?",
+        de: "Was ist 'Unsichtbare-Stein-Inferenz' bei der Verfolgung?",
+        nl: "Wat is 'ongeziene steen inferentie' in volgen?"
+      },
+      options: [
+        {en: "Guessing randomly", es: "Adivinar aleatoriamente", de: "Zufällig raten", nl: "Willekeurig raden"},
+        {en: "Deducing opponent's tiles from their plays and available tiles", es: "Deducir fichas del oponente de sus jugadas y fichas disponibles", de: "Steine des Gegners aus seinen Zügen und verfügbaren Steinen deduzieren", nl: "Stenen van tegenstander afleiden uit hun zetten en beschikbare stenen"},
+        {en: "Seeing through tiles", es: "Ver a través de fichas", de: "Durch Steine sehen", nl: "Door stenen heen kijken"},
+        {en: "Counting remaining tiles", es: "Contar fichas restantes", de: "Verbleibende Steine zählen", nl: "Resterende stenen tellen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Unseen tile inference means deducing what tiles opponent likely holds by tracking played tiles and analyzing their moves. Advanced players can narrow down opponent's rack in endgame.",
+        es: "La inferencia de fichas no vistas significa deducir qué fichas probablemente tiene el oponente rastreando fichas jugadas y analizando sus movimientos. Los jugadores avanzados pueden reducir el soporte del oponente en el final.",
+        de: "Unsichtbare-Stein-Inferenz bedeutet zu deduzieren welche Steine der Gegner wahrscheinlich hält indem man gespielte Steine verfolgt und ihre Züge analysiert. Fortgeschrittene Spieler können das Rack des Gegners im Endspiel eingrenzen.",
+        nl: "Ongeziene steen inferentie betekent afleiden welke stenen tegenstander waarschijnlijk heeft door gespeelde stenen te volgen en hun zetten te analyseren. Gevorderde spelers kunnen het rek van tegenstander in eindspel beperken."
+      }
+    },
+    {
+      question: {
+        en: "What is 'bingoing through' in endgame?",
+        es: "¿Qué es 'hacer bingo a través' en el final?",
+        de: "Was ist 'Durchbingo' im Endspiel?",
+        nl: "Wat is 'bingoen door' in eindspel?"
+      },
+      options: [
+        {en: "Playing multiple bingos", es: "Jugar múltiples bingos", de: "Mehrere Bingos spielen", nl: "Meerdere bingo's spelen"},
+        {en: "Playing a bingo that uses all remaining tiles to win", es: "Jugar un bingo que usa todas las fichas restantes para ganar", de: "Ein Bingo spielen das alle verbleibenden Steine verwendet um zu gewinnen", nl: "Een bingo spelen die alle resterende stenen gebruikt om te winnen"},
+        {en: "Passing opponent's score with bingo", es: "Pasar puntuación del oponente con bingo", de: "Punktzahl des Gegners mit Bingo überholen", nl: "Score van tegenstander passeren met bingo"},
+        {en: "Consecutive bingos", es: "Bingos consecutivos", de: "Aufeinanderfolgende Bingos", nl: "Opeenvolgende bingo's"}
+      },
+      correct: 1,
+      explanation: {
+        en: "Bingoing through (or 'bingoing out') means playing a bingo that uses all your remaining tiles when the bag is empty, ending the game and adding opponent's unplayed tiles to your score.",
+        es: "Hacer bingo a través (o 'salir con bingo') significa jugar un bingo que usa todas tus fichas restantes cuando la bolsa está vacía, terminando el juego y agregando fichas no jugadas del oponente a tu puntuación.",
+        de: "Durchbingo (oder 'Ausbingo') bedeutet ein Bingo zu spielen das alle Ihre verbleibenden Steine verwendet wenn der Beutel leer ist, das Spiel zu beenden und die ungespielten Steine des Gegners zu Ihrer Punktzahl hinzuzufügen.",
+        nl: "Bingoen door (of 'uitbingoen') betekent een bingo spelen die alle je resterende stenen gebruikt wanneer de zak leeg is, het spel beëindigen en ongespeelde stenen van tegenstander aan je score toevoegen."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'JQXZ paradox' in tile management?",
+        es: "¿Qué es la 'paradoja JQXZ' en gestión de fichas?",
+        de: "Was ist das 'JQXZ-Paradox' im Stein-Management?",
+        nl: "Wat is de 'JQXZ paradox' in steen beheer?"
+      },
+      options: [
+        {en: "These tiles are worthless", es: "Estas fichas no valen nada", de: "Diese Steine sind wertlos", nl: "Deze stenen zijn waardeloos"},
+        {en: "High-value tiles can hurt rack balance despite their points", es: "Fichas de alto valor pueden perjudicar equilibrio del soporte a pesar de sus puntos", de: "Hochwertige Steine können Rack-Balance trotz ihrer Punkte schaden", nl: "Hoogwaardige stenen kunnen rek balans schaden ondanks hun punten"},
+        {en: "They should always be played immediately", es: "Siempre deben jugarse inmediatamente", de: "Sie sollten immer sofort gespielt werden", nl: "Ze moeten altijd onmiddellijk worden gespeeld"},
+        {en: "They have secret bonus value", es: "Tienen valor de bonificación secreto", de: "Sie haben geheimen Bonuswert", nl: "Ze hebben geheime bonuswaarde"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "The JQXZ paradox is that while these high-value tiles score well, having too many or holding them too long damages rack balance, reducing overall scoring potential and bingo chances.",
+        es: "La paradoja JQXZ es que aunque estas fichas de alto valor puntúan bien, tener demasiadas o mantenerlas demasiado tiempo daña el equilibrio del soporte, reduciendo el potencial de puntuación general y las posibilidades de bingo.",
+        de: "Das JQXZ-Paradox ist dass diese hochwertigen Steine zwar gut punkten, aber zu viele zu haben oder sie zu lange zu halten die Rack-Balance schädigt, was das Gesamtpunktepotenzial und die Bingo-Chancen reduziert.",
+        nl: "De JQXZ paradox is dat hoewel deze hoogwaardige stenen goed scoren, te veel hebben of ze te lang houden de rek balans beschadigt, waardoor het algehele scoringspotentieel en bingo kansen verminderen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'challenge baiting' in competitive play?",
+        es: "¿Qué es 'cebo de desafío' en juego competitivo?",
+        de: "Was ist 'Challenge-Ködern' im kompetitiven Spiel?",
+        nl: "Wat is 'uitdaging azen' in competitief spel?"
+      },
+      options: [
+        {en: "Encouraging opponent to challenge valid unusual words", es: "Alentar al oponente a desafiar palabras inusuales válidas", de: "Gegner ermutigen ungewöhnliche gültige Wörter herauszufordern", nl: "Tegenstander aanmoedigen ongebruikelijke geldige woorden uit te dagen"},
+        {en: "Challenging frequently", es: "Desafiar frecuentemente", de: "Häufig herausfordern", nl: "Vaak uitdagen"},
+        {en: "Playing obvious words", es: "Jugar palabras obvias", de: "Offensichtliche Wörter spielen", nl: "Voor de hand liggende woorden spelen"},
+        {en: "Avoiding challenges", es: "Evitar desafíos", de: "Herausforderungen vermeiden", nl: "Uitdagingen vermijden"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Challenge baiting means playing obscure but valid words hoping opponent challenges (and loses a turn in double-challenge). Ethical players avoid this, preferring honest play.",
+        es: "El cebo de desafío significa jugar palabras oscuras pero válidas esperando que el oponente desafíe (y pierda un turno en doble desafío). Los jugadores éticos evitan esto, prefiriendo el juego honesto.",
+        de: "Challenge-Ködern bedeutet obskure aber gültige Wörter zu spielen in der Hoffnung dass der Gegner herausfordert (und einen Zug bei Doppel-Challenge verliert). Ethische Spieler vermeiden dies und bevorzugen ehrliches Spiel.",
+        nl: "Uitdaging azen betekent obscure maar geldige woorden spelen in de hoop dat tegenstander uitdaagt (en een beurt verliest in dubbele-uitdaging). Ethische spelers vermijden dit en geven de voorkeur aan eerlijk spel."
+      }
+    },
+    {
+      question: {
+        en: "What is 'score differential analysis' in tournament strategy?",
+        es: "¿Qué es el 'análisis de diferencial de puntuación' en estrategia de torneo?",
+        de: "Was ist 'Punktedifferenz-Analyse' in Turnierstrategie?",
+        nl: "Wat is 'score differentieel analyse' in toernooi strategie?"
+      },
+      options: [
+        {en: "Comparing scores between games", es: "Comparar puntuaciones entre juegos", de: "Punktzahlen zwischen Spielen vergleichen", nl: "Scores vergelijken tussen spellen"},
+        {en: "Adjusting risk based on current point spread", es: "Ajustar riesgo según diferencial de puntos actual", de: "Risiko basierend auf aktuellem Punkteabstand anpassen", nl: "Risico aanpassen op basis van huidige puntenspreiding"},
+        {en: "Calculating average scores", es: "Calcular puntuaciones promedio", de: "Durchschnittliche Punktzahlen berechnen", nl: "Gemiddelde scores berekenen"},
+        {en: "Finding score patterns", es: "Encontrar patrones de puntuación", de: "Punktemuster finden", nl: "Score patronen vinden"}
+      },
+      correct: 1,
+      explanation: {
+        en: "Score differential analysis means adjusting your risk tolerance based on whether you're ahead or behind. When ahead, play defensively; when behind, take risks to catch up or maximize spread.",
+        es: "El análisis de diferencial de puntuación significa ajustar tu tolerancia al riesgo según si vas adelante o atrás. Cuando vas adelante, juega defensivamente; cuando vas atrás, toma riesgos para alcanzar o maximizar el diferencial.",
+        de: "Punktedifferenz-Analyse bedeutet Ihre Risikotoleranz basierend darauf anzupassen ob Sie vorne oder hinten liegen. Wenn vorne, defensiv spielen; wenn hinten, Risiken eingehen um aufzuholen oder Spread zu maximieren.",
+        nl: "Score differentieel analyse betekent je risicotolerantie aanpassen op basis van of je voor of achter staat. Wanneer voor, speel defensief; wanneer achter, neem risico's om in te halen of spread te maximaliseren."
+      }
+    },
+    {
+      question: {
+        en: "What is 'perfect endgame play'?",
+        es: "¿Qué es el 'juego perfecto del final'?",
+        de: "Was ist 'perfektes Endspiel'?",
+        nl: "Wat is 'perfect eindspel'?"
+      },
+      options: [
+        {en: "Never making mistakes", es: "Nunca cometer errores", de: "Niemals Fehler machen", nl: "Nooit fouten maken"},
+        {en: "Calculating all possible outcomes when few tiles remain", es: "Calcular todos los resultados posibles cuando quedan pocas fichas", de: "Alle möglichen Ergebnisse berechnen wenn wenige Steine verbleiben", nl: "Alle mogelijke uitkomsten berekenen wanneer weinig stenen overblijven"},
+        {en: "Scoring maximum points", es: "Anotar puntos máximos", de: "Maximale Punkte erzielen", nl: "Maximum punten scoren"},
+        {en: "Finishing quickly", es: "Terminar rápidamente", de: "Schnell beenden", nl: "Snel afmaken"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Perfect endgame play involves calculating all possible sequences when tiles are known (bag empty, opponent's rack inferred through tracking) to find the move guaranteeing the win or best result.",
+        es: "El juego perfecto del final implica calcular todas las secuencias posibles cuando las fichas son conocidas (bolsa vacía, soporte del oponente inferido a través del rastreo) para encontrar el movimiento que garantiza la victoria o el mejor resultado.",
+        de: "Perfektes Endspiel beinhaltet das Berechnen aller möglichen Sequenzen wenn Steine bekannt sind (Beutel leer, Rack des Gegners durch Verfolgung deduziert) um den Zug zu finden der den Sieg oder das beste Ergebnis garantiert.",
+        nl: "Perfect eindspel houdt in dat alle mogelijke reeksen worden berekend wanneer stenen bekend zijn (zak leeg, rek van tegenstander afgeleid door volgen) om de zet te vinden die de overwinning of best resultaat garandeert."
+      }
+    },
+    {
+      question: {
+        en: "What is 'pre-endgame awareness' in advanced play?",
+        es: "¿Qué es la 'conciencia pre-final' en juego avanzado?",
+        de: "Was ist 'Vor-Endspiel-Bewusstsein' im fortgeschrittenen Spiel?",
+        nl: "Wat is 'pre-eindspel bewustzijn' in gevorderd spel?"
+      },
+      options: [
+        {en: "Knowing game will end soon", es: "Saber que el juego terminará pronto", de: "Wissen dass Spiel bald endet", nl: "Weten dat spel binnenkort eindigt"},
+        {en: "Adjusting strategy when 7 or fewer tiles remain unseen", es: "Ajustar estrategia cuando quedan 7 o menos fichas sin ver", de: "Strategie anpassen wenn 7 oder weniger Steine ungesehen bleiben", nl: "Strategie aanpassen wanneer 7 of minder stenen ongezien blijven"},
+        {en: "Planning final move", es: "Planear movimiento final", de: "Letzten Zug planen", nl: "Laatste zet plannen"},
+        {en: "Counting remaining tiles", es: "Contar fichas restantes", de: "Verbleibende Steine zählen", nl: "Resterende stenen tellen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Pre-endgame awareness means recognizing when fewer than 7 unseen tiles remain (bag nearly empty) and adjusting strategy accordingly - tracking becomes crucial, play becomes more tactical.",
+        es: "La conciencia pre-final significa reconocer cuando quedan menos de 7 fichas sin ver (bolsa casi vacía) y ajustar la estrategia en consecuencia - el rastreo se vuelve crucial, el juego se vuelve más táctico.",
+        de: "Vor-Endspiel-Bewusstsein bedeutet zu erkennen wenn weniger als 7 ungesehene Steine verbleiben (Beutel fast leer) und die Strategie entsprechend anzupassen - Verfolgung wird entscheidend, Spiel wird taktischer.",
+        nl: "Pre-eindspel bewustzijn betekent herkennen wanneer minder dan 7 ongeziene stenen overblijven (zak bijna leeg) en strategie dienovereenkomstig aanpassen - volgen wordt cruciaal, spel wordt tactischer."
+      }
     }
   ]
 };

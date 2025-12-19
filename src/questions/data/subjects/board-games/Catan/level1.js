@@ -427,6 +427,258 @@
           de: "Du brauchst mindestens 3 gespielte Ritterkarten, um für die Größte Rittermacht berechtigt zu sein, die 2 Siegpunkte gewährt. Diese Errungenschaft kann weggenommen werden, wenn ein anderer Spieler mehr Ritter spielt.",
           nl: "Je hebt minstens 3 gespeelde ridderkaarten nodig om in aanmerking te komen voor het Grootste Leger, wat 2 overwinningspunten geeft. Deze prestatie kan worden weggenomen als een andere speler meer ridders speelt."
         }
+      },
+      {
+        question: {
+          en: "What do you need to buy a development card in Catan?",
+          es: "¿Qué necesitas para comprar una carta de desarrollo en Catan?",
+          de: "Was brauchst du, um eine Entwicklungskarte in Catan zu kaufen?",
+          nl: "Wat heb je nodig om een ontwikkelingskaart te kopen in Catan?"
+        },
+        options: [
+          { en: "1 Wheat, 1 Sheep, 1 Ore", es: "1 Trigo, 1 Oveja, 1 Mineral", de: "1 Getreide, 1 Wolle, 1 Erz", nl: "1 Graan, 1 Wol, 1 Erts" },
+          { en: "2 Wheat, 1 Ore", es: "2 Trigo, 1 Mineral", de: "2 Getreide, 1 Erz", nl: "2 Graan, 1 Erts" },
+          { en: "1 Wood, 1 Brick, 1 Wheat", es: "1 Madera, 1 Ladrillo, 1 Trigo", de: "1 Holz, 1 Lehm, 1 Getreide", nl: "1 Hout, 1 Steen, 1 Graan" },
+          { en: "1 of each resource", es: "1 de cada recurso", de: "1 von jeder Ressource", nl: "1 van elke hulpbron" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "To buy a development card, you need 1 Wheat, 1 Sheep, and 1 Ore. Development cards include Knights, Victory Points, Road Building, Year of Plenty, and Monopoly.",
+          es: "Para comprar una carta de desarrollo, necesitas 1 Trigo, 1 Oveja y 1 Mineral. Las cartas de desarrollo incluyen Caballeros, Puntos de Victoria, Construcción de Carreteras, Año de Abundancia y Monopolio.",
+          de: "Um eine Entwicklungskarte zu kaufen, brauchst du 1 Getreide, 1 Wolle und 1 Erz. Entwicklungskarten umfassen Ritter, Siegpunkte, Straßenbau, Jahr des Überflusses und Monopol.",
+          nl: "Om een ontwikkelingskaart te kopen, heb je 1 Graan, 1 Wol en 1 Erts nodig. Ontwikkelingskaarten omvatten Ridders, Overwinningspunten, Wegenbouw, Jaar van Overvloed en Monopolie."
+        }
+      },
+      {
+        question: {
+          en: "Can you place a settlement adjacent to another settlement in Catan?",
+          es: "¿Puedes colocar un asentamiento adyacente a otro asentamiento en Catan?",
+          de: "Kannst du eine Siedlung neben einer anderen Siedlung in Catan platzieren?",
+          nl: "Kun je een nederzetting naast een andere nederzetting plaatsen in Catan?"
+        },
+        options: [
+          { en: "Yes, always", es: "Sí, siempre", de: "Ja, immer", nl: "Ja, altijd" },
+          { en: "No, distance rule prevents it", es: "No, la regla de distancia lo impide", de: "Nein, die Distanzregel verhindert es", nl: "Nee, de afstandsregel voorkomt het" },
+          { en: "Yes, but only during setup", es: "Sí, pero solo durante la preparación", de: "Ja, aber nur während der Vorbereitung", nl: "Ja, maar alleen tijdens de opzet" },
+          { en: "Only if both are yours", es: "Solo si ambos son tuyos", de: "Nur wenn beide dir gehören", nl: "Alleen als beide van jou zijn" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "No, the distance rule requires that settlements must be at least 2 edges apart from any other settlement. This applies to all players' settlements, creating strategic placement decisions.",
+          es: "No, la regla de distancia requiere que los asentamientos deben estar al menos a 2 aristas de distancia de cualquier otro asentamiento. Esto se aplica a los asentamientos de todos los jugadores, creando decisiones estratégicas de colocación.",
+          de: "Nein, die Distanzregel erfordert, dass Siedlungen mindestens 2 Kanten von jeder anderen Siedlung entfernt sein müssen. Dies gilt für die Siedlungen aller Spieler und schafft strategische Platzierungsentscheidungen.",
+          nl: "Nee, de afstandsregel vereist dat nederzettingen minimaal 2 randen verwijderd moeten zijn van elke andere nederzetting. Dit geldt voor de nederzettingen van alle spelers, wat strategische plaatsingsbeslissingen creëert."
+        }
+      },
+      {
+        question: {
+          en: "What does the Road Building development card do?",
+          es: "¿Qué hace la carta de desarrollo Construcción de Carreteras?",
+          de: "Was macht die Entwicklungskarte Straßenbau?",
+          nl: "Wat doet de Wegenbouw ontwikkelingskaart?"
+        },
+        options: [
+          { en: "Build 2 free roads", es: "Construye 2 carreteras gratis", de: "Baue 2 kostenlose Straßen", nl: "Bouw 2 gratis wegen" },
+          { en: "Build 1 free road", es: "Construye 1 carretera gratis", de: "Baue 1 kostenlose Straße", nl: "Bouw 1 gratis weg" },
+          { en: "Get road resources", es: "Obtén recursos de carretera", de: "Erhalte Straßenressourcen", nl: "Krijg wegresources" },
+          { en: "Move opponent's roads", es: "Mueve las carreteras del oponente", de: "Bewege die Straßen des Gegners", nl: "Verplaats wegen van tegenstander" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Road Building allows you to place 2 roads immediately without paying resources. These roads must follow normal placement rules and can help you extend toward new settlement locations or claim Longest Road.",
+          es: "Construcción de Carreteras te permite colocar 2 carreteras inmediatamente sin pagar recursos. Estas carreteras deben seguir las reglas normales de colocación y pueden ayudarte a extenderte hacia nuevas ubicaciones de asentamientos o reclamar la Carretera Más Larga.",
+          de: "Straßenbau erlaubt es dir, sofort 2 Straßen zu platzieren, ohne Ressourcen zu bezahlen. Diese Straßen müssen den normalen Platzierungsregeln folgen und können dir helfen, dich zu neuen Siedlungsstandorten auszudehnen oder die Längste Straße zu beanspruchen.",
+          nl: "Wegenbouw stelt je in staat om onmiddellijk 2 wegen te plaatsen zonder hulpbronnen te betalen. Deze wegen moeten normale plaatsingsregels volgen en kunnen je helpen uit te breiden naar nieuwe nederzettingslocaties of de Langste Weg op te eisen."
+        }
+      },
+      {
+        question: {
+          en: "Which number token is most likely to be rolled in Catan?",
+          es: "¿Qué ficha de número es más probable que se lance en Catan?",
+          de: "Welche Zahlenplättchen werden am wahrscheinlichsten in Catan gewürfelt?",
+          nl: "Welke nummerfiche wordt het meest waarschijnlijk gegooid in Catan?"
+        },
+        options: [
+          { en: "2 and 12", es: "2 y 12", de: "2 und 12", nl: "2 en 12" },
+          { en: "6 and 8", es: "6 y 8", de: "6 und 8", nl: "6 en 8" },
+          { en: "5 and 9", es: "5 y 9", de: "5 und 9", nl: "5 en 9" },
+          { en: "3 and 11", es: "3 y 11", de: "3 und 11", nl: "3 en 11" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "6 and 8 are the most likely numbers to be rolled (5/36 probability each), which is why they have red numbers and dots on the tokens. Numbers 2 and 12 are least likely (1/36 each).",
+          es: "6 y 8 son los números más probables de ser lanzados (probabilidad de 5/36 cada uno), por eso tienen números rojos y puntos en las fichas. Los números 2 y 12 son los menos probables (1/36 cada uno).",
+          de: "6 und 8 sind die wahrscheinlichsten Zahlen, die gewürfelt werden (jeweils 5/36 Wahrscheinlichkeit), weshalb sie rote Zahlen und Punkte auf den Plättchen haben. Die Zahlen 2 und 12 sind am wenigsten wahrscheinlich (jeweils 1/36).",
+          nl: "6 en 8 zijn de meest waarschijnlijke nummers om gegooid te worden (elk 5/36 waarschijnlijkheid), daarom hebben ze rode nummers en stippen op de fiches. Nummers 2 en 12 zijn het minst waarschijnlijk (elk 1/36)."
+        }
+      },
+      {
+        question: {
+          en: "How many settlements can each player build in Catan?",
+          es: "¿Cuántos asentamientos puede construir cada jugador en Catan?",
+          de: "Wie viele Siedlungen kann jeder Spieler in Catan bauen?",
+          nl: "Hoeveel nederzettingen kan elke speler bouwen in Catan?"
+        },
+        options: [
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "4", es: "4", de: "4", nl: "4" },
+          { en: "5", es: "5", de: "5", nl: "5" },
+          { en: "Unlimited", es: "Ilimitado", de: "Unbegrenzt", nl: "Onbeperkt" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Each player has 5 settlement pieces. During setup, 2 are placed, leaving 3 more to build during the game. Settlements can be upgraded to cities, which returns the settlement to your supply.",
+          es: "Cada jugador tiene 5 piezas de asentamiento. Durante la preparación, se colocan 2, dejando 3 más para construir durante el juego. Los asentamientos pueden mejorarse a ciudades, lo que devuelve el asentamiento a tu suministro.",
+          de: "Jeder Spieler hat 5 Siedlungsteile. Während der Vorbereitung werden 2 platziert, so dass 3 weitere während des Spiels gebaut werden können. Siedlungen können zu Städten aufgewertet werden, wodurch die Siedlung in deinen Vorrat zurückkehrt.",
+          nl: "Elke speler heeft 5 nederzettingsstukken. Tijdens de opzet worden er 2 geplaatst, waardoor er nog 3 overblijven om tijdens het spel te bouwen. Nederzettingen kunnen worden geüpgraded naar steden, wat de nederzetting terugbrengt naar je voorraad."
+        }
+      },
+      {
+        question: {
+          en: "What is the standard bank trade ratio in Catan without ports?",
+          es: "¿Cuál es la proporción de comercio bancario estándar en Catan sin puertos?",
+          de: "Wie ist das Standard-Bankhandelsverhältnis in Catan ohne Häfen?",
+          nl: "Wat is de standaard bankhandelsverhouding in Catan zonder havens?"
+        },
+        options: [
+          { en: "2:1", es: "2:1", de: "2:1", nl: "2:1" },
+          { en: "3:1", es: "3:1", de: "3:1", nl: "3:1" },
+          { en: "4:1", es: "4:1", de: "4:1", nl: "4:1" },
+          { en: "5:1", es: "5:1", de: "5:1", nl: "5:1" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Without a port, you can trade with the bank at 4:1 - giving 4 identical resource cards to receive 1 card of any other resource. Ports improve this ratio to 3:1 or 2:1 for specific resources.",
+          es: "Sin un puerto, puedes comerciar con el banco a 4:1: dando 4 cartas de recursos idénticas para recibir 1 carta de cualquier otro recurso. Los puertos mejoran esta proporción a 3:1 o 2:1 para recursos específicos.",
+          de: "Ohne einen Hafen kannst du mit der Bank zu 4:1 handeln - gibst 4 identische Ressourcenkarten, um 1 Karte einer anderen Ressource zu erhalten. Häfen verbessern dieses Verhältnis auf 3:1 oder 2:1 für bestimmte Ressourcen.",
+          nl: "Zonder een haven kun je met de bank handelen op 4:1 - 4 identieke hulpbronkaarten geven om 1 kaart van een andere hulpbron te ontvangen. Havens verbeteren deze verhouding naar 3:1 of 2:1 voor specifieke hulpbronnen."
+        }
+      },
+      {
+        question: {
+          en: "Can you trade with other players during their turn?",
+          es: "¿Puedes comerciar con otros jugadores durante su turno?",
+          de: "Kannst du während des Zugs anderer Spieler mit ihnen handeln?",
+          nl: "Kun je handelen met andere spelers tijdens hun beurt?"
+        },
+        options: [
+          { en: "Yes, anytime", es: "Sí, en cualquier momento", de: "Ja, jederzeit", nl: "Ja, altijd" },
+          { en: "No, never", es: "No, nunca", de: "Nein, niemals", nl: "Nee, nooit" },
+          { en: "Only with active player", es: "Solo con el jugador activo", de: "Nur mit dem aktiven Spieler", nl: "Alleen met de actieve speler" },
+          { en: "Only after rolling", es: "Solo después de lanzar", de: "Nur nach dem Würfeln", nl: "Alleen na het gooien" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Players can only trade with the active player (whose turn it is). The active player can make multiple trades during their turn, but other players cannot trade with each other.",
+          es: "Los jugadores solo pueden comerciar con el jugador activo (de quien es el turno). El jugador activo puede hacer múltiples intercambios durante su turno, pero otros jugadores no pueden comerciar entre sí.",
+          de: "Spieler können nur mit dem aktiven Spieler (der am Zug ist) handeln. Der aktive Spieler kann während seines Zugs mehrere Geschäfte machen, aber andere Spieler können nicht miteinander handeln.",
+          nl: "Spelers kunnen alleen handelen met de actieve speler (wiens beurt het is). De actieve speler kan meerdere handelingen doen tijdens hun beurt, maar andere spelers kunnen niet met elkaar handelen."
+        }
+      },
+      {
+        question: {
+          en: "What happens if you roll the same number as the robber's location?",
+          es: "¿Qué pasa si lanzas el mismo número que la ubicación del ladrón?",
+          de: "Was passiert, wenn du die gleiche Zahl wie den Standort des Räubers würfelst?",
+          nl: "Wat gebeurt er als je hetzelfde nummer gooit als de locatie van de rover?"
+        },
+        options: [
+          { en: "That hex produces double", es: "Ese hexágono produce el doble", de: "Dieses Feld produziert doppelt", nl: "Die zeshoek produceert dubbel" },
+          { en: "That hex produces nothing", es: "Ese hexágono no produce nada", de: "Dieses Feld produziert nichts", nl: "Die zeshoek produceert niets" },
+          { en: "Robber moves automatically", es: "El ladrón se mueve automáticamente", de: "Der Räuber bewegt sich automatisch", nl: "De rover verplaatst automatisch" },
+          { en: "All players get resources", es: "Todos los jugadores obtienen recursos", de: "Alle Spieler erhalten Ressourcen", nl: "Alle spelers krijgen hulpbronnen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "When the robber is on a hex, that hex produces no resources when its number is rolled. This is a key strategic element - placing the robber on productive hexes can slow down opponents.",
+          es: "Cuando el ladrón está en un hexágono, ese hexágono no produce recursos cuando se lanza su número. Este es un elemento estratégico clave: colocar al ladrón en hexágonos productivos puede ralentizar a los oponentes.",
+          de: "Wenn der Räuber auf einem Feld steht, produziert dieses Feld keine Ressourcen, wenn seine Zahl gewürfelt wird. Dies ist ein wichtiges strategisches Element - den Räuber auf produktive Felder zu setzen kann Gegner verlangsamen.",
+          nl: "Wanneer de rover op een zeshoek staat, produceert die zeshoek geen hulpbronnen wanneer zijn nummer wordt gegooid. Dit is een belangrijk strategisch element - de rover op productieve zeshoeken plaatsen kan tegenstanders vertragen."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of the dots on number tokens?",
+          es: "¿Cuál es el propósito de los puntos en las fichas de números?",
+          de: "Was ist der Zweck der Punkte auf den Zahlenplättchen?",
+          nl: "Wat is het doel van de stippen op nummerfiches?"
+        },
+        options: [
+          { en: "Show victory points", es: "Muestran puntos de victoria", de: "Zeigen Siegpunkte", nl: "Tonen overwinningspunten" },
+          { en: "Indicate roll probability", es: "Indican la probabilidad de lanzamiento", de: "Zeigen Würfelwahrscheinlichkeit an", nl: "Geven gooiwaarschijnlijkheid aan" },
+          { en: "Mark special hexes", es: "Marcan hexágonos especiales", de: "Markieren spezielle Felder", nl: "Markeren speciale zeshoeken" },
+          { en: "Count resources produced", es: "Cuentan recursos producidos", de: "Zählen produzierte Ressourcen", nl: "Tellen geproduceerde hulpbronnen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The dots on number tokens indicate the statistical probability of that number being rolled. More dots mean the number is more likely (6 and 8 have 5 dots each, while 2 and 12 have 1 dot each).",
+          es: "Los puntos en las fichas de números indican la probabilidad estadística de que se lance ese número. Más puntos significan que el número es más probable (6 y 8 tienen 5 puntos cada uno, mientras que 2 y 12 tienen 1 punto cada uno).",
+          de: "Die Punkte auf den Zahlenplättchen zeigen die statistische Wahrscheinlichkeit an, dass diese Zahl gewürfelt wird. Mehr Punkte bedeuten, dass die Zahl wahrscheinlicher ist (6 und 8 haben jeweils 5 Punkte, während 2 und 12 jeweils 1 Punkt haben).",
+          nl: "De stippen op nummerfiches geven de statistische waarschijnlijkheid aan dat dat nummer wordt gegooid. Meer stippen betekenen dat het nummer waarschijnlijker is (6 en 8 hebben elk 5 stippen, terwijl 2 en 12 elk 1 stip hebben)."
+        }
+      },
+      {
+        question: {
+          en: "How many cities can each player build in Catan?",
+          es: "¿Cuántas ciudades puede construir cada jugador en Catan?",
+          de: "Wie viele Städte kann jeder Spieler in Catan bauen?",
+          nl: "Hoeveel steden kan elke speler bouwen in Catan?"
+        },
+        options: [
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "4", es: "4", de: "4", nl: "4" },
+          { en: "5", es: "5", de: "5", nl: "5" },
+          { en: "Unlimited", es: "Ilimitado", de: "Unbegrenzt", nl: "Onbeperkt" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Each player has 4 city pieces. Cities are built by upgrading settlements (3 Ore + 2 Wheat), which returns the settlement to your supply, allowing you to build it elsewhere.",
+          es: "Cada jugador tiene 4 piezas de ciudad. Las ciudades se construyen mejorando asentamientos (3 Mineral + 2 Trigo), lo que devuelve el asentamiento a tu suministro, permitiéndote construirlo en otro lugar.",
+          de: "Jeder Spieler hat 4 Stadtteile. Städte werden gebaut, indem Siedlungen aufgewertet werden (3 Erz + 2 Getreide), wodurch die Siedlung in deinen Vorrat zurückkehrt, sodass du sie anderswo bauen kannst.",
+          nl: "Elke speler heeft 4 stadsstukken. Steden worden gebouwd door nederzettingen te upgraden (3 Erts + 2 Graan), wat de nederzetting terugbrengt naar je voorraad, zodat je hem elders kunt bouwen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 2:1 port in Catan?",
+          es: "¿Qué es un puerto 2:1 en Catan?",
+          de: "Was ist ein 2:1 Hafen in Catan?",
+          nl: "Wat is een 2:1 haven in Catan?"
+        },
+        options: [
+          { en: "Trade any 2 resources for 1", es: "Intercambia cualquier 2 recursos por 1", de: "Tausche beliebige 2 Ressourcen gegen 1", nl: "Ruil willekeurig 2 hulpbronnen voor 1" },
+          { en: "Trade 2 specific resources for 1 any", es: "Intercambia 2 recursos específicos por 1 cualquiera", de: "Tausche 2 spezifische Ressourcen gegen 1 beliebige", nl: "Ruil 2 specifieke hulpbronnen voor 1 willekeurige" },
+          { en: "Produces 2 resources per roll", es: "Produce 2 recursos por lanzamiento", de: "Produziert 2 Ressourcen pro Wurf", nl: "Produceert 2 hulpbronnen per worp" },
+          { en: "Worth 2 victory points", es: "Vale 2 puntos de victoria", de: "Wert 2 Siegpunkte", nl: "Waard 2 overwinningspunten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A 2:1 port (specialized port) allows you to trade 2 of a specific resource type for 1 of any resource. There are 5 specialized ports (one for each resource type) that show the specific resource icon.",
+          es: "Un puerto 2:1 (puerto especializado) te permite intercambiar 2 de un tipo de recurso específico por 1 de cualquier recurso. Hay 5 puertos especializados (uno para cada tipo de recurso) que muestran el icono del recurso específico.",
+          de: "Ein 2:1 Hafen (spezialisierter Hafen) erlaubt es dir, 2 eines bestimmten Ressourcentyps gegen 1 beliebiger Ressource zu tauschen. Es gibt 5 spezialisierte Häfen (einen für jeden Ressourcentyp), die das spezifische Ressourcensymbol zeigen.",
+          nl: "Een 2:1 haven (gespecialiseerde haven) stelt je in staat om 2 van een specifiek hulpbrontype te ruilen voor 1 van een willekeurige hulpbron. Er zijn 5 gespecialiseerde havens (één voor elk hulpbrontype) die het specifieke hulpbronicoon tonen."
+        }
+      },
+      {
+        question: {
+          en: "When do you receive starting resources in Catan?",
+          es: "¿Cuándo recibes recursos iniciales en Catan?",
+          de: "Wann erhältst du Startressourcen in Catan?",
+          nl: "Wanneer ontvang je startbronnen in Catan?"
+        },
+        options: [
+          { en: "After placing first settlement", es: "Después de colocar el primer asentamiento", de: "Nach Platzierung der ersten Siedlung", nl: "Na plaatsing van eerste nederzetting" },
+          { en: "After placing second settlement", es: "Después de colocar el segundo asentamiento", de: "Nach Platzierung der zweiten Siedlung", nl: "Na plaatsing van tweede nederzetting" },
+          { en: "At start of first turn", es: "Al inicio del primer turno", de: "Zu Beginn des ersten Zugs", nl: "Aan het begin van eerste beurt" },
+          { en: "No starting resources", es: "Sin recursos iniciales", de: "Keine Startressourcen", nl: "Geen startbronnen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "After placing your second settlement during setup, you receive one resource card for each hex adjacent to that settlement. Your first settlement does not provide starting resources.",
+          es: "Después de colocar tu segundo asentamiento durante la preparación, recibes una carta de recurso por cada hexágono adyacente a ese asentamiento. Tu primer asentamiento no proporciona recursos iniciales.",
+          de: "Nach der Platzierung deiner zweiten Siedlung während der Vorbereitung erhältst du eine Ressourcenkarte für jedes Feld neben dieser Siedlung. Deine erste Siedlung liefert keine Startressourcen.",
+          nl: "Na het plaatsen van je tweede nederzetting tijdens de opzet, ontvang je één hulpbronkaart voor elke zeshoek naast die nederzetting. Je eerste nederzetting levert geen startbronnen."
+        }
       }
     ]
   };

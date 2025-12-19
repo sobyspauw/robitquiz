@@ -868,6 +868,426 @@
         de: "Schlussfolgerung ziehen bedeutet frühere Züge, Pässe und Tausche des Gegners zu verwenden um abzuleiten welche Steine sie wahrscheinlich halten, Ihre defensive und offensive Strategie informierend.",
         nl: "Inferentie nemen betekent vorige zetten, passen en ruilen van tegenstander gebruiken om af te leiden welke stenen ze waarschijnlijk hebben, je defensieve en offensieve strategie informerend."
       }
+    },
+    {
+      question: {
+        en: "What is 'rack turnover' strategy?",
+        es: "¿Qué es la estrategia de 'rotación de rack'?",
+        de: "Was ist 'Rack-Umschlag'-Strategie?",
+        nl: "Wat is 'rek omzet' strategie?"
+      },
+      options: [
+        {en: "Flipping rack upside down", es: "Voltear rack al revés", de: "Rack umdrehen", nl: "Rek omdraaien"},
+        {en: "Playing maximum tiles per turn to draw fresh tiles frequently", es: "Jugar máximo de fichas por turno para sacar fichas frescas frecuentemente", de: "Maximum Steine pro Zug spielen um häufig frische Steine zu ziehen", nl: "Maximum stenen per beurt spelen om vaak verse stenen te trekken"},
+        {en: "Exchanging all tiles every turn", es: "Intercambiar todas las fichas cada turno", de: "Alle Steine jeden Zug tauschen", nl: "Alle stenen elke beurt ruilen"},
+        {en: "Rotating between offensive and defensive plays", es: "Rotar entre jugadas ofensivas y defensivas", de: "Zwischen offensiven und defensiven Zügen rotieren", nl: "Roteren tussen offensieve en defensieve zetten"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Rack turnover means playing 4-5+ tiles per turn to cycle through bag quickly, increasing bingo chances by seeing more tile combinations.",
+        es: "La rotación de rack significa jugar 4-5+ fichas por turno para ciclar a través de la bolsa rápidamente, aumentando oportunidades de bingo al ver más combinaciones de fichas.",
+        de: "Rack-Umschlag bedeutet 4-5+ Steine pro Zug zu spielen um schnell durch den Beutel zu zyklieren, Bingo-Chancen durch Sehen mehr Stein-Kombinationen erhöhend.",
+        nl: "Rek omzet betekent 4-5+ stenen per beurt spelen om snel door zak te fietsen, bingo kansen vergrotend door meer steen combinaties te zien."
+      }
+    },
+    {
+      question: {
+        en: "What is 'board texture' analysis?",
+        es: "¿Qué es análisis de 'textura del tablero'?",
+        de: "Was ist 'Brett-Textur'-Analyse?",
+        nl: "Wat is 'bord textuur' analyse?"
+      },
+      options: [
+        {en: "Physical board surface quality", es: "Calidad de superficie física del tablero", de: "Physische Brett-Oberflächenqualität", nl: "Fysieke bord oppervlakte kwaliteit"},
+        {en: "Evaluating openness vs closedness of scoring opportunities", es: "Evaluar apertura vs cierre de oportunidades de puntuación", de: "Offenheit vs Geschlossenheit von Scoring-Möglichkeiten bewerten", nl: "Openheid vs geslotenheid van score kansen evalueren"},
+        {en: "Pattern of premium squares", es: "Patrón de cuadrados premium", de: "Muster von Premium-Feldern", nl: "Patroon van premium vakken"},
+        {en: "Color scheme of game board", es: "Esquema de colores del tablero de juego", de: "Farbschema des Spielbretts", nl: "Kleurenschema van spelbord"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Board texture analyzes whether the board is 'open' (many scoring lanes/hooks) or 'closed' (blocked, defensive), affecting strategic decisions about aggressive vs conservative play.",
+        es: "La textura del tablero analiza si el tablero está 'abierto' (muchos carriles/ganchos de puntuación) o 'cerrado' (bloqueado, defensivo), afectando decisiones estratégicas sobre juego agresivo vs conservador.",
+        de: "Brett-Textur analysiert ob das Brett 'offen' (viele Scoring-Bahnen/Haken) oder 'geschlossen' (blockiert, defensiv) ist, was strategische Entscheidungen über aggressives vs konservatives Spiel beeinflusst.",
+        nl: "Bord textuur analyseert of het bord 'open' (veel score banen/haken) of 'gesloten' (geblokkeerd, defensief) is, wat strategische beslissingen over agressief vs conservatief spel beïnvloedt."
+      }
+    },
+    {
+      question: {
+        en: "What is a 'comeback scenario' in tournament play?",
+        es: "¿Qué es un 'escenario de remontada' en juego de torneo?",
+        de: "Was ist ein 'Comeback-Szenario' im Turnierspiel?",
+        nl: "Wat is een 'comeback scenario' in toernooispel?"
+      },
+      options: [
+        {en: "Playing aggressively when behind to create bingo opportunities", es: "Jugar agresivamente cuando vas atrás para crear oportunidades de bingo", de: "Aggressiv spielen wenn zurück um Bingo-Möglichkeiten zu schaffen", nl: "Agressief spelen wanneer achter om bingo kansen te creëren"},
+        {en: "Challenging all opponent words", es: "Desafiar todas las palabras del oponente", de: "Alle Gegner-Wörter herausfordern", nl: "Alle woorden van tegenstander uitdagen"},
+        {en: "Requesting timeout to regroup", es: "Solicitar tiempo fuera para reagruparse", de: "Timeout anfordern um sich neu zu gruppieren", nl: "Timeout aanvragen om te hergroeperen"},
+        {en: "Exchanging tiles repeatedly", es: "Intercambiar fichas repetidamente", de: "Steine wiederholt tauschen", nl: "Stenen herhaaldelijk ruilen"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "When trailing by 50+ points, optimal strategy shifts to opening the board aggressively, creating high-variance scoring chances even if it also helps opponent.",
+        es: "Cuando vas atrás por más de 50 puntos, la estrategia óptima cambia a abrir el tablero agresivamente, creando oportunidades de puntuación de alta varianza incluso si también ayuda al oponente.",
+        de: "Wenn 50+ Punkte zurück, verschiebt sich optimale Strategie zu aggressivem Brett-Öffnen, hochvariante Scoring-Chancen schaffend selbst wenn es auch dem Gegner hilft.",
+        nl: "Wanneer achterliggen met 50+ punten, verschuift optimale strategie naar agressief bord openen, hoge-variantie score kansen creërend zelfs als het ook tegenstander helpt."
+      }
+    },
+    {
+      question: {
+        en: "What is 'tile smoothing'?",
+        es: "¿Qué es 'suavizado de fichas'?",
+        de: "Was ist 'Stein-Glättung'?",
+        nl: "Wat is 'steen gladmaken'?"
+      },
+      options: [
+        {en: "Physically polishing worn tiles", es: "Pulir físicamente fichas desgastadas", de: "Abgenutzte Steine physisch polieren", nl: "Versleten stenen fysiek polijsten"},
+        {en: "Playing tiles to achieve balanced vowel/consonant ratio", es: "Jugar fichas para lograr relación equilibrada vocal/consonante", de: "Steine spielen um ausgewogenes Vokal/Konsonant-Verhältnis zu erreichen", nl: "Stenen spelen om gebalanceerde klinker/medeklinker verhouding te bereiken"},
+        {en: "Arranging tiles neatly on rack", es: "Organizar fichas ordenadamente en rack", de: "Steine ordentlich auf Rack anordnen", nl: "Stenen netjes op rek rangschikken"},
+        {en: "Removing duplicate tiles", es: "Eliminar fichas duplicadas", de: "Doppelte Steine entfernen", nl: "Dubbele stenen verwijderen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Tile smoothing plays awkward combinations (like 3 I's or VWXZ) to restore ideal 2-3 vowel, high-synergy rack composition for future bingo potential.",
+        es: "El suavizado de fichas juega combinaciones incómodas (como 3 I's o VWXZ) para restaurar composición ideal de rack de 2-3 vocales con alta sinergia para potencial de bingo futuro.",
+        de: "Stein-Glättung spielt unangenehme Kombinationen (wie 3 I's oder VWXZ) um ideale 2-3 Vokal, hohe-Synergie Rack-Zusammensetzung für zukünftiges Bingo-Potential wiederherzustellen.",
+        nl: "Steen gladmaken speelt onhandige combinaties (zoals 3 I's of VWXZ) om ideale 2-3 klinker, hoge-synergie rek compositie voor toekomstig bingo potentieel te herstellen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'probabilistic tracking' in endgame?",
+        es: "¿Qué es 'rastreo probabilístico' en final?",
+        de: "Was ist 'probabilistisches Tracking' im Endspiel?",
+        nl: "Wat is 'probabilistisch volgen' in eindspel?"
+      },
+      options: [
+        {en: "Guessing opponent's tiles randomly", es: "Adivinar fichas del oponente aleatoriamente", de: "Gegner-Steine zufällig raten", nl: "Stenen van tegenstander willekeurig raden"},
+        {en: "Using known unseen tiles to calculate exact win probability per move", es: "Usar fichas no vistas conocidas para calcular probabilidad exacta de victoria por movimiento", de: "Bekannte ungesehene Steine verwenden um exakte Gewinnwahrscheinlichkeit pro Zug zu berechnen", nl: "Bekende ongeziene stenen gebruiken om exacte winkans per zet te berekenen"},
+        {en: "Estimating time remaining", es: "Estimar tiempo restante", de: "Verbleibende Zeit schätzen", nl: "Resterende tijd schatten"},
+        {en: "Predicting opponent's next move", es: "Predecir siguiente movimiento del oponente", de: "Nächsten Gegner-Zug vorhersagen", nl: "Volgende zet van tegenstander voorspellen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "When tracking reveals exact unseen tiles, you can calculate precise win probability for each move based on all possible opponent responses and bag draws.",
+        es: "Cuando el rastreo revela fichas exactas no vistas, puedes calcular probabilidad precisa de victoria para cada movimiento basado en todas las posibles respuestas del oponente y sorteos de bolsa.",
+        de: "Wenn Tracking exakte ungesehene Steine offenbart, können Sie präzise Gewinnwahrscheinlichkeit für jeden Zug basierend auf allen möglichen Gegner-Reaktionen und Beutel-Ziehungen berechnen.",
+        nl: "Wanneer volgen exacte ongeziene stenen onthult, kun je precieze winkans voor elke zet berekenen gebaseerd op alle mogelijke tegenstander reacties en zak trekkingen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'scouting' in tournament context?",
+        es: "¿Qué es 'reconocimiento' en contexto de torneo?",
+        de: "Was ist 'Scouting' im Turnier-Kontext?",
+        nl: "Wat is 'scouten' in toernooi context?"
+      },
+      options: [
+        {en: "Observing opponent's previous games to learn their style", es: "Observar juegos previos del oponente para aprender su estilo", de: "Frühere Spiele des Gegners beobachten um seinen Stil zu lernen", nl: "Eerdere spellen van tegenstander observeren om hun stijl te leren"},
+        {en: "Finding vacant tables", es: "Encontrar mesas vacantes", de: "Freie Tische finden", nl: "Lege tafels vinden"},
+        {en: "Searching for word patterns", es: "Buscar patrones de palabras", de: "Nach Wortmustern suchen", nl: "Zoeken naar woordpatronen"},
+        {en: "Tournament venue reconnaissance", es: "Reconocimiento del lugar del torneo", de: "Turnier-Veranstaltungsort-Erkundung", nl: "Toernooi locatie verkenning"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Scouting means watching opponents' games between rounds to identify their tendencies (aggressive/defensive, strong/weak word knowledge areas) for strategic advantage.",
+        es: "Reconocimiento significa observar juegos de oponentes entre rondas para identificar sus tendencias (agresivo/defensivo, áreas fuertes/débiles de conocimiento de palabras) para ventaja estratégica.",
+        de: "Scouting bedeutet Gegner-Spiele zwischen Runden zu beobachten um ihre Tendenzen (aggressiv/defensiv, starke/schwache Wort-Kenntnisbereiche) für strategischen Vorteil zu identifizieren.",
+        nl: "Scouten betekent spellen van tegenstanders tussen rondes bekijken om hun tendensen (agressief/defensief, sterke/zwakke woord kennis gebieden) voor strategisch voordeel te identificeren."
+      }
+    },
+    {
+      question: {
+        en: "What is 'leave analysis' in move evaluation?",
+        es: "¿Qué es 'análisis de leave' en evaluación de movimiento?",
+        de: "Was ist 'Leave-Analyse' in Zug-Bewertung?",
+        nl: "Wat is 'leave analyse' in zet evaluatie?"
+      },
+      options: [
+        {en: "Deciding when to leave tournament", es: "Decidir cuándo dejar torneo", de: "Entscheiden wann Turnier verlassen", nl: "Beslissen wanneer toernooi verlaten"},
+        {en: "Evaluating future potential of remaining tiles after each play", es: "Evaluar potencial futuro de fichas restantes después de cada jugada", de: "Zukünftiges Potential verbleibender Steine nach jedem Zug bewerten", nl: "Toekomstig potentieel van overgebleven stenen na elke zet evalueren"},
+        {en: "Counting tiles left in bag", es: "Contar fichas restantes en bolsa", de: "Verbleibende Steine im Beutel zählen", nl: "Overgebleven stenen in zak tellen"},
+        {en: "Reviewing mistakes after game", es: "Revisar errores después del juego", de: "Fehler nach Spiel überprüfen", nl: "Fouten na spel beoordelen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Leave analysis weighs not just immediate score but quality of tiles remaining: balanced vowels, synergistic consonants, avoiding duplicates or awkward combinations like VVWW.",
+        es: "El análisis de leave evalúa no solo puntuación inmediata sino calidad de fichas restantes: vocales equilibradas, consonantes sinérgicas, evitando duplicados o combinaciones incómodas como VVWW.",
+        de: "Leave-Analyse wiegt nicht nur sofortige Punktzahl sondern Qualität verbleibender Steine: ausgeglichene Vokale, synergistische Konsonanten, Vermeidung von Duplikaten oder unangenehmen Kombinationen wie VVWW.",
+        nl: "Leave analyse weegt niet alleen directe score maar kwaliteit van overgebleven stenen: gebalanceerde klinkers, synergistische medeklinkers, vermijden van duplicaten of onhandige combinaties zoals VVWW."
+      }
+    },
+    {
+      question: {
+        en: "What is 'timing out' strategy in close endgames?",
+        es: "¿Qué es la estrategia de 'agotar el tiempo' en finales cerrados?",
+        de: "Was ist 'Zeitablauf'-Strategie in knappen Endspielen?",
+        nl: "Wat is 'tijd uitlopen' strategie in krappe eindspellen?"
+      },
+      options: [
+        {en: "Deliberately exceeding time limit", es: "Exceder deliberadamente límite de tiempo", de: "Zeitlimit absichtlich überschreiten", nl: "Opzettelijk tijdslimiet overschrijden"},
+        {en: "Using all remaining time to force opponent's time pressure", es: "Usar todo el tiempo restante para forzar presión de tiempo del oponente", de: "Alle verbleibende Zeit verwenden um Zeitdruck des Gegners zu erzwingen", nl: "Alle resterende tijd gebruiken om tijdsdruk van tegenstander te forceren"},
+        {en: "Calling timeout between moves", es: "Pedir tiempo fuera entre movimientos", de: "Timeout zwischen Zügen aufrufen", nl: "Timeout roepen tussen zetten"},
+        {en: "Playing very quickly", es: "Jugar muy rápidamente", de: "Sehr schnell spielen", nl: "Zeer snel spelen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "When ahead in endgame but low on time, using your remaining seconds fully can put opponent in time pressure, potentially forcing errors even if you incur 10-point overtime penalties.",
+        es: "Cuando vas adelante en final pero con poco tiempo, usar tus segundos restantes completamente puede poner al oponente en presión de tiempo, potencialmente forzando errores incluso si incurres en penalizaciones de 10 puntos por tiempo extra.",
+        de: "Wenn im Endspiel vorne aber wenig Zeit, volle Nutzung verbleibender Sekunden kann Gegner unter Zeitdruck setzen, potenziell Fehler erzwingend selbst wenn Sie 10-Punkte-Überschreitungsstrafen erhalten.",
+        nl: "Wanneer voor in eindspel maar weinig tijd, volledige gebruik van resterende seconden kan tegenstander onder tijdsdruk zetten, potentieel fouten afdwingen zelfs als je 10-punten overtime straffen oploopt."
+      }
+    },
+    {
+      question: {
+        en: "What is 'word knowledge depth vs breadth'?",
+        es: "¿Qué es 'profundidad vs amplitud de conocimiento de palabras'?",
+        de: "Was ist 'Wort-Wissens-Tiefe vs Breite'?",
+        nl: "Wat is 'woord kennis diepte vs breedte'?"
+      },
+      options: [
+        {en: "Knowing many obscure words vs knowing common words perfectly", es: "Conocer muchas palabras oscuras vs conocer palabras comunes perfectamente", de: "Viele obskure Wörter kennen vs häufige Wörter perfekt kennen", nl: "Veel obscure woorden kennen vs gewone woorden perfect kennen"},
+        {en: "Learning words by length categories", es: "Aprender palabras por categorías de longitud", de: "Wörter nach Längen-Kategorien lernen", nl: "Woorden leren per lengte categorieën"},
+        {en: "Dictionary coverage percentage", es: "Porcentaje de cobertura del diccionario", de: "Wörterbuch-Abdeckungs-Prozentsatz", nl: "Woordenboek dekking percentage"},
+        {en: "Multilingual vocabulary", es: "Vocabulario multilingüe", de: "Mehrsprachiger Wortschatz", nl: "Meertalige woordenschat"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Depth means mastering all common high-probability words (2s, 3s, SATIRE stems). Breadth means learning rare obscure words. Depth provides better tournament ROI.",
+        es: "Profundidad significa dominar todas las palabras comunes de alta probabilidad (2s, 3s, raíces SATIRE). Amplitud significa aprender palabras raras oscuras. La profundidad proporciona mejor ROI de torneo.",
+        de: "Tiefe bedeutet alle häufigen hochwahrscheinlichen Wörter (2s, 3s, SATIRE-Stämme) zu meistern. Breite bedeutet seltene obskure Wörter zu lernen. Tiefe bietet besseren Turnier-ROI.",
+        nl: "Diepte betekent alle gewone hoge-waarschijnlijkheid woorden (2s, 3s, SATIRE stammen) beheersen. Breedte betekent zeldzame obscure woorden leren. Diepte biedt betere toernooi ROI."
+      }
+    },
+    {
+      question: {
+        en: "What is a 'bingo trap'?",
+        es: "¿Qué es una 'trampa de bingo'?",
+        de: "Was ist eine 'Bingo-Falle'?",
+        nl: "Wat is een 'bingo val'?"
+      },
+      options: [
+        {en: "Setting up apparent bingo lane that's actually blocked", es: "Configurar carril de bingo aparente que en realidad está bloqueado", de: "Scheinbare Bingo-Bahn einrichten die tatsächlich blockiert ist", nl: "Schijnbare bingo baan opzetten die eigenlijk geblokkeerd is"},
+        {en: "Challenging opponent's bingo word", es: "Desafiar palabra de bingo del oponente", de: "Gegner-Bingo-Wort herausfordern", nl: "Bingo woord van tegenstander uitdagen"},
+        {en: "Playing invalid 7-letter word", es: "Jugar palabra inválida de 7 letras", de: "Ungültiges 7-Buchstaben-Wort spielen", nl: "Ongeldig 7-letter woord spelen"},
+        {en: "Scoring lower than 50 points on bingo", es: "Anotar menos de 50 puntos en bingo", de: "Weniger als 50 Punkte auf Bingo erzielen", nl: "Minder dan 50 punten scoren op bingo"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "A bingo trap creates an attractive-looking open lane that actually has no valid plays due to awkward letter combinations, tempting opponent to waste a turn fishing for it.",
+        es: "Una trampa de bingo crea un carril abierto de apariencia atractiva que en realidad no tiene jugadas válidas debido a combinaciones de letras incómodas, tentando al oponente a desperdiciar un turno pescando por él.",
+        de: "Eine Bingo-Falle schafft eine attraktiv aussehende offene Bahn die tatsächlich keine gültigen Züge wegen unangenehmer Buchstaben-Kombinationen hat, Gegner verlockend einen Zug zu verschwenden darauf zu angeln.",
+        nl: "Een bingo val creëert een aantrekkelijk ogende open baan die eigenlijk geen geldige zetten heeft door onhandige letter combinaties, tegenstander verleidend een beurt te verspillen erop vissend."
+      }
+    },
+    {
+      question: {
+        en: "What is 'parallel scoring' technique?",
+        es: "¿Qué es la técnica de 'puntuación paralela'?",
+        de: "Was ist 'Paralleles Scoring'-Technik?",
+        nl: "Wat is 'parallelle score' techniek?"
+      },
+      options: [
+        {en: "Scoring two games simultaneously", es: "Anotar dos juegos simultáneamente", de: "Zwei Spiele gleichzeitig werten", nl: "Twee spellen gelijktijdig scoren"},
+        {en: "Playing word parallel to existing word to form multiple 2-letter words", es: "Jugar palabra paralela a palabra existente para formar múltiples palabras de 2 letras", de: "Wort parallel zu bestehendem Wort spielen um mehrere 2-Buchstaben-Wörter zu bilden", nl: "Woord parallel aan bestaand woord spelen om meerdere 2-letter woorden te vormen"},
+        {en: "Using spreadsheet to track scores", es: "Usar hoja de cálculo para rastrear puntuaciones", de: "Tabelle verwenden um Punktestände zu verfolgen", nl: "Spreadsheet gebruiken om scores te volgen"},
+        {en: "Comparing scores with other tables", es: "Comparar puntuaciones con otras mesas", de: "Punktestände mit anderen Tischen vergleichen", nl: "Scores vergelijken met andere tafels"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Parallel plays score for main word PLUS each 2-letter crossword formed. Example: Playing CAT parallel to DOG forms CA/DO, AT/OG for massive point multiplication.",
+        es: "Las jugadas paralelas puntúan por palabra principal MÁS cada crucigrama de 2 letras formado. Ejemplo: Jugar CAT paralelo a DOG forma CA/DO, AT/OG para multiplicación masiva de puntos.",
+        de: "Parallele Züge punkten für Hauptwort PLUS jedes 2-Buchstaben-Kreuzwort gebildet. Beispiel: CAT parallel zu DOG spielen bildet CA/DO, AT/OG für massive Punkte-Multiplikation.",
+        nl: "Parallelle zetten scoren voor hoofdwoord PLUS elk 2-letter kruiswoord gevormd. Voorbeeld: CAT parallel aan DOG spelen vormt CA/DO, AT/OG voor massale punten vermenigvuldiging."
+      }
+    },
+    {
+      question: {
+        en: "What is 'bag assumption' error?",
+        es: "¿Qué es error de 'suposición de bolsa'?",
+        de: "Was ist 'Beutel-Annahme'-Fehler?",
+        nl: "Wat is 'zak aanname' fout?"
+      },
+      options: [
+        {en: "Assuming tiles are equally distributed", es: "Asumir que las fichas están distribuidas equitativamente", de: "Annehmen dass Steine gleichmäßig verteilt sind", nl: "Aannemen dat stenen gelijk verdeeld zijn"},
+        {en: "Playing as if specific tiles remain without tracking proof", es: "Jugar como si fichas específicas quedan sin prueba de rastreo", de: "Spielen als ob spezifische Steine bleiben ohne Tracking-Beweis", nl: "Spelen alsof specifieke stenen blijven zonder volg bewijs"},
+        {en: "Forgetting to shake tile bag", es: "Olvidar agitar bolsa de fichas", de: "Vergessen Steinbeutel zu schütteln", nl: "Vergeten steenzak te schudden"},
+        {en: "Miscounting tiles in bag", es: "Contar mal fichas en bolsa", de: "Steine im Beutel falsch zählen", nl: "Stenen in zak verkeerd tellen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Bag assumption means wrongly assuming certain tiles remain in bag/opponent's rack without proper tracking, leading to flawed strategic decisions like setting up lanes for tiles already played.",
+        es: "La suposición de bolsa significa asumir erróneamente que ciertas fichas quedan en bolsa/rack del oponente sin rastreo adecuado, llevando a decisiones estratégicas defectuosas como configurar carriles para fichas ya jugadas.",
+        de: "Beutel-Annahme bedeutet fälschlich anzunehmen dass bestimmte Steine in Beutel/Gegner-Rack bleiben ohne ordentliches Tracking, zu fehlerhaften strategischen Entscheidungen führend wie Bahnen für bereits gespielte Steine einzurichten.",
+        nl: "Zak aanname betekent ten onrechte aannemen dat bepaalde stenen in zak/rek van tegenstander blijven zonder correct volgen, leidend tot gebrekkige strategische beslissingen zoals banen opzetten voor al gespeelde stenen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'late-game Q management'?",
+        es: "¿Qué es 'gestión de Q de final de juego'?",
+        de: "Was ist 'Spätspiel-Q-Management'?",
+        nl: "Wat is 'laat-spel Q beheer'?"
+      },
+      options: [
+        {en: "Never playing Q tile", es: "Nunca jugar ficha Q", de: "Q-Stein niemals spielen", nl: "Q steen nooit spelen"},
+        {en: "Strategic timing of Q plays to avoid being stuck with unplayable Q in endgame", es: "Tiempo estratégico de jugadas de Q para evitar quedarse atascado con Q injugable en final", de: "Strategisches Timing von Q-Zügen um zu vermeiden mit unspielbarem Q im Endspiel stecken zu bleiben", nl: "Strategische timing van Q zetten om vast komen te zitten met onspeelbaar Q in eindspel te vermijden"},
+        {en: "Saving Q for last play", es: "Guardar Q para última jugada", de: "Q für letzten Zug sparen", nl: "Q sparen voor laatste zet"},
+        {en: "Exchanging Q immediately", es: "Intercambiar Q inmediatamente", de: "Q sofort tauschen", nl: "Q onmiddellijk ruilen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Late-game Q management means playing Q when 8-12 tiles remain in bag (ensuring replacement draw) rather than risking getting Q-stuck when no tiles remain to draw.",
+        es: "La gestión de Q de final de juego significa jugar Q cuando quedan 8-12 fichas en bolsa (asegurando sorteo de reemplazo) en lugar de arriesgar quedarse atascado con Q cuando no quedan fichas para sacar.",
+        de: "Spätspiel-Q-Management bedeutet Q zu spielen wenn 8-12 Steine im Beutel verbleiben (Ersatz-Ziehung sicherstellend) anstatt zu riskieren Q-gesteckt zu werden wenn keine Steine zum Ziehen bleiben.",
+        nl: "Laat-spel Q beheer betekent Q spelen wanneer 8-12 stenen in zak blijven (vervangende trek verzekeren) in plaats van risico Q-vast te komen wanneer geen stenen te trekken blijven."
+      }
+    },
+    {
+      question: {
+        en: "What is 'contested square' control?",
+        es: "¿Qué es control de 'cuadrado disputado'?",
+        de: "Was ist 'umstrittenes Feld'-Kontrolle?",
+        nl: "Wat is 'betwist vak' controle?"
+      },
+      options: [
+        {en: "Fighting over tournament table seating", es: "Luchar por asientos de mesa de torneo", de: "Kämpfen um Turnier-Tisch-Sitzplätze", nl: "Vechten over toernooi tafel zitplaatsen"},
+        {en: "Blocking or claiming key premium squares before opponent", es: "Bloquear o reclamar cuadrados premium clave antes del oponente", de: "Wichtige Premium-Felder vor Gegner blockieren oder beanspruchen", nl: "Belangrijke premium vakken blokkeren of claimen voor tegenstander"},
+        {en: "Determining who goes first", es: "Determinar quién va primero", de: "Bestimmen wer zuerst geht", nl: "Bepalen wie eerst gaat"},
+        {en: "Challenging square legality", es: "Desafiar legalidad de cuadrado", de: "Quadrat-Legalität herausfordern", nl: "Vak legaliteit uitdagen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Contested squares are high-value premium spaces (especially TWS corners) both players want. Strategic control means using them first OR blocking them to deny opponent the opportunity.",
+        es: "Los cuadrados disputados son espacios premium de alto valor (especialmente esquinas TWS) que ambos jugadores quieren. El control estratégico significa usarlos primero O bloquearlos para negar al oponente la oportunidad.",
+        de: "Umstrittene Felder sind hochwertige Premium-Bereiche (besonders TWS-Ecken) die beide Spieler wollen. Strategische Kontrolle bedeutet sie zuerst zu verwenden ODER zu blockieren um Gegner die Gelegenheit zu verwehren.",
+        nl: "Betwiste vakken zijn hoge-waarde premium ruimtes (vooral TWS hoeken) die beide spelers willen. Strategische controle betekent ze eerst gebruiken OF blokkeren om tegenstander de kans te ontzeggen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'clock psychology' in tournament Scrabble?",
+        es: "¿Qué es 'psicología de reloj' en Scrabble de torneo?",
+        de: "Was ist 'Uhren-Psychologie' im Turnier-Scrabble?",
+        nl: "Wat is 'klok psychologie' in toernooi Scrabble?"
+      },
+      options: [
+        {en: "Analyzing clock design patterns", es: "Analizar patrones de diseño de reloj", de: "Uhren-Design-Muster analysieren", nl: "Klok ontwerp patronen analyseren"},
+        {en: "Managing time and recognizing opponent's time pressure tendencies", es: "Gestionar tiempo y reconocer tendencias de presión de tiempo del oponente", de: "Zeit verwalten und Zeitdruck-Tendenzen des Gegners erkennen", nl: "Tijd beheren en tijdsdruk tendensen van tegenstander herkennen"},
+        {en: "Setting optimal alarm times", es: "Configurar tiempos de alarma óptimos", de: "Optimale Alarm-Zeiten einstellen", nl: "Optimale alarm tijden instellen"},
+        {en: "Psychological impact of visible clocks", es: "Impacto psicológico de relojes visibles", de: "Psychologische Auswirkung sichtbarer Uhren", nl: "Psychologische impact van zichtbare klokken"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Clock psychology involves managing your time efficiently while observing if opponent plays worse under time pressure, potentially using clock strategically in close games.",
+        es: "La psicología de reloj implica gestionar tu tiempo eficientemente mientras observas si el oponente juega peor bajo presión de tiempo, potencialmente usando reloj estratégicamente en juegos cerrados.",
+        de: "Uhren-Psychologie beinhaltet Zeit effizient zu verwalten während man beobachtet ob Gegner unter Zeitdruck schlechter spielt, potenziell Uhr strategisch in knappen Spielen verwendend.",
+        nl: "Klok psychologie houdt in je tijd efficiënt beheren terwijl observeren of tegenstander slechter speelt onder tijdsdruk, potentieel klok strategisch gebruiken in krappe spellen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'variance reduction' strategy when leading?",
+        es: "¿Qué es estrategia de 'reducción de varianza' cuando vas adelante?",
+        de: "Was ist 'Varianz-Reduktions'-Strategie beim Führen?",
+        nl: "Wat is 'variantie reductie' strategie wanneer voor?"
+      },
+      options: [
+        {en: "Playing more conservatively to close board and limit comeback chances", es: "Jugar más conservadoramente para cerrar tablero y limitar oportunidades de remontada", de: "Konservativer spielen um Brett zu schließen und Comeback-Chancen zu begrenzen", nl: "Conservatiever spelen om bord te sluiten en comeback kansen te beperken"},
+        {en: "Varying play style randomly", es: "Variar estilo de juego aleatoriamente", de: "Spielstil zufällig variieren", nl: "Speelstijl willekeurig variëren"},
+        {en: "Reducing tile variety on rack", es: "Reducir variedad de fichas en rack", de: "Stein-Vielfalt auf Rack reduzieren", nl: "Steen variëteit op rek reduceren"},
+        {en: "Minimizing score differences", es: "Minimizar diferencias de puntuación", de: "Punkte-Unterschiede minimieren", nl: "Score verschillen minimaliseren"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "When ahead by 40+, variance reduction closes board defensively to prevent high-scoring swings, accepting smaller point gains to safely preserve lead rather than risky bingo setups.",
+        es: "Cuando vas adelante por más de 40, la reducción de varianza cierra el tablero defensivamente para prevenir oscilaciones de alta puntuación, aceptando ganancias de puntos menores para preservar ventaja de manera segura en lugar de configuraciones de bingo arriesgadas.",
+        de: "Wenn 40+ vorne, schließt Varianz-Reduktion Brett defensiv um hochscorige Schwankungen zu verhindern, kleinere Punkt-Gewinne akzeptierend um Führung sicher zu bewahren anstatt riskanter Bingo-Setups.",
+        nl: "Wanneer voor met 40+, sluit variantie reductie bord defensief om hoog-scorende schommelingen te voorkomen, kleinere punten winsten accepterend om voorsprong veilig te behouden in plaats van riskante bingo setups."
+      }
+    },
+    {
+      question: {
+        en: "What is 'hotspot creation' in advanced play?",
+        es: "¿Qué es 'creación de punto caliente' en juego avanzado?",
+        de: "Was ist 'Hotspot-Erstellung' im fortgeschrittenen Spiel?",
+        nl: "Wat is 'hotspot creatie' in geavanceerd spel?"
+      },
+      options: [
+        {en: "Creating board areas with multiple high-scoring opportunities", es: "Crear áreas de tablero con múltiples oportunidades de alta puntuación", de: "Brett-Bereiche mit mehreren hochscorenden Möglichkeiten schaffen", nl: "Bord gebieden creëren met meerdere hoog-scorende kansen"},
+        {en: "Heating tiles before play", es: "Calentar fichas antes de jugar", de: "Steine vor dem Spielen erwärmen", nl: "Stenen opwarmen voor spel"},
+        {en: "Finding tournament venues", es: "Encontrar lugares de torneos", de: "Turnier-Veranstaltungsorte finden", nl: "Toernooi locaties vinden"},
+        {en: "Identifying popular word patterns", es: "Identificar patrones populares de palabras", de: "Beliebte Wort-Muster identifizieren", nl: "Populaire woord patronen identificeren"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Hotspot creation deliberately opens board sections with multiple accessible premium squares/hooks, typically when behind and needing high-variance scoring chances to catch up.",
+        es: "La creación de punto caliente abre deliberadamente secciones de tablero con múltiples cuadrados/ganchos premium accesibles, típicamente cuando vas atrás y necesitas oportunidades de puntuación de alta varianza para alcanzar.",
+        de: "Hotspot-Erstellung öffnet absichtlich Brett-Abschnitte mit mehreren zugänglichen Premium-Feldern/Haken, typischerweise wenn zurück und hochvariante Scoring-Chancen zum Aufholen benötigt werden.",
+        nl: "Hotspot creatie opent opzettelijk bord secties met meerdere toegankelijke premium vakken/haken, typisch wanneer achter en hoge-variantie score kansen nodig om in te halen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'rack entropy management'?",
+        es: "¿Qué es 'gestión de entropía de rack'?",
+        de: "Was ist 'Rack-Entropie-Management'?",
+        nl: "Wat is 'rek entropie beheer'?"
+      },
+      options: [
+        {en: "Keeping rack organized alphabetically", es: "Mantener rack organizado alfabéticamente", de: "Rack alphabetisch organisiert halten", nl: "Rek alfabetisch georganiseerd houden"},
+        {en: "Balancing rack flexibility vs immediate scoring", es: "Equilibrar flexibilidad de rack vs puntuación inmediata", de: "Rack-Flexibilität vs sofortiges Scoring balancieren", nl: "Rek flexibiliteit vs directe score balanceren"},
+        {en: "Measuring disorder of tile arrangement", es: "Medir desorden de disposición de fichas", de: "Unordnung der Stein-Anordnung messen", nl: "Wanorde van steen rangschikking meten"},
+        {en: "Thermal management of playing area", es: "Gestión térmica de área de juego", de: "Thermisches Management des Spielbereichs", nl: "Thermisch beheer van speelgebied"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Entropy management balances keeping flexible, high-option racks (SATIRE) vs playing them for immediate points. High entropy = many future options but lower current score.",
+        es: "La gestión de entropía equilibra mantener racks flexibles de alta opción (SATIRE) vs jugarlos por puntos inmediatos. Alta entropía = muchas opciones futuras pero puntuación actual más baja.",
+        de: "Entropie-Management balanciert flexible, hochoptionale Racks (SATIRE) behalten vs sie für sofortige Punkte zu spielen. Hohe Entropie = viele zukünftige Optionen aber niedrigere aktuelle Punktzahl.",
+        nl: "Entropie beheer balanceert flexibele, hoge-optie rekken (SATIRE) houden vs ze spelen voor directe punten. Hoge entropie = veel toekomstige opties maar lagere huidige score."
+      }
+    },
+    {
+      question: {
+        en: "What is 'anti-bingo' defensive technique?",
+        es: "¿Qué es técnica defensiva 'anti-bingo'?",
+        de: "Was ist 'Anti-Bingo'-Defensiv-Technik?",
+        nl: "Wat is 'anti-bingo' defensieve techniek?"
+      },
+      options: [
+        {en: "Challenging all 7-letter words", es: "Desafiar todas las palabras de 7 letras", de: "Alle 7-Buchstaben-Wörter herausfordern", nl: "Alle 7-letter woorden uitdagen"},
+        {en: "Systematically blocking bingo lanes and premium square access", es: "Bloquear sistemáticamente carriles de bingo y acceso a cuadrados premium", de: "Systematisch Bingo-Bahnen und Premium-Feld-Zugang blockieren", nl: "Systematisch bingo banen en premium vak toegang blokkeren"},
+        {en: "Never playing bingos yourself", es: "Nunca jugar bingos tú mismo", de: "Niemals selbst Bingos spielen", nl: "Nooit zelf bingo's spelen"},
+        {en: "Using anti-bingo tiles only", es: "Usar solo fichas anti-bingo", de: "Nur Anti-Bingo-Steine verwenden", nl: "Alleen anti-bingo stenen gebruiken"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Anti-bingo play closes all 7+ letter lanes by strategic blocking, typically when leading and opponent needs bingos to catch up, sacrificing point opportunities for defensive security.",
+        es: "El juego anti-bingo cierra todos los carriles de 7+ letras mediante bloqueo estratégico, típicamente cuando vas adelante y el oponente necesita bingos para alcanzar, sacrificando oportunidades de puntos por seguridad defensiva.",
+        de: "Anti-Bingo-Spiel schließt alle 7+-Buchstaben-Bahnen durch strategisches Blockieren, typischerweise wenn führend und Gegner Bingos zum Aufholen braucht, Punkt-Möglichkeiten für defensive Sicherheit opfernd.",
+        nl: "Anti-bingo spel sluit alle 7+ letter banen door strategisch blokkeren, typisch wanneer voorliggend en tegenstander bingo's nodig heeft om in te halen, punten kansen opofferend voor defensieve veiligheid."
+      }
+    },
+    {
+      question: {
+        en: "What is 'out-in-two' calculation?",
+        es: "¿Qué es cálculo 'fuera-en-dos'?",
+        de: "Was ist 'Raus-in-Zwei'-Berechnung?",
+        nl: "Wat is 'uit-in-twee' berekening?"
+      },
+      options: [
+        {en: "Playing exactly 2 tiles per turn", es: "Jugar exactamente 2 fichas por turno", de: "Genau 2 Steine pro Zug spielen", nl: "Precies 2 stenen per beurt spelen"},
+        {en: "Calculating if you can empty rack in next 2 turns to end game", es: "Calcular si puedes vaciar rack en los próximos 2 turnos para terminar juego", de: "Berechnen ob Sie Rack in nächsten 2 Zügen leeren können um Spiel zu beenden", nl: "Berekenen of je rek kunt legen in volgende 2 beurten om spel te beëindigen"},
+        {en: "Requiring 2 moves to win", es: "Requiere 2 movimientos para ganar", de: "2 Züge zum Gewinnen benötigen", nl: "2 zetten nodig om te winnen"},
+        {en: "Two-player tournament format", es: "Formato de torneo de dos jugadores", de: "Zwei-Spieler-Turnier-Format", nl: "Twee-speler toernooi formaat"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Out-in-two determines if you can play all remaining tiles in 2 turns to end game (scoring opponent's unplayed tiles), often crucial for winning close endgames.",
+        es: "Fuera-en-dos determina si puedes jugar todas las fichas restantes en 2 turnos para terminar el juego (anotando fichas no jugadas del oponente), a menudo crucial para ganar finales cerrados.",
+        de: "Raus-in-Zwei bestimmt ob Sie alle verbleibenden Steine in 2 Zügen spielen können um Spiel zu beenden (ungespielte Steine des Gegners wertend), oft entscheidend für Gewinnen knapper Endspiele.",
+        nl: "Uit-in-twee bepaalt of je alle resterende stenen in 2 beurten kunt spelen om spel te beëindigen (onguspeelde stenen van tegenstander scorend), vaak cruciaal voor winnen krappe eindspellen."
+      }
     }
   ]
 };

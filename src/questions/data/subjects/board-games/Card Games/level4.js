@@ -427,6 +427,426 @@
           de: "Chicago (oder Vier-Austeilungs) Bridge besteht aus genau 4 Austeilungen mit vorbestimmter Verwundbarkeit, was Spiele berechenbarer in der Länge macht als Rubber Bridge.",
           nl: "Chicago (of Vier-Delingen) Bridge bestaat uit precies 4 delingen met vooraf bepaalde kwetsbaarheid, waardoor spellen voorspelbaarder in lengte zijn dan rubber bridge."
         }
+      },
+      {
+        question: {
+          en: "In Texas Hold'em, what is 'position' and why is it important?",
+          es: "En Texas Hold'em, ¿qué es la 'posición' y por qué es importante?",
+          de: "Was ist 'Position' beim Texas Hold'em und warum ist sie wichtig?",
+          nl: "Wat is 'positie' bij Texas Hold'em en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Your seat relative to dealer; acts last has advantage", es: "Tu asiento relativo al repartidor; actuar último tiene ventaja", de: "Dein Sitz relativ zum Geber; zuletzt handeln hat Vorteil", nl: "Je zitplaats relatief tot deler; als laatste handelen heeft voordeel" },
+          { en: "The rank of your hand", es: "El rango de tu mano", de: "Der Rang deines Blatts", nl: "De rang van je hand" },
+          { en: "Where chips are placed on table", es: "Donde se colocan las fichas en la mesa", de: "Wo Chips auf dem Tisch platziert werden", nl: "Waar fiches op de tafel worden geplaatst" },
+          { en: "Your standing in tournament", es: "Tu posición en el torneo", de: "Deine Platzierung im Turnier", nl: "Je positie in het toernooi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Position refers to where you sit relative to the dealer button. Late position (acting last) is advantageous because you see opponents' actions before making your decision.",
+          es: "La posición se refiere a dónde te sientas en relación con el botón del repartidor. La posición tardía (actuar último) es ventajosa porque ves las acciones de los oponentes antes de tomar tu decisión.",
+          de: "Position bezieht sich darauf wo du relativ zum Dealer-Button sitzt. Späte Position (zuletzt handeln) ist vorteilhaft weil du die Aktionen der Gegner siehst bevor du entscheidest.",
+          nl: "Positie verwijst naar waar je zit ten opzichte van de dealer button. Late positie (als laatste handelen) is voordelig omdat je de acties van tegenstanders ziet voordat je beslist."
+        }
+      },
+      {
+        question: {
+          en: "What is 'squeeze play' in Bridge?",
+          es: "¿Qué es 'squeeze play' en Bridge?",
+          de: "Was ist 'Squeeze Play' beim Bridge?",
+          nl: "Wat is 'squeeze play' bij Bridge?"
+        },
+        options: [
+          { en: "Forcing opponent to discard winner", es: "Forzar al oponente a descartar ganador", de: "Gegner zwingen Gewinner abzulegen", nl: "Tegenstander dwingen winnaar weg te gooien" },
+          { en: "Bidding very aggressively", es: "Pujar muy agresivamente", de: "Sehr aggressiv bieten", nl: "Zeer agressief bieden" },
+          { en: "Playing cards quickly", es: "Jugar cartas rápidamente", de: "Karten schnell spielen", nl: "Kaarten snel spelen" },
+          { en: "Holding only one suit", es: "Tener solo un palo", de: "Nur eine Farbe halten", nl: "Slechts één kleur hebben" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A squeeze play forces an opponent to discard a potential winner because they cannot keep guards in all suits. It's an advanced endgame technique in Bridge.",
+          es: "Un squeeze play fuerza a un oponente a descartar un potencial ganador porque no pueden mantener guardias en todos los palos. Es una técnica avanzada de final de juego en Bridge.",
+          de: "Ein Squeeze Play zwingt einen Gegner eine potenzielle Gewinnkarte abzulegen weil sie nicht in allen Farben Wächter halten können. Es ist eine fortgeschrittene Endspiel-Technik beim Bridge.",
+          nl: "Een squeeze play dwingt een tegenstander een potentiële winnaar weg te gooien omdat ze niet in alle kleuren bewakers kunnen houden. Het is een geavanceerde eindspel techniek bij Bridge."
+        }
+      },
+      {
+        question: {
+          en: "In Gin Rummy, what is 'going gin'?",
+          es: "En Gin Rummy, ¿qué es 'hacer gin'?",
+          de: "Was ist 'Gin machen' beim Gin Rummy?",
+          nl: "Wat is 'gin gaan' bij Gin Rummy?"
+        },
+        options: [
+          { en: "Melding all cards with zero deadwood", es: "Combinar todas las cartas con cero deadwood", de: "Alle Karten melden mit null Deadwood", nl: "Alle kaarten melden met nul deadwood" },
+          { en: "Knocking with 10 points", es: "Tocar con 10 puntos", de: "Mit 10 Punkten klopfen", nl: "Kloppen met 10 punten" },
+          { en: "Winning three games in a row", es: "Ganar tres juegos seguidos", de: "Drei Spiele hintereinander gewinnen", nl: "Drie spellen op rij winnen" },
+          { en: "Discarding all face cards", es: "Descartar todas las figuras", de: "Alle Bildkarten ablegen", nl: "Alle plaatjeskaarten weggooien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Going gin means melding all 10 or 11 cards in your hand with zero deadwood remaining. This scores bonus points and your opponent cannot lay off cards.",
+          es: "Hacer gin significa combinar todas las 10 u 11 cartas en tu mano sin deadwood restante. Esto otorga puntos de bonificación y tu oponente no puede descartar cartas.",
+          de: "Gin machen bedeutet alle 10 oder 11 Karten in deiner Hand zu melden ohne verbleibendes Deadwood. Dies bringt Bonuspunkte und der Gegner kann keine Karten ablegen.",
+          nl: "Gin gaan betekent alle 10 of 11 kaarten in je hand melden met nul deadwood over. Dit scoort bonuspunten en je tegenstander kan geen kaarten afleggen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'pot limit' in poker betting structures?",
+          es: "¿Qué es 'límite de bote' en estructuras de apuesta de póker?",
+          de: "Was ist 'Pot Limit' bei Poker-Einsatzstrukturen?",
+          nl: "Wat is 'pot limit' bij poker inzetstructuren?"
+        },
+        options: [
+          { en: "Maximum bet equals current pot size", es: "Apuesta máxima igual al tamaño actual del bote", de: "Maximaleinsatz entspricht aktueller Pot-Größe", nl: "Maximale inzet gelijk aan huidige potgrootte" },
+          { en: "Fixed betting amounts only", es: "Solo montos de apuesta fijos", de: "Nur feste Einsatzbeträge", nl: "Alleen vaste inzetbedragen" },
+          { en: "No maximum bet limit", es: "Sin límite máximo de apuesta", de: "Keine maximale Einsatzgrenze", nl: "Geen maximale inzetlimiet" },
+          { en: "Minimum bet of 10 chips", es: "Apuesta mínima de 10 fichas", de: "Mindesteinsatz von 10 Chips", nl: "Minimale inzet van 10 fiches" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pot limit means the maximum bet or raise is equal to the current size of the pot. It's used in games like Pot Limit Omaha (PLO).",
+          es: "Límite de bote significa que la apuesta o subida máxima es igual al tamaño actual del bote. Se usa en juegos como Pot Limit Omaha (PLO).",
+          de: "Pot Limit bedeutet der maximale Einsatz oder Erhöhung entspricht der aktuellen Pot-Größe. Es wird in Spielen wie Pot Limit Omaha (PLO) verwendet.",
+          nl: "Pot limit betekent dat de maximale inzet of verhoging gelijk is aan de huidige potgrootte. Het wordt gebruikt in spellen zoals Pot Limit Omaha (PLO)."
+        }
+      },
+      {
+        question: {
+          en: "In Skat, what is the 'skat' itself?",
+          es: "En Skat, ¿qué es el 'skat' en sí?",
+          de: "Was ist der 'Skat' selbst beim Skat?",
+          nl: "Wat is de 'skat' zelf bij Skat?"
+        },
+        options: [
+          { en: "Two cards set aside before bidding", es: "Dos cartas apartadas antes de la puja", de: "Zwei Karten vor dem Reizen beiseite gelegt", nl: "Twee kaarten opzij gelegd voor het bieden" },
+          { en: "The trump suit", es: "El palo de triunfo", de: "Die Trumpffarbe", nl: "De troefkleur" },
+          { en: "The winning player", es: "El jugador ganador", de: "Der gewinnende Spieler", nl: "De winnende speler" },
+          { en: "The score sheet", es: "La hoja de puntuación", de: "Das Punkteblatt", nl: "Het scorebord" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The skat consists of two cards dealt face-down that are set aside. The winner of bidding can pick them up and discard two cards before declaring game type.",
+          es: "El skat consiste en dos cartas repartidas boca abajo que se apartan. El ganador de la puja puede recogerlas y descartar dos cartas antes de declarar el tipo de juego.",
+          de: "Der Skat besteht aus zwei verdeckt ausgeteilten Karten die beiseite gelegt werden. Der Gewinner des Reizens kann sie aufnehmen und zwei Karten ablegen bevor er die Spielart erklärt.",
+          nl: "De skat bestaat uit twee gesloten gedeelde kaarten die opzij worden gelegd. De winnaar van het bieden kan ze oppakken en twee kaarten weggooien voordat hij het speltype verklaart."
+        }
+      },
+      {
+        question: {
+          en: "What is 'slow playing' in poker?",
+          es: "¿Qué es 'jugar lento' en el póker?",
+          de: "Was ist 'Slow Playing' beim Poker?",
+          nl: "Wat is 'slow playing' bij poker?"
+        },
+        options: [
+          { en: "Playing strong hand weakly to trap opponents", es: "Jugar mano fuerte débilmente para atrapar oponentes", de: "Starkes Blatt schwach spielen um Gegner zu fangen", nl: "Sterke hand zwak spelen om tegenstanders te vangen" },
+          { en: "Taking too much time to decide", es: "Tomar demasiado tiempo para decidir", de: "Zu viel Zeit zum Entscheiden nehmen", nl: "Te veel tijd nemen om te beslissen" },
+          { en: "Playing conservatively all game", es: "Jugar conservadoramente todo el juego", de: "Das ganze Spiel konservativ spielen", nl: "Het hele spel conservatief spelen" },
+          { en: "Folding frequently", es: "Retirarse frecuentemente", de: "Häufig folden", nl: "Vaak passen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Slow playing (or sandbagging) is playing a very strong hand passively to disguise its strength and induce opponents to bet more, setting up a trap.",
+          es: "Jugar lento (o sandbagging) es jugar una mano muy fuerte pasivamente para disfrazar su fuerza e inducir a los oponentes a apostar más, estableciendo una trampa.",
+          de: "Slow Playing (oder Sandbagging) ist ein sehr starkes Blatt passiv zu spielen um dessen Stärke zu verschleiern und Gegner zu mehr Einsätzen zu verleiten und eine Falle zu stellen.",
+          nl: "Slow playing (of sandbagging) is een zeer sterke hand passief spelen om de sterkte te verhullen en tegenstanders te verleiden meer in te zetten, een val opzetten."
+        }
+      },
+      {
+        question: {
+          en: "In Bridge, what is 'Stayman convention'?",
+          es: "En Bridge, ¿qué es la 'convención Stayman'?",
+          de: "Was ist die 'Stayman-Konvention' beim Bridge?",
+          nl: "Wat is de 'Stayman conventie' bij Bridge?"
+        },
+        options: [
+          { en: "2♣ bid to ask for 4-card major after 1NT", es: "Puja de 2♣ para preguntar por mayor de 4 cartas después de 1NT", de: "2♣-Gebot um nach 4-Karten-Major nach 1NT zu fragen", nl: "2♣ bod om te vragen naar 4-kaart hoog na 1NT" },
+          { en: "Leading trump immediately", es: "Liderar triunfo inmediatamente", de: "Sofort Trumpf ausspielen", nl: "Direct troef spelen" },
+          { en: "Doubling opponent's bid", es: "Doblar la puja del oponente", de: "Gebot des Gegners verdoppeln", nl: "Bod van tegenstander verdubbelen" },
+          { en: "Passing on all bids", es: "Pasar en todas las pujas", de: "Bei allen Geboten passen", nl: "Passen bij alle biedingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stayman is a bidding convention where 2♣ is bid over partner's 1NT opening to ask if they hold a 4-card major suit (hearts or spades).",
+          es: "Stayman es una convención de puja donde se puja 2♣ sobre la apertura 1NT del compañero para preguntar si tienen un palo mayor de 4 cartas (corazones o picas).",
+          de: "Stayman ist eine Bietkonvention wo 2♣ über die 1NT-Eröffnung des Partners geboten wird um zu fragen ob sie einen 4-Karten-Major (Herz oder Pik) haben.",
+          nl: "Stayman is een biedconventie waarbij 2♣ wordt geboden over partners 1NT opening om te vragen of ze een 4-kaart hoog (harten of schoppen) hebben."
+        }
+      },
+      {
+        question: {
+          en: "What is 'variance' in poker?",
+          es: "¿Qué es la 'varianza' en el póker?",
+          de: "Was ist 'Varianz' beim Poker?",
+          nl: "Wat is 'variantie' bij poker?"
+        },
+        options: [
+          { en: "Statistical fluctuation in results", es: "Fluctuación estadística en resultados", de: "Statistische Schwankung in Ergebnissen", nl: "Statistische fluctuatie in resultaten" },
+          { en: "Difference between players' skills", es: "Diferencia entre habilidades de jugadores", de: "Unterschied zwischen Spielerfähigkeiten", nl: "Verschil tussen vaardigheden van spelers" },
+          { en: "Number of hands played", es: "Número de manos jugadas", de: "Anzahl gespielter Blätter", nl: "Aantal gespeelde handen" },
+          { en: "Types of poker games", es: "Tipos de juegos de póker", de: "Arten von Pokerspielen", nl: "Soorten pokerspellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Variance refers to the statistical fluctuation in results due to luck. High variance means results can swing dramatically despite good play.",
+          es: "La varianza se refiere a la fluctuación estadística en los resultados debido a la suerte. Alta varianza significa que los resultados pueden oscilar dramáticamente a pesar del buen juego.",
+          de: "Varianz bezieht sich auf die statistische Schwankung in Ergebnissen aufgrund von Glück. Hohe Varianz bedeutet dass Ergebnisse trotz gutem Spiel dramatisch schwanken können.",
+          nl: "Variantie verwijst naar de statistische fluctuatie in resultaten door geluk. Hoge variantie betekent dat resultaten dramatisch kunnen schommelen ondanks goed spel."
+        }
+      },
+      {
+        question: {
+          en: "In Tarot card games, what are the 'Fool' (Excuse) card's special properties?",
+          es: "En juegos de cartas del Tarot, ¿cuáles son las propiedades especiales de la carta 'Loco' (Excusa)?",
+          de: "Was sind die besonderen Eigenschaften der 'Narr' (Entschuldigung) Karte in Tarot-Kartenspielen?",
+          nl: "Wat zijn de speciale eigenschappen van de 'Dwaas' (Excuse) kaart in Tarot kaartspellen?"
+        },
+        options: [
+          { en: "Can be played anytime, usually retained by player", es: "Puede jugarse en cualquier momento, generalmente retenida por el jugador", de: "Kann jederzeit gespielt werden, normalerweise vom Spieler behalten", nl: "Kan altijd gespeeld worden, meestal behouden door speler" },
+          { en: "Always wins the trick", es: "Siempre gana la baza", de: "Gewinnt immer den Stich", nl: "Wint altijd de slag" },
+          { en: "Doubles the point value", es: "Duplica el valor de puntos", de: "Verdoppelt den Punktwert", nl: "Verdubbelt de puntwaarde" },
+          { en: "Must be played first", es: "Debe jugarse primero", de: "Muss zuerst gespielt werden", nl: "Moet eerst gespeeld worden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Fool (Excuse) can be played at any time regardless of suit and is usually retained by the player who played it, not contributing to winning the trick.",
+          es: "El Loco (Excusa) puede jugarse en cualquier momento independientemente del palo y generalmente es retenido por el jugador que lo jugó, sin contribuir a ganar la baza.",
+          de: "Der Narr (Entschuldigung) kann jederzeit unabhängig von der Farbe gespielt werden und wird normalerweise vom Spieler der ihn spielte behalten ohne zum Gewinn des Stichs beizutragen.",
+          nl: "De Dwaas (Excuse) kan altijd gespeeld worden ongeacht de kleur en wordt meestal behouden door de speler die hem speelde zonder bij te dragen aan het winnen van de slag."
+        }
+      },
+      {
+        question: {
+          en: "What is 'expected value' (EV) in poker decision-making?",
+          es: "¿Qué es el 'valor esperado' (EV) en la toma de decisiones del póker?",
+          de: "Was ist der 'Erwartungswert' (EV) bei Poker-Entscheidungen?",
+          nl: "Wat is 'verwachte waarde' (EV) bij poker besluitvorming?"
+        },
+        options: [
+          { en: "Average profit/loss of a decision over time", es: "Ganancia/pérdida promedio de una decisión con el tiempo", de: "Durchschnittlicher Gewinn/Verlust einer Entscheidung über Zeit", nl: "Gemiddelde winst/verlies van een beslissing over tijd" },
+          { en: "The value of your current hand", es: "El valor de tu mano actual", de: "Der Wert deines aktuellen Blatts", nl: "De waarde van je huidige hand" },
+          { en: "How much opponents expect you to bet", es: "Cuánto esperan los oponentes que apuestes", de: "Wie viel Gegner erwarten dass du setzt", nl: "Hoeveel tegenstanders verwachten dat je inzet" },
+          { en: "Minimum bet required", es: "Apuesta mínima requerida", de: "Erforderlicher Mindesteinsatz", nl: "Vereiste minimale inzet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Expected value is the average amount you can expect to win or lose on a particular decision if repeated many times, considering all possible outcomes and probabilities.",
+          es: "El valor esperado es la cantidad promedio que puedes esperar ganar o perder en una decisión particular si se repite muchas veces, considerando todos los resultados posibles y probabilidades.",
+          de: "Der Erwartungswert ist der durchschnittliche Betrag den du bei einer bestimmten Entscheidung erwarten kannst zu gewinnen oder verlieren wenn sie viele Male wiederholt wird unter Berücksichtigung aller möglichen Ergebnisse und Wahrscheinlichkeiten.",
+          nl: "Verwachte waarde is het gemiddelde bedrag dat je kunt verwachten te winnen of verliezen bij een bepaalde beslissing indien vele keren herhaald, alle mogelijke uitkomsten en kansen in overweging nemend."
+        }
+      },
+      {
+        question: {
+          en: "In Oh Hell (Oh Pshaw), what is unique about bidding?",
+          es: "En Oh Hell (Oh Pshaw), ¿qué es único sobre la puja?",
+          de: "Was ist einzigartig am Bieten beim Oh Hell (Oh Pshaw)?",
+          nl: "Wat is uniek aan het bieden bij Oh Hell (Oh Pshaw)?"
+        },
+        options: [
+          { en: "Total bids cannot equal number of tricks available", es: "Las pujas totales no pueden igualar el número de bazas disponibles", de: "Gesamtgebote können nicht der Anzahl verfügbarer Stiche entsprechen", nl: "Totale biedingen kunnen niet gelijk zijn aan aantal beschikbare slagen" },
+          { en: "Everyone must bid the same amount", es: "Todos deben pujar la misma cantidad", de: "Alle müssen den gleichen Betrag bieten", nl: "Iedereen moet hetzelfde bedrag bieden" },
+          { en: "Bidding is done with cards", es: "La puja se hace con cartas", de: "Bieten erfolgt mit Karten", nl: "Bieden gebeurt met kaarten" },
+          { en: "Only the dealer bids", es: "Solo el repartidor puja", de: "Nur der Geber bietet", nl: "Alleen de deler biedt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In Oh Hell, the dealer bids last and cannot make a bid that would make the total bids equal the number of tricks, ensuring someone must fail their bid.",
+          es: "En Oh Hell, el repartidor puja último y no puede hacer una puja que haría que las pujas totales igualen el número de bazas, asegurando que alguien debe fallar su puja.",
+          de: "Beim Oh Hell bietet der Geber zuletzt und darf kein Gebot abgeben das die Gesamtgebote der Anzahl der Stiche entsprechen lassen würde, wodurch sichergestellt wird dass jemand sein Gebot verfehlen muss.",
+          nl: "Bij Oh Hell biedt de deler als laatste en mag geen bod doen dat de totale biedingen gelijk zou maken aan het aantal slagen, wat ervoor zorgt dat iemand zijn bod moet missen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'ICM' in poker tournaments?",
+          es: "¿Qué es 'ICM' en torneos de póker?",
+          de: "Was ist 'ICM' bei Poker-Turnieren?",
+          nl: "Wat is 'ICM' bij poker toernooien?"
+        },
+        options: [
+          { en: "Independent Chip Model for calculating tournament equity", es: "Modelo Independiente de Fichas para calcular equidad del torneo", de: "Unabhängiges Chip-Modell zur Berechnung von Turnier-Equity", nl: "Onafhankelijk Fiche Model voor berekening van toernooi equity" },
+          { en: "International Card Masters organization", es: "Organización International Card Masters", de: "International Card Masters Organisation", nl: "International Card Masters organisatie" },
+          { en: "Initial chip multiplier", es: "Multiplicador de fichas inicial", de: "Anfänglicher Chip-Multiplikator", nl: "Initiële fiche vermenigvuldiger" },
+          { en: "In-the-money cutoff", es: "Corte en el dinero", de: "In-the-Money Grenze", nl: "In-het-geld afsnijpunt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Independent Chip Model calculates a player's tournament equity based on their chip stack relative to payout structure, crucial for final table decisions.",
+          es: "El Modelo Independiente de Fichas calcula la equidad de torneo de un jugador basándose en su pila de fichas relativa a la estructura de pagos, crucial para decisiones de mesa final.",
+          de: "Das Unabhängige Chip-Modell berechnet die Turnier-Equity eines Spielers basierend auf seinem Chip-Stack relativ zur Auszahlungsstruktur, entscheidend für Final-Table-Entscheidungen.",
+          nl: "Het Onafhankelijke Fiche Model berekent de toernooi equity van een speler gebaseerd op hun fiche stapel relatief aan de uitbetalingsstructuur, cruciaal voor final table beslissingen."
+        }
+      },
+      {
+        question: {
+          en: "In Sheepshead, what makes it unique among trick-taking games?",
+          es: "En Sheepshead, ¿qué lo hace único entre los juegos de bazas?",
+          de: "Was macht Sheepshead einzigartig unter Stichspielen?",
+          nl: "Wat maakt Sheepshead uniek onder slagenspellen?"
+        },
+        options: [
+          { en: "All Queens, Jacks, and Diamonds are trump", es: "Todas las Reinas, Jotas y Diamantes son triunfo", de: "Alle Damen, Buben und Karos sind Trumpf", nl: "Alle Vrouwen, Boeren en Ruiten zijn troef" },
+          { en: "Trump changes each hand", es: "El triunfo cambia cada mano", de: "Trumpf wechselt jedes Blatt", nl: "Troef verandert elke hand" },
+          { en: "No trump cards exist", es: "No existen cartas de triunfo", de: "Es gibt keine Trumpfkarten", nl: "Er bestaan geen troefkaarten" },
+          { en: "Only face cards are trump", es: "Solo las figuras son triunfo", de: "Nur Bildkarten sind Trumpf", nl: "Alleen plaatjeskaarten zijn troef" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sheepshead has a unique permanent trump structure where all Queens, Jacks, and the entire Diamond suit are always trump cards, ranked in a specific order.",
+          es: "Sheepshead tiene una estructura de triunfo permanente única donde todas las Reinas, Jotas y todo el palo de Diamantes son siempre cartas de triunfo, clasificadas en un orden específico.",
+          de: "Sheepshead hat eine einzigartige permanente Trumpfstruktur wo alle Damen, Buben und die gesamte Karo-Farbe immer Trumpfkarten sind, in einer bestimmten Reihenfolge geordnet.",
+          nl: "Sheepshead heeft een unieke permanente troefstructuur waarbij alle Vrouwen, Boeren en de gehele Ruiten kleur altijd troefkaarten zijn, gerangschikt in een specifieke volgorde."
+        }
+      },
+      {
+        question: {
+          en: "What does 'card counting' refer to in Blackjack?",
+          es: "¿A qué se refiere 'contar cartas' en Blackjack?",
+          de: "Was bedeutet 'Kartenzählen' beim Blackjack?",
+          nl: "Wat betekent 'kaarten tellen' bij Blackjack?"
+        },
+        options: [
+          { en: "Tracking ratio of high to low cards remaining", es: "Rastrear la proporción de cartas altas a bajas restantes", de: "Verhältnis hoher zu niedrigen verbleibenden Karten verfolgen", nl: "Verhouding van hoge tot lage resterende kaarten bijhouden" },
+          { en: "Counting how many cards you have", es: "Contar cuántas cartas tienes", de: "Zählen wie viele Karten du hast", nl: "Tellen hoeveel kaarten je hebt" },
+          { en: "Memorizing every card played", es: "Memorizar cada carta jugada", de: "Jede gespielte Karte auswendig lernen", nl: "Elke gespeelde kaart onthouden" },
+          { en: "Calculating total points", es: "Calcular puntos totales", de: "Gesamtpunkte berechnen", nl: "Totale punten berekenen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Card counting tracks the ratio of high cards (10s, face cards, Aces) to low cards remaining in the deck to determine when the player has a statistical advantage.",
+          es: "Contar cartas rastrea la proporción de cartas altas (10s, figuras, Ases) a cartas bajas restantes en el mazo para determinar cuándo el jugador tiene una ventaja estadística.",
+          de: "Kartenzählen verfolgt das Verhältnis hoher Karten (10en, Bildkarten, Asse) zu niedrigen Karten die im Deck verbleiben um festzustellen wann der Spieler einen statistischen Vorteil hat.",
+          nl: "Kaarten tellen houdt de verhouding bij van hoge kaarten (10'en, plaatjeskaarten, Azen) tot lage kaarten die in het deck resteren om te bepalen wanneer de speler een statistisch voordeel heeft."
+        }
+      },
+      {
+        question: {
+          en: "In Doppelkopf, what distinguishes it from Skat?",
+          es: "En Doppelkopf, ¿qué lo distingue de Skat?",
+          de: "Was unterscheidet Doppelkopf von Skat?",
+          nl: "Wat onderscheidt Doppelkopf van Skat?"
+        },
+        options: [
+          { en: "Uses double deck with all cards 9 and above twice", es: "Usa mazo doble con todas las cartas 9 y superiores dos veces", de: "Verwendet Doppeldeck mit allen Karten 9 und höher zweimal", nl: "Gebruikt dubbel deck met alle kaarten 9 en hoger tweemaal" },
+          { en: "Played with only 3 players", es: "Se juega solo con 3 jugadores", de: "Nur mit 3 Spielern gespielt", nl: "Gespeeld met slechts 3 spelers" },
+          { en: "No trump cards allowed", es: "No se permiten cartas de triunfo", de: "Keine Trumpfkarten erlaubt", nl: "Geen troefkaarten toegestaan" },
+          { en: "Uses jokers", es: "Usa comodines", de: "Verwendet Joker", nl: "Gebruikt jokers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Doppelkopf uses a double deck containing two of each card from 9 through Ace (48 cards total), distinguishing it from Skat's single 32-card deck.",
+          es: "Doppelkopf usa un mazo doble que contiene dos de cada carta del 9 al As (48 cartas en total), distinguiéndolo del mazo único de 32 cartas de Skat.",
+          de: "Doppelkopf verwendet ein Doppeldeck mit je zwei von jeder Karte von 9 bis Ass (48 Karten insgesamt), was es vom einzelnen 32-Karten-Deck des Skat unterscheidet.",
+          nl: "Doppelkopf gebruikt een dubbel deck met twee van elke kaart van 9 tot Aas (48 kaarten totaal), wat het onderscheidt van Skat's enkele 32-kaarten deck."
+        }
+      },
+      {
+        question: {
+          en: "What is 'table talk' in card games and why is it prohibited?",
+          es: "¿Qué es 'charla de mesa' en juegos de cartas y por qué está prohibida?",
+          de: "Was ist 'Tischgespräch' bei Kartenspielen und warum ist es verboten?",
+          nl: "Wat is 'tafelgesprek' bij kaartspellen en waarom is het verboden?"
+        },
+        options: [
+          { en: "Communicating about cards through speech or gestures", es: "Comunicarse sobre cartas mediante habla o gestos", de: "Über Karten durch Sprache oder Gesten kommunizieren", nl: "Communiceren over kaarten via spraak of gebaren" },
+          { en: "Talking during opponent's turn", es: "Hablar durante el turno del oponente", de: "Während des Zugs des Gegners sprechen", nl: "Praten tijdens de beurt van tegenstander" },
+          { en: "Discussing strategy before game", es: "Discutir estrategia antes del juego", de: "Strategie vor dem Spiel besprechen", nl: "Strategie bespreken voor het spel" },
+          { en: "Chatting about unrelated topics", es: "Charlar sobre temas no relacionados", de: "Über nicht verwandte Themen plaudern", nl: "Kletsen over niet-gerelateerde onderwerpen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Table talk is verbally or nonverbally communicating information about your cards to partners during play, prohibited because it gives unfair advantage in partnership games.",
+          es: "La charla de mesa es comunicar verbal o no verbalmente información sobre tus cartas a compañeros durante el juego, prohibido porque da ventaja injusta en juegos de parejas.",
+          de: "Tischgespräch ist die verbale oder nonverbale Kommunikation von Informationen über deine Karten an Partner während des Spiels, verboten weil es unfairen Vorteil in Partnerspielen gibt.",
+          nl: "Tafelgesprek is verbaal of non-verbaal informatie over je kaarten communiceren aan partners tijdens het spel, verboden omdat het oneerlijk voordeel geeft in partnerschapsspellen."
+        }
+      },
+      {
+        question: {
+          en: "In Bourré, what happens if you don't win any tricks?",
+          es: "En Bourré, ¿qué pasa si no ganas ninguna baza?",
+          de: "Was passiert beim Bourré wenn du keinen Stich gewinnst?",
+          nl: "Wat gebeurt er bij Bourré als je geen enkele slag wint?"
+        },
+        options: [
+          { en: "You're 'bourréed' and must match the pot", es: "Eres 'bourréed' y debes igualar el bote", de: "Du bist 'bourréed' und musst den Pot angleichen", nl: "Je bent 'bourréed' en moet de pot evenaren" },
+          { en: "You lose 10 points", es: "Pierdes 10 puntos", de: "Du verlierst 10 Punkte", nl: "Je verliest 10 punten" },
+          { en: "Nothing happens", es: "No pasa nada", de: "Nichts passiert", nl: "Er gebeurt niets" },
+          { en: "You're eliminated from the round", es: "Eres eliminado de la ronda", de: "Du wirst aus der Runde eliminiert", nl: "Je wordt geëlimineerd uit de ronde" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In Bourré, if you play and fail to win any tricks, you're 'bourréed' and must match the entire pot amount as penalty, which can be very costly.",
+          es: "En Bourré, si juegas y no ganas ninguna baza, eres 'bourréed' y debes igualar la cantidad completa del bote como penalización, lo cual puede ser muy costoso.",
+          de: "Beim Bourré, wenn du spielst und keinen Stich gewinnst, bist du 'bourréed' und musst den gesamten Pot-Betrag als Strafe angleichen, was sehr teuer sein kann.",
+          nl: "Bij Bourré, als je speelt en geen slagen wint, ben je 'bourréed' en moet je het gehele potbedrag als straf evenaren, wat zeer kostbaar kan zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Blackwood convention' in Bridge?",
+          es: "¿Qué es la 'convención Blackwood' en Bridge?",
+          de: "Was ist die 'Blackwood-Konvention' beim Bridge?",
+          nl: "Wat is de 'Blackwood conventie' bij Bridge?"
+        },
+        options: [
+          { en: "4NT bid asking partner how many Aces they hold", es: "Puja de 4NT preguntando al compañero cuántos Ases tiene", de: "4NT-Gebot das Partner fragt wie viele Asse sie halten", nl: "4NT bod waarbij partner wordt gevraagd hoeveel Azen ze hebben" },
+          { en: "Playing all black cards first", es: "Jugar todas las cartas negras primero", de: "Zuerst alle schwarzen Karten spielen", nl: "Alle zwarte kaarten eerst spelen" },
+          { en: "Bidding only in spades and clubs", es: "Pujar solo en picas y tréboles", de: "Nur in Pik und Kreuz bieten", nl: "Alleen bieden in schoppen en klaveren" },
+          { en: "Avoiding trump suits", es: "Evitar palos de triunfo", de: "Trumpffarben vermeiden", nl: "Troefkleuren vermijden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Blackwood is a bidding convention where 4NT asks partner to show the number of Aces they hold, used to investigate slam potential before bidding it.",
+          es: "Blackwood es una convención de puja donde 4NT pide al compañero mostrar el número de Ases que tiene, usado para investigar el potencial de slam antes de pujarlo.",
+          de: "Blackwood ist eine Bietkonvention wo 4NT den Partner bittet die Anzahl der Asse zu zeigen die er hält, verwendet um Schlemm-Potential zu untersuchen bevor man es bietet.",
+          nl: "Blackwood is een biedconventie waarbij 4NT partner vraagt het aantal Azen te tonen dat ze hebben, gebruikt om slem potentieel te onderzoeken voordat het geboden wordt."
+        }
+      },
+      {
+        question: {
+          en: "In Contract Rummy, how do the contract requirements change?",
+          es: "En Contract Rummy, ¿cómo cambian los requisitos del contrato?",
+          de: "Wie ändern sich die Vertragsanforderungen beim Contract Rummy?",
+          nl: "Hoe veranderen de contractvereisten bij Contract Rummy?"
+        },
+        options: [
+          { en: "Different meld requirements for each of 7 rounds", es: "Diferentes requisitos de combinación para cada una de las 7 rondas", de: "Unterschiedliche Meldungsanforderungen für jede der 7 Runden", nl: "Verschillende meldvereisten voor elk van de 7 rondes" },
+          { en: "Requirements stay the same all game", es: "Los requisitos permanecen iguales todo el juego", de: "Anforderungen bleiben das ganze Spiel gleich", nl: "Vereisten blijven hetzelfde het hele spel" },
+          { en: "Dealer chooses requirements each round", es: "El repartidor elige los requisitos cada ronda", de: "Geber wählt Anforderungen jede Runde", nl: "Deler kiest vereisten elke ronde" },
+          { en: "Based on player's current score", es: "Basado en la puntuación actual del jugador", de: "Basierend auf aktuellem Punktestand des Spielers", nl: "Gebaseerd op huidige score van speler" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contract Rummy consists of 7 rounds, each with different specific meld requirements (like 2 sets, or 1 set and 1 run) that must be met to go out.",
+          es: "Contract Rummy consiste en 7 rondas, cada una con diferentes requisitos específicos de combinación (como 2 conjuntos, o 1 conjunto y 1 escalera) que deben cumplirse para salir.",
+          de: "Contract Rummy besteht aus 7 Runden, jede mit unterschiedlichen spezifischen Meldungsanforderungen (wie 2 Sätze oder 1 Satz und 1 Reihe) die erfüllt werden müssen um auszugehen.",
+          nl: "Contract Rummy bestaat uit 7 rondes, elk met verschillende specifieke meldvereisten (zoals 2 sets, of 1 set en 1 reeks) die voldaan moeten worden om uit te gaan."
+        }
+      },
+      {
+        question: {
+          en: "What is 'GTO' (Game Theory Optimal) strategy in poker?",
+          es: "¿Qué es la estrategia 'GTO' (Óptima de Teoría de Juegos) en el póker?",
+          de: "Was ist 'GTO' (Game Theory Optimal) Strategie beim Poker?",
+          nl: "Wat is 'GTO' (Game Theory Optimal) strategie bij poker?"
+        },
+        options: [
+          { en: "Unexploitable balanced strategy immune to counter-strategies", es: "Estrategia equilibrada inexplotable inmune a contraestrategias", de: "Nicht ausnutzbare ausgewogene Strategie immun gegen Gegenstrategien", nl: "Niet-uitbuitbare gebalanceerde strategie immuun voor tegenstrategieën" },
+          { en: "Always playing the strongest hand", es: "Siempre jugar la mano más fuerte", de: "Immer das stärkste Blatt spielen", nl: "Altijd de sterkste hand spelen" },
+          { en: "Bluffing every third hand", es: "Hacer bluff cada tercera mano", de: "Jede dritte Hand bluffen", nl: "Elke derde hand bluffen" },
+          { en: "Maximizing short-term wins", es: "Maximizar ganancias a corto plazo", de: "Kurzfristige Gewinne maximieren", nl: "Kortetermijnwinsten maximaliseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GTO is a balanced, mathematically optimal strategy that cannot be exploited by opponents. It ensures break-even against any counter-strategy, though exploitative play may be more profitable against weak opponents.",
+          es: "GTO es una estrategia equilibrada y matemáticamente óptima que no puede ser explotada por oponentes. Garantiza equilibrio contra cualquier contraestrategia, aunque el juego explotador puede ser más rentable contra oponentes débiles.",
+          de: "GTO ist eine ausgewogene, mathematisch optimale Strategie die von Gegnern nicht ausgenutzt werden kann. Sie garantiert Break-Even gegen jede Gegenstrategie, obwohl ausbeutendes Spiel gegen schwache Gegner profitabler sein kann.",
+          nl: "GTO is een gebalanceerde, mathematisch optimale strategie die niet door tegenstanders uitgebuit kan worden. Het garandeert break-even tegen elke tegenstrategie, hoewel uitbuitend spel winstgevender kan zijn tegen zwakke tegenstanders."
+        }
       }
     ]
   };

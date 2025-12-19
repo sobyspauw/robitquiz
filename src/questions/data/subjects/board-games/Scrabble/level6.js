@@ -786,6 +786,468 @@
         de: "Der Buchstabe Y ist 4 Punkte wert im Scrabble. Es gibt 2 Y-Steine. Y ist wertvoll weil es sowohl als Vokal als auch als Konsonant funktioniert.",
         nl: "De letter Y is 4 punten waard in Scrabble. Er zijn 2 Y-stenen. Y is waardevol omdat het zowel als klinker als medeklinker fungeert."
       }
+    },
+    {
+      question: {
+        en: "What is 'board vision' in competitive Scrabble?",
+        es: "¿Qué es la 'visión del tablero' en Scrabble competitivo?",
+        de: "Was ist 'Brett-Vision' im kompetitiven Scrabble?",
+        nl: "Wat is 'bord visie' in competitief Scrabble?"
+      },
+      options: [
+        {en: "Physical eyesight quality", es: "Calidad de vista física", de: "Physische Sehkraft", nl: "Fysieke zichtkwaliteit"},
+        {en: "Ability to spot high-scoring plays quickly", es: "Capacidad de detectar jugadas de alta puntuación rápidamente", de: "Fähigkeit hochbewertende Züge schnell zu erkennen", nl: "Vermogen om hoogscorende zetten snel te zien"},
+        {en: "Memorizing board layout", es: "Memorizar diseño del tablero", de: "Brett-Layout auswendig lernen", nl: "Bordindeling onthouden"},
+        {en: "Visualizing future moves", es: "Visualizar movimientos futuros", de: "Zukünftige Züge visualisieren", nl: "Toekomstige zetten visualiseren"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Board vision is the skill of quickly identifying scoring opportunities across the entire board. Expert players develop pattern recognition to find bingos and high-scoring spots rapidly.",
+        es: "La visión del tablero es la habilidad de identificar rápidamente oportunidades de puntuación en todo el tablero. Los jugadores expertos desarrollan reconocimiento de patrones para encontrar bingos y puntos de alta puntuación rápidamente.",
+        de: "Brett-Vision ist die Fähigkeit Punktemöglichkeiten schnell über das gesamte Brett zu identifizieren. Experten entwickeln Mustererkennung um Bingos und hochbewertende Stellen schnell zu finden.",
+        nl: "Bord visie is de vaardigheid om snel scoringsmogelijkheden over het hele bord te identificeren. Expert spelers ontwikkelen patroonherkenning om bingo's en hoogscorende plekken snel te vinden."
+      }
+    },
+    {
+      question: {
+        en: "What is 'tile efficiency' in rack management?",
+        es: "¿Qué es la 'eficiencia de fichas' en gestión del soporte?",
+        de: "Was ist 'Stein-Effizienz' im Rack-Management?",
+        nl: "Wat is 'steen efficiëntie' in rek beheer?"
+      },
+      options: [
+        {en: "Using fewest tiles to score most points", es: "Usar menos fichas para anotar más puntos", de: "Wenigste Steine verwenden um meiste Punkte zu erzielen", nl: "Minste stenen gebruiken om meeste punten te scoren"},
+        {en: "Keeping tiles that work well together", es: "Mantener fichas que funcionan bien juntas", de: "Steine behalten die gut zusammenarbeiten", nl: "Stenen houden die goed samenwerken"},
+        {en: "Playing tiles in order", es: "Jugar fichas en orden", de: "Steine in Reihenfolge spielen", nl: "Stenen in volgorde spelen"},
+        {en: "Exchanging inefficient tiles", es: "Intercambiar fichas ineficientes", de: "Ineffiziente Steine tauschen", nl: "Inefficiënte stenen ruilen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Tile efficiency means keeping letters that combine well and create multiple word options. Letters like RETAINS have high efficiency due to versatility and common combinations.",
+        es: "La eficiencia de fichas significa mantener letras que se combinan bien y crean múltiples opciones de palabras. Letras como RETAINS tienen alta eficiencia debido a versatilidad y combinaciones comunes.",
+        de: "Stein-Effizienz bedeutet Buchstaben zu behalten die sich gut kombinieren und mehrere Wortoptionen schaffen. Buchstaben wie RETAINS haben hohe Effizienz aufgrund von Vielseitigkeit und häufigen Kombinationen.",
+        nl: "Steen efficiëntie betekent letters houden die goed combineren en meerdere woordopties creëren. Letters zoals RETAINS hebben hoge efficiëntie vanwege veelzijdigheid en veelvoorkomende combinaties."
+      }
+    },
+    {
+      question: {
+        en: "What is 'word knowledge depth' vs 'breadth'?",
+        es: "¿Qué es 'profundidad de conocimiento de palabras' vs 'amplitud'?",
+        de: "Was ist 'Wortwissen-Tiefe' vs 'Breite'?",
+        nl: "Wat is 'woord kennis diepte' vs 'breedte'?"
+      },
+      options: [
+        {en: "Depth = rare words; breadth = common words", es: "Profundidad = palabras raras; amplitud = palabras comunes", de: "Tiefe = seltene Wörter; Breite = häufige Wörter", nl: "Diepte = zeldzame woorden; breedte = veelvoorkomende woorden"},
+        {en: "Depth = knowing inflections; breadth = knowing stems", es: "Profundidad = conocer inflexiones; amplitud = conocer raíces", de: "Tiefe = Flexionen kennen; Breite = Stämme kennen", nl: "Diepte = verbuigingen kennen; breedte = stammen kennen"},
+        {en: "Depth = long words; breadth = short words", es: "Profundidad = palabras largas; amplitud = palabras cortas", de: "Tiefe = lange Wörter; Breite = kurze Wörter", nl: "Diepte = lange woorden; breedte = korte woorden"},
+        {en: "Same concept", es: "Mismo concepto", de: "Gleiches Konzept", nl: "Zelfde concept"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Depth means knowing all forms of words you know (plurals, verb tenses, -ING/-ED/-ER/-EST). Breadth means knowing many different root words. Both are crucial for expert play.",
+        es: "Profundidad significa conocer todas las formas de palabras que conoces (plurales, tiempos verbales, -ING/-ED/-ER/-EST). Amplitud significa conocer muchas palabras raíz diferentes. Ambas son cruciales para juego experto.",
+        de: "Tiefe bedeutet alle Formen von Wörtern zu kennen die Sie kennen (Plurale, Zeitformen, -ING/-ED/-ER/-EST). Breite bedeutet viele verschiedene Wurzelwörter zu kennen. Beide sind entscheidend für Expertenspiel.",
+        nl: "Diepte betekent alle vormen kennen van woorden die je kent (meervouden, werkwoordstijden, -ING/-ED/-ER/-EST). Breedte betekent veel verschillende stamwoorden kennen. Beide zijn cruciaal voor expert spel."
+      }
+    },
+    {
+      question: {
+        en: "What is 'time pressure management' in tournament play?",
+        es: "¿Qué es 'gestión de presión de tiempo' en juego de torneo?",
+        de: "Was ist 'Zeitdruck-Management' im Turnierspiel?",
+        nl: "Wat is 'tijdsdruk beheer' in toernooi spel?"
+      },
+      options: [
+        {en: "Playing faster when ahead", es: "Jugar más rápido cuando se va adelante", de: "Schneller spielen wenn vorne", nl: "Sneller spelen wanneer voor"},
+        {en: "Using all available time", es: "Usar todo el tiempo disponible", de: "Alle verfügbare Zeit verwenden", nl: "Alle beschikbare tijd gebruiken"},
+        {en: "Balancing time spent per move based on game situation", es: "Equilibrar tiempo gastado por movimiento según situación del juego", de: "Zeit pro Zug basierend auf Spielsituation ausbalancieren", nl: "Tijd per zet balanceren op basis van spel situatie"},
+        {en: "Ignoring clock", es: "Ignorar reloj", de: "Uhr ignorieren", nl: "Klok negeren"}
+      ],
+      correct: 2,
+      explanation: {
+        en: "Good time management means spending more time on critical decisions (endgame, close scores) and playing faster on routine moves, to avoid time penalties while maintaining quality.",
+        es: "Buena gestión de tiempo significa gastar más tiempo en decisiones críticas (final, puntuaciones cercanas) y jugar más rápido en movimientos rutinarios, para evitar penalizaciones de tiempo mientras se mantiene calidad.",
+        de: "Gutes Zeitmanagement bedeutet mehr Zeit für kritische Entscheidungen aufzuwenden (Endspiel, knappe Punktzahlen) und bei Routinezügen schneller zu spielen, um Zeitstrafen zu vermeiden während Qualität erhalten bleibt.",
+        nl: "Goed tijdsbeheer betekent meer tijd besteden aan kritieke beslissingen (eindspel, krappe scores) en sneller spelen bij routine zetten, om tijdsstraffen te vermijden terwijl kwaliteit behouden blijft."
+      }
+    },
+    {
+      question: {
+        en: "What are 'consonant dumps' in Scrabble?",
+        es: "¿Qué son los 'descartes de consonantes' en Scrabble?",
+        de: "Was sind 'Konsonanten-Dumps' im Scrabble?",
+        nl: "Wat zijn 'medeklinker dumps' in Scrabble?"
+      },
+      options: [
+        {en: "Playing multiple consonants to rebalance vowel-poor rack", es: "Jugar múltiples consonantes para reequilibrar soporte pobre en vocales", de: "Mehrere Konsonanten spielen um vokal-armes Rack auszugleichen", nl: "Meerdere medeklinkers spelen om klinker-arm rek te herbalanceren"},
+        {en: "Exchanging all consonants", es: "Intercambiar todas las consonantes", de: "Alle Konsonanten tauschen", nl: "Alle medeklinkers ruilen"},
+        {en: "Avoiding consonant-heavy words", es: "Evitar palabras pesadas en consonantes", de: "Konsonantenreiche Wörter vermeiden", nl: "Medeklinker-rijke woorden vermijden"},
+        {en: "Discarding high-value consonants", es: "Descartar consonantes de alto valor", de: "Hochwertige Konsonanten verwerfen", nl: "Hoogwaardige medeklinkers weggooien"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Consonant dumps mean playing 3-4 consonants when you have too many (vowel-poor rack), often for lower points, to improve rack balance and draw more vowels.",
+        es: "Los descartes de consonantes significan jugar 3-4 consonantes cuando tienes demasiadas (soporte pobre en vocales), a menudo por menos puntos, para mejorar el equilibrio del soporte y sacar más vocales.",
+        de: "Konsonanten-Dumps bedeuten 3-4 Konsonanten zu spielen wenn Sie zu viele haben (vokal-armes Rack), oft für weniger Punkte, um Rack-Balance zu verbessern und mehr Vokale zu ziehen.",
+        nl: "Medeklinker dumps betekenen 3-4 medeklinkers spelen wanneer je er te veel hebt (klinker-arm rek), vaak voor lagere punten, om rek balans te verbeteren en meer klinkers te trekken."
+      }
+    },
+    {
+      question: {
+        en: "What is 'rack synergy' in tile valuation?",
+        es: "¿Qué es la 'sinergia del soporte' en valoración de fichas?",
+        de: "Was ist 'Rack-Synergie' bei der Stein-Bewertung?",
+        nl: "Wat is 'rek synergie' in steen waardering?"
+      },
+      options: [
+        {en: "All tiles same value", es: "Todas las fichas mismo valor", de: "Alle Steine gleicher Wert", nl: "Alle stenen zelfde waarde"},
+        {en: "How well tiles work together to form words", es: "Qué tan bien funcionan las fichas juntas para formar palabras", de: "Wie gut Steine zusammenarbeiten um Wörter zu bilden", nl: "Hoe goed stenen samenwerken om woorden te vormen"},
+        {en: "Alphabetical order", es: "Orden alfabético", de: "Alphabetische Reihenfolge", nl: "Alfabetische volgorde"},
+        {en: "Point total", es: "Total de puntos", de: "Punktesumme", nl: "Punten totaal"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Rack synergy measures how well tiles combine. RETAINS has high synergy (many combinations); JQQVXZ has terrible synergy (few playable combinations despite high points).",
+        es: "La sinergia del soporte mide qué tan bien se combinan las fichas. RETAINS tiene alta sinergia (muchas combinaciones); JQQVXZ tiene terrible sinergia (pocas combinaciones jugables a pesar de altos puntos).",
+        de: "Rack-Synergie misst wie gut sich Steine kombinieren. RETAINS hat hohe Synergie (viele Kombinationen); JQQVXZ hat schreckliche Synergie (wenige spielbare Kombinationen trotz hoher Punkte).",
+        nl: "Rek synergie meet hoe goed stenen combineren. RETAINS heeft hoge synergie (veel combinaties); JQQVXZ heeft verschrikkelijke synergie (weinig speelbare combinaties ondanks hoge punten)."
+      }
+    },
+    {
+      question: {
+        en: "What is 'board geometry' in play selection?",
+        es: "¿Qué es la 'geometría del tablero' en selección de jugadas?",
+        de: "Was ist 'Brett-Geometrie' bei der Zugauswahl?",
+        nl: "Wat is 'bord geometrie' in zet selectie?"
+      },
+      options: [
+        {en: "Board shape", es: "Forma del tablero", de: "Brett-Form", nl: "Bord vorm"},
+        {en: "How words create or block future opportunities", es: "Cómo las palabras crean o bloquean oportunidades futuras", de: "Wie Wörter zukünftige Möglichkeiten schaffen oder blockieren", nl: "Hoe woorden toekomstige kansen creëren of blokkeren"},
+        {en: "Premium square positions", es: "Posiciones de cuadrados premium", de: "Premium-Feld-Positionen", nl: "Premium vak posities"},
+        {en: "Symmetrical plays", es: "Jugadas simétricas", de: "Symmetrische Züge", nl: "Symmetrische zetten"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Board geometry refers to how play placement affects future scoring lanes. Opening geometry creates opportunities (when behind); closing geometry limits them (when ahead).",
+        es: "La geometría del tablero se refiere a cómo la colocación de jugadas afecta los carriles de puntuación futuros. La geometría abierta crea oportunidades (cuando se va atrás); la geometría cerrada las limita (cuando se va adelante).",
+        de: "Brett-Geometrie bezieht sich darauf wie Zugplatzierung zukünftige Punktebahnen beeinflusst. Öffnende Geometrie schafft Möglichkeiten (wenn hinten); schließende Geometrie begrenzt sie (wenn vorne).",
+        nl: "Bord geometrie verwijst naar hoe zet plaatsing toekomstige score banen beïnvloedt. Openende geometrie creëert kansen (wanneer achter); sluitende geometrie beperkt ze (wanneer voor)."
+      }
+    },
+    {
+      question: {
+        en: "What is 'alpha-beta pruning' in Scrabble AI?",
+        es: "¿Qué es la 'poda alfa-beta' en IA de Scrabble?",
+        de: "Was ist 'Alpha-Beta-Beschneidung' in Scrabble-KI?",
+        nl: "Wat is 'alpha-beta snoeien' in Scrabble AI?"
+      },
+      options: [
+        {en: "Removing letters from alphabet", es: "Eliminar letras del alfabeto", de: "Buchstaben aus Alphabet entfernen", nl: "Letters uit alfabet verwijderen"},
+        {en: "Search algorithm to find optimal moves efficiently", es: "Algoritmo de búsqueda para encontrar movimientos óptimos eficientemente", de: "Suchalgorithmus um optimale Züge effizient zu finden", nl: "Zoekalgoritme om optimale zetten efficiënt te vinden"},
+        {en: "Testing word validity", es: "Probar validez de palabras", de: "Wortgültigkeit testen", nl: "Woord geldigheid testen"},
+        {en: "Scoring calculation", es: "Cálculo de puntuación", de: "Punkteberechnung", nl: "Score berekening"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Alpha-beta pruning is a search optimization technique used by strong AI programs to eliminate inferior move branches early, allowing faster and deeper move analysis.",
+        es: "La poda alfa-beta es una técnica de optimización de búsqueda utilizada por programas de IA fuertes para eliminar ramas de movimiento inferiores temprano, permitiendo análisis de movimiento más rápido y profundo.",
+        de: "Alpha-Beta-Beschneidung ist eine Such-Optimierungstechnik die von starken KI-Programmen verwendet wird um unterlegene Zugzweige früh zu eliminieren, was schnellere und tiefere Zuganalyse ermöglicht.",
+        nl: "Alpha-beta snoeien is een zoek optimalisatie techniek gebruikt door sterke AI programma's om inferieure zet takken vroeg te elimineren, wat snellere en diepere zet analyse mogelijk maakt."
+      }
+    },
+    {
+      question: {
+        en: "What is 'positional sacrifice' in Scrabble?",
+        es: "¿Qué es el 'sacrificio posicional' en Scrabble?",
+        de: "Was ist 'Positions-Opfer' im Scrabble?",
+        nl: "Wat is 'positioneel offer' in Scrabble?"
+      },
+      options: [
+        {en: "Giving up points now for better rack/board position", es: "Renunciar a puntos ahora por mejor posición de soporte/tablero", de: "Punkte jetzt aufgeben für bessere Rack/Brett-Position", nl: "Punten nu opgeven voor betere rek/bord positie"},
+        {en: "Playing in bad positions", es: "Jugar en malas posiciones", de: "In schlechten Positionen spielen", nl: "Spelen in slechte posities"},
+        {en: "Sacrificing rack quality", es: "Sacrificar calidad del soporte", de: "Rack-Qualität opfern", nl: "Rek kwaliteit opofferen"},
+        {en: "Blocking yourself", es: "Bloquearte a ti mismo", de: "Sich selbst blockieren", nl: "Jezelf blokkeren"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Positional sacrifice means taking fewer points on current turn to maintain better rack balance, keep bingo potential, or improve future board geometry.",
+        es: "El sacrificio posicional significa tomar menos puntos en el turno actual para mantener mejor equilibrio del soporte, mantener potencial de bingo o mejorar la geometría futura del tablero.",
+        de: "Positions-Opfer bedeutet weniger Punkte im aktuellen Zug zu nehmen um bessere Rack-Balance zu erhalten, Bingo-Potenzial zu behalten oder zukünftige Brett-Geometrie zu verbessern.",
+        nl: "Positioneel offer betekent minder punten nemen in huidige beurt om betere rek balans te behouden, bingo potentieel te houden of toekomstige bord geometrie te verbeteren."
+      }
+    },
+    {
+      question: {
+        en: "What is 'challenge equity' in decision making?",
+        es: "¿Qué es la 'equidad de desafío' en toma de decisiones?",
+        de: "Was ist 'Challenge-Eigenkapital' bei Entscheidungsfindung?",
+        nl: "Wat is 'uitdaging waarde' in besluitvorming?"
+      },
+      options: [
+        {en: "Always challenge uncertain words", es: "Siempre desafiar palabras inciertas", de: "Immer unsichere Wörter anfechten", nl: "Altijd onzekere woorden uitdagen"},
+        {en: "Never challenge unless certain", es: "Nunca desafiar a menos que estés seguro", de: "Niemals anfechten außer sicher", nl: "Nooit uitdagen tenzij zeker"},
+        {en: "Calculating expected value of challenging vs not", es: "Calcular valor esperado de desafiar vs no", de: "Erwarteten Wert von Anfechten vs Nicht-Anfechten berechnen", nl: "Verwachte waarde berekenen van uitdagen vs niet"},
+        {en: "Random challenging", es: "Desafiar aleatoriamente", de: "Zufällig anfechten", nl: "Willekeurig uitdagen"}
+      ],
+      correct: 2,
+      explanation: {
+        en: "Challenge equity means weighing expected points from successful challenge vs penalty for failed challenge, factoring in your confidence level and game situation (ahead/behind).",
+        es: "La equidad de desafío significa sopesar puntos esperados de desafío exitoso vs penalización por desafío fallido, considerando tu nivel de confianza y situación del juego (adelante/atrás).",
+        de: "Challenge-Eigenkapital bedeutet erwartete Punkte aus erfolgreichem Anfechten gegen Strafe für fehlgeschlagenes Anfechten abzuwägen, unter Berücksichtigung von Vertrauensniveau und Spielsituation (vorne/hinten).",
+        nl: "Uitdaging waarde betekent verwachte punten van succesvolle uitdaging afwegen tegen straf voor mislukte uitdaging, rekening houdend met vertrouwensniveau en spel situatie (voor/achter)."
+      }
+    },
+    {
+      question: {
+        en: "What is 'leave smoothing' in rack management?",
+        es: "¿Qué es el 'suavizado de lo que queda' en gestión del soporte?",
+        de: "Was ist 'Leave-Glättung' im Rack-Management?",
+        nl: "Wat is 'leave gladstrijken' in rek beheer?"
+      },
+      options: [
+        {en: "Making rack physically smooth", es: "Hacer soporte físicamente suave", de: "Rack physisch glatt machen", nl: "Rek fysiek glad maken"},
+        {en: "Optimizing remaining tiles for flexibility", es: "Optimizar fichas restantes para flexibilidad", de: "Verbleibende Steine für Flexibilität optimieren", nl: "Resterende stenen optimaliseren voor flexibiliteit"},
+        {en: "Arranging tiles in order", es: "Organizar fichas en orden", de: "Steine in Reihenfolge anordnen", nl: "Stenen op volgorde rangschikken"},
+        {en: "Balancing point values", es: "Equilibrar valores de puntos", de: "Punktwerte ausgleichen", nl: "Puntwaarden balanceren"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Leave smoothing means consistently making plays that result in flexible, balanced racks rather than awkward combinations, maximizing future scoring opportunities.",
+        es: "El suavizado de lo que queda significa hacer constantemente jugadas que resulten en soportes flexibles y equilibrados en lugar de combinaciones incómodas, maximizando oportunidades de puntuación futuras.",
+        de: "Leave-Glättung bedeutet konsistent Züge zu machen die zu flexiblen ausgewogenen Racks führen statt zu unbeholfenen Kombinationen, wodurch zukünftige Punktemöglichkeiten maximiert werden.",
+        nl: "Leave gladstrijken betekent consistent zetten maken die resulteren in flexibele gebalanceerde rekken in plaats van onhandige combinaties, waardoor toekomstige scoringsmogelijkheden worden gemaximaliseerd."
+      }
+    },
+    {
+      question: {
+        en: "What is 'rack mixing' or 'tile rearrangement' psychology?",
+        es: "¿Qué es la psicología de 'mezcla de soporte' o 'reorganización de fichas'?",
+        de: "Was ist 'Rack-Mischen' oder 'Stein-Umordnung' Psychologie?",
+        nl: "Wat is 'rek mixen' of 'steen herschikking' psychologie?"
+      },
+      options: [
+        {en: "Wastes time", es: "Desperdicia tiempo", de: "Verschwendet Zeit", nl: "Verspilt tijd"},
+        {en: "Helps spot different word combinations and patterns", es: "Ayuda a detectar diferentes combinaciones y patrones de palabras", de: "Hilft verschiedene Wortkombinationen und Muster zu erkennen", nl: "Helpt verschillende woord combinaties en patronen te zien"},
+        {en: "Confuses opponent", es: "Confunde al oponente", de: "Verwirrt Gegner", nl: "Verward tegenstander"},
+        {en: "Required by rules", es: "Requerido por reglas", de: "Von Regeln gefordert", nl: "Vereist door regels"}
+      },
+      correct: 1,
+      explanation: {
+        en: "Rearranging tiles on your rack activates different pattern recognition pathways in your brain, helping you spot words you might otherwise miss. Most experts constantly reorganize.",
+        es: "Reorganizar fichas en tu soporte activa diferentes vías de reconocimiento de patrones en tu cerebro, ayudándote a detectar palabras que de otra manera podrías perder. La mayoría de los expertos reorganizan constantemente.",
+        de: "Neuanordnen von Steinen auf Ihrem Rack aktiviert verschiedene Mustererkennungswege in Ihrem Gehirn und hilft Ihnen Wörter zu erkennen die Sie sonst verpassen würden. Die meisten Experten reorganisieren ständig.",
+        nl: "Stenen herschikken op je rek activeert verschillende patroonherkenningspaden in je brein, waardoor je woorden ziet die je anders zou missen. De meeste experts herschikken constant."
+      }
+    },
+    {
+      question: {
+        en: "What is 'tempo' in Scrabble strategy?",
+        es: "¿Qué es el 'tempo' en estrategia de Scrabble?",
+        de: "Was ist 'Tempo' in der Scrabble-Strategie?",
+        nl: "Wat is 'tempo' in Scrabble strategie?"
+      },
+      options: [
+        {en: "Game speed", es: "Velocidad del juego", de: "Spielgeschwindigkeit", nl: "Spel snelheid"},
+        {en: "Control of scoring initiative and board development", es: "Control de iniciativa de puntuación y desarrollo del tablero", de: "Kontrolle über Punkte-Initiative und Brett-Entwicklung", nl: "Controle van scoring initiatief en bord ontwikkeling"},
+        {en: "Time per move", es: "Tiempo por movimiento", de: "Zeit pro Zug", nl: "Tijd per zet"},
+        {en: "Rhythm of play", es: "Ritmo de juego", de: "Spiel-Rhythmus", nl: "Spel ritme"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Tempo means controlling the flow of the game - dictating which areas open, forcing opponent to react to your threats rather than executing their own plans.",
+        es: "El tempo significa controlar el flujo del juego - dictando qué áreas se abren, forzando al oponente a reaccionar a tus amenazas en lugar de ejecutar sus propios planes.",
+        de: "Tempo bedeutet den Spielfluss zu kontrollieren - zu diktieren welche Bereiche sich öffnen, den Gegner zu zwingen auf Ihre Bedrohungen zu reagieren statt eigene Pläne auszuführen.",
+        nl: "Tempo betekent de stroom van het spel controleren - dicteren welke gebieden openen, tegenstander dwingen te reageren op jouw bedreigingen in plaats van eigen plannen uitvoeren."
+      }
+    },
+    {
+      question: {
+        en: "What is 'scoring variance' in Scrabble analysis?",
+        es: "¿Qué es la 'varianza de puntuación' en análisis de Scrabble?",
+        de: "Was ist 'Punkte-Varianz' in der Scrabble-Analyse?",
+        nl: "Wat is 'score variantie' in Scrabble analyse?"
+      },
+      options: [
+        {en: "Difference between players' scores", es: "Diferencia entre puntuaciones de jugadores", de: "Unterschied zwischen Spieler-Punktzahlen", nl: "Verschil tussen spelers scores"},
+        {en: "Potential score fluctuation from a move", es: "Fluctuación potencial de puntuación de un movimiento", de: "Potentielle Punkteschwankung aus einem Zug", nl: "Potentiële score fluctuatie van een zet"},
+        {en: "Score calculation errors", es: "Errores de cálculo de puntuación", de: "Punkteberechnungsfehler", nl: "Score berekeningsfouten"},
+        {en: "Random score changes", es: "Cambios aleatorios de puntuación", de: "Zufällige Punkteänderungen", nl: "Willekeurige score veranderingen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Scoring variance measures how much a play's outcome could fluctuate based on opponent's response. Low-variance plays (defensive) are safer when ahead; high-variance (opening) help when behind.",
+        es: "La varianza de puntuación mide cuánto podría fluctuar el resultado de una jugada según la respuesta del oponente. Las jugadas de baja varianza (defensivas) son más seguras cuando se va adelante; alta varianza (apertura) ayudan cuando se va atrás.",
+        de: "Punkte-Varianz misst wie stark das Ergebnis eines Zugs basierend auf Gegner-Antwort schwanken könnte. Niedrig-Varianz-Züge (defensiv) sind sicherer wenn vorne; Hoch-Varianz (öffnend) helfen wenn hinten.",
+        nl: "Score variantie meet hoeveel de uitkomst van een zet zou kunnen fluctueren op basis van tegenstander reactie. Lage-variantie zetten (defensief) zijn veiliger wanneer voor; hoge-variantie (openend) helpen wanneer achter."
+      }
+    },
+    {
+      question: {
+        en: "What is 'bag composition awareness' in mid-game?",
+        es: "¿Qué es la 'conciencia de composición de la bolsa' a mitad del juego?",
+        de: "Was ist 'Beutel-Zusammensetzungs-Bewusstsein' im Mittelspiel?",
+        nl: "Wat is 'zak samenstelling bewustzijn' in mid-game?"
+      },
+      options: [
+        {en: "Knowing exact tiles in bag", es: "Conocer fichas exactas en la bolsa", de: "Genaue Steine im Beutel kennen", nl: "Exacte stenen in zak kennen"},
+        {en: "Tracking played tiles to estimate remaining tiles", es: "Rastrear fichas jugadas para estimar fichas restantes", de: "Gespielte Steine verfolgen um verbleibende Steine zu schätzen", nl: "Gespeelde stenen volgen om resterende stenen te schatten"},
+        {en: "Bag weight estimation", es: "Estimación de peso de la bolsa", de: "Beutelgewicht-Schätzung", nl: "Zakgewicht schatting"},
+        {en: "Counting tiles left", es: "Contar fichas restantes", de: "Verbleibende Steine zählen", nl: "Resterende stenen tellen"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Bag awareness means tracking which tiles have been played to estimate what remains. This helps evaluate risk of drawing bad tiles when making rack decisions.",
+        es: "La conciencia de la bolsa significa rastrear qué fichas se han jugado para estimar qué queda. Esto ayuda a evaluar el riesgo de sacar malas fichas al tomar decisiones del soporte.",
+        de: "Beutel-Bewusstsein bedeutet zu verfolgen welche Steine gespielt wurden um zu schätzen was verbleibt. Dies hilft das Risiko schlechte Steine zu ziehen bei Rack-Entscheidungen zu bewerten.",
+        nl: "Zak bewustzijn betekent volgen welke stenen zijn gespeeld om te schatten wat overblijft. Dit helpt risico inschatten van slechte stenen trekken bij rek beslissingen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'counter-intuitive sacrifice' in advanced play?",
+        es: "¿Qué es el 'sacrificio contra-intuitivo' en juego avanzado?",
+        de: "Was ist 'kontraintuitives Opfer' im fortgeschrittenen Spiel?",
+        nl: "Wat is 'contra-intuïtief offer' in gevorderd spel?"
+      },
+      options: [
+        {en: "Intentionally scoring low to maintain perfect rack", es: "Intencionalmente anotar bajo para mantener soporte perfecto", de: "Absichtlich niedrig punkten um perfektes Rack zu erhalten", nl: "Opzettelijk laag scoren om perfect rek te behouden"},
+        {en: "Making random plays", es: "Hacer jugadas aleatorias", de: "Zufällige Züge machen", nl: "Willekeurige zetten maken"},
+        {en: "Always playing maximum points", es: "Siempre jugar puntos máximos", de: "Immer maximale Punkte spielen", nl: "Altijd maximum punten spelen"},
+        {en: "Avoiding bingos", es: "Evitar bingos", de: "Bingos vermeiden", nl: "Bingo's vermijden"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Counter-intuitive sacrifice means sometimes playing for very few points (10-15) to maintain an exceptional rack (like keeping SATIRE intact) when high-value bingo opportunities exist.",
+        es: "El sacrificio contra-intuitivo significa a veces jugar por muy pocos puntos (10-15) para mantener un soporte excepcional (como mantener SATIRE intacto) cuando existen oportunidades de bingo de alto valor.",
+        de: "Kontraintuitives Opfer bedeutet manchmal für sehr wenige Punkte zu spielen (10-15) um ein außergewöhnliches Rack zu erhalten (wie SATIRE intakt zu halten) wenn hochwertige Bingo-Möglichkeiten existieren.",
+        nl: "Contra-intuïtief offer betekent soms spelen voor zeer weinig punten (10-15) om een uitzonderlijk rek te behouden (zoals SATIRE intact houden) wanneer hoogwaardige bingo kansen bestaan."
+      }
+    },
+    {
+      question: {
+        en: "What is 'endgame forcing' strategy?",
+        es: "¿Qué es la estrategia de 'forzar el final'?",
+        de: "Was ist 'Endspiel-Erzwingen' Strategie?",
+        nl: "Wat is 'eindspel forceren' strategie?"
+      },
+      options: [
+        {en: "Playing quickly to end game", es: "Jugar rápidamente para terminar juego", de: "Schnell spielen um Spiel zu beenden", nl: "Snel spelen om spel te beëindigen"},
+        {en: "Manipulating bag depletion to reach favorable endgame", es: "Manipular agotamiento de bolsa para alcanzar final favorable", de: "Beutel-Erschöpfung manipulieren um günstiges Endspiel zu erreichen", nl: "Zak uitputting manipuleren om gunstig eindspel te bereiken"},
+        {en: "Forcing opponent to pass", es: "Forzar al oponente a pasar", de: "Gegner zum Passen zwingen", nl: "Tegenstander dwingen te passen"},
+        {en: "Always going out first", es: "Siempre salir primero", de: "Immer zuerst aussteigen", nl: "Altijd als eerste uitgaan"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Endgame forcing means controlling when the bag empties through tile turnover, trying to create an endgame where you have rack advantage or favorable unseen tiles.",
+        es: "Forzar el final significa controlar cuándo se vacía la bolsa a través de la rotación de fichas, tratando de crear un final donde tengas ventaja de soporte o fichas no vistas favorables.",
+        de: "Endspiel-Erzwingen bedeutet zu kontrollieren wann der Beutel sich durch Stein-Umsatz leert, um ein Endspiel zu schaffen wo Sie Rack-Vorteil oder günstige ungesehene Steine haben.",
+        nl: "Eindspel forceren betekent controleren wanneer de zak leeg raakt door steen omzet, proberen een eindspel te creëren waar je rek voordeel of gunstige ongeziene stenen hebt."
+      }
+    },
+    {
+      question: {
+        en: "What is 'semi-bluffing' with phoneys in competitive play?",
+        es: "¿Qué es el 'semi-faroleo' con phoneys en juego competitivo?",
+        de: "Was ist 'Semi-Bluffen' mit Phoneys im kompetitiven Spiel?",
+        nl: "Wat is 'semi-bluffen' met phoneys in competitief spel?"
+      },
+      options: [
+        {en: "Playing words you're 50% sure are valid", es: "Jugar palabras de las que estás 50% seguro que son válidas", de: "Wörter spielen von denen Sie 50% sicher sind dass sie gültig sind", nl: "Woorden spelen waarvan je 50% zeker bent dat ze geldig zijn"},
+        {en: "Never bluffing", es: "Nunca farolear", de: "Niemals bluffen", nl: "Nooit bluffen"},
+        {en: "Always playing phoneys", es: "Siempre jugar phoneys", de: "Immer Phoneys spielen", nl: "Altijd phoneys spelen"},
+        {en: "Pretending to bluff", es: "Fingir farolear", de: "Vorgeben zu bluffen", nl: "Doen alsof je bluft"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Semi-bluffing means playing uncertain words (40-60% confidence) when situation justifies risk. When ahead, play only certain words; when behind, semi-bluffing can help catch up if unchallenged.",
+        es: "El semi-faroleo significa jugar palabras inciertas (confianza 40-60%) cuando la situación justifica el riesgo. Cuando se va adelante, jugar solo palabras seguras; cuando se va atrás, el semi-faroleo puede ayudar a alcanzar si no es desafiado.",
+        de: "Semi-Bluffen bedeutet unsichere Wörter zu spielen (40-60% Vertrauen) wenn Situation Risiko rechtfertigt. Wenn vorne nur sichere Wörter spielen; wenn hinten kann Semi-Bluffen helfen aufzuholen wenn nicht angefochten.",
+        nl: "Semi-bluffen betekent onzekere woorden spelen (40-60% vertrouwen) wanneer situatie risico rechtvaardigt. Wanneer voor alleen zekere woorden spelen; wanneer achter kan semi-bluffen helpen inhalen als niet uitgedaagd."
+      }
+    },
+    {
+      question: {
+        en: "What is 'probabilistic tile tracking' in expert play?",
+        es: "¿Qué es el 'rastreo probabilístico de fichas' en juego experto?",
+        de: "Was ist 'probabilistische Stein-Verfolgung' im Expertenspiel?",
+        nl: "Wat is 'probabilistisch steen volgen' in expert spel?"
+      },
+      options: [
+        {en: "Guessing randomly", es: "Adivinar aleatoriamente", de: "Zufällig raten", nl: "Willekeurig raden"},
+        {en: "Calculating likelihood of opponent holding specific tiles", es: "Calcular probabilidad de que oponente tenga fichas específicas", de: "Wahrscheinlichkeit berechnen dass Gegner bestimmte Steine hält", nl: "Waarschijnlijkheid berekenen dat tegenstander specifieke stenen heeft"},
+        {en: "Counting tiles played", es: "Contar fichas jugadas", de: "Gespielte Steine zählen", nl: "Gespeelde stenen tellen"},
+        {en: "Memorizing tile positions", es: "Memorizar posiciones de fichas", de: "Steinpositionen auswendig lernen", nl: "Steen posities onthouden"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Probabilistic tracking combines tile counting with inference from opponent's plays to estimate likelihood they hold specific tiles, refining probabilities each turn for optimal endgame decisions.",
+        es: "El rastreo probabilístico combina el conteo de fichas con la inferencia de las jugadas del oponente para estimar la probabilidad de que tengan fichas específicas, refinando probabilidades cada turno para decisiones óptimas del final.",
+        de: "Probabilistische Verfolgung kombiniert Stein-Zählen mit Schlussfolgerung aus Gegner-Zügen um Wahrscheinlichkeit zu schätzen dass sie bestimmte Steine halten, wobei Wahrscheinlichkeiten jeden Zug für optimale Endspiel-Entscheidungen verfeinert werden.",
+        nl: "Probabilistisch volgen combineert steen tellen met inferentie uit tegenstander zetten om waarschijnlijkheid te schatten dat ze specifieke stenen hebben, waarbij waarschijnlijkheden elke beurt worden verfijnd voor optimale eindspel beslissingen."
+      }
+    },
+    {
+      question: {
+        en: "What is 'rack entropy' in information theory applied to Scrabble?",
+        es: "¿Qué es la 'entropía del soporte' en teoría de la información aplicada a Scrabble?",
+        de: "Was ist 'Rack-Entropie' in Informationstheorie angewendet auf Scrabble?",
+        nl: "Wat is 'rek entropie' in informatietheorie toegepast op Scrabble?"
+      },
+      options: [
+        {en: "Rack disorder", es: "Desorden del soporte", de: "Rack-Unordnung", nl: "Rek wanorde"},
+        {en: "Measure of rack flexibility and word-forming potential", es: "Medida de flexibilidad del soporte y potencial de formación de palabras", de: "Maß für Rack-Flexibilität und Wortbildungspotenzial", nl: "Maat voor rek flexibiliteit en woord-vormend potentieel"},
+        {en: "Randomness of tiles", es: "Aleatoriedad de fichas", de: "Zufälligkeit der Steine", nl: "Willekeurigheid van stenen"},
+        {en: "Rack temperature", es: "Temperatura del soporte", de: "Rack-Temperatur", nl: "Rek temperatuur"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Rack entropy measures uncertainty/flexibility in possible plays. High entropy (RETAINS) means many options; low entropy (QJXVWZZ) means few options despite theoretical value.",
+        es: "La entropía del soporte mide incertidumbre/flexibilidad en posibles jugadas. Alta entropía (RETAINS) significa muchas opciones; baja entropía (QJXVWZZ) significa pocas opciones a pesar del valor teórico.",
+        de: "Rack-Entropie misst Unsicherheit/Flexibilität in möglichen Zügen. Hohe Entropie (RETAINS) bedeutet viele Optionen; niedrige Entropie (QJXVWZZ) bedeutet wenige Optionen trotz theoretischem Wert.",
+        nl: "Rek entropie meet onzekerheid/flexibiliteit in mogelijke zetten. Hoge entropie (RETAINS) betekent veel opties; lage entropie (QJXVWZZ) betekent weinig opties ondanks theoretische waarde."
+      }
+    },
+    {
+      question: {
+        en: "What is 'game tree complexity' in Scrabble computational analysis?",
+        es: "¿Qué es la 'complejidad del árbol de juego' en análisis computacional de Scrabble?",
+        de: "Was ist 'Spielbaum-Komplexität' in Scrabble-Computeranalyse?",
+        nl: "Wat is 'spelboom complexiteit' in Scrabble computationele analyse?"
+      },
+      options: [
+        {en: "Number of possible game sequences", es: "Número de secuencias de juego posibles", de: "Anzahl möglicher Spielsequenzen", nl: "Aantal mogelijke spel reeksen"},
+        {en: "Difficulty of game rules", es: "Dificultad de reglas del juego", de: "Schwierigkeit der Spielregeln", nl: "Moeilijkheid van spelregels"},
+        {en: "Board layout complexity", es: "Complejidad del diseño del tablero", de: "Komplexität des Brett-Layouts", nl: "Complexiteit van bord indeling"},
+        {en: "Word count in dictionary", es: "Recuento de palabras en diccionario", de: "Wortanzahl im Wörterbuch", nl: "Woord aantal in woordenboek"}
+      ],
+      correct: 0,
+      explanation: {
+        en: "Game tree complexity refers to the astronomical number of possible Scrabble games (estimated at 10^15 or more), making perfect play computationally impractical even for modern AI.",
+        es: "La complejidad del árbol de juego se refiere al número astronómico de juegos de Scrabble posibles (estimado en 10^15 o más), haciendo que el juego perfecto sea computacionalmente impracticable incluso para IA moderna.",
+        de: "Spielbaum-Komplexität bezieht sich auf die astronomische Anzahl möglicher Scrabble-Spiele (geschätzt auf 10^15 oder mehr), was perfektes Spiel rechnerisch unpraktisch macht selbst für moderne KI.",
+        nl: "Spelboom complexiteit verwijst naar het astronomische aantal mogelijke Scrabble spellen (geschat op 10^15 of meer), waardoor perfect spel computationeel onpraktisch is zelfs voor moderne AI."
+      }
+    },
+    {
+      question: {
+        en: "What is 'dynamic rack valuation adjustment' during a game?",
+        es: "¿Qué es el 'ajuste dinámico de valoración del soporte' durante un juego?",
+        de: "Was ist 'dynamische Rack-Bewertungsanpassung' während eines Spiels?",
+        nl: "Wat is 'dynamische rek waardering aanpassing' tijdens een spel?"
+      },
+      options: [
+        {en: "Changing tile point values", es: "Cambiar valores de puntos de fichas", de: "Steinpunktwerte ändern", nl: "Steen puntwaarden veranderen"},
+        {en: "Adjusting rack evaluation based on bag composition changes", es: "Ajustar evaluación del soporte según cambios en composición de la bolsa", de: "Rack-Bewertung basierend auf Beutel-Zusammensetzungsänderungen anpassen", nl: "Rek evaluatie aanpassen op basis van zak samenstelling veranderingen"},
+        {en: "Revaluing words mid-game", es: "Revalorizar palabras a mitad del juego", de: "Wörter während des Spiels neu bewerten", nl: "Woorden mid-game herwaarderen"},
+        {en: "Score recalculation", es: "Recálculo de puntuación", de: "Punkteneuberechnung", nl: "Score herberekening"}
+      ],
+      correct: 1,
+      explanation: {
+        en: "Dynamic valuation means adjusting how you value certain letters as the bag composition changes. Late-game, drawing the last S becomes much more valuable than early-game.",
+        es: "La valoración dinámica significa ajustar cómo valoras ciertas letras a medida que cambia la composición de la bolsa. A final del juego, sacar la última S se vuelve mucho más valiosa que al principio.",
+        de: "Dynamische Bewertung bedeutet anzupassen wie Sie bestimmte Buchstaben bewerten wenn sich Beutel-Zusammensetzung ändert. Spät im Spiel wird das Ziehen des letzten S viel wertvoller als früh im Spiel.",
+        nl: "Dynamische waardering betekent aanpassen hoe je bepaalde letters waardeert naarmate zak samenstelling verandert. Laat in spel wordt het trekken van de laatste S veel waardevoller dan vroeg in spel."
+      }
     }
   ]
 };

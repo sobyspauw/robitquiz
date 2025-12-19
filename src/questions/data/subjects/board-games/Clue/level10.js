@@ -9,824 +9,824 @@
     },
     questions: [
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       },
       {
-            question: {
-                  en: "What is optimal Clue strategy?",
-                  es: "What is optimal Clue strategy?",
-                  de: "What is optimal Clue strategy?",
-                  nl: "What is optimal Clue strategy?"
-            },
-            options: [
-                  {
-                        en: "Probability elimination",
-                        es: "Probability elimination",
-                        de: "Probability elimination",
-                        nl: "Probability elimination"
-                  },
-                  {
-                        en: "First guess",
-                        es: "First guess",
-                        de: "First guess",
-                        nl: "First guess"
-                  },
-                  {
-                        en: "Random accusation",
-                        es: "Random accusation",
-                        de: "Random accusation",
-                        nl: "Random accusation"
-                  },
-                  {
-                        en: "No tracking",
-                        es: "No tracking",
-                        de: "No tracking",
-                        nl: "No tracking"
-                  }
-            ],
-            correct: 0,
-            explanation: {
-                  en: "This is an important concept for this difficulty level.",
-                  es: "Este es un concepto importante para este nivel de dificultad.",
-                  de: "Dies ist ein wichtiges Konzept für diese Schwierigkeitsstufe.",
-                  nl: "Dit is een belangrijk concept voor dit moeilijkheidsniveau."
-            }
+        question: {
+          en: "What defines ultimate mastery in Cluedo?",
+          es: "¿Qué define la maestría definitiva en Cluedo?",
+          de: "Was definiert ultimative Meisterschaft in Cluedo?",
+          nl: "Wat definieert ultieme meesterschap in Cluedo?"
+        },
+        options: [
+          {
+            en: "Perfect integration of deduction, probability, psychology, and game theory",
+            es: "Integración perfecta de deducción, probabilidad, psicología y teoría de juegos",
+            de: "Perfekte Integration von Deduktion, Wahrscheinlichkeit, Psychologie und Spieltheorie",
+            nl: "Perfecte integratie van deductie, waarschijnlijkheid, psychologie en speltheorie"
+          },
+          {
+            en: "Winning most games",
+            es: "Ganar la mayoría de juegos",
+            de: "Die meisten Spiele gewinnen",
+            nl: "De meeste spellen winnen"
+          },
+          {
+            en: "Fast solving",
+            es: "Resolución rápida",
+            de: "Schnelles Lösen",
+            nl: "Snel oplossen"
+          },
+          {
+            en: "Memorizing all cards",
+            es: "Memorizar todas las cartas",
+            de: "Alle Karten auswendig lernen",
+            nl: "Alle kaarten onthouden"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Ultimate Cluedo mastery combines logical deduction, Bayesian probability, opponent psychology, information theory, and game-theoretic optimization into a seamless strategic framework that adapts to any opponent and situation.",
+          es: "La maestría definitiva de Cluedo combina deducción lógica, probabilidad bayesiana, psicología del oponente, teoría de la información y optimización de teoría de juegos en un marco estratégico perfecto que se adapta a cualquier oponente y situación.",
+          de: "Ultimative Cluedo-Meisterschaft kombiniert logische Deduktion, Bayesianische Wahrscheinlichkeit, Gegnerpsychologie, Informationstheorie und spieltheoretische Optimierung zu einem nahtlosen strategischen Rahmen.",
+          nl: "Ultieme Cluedo-meesterschap combineert logische deductie, Bayesiaanse waarschijnlijkheid, tegenstanderpsychologie, informatietheorie en speltheoretische optimalisatie tot een naadloos strategisch raamwerk."
+        }
       }
 ]
   };

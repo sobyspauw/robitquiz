@@ -427,6 +427,405 @@
           de: "Tabiya ist ein arabischer Begriff für eine bekannte Stellung in einer Schacheröffnung, wo sich die Theorie in mehrere Varianten verzweigt.",
           nl: "Tabiya is een Arabische term die een bekende positie in een schaakopening betekent waar de theorie uiteen loopt in meerdere variaties."
         }
+      },
+      {
+        question: {
+          en: "What is the 'minority attack'?",
+          es: "¿Qué es el 'ataque minoritario'?",
+          de: "Was ist der 'Minderheitsangriff'?",
+          nl: "Wat is de 'minderheidsaanval'?"
+        },
+        options: [
+          { en: "Advancing fewer pawns against more enemy pawns", es: "Avanzar menos peones contra más peones enemigos", de: "Weniger Bauern gegen mehr gegnerische Bauern vorstoßen", nl: "Minder pionnen vooruit tegen meer vijandelijke pionnen" },
+          { en: "Attack with fewer pieces", es: "Atacar con menos piezas", de: "Mit weniger Figuren angreifen", nl: "Aanvallen met minder stukken" },
+          { en: "Undermining pawn chain", es: "Socavar cadena de peones", de: "Bauernkette unterminieren", nl: "Pionketen ondermijnen" },
+          { en: "Strategy for losing positions", es: "Estrategia para posiciones perdidas", de: "Strategie für verlorene Stellungen", nl: "Strategie voor verloren posities" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A minority attack involves advancing a smaller group of pawns (usually 2) against a larger group (usually 3) to create weaknesses in the opponent's pawn structure.",
+          es: "Un ataque minoritario implica avanzar un grupo más pequeño de peones (usualmente 2) contra un grupo más grande (usualmente 3) para crear debilidades en la estructura de peones del oponente.",
+          de: "Ein Minderheitsangriff beinhaltet das Vorstoßen einer kleineren Gruppe von Bauern (meist 2) gegen eine größere Gruppe (meist 3), um Schwächen in der gegnerischen Bauernstruktur zu schaffen.",
+          nl: "Een minderheidsaanval houdt in dat een kleinere groep pionnen (meestal 2) wordt vooruitgeschoven tegen een grotere groep (meestal 3) om zwaktes in de pionstructuur van de tegenstander te creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'positional compensation'?",
+          es: "¿Qué es 'compensación posicional'?",
+          de: "Was ist 'positionelle Kompensation'?",
+          nl: "Wat is 'positionele compensatie'?"
+        },
+        options: [
+          { en: "Non-material advantages offsetting material loss", es: "Ventajas no materiales que compensan pérdida material", de: "Nicht-materielle Vorteile, die Materialverlust ausgleichen", nl: "Niet-materiële voordelen die materiaalverlies compenseren" },
+          { en: "Trading pieces equally", es: "Intercambiar piezas equitativamente", de: "Figuren gleichwertig tauschen", nl: "Stukken gelijkwaardig ruilen" },
+          { en: "Adjusting piece positions", es: "Ajustar posiciones de piezas", de: "Figurenpositionen anpassen", nl: "Stukposities aanpassen" },
+          { en: "Getting material back", es: "Recuperar material", de: "Material zurückgewinnen", nl: "Materiaal terugwinnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Positional compensation refers to advantages like piece activity, king safety, pawn structure, or control of key squares that make up for being down in material.",
+          es: "La compensación posicional se refiere a ventajas como actividad de piezas, seguridad del rey, estructura de peones o control de casillas clave que compensan estar abajo en material.",
+          de: "Positionelle Kompensation bezieht sich auf Vorteile wie Figurenaktivität, Königssicherheit, Bauernstruktur oder Kontrolle wichtiger Felder, die einen Materialrückstand ausgleichen.",
+          nl: "Positionele compensatie verwijst naar voordelen zoals stukactiviteit, koningsveiligheid, pionstructuur of controle van sleutelvakjes die materiaalachtterstand compenseren."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'isolated queen's pawn' (IQP)?",
+          es: "¿Qué es el 'peón de dama aislado' (IQP)?",
+          de: "Was ist der 'isolierte Damenbauer' (IQP)?",
+          nl: "Wat is de 'geïsoleerde koninginpion' (IQP)?"
+        },
+        options: [
+          { en: "Isolated d-pawn, dynamic but weak", es: "Peón d aislado, dinámico pero débil", de: "Isolierter d-Bauer, dynamisch aber schwach", nl: "Geïsoleerde d-pion, dynamisch maar zwak" },
+          { en: "Queen-side isolated pawn", es: "Peón aislado del lado de la reina", de: "Bauerseitig isolierter Bauer", nl: "Koninginzijde geïsoleerde pion" },
+          { en: "Any isolated pawn", es: "Cualquier peón aislado", de: "Jeder isolierte Bauer", nl: "Elke geïsoleerde pion" },
+          { en: "Pawn protecting queen", es: "Peón protegiendo la reina", de: "Bauer, der die Dame schützt", nl: "Pion die koningin beschermt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The IQP is an isolated pawn on the d-file. It provides space and piece activity but becomes a target in the endgame. It's a classic positional imbalance.",
+          es: "El IQP es un peón aislado en la columna d. Proporciona espacio y actividad de piezas pero se convierte en objetivo en el final. Es un desequilibrio posicional clásico.",
+          de: "Der IQP ist ein isolierter Bauer auf der d-Linie. Er bietet Raum und Figurenaktivität, wird aber im Endspiel zum Ziel. Es ist ein klassisches positionelles Ungleichgewicht.",
+          nl: "De IQP is een geïsoleerde pion op de d-lijn. Het biedt ruimte en stukactiviteit maar wordt een doelwit in het eindspel. Het is een klassiek positioneel onevenwicht."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'Greek gift sacrifice'?",
+          es: "¿Qué es el 'sacrificio del regalo griego'?",
+          de: "Was ist das 'Griechisches Geschenk'-Opfer?",
+          nl: "Wat is het 'Griekse geschenk'-offer?"
+        },
+        options: [
+          { en: "Bishop sacrifice on h7/h2 for king attack", es: "Sacrificio de alfil en h7/h2 para atacar al rey", de: "Läuferopfer auf h7/h2 für Königsangriff", nl: "Lopersoffer op h7/h2 voor koningsaanval" },
+          { en: "Gift of a piece", es: "Regalo de una pieza", de: "Geschenk einer Figur", nl: "Geschenk van een stuk" },
+          { en: "Pawn sacrifice in opening", es: "Sacrificio de peón en apertura", de: "Bauernopfer in Eröffnung", nl: "Pionoffer in opening" },
+          { en: "Queen sacrifice", es: "Sacrificio de reina", de: "Damenopfer", nl: "Koninginnenoffer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Greek gift is a classic tactical pattern involving Bxh7+ (or Bxh2+), forcing the king out and launching a devastating attack with the queen and knight.",
+          es: "El regalo griego es un patrón táctico clásico que involucra Axh7+ (o Axh2+), forzando al rey a salir y lanzando un ataque devastador con la reina y el caballo.",
+          de: "Das Griechische Geschenk ist ein klassisches taktisches Muster mit Lxh7+ (oder Lxh2+), das den König zum Heraustreten zwingt und einen vernichtenden Angriff mit Dame und Springer startet.",
+          nl: "Het Griekse geschenk is een klassiek tactisch patroon met Lxh7+ (of Lxh2+), die de koning dwingt uit te komen en een verwoestende aanval start met koningin en paard."
+        }
+      },
+      {
+        question: {
+          en: "What is 'overloading' in chess tactics?",
+          es: "¿Qué es 'sobrecarga' en tácticas de ajedrez?",
+          de: "Was ist 'Überlastung' in Schachtaktiken?",
+          nl: "Wat is 'overbelasting' in schaaktactieken?"
+        },
+        options: [
+          { en: "Piece defending too many things at once", es: "Pieza defendiendo demasiadas cosas a la vez", de: "Figur verteidigt zu viele Dinge gleichzeitig", nl: "Stuk verdedigt te veel dingen tegelijk" },
+          { en: "Having too many pieces", es: "Tener demasiadas piezas", de: "Zu viele Figuren haben", nl: "Te veel stukken hebben" },
+          { en: "Moving pieces too much", es: "Mover piezas demasiado", de: "Figuren zu viel bewegen", nl: "Stukken te veel bewegen" },
+          { en: "Attacking with all pieces", es: "Atacar con todas las piezas", de: "Mit allen Figuren angreifen", nl: "Aanvallen met alle stukken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Overloading occurs when a piece has multiple defensive duties and cannot fulfill them all. You can exploit this by attacking one target, forcing the defender to abandon another.",
+          es: "La sobrecarga ocurre cuando una pieza tiene múltiples deberes defensivos y no puede cumplirlos todos. Puedes explotar esto atacando un objetivo, forzando al defensor a abandonar otro.",
+          de: "Überlastung tritt auf, wenn eine Figur mehrere Verteidigungsaufgaben hat und nicht alle erfüllen kann. Man kann dies ausnutzen, indem man ein Ziel angreift und den Verteidiger zwingt, ein anderes aufzugeben.",
+          nl: "Overbelasting treedt op wanneer een stuk meerdere verdedigingstaken heeft en niet alle kan vervullen. Je kunt dit uitbuiten door één doel aan te vallen, waardoor de verdediger een ander moet opgeven."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Maroczy Bind'?",
+          es: "¿Qué es la 'Atadura Maroczy'?",
+          de: "Was ist die 'Maroczy-Bindung'?",
+          nl: "Wat is de 'Maroczy Bind'?"
+        },
+        options: [
+          { en: "Pawn structure on c4 and e4 restricting Black", es: "Estructura de peones en c4 y e4 restringiendo a negras", de: "Bauernstruktur auf c4 und e4, die Schwarz einschränkt", nl: "Pionstructuur op c4 en e4 die zwart beperkt" },
+          { en: "A tactical combination", es: "Una combinación táctica", de: "Eine taktische Kombination", nl: "Een tactische combinatie" },
+          { en: "An endgame technique", es: "Una técnica de final", de: "Eine Endspiel-Technik", nl: "Een eindspeltechniek" },
+          { en: "A checkmate pattern", es: "Un patrón de jaque mate", de: "Ein Schachmattmuster", nl: "Een schaakmatpatroon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Maroczy Bind is a pawn formation with pawns on c4 and e4 that restricts Black's central counterplay, especially in Sicilian structures. It gives White space advantage.",
+          es: "La Atadura Maroczy es una formación de peones con peones en c4 y e4 que restringe el contrajuego central de negras, especialmente en estructuras sicilianas. Da ventaja de espacio a blancas.",
+          de: "Die Maroczy-Bindung ist eine Bauernformation mit Bauern auf c4 und e4, die Schwarzs zentrales Gegenspiel einschränkt, besonders in sizilianischen Strukturen. Sie gibt Weiß Raumvorteil.",
+          nl: "De Maroczy Bind is een pionformatie met pionnen op c4 en e4 die zwarts centrale tegenaanval beperkt, vooral in Siciliaanse structuren. Het geeft wit ruimtevoordeel."
+        }
+      },
+      {
+        question: {
+          en: "What is 'piece activity' in positional chess?",
+          es: "¿Qué es 'actividad de piezas' en ajedrez posicional?",
+          de: "Was ist 'Figurenaktivität' im Positionsspiel?",
+          nl: "Wat is 'stukactiviteit' in positioneel schaken?"
+        },
+        options: [
+          { en: "How well pieces control squares and create threats", es: "Qué tan bien las piezas controlan casillas y crean amenazas", de: "Wie gut Figuren Felder kontrollieren und Drohungen schaffen", nl: "Hoe goed stukken vakjes controleren en dreigingen creëren" },
+          { en: "Number of pieces moved", es: "Número de piezas movidas", de: "Anzahl bewegter Figuren", nl: "Aantal bewogen stukken" },
+          { en: "Speed of development", es: "Velocidad de desarrollo", de: "Entwicklungsgeschwindigkeit", nl: "Ontwikkelingssnelheid" },
+          { en: "Pieces attacking king", es: "Piezas atacando al rey", de: "Figuren, die den König angreifen", nl: "Stukken die koning aanvallen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Piece activity measures how effectively your pieces are placed - controlling important squares, coordinating with each other, and creating threats. Active pieces are worth more than passive ones.",
+          es: "La actividad de piezas mide qué tan efectivamente están colocadas tus piezas - controlando casillas importantes, coordinándose entre sí y creando amenazas. Las piezas activas valen más que las pasivas.",
+          de: "Figurenaktivität misst, wie effektiv Ihre Figuren platziert sind - wichtige Felder kontrollieren, miteinander koordinieren und Drohungen schaffen. Aktive Figuren sind mehr wert als passive.",
+          nl: "Stukactiviteit meet hoe effectief je stukken zijn geplaatst - belangrijke vakjes controleren, met elkaar coördineren en dreigingen creëren. Actieve stukken zijn meer waard dan passieve."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Nimzo-Indian Defense'?",
+          es: "¿Qué es la 'Defensa Nimzo-India'?",
+          de: "Was ist die 'Nimzo-Indische Verteidigung'?",
+          nl: "Wat is de 'Nimzo-Indiase Verdediging'?"
+        },
+        options: [
+          { en: "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4", es: "1.d4 Cf6 2.c4 e6 3.Cc3 Ab4", de: "1.d4 Sf6 2.c4 e6 3.Sc3 Lb4", nl: "1.d4 Pf6 2.c4 e6 3.Pc3 Lb4" },
+          { en: "King's Indian setup", es: "Configuración India de Rey", de: "Königsindisches Aufbau", nl: "Koningsindische opstelling" },
+          { en: "Sicilian variation", es: "Variación siciliana", de: "Sizilianische Variante", nl: "Siciliaanse variatie" },
+          { en: "French Defense line", es: "Línea de Defensa Francesa", de: "Französische Verteidigungslinie", nl: "Franse Verdedigingslijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Nimzo-Indian is a hypermodern opening where Black pins White's knight with Bb4, fighting for central control with pieces rather than pawns. It's named after Aron Nimzowitsch.",
+          es: "La Nimzo-India es una apertura hipermoderna donde negras clava el caballo blanco con Ab4, luchando por el control central con piezas en lugar de peones. Lleva el nombre de Aron Nimzowitsch.",
+          de: "Die Nimzo-Indische ist eine hypermoderne Eröffnung, bei der Schwarz den weißen Springer mit Lb4 fesselt und um zentrale Kontrolle mit Figuren statt Bauern kämpft. Sie ist nach Aron Nimzowitsch benannt.",
+          nl: "De Nimzo-Indiase is een hypermoderne opening waarbij zwart het witte paard pent met Lb4, vechtend voor centrale controle met stukken in plaats van pionnen. Het is genoemd naar Aron Nimzowitsch."
+        }
+      },
+      {
+        question: {
+          en: "What is 'zugzwang' and when is it most common?",
+          es: "¿Qué es 'zugzwang' y cuándo es más común?",
+          de: "Was ist 'Zugzwang' und wann tritt er am häufigsten auf?",
+          nl: "Wat is 'zugzwang' en wanneer komt het het meest voor?"
+        },
+        options: [
+          { en: "Having to move worsens position; common in endgames", es: "Tener que mover empeora la posición; común en finales", de: "Ziehen müssen verschlechtert Stellung; häufig in Endspielen", nl: "Moeten bewegen verslechtert positie; gebruikelijk in eindspelen" },
+          { en: "Forced to capture", es: "Obligado a capturar", de: "Gezwungen zu schlagen", nl: "Gedwongen te slaan" },
+          { en: "Out of legal moves", es: "Sin movimientos legales", de: "Ohne legale Züge", nl: "Zonder legale zetten" },
+          { en: "Time pressure situation", es: "Situación de presión de tiempo", de: "Zeitdrucksituation", nl: "Tijddruksituatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Zugzwang occurs when any legal move worsens your position. It's most common in endgames, especially king and pawn endings, where every move matters critically.",
+          es: "Zugzwang ocurre cuando cualquier movimiento legal empeora tu posición. Es más común en finales, especialmente finales de rey y peón, donde cada movimiento importa críticamente.",
+          de: "Zugzwang tritt auf, wenn jeder legale Zug die Stellung verschlechtert. Er ist am häufigsten in Endspielen, besonders König-und-Bauer-Endspielen, wo jeder Zug kritisch ist.",
+          nl: "Zugzwang treedt op wanneer elke legale zet je positie verslechtert. Het komt het meest voor in eindspelen, vooral koning-en-pion-eindspelen, waar elke zet kritiek is."
+        }
+      },
+      {
+        question: {
+          en: "What is an 'artificial castle'?",
+          es: "¿Qué es un 'enroque artificial'?",
+          de: "Was ist eine 'künstliche Rochade'?",
+          nl: "Wat is een 'kunstmatige rokade'?"
+        },
+        options: [
+          { en: "Manually moving king to safety after losing castling rights", es: "Mover manualmente el rey a seguridad tras perder derechos de enroque", de: "König manuell in Sicherheit bringen nach Verlust des Rochaderechts", nl: "Handmatig koning naar veiligheid bewegen na verlies rokaderecht" },
+          { en: "Castling with promoted rook", es: "Enrocar con torre promovida", de: "Mit umgewandeltem Turm rochieren", nl: "Rokeren met gepromoveerde toren" },
+          { en: "Queenside castling", es: "Enroque largo", de: "Lange Rochade", nl: "Lange rokade" },
+          { en: "Illegal castling attempt", es: "Intento de enroque ilegal", de: "Illegaler Rochadeversuch", nl: "Illegale rokadepoging" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An artificial castle is when you've lost castling rights (by moving king or rook) but manually recreate a castled position by moving Kg1, Rf1, etc.",
+          es: "Un enroque artificial es cuando has perdido los derechos de enroque (moviendo rey o torre) pero recreas manualmente una posición enrocada moviendo Rg1, Tf1, etc.",
+          de: "Eine künstliche Rochade ist, wenn Sie das Rochaderecht verloren haben (durch Ziehen von König oder Turm) aber manuell eine rochierte Stellung durch Züge wie Kg1, Tf1 usw. nachbilden.",
+          nl: "Een kunstmatige rokade is wanneer je het rokaderecht hebt verloren (door koning of toren te bewegen) maar handmatig een gerokeerde positie nabootst door Kg1, Tf1, etc. te spelen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'space advantage' in chess?",
+          es: "¿Qué es 'ventaja de espacio' en ajedrez?",
+          de: "Was ist 'Raumvorteil' im Schach?",
+          nl: "Wat is 'ruimtevoordeel' in schaken?"
+        },
+        options: [
+          { en: "Controlling more squares, especially in center", es: "Controlar más casillas, especialmente en el centro", de: "Mehr Felder kontrollieren, besonders im Zentrum", nl: "Meer vakjes controleren, vooral in centrum" },
+          { en: "Having larger pieces", es: "Tener piezas más grandes", de: "Größere Figuren haben", nl: "Grotere stukken hebben" },
+          { en: "More room on clock", es: "Más tiempo en el reloj", de: "Mehr Zeit auf der Uhr", nl: "Meer tijd op klok" },
+          { en: "Physical board size", es: "Tamaño físico del tablero", de: "Physische Brettgröße", nl: "Fysieke bordgrootte" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Space advantage means your pawns are further advanced, giving your pieces more room to maneuver while restricting opponent's pieces. It's a key positional element.",
+          es: "Ventaja de espacio significa que tus peones están más avanzados, dando a tus piezas más espacio para maniobrar mientras restringes las piezas del oponente. Es un elemento posicional clave.",
+          de: "Raumvorteil bedeutet, dass Ihre Bauern weiter vorgerückt sind, was Ihren Figuren mehr Bewegungsraum gibt, während gegnerische Figuren eingeschränkt werden. Es ist ein wichtiges positionelles Element.",
+          nl: "Ruimtevoordeel betekent dat je pionnen verder vooruit staan, waardoor je stukken meer ruimte hebben om te manoeuvreren terwijl de stukken van de tegenstander worden beperkt. Het is een belangrijk positioneel element."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Dragon Variation' of the Sicilian?",
+          es: "¿Qué es la 'Variación del Dragón' de la Siciliana?",
+          de: "Was ist die 'Drachen-Variante' der Sizilianischen?",
+          nl: "Wat is de 'Draak Variatie' van de Siciliaanse?"
+        },
+        options: [
+          { en: "Sharp line with fianchettoed kingside bishop", es: "Línea aguda con alfil en fianchetto del lado del rey", de: "Scharfe Linie mit fianchettierten Königsläufer", nl: "Scherpe lijn met gefianchetteerde koningsloper" },
+          { en: "Aggressive pawn storm", es: "Tormenta de peones agresiva", de: "Aggressiver Bauernsturm", nl: "Agressieve pionstorm" },
+          { en: "Early queen attack", es: "Ataque temprano de reina", de: "Früher Damenangriff", nl: "Vroege koninginnenaanval" },
+          { en: "Defensive formation", es: "Formación defensiva", de: "Defensive Formation", nl: "Defensieve formatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Dragon Variation (1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6) features Black fianchettoing the kingside bishop. The pawn structure supposedly resembles a dragon.",
+          es: "La Variación del Dragón (1.e4 c5 2.Cf3 d6 3.d4 cxd4 4.Cxd4 Cf6 5.Cc3 g6) presenta a negras con fianchetto del alfil del lado del rey. La estructura de peones supuestamente se asemeja a un dragón.",
+          de: "Die Drachen-Variante (1.e4 c5 2.Sf3 d6 3.d4 cxd4 4.Sxd4 Sf6 5.Sc3 g6) zeigt Schwarz mit fianchettierten Königsläufer. Die Bauernstruktur ähnelt angeblich einem Drachen.",
+          nl: "De Draak Variatie (1.e4 c5 2.Pf3 d6 3.d4 cxd4 4.Pxd4 Pf6 5.Pc3 g6) kenmerkt zich door zwart die de koningsloper fianchetteerd. De pionstructuur lijkt naar verluidt op een draak."
+        }
+      },
+      {
+        question: {
+          en: "What is an 'outpost' for a piece?",
+          es: "¿Qué es un 'puesto avanzado' para una pieza?",
+          de: "Was ist ein 'Außenposten' für eine Figur?",
+          nl: "Wat is een 'buitenpost' voor een stuk?"
+        },
+        options: [
+          { en: "Protected square that enemy pawns can't attack", es: "Casilla protegida que peones enemigos no pueden atacar", de: "Geschütztes Feld, das gegnerische Bauern nicht angreifen können", nl: "Beschermd vakje dat vijandelijke pionnen niet kunnen aanvallen" },
+          { en: "Corner of the board", es: "Esquina del tablero", de: "Brettecke", nl: "Hoek van het bord" },
+          { en: "Any advanced square", es: "Cualquier casilla avanzada", de: "Jedes vorgerückte Feld", nl: "Elk gevorderd vakje" },
+          { en: "Square near enemy king", es: "Casilla cerca del rey enemigo", de: "Feld nahe dem gegnerischen König", nl: "Vakje nabij vijandelijke koning" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An outpost is a square in or near the opponent's territory that's protected by your pawn and can't be attacked by enemy pawns. Knights love outposts on the 5th or 6th rank.",
+          es: "Un puesto avanzado es una casilla en o cerca del territorio del oponente que está protegida por tu peón y no puede ser atacada por peones enemigos. Los caballos aman puestos avanzados en la 5ª o 6ª fila.",
+          de: "Ein Außenposten ist ein Feld im oder nahe dem gegnerischen Territorium, das von Ihrem Bauern geschützt ist und nicht von gegnerischen Bauern angegriffen werden kann. Springer lieben Außenposten auf der 5. oder 6. Reihe.",
+          nl: "Een buitenpost is een vakje in of nabij het territorium van de tegenstander dat beschermd is door je pion en niet kan worden aangevallen door vijandelijke pionnen. Paarden houden van buitenposten op de 5e of 6e rij."
+        }
+      },
+      {
+        question: {
+          en: "What is 'correspondence chess'?",
+          es: "¿Qué es el 'ajedrez por correspondencia'?",
+          de: "Was ist 'Fernschach'?",
+          nl: "Wat is 'correspondentieschaken'?"
+        },
+        options: [
+          { en: "Chess played via mail or internet with days per move", es: "Ajedrez jugado por correo o internet con días por movimiento", de: "Schach per Post oder Internet mit Tagen pro Zug", nl: "Schaken gespeeld via post of internet met dagen per zet" },
+          { en: "Tournament chess format", es: "Formato de ajedrez de torneo", de: "Turnierschachformat", nl: "Toernooischaakformaat" },
+          { en: "Chess notation system", es: "Sistema de notación de ajedrez", de: "Schachnotationssystem", nl: "Schaaknotatiesysteem" },
+          { en: "Online rapid chess", es: "Ajedrez rápido en línea", de: "Online-Schnellschach", nl: "Online snelschaak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Correspondence chess is played remotely (historically by postal mail, now mostly online) with each player having days to make a move. It allows deep analysis and consultation of resources.",
+          es: "El ajedrez por correspondencia se juega remotamente (históricamente por correo postal, ahora principalmente en línea) con cada jugador teniendo días para hacer un movimiento. Permite análisis profundo y consulta de recursos.",
+          de: "Fernschach wird aus der Ferne gespielt (historisch per Post, jetzt meist online) mit Tagen pro Zug für jeden Spieler. Es erlaubt tiefe Analyse und Konsultation von Ressourcen.",
+          nl: "Correspondentieschaken wordt op afstand gespeeld (historisch per post, nu meestal online) met elke speler dagen om een zet te doen. Het maakt diepe analyse en raadpleging van bronnen mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Lucena position' technique called?",
+          es: "¿Cómo se llama la técnica de la 'posición de Lucena'?",
+          de: "Wie heißt die 'Lucena-Stellungs'-Technik?",
+          nl: "Hoe heet de 'Lucena-positie'-techniek?"
+        },
+        options: [
+          { en: "Building a bridge", es: "Construir un puente", de: "Eine Brücke bauen", nl: "Een brug bouwen" },
+          { en: "Cutting off the king", es: "Cortar al rey", de: "Den König abschneiden", nl: "De koning afsnijden" },
+          { en: "Creating a fortress", es: "Crear una fortaleza", de: "Eine Festung errichten", nl: "Een fort creëren" },
+          { en: "Advancing the pawn", es: "Avanzar el peón", de: "Den Bauern vorschieben", nl: "De pion vooruitschuiven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In the Lucena position, 'building a bridge' refers to using your rook to shield your king from checks, allowing the pawn to promote. The rook creates a 'bridge' at the 4th rank.",
+          es: "En la posición de Lucena, 'construir un puente' se refiere a usar tu torre para proteger tu rey de jaques, permitiendo que el peón promueva. La torre crea un 'puente' en la 4ª fila.",
+          de: "In der Lucena-Stellung bedeutet 'eine Brücke bauen', Ihren Turm zu benutzen, um Ihren König vor Schachs zu schützen und die Bauernumwandlung zu ermöglichen. Der Turm schafft eine 'Brücke' auf der 4. Reihe.",
+          nl: "In de Lucena-positie verwijst 'een brug bouwen' naar het gebruik van je toren om je koning tegen schaken te beschermen, waardoor de pion kan promoveren. De toren creëert een 'brug' op de 4e rij."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'retrograde analysis' in chess?",
+          es: "¿Qué es un 'análisis retrógrado' en ajedrez?",
+          de: "Was ist eine 'Retroanalyse' im Schach?",
+          nl: "Wat is een 'retrograde analyse' in schaken?"
+        },
+        options: [
+          { en: "Working backwards from position to determine what happened", es: "Trabajar hacia atrás desde una posición para determinar qué sucedió", de: "Von einer Stellung rückwärts arbeiten um zu bestimmen, was geschah", nl: "Terugwerken vanaf een positie om te bepalen wat er gebeurde" },
+          { en: "Analyzing past games", es: "Analizar juegos pasados", de: "Vergangene Partien analysieren", nl: "Oude partijen analyseren" },
+          { en: "Computer analysis", es: "Análisis por computadora", de: "Computeranalyse", nl: "Computeranalyse" },
+          { en: "Endgame tablebase", es: "Base de datos de finales", de: "Endspiel-Tablebase", nl: "Eindspeldatabase" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Retrograde analysis involves working backwards from a position to deduce what moves led to it. It's used in chess problems and to prove certain positions are impossible.",
+          es: "El análisis retrógrado implica trabajar hacia atrás desde una posición para deducir qué movimientos la condujeron. Se usa en problemas de ajedrez y para probar que ciertas posiciones son imposibles.",
+          de: "Retroanalyse bedeutet, von einer Stellung rückwärts zu arbeiten, um zu deduzieren, welche Züge dazu führten. Sie wird in Schachproblemen verwendet und um zu beweisen, dass bestimmte Stellungen unmöglich sind.",
+          nl: "Retrograde analyse houdt in terugwerken vanaf een positie om te deduceren welke zetten daartoe leidden. Het wordt gebruikt in schaakproblemen en om te bewijzen dat bepaalde posities onmogelijk zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Ruy Lopez' also known as?",
+          es: "¿Cómo se conoce también la 'Ruy López'?",
+          de: "Wie wird die 'Ruy Lopez' auch genannt?",
+          nl: "Hoe wordt de 'Ruy Lopez' ook wel genoemd?"
+        },
+        options: [
+          { en: "Spanish Opening", es: "Apertura Española", de: "Spanische Eröffnung", nl: "Spaanse Opening" },
+          { en: "Italian Opening", es: "Apertura Italiana", de: "Italienische Eröffnung", nl: "Italiaanse Opening" },
+          { en: "French Opening", es: "Apertura Francesa", de: "Französische Eröffnung", nl: "Franse Opening" },
+          { en: "English Opening", es: "Apertura Inglesa", de: "Englische Eröffnung", nl: "Engelse Opening" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Ruy Lopez (1.e4 e5 2.Nf3 Nc6 3.Bb5) is also called the Spanish Opening. It's named after 16th-century Spanish bishop Ruy López de Segura.",
+          es: "La Ruy López (1.e4 e5 2.Cf3 Cc6 3.Ab5) también se llama Apertura Española. Lleva el nombre del obispo español del siglo XVI Ruy López de Segura.",
+          de: "Die Ruy Lopez (1.e4 e5 2.Sf3 Sc6 3.Lb5) wird auch Spanische Eröffnung genannt. Sie ist nach dem spanischen Bischof Ruy López de Segura aus dem 16. Jahrhundert benannt.",
+          nl: "De Ruy Lopez (1.e4 e5 2.Pf3 Pc6 3.Lb5) wordt ook de Spaanse Opening genoemd. Het is vernoemd naar de 16e-eeuwse Spaanse bisschop Ruy López de Segura."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'quiet move'?",
+          es: "¿Qué es un 'movimiento tranquilo'?",
+          de: "Was ist ein 'ruhiger Zug'?",
+          nl: "Wat is een 'stille zet'?"
+        },
+        options: [
+          { en: "Move that doesn't capture, check, or threaten", es: "Movimiento que no captura, da jaque ni amenaza", de: "Zug, der nicht schlägt, Schach gibt oder droht", nl: "Zet die niet slaat, schaak geeft of dreigt" },
+          { en: "Slow, careful move", es: "Movimiento lento y cuidadoso", de: "Langsamer, vorsichtiger Zug", nl: "Langzame, voorzichtige zet" },
+          { en: "Defensive move", es: "Movimiento defensivo", de: "Defensiver Zug", nl: "Defensieve zet" },
+          { en: "Pawn move", es: "Movimiento de peón", de: "Bauernzug", nl: "Pionzet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A quiet move is one that doesn't capture, give check, or make an immediate threat. Paradoxically, quiet moves are often the strongest, improving position subtly.",
+          es: "Un movimiento tranquilo es uno que no captura, da jaque ni hace una amenaza inmediata. Paradójicamente, los movimientos tranquilos son a menudo los más fuertes, mejorando la posición sutilmente.",
+          de: "Ein ruhiger Zug ist einer, der nicht schlägt, Schach gibt oder eine sofortige Drohung macht. Paradoxerweise sind ruhige Züge oft die stärksten und verbessern die Stellung subtil.",
+          nl: "Een stille zet is er een die niet slaat, schaak geeft of een onmiddellijke dreiging maakt. Paradoxaal genoeg zijn stille zetten vaak de sterkste, die de positie subtiel verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What does 'intermediate move' mean?",
+          es: "¿Qué significa 'movimiento intermedio'?",
+          de: "Was bedeutet 'Zwischenzug'?",
+          nl: "Wat betekent 'tussenzet'?"
+        },
+        options: [
+          { en: "Unexpected move before obvious continuation", es: "Movimiento inesperado antes de la continuación obvia", de: "Unerwarteter Zug vor offensichtlicher Fortsetzung", nl: "Onverwachte zet voor voor de hand liggende voortzetting" },
+          { en: "Medium difficulty move", es: "Movimiento de dificultad media", de: "Mittelschwerer Zug", nl: "Gemiddeld moeilijke zet" },
+          { en: "Move in middlegame", es: "Movimiento en medio juego", de: "Zug im Mittelspiel", nl: "Zet in middenspel" },
+          { en: "Second-best move", es: "Segundo mejor movimiento", de: "Zweitbester Zug", nl: "Op één na beste zet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An intermediate move (or zwischenzug) is an in-between move played before an expected reply, often a check or threat that changes the evaluation of the position.",
+          es: "Un movimiento intermedio (o zwischenzug) es un movimiento intermedio jugado antes de una respuesta esperada, a menudo un jaque o amenaza que cambia la evaluación de la posición.",
+          de: "Ein Zwischenzug ist ein dazwischen gespielter Zug vor einer erwarteten Antwort, oft ein Schach oder eine Drohung, die die Bewertung der Stellung ändert.",
+          nl: "Een tussenzet (of zwischenzug) is een tussenliggende zet gespeeld voor een verwachte reactie, vaak een schaak of dreiging die de evaluatie van de positie verandert."
+        }
       }
     ]
   };

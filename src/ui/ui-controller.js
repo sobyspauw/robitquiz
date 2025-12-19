@@ -233,10 +233,10 @@ const translations = {
     nl: "Taal:"
   },
   showExplanations: {
-    en: "Show answer explanations",
-    es: "Mostrar explicaciones de respuestas",
-    de: "Antworten Erklärungen anzeigen",
-    nl: "Toon antwoord uitleg"
+    en: "Show explanations",
+    es: "Mostrar explicaciones",
+    de: "Erklärungen anzeigen",
+    nl: "Toon uitleg"
   },
   darkMode: {
     en: "Dark Mode",

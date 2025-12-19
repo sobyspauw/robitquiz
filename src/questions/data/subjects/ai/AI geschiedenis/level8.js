@@ -427,6 +427,426 @@
           de: "AlphaZero stellte einen Durchbruch in allgemeinem Spiel-KI dar indem es lernte Schach, Shogi und Go durch reines Selbstspiel-Reinforcement-Learning zu beherrschen, ohne menschliches Spielwissen oder Eröffnungsbücher. Es entdeckte jahrhundertelange Schachwissen neu und entwickelte neuartige Strategien in nur Stunden Training.",
           nl: "AlphaZero vertegenwoordigde een doorbraak in algemene spel-AI door te leren schaak, shogi en Go te beheersen door pure zelfspel reinforcement learning, zonder menselijke spelkennis of openingsboeken. Het herontdekte eeuwen van schaakkennis en ontwikkelde nieuwe strategieën in slechts uren training."
         }
+      },
+      {
+        question: {
+          en: "What was the contribution of attention mechanisms before transformers?",
+          es: "¿Cuál fue la contribución de mecanismos de atención antes de transformers?",
+          de: "Was war der Beitrag von Attention-Mechanismen vor Transformers?",
+          nl: "Wat was de bijdrage van attention mechanismen voor transformers?"
+        },
+        options: [
+          { en: "They enabled neural machine translation to focus on relevant input parts, improving translation quality", es: "Permitieron a traducción automática neuronal enfocarse en partes relevantes de entrada, mejorando calidad de traducción", de: "Sie ermöglichten neuronaler maschineller Übersetzung sich auf relevante Eingabeteile zu fokussieren und verbesserten Übersetzungsqualität", nl: "Ze stelden neurale machinevertaling in staat om te focussen op relevante invoerdelen, wat vertaalkwaliteit verbeterde" },
+          { en: "They were database indexing systems", es: "Fueron sistemas de indexación de base de datos", de: "Sie waren Datenbank-Indexierungssysteme", nl: "Ze waren database indexeringssystemen" },
+          { en: "They created social media", es: "Crearon redes sociales", de: "Sie schufen soziale Medien", nl: "Ze creëerden sociale media" },
+          { en: "They invented programming languages", es: "Inventaron lenguajes de programación", de: "Sie erfanden Programmiersprachen", nl: "Ze vonden programmeertalen uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Attention mechanisms, introduced by Bahdanau et al. (2014), allowed seq2seq models to selectively focus on different parts of input sequences when generating each output token. This solved the information bottleneck problem in encoder-decoder architectures and dramatically improved neural machine translation, paving the way for transformers.",
+          es: "Los mecanismos de atención, introducidos por Bahdanau et al. (2014), permitieron a modelos seq2seq enfocarse selectivamente en diferentes partes de secuencias de entrada al generar cada token de salida. Esto resolvió el problema de cuello de botella de información.",
+          de: "Attention-Mechanismen, eingeführt von Bahdanau et al. (2014), erlaubten seq2seq-Modellen sich selektiv auf verschiedene Teile von Eingabesequenzen zu fokussieren bei Generierung jedes Ausgabe-Tokens. Dies löste das Informations-Bottleneck-Problem.",
+          nl: "Attention mechanismen, geïntroduceerd door Bahdanau et al. (2014), stelden seq2seq modellen in staat om selectief te focussen op verschillende delen van invoersequenties bij het genereren van elk output token. Dit loste het informatie bottleneck probleem op."
+        }
+      },
+      {
+        question: {
+          en: "What was OpenAI's GPT-2's controversial release strategy in 2019?",
+          es: "¿Cuál fue la estrategia de lanzamiento controvertida de GPT-2 de OpenAI en 2019?",
+          de: "Was war OpenAIs kontroverse Veröffentlichungsstrategie für GPT-2 2019?",
+          nl: "Wat was OpenAI's controversiële release strategie voor GPT-2 in 2019?"
+        },
+        options: [
+          { en: "They initially withheld the full model citing concerns about malicious use of AI-generated text", es: "Inicialmente retuvieron el modelo completo citando preocupaciones sobre uso malicioso de texto generado por IA", de: "Sie hielten das vollständige Modell zunächst zurück unter Berufung auf Bedenken bezüglich böswilliger Nutzung KI-generierter Texte", nl: "Ze hielden aanvankelijk het volledige model achter onder verwijzing naar zorgen over kwaadaardig gebruik van AI-gegenereerde tekst" },
+          { en: "They sold it for millions of dollars", es: "Lo vendieron por millones de dólares", de: "Sie verkauften es für Millionen Dollar", nl: "Ze verkochten het voor miljoenen dollars" },
+          { en: "They gave it only to governments", es: "Lo dieron solo a gobiernos", de: "Sie gaben es nur an Regierungen", nl: "Ze gaven het alleen aan regeringen" },
+          { en: "They destroyed all copies", es: "Destruyeron todas las copias", de: "Sie zerstörten alle Kopien", nl: "Ze vernietigden alle kopieën" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "OpenAI's staged release of GPT-2 sparked debate about AI safety and responsible disclosure. They initially released only smaller versions, citing potential misuse for generating fake news and spam. This controversial decision highlighted growing concerns about powerful language models' societal impact and set precedent for discussions about AI release policies.",
+          es: "El lanzamiento por etapas de GPT-2 de OpenAI provocó debate sobre seguridad de IA y divulgación responsable. Inicialmente lanzaron solo versiones más pequeñas, citando potencial uso indebido para generar noticias falsas y spam.",
+          de: "OpenAIs gestaffelte Veröffentlichung von GPT-2 löste Debatte über KI-Sicherheit und verantwortungsvolle Offenlegung aus. Sie veröffentlichten zunächst nur kleinere Versionen unter Verweis auf potentiellen Missbrauch für Fake News und Spam.",
+          nl: "OpenAI's gefaseerde release van GPT-2 veroorzaakte debat over AI veiligheid en verantwoordelijke openbaarmaking. Ze brachten aanvankelijk alleen kleinere versies uit, onder verwijzing naar mogelijk misbruik voor nepnieuws en spam."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of ELMo (Embeddings from Language Models)?",
+          es: "¿Cuál fue la importancia de ELMo (Embeddings from Language Models)?",
+          de: "Was war die Bedeutung von ELMo (Embeddings from Language Models)?",
+          nl: "Wat was de betekenis van ELMo (Embeddings from Language Models)?"
+        },
+        options: [
+          { en: "It introduced contextualized word representations that changed meaning based on context", es: "Introdujo representaciones de palabras contextualizadas que cambiaban significado según contexto", de: "Es führte kontextualisierte Wortrepräsentationen ein die Bedeutung basierend auf Kontext änderten", nl: "Het introduceerde gecontextualiseerde woordrepresentaties die betekenis veranderden op basis van context" },
+          { en: "It was a children's TV character", es: "Fue un personaje de TV infantil", de: "Es war eine Kinderfernseh-Figur", nl: "Het was een kinderTV personage" },
+          { en: "It created databases", es: "Creó bases de datos", de: "Es schuf Datenbanken", nl: "Het creëerde databases" },
+          { en: "It invented neural networks", es: "Inventó redes neuronales", de: "Es erfand neuronale Netzwerke", nl: "Het vond neurale netwerken uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ELMo (2018) represented a major advance over static embeddings like word2vec by generating context-dependent representations. The same word received different embeddings based on surrounding context, capturing polysemy and contextual nuances. This breakthrough influenced BERT and other contextual models, revolutionizing NLP transfer learning.",
+          es: "ELMo (2018) representó un avance importante sobre embeddings estáticos como word2vec generando representaciones dependientes del contexto. La misma palabra recibió diferentes embeddings según contexto circundante, capturando polisemia y matices contextuales.",
+          de: "ELMo (2018) stellte einen großen Fortschritt über statische Embeddings wie word2vec dar durch Generierung kontextabhängiger Repräsentationen. Dasselbe Wort erhielt verschiedene Embeddings basierend auf umgebendem Kontext und erfasste Polysemie.",
+          nl: "ELMo (2018) vertegenwoordigde een grote vooruitgang over statische embeddings zoals word2vec door context-afhankelijke representaties te genereren. Hetzelfde woord kreeg verschillende embeddings gebaseerd op omringende context, wat polysemie vastlegde."
+        }
+      },
+      {
+        question: {
+          en: "What was the impact of neural architecture search's AutoML developments?",
+          es: "¿Cuál fue el impacto de los desarrollos AutoML de búsqueda de arquitectura neuronal?",
+          de: "Was war die Auswirkung der AutoML-Entwicklungen von Neural Architecture Search?",
+          nl: "Wat was de impact van AutoML ontwikkelingen van neural architecture search?"
+        },
+        options: [
+          { en: "It democratized deep learning by automating model design, reducing need for expert knowledge", es: "Democratizó aprendizaje profundo automatizando diseño de modelo, reduciendo necesidad de conocimiento experto", de: "Es demokratisierte Deep Learning durch Automatisierung von Modell-Design und reduzierte Bedarf an Expertenwissen", nl: "Het democratiseerde deep learning door modelontwerp te automatiseren, wat de noodzaak voor expertkennis verminderde" },
+          { en: "It created programming languages", es: "Creó lenguajes de programación", de: "Es schuf Programmiersprachen", nl: "Het creëerde programmeertalen" },
+          { en: "It was a car manufacturer", es: "Fue un fabricante de automóviles", de: "Es war ein Autohersteller", nl: "Het was een autofabrikant" },
+          { en: "It invented databases", es: "Inventó bases de datos", de: "Es erfand Datenbanken", nl: "Het vond databases uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AutoML tools like Google's AutoML, H2O.ai, and others built on NAS to automate the entire ML pipeline: data preprocessing, feature engineering, model selection, and hyperparameter tuning. This democratization allowed non-experts to build effective models, though concerns arose about interpretability and the environmental cost of extensive search.",
+          es: "Herramientas AutoML como AutoML de Google, H2O.ai y otras construidas sobre NAS automatizaron todo el pipeline de ML: preprocesamiento de datos, ingeniería de características, selección de modelo y ajuste de hiperparámetros. Esta democratización permitió a no expertos construir modelos efectivos.",
+          de: "AutoML-Tools wie Googles AutoML, H2O.ai und andere bauten auf NAS auf um die gesamte ML-Pipeline zu automatisieren: Datenvorverarbeitung, Feature Engineering, Modellauswahl und Hyperparameter-Tuning. Diese Demokratisierung erlaubte Nicht-Experten effektive Modelle zu bauen.",
+          nl: "AutoML tools zoals Google's AutoML, H2O.ai en andere gebouwd op NAS automatiseerden de hele ML pipeline: data voorverwerking, feature engineering, modelselectie en hyperparameter tuning. Deze democratisering stelde niet-experts in staat effectieve modellen te bouwen."
+        }
+      },
+      {
+        question: {
+          en: "What was capsule networks' proposed advantage over CNNs?",
+          es: "¿Cuál fue la ventaja propuesta de redes de cápsula sobre CNN?",
+          de: "Was war der vorgeschlagene Vorteil von Capsule Networks über CNNs?",
+          nl: "Wat was het voorgestelde voordeel van capsule netwerken over CNNs?"
+        },
+        options: [
+          { en: "They preserved spatial hierarchies and part-whole relationships better through vector outputs", es: "Preservaron jerarquías espaciales y relaciones parte-todo mejor mediante salidas vectoriales", de: "Sie erhielten räumliche Hierarchien und Teil-Ganzes-Beziehungen besser durch Vektor-Ausgaben", nl: "Ze behielden ruimtelijke hiërarchieën en deel-geheel relaties beter door vector outputs" },
+          { en: "They were faster than all other networks", es: "Fueron más rápidas que todas las otras redes", de: "Sie waren schneller als alle anderen Netzwerke", nl: "Ze waren sneller dan alle andere netwerken" },
+          { en: "They required no training data", es: "No requirieron datos de entrenamiento", de: "Sie benötigten keine Trainingsdaten", nl: "Ze vereisten geen trainingsdata" },
+          { en: "They created consciousness", es: "Crearon conciencia", de: "Sie schufen Bewusstsein", nl: "Ze creëerden bewustzijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Geoffrey Hinton's capsule networks (2017) proposed using groups of neurons (capsules) outputting vectors rather than scalars to encode pose, deformation, and part-whole relationships. While theoretically promising for better spatial understanding and viewpoint invariance, they saw limited practical adoption due to computational cost and implementation complexity.",
+          es: "Las redes de cápsula de Geoffrey Hinton (2017) propusieron usar grupos de neuronas (cápsulas) produciendo vectores en lugar de escalares para codificar pose, deformación y relaciones parte-todo. Aunque teóricamente prometedoras, vieron adopción práctica limitada.",
+          de: "Geoffrey Hintons Capsule Networks (2017) schlugen vor Gruppen von Neuronen (Kapseln) zu nutzen die Vektoren statt Skalare ausgeben um Pose, Deformation und Teil-Ganzes-Beziehungen zu kodieren. Obwohl theoretisch vielversprechend, sahen sie begrenzte praktische Adoption.",
+          nl: "Geoffrey Hinton's capsule netwerken (2017) stelden voor om groepen neuronen (capsules) te gebruiken die vectors in plaats van scalars uitvoeren om pose, vervorming en deel-geheel relaties te coderen. Hoewel theoretisch veelbelovend, zagen ze beperkte praktische adoptie."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of neural Turing machines and differentiable programming?",
+          es: "¿Cuál fue la importancia de máquinas de Turing neuronales y programación diferenciable?",
+          de: "Was war die Bedeutung von Neural Turing Machines und differenzierbarer Programmierung?",
+          nl: "Wat was de betekenis van neural Turing machines en differentieerbaar programmeren?"
+        },
+        options: [
+          { en: "They extended neural networks with external memory and algorithmic capabilities through differentiable operations", es: "Extendieron redes neuronales con memoria externa y capacidades algorítmicas mediante operaciones diferenciables", de: "Sie erweiterten neuronale Netzwerke mit externem Speicher und algorithmischen Fähigkeiten durch differenzierbare Operationen", nl: "Ze breidden neurale netwerken uit met extern geheugen en algoritmische mogelijkheden door differentieerbare operaties" },
+          { en: "They created quantum computers", es: "Crearon computadoras cuánticas", de: "Sie schufen Quantencomputer", nl: "Ze creëerden quantumcomputers" },
+          { en: "They were hardware devices", es: "Fueron dispositivos de hardware", de: "Sie waren Hardware-Geräte", nl: "Ze waren hardware apparaten" },
+          { en: "They invented databases", es: "Inventaron bases de datos", de: "Sie erfanden Datenbanken", nl: "Ze vonden databases uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neural Turing Machines (2014) and related memory-augmented networks attempted to give neural networks external read-write memory and algorithmic reasoning capabilities. Differentiable programming extended this vision, making arbitrary programs differentiable and trainable. While conceptually influential, practical applications remained limited compared to standard architectures.",
+          es: "Las Máquinas de Turing Neuronales (2014) y redes relacionadas aumentadas con memoria intentaron dar a redes neuronales memoria externa de lectura-escritura y capacidades de razonamiento algorítmico. La programación diferenciable extendió esta visión.",
+          de: "Neural Turing Machines (2014) und verwandte speicher-augmentierte Netzwerke versuchten neuronalen Netzwerken externen Lese-Schreib-Speicher und algorithmische Reasoning-Fähigkeiten zu geben. Differenzierbare Programmierung erweiterte diese Vision.",
+          nl: "Neural Turing Machines (2014) en gerelateerde geheugen-versterkte netwerken probeerden neurale netwerken extern lees-schrijf geheugen en algoritmische redeneer mogelijkheden te geven. Differentieerbaar programmeren breidde deze visie uit."
+        }
+      },
+      {
+        question: {
+          en: "What was the impact of deepfake technology on AI discourse?",
+          es: "¿Cuál fue el impacto de la tecnología deepfake en el discurso de IA?",
+          de: "Was war die Auswirkung von Deepfake-Technologie auf den KI-Diskurs?",
+          nl: "Wat was de impact van deepfake technologie op AI discours?"
+        },
+        options: [
+          { en: "It raised urgent concerns about misinformation, consent, and need for AI detection/regulation", es: "Planteó preocupaciones urgentes sobre desinformación, consentimiento y necesidad de detección/regulación de IA", de: "Es warf dringende Bedenken bezüglich Fehlinformation, Einwilligung und Bedarf an KI-Erkennung/Regulierung auf", nl: "Het wekte dringende zorgen op over misinformatie, toestemming en de noodzaak voor AI detectie/regulering" },
+          { en: "It had no social impact", es: "No tuvo impacto social", de: "Es hatte keine sozialen Auswirkungen", nl: "Het had geen sociale impact" },
+          { en: "It was only used for entertainment", es: "Solo se usó para entretenimiento", de: "Es wurde nur für Unterhaltung verwendet", nl: "Het werd alleen gebruikt voor entertainment" },
+          { en: "It created new programming languages", es: "Creó nuevos lenguajes de programación", de: "Es schuf neue Programmiersprachen", nl: "Het creëerde nieuwe programmeertalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Deepfakes (AI-generated realistic fake videos/images) emerged around 2017, powered by GANs and autoencoders. They sparked serious concerns about misinformation, non-consensual pornography, political manipulation, and identity theft. This catalyzed research into detection methods, watermarking, and discussions about AI regulation, demonstrating technology's dual-use nature.",
+          es: "Los deepfakes (videos/imágenes falsas realistas generadas por IA) surgieron alrededor de 2017, impulsados por GAN y autoencoders. Generaron serias preocupaciones sobre desinformación, pornografía no consensuada, manipulación política y robo de identidad.",
+          de: "Deepfakes (KI-generierte realistische gefälschte Videos/Bilder) entstanden um 2017, angetrieben von GANs und Autoencodern. Sie lösten ernste Bedenken bezüglich Fehlinformation, nicht-einvernehmlicher Pornografie, politischer Manipulation und Identitätsdiebstahl aus.",
+          nl: "Deepfakes (AI-gegenereerde realistische nep video's/afbeeldingen) ontstonden rond 2017, aangedreven door GANs en autoencoders. Ze veroorzaakten serieuze zorgen over misinformatie, niet-consensuele pornografie, politieke manipulatie en identiteitsdiefstal."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of graph neural networks (GNNs)?",
+          es: "¿Cuál fue la contribución de redes neuronales de grafos (GNN)?",
+          de: "Was war der Beitrag von Graph Neural Networks (GNNs)?",
+          nl: "Wat was de bijdrage van graph neural networks (GNNs)?"
+        },
+        options: [
+          { en: "They enabled deep learning on graph-structured data like social networks and molecules", es: "Permitieron aprendizaje profundo en datos estructurados en grafos como redes sociales y moléculas", de: "Sie ermöglichten Deep Learning auf graphstrukturierten Daten wie sozialen Netzwerken und Molekülen", nl: "Ze maakten deep learning mogelijk op grafisch gestructureerde data zoals sociale netwerken en moleculen" },
+          { en: "They created computer graphics", es: "Crearon gráficos por computadora", de: "Sie schufen Computergrafik", nl: "Ze creëerden computergraphics" },
+          { en: "They were data visualization tools", es: "Fueron herramientas de visualización de datos", de: "Sie waren Datenvisualisierungswerkzeuge", nl: "Ze waren datavisualisatie tools" },
+          { en: "They invented databases", es: "Inventaron bases de datos", de: "Sie erfanden Datenbanken", nl: "Ze vonden databases uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GNNs extended deep learning to graph-structured data, learning representations that incorporate graph topology. Applications span drug discovery (molecular graphs), social network analysis, recommendation systems, and knowledge graphs. Variants like Graph Convolutional Networks and Graph Attention Networks became essential tools for non-Euclidean data.",
+          es: "Las GNN extendieron aprendizaje profundo a datos estructurados en grafos, aprendiendo representaciones que incorporan topología de grafo. Las aplicaciones abarcan descubrimiento de fármacos, análisis de redes sociales, sistemas de recomendación y grafos de conocimiento.",
+          de: "GNNs erweiterten Deep Learning auf graphstrukturierte Daten und lernten Repräsentationen die Graph-Topologie einbeziehen. Anwendungen umfassen Arzneimittelentdeckung, Social Network Analyse, Empfehlungssysteme und Wissensgraphen.",
+          nl: "GNNs breidden deep learning uit naar grafisch gestructureerde data, waarbij representaties geleerd werden die graaf topologie incorporeren. Toepassingen omvatten geneesmiddelenontdekking, sociale netwerk analyse, aanbevelingssystemen en kennisgrafieën."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of few-shot and zero-shot learning research?",
+          es: "¿Cuál fue la importancia de la investigación de aprendizaje few-shot y zero-shot?",
+          de: "Was war die Bedeutung von Few-Shot und Zero-Shot Learning Forschung?",
+          nl: "Wat was de betekenis van few-shot en zero-shot learning onderzoek?"
+        },
+        options: [
+          { en: "It aimed to enable AI systems to learn new tasks from very few or no examples, like humans", es: "Buscó permitir a sistemas de IA aprender nuevas tareas con muy pocos o ningún ejemplo, como humanos", de: "Es zielte darauf ab KI-Systemen zu ermöglichen neue Aufgaben von sehr wenigen oder keinen Beispielen zu lernen, wie Menschen", nl: "Het streefde ernaar AI systemen in staat te stellen nieuwe taken te leren van zeer weinig of geen voorbeelden, zoals mensen" },
+          { en: "It reduced photo quality", es: "Redujo la calidad de fotos", de: "Es reduzierte Fotoqualität", nl: "Het verminderde fotokwaliteit" },
+          { en: "It created social media", es: "Creó redes sociales", de: "Es schuf soziale Medien", nl: "Het creëerde sociale media" },
+          { en: "It invented programming", es: "Inventó programación", de: "Es erfand Programmierung", nl: "Het vond programmeren uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Few-shot and zero-shot learning research addressed deep learning's data hunger by developing methods to generalize from minimal examples. Meta-learning, prototypical networks, and matching networks enabled rapid adaptation. Large language models later demonstrated impressive zero-shot capabilities through in-context learning, approaching human-like task generalization.",
+          es: "La investigación de aprendizaje few-shot y zero-shot abordó el hambre de datos del aprendizaje profundo desarrollando métodos para generalizar a partir de ejemplos mínimos. Meta-learning, redes prototípicas y redes de coincidencia permitieron adaptación rápida.",
+          de: "Few-Shot und Zero-Shot Learning Forschung adressierte Deep Learnings Datenhunger durch Entwicklung von Methoden zur Generalisierung aus minimalen Beispielen. Meta-Learning, prototypische Netzwerke und Matching Networks ermöglichten schnelle Anpassung.",
+          nl: "Few-shot en zero-shot learning onderzoek pakte deep learning's datahonger aan door methoden te ontwikkelen om te generaliseren van minimale voorbeelden. Meta-learning, prototypische netwerken en matching netwerken maakten snelle aanpassing mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What was AlphaFold's breakthrough achievement?",
+          es: "¿Cuál fue el logro revolucionario de AlphaFold?",
+          de: "Was war AlphaFolds Durchbruchleistung?",
+          nl: "Wat was AlphaFold's doorbraak prestatie?"
+        },
+        options: [
+          { en: "It solved the 50-year protein folding problem, predicting 3D structures from amino acid sequences", es: "Resolvió el problema de plegamiento de proteínas de 50 años, prediciendo estructuras 3D a partir de secuencias de aminoácidos", de: "Es löste das 50-jährige Proteinfaltungsproblem und sagte 3D-Strukturen aus Aminosäuresequenzen vorher", nl: "Het loste het 50-jarige proteïnevouwings probleem op, waarbij 3D structuren voorspeld werden uit aminozuursequenties" },
+          { en: "It created new elements", es: "Creó nuevos elementos", de: "Es schuf neue Elemente", nl: "Het creëerde nieuwe elementen" },
+          { en: "It invented quantum mechanics", es: "Inventó mecánica cuántica", de: "Es erfand Quantenmechanik", nl: "Het vond quantummechanica uit" },
+          { en: "It was a social media platform", es: "Fue una plataforma de redes sociales", de: "Es war eine Social-Media-Plattform", nl: "Het was een sociale media platform" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AlphaFold (2018) and especially AlphaFold 2 (2020) achieved revolutionary accuracy in protein structure prediction, solving a grand challenge in biology. By combining deep learning with evolutionary, physical, and geometric constraints, it predicted structures rivaling experimental methods, accelerating drug discovery and biological research across the scientific community.",
+          es: "AlphaFold (2018) y especialmente AlphaFold 2 (2020) lograron precisión revolucionaria en predicción de estructura de proteínas, resolviendo un gran desafío en biología. Al combinar aprendizaje profundo con restricciones evolutivas, físicas y geométricas.",
+          de: "AlphaFold (2018) und besonders AlphaFold 2 (2020) erreichten revolutionäre Genauigkeit in Proteinstruktur-Vorhersage und lösten eine große Herausforderung in Biologie. Durch Kombination von Deep Learning mit evolutionären, physikalischen und geometrischen Constraints.",
+          nl: "AlphaFold (2018) en vooral AlphaFold 2 (2020) bereikten revolutionaire nauwkeurigheid in eiwit structuur voorspelling, waarbij een grote uitdaging in biologie opgelost werd. Door deep learning te combineren met evolutionaire, fysieke en geometrische beperkingen."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of neural ordinary differential equations (Neural ODEs)?",
+          es: "¿Cuál fue la contribución de ecuaciones diferenciales ordinarias neuronales (Neural ODEs)?",
+          de: "Was war der Beitrag von Neural Ordinary Differential Equations (Neural ODEs)?",
+          nl: "Wat was de bijdrage van neural ordinary differential equations (Neural ODEs)?"
+        },
+        options: [
+          { en: "They provided continuous-depth models with memory efficiency and new theoretical connections", es: "Proporcionaron modelos de profundidad continua con eficiencia de memoria y nuevas conexiones teóricas", de: "Sie boten kontinuierliche Tiefenmodelle mit Speichereffizienz und neuen theoretischen Verbindungen", nl: "Ze boden continue-diepte modellen met geheugenefficiëntie en nieuwe theoretische verbindingen" },
+          { en: "They created quantum computers", es: "Crearon computadoras cuánticas", de: "Sie schufen Quantencomputer", nl: "Ze creëerden quantumcomputers" },
+          { en: "They were mathematical textbooks", es: "Fueron libros de texto matemáticos", de: "Sie waren mathematische Lehrbücher", nl: "Ze waren wiskundige leerboeken" },
+          { en: "They invented databases", es: "Inventaron bases de datos", de: "Sie erfanden Datenbanken", nl: "Ze vonden databases uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Neural ODEs (2018) reconceptualized residual networks as discretizations of continuous transformations, using ODE solvers for forward passes. This enabled memory-efficient training, continuous-time models, and new connections between deep learning and dynamical systems theory. They influenced normalizing flows and sparked research in physics-informed neural networks.",
+          es: "Las Neural ODEs (2018) reconceptualizaron redes residuales como discretizaciones de transformaciones continuas, usando solucionadores ODE para pases hacia adelante. Esto permitió entrenamiento eficiente en memoria, modelos de tiempo continuo y nuevas conexiones.",
+          de: "Neural ODEs (2018) konzeptualisierten residuale Netzwerke als Diskretisierungen kontinuierlicher Transformationen neu und nutzten ODE-Solver für Forward Passes. Dies ermöglichte speichereffizientes Training, kontinuierliche Zeitmodelle.",
+          nl: "Neural ODEs (2018) herconceptualiseerden residuele netwerken als discretisaties van continue transformaties, waarbij ODE solvers gebruikt werden voor forward passes. Dit maakte geheugen-efficiënte training mogelijk, continue-tijd modellen."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of contrastive learning methods like SimCLR?",
+          es: "¿Cuál fue la importancia de métodos de aprendizaje contrastivo como SimCLR?",
+          de: "Was war die Bedeutung von Contrastive Learning Methoden wie SimCLR?",
+          nl: "Wat was de betekenis van contrastive learning methoden zoals SimCLR?"
+        },
+        options: [
+          { en: "They enabled powerful self-supervised learning by contrasting augmented views of data", es: "Permitieron aprendizaje auto-supervisado poderoso contrastando vistas aumentadas de datos", de: "Sie ermöglichten mächtiges selbstüberwachtes Lernen durch Kontrastierung augmentierter Ansichten von Daten", nl: "Ze maakten krachtig zelf-gesuperviseerd leren mogelijk door versterkte weergaven van data te contrasteren" },
+          { en: "They created social media", es: "Crearon redes sociales", de: "Sie schufen soziale Medien", nl: "Ze creëerden sociale media" },
+          { en: "They were image filters", es: "Fueron filtros de imagen", de: "Sie waren Bildfilter", nl: "Ze waren beeldfilters" },
+          { en: "They invented programming", es: "Inventaron programación", de: "Sie erfanden Programmierung", nl: "Ze vonden programmeren uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SimCLR (2020) and related contrastive methods (MoCo, BYOL) achieved supervised-level performance using only unlabeled data. By learning to pull together augmented views of the same image while pushing apart different images, they created powerful representations. This self-supervised learning revolution reduced dependence on labeled data and influenced language models.",
+          es: "SimCLR (2020) y métodos contrastivos relacionados (MoCo, BYOL) lograron rendimiento a nivel supervisado usando solo datos no etiquetados. Al aprender a juntar vistas aumentadas de la misma imagen mientras separaban imágenes diferentes, crearon representaciones poderosas.",
+          de: "SimCLR (2020) und verwandte kontrastive Methoden (MoCo, BYOL) erreichten supervised-level Leistung nur mit unlabeled Daten. Durch Lernen augmentierte Ansichten desselben Bildes zusammenzuziehen während verschiedene Bilder auseinandergedrückt wurden.",
+          nl: "SimCLR (2020) en gerelateerde contrastive methoden (MoCo, BYOL) bereikten supervised-niveau prestaties met alleen ongelabelde data. Door te leren versterkte weergaven van dezelfde afbeelding bij elkaar te trekken terwijl verschillende afbeeldingen uit elkaar geduwd werden."
+        }
+      },
+      {
+        question: {
+          en: "What was the impact of adversarial examples research?",
+          es: "¿Cuál fue el impacto de la investigación de ejemplos adversarios?",
+          de: "Was war die Auswirkung der Adversarial Examples Forschung?",
+          nl: "Wat was de impact van adversarial examples onderzoek?"
+        },
+        options: [
+          { en: "It revealed neural networks' vulnerability to imperceptible perturbations, raising security concerns", es: "Reveló vulnerabilidad de redes neuronales a perturbaciones imperceptibles, planteando preocupaciones de seguridad", de: "Es enthüllte Verwundbarkeit neuronaler Netzwerke gegenüber unmerklichen Störungen und warf Sicherheitsbedenken auf", nl: "Het onthulde de kwetsbaarheid van neurale netwerken voor onmerkbare verstoringen, wat veiligheidszorgen opriep" },
+          { en: "It created video games", es: "Creó videojuegos", de: "Es schuf Videospiele", nl: "Het creëerde videogames" },
+          { en: "It invented encryption", es: "Inventó encriptación", de: "Es erfand Verschlüsselung", nl: "Het vond encryptie uit" },
+          { en: "It was a social movement", es: "Fue un movimiento social", de: "Es war eine soziale Bewegung", nl: "Het was een sociale beweging" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adversarial examples research (Szegedy et al., 2013) showed that tiny, often imperceptible perturbations could fool state-of-the-art neural networks. This exposed fundamental vulnerabilities in deep learning, spurring research in robust ML, certified defenses, and adversarial training. It highlighted critical concerns for deploying AI in security-sensitive applications.",
+          es: "La investigación de ejemplos adversarios (Szegedy et al., 2013) mostró que pequeñas perturbaciones a menudo imperceptibles podían engañar redes neuronales de última generación. Esto expuso vulnerabilidades fundamentales en aprendizaje profundo.",
+          de: "Adversarial Examples Forschung (Szegedy et al., 2013) zeigte dass winzige, oft unmerkliche Störungen state-of-the-art neuronale Netzwerke täuschen konnten. Dies legte fundamentale Verwundbarkeiten in Deep Learning offen.",
+          nl: "Adversarial examples onderzoek (Szegedy et al., 2013) toonde aan dat kleine, vaak onmerkbare verstoringen state-of-the-art neurale netwerken konden misleiden. Dit onthulde fundamentele kwetsbaarheden in deep learning."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of vision transformers (ViT)?",
+          es: "¿Cuál fue la contribución de transformers de visión (ViT)?",
+          de: "Was war der Beitrag von Vision Transformers (ViT)?",
+          nl: "Wat was de bijdrage van vision transformers (ViT)?"
+        },
+        options: [
+          { en: "They demonstrated transformers could match/exceed CNNs on vision tasks using patch-based attention", es: "Demostraron que transformers podían igualar/superar CNN en tareas de visión usando atención basada en parches", de: "Sie demonstrierten dass Transformers CNNs bei Vision-Aufgaben durch patch-basierte Attention erreichen/übertreffen konnten", nl: "Ze toonden aan dat transformers CNNs konden evenaren/overtreffen op vision taken met patch-gebaseerde attention" },
+          { en: "They created virtual reality", es: "Crearon realidad virtual", de: "Sie schufen Virtual Reality", nl: "Ze creëerden virtual reality" },
+          { en: "They were camera lenses", es: "Fueron lentes de cámara", de: "Sie waren Kameraobjektive", nl: "Ze waren camera lenzen" },
+          { en: "They invented photography", es: "Inventaron fotografía", de: "Sie erfanden Fotografie", nl: "Ze vonden fotografie uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Vision Transformers (ViT, 2020) applied transformer architecture to computer vision by treating images as sequences of patches. With sufficient data, they matched or exceeded CNN performance, demonstrating transformers' generality beyond NLP. This sparked unified architectures for vision-language tasks and influenced models like CLIP and DALL-E.",
+          es: "Los Vision Transformers (ViT, 2020) aplicaron arquitectura transformer a visión por computadora tratando imágenes como secuencias de parches. Con datos suficientes, igualaron o superaron rendimiento CNN, demostrando generalidad de transformers más allá de NLP.",
+          de: "Vision Transformers (ViT, 2020) wendeten Transformer-Architektur auf Computer Vision an durch Behandlung von Bildern als Sequenzen von Patches. Mit ausreichend Daten erreichten oder übertrafen sie CNN-Leistung.",
+          nl: "Vision Transformers (ViT, 2020) pasten transformer architectuur toe op computer vision door afbeeldingen te behandelen als sequenties van patches. Met voldoende data evenarden of overtroffen ze CNN prestaties."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of CLIP (Contrastive Language-Image Pre-training)?",
+          es: "¿Cuál fue la importancia de CLIP (Contrastive Language-Image Pre-training)?",
+          de: "Was war die Bedeutung von CLIP (Contrastive Language-Image Pre-training)?",
+          nl: "Wat was de betekenis van CLIP (Contrastive Language-Image Pre-training)?"
+        },
+        options: [
+          { en: "It learned joint vision-language representations enabling zero-shot image classification from text", es: "Aprendió representaciones conjuntas visión-lenguaje permitiendo clasificación de imagen zero-shot desde texto", de: "Es lernte gemeinsame Vision-Sprache-Repräsentationen die Zero-Shot-Bildklassifikation aus Text ermöglichten", nl: "Het leerde gezamenlijke vision-taal representaties die zero-shot beeldclassificatie vanuit tekst mogelijk maakten" },
+          { en: "It was a video editing tool", es: "Fue una herramienta de edición de video", de: "Es war ein Videobearbeitungswerkzeug", nl: "Het was een video bewerkingstool" },
+          { en: "It created social media", es: "Creó redes sociales", de: "Es schuf soziale Medien", nl: "Het creëerde sociale media" },
+          { en: "It invented cameras", es: "Inventó cámaras", de: "Es erfand Kameras", nl: "Het vond camera's uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "CLIP (2021) trained on 400M image-text pairs from the internet, learning to match images with their descriptions. This enabled impressive zero-shot transfer: classifying images using arbitrary text descriptions without task-specific training. CLIP's approach influenced multimodal AI and became foundation for text-to-image models like DALL-E 2 and Stable Diffusion.",
+          es: "CLIP (2021) entrenado en 400M pares imagen-texto de internet, aprendiendo a emparejar imágenes con sus descripciones. Esto permitió impresionante transferencia zero-shot: clasificar imágenes usando descripciones de texto arbitrarias sin entrenamiento específico de tarea.",
+          de: "CLIP (2021) trainiert auf 400M Bild-Text-Paaren aus dem Internet, lernte Bilder mit ihren Beschreibungen zu matchen. Dies ermöglichte beeindruckenden Zero-Shot-Transfer: Bildklassifikation mit beliebigen Textbeschreibungen ohne aufgabenspezifisches Training.",
+          nl: "CLIP (2021) getraind op 400M beeld-tekst paren van het internet, leerde afbeeldingen te matchen met hun beschrijvingen. Dit maakte indrukwekkende zero-shot transfer mogelijk: afbeeldingen classificeren met willekeurige tekstbeschrijvingen zonder taak-specifieke training."
+        }
+      },
+      {
+        question: {
+          en: "What was the impact of mixture of experts (MoE) architectures?",
+          es: "¿Cuál fue el impacto de arquitecturas de mezcla de expertos (MoE)?",
+          de: "Was war die Auswirkung von Mixture of Experts (MoE) Architekturen?",
+          nl: "Wat was de impact van mixture of experts (MoE) architecturen?"
+        },
+        options: [
+          { en: "They enabled sparsely-activated models with massive capacity but efficient inference", es: "Permitieron modelos activados escasamente con capacidad masiva pero inferencia eficiente", de: "Sie ermöglichten spärlich aktivierte Modelle mit massiver Kapazität aber effizienter Inferenz", nl: "Ze maakten schaars geactiveerde modellen mogelijk met massale capaciteit maar efficiënte inferentie" },
+          { en: "They created expert systems from 1980s", es: "Crearon sistemas expertos de los 1980", de: "Sie schufen Expertensysteme aus den 1980ern", nl: "Ze creëerden expertsystemen uit de jaren 1980" },
+          { en: "They were consulting firms", es: "Fueron firmas de consultoría", de: "Sie waren Beratungsfirmen", nl: "Ze waren adviesbureaus" },
+          { en: "They invented databases", es: "Inventaron bases de datos", de: "Sie erfanden Datenbanken", nl: "Ze vonden databases uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MoE models route each input to a subset of specialized expert networks, enabling models with trillions of parameters where only a fraction activate per input. Switch Transformers (2021) and GPT-4's rumored MoE architecture demonstrated this approach's potential for scaling model capacity efficiently, balancing size with computational cost.",
+          es: "Los modelos MoE enrutan cada entrada a un subconjunto de redes expertas especializadas, permitiendo modelos con trillones de parámetros donde solo una fracción se activa por entrada. Switch Transformers (2021) y la rumoreada arquitectura MoE de GPT-4 demostraron potencial.",
+          de: "MoE-Modelle routen jede Eingabe zu einer Teilmenge spezialisierter Experten-Netzwerke und ermöglichen Modelle mit Billionen Parametern wo nur ein Bruchteil pro Eingabe aktiviert. Switch Transformers (2021) demonstrierten dieses Ansatz-Potenzial.",
+          nl: "MoE modellen routeren elke invoer naar een subset van gespecialiseerde expert netwerken, wat modellen met triljoenen parameters mogelijk maakt waarbij slechts een fractie per invoer activeert. Switch Transformers (2021) toonden dit benaderingspotentieel."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of prompt engineering and in-context learning?",
+          es: "¿Cuál fue la importancia de ingeniería de prompts y aprendizaje en contexto?",
+          de: "Was war die Bedeutung von Prompt Engineering und In-Context Learning?",
+          nl: "Wat was de betekenis van prompt engineering en in-context learning?"
+        },
+        options: [
+          { en: "They showed large language models could perform new tasks via carefully crafted prompts without retraining", es: "Mostraron que grandes modelos de lenguaje podían realizar nuevas tareas mediante prompts cuidadosamente elaborados sin reentrenamiento", de: "Sie zeigten dass große Sprachmodelle neue Aufgaben durch sorgfältig gestaltete Prompts ohne Retraining ausführen konnten", nl: "Ze toonden aan dat grote taalmodellen nieuwe taken konden uitvoeren via zorgvuldig opgestelde prompts zonder hertraining" },
+          { en: "They were programming languages", es: "Fueron lenguajes de programación", de: "Sie waren Programmiersprachen", nl: "Ze waren programmeertalen" },
+          { en: "They created social media", es: "Crearon redes sociales", de: "Sie schufen soziale Medien", nl: "Ze creëerden sociale media" },
+          { en: "They invented databases", es: "Inventaron bases de datos", de: "Sie erfanden Datenbanken", nl: "Ze vonden databases uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GPT-3 demonstrated that large language models could perform diverse tasks through prompting alone, learning from examples provided in the prompt (few-shot) or task descriptions (zero-shot). This sparked research into prompt engineering, prompt tuning, and chain-of-thought prompting, fundamentally changing how we interact with and deploy AI systems.",
+          es: "GPT-3 demostró que grandes modelos de lenguaje podían realizar tareas diversas solo mediante prompting, aprendiendo de ejemplos proporcionados en el prompt (few-shot) o descripciones de tarea (zero-shot). Esto provocó investigación en ingeniería de prompts.",
+          de: "GPT-3 demonstrierte dass große Sprachmodelle diverse Aufgaben allein durch Prompting ausführen konnten, lernend aus im Prompt bereitgestellten Beispielen (few-shot) oder Aufgabenbeschreibungen (zero-shot). Dies löste Forschung in Prompt Engineering aus.",
+          nl: "GPT-3 toonde aan dat grote taalmodellen diverse taken konden uitvoeren door alleen prompting, lerend van voorbeelden in de prompt (few-shot) of taakbeschrijvingen (zero-shot). Dit veroorzaakte onderzoek in prompt engineering."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of neural radiance fields (NeRF)?",
+          es: "¿Cuál fue la contribución de campos de radiancia neuronales (NeRF)?",
+          de: "Was war der Beitrag von Neural Radiance Fields (NeRF)?",
+          nl: "Wat was de bijdrage van neural radiance fields (NeRF)?"
+        },
+        options: [
+          { en: "They synthesized novel 3D views from 2D images using neural scene representations", es: "Sintetizaron vistas 3D novedosas a partir de imágenes 2D usando representaciones de escena neuronales", de: "Sie synthetisierten neuartige 3D-Ansichten aus 2D-Bildern unter Verwendung neuraler Szenenrepräsentationen", nl: "Ze syntheseerden nieuwe 3D weergaven vanuit 2D afbeeldingen met behulp van neurale scène representaties" },
+          { en: "They created video games", es: "Crearon videojuegos", de: "Sie schufen Videospiele", nl: "Ze creëerden videogames" },
+          { en: "They were camera lenses", es: "Fueron lentes de cámara", de: "Sie waren Kameraobjektive", nl: "Ze waren camera lenzen" },
+          { en: "They invented photography", es: "Inventaron fotografía", de: "Sie erfanden Fotografie", nl: "Ze vonden fotografie uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NeRF (2020) represented 3D scenes as continuous functions mapping 5D coordinates (position and viewing direction) to color and density. By training neural networks on multiple 2D views, it achieved photorealistic novel view synthesis. NeRF revolutionized 3D reconstruction, influencing AR/VR, robotics, and creative applications.",
+          es: "NeRF (2020) representó escenas 3D como funciones continuas mapeando coordenadas 5D (posición y dirección de vista) a color y densidad. Al entrenar redes neuronales en múltiples vistas 2D, logró síntesis de vista novedosa fotorrealista.",
+          de: "NeRF (2020) repräsentierte 3D-Szenen als kontinuierliche Funktionen die 5D-Koordinaten (Position und Blickrichtung) auf Farbe und Dichte abbilden. Durch Training neuronaler Netzwerke auf mehreren 2D-Ansichten erreichte es fotorealistische neuartige Ansichtssynthese.",
+          nl: "NeRF (2020) representeerde 3D scènes als continue functies die 5D coördinaten (positie en kijkrichting) mappen naar kleur en dichtheid. Door neurale netwerken te trainen op meerdere 2D weergaven, bereikte het fotorealistische nieuwe weergave synthese."
+        }
+      },
+      {
+        question: {
+          en: "What was the impact of constitutional AI and AI alignment research?",
+          es: "¿Cuál fue el impacto de IA constitucional e investigación de alineación de IA?",
+          de: "Was war die Auswirkung von Constitutional AI und KI-Alignment-Forschung?",
+          nl: "Wat was de impact van constitutional AI en AI alignment onderzoek?"
+        },
+        options: [
+          { en: "It aimed to make AI systems helpful, harmless, and honest through value alignment techniques", es: "Buscó hacer sistemas de IA útiles, inofensivos y honestos mediante técnicas de alineación de valores", de: "Es zielte darauf ab KI-Systeme durch Werte-Alignment-Techniken hilfreich, harmlos und ehrlich zu machen", nl: "Het streefde ernaar AI systemen behulpzaam, onschadelijk en eerlijk te maken door waarde alignment technieken" },
+          { en: "It created government systems", es: "Creó sistemas gubernamentales", de: "Es schuf Regierungssysteme", nl: "Het creëerde overheidssystemen" },
+          { en: "It was a legal framework", es: "Fue un marco legal", de: "Es war ein rechtlicher Rahmen", nl: "Het was een juridisch kader" },
+          { en: "It invented databases", es: "Inventó bases de datos", de: "Es erfand Datenbanken", nl: "Het vond databases uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "As AI systems became more capable, alignment research intensified. Techniques like RLHF (Reinforcement Learning from Human Feedback), Constitutional AI, and red-teaming aimed to align AI behavior with human values. This research addressed concerns about AI safety, bias, truthfulness, and potential misuse, becoming critical as models like GPT-4 and Claude emerged.",
+          es: "A medida que los sistemas de IA se volvieron más capaces, la investigación de alineación se intensificó. Técnicas como RLHF, IA Constitucional y red-teaming buscaron alinear comportamiento de IA con valores humanos. Esta investigación abordó preocupaciones sobre seguridad.",
+          de: "Als KI-Systeme fähiger wurden, intensivierte sich Alignment-Forschung. Techniken wie RLHF, Constitutional AI und Red-Teaming zielten darauf ab KI-Verhalten mit menschlichen Werten auszurichten. Diese Forschung adressierte Bedenken bezüglich Sicherheit.",
+          nl: "Naarmate AI systemen capabeler werden, intensiveerde alignment onderzoek. Technieken zoals RLHF, Constitutional AI en red-teaming streefden ernaar AI gedrag af te stemmen op menselijke waarden. Dit onderzoek pakte zorgen aan over veiligheid."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of diffusion models like DALL-E 2 and Stable Diffusion?",
+          es: "¿Cuál fue la importancia de modelos de difusión como DALL-E 2 y Stable Diffusion?",
+          de: "Was war die Bedeutung von Diffusionsmodellen wie DALL-E 2 und Stable Diffusion?",
+          nl: "Wat was de betekenis van diffusie modellen zoals DALL-E 2 en Stable Diffusion?"
+        },
+        options: [
+          { en: "They revolutionized text-to-image generation with unprecedented quality and control", es: "Revolucionaron generación texto-a-imagen con calidad y control sin precedentes", de: "Sie revolutionierten Text-zu-Bild-Generierung mit beispielloser Qualität und Kontrolle", nl: "Ze revolutioneerden tekst-naar-beeld generatie met ongekende kwaliteit en controle" },
+          { en: "They created social media platforms", es: "Crearon plataformas de redes sociales", de: "Sie schufen Social-Media-Plattformen", nl: "Ze creëerden sociale media platforms" },
+          { en: "They were image compression tools", es: "Fueron herramientas de compresión de imagen", de: "Sie waren Bildkompressionswerkzeuge", nl: "Ze waren beeldcompressie tools" },
+          { en: "They invented photography", es: "Inventaron fotografía", de: "Sie erfanden Fotografie", nl: "Ze vonden fotografie uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Diffusion models (2020-2022) surpassed GANs in image generation quality by iteratively denoising random noise into images. DALL-E 2, Stable Diffusion, and Midjourney democratized AI art creation, enabling anyone to generate high-quality images from text. This sparked discussions about creativity, copyright, artist rights, and AI's role in creative industries.",
+          es: "Los modelos de difusión (2020-2022) superaron a GANs en calidad de generación de imágenes mediante eliminación iterativa de ruido aleatorio en imágenes. DALL-E 2, Stable Diffusion y Midjourney democratizaron creación de arte con IA.",
+          de: "Diffusionsmodelle (2020-2022) übertrafen GANs in Bildgenerierungsqualität durch iteratives Entrauschen von Zufallsrauschen zu Bildern. DALL-E 2, Stable Diffusion und Midjourney demokratisierten KI-Kunstschaffung.",
+          nl: "Diffusie modellen (2020-2022) overtroffen GANs in beeldgeneratie kwaliteit door iteratief willekeurige ruis te ontstoren tot afbeeldingen. DALL-E 2, Stable Diffusion en Midjourney democratiseerden AI kunst creatie."
+        }
       }
     ]
   };

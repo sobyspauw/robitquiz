@@ -427,6 +427,426 @@
           de: "Mit 6 Verdächtigen, 6 Waffen und 9 Räumen gibt es 6 × 6 × 9 = 324 mögliche Kombinationen für die Lösung in Cluedo, was jedes Spiel einzigartig und herausfordernd macht.",
           nl: "Met 6 verdachten, 6 wapens en 9 kamers zijn er 6 × 6 × 9 = 324 mogelijke combinaties voor de oplossing in Cluedo, waardoor elk spel uniek en uitdagend is."
         }
+      },
+      {
+        question: {
+          en: "What color is Miss Scarlett's playing piece?",
+          es: "¿De qué color es la pieza de juego de Miss Scarlett?",
+          de: "Welche Farbe hat die Spielfigur von Miss Scarlett?",
+          nl: "Welke kleur heeft het speelstuk van Miss Scarlett?"
+        },
+        options: [
+          { en: "Red", es: "Rojo", de: "Rot", nl: "Rood" },
+          { en: "Pink", es: "Rosa", de: "Rosa", nl: "Roze" },
+          { en: "Purple", es: "Morado", de: "Lila", nl: "Paars" },
+          { en: "Yellow", es: "Amarillo", de: "Gelb", nl: "Geel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Miss Scarlett's playing piece is red, matching her name which references the color scarlet (a bright red).",
+          es: "La pieza de juego de Miss Scarlett es roja, coincidiendo con su nombre que hace referencia al color escarlata (un rojo brillante).",
+          de: "Die Spielfigur von Miss Scarlett ist rot, passend zu ihrem Namen, der sich auf die Farbe Scharlachrot (ein leuchtendes Rot) bezieht.",
+          nl: "Het speelstuk van Miss Scarlett is rood, passend bij haar naam die verwijst naar de kleur scharlaken (een helder rood)."
+        }
+      },
+      {
+        question: {
+          en: "Which weapon in Cluedo is typically made of rope?",
+          es: "¿Qué arma en Cluedo está típicamente hecha de cuerda?",
+          de: "Welche Waffe in Cluedo besteht typischerweise aus Seil?",
+          nl: "Welk wapen in Cluedo is meestal gemaakt van touw?"
+        },
+        options: [
+          { en: "Lead Pipe", es: "Tubería de plomo", de: "Bleiröhre", nl: "Loden pijp" },
+          { en: "Rope", es: "Cuerda", de: "Seil", nl: "Touw" },
+          { en: "Candlestick", es: "Candelabro", de: "Kerzenständer", nl: "Kandelaar" },
+          { en: "Spanner", es: "Llave inglesa", de: "Schraubenschlüssel", nl: "Moersleutel" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Rope is one of the six classic weapons in Cluedo, and as its name suggests, it is made of rope.",
+          es: "La Cuerda es una de las seis armas clásicas en Cluedo, y como su nombre sugiere, está hecha de cuerda.",
+          de: "Das Seil ist eine der sechs klassischen Waffen in Cluedo, und wie der Name schon sagt, besteht es aus Seil.",
+          nl: "Het Touw is een van de zes klassieke wapens in Cluedo, en zoals de naam al aangeeft, is het gemaakt van touw."
+        }
+      },
+      {
+        question: {
+          en: "Can you enter a room if another player is already there?",
+          es: "¿Puedes entrar a una habitación si otro jugador ya está allí?",
+          de: "Kannst du einen Raum betreten, wenn ein anderer Spieler bereits dort ist?",
+          nl: "Kun je een kamer binnengaan als een andere speler er al is?"
+        },
+        options: [
+          { en: "No, rooms can only hold one player", es: "No, las habitaciones solo pueden albergar un jugador", de: "Nein, Räume können nur einen Spieler aufnehmen", nl: "Nee, kamers kunnen maar één speler bevatten" },
+          { en: "Yes, multiple players can be in same room", es: "Sí, múltiples jugadores pueden estar en la misma habitación", de: "Ja, mehrere Spieler können im selben Raum sein", nl: "Ja, meerdere spelers kunnen in dezelfde kamer zijn" },
+          { en: "Only if you have permission", es: "Solo si tienes permiso", de: "Nur mit Erlaubnis", nl: "Alleen met toestemming" },
+          { en: "Only through secret passages", es: "Solo a través de pasajes secretos", de: "Nur durch Geheimgänge", nl: "Alleen via geheime gangen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Yes, multiple players can be in the same room at the same time in Cluedo. There's no limit to how many players can occupy a room.",
+          es: "Sí, múltiples jugadores pueden estar en la misma habitación al mismo tiempo en Cluedo. No hay límite de cuántos jugadores pueden ocupar una habitación.",
+          de: "Ja, mehrere Spieler können gleichzeitig im selben Raum in Cluedo sein. Es gibt keine Begrenzung, wie viele Spieler einen Raum besetzen können.",
+          nl: "Ja, meerdere spelers kunnen tegelijkertijd in dezelfde kamer zijn in Cluedo. Er is geen limiet aan hoeveel spelers een kamer kunnen bezetten."
+        }
+      },
+      {
+        question: {
+          en: "What happens to the weapon piece when you make a suggestion?",
+          es: "¿Qué pasa con la pieza de arma cuando haces una sugerencia?",
+          de: "Was passiert mit der Waffenfigur, wenn du einen Vorschlag machst?",
+          nl: "Wat gebeurt er met het wapenstuk als je een suggestie doet?"
+        },
+        options: [
+          { en: "It stays where it was", es: "Se queda donde estaba", de: "Es bleibt, wo es war", nl: "Het blijft waar het was" },
+          { en: "It moves to the room you're in", es: "Se mueve a la habitación en la que estás", de: "Es bewegt sich in den Raum, in dem du bist", nl: "Het verplaatst naar de kamer waarin je bent" },
+          { en: "It's removed from the board", es: "Se quita del tablero", de: "Es wird vom Brett entfernt", nl: "Het wordt van het bord verwijderd" },
+          { en: "It goes to the center", es: "Va al centro", de: "Es geht zur Mitte", nl: "Het gaat naar het centrum" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "When you suggest a weapon, that weapon piece is moved into the room you're currently in, just like character pieces.",
+          es: "Cuando sugieres un arma, esa pieza de arma se mueve a la habitación en la que estás actualmente, al igual que las piezas de personajes.",
+          de: "Wenn du eine Waffe vorschlägst, wird diese Waffenfigur in den Raum bewegt, in dem du dich gerade befindest, genau wie Charakterfiguren.",
+          nl: "Wanneer je een wapen suggereert, wordt dat wapenstuk verplaatst naar de kamer waarin je je momenteel bevindt, net als personagestukken."
+        }
+      },
+      {
+        question: {
+          en: "Who was the original creator of Cluedo?",
+          es: "¿Quién fue el creador original de Cluedo?",
+          de: "Wer war der ursprüngliche Schöpfer von Cluedo?",
+          nl: "Wie was de oorspronkelijke maker van Cluedo?"
+        },
+        options: [
+          { en: "Anthony Pratt", es: "Anthony Pratt", de: "Anthony Pratt", nl: "Anthony Pratt" },
+          { en: "Milton Bradley", es: "Milton Bradley", de: "Milton Bradley", nl: "Milton Bradley" },
+          { en: "Parker Brothers", es: "Parker Brothers", de: "Parker Brothers", nl: "Parker Brothers" },
+          { en: "Hasbro", es: "Hasbro", de: "Hasbro", nl: "Hasbro" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anthony Pratt, a British musician, invented Cluedo in 1943. It was later published by Waddingtons in the UK and Parker Brothers in North America.",
+          es: "Anthony Pratt, un músico británico, inventó Cluedo en 1943. Posteriormente fue publicado por Waddingtons en el Reino Unido y Parker Brothers en América del Norte.",
+          de: "Anthony Pratt, ein britischer Musiker, erfand Cluedo im Jahr 1943. Es wurde später von Waddingtons in Großbritannien und Parker Brothers in Nordamerika veröffentlicht.",
+          nl: "Anthony Pratt, een Britse muzikant, vond Cluedo uit in 1943. Het werd later uitgegeven door Waddingtons in het VK en Parker Brothers in Noord-Amerika."
+        }
+      },
+      {
+        question: {
+          en: "What type of game is Cluedo classified as?",
+          es: "¿Como qué tipo de juego se clasifica Cluedo?",
+          de: "Als welche Art von Spiel wird Cluedo klassifiziert?",
+          nl: "Als wat voor soort spel wordt Cluedo geclassificeerd?"
+        },
+        options: [
+          { en: "Strategy game", es: "Juego de estrategia", de: "Strategiespiel", nl: "Strategiespel" },
+          { en: "Deduction game", es: "Juego de deducción", de: "Deduktionsspiel", nl: "Deductiespel" },
+          { en: "Racing game", es: "Juego de carreras", de: "Rennspiel", nl: "Race spel" },
+          { en: "Party game", es: "Juego de fiesta", de: "Partyspiel", nl: "Partyspel" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Cluedo is classified as a deduction game because players must use logical reasoning to deduce the solution from the clues they gather.",
+          es: "Cluedo se clasifica como un juego de deducción porque los jugadores deben usar el razonamiento lógico para deducir la solución de las pistas que recopilan.",
+          de: "Cluedo wird als Deduktionsspiel klassifiziert, weil Spieler logisches Denken verwenden müssen, um die Lösung aus den gesammelten Hinweisen abzuleiten.",
+          nl: "Cluedo wordt geclassificeerd als een deductiespel omdat spelers logisch redeneren moeten gebruiken om de oplossing af te leiden uit de aanwijzingen die ze verzamelen."
+        }
+      },
+      {
+        question: {
+          en: "How do you win Cluedo?",
+          es: "¿Cómo ganas en Cluedo?",
+          de: "Wie gewinnst du Cluedo?",
+          nl: "Hoe win je Cluedo?"
+        },
+        options: [
+          { en: "Be first to collect all cards", es: "Ser el primero en recoger todas las cartas", de: "Als Erster alle Karten sammeln", nl: "Als eerste alle kaarten verzamelen" },
+          { en: "Make correct accusation first", es: "Hacer la acusación correcta primero", de: "Zuerst die richtige Anschuldigung machen", nl: "Als eerste de juiste beschuldiging maken" },
+          { en: "Visit all rooms first", es: "Visitar todas las habitaciones primero", de: "Zuerst alle Räume besuchen", nl: "Als eerste alle kamers bezoeken" },
+          { en: "Eliminate all other players", es: "Eliminar a todos los demás jugadores", de: "Alle anderen Spieler eliminieren", nl: "Alle andere spelers elimineren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "You win Cluedo by being the first player to correctly identify the murderer, weapon, and room by making an accurate accusation.",
+          es: "Ganas Cluedo siendo el primer jugador en identificar correctamente al asesino, el arma y la habitación haciendo una acusación precisa.",
+          de: "Du gewinnst Cluedo, indem du der erste Spieler bist, der den Mörder, die Waffe und den Raum korrekt identifiziert, indem du eine genaue Anschuldigung machst.",
+          nl: "Je wint Cluedo door de eerste speler te zijn die correct de moordenaar, het wapen en de kamer identificeert door een nauwkeurige beschuldiging te maken."
+        }
+      },
+      {
+        question: {
+          en: "Which room has a secret passage to the Study?",
+          es: "¿Qué habitación tiene un pasaje secreto al Estudio?",
+          de: "Welcher Raum hat einen Geheimgang zum Arbeitszimmer?",
+          nl: "Welke kamer heeft een geheime gang naar de Studeerkamer?"
+        },
+        options: [
+          { en: "Lounge", es: "Salón", de: "Salon", nl: "Salon" },
+          { en: "Kitchen", es: "Cocina", de: "Küche", nl: "Keuken" },
+          { en: "Conservatory", es: "Invernadero", de: "Wintergarten", nl: "Serre" },
+          { en: "Library", es: "Biblioteca", de: "Bibliothek", nl: "Bibliotheek" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Kitchen has a secret passage connecting it diagonally across the board to the Study in the opposite corner.",
+          es: "La Cocina tiene un pasaje secreto que la conecta diagonalmente a través del tablero con el Estudio en la esquina opuesta.",
+          de: "Die Küche hat einen Geheimgang, der sie diagonal über das Brett mit dem Arbeitszimmer in der gegenüberliegenden Ecke verbindet.",
+          nl: "De Keuken heeft een geheime gang die deze diagonaal over het bord verbindt met de Studeerkamer in de tegenoverliggende hoek."
+        }
+      },
+      {
+        question: {
+          en: "What should you do if you cannot disprove a suggestion?",
+          es: "¿Qué debes hacer si no puedes refutar una sugerencia?",
+          de: "Was solltest du tun, wenn du einen Vorschlag nicht widerlegen kannst?",
+          nl: "Wat moet je doen als je een suggestie niet kunt weerleggen?"
+        },
+        options: [
+          { en: "Make an accusation immediately", es: "Hacer una acusación inmediatamente", de: "Sofort eine Anschuldigung machen", nl: "Onmiddellijk een beschuldiging maken" },
+          { en: "Say nothing and pass to next player", es: "No decir nada y pasar al siguiente jugador", de: "Nichts sagen und zum nächsten Spieler weitergehen", nl: "Niets zeggen en doorgaan naar volgende speler" },
+          { en: "Show a card anyway", es: "Mostrar una carta de todos modos", de: "Trotzdem eine Karte zeigen", nl: "Toch een kaart tonen" },
+          { en: "Leave the game", es: "Abandonar el juego", de: "Das Spiel verlassen", nl: "Het spel verlaten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "If you cannot show any of the three cards mentioned in a suggestion, you simply say nothing and allow the next player to try to disprove it.",
+          es: "Si no puedes mostrar ninguna de las tres cartas mencionadas en una sugerencia, simplemente no dices nada y permites que el siguiente jugador intente refutarla.",
+          de: "Wenn du keine der drei in einem Vorschlag genannten Karten zeigen kannst, sagst du einfach nichts und erlaubst dem nächsten Spieler zu versuchen, ihn zu widerlegen.",
+          nl: "Als je geen van de drie kaarten genoemd in een suggestie kunt tonen, zeg je simpelweg niets en laat je de volgende speler proberen het te weerleggen."
+        }
+      },
+      {
+        question: {
+          en: "In which decade was Cluedo first released?",
+          es: "¿En qué década se lanzó Cluedo por primera vez?",
+          de: "In welchem Jahrzehnt wurde Cluedo zum ersten Mal veröffentlicht?",
+          nl: "In welk decennium werd Cluedo voor het eerst uitgebracht?"
+        },
+        options: [
+          { en: "1930s", es: "Años 30", de: "1930er", nl: "Jaren 30" },
+          { en: "1940s", es: "Años 40", de: "1940er", nl: "Jaren 40" },
+          { en: "1950s", es: "Años 50", de: "1950er", nl: "Jaren 50" },
+          { en: "1960s", es: "Años 60", de: "1960er", nl: "Jaren 60" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Cluedo was first released in 1949 in the UK, though it was invented in 1943. The North American version 'Clue' was released in 1949 as well.",
+          es: "Cluedo se lanzó por primera vez en 1949 en el Reino Unido, aunque se inventó en 1943. La versión norteamericana 'Clue' también se lanzó en 1949.",
+          de: "Cluedo wurde 1949 erstmals in Großbritannien veröffentlicht, obwohl es 1943 erfunden wurde. Die nordamerikanische Version 'Clue' wurde ebenfalls 1949 veröffentlicht.",
+          nl: "Cluedo werd voor het eerst uitgebracht in 1949 in het VK, hoewel het in 1943 werd uitgevonden. De Noord-Amerikaanse versie 'Clue' werd ook in 1949 uitgebracht."
+        }
+      },
+      {
+        question: {
+          en: "What color is Professor Plum's playing piece?",
+          es: "¿De qué color es la pieza de juego del Profesor Plum?",
+          de: "Welche Farbe hat die Spielfigur von Professor Plum?",
+          nl: "Welke kleur heeft het speelstuk van Professor Plum?"
+        },
+        options: [
+          { en: "Blue", es: "Azul", de: "Blau", nl: "Blauw" },
+          { en: "Purple", es: "Morado", de: "Lila", nl: "Paars" },
+          { en: "Green", es: "Verde", de: "Grün", nl: "Groen" },
+          { en: "Yellow", es: "Amarillo", de: "Gelb", nl: "Geel" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Professor Plum's playing piece is purple, matching his name which references the fruit plum (which is typically purple).",
+          es: "La pieza de juego del Profesor Plum es morada, coincidiendo con su nombre que hace referencia a la fruta ciruela (que suele ser morada).",
+          de: "Die Spielfigur von Professor Plum ist lila, passend zu seinem Namen, der sich auf die Frucht Pflaume bezieht (die typischerweise lila ist).",
+          nl: "Het speelstuk van Professor Plum is paars, passend bij zijn naam die verwijst naar de vrucht pruim (die meestal paars is)."
+        }
+      },
+      {
+        question: {
+          en: "Can you make an accusation from anywhere on the board?",
+          es: "¿Puedes hacer una acusación desde cualquier lugar del tablero?",
+          de: "Kannst du eine Anschuldigung von überall auf dem Brett machen?",
+          nl: "Kun je een beschuldiging doen vanaf elke plaats op het bord?"
+        },
+        options: [
+          { en: "No, only from rooms", es: "No, solo desde habitaciones", de: "Nein, nur von Räumen", nl: "Nee, alleen vanuit kamers" },
+          { en: "Yes, from anywhere on your turn", es: "Sí, desde cualquier lugar en tu turno", de: "Ja, von überall in deinem Zug", nl: "Ja, vanaf elke plaats in je beurt" },
+          { en: "Only from the center", es: "Solo desde el centro", de: "Nur vom Zentrum", nl: "Alleen vanuit het centrum" },
+          { en: "Only after visiting all rooms", es: "Solo después de visitar todas las habitaciones", de: "Nur nach dem Besuch aller Räume", nl: "Alleen na het bezoeken van alle kamers" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Unlike suggestions which must be made from rooms, you can make an accusation from anywhere on the board during your turn.",
+          es: "A diferencia de las sugerencias que deben hacerse desde habitaciones, puedes hacer una acusación desde cualquier lugar del tablero durante tu turno.",
+          de: "Anders als Vorschläge, die von Räumen aus gemacht werden müssen, kannst du eine Anschuldigung von überall auf dem Brett während deines Zuges machen.",
+          nl: "In tegenstelling tot suggesties die vanuit kamers gedaan moeten worden, kun je een beschuldiging doen vanaf elke plaats op het bord tijdens je beurt."
+        }
+      },
+      {
+        question: {
+          en: "How many doorways does the Ballroom have?",
+          es: "¿Cuántas puertas tiene el Salón de baile?",
+          de: "Wie viele Türen hat der Ballsaal?",
+          nl: "Hoeveel deuren heeft de Balzaal?"
+        },
+        options: [
+          { en: "2", es: "2", de: "2", nl: "2" },
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "4", es: "4", de: "4", nl: "4" },
+          { en: "5", es: "5", de: "5", nl: "5" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The Ballroom has 4 doorways, making it the most accessible room on the classic Cluedo board.",
+          es: "El Salón de baile tiene 4 puertas, lo que lo convierte en la habitación más accesible del tablero clásico de Cluedo.",
+          de: "Der Ballsaal hat 4 Türen, was ihn zum am besten zugänglichen Raum auf dem klassischen Cluedo-Brett macht.",
+          nl: "De Balzaal heeft 4 deuren, waardoor het de meest toegankelijke kamer op het klassieke Cluedo-bord is."
+        }
+      },
+      {
+        question: {
+          en: "What is the difference between a suggestion and an accusation?",
+          es: "¿Cuál es la diferencia entre una sugerencia y una acusación?",
+          de: "Was ist der Unterschied zwischen einem Vorschlag und einer Anschuldigung?",
+          nl: "Wat is het verschil tussen een suggestie en een beschuldiging?"
+        },
+        options: [
+          { en: "No difference, same thing", es: "Sin diferencia, lo mismo", de: "Kein Unterschied, dasselbe", nl: "Geen verschil, hetzelfde" },
+          { en: "Accusation is final, suggestion gathers info", es: "Acusación es final, sugerencia recopila info", de: "Anschuldigung ist endgültig, Vorschlag sammelt Info", nl: "Beschuldiging is definitief, suggestie verzamelt info" },
+          { en: "Suggestions are only for rooms", es: "Sugerencias son solo para habitaciones", de: "Vorschläge sind nur für Räume", nl: "Suggesties zijn alleen voor kamers" },
+          { en: "Accusations require more cards", es: "Acusaciones requieren más cartas", de: "Anschuldigungen erfordern mehr Karten", nl: "Beschuldigingen vereisen meer kaarten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A suggestion is used to gather information (others show cards), while an accusation is your final answer. Wrong accusations eliminate you from winning.",
+          es: "Una sugerencia se usa para recopilar información (otros muestran cartas), mientras que una acusación es tu respuesta final. Las acusaciones incorrectas te eliminan de ganar.",
+          de: "Ein Vorschlag wird verwendet, um Informationen zu sammeln (andere zeigen Karten), während eine Anschuldigung deine endgültige Antwort ist. Falsche Anschuldigungen eliminieren dich vom Gewinn.",
+          nl: "Een suggestie wordt gebruikt om informatie te verzamelen (anderen tonen kaarten), terwijl een beschuldiging je eindantwoord is. Foute beschuldigingen elimineren je van het winnen."
+        }
+      },
+      {
+        question: {
+          en: "Which weapon is also known as a 'wrench' in some versions?",
+          es: "¿Qué arma también se conoce como 'llave' en algunas versiones?",
+          de: "Welche Waffe ist in einigen Versionen auch als 'Schraubenschlüssel' bekannt?",
+          nl: "Welk wapen staat ook bekend als 'moersleutel' in sommige versies?"
+        },
+        options: [
+          { en: "Lead Pipe", es: "Tubería de plomo", de: "Bleiröhre", nl: "Loden pijp" },
+          { en: "Spanner", es: "Llave inglesa", de: "Schraubenschlüssel", nl: "Moersleutel" },
+          { en: "Candlestick", es: "Candelabro", de: "Kerzenständer", nl: "Kandelaar" },
+          { en: "Dagger", es: "Daga", de: "Dolch", nl: "Dolk" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Spanner (British English) is called a Wrench in American English versions of the game. Both refer to the same tool-weapon.",
+          es: "La Llave inglesa (inglés británico) se llama Wrench en las versiones en inglés americano del juego. Ambos se refieren a la misma herramienta-arma.",
+          de: "Der Schraubenschlüssel (britisches Englisch 'Spanner') wird in amerikanischen englischen Versionen des Spiels 'Wrench' genannt. Beide beziehen sich auf dasselbe Werkzeug-Waffe.",
+          nl: "De Moersleutel (Brits Engels 'Spanner') wordt in Amerikaanse Engelse versies van het spel 'Wrench' genoemd. Beide verwijzen naar hetzelfde gereedschap-wapen."
+        }
+      },
+      {
+        question: {
+          en: "What happens if multiple players can disprove your suggestion?",
+          es: "¿Qué pasa si múltiples jugadores pueden refutar tu sugerencia?",
+          de: "Was passiert, wenn mehrere Spieler deinen Vorschlag widerlegen können?",
+          nl: "Wat gebeurt er als meerdere spelers je suggestie kunnen weerleggen?"
+        },
+        options: [
+          { en: "All players show their cards", es: "Todos los jugadores muestran sus cartas", de: "Alle Spieler zeigen ihre Karten", nl: "Alle spelers tonen hun kaarten" },
+          { en: "Only the next player in turn order shows one", es: "Solo el siguiente jugador en orden de turno muestra una", de: "Nur der nächste Spieler in Zugreihenfolge zeigt eine", nl: "Alleen de volgende speler in beurtvolgorde toont er één" },
+          { en: "You choose who shows a card", es: "Tú eliges quién muestra una carta", de: "Du wählst, wer eine Karte zeigt", nl: "Je kiest wie een kaart toont" },
+          { en: "The suggestion is cancelled", es: "La sugerencia es cancelada", de: "Der Vorschlag wird abgebrochen", nl: "De suggestie wordt geannuleerd" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Only the next player (to your left) who can disprove the suggestion shows you one card. Other players' cards remain secret even if they could disprove it.",
+          es: "Solo el siguiente jugador (a tu izquierda) que puede refutar la sugerencia te muestra una carta. Las cartas de otros jugadores permanecen secretas incluso si pudieran refutarla.",
+          de: "Nur der nächste Spieler (zu deiner Linken), der den Vorschlag widerlegen kann, zeigt dir eine Karte. Die Karten anderer Spieler bleiben geheim, auch wenn sie ihn widerlegen könnten.",
+          nl: "Alleen de volgende speler (links van je) die de suggestie kan weerleggen toont je één kaart. Kaarten van andere spelers blijven geheim, zelfs als ze het konden weerleggen."
+        }
+      },
+      {
+        question: {
+          en: "Which room is known for having billiards equipment?",
+          es: "¿Qué habitación es conocida por tener equipo de billar?",
+          de: "Welcher Raum ist für Billardausrüstung bekannt?",
+          nl: "Welke kamer staat bekend om biljartuitrusting?"
+        },
+        options: [
+          { en: "Library", es: "Biblioteca", de: "Bibliothek", nl: "Bibliotheek" },
+          { en: "Billiard Room", es: "Sala de billar", de: "Billardzimmer", nl: "Biljartkamer" },
+          { en: "Lounge", es: "Salón", de: "Salon", nl: "Salon" },
+          { en: "Hall", es: "Vestíbulo", de: "Halle", nl: "Hal" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Billiard Room, as its name suggests, is the room equipped with billiards (pool) equipment in the classic Cluedo mansion.",
+          es: "La Sala de billar, como su nombre sugiere, es la habitación equipada con equipo de billar en la mansión clásica de Cluedo.",
+          de: "Das Billardzimmer ist, wie der Name schon sagt, der Raum, der mit Billardausrüstung in der klassischen Cluedo-Villa ausgestattet ist.",
+          nl: "De Biljartkamer is, zoals de naam al aangeeft, de kamer uitgerust met biljartuitrusting in het klassieke Cluedo-landhuis."
+        }
+      },
+      {
+        question: {
+          en: "Can you stay in the same room for multiple turns?",
+          es: "¿Puedes quedarte en la misma habitación durante múltiples turnos?",
+          de: "Kannst du mehrere Runden im selben Raum bleiben?",
+          nl: "Kun je meerdere beurten in dezelfde kamer blijven?"
+        },
+        options: [
+          { en: "No, you must leave after one turn", es: "No, debes salir después de un turno", de: "Nein, du musst nach einer Runde gehen", nl: "Nee, je moet vertrekken na één beurt" },
+          { en: "Yes, you can stay as long as you want", es: "Sí, puedes quedarte tanto como quieras", de: "Ja, du kannst so lange bleiben wie du willst", nl: "Ja, je kunt blijven zo lang je wilt" },
+          { en: "Only if no one else wants to enter", es: "Solo si nadie más quiere entrar", de: "Nur wenn niemand anders eintreten will", nl: "Alleen als niemand anders wil binnenkomen" },
+          { en: "Maximum of three turns", es: "Máximo de tres turnos", de: "Maximal drei Runden", nl: "Maximum drie beurten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Yes, you can remain in the same room for as many turns as you like. There's no rule requiring you to leave a room.",
+          es: "Sí, puedes permanecer en la misma habitación durante tantos turnos como desees. No hay regla que requiera que salgas de una habitación.",
+          de: "Ja, du kannst so viele Runden im selben Raum bleiben, wie du möchtest. Es gibt keine Regel, die dich zwingt, einen Raum zu verlassen.",
+          nl: "Ja, je kunt in dezelfde kamer blijven voor zoveel beurten als je wilt. Er is geen regel die vereist dat je een kamer verlaat."
+        }
+      },
+      {
+        question: {
+          en: "What should you mark on your detective notepad?",
+          es: "¿Qué debes marcar en tu bloc de notas de detective?",
+          de: "Was solltest du auf deinem Detektiv-Notizblock markieren?",
+          nl: "Wat moet je markeren op je detective-notitieblok?"
+        },
+        options: [
+          { en: "Only the cards you hold", es: "Solo las cartas que tienes", de: "Nur die Karten, die du hast", nl: "Alleen de kaarten die je hebt" },
+          { en: "Cards shown to you and cards you hold", es: "Cartas mostradas a ti y cartas que tienes", de: "Karten, die dir gezeigt wurden, und Karten, die du hast", nl: "Kaarten getoond aan jou en kaarten die je hebt" },
+          { en: "Only your suggestions", es: "Solo tus sugerencias", de: "Nur deine Vorschläge", nl: "Alleen je suggesties" },
+          { en: "The number of doorways", es: "El número de puertas", de: "Die Anzahl der Türen", nl: "Het aantal deuren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "You should mark all cards that have been eliminated from the mystery - cards you hold and cards shown to you by other players during suggestions.",
+          es: "Debes marcar todas las cartas que han sido eliminadas del misterio - cartas que tienes y cartas mostradas por otros jugadores durante sugerencias.",
+          de: "Du solltest alle Karten markieren, die vom Mysterium ausgeschlossen wurden - Karten, die du hast, und Karten, die dir von anderen Spielern während Vorschlägen gezeigt wurden.",
+          nl: "Je moet alle kaarten markeren die zijn geëlimineerd van het mysterie - kaarten die je hebt en kaarten getoond door andere spelers tijdens suggesties."
+        }
+      },
+      {
+        question: {
+          en: "What color is Colonel Mustard's playing piece?",
+          es: "¿De qué color es la pieza de juego del Coronel Mustard?",
+          de: "Welche Farbe hat die Spielfigur von Colonel Mustard?",
+          nl: "Welke kleur heeft het speelstuk van Colonel Mustard?"
+        },
+        options: [
+          { en: "Brown", es: "Marrón", de: "Braun", nl: "Bruin" },
+          { en: "Yellow", es: "Amarillo", de: "Gelb", nl: "Geel" },
+          { en: "Green", es: "Verde", de: "Grün", nl: "Groen" },
+          { en: "White", es: "Blanco", de: "Weiß", nl: "Wit" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Colonel Mustard's playing piece is yellow, matching his name which references the condiment mustard (which is typically yellow).",
+          es: "La pieza de juego del Coronel Mustard es amarilla, coincidiendo con su nombre que hace referencia al condimento mostaza (que suele ser amarillo).",
+          de: "Die Spielfigur von Colonel Mustard ist gelb, passend zu seinem Namen, der sich auf das Gewürz Senf bezieht (das typischerweise gelb ist).",
+          nl: "Het speelstuk van Colonel Mustard is geel, passend bij zijn naam die verwijst naar het kruidenierswaren mosterd (die meestal geel is)."
+        }
       }
     ]
   };

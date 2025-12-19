@@ -827,6 +827,447 @@
           de: "Ressourcenproduktion wird am besten durch eine Multinomialverteilung mit korrelierten Ergebnissen modelliert, weil: (1) jeder Würfelwurf ein diskretes Ergebnis mit festen Wahrscheinlichkeiten produziert, (2) mehrere Ressourcen gleichzeitig aus einem einzigen Wurf generiert werden können (Korrelation), (3) die Wahrscheinlichkeiten über Würfe konstant bleiben, und (4) die Anzahl der Versuche (Runden) variabel ist. Dieses Modell erfasst genau die Kovarianzstruktur zwischen verschiedenen Ressourcenproduktionen, wesentlich für Portfolio-Optimierungsstrategien.",
           nl: "Grondstofproductie wordt het beste gemodelleerd door een multinomiale verdeling met gecorreleerde uitkomsten omdat: (1) elke dobbelsteenworp een discreet resultaat produceert met vaste waarschijnlijkheden, (2) meerdere grondstoffen tegelijkertijd kunnen worden gegenereerd vanuit een enkele worp (correlatie), (3) de waarschijnlijkheden constant blijven over worpen, en (4) het aantal pogingen (beurten) variabel is. Dit model legt nauwkeurig de covariantiestructuur vast tussen verschillende grondstofproducties, essentieel voor portefeuille-optimalisatiestrategieën."
         }
+      },
+      {
+        question: {
+          en: "What is the 'Kelly Criterion' application in development card purchase optimization?",
+          es: "¿Qué es la aplicación del 'Criterio de Kelly' en la optimización de compra de cartas de desarrollo?",
+          de: "Was ist die 'Kelly-Kriterium'-Anwendung in der Entwicklungskarten-Kaufoptimierung?",
+          nl: "Wat is de 'Kelly Criterium' toepassing in ontwikkelingskaart aankoop optimalisatie?"
+        },
+        options: [
+          { en: "Optimal fraction of resources to allocate to dev cards = (expected value - 1) / variance", es: "Fracción óptima de recursos para asignar a cartas de desarrollo = (valor esperado - 1) / varianza", de: "Optimaler Ressourcenanteil für Dev-Karten = (Erwartungswert - 1) / Varianz", nl: "Optimale fractie van bronnen te alloceren aan dev kaarten = (verwachte waarde - 1) / variantie" },
+          { en: "Always spend 100% on development cards", es: "Siempre gastar 100% en cartas de desarrollo", de: "Immer 100% für Entwicklungskarten ausgeben", nl: "Altijd 100% uitgeven aan ontwikkelingskaarten" },
+          { en: "Never allocate more than 10% to cards", es: "Nunca asignar más del 10% a cartas", de: "Nie mehr als 10% für Karten zuweisen", nl: "Nooit meer dan 10% toewijzen aan kaarten" },
+          { en: "Kelly Criterion doesn't apply to board games", es: "El Criterio de Kelly no se aplica a juegos de mesa", de: "Kelly-Kriterium gilt nicht für Brettspiele", nl: "Kelly Criterium geldt niet voor bordspellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Kelly Criterion from probability theory determines optimal bet sizing to maximize long-term growth. Applied to Catan dev cards: if expected value per card is 0.7 VPs with variance σ², the optimal resource allocation fraction = (EV - cost) / σ². This prevents over-investment (buying too many cards with diminishing returns) while maximizing growth rate. Elite players intuitively implement this by buying 5-7 cards (the Kelly-optimal range for typical deck compositions).",
+          es: "El Criterio de Kelly de la teoría de probabilidad determina el tamaño óptimo de apuesta para maximizar el crecimiento a largo plazo. Aplicado a cartas de desarrollo de Catan: si el valor esperado por carta es 0.7 PVs con varianza σ², la fracción óptima de asignación de recursos = (VE - costo) / σ². Esto previene sobre-inversión (comprar demasiadas cartas con rendimientos decrecientes) mientras maximiza tasa de crecimiento. Los jugadores de élite implementan esto intuitivamente comprando 5-7 cartas (el rango óptimo de Kelly para composiciones típicas de mazo).",
+          de: "Das Kelly-Kriterium aus der Wahrscheinlichkeitstheorie bestimmt optimale Wettgröße zur Maximierung langfristigen Wachstums. Angewandt auf Catan-Dev-Karten: wenn Erwartungswert pro Karte 0,7 SPs mit Varianz σ² ist, optimaler Ressourcenzuteilungsanteil = (EW - Kosten) / σ². Dies verhindert Überinvestition (zu viele Karten mit abnehmenden Erträgen kaufen) während Wachstumsrate maximiert wird. Elite-Spieler implementieren dies intuitiv durch Kauf von 5-7 Karten (der Kelly-optimale Bereich für typische Deck-Zusammensetzungen).",
+          nl: "Het Kelly Criterium uit waarschijnlijkheidstheorie bepaalt optimale inzet grootte om lange-termijn groei te maximaliseren. Toegepast op Catan dev kaarten: als verwachte waarde per kaart 0,7 OPs is met variantie σ², de optimale bron allocatie fractie = (VW - kosten) / σ². Dit voorkomt over-investering (te veel kaarten kopen met afnemende opbrengsten) terwijl groeisnelheid gemaximaliseerd wordt. Elite spelers implementeren dit intuïtief door 5-7 kaarten te kopen (het Kelly-optimale bereik voor typische deck composities)."
+        }
+      },
+      {
+        question: {
+          en: "In game-tree complexity analysis, what is Catan's approximate game-tree size?",
+          es: "En el análisis de complejidad del árbol de juego, ¿cuál es el tamaño aproximado del árbol de juego de Catan?",
+          de: "Was ist in der Spielbaum-Komplexitätsanalyse die ungefähre Spielbaumgröße von Catan?",
+          nl: "Wat is in spelboom complexiteitsanalyse de geschatte spelboom grootte van Catan?"
+        },
+        options: [
+          { en: "~10^15 to 10^18 unique game states (larger than chess 10^120 positions but prunable)", es: "~10^15 a 10^18 estados de juego únicos (más grande que posiciones de ajedrez 10^120 pero podable)", de: "~10^15 bis 10^18 einzigartige Spielzustände (größer als Schach 10^120 Positionen aber beschneidbar)", nl: "~10^15 tot 10^18 unieke speltoestanden (groter dan schaak 10^120 posities maar snoeibaar)" },
+          { en: "Exactly 10^6 possible games", es: "Exactamente 10^6 juegos posibles", de: "Genau 10^6 mögliche Spiele", nl: "Precies 10^6 mogelijke spellen" },
+          { en: "Infinite game states", es: "Estados de juego infinitos", de: "Unendliche Spielzustände", nl: "Oneindige speltoestanden" },
+          { en: "Smaller than tic-tac-toe", es: "Más pequeño que tres en raya", de: "Kleiner als Tic-Tac-Toe", nl: "Kleiner dan boter-kaas-eieren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Computational complexity research estimates Catan's game tree at 10^15-10^18 states, accounting for: board configurations, settlement placements, resource distributions, development cards, and trade sequences. While massive, it's computationally tractable with modern AI techniques (unlike Go's 10^170). The stochastic elements (dice) and hidden information (dev cards) add complexity but also enable Monte Carlo sampling for approximate solutions, making Catan AI-solvable within reasonable compute budgets.",
+          es: "La investigación de complejidad computacional estima el árbol de juego de Catan en 10^15-10^18 estados, considerando: configuraciones de tablero, colocaciones de asentamientos, distribuciones de recursos, cartas de desarrollo y secuencias de comercio. Aunque masivo, es computacionalmente manejable con técnicas modernas de IA (a diferencia de Go's 10^170). Los elementos estocásticos (dados) e información oculta (cartas de desarrollo) añaden complejidad pero también permiten muestreo Monte Carlo para soluciones aproximadas, haciendo que la IA de Catan sea resoluble dentro de presupuestos de cómputo razonables.",
+          de: "Forschung zur Berechnungskomplexität schätzt Catans Spielbaum auf 10^15-10^18 Zustände unter Berücksichtigung von: Brettkonfigurationen, Siedlungsplatzierungen, Ressourcenverteilungen, Entwicklungskarten und Handelssequenzen. Obwohl massiv, ist es mit modernen KI-Techniken rechnerisch handhabbar (im Gegensatz zu Gos 10^170). Die stochastischen Elemente (Würfel) und versteckte Information (Dev-Karten) fügen Komplexität hinzu, ermöglichen aber auch Monte-Carlo-Sampling für Näherungslösungen, macht Catan-KI lösbar innerhalb vernünftiger Rechenbudgets.",
+          nl: "Computationele complexiteitsonderzoek schat Catan's spelboom op 10^15-10^18 toestanden, rekening houdend met: bordconfiguraties, nederzettingsplaatsingen, bron distributies, ontwikkelingskaarten en handelssequenties. Hoewel massief, is het computationeel hanteerbaar met moderne AI technieken (in tegenstelling tot Go's 10^170). De stochastische elementen (dobbelstenen) en verborgen informatie (dev kaarten) voegen complexiteit toe maar maken ook Monte Carlo sampling mogelijk voor benaderende oplossingen, maakt Catan AI-oplosbaar binnen redelijke compute budgetten."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Shapley value' in coalition payoff distribution?",
+          es: "¿Qué es el 'valor de Shapley' en la distribución de pagos de coalición?",
+          de: "Was ist der 'Shapley-Wert' in Koalitionsauszahlungsverteilung?",
+          nl: "Wat is de 'Shapley waarde' in coalitie uitbetaling distributie?"
+        },
+        options: [
+          { en: "Fair distribution of coalition gains based on marginal contribution of each player", es: "Distribución justa de ganancias de coalición basada en contribución marginal de cada jugador", de: "Faire Verteilung von Koalitionsgewinnen basierend auf Marginalbeitrag jedes Spielers", nl: "Eerlijke distributie van coalitie winsten gebaseerd op marginale bijdrage van elke speler" },
+          { en: "Equal split of all resources always", es: "División igual de todos los recursos siempre", de: "Gleichmäßige Aufteilung aller Ressourcen immer", nl: "Gelijke verdeling van alle bronnen altijd" },
+          { en: "Winner takes all rewards", es: "El ganador se lleva todas las recompensas", de: "Gewinner nimmt alle Belohnungen", nl: "Winnaar neemt alle beloningen" },
+          { en: "Random distribution of benefits", es: "Distribución aleatoria de beneficios", de: "Zufällige Verteilung von Vorteilen", nl: "Willekeurige distributie van voordelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Shapley value (from cooperative game theory) calculates each player's fair share of coalition gains by averaging their marginal contribution across all possible orderings. In Catan anti-leader coalitions: if blocking leader provides 3 points value total, and Player A's robber placement contributed 60% of blocking effectiveness while Player B's trade embargo contributed 40%, Shapley values are 1.8 and 1.2 points respectively. This quantifies 'fairness' in coalition participation, helping elite players negotiate implicit cooperation.",
+          es: "El valor de Shapley (de la teoría de juegos cooperativos) calcula la parte justa de ganancias de coalición de cada jugador promediando su contribución marginal a través de todos los ordenamientos posibles. En coaliciones anti-líder de Catan: si bloquear al líder proporciona valor de 3 puntos totales, y la colocación del ladrón del Jugador A contribuyó con 60% de efectividad de bloqueo mientras que el embargo comercial del Jugador B contribuyó con 40%, los valores de Shapley son 1.8 y 1.2 puntos respectivamente. Esto cuantifica 'equidad' en participación de coalición, ayudando a jugadores de élite a negociar cooperación implícita.",
+          de: "Der Shapley-Wert (aus kooperativer Spieltheorie) berechnet den fairen Anteil jedes Spielers an Koalitionsgewinnen durch Durchschnittsbildung ihres Marginalbeitrags über alle möglichen Anordnungen. In Catan-Anti-Anführer-Koalitionen: wenn Anführer blockieren 3 Punkte Gesamtwert liefert, und Spieler A's Räuberplatzierung 60% Blockierungseffektivität beitrug während Spieler B's Handelsembargo 40% beitrug, sind Shapley-Werte 1,8 und 1,2 Punkte respektive. Dies quantifiziert 'Fairness' in Koalitionsteilnahme, hilft Elite-Spielern implizite Kooperation zu verhandeln.",
+          nl: "De Shapley waarde (uit coöperatieve speltheorie) berekent het eerlijke aandeel van elke speler in coalitie winsten door hun marginale bijdrage te middelen over alle mogelijke volgordes. In Catan anti-leider coalities: als leider blokkeren 3 punten totale waarde biedt, en Speler A's rover plaatsing 60% blokkerings effectiviteit bijdroeg terwijl Speler B's handelsembargo 40% bijdroeg, zijn Shapley waarden respectievelijk 1,8 en 1,2 punten. Dit kwantificeert 'eerlijkheid' in coalitie deelname, helpt elite spelers impliciete samenwerking te onderhandelen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'mean-variance portfolio optimization' in settlement placement?",
+          es: "¿Qué es la 'optimización de cartera de media-varianza' en la colocación de asentamientos?",
+          de: "Was ist 'Mittelwert-Varianz-Portfolio-Optimierung' in Siedlungsplatzierung?",
+          nl: "Wat is 'gemiddelde-variantie portefeuille optimalisatie' in nederzettingsplaatsing?"
+        },
+        options: [
+          { en: "Select hex portfolio maximizing E(production) / σ(production) ratio (Sharpe-like metric)", es: "Seleccionar cartera de hexágonos maximizando ratio E(producción) / σ(producción) (métrica tipo Sharpe)", de: "Hex-Portfolio wählen maximiert E(Produktion) / σ(Produktion) Verhältnis (Sharpe-ähnliche Metrik)", nl: "Selecteer hex portefeuille maximaliseren E(productie) / σ(productie) ratio (Sharpe-achtig metriek)" },
+          { en: "Always choose maximum variance hexes", es: "Siempre elegir hexágonos de máxima varianza", de: "Immer maximale Varianz-Hexe wählen", nl: "Altijd maximum variantie hexen kiezen" },
+          { en: "Ignore variance completely", es: "Ignorar varianza completamente", de: "Varianz vollständig ignorieren", nl: "Negeer variantie volledig" },
+          { en: "Only consider mean production", es: "Solo considerar producción media", de: "Nur mittlere Produktion berücksichtigen", nl: "Alleen gemiddelde productie overwegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Borrowed from Modern Portfolio Theory (Markowitz), optimal settlement placement treats hexes as 'assets' in a portfolio. Goal: maximize expected production while minimizing variance (risk). The efficient frontier is found by solving: max[E(R) - λσ²(R)] where λ = risk aversion parameter. Example: 6-8-5 (14 pips, high variance) vs 4-5-9-10 spread (13 pips, low variance). Risk-averse players choose the latter for consistent income despite slightly lower mean. This Sharpe ratio thinking optimizes risk-adjusted returns.",
+          es: "Tomado de la Teoría Moderna de Carteras (Markowitz), la colocación óptima de asentamientos trata hexágonos como 'activos' en una cartera. Objetivo: maximizar producción esperada mientras minimiza varianza (riesgo). La frontera eficiente se encuentra resolviendo: max[E(R) - λσ²(R)] donde λ = parámetro de aversión al riesgo. Ejemplo: 6-8-5 (14 pips, alta varianza) vs dispersión 4-5-9-10 (13 pips, baja varianza). Los jugadores aversos al riesgo eligen el último para ingreso consistente a pesar de media ligeramente menor. Este pensamiento de ratio de Sharpe optimiza rendimientos ajustados al riesgo.",
+          de: "Entlehnt aus Moderner Portfolio-Theorie (Markowitz), behandelt optimale Siedlungsplatzierung Hexe als 'Vermögenswerte' in einem Portfolio. Ziel: erwartete Produktion maximieren während Varianz (Risiko) minimiert wird. Die effiziente Grenze wird gefunden durch Lösen: max[E(R) - λσ²(R)] wo λ = Risikoaversionsparameter. Beispiel: 6-8-5 (14 Pips, hohe Varianz) vs 4-5-9-10 Streuung (13 Pips, niedrige Varianz). Risikoaverse Spieler wählen letzteres für konsistentes Einkommen trotz leicht niedrigerem Mittelwert. Dieses Sharpe-Ratio-Denken optimiert risikoadjustierte Erträge.",
+          nl: "Ontleend aan Moderne Portefeuille Theorie (Markowitz), behandelt optimale nederzettingsplaatsing hexen als 'activa' in een portefeuille. Doel: maximaliseer verwachte productie terwijl variantie (risico) geminimaliseerd wordt. De efficiënte grens wordt gevonden door op te lossen: max[E(R) - λσ²(R)] waar λ = risico afkeer parameter. Voorbeeld: 6-8-5 (14 pips, hoge variantie) vs 4-5-9-10 spreiding (13 pips, lage variantie). Risico-afkerige spelers kiezen laatstgenoemde voor consistent inkomen ondanks iets lager gemiddelde. Dit Sharpe ratio denken optimaliseert risico-aangepaste opbrengsten."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Gini coefficient' interpretation for resource inequality in Catan?",
+          es: "¿Qué es la interpretación del 'coeficiente de Gini' para la desigualdad de recursos en Catan?",
+          de: "Was ist die 'Gini-Koeffizient'-Interpretation für Ressourcenungleichheit in Catan?",
+          nl: "Wat is de 'Gini coëfficiënt' interpretatie voor bron ongelijkheid in Catan?"
+        },
+        options: [
+          { en: "Gini near 1.0 indicates extreme resource concentration; optimal strategy depends on position (leaders want low Gini, trailers want high)", es: "Gini cerca de 1.0 indica concentración extrema de recursos; estrategia óptima depende de posición (líderes quieren Gini bajo, rezagados quieren alto)", de: "Gini nahe 1,0 zeigt extreme Ressourcenkonzentration an; optimale Strategie hängt von Position ab (Anführer wollen niedrigen Gini, Zurückliegende wollen hohen)", nl: "Gini nabij 1,0 duidt op extreme bron concentratie; optimale strategie hangt af van positie (leiders willen lage Gini, achterblijvers willen hoge)" },
+          { en: "All players should always maximize Gini coefficient", es: "Todos los jugadores siempre deben maximizar coeficiente de Gini", de: "Alle Spieler sollten immer Gini-Koeffizient maximieren", nl: "Alle spelers moeten altijd Gini coëfficiënt maximaliseren" },
+          { en: "Gini coefficient irrelevant to Catan", es: "Coeficiente de Gini irrelevante para Catan", de: "Gini-Koeffizient irrelevant für Catan", nl: "Gini coëfficiënt irrelevant voor Catan" },
+          { en: "Lower Gini always better for everyone", es: "Gini más bajo siempre mejor para todos", de: "Niedrigerer Gini immer besser für alle", nl: "Lagere Gini altijd beter voor iedereen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Gini coefficient (0-1 scale) measures resource distribution inequality across players. High Gini (0.7-0.9) = one player dominates resources; low Gini (0.2-0.4) = balanced distribution. Strategic insight: leaders prefer low Gini (prevent others from catching up via resource windfalls); trailing players prefer high Gini (create volatility for comeback opportunities). This explains why leaders block trades to maintain balance, while trailers encourage asymmetric deals to create Gini spikes that might benefit them.",
+          es: "El coeficiente de Gini (escala 0-1) mide desigualdad de distribución de recursos entre jugadores. Alto Gini (0.7-0.9) = un jugador domina recursos; bajo Gini (0.2-0.4) = distribución equilibrada. Perspicacia estratégica: líderes prefieren Gini bajo (prevenir que otros alcancen vía ganancias inesperadas de recursos); jugadores rezagados prefieren Gini alto (crear volatilidad para oportunidades de regreso). Esto explica por qué líderes bloquean intercambios para mantener equilibrio, mientras rezagados fomentan tratos asimétricos para crear picos de Gini que puedan beneficiarlos.",
+          de: "Der Gini-Koeffizient (0-1-Skala) misst Ressourcenverteilungsungleichheit über Spieler. Hoher Gini (0,7-0,9) = ein Spieler dominiert Ressourcen; niedriger Gini (0,2-0,4) = ausgewogene Verteilung. Strategische Einsicht: Anführer bevorzugen niedrigen Gini (verhindern dass andere aufholen via Ressourcen-Glücksfälle); zurückliegende Spieler bevorzugen hohen Gini (Volatilität schaffen für Comeback-Möglichkeiten). Dies erklärt warum Anführer Geschäfte blockieren um Balance zu halten, während Zurückliegende asymmetrische Deals fördern um Gini-Spitzen zu schaffen die ihnen nützen könnten.",
+          nl: "De Gini coëfficiënt (0-1 schaal) meet bron distributie ongelijkheid over spelers. Hoge Gini (0,7-0,9) = één speler domineert bronnen; lage Gini (0,2-0,4) = gebalanceerde distributie. Strategisch inzicht: leiders prefereren lage Gini (voorkom dat anderen inhalen via bron meevaller); achterop rakende spelers prefereren hoge Gini (creëer volatiliteit voor comeback kansen). Dit verklaart waarom leiders ruilen blokkeren om balans te behouden, terwijl achterblijvers asymmetrische deals aanmoedigen om Gini pieken te creëren die hen kunnen bevoordelen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'subgame perfect equilibrium' in Catan's sequential decision-making?",
+          es: "¿Qué es el 'equilibrio perfecto de subjuego' en la toma de decisiones secuenciales de Catan?",
+          de: "Was ist 'teilspielperfektes Gleichgewicht' in Catans sequentieller Entscheidungsfindung?",
+          nl: "Wat is 'subspel perfect evenwicht' in Catan's sequentiële besluitvorming?"
+        },
+        options: [
+          { en: "Nash equilibrium that remains optimal in every subgame (prevents non-credible threats)", es: "Equilibrio de Nash que permanece óptimo en cada subjuego (previene amenazas no creíbles)", de: "Nash-Gleichgewicht das in jedem Teilspiel optimal bleibt (verhindert nicht glaubwürdige Drohungen)", nl: "Nash evenwicht dat optimaal blijft in elk subspel (voorkomt niet-geloofwaardige dreigingen)" },
+          { en: "Any equilibrium in opening moves only", es: "Cualquier equilibrio solo en movimientos de apertura", de: "Jedes Gleichgewicht nur in Eröffnungszügen", nl: "Elk evenwicht alleen in openingszetten" },
+          { en: "Perfect information game solution", es: "Solución de juego de información perfecta", de: "Perfekte Informations-Spiel-Lösung", nl: "Perfecte informatie spel oplossing" },
+          { en: "Subgame equilibrium doesn't exist in Catan", es: "Equilibrio de subjuego no existe en Catan", de: "Teilspiel-Gleichgewicht existiert nicht in Catan", nl: "Subspel evenwicht bestaat niet in Catan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Subgame perfect equilibrium (SPE) refines Nash equilibrium by requiring optimality in every subgame (every decision point). In Catan: Player A threatens 'If you trade with B, I'll embargo you forever.' This is only SPE if the threat is credible (embargo actually benefits A). If embargo hurts A more than helping, it's not SPE—just a bluff. Elite players use backward induction to identify credible vs non-credible threats, ignoring the latter while respecting former. SPE enforces strategic rationality throughout the game tree.",
+          es: "El equilibrio perfecto de subjuego (SPE) refina equilibrio de Nash requiriendo optimalidad en cada subjuego (cada punto de decisión). En Catan: Jugador A amenaza 'Si comercias con B, te embargaré para siempre.' Esto es solo SPE si la amenaza es creíble (embargo realmente beneficia a A). Si embargo daña a A más que ayudar, no es SPE—solo un farol. Los jugadores de élite usan inducción hacia atrás para identificar amenazas creíbles vs no creíbles, ignorando las últimas mientras respetan las primeras. SPE hace cumplir racionalidad estratégica a lo largo del árbol de juego.",
+          de: "Teilspielperfektes Gleichgewicht (SPE) verfeinert Nash-Gleichgewicht durch Erfordernis von Optimalität in jedem Teilspiel (jedem Entscheidungspunkt). In Catan: Spieler A droht 'Wenn du mit B handelst, werde ich dich für immer embargieren.' Dies ist nur SPE wenn Drohung glaubwürdig ist (Embargo nützt A tatsächlich). Wenn Embargo A mehr schadet als hilft, ist es kein SPE—nur ein Bluff. Elite-Spieler nutzen Rückwärtsinduktion um glaubwürdige vs nicht-glaubwürdige Drohungen zu identifizieren, ignorieren letztere während erstere respektiert werden. SPE erzwingt strategische Rationalität durch den Spielbaum.",
+          nl: "Subspel perfect evenwicht (SPE) verfijnt Nash evenwicht door optimaliteit te vereisen in elk subspel (elk besluitpunt). In Catan: Speler A dreigt 'Als je ruilt met B, zal ik je voor altijd embargo opleggen.' Dit is alleen SPE als de dreiging geloofwaardig is (embargo komt A werkelijk ten goede). Als embargo A meer schaadt dan helpt, is het geen SPE—slechts een bluf. Elite spelers gebruiken achterwaartse inductie om geloofwaardige vs niet-geloofwaardige dreigingen te identificeren, negeren laatstgenoemde terwijl eerstgenoemde respecteren. SPE dwingt strategische rationaliteit af door de spelboom."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'trembling hand perfect equilibrium' application in Catan mistakes?",
+          es: "¿Qué es la aplicación del 'equilibrio perfecto de mano temblorosa' en errores de Catan?",
+          de: "Was ist die 'zitternde-Hand-perfektes-Gleichgewicht'-Anwendung in Catan-Fehlern?",
+          nl: "Wat is de 'trillende hand perfect evenwicht' toepassing in Catan fouten?"
+        },
+        options: [
+          { en: "Optimal strategy accounts for small probability opponent mistakes (ε-errors)", es: "Estrategia óptima considera pequeña probabilidad de errores del oponente (errores ε)", de: "Optimale Strategie berücksichtigt kleine Wahrscheinlichkeit Gegnerfehler (ε-Fehler)", nl: "Optimale strategie houdt rekening met kleine waarschijnlijkheid tegenstander fouten (ε-fouten)" },
+          { en: "Ignore all opponent mistakes completely", es: "Ignorar todos los errores del oponente completamente", de: "Alle Gegnerfehler vollständig ignorieren", nl: "Negeer alle tegenstander fouten volledig" },
+          { en: "Only applies to perfect play games", es: "Solo se aplica a juegos de juego perfecto", de: "Gilt nur für perfekte Spiel-Spiele", nl: "Geldt alleen voor perfecte spel spellen" },
+          { en: "Assumes opponents always blunder", es: "Asume que los oponentes siempre cometen errores", de: "Nimmt an Gegner machen immer Fehler", nl: "Neemt aan tegenstanders altijd blunderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Trembling hand equilibrium assumes all players have small probability ε of making mistakes. This refines strategy: even if 'never trade with leader' is optimal, accounting for trembles means occasionally offering trades (exploiting their potential errors). In Catan: placing robber on leader is dominant strategy, but trembling hand analysis suggests occasionally placing elsewhere (ε = 5%) to exploit potential miscalculations when leader incorrectly assumes you'll always block them. This introduces strategic unpredictability that's Nash-optimal when opponents are fallible humans.",
+          es: "El equilibrio de mano temblorosa asume que todos los jugadores tienen pequeña probabilidad ε de cometer errores. Esto refina estrategia: incluso si 'nunca comerciar con líder' es óptimo, considerar temblores significa ocasionalmente ofrecer intercambios (explotando sus errores potenciales). En Catan: colocar ladrón en líder es estrategia dominante, pero análisis de mano temblorosa sugiere ocasionalmente colocar en otro lugar (ε = 5%) para explotar errores de cálculo potenciales cuando líder asume incorrectamente que siempre los bloquearás. Esto introduce imprevisibilidad estratégica que es Nash-óptima cuando oponentes son humanos falibles.",
+          de: "Zitterndes-Hand-Gleichgewicht nimmt an alle Spieler haben kleine Wahrscheinlichkeit ε Fehler zu machen. Dies verfeinert Strategie: selbst wenn 'nie mit Anführer handeln' optimal ist, bedeutet Berücksichtigung von Zittern gelegentlich Geschäfte anzubieten (Ausbeutung ihrer potentiellen Fehler). In Catan: Räuber auf Anführer platzieren ist dominante Strategie, aber zitternde-Hand-Analyse schlägt gelegentlich anderswo platzieren vor (ε = 5%) um potentielle Fehlberechnungen auszunutzen wenn Anführer fälschlicherweise annimmt Sie werden sie immer blockieren. Dies führt strategische Unvorhersehbarkeit ein die Nash-optimal ist wenn Gegner fehlbare Menschen sind.",
+          nl: "Trillend hand evenwicht neemt aan alle spelers hebben kleine waarschijnlijkheid ε fouten te maken. Dit verfijnt strategie: zelfs als 'nooit ruilen met leider' optimaal is, betekent rekening houden met trillingen occasioneel ruilen aanbieden (exploiteren hun potentiële fouten). In Catan: rover plaatsen op leider is dominante strategie, maar trillende hand analyse suggereert occasioneel elders plaatsen (ε = 5%) om potentiële misrekeningen te exploiteren wanneer leider incorrect aanneemt je zult hen altijd blokkeren. Dit introduceert strategische onvoorspelbaarheid die Nash-optimaal is wanneer tegenstanders feilbare mensen zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Bayesian Nash equilibrium' in incomplete information Catan scenarios?",
+          es: "¿Qué es el 'equilibrio de Nash bayesiano' en escenarios de Catan de información incompleta?",
+          de: "Was ist 'Bayesianisches Nash-Gleichgewicht' in Catan-Szenarien unvollständiger Information?",
+          nl: "Wat is 'Bayesiaans Nash evenwicht' in onvolledige informatie Catan scenario's?"
+        },
+        options: [
+          { en: "Nash equilibrium where players hold beliefs about hidden information (dev cards) and update via Bayes' rule", es: "Equilibrio de Nash donde jugadores tienen creencias sobre información oculta (cartas de desarrollo) y actualizan vía regla de Bayes", de: "Nash-Gleichgewicht wo Spieler Überzeugungen über versteckte Information (Dev-Karten) halten und via Bayes-Regel aktualisieren", nl: "Nash evenwicht waar spelers overtuigingen hebben over verborgen informatie (dev kaarten) en bijwerken via Bayes' regel" },
+          { en: "Only applies to complete information games", es: "Solo se aplica a juegos de información completa", de: "Gilt nur für Spiele vollständiger Information", nl: "Geldt alleen voor complete informatie spellen" },
+          { en: "Requires revealing all hidden cards", es: "Requiere revelar todas las cartas ocultas", de: "Erfordert Offenbaren aller versteckten Karten", nl: "Vereist onthullen alle verborgen kaarten" },
+          { en: "Bayesian methods don't apply to board games", es: "Los métodos bayesianos no se aplican a juegos de mesa", de: "Bayesianische Methoden gelten nicht für Brettspiele", nl: "Bayesiaanse methoden gelden niet voor bordspellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bayesian Nash equilibrium extends Nash to games with incomplete information by modeling players' beliefs as probability distributions. In Catan: you don't know opponents' dev cards, so you maintain belief distributions (e.g., 'P(opponent has VP card) = 0.3') and update them Bayesian-style when observing actions. Equilibrium requires: each player's strategy is optimal given their beliefs AND beliefs are consistent with observed behavior. This explains why signaling (buying many dev cards) changes opponents' beliefs, altering their equilibrium strategies toward you.",
+          es: "El equilibrio de Nash bayesiano extiende Nash a juegos con información incompleta modelando creencias de jugadores como distribuciones de probabilidad. En Catan: no conoces las cartas de desarrollo de oponentes, así que mantienes distribuciones de creencias (ej., 'P(oponente tiene carta VP) = 0.3') y las actualizas estilo bayesiano al observar acciones. El equilibrio requiere: estrategia de cada jugador es óptima dadas sus creencias Y creencias son consistentes con comportamiento observado. Esto explica por qué señalización (comprar muchas cartas de desarrollo) cambia creencias de oponentes, alterando sus estrategias de equilibrio hacia ti.",
+          de: "Bayesianisches Nash-Gleichgewicht erweitert Nash auf Spiele mit unvollständiger Information durch Modellierung von Spielerüberzeugungen als Wahrscheinlichkeitsverteilungen. In Catan: man kennt Gegner-Dev-Karten nicht, also hält man Glaubensverteilungen (z.B. 'P(Gegner hat VP-Karte) = 0,3') und aktualisiert sie Bayesianisch beim Beobachten von Aktionen. Gleichgewicht erfordert: Strategie jedes Spielers ist optimal gegeben ihre Überzeugungen UND Überzeugungen sind konsistent mit beobachtetem Verhalten. Dies erklärt warum Signalisierung (viele Dev-Karten kaufen) Gegnerüberzeugungen ändert, ihre Gleichgewichtsstrategien Ihnen gegenüber alterierend.",
+          nl: "Bayesiaans Nash evenwicht breidt Nash uit naar spellen met onvolledige informatie door speler overtuigingen te modelleren als waarschijnlijkheidsverdelingen. In Catan: je kent tegenstander dev kaarten niet, dus onderhoud je overtuigingsverdelingen (bijv. 'P(tegenstander heeft VP kaart) = 0,3') en werk ze Bayesiaans bij bij het observeren van acties. Evenwicht vereist: strategie van elke speler is optimaal gegeven hun overtuigingen EN overtuigingen zijn consistent met geobserveerd gedrag. Dit verklaart waarom signalering (veel dev kaarten kopen) tegenstander overtuigingen verandert, hun evenwicht strategieën tegenover jou wijzigend."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Folk Theorem' implication for repeated Catan tournament play?",
+          es: "¿Qué es la implicación del 'Teorema Folk' para juego de torneo de Catan repetido?",
+          de: "Was ist die 'Folk-Theorem'-Implikation für wiederholtes Catan-Turnierspiel?",
+          nl: "Wat is de 'Folk Theorema' implicatie voor herhaald Catan toernooispel?"
+        },
+        options: [
+          { en: "Cooperation sustainable via trigger strategies when players value future reputation (infinite horizon)", es: "Cooperación sostenible vía estrategias de gatillo cuando jugadores valoran reputación futura (horizonte infinito)", de: "Kooperation nachhaltig via Trigger-Strategien wenn Spieler zukünftige Reputation schätzen (unendlicher Horizont)", nl: "Samenwerking duurzaam via trigger strategieën wanneer spelers toekomstige reputatie waarderen (oneindige horizon)" },
+          { en: "Cooperation impossible in all repeated games", es: "Cooperación imposible en todos los juegos repetidos", de: "Kooperation unmöglich in allen wiederholten Spielen", nl: "Samenwerking onmogelijk in alle herhaalde spellen" },
+          { en: "Only one equilibrium exists in repeated play", es: "Solo existe un equilibrio en juego repetido", de: "Nur ein Gleichgewicht existiert in wiederholtem Spiel", nl: "Slechts één evenwicht bestaat in herhaald spel" },
+          { en: "Folk Theorem only applies to zero-sum games", es: "Teorema Folk solo se aplica a juegos de suma cero", de: "Folk-Theorem gilt nur für Nullsummenspiele", nl: "Folk Theorema geldt alleen voor nul-som spellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Folk Theorem states that in infinitely repeated games, many equilibria exist beyond one-shot Nash, including cooperative outcomes, sustained by punishment threats. In Catan tournaments (repeated matches): refusing to trade with someone who 'backstabbed' you previously is rational via 'grim trigger' strategy—cooperation is equilibrium if players sufficiently value future games. This explains tournament meta-dynamics: reputation matters, cooperation emerges even in competitive contexts, and betrayal has long-term costs. δ (discount factor) must be high enough for cooperation to dominate.",
+          es: "El Teorema Folk establece que en juegos infinitamente repetidos, existen muchos equilibrios más allá de Nash de una sola vez, incluyendo resultados cooperativos, sostenidos por amenazas de castigo. En torneos de Catan (partidas repetidas): rechazar comerciar con alguien que te 'traicionó' previamente es racional vía estrategia de 'gatillo sombrío'—cooperación es equilibrio si jugadores valoran suficientemente juegos futuros. Esto explica meta-dinámicas de torneo: reputación importa, cooperación emerge incluso en contextos competitivos, y traición tiene costos a largo plazo. δ (factor de descuento) debe ser suficientemente alto para que cooperación domine.",
+          de: "Das Folk-Theorem besagt dass in unendlich wiederholten Spielen viele Gleichgewichte über einmaliges Nash hinaus existieren, einschließlich kooperativer Ergebnisse, aufrechterhalten durch Bestrafungsdrohungen. In Catan-Turnieren (wiederholte Matches): Ablehnung mit jemandem zu handeln der Sie zuvor 'verraten' hat ist rational via 'Grim-Trigger'-Strategie—Kooperation ist Gleichgewicht wenn Spieler zukünftige Spiele ausreichend schätzen. Dies erklärt Turnier-Meta-Dynamiken: Reputation zählt, Kooperation entsteht selbst in kompetitiven Kontexten, und Verrat hat langfristige Kosten. δ (Diskontfaktor) muss hoch genug sein damit Kooperation dominiert.",
+          nl: "Het Folk Theorema stelt dat in oneindig herhaalde spellen veel evenwichten bestaan voorbij eenmalige Nash, inclusief coöperatieve uitkomsten, ondersteund door straf dreigingen. In Catan toernooien (herhaalde wedstrijden): weigeren te ruilen met iemand die je eerder 'verraden' heeft is rationeel via 'grimmige trigger' strategie—samenwerking is evenwicht als spelers toekomstige spellen voldoende waarderen. Dit verklaart toernooi meta-dynamica: reputatie telt, samenwerking ontstaat zelfs in competitieve contexten, en verraad heeft lange-termijn kosten. δ (disconteringsfactor) moet hoog genoeg zijn opdat samenwerking domineert."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'correlated equilibrium' concept in Catan coordinated play?",
+          es: "¿Qué es el concepto de 'equilibrio correlacionado' en juego coordinado de Catan?",
+          de: "Was ist das 'korrelierte Gleichgewichts'-Konzept in koordiniertem Catan-Spiel?",
+          nl: "Wat is het 'gecorreleerd evenwicht' concept in gecoördineerd Catan spel?"
+        },
+        options: [
+          { en: "Players coordinate via public signal (e.g., dice roll) to select joint strategies yielding better outcomes than Nash", es: "Jugadores coordinan vía señal pública (ej., tirada de dados) para seleccionar estrategias conjuntas produciendo mejores resultados que Nash", de: "Spieler koordinieren via öffentliches Signal (z.B. Würfelwurf) um gemeinsame Strategien zu wählen die bessere Ergebnisse als Nash bringen", nl: "Spelers coördineren via publiek signaal (bijv. dobbelsteenworp) om gezamenlijke strategieën te selecteren die betere uitkomsten opleveren dan Nash" },
+          { en: "All players always defect independently", es: "Todos los jugadores siempre desertan independientemente", de: "Alle Spieler desertieren immer unabhängig", nl: "Alle spelers altijd deserteren onafhankelijk" },
+          { en: "Requires private communication only", es: "Requiere solo comunicación privada", de: "Erfordert nur private Kommunikation", nl: "Vereist alleen privé communicatie" },
+          { en: "Correlation forbidden in game theory", es: "Correlación prohibida en teoría de juegos", de: "Korrelation in Spieltheorie verboten", nl: "Correlatie verboden in speltheorie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Correlated equilibrium allows players to coordinate using publicly observable signals without explicit communication. In Catan: 'If dice sum is even, Player A blocks leader; if odd, Player B blocks' achieves better anti-leader coordination than independent Nash strategies. The public randomness (dice) serves as correlation device, enabling implicit cooperation that's self-enforcing (no one benefits from deviating given others follow). This explains emergent coordination patterns in expert games without collusion—the game's randomness itself facilitates superior equilibria.",
+          es: "El equilibrio correlacionado permite a jugadores coordinar usando señales públicamente observables sin comunicación explícita. En Catan: 'Si suma de dados es par, Jugador A bloquea líder; si impar, Jugador B bloquea' logra mejor coordinación anti-líder que estrategias Nash independientes. La aleatoriedad pública (dados) sirve como dispositivo de correlación, permitiendo cooperación implícita que es auto-reforzante (nadie beneficia de desviarse dado que otros siguen). Esto explica patrones de coordinación emergentes en juegos expertos sin colusión—la aleatoriedad del juego misma facilita equilibrios superiores.",
+          de: "Korreliertes Gleichgewicht erlaubt Spielern Koordination mit öffentlich beobachtbaren Signalen ohne explizite Kommunikation. In Catan: 'Wenn Würfelsumme gerade ist, blockiert Spieler A Anführer; wenn ungerade, blockiert Spieler B' erreicht bessere Anti-Anführer-Koordination als unabhängige Nash-Strategien. Die öffentliche Zufälligkeit (Würfel) dient als Korrelationsgerät, ermöglicht implizite Kooperation die selbstdurchsetzend ist (niemand profitiert von Abweichung gegeben andere folgen). Dies erklärt aufkommende Koordinationsmuster in Expertenspielen ohne Absprache—die Zufälligkeit des Spiels selbst ermöglicht überlegene Gleichgewichte.",
+          nl: "Gecorreleerd evenwicht maakt spelers coördineren mogelijk met publiek waarneembare signalen zonder expliciete communicatie. In Catan: 'Als dobbelsom even is, blokkeert Speler A leider; als oneven, blokkeert Speler B' bereikt betere anti-leider coördinatie dan onafhankelijke Nash strategieën. De publieke willekeur (dobbelstenen) dient als correlatie apparaat, maakt impliciete samenwerking mogelijk die zelf-afdwingend is (niemand profiteert van afwijken gegeven anderen volgen). Dit verklaart opkomende coördinatie patronen in expert spellen zonder collusie—de willekeur van het spel zelf faciliteert superieure evenwichten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'evolutionary stable strategy' (ESS) in Catan population dynamics?",
+          es: "¿Qué es la 'estrategia evolutivamente estable' (ESS) en dinámica de población de Catan?",
+          de: "Was ist 'evolutionär stabile Strategie' (ESS) in Catan-Populationsdynamik?",
+          nl: "Wat is 'evolutionair stabiele strategie' (ESS) in Catan populatie dynamica?"
+        },
+        options: [
+          { en: "Strategy that resists invasion by mutant strategies in tournament meta-game evolution", es: "Estrategia que resiste invasión por estrategias mutantes en evolución de meta-juego de torneo", de: "Strategie die Invasion durch Mutantenstrategien in Turnier-Meta-Spiel-Evolution widersteht", nl: "Strategie die invasie weerstaat door mutant strategieën in toernooi meta-spel evolutie" },
+          { en: "Strategies that always dominate regardless of population", es: "Estrategias que siempre dominan independientemente de población", de: "Strategien die immer unabhängig von Population dominieren", nl: "Strategieën die altijd domineren ongeacht populatie" },
+          { en: "Random strategy selection over time", es: "Selección de estrategia aleatoria con el tiempo", de: "Zufällige Strategieauswahl über Zeit", nl: "Willekeurige strategie selectie over tijd" },
+          { en: "ESS doesn't apply to discrete games", es: "ESS no se aplica a juegos discretos", de: "ESS gilt nicht für diskrete Spiele", nl: "ESS geldt niet voor discrete spellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Evolutionary Stable Strategy (from evolutionary game theory) is a strategy that, if adopted by a population, cannot be invaded by any alternative mutant strategy. In Catan tournament metas: if everyone plays 'aggressive city-rush', a mutant 'defensive settlement-spread' strategy must not be able to exploit this and take over. ESS requires: strategy does well against itself AND beats any mutant. This explains why certain Catan strategies persist in competitive communities while others fade—only ESS strategies survive long-term evolutionary pressure of the meta-game.",
+          es: "La Estrategia Evolutivamente Estable (de teoría de juegos evolutiva) es una estrategia que, si es adoptada por una población, no puede ser invadida por ninguna estrategia mutante alternativa. En metas de torneo de Catan: si todos juegan 'empuje agresivo de ciudad', una estrategia mutante 'dispersión defensiva de asentamiento' no debe poder explotar esto y tomar el control. ESS requiere: estrategia funciona bien contra sí misma Y vence a cualquier mutante. Esto explica por qué ciertas estrategias de Catan persisten en comunidades competitivas mientras otras se desvanecen—solo estrategias ESS sobreviven presión evolutiva a largo plazo del meta-juego.",
+          de: "Evolutionär Stabile Strategie (aus evolutionärer Spieltheorie) ist eine Strategie die, wenn von einer Population angenommen, nicht von irgendeiner alternativen Mutantenstrategie invadiert werden kann. In Catan-Turnier-Metas: wenn alle 'aggressiven Stadt-Rush' spielen, darf eine mutante 'defensive Siedlungs-Ausbreitung'-Strategie dies nicht ausnutzen und übernehmen können. ESS erfordert: Strategie funktioniert gut gegen sich selbst UND schlägt jeden Mutanten. Dies erklärt warum bestimmte Catan-Strategien in kompetitiven Gemeinschaften persistieren während andere verblassen—nur ESS-Strategien überleben langfristigen evolutionären Druck des Meta-Spiels.",
+          nl: "Evolutionair Stabiele Strategie (uit evolutionaire speltheorie) is een strategie die, als aangenomen door een populatie, niet ingevallen kan worden door enige alternatieve mutant strategie. In Catan toernooi meta's: als iedereen 'agressieve stad-rush' speelt, mag een mutant 'defensieve nederzetting-spreiding' strategie dit niet kunnen exploiteren en overnemen. ESS vereist: strategie presteert goed tegen zichzelf EN verslaat elke mutant. Dit verklaart waarom bepaalde Catan strategieën persisteren in competitieve gemeenschappen terwijl anderen vervagen—alleen ESS strategieën overleven lange-termijn evolutionaire druk van het meta-spel."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'maximum entropy principle' in mixed strategy selection?",
+          es: "¿Qué es el 'principio de máxima entropía' en selección de estrategia mixta?",
+          de: "Was ist das 'Maximum-Entropie-Prinzip' in gemischter Strategieauswahl?",
+          nl: "Wat is het 'maximum entropie principe' in gemengde strategie selectie?"
+        },
+        options: [
+          { en: "Choose strategy distribution maximizing unpredictability (entropy) subject to equilibrium constraints", es: "Elegir distribución de estrategia maximizando imprevisibilidad (entropía) sujeto a restricciones de equilibrio", de: "Strategieverteilung wählen maximiert Unvorhersehbarkeit (Entropie) unter Gleichgewichtsbeschränkungen", nl: "Kies strategie distributie maximaliseren onvoorspelbaarheid (entropie) onderworpen aan evenwichtsbeperkingen" },
+          { en: "Always use deterministic pure strategies", es: "Siempre usar estrategias puras determinísticas", de: "Immer deterministische reine Strategien verwenden", nl: "Altijd deterministische pure strategieën gebruiken" },
+          { en: "Minimize entropy in all cases", es: "Minimizar entropía en todos los casos", de: "Entropie in allen Fällen minimieren", nl: "Minimaliseer entropie in alle gevallen" },
+          { en: "Entropy irrelevant to game theory", es: "Entropía irrelevante para teoría de juegos", de: "Entropie irrelevant für Spieltheorie", nl: "Entropie irrelevant voor speltheorie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Maximum entropy principle (from information theory) selects the probability distribution that is maximally unpredictable while satisfying known constraints. In Catan mixed strategies: given equilibrium requires robber placement distribution P(leader)=0.7, P(2nd)=0.2, P(others)=0.1, max-entropy refines this to prevent exploitable patterns. Instead of rigid 70-20-10 sequence, use randomization matching these probabilities—maximizes opponent uncertainty. Entropy H = -Σ p(i)log(p(i)) guides optimal mixing, preventing opponents from detecting patterns even when they know your average frequencies.",
+          es: "El principio de máxima entropía (de teoría de información) selecciona la distribución de probabilidad que es máximamente impredecible mientras satisface restricciones conocidas. En estrategias mixtas de Catan: dado que equilibrio requiere distribución de colocación de ladrón P(líder)=0.7, P(2°)=0.2, P(otros)=0.1, max-entropía refina esto para prevenir patrones explotables. En lugar de secuencia rígida 70-20-10, usa aleatorización coincidiendo estas probabilidades—maximiza incertidumbre del oponente. Entropía H = -Σ p(i)log(p(i)) guía mezcla óptima, previniendo que oponentes detecten patrones incluso cuando conocen tus frecuencias promedio.",
+          de: "Maximum-Entropie-Prinzip (aus Informationstheorie) wählt die Wahrscheinlichkeitsverteilung die maximal unvorhersehbar ist während bekannte Beschränkungen erfüllt werden. In Catan-gemischten Strategien: gegeben Gleichgewicht erfordert Räuberplatzierungsverteilung P(Anführer)=0,7, P(2.)=0,2, P(andere)=0,1, Max-Entropie verfeinert dies um ausbeutbare Muster zu verhindern. Statt rigider 70-20-10-Sequenz, Randomisierung verwenden die diese Wahrscheinlichkeiten matcht—maximiert Gegnerunsicherheit. Entropie H = -Σ p(i)log(p(i)) leitet optimale Mischung, verhindert dass Gegner Muster erkennen selbst wenn sie Ihre Durchschnittsfrequenzen kennen.",
+          nl: "Maximum entropie principe (uit informatie theorie) selecteert de waarschijnlijkheidsverdeling die maximaal onvoorspelbaar is terwijl bekende beperkingen voldaan worden. In Catan gemengde strategieën: gegeven evenwicht vereist rover plaatsing distributie P(leider)=0,7, P(2e)=0,2, P(anderen)=0,1, max-entropie verfijnt dit om exploiteerbare patronen te voorkomen. In plaats van rigide 70-20-10 sequentie, gebruik randomisatie matchend deze waarschijnlijkheden—maximaliseert tegenstander onzekerheid. Entropie H = -Σ p(i)log(p(i)) gidst optimale menging, voorkomt tegenstanders patronen detecteren zelfs wanneer ze je gemiddelde frequenties kennen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'mechanism design' principle for Catan house rules?",
+          es: "¿Qué es el principio de 'diseño de mecanismos' para reglas caseras de Catan?",
+          de: "Was ist das 'Mechanismus-Design'-Prinzip für Catan-Hausregeln?",
+          nl: "Wat is het 'mechanisme ontwerp' principe voor Catan huisregels?"
+        },
+        options: [
+          { en: "Design rules such that self-interested play yields desired outcomes (incentive compatibility)", es: "Diseñar reglas de modo que juego de interés propio produzca resultados deseados (compatibilidad de incentivos)", de: "Regeln so entwerfen dass eigennütziges Spiel gewünschte Ergebnisse bringt (Anreizkompatibilität)", nl: "Ontwerp regels zodat eigenbelang spel gewenste uitkomsten oplevert (incentive compatibiliteit)" },
+          { en: "Random rule generation", es: "Generación aleatoria de reglas", de: "Zufällige Regelerzeugung", nl: "Willekeurige regel generatie" },
+          { en: "Copy rules from other games directly", es: "Copiar reglas de otros juegos directamente", de: "Regeln aus anderen Spielen direkt kopieren", nl: "Kopieer regels uit andere spellen direct" },
+          { en: "Mechanism design doesn't apply to games", es: "Diseño de mecanismos no se aplica a juegos", de: "Mechanismus-Design gilt nicht für Spiele", nl: "Mechanisme ontwerp geldt niet voor spellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mechanism design (reverse game theory) asks: 'Given desired outcome X, what rules achieve it when players act selfishly?' Example Catan house rule goal: 'prevent runaway leader.' Mechanism design solution: 'Allow trailing players to trade with bank at 2:1 ratio' creates incentive compatibility—leaders can't exploit this (already strong), trailers use it to catch up, achieving desired competitive balance via self-interested optimization. This explains why tournament organizers add balancing mechanics that work via individual incentives rather than forcing cooperation.",
+          es: "El diseño de mecanismos (teoría de juegos inversa) pregunta: 'Dado resultado deseado X, ¿qué reglas lo logran cuando jugadores actúan egoístamente?' Ejemplo de objetivo de regla casera de Catan: 'prevenir líder desbocado.' Solución de diseño de mecanismos: 'Permitir que jugadores rezagados comercien con banco a ratio 2:1' crea compatibilidad de incentivos—líderes no pueden explotar esto (ya fuertes), rezagados lo usan para alcanzar, logrando equilibrio competitivo deseado vía optimización de interés propio. Esto explica por qué organizadores de torneos añaden mecánicas de equilibrio que funcionan vía incentivos individuales en lugar de forzar cooperación.",
+          de: "Mechanismus-Design (umgekehrte Spieltheorie) fragt: 'Gegeben gewünschtes Ergebnis X, welche Regeln erreichen es wenn Spieler selbstsüchtig handeln?' Beispiel Catan-Hausregel-Ziel: 'durchgehenden Anführer verhindern.' Mechanismus-Design-Lösung: 'Zurückliegenden Spielern erlauben mit Bank zu 2:1-Verhältnis zu handeln' schafft Anreizkompatibilität—Anführer können dies nicht ausnutzen (bereits stark), Zurückliegende nutzen es zum Aufholen, erreichen gewünschte kompetitive Balance via eigennützige Optimierung. Dies erklärt warum Turnierorganisatoren Ausgleichsmechaniken hinzufügen die via individuelle Anreize funktionieren statt Kooperation zu erzwingen.",
+          nl: "Mechanisme ontwerp (omgekeerde speltheorie) vraagt: 'Gegeven gewenste uitkomst X, welke regels bereiken het wanneer spelers egoïstisch handelen?' Voorbeeld Catan huisregel doel: 'voorkom weglopende leider.' Mechanisme ontwerp oplossing: 'Sta achterblijvende spelers toe te ruilen met bank op 2:1 ratio' creëert incentive compatibiliteit—leiders kunnen dit niet exploiteren (al sterk), achterblijvers gebruiken het om in te halen, bereiken gewenste competitieve balans via eigenbelang optimalisatie. Dit verklaart waarom toernooi organisatoren balancerende mechanica's toevoegen die werken via individuele incentives in plaats van samenwerking forceren."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'no-arbitrage principle' in resource market efficiency?",
+          es: "¿Qué es el 'principio de no arbitraje' en eficiencia del mercado de recursos?",
+          de: "Was ist das 'No-Arbitrage-Prinzip' in Ressourcenmarkt-Effizienz?",
+          nl: "Wat is het 'geen-arbitrage principe' in bron markt efficiëntie?"
+        },
+        options: [
+          { en: "In equilibrium, no profitable trading cycles exist (prevents 'money pump' exploitation)", es: "En equilibrio, no existen ciclos de comercio rentables (previene explotación de 'bomba de dinero')", de: "Im Gleichgewicht existieren keine profitablen Handelszyklen (verhindert 'Geldpumpen'-Ausbeutung)", nl: "In evenwicht bestaan geen winstgevende handels cycli (voorkomt 'geldpomp' exploitatie)" },
+          { en: "Arbitrage opportunities should always exist", es: "Oportunidades de arbitraje siempre deben existir", de: "Arbitrage-Möglichkeiten sollten immer existieren", nl: "Arbitrage mogelijkheden moeten altijd bestaan" },
+          { en: "No trading allowed in equilibrium", es: "No se permite comercio en equilibrio", de: "Kein Handel im Gleichgewicht erlaubt", nl: "Geen handel toegestaan in evenwicht" },
+          { en: "Arbitrage principle doesn't apply to Catan", es: "Principio de arbitraje no se aplica a Catan", de: "Arbitrage-Prinzip gilt nicht für Catan", nl: "Arbitrage principe geldt niet voor Catan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "No-arbitrage (from financial economics) means market prices prevent profitable cycles. In Catan: if Player A trades 1 wheat for 2 sheep with Player B, and Player B trades 2 sheep for 3 ore with Player C, and Player C trades 2 ore for 1 wheat with Player A, a profitable cycle exists (A gets 1 ore free). Efficient markets eliminate these. Smart players identify arbitrage opportunities before others and exploit them, or prevent opponents from executing profitable cycles by refusing key trades. Market efficiency emerges when players are rational arbitrage-seekers.",
+          es: "No arbitraje (de economía financiera) significa que precios de mercado previenen ciclos rentables. En Catan: si Jugador A intercambia 1 trigo por 2 ovejas con Jugador B, y Jugador B intercambia 2 ovejas por 3 minerales con Jugador C, y Jugador C intercambia 2 minerales por 1 trigo con Jugador A, existe ciclo rentable (A obtiene 1 mineral gratis). Mercados eficientes eliminan estos. Jugadores inteligentes identifican oportunidades de arbitraje antes que otros y las explotan, o previenen que oponentes ejecuten ciclos rentables rechazando intercambios clave. Eficiencia de mercado emerge cuando jugadores son buscadores racionales de arbitraje.",
+          de: "No-Arbitrage (aus Finanzökonomie) bedeutet Marktpreise verhindern profitable Zyklen. In Catan: wenn Spieler A 1 Weizen für 2 Schafe mit Spieler B tauscht, und Spieler B 2 Schafe für 3 Erz mit Spieler C tauscht, und Spieler C 2 Erz für 1 Weizen mit Spieler A tauscht, existiert profitabler Zyklus (A bekommt 1 Erz gratis). Effiziente Märkte eliminieren diese. Kluge Spieler identifizieren Arbitrage-Möglichkeiten vor anderen und nutzen sie aus, oder verhindern dass Gegner profitable Zyklen ausführen durch Ablehnung Schlüsselgeschäfte. Markteffizienz entsteht wenn Spieler rationale Arbitrage-Sucher sind.",
+          nl: "Geen-arbitrage (uit financiële economie) betekent marktprijzen voorkomen winstgevende cycli. In Catan: als Speler A 1 tarwe ruilt voor 2 schapen met Speler B, en Speler B 2 schapen ruilt voor 3 erts met Speler C, en Speler C 2 erts ruilt voor 1 tarwe met Speler A, bestaat winstgevende cyclus (A krijgt 1 erts gratis). Efficiënte markten elimineren deze. Slimme spelers identificeren arbitrage mogelijkheden voor anderen en exploiteren ze, of voorkomen tegenstanders winstgevende cycli uitvoeren door sleutel ruilen te weigeren. Markt efficiëntie ontstaat wanneer spelers rationele arbitrage-zoekers zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'curse of dimensionality' challenge in Catan AI development?",
+          es: "¿Qué es el desafío de la 'maldición de dimensionalidad' en desarrollo de IA de Catan?",
+          de: "Was ist die 'Fluch der Dimensionalität'-Herausforderung in Catan-KI-Entwicklung?",
+          nl: "Wat is de 'vloek van dimensionaliteit' uitdaging in Catan AI ontwikkeling?"
+        },
+        options: [
+          { en: "State space grows exponentially with features (board positions × resources × cards × trade history)", es: "Espacio de estado crece exponencialmente con características (posiciones de tablero × recursos × cartas × historial de comercio)", de: "Zustandsraum wächst exponentiell mit Merkmalen (Brettpositionen × Ressourcen × Karten × Handelshistorie)", nl: "Toestandsruimte groeit exponentieel met kenmerken (bordposities × bronnen × kaarten × handelsgeschiedenis)" },
+          { en: "State space remains constant always", es: "Espacio de estado permanece constante siempre", de: "Zustandsraum bleibt immer konstant", nl: "Toestandsruimte blijft altijd constant" },
+          { en: "Only 2-3 dimensions matter in Catan", es: "Solo 2-3 dimensiones importan en Catan", de: "Nur 2-3 Dimensionen zählen in Catan", nl: "Slechts 2-3 dimensies tellen in Catan" },
+          { en: "Dimensionality doesn't affect AI performance", es: "La dimensionalidad no afecta rendimiento de IA", de: "Dimensionalität beeinflusst KI-Leistung nicht", nl: "Dimensionaliteit beïnvloedt AI prestatie niet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Curse of dimensionality: as state features increase, the number of unique states grows exponentially, making exhaustive search infeasible. Catan's state includes: board layout (10^15 configs), player resources (5^20 combinations), development cards (25!), trade history, robber position, etc. This creates ~10^50 states. Solutions: (1) feature reduction via domain knowledge (ignore irrelevant states), (2) function approximation (neural networks learn state values without enumerating all), (3) Monte Carlo sampling (simulate random subset). Modern Catan AI uses deep learning to compress high-dimensional states into manageable representations.",
+          es: "Maldición de dimensionalidad: a medida que características de estado aumentan, el número de estados únicos crece exponencialmente, haciendo búsqueda exhaustiva inviable. Estado de Catan incluye: diseño de tablero (10^15 configs), recursos de jugadores (5^20 combinaciones), cartas de desarrollo (25!), historial de comercio, posición de ladrón, etc. Esto crea ~10^50 estados. Soluciones: (1) reducción de características vía conocimiento de dominio (ignorar estados irrelevantes), (2) aproximación de función (redes neuronales aprenden valores de estado sin enumerar todos), (3) muestreo Monte Carlo (simular subconjunto aleatorio). IA moderna de Catan usa aprendizaje profundo para comprimir estados de alta dimensión en representaciones manejables.",
+          de: "Fluch der Dimensionalität: wenn Zustandsmerkmale zunehmen, wächst Anzahl einzigartiger Zustände exponentiell, macht erschöpfende Suche unpraktikabel. Catans Zustand umfasst: Brettlayout (10^15 Configs), Spielerressourcen (5^20 Kombinationen), Entwicklungskarten (25!), Handelshistorie, Räuberposition, etc. Dies schafft ~10^50 Zustände. Lösungen: (1) Merkmalsreduktion via Domänenwissen (irrelevante Zustände ignorieren), (2) Funktionsapproximation (neuronale Netze lernen Zustandswerte ohne alle aufzuzählen), (3) Monte-Carlo-Sampling (zufällige Teilmenge simulieren). Moderne Catan-KI nutzt Deep Learning um hochdimensionale Zustände in handhabbare Darstellungen zu komprimieren.",
+          nl: "Vloek van dimensionaliteit: naarmate toestandskenmerken toenemen, groeit aantal unieke toestanden exponentieel, maakt exhaustieve zoektocht onhaalbaar. Catan's toestand omvat: bordlay-out (10^15 configs), speler bronnen (5^20 combinaties), ontwikkelingskaarten (25!), handelsgeschiedenis, rover positie, etc. Dit creëert ~10^50 toestanden. Oplossingen: (1) kenmerk reductie via domein kennis (negeer irrelevante toestanden), (2) functie approximatie (neurale netwerken leren toestandswaarden zonder alle op te sommen), (3) Monte Carlo sampling (simuleer willekeurige subset). Moderne Catan AI gebruikt deep learning om hoog-dimensionale toestanden te comprimeren in hanteerbare representaties."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'multi-armed bandit problem' analogy in development card purchasing?",
+          es: "¿Qué es la analogía del 'problema del bandido multibrazo' en compra de cartas de desarrollo?",
+          de: "Was ist die 'Mehrarmbanditen-Problem'-Analogie beim Entwicklungskartenkauf?",
+          nl: "Wat is de 'multi-armed bandit probleem' analogie in ontwikkelingskaart aankoop?"
+        },
+        options: [
+          { en: "Explore-exploit tradeoff: buy cards to learn deck composition vs exploit known information", es: "Compromiso explorar-explotar: comprar cartas para aprender composición del mazo vs explotar información conocida", de: "Erkunden-Ausbeuten-Kompromiss: Karten kaufen um Deck-Zusammensetzung zu lernen vs bekannte Information ausbeuten", nl: "Verkennen-exploiteren afweging: kaarten kopen om deck compositie te leren vs bekende informatie exploiteren" },
+          { en: "Always exploit without exploration", es: "Siempre explotar sin exploración", de: "Immer ausbeuten ohne Erkundung", nl: "Altijd exploiteren zonder verkenning" },
+          { en: "Only explore, never exploit knowledge", es: "Solo explorar, nunca explotar conocimiento", de: "Nur erkunden, nie Wissen ausbeuten", nl: "Alleen verkennen, nooit kennis exploiteren" },
+          { en: "Bandit problem doesn't apply to card games", es: "Problema de bandido no se aplica a juegos de cartas", de: "Banditenproblem gilt nicht für Kartenspiele", nl: "Bandit probleem geldt niet voor kaartspellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Multi-armed bandit problem: choosing between actions with uncertain rewards to maximize long-term gain, balancing exploration (gather information) vs exploitation (use current knowledge). In Catan dev cards: early purchases 'explore' the deck (revealing what cards remain), while late purchases 'exploit' (buying when you know high VP concentration). Optimal policy uses Upper Confidence Bound (UCB) algorithm: buy card when UCB value = expected VP + √(2ln(N)/n_i) is highest, naturally shifting from exploration to exploitation as information accumulates.",
+          es: "Problema del bandido multibrazo: elegir entre acciones con recompensas inciertas para maximizar ganancia a largo plazo, equilibrando exploración (recopilar información) vs explotación (usar conocimiento actual). En cartas de desarrollo de Catan: compras tempranas 'exploran' el mazo (revelando qué cartas quedan), mientras compras tardías 'explotan' (comprando cuando sabes alta concentración de PV). Política óptima usa algoritmo Upper Confidence Bound (UCB): comprar carta cuando valor UCB = PV esperado + √(2ln(N)/n_i) es más alto, cambiando naturalmente de exploración a explotación a medida que información se acumula.",
+          de: "Mehrarmbanditen-Problem: Wahl zwischen Aktionen mit unsicheren Belohnungen um langfristigen Gewinn zu maximieren, Balance zwischen Erkundung (Information sammeln) vs Ausbeutung (aktuelles Wissen nutzen). In Catan-Dev-Karten: frühe Käufe 'erkunden' das Deck (enthüllen welche Karten übrig bleiben), während späte Käufe 'ausbeuten' (kaufen wenn man hohe VP-Konzentration kennt). Optimale Politik nutzt Upper-Confidence-Bound-(UCB)-Algorithmus: Karte kaufen wenn UCB-Wert = erwartete VP + √(2ln(N)/n_i) am höchsten ist, wechselt natürlich von Erkundung zu Ausbeutung wenn Information sich ansammelt.",
+          nl: "Multi-armed bandit probleem: kiezen tussen acties met onzekere beloningen om lange-termijn winst te maximaliseren, balanceren verkenning (informatie verzamelen) vs exploitatie (gebruik huidige kennis). In Catan dev kaarten: vroege aankopen 'verkennen' het deck (onthullen welke kaarten overblijven), terwijl late aankopen 'exploiteren' (kopen wanneer je hoge OP concentratie kent). Optimaal beleid gebruikt Upper Confidence Bound (UCB) algoritme: koop kaart wanneer UCB waarde = verwachte OP + √(2ln(N)/n_i) hoogst is, verschuift natuurlijk van verkenning naar exploitatie naarmate informatie accumuleert."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'winner's curse' phenomenon in competitive Catan auctions/trades?",
+          es: "¿Qué es el fenómeno de 'maldición del ganador' en subastas/intercambios competitivos de Catan?",
+          de: "Was ist das 'Gewinner-Fluch'-Phänomen in kompetitiven Catan-Auktionen/Geschäften?",
+          nl: "Wat is het 'winnaar's vloek' fenomeen in competitieve Catan veilingen/ruilen?"
+        },
+        options: [
+          { en: "Winner likely overpaid because winning signals you valued resource more than all others (adverse selection)", es: "Ganador probablemente pagó de más porque ganar señala que valoraste recurso más que todos los demás (selección adversa)", de: "Gewinner hat wahrscheinlich zu viel bezahlt weil Gewinnen signalisiert man schätzte Ressource mehr als alle anderen (adverse Selektion)", nl: "Winnaar heeft waarschijnlijk teveel betaald omdat winnen signaleert je waardeerde bron meer dan alle anderen (adverse selectie)" },
+          { en: "Winners always get optimal value", es: "Ganadores siempre obtienen valor óptimo", de: "Gewinner bekommen immer optimalen Wert", nl: "Winnaars krijgen altijd optimale waarde" },
+          { en: "No curse exists in trading games", es: "No existe maldición en juegos de comercio", de: "Kein Fluch existiert in Handelsspielen", nl: "Geen vloek bestaat in handelsspellen" },
+          { en: "Losers are always worse off", es: "Perdedores siempre están peor", de: "Verlierer sind immer schlechter dran", nl: "Verliezers zijn altijd slechter af" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Winner's curse (from auction theory): winning a competitive bidding process often means you overpaid, because winning reveals your valuation exceeded all others—suggesting you may have overestimated the good's value. In Catan: if you 'win' a trade negotiation by offering best terms, this signals desperate need, inviting future exploitation. Rational players adjust bids downward to account for curse. Example: if you trade 3:1 when others refused 2:1, you revealed weakness. Sophisticated players avoid 'winning' trades too obviously to maintain information advantage.",
+          es: "Maldición del ganador (de teoría de subastas): ganar proceso de licitación competitiva a menudo significa que pagaste de más, porque ganar revela que tu valoración excedió a todos los demás—sugiriendo que puedes haber sobreestimado el valor del bien. En Catan: si 'ganas' una negociación comercial ofreciendo mejores términos, esto señala necesidad desesperada, invitando explotación futura. Jugadores racionales ajustan ofertas hacia abajo para considerar maldición. Ejemplo: si intercambias 3:1 cuando otros rechazaron 2:1, revelaste debilidad. Jugadores sofisticados evitan 'ganar' intercambios demasiado obviamente para mantener ventaja de información.",
+          de: "Gewinner-Fluch (aus Auktionstheorie): Gewinn eines kompetitiven Bietprozesses bedeutet oft man hat zu viel bezahlt, weil Gewinnen enthüllt Ihre Bewertung überstieg alle anderen—deutet an man hat Wert des Gutes möglicherweise überschätzt. In Catan: wenn man Handelsverhandlung 'gewinnt' durch Anbieten bester Bedingungen, signalisiert dies verzweifelte Not, lädt zukünftige Ausbeutung ein. Rationale Spieler passen Gebote nach unten an um Fluch zu berücksichtigen. Beispiel: wenn man 3:1 tauscht während andere 2:1 ablehnten, enthüllte man Schwäche. Raffinierte Spieler vermeiden Geschäfte zu offensichtlich zu 'gewinnen' um Informationsvorteil zu behalten.",
+          nl: "Winnaar's vloek (uit veilingtheorie): winnen van competitief biedproces betekent vaak je hebt teveel betaald, omdat winnen onthult je waardering alle anderen overtrof—suggereert je hebt mogelijk de waarde van het goed overschat. In Catan: als je een handels onderhandeling 'wint' door beste voorwaarden te bieden, signaleert dit wanhopige behoefte, nodigt toekomstige exploitatie uit. Rationele spelers passen biedingen naar beneden aan om vloek te verrekenen. Voorbeeld: als je 3:1 ruilt terwijl anderen 2:1 weigerden, onthulde je zwakte. Gesofisticeerde spelers vermijden ruilen te duidelijk te 'winnen' om informatievoordeel te behouden."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Condorcet paradox' possibility in 4-player Catan voting/coalitions?",
+          es: "¿Qué es la posibilidad de 'paradoja de Condorcet' en votación/coaliciones de Catan de 4 jugadores?",
+          de: "Was ist die 'Condorcet-Paradoxon'-Möglichkeit in 4-Spieler-Catan-Abstimmungen/Koalitionen?",
+          nl: "Wat is de 'Condorcet paradox' mogelijkheid in 4-speler Catan stemmen/coalities?"
+        },
+        options: [
+          { en: "Cyclic preferences: majority prefers A>B, B>C, C>A (no consistent group preference)", es: "Preferencias cíclicas: mayoría prefiere A>B, B>C, C>A (sin preferencia grupal consistente)", de: "Zyklische Präferenzen: Mehrheit bevorzugt A>B, B>C, C>A (keine konsistente Gruppenpräferenz)", nl: "Cyclische voorkeuren: meerderheid verkiest A>B, B>C, C>A (geen consistente groepsvoorkeur)" },
+          { en: "All players always agree on preferences", es: "Todos los jugadores siempre están de acuerdo en preferencias", de: "Alle Spieler stimmen immer bei Präferenzen überein", nl: "Alle spelers zijn het altijd eens over voorkeuren" },
+          { en: "Voting impossible in Catan", es: "Votación imposible en Catan", de: "Abstimmung unmöglich in Catan", nl: "Stemmen onmogelijk in Catan" },
+          { en: "Condorcet paradox only applies to elections", es: "Paradoja de Condorcet solo se aplica a elecciones", de: "Condorcet-Paradoxon gilt nur für Wahlen", nl: "Condorcet paradox geldt alleen voor verkiezingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Condorcet paradox: even when individual preferences are transitive, group preferences can be cyclic, creating voting instability. In Catan implicit 'voting' via coalition formation: 3 players might prefer blocking Player A over B (A>B), blocking B over C (B>C), yet prefer blocking C over A (C>A) due to different strategic reasons. This creates unstable coalitions—no robust anti-leader consensus forms. Savvy leaders exploit this by ensuring their opponents' preferences remain cyclic (sowing disagreement), preventing stable coalitions from forming against them.",
+          es: "Paradoja de Condorcet: incluso cuando preferencias individuales son transitivas, preferencias grupales pueden ser cíclicas, creando inestabilidad de votación. En 'votación' implícita de Catan vía formación de coalición: 3 jugadores podrían preferir bloquear Jugador A sobre B (A>B), bloquear B sobre C (B>C), sin embargo preferir bloquear C sobre A (C>A) debido a diferentes razones estratégicas. Esto crea coaliciones inestables—ningún consenso anti-líder robusto se forma. Líderes astutos explotan esto asegurando que preferencias de sus oponentes permanezcan cíclicas (sembrando desacuerdo), previniendo que coaliciones estables se formen contra ellos.",
+          de: "Condorcet-Paradoxon: selbst wenn individuelle Präferenzen transitiv sind, können Gruppenpräferenzen zyklisch sein und Abstimmungsinstabilität schaffen. In Catans impliziter 'Abstimmung' via Koalitionsbildung: 3 Spieler könnten bevorzugen Spieler A über B zu blockieren (A>B), B über C zu blockieren (B>C), jedoch bevorzugen C über A zu blockieren (C>A) aufgrund verschiedener strategischer Gründe. Dies schafft instabile Koalitionen—kein robuster Anti-Anführer-Konsens bildet sich. Schlaue Anführer nutzen dies aus indem sie sicherstellen dass Gegnerpräferenzen zyklisch bleiben (Uneinigkeit säen), verhindert dass stabile Koalitionen gegen sie sich bilden.",
+          nl: "Condorcet paradox: zelfs wanneer individuele voorkeuren transitief zijn, kunnen groepsvoorkeuren cyclisch zijn, creërend stem instabiliteit. In Catan impliciete 'stemmen' via coalitie vorming: 3 spelers zouden kunnen verkiezen Speler A blokkeren boven B (A>B), B blokkeren boven C (B>C), echter verkiezen C blokkeren boven A (C>A) vanwege verschillende strategische redenen. Dit creëert instabiele coalities—geen robuuste anti-leider consensus vormt. Slimme leiders exploiteren dit door te verzekeren dat tegenstander voorkeuren cyclisch blijven (onenigheid zaaien), voorkomt stabiele coalities zich tegen hen vormen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'principal-agent problem' in Catan coalition partnerships?",
+          es: "¿Qué es el 'problema de principal-agente' en asociaciones de coalición de Catan?",
+          de: "Was ist das 'Prinzipal-Agent-Problem' in Catan-Koalitionspartnerschaften?",
+          nl: "Wat is het 'principaal-agent probleem' in Catan coalitie partnerschappen?"
+        },
+        options: [
+          { en: "Misaligned incentives: coalition partner may pursue own victory instead of blocking leader", es: "Incentivos desalineados: socio de coalición puede perseguir propia victoria en lugar de bloquear líder", de: "Fehlausgerichtete Anreize: Koalitionspartner kann eigenen Sieg verfolgen statt Anführer zu blockieren", nl: "Verkeerd uitgelijnde incentives: coalitie partner kan eigen overwinning nastreven in plaats van leider blokkeren" },
+          { en: "All coalition members always cooperate perfectly", es: "Todos los miembros de coalición siempre cooperan perfectamente", de: "Alle Koalitionsmitglieder kooperieren immer perfekt", nl: "Alle coalitie leden werken altijd perfect samen" },
+          { en: "Principal-agent problem doesn't exist in games", es: "Problema de principal-agente no existe en juegos", de: "Prinzipal-Agent-Problem existiert nicht in Spielen", nl: "Principaal-agent probleem bestaat niet in spellen" },
+          { en: "Incentives always perfectly aligned", es: "Incentivos siempre perfectamente alineados", de: "Anreize immer perfekt ausgerichtet", nl: "Incentives altijd perfect uitgelijnd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Principal-agent problem: when one party (agent) acts on behalf of another (principal), misaligned incentives cause agent to pursue own interests over principal's. In Catan coalitions: Player A (principal) wants Player B (agent) to block leader. But B's incentive is winning themselves, not helping A. B might 'shirk' (pretend to block while actually positioning for own victory). Solution: credible monitoring and incentive alignment. Sophisticated players only form coalitions with verifiable actions and shared victory conditions, using game structure to align incentives rather than trusting altruism.",
+          es: "Problema de principal-agente: cuando una parte (agente) actúa en nombre de otra (principal), incentivos desalineados causan que agente persiga intereses propios sobre los del principal. En coaliciones de Catan: Jugador A (principal) quiere que Jugador B (agente) bloquee líder. Pero incentivo de B es ganar ellos mismos, no ayudar a A. B podría 'eludir' (pretender bloquear mientras en realidad se posiciona para propia victoria). Solución: monitoreo creíble y alineación de incentivos. Jugadores sofisticados solo forman coaliciones con acciones verificables y condiciones de victoria compartidas, usando estructura de juego para alinear incentivos en lugar de confiar en altruismo.",
+          de: "Prinzipal-Agent-Problem: wenn eine Partei (Agent) im Namen einer anderen (Prinzipal) handelt, verursachen fehlausgerichtete Anreize dass Agent eigene Interessen über die des Prinzipals verfolgt. In Catan-Koalitionen: Spieler A (Prinzipal) will dass Spieler B (Agent) Anführer blockiert. Aber B's Anreiz ist selbst zu gewinnen, nicht A zu helfen. B könnte 'shirken' (vorgeben zu blockieren während tatsächlich für eigenen Sieg positionierend). Lösung: glaubwürdige Überwachung und Anreizausrichtung. Raffinierte Spieler bilden nur Koalitionen mit verifizierbaren Aktionen und gemeinsamen Siegbedingungen, nutzen Spielstruktur um Anreize auszurichten statt Altruismus zu vertrauen.",
+          nl: "Principaal-agent probleem: wanneer één partij (agent) handelt namens een ander (principaal), veroorzaken verkeerd uitgelijnde incentives dat agent eigen belangen nastreeft boven principaal's. In Catan coalities: Speler A (principaal) wil dat Speler B (agent) leider blokkeert. Maar B's incentive is zelf winnen, niet A helpen. B zou kunnen 'verzaken' (doen alsof blokkeren terwijl eigenlijk positioneren voor eigen overwinning). Oplossing: geloofwaardige monitoring en incentive uitlijning. Gesofisticeerde spelers vormen alleen coalities met verifieerbare acties en gedeelde overwinningsvoorwaarden, gebruiken spelstructuur om incentives uit te lijnen in plaats van altruïsme te vertrouwen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'screening vs signaling' dynamic in Catan information revelation?",
+          es: "¿Qué es la dinámica de 'cribado vs señalización' en revelación de información de Catan?",
+          de: "Was ist die 'Screening vs Signalisierung'-Dynamik in Catan-Informationsoffenbarung?",
+          nl: "Wat is de 'screening vs signalering' dynamica in Catan informatie onthulling?"
+        },
+        options: [
+          { en: "Screening: offer trades to elicit opponent information; Signaling: opponent reveals info through actions", es: "Cribado: ofrecer intercambios para obtener información del oponente; Señalización: oponente revela info a través de acciones", de: "Screening: Geschäfte anbieten um Gegnerinformation zu ermitteln; Signalisierung: Gegner offenbart Info durch Aktionen", nl: "Screening: ruilen aanbieden om tegenstander informatie te verkrijgen; Signalering: tegenstander onthult info door acties" },
+          { en: "All information always hidden perfectly", es: "Toda información siempre oculta perfectamente", de: "Alle Information immer perfekt versteckt", nl: "Alle informatie altijd perfect verborgen" },
+          { en: "No information exchange possible in Catan", es: "No es posible intercambio de información en Catan", de: "Kein Informationsaustausch in Catan möglich", nl: "Geen informatie uitwisseling mogelijk in Catan" },
+          { en: "Screening and signaling are identical concepts", es: "Cribado y señalización son conceptos idénticos", de: "Screening und Signalisierung sind identische Konzepte", nl: "Screening en signalering zijn identieke concepten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Information economics distinguishes: Screening = uninformed party designs mechanism to extract information from informed party. Signaling = informed party voluntarily reveals information. In Catan screening: propose '1 wheat for 1 ore?' to test if opponent has ore (refusal signals scarcity). In signaling: opponent buys many dev cards (signals either desperation or hidden VPs—you must infer). Elite players use screening to force information revelation cost-effectively, while managing their own signals to avoid leaking valuable information. This information warfare determines trading dynamics.",
+          es: "Economía de información distingue: Cribado = parte no informada diseña mecanismo para extraer información de parte informada. Señalización = parte informada voluntariamente revela información. En cribado de Catan: proponer '1 trigo por 1 mineral?' para probar si oponente tiene mineral (rechazo señala escasez). En señalización: oponente compra muchas cartas de desarrollo (señala desesperación o PVs ocultos—debes inferir). Jugadores de élite usan cribado para forzar revelación de información rentablemente, mientras gestionan sus propias señales para evitar filtrar información valiosa. Esta guerra de información determina dinámicas comerciales.",
+          de: "Informationsökonomie unterscheidet: Screening = uninformierte Partei entwirft Mechanismus um Information von informierter Partei zu extrahieren. Signalisierung = informierte Partei offenbart freiwillig Information. In Catan-Screening: '1 Weizen für 1 Erz?' vorschlagen um zu testen ob Gegner Erz hat (Ablehnung signalisiert Knappheit). In Signalisierung: Gegner kauft viele Dev-Karten (signalisiert entweder Verzweiflung oder versteckte VPs—man muss folgern). Elite-Spieler nutzen Screening um Informationsoffenbarung kostengünstig zu erzwingen, während sie eigene Signale verwalten um wertvolle Information zu vermeiden zu lecken. Diese Informationskriegsführung bestimmt Handelsdynamiken.",
+          nl: "Informatie economie onderscheidt: Screening = ongeïnformeerde partij ontwerpt mechanisme om informatie te extraheren van geïnformeerde partij. Signalering = geïnformeerde partij onthult vrijwillig informatie. In Catan screening: stel voor '1 tarwe voor 1 erts?' om te testen of tegenstander erts heeft (weigering signaleert schaarste). In signalering: tegenstander koopt veel dev kaarten (signaleert ofwel wanhoop of verborgen OPs—je moet afleiden). Elite spelers gebruiken screening om informatie onthulling kosteneffectief te forceren, terwijl ze hun eigen signalen beheren om waardevolle informatie lekken te vermijden. Deze informatie oorlogsvoering bepaalt handels dynamica."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'auction theory revenue equivalence theorem' implication for Catan trading formats?",
+          es: "¿Qué es la implicación del 'teorema de equivalencia de ingresos de teoría de subastas' para formatos de comercio de Catan?",
+          de: "Was ist die 'Auktionstheorie-Erlösäquivalenz-Theorem'-Implikation für Catan-Handelsformate?",
+          nl: "Wat is de 'veilingtheorie inkomsten equivalentie stelling' implicatie voor Catan handels formaten?"
+        },
+        options: [
+          { en: "Different trade mechanisms (sequential vs simultaneous offers) yield same expected outcomes under certain conditions", es: "Diferentes mecanismos de comercio (ofertas secuenciales vs simultáneas) producen mismos resultados esperados bajo ciertas condiciones", de: "Verschiedene Handelsmechanismen (sequentielle vs simultane Angebote) bringen gleiche erwartete Ergebnisse unter bestimmten Bedingungen", nl: "Verschillende handelsmechanismen (sequentiële vs simultane aanbiedingen) leveren zelfde verwachte uitkomsten onder bepaalde voorwaarden" },
+          { en: "All auction formats always yield different outcomes", es: "Todos los formatos de subasta siempre producen resultados diferentes", de: "Alle Auktionsformate bringen immer verschiedene Ergebnisse", nl: "Alle veiling formaten leveren altijd verschillende uitkomsten" },
+          { en: "Only one trading format exists in Catan", es: "Solo existe un formato de comercio en Catan", de: "Nur ein Handelsformat existiert in Catan", nl: "Slechts één handelsformaat bestaat in Catan" },
+          { en: "Revenue equivalence doesn't apply to games", es: "Equivalencia de ingresos no se aplica a juegos", de: "Erlösäquivalenz gilt nicht für Spiele", nl: "Inkomsten equivalentie geldt niet voor spellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Revenue Equivalence Theorem: under certain assumptions (risk neutrality, independent private values), all efficient auction formats yield same expected revenue to seller. Applied to Catan: whether you trade via (A) simultaneous offers from all players, (B) sequential negotiation, or (C) sealed bid auction, expected resource value obtained is equivalent when players are rational and valuations independent. This explains why Catan's flexible trading doesn't systematically disadvantage any format—market efficiency emerges regardless of mechanism. However, when assumptions break (risk aversion, correlated values), formats diverge and mechanism choice matters strategically.",
+          es: "Teorema de Equivalencia de Ingresos: bajo ciertos supuestos (neutralidad de riesgo, valores privados independientes), todos los formatos de subasta eficientes producen mismo ingreso esperado al vendedor. Aplicado a Catan: ya sea que comercies vía (A) ofertas simultáneas de todos los jugadores, (B) negociación secuencial, o (C) subasta de oferta sellada, valor de recurso esperado obtenido es equivalente cuando jugadores son racionales y valoraciones independientes. Esto explica por qué el comercio flexible de Catan no desventaja sistemáticamente ningún formato—eficiencia de mercado emerge independientemente del mecanismo. Sin embargo, cuando supuestos se rompen (aversión al riesgo, valores correlacionados), formatos divergen y elección de mecanismo importa estratégicamente.",
+          de: "Erlösäquivalenz-Theorem: unter bestimmten Annahmen (Risikoneutralität, unabhängige private Werte) bringen alle effizienten Auktionsformate gleichen erwarteten Erlös für Verkäufer. Angewandt auf Catan: ob man via (A) simultane Angebote von allen Spielern, (B) sequentielle Verhandlung, oder (C) versiegelte Gebotsauktion handelt, erwarteter Ressourcenwert erhalten ist äquivalent wenn Spieler rational sind und Bewertungen unabhängig. Dies erklärt warum Catans flexibler Handel kein Format systematisch benachteiligt—Markteffizienz entsteht unabhängig von Mechanismus. Jedoch wenn Annahmen brechen (Risikoaversion, korrelierte Werte), divergieren Formate und Mechanismuswahl zählt strategisch.",
+          nl: "Inkomsten Equivalentie Stelling: onder bepaalde aannames (risico neutraliteit, onafhankelijke private waarden) leveren alle efficiënte veiling formaten zelfde verwachte inkomsten aan verkoper. Toegepast op Catan: of je ruilt via (A) simultane aanbiedingen van alle spelers, (B) sequentiële onderhandeling, of (C) verzegelde bod veiling, verwachte bron waarde verkregen is equivalent wanneer spelers rationeel zijn en waarderingen onafhankelijk. Dit verklaart waarom Catan's flexibele handel geen formaat systematisch benadeelt—markt efficiëntie ontstaat ongeacht mechanisme. Echter wanneer aannames breken (risico afkeer, gecorreleerde waarden), divergeren formaten en mechanisme keuze telt strategisch."
+        }
       }
     ]
   };

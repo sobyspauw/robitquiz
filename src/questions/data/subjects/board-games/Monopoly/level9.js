@@ -440,6 +440,426 @@
         de: "Offizielle Regeln: wenn ein Spieler gegenüber einem anderen Spieler (nicht der Bank) bankrott geht, erhält dieser Spieler ALLE ihre Grundstücke, verhindert strategische 'Königsmacher'-Geschenktransfers.",
         nl: "Officiële regels: wanneer een speler failliet gaat bij een andere speler (niet de Bank), ontvangt die speler ALLE hun eigendommen, wat strategische 'kingmaking' geschenkoverdrachten voorkomt."
       }
+    },
+    {
+      question: {
+        en: "What computer science algorithm most efficiently solves optimal Monopoly strategy?",
+        es: "¿Qué algoritmo de informática resuelve más eficientemente la estrategia óptima de Monopoly?",
+        de: "Welcher Informatik-Algorithmus löst die optimale Monopoly-Strategie am effizientesten?",
+        nl: "Welk computer wetenschap algoritme lost optimale Monopoly strategie het meest efficiënt op?"
+      },
+      options: [
+        { en: "Minimax with alpha-beta pruning", es: "Minimax con poda alfa-beta", de: "Minimax mit Alpha-Beta-Beschneidung", nl: "Minimax met alpha-beta snoeiing" },
+        { en: "Monte Carlo tree search (MCTS)", es: "Búsqueda de árbol Monte Carlo (MCTS)", de: "Monte-Carlo-Baumsuche (MCTS)", nl: "Monte Carlo boom zoeken (MCTS)" },
+        { en: "Genetic algorithms", es: "Algoritmos genéticos", de: "Genetische Algorithmen", nl: "Genetische algoritmes" },
+        { en: "Reinforcement learning with neural nets", es: "Aprendizaje por refuerzo con redes neuronales", de: "Verstärkungslernen mit neuronalen Netzen", nl: "Versterkend leren met neurale netwerken" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Monte Carlo tree search efficiently handles Monopoly's stochastic elements (dice), large state space, and complex trading decisions. AlphaGo-style approaches have been applied to Monopoly AI.",
+        es: "La búsqueda de árbol Monte Carlo maneja eficientemente los elementos estocásticos de Monopoly (dados), gran espacio de estados y decisiones comerciales complejas. Los enfoques estilo AlphaGo se han aplicado a la IA de Monopoly.",
+        de: "Monte-Carlo-Baumsuche behandelt effizient Monopolys stochastische Elemente (Würfel), großen Zustandsraum und komplexe Handelsentscheidungen. AlphaGo-artige Ansätze wurden auf Monopoly-KI angewendet.",
+        nl: "Monte Carlo boom zoeken handelt efficiënt Monopoly's stochastische elementen (dobbelstenen), grote toestandsruimte en complexe handelsbeslissingen. AlphaGo-stijl benaderingen zijn toegepast op Monopoly AI."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'expected value crossover point' in property development?",
+        es: "¿Qué es el 'punto de cruce de valor esperado' en el desarrollo de propiedades?",
+        de: "Was ist der 'Erwartungswert-Kreuzungspunkt' in der Grundstücksentwicklung?",
+        nl: "Wat is het 'verwachte waarde kruispunt' in eigendom ontwikkeling?"
+      },
+      options: [
+        { en: "When rent income equals development cost", es: "Cuando el ingreso de alquiler iguala el costo de desarrollo", de: "Wenn Mieteinnahmen Entwicklungskosten entsprechen", nl: "Wanneer huurinkomsten ontwikkelingskosten gelijk zijn" },
+        { en: "Number of landings needed to recover investment", es: "Número de caídas necesarias para recuperar inversión", de: "Anzahl der Landungen benötigt um Investition zurückzugewinnen", nl: "Aantal landingen nodig om investering terug te verdienen" },
+        { en: "Game turn where building becomes more profitable than cash hoarding", es: "Turno del juego donde construir se vuelve más rentable que acumular efectivo", de: "Spielrunde wo Bauen profitabler wird als Bargeld horten", nl: "Spelbeurt waar bouwen winstgevender wordt dan cash hamsteren" },
+        { en: "Property value equilibrium point", es: "Punto de equilibrio del valor de la propiedad", de: "Grundstückswert Gleichgewichtspunkt", nl: "Eigendomswaarde evenwichtspunt" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Crossover point occurs ~circuit 3-4 when opportunity cost of not building (lost rent income) exceeds risk of cash depletion. Statistical modeling shows this inflection point determines building timing.",
+        es: "El punto de cruce ocurre ~circuito 3-4 cuando el costo de oportunidad de no construir (ingresos de alquiler perdidos) excede el riesgo de agotamiento de efectivo. El modelado estadístico muestra que este punto de inflexión determina el momento de construcción.",
+        de: "Kreuzungspunkt tritt ~Umrundung 3-4 auf wenn Opportunitätskosten des Nicht-Bauens (verlorene Mieteinnahmen) Risiko der Bargelderschöpfung übersteigen. Statistische Modellierung zeigt dieser Wendepunkt bestimmt Bauzeitpunkt.",
+        nl: "Kruispunt treedt op ~ronde 3-4 wanneer opportuniteitskosten van niet bouwen (verloren huurinkomsten) risico van cash uitputting overstijgen. Statistische modellering toont dit keerpunt bepaalt bouwtiming."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'property set efficiency index' used in computational analysis?",
+        es: "¿Qué es el 'índice de eficiencia del conjunto de propiedades' usado en análisis computacional?",
+        de: "Was ist der 'Grundstückssatz-Effizienzindex' in der computergestützten Analyse?",
+        nl: "Wat is de 'eigendomsset efficiëntie index' gebruikt in computationele analyse?"
+      },
+      options: [
+        { en: "(Total rent potential × landing frequency) ÷ (purchase cost + max development cost)", es: "(Potencial de alquiler total × frecuencia de caída) ÷ (costo de compra + costo máximo de desarrollo)", de: "(Gesamtmietpotenzial × Landefrequenz) ÷ (Kaufkosten + maximale Entwicklungskosten)", nl: "(Totale huur potentieel × landingsfrequentie) ÷ (aankoopkosten + maximale ontwikkelingskosten)" },
+        { en: "Number of properties × average rent", es: "Número de propiedades × alquiler promedio", de: "Anzahl der Grundstücke × durchschnittliche Miete", nl: "Aantal eigendommen × gemiddelde huur" },
+        { en: "Property value divided by board position", es: "Valor de propiedad dividido por posición del tablero", de: "Grundstückswert geteilt durch Brettposition", nl: "Eigendomswaarde gedeeld door bordpositie" },
+        { en: "Development cost minus cash reserves", es: "Costo de desarrollo menos reservas de efectivo", de: "Entwicklungskosten minus Bargeldreserven", nl: "Ontwikkelingskosten min cash reserves" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Property set efficiency index formula quantifies ROI accounting for probability. Orange monopoly scores ~0.92, dark blue ~0.31. Used in Monte Carlo simulations to weight trade decisions.",
+        es: "La fórmula del índice de eficiencia del conjunto de propiedades cuantifica el ROI teniendo en cuenta la probabilidad. El monopolio naranja puntúa ~0.92, azul oscuro ~0.31. Usado en simulaciones Monte Carlo para ponderar decisiones comerciales.",
+        de: "Grundstückssatz-Effizienzindex-Formel quantifiziert ROI unter Berücksichtigung der Wahrscheinlichkeit. Oranges Monopol erzielt ~0.92, dunkelblau ~0.31. Verwendet in Monte-Carlo-Simulationen um Handelsentscheidungen zu gewichten.",
+        nl: "Eigendomsset efficiëntie index formule kwantificeert ROI rekening houdend met waarschijnlijkheid. Oranje monopolie scoort ~0.92, donkerblauw ~0.31. Gebruikt in Monte Carlo simulaties om handelsbeslissingen te wegen."
+      }
+    },
+    {
+      question: {
+        en: "What Nash equilibrium exists in 2-player Monopoly with perfect information?",
+        es: "¿Qué equilibrio de Nash existe en Monopoly de 2 jugadores con información perfecta?",
+        de: "Welches Nash-Gleichgewicht existiert in 2-Spieler-Monopoly mit perfekter Information?",
+        nl: "Welk Nash evenwicht bestaat in 2-speler Monopoly met perfecte informatie?"
+      },
+      options: [
+        { en: "Both players refuse all trades (trade deadlock)", es: "Ambos jugadores rechazan todos los intercambios (punto muerto comercial)", de: "Beide Spieler lehnen alle Handel ab (Handels-Deadlock)", nl: "Beide spelers weigeren alle ruilen (ruil impasse)" },
+        { en: "Both players trade immediately for first monopoly", es: "Ambos jugadores negocian inmediatamente por el primer monopolio", de: "Beide Spieler handeln sofort für erstes Monopol", nl: "Beide spelers ruilen onmiddellijk voor eerste monopolie" },
+        { en: "No pure strategy equilibrium exists - mixed strategy required", es: "No existe equilibrio de estrategia pura - se requiere estrategia mixta", de: "Kein reines Strategie-Gleichgewicht existiert - gemischte Strategie erforderlich", nl: "Geen pure strategie evenwicht bestaat - gemengde strategie vereist" },
+        { en: "Both players maximize property acquisition", es: "Ambos jugadores maximizan la adquisición de propiedades", de: "Beide Spieler maximieren Grundstückserwerb", nl: "Beide spelers maximaliseren eigendomsverwerving" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Game theory analysis shows no pure Nash equilibrium in 2-player Monopoly: any deterministic strategy can be exploited. Optimal play requires mixed strategies with probabilistic decisions.",
+        es: "El análisis de teoría de juegos muestra que no hay equilibrio de Nash puro en Monopoly de 2 jugadores: cualquier estrategia determinista puede ser explotada. El juego óptimo requiere estrategias mixtas con decisiones probabilísticas.",
+        de: "Spieltheorie-Analyse zeigt kein reines Nash-Gleichgewicht in 2-Spieler-Monopoly: jede deterministische Strategie kann ausgenutzt werden. Optimales Spiel erfordert gemischte Strategien mit probabilistischen Entscheidungen.",
+        nl: "Speltheorie analyse toont geen pure Nash evenwicht in 2-speler Monopoly: elke deterministische strategie kan geëxploiteerd worden. Optimaal spel vereist gemengde strategieën met probabilistische beslissingen."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'volatility coefficient' in championship Monopoly analysis?",
+        es: "¿Qué es el 'coeficiente de volatilidad' en el análisis de Monopoly de campeonato?",
+        de: "Was ist der 'Volatilitätskoeffizient' in der Meisterschafts-Monopoly-Analyse?",
+        nl: "Wat is de 'volatiliteits coëfficiënt' in kampioenschap Monopoly analyse?"
+      },
+      options: [
+        { en: "Measure of cash flow variance between game circuits", es: "Medida de varianza de flujo de efectivo entre circuitos del juego", de: "Maß der Cashflow-Varianz zwischen Spielumrundungen", nl: "Maat van cashflow variantie tussen spelrondes" },
+        { en: "Probability of sudden bankruptcy events", es: "Probabilidad de eventos de quiebra repentinos", de: "Wahrscheinlichkeit plötzlicher Bankrottereignisse", nl: "Waarschijnlijkheid van plotselinge faillissementsevenementen" },
+        { en: "Dice roll outcome deviation", es: "Desviación del resultado de la tirada de dados", de: "Würfelwurf-Ergebnis-Abweichung", nl: "Dobbelsteenworp uitkomst deviatie" },
+        { en: "Standard deviation of property landing rates", es: "Desviación estándar de las tasas de caída de propiedades", de: "Standardabweichung der Grundstücks-Landeraten", nl: "Standaarddeviatie van eigendom landingspercentages" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Volatility coefficient quantifies bankruptcy risk based on cash reserves vs developed property exposure. High volatility (>0.7) indicates vulnerable position requiring conservative strategy.",
+        es: "El coeficiente de volatilidad cuantifica el riesgo de quiebra basado en reservas de efectivo vs exposición de propiedades desarrolladas. Alta volatilidad (>0.7) indica posición vulnerable que requiere estrategia conservadora.",
+        de: "Volatilitätskoeffizient quantifiziert Bankrottrisiko basierend auf Bargeldreserven vs entwickelte Grundstücksexposition. Hohe Volatilität (>0.7) zeigt verwundbare Position an die konservative Strategie erfordert.",
+        nl: "Volatiliteits coëfficiënt kwantificeert faillissementsrisico gebaseerd op cash reserves vs ontwikkelde eigendom blootstelling. Hoge volatiliteit (>0.7) duidt kwetsbare positie aan die conservatieve strategie vereist."
+      }
+    },
+    {
+      question: {
+        en: "What is the theoretical 'branching factor' of Monopoly's game tree?",
+        es: "¿Cuál es el 'factor de ramificación' teórico del árbol de juego de Monopoly?",
+        de: "Was ist der theoretische 'Verzweigungsfaktor' des Monopoly-Spielbaums?",
+        nl: "Wat is de theoretische 'vertakkingsfactor' van Monopoly's spelboom?"
+      },
+      options: [
+        { en: "~10² (100 possible moves per turn)", es: "~10² (100 movimientos posibles por turno)", de: "~10² (100 mögliche Züge pro Runde)", nl: "~10² (100 mogelijke zetten per beurt)" },
+        { en: "~10⁴ (10,000 possible moves per turn)", es: "~10⁴ (10,000 movimientos posibles por turno)", de: "~10⁴ (10,000 mögliche Züge pro Runde)", nl: "~10⁴ (10,000 mogelijke zetten per beurt)" },
+        { en: "~10⁶ (1 million possible moves per turn)", es: "~10⁶ (1 millón de movimientos posibles por turno)", de: "~10⁶ (1 Million mögliche Züge pro Runde)", nl: "~10⁶ (1 miljoen mogelijke zetten per beurt)" },
+        { en: "~10⁸ (100 million possible moves per turn)", es: "~10⁸ (100 millones de movimientos posibles por turno)", de: "~10⁸ (100 Millionen mögliche Züge pro Runde)", nl: "~10⁸ (100 miljoen mogelijke zetten per beurt)" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Monopoly's branching factor is ~10⁶ due to dice combinations (36), property purchase/auction decisions (~10²), building choices (~10²), and trade possibilities (~10²). This makes brute-force solving computationally intractable.",
+        es: "El factor de ramificación de Monopoly es ~10⁶ debido a combinaciones de dados (36), decisiones de compra/subasta de propiedades (~10²), opciones de construcción (~10²) y posibilidades de intercambio (~10²). Esto hace que la resolución por fuerza bruta sea computacionalmente intratable.",
+        de: "Monopolys Verzweigungsfaktor ist ~10⁶ aufgrund von Würfelkombinationen (36), Grundstückskauf-/Auktionsentscheidungen (~10²), Bauoptionen (~10²) und Handelsmöglichkeiten (~10²). Dies macht Brute-Force-Lösung computergestützt nicht praktikabel.",
+        nl: "Monopoly's vertakkingsfactor is ~10⁶ vanwege dobbelsteencombinaties (36), eigendom aankoop/veiling beslissingen (~10²), bouwkeuzes (~10²) en ruil mogelijkheden (~10²). Dit maakt brute-force oplossen computationeel onhaalbaar."
+      }
+    },
+    {
+      question: {
+        en: "What paradox exists in Monopoly's 'optimality vs exploitability' trade-off?",
+        es: "¿Qué paradoja existe en el equilibrio 'optimalidad vs explotabilidad' de Monopoly?",
+        de: "Welches Paradoxon existiert im Monopoly-'Optimalität vs Ausnutzbarkeit'-Kompromiss?",
+        nl: "Welke paradox bestaat in Monopoly's 'optimaliteit vs exploiteerbaarheid' afweging?"
+      },
+      options: [
+        { en: "Optimal strategy against perfect play loses to suboptimal exploitation strategy", es: "Estrategia óptima contra juego perfecto pierde ante estrategia de explotación subóptima", de: "Optimale Strategie gegen perfektes Spiel verliert gegen suboptimale Ausbeutungsstrategie", nl: "Optimale strategie tegen perfect spel verliest tegen suboptimale exploitatie strategie" },
+        { en: "Game-theoretically optimal play requires intentionally irrational moves", es: "Juego teóricamente óptimo requiere movimientos intencionalmente irracionales", de: "Spieltheoretisch optimales Spiel erfordert absichtlich irrationale Züge", nl: "Speltheoretisch optimaal spel vereist opzettelijk irrationele zetten" },
+        { en: "Maximally exploitative strategy is itself maximally exploitable", es: "Estrategia máximamente explotadora es en sí misma máximamente explotable", de: "Maximal ausbeuterische Strategie ist selbst maximal ausnutzbar", nl: "Maximaal exploiterende strategie is zelf maximaal exploiteerbaar" },
+        { en: "No paradox exists - optimal play always wins", es: "No existe paradoja - el juego óptimo siempre gana", de: "Kein Paradoxon existiert - optimales Spiel gewinnt immer", nl: "Geen paradox bestaat - optimaal spel wint altijd" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Exploitability paradox: aggressive exploitation strategy (targeting weak opponents) creates vulnerabilities exploitable by third players. Optimal tournament play balances exploitation with defensive positioning.",
+        es: "Paradoja de explotabilidad: estrategia de explotación agresiva (apuntar a oponentes débiles) crea vulnerabilidades explotables por terceros jugadores. El juego óptimo de torneo equilibra la explotación con el posicionamiento defensivo.",
+        de: "Ausnutzbarkeitsparadoxon: aggressive Ausbeutungsstrategie (Schwache Gegner anvisieren) schafft Schwachstellen die von dritten Spielern ausnutzbar sind. Optimales Turnierspiel balanciert Ausbeutung mit defensiver Positionierung.",
+        nl: "Exploiteerbaarheid paradox: agressieve exploitatie strategie (zwakke tegenstanders targeten) creëert kwetsbaarheden exploiteerbaar door derde spelers. Optimaal toernooispel balanceert exploitatie met defensieve positionering."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'information asymmetry index' in tournament analysis?",
+        es: "¿Qué es el 'índice de asimetría de información' en el análisis de torneo?",
+        de: "Was ist der 'Informationsasymmetrie-Index' in der Turnieranalyse?",
+        nl: "Wat is de 'informatie asymmetrie index' in toernooi analyse?"
+      },
+      options: [
+        { en: "Measure of hidden cash/property information between players", es: "Medida de información de efectivo/propiedad oculta entre jugadores", de: "Maß für versteckte Bargeld-/Grundstücksinformationen zwischen Spielern", nl: "Maat van verborgen cash/eigendom informatie tussen spelers" },
+        { en: "Advantage gained from tracking opponent cash flows vs public information", es: "Ventaja obtenida del seguimiento de flujos de efectivo del oponente vs información pública", de: "Vorteil aus Verfolgung der Gegner-Cashflows vs öffentliche Informationen", nl: "Voordeel verkregen van volgen tegenstander cashflows vs publieke informatie" },
+        { en: "Difference in dice probability knowledge", es: "Diferencia en el conocimiento de probabilidad de dados", de: "Unterschied im Würfelwahrscheinlichkeitswissen", nl: "Verschil in dobbelsteenwaarschijnlijkheid kennis" },
+        { en: "Card counting advantage in Chance/Community Chest", es: "Ventaja de contar cartas en Suerte/Caja de Comunidad", de: "Kartenzählvorteil bei Ereignis/Gemeinschaftskarten", nl: "Kaarten tellen voordeel in Kans/Algemeen Fonds" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Information asymmetry index quantifies advantage from mentally tracking opponent expenses/income vs relying only on visible property holdings. Elite players maintain ~15-20% accuracy advantage through cash flow analysis.",
+        es: "El índice de asimetría de información cuantifica la ventaja de rastrear mentalmente los gastos/ingresos del oponente vs confiar solo en las tenencias de propiedad visibles. Los jugadores de élite mantienen ~15-20% de ventaja de precisión a través del análisis de flujo de efectivo.",
+        de: "Informationsasymmetrie-Index quantifiziert Vorteil aus mentalem Verfolgen von Gegner-Ausgaben/Einkommen vs nur auf sichtbare Grundstücksbestände vertrauen. Elite-Spieler behalten ~15-20% Genauigkeitsvorteil durch Cashflow-Analyse.",
+        nl: "Informatie asymmetrie index kwantificeert voordeel van mentaal volgen tegenstander uitgaven/inkomsten vs alleen vertrouwen op zichtbare eigendomsbezit. Elite spelers behouden ~15-20% nauwkeurigheid voordeel door cashflow analyse."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'endgame horizon' threshold in computational Monopoly?",
+        es: "¿Qué es el umbral del 'horizonte de final de juego' en Monopoly computacional?",
+        de: "Was ist die 'Endspiel-Horizont'-Schwelle in computergestütztem Monopoly?",
+        nl: "Wat is de 'eindspel horizon' drempel in computationeel Monopoly?"
+      },
+      options: [
+        { en: "Circuit number when <3 players remain", es: "Número de circuito cuando quedan <3 jugadores", de: "Umrundungsnummer wenn <3 Spieler verbleiben", nl: "Ronde nummer wanneer <3 spelers overblijven" },
+        { en: "Point where deterministic outcome is 95%+ predictable", es: "Punto donde el resultado determinista es 95%+ predecible", de: "Punkt wo deterministisches Ergebnis 95%+ vorhersagbar ist", nl: "Punt waar deterministisch resultaat 95%+ voorspelbaar is" },
+        { en: "When all properties are owned and developed", es: "Cuando todas las propiedades son poseídas y desarrolladas", de: "Wenn alle Grundstücke besessen und entwickelt sind", nl: "Wanneer alle eigendommen bezeten en ontwikkeld zijn" },
+        { en: "Final 10 turns of regulation play", es: "Últimos 10 turnos del juego de reglamento", de: "Letzte 10 Runden des Regelspiels", nl: "Laatste 10 beurten van regulatie spel" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Endgame horizon occurs when winner is 95%+ determinable from current state. Monte Carlo simulations can calculate exact turn number based on development levels, cash positions, and positional equity.",
+        es: "El horizonte de final de juego ocurre cuando el ganador es 95%+ determinable desde el estado actual. Las simulaciones Monte Carlo pueden calcular el número exacto de turno basado en niveles de desarrollo, posiciones de efectivo y equidad posicional.",
+        de: "Endspiel-Horizont tritt auf wenn Gewinner 95%+ aus aktuellem Zustand bestimmbar ist. Monte-Carlo-Simulationen können exakte Rundennummer basierend auf Entwicklungsniveaus, Bargeldpositionen und Positions-Equity berechnen.",
+        nl: "Eindspel horizon treedt op wanneer winnaar 95%+ bepaalbaar is vanuit huidige staat. Monte Carlo simulaties kunnen exacte beurt nummer berekenen gebaseerd op ontwikkelingsniveaus, cash posities en positionele equity."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'collusion resistance index' in multi-player tournament formats?",
+        es: "¿Qué es el 'índice de resistencia a la colusión' en formatos de torneo multijugador?",
+        de: "Was ist der 'Kollusions-Resistenz-Index' in Multi-Spieler-Turnierformaten?",
+        nl: "Wat is de 'samenzwering weerstand index' in multi-speler toernooi formaten?"
+      },
+      options: [
+        { en: "Measure of rules preventing player alliances", es: "Medida de reglas que previenen alianzas de jugadores", de: "Maß für Regeln die Spielerallianzen verhindern", nl: "Maat van regels die speler allianties voorkomen" },
+        { en: "Game-theoretic metric showing collusion profitability vs individual optimization", es: "Métrica teórica del juego que muestra rentabilidad de colusión vs optimización individual", de: "Spieltheoretische Metrik die Kollusions-Rentabilität vs individuelle Optimierung zeigt", nl: "Speltheoretische metriek die samenzwering winstgevendheid vs individuele optimalisatie toont" },
+        { en: "Tournament structure rating for fair play", es: "Calificación de estructura de torneo para juego limpio", de: "Turnierstruktur-Bewertung für faires Spiel", nl: "Toernooi structuur beoordeling voor eerlijk spel" },
+        { en: "Player honesty assessment score", es: "Puntuación de evaluación de honestidad del jugador", de: "Spieler-Ehrlichkeits-Bewertungspunktzahl", nl: "Speler eerlijkheid beoordelingsscore" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Collusion resistance quantifies when colluding (coordinating trades/targeting) provides less expected value than individual rational play. High-level tournaments structure scoring to maximize this metric.",
+        es: "La resistencia a la colusión cuantifica cuándo coludir (coordinar intercambios/apuntar) proporciona menos valor esperado que el juego racional individual. Los torneos de alto nivel estructuran la puntuación para maximizar esta métrica.",
+        de: "Kollusions-Resistenz quantifiziert wenn Kolludieren (Handel/Anvisieren koordinieren) weniger Erwartungswert bietet als individuelles rationales Spiel. Hochrangige Turniere strukturieren Wertung um diese Metrik zu maximieren.",
+        nl: "Samenzwering weerstand kwantificeert wanneer samenzweren (ruilen/targeten coördineren) minder verwachte waarde biedt dan individueel rationeel spel. Hoog-niveau toernooien structureren scoring om deze metriek te maximaliseren."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'Kelly criterion' application in Monopoly bankroll management?",
+        es: "¿Qué es la aplicación del 'criterio de Kelly' en la gestión de capital de Monopoly?",
+        de: "Was ist die 'Kelly-Kriterium'-Anwendung in Monopoly-Kapitalverwaltung?",
+        nl: "Wat is de 'Kelly criterium' toepassing in Monopoly bankroll beheer?"
+      },
+      options: [
+        { en: "Never risk more than 10% of cash on single property", es: "Nunca arriesgar más del 10% de efectivo en una sola propiedad", de: "Niemals mehr als 10% Bargeld für einzelnes Grundstück riskieren", nl: "Nooit meer dan 10% cash riskeren op enkel eigendom" },
+        { en: "Optimal fraction of bankroll to invest = (edge × rent) ÷ (cost variance)", es: "Fracción óptima del capital para invertir = (ventaja × alquiler) ÷ (varianza del costo)", de: "Optimaler Anteil des Kapitals zu investieren = (Vorteil × Miete) ÷ (Kostenvarianz)", nl: "Optimale fractie van bankroll om te investeren = (voordeel × huur) ÷ (kosten variantie)" },
+        { en: "Maintain cash reserves equal to highest opponent rent", es: "Mantener reservas de efectivo iguales al alquiler más alto del oponente", de: "Bargeldreserven gleich höchster Gegnermiete halten", nl: "Cash reserves gelijk aan hoogste tegenstander huur behouden" },
+        { en: "Spend all available cash immediately", es: "Gastar todo el efectivo disponible inmediatamente", de: "Alles verfügbare Bargeld sofort ausgeben", nl: "Alle beschikbare cash onmiddellijk uitgeven" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Kelly criterion adaptation for Monopoly: optimal investment fraction = (probability advantage × expected rent) ÷ (development cost variance). Maximizes long-run bankroll growth while avoiding bankruptcy.",
+        es: "Adaptación del criterio de Kelly para Monopoly: fracción de inversión óptima = (ventaja de probabilidad × alquiler esperado) ÷ (varianza del costo de desarrollo). Maximiza el crecimiento del capital a largo plazo evitando la quiebra.",
+        de: "Kelly-Kriterium-Anpassung für Monopoly: optimaler Investitionsanteil = (Wahrscheinlichkeitsvorteil × erwartete Miete) ÷ (Entwicklungskostenvarianz). Maximiert langfristiges Kapitalwachstum während Bankrott vermieden wird.",
+        nl: "Kelly criterium aanpassing voor Monopoly: optimale investering fractie = (waarschijnlijkheid voordeel × verwachte huur) ÷ (ontwikkelingskosten variantie). Maximaliseert lange-termijn bankroll groei terwijl faillissement vermeden wordt."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'tempo advantage' metric in competitive Monopoly theory?",
+        es: "¿Qué es la métrica de 'ventaja de tempo' en la teoría competitiva de Monopoly?",
+        de: "Was ist die 'Tempo-Vorteil'-Metrik in der Wettbewerbs-Monopoly-Theorie?",
+        nl: "Wat is de 'tempo voordeel' metriek in competitieve Monopoly theorie?"
+      },
+      options: [
+        { en: "Number of turns ahead in property acquisition", es: "Número de turnos adelante en adquisición de propiedades", de: "Anzahl der Runden voraus im Grundstückserwerb", nl: "Aantal beurten vooruit in eigendomsverwerving" },
+        { en: "Circuits required to reach development parity with opponents", es: "Circuitos requeridos para alcanzar paridad de desarrollo con oponentes", de: "Umrundungen benötigt um Entwicklungsparität mit Gegnern zu erreichen", nl: "Rondes vereist om ontwikkelings pariteit met tegenstanders te bereiken" },
+        { en: "Speed of completing first monopoly vs opponent monopoly completion", es: "Velocidad de completar primer monopolio vs completación de monopolio del oponente", de: "Geschwindigkeit des Vervollständigens ersten Monopols vs Gegner-Monopol-Vervollständigung", nl: "Snelheid van voltooien eerste monopolie vs tegenstander monopolie voltooiing" },
+        { en: "Rate of cash generation from properties", es: "Tasa de generación de efectivo de propiedades", de: "Rate der Bargeldgenerierung aus Grundstücken", nl: "Snelheid van cash generatie van eigendommen" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Tempo advantage = (your circuits to first developed monopoly) - (opponent's circuits to their first). Negative tempo (getting monopoly first) correlates with 65%+ win rate in tournament play.",
+        es: "Ventaja de tempo = (tus circuitos hasta el primer monopolio desarrollado) - (circuitos del oponente hasta su primero). Tempo negativo (obtener monopolio primero) se correlaciona con 65%+ de tasa de victoria en juego de torneo.",
+        de: "Tempo-Vorteil = (Ihre Umrundungen bis erstes entwickeltes Monopol) - (Gegner-Umrundungen bis zu ihrem ersten). Negatives Tempo (Monopol zuerst bekommen) korreliert mit 65%+ Gewinnrate im Turnierspiel.",
+        nl: "Tempo voordeel = (jouw rondes tot eerste ontwikkelde monopolie) - (tegenstander rondes tot hun eerste). Negatief tempo (monopolie eerst krijgen) correleert met 65%+ winpercentage in toernooispel."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'strategic depth' complexity class of Monopoly in computational game theory?",
+        es: "¿Qué es la clase de complejidad de 'profundidad estratégica' de Monopoly en teoría de juegos computacional?",
+        de: "Was ist die 'strategische Tiefe'-Komplexitätsklasse von Monopoly in der computergestützten Spieltheorie?",
+        nl: "Wat is de 'strategische diepte' complexiteitsklasse van Monopoly in computationele speltheorie?"
+      },
+      options: [
+        { en: "PSPACE-complete (polynomial space)", es: "PSPACE-completo (espacio polinomial)", de: "PSPACE-vollständig (polynomieller Raum)", nl: "PSPACE-compleet (polynomiale ruimte)" },
+        { en: "EXPTIME-complete (exponential time)", es: "EXPTIME-completo (tiempo exponencial)", de: "EXPTIME-vollständig (exponentielle Zeit)", nl: "EXPTIME-compleet (exponentiële tijd)" },
+        { en: "NP-complete (nondeterministic polynomial)", es: "NP-completo (polinomial no determinista)", de: "NP-vollständig (nichtdeterministisch polynomial)", nl: "NP-compleet (niet-deterministisch polynomiaal)" },
+        { en: "P (polynomial time solvable)", es: "P (resoluble en tiempo polinomial)", de: "P (in polynomieller Zeit lösbar)", nl: "P (polynomiale tijd oplosbaar)" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Monopoly belongs to EXPTIME-complete complexity class due to unbounded game length, stochastic elements, and trading negotiations. Optimal play computation requires exponential time relative to board size.",
+        es: "Monopoly pertenece a la clase de complejidad EXPTIME-completo debido a la duración del juego no limitada, elementos estocásticos y negociaciones comerciales. El cálculo del juego óptimo requiere tiempo exponencial relativo al tamaño del tablero.",
+        de: "Monopoly gehört zur EXPTIME-vollständigen Komplexitätsklasse aufgrund unbegrenzter Spiellänge, stochastischer Elemente und Handelsverhandlungen. Optimale Spielberechnung erfordert exponentielle Zeit relativ zur Brettgröße.",
+        nl: "Monopoly behoort tot EXPTIME-complete complexiteitsklasse vanwege onbegrensde spellengte, stochastische elementen en handelsonderhandelingen. Optimale spel berekening vereist exponentiële tijd relatief tot bordgrootte."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'risk-adjusted ROI' formula used in high-level trading decisions?",
+        es: "¿Qué es la fórmula de 'ROI ajustado al riesgo' usada en decisiones comerciales de alto nivel?",
+        de: "Was ist die 'risikoadjustierte ROI'-Formel in hochrangigen Handelsentscheidungen?",
+        nl: "Wat is de 'risico-gecorrigeerde ROI' formule gebruikt in hoog-niveau handelsbeslissingen?"
+      },
+      options: [
+        { en: "Expected rent ÷ total investment", es: "Alquiler esperado ÷ inversión total", de: "Erwartete Miete ÷ Gesamtinvestition", nl: "Verwachte huur ÷ totale investering" },
+        { en: "(Expected rent × landing probability - bankruptcy risk) ÷ (investment + opportunity cost)", es: "(Alquiler esperado × probabilidad de caída - riesgo de quiebra) ÷ (inversión + costo de oportunidad)", de: "(Erwartete Miete × Landewahrscheinlichkeit - Bankrottrisiko) ÷ (Investition + Opportunitätskosten)", nl: "(Verwachte huur × landingswaarschijnlijkheid - faillissementsrisico) ÷ (investering + opportuniteitskosten)" },
+        { en: "Total rent potential ÷ number of opponents", es: "Potencial de alquiler total ÷ número de oponentes", de: "Gesamtmietpotenzial ÷ Anzahl der Gegner", nl: "Totaal huur potentieel ÷ aantal tegenstanders" },
+        { en: "Property value - mortgage value", es: "Valor de propiedad - valor de hipoteca", de: "Grundstückswert - Hypothekenwert", nl: "Eigendomswaarde - hypotheekwaarde" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Risk-adjusted ROI accounts for bankruptcy probability (liquidity crisis risk) and opportunity cost of capital tied up. Formula weights expected value by survival probability and includes alternative investment returns.",
+        es: "El ROI ajustado al riesgo tiene en cuenta la probabilidad de quiebra (riesgo de crisis de liquidez) y el costo de oportunidad del capital atado. La fórmula pondera el valor esperado por la probabilidad de supervivencia e incluye rendimientos de inversión alternativos.",
+        de: "Risikoadjustierter ROI berücksichtigt Bankrottwahrscheinlichkeit (Liquiditätskrisenrisiko) und Opportunitätskosten gebundenen Kapitals. Formel gewichtet Erwartungswert nach Überlebenswahrscheinlichkeit und umfasst alternative Investitionsrenditen.",
+        nl: "Risico-gecorrigeerde ROI houdt rekening met faillissementswaarschijnlijkheid (liquiditeitscrisis risico) en opportuniteitskosten van vastgebonden kapitaal. Formule weegt verwachte waarde naar overlevingswaarschijnlijkheid en omvat alternatieve investeringsrendementen."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'dominant strategy equilibrium' in auction scenarios?",
+        es: "¿Qué es el 'equilibrio de estrategia dominante' en escenarios de subasta?",
+        de: "Was ist das 'dominante Strategie-Gleichgewicht' in Auktionsszenarien?",
+        nl: "Wat is het 'dominante strategie evenwicht' in veiling scenario's?"
+      },
+      options: [
+        { en: "Always bid property face value", es: "Siempre ofertar el valor nominal de la propiedad", de: "Immer Grundstücks-Nennwert bieten", nl: "Altijd eigendoms nominale waarde bieden" },
+        { en: "Bid up to (completion value - opportunity cost) accounting for opponents' likely ranges", es: "Ofertar hasta (valor de completación - costo de oportunidad) teniendo en cuenta los rangos probables de los oponentes", de: "Bis zu (Vervollständigungswert - Opportunitätskosten) bieten unter Berücksichtigung wahrscheinlicher Gegner-Bereiche", nl: "Bieden tot (voltooiingswaarde - opportuniteitskosten) rekening houdend met waarschijnlijke tegenstander bereiken" },
+        { en: "Never participate in auctions", es: "Nunca participar en subastas", de: "Niemals an Auktionen teilnehmen", nl: "Nooit deelnemen aan veilingen" },
+        { en: "Bid minimum increment only", es: "Ofertar solo el incremento mínimo", de: "Nur Mindesterhöhung bieten", nl: "Alleen minimum verhoging bieden" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Dominant auction strategy: bid up to property's completion value (monopoly formation worth) minus opportunity cost, adjusted by opponents' bidding ranges. Requires real-time game tree evaluation.",
+        es: "Estrategia de subasta dominante: ofertar hasta el valor de completación de la propiedad (valor de formación de monopolio) menos el costo de oportunidad, ajustado por los rangos de oferta de los oponentes. Requiere evaluación del árbol de juego en tiempo real.",
+        de: "Dominante Auktionsstrategie: bis zum Vervollständigungswert der Immobilie (Monopolbildungswert) minus Opportunitätskosten bieten, angepasst an Gegner-Bieterbereich. Erfordert Echtzeit-Spielbaum-Bewertung.",
+        nl: "Dominante veiling strategie: bieden tot eigendoms voltooiingswaarde (monopolie vorming waarde) minus opportuniteitskosten, aangepast naar tegenstander biedings bereiken. Vereist real-time spelboom evaluatie."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'metagame evolution' pattern observed in championship-level Monopoly?",
+        es: "¿Qué es el patrón de 'evolución del metajuego' observado en Monopoly de nivel de campeonato?",
+        de: "Was ist das 'Metagame-Evolutions'-Muster in Meisterschafts-Monopoly?",
+        nl: "Wat is het 'metagame evolutie' patroon waargenomen in kampioenschap-niveau Monopoly?"
+      },
+      options: [
+        { en: "Strategies cycle: aggressive trading → defensive blocking → calculated risk-taking", es: "Las estrategias ciclan: comercio agresivo → bloqueo defensivo → toma de riesgos calculada", de: "Strategien zyklieren: aggressiver Handel → defensive Blockierung → kalkulierte Risikobereitschaft", nl: "Strategieën cycleren: agressief ruilen → defensieve blokkering → berekend risico nemen" },
+        { en: "All players converge on identical optimal strategy", es: "Todos los jugadores convergen en estrategia óptima idéntica", de: "Alle Spieler konvergieren auf identische optimale Strategie", nl: "Alle spelers convergeren op identieke optimale strategie" },
+        { en: "Randomness dominates - no strategic evolution", es: "La aleatoriedad domina - sin evolución estratégica", de: "Zufälligkeit dominiert - keine strategische Evolution", nl: "Willekeurigheid domineert - geen strategische evolutie" },
+        { en: "Newer players always outperform experienced ones", es: "Los jugadores más nuevos siempre superan a los experimentados", de: "Neuere Spieler übertreffen immer erfahrene", nl: "Nieuwere spelers presteren altijd beter dan ervaren" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Championship metagame shows cyclic evolution: aggressive trading dominates until defensive blocking emerges; blocking dominates until calculated risk-taking exploits passive play; cycle repeats as meta adapts.",
+        es: "El metajuego de campeonato muestra evolución cíclica: el comercio agresivo domina hasta que emerge el bloqueo defensivo; el bloqueo domina hasta que la toma de riesgos calculada explota el juego pasivo; el ciclo se repite a medida que el meta se adapta.",
+        de: "Meisterschafts-Metagame zeigt zyklische Evolution: aggressiver Handel dominiert bis defensive Blockierung auftaucht; Blockierung dominiert bis kalkulierte Risikobereitschaft passives Spiel ausnutzt; Zyklus wiederholt sich während sich Meta anpasst.",
+        nl: "Kampioenschap metagame toont cyclische evolutie: agressief ruilen domineert tot defensieve blokkering opkomt; blokkering domineert tot berekend risico nemen passief spel exploiteert; cyclus herhaalt zich terwijl meta zich aanpast."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'variance reduction strategy' in tournament formats with multiple rounds?",
+        es: "¿Qué es la 'estrategia de reducción de varianza' en formatos de torneo con múltiples rondas?",
+        de: "Was ist die 'Varianzreduktionsstrategie' in Turnierformaten mit mehreren Runden?",
+        nl: "Wat is de 'variantie reductie strategie' in toernooi formaten met meerdere rondes?"
+      },
+      options: [
+        { en: "Play conservatively to guarantee consistent top-3 finishes across rounds", es: "Jugar conservadoramente para garantizar finales consistentes en top-3 en todas las rondas", de: "Konservativ spielen um konsistente Top-3-Platzierungen über Runden zu garantieren", nl: "Conservatief spelen om consistente top-3 finishes over rondes te garanderen" },
+        { en: "Play maximally aggressive for high-variance outcomes", es: "Jugar máximamente agresivo para resultados de alta varianza", de: "Maximal aggressiv spielen für hohe Varianz-Ergebnisse", nl: "Maximaal agressief spelen voor hoge-variantie uitkomsten" },
+        { en: "Randomize strategy each round", es: "Aleatorizar estrategia cada ronda", de: "Strategie jede Runde randomisieren", nl: "Strategie elke ronde randomiseren" },
+        { en: "Copy previous round winner's strategy", es: "Copiar estrategia del ganador de la ronda anterior", de: "Strategie des vorherigen Rundengewinners kopieren", nl: "Strategie van vorige ronde winnaar kopiëren" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "In multi-round Swiss/cumulative scoring tournaments, variance reduction strategy prioritizes consistent 2nd-3rd place finishes over risky 1st-or-last attempts, as cumulative points from consistency outperform high-variance approaches.",
+        es: "En torneos suizos/de puntuación acumulativa de múltiples rondas, la estrategia de reducción de varianza prioriza finales consistentes en 2do-3er lugar sobre intentos arriesgados de 1er-o-último, ya que los puntos acumulativos de la consistencia superan los enfoques de alta varianza.",
+        de: "In Multi-Runden-Swiss/kumulative Wertungsturnieren priorisiert Varianzreduktionsstrategie konsistente 2.-3.-Platzierungen über riskante 1.-oder-letzte Versuche, da kumulative Punkte aus Konsistenz hohe Varianz-Ansätze übertreffen.",
+        nl: "In multi-ronde Swiss/cumulatieve scoring toernooien prioriteert variantie reductie strategie consistente 2e-3e plaats finishes boven riskante 1e-of-laatste pogingen, omdat cumulatieve punten van consistentie hoge-variantie benaderingen overtreffen."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'Shapley value' application to Monopoly coalition analysis?",
+        es: "¿Qué es la aplicación del 'valor de Shapley' al análisis de coalición de Monopoly?",
+        de: "Was ist die 'Shapley-Wert'-Anwendung auf Monopoly-Koalitionsanalyse?",
+        nl: "Wat is de 'Shapley waarde' toepassing op Monopoly coalitie analyse?"
+      },
+      options: [
+        { en: "Fair division of properties in bankruptcy", es: "División justa de propiedades en quiebra", de: "Faire Aufteilung von Grundstücken bei Bankrott", nl: "Eerlijke verdeling van eigendommen in faillissement" },
+        { en: "Quantifying each player's marginal contribution to coalition winning probability", es: "Cuantificar la contribución marginal de cada jugador a la probabilidad de victoria de la coalición", de: "Quantifizierung des marginalen Beitrags jedes Spielers zur Koalitions-Gewinnwahrscheinlichkeit", nl: "Kwantificeren van elke speler marginale bijdrage aan coalitie winkans" },
+        { en: "Calculating property trade values", es: "Calcular valores de intercambio de propiedades", de: "Grundstückshandelswerte berechnen", nl: "Eigendom ruil waarden berekenen" },
+        { en: "Determining turn order value", es: "Determinar valor del orden de turno", de: "Zugreihenfolge-Wert bestimmen", nl: "Beurt volgorde waarde bepalen" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Shapley value quantifies each player's fair share in multi-player coalitions by averaging marginal contributions across all possible coalition formations. Shows when coordinated trading/targeting creates positive-sum value.",
+        es: "El valor de Shapley cuantifica la parte justa de cada jugador en coaliciones multijugador promediando las contribuciones marginales en todas las formaciones de coalición posibles. Muestra cuándo el comercio/apuntado coordinado crea valor de suma positiva.",
+        de: "Shapley-Wert quantifiziert jeden Spielers fairen Anteil in Multi-Spieler-Koalitionen durch Durchschnitt marginaler Beiträge über alle möglichen Koalitionsformationen. Zeigt wann koordinierter Handel/Anvisieren positiven Summenwert schafft.",
+        nl: "Shapley waarde kwantificeert elke speler eerlijk aandeel in multi-speler coalities door gemiddelde marginale bijdragen over alle mogelijke coalitie formaties. Toont wanneer gecoördineerd ruilen/targeten positieve-som waarde creëert."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'chicken dilemma' manifestation in Monopoly property standoffs?",
+        es: "¿Qué es la manifestación del 'dilema del gallina' en enfrentamientos de propiedades de Monopoly?",
+        de: "Was ist die 'Feiglingsspiel'-Manifestation in Monopoly-Grundstücks-Pattsituationen?",
+        nl: "Wat is de 'kip dilemma' manifestatie in Monopoly eigendom patstelling?"
+      },
+      options: [
+        { en: "Both players refuse to trade, both lose to third player", es: "Ambos jugadores rechazan comerciar, ambos pierden ante tercer jugador", de: "Beide Spieler weigern zu handeln, beide verlieren gegen dritten Spieler", nl: "Beide spelers weigeren te ruilen, beide verliezen aan derde speler" },
+        { en: "First player to mortgage loses advantage", es: "El primer jugador en hipotecar pierde ventaja", de: "Erster Spieler der beleiht verliert Vorteil", nl: "Eerste speler die hypothekeert verliest voordeel" },
+        { en: "Player who accepts unfavorable trade wins long-term", es: "El jugador que acepta intercambio desfavorable gana a largo plazo", de: "Spieler der ungünstigen Handel akzeptiert gewinnt langfristig", nl: "Speler die ongunstige ruil accepteert wint op lange termijn" },
+        { en: "Building first creates vulnerability", es: "Construir primero crea vulnerabilidad", de: "Zuerst bauen schafft Verwundbarkeit", nl: "Eerst bouwen creëert kwetsbaarheid" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Chicken dilemma: two players blocking each other's monopolies refuse to trade (both 'swerve' = lose face, 'stay course' = mutual destruction), allowing third player to develop unchallenged and win. Game-theoretic deadlock.",
+        es: "Dilema del gallina: dos jugadores bloqueando los monopolios del otro rechazan comerciar (ambos 'desviarse' = perder prestigio, 'mantener curso' = destrucción mutua), permitiendo que tercer jugador desarrolle sin desafío y gane. Punto muerto teórico del juego.",
+        de: "Feiglingsspiel: zwei Spieler die gegenseitig Monopole blockieren weigern sich zu handeln (beide 'ausweichen' = Gesicht verlieren, 'Kurs halten' = gegenseitige Zerstörung), ermöglicht drittem Spieler unangefochten zu entwickeln und zu gewinnen. Spieltheoretischer Deadlock.",
+        nl: "Kip dilemma: twee spelers die elkaars monopolies blokkeren weigeren te ruilen (beide 'uitwijken' = gezicht verliezen, 'koers houden' = wederzijdse vernietiging), waardoor derde speler ongemoeid kan ontwikkelen en winnen. Speltheoretische impasse."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'bounded rationality threshold' in real-time Monopoly decision-making?",
+        es: "¿Qué es el 'umbral de racionalidad limitada' en la toma de decisiones en tiempo real de Monopoly?",
+        de: "Was ist die 'begrenzte Rationalitätsschwelle' in Echtzeit-Monopoly-Entscheidungsfindung?",
+        nl: "Wat is de 'begrensde rationaliteitsdrempel' in real-time Monopoly besluitvorming?"
+      },
+      options: [
+        { en: "Players can only calculate 2-3 moves ahead accurately", es: "Los jugadores solo pueden calcular 2-3 movimientos adelante con precisión", de: "Spieler können nur 2-3 Züge voraus genau berechnen", nl: "Spelers kunnen slechts 2-3 zetten vooruit nauwkeurig berekenen" },
+        { en: "Cognitive limit where heuristics replace full game tree analysis (~5-6 decision nodes)", es: "Límite cognitivo donde heurísticas reemplazan análisis completo del árbol de juego (~5-6 nodos de decisión)", de: "Kognitive Grenze wo Heuristiken vollständige Spielbaum-Analyse ersetzen (~5-6 Entscheidungsknoten)", nl: "Cognitieve limiet waar heuristieken volledige spelboom analyse vervangen (~5-6 beslissingsknopen)" },
+        { en: "Point where emotions override strategy", es: "Punto donde las emociones anulan la estrategia", de: "Punkt wo Emotionen Strategie überschreiben", nl: "Punt waar emoties strategie overschrijven" },
+        { en: "Maximum number of properties to track", es: "Número máximo de propiedades para rastrear", de: "Maximale Anzahl von Grundstücken zu verfolgen", nl: "Maximum aantal eigendommen om te volgen" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Research shows humans can maintain ~5-6 decision nodes in working memory during time-pressured Monopoly play. Beyond this, players rely on heuristics (rules of thumb) rather than optimal game tree evaluation.",
+        es: "La investigación muestra que los humanos pueden mantener ~5-6 nodos de decisión en la memoria de trabajo durante juego de Monopoly bajo presión de tiempo. Más allá de esto, los jugadores confían en heurísticas (reglas empíricas) en lugar de evaluación óptima del árbol de juego.",
+        de: "Forschung zeigt Menschen können ~5-6 Entscheidungsknoten im Arbeitsgedächtnis während zeitlich begrenztem Monopoly-Spiel halten. Darüber hinaus verlassen sich Spieler auf Heuristiken (Faustregeln) statt optimaler Spielbaum-Bewertung.",
+        nl: "Onderzoek toont mensen kunnen ~5-6 beslissingsknopen in werkgeheugen behouden tijdens tijdsdruk Monopoly spel. Hierboven vertrouwen spelers op heuristieken (vuistregels) in plaats van optimale spelboom evaluatie."
+      }
     }
   ];
 

@@ -427,6 +427,405 @@
           de: "Waffen-Tokens werden während Vorschlägen in Räume bewegt, um zu visualisieren, welche Waffe vorgeschlagen wird, genau wie Charakterfiguren. Sie sammeln sich im Laufe des Spiels in Räumen an.",
           nl: "Wapenfiguren worden tijdens suggesties naar kamers verplaatst om te visualiseren welk wapen wordt gesuggereerd, net zoals personagefiguren. Ze verzamelen zich gedurende het spel in kamers."
         }
+      },
+      {
+        question: {
+          en: "Why might you want to suggest the same room multiple times?",
+          es: "¿Por qué podrías querer sugerir la misma habitación múltiples veces?",
+          de: "Warum möchtest du möglicherweise denselben Raum mehrmals vorschlagen?",
+          nl: "Waarom zou je mogelijk dezelfde kamer meerdere keren willen suggereren?"
+        },
+        options: [
+          { en: "To eliminate different suspects and weapons", es: "Para eliminar diferentes sospechosos y armas", de: "Um verschiedene Verdächtige und Waffen zu eliminieren", nl: "Om verschillende verdachten en wapens te elimineren" },
+          { en: "It's against the rules", es: "Está contra las reglas", de: "Es ist gegen die Regeln", nl: "Het is tegen de regels" },
+          { en: "To confuse other players", es: "Para confundir a otros jugadores", de: "Um andere Spieler zu verwirren", nl: "Om andere spelers te verwarren" },
+          { en: "To collect bonus points", es: "Para recoger puntos bonus", de: "Um Bonuspunkte zu sammeln", nl: "Om bonuspunten te verzamelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Suggesting the same room multiple times with different suspects and weapons helps you systematically eliminate possibilities for that room while gathering information about other cards.",
+          es: "Sugerir la misma habitación múltiples veces con diferentes sospechosos y armas te ayuda a eliminar sistemáticamente posibilidades para esa habitación mientras recopila información sobre otras cartas.",
+          de: "Denselben Raum mehrmals mit verschiedenen Verdächtigen und Waffen vorzuschlagen hilft dir, systematisch Möglichkeiten für diesen Raum zu eliminieren, während du Informationen über andere Karten sammelst.",
+          nl: "Dezelfde kamer meerdere keren suggereren met verschillende verdachten en wapens helpt je systematisch mogelijkheden voor die kamer te elimineren terwijl je informatie verzamelt over andere kaarten."
+        }
+      },
+      {
+        question: {
+          en: "What is the strategic value of staying in a room for multiple turns?",
+          es: "¿Cuál es el valor estratégico de quedarse en una habitación durante múltiples turnos?",
+          de: "Was ist der strategische Wert, mehrere Runden in einem Raum zu bleiben?",
+          nl: "Wat is de strategische waarde van meerdere beurten in een kamer blijven?"
+        },
+        options: [
+          { en: "Making multiple suggestions efficiently", es: "Hacer múltiples sugerencias eficientemente", de: "Mehrere Vorschläge effizient machen", nl: "Meerdere suggesties efficiënt doen" },
+          { en: "Blocking other players' access", es: "Bloquear el acceso de otros jugadores", de: "Zugang anderer Spieler blockieren", nl: "Toegang van andere spelers blokkeren" },
+          { en: "Earning extra cards", es: "Ganar cartas extra", de: "Zusätzliche Karten verdienen", nl: "Extra kaarten verdienen" },
+          { en: "Getting extra dice rolls", es: "Obtener tiradas de dados extra", de: "Zusätzliche Würfelwürfe erhalten", nl: "Extra dobbelsteenworp krijgen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Staying in a room allows you to make suggestions every turn without wasting movement, letting you test multiple combinations of suspects and weapons quickly.",
+          es: "Quedarse en una habitación te permite hacer sugerencias cada turno sin desperdiciar movimiento, permitiéndote probar múltiples combinaciones de sospechosos y armas rápidamente.",
+          de: "In einem Raum zu bleiben ermöglicht es dir, jeden Zug Vorschläge zu machen, ohne Bewegung zu verschwenden, was dir erlaubt, schnell mehrere Kombinationen von Verdächtigen und Waffen zu testen.",
+          nl: "In een kamer blijven stelt je in staat elke beurt suggesties te doen zonder beweging te verspillen, waardoor je snel meerdere combinaties van verdachten en wapens kunt testen."
+        }
+      },
+      {
+        question: {
+          en: "How can you deduce information from other players' suggestions?",
+          es: "¿Cómo puedes deducir información de las sugerencias de otros jugadores?",
+          de: "Wie kannst du Informationen aus den Vorschlägen anderer Spieler ableiten?",
+          nl: "Hoe kun je informatie afleiden uit de suggesties van andere spelers?"
+        },
+        options: [
+          { en: "Watch who shows cards and who doesn't", es: "Observar quién muestra cartas y quién no", de: "Beobachten, wer Karten zeigt und wer nicht", nl: "Kijken wie kaarten toont en wie niet" },
+          { en: "Count the dice rolls", es: "Contar las tiradas de dados", de: "Die Würfelwürfe zählen", nl: "De dobbelsteenworpen tellen" },
+          { en: "Track room movements", es: "Rastrear movimientos de habitaciones", de: "Raumbewegungen verfolgen", nl: "Kamerbewegingen volgen" },
+          { en: "Memorize weapon positions", es: "Memorizar posiciones de armas", de: "Waffenpositionen merken", nl: "Wapenposities onthouden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "By tracking which players show cards in response to suggestions (and which don't), you can deduce which cards they hold or don't hold, even without seeing the cards yourself.",
+          es: "Al rastrear qué jugadores muestran cartas en respuesta a sugerencias (y cuáles no), puedes deducir qué cartas tienen o no tienen, incluso sin ver las cartas tú mismo.",
+          de: "Indem du verfolgst, welche Spieler Karten als Antwort auf Vorschläge zeigen (und welche nicht), kannst du ableiten, welche Karten sie haben oder nicht haben, auch ohne die Karten selbst zu sehen.",
+          nl: "Door bij te houden welke spelers kaarten tonen als reactie op suggesties (en welke niet), kun je afleiden welke kaarten ze wel of niet hebben, zelfs zonder de kaarten zelf te zien."
+        }
+      },
+      {
+        question: {
+          en: "What color is Mrs. White's playing piece?",
+          es: "¿De qué color es la pieza de juego de Mrs. White?",
+          de: "Welche Farbe hat die Spielfigur von Mrs. White?",
+          nl: "Welke kleur heeft het speelstuk van Mrs. White?"
+        },
+        options: [
+          { en: "White", es: "Blanco", de: "Weiß", nl: "Wit" },
+          { en: "Gray", es: "Gris", de: "Grau", nl: "Grijs" },
+          { en: "Black", es: "Negro", de: "Schwarz", nl: "Zwart" },
+          { en: "Silver", es: "Plateado", de: "Silber", nl: "Zilver" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mrs. White's playing piece is white, matching her name. In some newer versions, this character has been replaced by other characters.",
+          es: "La pieza de juego de Mrs. White es blanca, coincidiendo con su nombre. En algunas versiones más nuevas, este personaje ha sido reemplazado por otros.",
+          de: "Die Spielfigur von Mrs. White ist weiß, passend zu ihrem Namen. In einigen neueren Versionen wurde diese Figur durch andere Charaktere ersetzt.",
+          nl: "Het speelstuk van Mrs. White is wit, passend bij haar naam. In sommige nieuwere versies is dit personage vervangen door andere personages."
+        }
+      },
+      {
+        question: {
+          en: "Which two rooms are NOT connected by corridors to any other rooms?",
+          es: "¿Qué dos habitaciones NO están conectadas por corredores a ninguna otra habitación?",
+          de: "Welche zwei Räume sind NICHT durch Korridore mit anderen Räumen verbunden?",
+          nl: "Welke twee kamers zijn NIET verbonden door gangen met andere kamers?"
+        },
+        options: [
+          { en: "None - all rooms have corridor access", es: "Ninguna - todas las habitaciones tienen acceso por corredor", de: "Keine - alle Räume haben Korridor-Zugang", nl: "Geen - alle kamers hebben gang toegang" },
+          { en: "Study and Kitchen", es: "Estudio y Cocina", de: "Arbeitszimmer und Küche", nl: "Studeerkamer en Keuken" },
+          { en: "Lounge and Conservatory", es: "Salón e Invernadero", de: "Salon und Wintergarten", nl: "Salon en Serre" },
+          { en: "All rooms connect via corridors", es: "Todas las habitaciones conectan vía corredores", de: "Alle Räume verbinden über Korridore", nl: "Alle kamers verbinden via gangen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "All nine rooms in Cluedo are accessible via corridor doorways. The secret passages provide additional connections between corner rooms but don't replace corridor access.",
+          es: "Las nueve habitaciones en Cluedo son accesibles a través de puertas de corredor. Los pasajes secretos proporcionan conexiones adicionales entre habitaciones de esquina pero no reemplazan el acceso por corredor.",
+          de: "Alle neun Räume in Cluedo sind über Korridor-Türen zugänglich. Die Geheimgänge bieten zusätzliche Verbindungen zwischen Eckräumen, ersetzen aber nicht den Korridor-Zugang.",
+          nl: "Alle negen kamers in Cluedo zijn toegankelijk via gang deuren. De geheime gangen bieden extra verbindingen tussen hoekkamers maar vervangen geen gangtoegang."
+        }
+      },
+      {
+        question: {
+          en: "What is the minimum number of suggestions needed to solve the game?",
+          es: "¿Cuál es el número mínimo de sugerencias necesarias para resolver el juego?",
+          de: "Was ist die Mindestanzahl an Vorschlägen, die zum Lösen des Spiels benötigt werden?",
+          nl: "Wat is het minimum aantal suggesties dat nodig is om het spel op te lossen?"
+        },
+        options: [
+          { en: "It varies depending on luck", es: "Varía dependiendo de la suerte", de: "Es variiert je nach Glück", nl: "Het varieert afhankelijk van geluk" },
+          { en: "Exactly 18 (one for each card)", es: "Exactamente 18 (una por cada carta)", de: "Genau 18 (eine für jede Karte)", nl: "Precies 18 (één voor elke kaart)" },
+          { en: "Always 3 (one per category)", es: "Siempre 3 (una por categoría)", de: "Immer 3 (eine pro Kategorie)", nl: "Altijd 3 (één per categorie)" },
+          { en: "Zero with perfect deduction", es: "Cero con deducción perfecta", de: "Null mit perfekter Deduktion", nl: "Nul met perfecte deductie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The number varies based on which cards you're dealt, what other players reveal, and your deduction skills. With good luck and tracking, you might solve it in just a few suggestions.",
+          es: "El número varía según qué cartas recibes, qué revelan otros jugadores y tus habilidades de deducción. Con buena suerte y seguimiento, podrías resolverlo en solo unas pocas sugerencias.",
+          de: "Die Anzahl variiert je nachdem, welche Karten du erhältst, was andere Spieler offenbaren und deine Deduktionsfähigkeiten. Mit Glück und Verfolgung könntest du es in nur wenigen Vorschlägen lösen.",
+          nl: "Het aantal varieert op basis van welke kaarten je krijgt, wat andere spelers onthullen en je deductievaardigheden. Met geluk en tracking kun je het oplossen in slechts een paar suggesties."
+        }
+      },
+      {
+        question: {
+          en: "When should you consider making an accusation?",
+          es: "¿Cuándo debes considerar hacer una acusación?",
+          de: "Wann solltest du eine Anschuldigung in Betracht ziehen?",
+          nl: "Wanneer moet je overwegen een beschuldiging te maken?"
+        },
+        options: [
+          { en: "After your first suggestion", es: "Después de tu primera sugerencia", de: "Nach deinem ersten Vorschlag", nl: "Na je eerste suggestie" },
+          { en: "When you've eliminated all but 3 cards", es: "Cuando has eliminado todas menos 3 cartas", de: "Wenn du alle außer 3 Karten eliminiert hast", nl: "Wanneer je alle behalve 3 kaarten hebt geëlimineerd" },
+          { en: "On your last turn", es: "En tu último turno", de: "In deinem letzten Zug", nl: "In je laatste beurt" },
+          { en: "After visiting all rooms", es: "Después de visitar todas las habitaciones", de: "Nach dem Besuch aller Räume", nl: "Na het bezoeken van alle kamers" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "You should make an accusation when you've logically eliminated all cards except one from each category (suspect, weapon, room), leaving only the solution remaining.",
+          es: "Debes hacer una acusación cuando hayas eliminado lógicamente todas las cartas excepto una de cada categoría (sospechoso, arma, habitación), dejando solo la solución.",
+          de: "Du solltest eine Anschuldigung machen, wenn du logisch alle Karten außer einer aus jeder Kategorie (Verdächtiger, Waffe, Raum) eliminiert hast, sodass nur die Lösung übrig bleibt.",
+          nl: "Je moet een beschuldiging maken wanneer je logisch alle kaarten behalve één uit elke categorie (verdachte, wapen, kamer) hebt geëlimineerd, waardoor alleen de oplossing overblijft."
+        }
+      },
+      {
+        question: {
+          en: "What color is Mr. Green's playing piece?",
+          es: "¿De qué color es la pieza de juego de Mr. Green?",
+          de: "Welche Farbe hat die Spielfigur von Mr. Green?",
+          nl: "Welke kleur heeft het speelstuk van Mr. Green?"
+        },
+        options: [
+          { en: "Green", es: "Verde", de: "Grün", nl: "Groen" },
+          { en: "Blue", es: "Azul", de: "Blau", nl: "Blauw" },
+          { en: "Brown", es: "Marrón", de: "Braun", nl: "Bruin" },
+          { en: "Orange", es: "Naranja", de: "Orange", nl: "Oranje" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mr. Green's playing piece is green, matching his name. He is one of the six original suspects in classic Cluedo.",
+          es: "La pieza de juego de Mr. Green es verde, coincidiendo con su nombre. Es uno de los seis sospechosos originales en el Cluedo clásico.",
+          de: "Die Spielfigur von Mr. Green ist grün, passend zu seinem Namen. Er ist einer der sechs ursprünglichen Verdächtigen im klassischen Cluedo.",
+          nl: "Het speelstuk van Mr. Green is groen, passend bij zijn naam. Hij is een van de zes oorspronkelijke verdachten in klassiek Cluedo."
+        }
+      },
+      {
+        question: {
+          en: "Why is it useful to track which player shows cards to other players?",
+          es: "¿Por qué es útil rastrear qué jugador muestra cartas a otros jugadores?",
+          de: "Warum ist es nützlich zu verfolgen, welcher Spieler anderen Spielern Karten zeigt?",
+          nl: "Waarom is het nuttig om bij te houden welke speler kaarten toont aan andere spelers?"
+        },
+        options: [
+          { en: "To know who's winning", es: "Para saber quién está ganando", de: "Um zu wissen, wer gewinnt", nl: "Om te weten wie aan het winnen is" },
+          { en: "To deduce which cards they hold", es: "Para deducir qué cartas tienen", de: "Um abzuleiten, welche Karten sie haben", nl: "Om af te leiden welke kaarten ze hebben" },
+          { en: "To calculate dice probabilities", es: "Para calcular probabilidades de dados", de: "Um Würfelwahrscheinlichkeiten zu berechnen", nl: "Om dobbelsteenkansen te berekenen" },
+          { en: "It's not useful", es: "No es útil", de: "Es ist nicht nützlich", nl: "Het is niet nuttig" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Tracking who shows cards helps you deduce which cards each player holds, allowing you to eliminate possibilities even for suggestions you didn't make yourself.",
+          es: "Rastrear quién muestra cartas te ayuda a deducir qué cartas tiene cada jugador, permitiéndote eliminar posibilidades incluso para sugerencias que no hiciste tú mismo.",
+          de: "Das Verfolgen, wer Karten zeigt, hilft dir abzuleiten, welche Karten jeder Spieler hat, was dir erlaubt, Möglichkeiten zu eliminieren, selbst für Vorschläge, die du nicht selbst gemacht hast.",
+          nl: "Bijhouden wie kaarten toont helpt je af te leiden welke kaarten elke speler heeft, waardoor je mogelijkheden kunt elimineren, zelfs voor suggesties die je zelf niet deed."
+        }
+      },
+      {
+        question: {
+          en: "What is the typical time length of a Cluedo game?",
+          es: "¿Cuál es la duración típica de un juego de Cluedo?",
+          de: "Was ist die typische Spieldauer von Cluedo?",
+          nl: "Wat is de typische speelduur van een Cluedo-spel?"
+        },
+        options: [
+          { en: "15-30 minutes", es: "15-30 minutos", de: "15-30 Minuten", nl: "15-30 minuten" },
+          { en: "30-60 minutes", es: "30-60 minutos", de: "30-60 Minuten", nl: "30-60 minuten" },
+          { en: "1-2 hours", es: "1-2 horas", de: "1-2 Stunden", nl: "1-2 uur" },
+          { en: "2-3 hours", es: "2-3 horas", de: "2-3 Stunden", nl: "2-3 uur" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A typical game of Cluedo lasts 30-60 minutes, though experienced players familiar with deduction strategies may finish faster, while beginners might take longer.",
+          es: "Un juego típico de Cluedo dura 30-60 minutos, aunque jugadores experimentados familiarizados con estrategias de deducción pueden terminar más rápido, mientras que principiantes pueden tardar más.",
+          de: "Ein typisches Cluedo-Spiel dauert 30-60 Minuten, obwohl erfahrene Spieler, die mit Deduktionsstrategien vertraut sind, schneller fertig werden können, während Anfänger länger brauchen könnten.",
+          nl: "Een typisch Cluedo-spel duurt 30-60 minuten, hoewel ervaren spelers vertrouwd met deductiestrategieën sneller kunnen eindigen, terwijl beginners langer kunnen doen."
+        }
+      },
+      {
+        question: {
+          en: "Which room is alphabetically last in English?",
+          es: "¿Qué habitación es alfabéticamente la última en inglés?",
+          de: "Welcher Raum ist im Englischen alphabetisch der letzte?",
+          nl: "Welke kamer komt alfabetisch als laatste in het Engels?"
+        },
+        options: [
+          { en: "Study", es: "Estudio", de: "Arbeitszimmer", nl: "Studeerkamer" },
+          { en: "Library", es: "Biblioteca", de: "Bibliothek", nl: "Bibliotheek" },
+          { en: "Lounge", es: "Salón", de: "Salon", nl: "Salon" },
+          { en: "Kitchen", es: "Cocina", de: "Küche", nl: "Keuken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Study is alphabetically last among the nine rooms in English: Ballroom, Billiard Room, Conservatory, Dining Room, Hall, Kitchen, Library, Lounge, Study.",
+          es: "El Estudio es alfabéticamente la última entre las nueve habitaciones en inglés: Ballroom, Billiard Room, Conservatory, Dining Room, Hall, Kitchen, Library, Lounge, Study.",
+          de: "Das Arbeitszimmer (Study) ist alphabetisch der letzte unter den neun Räumen im Englischen: Ballroom, Billiard Room, Conservatory, Dining Room, Hall, Kitchen, Library, Lounge, Study.",
+          nl: "De Studeerkamer (Study) komt alfabetisch als laatste onder de negen kamers in het Engels: Ballroom, Billiard Room, Conservatory, Dining Room, Hall, Kitchen, Library, Lounge, Study."
+        }
+      },
+      {
+        question: {
+          en: "What advantage does the first player (Miss Scarlett) have?",
+          es: "¿Qué ventaja tiene el primer jugador (Miss Scarlett)?",
+          de: "Welchen Vorteil hat der erste Spieler (Miss Scarlett)?",
+          nl: "Welk voordeel heeft de eerste speler (Miss Scarlett)?"
+        },
+        options: [
+          { en: "Extra cards", es: "Cartas extra", de: "Zusätzliche Karten", nl: "Extra kaarten" },
+          { en: "First chance to make suggestions", es: "Primera oportunidad de hacer sugerencias", de: "Erste Chance, Vorschläge zu machen", nl: "Eerste kans om suggesties te doen" },
+          { en: "Starting in a room", es: "Comenzar en una habitación", de: "In einem Raum beginnen", nl: "Beginnen in een kamer" },
+          { en: "Seeing solution cards first", es: "Ver cartas de solución primero", de: "Lösungskarten zuerst sehen", nl: "Oplossingskaarten eerst zien" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Miss Scarlett goes first, giving her the first opportunity to make suggestions and start gathering information before other players, which can be a slight strategic advantage.",
+          es: "Miss Scarlett va primera, dándole la primera oportunidad de hacer sugerencias y comenzar a recopilar información antes que otros jugadores, lo cual puede ser una ligera ventaja estratégica.",
+          de: "Miss Scarlett beginnt zuerst und hat somit die erste Gelegenheit, Vorschläge zu machen und Informationen zu sammeln, bevor es andere Spieler tun, was ein leichter strategischer Vorteil sein kann.",
+          nl: "Miss Scarlett gaat als eerste, wat haar de eerste kans geeft om suggesties te doen en informatie te verzamelen voordat andere spelers dat doen, wat een klein strategisch voordeel kan zijn."
+        }
+      },
+      {
+        question: {
+          en: "How many cards should be set aside face-down if the cards don't divide evenly?",
+          es: "¿Cuántas cartas deben apartarse boca abajo si las cartas no se dividen equitativamente?",
+          de: "Wie viele Karten sollten verdeckt beiseite gelegt werden, wenn sich die Karten nicht gleichmäßig aufteilen?",
+          nl: "Hoeveel kaarten moeten gedekt worden opzij gelegd als de kaarten niet gelijk verdelen?"
+        },
+        options: [
+          { en: "All extra cards", es: "Todas las cartas extra", de: "Alle zusätzlichen Karten", nl: "Alle extra kaarten" },
+          { en: "None - deal unevenly", es: "Ninguna - repartir de forma desigual", de: "Keine - ungleich austeilen", nl: "Geen - ongelijk delen" },
+          { en: "Half the extra cards", es: "La mitad de las cartas extra", de: "Die Hälfte der zusätzlichen Karten", nl: "De helft van de extra kaarten" },
+          { en: "It varies by house rules", es: "Varía según reglas caseras", de: "Es variiert nach Hausregeln", nl: "Het varieert per huisregels" }
+        },
+        correct: 3,
+        explanation: {
+          en: "Different versions and house rules handle uneven distribution differently. Some deal all cards (some players get one extra), while others set extras aside face-down for all to see later.",
+          es: "Diferentes versiones y reglas caseras manejan la distribución desigual de manera diferente. Algunas reparten todas las cartas (algunos jugadores obtienen una extra), mientras que otras apartan las extras boca abajo para que todos las vean después.",
+          de: "Verschiedene Versionen und Hausregeln handhaben ungleiche Verteilung unterschiedlich. Einige verteilen alle Karten (einige Spieler bekommen eine zusätzliche), während andere zusätzliche verdeckt beiseite legen, damit alle sie später sehen.",
+          nl: "Verschillende versies en huisregels behandelen ongelijke verdeling anders. Sommige delen alle kaarten (sommige spelers krijgen er één extra), terwijl anderen extra's gedekt opzij leggen zodat iedereen ze later kan zien."
+        }
+      },
+      {
+        question: {
+          en: "What is a common intermediate strategy for suggestions?",
+          es: "¿Cuál es una estrategia intermedia común para sugerencias?",
+          de: "Was ist eine gängige mittlere Strategie für Vorschläge?",
+          nl: "Wat is een veelvoorkomende gemiddelde strategie voor suggesties?"
+        },
+        options: [
+          { en: "Always suggest your own cards", es: "Siempre sugerir tus propias cartas", de: "Immer die eigenen Karten vorschlagen", nl: "Altijd je eigen kaarten suggereren" },
+          { en: "Suggest 1 known card + 2 unknowns", es: "Sugerir 1 carta conocida + 2 desconocidas", de: "1 bekannte Karte + 2 unbekannte vorschlagen", nl: "1 bekende kaart + 2 onbekenden suggereren" },
+          { en: "Never repeat suggestions", es: "Nunca repetir sugerencias", de: "Vorschläge nie wiederholen", nl: "Nooit suggesties herhalen" },
+          { en: "Only suggest in corner rooms", es: "Solo sugerir en habitaciones de esquina", de: "Nur in Eckräumen vorschlagen", nl: "Alleen suggereren in hoekkamers" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A good strategy is to suggest one card you know (either yours or eliminated) plus two unknowns. This ensures any card shown must be one of the two unknowns, giving you certain information.",
+          es: "Una buena estrategia es sugerir una carta que conoces (tuya o eliminada) más dos desconocidas. Esto asegura que cualquier carta mostrada debe ser una de las dos desconocidas, dándote información segura.",
+          de: "Eine gute Strategie ist, eine Karte vorzuschlagen, die du kennst (entweder deine oder eliminierte) plus zwei unbekannte. Dies stellt sicher, dass jede gezeigte Karte eine der beiden unbekannten sein muss, was dir sichere Informationen gibt.",
+          nl: "Een goede strategie is één kaart suggereren die je kent (van jou of geëlimineerd) plus twee onbekenden. Dit zorgt ervoor dat elke getoonde kaart één van de twee onbekenden moet zijn, wat je zekere informatie geeft."
+        }
+      },
+      {
+        question: {
+          en: "What color is Mrs. Peacock's playing piece?",
+          es: "¿De qué color es la pieza de juego de Mrs. Peacock?",
+          de: "Welche Farbe hat die Spielfigur von Mrs. Peacock?",
+          nl: "Welke kleur heeft het speelstuk van Mrs. Peacock?"
+        },
+        options: [
+          { en: "Green", es: "Verde", de: "Grün", nl: "Groen" },
+          { en: "Blue", es: "Azul", de: "Blau", nl: "Blauw" },
+          { en: "Teal/Peacock blue", es: "Azul verdoso/Azul pavo real", de: "Türkis/Pfaublau", nl: "Groenblauw/Pauwblauw" },
+          { en: "Purple", es: "Morado", de: "Lila", nl: "Paars" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Mrs. Peacock's playing piece is typically teal or peacock blue, a blue-green color that references the colorful plumage of peacock birds.",
+          es: "La pieza de juego de Mrs. Peacock es típicamente azul verdoso o azul pavo real, un color azul-verde que hace referencia al colorido plumaje de los pavos reales.",
+          de: "Die Spielfigur von Mrs. Peacock ist typischerweise türkis oder pfaublau, eine blau-grüne Farbe, die auf das farbenfrohe Gefieder von Pfauen verweist.",
+          nl: "Het speelstuk van Mrs. Peacock is meestal groenblauw of pauwblauw, een blauwgroene kleur die verwijst naar de kleurrijke verentooi van pauwen."
+        }
+      },
+      {
+        question: {
+          en: "How should you prioritize which rooms to visit first?",
+          es: "¿Cómo debes priorizar qué habitaciones visitar primero?",
+          de: "Wie solltest du priorisieren, welche Räume du zuerst besuchst?",
+          nl: "Hoe moet je prioriteren welke kamers je eerst bezoekt?"
+        },
+        options: [
+          { en: "Rooms with most doorways", es: "Habitaciones con más puertas", de: "Räume mit den meisten Türen", nl: "Kamers met de meeste deuren" },
+          { en: "Corner rooms with secret passages", es: "Habitaciones de esquina con pasajes secretos", de: "Eckräume mit Geheimgängen", nl: "Hoekkamers met geheime gangen" },
+          { en: "Closest rooms to your starting position", es: "Habitaciones más cercanas a tu posición inicial", de: "Räume am nächsten zu deiner Startposition", nl: "Kamers het dichtst bij je startpositie" },
+          { en: "All strategies are equally valid", es: "Todas las estrategias son igualmente válidas", de: "Alle Strategien sind gleich gültig", nl: "Alle strategieën zijn even geldig" }
+        },
+        correct: 3,
+        explanation: {
+          en: "Room priority depends on your strategy, starting position, and which cards you need to investigate. Corner rooms offer secret passages, but central rooms may be faster to reach initially.",
+          es: "La prioridad de habitaciones depende de tu estrategia, posición inicial y qué cartas necesitas investigar. Las habitaciones de esquina ofrecen pasajes secretos, pero las habitaciones centrales pueden ser más rápidas de alcanzar inicialmente.",
+          de: "Raumpriorität hängt von deiner Strategie, Startposition und welchen Karten du untersuchen musst, ab. Eckräume bieten Geheimgänge, aber zentrale Räume können anfangs schneller zu erreichen sein.",
+          nl: "Kamerprioriteit hangt af van je strategie, startpositie en welke kaarten je moet onderzoeken. Hoekkamers bieden geheime gangen, maar centrale kamers kunnen aanvankelijk sneller te bereiken zijn."
+        }
+      },
+      {
+        question: {
+          en: "What happens if you check the solution envelope during the game?",
+          es: "¿Qué pasa si revisas el sobre de la solución durante el juego?",
+          de: "Was passiert, wenn du den Lösungsumschlag während des Spiels überprüfst?",
+          nl: "Wat gebeurt er als je de oplossing envelop controleert tijdens het spel?"
+        },
+        options: [
+          { en: "It's allowed to verify your accusation", es: "Está permitido verificar tu acusación", de: "Es ist erlaubt, deine Anschuldigung zu verifizieren", nl: "Het is toegestaan om je beschuldiging te verifiëren" },
+          { en: "You're immediately eliminated", es: "Eres inmediatamente eliminado", de: "Du wirst sofort eliminiert", nl: "Je wordt onmiddellijk geëlimineerd" },
+          { en: "Only when making an accusation", es: "Solo al hacer una acusación", de: "Nur beim Machen einer Anschuldigung", nl: "Alleen bij het maken van een beschuldiging" },
+          { en: "All players must agree first", es: "Todos los jugadores deben estar de acuerdo primero", de: "Alle Spieler müssen zuerst zustimmen", nl: "Alle spelers moeten eerst akkoord gaan" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "You only check the solution envelope when making an official accusation. Looking at it at any other time is cheating and ruins the game for everyone.",
+          es: "Solo revisas el sobre de la solución al hacer una acusación oficial. Mirarlo en cualquier otro momento es hacer trampa y arruina el juego para todos.",
+          de: "Du überprüfst den Lösungsumschlag nur, wenn du eine offizielle Anschuldigung machst. Ihn zu einem anderen Zeitpunkt anzusehen ist Betrug und ruiniert das Spiel für alle.",
+          nl: "Je controleert de oplossing envelop alleen bij het maken van een officiële beschuldiging. Ernaar kijken op een ander moment is vals spelen en verpest het spel voor iedereen."
+        }
+      },
+      {
+        question: {
+          en: "Why is the Library considered a moderately accessible room?",
+          es: "¿Por qué se considera la Biblioteca una habitación moderadamente accesible?",
+          de: "Warum wird die Bibliothek als mäßig zugänglicher Raum angesehen?",
+          nl: "Waarom wordt de Bibliotheek beschouwd als een redelijk toegankelijke kamer?"
+        },
+        options: [
+          { en: "It has two doorways", es: "Tiene dos puertas", de: "Sie hat zwei Türen", nl: "Het heeft twee deuren" },
+          { en: "It's in the center", es: "Está en el centro", de: "Sie ist in der Mitte", nl: "Het ligt in het centrum" },
+          { en: "It has a secret passage", es: "Tiene un pasaje secreto", de: "Sie hat einen Geheimgang", nl: "Het heeft een geheime gang" },
+          { en: "It connects to all rooms", es: "Conecta con todas las habitaciones", de: "Sie verbindet sich mit allen Räumen", nl: "Het verbindt met alle kamers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Library has two doorways, making it more accessible than single-doorway rooms like the Lounge or Conservatory, but less accessible than the Ballroom's four doorways.",
+          es: "La Biblioteca tiene dos puertas, haciéndola más accesible que habitaciones de una puerta como el Salón o Invernadero, pero menos accesible que las cuatro puertas del Salón de baile.",
+          de: "Die Bibliothek hat zwei Türen, was sie zugänglicher macht als Räume mit einer Tür wie der Salon oder Wintergarten, aber weniger zugänglich als die vier Türen des Ballsaals.",
+          nl: "De Bibliotheek heeft twee deuren, waardoor het toegankelijker is dan kamers met één deur zoals de Salon of Serre, maar minder toegankelijk dan de vier deuren van de Balzaal."
+        }
+      },
+      {
+        question: {
+          en: "What is the best response when another player makes a suggestion you know is impossible?",
+          es: "¿Cuál es la mejor respuesta cuando otro jugador hace una sugerencia que sabes que es imposible?",
+          de: "Was ist die beste Antwort, wenn ein anderer Spieler einen Vorschlag macht, von dem du weißt, dass er unmöglich ist?",
+          nl: "Wat is de beste reactie wanneer een andere speler een suggestie doet waarvan je weet dat het onmogelijk is?"
+        },
+        options: [
+          { en: "Immediately tell them it's wrong", es: "Inmediatamente decirles que está mal", de: "Ihnen sofort sagen, dass es falsch ist", nl: "Onmiddellijk zeggen dat het fout is" },
+          { en: "Say nothing and let the game proceed", es: "No decir nada y dejar que el juego continúe", de: "Nichts sagen und das Spiel fortsetzen lassen", nl: "Niets zeggen en het spel laten doorgaan" },
+          { en: "Show them the solution", es: "Mostrarles la solución", de: "Ihnen die Lösung zeigen", nl: "Ze de oplossing tonen" },
+          { en: "Ask them to reconsider", es: "Pedirles que reconsideren", de: "Sie bitten, es zu überdenken", nl: "Ze vragen het te heroverwegen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Even if you know a suggestion is impossible based on your cards, you should follow normal game rules. Only show a card if required, and let them discover the truth through gameplay.",
+          es: "Incluso si sabes que una sugerencia es imposible basándote en tus cartas, debes seguir las reglas normales del juego. Solo muestra una carta si es requerido, y déjalos descubrir la verdad a través del juego.",
+          de: "Selbst wenn du weißt, dass ein Vorschlag unmöglich ist basierend auf deinen Karten, solltest du den normalen Spielregeln folgen. Zeige nur eine Karte, wenn erforderlich, und lass sie die Wahrheit durch das Spiel entdecken.",
+          nl: "Zelfs als je weet dat een suggestie onmogelijk is op basis van je kaarten, moet je de normale spelregels volgen. Toon alleen een kaart als vereist, en laat ze de waarheid door gameplay ontdekken."
+        }
       }
     ]
   };

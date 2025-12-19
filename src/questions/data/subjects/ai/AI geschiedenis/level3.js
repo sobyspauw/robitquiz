@@ -427,6 +427,426 @@
           de: "PROLOG (Programming in Logic) führte logische Programmierung in die KI ein, erlaubte Programmierern Fakten und Regeln zu deklarieren und ließ das System Schlüsse ziehen, wurde essentiell für Expertensysteme und natürliche Sprachverarbeitung.",
           nl: "PROLOG (Programming in Logic) introduceerde logische programmering in AI, stond programmeurs toe feiten en regels te declareren en het systeem conclusies te laten trekken, werd essentieel voor expertsystemen en natuurlijke taalverwerking."
         }
+      },
+      {
+        question: {
+          en: "What was the Eurisko program and what did it achieve?",
+          es: "¿Qué fue el programa Eurisko y qué logró?",
+          de: "Was war das Eurisko-Programm und was erreichte es?",
+          nl: "Wat was het Eurisko programma en wat bereikte het?"
+        },
+        options: [
+          { en: "A discovery system that won a national wargaming championship using evolved strategies", es: "Un sistema de descubrimiento que ganó un campeonato nacional de juegos de guerra usando estrategias evolucionadas", de: "Ein Entdeckungssystem das eine nationale Kriegsspiel-Meisterschaft mit entwickelten Strategien gewann", nl: "Een ontdekkingssysteem dat een nationaal oorlogsspel kampioenschap won met geëvolueerde strategieën" },
+          { en: "The first neural network that beat humans at Go", es: "La primera red neuronal que venció humanos en Go", de: "Das erste neuronale Netzwerk das Menschen bei Go schlug", nl: "Het eerste neurale netwerk dat mensen versloeg bij Go" },
+          { en: "A machine translation system for European languages", es: "Un sistema de traducción automática para idiomas europeos", de: "Ein maschinelles Übersetzungssystem für europäische Sprachen", nl: "Een machine vertaalsysteem voor Europese talen" },
+          { en: "An expert system for financial trading", es: "Un sistema experto para comercio financiero", de: "Ein Expertensystem für Finanzhandel", nl: "Een expertsysteem voor financiële handel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Eurisko, developed by Doug Lenat, was a discovery system that could generate and modify its own heuristics. It famously won the Traveller TCS wargame championship by discovering unconventional fleet designs that exploited rule loopholes.",
+          es: "Eurisko, desarrollado por Doug Lenat, fue un sistema de descubrimiento que podía generar y modificar sus propias heurísticas. Ganó famosamente el campeonato de juegos de guerra Traveller TCS descubriendo diseños no convencionales.",
+          de: "Eurisko, entwickelt von Doug Lenat, war ein Entdeckungssystem das seine eigenen Heuristiken generieren und modifizieren konnte. Es gewann berühmt die Traveller TCS Kriegsspiel-Meisterschaft durch unkonventionelle Flottendesigns.",
+          nl: "Eurisko, ontwikkeld door Doug Lenat, was een ontdekkingssysteem dat zijn eigen heuristieken kon genereren en modificeren. Het won beroemd het Traveller TCS oorlogsspel kampioenschap door onconventionele vloot designs te ontdekken."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of Rosenblatt's Mark I Perceptron hardware?",
+          es: "¿Cuál fue la importancia del hardware Mark I Perceptron de Rosenblatt?",
+          de: "Was war die Bedeutung von Rosenblatts Mark I Perceptron Hardware?",
+          nl: "Wat was de betekenis van Rosenblatt's Mark I Perceptron hardware?"
+        },
+        options: [
+          { en: "It was the first physical neural network implementation with 400 photocells and adjustable weights", es: "Fue la primera implementación física de red neuronal con 400 fotocélulas y pesos ajustables", de: "Es war die erste physische neuronale Netzwerkimplementierung mit 400 Fotozellen und einstellbaren Gewichten", nl: "Het was de eerste fysieke neurale netwerk implementatie met 400 fotocellen en aanpasbare gewichten" },
+          { en: "It was purely a theoretical model never built", es: "Fue puramente un modelo teórico nunca construido", de: "Es war rein ein theoretisches Modell das nie gebaut wurde", nl: "Het was puur een theoretisch model dat nooit gebouwd werd" },
+          { en: "It used vacuum tubes for computation", es: "Usó tubos de vacío para computación", de: "Es verwendete Vakuumröhren für Berechnung", nl: "Het gebruikte vacuümbuizen voor berekening" },
+          { en: "It was the first digital computer", es: "Fue la primera computadora digital", de: "Es war der erste Digitalcomputer", nl: "Het was de eerste digitale computer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Mark I Perceptron (1958) was a physical machine with 400 photocells that could learn to classify simple images, demonstrating that neural networks could work in hardware, not just theory.",
+          es: "El Mark I Perceptron (1958) fue una máquina física con 400 fotocélulas que podía aprender a clasificar imágenes simples, demostrando que las redes neuronales podían funcionar en hardware.",
+          de: "Das Mark I Perceptron (1958) war eine physische Maschine mit 400 Fotozellen die lernen konnte einfache Bilder zu klassifizieren und demonstrierte dass neuronale Netzwerke in Hardware funktionieren konnten.",
+          nl: "Het Mark I Perceptron (1958) was een fysieke machine met 400 fotocellen die kon leren om eenvoudige beelden te classificeren, wat toonde dat neurale netwerken in hardware konden werken."
+        }
+      },
+      {
+        question: {
+          en: "What was the R1/XCON expert system's commercial impact at DEC?",
+          es: "¿Cuál fue el impacto comercial del sistema experto R1/XCON en DEC?",
+          de: "Was war die kommerzielle Auswirkung des R1/XCON Expertensystems bei DEC?",
+          nl: "Wat was de commerciële impact van het R1/XCON expertsysteem bij DEC?"
+        },
+        options: [
+          { en: "It configured VAX systems saving $40 million annually and launched commercial expert systems", es: "Configuró sistemas VAX ahorrando $40 millones anualmente y lanzó sistemas expertos comerciales", de: "Es konfigurierte VAX-Systeme mit jährlichen Einsparungen von $40 Millionen und startete kommerzielle Expertensysteme", nl: "Het configureerde VAX systemen met $40 miljoen jaarlijkse besparingen en lanceerde commerciële expertsystemen" },
+          { en: "It failed and bankrupted the company", es: "Falló y llevó la compañía a la bancarrota", de: "Es scheiterte und brachte die Firma in Konkurs", nl: "Het faalde en bracht het bedrijf failliet" },
+          { en: "It only worked in laboratory settings", es: "Solo funcionó en entornos de laboratorio", de: "Es funktionierte nur in Laborumgebungen", nl: "Het werkte alleen in laboratoriumomgevingen" },
+          { en: "It was never actually deployed", es: "Nunca fue realmente desplegado", de: "Es wurde nie wirklich eingesetzt", nl: "Het werd nooit echt ingezet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "R1/XCON (1980) was DEC's pioneering commercial expert system that configured VAX computer orders with 2500+ rules, saving millions annually and proving expert systems could deliver real business value.",
+          es: "R1/XCON (1980) fue el sistema experto comercial pionero de DEC que configuraba pedidos de computadoras VAX con 2500+ reglas, ahorrando millones anualmente y probando que los sistemas expertos podían entregar valor comercial real.",
+          de: "R1/XCON (1980) war DECs bahnbrechendes kommerzielles Expertensystem das VAX-Computerbestellungen mit 2500+ Regeln konfigurierte, jährlich Millionen einsparte und bewies dass Expertensysteme echten Geschäftswert liefern konnten.",
+          nl: "R1/XCON (1980) was DEC's baanbrekende commerciële expertsysteem dat VAX computer bestellingen configureerde met 2500+ regels, miljoenen jaarlijks bespaarde en bewees dat expertsystemen echte bedrijfswaarde konden leveren."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of Hopfield networks introduced in 1982?",
+          es: "¿Cuál fue la importancia de las redes Hopfield introducidas en 1982?",
+          de: "Was war die Bedeutung der Hopfield-Netzwerke eingeführt 1982?",
+          nl: "Wat was de betekenis van Hopfield netwerken geïntroduceerd in 1982?"
+        },
+        options: [
+          { en: "They revived neural network research with recurrent networks for associative memory", es: "Revivieron la investigación de redes neuronales con redes recurrentes para memoria asociativa", de: "Sie belebten neuronale Netzwerkforschung mit rekurrenten Netzwerken für assoziatives Gedächtnis wieder", nl: "Ze deden neuraal netwerk onderzoek herleven met recurrente netwerken voor associatief geheugen" },
+          { en: "They were the first feedforward networks", es: "Fueron las primeras redes feedforward", de: "Sie waren die ersten Feedforward-Netzwerke", nl: "Ze waren de eerste feedforward netwerken" },
+          { en: "They solved the XOR problem", es: "Resolvieron el problema XOR", de: "Sie lösten das XOR-Problem", nl: "Ze losten het XOR probleem op" },
+          { en: "They invented backpropagation", es: "Inventaron la retropropagación", de: "Sie erfanden Backpropagation", nl: "Ze vonden backpropagation uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "John Hopfield's recurrent neural networks demonstrated content-addressable memory and pattern completion, bringing respectability back to neural networks during the AI winter and connecting them to physics.",
+          es: "Las redes neuronales recurrentes de John Hopfield demostraron memoria direccionable por contenido y completación de patrones, trayendo respetabilidad de vuelta a las redes neuronales durante el invierno de IA.",
+          de: "John Hopfields rekurrente neuronale Netzwerke demonstrierten inhaltsadressierbares Gedächtnis und Mustervervollständigung, brachten Respektabilität zurück zu neuronalen Netzwerken während des KI-Winters.",
+          nl: "John Hopfield's recurrente neurale netwerken toonden content-addressable geheugen en patroon voltooiing, brachten respectabiliteit terug naar neurale netwerken tijdens de AI winter."
+        }
+      },
+      {
+        question: {
+          en: "What was the Boltzmann machine's contribution to neural networks?",
+          es: "¿Cuál fue la contribución de la máquina de Boltzmann a las redes neuronales?",
+          de: "Was war der Beitrag der Boltzmann-Maschine zu neuronalen Netzwerken?",
+          nl: "Wat was de bijdrage van de Boltzmann machine aan neurale netwerken?"
+        },
+        options: [
+          { en: "Introduced stochastic learning with hidden units using simulated annealing", es: "Introdujo aprendizaje estocástico con unidades ocultas usando recocido simulado", de: "Führte stochastisches Lernen mit versteckten Einheiten durch simuliertes Annealing ein", nl: "Introduceerde stochastisch leren met verborgen eenheden met gesimuleerde annealing" },
+          { en: "Created the first supervised learning algorithm", es: "Creó el primer algoritmo de aprendizaje supervisado", de: "Schuf den ersten überwachten Lernalgorithmus", nl: "Creëerde het eerste supervised learning algoritme" },
+          { en: "Eliminated the need for training data", es: "Eliminó la necesidad de datos de entrenamiento", de: "Beseitigte die Notwendigkeit von Trainingsdaten", nl: "Elimineerde de behoefte aan trainingsdata" },
+          { en: "Proved neural networks were impossible", es: "Probó que las redes neuronales eran imposibles", de: "Bewies dass neuronale Netzwerke unmöglich waren", nl: "Bewees dat neurale netwerken onmogelijk waren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Boltzmann machines (1985) by Hinton and Sejnowski introduced probabilistic learning in neural networks with hidden layers, using thermodynamic principles and simulated annealing for optimization.",
+          es: "Las máquinas de Boltzmann (1985) de Hinton y Sejnowski introdujeron aprendizaje probabilístico en redes neuronales con capas ocultas, usando principios termodinámicos y recocido simulado para optimización.",
+          de: "Boltzmann-Maschinen (1985) von Hinton und Sejnowski führten probabilistisches Lernen in neuronalen Netzwerken mit versteckten Schichten ein, verwendeten thermodynamische Prinzipien und simuliertes Annealing zur Optimierung.",
+          nl: "Boltzmann machines (1985) van Hinton en Sejnowski introduceerden probabilistisch leren in neurale netwerken met verborgen lagen, gebruikmakend van thermodynamische principes en gesimuleerde annealing voor optimalisatie."
+        }
+      },
+      {
+        question: {
+          en: "What was the importance of Minsky's 'Society of Mind' theory?",
+          es: "¿Cuál fue la importancia de la teoría 'Sociedad de la Mente' de Minsky?",
+          de: "Was war die Wichtigkeit von Minskys 'Gesellschaft des Geistes' Theorie?",
+          nl: "Wat was het belang van Minsky's 'Society of Mind' theorie?"
+        },
+        options: [
+          { en: "Proposed intelligence emerges from interaction of many simple mindless agents", es: "Propuso que la inteligencia emerge de la interacción de muchos agentes simples sin mente", de: "Schlug vor dass Intelligenz aus der Interaktion vieler einfacher geistloser Agenten entsteht", nl: "Stelde voor dat intelligentie ontstaat uit interactie van veel eenvoudige geestloze agenten" },
+          { en: "Claimed AI was impossible to achieve", es: "Afirmó que la IA era imposible de lograr", de: "Behauptete dass KI unmöglich zu erreichen war", nl: "Beweerde dat AI onmogelijk te bereiken was" },
+          { en: "Proved consciousness requires quantum effects", es: "Probó que la conciencia requiere efectos cuánticos", de: "Bewies dass Bewusstsein Quanteneffekte erfordert", nl: "Bewees dat bewustzijn quantum effecten vereist" },
+          { en: "Demonstrated neural networks were sufficient", es: "Demostró que las redes neuronales eran suficientes", de: "Demonstrierte dass neuronale Netzwerke ausreichend waren", nl: "Toonde dat neurale netwerken voldoende waren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Minsky's 'Society of Mind' (1986) proposed that intelligence arises from interactions among simple computational processes called agents, influencing distributed AI and multi-agent systems research.",
+          es: "La 'Sociedad de la Mente' de Minsky (1986) propuso que la inteligencia surge de interacciones entre procesos computacionales simples llamados agentes, influyendo en IA distribuida y sistemas multi-agente.",
+          de: "Minskys 'Gesellschaft des Geistes' (1986) schlug vor dass Intelligenz aus Interaktionen zwischen einfachen Rechenprozessen namens Agenten entsteht und beeinflusste verteilte KI und Multi-Agenten-Systeme.",
+          nl: "Minsky's 'Society of Mind' (1986) stelde voor dat intelligentie ontstaat uit interacties tussen eenvoudige computationele processen genaamd agenten, wat gedistribueerde AI en multi-agent systemen onderzoek beïnvloedde."
+        }
+      },
+      {
+        question: {
+          en: "What was the PROSPECTOR expert system's notable achievement?",
+          es: "¿Cuál fue el logro notable del sistema experto PROSPECTOR?",
+          de: "Was war die bemerkenswerte Errungenschaft des PROSPECTOR Expertensystems?",
+          nl: "Wat was de opmerkelijke prestatie van het PROSPECTOR expertsysteem?"
+        },
+        options: [
+          { en: "Discovered a molybdenum deposit worth millions, validating expert systems for geology", es: "Descubrió un depósito de molibdeno que valía millones, validando sistemas expertos para geología", de: "Entdeckte eine Millionen werte Molybdän-Lagerstätte und validierte Expertensysteme für Geologie", nl: "Ontdekte een molybdeen deposit ter waarde van miljoenen, wat expertsystemen voor geologie valideerde" },
+          { en: "Predicted stock market crashes perfectly", es: "Predijo caídas del mercado de valores perfectamente", de: "Sagte Börsenabstürze perfekt voraus", nl: "Voorspelde beurskrach perfect" },
+          { en: "Diagnosed rare diseases better than doctors", es: "Diagnosticó enfermedades raras mejor que los médicos", de: "Diagnostizierte seltene Krankheiten besser als Ärzte", nl: "Diagnosticeerde zeldzame ziekten beter dan artsen" },
+          { en: "Won chess championships", es: "Ganó campeonatos de ajedrez", de: "Gewann Schachmeisterschaften", nl: "Won schaakkampioenschappen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "PROSPECTOR (1978) successfully predicted the location of a molybdenum deposit in Washington worth millions, demonstrating that expert systems could provide real-world value beyond just laboratory success.",
+          es: "PROSPECTOR (1978) predijo exitosamente la ubicación de un depósito de molibdeno en Washington que valía millones, demostrando que los sistemas expertos podían proporcionar valor del mundo real más allá del éxito de laboratorio.",
+          de: "PROSPECTOR (1978) sagte erfolgreich den Standort einer Molybdän-Lagerstätte in Washington im Wert von Millionen voraus und demonstrierte dass Expertensysteme realen Wert über Laborerfolg hinaus bieten konnten.",
+          nl: "PROSPECTOR (1978) voorspelde succesvol de locatie van een molybdeen deposit in Washington ter waarde van miljoenen, wat toonde dat expertsystemen echte wereld waarde konden bieden buiten laboratorium succes."
+        }
+      },
+      {
+        question: {
+          en: "What was the importance of the Connection Machine by Danny Hillis?",
+          es: "¿Cuál fue la importancia de la Connection Machine de Danny Hillis?",
+          de: "Was war die Wichtigkeit der Connection Machine von Danny Hillis?",
+          nl: "Wat was het belang van de Connection Machine door Danny Hillis?"
+        },
+        options: [
+          { en: "First massively parallel computer with 65,536 processors for AI computations", es: "Primera computadora masivamente paralela con 65,536 procesadores para computaciones de IA", de: "Erster massiv paralleler Computer mit 65,536 Prozessoren für KI-Berechnungen", nl: "Eerste massaal parallelle computer met 65,536 processors voor AI berekeningen" },
+          { en: "The first personal computer", es: "La primera computadora personal", de: "Der erste Personal Computer", nl: "De eerste personal computer" },
+          { en: "A neural network simulator", es: "Un simulador de redes neuronales", de: "Ein neuronaler Netzwerksimulator", nl: "Een neurale netwerk simulator" },
+          { en: "A quantum computer prototype", es: "Un prototipo de computadora cuántica", de: "Ein Quantencomputer-Prototyp", nl: "Een quantum computer prototype" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Connection Machine (1985) pioneered massively parallel computing with thousands of simple processors working simultaneously, designed specifically for AI applications like pattern matching and symbolic processing.",
+          es: "La Connection Machine (1985) fue pionera en computación masivamente paralela con miles de procesadores simples trabajando simultáneamente, diseñada específicamente para aplicaciones de IA como coincidencia de patrones.",
+          de: "Die Connection Machine (1985) war Pionier massiv paralleler Datenverarbeitung mit Tausenden einfacher Prozessoren die gleichzeitig arbeiteten, speziell für KI-Anwendungen wie Mustererkennung entworfen.",
+          nl: "De Connection Machine (1985) was pionier in massaal parallelle computing met duizenden eenvoudige processors die gelijktijdig werkten, specifiek ontworpen voor AI toepassingen zoals patroonherkenning."
+        }
+      },
+      {
+        question: {
+          en: "What was the Soar cognitive architecture's contribution to AI?",
+          es: "¿Cuál fue la contribución de la arquitectura cognitiva Soar a la IA?",
+          de: "Was war der Beitrag der Soar kognitiven Architektur zur KI?",
+          nl: "Wat was de bijdrage van de Soar cognitieve architectuur aan AI?"
+        },
+        options: [
+          { en: "Integrated learning, problem-solving, and knowledge into unified cognitive model", es: "Integró aprendizaje, resolución de problemas y conocimiento en un modelo cognitivo unificado", de: "Integrierte Lernen, Problemlösung und Wissen in ein einheitliches kognitives Modell", nl: "Integreerde leren, probleemoplossing en kennis in een uniform cognitief model" },
+          { en: "Was purely a neural network approach", es: "Fue puramente un enfoque de red neuronal", de: "War rein ein neuronaler Netzwerkansatz", nl: "Was puur een neurale netwerk benadering" },
+          { en: "Only worked for chess playing", es: "Solo funcionó para jugar ajedrez", de: "Funktionierte nur für Schachspielen", nl: "Werkte alleen voor schaken" },
+          { en: "Proved general AI was impossible", es: "Probó que la IA general era imposible", de: "Bewies dass allgemeine KI unmöglich war", nl: "Bewees dat algemene AI onmogelijk was" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Soar, developed by Allen Newell and colleagues, was an ambitious cognitive architecture attempting to model all aspects of human cognition in a single framework, combining problem-solving, learning, and memory.",
+          es: "Soar, desarrollado por Allen Newell y colegas, fue una arquitectura cognitiva ambiciosa que intentaba modelar todos los aspectos de la cognición humana en un solo framework, combinando resolución de problemas, aprendizaje y memoria.",
+          de: "Soar, entwickelt von Allen Newell und Kollegen, war eine ehrgeizige kognitive Architektur die versuchte alle Aspekte menschlicher Kognition in einem einzigen Framework zu modellieren, kombinierte Problemlösung, Lernen und Gedächtnis.",
+          nl: "Soar, ontwikkeld door Allen Newell en collega's, was een ambitieuze cognitieve architectuur die probeerde alle aspecten van menselijke cognitie te modelleren in een enkel framework, combinerend probleemoplossing, leren en geheugen."
+        }
+      },
+      {
+        question: {
+          en: "What was significant about Sejnowski's NETtalk neural network?",
+          es: "¿Qué fue significativo sobre la red neuronal NETtalk de Sejnowski?",
+          de: "Was war bedeutsam an Sejnowskis NETtalk neuronalem Netzwerk?",
+          nl: "Wat was belangrijk aan Sejnowski's NETtalk neurale netwerk?"
+        },
+        options: [
+          { en: "Learned to pronounce English text achieving 95% accuracy through backpropagation", es: "Aprendió a pronunciar texto en inglés logrando 95% de precisión através de retropropagación", de: "Lernte englischen Text auszusprechen und erreichte 95% Genauigkeit durch Backpropagation", nl: "Leerde Engels tekst uit te spreken met 95% nauwkeurigheid door backpropagation" },
+          { en: "First system to pass Turing Test", es: "Primer sistema en pasar el Test de Turing", de: "Erstes System das den Turing-Test bestand", nl: "Eerste systeem dat de Turing Test haalde" },
+          { en: "Discovered the laws of physics", es: "Descubrió las leyes de la física", de: "Entdeckte die Gesetze der Physik", nl: "Ontdekte de wetten van de fysica" },
+          { en: "Created conscious AI", es: "Creó IA consciente", de: "Schuf bewusste KI", nl: "Creëerde bewuste AI" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NETtalk (1987) demonstrated that neural networks could learn complex mappings from text to phonemes, producing intelligible speech and showing how backpropagation could solve real-world problems.",
+          es: "NETtalk (1987) demostró que las redes neuronales podían aprender mapeos complejos de texto a fonemas, produciendo habla inteligible y mostrando cómo la retropropagación podía resolver problemas del mundo real.",
+          de: "NETtalk (1987) demonstrierte dass neuronale Netzwerke komplexe Zuordnungen von Text zu Phonemen lernen konnten, verständliche Sprache erzeugten und zeigten wie Backpropagation reale Probleme lösen konnte.",
+          nl: "NETtalk (1987) toonde dat neurale netwerken complexe mappings van tekst naar fonemen konden leren, begrijpelijke spraak produceerden en toonden hoe backpropagation echte wereldproblemen kon oplossen."
+        }
+      },
+      {
+        question: {
+          en: "What was the Lisp Machine and why was it significant?",
+          es: "¿Qué fue la Lisp Machine y por qué fue significativa?",
+          de: "Was war die Lisp-Maschine und warum war sie bedeutsam?",
+          nl: "Wat was de Lisp Machine en waarom was het belangrijk?"
+        },
+        options: [
+          { en: "Specialized hardware optimized for Lisp programming and AI research", es: "Hardware especializado optimizado para programación Lisp e investigación de IA", de: "Spezialisierte Hardware optimiert für Lisp-Programmierung und KI-Forschung", nl: "Gespecialiseerde hardware geoptimaliseerd voor Lisp programmering en AI onderzoek" },
+          { en: "The first supercomputer", es: "La primera supercomputadora", de: "Der erste Supercomputer", nl: "De eerste supercomputer" },
+          { en: "A neural network chip", es: "Un chip de red neuronal", de: "Ein neuronaler Netzwerk-Chip", nl: "Een neurale netwerk chip" },
+          { en: "A quantum computer", es: "Una computadora cuántica", de: "Ein Quantencomputer", nl: "Een quantum computer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Lisp Machines (1970s-80s) were specialized computers with hardware support for Lisp's features like garbage collection and dynamic typing, enabling rapid AI development but eventually displaced by cheaper workstations.",
+          es: "Las Lisp Machines (1970s-80s) fueron computadoras especializadas con soporte de hardware para características de Lisp como recolección de basura y tipado dinámico, pero finalmente fueron desplazadas por estaciones de trabajo más baratas.",
+          de: "Lisp-Maschinen (1970-80er) waren spezialisierte Computer mit Hardware-Unterstützung für Lisp-Features wie Garbage Collection und dynamisches Tippen, ermöglichten schnelle KI-Entwicklung wurden aber schließlich von billigeren Workstations verdrängt.",
+          nl: "Lisp Machines (1970s-80s) waren gespecialiseerde computers met hardware ondersteuning voor Lisp's eigenschappen zoals garbage collection en dynamische typing, maar werden uiteindelijk vervangen door goedkopere werkstations."
+        }
+      },
+      {
+        question: {
+          en: "What was the ACT-R cognitive architecture's approach?",
+          es: "¿Cuál fue el enfoque de la arquitectura cognitiva ACT-R?",
+          de: "Was war der Ansatz der ACT-R kognitiven Architektur?",
+          nl: "Wat was de benadering van de ACT-R cognitieve architectuur?"
+        },
+        options: [
+          { en: "Modeled human cognition with production rules and declarative memory modules", es: "Modeló la cognición humana con reglas de producción y módulos de memoria declarativa", de: "Modellierte menschliche Kognition mit Produktionsregeln und deklarativen Gedächtnismodulen", nl: "Modelleerde menselijke cognitie met productieregels en declaratieve geheugen modules" },
+          { en: "Used only neural networks", es: "Usó solo redes neuronales", de: "Verwendete nur neuronale Netzwerke", nl: "Gebruikte alleen neurale netwerken" },
+          { en: "Focused exclusively on perception", es: "Se enfocó exclusivamente en percepción", de: "Fokussierte ausschließlich auf Wahrnehmung", nl: "Focuste uitsluitend op perceptie" },
+          { en: "Was designed for robotics only", es: "Fue diseñado solo para robótica", de: "War nur für Robotik entworfen", nl: "Was alleen ontworpen voor robotica" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ACT-R (Adaptive Control of Thought-Rational) by John Anderson modeled human cognition with production systems and memory modules, predicting human behavior and influencing cognitive science and AI.",
+          es: "ACT-R (Adaptive Control of Thought-Rational) de John Anderson modeló la cognición humana con sistemas de producción y módulos de memoria, prediciendo comportamiento humano e influyendo en ciencia cognitiva e IA.",
+          de: "ACT-R (Adaptive Control of Thought-Rational) von John Anderson modellierte menschliche Kognition mit Produktionssystemen und Gedächtnismodulen, sagte menschliches Verhalten voraus und beeinflusste Kognitionswissenschaft und KI.",
+          nl: "ACT-R (Adaptive Control of Thought-Rational) door John Anderson modelleerde menselijke cognitie met productiesystemen en geheugen modules, voorspelde menselijk gedrag en beïnvloedde cognitieve wetenschap en AI."
+        }
+      },
+      {
+        question: {
+          en: "What was STRIPS' representation innovation for planning?",
+          es: "¿Cuál fue la innovación de representación de STRIPS para planificación?",
+          de: "Was war STRIPS' Darstellungsinnovation für Planung?",
+          nl: "Wat was STRIPS' representatie innovatie voor planning?"
+        },
+        options: [
+          { en: "Preconditions, add-lists, and delete-lists for representing actions' effects", es: "Precondiciones, listas de adición y listas de eliminación para representar efectos de acciones", de: "Vorbedingungen, Hinzufügelisten und Löschlisten zur Darstellung von Aktionseffekten", nl: "Voorwaarden, toevoeg-lijsten en verwijder-lijsten voor het representeren van actie effecten" },
+          { en: "Neural network weights", es: "Pesos de redes neuronales", de: "Neuronale Netzwerkgewichte", nl: "Neurale netwerk gewichten" },
+          { en: "Fuzzy logic rules", es: "Reglas de lógica difusa", de: "Fuzzy-Logik-Regeln", nl: "Fuzzy logica regels" },
+          { en: "Probabilistic graphical models", es: "Modelos gráficos probabilísticos", de: "Probabilistische graphische Modelle", nl: "Probabilistische grafische modellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "STRIPS introduced the fundamental representation of actions as operators with preconditions (what must be true), add-lists (what becomes true), and delete-lists (what becomes false), influencing planning for decades.",
+          es: "STRIPS introdujo la representación fundamental de acciones como operadores con precondiciones, listas de adición y listas de eliminación, influyendo en la planificación por décadas.",
+          de: "STRIPS führte die fundamentale Darstellung von Aktionen als Operatoren mit Vorbedingungen, Hinzufügelisten und Löschlisten ein und beeinflusste Planung für Jahrzehnte.",
+          nl: "STRIPS introduceerde de fundamentele representatie van acties als operators met voorwaarden, toevoeg-lijsten en verwijder-lijsten, wat planning decennia lang beïnvloedde."
+        }
+      },
+      {
+        question: {
+          en: "What was the Copycat program's approach to analogy-making?",
+          es: "¿Cuál fue el enfoque del programa Copycat para hacer analogías?",
+          de: "Was war der Ansatz des Copycat-Programms zur Analogiebildung?",
+          nl: "Wat was de benadering van het Copycat programma voor analogie-maken?"
+        },
+        options: [
+          { en: "Used fluid concepts and parallel terraced scan for perceptual analogies", es: "Usó conceptos fluidos y escaneo en terrazas paralelas para analogías perceptuales", de: "Verwendete fließende Konzepte und paralleles Terrassen-Scannen für Wahrnehmungsanalogien", nl: "Gebruikte vloeibare concepten en parallelle terrassen scan voor perceptuele analogieën" },
+          { en: "Used only symbolic logic", es: "Usó solo lógica simbólica", de: "Verwendete nur symbolische Logik", nl: "Gebruikte alleen symbolische logica" },
+          { en: "Applied genetic algorithms", es: "Aplicó algoritmos genéticos", de: "Wendete genetische Algorithmen an", nl: "Paste genetische algoritmen toe" },
+          { en: "Used deep learning", es: "Usó aprendizaje profundo", de: "Verwendete Deep Learning", nl: "Gebruikte deep learning" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Copycat, developed by Douglas Hofstadter and Melanie Mitchell, modeled human-like analogy-making with fluid concepts that adapted based on context, demonstrating creative problem-solving in letter-string analogies.",
+          es: "Copycat, desarrollado por Douglas Hofstadter y Melanie Mitchell, modeló la creación de analogías similar a humanos con conceptos fluidos que se adaptaban según el contexto.",
+          de: "Copycat, entwickelt von Douglas Hofstadter und Melanie Mitchell, modellierte menschenähnliche Analogiebildung mit fließenden Konzepten die sich basierend auf Kontext anpassten.",
+          nl: "Copycat, ontwikkeld door Douglas Hofstadter en Melanie Mitchell, modelleerde mensachtig analogie-maken met vloeibare concepten die zich aanpasten gebaseerd op context."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of Schank's Scripts theory?",
+          es: "¿Cuál fue la importancia de la teoría de Scripts de Schank?",
+          de: "Was war die Bedeutung von Schanks Scripts-Theorie?",
+          nl: "Wat was de betekenis van Schank's Scripts theorie?"
+        },
+        options: [
+          { en: "Represented common knowledge as stereotypical sequences of events for understanding", es: "Representó conocimiento común como secuencias estereotípicas de eventos para comprensión", de: "Stellte allgemeines Wissen als stereotypische Ereignissequenzen zur Verständigung dar", nl: "Representeerde gewone kennis als stereotypische gebeurtenis sequenties voor begrip" },
+          { en: "Proved consciousness emerges from computation", es: "Probó que la conciencia emerge de la computación", de: "Bewies dass Bewusstsein aus Berechnung entsteht", nl: "Bewees dat bewustzijn ontstaat uit berekening" },
+          { en: "Created the first neural network", es: "Creó la primera red neuronal", de: "Schuf das erste neuronale Netzwerk", nl: "Creëerde het eerste neurale netwerk" },
+          { en: "Solved natural language completely", es: "Resolvió el lenguaje natural completamente", de: "Löste natürliche Sprache vollständig", nl: "Loste natuurlijke taal volledig op" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Roger Schank's Scripts (1977) represented common scenarios like 'restaurant script' with typical sequences of events, enabling systems to fill in implicit information and understand stories through expectation-based processing.",
+          es: "Los Scripts de Roger Schank (1977) representaron escenarios comunes como 'script de restaurante' con secuencias típicas de eventos, permitiendo a los sistemas llenar información implícita.",
+          de: "Roger Schanks Scripts (1977) stellten gemeinsame Szenarien wie 'Restaurant-Script' mit typischen Ereignissequenzen dar, ermöglichten Systemen implizite Informationen zu füllen.",
+          nl: "Roger Schank's Scripts (1977) representeerden gewone scenario's zoals 'restaurant script' met typische gebeurtenis sequenties, wat systemen in staat stelde impliciete informatie in te vullen."
+        }
+      },
+      {
+        question: {
+          en: "What was the Semantic Network representation's key innovation?",
+          es: "¿Cuál fue la innovación clave de la representación de Red Semántica?",
+          de: "Was war die Schlüsselinnovation der Semantischen Netzwerk-Darstellung?",
+          nl: "Wat was de belangrijkste innovatie van de Semantische Netwerk representatie?"
+        },
+        options: [
+          { en: "Represented knowledge as nodes and labeled relationships enabling inheritance", es: "Representó conocimiento como nodos y relaciones etiquetadas habilitando herencia", de: "Stellte Wissen als Knoten und beschriftete Beziehungen dar die Vererbung ermöglichten", nl: "Representeerde kennis als nodes en gelabelde relaties die overerving mogelijk maakten" },
+          { en: "Used only statistical correlations", es: "Usó solo correlaciones estadísticas", de: "Verwendete nur statistische Korrelationen", nl: "Gebruikte alleen statistische correlaties" },
+          { en: "Eliminated the need for logic", es: "Eliminó la necesidad de lógica", de: "Beseitigte die Notwendigkeit von Logik", nl: "Elimineerde de noodzaak voor logica" },
+          { en: "Required quantum computing", es: "Requirió computación cuántica", de: "Erforderte Quantencomputing", nl: "Vereiste quantum computing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Semantic networks represented knowledge as graphs with nodes for concepts and labeled edges for relationships, supporting inheritance and efficient reasoning, becoming fundamental to knowledge representation.",
+          es: "Las redes semánticas representaron conocimiento como grafos con nodos para conceptos y aristas etiquetadas para relaciones, soportando herencia y razonamiento eficiente.",
+          de: "Semantische Netzwerke stellten Wissen als Graphen mit Knoten für Konzepte und beschrifteten Kanten für Beziehungen dar, unterstützten Vererbung und effizientes Denken.",
+          nl: "Semantische netwerken representeerden kennis als grafen met nodes voor concepten en gelabelde randen voor relaties, ondersteunden overerving en efficiënt redeneren."
+        }
+      },
+      {
+        question: {
+          en: "What was the CYK parsing algorithm's contribution to NLP?",
+          es: "¿Cuál fue la contribución del algoritmo de análisis CYK al procesamiento de lenguaje natural?",
+          de: "Was war der Beitrag des CYK-Parsing-Algorithmus zur natürlichen Sprachverarbeitung?",
+          nl: "Wat was de bijdrage van het CYK parsing algoritme aan NLP?"
+        },
+        options: [
+          { en: "Efficient bottom-up parsing for context-free grammars in O(n³) time", es: "Análisis eficiente de abajo hacia arriba para gramáticas libres de contexto en tiempo O(n³)", de: "Effizientes Bottom-Up-Parsing für kontextfreie Grammatiken in O(n³) Zeit", nl: "Efficiënt bottom-up parsing voor contextvrije grammatica's in O(n³) tijd" },
+          { en: "Proved natural language was unparsable", es: "Probó que el lenguaje natural era no analizable", de: "Bewies dass natürliche Sprache nicht parsbar war", nl: "Bewees dat natuurlijke taal niet te parsen was" },
+          { en: "Created semantic understanding", es: "Creó comprensión semántica", de: "Schuf semantisches Verständnis", nl: "Creëerde semantisch begrip" },
+          { en: "Solved machine translation", es: "Resolvió la traducción automática", de: "Löste maschinelle Übersetzung", nl: "Loste machine vertaling op" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Cocke-Younger-Kasami algorithm provided efficient parsing for context-free grammars using dynamic programming, becoming a standard technique in computational linguistics and compiler design.",
+          es: "El algoritmo Cocke-Younger-Kasami proporcionó análisis eficiente para gramáticas libres de contexto usando programación dinámica, convirtiéndose en una técnica estándar en lingüística computacional.",
+          de: "Der Cocke-Younger-Kasami-Algorithmus bot effizientes Parsing für kontextfreie Grammatiken mit dynamischer Programmierung und wurde zu einer Standardtechnik in der Computerlinguistik.",
+          nl: "Het Cocke-Younger-Kasami algoritme bood efficiënt parsing voor contextvrije grammatica's met dynamisch programmeren, werd een standaard techniek in computationele linguïstiek."
+        }
+      },
+      {
+        question: {
+          en: "What was the importance of Michie's Boxes (MENACE) in machine learning history?",
+          es: "¿Cuál fue la importancia de las Cajas de Michie (MENACE) en la historia del aprendizaje automático?",
+          de: "Was war die Wichtigkeit von Michies Boxen (MENACE) in der Geschichte des maschinellen Lernens?",
+          nl: "Wat was het belang van Michie's Boxes (MENACE) in machine learning geschiedenis?"
+        },
+        options: [
+          { en: "Physical matchbox computer that learned tic-tac-toe through reinforcement", es: "Computadora física de cajas de fósforos que aprendió tres en raya através de refuerzo", de: "Physischer Streichholzschachtel-Computer der Tic-Tac-Toe durch Verstärkung lernte", nl: "Fysieke luciferdoos computer die boter-kaas-eieren leerde door versterking" },
+          { en: "First digital neural network", es: "Primera red neuronal digital", de: "Erstes digitales neuronales Netzwerk", nl: "Eerste digitale neurale netwerk" },
+          { en: "Invented backpropagation", es: "Inventó la retropropagación", de: "Erfand Backpropagation", nl: "Vond backpropagation uit" },
+          { en: "Created expert systems", es: "Creó sistemas expertos", de: "Schuf Expertensysteme", nl: "Creëerde expertsystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MENACE (1961) used 304 matchboxes with colored beads to learn tic-tac-toe through reinforcement, demonstrating machine learning principles physically before computers were widely available.",
+          es: "MENACE (1961) usó 304 cajas de fósforos con cuentas de colores para aprender tres en raya através de refuerzo, demostrando principios de aprendizaje automático físicamente antes de que las computadoras estuvieran ampliamente disponibles.",
+          de: "MENACE (1961) verwendete 304 Streichholzschachteln mit farbigen Perlen um Tic-Tac-Toe durch Verstärkung zu lernen und demonstrierte maschinelle Lernprinzipien physisch bevor Computer weit verbreitet waren.",
+          nl: "MENACE (1961) gebruikte 304 luciferdozen met gekleurde kralen om boter-kaas-eieren te leren door versterking, wat machine learning principes fysiek demonstreerde voordat computers wijdverbreid beschikbaar waren."
+        }
+      },
+      {
+        question: {
+          en: "What was the TD-Gammon program's achievement in reinforcement learning?",
+          es: "¿Cuál fue el logro del programa TD-Gammon en aprendizaje por refuerzo?",
+          de: "Was war die Errungenschaft des TD-Gammon-Programms im Verstärkungslernen?",
+          nl: "Wat was de prestatie van het TD-Gammon programma in versterkingsleren?"
+        },
+        options: [
+          { en: "Learned expert-level backgammon purely through self-play with TD-learning", es: "Aprendió backgammon a nivel experto puramente através de auto-juego con aprendizaje TD", de: "Lernte Experten-Backgammon rein durch Selbstspiel mit TD-Lernen", nl: "Leerde expert-niveau backgammon puur door zelf-spel met TD-learning" },
+          { en: "First program to beat humans at chess", es: "Primer programa en vencer humanos en ajedrez", de: "Erstes Programm das Menschen im Schach schlug", nl: "Eerste programma dat mensen versloeg bij schaak" },
+          { en: "Created conscious AI", es: "Creó IA consciente", de: "Schuf bewusste KI", nl: "Creëerde bewuste AI" },
+          { en: "Proved P=NP", es: "Probó P=NP", de: "Bewies P=NP", nl: "Bewees P=NP" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "TD-Gammon (1992) by Gerald Tesauro used temporal-difference learning and neural networks to learn backgammon through self-play, reaching world-class level without human game knowledge, pioneering self-play learning.",
+          es: "TD-Gammon (1992) de Gerald Tesauro usó aprendizaje de diferencia temporal y redes neuronales para aprender backgammon através de auto-juego, alcanzando nivel de clase mundial sin conocimiento humano del juego.",
+          de: "TD-Gammon (1992) von Gerald Tesauro verwendete Temporal-Difference-Lernen und neuronale Netzwerke um Backgammon durch Selbstspiel zu lernen, erreichte Weltklasse-Niveau ohne menschliches Spielwissen.",
+          nl: "TD-Gammon (1992) door Gerald Tesauro gebruikte temporal-difference learning en neurale netwerken om backgammon te leren door zelf-spel, bereikte wereldklasse niveau zonder menselijke spel kennis."
+        }
+      },
+      {
+        question: {
+          en: "What was the conceptual importance of Brooks' subsumption architecture?",
+          es: "¿Cuál fue la importancia conceptual de la arquitectura de subsunción de Brooks?",
+          de: "Was war die konzeptionelle Wichtigkeit von Brooks' Subsumptionsarchitektur?",
+          nl: "Wat was het conceptuele belang van Brooks' subsumption architectuur?"
+        },
+        options: [
+          { en: "Challenged symbolic AI with reactive behavior-based robotics without representation", es: "Desafió la IA simbólica con robótica basada en comportamiento reactivo sin representación", de: "Forderte symbolische KI mit reaktiver verhaltensbasierter Robotik ohne Repräsentation heraus", nl: "Daagde symbolische AI uit met reactieve gedragsgebaseerde robotica zonder representatie" },
+          { en: "Proved symbolic AI was optimal", es: "Probó que la IA simbólica era óptima", de: "Bewies dass symbolische KI optimal war", nl: "Bewees dat symbolische AI optimaal was" },
+          { en: "Required powerful computers", es: "Requirió computadoras poderosas", de: "Erforderte leistungsstarke Computer", nl: "Vereiste krachtige computers" },
+          { en: "Used only neural networks", es: "Usó solo redes neuronales", de: "Verwendete nur neuronale Netzwerke", nl: "Gebruikte alleen neurale netwerken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rodney Brooks' subsumption architecture (1986) argued that intelligence could emerge from layered reactive behaviors without symbolic representation, influencing robotics and embodied AI with 'intelligence without representation'.",
+          es: "La arquitectura de subsunción de Rodney Brooks (1986) argumentó que la inteligencia podía emerger de comportamientos reactivos en capas sin representación simbólica, influyendo en robótica e IA embodied.",
+          de: "Rodney Brooks' Subsumptionsarchitektur (1986) argumentierte dass Intelligenz aus geschichteten reaktiven Verhaltensweisen ohne symbolische Repräsentation entstehen konnte und beeinflusste Robotik und verkörperte KI.",
+          nl: "Rodney Brooks' subsumption architectuur (1986) betoogde dat intelligentie kon ontstaan uit gelaagde reactieve gedragingen zonder symbolische representatie, wat robotica en belichaamde AI beïnvloedde."
+        }
       }
     ]
   };

@@ -419,6 +419,405 @@
         de: "Expertenstrategie empfiehlt 70-80% des Startkapitals in der ersten Runde für Grundstücke auszugeben, so viele wie möglich für Handelseinfluss zu erwerben während minimales Notfallgeld behalten wird.",
         nl: "Expert strategie beveelt aan 70-80% van het startgeld uit te geven aan eigendommen in de eerste ronde, zoveel mogelijk te verwerven voor handelsinvloed terwijl minimaal noodgeld behouden blijft."
       }
+    },
+    {
+      question: {
+        en: "What is the 'mortgage cascade' strategy in bankruptcy situations?",
+        es: "¿Qué es la estrategia de 'cascada de hipoteca' en situaciones de quiebra?",
+        de: "Was ist die 'Hypotheken-Kaskaden'-Strategie in Bankrottsituationen?",
+        nl: "Wat is de 'hypotheek cascade' strategie in faillissementssituaties?"
+      },
+      options: [
+        { en: "Mortgaging all properties at once", es: "Hipotecar todas las propiedades a la vez", de: "Alle Grundstücke auf einmal beleihen", nl: "Alle eigendommen tegelijk hypothekeren" },
+        { en: "Mortgaging strategically to pay debts while preserving monopolies", es: "Hipotecar estratégicamente para pagar deudas mientras se preservan monopolios", de: "Strategisch beleihen um Schulden zu zahlen während Monopole erhalten bleiben", nl: "Strategisch hypothekeren om schulden te betalen terwijl monopolies behouden blijven" },
+        { en: "Trading mortgaged properties immediately", es: "Negociar propiedades hipotecadas inmediatamente", de: "Verpfändete Grundstücke sofort handeln", nl: "Gehypothekeerde eigendommen onmiddellijk ruilen" },
+        { en: "Never mortgaging under any circumstances", es: "Nunca hipotecar bajo ninguna circunstancia", de: "Niemals unter irgendwelchen Umständen beleihen", nl: "Nooit hypothekeren onder welke omstandigheden dan ook" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Mortgage cascade involves mortgaging properties in optimal order: first railroads/utilities, then non-monopoly properties, then least valuable monopoly properties, preserving your strongest monopolies as long as possible.",
+        es: "La cascada de hipoteca implica hipotecar propiedades en orden óptimo: primero ferrocarriles/servicios públicos, luego propiedades sin monopolio, luego propiedades de monopolio menos valiosas, preservando tus monopolios más fuertes el mayor tiempo posible.",
+        de: "Hypotheken-Kaskade beinhaltet Grundstücke in optimaler Reihenfolge zu beleihen: zuerst Eisenbahnen/Versorgungsunternehmen, dann Nicht-Monopol-Grundstücke, dann am wenigsten wertvolle Monopol-Grundstücke, während stärkste Monopole so lange wie möglich erhalten bleiben.",
+        nl: "Hypotheek cascade omvat eigendommen hypothekeren in optimale volgorde: eerst spoorwegen/nutsvoorzieningen, dan niet-monopolie eigendommen, dan minst waardevolle monopolie eigendommen, je sterkste monopolies zo lang mogelijk behoudend."
+      }
+    },
+    {
+      question: {
+        en: "According to probability analysis, which jail strategy is mathematically optimal?",
+        es: "Según el análisis de probabilidad, ¿qué estrategia de cárcel es matemáticamente óptima?",
+        de: "Laut Wahrscheinlichkeitsanalyse, welche Gefängnisstrategie ist mathematisch optimal?",
+        nl: "Volgens waarschijnlijkheidsanalyse, welke gevangensstrategie is wiskundig optimaal?"
+      },
+      options: [
+        { en: "Pay $50 immediately (turn 1)", es: "Pagar $50 inmediatamente (turno 1)", de: "Sofort $50 zahlen (Runde 1)", nl: "Onmiddellijk $50 betalen (beurt 1)" },
+        { en: "Roll for doubles all 3 turns, pay only if forced", es: "Tirar por dobles los 3 turnos, pagar solo si es forzado", de: "Alle 3 Runden auf Pasch würfeln, nur zahlen wenn gezwungen", nl: "Alle 3 beurten voor dubbel gooien, alleen betalen als gedwongen" },
+        { en: "Early game: stay in jail. Late game: pay immediately", es: "Juego temprano: quedarse en la cárcel. Juego tardío: pagar inmediatamente", de: "Frühes Spiel: im Gefängnis bleiben. Spätes Spiel: sofort zahlen", nl: "Vroeg spel: in de gevangenis blijven. Laat spel: onmiddellijk betalen" },
+        { en: "Always use Get Out of Jail Free card", es: "Usar siempre la carta de Salir de la Cárcel", de: "Immer Raus aus dem Gefängnis-Karte benutzen", nl: "Altijd Verlaat de Gevangenis kaart gebruiken" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Optimal strategy varies: early game stay in jail to avoid developed properties; late game when you have monopolies, pay immediately to collect rent. Statistical analysis shows this maximizes winning probability.",
+        es: "La estrategia óptima varía: juego temprano quedarse en la cárcel para evitar propiedades desarrolladas; juego tardío cuando tienes monopolios, pagar inmediatamente para cobrar alquiler. El análisis estadístico muestra que esto maximiza la probabilidad de ganar.",
+        de: "Optimale Strategie variiert: frühes Spiel im Gefängnis bleiben um entwickelte Grundstücke zu vermeiden; spätes Spiel wenn man Monopole hat, sofort zahlen um Miete zu kassieren. Statistische Analyse zeigt dies maximiert Gewinnwahrscheinlichkeit.",
+        nl: "Optimale strategie varieert: vroeg spel in de gevangenis blijven om ontwikkelde eigendommen te vermijden; laat spel wanneer je monopolies hebt, onmiddellijk betalen om huur te innen. Statistische analyse toont dit maximaliseert winkans."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'auction denial' tactic and why was it modified in tournament rules?",
+        es: "¿Qué es la táctica de 'negación de subasta' y por qué se modificó en las reglas de torneo?",
+        de: "Was ist die 'Auktionsverweigerungs'-Taktik und warum wurde sie in Turnierregeln modifiziert?",
+        nl: "Wat is de 'veiling ontkenning' tactiek en waarom werd het aangepast in toernooiregels?"
+      },
+      options: [
+        { en: "Refusing to participate in auctions", es: "Negarse a participar en subastas", de: "Weigern an Auktionen teilzunehmen", nl: "Weigeren deel te nemen aan veilingen" },
+        { en: "Players colluding to not bid in auctions to help specific player", es: "Jugadores en colusión para no ofertar en subastas para ayudar a jugador específico", de: "Spieler kolludieren um in Auktionen nicht zu bieten um bestimmtem Spieler zu helfen", nl: "Spelers samenspannen om niet te bieden in veilingen om specifieke speler te helpen" },
+        { en: "Bidding $1 for every property", es: "Ofertar $1 por cada propiedad", de: "Für jedes Grundstück $1 bieten", nl: "Voor elk eigendom $1 bieden" },
+        { en: "Delaying auctions intentionally", es: "Retrasar subastas intencionalmente", de: "Auktionen absichtlich verzögern", nl: "Veilingen opzettelijk vertragen" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Auction denial was when players would collude by not bidding in auctions, allowing one player to acquire properties for $1. Tournament rules now require minimum bid increases and anti-collusion monitoring.",
+        es: "La negación de subasta era cuando los jugadores colucían al no ofertar en subastas, permitiendo que un jugador adquiriera propiedades por $1. Las reglas de torneo ahora requieren aumentos de oferta mínimos y monitoreo anti-colusión.",
+        de: "Auktionsverweigerung war wenn Spieler kolludierten indem sie nicht in Auktionen boten, was einem Spieler ermöglichte Grundstücke für $1 zu erwerben. Turnierregeln erfordern jetzt Mindestgebotserhöhungen und Anti-Kollusions-Überwachung.",
+        nl: "Veiling ontkenning was wanneer spelers samensponnen door niet te bieden in veilingen, waardoor één speler eigendommen kon verwerven voor $1. Toernooiregels vereisen nu minimale bod verhogingen en anti-samenzwering monitoring."
+      }
+    },
+    {
+      question: {
+        en: "What is the mathematical expected value of a single railroad?",
+        es: "¿Cuál es el valor esperado matemático de un solo ferrocarril?",
+        de: "Was ist der mathematische Erwartungswert einer einzelnen Eisenbahn?",
+        nl: "Wat is de wiskundige verwachte waarde van één spoorweg?"
+      },
+      options: [
+        { en: "$25-$30 per circuit", es: "$25-$30 por circuito", de: "$25-$30 pro Umrundung", nl: "$25-$30 per ronde" },
+        { en: "$40-$50 per circuit", es: "$40-$50 por circuito", de: "$40-$50 pro Umrundung", nl: "$40-$50 per ronde" },
+        { en: "$70-$80 per circuit", es: "$70-$80 por circuito", de: "$70-$80 pro Umrundung", nl: "$70-$80 per ronde" },
+        { en: "$100-$120 per circuit", es: "$100-$120 por circuito", de: "$100-$120 pro Umrundung", nl: "$100-$120 per ronde" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "A single railroad generates $25-$30 expected value per board circuit based on 2.8% landing probability and $25 rent, making them poor individual investments but valuable in sets.",
+        es: "Un solo ferrocarril genera $25-$30 de valor esperado por circuito del tablero basado en 2.8% de probabilidad de caída y $25 de alquiler, haciéndolos inversiones individuales pobres pero valiosos en conjuntos.",
+        de: "Eine einzelne Eisenbahn generiert $25-$30 Erwartungswert pro Brettumrundung basierend auf 2,8% Landewahrscheinlichkeit und $25 Miete, was sie zu schlechten Einzelinvestitionen aber wertvoll in Sets macht.",
+        nl: "Eén spoorweg genereert $25-$30 verwachte waarde per bord ronde gebaseerd op 2,8% landingswaarschijnlijkheid en $25 huur, waardoor ze slechte individuele investeringen zijn maar waardevol in sets."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'bankruptcy timing' advantage in 3+ player games?",
+        es: "¿Qué es la ventaja de 'momento de quiebra' en juegos de 3+ jugadores?",
+        de: "Was ist der 'Bankrott-Timing'-Vorteil in Spielen mit 3+ Spielern?",
+        nl: "Wat is het 'faillissement timing' voordeel in 3+ speler spellen?"
+      },
+      options: [
+        { en: "Always try to bankrupt players early", es: "Intentar siempre arruinar jugadores temprano", de: "Immer versuchen Spieler früh bankrott zu machen", nl: "Altijd proberen spelers vroeg failliet te laten gaan" },
+        { en: "Let other players bankrupt each other while you build", es: "Dejar que otros jugadores se arruinen entre sí mientras construyes", de: "Andere Spieler sich gegenseitig bankrott machen lassen während man baut", nl: "Laat andere spelers elkaar failliet laten gaan terwijl jij bouwt" },
+        { en: "Form alliances to bankrupt specific player", es: "Formar alianzas para arruinar jugador específico", de: "Allianzen bilden um bestimmten Spieler bankrott zu machen", nl: "Allianties vormen om specifieke speler failliet te laten gaan" },
+        { en: "Bankrupting players has no timing advantage", es: "Arruinar jugadores no tiene ventaja de momento", de: "Spieler bankrott machen hat keinen Timing-Vorteil", nl: "Spelers failliet laten gaan heeft geen timing voordeel" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "In multi-player games, letting opponents bankrupt each other while you develop properties and conserve cash provides strategic advantage, as fighting depletes both parties' resources.",
+        es: "En juegos de múltiples jugadores, dejar que los oponentes se arruinen entre sí mientras desarrollas propiedades y conservas efectivo proporciona ventaja estratégica, ya que pelear agota los recursos de ambas partes.",
+        de: "In Mehrspielerspielen bietet es strategischen Vorteil, Gegner sich gegenseitig bankrott machen zu lassen während man Grundstücke entwickelt und Bargeld spart, da Kämpfen die Ressourcen beider Parteien erschöpft.",
+        nl: "In multi-speler spellen biedt het strategisch voordeel om tegenstanders elkaar failliet te laten gaan terwijl je eigendommen ontwikkelt en cash behoudt, omdat vechten de middelen van beide partijen uitput."
+      }
+    },
+    {
+      question: {
+        en: "According to championship data, what is the average game length under official tournament rules?",
+        es: "Según datos de campeonato, ¿cuál es la duración promedio del juego bajo reglas oficiales de torneo?",
+        de: "Laut Meisterschaftsdaten, wie lang ist die durchschnittliche Spieldauer unter offiziellen Turnierregeln?",
+        nl: "Volgens kampioenschapsgegevens, wat is de gemiddelde spelduur onder officiële toernooiregels?"
+      },
+      options: [
+        { en: "15-20 minutes", es: "15-20 minutos", de: "15-20 Minuten", nl: "15-20 minuten" },
+        { en: "30-45 minutes", es: "30-45 minutos", de: "30-45 Minuten", nl: "30-45 minuten" },
+        { en: "60-90 minutes", es: "60-90 minutos", de: "60-90 Minuten", nl: "60-90 minuten" },
+        { en: "2-3 hours", es: "2-3 horas", de: "2-3 Stunden", nl: "2-3 uur" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Official tournament games with strict auction rules, time limits, and no house rules average 30-45 minutes. Casual games with house rules often take 2-3+ hours.",
+        es: "Los juegos de torneo oficiales con reglas de subasta estrictas, límites de tiempo y sin reglas caseras promedian 30-45 minutos. Los juegos casuales con reglas caseras a menudo toman 2-3+ horas.",
+        de: "Offizielle Turnierspiele mit strengen Auktionsregeln, Zeitlimits und ohne Hausregeln dauern durchschnittlich 30-45 Minuten. Gelegenheitsspiele mit Hausregeln dauern oft 2-3+ Stunden.",
+        nl: "Officiële toernooi spellen met strikte veiling regels, tijdslimieten en zonder huisregels gemiddeld 30-45 minuten. Casual spellen met huisregels duren vaak 2-3+ uur."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'development rush' meta-strategy in competitive play?",
+        es: "¿Qué es la meta-estrategia de 'prisa de desarrollo' en juego competitivo?",
+        de: "Was ist die 'Entwicklungs-Rush' Meta-Strategie im Wettbewerbsspiel?",
+        nl: "Wat is de 'ontwikkeling rush' meta-strategie in competitief spel?"
+      },
+      options: [
+        { en: "Building slowly and saving cash reserves", es: "Construir lentamente y ahorrar reservas de efectivo", de: "Langsam bauen und Bargeldreserven sparen", nl: "Langzaam bouwen en cash reserves sparen" },
+        { en: "Immediately building 3 houses on each property of first monopoly", es: "Construir inmediatamente 3 casas en cada propiedad del primer monopolio", de: "Sofort 3 Häuser auf jedem Grundstück des ersten Monopols bauen", nl: "Onmiddellijk 3 huizen bouwen op elk eigendom van eerste monopolie" },
+        { en: "Only building after all players have monopolies", es: "Solo construir después de que todos los jugadores tengan monopolios", de: "Nur bauen nachdem alle Spieler Monopole haben", nl: "Alleen bouwen nadat alle spelers monopolies hebben" },
+        { en: "Focusing on railroads before monopolies", es: "Enfocarse en ferrocarriles antes que monopolios", de: "Sich auf Eisenbahnen vor Monopolen konzentrieren", nl: "Focussen op spoorwegen voor monopolies" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Development rush strategy: immediately build 3 houses on each property of your first monopoly to maximize rent income ASAP, creating economic pressure on opponents before they can develop.",
+        es: "Estrategia de prisa de desarrollo: construir inmediatamente 3 casas en cada propiedad de tu primer monopolio para maximizar ingresos de alquiler lo antes posible, creando presión económica en oponentes antes de que puedan desarrollar.",
+        de: "Entwicklungs-Rush-Strategie: sofort 3 Häuser auf jedem Grundstück des ersten Monopols bauen um Mieteinnahmen schnellstmöglich zu maximieren, wirtschaftlichen Druck auf Gegner aufbauend bevor sie entwickeln können.",
+        nl: "Ontwikkeling rush strategie: onmiddellijk 3 huizen bouwen op elk eigendom van je eerste monopolie om huurinkomsten ASAP te maximaliseren, economische druk creërend op tegenstanders voordat ze kunnen ontwikkelen."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'property denial' value in advanced trading?",
+        es: "¿Qué es el valor de 'negación de propiedad' en comercio avanzado?",
+        de: "Was ist der 'Grundstücksverweigerungs'-Wert im fortgeschrittenen Handel?",
+        nl: "Wat is de 'eigendom ontkenning' waarde in geavanceerd handelen?"
+      },
+      options: [
+        { en: "Value of preventing opponent from getting monopoly", es: "Valor de evitar que oponente obtenga monopolio", de: "Wert zu verhindern dass Gegner Monopol bekommt", nl: "Waarde van voorkomen dat tegenstander monopolie krijgt" },
+        { en: "Value of refusing to trade entirely", es: "Valor de negarse a negociar completamente", de: "Wert sich komplett zu weigern zu handeln", nl: "Waarde van volledig weigeren te handelen" },
+        { en: "Value of mortgaged properties", es: "Valor de propiedades hipotecadas", de: "Wert verpfändeter Grundstücke", nl: "Waarde van gehypothekeerde eigendommen" },
+        { en: "Value of unused development potential", es: "Valor del potencial de desarrollo no utilizado", de: "Wert ungenutzten Entwicklungspotenzials", nl: "Waarde van ongebruikt ontwikkelingspotentieel" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Property denial value is the strategic worth of holding a property specifically to prevent an opponent from completing a monopoly, often worth more than the property's face value in trades.",
+        es: "El valor de negación de propiedad es el valor estratégico de mantener una propiedad específicamente para evitar que un oponente complete un monopolio, a menudo vale más que el valor nominal de la propiedad en negociaciones.",
+        de: "Grundstücksverweigerungswert ist der strategische Wert ein Grundstück zu halten speziell um zu verhindern dass ein Gegner ein Monopol vervollständigt, oft mehr wert als der Nennwert des Grundstücks im Handel.",
+        nl: "Eigendom ontkenning waarde is de strategische waarde van het behouden van een eigendom specifiek om te voorkomen dat een tegenstander een monopolie voltooit, vaak meer waard dan de nominale waarde van het eigendom in ruil."
+      }
+    },
+    {
+      question: {
+        en: "What is the optimal number of complete monopolies to win in a 4-player game?",
+        es: "¿Cuál es el número óptimo de monopolios completos para ganar en un juego de 4 jugadores?",
+        de: "Was ist die optimale Anzahl vollständiger Monopole um in einem 4-Spieler-Spiel zu gewinnen?",
+        nl: "Wat is het optimale aantal volledige monopolies om te winnen in een 4-speler spel?"
+      },
+      options: [
+        { en: "1 monopoly is sufficient if developed", es: "1 monopolio es suficiente si está desarrollado", de: "1 Monopol ist ausreichend wenn entwickelt", nl: "1 monopolie is voldoende als ontwikkeld" },
+        { en: "2 monopolies provide best winning odds", es: "2 monopolios proporcionan mejores probabilidades de ganar", de: "2 Monopole bieten beste Gewinnchancen", nl: "2 monopolies bieden beste winkansen" },
+        { en: "3+ monopolies needed to guarantee win", es: "3+ monopolios necesarios para garantizar victoria", de: "3+ Monopole nötig um Sieg zu garantieren", nl: "3+ monopolies nodig om winst te garanderen" },
+        { en: "Number of monopolies doesn't affect winning", es: "El número de monopolios no afecta la victoria", de: "Anzahl der Monopole beeinflusst Gewinn nicht", nl: "Aantal monopolies beïnvloedt winnen niet" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Statistical analysis shows 2 developed monopolies provide optimal winning probability in 4-player games: enough economic power to bankrupt opponents while not overextending resources.",
+        es: "El análisis estadístico muestra que 2 monopolios desarrollados proporcionan probabilidad de victoria óptima en juegos de 4 jugadores: suficiente poder económico para arruinar oponentes sin sobreextender recursos.",
+        de: "Statistische Analyse zeigt 2 entwickelte Monopole bieten optimale Gewinnwahrscheinlichkeit in 4-Spieler-Spielen: genug wirtschaftliche Macht um Gegner bankrott zu machen ohne Ressourcen zu überanstrengen.",
+        nl: "Statistische analyse toont 2 ontwikkelde monopolies bieden optimale winkans in 4-speler spellen: genoeg economische macht om tegenstanders failliet te laten gaan zonder middelen te veel uit te breiden."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'liquidity crisis' point in expert Monopoly analysis?",
+        es: "¿Qué es el punto de 'crisis de liquidez' en el análisis experto de Monopoly?",
+        de: "Was ist der 'Liquiditätskrisen'-Punkt in der Experten-Monopoly-Analyse?",
+        nl: "Wat is het 'liquiditeitscrisis' punt in expert Monopoly analyse?"
+      },
+      options: [
+        { en: "When bank runs out of money", es: "Cuando el banco se queda sin dinero", de: "Wenn Bank kein Geld mehr hat", nl: "Wanneer bank geen geld meer heeft" },
+        { en: "When player has <$200 cash with developed properties nearby", es: "Cuando jugador tiene <$200 efectivo con propiedades desarrolladas cerca", de: "Wenn Spieler <$200 Bargeld hat mit entwickelten Grundstücken in der Nähe", nl: "Wanneer speler <$200 cash heeft met ontwikkelde eigendommen nabij" },
+        { en: "When all properties are owned", es: "Cuando todas las propiedades son poseídas", de: "Wenn alle Grundstücke besessen werden", nl: "Wanneer alle eigendommen bezeten zijn" },
+        { en: "When houses are exhausted", es: "Cuando las casas se agotan", de: "Wenn Häuser erschöpft sind", nl: "Wanneer huizen uitgeput zijn" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Liquidity crisis occurs when you have <$200 cash with high-rent developed properties ahead, forcing mortgaging decisions. Expert play aims to keep opponents in this state while avoiding it yourself.",
+        es: "La crisis de liquidez ocurre cuando tienes <$200 efectivo con propiedades desarrolladas de alto alquiler adelante, forzando decisiones de hipoteca. El juego experto busca mantener oponentes en este estado mientras lo evitas tú mismo.",
+        de: "Liquiditätskrise tritt auf wenn man <$200 Bargeld hat mit hochpreisigen entwickelten Grundstücken voraus, was Beliehungsentscheidungen erzwingt. Expertenspiel zielt darauf Gegner in diesem Zustand zu halten während man es selbst vermeidet.",
+        nl: "Liquiditeitscrisis treedt op wanneer je <$200 cash hebt met hoge-huur ontwikkelde eigendommen vooruit, wat hypotheek beslissingen afdwingt. Expert spel richt zich op tegenstanders in deze staat houden terwijl je het zelf vermijdt."
+      }
+    },
+    {
+      question: {
+        en: "What percentage of tournament games are won by the player completing first monopoly?",
+        es: "¿Qué porcentaje de juegos de torneo son ganados por el jugador que completa el primer monopolio?",
+        de: "Welcher Prozentsatz der Turnierspiele wird vom Spieler gewonnen der das erste Monopol vervollständigt?",
+        nl: "Welk percentage van toernooi spellen wordt gewonnen door de speler die het eerste monopolie voltooit?"
+      },
+      options: [
+        { en: "~35% (minor advantage)", es: "~35% (ventaja menor)", de: "~35% (kleiner Vorteil)", nl: "~35% (klein voordeel)" },
+        { en: "~50% (no advantage)", es: "~50% (sin ventaja)", de: "~50% (kein Vorteil)", nl: "~50% (geen voordeel)" },
+        { en: "~65% (significant advantage)", es: "~65% (ventaja significativa)", de: "~65% (signifikanter Vorteil)", nl: "~65% (significant voordeel)" },
+        { en: "~85% (overwhelming advantage)", es: "~85% (ventaja abrumadora)", de: "~85% (überwältigender Vorteil)", nl: "~85% (overweldigend voordeel)" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Tournament data shows ~65% of games are won by whoever completes the first monopoly and develops it to 3 houses, demonstrating the critical importance of early monopoly formation and rapid development.",
+        es: "Los datos de torneo muestran que ~65% de los juegos son ganados por quien completa el primer monopolio y lo desarrolla a 3 casas, demostrando la importancia crítica de la formación temprana de monopolio y desarrollo rápido.",
+        de: "Turnierdaten zeigen ~65% der Spiele werden von wem auch immer das erste Monopol vervollständigt und auf 3 Häuser entwickelt gewonnen, was die kritische Wichtigkeit früher Monopolbildung und schneller Entwicklung demonstriert.",
+        nl: "Toernooi gegevens tonen ~65% van de spellen worden gewonnen door wie het eerste monopolie voltooit en ontwikkelt tot 3 huizen, wat het kritieke belang van vroege monopolie vorming en snelle ontwikkeling demonstreert."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'cash flow analysis' method used by championship players?",
+        es: "¿Qué es el método de 'análisis de flujo de efectivo' usado por jugadores de campeonato?",
+        de: "Was ist die 'Cashflow-Analyse'-Methode die von Meisterschaftsspielern verwendet wird?",
+        nl: "Wat is de 'cashflow analyse' methode gebruikt door kampioenschapspelers?"
+      },
+      options: [
+        { en: "Counting exact money in hand at all times", es: "Contar dinero exacto en mano en todo momento", de: "Genaues Bargeld in der Hand jederzeit zählen", nl: "Exact geld in handen tellen te allen tijde" },
+        { en: "Tracking income vs expense per circuit to predict survival rounds", es: "Rastrear ingresos vs gastos por circuito para predecir rondas de supervivencia", de: "Einkommen vs Ausgaben pro Umrundung verfolgen um Überlebensrunden vorherzusagen", nl: "Inkomsten vs uitgaven per ronde volgen om overlevingsrondes te voorspellen" },
+        { en: "Recording all transactions on paper", es: "Registrar todas las transacciones en papel", de: "Alle Transaktionen auf Papier aufzeichnen", nl: "Alle transacties op papier registreren" },
+        { en: "Estimating property values only", es: "Estimar solo valores de propiedad", de: "Nur Grundstückswerte schätzen", nl: "Alleen eigendomswaarden schatten" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Championship players mentally track expected income (GO + owned property rents collected) vs expected expenses (opponent rents paid) per circuit to predict how many circuits they can survive, informing aggressive vs defensive strategy choices.",
+        es: "Los jugadores de campeonato rastrean mentalmente ingresos esperados (SALIDA + alquileres de propiedades poseídas cobrados) vs gastos esperados (alquileres de oponentes pagados) por circuito para predecir cuántos circuitos pueden sobrevivir, informando elecciones de estrategia agresiva vs defensiva.",
+        de: "Meisterschaftsspieler verfolgen mental erwartetes Einkommen (LOS + Mieten gesammelter Grundstücke) vs erwartete Ausgaben (Mieten an Gegner gezahlt) pro Umrundung um vorherzusagen wie viele Umrundungen sie überleben können, was aggressive vs defensive Strategiewahlen informiert.",
+        nl: "Kampioenschapsspelers volgen mentaal verwachte inkomsten (START + verzamelde huren van bezeten eigendommen) vs verwachte uitgaven (huren aan tegenstanders betaald) per ronde om te voorspellen hoeveel rondes ze kunnen overleven, wat agressieve vs defensieve strategie keuzes informeert."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'building window' concept in competitive Monopoly?",
+        es: "¿Qué es el concepto de 'ventana de construcción' en Monopoly competitivo?",
+        de: "Was ist das 'Baufenster'-Konzept im Wettbewerbs-Monopoly?",
+        nl: "Wat is het 'bouw venster' concept in competitief Monopoly?"
+      },
+      options: [
+        { en: "Time limit for building between turns", es: "Límite de tiempo para construir entre turnos", de: "Zeitlimit für Bauen zwischen Runden", nl: "Tijdslimiet voor bouwen tussen beurten" },
+        { en: "Optimal moment to develop before opponents land on your properties", es: "Momento óptimo para desarrollar antes de que oponentes caigan en tus propiedades", de: "Optimaler Moment zu entwickeln bevor Gegner auf Grundstücken landen", nl: "Optimaal moment om te ontwikkelen voordat tegenstanders op je eigendommen landen" },
+        { en: "Physical space needed to place houses", es: "Espacio físico necesario para colocar casas", de: "Physischer Raum benötigt um Häuser zu platzieren", nl: "Fysieke ruimte nodig om huizen te plaatsen" },
+        { en: "Number of turns allowed for construction", es: "Número de turnos permitidos para construcción", de: "Anzahl der Runden erlaubt für Bau", nl: "Aantal beurten toegestaan voor constructie" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Building window is the critical timing decision of when to develop properties: build too early and deplete cash reserves; too late and opponents bypass your undeveloped monopoly. Expert play identifies optimal building moments based on opponent positions and cash flow.",
+        es: "La ventana de construcción es la decisión de momento crítico de cuándo desarrollar propiedades: construir demasiado temprano y agotar reservas de efectivo; demasiado tarde y oponentes evitan tu monopolio sin desarrollar. El juego experto identifica momentos óptimos de construcción basados en posiciones de oponentes y flujo de efectivo.",
+        de: "Baufenster ist die kritische Timing-Entscheidung wann Grundstücke zu entwickeln: zu früh bauen erschöpft Bargeldreserven; zu spät und Gegner umgehen unentwickeltes Monopol. Expertenspiel identifiziert optimale Baumomente basierend auf Gegnerpositionen und Cashflow.",
+        nl: "Bouw venster is de kritieke timing beslissing van wanneer eigendommen te ontwikkelen: te vroeg bouwen put cash reserves uit; te laat en tegenstanders omzeilen je onontwikkelde monopolie. Expert spel identificeert optimale bouw momenten gebaseerd op tegenstander posities en cashflow."
+      }
+    },
+    {
+      question: {
+        en: "What does the 'monopoly paradox' refer to in game theory analysis?",
+        es: "¿A qué se refiere la 'paradoja del monopolio' en el análisis de teoría de juegos?",
+        de: "Worauf bezieht sich das 'Monopol-Paradoxon' in der Spieltheorie-Analyse?",
+        nl: "Waar verwijst de 'monopolie paradox' naar in speltheorie analyse?"
+      },
+      options: [
+        { en: "Having too many monopolies weakens position", es: "Tener demasiados monopolios debilita la posición", de: "Zu viele Monopole schwächen Position", nl: "Te veel monopolies verzwakt positie" },
+        { en: "Completing monopoly makes you primary target for trade denial", es: "Completar monopolio te hace objetivo principal para negación de comercio", de: "Monopol vervollständigen macht zum Hauptziel für Handelsverweigerung", nl: "Monopolie voltooien maakt je primair doelwit voor handelsweigering" },
+        { en: "Best strategy is to avoid monopolies entirely", es: "La mejor estrategia es evitar monopolios completamente", de: "Beste Strategie ist Monopole komplett zu vermeiden", nl: "Beste strategie is monopolies volledig vermijden" },
+        { en: "Players with no monopolies win most often", es: "Jugadores sin monopolios ganan más a menudo", de: "Spieler ohne Monopole gewinnen am häufigsten", nl: "Spelers zonder monopolies winnen het vaakst" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Monopoly paradox: completing a monopoly makes you the primary threat, causing opponents to collude against you in trades and refuse deals that benefit you, requiring diplomatic skill to navigate.",
+        es: "Paradoja del monopolio: completar un monopolio te hace la amenaza principal, causando que oponentes coludan contra ti en negociaciones y rechacen acuerdos que te beneficien, requiriendo habilidad diplomática para navegar.",
+        de: "Monopol-Paradoxon: ein Monopol zu vervollständigen macht dich zur Hauptbedrohung, veranlasst Gegner gegen dich im Handel zu kolludieren und Deals abzulehnen die dir nutzen, erfordert diplomatisches Geschick zur Navigation.",
+        nl: "Monopolie paradox: een monopolie voltooien maakt je de primaire bedreiging, waardoor tegenstanders samenzweren tegen je in handel en deals weigeren die jou bevoordelen, wat diplomatieke vaardigheid vereist om te navigeren."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'rent efficiency ratio' used by data-driven tournament players?",
+        es: "¿Qué es la 'relación de eficiencia de alquiler' usada por jugadores de torneo basados en datos?",
+        de: "Was ist das 'Mieteffizienz-Verhältnis' das von datengetriebenen Turnierspielern verwendet wird?",
+        nl: "Wat is de 'huur efficiëntie ratio' gebruikt door data-gedreven toernooi spelers?"
+      },
+      options: [
+        { en: "Rent collected divided by property purchase price", es: "Alquiler cobrado dividido por precio de compra de propiedad", de: "Miete gesammelt geteilt durch Grundstückskaufpreis", nl: "Huur verzameld gedeeld door eigendom aankoopprijs" },
+        { en: "Total rent divided by development cost (property + buildings)", es: "Alquiler total dividido por costo de desarrollo (propiedad + edificios)", de: "Gesamtmiete geteilt durch Entwicklungskosten (Grundstück + Gebäude)", nl: "Totale huur gedeeld door ontwikkelingskosten (eigendom + gebouwen)" },
+        { en: "Expected rent per circuit divided by total investment", es: "Alquiler esperado por circuito dividido por inversión total", de: "Erwartete Miete pro Umrundung geteilt durch Gesamtinvestition", nl: "Verwachte huur per ronde gedeeld door totale investering" },
+        { en: "Average rent collected per turn", es: "Alquiler promedio cobrado por turno", de: "Durchschnittliche Miete pro Runde gesammelt", nl: "Gemiddelde huur verzameld per beurt" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Rent efficiency ratio = (expected rent per circuit × landing probability) ÷ total investment. Used to compare monopoly value: orange properties typically have highest ratio (12-15%), while dark blue lowest (4-6%).",
+        es: "Relación de eficiencia de alquiler = (alquiler esperado por circuito × probabilidad de caída) ÷ inversión total. Usado para comparar valor de monopolio: propiedades naranjas típicamente tienen relación más alta (12-15%), mientras azul oscuro más baja (4-6%).",
+        de: "Mieteffizienz-Verhältnis = (erwartete Miete pro Umrundung × Landewahrscheinlichkeit) ÷ Gesamtinvestition. Verwendet um Monopolwert zu vergleichen: orange Grundstücke haben typisch höchstes Verhältnis (12-15%), während dunkelblau niedrigstes (4-6%).",
+        nl: "Huur efficiëntie ratio = (verwachte huur per ronde × landingswaarschijnlijkheid) ÷ totale investering. Gebruikt om monopolie waarde te vergelijken: oranje eigendommen hebben typisch hoogste ratio (12-15%), terwijl donkerblauw laagste (4-6%)."
+      }
+    },
+    {
+      question: {
+        en: "What is the advanced concept of 'positional equity' in Monopoly?",
+        es: "¿Qué es el concepto avanzado de 'equidad posicional' en Monopoly?",
+        de: "Was ist das fortgeschrittene Konzept der 'Positions-Equity' in Monopoly?",
+        nl: "Wat is het geavanceerde concept van 'positionele equity' in Monopoly?"
+      },
+      options: [
+        { en: "Your current board position relative to developed properties", es: "Tu posición actual del tablero relativa a propiedades desarrolladas", de: "Ihre aktuelle Brettposition relativ zu entwickelten Grundstücken", nl: "Je huidige bordpositie relatief tot ontwikkelde eigendommen" },
+        { en: "Total value of properties you own", es: "Valor total de propiedades que posees", de: "Gesamtwert der Grundstücke die Sie besitzen", nl: "Totale waarde van eigendommen die je bezit" },
+        { en: "Probability of completing next monopoly", es: "Probabilidad de completar próximo monopolio", de: "Wahrscheinlichkeit nächstes Monopol zu vervollständigen", nl: "Waarschijnlijkheid van voltooien van volgende monopolie" },
+        { en: "Number of properties held compared to opponents", es: "Número de propiedades poseídas comparado con oponentes", de: "Anzahl der Grundstücke verglichen mit Gegnern", nl: "Aantal eigendommen bezeten vergeleken met tegenstanders" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Positional equity quantifies your advantage/disadvantage based on current board position: being 2-6 spaces before opponents' developed properties increases equity, while being 2-6 behind decreases it. Used to value position-for-cash trades and jail decisions.",
+        es: "La equidad posicional cuantifica tu ventaja/desventaja basada en posición actual del tablero: estar 2-6 espacios antes de propiedades desarrolladas de oponentes aumenta equidad, mientras estar 2-6 detrás la disminuye. Usado para valorar negociaciones de posición-por-efectivo y decisiones de cárcel.",
+        de: "Positions-Equity quantifiziert Ihren Vorteil/Nachteil basierend auf aktueller Brettposition: 2-6 Felder vor entwickelten Grundstücken der Gegner erhöht Equity, während 2-6 dahinter sie verringert. Verwendet um Position-für-Bargeld-Handel und Gefängnisentscheidungen zu bewerten.",
+        nl: "Positionele equity kwantificeert je voordeel/nadeel gebaseerd op huidige bordpositie: 2-6 vakken voor ontwikkelde eigendommen van tegenstanders verhoogt equity, terwijl 2-6 erachter het verlaagt. Gebruikt om positie-voor-cash ruilen en gevangenis beslissingen te waarderen."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'critical mass threshold' in Monopoly economics?",
+        es: "¿Qué es el 'umbral de masa crítica' en la economía de Monopoly?",
+        de: "Was ist die 'kritische Massenschwelle' in der Monopoly-Ökonomie?",
+        nl: "Wat is de 'kritieke massa drempel' in Monopoly economie?"
+      },
+      options: [
+        { en: "When bank runs out of bills", es: "Cuando el banco se queda sin billetes", de: "Wenn Bank keine Scheine mehr hat", nl: "Wanneer bank geen biljetten meer heeft" },
+        { en: "When total development reaches ~$2000-2500 causing bankruptcies", es: "Cuando el desarrollo total alcanza ~$2000-2500 causando quiebras", de: "Wenn Gesamtentwicklung ~$2000-2500 erreicht was Bankrotte verursacht", nl: "Wanneer totale ontwikkeling ~$2000-2500 bereikt wat faillissementen veroorzaakt" },
+        { en: "When all properties are owned", es: "Cuando todas las propiedades son poseídas", de: "Wenn alle Grundstücke besessen werden", nl: "Wanneer alle eigendommen bezeten zijn" },
+        { en: "When 3+ players go bankrupt", es: "Cuando 3+ jugadores quiebran", de: "Wenn 3+ Spieler bankrott gehen", nl: "Wanneer 3+ spelers failliet gaan" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Critical mass occurs when total board development (all buildings) reaches $2000-2500, creating sufficient rent pressure to force bankruptcies. Games typically resolve within 2-3 circuits after reaching this threshold.",
+        es: "La masa crítica ocurre cuando el desarrollo total del tablero (todos los edificios) alcanza $2000-2500, creando presión de alquiler suficiente para forzar quiebras. Los juegos típicamente se resuelven dentro de 2-3 circuitos después de alcanzar este umbral.",
+        de: "Kritische Masse tritt auf wenn Gesamtbrettentwicklung (alle Gebäude) $2000-2500 erreicht, was ausreichenden Mietdruck schafft um Bankrotte zu erzwingen. Spiele lösen sich typisch innerhalb 2-3 Umrundungen nach Erreichen dieser Schwelle.",
+        nl: "Kritieke massa treedt op wanneer totale bord ontwikkeling (alle gebouwen) $2000-2500 bereikt, voldoende huur druk creërend om faillissementen af te dwingen. Spellen lossen typisch op binnen 2-3 rondes na het bereiken van deze drempel."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'asymmetric trade value' principle in championship negotiations?",
+        es: "¿Qué es el principio de 'valor de comercio asimétrico' en negociaciones de campeonato?",
+        de: "Was ist das 'asymmetrische Handelswert'-Prinzip in Meisterschaftsverhandlungen?",
+        nl: "Wat is het 'asymmetrische handelswaarde' principe in kampioenschaps onderhandelingen?"
+      },
+      options: [
+        { en: "Trading properties of equal face value", es: "Negociar propiedades de igual valor nominal", de: "Grundstücke gleichen Nennwerts handeln", nl: "Eigendommen van gelijke nominale waarde ruilen" },
+        { en: "Same property has different strategic value to different players", es: "La misma propiedad tiene diferente valor estratégico para diferentes jugadores", de: "Gleiches Grundstück hat unterschiedlichen strategischen Wert für verschiedene Spieler", nl: "Hetzelfde eigendom heeft verschillende strategische waarde voor verschillende spelers" },
+        { en: "Always trading one-for-one", es: "Siempre negociar uno-por-uno", de: "Immer eins-zu-eins handeln", nl: "Altijd één-voor-één ruilen" },
+        { en: "Never trading with same player twice", es: "Nunca negociar con el mismo jugador dos veces", de: "Nie zweimal mit gleichem Spieler handeln", nl: "Nooit twee keer met dezelfde speler ruilen" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Asymmetric value: a property completing your orange monopoly is worth $800+ to you but only face value ($180-200) to opponent. Expert negotiators exploit this value difference to create mutually beneficial but asymmetrically valuable trades.",
+        es: "Valor asimétrico: una propiedad completando tu monopolio naranja vale $800+ para ti pero solo valor nominal ($180-200) para oponente. Negociadores expertos explotan esta diferencia de valor para crear negociaciones mutuamente beneficiosas pero asimétricamente valiosas.",
+        de: "Asymmetrischer Wert: ein Grundstück das Ihr orangenes Monopol vervollständigt ist $800+ für Sie wert aber nur Nennwert ($180-200) für Gegner. Expertenverhandler nutzen diesen Wertunterschied um gegenseitig vorteilhafte aber asymmetrisch wertvolle Handel zu schaffen.",
+        nl: "Asymmetrische waarde: een eigendom dat je oranje monopolie voltooit is $800+ waard voor jou maar slechts nominale waarde ($180-200) voor tegenstander. Expert onderhandelaars exploiteren dit waarde verschil om wederzijds voordelige maar asymmetrisch waardevolle ruilen te creëren."
+      }
+    },
+    {
+      question: {
+        en: "What does 'tournament endgame theory' teach about final 1v1 situations?",
+        es: "¿Qué enseña la 'teoría de final de torneo' sobre situaciones finales 1v1?",
+        de: "Was lehrt die 'Turnier-Endspiel-Theorie' über finale 1v1-Situationen?",
+        nl: "Wat leert 'toernooi eindspel theorie' over finale 1v1 situaties?"
+      },
+      options: [
+        { en: "Player with most properties wins", es: "Jugador con más propiedades gana", de: "Spieler mit meisten Grundstücken gewinnt", nl: "Speler met meeste eigendommen wint" },
+        { en: "Player with most cash wins", es: "Jugador con más efectivo gana", de: "Spieler mit meistem Bargeld gewinnt", nl: "Speler met meeste cash wint" },
+        { en: "Player with superior development density wins in ~3-5 circuits", es: "Jugador con densidad de desarrollo superior gana en ~3-5 circuitos", de: "Spieler mit überlegener Entwicklungsdichte gewinnt in ~3-5 Umrundungen", nl: "Speler met superieure ontwikkelingsdichtheid wint in ~3-5 rondes" },
+        { en: "1v1 games take 10+ circuits to resolve", es: "Juegos 1v1 toman 10+ circuitos para resolver", de: "1v1-Spiele brauchen 10+ Umrundungen zur Auflösung", nl: "1v1 spellen nemen 10+ rondes om op te lossen" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Tournament endgame analysis: in 1v1, player with higher 'development density' (total rent capacity per $100 invested) wins in 3-5 circuits through cumulative rent advantage, making late-game development efficiency critical.",
+        es: "Análisis de final de torneo: en 1v1, jugador con mayor 'densidad de desarrollo' (capacidad de alquiler total por $100 invertido) gana en 3-5 circuitos a través de ventaja de alquiler acumulativa, haciendo la eficiencia de desarrollo de juego tardío crítica.",
+        de: "Turnier-Endspiel-Analyse: in 1v1 gewinnt Spieler mit höherer 'Entwicklungsdichte' (gesamte Mietkapazität pro $100 investiert) in 3-5 Umrundungen durch kumulative Mietvorteil, was späte-Spiel-Entwicklungseffizienz kritisch macht.",
+        nl: "Toernooi eindspel analyse: in 1v1 wint speler met hogere 'ontwikkelingsdichtheid' (totale huur capaciteit per $100 geïnvesteerd) in 3-5 rondes door cumulatief huur voordeel, wat laat-spel ontwikkelings efficiëntie kritiek maakt."
+      }
     }
   ];
 

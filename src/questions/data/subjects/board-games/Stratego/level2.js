@@ -427,6 +427,426 @@
           de: "Wenn zwei Figuren kämpfen, werden beide Ränge beiden Spielern offenbart. Diese Information ist entscheidend, um die Position und Stärke anderer Figuren zu deduzieren.",
           nl: "Wanneer twee stukken vechten, worden beide rangen aan beide spelers onthuld. Deze informatie is cruciaal voor het afleiden van de locatie en sterkte van andere stukken."
         }
+      },
+      {
+        question: {
+          en: "Can Lakes be moved through or around?",
+          es: "¿Pueden los Lagos atravesarse o rodearse?",
+          de: "Können Seen durchquert oder umgangen werden?",
+          nl: "Kunnen Meren doorkruist of omzeild worden?"
+        },
+        options: [
+          { en: "Through only", es: "Solo atravesar", de: "Nur durchqueren", nl: "Alleen doorkruisen" },
+          { en: "Around only", es: "Solo rodear", de: "Nur umgehen", nl: "Alleen omzeilen" },
+          { en: "Either way", es: "De cualquier manera", de: "Beides möglich", nl: "Beide manieren" },
+          { en: "Neither, lakes block", es: "Ninguno, lagos bloquean", de: "Weder noch, Seen blockieren", nl: "Geen van beide, meren blokkeren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Lakes are impassable obstacles that must be moved around. They cannot be entered or crossed by any piece, creating strategic chokepoints on the board.",
+          es: "Los Lagos son obstáculos infranqueables que deben rodearse. No pueden ser entrados o cruzados por ninguna pieza, creando puntos de estrangulamiento estratégicos en el tablero.",
+          de: "Seen sind unpassierbare Hindernisse, die umgangen werden müssen. Sie können von keiner Figur betreten oder überquert werden, was strategische Engpässe auf dem Brett schafft.",
+          nl: "Meren zijn onoverkomelijke obstakels die omzeild moeten worden. Ze kunnen niet betreden of gekruist worden door enig stuk, wat strategische knelpunten op het bord creëert."
+        }
+      },
+      {
+        question: {
+          en: "What happens when a Miner attacks a bomb?",
+          es: "¿Qué pasa cuando un Minero ataca una bomba?",
+          de: "Was passiert, wenn ein Mineur eine Bombe angreift?",
+          nl: "Wat gebeurt er wanneer een Mijnwerker een bom aanvalt?"
+        },
+        options: [
+          { en: "Miner destroyed", es: "Minero destruido", de: "Mineur zerstört", nl: "Mijnwerker vernietigd" },
+          { en: "Bomb defused, Miner survives", es: "Bomba desactivada, Minero sobrevive", de: "Bombe entschärft, Mineur überlebt", nl: "Bom ontmanteld, Mijnwerker overleeft" },
+          { en: "Both destroyed", es: "Ambos destruidos", de: "Beide zerstört", nl: "Beide vernietigd" },
+          { en: "Nothing happens", es: "No pasa nada", de: "Nichts passiert", nl: "Er gebeurt niets" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "When a Miner attacks a bomb, the bomb is defused and removed while the Miner survives and occupies that square. This is the Miner's special ability.",
+          es: "Cuando un Minero ataca una bomba, la bomba es desactivada y removida mientras el Minero sobrevive y ocupa ese cuadrado. Esta es la habilidad especial del Minero.",
+          de: "Wenn ein Mineur eine Bombe angreift, wird die Bombe entschärft und entfernt, während der Mineur überlebt und dieses Feld besetzt. Dies ist die Spezialfähigkeit des Mineurs.",
+          nl: "Wanneer een Mijnwerker een bom aanvalt, wordt de bom ontmanteld en verwijderd terwijl de Mijnwerker overleeft en dat vak bezet. Dit is de speciale vaardigheid van de Mijnwerker."
+        }
+      },
+      {
+        question: {
+          en: "How far can regular pieces (not Scouts) move per turn?",
+          es: "¿Qué tan lejos pueden moverse piezas regulares (no Exploradores) por turno?",
+          de: "Wie weit können reguläre Figuren (keine Späher) pro Zug ziehen?",
+          nl: "Hoe ver kunnen reguliere stukken (geen Verkenners) per beurt bewegen?"
+        },
+        options: [
+          { en: "One space", es: "Un espacio", de: "Ein Feld", nl: "Eén vak" },
+          { en: "Two spaces", es: "Dos espacios", de: "Zwei Felder", nl: "Twee vakken" },
+          { en: "Three spaces", es: "Tres espacios", de: "Drei Felder", nl: "Drie vakken" },
+          { en: "Unlimited", es: "Ilimitado", de: "Unbegrenzt", nl: "Onbeperkt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Regular pieces (all pieces except Scouts) can move exactly one space per turn, horizontally or vertically. Only Scouts have the ability to move multiple spaces.",
+          es: "Las piezas regulares (todas las piezas excepto Exploradores) pueden moverse exactamente un espacio por turno, horizontal o verticalmente. Solo los Exploradores tienen la capacidad de moverse múltiples espacios.",
+          de: "Reguläre Figuren (alle Figuren außer Späher) können sich genau ein Feld pro Zug bewegen, horizontal oder vertikal. Nur Späher haben die Fähigkeit, mehrere Felder zu ziehen.",
+          nl: "Reguliere stukken (alle stukken behalve Verkenners) kunnen precies één vak per beurt bewegen, horizontaal of verticaal. Alleen Verkenners hebben het vermogen om meerdere vakken te bewegen."
+        }
+      },
+      {
+        question: {
+          en: "What is the primary advantage of having information about enemy piece ranks?",
+          es: "¿Cuál es la ventaja principal de tener información sobre los rangos de piezas enemigas?",
+          de: "Was ist der Hauptvorteil, Informationen über feindliche Figurenränge zu haben?",
+          nl: "Wat is het primaire voordeel van informatie over vijandelijke stuk rangen te hebben?"
+        },
+        options: [
+          { en: "Predicting opponent's strategy", es: "Predecir la estrategia del oponente", de: "Gegnerstrategie vorhersagen", nl: "Strategie van tegenstander voorspellen" },
+          { en: "Avoiding unfavorable battles", es: "Evitar batallas desfavorables", de: "Ungünstige Kämpfe vermeiden", nl: "Ongunstige gevechten vermijden" },
+          { en: "Finding the flag faster", es: "Encontrar la bandera más rápido", de: "Flagge schneller finden", nl: "Vlag sneller vinden" },
+          { en: "All of the above", es: "Todas las anteriores", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Information about enemy ranks provides all these advantages: you can predict strategy, avoid unfavorable battles, and deduce flag location through process of elimination.",
+          es: "La información sobre rangos enemigos proporciona todas estas ventajas: puedes predecir estrategia, evitar batallas desfavorables y deducir la ubicación de la bandera por proceso de eliminación.",
+          de: "Informationen über feindliche Ränge bieten all diese Vorteile: Sie können Strategie vorhersagen, ungünstige Kämpfe vermeiden und Flaggenposition durch Ausschlussverfahren deduzieren.",
+          nl: "Informatie over vijandelijke rangen biedt al deze voordelen: je kunt strategie voorspellen, ongunstige gevechten vermijden en vlaglocatie afleiden door uitsluitingsproces."
+        }
+      },
+      {
+        question: {
+          en: "How does the Spy defeat the Marshal?",
+          es: "¿Cómo derrota el Espía al Mariscal?",
+          de: "Wie besiegt der Spion den Marschall?",
+          nl: "Hoe verslaat de Spion de Maarschalk?"
+        },
+        options: [
+          { en: "Spy must defend", es: "Espía debe defender", de: "Spion muss verteidigen", nl: "Spion moet verdedigen" },
+          { en: "Spy must attack", es: "Espía debe atacar", de: "Spion muss angreifen", nl: "Spion moet aanvallen" },
+          { en: "Either way works", es: "Cualquier manera funciona", de: "Beides funktioniert", nl: "Beide manieren werken" },
+          { en: "Cannot defeat Marshal", es: "No puede derrotar al Mariscal", de: "Kann Marschall nicht besiegen", nl: "Kan Maarschalk niet verslaan" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Spy can only defeat the Marshal when the Spy attacks first. If the Marshal attacks the Spy, the Spy is defeated like any other piece.",
+          es: "El Espía solo puede derrotar al Mariscal cuando el Espía ataca primero. Si el Mariscal ataca al Espía, el Espía es derrotado como cualquier otra pieza.",
+          de: "Der Spion kann den Marschall nur besiegen, wenn der Spion zuerst angreift. Wenn der Marschall den Spion angreift, wird der Spion wie jede andere Figur besiegt.",
+          nl: "De Spion kan de Maarschalk alleen verslaan wanneer de Spion als eerste aanvalt. Als de Maarschalk de Spion aanvalt, wordt de Spion verslagen zoals elk ander stuk."
+        }
+      },
+      {
+        question: {
+          en: "What is a common defensive strategy for protecting the flag?",
+          es: "¿Cuál es una estrategia defensiva común para proteger la bandera?",
+          de: "Was ist eine gängige Verteidigungsstrategie zum Schutz der Flagge?",
+          nl: "Wat is een veelvoorkomende defensieve strategie voor bescherming van de vlag?"
+        },
+        options: [
+          { en: "Surround with bombs", es: "Rodear con bombas", de: "Mit Bomben umgeben", nl: "Omringen met bommen" },
+          { en: "Place in front row", es: "Colocar en fila delantera", de: "In vorderer Reihe platzieren", nl: "In voorste rij plaatsen" },
+          { en: "Keep it mobile", es: "Mantenerla móvil", de: "Mobil halten", nl: "Mobiel houden" },
+          { en: "Hide in lakes", es: "Esconder en lagos", de: "In Seen verstecken", nl: "Verstoppen in meren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Surrounding the flag with bombs is the most common defensive strategy. This creates a barrier that can only be penetrated by Miners, giving you time to defend.",
+          es: "Rodear la bandera con bombas es la estrategia defensiva más común. Esto crea una barrera que solo puede ser penetrada por Mineros, dándote tiempo para defender.",
+          de: "Die Flagge mit Bomben zu umgeben ist die häufigste Verteidigungsstrategie. Dies schafft eine Barriere, die nur von Mineuren durchdrungen werden kann, was Zeit zur Verteidigung gibt.",
+          nl: "De vlag omringen met bommen is de meest voorkomende defensieve strategie. Dit creëert een barrière die alleen door Mijnwerkers kan worden doorgedrongen, wat je tijd geeft om te verdedigen."
+        }
+      },
+      {
+        question: {
+          en: "Why are Scouts valuable despite being weak in combat?",
+          es: "¿Por qué son valiosos los Exploradores a pesar de ser débiles en combate?",
+          de: "Warum sind Späher wertvoll, obwohl sie im Kampf schwach sind?",
+          nl: "Waarom zijn Verkenners waardevol ondanks zwak te zijn in gevecht?"
+        },
+        options: [
+          { en: "They're cheap to lose", es: "Son baratos de perder", de: "Sie sind billig zu verlieren", nl: "Ze zijn goedkoop om te verliezen" },
+          { en: "Fast reconnaissance", es: "Reconocimiento rápido", de: "Schnelle Aufklärung", nl: "Snelle verkenning" },
+          { en: "Can retreat quickly", es: "Pueden retirarse rápidamente", de: "Können schnell zurückziehen", nl: "Kunnen snel terugtrekken" },
+          { en: "All of the above", es: "Todas las anteriores", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Scouts are valuable for all these reasons: they're expendable for gathering information, can quickly scout enemy territory, and can retreat when threatened.",
+          es: "Los Exploradores son valiosos por todas estas razones: son prescindibles para recopilar información, pueden explorar rápidamente territorio enemigo y pueden retirarse cuando están amenazados.",
+          de: "Späher sind aus all diesen Gründen wertvoll: sie sind entbehrlich zum Sammeln von Informationen, können schnell feindliches Territorium erkunden und können sich bei Bedrohung zurückziehen.",
+          nl: "Verkenners zijn waardevol om al deze redenen: ze zijn inzetbaar voor het verzamelen van informatie, kunnen snel vijandelijk territorium verkennen en kunnen terugtrekken wanneer bedreigd."
+        }
+      },
+      {
+        question: {
+          en: "What tactical consideration is important when placing your Marshal?",
+          es: "¿Qué consideración táctica es importante al colocar tu Mariscal?",
+          de: "Welche taktische Überlegung ist wichtig beim Platzieren deines Marschalls?",
+          nl: "Welke tactische overweging is belangrijk bij plaatsing van je Maarschalk?"
+        },
+        options: [
+          { en: "Always next to flag", es: "Siempre junto a la bandera", de: "Immer neben Flagge", nl: "Altijd naast vlag" },
+          { en: "Protect from Spy", es: "Proteger del Espía", de: "Vor Spion schützen", nl: "Beschermen tegen Spion" },
+          { en: "In front row for attack", es: "En fila delantera para atacar", de: "In vorderer Reihe zum Angriff", nl: "In voorste rij voor aanval" },
+          { en: "Near lakes for safety", es: "Cerca de lagos por seguridad", de: "Nahe Seen für Sicherheit", nl: "Bij meren voor veiligheid" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Protecting the Marshal from the Spy is crucial. Since the Spy can defeat the Marshal when attacking, you should position the Marshal where enemy Spies cannot easily reach it.",
+          es: "Proteger al Mariscal del Espía es crucial. Como el Espía puede derrotar al Mariscal cuando ataca, debes posicionar al Mariscal donde los Espías enemigos no puedan alcanzarlo fácilmente.",
+          de: "Den Marschall vor dem Spion zu schützen ist entscheidend. Da der Spion den Marschall beim Angriff besiegen kann, solltest du den Marschall so positionieren, dass feindliche Spione ihn nicht leicht erreichen können.",
+          nl: "De Maarschalk beschermen tegen de Spion is cruciaal. Omdat de Spion de Maarschalk kan verslaan bij aanvallen, moet je de Maarschalk positioneren waar vijandelijke Spionnen hem niet gemakkelijk kunnen bereiken."
+        }
+      },
+      {
+        question: {
+          en: "What information do you gain from a Scout being destroyed?",
+          es: "¿Qué información obtienes cuando un Explorador es destruido?",
+          de: "Welche Information erhältst du, wenn ein Späher zerstört wird?",
+          nl: "Welke informatie verkrijg je van een vernietigde Verkenner?"
+        },
+        options: [
+          { en: "Enemy piece rank revealed", es: "Rango de pieza enemiga revelado", de: "Feindlicher Figurenrang offenbart", nl: "Vijandelijk stuk rang onthuld" },
+          { en: "Location of enemy pieces", es: "Ubicación de piezas enemigas", de: "Position feindlicher Figuren", nl: "Locatie van vijandelijke stukken" },
+          { en: "Type of defense used", es: "Tipo de defensa usada", de: "Art der verwendeten Verteidigung", nl: "Type verdediging gebruikt" },
+          { en: "All of the above", es: "Todas las anteriores", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "When a Scout is destroyed, you learn all this: the enemy piece's exact rank, its location, and what type of defensive setup they're using. This makes sacrificing Scouts a valuable intelligence tactic.",
+          es: "Cuando un Explorador es destruido, aprendes todo esto: el rango exacto de la pieza enemiga, su ubicación y qué tipo de configuración defensiva están usando. Esto hace que sacrificar Exploradores sea una táctica de inteligencia valiosa.",
+          de: "Wenn ein Späher zerstört wird, erfährst du all dies: den genauen Rang der feindlichen Figur, ihre Position und welche Art von Verteidigungsaufstellung sie verwenden. Dies macht das Opfern von Spähern zu einer wertvollen Aufklärungstaktik.",
+          nl: "Wanneer een Verkenner wordt vernietigd, leer je dit alles: de exacte rang van het vijandelijke stuk, zijn locatie en welk type defensieve opstelling ze gebruiken. Dit maakt het offeren van Verkenners een waardevolle inlichtingentactiek."
+        }
+      },
+      {
+        question: {
+          en: "What is 'piece counting' in Stratego?",
+          es: "¿Qué es 'contar piezas' en Stratego?",
+          de: "Was ist 'Figuren zählen' in Stratego?",
+          nl: "Wat is 'stukken tellen' in Stratego?"
+        },
+        options: [
+          { en: "Counting total pieces left", es: "Contar piezas totales restantes", de: "Gesamtzahl verbleibender Figuren zählen", nl: "Totale resterende stukken tellen" },
+          { en: "Tracking which ranks remain", es: "Rastrear qué rangos quedan", de: "Verfolgen welche Ränge verbleiben", nl: "Volgen welke rangen overblijven" },
+          { en: "Calculating point values", es: "Calcular valores de puntos", de: "Punktewerte berechnen", nl: "Puntwaarden berekenen" },
+          { en: "Memorizing setup positions", es: "Memorizar posiciones de configuración", de: "Aufstellungspositionen auswendig lernen", nl: "Opstelling posities onthouden" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Piece counting means tracking which enemy piece ranks have been revealed and which remain hidden. This helps you deduce what pieces are left and where the flag might be.",
+          es: "Contar piezas significa rastrear qué rangos de piezas enemigas han sido revelados y cuáles permanecen ocultos. Esto te ayuda a deducir qué piezas quedan y dónde podría estar la bandera.",
+          de: "Figuren zählen bedeutet zu verfolgen, welche feindlichen Figurenränge offenbart wurden und welche verborgen bleiben. Dies hilft dir zu deduzieren, welche Figuren übrig sind und wo die Flagge sein könnte.",
+          nl: "Stukken tellen betekent volgen welke vijandelijke stuk rangen onthuld zijn en welke verborgen blijven. Dit helpt je af te leiden welke stukken over zijn en waar de vlag zou kunnen zijn."
+        }
+      },
+      {
+        question: {
+          en: "Why should you vary your flag placement between games?",
+          es: "¿Por qué deberías variar la colocación de tu bandera entre juegos?",
+          de: "Warum solltest du deine Flaggenplatzierung zwischen Spielen variieren?",
+          nl: "Waarom zou je je vlagplaatsing tussen spellen moeten variëren?"
+        },
+        options: [
+          { en: "Game rules require it", es: "Las reglas del juego lo requieren", de: "Spielregeln erfordern es", nl: "Spelregels vereisen het" },
+          { en: "Prevent opponent learning patterns", es: "Prevenir que el oponente aprenda patrones", de: "Verhindern dass Gegner Muster lernt", nl: "Voorkomen dat tegenstander patronen leert" },
+          { en: "Makes game more fun", es: "Hace el juego más divertido", de: "Macht Spiel mehr Spaß", nl: "Maakt spel leuker" },
+          { en: "Increase winning odds", es: "Aumentar probabilidades de ganar", de: "Gewinnchancen erhöhen", nl: "Winkansen verhogen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Varying flag placement prevents opponents from learning your patterns. If you always use the same setup, experienced opponents will quickly find your flag in future games.",
+          es: "Variar la colocación de la bandera previene que los oponentes aprendan tus patrones. Si siempre usas la misma configuración, los oponentes experimentados encontrarán rápidamente tu bandera en futuros juegos.",
+          de: "Das Variieren der Flaggenplatzierung verhindert, dass Gegner deine Muster lernen. Wenn du immer dieselbe Aufstellung verwendest, werden erfahrene Gegner schnell deine Flagge in zukünftigen Spielen finden.",
+          nl: "Het variëren van vlagplaatsing voorkomt dat tegenstanders je patronen leren. Als je altijd dezelfde opstelling gebruikt, zullen ervaren tegenstanders snel je vlag vinden in toekomstige spellen."
+        }
+      },
+      {
+        question: {
+          en: "What is the advantage of placing bombs in non-adjacent positions?",
+          es: "¿Cuál es la ventaja de colocar bombas en posiciones no adyacentes?",
+          de: "Was ist der Vorteil, Bomben in nicht benachbarten Positionen zu platzieren?",
+          nl: "Wat is het voordeel van bommen plaatsen in niet-aangrenzende posities?"
+        },
+        options: [
+          { en: "Covers more territory", es: "Cubre más territorio", de: "Deckt mehr Territorium ab", nl: "Dekt meer territorium" },
+          { en: "Harder to deduce flag location", es: "Más difícil deducir ubicación de bandera", de: "Schwieriger Flaggenposition zu deduzieren", nl: "Moeilijker vlaglocatie af te leiden" },
+          { en: "Forces more Miner usage", es: "Fuerza más uso de Mineros", de: "Erzwingt mehr Mineur-Einsatz", nl: "Dwingt meer Mijnwerker gebruik" },
+          { en: "All of the above", es: "Todas las anteriores", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Spreading bombs provides all these benefits: wider defensive coverage, less obvious flag location, and forcing opponents to use more Miners to penetrate your defenses.",
+          es: "Distribuir bombas proporciona todos estos beneficios: cobertura defensiva más amplia, ubicación de bandera menos obvia y forzar a los oponentes a usar más Mineros para penetrar tus defensas.",
+          de: "Das Verteilen von Bomben bietet all diese Vorteile: breitere Verteidigungsabdeckung, weniger offensichtliche Flaggenposition und Zwingen der Gegner, mehr Mineure zu verwenden, um deine Verteidigung zu durchdringen.",
+          nl: "Het verspreiden van bommen biedt al deze voordelen: bredere defensieve dekking, minder voor de hand liggende vlaglocatie en dwingen van tegenstanders om meer Mijnwerkers te gebruiken om je verdediging te doordringen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'bluffing' setup in Stratego?",
+          es: "¿Qué es una configuración de 'farol' en Stratego?",
+          de: "Was ist eine 'Bluff'-Aufstellung in Stratego?",
+          nl: "Wat is een 'bluf' opstelling in Stratego?"
+        },
+        options: [
+          { en: "Making flag look weak", es: "Hacer que la bandera parezca débil", de: "Flagge schwach aussehen lassen", nl: "Vlag zwak laten lijken" },
+          { en: "Placing strong pieces to look like flag area", es: "Colocar piezas fuertes para parecer área de bandera", de: "Starke Figuren platzieren um wie Flaggenbereich auszusehen", nl: "Sterke stukken plaatsen om op vlaggebied te lijken" },
+          { en: "Using fake bombs", es: "Usar bombas falsas", de: "Falsche Bomben verwenden", nl: "Valse bommen gebruiken" },
+          { en: "Revealing pieces intentionally", es: "Revelar piezas intencionalmente", de: "Figuren absichtlich offenbaren", nl: "Stukken opzettelijk onthullen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Bluffing setups place strong defensive pieces and bombs in areas away from the flag to make opponents think the flag is there, while the real flag is less defended.",
+          es: "Las configuraciones de farol colocan piezas defensivas fuertes y bombas en áreas lejos de la bandera para hacer que los oponentes piensen que la bandera está ahí, mientras la bandera real está menos defendida.",
+          de: "Bluff-Aufstellungen platzieren starke Verteidigungsfiguren und Bomben in Bereichen fern der Flagge, um Gegner glauben zu lassen, die Flagge sei dort, während die echte Flagge weniger verteidigt ist.",
+          nl: "Bluf opstellingen plaatsen sterke defensieve stukken en bommen in gebieden weg van de vlag om tegenstanders te laten denken dat de vlag daar is, terwijl de echte vlag minder verdedigd is."
+        }
+      },
+      {
+        question: {
+          en: "What is an effective use of high-ranking pieces early game?",
+          es: "¿Cuál es un uso efectivo de piezas de alto rango temprano en el juego?",
+          de: "Was ist eine effektive Nutzung hochrangiger Figuren im frühen Spiel?",
+          nl: "Wat is een effectief gebruik van hooggerangschikte stukken vroeg in het spel?"
+        },
+        options: [
+          { en: "Attack immediately", es: "Atacar inmediatamente", de: "Sofort angreifen", nl: "Onmiddellijk aanvallen" },
+          { en: "Keep hidden for surprise", es: "Mantener ocultos para sorpresa", de: "Verborgen halten für Überraschung", nl: "Verborgen houden voor verrassing" },
+          { en: "Sacrifice for information", es: "Sacrificar por información", de: "Für Information opfern", nl: "Offeren voor informatie" },
+          { en: "Guard flag area", es: "Guardar área de bandera", de: "Flaggenbereich bewachen", nl: "Vlaggebied bewaken" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Keeping high-ranking pieces hidden early creates uncertainty for opponents and preserves their surprise value. Revealing them too early lets opponents plan counters.",
+          es: "Mantener piezas de alto rango ocultas temprano crea incertidumbre para los oponentes y preserva su valor sorpresa. Revelarlas demasiado pronto permite a los oponentes planear contramedidas.",
+          de: "Hochrangige Figuren früh verborgen zu halten schafft Unsicherheit für Gegner und bewahrt ihren Überraschungswert. Sie zu früh zu offenbaren lässt Gegner Gegenmaßnahmen planen.",
+          nl: "Hooggerangschikte stukken vroeg verborgen houden creëert onzekerheid voor tegenstanders en behoudt hun verrassingswaarde. Ze te vroeg onthullen laat tegenstanders tegenzetten plannen."
+        }
+      },
+      {
+        question: {
+          en: "Why is controlling the center of the board important?",
+          es: "¿Por qué es importante controlar el centro del tablero?",
+          de: "Warum ist die Kontrolle der Brettmitte wichtig?",
+          nl: "Waarom is controle van het centrum van het bord belangrijk?"
+        },
+        options: [
+          { en: "More premium squares", es: "Más cuadrados premium", de: "Mehr Premium-Felder", nl: "Meer premium vakken" },
+          { en: "Mobility and attack options", es: "Movilidad y opciones de ataque", de: "Mobilität und Angriffsoptionen", nl: "Mobiliteit en aanvalsopties" },
+          { en: "Flag must be there", es: "Bandera debe estar ahí", de: "Flagge muss dort sein", nl: "Vlag moet daar zijn" },
+          { en: "Blocks opponent movement", es: "Bloquea movimiento del oponente", de: "Blockiert Gegnerbewegung", nl: "Blokkeert beweging tegenstander" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Center control provides greater mobility and more attacking options. Pieces in the center can move in more directions and reach either side of the board more quickly.",
+          es: "El control del centro proporciona mayor movilidad y más opciones de ataque. Las piezas en el centro pueden moverse en más direcciones y alcanzar cualquier lado del tablero más rápidamente.",
+          de: "Zentrumskontrolle bietet größere Mobilität und mehr Angriffsoptionen. Figuren im Zentrum können sich in mehr Richtungen bewegen und beide Seiten des Brettes schneller erreichen.",
+          nl: "Centrum controle biedt grotere mobiliteit en meer aanvalsopties. Stukken in het centrum kunnen in meer richtingen bewegen en beide kanten van het bord sneller bereiken."
+        }
+      },
+      {
+        question: {
+          en: "When should you consider exchanging equal-ranked pieces?",
+          es: "¿Cuándo deberías considerar intercambiar piezas de igual rango?",
+          de: "Wann solltest du gleichrangige Figuren austauschen?",
+          nl: "Wanneer zou je gelijkgerangschikte stukken moeten uitwisselen?"
+        },
+        options: [
+          { en: "Never, always wasteful", es: "Nunca, siempre es derrochador", de: "Nie, immer verschwenderisch", nl: "Nooit, altijd verspillend" },
+          { en: "When it advances your position", es: "Cuando avanza tu posición", de: "Wenn es deine Position verbessert", nl: "Wanneer het je positie verbetert" },
+          { en: "Always, to reduce pieces", es: "Siempre, para reducir piezas", de: "Immer, um Figuren zu reduzieren", nl: "Altijd, om stukken te verminderen" },
+          { en: "Only with low ranks", es: "Solo con rangos bajos", de: "Nur mit niedrigen Rängen", nl: "Alleen met lage rangen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Exchange equal pieces when it improves your position: opening paths to the flag, removing blocking pieces, or gaining tactical advantage despite losing a piece.",
+          es: "Intercambia piezas iguales cuando mejora tu posición: abriendo caminos a la bandera, removiendo piezas bloqueadoras o ganando ventaja táctica a pesar de perder una pieza.",
+          de: "Tausche gleichrangige Figuren wenn es deine Position verbessert: Wege zur Flagge öffnen, blockierende Figuren entfernen oder taktischen Vorteil gewinnen trotz Figurenverlust.",
+          nl: "Wissel gelijke stukken uit wanneer het je positie verbetert: paden naar de vlag openen, blokkerende stukken verwijderen of tactisch voordeel behalen ondanks verlies van een stuk."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of probing attacks with Scouts?",
+          es: "¿Cuál es el propósito de ataques de sondeo con Exploradores?",
+          de: "Was ist der Zweck von Erkundungsangriffen mit Spähern?",
+          nl: "Wat is het doel van tastende aanvallen met Verkenners?"
+        },
+        options: [
+          { en: "Win battles", es: "Ganar batallas", de: "Kämpfe gewinnen", nl: "Gevechten winnen" },
+          { en: "Gather intelligence", es: "Recopilar inteligencia", de: "Informationen sammeln", nl: "Inlichtingen verzamelen" },
+          { en: "Block enemy movement", es: "Bloquear movimiento enemigo", de: "Gegnerbewegung blockieren", nl: "Vijandelijke beweging blokkeren" },
+          { en: "Protect stronger pieces", es: "Proteger piezas más fuertes", de: "Stärkere Figuren schützen", nl: "Sterkere stukken beschermen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Probing with Scouts is primarily for gathering intelligence about enemy piece positions and ranks. Scouts are expendable, making them ideal for reconnaissance sacrifices.",
+          es: "Sondear con Exploradores es principalmente para recopilar inteligencia sobre posiciones y rangos de piezas enemigas. Los Exploradores son prescindibles, haciéndolos ideales para sacrificios de reconocimiento.",
+          de: "Erkunden mit Spähern dient primär dem Sammeln von Informationen über feindliche Figurenpositionen und Ränge. Späher sind entbehrlich, was sie ideal für Aufklärungsopfer macht.",
+          nl: "Tasten met Verkenners is primair voor het verzamelen van inlichtingen over vijandelijke stuk posities en rangen. Verkenners zijn inzetbaar, waardoor ze ideaal zijn voor verkenningsoffers."
+        }
+      },
+      {
+        question: {
+          en: "What does it mean when an opponent avoids attacking an immobile piece?",
+          es: "¿Qué significa cuando un oponente evita atacar una pieza inmóvil?",
+          de: "Was bedeutet es, wenn ein Gegner es vermeidet, eine unbewegliche Figur anzugreifen?",
+          nl: "Wat betekent het wanneer een tegenstander vermijdt een onbeweegbaar stuk aan te vallen?"
+        },
+        options: [
+          { en: "It's the flag", es: "Es la bandera", de: "Es ist die Flagge", nl: "Het is de vlag" },
+          { en: "It's a bomb", es: "Es una bomba", de: "Es ist eine Bombe", nl: "Het is een bom" },
+          { en: "They're being cautious", es: "Están siendo cautelosos", de: "Sie sind vorsichtig", nl: "Ze zijn voorzichtig" },
+          { en: "Could be flag or bomb", es: "Podría ser bandera o bomba", de: "Könnte Flagge oder Bombe sein", nl: "Zou vlag of bom kunnen zijn" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "An avoided immobile piece could be either flag or bomb. Opponents avoid both - flags because that wins you the game, and bombs to preserve attacking pieces. Further deduction is needed.",
+          es: "Una pieza inmóvil evitada podría ser bandera o bomba. Los oponentes evitan ambas - banderas porque eso te hace ganar el juego, y bombas para preservar piezas atacantes. Se necesita más deducción.",
+          de: "Eine vermiedene unbewegliche Figur könnte entweder Flagge oder Bombe sein. Gegner vermeiden beide - Flaggen weil das dir das Spiel gewinnt, und Bomben um Angriffsfiguren zu bewahren. Weitere Deduktion ist nötig.",
+          nl: "Een vermeden onbeweegbaar stuk zou vlag of bom kunnen zijn. Tegenstanders vermijden beide - vlaggen omdat dat jou het spel wint, en bommen om aanvalsstukken te behouden. Verdere afleiding is nodig."
+        }
+      },
+      {
+        question: {
+          en: "How can lakes be used tactically?",
+          es: "¿Cómo pueden usarse los lagos tácticamente?",
+          de: "Wie können Seen taktisch genutzt werden?",
+          nl: "Hoe kunnen meren tactisch gebruikt worden?"
+        },
+        options: [
+          { en: "Hide pieces behind them", es: "Ocultar piezas detrás de ellos", de: "Figuren dahinter verstecken", nl: "Stukken erachter verstoppen" },
+          { en: "Create chokepoints", es: "Crear puntos de estrangulamiento", de: "Engpässe schaffen", nl: "Knelpunten creëren" },
+          { en: "Channel enemy movement", es: "Canalizar movimiento enemigo", de: "Gegnerbewegung lenken", nl: "Vijandelijke beweging kanaliseren" },
+          { en: "All of the above", es: "Todas las anteriores", de: "Alle oben genannten", nl: "Alle bovenstaande" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Lakes provide all these tactical benefits: hiding pieces behind them, creating defensive chokepoints, and channeling enemy movement into predictable paths you can defend.",
+          es: "Los lagos proporcionan todos estos beneficios tácticos: ocultar piezas detrás de ellos, crear puntos de estrangulamiento defensivos y canalizar movimiento enemigo en caminos predecibles que puedes defender.",
+          de: "Seen bieten all diese taktischen Vorteile: Figuren dahinter verstecken, defensive Engpässe schaffen und Gegnerbewegung in vorhersagbare Pfade lenken die du verteidigen kannst.",
+          nl: "Meren bieden al deze tactische voordelen: stukken erachter verstoppen, defensieve knelpunten creëren en vijandelijke beweging kanaliseren in voorspelbare paden die je kunt verdedigen."
+        }
+      },
+      {
+        question: {
+          en: "What is the disadvantage of losing all your Miners?",
+          es: "¿Cuál es la desventaja de perder todos tus Mineros?",
+          de: "Was ist der Nachteil, alle deine Mineure zu verlieren?",
+          nl: "Wat is het nadeel van al je Mijnwerkers verliezen?"
+        },
+        options: [
+          { en: "Cannot defuse enemy bombs", es: "No puedes desactivar bombas enemigas", de: "Kannst feindliche Bomben nicht entschärfen", nl: "Kun vijandelijke bommen niet ontmantelen" },
+          { en: "Lose attacking power", es: "Pierdes poder de ataque", de: "Verlierst Angriffskraft", nl: "Verliest aanvalskracht" },
+          { en: "Flag becomes vulnerable", es: "Bandera se vuelve vulnerable", de: "Flagge wird verwundbar", nl: "Vlag wordt kwetsbaar" },
+          { en: "Game ends in draw", es: "Juego termina en empate", de: "Spiel endet unentschieden", nl: "Spel eindigt in gelijkspel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Losing all Miners means you cannot defuse enemy bombs, making it nearly impossible to reach a well-defended flag. Preserve at least one Miner for endgame.",
+          es: "Perder todos los Mineros significa que no puedes desactivar bombas enemigas, haciendo casi imposible alcanzar una bandera bien defendida. Preserva al menos un Minero para el final.",
+          de: "Alle Mineure zu verlieren bedeutet, dass du feindliche Bomben nicht entschärfen kannst, was es nahezu unmöglich macht, eine gut verteidigte Flagge zu erreichen. Bewahre mindestens einen Mineur fürs Endspiel.",
+          nl: "Al je Mijnwerkers verliezen betekent dat je vijandelijke bommen niet kunt ontmantelen, waardoor het bijna onmogelijk wordt een goed verdedigde vlag te bereiken. Behoud minstens één Mijnwerker voor eindspel."
+        }
       }
     ]
   };

@@ -427,6 +427,405 @@
           de: "Chess960, erfunden von Bobby Fischer, bietet 960 mögliche Startpositionen, bei denen Figuren zufällig auf der Grundreihe platziert werden, wobei Kreativität über Auswendiglernen betont wird.",
           nl: "Chess960, uitgevonden door Bobby Fischer, heeft 960 mogelijke startposities waarbij stukken willekeurig op de achterste rij worden geplaatst, met nadruk op creativiteit boven memorisatie."
         }
+      },
+      {
+        question: {
+          en: "What is the 'Hedgehog System'?",
+          es: "¿Qué es el 'Sistema Erizo'?",
+          de: "Was ist das 'Igelsystem'?",
+          nl: "Wat is het 'Egelsysteem'?"
+        },
+        options: [
+          { en: "Flexible defense with pawns on 6th rank", es: "Defensa flexible con peones en la sexta fila", de: "Flexible Verteidigung mit Bauern auf der sechsten Reihe", nl: "Flexibele verdediging met pionnen op de zesde rij" },
+          { en: "Aggressive pawn storm", es: "Tormenta de peones agresiva", de: "Aggressiver Bauernsturm", nl: "Agressieve pionstorm" },
+          { en: "Opening trap", es: "Trampa de apertura", de: "Eröffnungsfalle", nl: "Openingsval" },
+          { en: "Endgame technique", es: "Técnica de final", de: "Endspiel-Technik", nl: "Eindspeltechniek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Hedgehog is a defensive setup with pawns on a6, b6, d6, e6 creating a flexible formation that can suddenly spring into counterattack.",
+          es: "El Erizo es una configuración defensiva con peones en a6, b6, d6, e6 creando una formación flexible que puede saltar repentinamente al contraataque.",
+          de: "Der Igel ist eine defensive Aufstellung mit Bauern auf a6, b6, d6, e6, die eine flexible Formation schafft, die plötzlich zum Gegenangriff übergehen kann.",
+          nl: "De Egel is een defensieve opstelling met pionnen op a6, b6, d6, e6 die een flexibele formatie creëert die plotseling kan overgaan tot tegenaanval."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'desperado' piece?",
+          es: "¿Qué es una pieza 'desesperada'?",
+          de: "Was ist eine 'Desperado'-Figur?",
+          nl: "Wat is een 'desperado'-stuk?"
+        },
+        options: [
+          { en: "Doomed piece doing damage before capture", es: "Pieza condenada que hace daño antes de ser capturada", de: "Verlorene Figur die vor der Eroberung Schaden anrichtet", nl: "Gedoemd stuk dat schade doet voor het geslagen wordt" },
+          { en: "Isolated knight", es: "Caballo aislado", de: "Isolierter Springer", nl: "Geïsoleerd paard" },
+          { en: "Sacrificed queen", es: "Reina sacrificada", de: "Geopferte Dame", nl: "Geofferd dame" },
+          { en: "Trapped rook", es: "Torre atrapada", de: "Gefangener Turm", nl: "Gevangen toren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A desperado is a piece that is doomed to be captured but makes as many exchanges or captures as possible before being taken.",
+          es: "Un desperado es una pieza condenada a ser capturada pero que hace tantos intercambios o capturas como sea posible antes de ser tomada.",
+          de: "Ein Desperado ist eine Figur, die zur Eroberung verurteilt ist, aber so viele Abtausche oder Schlagzüge wie möglich macht, bevor sie genommen wird.",
+          nl: "Een desperado is een stuk dat gedoemd is om geslagen te worden maar zoveel mogelijk ruilen of slaan doet voordat het genomen wordt."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Advance Variation' in the French Defense?",
+          es: "¿Qué es la 'Variante de Avance' en la Defensa Francesa?",
+          de: "Was ist die 'Vorstoßvariante' in der Französischen Verteidigung?",
+          nl: "Wat is de 'Vooruitvariant' in het Franse Verdediging?"
+        },
+        options: [
+          { en: "White plays e5 after 1...e6", es: "Las blancas juegan e5 después de 1...e6", de: "Weiß spielt e5 nach 1...e6", nl: "Wit speelt e5 na 1...e6" },
+          { en: "Early queen development", es: "Desarrollo temprano de la reina", de: "Frühe Damenentwicklung", nl: "Vroege dame-ontwikkeling" },
+          { en: "Kingside castle first", es: "Enroque corto primero", de: "Kurze Rochade zuerst", nl: "Korte rokade eerst" },
+          { en: "Pawn sacrifice on d4", es: "Sacrificio de peón en d4", de: "Bauernopfer auf d4", nl: "Pionoffer op d4" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Advance Variation (1.e4 e6 2.d4 d5 3.e5) gives White space but creates a target for Black's pawn breaks with c5 and f6.",
+          es: "La Variante de Avance (1.e4 e6 2.d4 d5 3.e5) le da espacio a las blancas pero crea un objetivo para las rupturas de peones de las negras con c5 y f6.",
+          de: "Die Vorstoßvariante (1.e4 e6 2.d4 d5 3.e5) gibt Weiß Raum, aber schafft ein Ziel für Schwarz' Bauernbrüche mit c5 und f6.",
+          nl: "De Vooruitvariant (1.e4 e6 2.d4 d5 3.e5) geeft wit ruimte maar creëert een doelwit voor zwarts piondoorbraken met c5 en f6."
+        }
+      },
+      {
+        question: {
+          en: "What does 'pawn lever' mean?",
+          es: "¿Qué significa 'palanca de peones'?",
+          de: "Was bedeutet 'Bauernhebel'?",
+          nl: "Wat betekent 'pionhefboom'?"
+        },
+        options: [
+          { en: "Pawn attacking enemy pawn base-to-base", es: "Peón atacando base a base a peón enemigo", de: "Bauer greift gegnerischen Bauer von Basis zu Basis an", nl: "Pion valt vijandelijke pion van basis naar basis aan" },
+          { en: "Passed pawn advancement", es: "Avance de peón pasado", de: "Freibauer-Vorstoß", nl: "Vrijpion vooruitgang" },
+          { en: "Pawn sacrifice", es: "Sacrificio de peón", de: "Bauernopfer", nl: "Pionoffer" },
+          { en: "Doubled pawns", es: "Peones doblados", de: "Doppelbauern", nl: "Dubbele pionnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A pawn lever occurs when a pawn attacks the base of an enemy pawn, creating tension and potentially opening lines or weakening the structure.",
+          es: "Una palanca de peones ocurre cuando un peón ataca la base de un peón enemigo, creando tensión y potencialmente abriendo líneas o debilitando la estructura.",
+          de: "Ein Bauernhebel entsteht, wenn ein Bauer die Basis eines gegnerischen Bauern angreift, Spannung erzeugt und möglicherweise Linien öffnet oder die Struktur schwächt.",
+          nl: "Een pionhefboom ontstaat wanneer een pion de basis van een vijandelijke pion aanvalt, spanning creëert en mogelijk lijnen opent of de structuur verzwakt."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Benko Gambit'?",
+          es: "¿Qué es el 'Gambito Benko'?",
+          de: "Was ist das 'Benkö-Gambit'?",
+          nl: "Wat is het 'Benko Gambiet'?"
+        },
+        options: [
+          { en: "Black sacrifices queenside pawns for pressure", es: "Las negras sacrifican peones de dama por presión", de: "Schwarz opfert Damenflügelbauern für Druck", nl: "Zwart offert damevleugelpionnen voor druk" },
+          { en: "Early queen sacrifice", es: "Sacrificio temprano de reina", de: "Frühes Damenopfer", nl: "Vroeg dameoffer" },
+          { en: "Knight sacrifice on f7", es: "Sacrificio de caballo en f7", de: "Springeropfer auf f7", nl: "Paardoffer op f7" },
+          { en: "Center pawn push", es: "Empuje de peón central", de: "Bauernvorstoß im Zentrum", nl: "Centrale pionstoot" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Benko Gambit (1.d4 Nf6 2.c4 c5 3.d5 b5) sacrifices pawns for long-term queenside pressure and active piece play.",
+          es: "El Gambito Benko (1.d4 Cf6 2.c4 c5 3.d5 b5) sacrifica peones para presión a largo plazo en el flanco de dama y juego de piezas activo.",
+          de: "Das Benkö-Gambit (1.d4 Sf6 2.c4 c5 3.d5 b5) opfert Bauern für langfristigen Damenflügeldruck und aktives Figurenspiel.",
+          nl: "Het Benko Gambiet (1.d4 Pf6 2.c4 c5 3.d5 b5) offert pionnen voor langetermijndruk op de damevleugel en actief stukkenspel."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'swindle' in chess?",
+          es: "¿Qué es un 'truco' en ajedrez?",
+          de: "Was ist ein 'Swindle' im Schach?",
+          nl: "Wat is een 'swindle' in schaak?"
+        },
+        options: [
+          { en: "Trick to escape losing position", es: "Truco para escapar de una posición perdida", de: "Trick zum Entkommen aus verlorener Stellung", nl: "Truc om te ontsnappen uit verloren positie" },
+          { en: "Opening preparation", es: "Preparación de apertura", de: "Eröffnungsvorbereitung", nl: "Openingsvoorbereiting" },
+          { en: "Endgame tablebase", es: "Base de finales", de: "Endspiel-Tablebase", nl: "Eindspel-tablebase" },
+          { en: "Time scramble", es: "Apuro de tiempo", de: "Zeitnot", nl: "Tijdnood" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A swindle is a clever tactical trick or trap that allows a player in a losing position to escape with a draw or even win through the opponent's mistake.",
+          es: "Un truco es un ardid táctico inteligente que permite a un jugador en posición perdida escapar con tablas o incluso ganar por error del oponente.",
+          de: "Ein Swindle ist ein cleverer taktischer Trick, der es einem Spieler in verlorener Stellung ermöglicht, durch einen Fehler des Gegners zu entkommen oder zu gewinnen.",
+          nl: "Een swindle is een slimme tactische truc waarmee een speler in een verloren positie kan ontsnappen met remise of zelfs winnen door een fout van de tegenstander."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Stonewall Attack'?",
+          es: "¿Qué es el 'Ataque Stonewall'?",
+          de: "Was ist der 'Stonewall-Angriff'?",
+          nl: "Wat is de 'Stonewall Aanval'?"
+        },
+        options: [
+          { en: "Pawns on d4, e3, f4 formation", es: "Formación de peones en d4, e3, f4", de: "Bauernformation auf d4, e3, f4", nl: "Pionformatie op d4, e3, f4" },
+          { en: "Rook lift to third rank", es: "Elevación de torre a la tercera fila", de: "Turmlift zur dritten Reihe", nl: "Torenlift naar derde rij" },
+          { en: "Queen sacrifice", es: "Sacrificio de reina", de: "Damenopfer", nl: "Dameoffer" },
+          { en: "Pawn storm on kingside", es: "Tormenta de peones en flanco de rey", de: "Bauernsturm am Königsflügel", nl: "Pionstorm op koningsvleugel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Stonewall Attack features a pawn structure with d4, e3, f4, creating a solid formation aimed at kingside attack, though it weakens e4.",
+          es: "El Ataque Stonewall presenta una estructura de peones con d4, e3, f4, creando una formación sólida dirigida al ataque en el flanco de rey, aunque debilita e4.",
+          de: "Der Stonewall-Angriff hat eine Bauernstruktur mit d4, e3, f4, die eine solide Formation für einen Königsflügelangriff schafft, aber e4 schwächt.",
+          nl: "De Stonewall Aanval heeft een pionstructuur met d4, e3, f4, die een solide formatie creëert gericht op aanval op de koningsvleugel, hoewel het e4 verzwakt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'anticomputer chess'?",
+          es: "¿Qué es el 'ajedrez anticomputadora'?",
+          de: "Was ist 'Anti-Computer-Schach'?",
+          nl: "Wat is 'anticomputer schaak'?"
+        },
+        options: [
+          { en: "Playing style to confuse engines", es: "Estilo de juego para confundir motores", de: "Spielstil zum Verwirren von Engines", nl: "Speelstijl om engines te verwarren" },
+          { en: "Playing without computers", es: "Jugar sin computadoras", de: "Spielen ohne Computer", nl: "Spelen zonder computers" },
+          { en: "Anti-cheating measures", es: "Medidas anti-trampa", de: "Anti-Betrugs-Maßnahmen", nl: "Anti-valsspelen maatregelen" },
+          { en: "Classical chess only", es: "Solo ajedrez clásico", de: "Nur klassisches Schach", nl: "Alleen klassiek schaak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anticomputer chess involves creating closed, strategically complex positions that are difficult for engines to evaluate, avoiding tactical complications they excel at.",
+          es: "El ajedrez anticomputadora implica crear posiciones cerradas y estratégicamente complejas que son difíciles de evaluar para los motores, evitando complicaciones tácticas en las que sobresalen.",
+          de: "Anti-Computer-Schach beinhaltet das Schaffen geschlossener, strategisch komplexer Stellungen, die für Engines schwer zu bewerten sind, und vermeidet taktische Komplikationen, in denen sie brillieren.",
+          nl: "Anticomputer schaak houdt in dat gesloten, strategisch complexe posities worden gecreëerd die moeilijk voor engines te evalueren zijn, waarbij tactische complicaties worden vermeden waarin ze uitblinken."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Grob Attack'?",
+          es: "¿Qué es el 'Ataque Grob'?",
+          de: "Was ist der 'Grob-Angriff'?",
+          nl: "Wat is de 'Grob Aanval'?"
+        },
+        options: [
+          { en: "Opening with 1.g4", es: "Apertura con 1.g4", de: "Eröffnung mit 1.g4", nl: "Opening met 1.g4" },
+          { en: "Rook sacrifice on g7", es: "Sacrificio de torre en g7", de: "Turmopfer auf g7", nl: "Torenoffer op g7" },
+          { en: "Queen and bishop battery", es: "Batería de reina y alfil", de: "Damen-Läufer-Batterie", nl: "Dame-loper batterij" },
+          { en: "Center pawn storm", es: "Tormenta de peones central", de: "Bauernsturm im Zentrum", nl: "Centrale pionstorm" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Grob Attack (1.g4) is an aggressive but objectively dubious opening that sacrifices central control for a quick kingside attack.",
+          es: "El Ataque Grob (1.g4) es una apertura agresiva pero objetivamente dudosa que sacrifica control central por un rápido ataque en el flanco de rey.",
+          de: "Der Grob-Angriff (1.g4) ist eine aggressive, aber objektiv zweifelhafte Eröffnung, die Zentrumskontrolle für einen schnellen Königsflügelangriff opfert.",
+          nl: "De Grob Aanval (1.g4) is een agressieve maar objectief twijfelachtige opening die centrumcontrole offert voor een snelle aanval op de koningsvleugel."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'pawn island'?",
+          es: "¿Qué es una 'isla de peones'?",
+          de: "Was ist eine 'Bauern-Insel'?",
+          nl: "Wat is een 'pioneiland'?"
+        },
+        options: [
+          { en: "Group of pawns isolated from others", es: "Grupo de peones aislado de otros", de: "Gruppe von Bauern, isoliert von anderen", nl: "Groep pionnen geïsoleerd van anderen" },
+          { en: "Passed pawn", es: "Peón pasado", de: "Freibauer", nl: "Vrijpion" },
+          { en: "Central pawn duo", es: "Dúo de peones centrales", de: "Zentrales Bauernpaar", nl: "Centraal pionduo" },
+          { en: "Backward pawn", es: "Peón retrasado", de: "Rückständiger Bauer", nl: "Achtergebleven pion" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A pawn island is a group of pawns separated from other friendly pawns by files. More islands generally means weaker pawn structure.",
+          es: "Una isla de peones es un grupo de peones separados de otros peones amigos por columnas. Más islas generalmente significa estructura de peones más débil.",
+          de: "Eine Bauern-Insel ist eine Gruppe von Bauern, die durch Linien von anderen freundlichen Bauern getrennt ist. Mehr Inseln bedeuten generell eine schwächere Bauernstruktur.",
+          nl: "Een pioneiland is een groep pionnen gescheiden van andere eigen pionnen door lijnen. Meer eilanden betekent over het algemeen een zwakkere pionstructuur."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Caro-Kann Defense' main idea?",
+          es: "¿Cuál es la idea principal de la 'Defensa Caro-Kann'?",
+          de: "Was ist die Hauptidee der 'Caro-Kann-Verteidigung'?",
+          nl: "Wat is het hoofdidee van de 'Caro-Kann Verdediging'?"
+        },
+        options: [
+          { en: "Solid structure with 1...c6 supporting d5", es: "Estructura sólida con 1...c6 apoyando d5", de: "Solide Struktur mit 1...c6 zur Unterstützung von d5", nl: "Solide structuur met 1...c6 ondersteunend d5" },
+          { en: "Quick kingside attack", es: "Ataque rápido en flanco de rey", de: "Schneller Königsflügelangriff", nl: "Snelle aanval op koningsvleugel" },
+          { en: "Early queen development", es: "Desarrollo temprano de reina", de: "Frühe Damenentwicklung", nl: "Vroege dame-ontwikkeling" },
+          { en: "Gambit pawn sacrifice", es: "Sacrificio de peón gambito", de: "Gambit-Bauernopfer", nl: "Gambiet pionoffer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Caro-Kann (1.e4 c6) prepares d5 while keeping the light-squared bishop free, leading to solid but somewhat passive positions.",
+          es: "La Caro-Kann (1.e4 c6) prepara d5 mientras mantiene libre el alfil de casillas claras, llevando a posiciones sólidas pero algo pasivas.",
+          de: "Die Caro-Kann (1.e4 c6) bereitet d5 vor, während der Läufer auf weißen Feldern frei bleibt, was zu soliden, aber etwas passiven Stellungen führt.",
+          nl: "De Caro-Kann (1.e4 c6) bereidt d5 voor terwijl de lichtvellige loper vrij blijft, wat leidt tot solide maar enigszins passieve posities."
+        }
+      },
+      {
+        question: {
+          en: "What does 'improving a piece' mean?",
+          es: "¿Qué significa 'mejorar una pieza'?",
+          de: "Was bedeutet 'eine Figur verbessern'?",
+          nl: "Wat betekent 'een stuk verbeteren'?"
+        },
+        options: [
+          { en: "Moving it to a better square", es: "Moverla a una casilla mejor", de: "Sie auf ein besseres Feld ziehen", nl: "Het naar een beter veld verplaatsen" },
+          { en: "Promoting a pawn", es: "Promover un peón", de: "Einen Bauern umwandeln", nl: "Een pion promoveren" },
+          { en: "Exchanging for better piece", es: "Cambiarla por mejor pieza", de: "Gegen bessere Figur tauschen", nl: "Ruilen voor beter stuk" },
+          { en: "Defending it", es: "Defenderla", de: "Sie verteidigen", nl: "Het verdedigen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Improving a piece means repositioning it to a more active, influential square where it has greater scope or control of key areas.",
+          es: "Mejorar una pieza significa reposicionarla en una casilla más activa e influyente donde tenga mayor alcance o control de áreas clave.",
+          de: "Eine Figur verbessern bedeutet, sie auf ein aktiveres, einflussreicheres Feld zu versetzen, wo sie größeren Wirkungsbereich oder Kontrolle über Schlüsselbereiche hat.",
+          nl: "Een stuk verbeteren betekent het herpositioneren naar een actiever, invloedrijker veld waar het meer bereik of controle over belangrijke gebieden heeft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'prophylaxis' in chess?",
+          es: "¿Qué es la 'profilaxis' en ajedrez?",
+          de: "Was ist 'Prophylaxe' im Schach?",
+          nl: "Wat is 'profylaxe' in schaak?"
+        },
+        options: [
+          { en: "Preventing opponent's plans", es: "Prevenir los planes del oponente", de: "Verhindern der gegnerischen Pläne", nl: "Voorkomen van tegenstanders plannen" },
+          { en: "Opening preparation", es: "Preparación de apertura", de: "Eröffnungsvorbereitung", nl: "Openingsvoorbereiding" },
+          { en: "Time management", es: "Gestión del tiempo", de: "Zeitmanagement", nl: "Tijdmanagement" },
+          { en: "Endgame study", es: "Estudio de finales", de: "Endspielstudium", nl: "Eindspeelstudie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prophylaxis, a concept developed by Nimzowitsch, means making moves that prevent or limit the opponent's plans before executing your own.",
+          es: "La profilaxis, concepto desarrollado por Nimzowitsch, significa hacer movimientos que previenen o limitan los planes del oponente antes de ejecutar los propios.",
+          de: "Prophylaxe, ein von Nimzowitsch entwickeltes Konzept, bedeutet Züge zu machen, die die Pläne des Gegners verhindern oder einschränken, bevor man eigene ausführt.",
+          nl: "Profylaxe, een concept ontwikkeld door Nimzowitsch, betekent zetten doen die de plannen van de tegenstander voorkomen of beperken voordat je je eigen uitvoert."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'two bishops advantage'?",
+          es: "¿Qué es la 'ventaja de los dos alfiles'?",
+          de: "Was ist der 'Läuferpaar-Vorteil'?",
+          nl: "Wat is het 'tweelopervoordeel'?"
+        },
+        options: [
+          { en: "Having both bishops vs opponent lacking one", es: "Tener ambos alfiles vs oponente sin uno", de: "Beide Läufer haben vs. Gegner dem einer fehlt", nl: "Beide lopers hebben vs tegenstander die er één mist" },
+          { en: "Bishops on same color", es: "Alfiles del mismo color", de: "Läufer auf derselben Farbe", nl: "Lopers op dezelfde kleur" },
+          { en: "Two bishops attacking king", es: "Dos alfiles atacando rey", de: "Zwei Läufer greifen König an", nl: "Twee lopers vallen koning aan" },
+          { en: "Bishop pair sacrifice", es: "Sacrificio de pareja de alfiles", de: "Läuferpaar-Opfer", nl: "Loperpaar offer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The bishop pair advantage occurs when one side has both bishops while the opponent has a bishop and knight or two knights, especially strong in open positions.",
+          es: "La ventaja de la pareja de alfiles ocurre cuando un lado tiene ambos alfiles mientras el oponente tiene alfil y caballo o dos caballos, especialmente fuerte en posiciones abiertas.",
+          de: "Der Läuferpaar-Vorteil entsteht, wenn eine Seite beide Läufer hat, während der Gegner einen Läufer und Springer oder zwei Springer hat, besonders stark in offenen Stellungen.",
+          nl: "Het loperpaarvoordeel ontstaat wanneer één kant beide lopers heeft terwijl de tegenstander een loper en paard of twee paarden heeft, vooral sterk in open posities."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'windmill' tactic?",
+          es: "¿Qué es la táctica de 'molino'?",
+          de: "Was ist eine 'Windmühlen'-Taktik?",
+          nl: "Wat is een 'windmolen'-tactiek?"
+        },
+        options: [
+          { en: "Repeated checks with captures in between", es: "Jaques repetidos con capturas entre ellos", de: "Wiederholte Schachs mit Schlagzügen dazwischen", nl: "Herhaalde schaken met slagen ertussen" },
+          { en: "Circular pawn structure", es: "Estructura de peones circular", de: "Kreisförmige Bauernstruktur", nl: "Circulaire pionstructuur" },
+          { en: "Rook rotation", es: "Rotación de torre", de: "Turmrotation", nl: "Torenrotatie" },
+          { en: "Knight tour pattern", es: "Patrón de recorrido de caballo", de: "Springer-Rundreise-Muster", nl: "Paardentoer patroon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A windmill is a devastating tactic where a piece gives repeated discovered checks, capturing material between each check while the king is forced to move.",
+          es: "Un molino es una táctica devastadora donde una pieza da jaques descubiertos repetidos, capturando material entre cada jaque mientras el rey se ve obligado a moverse.",
+          de: "Eine Windmühle ist eine verheerende Taktik, bei der eine Figur wiederholte Abzugsschachs gibt und zwischen jedem Schach Material schlägt, während der König ziehen muss.",
+          nl: "Een windmolen is een verwoestende tactiek waarbij een stuk herhaalde ontdekte schaken geeft en materiaal slaat tussen elk schaak terwijl de koning gedwongen wordt te bewegen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Scotch Game'?",
+          es: "¿Qué es el 'Juego Escocés'?",
+          de: "Was ist die 'Schottische Partie'?",
+          nl: "Wat is de 'Schotse Partij'?"
+        },
+        options: [
+          { en: "Opening with 1.e4 e5 2.Nf3 Nc6 3.d4", es: "Apertura con 1.e4 e5 2.Cf3 Cc6 3.d4", de: "Eröffnung mit 1.e4 e5 2.Sf3 Sc6 3.d4", nl: "Opening met 1.e4 e5 2.Pf3 Pc6 3.d4" },
+          { en: "Scottish chess variant", es: "Variante escocesa del ajedrez", de: "Schottische Schachvariante", nl: "Schotse schaakvariant" },
+          { en: "Endgame technique", es: "Técnica de final", de: "Endspiel-Technik", nl: "Eindspeltechniek" },
+          { en: "Tournament system", es: "Sistema de torneo", de: "Turniersystem", nl: "Toernooisy steem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Scotch Game challenges Black's center immediately with 3.d4, leading to open positions with early piece activity.",
+          es: "El Juego Escocés desafía el centro de las negras inmediatamente con 3.d4, llevando a posiciones abiertas con actividad temprana de piezas.",
+          de: "Die Schottische Partie fordert Schwarz' Zentrum sofort mit 3.d4 heraus und führt zu offenen Stellungen mit früher Figurenaktivität.",
+          nl: "De Schotse Partij daagt zwarts centrum onmiddellijk uit met 3.d4, wat leidt tot open posities met vroege stukkenactiviteit."
+        }
+      },
+      {
+        question: {
+          en: "What is 'hanging pawns' structure?",
+          es: "¿Qué es la estructura de 'peones colgantes'?",
+          de: "Was ist die 'hängende Bauern'-Struktur?",
+          nl: "Wat is de 'hangende pionnen'-structuur?"
+        },
+        options: [
+          { en: "Side-by-side pawns on c4/d4 or c5/d5", es: "Peones lado a lado en c4/d4 o c5/d5", de: "Nebeneinander stehende Bauern auf c4/d4 oder c5/d5", nl: "Naast elkaar staande pionnen op c4/d4 of c5/d5" },
+          { en: "Undefended pawns", es: "Peones sin defensa", de: "Unverteidigte Bauern", nl: "Onverdedigde pionnen" },
+          { en: "Passed pawns", es: "Peones pasados", de: "Freibauern", nl: "Vrijpionnen" },
+          { en: "Isolated doubled pawns", es: "Peones doblados aislados", de: "Isolierte Doppelbauern", nl: "Geïsoleerde dubbele pionnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hanging pawns are a pair of adjacent pawns (typically c4-d4 or c5-d5) with no pawns on adjacent files, creating both strength and weakness.",
+          es: "Los peones colgantes son un par de peones adyacentes (típicamente c4-d4 o c5-d5) sin peones en columnas adyacentes, creando tanto fuerza como debilidad.",
+          de: "Hängende Bauern sind ein Paar benachbarter Bauern (typisch c4-d4 oder c5-d5) ohne Bauern auf benachbarten Linien, die sowohl Stärke als auch Schwäche schaffen.",
+          nl: "Hangende pionnen zijn een paar aangrenzende pionnen (typisch c4-d4 of c5-d5) zonder pionnen op aangrenzende lijnen, wat zowel sterkte als zwakte creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Evans Gambit'?",
+          es: "¿Qué es el 'Gambito Evans'?",
+          de: "Was ist das 'Evans-Gambit'?",
+          nl: "Wat is het 'Evans Gambiet'?"
+        },
+        options: [
+          { en: "Sacrificing b4 pawn in Italian Game", es: "Sacrificar peón b4 en Apertura Italiana", de: "b4-Bauernopfer in der Italienischen Partie", nl: "b4 pion offeren in Italiaanse Opening" },
+          { en: "Queen sacrifice opening", es: "Apertura con sacrificio de reina", de: "Damenopfer-Eröffnung", nl: "Dameoffer opening" },
+          { en: "Knight gambit", es: "Gambito de caballo", de: "Springer-Gambit", nl: "Paard gambiet" },
+          { en: "Exchange sacrifice", es: "Sacrificio de calidad", de: "Qualitätsopfer", nl: "Kwaliteitsoffer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Evans Gambit (1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4) sacrifices the b-pawn for rapid development and central control.",
+          es: "El Gambito Evans (1.e4 e5 2.Cf3 Cc6 3.Ac4 Ac5 4.b4) sacrifica el peón b para desarrollo rápido y control central.",
+          de: "Das Evans-Gambit (1.e4 e5 2.Sf3 Sc6 3.Lc4 Lc5 4.b4) opfert den b-Bauern für schnelle Entwicklung und Zentrumskontrolle.",
+          nl: "Het Evans Gambiet (1.e4 e5 2.Pf3 Pc6 3.Lc4 Lc5 4.b4) offert de b-pion voor snelle ontwikkeling en centrumcontrole."
+        }
+      },
+      {
+        question: {
+          en: "What does 'consolidation' mean in chess?",
+          es: "¿Qué significa 'consolidación' en ajedrez?",
+          de: "Was bedeutet 'Konsolidierung' im Schach?",
+          nl: "Wat betekent 'consolidatie' in schaak?"
+        },
+        options: [
+          { en: "Securing advantage after complications", es: "Asegurar ventaja después de complicaciones", de: "Vorteil nach Komplikationen sichern", nl: "Voordeel veiligstellen na complicaties" },
+          { en: "Combining pieces", es: "Combinar piezas", de: "Figuren kombinieren", nl: "Stukken combineren" },
+          { en: "Trading material", es: "Intercambiar material", de: "Material tauschen", nl: "Materiaal ruilen" },
+          { en: "Reorganizing pawns", es: "Reorganizar peones", de: "Bauern reorganisieren", nl: "Pionnen reorganiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Consolidation means securing and maintaining an advantage by defending weaknesses, coordinating pieces, and preventing counterplay after gaining material or positional edge.",
+          es: "La consolidación significa asegurar y mantener una ventaja defendiendo debilidades, coordinando piezas y previniendo contrajuego después de ganar material o ventaja posicional.",
+          de: "Konsolidierung bedeutet, einen Vorteil zu sichern und zu erhalten, indem Schwächen verteidigt, Figuren koordiniert und Gegenspiel verhindert wird, nachdem Material oder positioneller Vorteil gewonnen wurde.",
+          nl: "Consolidatie betekent een voordeel veiligstellen en behouden door zwaktes te verdedigen, stukken te coördineren en tegenaanvallen te voorkomen na het winnen van materiaal of positioneel voordeel."
+        }
       }
     ]
   };

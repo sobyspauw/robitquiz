@@ -448,6 +448,237 @@
           de: "Experten kaufen absichtlich Entwicklungskarten, wenn sie nahe 10 Punkten sind, selbst wenn sie keine Siegpunkte halten. Dies schafft Unsicherheit, da Gegner annehmen, Sie könnten nächsten Zug mit versteckten VPs gewinnen, was sie möglicherweise zu suboptimalen Verteidigungszügen oder Handelsentscheidungen veranlasst.",
           nl: "Expertspelers kopen opzettelijk ontwikkelingskaarten wanneer ze dichtbij 10 punten zijn zelfs als ze geen overwinningspunten vasthouden. Dit creëert onzekerheid, omdat tegenstanders aannemen dat je volgende beurt zou kunnen winnen met verborgen VPs, mogelijk veroorzakend dat ze suboptimale defensieve zetten of ruilbeslissingen maken."
         }
+      },
+      {
+        question: {
+          en: "What is the 'pip deficit recovery' mid-game adjustment?",
+          es: "¿Qué es el ajuste de 'recuperación de déficit de pip' en el juego medio?",
+          de: "Was ist die 'Pip-Defizit-Wiederherstellungs'-Mittelspiel-Anpassung?",
+          nl: "Wat is de 'pip tekort herstel' middenspel aanpassing?"
+        },
+        options: [
+          { en: "Pivoting from settlement expansion to harbors+development cards when below 40 total pips", es: "Pivotear de expansión de asentamientos a puertos+cartas de desarrollo cuando está por debajo de 40 pips totales", de: "Von Siedlungserweiterung zu Häfen+Entwicklungskarten schwenken bei unter 40 Gesamt-Pips", nl: "Omschakelen van nederzettingsuitbreiding naar havens+ontwikkelingskaarten bij onder 40 totale pips" },
+          { en: "Always expanding settlements regardless of pip count", es: "Siempre expandir asentamientos sin importar el conteo de pip", de: "Immer Siedlungen erweitern unabhängig von Pip-Zählung", nl: "Altijd nederzettingen uitbreiden ongeacht pip telling" },
+          { en: "Immediately resigning when pip deficit detected", es: "Renunciar inmediatamente cuando se detecte déficit de pip", de: "Sofort aufgeben wenn Pip-Defizit erkannt", nl: "Direct opgeven wanneer pip tekort gedetecteerd" },
+          { en: "Pip values irrelevant in competitive play", es: "Los valores de pip son irrelevantes en juego competitivo", de: "Pip-Werte irrelevant im Wettkampfspiel", nl: "Pip waarden irrelevant in competitief spel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Players with low pip totals (<40 across all settlements) should pivot strategy away from settlement expansion toward harbor trading efficiency and development card victory points. Direct pip-to-pip competition becomes unwinnable; alternative scoring paths offer better chances.",
+          es: "Los jugadores con totales de pip bajos (<40 en todos los asentamientos) deben cambiar la estrategia lejos de la expansión de asentamientos hacia la eficiencia de comercio en puertos y puntos de victoria de cartas de desarrollo. La competencia pip-a-pip directa se vuelve inganable; las rutas de puntuación alternativas ofrecen mejores posibilidades.",
+          de: "Spieler mit niedrigen Pip-Summen (<40 über alle Siedlungen) sollten die Strategie von Siedlungserweiterung weg zu Hafen-Handelseffizienz und Entwicklungskarten-Siegpunkten schwenken. Direkter Pip-zu-Pip-Wettbewerb wird ungewinnbar; alternative Wertungspfade bieten bessere Chancen.",
+          nl: "Spelers met lage pip totalen (<40 over alle nederzettingen) moeten strategie omschakelen weg van nederzettingsuitbreiding naar havenhandelsefficiëntie en ontwikkelingskaart overwinningspunten. Directe pip-tot-pip competitie wordt onwinbaar; alternatieve scorepaden bieden betere kansen."
+        }
+      },
+      {
+        question: {
+          en: "What defines the 'trading embargo effectiveness threshold'?",
+          es: "¿Qué define el 'umbral de efectividad del embargo comercial'?",
+          de: "Was definiert die 'Handelsembargo-Effektivitätsschwelle'?",
+          nl: "Wat definieert de 'handelsembargo effectiviteits drempel'?"
+        },
+        options: [
+          { en: "Embargo impacts leader when they control <60% of targeted resource production", es: "El embargo impacta al líder cuando controlan <60% de la producción del recurso objetivo", de: "Embargo beeinflusst Anführer wenn sie <60% der Zielressourcenproduktion kontrollieren", nl: "Embargo beïnvloedt leider wanneer ze <60% van doelbron productie controleren" },
+          { en: "Embargoes always effective regardless of production", es: "Los embargos siempre son efectivos sin importar la producción", de: "Embargos immer effektiv unabhängig von Produktion", nl: "Embargo's altijd effectief ongeacht productie" },
+          { en: "Only embargo players with zero production", es: "Solo embargar jugadores con cero producción", de: "Nur Spieler mit Nullproduktion embargieren", nl: "Alleen spelers met nul productie embargo" },
+          { en: "Embargoes prohibited in tournament play", es: "Los embargos están prohibidos en el juego de torneo", de: "Embargos im Turnierspiel verboten", nl: "Embargo's verboden in toernooispel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Trade embargoes only effectively slow leaders if they produce less than 60% of the embargoed resource. Above this threshold, leaders are self-sufficient and embargoes merely incentivize them to use harbors/banks. The 60% threshold represents the point where 4:1 trading becomes preferable to negotiation.",
+          es: "Los embargos comerciales solo ralentizan efectivamente a los líderes si producen menos del 60% del recurso embargado. Por encima de este umbral, los líderes son autosuficientes y los embargos simplemente los incentivan a usar puertos/bancos. El umbral del 60% representa el punto donde el comercio 4:1 se vuelve preferible a la negociación.",
+          de: "Handelsembargos verlangsamen Anführer nur effektiv, wenn sie weniger als 60% der embargierten Ressource produzieren. Über dieser Schwelle sind Anführer selbstgenügsam und Embargos animieren sie lediglich, Häfen/Banken zu nutzen. Die 60%-Schwelle repräsentiert den Punkt, wo 4:1-Handel der Verhandlung vorzuziehen ist.",
+          nl: "Handelsembargo's vertragen leiders alleen effectief als ze minder dan 60% van de geëmbargorde bron produceren. Boven deze drempel zijn leiders zelfvoorzienend en embargo's stimuleren hen slechts havens/banken te gebruiken. De 60% drempel vertegenwoordigt het punt waar 4:1 handel verkieslijker wordt dan onderhandeling."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'reverse psychology' settlement placement tactic?",
+          es: "¿Cuál es la táctica de colocación de asentamientos de 'psicología inversa'?",
+          de: "Was ist die 'Umkehrpsychologie'-Siedlungsplatzierungstaktik?",
+          nl: "Wat is de 'omgekeerde psychologie' nederzettingsplaatsings tactiek?"
+        },
+        options: [
+          { en: "Building toward obviously suboptimal spots to make opponents ignore your true target location", es: "Construir hacia lugares obviamente subóptimos para hacer que los oponentes ignoren tu ubicación objetivo real", de: "Zu offensichtlich suboptimalen Plätzen bauen um Gegner Ihren wahren Zielort ignorieren zu lassen", nl: "Bouwen naar duidelijk suboptimale plekken om tegenstanders je echte doellocatie te laten negeren" },
+          { en: "Always announcing settlement intentions publicly", es: "Siempre anunciar intenciones de asentamiento públicamente", de: "Siedlungsabsichten immer öffentlich ankündigen", nl: "Altijd nederzettingsbedoelingen publiekelijk aankondigen" },
+          { en: "Building settlements without any roads", es: "Construir asentamientos sin ninguna carretera", de: "Siedlungen ohne Straßen bauen", nl: "Nederzettingen bouwen zonder wegen" },
+          { en: "Placing settlements on desert hexes only", es: "Colocar asentamientos solo en hexágonos del desierto", de: "Siedlungen nur auf Wüstenhexe platzieren", nl: "Nederzettingen alleen op woestijnhexen plaatsen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced players build initial roads toward low-value intersections, making opponents think that's their target. Once opponents relax or commit resources elsewhere, they rapidly shift roads to claim the actually-desired high-value spot, exploiting opponents' misplaced blocking attempts.",
+          es: "Los jugadores avanzados construyen carreteras iniciales hacia intersecciones de bajo valor, haciendo que los oponentes piensen que ese es su objetivo. Una vez que los oponentes se relajan o comprometen recursos en otro lugar, cambian rápidamente las carreteras para reclamar el lugar de alto valor realmente deseado, explotando los intentos de bloqueo mal colocados de los oponentes.",
+          de: "Fortgeschrittene Spieler bauen anfängliche Straßen zu niedrig-wertigen Schnittpunkten, sodass Gegner denken, das sei ihr Ziel. Sobald Gegner sich entspannen oder Ressourcen anderswo einsetzen, wechseln sie schnell Straßen, um den tatsächlich gewünschten hochwertigen Platz zu beanspruchen, indem sie fehlplatzierte Blockierungsversuche der Gegner ausnutzen.",
+          nl: "Geavanceerde spelers bouwen initiële wegen naar lage-waarde kruispunten, waardoor tegenstanders denken dat dat hun doel is. Zodra tegenstanders ontspannen of bronnen elders committeren, verschuiven ze snel wegen om de werkelijk-gewenste hoge-waarde plek te claimen, uitbuitend tegenstanders' verkeerd geplaatste blokkeeraanvallen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'exponential city advantage' mathematical principle?",
+          es: "¿Qué es el principio matemático de 'ventaja de ciudad exponencial'?",
+          de: "Was ist das mathematische Prinzip des 'exponentiellen Stadtvorteils'?",
+          nl: "Wat is het wiskundige principe van 'exponentieel stadsvoordeel'?"
+        },
+        options: [
+          { en: "Each city doubles affected hex output, creating 2^n growth where n = number of cities", es: "Cada ciudad duplica la salida del hexágono afectado, creando crecimiento 2^n donde n = número de ciudades", de: "Jede Stadt verdoppelt betroffene Hex-Ausgabe und schafft 2^n Wachstum wo n = Anzahl der Städte", nl: "Elke stad verdubbelt beïnvloede hex output, creërend 2^n groei waar n = aantal steden" },
+          { en: "Cities provide linear +1 point advantage only", es: "Las ciudades proporcionan solo ventaja lineal de +1 punto", de: "Städte bieten nur linearen +1-Punkt-Vorteil", nl: "Steden bieden alleen lineair +1 punt voordeel" },
+          { en: "City advantage decreases over time", es: "La ventaja de la ciudad disminuye con el tiempo", de: "Stadtvorteil nimmt mit der Zeit ab", nl: "Stadsvoordeel neemt af over tijd" },
+          { en: "Cities and settlements equal in value mathematically", es: "Las ciudades y los asentamientos son iguales en valor matemáticamente", de: "Städte und Siedlungen mathematisch gleichwertig", nl: "Steden en nederzettingen gelijk in waarde wiskundig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cities don't just add 1 point—they double production on affected hexes. With 3 cities on 8-pip hexes (24 pips total production), you generate 2x resources compared to settlements, enabling 4th city faster, then 5th exponentially faster. This 2^n scaling explains why city-focused players often pull away dramatically mid-game.",
+          es: "Las ciudades no solo agregan 1 punto, duplican la producción en los hexágonos afectados. Con 3 ciudades en hexágonos de 8 pip (24 pips de producción total), generas 2x recursos en comparación con los asentamientos, permitiendo la 4ª ciudad más rápido, luego la 5ª exponencialmente más rápido. Este escalamiento 2^n explica por qué los jugadores enfocados en ciudades a menudo se alejan dramáticamente en el juego medio.",
+          de: "Städte fügen nicht nur 1 Punkt hinzu—sie verdoppeln die Produktion auf betroffenen Hexen. Mit 3 Städten auf 8-Pip-Hexen (24 Pips Gesamtproduktion) generiert man 2x Ressourcen verglichen mit Siedlungen, ermöglicht 4. Stadt schneller, dann 5. exponentiell schneller. Diese 2^n-Skalierung erklärt, warum Stadt-fokussierte Spieler sich im Mittelspiel oft dramatisch absetzen.",
+          nl: "Steden voegen niet alleen 1 punt toe—ze verdubbelen productie op beïnvloede hexen. Met 3 steden op 8-pip hexen (24 pips totale productie), genereer je 2x bronnen vergeleken met nederzettingen, wat 4e stad sneller mogelijk maakt, dan 5e exponentieel sneller. Deze 2^n schaling verklaart waarom stad-gefocuste spelers vaak dramatisch weglopen mid-game."
+        }
+      },
+      {
+        question: {
+          en: "What defines the 'knight timing paradox' in tournament play?",
+          es: "¿Qué define la 'paradoja de tiempo del caballero' en el juego de torneo?",
+          de: "Was definiert das 'Ritter-Timing-Paradoxon' im Turnierspiel?",
+          nl: "Wat definieert de 'ridder timing paradox' in toernooispel?"
+        },
+        options: [
+          { en: "Playing knights early secures army but playing late allows robber control when most needed", es: "Jugar caballeros temprano asegura el ejército pero jugar tarde permite el control del ladrón cuando más se necesita", de: "Ritter früh spielen sichert Armee aber spätes Spielen erlaubt Räuberkontrolle wenn am meisten gebraucht", nl: "Ridders vroeg spelen veiligstelt leger maar laat spelen maakt rovercontrole mogelijk wanneer meest nodig" },
+          { en: "Knights should only be played on even-numbered turns", es: "Los caballeros solo deben jugarse en turnos pares", de: "Ritter sollten nur in geradzahligen Zügen gespielt werden", nl: "Ridders moeten alleen in even-genummerde beurten gespeeld worden" },
+          { en: "All knights must be played within first 10 turns", es: "Todos los caballeros deben jugarse dentro de los primeros 10 turnos", de: "Alle Ritter müssen innerhalb der ersten 10 Züge gespielt werden", nl: "Alle ridders moeten binnen eerste 10 beurten gespeeld worden" },
+          { en: "Knight timing has no strategic impact", es: "El tiempo del caballero no tiene impacto estratégico", de: "Ritter-Timing hat keinen strategischen Einfluss", nl: "Ridder timing heeft geen strategische impact" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The knight timing paradox: playing knights early (turns 8-15) maximizes largest army chances but 'wastes' robber moves on low-impact situations. Holding knights for late-game (turns 25+) preserves them for critical robber placements but risks opponents claiming army first. Expert players balance 3-4 early, 2-3 held back.",
+          es: "La paradoja del tiempo del caballero: jugar caballeros temprano (turnos 8-15) maximiza las posibilidades del ejército más grande pero 'desperdicia' movimientos del ladrón en situaciones de bajo impacto. Sostener caballeros para el juego tardío (turnos 25+) los preserva para colocaciones críticas del ladrón pero arriesga que los oponentes reclamen el ejército primero. Los jugadores expertos equilibran 3-4 temprano, 2-3 retenidos.",
+          de: "Das Ritter-Timing-Paradoxon: Ritter früh spielen (Züge 8-15) maximiert größte Armee-Chancen aber 'verschwendet' Räuberzüge auf geringwirkende Situationen. Ritter für Spätspiel (Züge 25+) aufheben bewahrt sie für kritische Räuberplatzierungen aber riskiert, dass Gegner Armee zuerst beanspruchen. Experten balancieren 3-4 früh, 2-3 zurückgehalten.",
+          nl: "De ridder timing paradox: ridders vroeg spelen (beurten 8-15) maximaliseert grootste leger kansen maar 'verspilt' roverzetten op lage-impact situaties. Ridders vasthouden voor laat-spel (beurten 25+) bewaart ze voor kritieke roverplaatsingen maar riskeert tegenstanders leger eerst claimen. Expertspelers balanceren 3-4 vroeg, 2-3 achtergehouden."
+        }
+      },
+      {
+        question: {
+          en: "What is the '7-roll insurance' hand management principle?",
+          es: "¿Qué es el principio de gestión de mano de 'seguro de tirada de 7'?",
+          de: "Was ist das 'Sieben-Wurf-Versicherungs'-Handmanagement-Prinzip?",
+          nl: "Wat is het '7-worp verzekering' handbeheer principe?"
+        },
+        options: [
+          { en: "Holding exactly 7 cards maximizes building capability while avoiding discard risk", es: "Sostener exactamente 7 cartas maximiza la capacidad de construcción mientras evita el riesgo de descarte", de: "Exakt 7 Karten halten maximiert Baufähigkeit während Abwurfrisiko vermieden wird", nl: "Precies 7 kaarten vasthouden maximaliseert bouwcapaciteit terwijl weggooi risico vermeden wordt" },
+          { en: "Always maintain 10+ cards for maximum trading power", es: "Siempre mantener 10+ cartas para máximo poder comercial", de: "Immer 10+ Karten für maximale Handelsmacht halten", nl: "Altijd 10+ kaarten behouden voor maximum handelskracht" },
+          { en: "Never hold more than 3 cards total", es: "Nunca sostener más de 3 cartas en total", de: "Niemals mehr als 3 Karten insgesamt halten", nl: "Nooit meer dan 3 kaarten totaal vasthouden" },
+          { en: "Card count irrelevant for optimal play", es: "El conteo de cartas es irrelevante para el juego óptimo", de: "Kartenzählung irrelevant für optimales Spiel", nl: "Kaart telling irrelevant voor optimaal spel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The '7-card sweet spot' balances opportunity vs risk. With 7 cards, you can build most structures (cities need 5, settlements need 4+trade) while avoiding 7-roll discard penalties. At 8+ cards, losing half on 7-roll (16.67% per turn) typically costs more than the extra flexibility gained.",
+          es: "El 'punto ideal de 7 cartas' equilibra oportunidad vs riesgo. Con 7 cartas, puedes construir la mayoría de las estructuras (las ciudades necesitan 5, los asentamientos necesitan 4+intercambio) mientras evitas las penalizaciones de descarte de tirada de 7. Con 8+ cartas, perder la mitad en tirada de 7 (16.67% por turno) típicamente cuesta más que la flexibilidad extra ganada.",
+          de: "Der '7-Karten-Sweet-Spot' balanciert Chance vs Risiko. Mit 7 Karten kann man die meisten Strukturen bauen (Städte brauchen 5, Siedlungen brauchen 4+Handel) während 7-Wurf-Abwurfstrafen vermieden werden. Bei 8+ Karten kostet der Verlust der Hälfte bei 7-Wurf (16,67% pro Zug) typischerweise mehr als die gewonnene Extra-Flexibilität.",
+          nl: "De '7-kaarten sweet spot' balanceert kans vs risico. Met 7 kaarten kun je de meeste structuren bouwen (steden hebben 5 nodig, nederzettingen hebben 4+handel nodig) terwijl je 7-worp weggooi boetes vermijdt. Bij 8+ kaarten kost het verliezen van de helft bij 7-worp (16,67% per beurt) typisch meer dan de extra flexibiliteit verkregen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'settlement efficiency ratio' calculation?",
+          es: "¿Qué es el cálculo de 'relación de eficiencia de asentamiento'?",
+          de: "Was ist die 'Siedlungseffizienz-Verhältnis'-Berechnung?",
+          nl: "Wat is de 'nederzetting efficiëntie ratio' berekening?"
+        },
+        options: [
+          { en: "Total pip value ÷ settlements built; optimal players maintain >10 pips per settlement", es: "Valor de pip total ÷ asentamientos construidos; los jugadores óptimos mantienen >10 pips por asentamiento", de: "Gesamt-Pip-Wert ÷ gebaute Siedlungen; optimale Spieler halten >10 Pips pro Siedlung", nl: "Totale pip waarde ÷ gebouwde nederzettingen; optimale spelers behouden >10 pips per nederzetting" },
+          { en: "Number of settlements ÷ turns elapsed", es: "Número de asentamientos ÷ turnos transcurridos", de: "Anzahl Siedlungen ÷ verstrichene Züge", nl: "Aantal nederzettingen ÷ verstreken beurten" },
+          { en: "Victory points ÷ cards in hand", es: "Puntos de victoria ÷ cartas en mano", de: "Siegpunkte ÷ Karten in Hand", nl: "Overwinningspunten ÷ kaarten in hand" },
+          { en: "Efficiency ratios unmeasurable in Catan", es: "Las relaciones de eficiencia son inmensurables en Catan", de: "Effizienzverhältnisse in Catan unmessbar", nl: "Efficiëntie ratio's onmeetbaar in Catan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Elite players track settlement efficiency: total pip value divided by settlement count. A player with 50 pips across 4 settlements (12.5 ratio) has more sustainable production than 60 pips across 6 settlements (10 ratio), despite higher total. The 10+ pip/settlement threshold indicates quality positioning.",
+          es: "Los jugadores de élite rastrean la eficiencia de asentamiento: valor de pip total dividido por conteo de asentamientos. Un jugador con 50 pips en 4 asentamientos (relación 12.5) tiene producción más sostenible que 60 pips en 6 asentamientos (relación 10), a pesar del total más alto. El umbral de 10+ pip/asentamiento indica posicionamiento de calidad.",
+          de: "Elite-Spieler verfolgen Siedlungseffizienz: Gesamt-Pip-Wert dividiert durch Siedlungsanzahl. Ein Spieler mit 50 Pips über 4 Siedlungen (12,5 Verhältnis) hat nachhaltigere Produktion als 60 Pips über 6 Siedlungen (10 Verhältnis), trotz höherer Summe. Die 10+ Pip/Siedlungs-Schwelle zeigt Qualitätspositionierung an.",
+          nl: "Elite spelers volgen nederzetting efficiëntie: totale pip waarde gedeeld door nederzettingstelling. Een speler met 50 pips over 4 nederzettingen (12,5 ratio) heeft duurzamere productie dan 60 pips over 6 nederzettingen (10 ratio), ondanks hoger totaal. De 10+ pip/nederzetting drempel wijst op kwaliteit positionering."
+        }
+      },
+      {
+        question: {
+          en: "What defines the 'zero-sum blocking' competitive principle?",
+          es: "¿Qué define el principio competitivo de 'bloqueo de suma cero'?",
+          de: "Was definiert das 'Null-Summen-Blockierungs'-Wettbewerbsprinzip?",
+          nl: "Wat definieert het 'nul-som blokkering' competitief principe?"
+        },
+        options: [
+          { en: "Spending resources to block opponents worth 3+ points even if your build scores 1 point", es: "Gastar recursos para bloquear oponentes que valen 3+ puntos incluso si tu construcción puntúa 1 punto", de: "Ressourcen ausgeben um Gegner zu blockieren die 3+ Punkte wert sind selbst wenn Ihr Bau 1 Punkt erzielt", nl: "Bronnen besteden om tegenstanders te blokkeren die 3+ punten waard zijn zelfs als je bouw 1 punt scoort" },
+          { en: "All blocking moves waste resources inefficiently", es: "Todos los movimientos de bloqueo desperdician recursos de manera ineficiente", de: "Alle Blockierungszüge verschwenden Ressourcen ineffizient", nl: "Alle blokkeerzetten verspillen bronnen inefficiënt" },
+          { en: "Only build structures that maximize your own points", es: "Solo construir estructuras que maximicen tus propios puntos", de: "Nur Strukturen bauen die eigene Punkte maximieren", nl: "Alleen structuren bouwen die je eigen punten maximaliseren" },
+          { en: "Blocking prohibited in tournament play", es: "El bloqueo está prohibido en el juego de torneo", de: "Blockierung im Turnierspiel verboten", nl: "Blokkeren verboden in toernooispel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In zero-sum games, relative scoring matters more than absolute. Building a 6-pip settlement (personal gain: 1 point + 6 pips) to block opponent's access to 12-pip spot with harbor (opponent loss: 3+ points) creates net advantage of 2+ points despite appearing suboptimal individually. Competitive Catan requires relative value calculations.",
+          es: "En los juegos de suma cero, el puntaje relativo importa más que el absoluto. Construir un asentamiento de 6 pip (ganancia personal: 1 punto + 6 pips) para bloquear el acceso del oponente al lugar de 12 pip con puerto (pérdida del oponente: 3+ puntos) crea ventaja neta de 2+ puntos a pesar de parecer subóptimo individualmente. El Catan competitivo requiere cálculos de valor relativo.",
+          de: "In Nullsummenspielen zählt relative Wertung mehr als absolute. Eine 6-Pip-Siedlung bauen (persönlicher Gewinn: 1 Punkt + 6 Pips) um Gegnerzugang zu 12-Pip-Platz mit Hafen zu blockieren (Gegnerverlust: 3+ Punkte) schafft Nettovorteil von 2+ Punkten trotz individuell suboptimal erscheinend. Wettkampf-Catan erfordert relative Wertberechnungen.",
+          nl: "In nul-som spellen telt relatieve score meer dan absolute. Een 6-pip nederzetting bouwen (persoonlijke winst: 1 punt + 6 pips) om tegenstander toegang tot 12-pip plek met haven te blokkeren (tegenstander verlies: 3+ punten) creëert netto voordeel van 2+ punten ondanks individueel suboptimaal lijkend. Competitief Catan vereist relatieve waarde berekeningen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'monopoly card expected value' formula?",
+          es: "¿Qué es la fórmula de 'valor esperado de la carta de monopolio'?",
+          de: "Was ist die 'Monopolkarten-Erwartungswert'-Formel?",
+          nl: "Wat is de 'monopolie kaart verwachte waarde' formule?"
+        },
+        options: [
+          { en: "Sum(opponent visible production - spending) for target resource across all players", es: "Suma(producción visible del oponente - gasto) para el recurso objetivo en todos los jugadores", de: "Summe(sichtbare Gegnerproduktion - Ausgaben) für Zielressource über alle Spieler", nl: "Som(tegenstander zichtbare productie - uitgaven) voor doelbron over alle spelers" },
+          { en: "Monopoly cards always yield exactly 3 resources", es: "Las cartas de monopolio siempre producen exactamente 3 recursos", de: "Monopolkarten erbringen immer exakt 3 Ressourcen", nl: "Monopoliekaarten leveren altijd precies 3 bronnen op" },
+          { en: "Random guess of opponent holdings", es: "Suposición aleatoria de las tenencias del oponente", de: "Zufällige Schätzung der Gegnerbestände", nl: "Willekeurige gok van tegenstander bezittingen" },
+          { en: "Monopoly value cannot be calculated", es: "El valor del monopolio no puede calcularse", de: "Monopolwert kann nicht berechnet werden", nl: "Monopolie waarde kan niet berekend worden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Expert monopoly timing requires calculating expected yield: for each opponent, track their production on target resource's hexes (visible settlements/cities × rolls since last 7) minus observed spending (buildings, trades). Summing across opponents gives expected monopoly haul. Play when expected yield exceeds 5-6 cards for maximum efficiency.",
+          es: "El tiempo experto del monopolio requiere calcular el rendimiento esperado: para cada oponente, rastrear su producción en los hexágonos del recurso objetivo (asentamientos/ciudades visibles × tiradas desde el último 7) menos el gasto observado (edificios, intercambios). Sumar en todos los oponentes da la captura esperada del monopolio. Jugar cuando el rendimiento esperado excede 5-6 cartas para máxima eficiencia.",
+          de: "Experten-Monopol-Timing erfordert Berechnung erwarteter Ausbeute: für jeden Gegner Produktion auf Zielressourcen-Hexen verfolgen (sichtbare Siedlungen/Städte × Würfe seit letzter 7) minus beobachtete Ausgaben (Gebäude, Handel). Summieren über Gegner gibt erwartete Monopol-Ausbeute. Spielen wenn erwartete Ausbeute 5-6 Karten überschreitet für maximale Effizienz.",
+          nl: "Expert monopolie timing vereist berekening verwachte opbrengst: voor elke tegenstander productie volgen op doelbron hexen (zichtbare nederzettingen/steden × worpen sinds laatste 7) minus geobserveerde uitgaven (gebouwen, handel). Sommeren over tegenstanders geeft verwachte monopolie vangst. Speel wanneer verwachte opbrengst 5-6 kaarten overschrijdt voor maximale efficiëntie."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'settlement saturation point' in competitive games?",
+          es: "¿Qué es el 'punto de saturación de asentamiento' en juegos competitivos?",
+          de: "Was ist der 'Siedlungssättigungspunkt' in Wettkampfspielen?",
+          nl: "Wat is het 'nederzetting verzadigingspunt' in competitieve spellen?"
+        },
+        options: [
+          { en: "Around turn 18-22 when ~75% of viable settlement spots are claimed in 4-player", es: "Alrededor del turno 18-22 cuando ~75% de los lugares viables de asentamiento están reclamados en 4 jugadores", de: "Um Zug 18-22 wenn ~75% der brauchbaren Siedlungsplätze in 4-Spieler beansprucht sind", nl: "Rond beurt 18-22 wanneer ~75% van leefbare nederzettingsplekken geclaimd zijn in 4-speler" },
+          { en: "Turn 5 when initial placements complete", es: "Turno 5 cuando se completan las colocaciones iniciales", de: "Zug 5 wenn Anfangsplatzierungen abgeschlossen", nl: "Beurt 5 wanneer initiële plaatsingen compleet" },
+          { en: "Never reached in typical games", es: "Nunca alcanzado en juegos típicos", de: "In typischen Spielen nie erreicht", nl: "Nooit bereikt in typische spellen" },
+          { en: "Turn 50+ only in extended games", es: "Solo turno 50+ en juegos extendidos", de: "Nur Zug 50+ in verlängerten Spielen", nl: "Alleen beurt 50+ in verlengde spellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Settlement saturation occurs around turn 18-22 in 4-player games when most high-value spots (8+ pips) are claimed and remaining locations are marginal. This creates strategic inflection point: players must shift from expansion focus to city upgrades and development cards, as further settlements yield diminishing returns. Recognizing saturation timing is critical.",
+          es: "La saturación de asentamientos ocurre alrededor del turno 18-22 en juegos de 4 jugadores cuando la mayoría de los lugares de alto valor (8+ pips) están reclamados y las ubicaciones restantes son marginales. Esto crea punto de inflexión estratégico: los jugadores deben cambiar del enfoque de expansión a mejoras de ciudad y cartas de desarrollo, ya que los asentamientos adicionales producen rendimientos decrecientes. Reconocer el tiempo de saturación es crítico.",
+          de: "Siedlungssättigung tritt um Zug 18-22 in 4-Spieler-Spielen auf, wenn die meisten hochwertigen Plätze (8+ Pips) beansprucht sind und verbleibende Standorte marginal sind. Dies schafft strategischen Wendepunkt: Spieler müssen von Expansionsfokus zu Stadtaufwertungen und Entwicklungskarten wechseln, da weitere Siedlungen abnehmende Erträge bringen. Erkennung des Sättigungstimings ist kritisch.",
+          nl: "Nederzetting verzadiging treedt op rond beurt 18-22 in 4-speler spellen wanneer de meeste hoge-waarde plekken (8+ pips) geclaimd zijn en resterende locaties marginaal zijn. Dit creëert strategisch keerpunt: spelers moeten verschuiven van expansie focus naar stadsupgrades en ontwikkelingskaarten, omdat verdere nederzettingen afnemende opbrengsten opleveren. Herkenning van verzadigingstiming is kritiek."
+        }
+      },
+      {
+        question: {
+          en: "What defines the 'anti-leader coalition timing' in multi-player dynamics?",
+          es: "¿Qué define el 'tiempo de coalición anti-líder' en las dinámicas multijugador?",
+          de: "Was definiert das 'Anti-Führer-Koalitions-Timing' in Mehrspieler-Dynamiken?",
+          nl: "Wat definieert de 'anti-leider coalitie timing' in multiplayer dynamica?"
+        },
+        options: [
+          { en: "Form when leader reaches 7 points and 2nd place within 2 points; dissolve at 2-point gap closure", es: "Formar cuando el líder alcanza 7 puntos y el 2° lugar está dentro de 2 puntos; disolver al cierre de brecha de 2 puntos", de: "Bilden wenn Führer 7 Punkte erreicht und 2. Platz innerhalb 2 Punkte; auflösen bei 2-Punkte-Lücke-Schließung", nl: "Vorm wanneer leider 7 punten bereikt en 2e plaats binnen 2 punten; ontbinden bij 2-punten kloof sluiting" },
+          { en: "Always cooperate with leader throughout game", es: "Siempre cooperar con el líder durante todo el juego", de: "Immer mit Führer während des gesamten Spiels kooperieren", nl: "Altijd samenwerken met leider gedurende spel" },
+          { en: "Form coalitions only in final turn", es: "Formar coaliciones solo en el turno final", de: "Koalitionen nur im letzten Zug bilden", nl: "Vorm coalities alleen in laatste beurt" },
+          { en: "Coalitions prohibited in competitive play", es: "Las coaliciones están prohibidas en el juego competitivo", de: "Koalitionen im Wettkampfspiel verboten", nl: "Coalities verboden in competitief spel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Anti-leader coalitions form optimally when: (1) leader reaches 7 points, making victory plausible, AND (2) second-place stays within 2 points, maintaining coalition incentive. When the gap closes to <2 points, second-place shifts from 'block leader' to 'win myself,' fracturing cooperation. This 7-point/2-point threshold defines coalition game theory.",
+          es: "Las coaliciones anti-líder se forman óptimamente cuando: (1) el líder alcanza 7 puntos, haciendo la victoria plausible, Y (2) el segundo lugar se mantiene dentro de 2 puntos, manteniendo el incentivo de coalición. Cuando la brecha se cierra a <2 puntos, el segundo lugar cambia de 'bloquear líder' a 'ganar yo mismo', fracturando la cooperación. Este umbral de 7 puntos/2 puntos define la teoría de juegos de coalición.",
+          de: "Anti-Führer-Koalitionen bilden sich optimal wenn: (1) Führer 7 Punkte erreicht, was Sieg plausibel macht, UND (2) Zweitplatzierter innerhalb 2 Punkte bleibt, was Koalitionsanreiz aufrechterhält. Wenn Lücke auf <2 Punkte schließt, wechselt Zweitplatzierter von 'Führer blockieren' zu 'selbst gewinnen', bricht Kooperation. Diese 7-Punkte/2-Punkte-Schwelle definiert Koalitions-Spieltheorie.",
+          nl: "Anti-leider coalities vormen optimaal wanneer: (1) leider 7 punten bereikt, wat overwinning plausibel maakt, EN (2) tweede plaats binnen 2 punten blijft, coalitie incentive behoudend. Wanneer kloof sluit naar <2 punten, verschuift tweede plaats van 'blokkeer leider' naar 'win zelf', breekt samenwerking. Deze 7-punten/2-punten drempel definieert coalitie speltheorie."
+        }
       }
     ]
   };

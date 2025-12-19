@@ -427,6 +427,426 @@
           de: "Rennen tritt auf wenn Kontakt gebrochen wurde - alle Steine sind aneinander vorbei so dass keine Möglichkeit des Schlagens besteht. Das Spiel wird zu einem reinen Rennen um zuerst auszuwürfeln, wobei die Pip-Zählung der Hauptfaktor ist der bestimmt wer vorne liegt.",
           nl: "Racen vindt plaats wanneer contact is verbroken - alle stenen zijn elkaar gepasseerd dus er is geen mogelijkheid tot raken. Het spel wordt een pure race om eerst uit te gooien, waarbij pip count de belangrijkste bepalende factor is voor wie voorligt."
         }
+      },
+      {
+        question: {
+          en: "What is 'redoubling' in backgammon?",
+          es: "¿Qué es 'redoblaje' en backgammon?",
+          de: "Was ist 'Wiederverdoppeln' im Backgammon?",
+          nl: "Wat is 'herverdubbelen' in backgammon?"
+        },
+        options: [
+          { en: "When the player who accepted a double offers the cube back", es: "Cuando el jugador que aceptó un doble ofrece el cubo de vuelta", de: "Wenn der Spieler der eine Verdopplung akzeptiert hat den Würfel zurück anbietet", nl: "Wanneer de speler die een verdubbeling accepteerde de dobbelsteen terug aanbiedt" },
+          { en: "Doubling twice in one game", es: "Doblar dos veces en un juego", de: "Zweimal in einem Spiel verdoppeln", nl: "Twee keer verdubbelen in één spel" },
+          { en: "Rolling doubles again", es: "Sacar dobles de nuevo", de: "Erneut Pasch würfeln", nl: "Opnieuw dubbel gooien" },
+          { en: "Restarting with double stakes", es: "Reiniciar con doble apuesta", de: "Neustart mit doppelten Einsätzen", nl: "Herstarten met dubbele inzet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "After accepting a double, cube ownership transfers to you. As owner, you have the exclusive right to redouble (offer the cube back at twice the current value). This creates a strategic power shift.",
+          es: "Después de aceptar un doble, la propiedad del cubo se transfiere a ti. Como propietario, tienes el derecho exclusivo de redoblar (ofrecer el cubo de vuelta al doble del valor actual). Esto crea un cambio de poder estratégico.",
+          de: "Nach dem Akzeptieren einer Verdopplung geht der Würfelbesitz auf Sie über. Als Besitzer haben Sie das ausschließliche Recht wiederzuverdoppeln (den Würfel zum doppelten aktuellen Wert zurückzubieten). Dies schafft eine strategische Machtverschiebung.",
+          nl: "Na het accepteren van een verdubbeling gaat het dobbelsteenbezit over naar jou. Als eigenaar heb je het exclusieve recht om te herverdubbelen (de dobbelsteen terug aan te bieden tegen tweemaal de huidige waarde). Dit creëert een strategische machtsverschuiving."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'builder' in backgammon strategy?",
+          es: "¿Qué es un 'constructor' en estrategia de backgammon?",
+          de: "Was ist ein 'Baustein' in der Backgammon-Strategie?",
+          nl: "Wat is een 'bouwer' in backgammon strategie?"
+        },
+        options: [
+          { en: "A spare checker positioned to make new points", es: "Una ficha extra posicionada para hacer nuevos puntos", de: "Ein zusätzlicher Stein positioniert um neue Punkte zu machen", nl: "Een reserve steen gepositioneerd om nieuwe punten te maken" },
+          { en: "Player who creates strategy", es: "Jugador que crea estrategia", de: "Spieler der Strategie entwickelt", nl: "Speler die strategie creëert" },
+          { en: "First checker on a point", es: "Primera ficha en un punto", de: "Erster Stein auf einem Punkt", nl: "Eerste steen op een punt" },
+          { en: "Strongest piece", es: "Pieza más fuerte", de: "Stärkstes Stück", nl: "Sterkste stuk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A builder is a spare checker positioned strategically (often on the midpoint or in the outer board) that can be used to make points on good rolls. Good builders provide flexibility and point-making potential.",
+          es: "Un constructor es una ficha extra posicionada estratégicamente (a menudo en el punto medio o en el tablero exterior) que puede usarse para hacer puntos en buenas tiradas. Buenos constructores proporcionan flexibilidad y potencial para hacer puntos.",
+          de: "Ein Baustein ist ein zusätzlicher Stein der strategisch positioniert ist (oft auf dem Mittelpunkt oder im äußeren Brett) und verwendet werden kann um bei guten Würfen Punkte zu machen. Gute Bausteine bieten Flexibilität und Punktemach-Potenzial.",
+          nl: "Een bouwer is een reserve steen strategisch gepositioneerd (vaak op het middenpunt of in het buitenbord) die kan worden gebruikt om punten te maken bij goede worpen. Goede bouwers bieden flexibiliteit en punt-maak potentieel."
+        }
+      },
+      {
+        question: {
+          en: "What is 'timing' in backgammon?",
+          es: "¿Qué es 'timing' en backgammon?",
+          de: "Was ist 'Timing' im Backgammon?",
+          nl: "Wat is 'timing' in backgammon?"
+        },
+        options: [
+          { en: "Having enough spare checkers to wait without breaking key points", es: "Tener suficientes fichas extras para esperar sin romper puntos clave", de: "Genug zusätzliche Steine haben um zu warten ohne Schlüsselpunkte zu brechen", nl: "Genoeg reserve stenen hebben om te wachten zonder sleutelpunten te breken" },
+          { en: "Speed of play", es: "Velocidad de juego", de: "Spielgeschwindigkeit", nl: "Spelsnelheid" },
+          { en: "Clock management", es: "Gestión del reloj", de: "Uhrverwaltung", nl: "Klokbeheer" },
+          { en: "Move order", es: "Orden de movimiento", de: "Zugreihenfolge", nl: "Zetvolgorde" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Timing refers to having enough spare checkers (depth) so you can wait for favorable rolls without being forced to break important points prematurely. Good timing is crucial in holding games and priming games.",
+          es: "Timing se refiere a tener suficientes fichas extras (profundidad) para que puedas esperar tiradas favorables sin verte obligado a romper puntos importantes prematuramente. Buen timing es crucial en juegos de retención y juegos de prime.",
+          de: "Timing bezieht sich darauf genug zusätzliche Steine (Tiefe) zu haben damit Sie auf günstige Würfe warten können ohne gezwungen zu werden wichtige Punkte vorzeitig zu brechen. Gutes Timing ist entscheidend in Haltespielen und Primingspielen.",
+          nl: "Timing verwijst naar het hebben van genoeg reserve stenen (diepte) zodat je kunt wachten op gunstige worpen zonder gedwongen te worden belangrijke punten voortijdig te breken. Goede timing is cruciaal in vasthoudspellen en prime spellen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'back game' in backgammon?",
+          es: "¿Qué es un 'juego trasero' en backgammon?",
+          de: "Was ist ein 'Rückspiel' im Backgammon?",
+          nl: "Wat is een 'achterspel' in backgammon?"
+        },
+        options: [
+          { en: "Strategy of holding two or more anchors in opponent's home board", es: "Estrategia de mantener dos o más anclas en el tablero de casa del oponente", de: "Strategie zwei oder mehr Anker im Home Board des Gegners zu halten", nl: "Strategie om twee of meer ankers te houden in het thuisbord van tegenstander" },
+          { en: "Playing defensively", es: "Jugar defensivamente", de: "Defensiv spielen", nl: "Defensief spelen" },
+          { en: "Reversing direction", es: "Invertir dirección", de: "Richtung umkehren", nl: "Richting omkeren" },
+          { en: "Trailing in score", es: "Ir perdiendo en puntuación", de: "Im Punktestand zurückliegen", nl: "Achterliggen in score" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A back game is a strategic position where you deliberately hold two or more anchors (usually low anchors like the 1, 2, or 3-points) in your opponent's home board while waiting for them to leave shots as they bear off.",
+          es: "Un juego trasero es una posición estratégica donde deliberadamente mantienes dos o más anclas (usualmente anclas bajas como los puntos 1, 2 o 3) en el tablero de casa de tu oponente mientras esperas que dejen tiros mientras sacan.",
+          de: "Ein Rückspiel ist eine strategische Position bei der Sie absichtlich zwei oder mehr Anker (normalerweise niedrige Anker wie die 1-, 2- oder 3-Punkte) im Home Board Ihres Gegners halten während Sie warten dass sie Blots hinterlassen beim Auswürfeln.",
+          nl: "Een achterspel is een strategische positie waarbij je opzettelijk twee of meer ankers (meestal lage ankers zoals de 1, 2 of 3-punten) houdt in het thuisbord van je tegenstander terwijl je wacht tot ze shots achterlaten terwijl ze uitgooien."
+        }
+      },
+      {
+        question: {
+          en: "What does 'owning the cube' mean in backgammon?",
+          es: "¿Qué significa 'poseer el cubo' en backgammon?",
+          de: "Was bedeutet 'den Würfel besitzen' im Backgammon?",
+          nl: "Wat betekent 'de dobbelsteen bezitten' in backgammon?"
+        },
+        options: [
+          { en: "Having exclusive right to offer the next double", es: "Tener el derecho exclusivo de ofrecer el siguiente doble", de: "Das ausschließliche Recht haben die nächste Verdopplung anzubieten", nl: "Het exclusieve recht hebben om de volgende verdubbeling aan te bieden" },
+          { en: "Holding the physical cube", es: "Sostener el cubo físico", de: "Den physischen Würfel halten", nl: "De fysieke dobbelsteen vasthouden" },
+          { en: "Winning the match", es: "Ganar el match", de: "Das Match gewinnen", nl: "De wedstrijd winnen" },
+          { en: "Controlling the board", es: "Controlar el tablero", de: "Das Brett kontrollieren", nl: "Het bord controleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Owning the cube means you control the doubling cube and have the exclusive right to offer the next double. Initially, both players can double (centered cube), but once accepted, only the acceptor owns the cube.",
+          es: "Poseer el cubo significa que controlas el cubo de doblaje y tienes el derecho exclusivo de ofrecer el siguiente doble. Inicialmente, ambos jugadores pueden doblar (cubo centrado), pero una vez aceptado, solo el aceptor posee el cubo.",
+          de: "Den Würfel zu besitzen bedeutet Sie kontrollieren den Dopplungswürfel und haben das ausschließliche Recht die nächste Verdopplung anzubieten. Anfangs können beide Spieler verdoppeln (zentrierter Würfel), aber nach Akzeptierung besitzt nur der Akzeptierende den Würfel.",
+          nl: "De dobbelsteen bezitten betekent dat je de verdubbeldob controleert en het exclusieve recht hebt om de volgende verdubbeling aan te bieden. Aanvankelijk kunnen beide spelers verdubbelen (gecentreerde dobbelsteen), maar eenmaal geaccepteerd bezit alleen de accepteerder de dobbelsteen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'slotting' in backgammon?",
+          es: "¿Qué es 'slotting' en backgammon?",
+          de: "Was ist 'Slotten' im Backgammon?",
+          nl: "Wat is 'slotten' in backgammon?"
+        },
+        options: [
+          { en: "Intentionally placing a single checker on a key point hoping to cover it later", es: "Colocar intencionalmente una sola ficha en un punto clave esperando cubrirla después", de: "Absichtlich einen einzelnen Stein auf einen Schlüsselpunkt setzen in der Hoffnung ihn später zu decken", nl: "Opzettelijk een enkele steen plaatsen op een sleutelpunt in de hoop hem later te dekken" },
+          { en: "Fitting checkers together", es: "Encajar fichas juntas", de: "Steine zusammenfügen", nl: "Stenen samenpassen" },
+          { en: "Creating empty spaces", es: "Crear espacios vacíos", de: "Leere Räume schaffen", nl: "Lege ruimtes creëren" },
+          { en: "Organizing checkers", es: "Organizar fichas", de: "Steine organisieren", nl: "Stenen organiseren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Slotting is deliberately placing a single blot on a valuable point (especially the 5-point or bar-point) early in the game, accepting the risk of being hit in exchange for the chance to make that point on the next roll.",
+          es: "Slotting es colocar deliberadamente un blot individual en un punto valioso (especialmente el punto 5 o punto de barra) temprano en el juego, aceptando el riesgo de ser golpeado a cambio de la oportunidad de hacer ese punto en la siguiente tirada.",
+          de: "Slotten ist das absichtliche Setzen eines einzelnen Blots auf einen wertvollen Punkt (besonders der 5-Punkt oder Bar-Punkt) früh im Spiel, wobei das Risiko geschlagen zu werden akzeptiert wird im Austausch für die Chance diesen Punkt beim nächsten Wurf zu machen.",
+          nl: "Slotten is opzettelijk een enkele blot plaatsen op een waardevol punt (vooral het 5-punt of bar-punt) vroeg in het spel, waarbij het risico om geraakt te worden wordt geaccepteerd in ruil voor de kans om dat punt bij de volgende worp te maken."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'gammon' in backgammon?",
+          es: "¿Qué es un 'gammon' en backgammon?",
+          de: "Was ist ein 'Gammon' im Backgammon?",
+          nl: "Wat is een 'gammon' in backgammon?"
+        },
+        options: [
+          { en: "Winning when opponent hasn't borne off any checkers", es: "Ganar cuando el oponente no ha sacado ninguna ficha", de: "Gewinnen wenn Gegner keine Steine ausgewürfelt hat", nl: "Winnen wanneer tegenstander geen stenen heeft uitgegooid" },
+          { en: "Type of dice roll", es: "Tipo de tirada de dados", de: "Art von Würfelwurf", nl: "Type dobbelsteenworp" },
+          { en: "Defensive position", es: "Posición defensiva", de: "Defensive Position", nl: "Defensieve positie" },
+          { en: "Board section", es: "Sección del tablero", de: "Brettabschnitt", nl: "Bordsectie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A gammon is worth double the cube value. You win a gammon by bearing off all your checkers before your opponent bears off any. It's less valuable than a backgammon but worth twice a normal win.",
+          es: "Un gammon vale el doble del valor del cubo. Ganas un gammon sacando todas tus fichas antes de que tu oponente saque alguna. Es menos valioso que un backgammon pero vale el doble de una victoria normal.",
+          de: "Ein Gammon ist das Doppelte des Würfelwerts wert. Sie gewinnen ein Gammon indem Sie alle Ihre Steine auswürfeln bevor Ihr Gegner welche auswürfelt. Es ist weniger wertvoll als ein Backgammon aber das Doppelte eines normalen Siegs wert.",
+          nl: "Een gammon is dubbel de dobbelsteenwaarde waard. Je wint een gammon door al je stenen uit te gooien voordat je tegenstander er een uitgooit. Het is minder waardevol dan een backgammon maar dubbel een normale overwinning waard."
+        }
+      },
+      {
+        question: {
+          en: "What is 'match play' versus 'money play' in backgammon?",
+          es: "¿Qué es 'juego de match' versus 'juego de dinero' en backgammon?",
+          de: "Was ist 'Match-Spiel' versus 'Geld-Spiel' im Backgammon?",
+          nl: "Wat is 'wedstrijdspel' versus 'geldspel' in backgammon?"
+        },
+        options: [
+          { en: "Match play is to a set number of points; money play is each game for stakes", es: "Juego de match es a un número fijo de puntos; juego de dinero es cada juego por apuestas", de: "Match-Spiel ist bis zu einer festgelegten Punktzahl; Geld-Spiel ist jedes Spiel um Einsätze", nl: "Wedstrijdspel is tot een vast aantal punten; geldspel is elk spel voor inzet" },
+          { en: "Match play is free; money play costs", es: "Juego de match es gratis; juego de dinero cuesta", de: "Match-Spiel ist kostenlos; Geld-Spiel kostet", nl: "Wedstrijdspel is gratis; geldspel kost" },
+          { en: "Professional versus amateur", es: "Profesional versus amateur", de: "Professionell versus Amateur", nl: "Professioneel versus amateur" },
+          { en: "Tournament versus casual", es: "Torneo versus casual", de: "Turnier versus Gelegenheit", nl: "Toernooi versus informeel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Match play is to a predetermined number of points (e.g., first to 7 wins). Money play treats each game independently with stakes per point. The strategies differ significantly - match equity matters in match play but not money play.",
+          es: "El juego de match es a un número predeterminado de puntos (ej., primero a 7 gana). El juego de dinero trata cada juego independientemente con apuestas por punto. Las estrategias difieren significativamente - match equity importa en juego de match pero no en juego de dinero.",
+          de: "Match-Spiel ist bis zu einer vorbestimmten Punktzahl (z.B. erster zu 7 gewinnt). Geld-Spiel behandelt jedes Spiel unabhängig mit Einsätzen pro Punkt. Die Strategien unterscheiden sich erheblich - Match-Equity ist wichtig im Match-Spiel aber nicht im Geld-Spiel.",
+          nl: "Wedstrijdspel is tot een vooraf bepaald aantal punten (bijv. eerste tot 7 wint). Geldspel behandelt elk spel onafhankelijk met inzet per punt. De strategieën verschillen aanzienlijk - wedstrijd equity is belangrijk in wedstrijdspel maar niet in geldspel."
+        }
+      },
+      {
+        question: {
+          en: "What does 'escaping' mean in backgammon?",
+          es: "¿Qué significa 'escapar' en backgammon?",
+          de: "Was bedeutet 'Entkommen' im Backgammon?",
+          nl: "Wat betekent 'ontsnappen' in backgammon?"
+        },
+        options: [
+          { en: "Moving back checkers out of opponent's home board", es: "Mover fichas traseras fuera del tablero de casa del oponente", de: "Hintere Steine aus dem Home Board des Gegners bewegen", nl: "Achterste stenen uit het thuisbord van tegenstander bewegen" },
+          { en: "Avoiding being hit", es: "Evitar ser golpeado", de: "Vermeiden geschlagen zu werden", nl: "Vermijden geraakt te worden" },
+          { en: "Leaving the game", es: "Salir del juego", de: "Das Spiel verlassen", nl: "Het spel verlaten" },
+          { en: "Quick bearing off", es: "Sacar rápido", de: "Schnelles Auswürfeln", nl: "Snel uitgooien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Escaping means successfully moving your back checkers (those in your opponent's home board or outer board) forward past your opponent's blockade and toward your home board. The race often depends on successful escape.",
+          es: "Escapar significa mover exitosamente tus fichas traseras (aquellas en el tablero de casa u exterior de tu oponente) hacia adelante pasando el bloqueo de tu oponente y hacia tu tablero de casa. La carrera a menudo depende de un escape exitoso.",
+          de: "Entkommen bedeutet Ihre hinteren Steine (jene im Home Board oder äußeren Brett Ihres Gegners) erfolgreich vorwärts an der Blockade Ihres Gegners vorbei und in Richtung Ihres Home Boards zu bewegen. Das Rennen hängt oft von erfolgreichem Entkommen ab.",
+          nl: "Ontsnappen betekent succesvol je achterste stenen (die in het thuisbord of buitenbord van je tegenstander) vooruit bewegen voorbij de blokkade van je tegenstander en richting je thuisbord. De race hangt vaak af van succesvolle ontsnapping."
+        }
+      },
+      {
+        question: {
+          en: "What is 'splitting' in backgammon?",
+          es: "¿Qué es 'dividir' en backgammon?",
+          de: "Was ist 'Splitten' im Backgammon?",
+          nl: "Wat is 'splitsen' in backgammon?"
+        },
+        options: [
+          { en: "Separating your two back checkers from the opponent's 1-point", es: "Separar tus dos fichas traseras del punto 1 del oponente", de: "Ihre zwei hinteren Steine vom 1-Punkt des Gegners trennen", nl: "Je twee achterste stenen scheiden van het 1-punt van tegenstander" },
+          { en: "Dividing stakes", es: "Dividir apuestas", de: "Einsätze teilen", nl: "Inzet verdelen" },
+          { en: "Breaking points apart", es: "Romper puntos", de: "Punkte auseinander brechen", nl: "Punten uit elkaar breken" },
+          { en: "Two-player strategy", es: "Estrategia de dos jugadores", de: "Zwei-Spieler-Strategie", nl: "Twee-speler strategie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Splitting is moving one of your two back checkers (usually starting on your opponent's 1-point/your 24-point) forward, often to make an anchor on a better point like the opponent's 4 or 5-point, though it creates temporary blots.",
+          es: "Dividir es mover una de tus dos fichas traseras (usualmente comenzando en el punto 1 de tu oponente/tu punto 24) hacia adelante, a menudo para hacer un ancla en un punto mejor como el punto 4 o 5 del oponente, aunque crea blots temporales.",
+          de: "Splitten ist das Bewegen eines Ihrer zwei hinteren Steine (normalerweise beginnend auf dem 1-Punkt Ihres Gegners/Ihrem 24-Punkt) vorwärts, oft um einen Anker auf einem besseren Punkt wie dem 4- oder 5-Punkt des Gegners zu machen, obwohl es temporäre Blots schafft.",
+          nl: "Splitsen is het bewegen van een van je twee achterste stenen (meestal beginnend op het 1-punt van je tegenstander/je 24-punt) vooruit, vaak om een anker te maken op een beter punt zoals het 4 of 5-punt van de tegenstander, hoewel het tijdelijke blots creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'duplication' in backgammon?",
+          es: "¿Qué es 'duplicación' en backgammon?",
+          de: "Was ist 'Duplikation' im Backgammon?",
+          nl: "Wat is 'duplicatie' in backgammon?"
+        },
+        options: [
+          { en: "Positioning so opponent needs the same number for multiple purposes", es: "Posicionar para que el oponente necesite el mismo número para múltiples propósitos", de: "So positionieren dass Gegner dieselbe Zahl für mehrere Zwecke braucht", nl: "Zo positioneren dat tegenstander hetzelfde getal nodig heeft voor meerdere doeleinden" },
+          { en: "Having two of same piece", es: "Tener dos de la misma pieza", de: "Zwei gleiche Steine haben", nl: "Twee dezelfde stukken hebben" },
+          { en: "Copying opponent moves", es: "Copiar movimientos del oponente", de: "Gegnerzüge kopieren", nl: "Tegenstander zetten kopiëren" },
+          { en: "Doubling the cube", es: "Doblar el cubo", de: "Den Würfel verdoppeln", nl: "De dobbelsteen verdubbelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Duplication is positioning your blots so your opponent needs the same dice number to hit both, or needs a number both to hit you and to cover their own blots, reducing their effective good rolls.",
+          es: "La duplicación es posicionar tus blots para que tu oponente necesite el mismo número de dados para golpear ambos, o necesite un número tanto para golpearte como para cubrir sus propios blots, reduciendo sus tiradas buenas efectivas.",
+          de: "Duplikation ist das Positionieren Ihrer Blots so dass Ihr Gegner dieselbe Würfelzahl braucht um beide zu schlagen, oder eine Zahl sowohl zum Schlagen als auch zum Decken ihrer eigenen Blots braucht, wodurch ihre effektiv guten Würfe reduziert werden.",
+          nl: "Duplicatie is het positioneren van je blots zodat je tegenstander hetzelfde dobbelsteengetal nodig heeft om beide te raken, of een getal nodig heeft om zowel jou te raken als hun eigen blots te dekken, waardoor hun effectief goede worpen worden verminderd."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Jacoby rule' in backgammon?",
+          es: "¿Qué es la 'regla Jacoby' en backgammon?",
+          de: "Was ist die 'Jacoby-Regel' im Backgammon?",
+          nl: "Wat is de 'Jacoby regel' in backgammon?"
+        },
+        options: [
+          { en: "Gammons and backgammons don't count unless cube has been turned", es: "Gammons y backgammons no cuentan a menos que se haya girado el cubo", de: "Gammons und Backgammons zählen nicht wenn der Würfel nicht gedreht wurde", nl: "Gammons en backgammons tellen niet tenzij dobbelsteen is gedraaid" },
+          { en: "Opening move rules", es: "Reglas de movimiento de apertura", de: "Eröffnungszugregeln", nl: "Openingszet regels" },
+          { en: "Bearing off restrictions", es: "Restricciones de sacar", de: "Auswürfel-Einschränkungen", nl: "Uitgooi beperkingen" },
+          { en: "Tournament seating", es: "Asientos de torneo", de: "Turnier-Sitzordnung", nl: "Toernooi plaatsing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Jacoby rule (used in money games, never match play) states that gammons and backgammons only count for their extra value if either player has offered a double during the game. Without a double, all wins count as single games.",
+          es: "La regla Jacoby (usada en juegos de dinero, nunca juego de match) establece que gammons y backgammons solo cuentan por su valor extra si algún jugador ha ofrecido un doble durante el juego. Sin un doble, todas las victorias cuentan como juegos simples.",
+          de: "Die Jacoby-Regel (verwendet in Geldspielen, nie Match-Spiel) besagt dass Gammons und Backgammons nur für ihren Extrawert zählen wenn ein Spieler während des Spiels verdoppelt hat. Ohne Verdopplung zählen alle Siege als Einzelspiele.",
+          nl: "De Jacoby regel (gebruikt in geldspellen, nooit wedstrijdspel) stelt dat gammons en backgammons alleen tellen voor hun extra waarde als een van beide spelers een verdubbeling heeft aangeboden tijdens het spel. Zonder verdubbeling tellen alle overwinningen als enkele spellen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'joker' in backgammon?",
+          es: "¿Qué es un 'joker' en backgammon?",
+          de: "Was ist ein 'Joker' im Backgammon?",
+          nl: "Wat is een 'joker' in backgammon?"
+        },
+        options: [
+          { en: "An unexpectedly fortunate roll that changes the game dramatically", es: "Una tirada inesperadamente afortunada que cambia el juego drásticamente", de: "Ein unerwartet glücklicher Wurf der das Spiel dramatisch verändert", nl: "Een onverwacht gelukkige worp die het spel dramatisch verandert" },
+          { en: "Wild card piece", es: "Pieza comodín", de: "Joker-Stein", nl: "Joker stuk" },
+          { en: "Funny player", es: "Jugador gracioso", de: "Lustiger Spieler", nl: "Grappige speler" },
+          { en: "Optional rule", es: "Regla opcional", de: "Optionale Regel", nl: "Optionele regel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A joker is a lucky roll that dramatically changes a game's outcome against the odds - like hitting a 36-to-1 shot when otherwise losing, or rolling the only number that wins. The term reflects the swing of luck in backgammon.",
+          es: "Un joker es una tirada afortunada que cambia dramáticamente el resultado de un juego contra las probabilidades - como golpear un tiro de 36 a 1 cuando de otro modo estás perdiendo, o sacar el único número que gana. El término refleja el cambio de suerte en backgammon.",
+          de: "Ein Joker ist ein Glückswurf der das Spielergebnis dramatisch gegen die Chancen verändert - wie das Treffen eines 36-zu-1-Schusses wenn man sonst verliert, oder das Würfeln der einzigen Zahl die gewinnt. Der Begriff spiegelt den Glücksschwung im Backgammon wider.",
+          nl: "Een joker is een gelukkige worp die de uitkomst van een spel dramatisch verandert tegen de kansen in - zoals het raken van een 36-op-1 shot terwijl je anders aan het verliezen bent, of het gooien van het enige getal dat wint. De term weerspiegelt de geluksschommeling in backgammon."
+        }
+      },
+      {
+        question: {
+          en: "What does 'bearing in' mean in backgammon?",
+          es: "¿Qué significa 'llevar dentro' en backgammon?",
+          de: "Was bedeutet 'Einbringen' im Backgammon?",
+          nl: "Wat betekent 'binnenbrengen' in backgammon?"
+        },
+        options: [
+          { en: "Moving all your checkers into your home board before bearing off", es: "Mover todas tus fichas a tu tablero de casa antes de sacar", de: "Alle Ihre Steine in Ihr Home Board bewegen bevor Sie auswürfeln", nl: "Al je stenen naar je thuisbord bewegen voordat je uitgooit" },
+          { en: "Entering from the bar", es: "Entrar desde la barra", de: "Von der Bar eintreten", nl: "Binnenkomen van de bar" },
+          { en: "Starting the game", es: "Comenzar el juego", de: "Das Spiel beginnen", nl: "Het spel starten" },
+          { en: "Collecting checkers", es: "Recoger fichas", de: "Steine sammeln", nl: "Stenen verzamelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bearing in is the phase where you move all 15 checkers into your home board (the six points closest to bearing off). You cannot begin bearing off until all checkers are in your home board.",
+          es: "Llevar dentro es la fase donde mueves las 15 fichas a tu tablero de casa (los seis puntos más cercanos a sacar). No puedes comenzar a sacar hasta que todas las fichas estén en tu tablero de casa.",
+          de: "Einbringen ist die Phase in der Sie alle 15 Steine in Ihr Home Board bewegen (die sechs Punkte am nächsten zum Auswürfeln). Sie können nicht mit dem Auswürfeln beginnen bis alle Steine in Ihrem Home Board sind.",
+          nl: "Binnenbrengen is de fase waarin je alle 15 stenen naar je thuisbord beweegt (de zes punten het dichtst bij uitgooien). Je kunt niet beginnen met uitgooien totdat alle stenen in je thuisbord zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tempo' in backgammon strategy?",
+          es: "¿Qué es 'tempo' en estrategia de backgammon?",
+          de: "Was ist 'Tempo' in der Backgammon-Strategie?",
+          nl: "Wat is 'tempo' in backgammon strategie?"
+        },
+        options: [
+          { en: "The urgency to move checkers forward versus maintain position", es: "La urgencia de mover fichas hacia adelante versus mantener posición", de: "Die Dringlichkeit Steine vorwärts zu bewegen versus Position zu halten", nl: "De urgentie om stenen vooruit te bewegen versus positie behouden" },
+          { en: "Speed of play", es: "Velocidad de juego", de: "Spielgeschwindigkeit", nl: "Spelsnelheid" },
+          { en: "Turn order", es: "Orden de turno", de: "Zugreihenfolge", nl: "Beurtvolgorde" },
+          { en: "Music rhythm", es: "Ritmo musical", de: "Musikrhythmus", nl: "Muziekritme" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tempo refers to the pace of the game - whether you need to rush forward aggressively or can afford to wait and maintain your structure. Good timing gives you tempo control, bad timing forces rushed moves.",
+          es: "Tempo se refiere al ritmo del juego - si necesitas avanzar agresivamente o puedes permitirte esperar y mantener tu estructura. Buen timing te da control de tempo, mal timing obliga a movimientos apresurados.",
+          de: "Tempo bezieht sich auf das Tempo des Spiels - ob Sie aggressiv vorwärts eilen müssen oder es sich leisten können zu warten und Ihre Struktur zu bewahren. Gutes Timing gibt Ihnen Tempokontrolle, schlechtes Timing erzwingt überstürzte Züge.",
+          nl: "Tempo verwijst naar het tempo van het spel - of je agressief vooruit moet haasten of het je kunt veroorloven te wachten en je structuur te behouden. Goede timing geeft je tempo controle, slechte timing dwingt gehaaste zetten."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'reference position' in backgammon?",
+          es: "¿Qué es una 'posición de referencia' en backgammon?",
+          de: "Was ist eine 'Referenzposition' im Backgammon?",
+          nl: "Wat is een 'referentiepositie' in backgammon?"
+        },
+        options: [
+          { en: "A standard position used to evaluate cube decisions and strategy", es: "Una posición estándar usada para evaluar decisiones de cubo y estrategia", de: "Eine Standardposition zur Bewertung von Würfelentscheidungen und Strategie", nl: "Een standaardpositie gebruikt om dobbelsteenbeslissingen en strategie te evalueren" },
+          { en: "Starting setup", es: "Configuración inicial", de: "Anfangsaufstellung", nl: "Startopstelling" },
+          { en: "Endgame position", es: "Posición de final de juego", de: "Endspielposition", nl: "Eindspelpositie" },
+          { en: "Checkpoint in game", es: "Punto de control en juego", de: "Kontrollpunkt im Spiel", nl: "Controlepunt in spel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A reference position is a well-studied, standard position that serves as a benchmark for cube decisions. Players compare their current position to known reference positions to guide doubling and take/pass decisions.",
+          es: "Una posición de referencia es una posición estándar bien estudiada que sirve como punto de referencia para decisiones de cubo. Los jugadores comparan su posición actual con posiciones de referencia conocidas para guiar decisiones de doblar y aceptar/pasar.",
+          de: "Eine Referenzposition ist eine gut studierte Standardposition die als Maßstab für Würfelentscheidungen dient. Spieler vergleichen ihre aktuelle Position mit bekannten Referenzpositionen um Verdopplungs- und Nehmen/Passen-Entscheidungen zu leiten.",
+          nl: "Een referentiepositie is een goed bestudeerde standaardpositie die dient als benchmark voor dobbelsteenbeslissingen. Spelers vergelijken hun huidige positie met bekende referentieposities om verdubbel- en nemen/passen-beslissingen te leiden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'recirculation' in backgammon?",
+          es: "¿Qué es 'recirculación' en backgammon?",
+          de: "Was ist 'Rezirkulation' im Backgammon?",
+          nl: "Wat is 'hercirculatie' in backgammon?"
+        },
+        options: [
+          { en: "When hit checkers re-enter and get hit again before escaping", es: "Cuando fichas golpeadas vuelven a entrar y son golpeadas de nuevo antes de escapar", de: "Wenn geschlagene Steine wieder eintreten und erneut geschlagen werden bevor sie entkommen", nl: "Wanneer gerakte stenen opnieuw binnenkomen en opnieuw geraakt worden voordat ze ontsnappen" },
+          { en: "Rotating pieces", es: "Rotar piezas", de: "Steine rotieren", nl: "Stukken roteren" },
+          { en: "Reusing strategy", es: "Reusar estrategia", de: "Strategie wiederverwenden", nl: "Strategie hergebruiken" },
+          { en: "Multiple games", es: "Múltiples juegos", de: "Mehrere Spiele", nl: "Meerdere spellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Recirculation occurs in blitz or attacking positions where your opponent's checkers are hit, enter from the bar, but get hit again before they can escape, cycling through the bar multiple times and increasing gammon chances.",
+          es: "La recirculación ocurre en posiciones de blitz o ataque donde las fichas de tu oponente son golpeadas, entran desde la barra, pero son golpeadas de nuevo antes de poder escapar, ciclando por la barra múltiples veces y aumentando las posibilidades de gammon.",
+          de: "Rezirkulation tritt in Blitz- oder Angriffspositionen auf wo Steine des Gegners geschlagen werden, von der Bar eintreten, aber erneut geschlagen werden bevor sie entkommen können, mehrfach durch die Bar zyklieren und Gammon-Chancen erhöhen.",
+          nl: "Hercirculatie vindt plaats in blitz of aanvalposities waar stenen van je tegenstander worden geraakt, binnenkomen van de bar, maar opnieuw geraakt worden voordat ze kunnen ontsnappen, meerdere keren door de bar cycleren en gammon kansen verhogen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'volatility' in backgammon positions?",
+          es: "¿Qué es 'volatilidad' en posiciones de backgammon?",
+          de: "Was ist 'Volatilität' in Backgammon-Positionen?",
+          nl: "Wat is 'volatiliteit' in backgammon posities?"
+        },
+        options: [
+          { en: "How much the position can change with a single roll", es: "Cuánto puede cambiar la posición con una sola tirada", de: "Wie stark sich die Position mit einem einzelnen Wurf ändern kann", nl: "Hoeveel de positie kan veranderen met een enkele worp" },
+          { en: "Player mood swings", es: "Cambios de humor del jugador", de: "Spieler-Stimmungsschwankungen", nl: "Speler stemmingswisselingen" },
+          { en: "Unstable board", es: "Tablero inestable", de: "Instabiles Brett", nl: "Instabiel bord" },
+          { en: "Cube value changes", es: "Cambios de valor del cubo", de: "Würfelwert-Änderungen", nl: "Dobbelsteenwaarde veranderingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Volatility measures how dramatically a position can swing with one roll. High-contact positions with many blots are volatile; pure racing positions are less volatile. Volatility affects cube decisions - more volatile positions favor waiting.",
+          es: "La volatilidad mide cuán dramáticamente una posición puede cambiar con una tirada. Posiciones de alto contacto con muchos blots son volátiles; posiciones de carrera pura son menos volátiles. La volatilidad afecta decisiones de cubo - posiciones más volátiles favorecen esperar.",
+          de: "Volatilität misst wie dramatisch sich eine Position mit einem Wurf ändern kann. Hochkontakt-Positionen mit vielen Blots sind volatil; reine Rennpositionen sind weniger volatil. Volatilität beeinflusst Würfelentscheidungen - volatilere Positionen begünstigen Warten.",
+          nl: "Volatiliteit meet hoe dramatisch een positie kan veranderen met één worp. Hoog-contact posities met veel blots zijn volatiel; pure race posities zijn minder volatiel. Volatiliteit beïnvloedt dobbelsteenbeslissingen - meer volatiele posities geven voorkeur aan wachten."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'holding game' in backgammon?",
+          es: "¿Qué es un 'juego de retención' en backgammon?",
+          de: "Was ist ein 'Haltespiel' im Backgammon?",
+          nl: "Wat is een 'vasthoudspel' in backgammon?"
+        },
+        options: [
+          { en: "Maintaining a single anchor in opponent's board while racing with other checkers", es: "Mantener un ancla individual en el tablero del oponente mientras corres con otras fichas", de: "Einen einzelnen Anker im Brett des Gegners halten während mit anderen Steinen gerannt wird", nl: "Een enkel anker behouden in het bord van tegenstander terwijl je racet met andere stenen" },
+          { en: "Defensive play only", es: "Solo juego defensivo", de: "Nur defensives Spiel", nl: "Alleen defensief spel" },
+          { en: "Waiting for doubles", es: "Esperar dobles", de: "Auf Pasch warten", nl: "Wachten op dubbel" },
+          { en: "Keeping all points made", es: "Mantener todos los puntos hechos", de: "Alle gemachten Punkte behalten", nl: "Alle gemaakte punten behouden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A holding game involves keeping one strong anchor (often the 4 or 5-point) in your opponent's board while racing with your other checkers, hoping to get a late shot if your opponent leaves a blot while bearing in or off.",
+          es: "Un juego de retención implica mantener un ancla fuerte (a menudo el punto 4 o 5) en el tablero de tu oponente mientras corres con tus otras fichas, esperando obtener un tiro tardío si tu oponente deja un blot mientras lleva o saca.",
+          de: "Ein Haltespiel beinhaltet einen starken Anker (oft der 4- oder 5-Punkt) im Brett des Gegners zu behalten während mit Ihren anderen Steinen gerannt wird, in der Hoffnung auf einen späten Schuss wenn Ihr Gegner einen Blot beim Einbringen oder Auswürfeln hinterlässt.",
+          nl: "Een vasthoudspel houdt in dat je één sterk anker (vaak het 4 of 5-punt) houdt in het bord van je tegenstander terwijl je racet met je andere stenen, hopend op een late shot als je tegenstander een blot achterlaat tijdens binnenbrengen of uitgooien."
+        }
+      },
+      {
+        question: {
+          en: "What does 'crunch' mean in backgammon?",
+          es: "¿Qué significa 'crunch' en backgammon?",
+          de: "Was bedeutet 'Crunch' im Backgammon?",
+          nl: "Wat betekent 'crunch' in backgammon?"
+        },
+        options: [
+          { en: "Being forced to break important points due to lack of spare checkers", es: "Verse obligado a romper puntos importantes por falta de fichas extras", de: "Gezwungen sein wichtige Punkte zu brechen wegen fehlender zusätzlicher Steine", nl: "Gedwongen worden belangrijke punten te breken door gebrek aan reserve stenen" },
+          { en: "Critical game moment", es: "Momento crítico del juego", de: "Kritischer Spielmoment", nl: "Kritiek spelmoment" },
+          { en: "Loud dice roll", es: "Tirada de dados ruidosa", de: "Lauter Würfelwurf", nl: "Luide dobbelsteenworp" },
+          { en: "Checker collision", es: "Colisión de fichas", de: "Steinkollision", nl: "Steen botsing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The crunch is when you run out of timing and must break valuable points (often your anchor or key defensive points) because you have no spare checkers left to move. This usually signals a losing position becoming critical.",
+          es: "El crunch es cuando te quedas sin timing y debes romper puntos valiosos (a menudo tu ancla o puntos defensivos clave) porque no te quedan fichas extras para mover. Esto usualmente señala que una posición perdedora se vuelve crítica.",
+          de: "Der Crunch ist wenn Ihnen das Timing ausgeht und Sie wertvolle Punkte (oft Ihren Anker oder wichtige Verteidigungspunkte) brechen müssen weil Sie keine zusätzlichen Steine mehr zum Bewegen haben. Dies signalisiert normalerweise dass eine verlierende Position kritisch wird.",
+          nl: "De crunch is wanneer je geen timing meer hebt en waardevolle punten moet breken (vaak je anker of belangrijke defensieve punten) omdat je geen reserve stenen meer hebt om te verplaatsen. Dit geeft meestal aan dat een verliezende positie kritiek wordt."
+        }
       }
     ]
   };

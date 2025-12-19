@@ -427,6 +427,426 @@
           de: "GPS verwendete Mittel-Ziel-Analyse und versuchte Probleme zu lösen indem es Unterschiede zwischen aktuellem Zustand und Zielzustand identifizierte, dann Operationen fand um diese Unterschiede Schritt für Schritt zu reduzieren.",
           nl: "GPS gebruikte middel-doel analyse, probeerde problemen op te lossen door verschillen tussen de huidige staat en doelstaat te identificeren, en vervolgens operaties te vinden om deze verschillen stap voor stap te verminderen."
         }
+      },
+      {
+        question: {
+          en: "What year did IBM's Watson win on Jeopardy!?",
+          es: "¿En qué año ganó Watson de IBM en Jeopardy!?",
+          de: "In welchem Jahr gewann IBMs Watson bei Jeopardy!?",
+          nl: "In welk jaar won IBM's Watson bij Jeopardy!?"
+        },
+        options: [
+          { en: "2011", es: "2011", de: "2011", nl: "2011" },
+          { en: "2005", es: "2005", de: "2005", nl: "2005" },
+          { en: "2015", es: "2015", de: "2015", nl: "2015" },
+          { en: "2008", es: "2008", de: "2008", nl: "2008" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "IBM's Watson defeated former Jeopardy! champions Brad Rutter and Ken Jennings in 2011, demonstrating advanced natural language processing and question-answering capabilities.",
+          es: "Watson de IBM derrotó a los ex campeones de Jeopardy! Brad Rutter y Ken Jennings en 2011, demostrando capacidades avanzadas de procesamiento de lenguaje natural y respuesta a preguntas.",
+          de: "IBMs Watson besiegte ehemalige Jeopardy!-Champions Brad Rutter und Ken Jennings 2011 und demonstrierte fortgeschrittene natürliche Sprachverarbeitung und Fragebeantwortungsfähigkeiten.",
+          nl: "IBM's Watson versloeg voormalige Jeopardy! kampioenen Brad Rutter en Ken Jennings in 2011, waarbij geavanceerde natuurlijke taalverwerking en vraagbeantwoording werd gedemonstreerd."
+        }
+      },
+      {
+        question: {
+          en: "What AI technique did expert systems primarily rely on?",
+          es: "¿En qué técnica de IA se basaban principalmente los sistemas expertos?",
+          de: "Auf welche KI-Technik stützten sich Expertensysteme hauptsächlich?",
+          nl: "Op welke AI techniek vertrouwden expertsystemen voornamelijk?"
+        },
+        options: [
+          { en: "Rule-based reasoning with if-then statements", es: "Razonamiento basado en reglas con declaraciones si-entonces", de: "Regelbasiertes Denken mit Wenn-Dann-Anweisungen", nl: "Op regels gebaseerd redeneren met als-dan verklaringen" },
+          { en: "Deep neural networks", es: "Redes neuronales profundas", de: "Tiefe neuronale Netzwerke", nl: "Diepe neurale netwerken" },
+          { en: "Genetic algorithms", es: "Algoritmos genéticos", de: "Genetische Algorithmen", nl: "Genetische algoritmen" },
+          { en: "Reinforcement learning", es: "Aprendizaje por refuerzo", de: "Verstärkungslernen", nl: "Versterkingsleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Expert systems of the 1970s-1980s used rule-based reasoning with if-then rules encoded from domain experts' knowledge, representing the symbolic AI approach that dominated that era.",
+          es: "Los sistemas expertos de los años 1970-1980 usaron razonamiento basado en reglas con reglas si-entonces codificadas del conocimiento de expertos del dominio.",
+          de: "Expertensysteme der 1970-1980er verwendeten regelbasiertes Denken mit Wenn-Dann-Regeln die aus dem Wissen von Domänenexperten kodiert wurden.",
+          nl: "Expertsystemen van de jaren 1970-1980 gebruikten op regels gebaseerd redeneren met als-dan regels gecodeerd uit kennis van domeinexperts."
+        }
+      },
+      {
+        question: {
+          en: "What was SHRDLU's groundbreaking capability?",
+          es: "¿Cuál fue la capacidad revolucionaria de SHRDLU?",
+          de: "Was war SHRDLUs bahnbrechende Fähigkeit?",
+          nl: "Wat was SHRDLU's baanbrekende mogelijkheid?"
+        },
+        options: [
+          { en: "Understanding natural language commands in a blocks world", es: "Entender comandos en lenguaje natural en un mundo de bloques", de: "Verstehen natürlicher Sprachbefehle in einer Blockwelt", nl: "Het begrijpen van natuurlijke taal commando's in een blokkenwereld" },
+          { en: "Playing chess at grandmaster level", es: "Jugar ajedrez a nivel de gran maestro", de: "Schach auf Großmeister-Niveau spielen", nl: "Schaken op grootmeester niveau" },
+          { en: "Recognizing faces", es: "Reconocer rostros", de: "Gesichter erkennen", nl: "Gezichten herkennen" },
+          { en: "Composing music", es: "Componer música", de: "Musik komponieren", nl: "Muziek componeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SHRDLU, developed by Terry Winograd in 1968-1970, could understand natural language commands to manipulate objects in a simulated blocks world, demonstrating early natural language understanding.",
+          es: "SHRDLU, desarrollado por Terry Winograd en 1968-1970, podía entender comandos en lenguaje natural para manipular objetos en un mundo de bloques simulado.",
+          de: "SHRDLU, entwickelt von Terry Winograd 1968-1970, konnte natürliche Sprachbefehle verstehen um Objekte in einer simulierten Blockwelt zu manipulieren.",
+          nl: "SHRDLU, ontwikkeld door Terry Winograd in 1968-1970, kon natuurlijke taal commando's begrijpen om objecten in een gesimuleerde blokkenwereld te manipuleren."
+        }
+      },
+      {
+        question: {
+          en: "What was the Cyc project initiated by Douglas Lenat in 1984?",
+          es: "¿Qué fue el proyecto Cyc iniciado por Douglas Lenat en 1984?",
+          de: "Was war das Cyc-Projekt das Douglas Lenat 1984 initiierte?",
+          nl: "Wat was het Cyc project geïnitieerd door Douglas Lenat in 1984?"
+        },
+        options: [
+          { en: "An attempt to encode common sense knowledge into a massive knowledge base", es: "Un intento de codificar conocimiento de sentido común en una base masiva", de: "Ein Versuch gesunden Menschenverstand in eine massive Wissensbasis zu kodieren", nl: "Een poging om gezond verstand kennis te coderen in een massieve kennisbank" },
+          { en: "A neural network for image recognition", es: "Una red neuronal para reconocimiento de imágenes", de: "Ein neuronales Netzwerk für Bilderkennung", nl: "Een neuraal netwerk voor beeldherkenning" },
+          { en: "A chess-playing program", es: "Un programa para jugar ajedrez", de: "Ein Schachspielprogramm", nl: "Een schaakspelprogramma" },
+          { en: "A robot control system", es: "Un sistema de control de robot", de: "Ein Roboterkontrollsystem", nl: "Een robot controlesysteem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Cyc project aimed to create a comprehensive knowledge base of common sense facts and reasoning rules, attempting to solve AI's common sense problem through manual knowledge engineering.",
+          es: "El proyecto Cyc tuvo como objetivo crear una base de conocimientos completa de hechos de sentido común y reglas de razonamiento, intentando resolver el problema de sentido común de la IA.",
+          de: "Das Cyc-Projekt zielte darauf ab eine umfassende Wissensbasis von gesundem Menschenverstand und Denkregeln zu schaffen und versuchte das Common-Sense-Problem der KI zu lösen.",
+          nl: "Het Cyc project was gericht op het creëren van een uitgebreide kennisbank van gezond verstand feiten en redeneerregels, proberende AI's gezond verstand probleem op te lossen."
+        }
+      },
+      {
+        question: {
+          en: "Who developed the A* search algorithm and when?",
+          es: "¿Quién desarrolló el algoritmo de búsqueda A* y cuándo?",
+          de: "Wer entwickelte den A*-Suchalgorithmus und wann?",
+          nl: "Wie ontwikkelde het A* zoekalgoritme en wanneer?"
+        },
+        options: [
+          { en: "Hart, Nilsson, and Raphael in 1968", es: "Hart, Nilsson y Raphael en 1968", de: "Hart, Nilsson und Raphael 1968", nl: "Hart, Nilsson en Raphael in 1968" },
+          { en: "Turing and von Neumann in 1950", es: "Turing y von Neumann en 1950", de: "Turing und von Neumann 1950", nl: "Turing en von Neumann in 1950" },
+          { en: "Dijkstra in 1959", es: "Dijkstra en 1959", de: "Dijkstra 1959", nl: "Dijkstra in 1959" },
+          { en: "McCarthy in 1965", es: "McCarthy en 1965", de: "McCarthy 1965", nl: "McCarthy in 1965" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The A* algorithm was developed by Peter Hart, Nils Nilsson, and Bertram Raphael in 1968 and became one of the most widely used pathfinding algorithms in AI.",
+          es: "El algoritmo A* fue desarrollado por Peter Hart, Nils Nilsson y Bertram Raphael en 1968 y se convirtió en uno de los algoritmos de búsqueda de caminos más utilizados en IA.",
+          de: "Der A*-Algorithmus wurde 1968 von Peter Hart, Nils Nilsson und Bertram Raphael entwickelt und wurde zu einem der am häufigsten verwendeten Pfadfindungsalgorithmen in der KI.",
+          nl: "Het A* algoritme werd ontwikkeld door Peter Hart, Nils Nilsson en Bertram Raphael in 1968 en werd een van de meest gebruikte pathfinding algoritmen in AI."
+        }
+      },
+      {
+        question: {
+          en: "What was XCON (R1) expert system used for?",
+          es: "¿Para qué se usó el sistema experto XCON (R1)?",
+          de: "Wofür wurde das Expertensystem XCON (R1) verwendet?",
+          nl: "Waarvoor werd het expertsysteem XCON (R1) gebruikt?"
+        },
+        options: [
+          { en: "Configuring VAX computer systems for Digital Equipment Corporation", es: "Configurar sistemas informáticos VAX para Digital Equipment Corporation", de: "Konfiguration von VAX-Computersystemen für Digital Equipment Corporation", nl: "Het configureren van VAX computersystemen voor Digital Equipment Corporation" },
+          { en: "Medical diagnosis", es: "Diagnóstico médico", de: "Medizinische Diagnose", nl: "Medische diagnose" },
+          { en: "Weather forecasting", es: "Pronóstico del tiempo", de: "Wettervorhersage", nl: "Weersvoorspelling" },
+          { en: "Stock market prediction", es: "Predicción del mercado de valores", de: "Börsenvorhersage", nl: "Beurs voorspelling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "XCON (R1) was one of the first successful commercial expert systems, developed in the early 1980s to configure DEC's VAX computer orders, saving the company millions of dollars.",
+          es: "XCON (R1) fue uno de los primeros sistemas expertos comerciales exitosos, desarrollado a principios de los 1980 para configurar pedidos de computadoras VAX de DEC.",
+          de: "XCON (R1) war eines der ersten erfolgreichen kommerziellen Expertensysteme, entwickelt Anfang der 1980er um DECs VAX-Computerbestellungen zu konfigurieren.",
+          nl: "XCON (R1) was een van de eerste succesvolle commerciële expertsystemen, ontwikkeld begin jaren 1980 om DEC's VAX computer bestellingen te configureren."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of AlphaGo's victory in 2016?",
+          es: "¿Cuál fue la importancia de la victoria de AlphaGo en 2016?",
+          de: "Was war die Bedeutung von AlphaGos Sieg 2016?",
+          nl: "Wat was de betekenis van AlphaGo's overwinning in 2016?"
+        },
+        options: [
+          { en: "First AI to defeat a world champion Go player", es: "Primera IA en derrotar a un campeón mundial de Go", de: "Erste KI die einen Go-Weltmeister besiegte", nl: "Eerste AI die een wereldkampioen Go speler versloeg" },
+          { en: "First AI to pass the Turing Test", es: "Primera IA en pasar el Test de Turing", de: "Erste KI die den Turing-Test bestand", nl: "Eerste AI die de Turing Test haalde" },
+          { en: "First AI to drive a car", es: "Primera IA en conducir un auto", de: "Erste KI die ein Auto fuhr", nl: "Eerste AI die een auto bestuurde" },
+          { en: "First AI to write a novel", es: "Primera IA en escribir una novela", de: "Erste KI die einen Roman schrieb", nl: "Eerste AI die een roman schreef" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AlphaGo defeated Lee Sedol, one of the world's top Go players, in 2016, demonstrating that deep learning could master a game previously thought too complex for computers due to its vast search space.",
+          es: "AlphaGo derrotó a Lee Sedol, uno de los mejores jugadores de Go del mundo, en 2016, demostrando que el aprendizaje profundo podía dominar un juego previamente considerado demasiado complejo.",
+          de: "AlphaGo besiegte Lee Sedol, einen der weltbesten Go-Spieler, 2016 und demonstrierte dass Deep Learning ein Spiel meistern konnte das zuvor als zu komplex für Computer galt.",
+          nl: "AlphaGo versloeg Lee Sedol, een van 's werelds beste Go spelers, in 2016, wat aantoonde dat deep learning een spel kon beheersen dat eerder als te complex werd beschouwd voor computers."
+        }
+      },
+      {
+        question: {
+          en: "What programming paradigm did Prolog introduce to AI?",
+          es: "¿Qué paradigma de programación introdujo Prolog a la IA?",
+          de: "Welches Programmierparadigma führte Prolog in die KI ein?",
+          nl: "Welk programmeerparadigma introduceerde Prolog aan AI?"
+        },
+        options: [
+          { en: "Logic programming with declarative rules", es: "Programación lógica con reglas declarativas", de: "Logikprogrammierung mit deklarativen Regeln", nl: "Logisch programmeren met declaratieve regels" },
+          { en: "Object-oriented programming", es: "Programación orientada a objetos", de: "Objektorientierte Programmierung", nl: "Object-georiënteerd programmeren" },
+          { en: "Functional programming only", es: "Solo programación funcional", de: "Nur funktionale Programmierung", nl: "Alleen functioneel programmeren" },
+          { en: "Procedural programming", es: "Programación procesal", de: "Prozedurale Programmierung", nl: "Procedureel programmeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prolog, developed by Alain Colmerauer in 1972, introduced logic programming to AI, allowing programmers to declare facts and rules rather than writing explicit procedural steps.",
+          es: "Prolog, desarrollado por Alain Colmerauer en 1972, introdujo la programación lógica a la IA, permitiendo a los programadores declarar hechos y reglas en lugar de escribir pasos procedurales explícitos.",
+          de: "Prolog, entwickelt von Alain Colmerauer 1972, führte Logikprogrammierung in die KI ein und erlaubte Programmierern Fakten und Regeln zu deklarieren statt explizite prozedurale Schritte zu schreiben.",
+          nl: "Prolog, ontwikkeld door Alain Colmerauer in 1972, introduceerde logisch programmeren aan AI, waardoor programmeurs feiten en regels konden declareren in plaats van expliciete procedurele stappen te schrijven."
+        }
+      },
+      {
+        question: {
+          en: "What was the AM program developed by Douglas Lenat famous for?",
+          es: "¿Por qué fue famoso el programa AM desarrollado por Douglas Lenat?",
+          de: "Wofür war das AM-Programm entwickelt von Douglas Lenat berühmt?",
+          nl: "Waar was het AM programma ontwikkeld door Douglas Lenat beroemd om?"
+        },
+        options: [
+          { en: "Discovering mathematical concepts automatically", es: "Descubrir conceptos matemáticos automáticamente", de: "Automatisches Entdecken mathematischer Konzepte", nl: "Automatisch wiskundige concepten ontdekken" },
+          { en: "Playing chess", es: "Jugar ajedrez", de: "Schach spielen", nl: "Schaken" },
+          { en: "Natural language translation", es: "Traducción de lenguaje natural", de: "Natürliche Sprachübersetzung", nl: "Natuurlijke taalvertaling" },
+          { en: "Image recognition", es: "Reconocimiento de imágenes", de: "Bilderkennung", nl: "Beeldherkenning" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AM (Automated Mathematician) could discover interesting mathematical concepts like prime numbers by exploring mathematical relationships, representing an early attempt at automated scientific discovery.",
+          es: "AM (Automated Mathematician) podía descubrir conceptos matemáticos interesantes como números primos explorando relaciones matemáticas, representando un intento temprano de descubrimiento científico automatizado.",
+          de: "AM (Automated Mathematician) konnte interessante mathematische Konzepte wie Primzahlen entdecken indem es mathematische Beziehungen erforschte, was einen frühen Versuch automatisierter wissenschaftlicher Entdeckung darstellte.",
+          nl: "AM (Automated Mathematician) kon interessante wiskundige concepten zoals priemgetallen ontdekken door wiskundige relaties te verkennen, wat een vroege poging tot geautomatiseerde wetenschappelijke ontdekking vertegenwoordigde."
+        }
+      },
+      {
+        question: {
+          en: "What was the Rete algorithm developed for?",
+          es: "¿Para qué se desarrolló el algoritmo Rete?",
+          de: "Wofür wurde der Rete-Algorithmus entwickelt?",
+          nl: "Waarvoor werd het Rete algoritme ontwikkeld?"
+        },
+        options: [
+          { en: "Efficiently matching rules in production systems", es: "Emparejar reglas eficientemente en sistemas de producción", de: "Effizientes Abgleichen von Regeln in Produktionssystemen", nl: "Efficiënt regels matchen in productiesystemen" },
+          { en: "Neural network training", es: "Entrenamiento de redes neuronales", de: "Training neuronaler Netzwerke", nl: "Neurale netwerk training" },
+          { en: "Image compression", es: "Compresión de imágenes", de: "Bildkompression", nl: "Beeldcompressie" },
+          { en: "Database queries", es: "Consultas de base de datos", de: "Datenbankabfragen", nl: "Database queries" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Rete algorithm, developed by Charles Forgy in 1979, efficiently matches rules in production systems and expert systems, becoming a standard for rule-based AI systems.",
+          es: "El algoritmo Rete, desarrollado por Charles Forgy en 1979, empareja eficientemente reglas en sistemas de producción y expertos, convirtiéndose en estándar para sistemas de IA basados en reglas.",
+          de: "Der Rete-Algorithmus, entwickelt von Charles Forgy 1979, gleicht effizient Regeln in Produktions- und Expertensystemen ab und wurde zum Standard für regelbasierte KI-Systeme.",
+          nl: "Het Rete algoritme, ontwikkeld door Charles Forgy in 1979, matcht efficiënt regels in productie- en expertsystemen en werd een standaard voor op regels gebaseerde AI systemen."
+        }
+      },
+      {
+        question: {
+          en: "What was STUDENT by Daniel Bobrow's contribution to AI?",
+          es: "¿Cuál fue la contribución de STUDENT de Daniel Bobrow a la IA?",
+          de: "Was war STUDENTs Beitrag von Daniel Bobrow zur KI?",
+          nl: "Wat was STUDENT van Daniel Bobrow's bijdrage aan AI?"
+        },
+        options: [
+          { en: "Solving algebra word problems from natural language", es: "Resolver problemas de álgebra en lenguaje natural", de: "Lösen von Algebra-Textaufgaben aus natürlicher Sprache", nl: "Het oplossen van algebra woordproblemen uit natuurlijke taal" },
+          { en: "Playing games", es: "Jugar juegos", de: "Spiele spielen", nl: "Spelletjes spelen" },
+          { en: "Medical diagnosis", es: "Diagnóstico médico", de: "Medizinische Diagnose", nl: "Medische diagnose" },
+          { en: "Robot control", es: "Control de robot", de: "Roboterkontrolle", nl: "Robot controle" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "STUDENT, developed in 1964, was one of the first programs to solve algebra word problems by understanding natural language descriptions and converting them to equations.",
+          es: "STUDENT, desarrollado en 1964, fue uno de los primeros programas en resolver problemas de álgebra entendiendo descripciones en lenguaje natural y convirtiéndolas en ecuaciones.",
+          de: "STUDENT, entwickelt 1964, war eines der ersten Programme die Algebra-Textaufgaben lösten indem sie natürliche Sprachbeschreibungen verstanden und in Gleichungen umwandelten.",
+          nl: "STUDENT, ontwikkeld in 1964, was een van de eerste programma's die algebra woordproblemen oploste door natuurlijke taalbeschrijvingen te begrijpen en om te zetten naar vergelijkingen."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of Nils Nilsson to AI robotics?",
+          es: "¿Cuál fue la contribución de Nils Nilsson a la robótica de IA?",
+          de: "Was war Nils Nilssons Beitrag zur KI-Robotik?",
+          nl: "Wat was Nils Nilsson's bijdrage aan AI robotica?"
+        },
+        options: [
+          { en: "Led development of Shakey the robot at SRI", es: "Dirigió el desarrollo del robot Shakey en SRI", de: "Leitete Entwicklung des Roboters Shakey am SRI", nl: "Leidde ontwikkeling van Shakey de robot bij SRI" },
+          { en: "Invented industrial robots", es: "Inventó robots industriales", de: "Erfand Industrieroboter", nl: "Vond industriële robots uit" },
+          { en: "Created the first humanoid robot", es: "Creó el primer robot humanoide", de: "Schuf den ersten humanoiden Roboter", nl: "Creëerde de eerste humanoïde robot" },
+          { en: "Developed robot surgery systems", es: "Desarrolló sistemas de cirugía robótica", de: "Entwickelte Roboterchirurgiesysteme", nl: "Ontwikkelde robot chirurgie systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Nils Nilsson led the team that developed Shakey at Stanford Research Institute in the late 1960s, one of the first mobile robots to combine perception, planning, and action.",
+          es: "Nils Nilsson lideró el equipo que desarrolló Shakey en Stanford Research Institute a finales de los 1960, uno de los primeros robots móviles en combinar percepción, planificación y acción.",
+          de: "Nils Nilsson leitete das Team das Shakey am Stanford Research Institute Ende der 1960er entwickelte, einen der ersten mobilen Roboter der Wahrnehmung, Planung und Aktion kombinierte.",
+          nl: "Nils Nilsson leidde het team dat Shakey ontwikkelde bij Stanford Research Institute eind jaren 1960, een van de eerste mobiele robots die perceptie, planning en actie combineerde."
+        }
+      },
+      {
+        question: {
+          en: "What was the Hearsay speech recognition system's innovation?",
+          es: "¿Cuál fue la innovación del sistema de reconocimiento de voz Hearsay?",
+          de: "Was war die Innovation des Spracherkennungssystems Hearsay?",
+          nl: "Wat was de innovatie van het spraakherkenningssysteem Hearsay?"
+        },
+        options: [
+          { en: "Using blackboard architecture for collaborative problem solving", es: "Usar arquitectura de pizarra para resolución colaborativa de problemas", de: "Verwendung von Blackboard-Architektur für kollaborative Problemlösung", nl: "Het gebruik van blackboard architectuur voor collaboratieve probleemoplossing" },
+          { en: "First to use neural networks", es: "Primero en usar redes neuronales", de: "Erster der neuronale Netzwerke verwendete", nl: "Eerste die neurale netwerken gebruikte" },
+          { en: "Worked without training data", es: "Funcionó sin datos de entrenamiento", de: "Funktionierte ohne Trainingsdaten", nl: "Werkte zonder trainingsdata" },
+          { en: "Used only statistical methods", es: "Usó solo métodos estadísticos", de: "Verwendete nur statistische Methoden", nl: "Gebruikte alleen statistische methoden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hearsay-II, developed at Carnegie Mellon in the 1970s, pioneered the blackboard architecture where multiple knowledge sources could collaborate to solve speech understanding problems.",
+          es: "Hearsay-II, desarrollado en Carnegie Mellon en los 1970, fue pionero en la arquitectura de pizarra donde múltiples fuentes de conocimiento podían colaborar para resolver problemas de comprensión del habla.",
+          de: "Hearsay-II, entwickelt in Carnegie Mellon in den 1970ern, war Pionier der Blackboard-Architektur wo mehrere Wissensquellen zusammenarbeiten konnten um Sprachverstehensprobleme zu lösen.",
+          nl: "Hearsay-II, ontwikkeld bij Carnegie Mellon in de jaren 1970, was pionier van de blackboard architectuur waar meerdere kennisbronnen konden samenwerken om spraakbegrip problemen op te lossen."
+        }
+      },
+      {
+        question: {
+          en: "What was the ALPAC report's impact on AI in 1966?",
+          es: "¿Cuál fue el impacto del reporte ALPAC en la IA en 1966?",
+          de: "Was war die Auswirkung des ALPAC-Berichts auf KI 1966?",
+          nl: "Wat was de impact van het ALPAC rapport op AI in 1966?"
+        },
+        options: [
+          { en: "Cut funding for machine translation research", es: "Recortó financiamiento para investigación de traducción automática", de: "Kürzte Finanzierung für maschinelle Übersetzungsforschung", nl: "Verminderde financiering voor machine vertaling onderzoek" },
+          { en: "Increased funding for neural networks", es: "Aumentó financiamiento para redes neuronales", de: "Erhöhte Finanzierung für neuronale Netzwerke", nl: "Verhoogde financiering voor neurale netwerken" },
+          { en: "Promoted robot research", es: "Promovió investigación de robots", de: "Förderte Roboterforschung", nl: "Promootte robot onderzoek" },
+          { en: "Supported expert systems", es: "Apoyó sistemas expertos", de: "Unterstützte Expertensysteme", nl: "Ondersteunde expertsystemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The ALPAC (Automatic Language Processing Advisory Committee) report concluded that machine translation was slower, less accurate, and more expensive than human translation, leading to major funding cuts.",
+          es: "El reporte ALPAC concluyó que la traducción automática era más lenta, menos precisa y más cara que la traducción humana, llevando a importantes recortes de financiamiento.",
+          de: "Der ALPAC-Bericht folgerte dass maschinelle Übersetzung langsamer, weniger genau und teurer als menschliche Übersetzung war, was zu großen Finanzierungskürzungen führte.",
+          nl: "Het ALPAC rapport concludeerde dat machine vertaling langzamer, minder nauwkeurig en duurder was dan menselijke vertaling, wat leidde tot grote financieringsbesnoeiingen."
+        }
+      },
+      {
+        question: {
+          en: "What was the Stanford Cart's major achievement in autonomous navigation?",
+          es: "¿Cuál fue el logro mayor del Stanford Cart en navegación autónoma?",
+          de: "Was war die Hauptleistung des Stanford Cart in autonomer Navigation?",
+          nl: "Wat was de grootste prestatie van de Stanford Cart in autonome navigatie?"
+        },
+        options: [
+          { en: "Navigating obstacle-filled rooms using computer vision", es: "Navegar habitaciones llenas de obstáculos usando visión por computadora", de: "Navigation durch hindernisreiche Räume mit Computer Vision", nl: "Navigeren door met obstakels gevulde kamers met computer vision" },
+          { en: "Flying autonomously", es: "Volar autónomamente", de: "Autonomes Fliegen", nl: "Autonoom vliegen" },
+          { en: "Swimming underwater", es: "Nadar bajo el agua", de: "Unterwasser schwimmen", nl: "Onder water zwemmen" },
+          { en: "Playing sports", es: "Practicar deportes", de: "Sport treiben", nl: "Sporten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Stanford Cart, developed by Hans Moravec in the 1970s, successfully navigated obstacle-filled rooms using stereo vision, though it moved very slowly (about 5 hours to cross a room).",
+          es: "El Stanford Cart, desarrollado por Hans Moravec en los 1970, navegó exitosamente habitaciones llenas de obstáculos usando visión estéreo, aunque se movía muy lentamente.",
+          de: "Der Stanford Cart, entwickelt von Hans Moravec in den 1970ern, navigierte erfolgreich durch hindernisreiche Räume mit Stereosehen, obwohl er sich sehr langsam bewegte.",
+          nl: "De Stanford Cart, ontwikkeld door Hans Moravec in de jaren 1970, navigeerde succesvol door met obstakels gevulde kamers met stereo vision, hoewel het zeer langzaam bewoog."
+        }
+      },
+      {
+        question: {
+          en: "What was significant about Terry Winograd's PhD thesis work?",
+          es: "¿Qué fue significativo sobre el trabajo de tesis doctoral de Terry Winograd?",
+          de: "Was war bedeutsam an Terry Winograds Doktorarbeitswerk?",
+          nl: "Wat was belangrijk aan Terry Winograd's PhD thesis werk?"
+        },
+        options: [
+          { en: "Created SHRDLU demonstrating natural language understanding", es: "Creó SHRDLU demostrando comprensión de lenguaje natural", de: "Schuf SHRDLU das natürliches Sprachverständnis demonstrierte", nl: "Creëerde SHRDLU dat natuurlijk taalbegrip demonstreerde" },
+          { en: "Proved P=NP", es: "Probó P=NP", de: "Bewies P=NP", nl: "Bewees P=NP" },
+          { en: "Invented the transistor", es: "Inventó el transistor", de: "Erfand den Transistor", nl: "Vond de transistor uit" },
+          { en: "Created the first compiler", es: "Creó el primer compilador", de: "Schuf den ersten Compiler", nl: "Creëerde de eerste compiler" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Winograd's SHRDLU program, part of his MIT PhD thesis, demonstrated sophisticated natural language understanding in a blocks world domain, influencing natural language processing research for years.",
+          es: "El programa SHRDLU de Winograd, parte de su tesis doctoral del MIT, demostró comprensión sofisticada de lenguaje natural en un dominio de mundo de bloques.",
+          de: "Winograds SHRDLU-Programm, Teil seiner MIT-Doktorarbeit, demonstrierte raffiniertes natürliches Sprachverständnis in einer Blockwelt-Domäne.",
+          nl: "Winograd's SHRDLU programma, deel van zijn MIT PhD thesis, demonstreerde geavanceerd natuurlijk taalbegrip in een blokkenwereld domein."
+        }
+      },
+      {
+        question: {
+          en: "What was the main limitation identified in Minsky and Papert's 'Perceptrons' book?",
+          es: "¿Cuál fue la limitación principal identificada en el libro 'Perceptrons' de Minsky y Papert?",
+          de: "Was war die Hauptbeschränkung im Buch 'Perceptrons' von Minsky und Papert?",
+          nl: "Wat was de hoofdbeperking geïdentificeerd in Minsky en Papert's 'Perceptrons' boek?"
+        },
+        options: [
+          { en: "Single-layer perceptrons cannot solve linearly inseparable problems like XOR", es: "Los perceptrones de una capa no pueden resolver problemas linealmente inseparables como XOR", de: "Einschichtige Perceptrons können linear nicht trennbare Probleme wie XOR nicht lösen", nl: "Enkellaagse perceptrons kunnen lineair niet-scheidbare problemen zoals XOR niet oplossen" },
+          { en: "Perceptrons were too fast", es: "Los perceptrones eran demasiado rápidos", de: "Perceptrons waren zu schnell", nl: "Perceptrons waren te snel" },
+          { en: "They required no training", es: "No requerían entrenamiento", de: "Sie erforderten kein Training", nl: "Ze vereisten geen training" },
+          { en: "They were too expensive", es: "Eran demasiado caros", de: "Sie waren zu teuer", nl: "Ze waren te duur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 1969 book showed that single-layer perceptrons couldn't solve the XOR problem and other linearly inseparable problems, contributing to reduced neural network research funding until multilayer networks with backpropagation emerged.",
+          es: "El libro de 1969 mostró que los perceptrones de una capa no podían resolver el problema XOR y otros problemas linealmente inseparables, contribuyendo a financiamiento reducido.",
+          de: "Das 1969er Buch zeigte dass einschichtige Perceptrons das XOR-Problem und andere linear nicht trennbare Probleme nicht lösen konnten, was zu reduzierter Finanzierung beitrug.",
+          nl: "Het 1969 boek toonde dat enkellaagse perceptrons het XOR probleem en andere lineair niet-scheidbare problemen niet konden oplossen, wat bijdroeg aan verminderde financiering."
+        }
+      },
+      {
+        question: {
+          en: "What was the CYC project's approach to achieving AI?",
+          es: "¿Cuál fue el enfoque del proyecto CYC para lograr IA?",
+          de: "Was war der Ansatz des CYC-Projekts zur Erreichung von KI?",
+          nl: "Wat was de aanpak van het CYC project om AI te bereiken?"
+        },
+        options: [
+          { en: "Manually encoding millions of common sense facts", es: "Codificar manualmente millones de hechos de sentido común", de: "Manuelles Kodieren von Millionen gesunden Menschenverstands", nl: "Handmatig miljoenen gezond verstand feiten coderen" },
+          { en: "Using only neural networks", es: "Usar solo redes neuronales", de: "Nur neuronale Netzwerke verwenden", nl: "Alleen neurale netwerken gebruiken" },
+          { en: "Genetic algorithms exclusively", es: "Algoritmos genéticos exclusivamente", de: "Ausschließlich genetische Algorithmen", nl: "Uitsluitend genetische algoritmen" },
+          { en: "No knowledge engineering", es: "Sin ingeniería de conocimiento", de: "Keine Wissenstechnik", nl: "Geen kennistechniek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The CYC project attempted to solve AI's common sense problem by manually encoding millions of facts and rules, representing one of the largest knowledge engineering efforts in AI history.",
+          es: "El proyecto CYC intentó resolver el problema de sentido común de la IA codificando manualmente millones de hechos y reglas, representando uno de los mayores esfuerzos de ingeniería de conocimiento.",
+          de: "Das CYC-Projekt versuchte das Common-Sense-Problem der KI zu lösen indem es manuell Millionen von Fakten und Regeln kodierte, was einen der größten Wissenstechnik-Bemühungen darstellte.",
+          nl: "Het CYC project probeerde AI's gezond verstand probleem op te lossen door handmatig miljoenen feiten en regels te coderen, wat een van de grootste kennistechniek inspanningen vertegenwoordigde."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of David Marr to AI and computer vision?",
+          es: "¿Cuál fue la contribución de David Marr a la IA y visión por computadora?",
+          de: "Was war David Marrs Beitrag zu KI und Computer Vision?",
+          nl: "Wat was David Marr's bijdrage aan AI en computer vision?"
+        },
+        options: [
+          { en: "Proposed computational theory of vision with multiple processing levels", es: "Propuso teoría computacional de visión con múltiples niveles de procesamiento", de: "Schlug rechnerische Theorie des Sehens mit mehreren Verarbeitungsebenen vor", nl: "Stelde computationele theorie van vision voor met meerdere verwerkingsniveaus" },
+          { en: "Invented the digital camera", es: "Inventó la cámara digital", de: "Erfand die Digitalkamera", nl: "Vond de digitale camera uit" },
+          { en: "Created Photoshop", es: "Creó Photoshop", de: "Schuf Photoshop", nl: "Creëerde Photoshop" },
+          { en: "Built the first robot eye", es: "Construyó el primer ojo robótico", de: "Baute das erste Roboterauge", nl: "Bouwde het eerste robot oog" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "David Marr's 1982 book 'Vision' proposed a computational framework for understanding vision with three levels: computational theory, representation and algorithm, and hardware implementation.",
+          es: "El libro 'Vision' de David Marr de 1982 propuso un marco computacional para entender la visión con tres niveles: teoría computacional, representación y algoritmo, e implementación de hardware.",
+          de: "David Marrs 1982er Buch 'Vision' schlug einen rechnerischen Rahmen zum Verständnis des Sehens mit drei Ebenen vor: rechnerische Theorie, Darstellung und Algorithmus, und Hardware-Implementierung.",
+          nl: "David Marr's 1982 boek 'Vision' stelde een computationeel framework voor om vision te begrijpen met drie niveaus: computationele theorie, representatie en algoritme, en hardware implementatie."
+        }
+      },
+      {
+        question: {
+          en: "What year did Hinton, Rumelhart and Williams popularize backpropagation?",
+          es: "¿En qué año popularizaron Hinton, Rumelhart y Williams la retropropagación?",
+          de: "In welchem Jahr popularisierten Hinton, Rumelhart und Williams Backpropagation?",
+          nl: "In welk jaar populariseerden Hinton, Rumelhart en Williams backpropagation?"
+        },
+        options: [
+          { en: "1986", es: "1986", de: "1986", nl: "1986" },
+          { en: "1969", es: "1969", de: "1969", nl: "1969" },
+          { en: "1995", es: "1995", de: "1995", nl: "1995" },
+          { en: "2000", es: "2000", de: "2000", nl: "2000" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 1986 paper 'Learning representations by back-propagating errors' by Rumelhart, Hinton, and Williams popularized backpropagation, enabling training of multi-layer neural networks and helping revive neural network research.",
+          es: "El artículo de 1986 'Learning representations by back-propagating errors' de Rumelhart, Hinton y Williams popularizó la retropropagación, permitiendo entrenar redes neuronales multicapa.",
+          de: "Das 1986er Paper 'Learning representations by back-propagating errors' von Rumelhart, Hinton und Williams popularisierte Backpropagation und ermöglichte das Training mehrschichtiger neuronaler Netze.",
+          nl: "Het 1986 paper 'Learning representations by back-propagating errors' door Rumelhart, Hinton en Williams populariseerde backpropagation, wat training van meerlaagse neurale netwerken mogelijk maakte."
+        }
       }
     ]
   };

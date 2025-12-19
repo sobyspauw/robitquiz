@@ -427,6 +427,426 @@
           de: "Table Talk bezieht sich auf illegale oder unethische Kommunikation während des Spiels die Informationen über das eigene Blatt oder die Strategie an einen Partner weitergibt und Spielregeln verletzt.",
           nl: "Table talk verwijst naar illegale of onethische communicatie tijdens het spel die informatie over iemands hand of strategie aan een partner doorgeeft, in strijd met spelregels."
         }
+      },
+      {
+        question: {
+          en: "In Bridge, what is a 'Bath Coup'?",
+          es: "En Bridge, ¿qué es un 'Bath Coup'?",
+          de: "Was ist ein 'Bath Coup' beim Bridge?",
+          nl: "Wat is een 'Bath Coup' bij Bridge?"
+        },
+        options: [
+          { en: "Holding up Ace with AJx to trap King", es: "Retener As con AJx para atrapar Rey", de: "Ass mit AJx zurückhalten um König zu fangen", nl: "Aas aanhouden met AJx om Koning te vangen" },
+          { en: "Leading trump immediately", es: "Liderar triunfo inmediatamente", de: "Sofort Trumpf ausspielen", nl: "Direct troef leiden" },
+          { en: "Bidding without honor cards", es: "Pujar sin cartas de honor", de: "Ohne Ehrenkarten bieten", nl: "Bieden zonder eerkaar ten" },
+          { en: "Discarding all clubs", es: "Descartar todos los tréboles", de: "Alle Kreuz abwerfen", nl: "Alle klaveren weggooien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Bath Coup is a holdup play where declarer with AJx refuses the first lead of the King from the opponent, allowing them to continue leading into the AJ tenace.",
+          es: "El Bath Coup es una jugada de retención donde el declarante con AJx rechaza el primer líder del Rey del oponente, permitiéndoles continuar liderando hacia la tenaza AJ.",
+          de: "Der Bath Coup ist ein Rückhaltespiel bei dem der Alleinspieler mit AJx die erste Führung des Königs vom Gegner ablehnt und ihnen erlaubt weiter in die AJ-Gabel zu führen.",
+          nl: "De Bath Coup is een aanhoudspel waarbij declarer met AJx de eerste leiding van de Koning van de tegenstander weigert, waardoor ze door kunnen gaan met leiden naar de AJ tenace."
+        }
+      },
+      {
+        question: {
+          en: "What is 'range advantage' in poker?",
+          es: "¿Qué es la 'ventaja de rango' en el póker?",
+          de: "Was ist 'Range Vorteil' beim Poker?",
+          nl: "Wat is 'range voordeel' bij poker?"
+        },
+        options: [
+          { en: "Having more strong hands in your range than opponent", es: "Tener más manos fuertes en tu rango que el oponente", de: "Mehr starke Blätter in seiner Range haben als der Gegner", nl: "Meer sterke handen in je range hebben dan tegenstander" },
+          { en: "Playing from late position", es: "Jugar desde posición tardía", de: "Aus später Position spielen", nl: "Spelen vanuit late positie" },
+          { en: "Having more chips", es: "Tener más fichas", de: "Mehr Chips haben", nl: "Meer fiches hebben" },
+          { en: "Knowing opponent's cards", es: "Conocer las cartas del oponente", de: "Die Karten des Gegners kennen", nl: "De kaarten van tegenstander kennen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Range advantage means your range of possible hands is stronger overall than your opponent's range in a given situation, allowing you to bet more aggressively.",
+          es: "La ventaja de rango significa que tu rango de posibles manos es más fuerte en general que el rango de tu oponente en una situación dada, permitiéndote apostar más agresivamente.",
+          de: "Range Vorteil bedeutet dass die Range möglicher Blätter insgesamt stärker ist als die Range des Gegners in einer gegebenen Situation, was aggressiveres Setzen erlaubt.",
+          nl: "Range voordeel betekent dat je range van mogelijke handen over het algemeen sterker is dan de range van je tegenstander in een gegeven situatie, waardoor je agressiever kunt inzetten."
+        }
+      },
+      {
+        question: {
+          en: "In Hearts, what is 'control' of the Queen of Spades?",
+          es: "En Hearts, ¿qué es el 'control' de la Reina de Picas?",
+          de: "Was ist 'Kontrolle' über die Pik-Dame beim Hearts?",
+          nl: "Wat is 'controle' van de Schoppen Vrouw bij Hearts?"
+        },
+        options: [
+          { en: "Holding Ace or King of Spades to avoid taking Queen", es: "Tener As o Rey de Picas para evitar tomar la Reina", de: "Pik-Ass oder König halten um die Dame zu vermeiden", nl: "Schoppen Aas of Koning houden om Vrouw te vermijden" },
+          { en: "Always leading spades", es: "Siempre liderar picas", de: "Immer Pik ausspielen", nl: "Altijd schoppen leiden" },
+          { en: "Shooting the moon with the Queen", es: "Disparar a la luna con la Reina", de: "Den Mond schießen mit der Dame", nl: "Naar de maan schieten met de Vrouw" },
+          { en: "Discarding the Queen early", es: "Descartar la Reina temprano", de: "Die Dame früh abwerfen", nl: "De Vrouw vroeg weggooien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Having control means holding the Ace or King of Spades, which protects you from being forced to take the Queen of Spades (13 penalty points) in a trick.",
+          es: "Tener control significa tener el As o Rey de Picas, lo que te protege de ser obligado a tomar la Reina de Picas (13 puntos de penalización) en una baza.",
+          de: "Kontrolle zu haben bedeutet Pik-Ass oder König zu halten, was einen davor schützt gezwungen zu werden die Pik-Dame (13 Strafpunkte) in einem Stich zu nehmen.",
+          nl: "Controle hebben betekent de Schoppen Aas of Koning houden, wat je beschermt tegen gedwongen worden de Schoppen Vrouw (13 strafpunten) in een slag te nemen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'implied odds' in poker?",
+          es: "¿Qué son las 'probabilidades implícitas' en el póker?",
+          de: "Was sind 'Implied Odds' beim Poker?",
+          nl: "Wat zijn 'implied odds' bij poker?"
+        },
+        options: [
+          { en: "Estimated money to win on future betting rounds", es: "Dinero estimado para ganar en rondas de apuestas futuras", de: "Geschätztes Geld das in zukünftigen Setzrunden gewonnen werden kann", nl: "Geschat geld te winnen in toekomstige inzetrondes" },
+          { en: "Current pot odds", es: "Probabilidades actuales del bote", de: "Aktuelle Pot Odds", nl: "Huidige pot odds" },
+          { en: "Probability of winning hand", es: "Probabilidad de ganar la mano", de: "Wahrscheinlichkeit die Hand zu gewinnen", nl: "Kans om de hand te winnen" },
+          { en: "Suggested betting amounts", es: "Cantidades de apuesta sugeridas", de: "Vorgeschlagene Einsatzbeträge", nl: "Voorgestelde inzetbedragen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Implied odds consider not just the current pot, but the additional money you expect to win on future streets if you hit your hand, making marginal calls more profitable.",
+          es: "Las probabilidades implícitas consideran no solo el bote actual, sino el dinero adicional que esperas ganar en calles futuras si completas tu mano, haciendo que las igualaciones marginales sean más rentables.",
+          de: "Implied Odds berücksichtigen nicht nur den aktuellen Pot, sondern das zusätzliche Geld das man in zukünftigen Streets zu gewinnen erwartet wenn man seine Hand trifft, was marginale Calls profitabler macht.",
+          nl: "Implied odds beschouwen niet alleen de huidige pot, maar het extra geld dat je verwacht te winnen op toekomstige streets als je je hand raakt, waardoor marginale calls winstgevender worden."
+        }
+      },
+      {
+        question: {
+          en: "In Bridge, what is 'trump promotion'?",
+          es: "En Bridge, ¿qué es la 'promoción de triunfo'?",
+          de: "Was ist 'Trumpfförderung' beim Bridge?",
+          nl: "Wat is 'troef promotie' bij Bridge?"
+        },
+        options: [
+          { en: "Defensive play forcing declarer to ruff, promoting defender's trump", es: "Jugada defensiva forzando al declarante a cortar, promoviendo el triunfo del defensor", de: "Defensivspiel das den Alleinspieler zum Stechen zwingt und Verteidiger-Trumpf fördert", nl: "Verdedigend spel dat declarer dwingt te snijden, waardoor verdediger's troef gepromoveerd wordt" },
+          { en: "Bidding more trumps", es: "Pujar más triunfos", de: "Mehr Trümpfe bieten", nl: "Meer troeven bieden" },
+          { en: "Leading trump early", es: "Liderar triunfo temprano", de: "Früh Trumpf ausspielen", nl: "Vroeg troef leiden" },
+          { en: "Ruffing with high trumps", es: "Cortar con triunfos altos", de: "Mit hohen Trümpfen stechen", nl: "Snijden met hoge troeven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Trump promotion is a defensive technique where defenders force declarer to ruff with a high trump, promoting a lower trump in a defender's hand to winning status.",
+          es: "La promoción de triunfo es una técnica defensiva donde los defensores fuerzan al declarante a cortar con un triunfo alto, promoviendo un triunfo más bajo en la mano de un defensor a estado ganador.",
+          de: "Trumpfförderung ist eine Defensivtechnik bei der Verteidiger den Alleinspieler zwingen mit einem hohen Trumpf zu stechen, wodurch ein niedrigerer Trumpf in der Hand eines Verteidigers zum Gewinner wird.",
+          nl: "Troef promotie is een verdedigende techniek waarbij verdedigers declarer dwingen te snijden met een hoge troef, waardoor een lagere troef in de hand van een verdediger tot winnaar gepromoveerd wordt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'leveling' in poker?",
+          es: "¿Qué es 'leveling' en el póker?",
+          de: "Was ist 'Leveling' beim Poker?",
+          nl: "Wat is 'leveling' bij poker?"
+        },
+        options: [
+          { en: "Overthinking what opponent thinks you think they think", es: "Pensar demasiado en qué piensa el oponente que piensas que él piensa", de: "Zu viel darüber nachdenken was der Gegner denkt dass du denkst dass er denkt", nl: "Te veel nadenken over wat tegenstander denkt dat jij denkt dat hij denkt" },
+          { en: "Playing at your skill level", es: "Jugar a tu nivel de habilidad", de: "Auf deinem Fähigkeitsniveau spielen", nl: "Spelen op je vaardigheidsniveau" },
+          { en: "Gradually increasing bets", es: "Aumentar gradualmente las apuestas", de: "Einsätze schrittweise erhöhen", nl: "Inzetten geleidelijk verhogen" },
+          { en: "Maintaining chip stack", es: "Mantener pila de fichas", de: "Chip-Stack beibehalten", nl: "Fiche stapel behouden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Leveling refers to overthinking the meta-game of 'I think that they think that I think...' which can lead to making suboptimal plays by outthinking yourself.",
+          es: "Leveling se refiere a pensar demasiado en el meta-juego de 'pienso que ellos piensan que yo pienso...' lo que puede llevar a hacer jugadas subóptimas al pensar demasiado.",
+          de: "Leveling bezieht sich auf das Überdenken des Meta-Spiels von 'ich denke dass sie denken dass ich denke...' was zu suboptimalen Spielzügen führen kann indem man sich selbst überdenkt.",
+          nl: "Leveling verwijst naar het te veel nadenken over het meta-spel van 'ik denk dat zij denken dat ik denk...' wat kan leiden tot suboptimale speelzetten door jezelf te slim af te zijn."
+        }
+      },
+      {
+        question: {
+          en: "In Sheepshead, what is unique about the permanent trump structure?",
+          es: "En Sheepshead, ¿qué es único sobre la estructura de triunfo permanente?",
+          de: "Was ist einzigartig an der permanenten Trumpfstruktur beim Sheepshead?",
+          nl: "Wat is uniek aan de permanente troefstructuur bij Sheepshead?"
+        },
+        options: [
+          { en: "All Queens, Jacks, and Diamonds are always trump", es: "Todas las Reinas, Jotas y Diamantes son siempre triunfo", de: "Alle Damen, Buben und Karos sind immer Trumpf", nl: "Alle Vrouwen, Boeren en Ruiten zijn altijd troef" },
+          { en: "Only Aces are trump", es: "Solo los Ases son triunfo", de: "Nur Asse sind Trumpf", nl: "Alleen Azen zijn troef" },
+          { en: "Trump changes each hand", es: "El triunfo cambia cada mano", de: "Trumpf wechselt jedes Blatt", nl: "Troef verandert elke hand" },
+          { en: "No permanent trump exists", es: "No existe triunfo permanente", de: "Es gibt keinen permanenten Trumpf", nl: "Er bestaat geen permanente troef" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Sheepshead has a unique fixed trump structure where all Queens, all Jacks, and all Diamond cards are permanently trump, ranked in a specific order (Q♣, Q♠, Q♥, Q♦, J♣, etc.).",
+          es: "Sheepshead tiene una estructura de triunfo fija única donde todas las Reinas, todas las Jotas y todas las cartas de Diamantes son permanentemente triunfo, clasificadas en un orden específico (Q♣, Q♠, Q♥, Q♦, J♣, etc.).",
+          de: "Sheepshead hat eine einzigartige feste Trumpfstruktur bei der alle Damen, alle Buben und alle Karo-Karten permanent Trumpf sind, in einer bestimmten Reihenfolge geordnet (D♣, D♠, D♥, D♦, B♣, usw.).",
+          nl: "Sheepshead heeft een unieke vaste troefstructuur waarbij alle Vrouwen, alle Boeren en alle Ruiten kaarten permanent troef zijn, gerangschikt in een specifieke volgorde (V♣, V♠, V♥, V♦, B♣, enz.)."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'double-suited' hand in Omaha?",
+          es: "¿Qué es una mano 'doble adecuada' en Omaha?",
+          de: "Was ist ein 'Doppel-Suited' Blatt beim Omaha?",
+          nl: "Wat is een 'dubbel-geschikte' hand bij Omaha?"
+        },
+        options: [
+          { en: "Four hole cards with two pairs of same suits", es: "Cuatro cartas ocultas con dos pares del mismo palo", de: "Vier verdeckte Karten mit zwei Paaren gleicher Farben", nl: "Vier gesloten kaarten met twee paren van dezelfde kleuren" },
+          { en: "Having two pairs", es: "Tener dos pares", de: "Zwei Paare haben", nl: "Twee paren hebben" },
+          { en: "All four cards same suit", es: "Las cuatro cartas del mismo palo", de: "Alle vier Karten gleiche Farbe", nl: "Alle vier kaarten dezelfde kleur" },
+          { en: "Two suited connectors", es: "Dos conectores del mismo palo", de: "Zwei suited Verbinder", nl: "Twee geschikte connectoren" }
+        },
+        correct: 0,
+        explanation: {
+          en: "A double-suited hand has two pairs of cards in the same suit (e.g., A♥K♥Q♠J♠), giving flush potential in two suits and making it a premium starting hand.",
+          es: "Una mano doble adecuada tiene dos pares de cartas del mismo palo (ej., A♥K♥Q♠J♠), dando potencial de color en dos palos y convirtiéndola en una mano inicial premium.",
+          de: "Ein Doppel-Suited Blatt hat zwei Paare von Karten in der gleichen Farbe (z.B. A♥K♥D♠B♠), was Flush-Potential in zwei Farben gibt und es zu einem Premium-Startblatt macht.",
+          nl: "Een dubbel-geschikte hand heeft twee paren kaarten in dezelfde kleur (bijv. A♥K♥V♠B♠), wat flush potentieel geeft in twee kleuren en het een premium starthand maakt."
+        }
+      },
+      {
+        question: {
+          en: "In Euchre, what is 'going alone'?",
+          es: "En Euchre, ¿qué es 'ir solo'?",
+          de: "Was ist 'alleine gehen' beim Euchre?",
+          nl: "Wat is 'alleen gaan' bij Euchre?"
+        },
+        options: [
+          { en: "Playing without partner for bonus points if winning all tricks", es: "Jugar sin compañero por puntos de bonificación si ganas todas las bazas", de: "Ohne Partner spielen für Bonuspunkte bei Gewinn aller Stiche", nl: "Spelen zonder partner voor bonuspunten bij winnen van alle slagen" },
+          { en: "Bidding without trump", es: "Pujar sin triunfo", de: "Ohne Trumpf bieten", nl: "Bieden zonder troef" },
+          { en: "Playing solitaire", es: "Jugar solitario", de: "Solitär spielen", nl: "Patience spelen" },
+          { en: "Being the only defender", es: "Ser el único defensor", de: "Der einzige Verteidiger sein", nl: "De enige verdediger zijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Going alone means the maker plays without their partner (who sits out), attempting to win all 5 tricks for 4 points instead of the usual 1-2 points.",
+          es: "Ir solo significa que el hacedor juega sin su compañero (quien se sienta afuera), intentando ganar las 5 bazas por 4 puntos en lugar de los 1-2 puntos habituales.",
+          de: "Alleine gehen bedeutet dass der Macher ohne seinen Partner spielt (der aussetzt), versucht alle 5 Stiche zu gewinnen für 4 Punkte statt der üblichen 1-2 Punkte.",
+          nl: "Alleen gaan betekent dat de maker speelt zonder hun partner (die er uit zit), probeert alle 5 slagen te winnen voor 4 punten in plaats van de gebruikelijke 1-2 punten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'blockers' concept in poker?",
+          es: "¿Qué es el concepto de 'bloqueadores' en el póker?",
+          de: "Was ist das 'Blocker'-Konzept beim Poker?",
+          nl: "Wat is het 'blockers' concept bij poker?"
+        },
+        options: [
+          { en: "Holding cards that reduce opponent's possible strong hands", es: "Tener cartas que reducen las posibles manos fuertes del oponente", de: "Karten halten die mögliche starke Blätter des Gegners reduzieren", nl: "Kaarten houden die mogelijke sterke handen van tegenstander verminderen" },
+          { en: "Blocking opponent from betting", es: "Bloquear al oponente para que no apueste", de: "Gegner am Setzen hindern", nl: "Tegenstander blokkeren van inzetten" },
+          { en: "Playing defensive poker", es: "Jugar póker defensivo", de: "Defensiv Poker spielen", nl: "Defensief poker spelen" },
+          { en: "Sitting behind aggressive player", es: "Sentarse detrás de jugador agresivo", de: "Hinter aggressivem Spieler sitzen", nl: "Achter agressieve speler zitten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Blockers are cards you hold that make it less likely your opponent has certain strong hands. For example, holding an Ace blocks some of their possible Ace-high hands.",
+          es: "Los bloqueadores son cartas que tienes que hacen menos probable que tu oponente tenga ciertas manos fuertes. Por ejemplo, tener un As bloquea algunas de sus posibles manos con As alto.",
+          de: "Blocker sind Karten die man hält die es weniger wahrscheinlich machen dass der Gegner bestimmte starke Blätter hat. Zum Beispiel blockiert ein Ass einige mögliche Ass-hohe Blätter.",
+          nl: "Blockers zijn kaarten die je houdt die het minder waarschijnlijk maken dat je tegenstander bepaalde sterke handen heeft. Bijvoorbeeld, een Aas houden blokkeert enkele van hun mogelijke Aas-hoge handen."
+        }
+      },
+      {
+        question: {
+          en: "In Doppelkopf, how many total cards are in play?",
+          es: "En Doppelkopf, ¿cuántas cartas en total están en juego?",
+          de: "Wie viele Karten insgesamt sind beim Doppelkopf im Spiel?",
+          nl: "Hoeveel kaarten in totaal zijn er in het spel bij Doppelkopf?"
+        },
+        options: [
+          { en: "32", es: "32", de: "32", nl: "32" },
+          { en: "40", es: "40", de: "40", nl: "40" },
+          { en: "48", es: "48", de: "48", nl: "48" },
+          { en: "52", es: "52", de: "52", nl: "52" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Doppelkopf uses 48 cards - two complete sets of cards from 9 to Ace in each of the four suits, creating a double deck.",
+          es: "Doppelkopf usa 48 cartas - dos conjuntos completos de cartas del 9 al As en cada uno de los cuatro palos, creando un mazo doble.",
+          de: "Doppelkopf verwendet 48 Karten - zwei vollständige Sätze von Karten von 9 bis Ass in jeder der vier Farben, was ein Doppeldeck ergibt.",
+          nl: "Doppelkopf gebruikt 48 kaarten - twee complete sets kaarten van 9 tot Aas in elk van de vier kleuren, wat een dubbel deck creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is 'equity' in poker?",
+          es: "¿Qué es 'equidad' en el póker?",
+          de: "Was ist 'Equity' beim Poker?",
+          nl: "Wat is 'equity' bij poker?"
+        },
+        options: [
+          { en: "Your share of pot based on win probability", es: "Tu parte del bote basada en probabilidad de ganar", de: "Dein Anteil am Pot basierend auf Gewinnwahrscheinlichkeit", nl: "Je aandeel van de pot gebaseerd op winkans" },
+          { en: "Total chips in your stack", es: "Total de fichas en tu pila", de: "Gesamtzahl der Chips in deinem Stack", nl: "Totaal aantal fiches in je stapel" },
+          { en: "Fairness of the game", es: "Equidad del juego", de: "Fairness des Spiels", nl: "Eerlijkheid van het spel" },
+          { en: "Your position at table", es: "Tu posición en la mesa", de: "Deine Position am Tisch", nl: "Je positie aan de tafel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Equity is your percentage share of the pot based on your probability of winning. For example, if you have a 60% chance to win a $100 pot, your equity is $60.",
+          es: "La equidad es tu porcentaje del bote basado en tu probabilidad de ganar. Por ejemplo, si tienes un 60% de probabilidad de ganar un bote de $100, tu equidad es $60.",
+          de: "Equity ist dein prozentualer Anteil am Pot basierend auf deiner Gewinnwahrscheinlichkeit. Zum Beispiel, wenn du eine 60% Chance hast einen $100 Pot zu gewinnen, ist deine Equity $60.",
+          nl: "Equity is je percentage aandeel van de pot gebaseerd op je winkans. Bijvoorbeeld, als je een 60% kans hebt om een $100 pot te winnen, is je equity $60."
+        }
+      },
+      {
+        question: {
+          en: "In Bridge, what is a 'Vienna Coup'?",
+          es: "En Bridge, ¿qué es un 'Vienna Coup'?",
+          de: "Was ist ein 'Vienna Coup' beim Bridge?",
+          nl: "Wat is een 'Vienna Coup' bij Bridge?"
+        },
+        options: [
+          { en: "Deliberately cashing winner to unblock for future squeeze", es: "Cobrar deliberadamente ganador para desbloquear para futuro apretón", de: "Absichtlich Gewinner kassieren um für zukünftigen Squeeze freizumachen", nl: "Opzettelijk winnaar verzilveren om vrij te maken voor toekomstige squeeze" },
+          { en: "Bidding aggressively from Vienna", es: "Pujar agresivamente desde Viena", de: "Aggressiv aus Wien bieten", nl: "Agressief bieden vanuit Wenen" },
+          { en: "Leading trump twice", es: "Liderar triunfo dos veces", de: "Zweimal Trumpf ausspielen", nl: "Twee keer troef leiden" },
+          { en: "Sacrificing to save overtricks", es: "Sacrificar para salvar bazas extra", de: "Opfern um Überstiche zu retten", nl: "Opofferen om overslagen te redden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Vienna Coup involves deliberately cashing a winner early to unblock a suit, setting up a squeeze position later in the hand where opponent must discard.",
+          es: "El Vienna Coup implica cobrar deliberadamente un ganador temprano para desbloquear un palo, estableciendo una posición de apretón más tarde en la mano donde el oponente debe descartar.",
+          de: "Der Vienna Coup beinhaltet absichtlich früh einen Gewinner zu kassieren um eine Farbe freizumachen, wodurch später im Blatt eine Squeeze-Position entsteht wo der Gegner ablegen muss.",
+          nl: "De Vienna Coup houdt in opzettelijk vroeg een winnaar verzilveren om een kleur vrij te maken, wat later in de hand een squeeze positie creëert waar tegenstander moet weggooien."
+        }
+      },
+      {
+        question: {
+          en: "What is 'SPR' in poker?",
+          es: "¿Qué es 'SPR' en el póker?",
+          de: "Was ist 'SPR' beim Poker?",
+          nl: "Wat is 'SPR' bij poker?"
+        },
+        options: [
+          { en: "Stack-to-Pot Ratio", es: "Ratio Pila-a-Bote", de: "Stack-zu-Pot Verhältnis", nl: "Stack-tot-Pot Ratio" },
+          { en: "Standard Poker Rules", es: "Reglas Estándar de Póker", de: "Standard Poker Regeln", nl: "Standaard Poker Regels" },
+          { en: "Starting Position Rank", es: "Rango de Posición Inicial", de: "Startpositions-Rang", nl: "Start Positie Rang" },
+          { en: "Suited Premium Range", es: "Rango Premium Adecuado", de: "Suited Premium Range", nl: "Geschikte Premium Range" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "SPR (Stack-to-Pot Ratio) is the ratio of the effective stack size to the pot size, crucial for determining optimal post-flop strategy and commitment decisions.",
+          es: "SPR (Ratio Pila-a-Bote) es la proporción del tamaño efectivo de la pila al tamaño del bote, crucial para determinar la estrategia óptima post-flop y decisiones de compromiso.",
+          de: "SPR (Stack-zu-Pot Verhältnis) ist das Verhältnis der effektiven Stack-Größe zur Pot-Größe, entscheidend für die optimale Post-Flop-Strategie und Commitment-Entscheidungen.",
+          nl: "SPR (Stack-tot-Pot Ratio) is de verhouding van de effectieve stapelgrootte tot de potgrootte, cruciaal voor het bepalen van optimale post-flop strategie en commitment beslissingen."
+        }
+      },
+      {
+        question: {
+          en: "In 500 (Five Hundred), what is a 'misère' bid?",
+          es: "En 500 (Quinientos), ¿qué es una puja 'misère'?",
+          de: "Was ist ein 'Misère'-Gebot beim 500 (Fünfhundert)?",
+          nl: "Wat is een 'misère' bod bij 500 (Vijfhonderd)?"
+        },
+        options: [
+          { en: "Bidding to lose all tricks playing alone", es: "Pujar para perder todas las bazas jugando solo", de: "Bieten um alle Stiche zu verlieren alleine spielend", nl: "Bieden om alle slagen te verliezen alleen spelend" },
+          { en: "Minimum bid allowed", es: "Puja mínima permitida", de: "Minimales erlaubtes Gebot", nl: "Minimum toegestaan bod" },
+          { en: "Playing with no trump", es: "Jugar sin triunfo", de: "Ohne Trumpf spielen", nl: "Spelen zonder troef" },
+          { en: "Bidding 500 points", es: "Pujar 500 puntos", de: "500 Punkte bieten", nl: "500 punten bieden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Misère (or Nullo) is a special bid where the player commits to losing every trick while playing alone against both opponents, worth a fixed number of points.",
+          es: "Misère (o Nullo) es una puja especial donde el jugador se compromete a perder cada baza mientras juega solo contra ambos oponentes, vale un número fijo de puntos.",
+          de: "Misère (oder Nullo) ist ein spezielles Gebot bei dem sich der Spieler verpflichtet jeden Stich zu verlieren während er alleine gegen beide Gegner spielt, wert eine feste Punktzahl.",
+          nl: "Misère (of Nullo) is een speciaal bod waarbij de speler zich committeert aan het verliezen van elke slag terwijl hij alleen speelt tegen beide tegenstanders, waard een vast aantal punten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'running it twice' in poker?",
+          es: "¿Qué es 'correrlo dos veces' en el póker?",
+          de: "Was ist 'zweimal laufen lassen' beim Poker?",
+          nl: "Wat is 'het twee keer laten lopen' bij poker?"
+        },
+        options: [
+          { en: "Dealing remaining cards twice to split variance", es: "Repartir cartas restantes dos veces para dividir varianza", de: "Verbleibende Karten zweimal austeilen um Varianz zu teilen", nl: "Resterende kaarten twee keer delen om variantie te verdelen" },
+          { en: "Playing same hand twice", es: "Jugar la misma mano dos veces", de: "Gleiche Hand zweimal spielen", nl: "Dezelfde hand twee keer spelen" },
+          { en: "Betting in two rounds", es: "Apostar en dos rondas", de: "In zwei Runden setzen", nl: "In twee rondes inzetten" },
+          { en: "Drawing replacement cards twice", es: "Sacar cartas de reemplazo dos veces", de: "Zweimal Ersatzkarten ziehen", nl: "Twee keer vervangingskaarten trekken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Running it twice means dealing the remaining community cards twice when all-in, with each board awarding half the pot, reducing variance while maintaining expected value.",
+          es: "Correrlo dos veces significa repartir las cartas comunitarias restantes dos veces cuando están all-in, con cada tablero otorgando la mitad del bote, reduciendo la varianza mientras se mantiene el valor esperado.",
+          de: "Zweimal laufen lassen bedeutet die verbleibenden Gemeinschaftskarten zweimal auszuteilen wenn All-In, wobei jedes Board die Hälfte des Pots vergibt, Varianz reduziert während der Erwartungswert erhalten bleibt.",
+          nl: "Het twee keer laten lopen betekent de resterende gemeenschappelijke kaarten twee keer delen wanneer all-in, waarbij elk bord de helft van de pot toekent, variantie vermindert terwijl verwachte waarde behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "In Bridge, what is an 'avoidance play'?",
+          es: "En Bridge, ¿qué es una 'jugada de evitación'?",
+          de: "Was ist ein 'Vermeidungsspiel' beim Bridge?",
+          nl: "Wat is een 'vermijdingsspel' bij Bridge?"
+        },
+        options: [
+          { en: "Preventing dangerous opponent from gaining lead", es: "Prevenir que el oponente peligroso obtenga la iniciativa", de: "Verhindern dass gefährlicher Gegner die Führung erhält", nl: "Voorkomen dat gevaarlijke tegenstander de leiding krijgt" },
+          { en: "Not bidding risky contracts", es: "No pujar contratos arriesgados", de: "Keine riskanten Kontrakte bieten", nl: "Geen riskante contracten bieden" },
+          { en: "Ducking all tricks", es: "Esquivar todas las bazas", de: "Alle Stiche ducken", nl: "Alle slagen ontwijken" },
+          { en: "Passing on weak hands", es: "Pasar con manos débiles", de: "Mit schwachen Blättern passen", nl: "Passen met zwakke handen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Avoidance play means maneuvering to keep a dangerous opponent (who could lead through your weakness) off lead, while allowing the safe opponent to win tricks instead.",
+          es: "La jugada de evitación significa maniobrar para mantener a un oponente peligroso (que podría liderar a través de tu debilidad) sin la iniciativa, mientras se permite al oponente seguro ganar bazas en su lugar.",
+          de: "Vermeidungsspiel bedeutet zu manövrieren um einen gefährlichen Gegner (der durch deine Schwäche ausspielen könnte) von der Führung fernzuhalten, während man dem sicheren Gegner erlaubt Stiche zu gewinnen.",
+          nl: "Vermijdingsspel betekent manoeuvreren om een gevaarlijke tegenstander (die door je zwakte zou kunnen leiden) van de leiding te houden, terwijl de veilige tegenstander slagen mag winnen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'min-cash' mentality in poker tournaments?",
+          es: "¿Qué es la mentalidad 'min-cash' en torneos de póker?",
+          de: "Was ist 'Min-Cash' Mentalität bei Poker-Turnieren?",
+          nl: "Wat is 'min-cash' mentaliteit bij poker toernooien?"
+        },
+        options: [
+          { en: "Playing overly conservative to barely reach money spots", es: "Jugar demasiado conservador para apenas alcanzar posiciones de dinero", de: "Zu konservativ spielen um gerade Geldplätze zu erreichen", nl: "Te conservatief spelen om net geldplaatsen te bereiken" },
+          { en: "Minimizing buy-in costs", es: "Minimizar costos de entrada", de: "Buy-In-Kosten minimieren", nl: "Buy-in kosten minimaliseren" },
+          { en: "Going all-in frequently", es: "Ir all-in frecuentemente", de: "Häufig All-In gehen", nl: "Vaak all-in gaan" },
+          { en: "Playing minimum stakes", es: "Jugar apuestas mínimas", de: "Mindesteinsätze spielen", nl: "Minimale inzetten spelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Min-cash mentality is playing overly tight near the money bubble just to secure a minimum payout, often -EV compared to playing optimally for tournament victory.",
+          es: "La mentalidad min-cash es jugar demasiado apretado cerca de la burbuja del dinero solo para asegurar un pago mínimo, a menudo -EV comparado con jugar óptimamente para la victoria del torneo.",
+          de: "Min-Cash Mentalität ist zu tight zu spielen nahe der Money Bubble nur um eine Mindestauszahlung zu sichern, oft -EV im Vergleich zu optimal für Turniersieg zu spielen.",
+          nl: "Min-cash mentaliteit is te strak spelen nabij de geldbubbel alleen om een minimale uitbetaling veilig te stellen, vaak -EV vergeleken met optimaal spelen voor toernooioverwinning."
+        }
+      },
+      {
+        question: {
+          en: "In Bourré, what does being 'bourréed' mean?",
+          es: "En Bourré, ¿qué significa ser 'bourréed'?",
+          de: "Was bedeutet 'bourréed' werden beim Bourré?",
+          nl: "Wat betekent 'bourréed' worden bij Bourré?"
+        },
+        options: [
+          { en: "Failing to win any tricks and matching the pot as penalty", es: "Fallar en ganar bazas e igualar el bote como penalización", de: "Keinen Stich gewinnen und den Pot als Strafe angleichen", nl: "Geen slagen winnen en de pot als straf evenaren" },
+          { en: "Winning all tricks", es: "Ganar todas las bazas", de: "Alle Stiche gewinnen", nl: "Alle slagen winnen" },
+          { en: "Being dealt a perfect hand", es: "Recibir una mano perfecta", de: "Ein perfektes Blatt ausgeteilt bekommen", nl: "Een perfecte hand gedeeld krijgen" },
+          { en: "Folding before play", es: "Retirarse antes de jugar", de: "Vor dem Spiel folden", nl: "Passen voor het spel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Being bourréed means you played a hand but failed to win any tricks, forcing you to match the entire pot as a penalty - a potentially very costly outcome.",
+          es: "Ser bourréed significa que jugaste una mano pero fallaste en ganar bazas, forzándote a igualar el bote entero como penalización - un resultado potencialmente muy costoso.",
+          de: "Bourréed werden bedeutet dass man eine Hand gespielt hat aber keinen Stich gewonnen hat, was einen zwingt den gesamten Pot als Strafe anzugleichen - ein potenziell sehr teures Ergebnis.",
+          nl: "Bourréed worden betekent dat je een hand speelde maar geen slagen won, wat je dwingt de gehele pot als straf te evenaren - een potentieel zeer kostbaar resultaat."
+        }
+      },
+      {
+        question: {
+          en: "What is 'red line' in poker tracking software?",
+          es: "¿Qué es la 'línea roja' en software de seguimiento de póker?",
+          de: "Was ist die 'rote Linie' in Poker-Tracking-Software?",
+          nl: "Wat is 'rode lijn' in poker tracking software?"
+        },
+        options: [
+          { en: "Winnings excluding showdown (non-showdown winnings)", es: "Ganancias excluyendo showdown (ganancias sin showdown)", de: "Gewinne ohne Showdown (Nicht-Showdown-Gewinne)", nl: "Winsten exclusief showdown (niet-showdown winsten)" },
+          { en: "Total losses over time", es: "Pérdidas totales con el tiempo", de: "Gesamtverluste über Zeit", nl: "Totale verliezen over tijd" },
+          { en: "Danger zone of bankroll", es: "Zona de peligro del bankroll", de: "Gefahrenzone des Bankrolls", nl: "Gevarenzone van bankroll" },
+          { en: "Hands played in the red", es: "Manos jugadas en rojo", de: "In Rot gespielte Hände", nl: "In het rood gespeelde handen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The red line shows non-showdown winnings - money won by forcing opponents to fold rather than winning at showdown, indicating effectiveness of aggression and bluffing.",
+          es: "La línea roja muestra ganancias sin showdown - dinero ganado forzando a los oponentes a retirarse en lugar de ganar en showdown, indicando efectividad de agresión y bluffing.",
+          de: "Die rote Linie zeigt Nicht-Showdown-Gewinne - Geld gewonnen indem Gegner zum Folden gezwungen werden anstatt im Showdown zu gewinnen, was Effektivität von Aggression und Bluffen anzeigt.",
+          nl: "De rode lijn toont niet-showdown winsten - geld gewonnen door tegenstanders te dwingen te passen in plaats van te winnen bij showdown, wat effectiviteit van agressie en bluffen aangeeft."
+        }
       }
     ]
   };

@@ -648,9 +648,9 @@ input[type="range"]::-moz-range-thumb {
 #esm-complete-modal > div,
 #unlock-topic-modal > div,
 #insufficient-stars-modal > div {
-  background-color: var(--bg-primary) !important;
-  background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
-  border: 3px solid var(--pinkish-red) !important;
+  background: #1a2847 !important;
+  border-radius: 16px;
+  border: 3px solid var(--vibrant-orange) !important;
 }
 
 /* Light mode - same as home/subjects/settings screens */
@@ -667,9 +667,9 @@ body.light-mode #sm-complete-modal > div,
 body.light-mode #esm-complete-modal > div,
 body.light-mode #unlock-topic-modal > div,
 body.light-mode #insufficient-stars-modal > div {
-  background-color: var(--bg-primary) !important;
-  background-image: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(2, 183, 206, 0.1) 100%) !important;
-  border: 3px solid var(--pinkish-red) !important;
+  background: #1a2847 !important;
+  border-radius: 16px;
+  border: 3px solid var(--vibrant-orange) !important;
 }
 
 /* Ensure button containers in modals have transparent backgrounds */
@@ -679,12 +679,16 @@ body.light-mode #insufficient-stars-modal > div {
 #challenge-failed-modal > div > div,
 #locked-modal > div > div,
 #gamemode-locked-modal > div > div,
-#gamemode-info-modal > div > div,
 #tf-complete-modal > div > div,
 #lr-complete-modal > div > div,
 #sm-complete-modal > div > div,
 #esm-complete-modal > div > div {
   background: transparent !important;
+}
+
+/* Gamemode info modal should NOT have transparent background */
+#gamemode-info-modal > div > div {
+  background: none !important;
 }
 
 /* Modal buttons */
@@ -1385,6 +1389,14 @@ body.light-mode #explanation-container p {
 
 /* Settings screen */
 #settings-screen {
+  color: var(--white);
+}
+
+#settings-title {
+  color: var(--vibrant-orange) !important;
+}
+
+#settings-screen > div {
   background: linear-gradient(135deg, rgba(18, 28, 58, 0.9) 0%, rgba(147, 51, 234, 0.1) 100%);
   backdrop-filter: blur(10px);
   border-radius: 16px;
@@ -1393,8 +1405,13 @@ body.light-mode #explanation-container p {
   color: var(--white);
 }
 
-#settings-screen h2 {
-  color: var(--golden-yellow);
+#settings-screen h3 {
+  color: var(--vibrant-orange);
+}
+
+#audio-label,
+#language-label {
+  color: var(--vibrant-orange) !important;
 }
 
 #settings-screen label {

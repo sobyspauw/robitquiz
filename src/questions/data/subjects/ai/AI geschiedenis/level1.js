@@ -427,6 +427,426 @@
           de: "Logic Theorist, entwickelt 1955-1956, war das erste Programm das darauf ausgelegt war mathematische Theoreme automatisch zu beweisen. Es bewies erfolgreich 38 der ersten 52 Theoreme in Russell und Whiteheads Principia Mathematica und demonstrierte dass Maschinen logisches Denken durchführen konnten.",
           nl: "Logic Theorist, ontwikkeld in 1955-1956, was het eerste programma ontworpen om wiskundige stellingen automatisch te bewijzen. Het bewees succesvol 38 van de eerste 52 stellingen in Russell en Whitehead's Principia Mathematica, wat toonde dat machines logisch redeneren konden uitvoeren."
         }
+      },
+      {
+        question: {
+          en: "In which decade did the first 'AI Winter' occur?",
+          es: "¿En qué década ocurrió el primer 'Invierno de IA'?",
+          de: "In welchem Jahrzehnt trat der erste 'KI-Winter' auf?",
+          nl: "In welk decennium vond de eerste 'AI Winter' plaats?"
+        },
+        options: [
+          { en: "1950s", es: "1950", de: "1950er", nl: "Jaren 1950" },
+          { en: "1960s", es: "1960", de: "1960er", nl: "Jaren 1960" },
+          { en: "1970s", es: "1970", de: "1970er", nl: "Jaren 1970" },
+          { en: "1980s", es: "1980", de: "1980er", nl: "Jaren 1980" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The first AI Winter occurred in the 1970s when AI research funding was dramatically reduced due to unmet expectations. This period lasted until the early 1980s when expert systems revived interest.",
+          es: "El primer Invierno de IA ocurrió en los años 1970 cuando la financiación de investigación de IA se redujo dramáticamente debido a expectativas no cumplidas. Este período duró hasta principios de los 1980.",
+          de: "Der erste KI-Winter trat in den 1970er Jahren auf, als die KI-Forschungsfinanzierung aufgrund nicht erfüllter Erwartungen dramatisch reduziert wurde. Diese Periode dauerte bis Anfang der 1980er.",
+          nl: "De eerste AI Winter vond plaats in de jaren 1970 toen AI onderzoeksfinanciering dramatisch werd verminderd vanwege niet-ingeloste verwachtingen. Deze periode duurde tot begin jaren 1980."
+        }
+      },
+      {
+        question: {
+          en: "What was the Perceptron created by Frank Rosenblatt?",
+          es: "¿Qué fue el Perceptrón creado por Frank Rosenblatt?",
+          de: "Was war das Perceptron von Frank Rosenblatt?",
+          nl: "Wat was het Perceptron gemaakt door Frank Rosenblatt?"
+        },
+        options: [
+          { en: "An early neural network designed for image recognition", es: "Una red neuronal temprana diseñada para reconocimiento de imágenes", de: "Ein frühes neuronales Netzwerk für Bilderkennung", nl: "Een vroeg neuraal netwerk ontworpen voor beeldherkenning" },
+          { en: "A programming language", es: "Un lenguaje de programación", de: "Eine Programmiersprache", nl: "Een programmeertaal" },
+          { en: "A computer processor", es: "Un procesador de computadora", de: "Ein Computerprozessor", nl: "Een computerprocessor" },
+          { en: "A database system", es: "Un sistema de base de datos", de: "Ein Datenbanksystem", nl: "Een databasesysteem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Perceptron, invented in 1957, was an early type of neural network designed to recognize patterns and images. It laid the groundwork for modern neural networks despite its limitations.",
+          es: "El Perceptrón, inventado en 1957, fue un tipo temprano de red neuronal diseñado para reconocer patrones e imágenes. Sentó las bases para las redes neuronales modernas a pesar de sus limitaciones.",
+          de: "Das Perceptron, 1957 erfunden, war ein früher Typ neuronales Netzwerk zum Erkennen von Mustern und Bildern. Es legte trotz seiner Einschränkungen den Grundstein für moderne neuronale Netze.",
+          nl: "Het Perceptron, uitgevonden in 1957, was een vroeg type neuraal netwerk ontworpen om patronen en beelden te herkennen. Het legde de basis voor moderne neurale netwerken ondanks zijn beperkingen."
+        }
+      },
+      {
+        question: {
+          en: "What was DENDRAL's primary purpose?",
+          es: "¿Cuál fue el propósito principal de DENDRAL?",
+          de: "Was war DENDRALs Hauptzweck?",
+          nl: "Wat was het primaire doel van DENDRAL?"
+        },
+        options: [
+          { en: "Analyzing chemical molecular structures", es: "Analizar estructuras moleculares químicas", de: "Chemische Molekülstrukturen analysieren", nl: "Chemische moleculaire structuren analyseren" },
+          { en: "Playing chess", es: "Jugar ajedrez", de: "Schach spielen", nl: "Schaken" },
+          { en: "Translating languages", es: "Traducir idiomas", de: "Sprachen übersetzen", nl: "Talen vertalen" },
+          { en: "Weather forecasting", es: "Pronóstico del tiempo", de: "Wettervorhersage", nl: "Weersvoorspelling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "DENDRAL, developed in the 1960s at Stanford, was the first expert system designed to analyze mass spectrometry data and determine chemical molecular structures. It demonstrated AI's practical applications in science.",
+          es: "DENDRAL, desarrollado en los años 1960 en Stanford, fue el primer sistema experto diseñado para analizar datos de espectrometría de masas y determinar estructuras moleculares químicas.",
+          de: "DENDRAL, in den 1960ern in Stanford entwickelt, war das erste Expertensystem zur Analyse von Massenspektrometriedaten und Bestimmung chemischer Molekülstrukturen.",
+          nl: "DENDRAL, ontwikkeld in de jaren 1960 bij Stanford, was het eerste expertsysteem ontworpen om massaspectrometriegegevens te analyseren en chemische moleculaire structuren te bepalen."
+        }
+      },
+      {
+        question: {
+          en: "Who developed the first chess program that could beat humans?",
+          es: "¿Quién desarrolló el primer programa de ajedrez que podía vencer humanos?",
+          de: "Wer entwickelte das erste Schachprogramm das Menschen schlagen konnte?",
+          nl: "Wie ontwikkelde het eerste schaakprogramma dat mensen kon verslaan?"
+        },
+        options: [
+          { en: "Various researchers in the 1970s", es: "Varios investigadores en los años 1970", de: "Verschiedene Forscher in den 1970ern", nl: "Verschillende onderzoekers in de jaren 1970" },
+          { en: "Alan Turing", es: "Alan Turing", de: "Alan Turing", nl: "Alan Turing" },
+          { en: "John von Neumann", es: "John von Neumann", de: "John von Neumann", nl: "John von Neumann" },
+          { en: "Claude Shannon", es: "Claude Shannon", de: "Claude Shannon", nl: "Claude Shannon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "While Turing and Shannon theorized about chess programs in the 1950s, actual programs that could beat average humans emerged in the 1970s through the work of multiple research teams.",
+          es: "Mientras Turing y Shannon teorizaron sobre programas de ajedrez en los 1950, programas que podían vencer humanos promedio surgieron en los 1970 del trabajo de múltiples equipos.",
+          de: "Während Turing und Shannon in den 1950ern über Schachprogramme theoretisierten, entstanden Programme die durchschnittliche Menschen schlagen konnten in den 1970ern durch mehrere Forschungsteams.",
+          nl: "Terwijl Turing en Shannon in de jaren 1950 theoretiseerden over schaakprogramma's, kwamen programma's die gemiddelde mensen konden verslaan in de jaren 1970 via het werk van meerdere onderzoeksteams."
+        }
+      },
+      {
+        question: {
+          en: "What was Shakey the Robot known for?",
+          es: "¿Por qué era conocido el robot Shakey?",
+          de: "Wofür war Shakey der Roboter bekannt?",
+          nl: "Waar was Shakey de Robot bekend om?"
+        },
+        options: [
+          { en: "First mobile robot with reasoning ability", es: "Primer robot móvil con capacidad de razonamiento", de: "Erster mobiler Roboter mit Denkfähigkeit", nl: "Eerste mobiele robot met redeneervermogen" },
+          { en: "First industrial assembly robot", es: "Primer robot de ensamblaje industrial", de: "Erster industrieller Montageroboter", nl: "Eerste industriële assemblagerobot" },
+          { en: "First humanoid robot", es: "Primer robot humanoide", de: "Erster humanoider Roboter", nl: "Eerste humanoïde robot" },
+          { en: "First robot on Mars", es: "Primer robot en Marte", de: "Erster Roboter auf Mars", nl: "Eerste robot op Mars" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Shakey, developed 1966-1972 at Stanford Research Institute, was the first mobile robot able to reason about its actions. It could perceive its environment, plan tasks, and navigate autonomously.",
+          es: "Shakey, desarrollado 1966-1972 en Stanford Research Institute, fue el primer robot móvil capaz de razonar sobre sus acciones. Podía percibir su entorno, planificar tareas y navegar autónomamente.",
+          de: "Shakey, 1966-1972 am Stanford Research Institute entwickelt, war der erste mobile Roboter der über seine Aktionen nachdenken konnte. Er konnte seine Umgebung wahrnehmen, Aufgaben planen und autonom navigieren.",
+          nl: "Shakey, ontwikkeld 1966-1972 bij Stanford Research Institute, was de eerste mobiele robot die kon redeneren over zijn acties. Hij kon zijn omgeving waarnemen, taken plannen en autonoom navigeren."
+        }
+      },
+      {
+        question: {
+          en: "What was significant about MYCIN in AI history?",
+          es: "¿Qué fue significativo sobre MYCIN en la historia de IA?",
+          de: "Was war bedeutsam an MYCIN in der KI-Geschichte?",
+          nl: "Wat was belangrijk aan MYCIN in de AI geschiedenis?"
+        },
+        options: [
+          { en: "It was an expert system for medical diagnosis", es: "Fue un sistema experto para diagnóstico médico", de: "Es war ein Expertensystem für medizinische Diagnose", nl: "Het was een expertsysteem voor medische diagnose" },
+          { en: "It was the first computer virus", es: "Fue el primer virus de computadora", de: "Es war der erste Computervirus", nl: "Het was het eerste computervirus" },
+          { en: "It was a programming language", es: "Fue un lenguaje de programación", de: "Es war eine Programmiersprache", nl: "Het was een programmeertaal" },
+          { en: "It was an early internet protocol", es: "Fue un protocolo temprano de internet", de: "Es war ein frühes Internetprotokoll", nl: "Het was een vroeg internetprotocol" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MYCIN, developed at Stanford in the 1970s, was an expert system for diagnosing bacterial infections and recommending antibiotics. It performed as well as human experts, showing AI's potential in medicine.",
+          es: "MYCIN, desarrollado en Stanford en los 1970, fue un sistema experto para diagnosticar infecciones bacterianas y recomendar antibióticos. Se desempeñó tan bien como expertos humanos.",
+          de: "MYCIN, in den 1970ern in Stanford entwickelt, war ein Expertensystem zur Diagnose bakterieller Infektionen und Empfehlung von Antibiotika. Es war so gut wie menschliche Experten.",
+          nl: "MYCIN, ontwikkeld bij Stanford in de jaren 1970, was een expertsysteem voor het diagnosticeren van bacteriële infecties en het aanbevelen van antibiotica. Het presteerde even goed als menselijke experts."
+        }
+      },
+      {
+        question: {
+          en: "What did the Lighthill Report (1973) conclude about AI?",
+          es: "¿Qué concluyó el Informe Lighthill (1973) sobre IA?",
+          de: "Was schloss der Lighthill-Bericht (1973) über KI?",
+          nl: "Wat concludeerde het Lighthill Report (1973) over AI?"
+        },
+        options: [
+          { en: "AI had failed to meet its promises", es: "La IA no había cumplido sus promesas", de: "KI hatte ihre Versprechen nicht erfüllt", nl: "AI had zijn beloften niet ingelost" },
+          { en: "AI would replace all jobs by 1980", es: "La IA reemplazaría todos los trabajos para 1980", de: "KI würde bis 1980 alle Jobs ersetzen", nl: "AI zou tegen 1980 alle banen vervangen" },
+          { en: "AI was ready for commercial use", es: "La IA estaba lista para uso comercial", de: "KI war bereit für kommerziellen Einsatz", nl: "AI was klaar voor commercieel gebruik" },
+          { en: "AI needed more funding immediately", es: "La IA necesitaba más financiamiento inmediatamente", de: "KI brauchte sofort mehr Finanzierung", nl: "AI had onmiddellijk meer financiering nodig" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Lighthill Report criticized AI research in the UK for overpromising and underdelivering. It led to reduced funding and contributed to the first AI Winter, though later developments proved many of its criticisms premature.",
+          es: "El Informe Lighthill criticó la investigación de IA en el Reino Unido por prometer demasiado y entregar poco. Llevó a financiamiento reducido y contribuyó al primer Invierno de IA.",
+          de: "Der Lighthill-Bericht kritisierte KI-Forschung in Großbritannien für Überversprechen und Unterlieferung. Er führte zu reduzierter Finanzierung und trug zum ersten KI-Winter bei.",
+          nl: "Het Lighthill Report bekritiseerde AI onderzoek in het VK voor te veel beloven en te weinig leveren. Het leidde tot verminderde financiering en droeg bij aan de eerste AI Winter."
+        }
+      },
+      {
+        question: {
+          en: "What language was primarily used for AI research in the early days?",
+          es: "¿Qué lenguaje se usó principalmente para investigación de IA en los primeros días?",
+          de: "Welche Sprache wurde hauptsächlich für KI-Forschung in den frühen Tagen verwendet?",
+          nl: "Welke taal werd vooral gebruikt voor AI onderzoek in de begindagen?"
+        },
+        options: [
+          { en: "LISP", es: "LISP", de: "LISP", nl: "LISP" },
+          { en: "FORTRAN", es: "FORTRAN", de: "FORTRAN", nl: "FORTRAN" },
+          { en: "COBOL", es: "COBOL", de: "COBOL", nl: "COBOL" },
+          { en: "BASIC", es: "BASIC", de: "BASIC", nl: "BASIC" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "LISP (List Processing), created by John McCarthy in 1958, became the dominant language for AI research. Its support for symbolic reasoning and recursive functions made it ideal for AI applications.",
+          es: "LISP (List Processing), creado por John McCarthy en 1958, se convirtió en el lenguaje dominante para investigación de IA. Su soporte para razonamiento simbólico y funciones recursivas lo hizo ideal.",
+          de: "LISP (List Processing), 1958 von John McCarthy erstellt, wurde die dominierende Sprache für KI-Forschung. Seine Unterstützung für symbolisches Denken und rekursive Funktionen machte es ideal.",
+          nl: "LISP (List Processing), gemaakt door John McCarthy in 1958, werd de dominante taal voor AI onderzoek. Zijn ondersteuning voor symbolisch redeneren en recursieve functies maakte het ideaal."
+        }
+      },
+      {
+        question: {
+          en: "What was STRIPS in AI history?",
+          es: "¿Qué fue STRIPS en la historia de IA?",
+          de: "Was war STRIPS in der KI-Geschichte?",
+          nl: "Wat was STRIPS in de AI geschiedenis?"
+        },
+        options: [
+          { en: "An automated planning system", es: "Un sistema de planificación automatizada", de: "Ein automatisiertes Planungssystem", nl: "Een geautomatiseerd planningssysteem" },
+          { en: "A computer graphics program", es: "Un programa de gráficos de computadora", de: "Ein Computergrafik-Programm", nl: "Een computergrafica programma" },
+          { en: "A network protocol", es: "Un protocolo de red", de: "Ein Netzwerkprotokoll", nl: "Een netwerkprotocol" },
+          { en: "An operating system", es: "Un sistema operativo", de: "Ein Betriebssystem", nl: "Een besturingssysteem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "STRIPS (Stanford Research Institute Problem Solver) was an automated planning system developed in 1971. It introduced the concept of planning with preconditions and effects, influencing modern AI planning systems.",
+          es: "STRIPS fue un sistema de planificación automatizada desarrollado en 1971. Introdujo el concepto de planificación con precondiciones y efectos, influyendo en sistemas modernos de planificación de IA.",
+          de: "STRIPS war ein automatisiertes Planungssystem entwickelt 1971. Es führte das Konzept der Planung mit Vorbedingungen und Effekten ein und beeinflusste moderne KI-Planungssysteme.",
+          nl: "STRIPS was een geautomatiseerd planningssysteem ontwikkeld in 1971. Het introduceerde het concept van planning met voorwaarden en effecten, wat moderne AI planningssystemen beïnvloedde."
+        }
+      },
+      {
+        question: {
+          en: "Who wrote the book 'Perceptrons' that highlighted neural network limitations?",
+          es: "¿Quién escribió el libro 'Perceptrons' que destacó las limitaciones de redes neuronales?",
+          de: "Wer schrieb das Buch 'Perceptrons' das neuronale Netzwerk-Einschränkungen hervorhob?",
+          nl: "Wie schreef het boek 'Perceptrons' dat neurale netwerk beperkingen benadrukte?"
+        },
+        options: [
+          { en: "Marvin Minsky and Seymour Papert", es: "Marvin Minsky y Seymour Papert", de: "Marvin Minsky und Seymour Papert", nl: "Marvin Minsky en Seymour Papert" },
+          { en: "Alan Turing and John von Neumann", es: "Alan Turing y John von Neumann", de: "Alan Turing und John von Neumann", nl: "Alan Turing en John von Neumann" },
+          { en: "Frank Rosenblatt and Warren McCulloch", es: "Frank Rosenblatt y Warren McCulloch", de: "Frank Rosenblatt und Warren McCulloch", nl: "Frank Rosenblatt en Warren McCulloch" },
+          { en: "Herbert Simon and Allen Newell", es: "Herbert Simon y Allen Newell", de: "Herbert Simon und Allen Newell", nl: "Herbert Simon en Allen Newell" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Minsky and Papert's 1969 book 'Perceptrons' mathematically proved that single-layer perceptrons couldn't solve certain problems like XOR. This contributed to reduced neural network funding until the 1980s.",
+          es: "El libro 'Perceptrons' de Minsky y Papert de 1969 probó matemáticamente que los perceptrones de una capa no podían resolver ciertos problemas como XOR. Esto contribuyó a financiamiento reducido.",
+          de: "Minsky und Paperts 1969er Buch 'Perceptrons' bewies mathematisch dass einschichtige Perceptrons bestimmte Probleme wie XOR nicht lösen konnten. Dies trug zu reduzierter Finanzierung bei.",
+          nl: "Minsky en Papert's 1969 boek 'Perceptrons' bewees wiskundig dat enkellaagse perceptrons bepaalde problemen zoals XOR niet konden oplossen. Dit droeg bij aan verminderde financiering."
+        }
+      },
+      {
+        question: {
+          en: "What was Prolog designed for?",
+          es: "¿Para qué fue diseñado Prolog?",
+          de: "Wofür wurde Prolog entworfen?",
+          nl: "Waarvoor was Prolog ontworpen?"
+        },
+        options: [
+          { en: "Logic programming and AI applications", es: "Programación lógica y aplicaciones de IA", de: "Logikprogrammierung und KI-Anwendungen", nl: "Logisch programmeren en AI toepassingen" },
+          { en: "System administration", es: "Administración de sistemas", de: "Systemverwaltung", nl: "Systeembeheer" },
+          { en: "Web development", es: "Desarrollo web", de: "Webentwicklung", nl: "Webontwikkeling" },
+          { en: "Game development", es: "Desarrollo de juegos", de: "Spieleentwicklung", nl: "Game ontwikkeling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prolog, created in 1972, was designed for logic programming and became popular in AI for tasks involving symbolic reasoning, natural language processing, and expert systems.",
+          es: "Prolog, creado en 1972, fue diseñado para programación lógica y se volvió popular en IA para tareas que involucran razonamiento simbólico, procesamiento de lenguaje natural y sistemas expertos.",
+          de: "Prolog, 1972 erstellt, wurde für Logikprogrammierung entworfen und wurde populär in KI für Aufgaben mit symbolischem Denken, natürlicher Sprachverarbeitung und Expertensystemen.",
+          nl: "Prolog, gemaakt in 1972, was ontworpen voor logisch programmeren en werd populair in AI voor taken met symbolisch redeneren, natuurlijke taalverwerking en expertsystemen."
+        }
+      },
+      {
+        question: {
+          en: "What was the 'frame problem' in AI research?",
+          es: "¿Qué fue el 'problema del marco' en investigación de IA?",
+          de: "Was war das 'Frame-Problem' in der KI-Forschung?",
+          nl: "Wat was het 'frame probleem' in AI onderzoek?"
+        },
+        options: [
+          { en: "The difficulty of representing what changes and what stays the same", es: "La dificultad de representar qué cambia y qué permanece igual", de: "Die Schwierigkeit darzustellen was sich ändert und was gleich bleibt", nl: "De moeilijkheid om te representeren wat verandert en wat hetzelfde blijft" },
+          { en: "A hardware limitation", es: "Una limitación de hardware", de: "Eine Hardware-Einschränkung", nl: "Een hardware beperking" },
+          { en: "A programming syntax error", es: "Un error de sintaxis de programación", de: "Ein Programmiersyntaxfehler", nl: "Een programmeer syntaxfout" },
+          { en: "A display rendering issue", es: "Un problema de renderizado de pantalla", de: "Ein Anzeigedarstellungsproblem", nl: "Een schermweergave probleem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The frame problem, identified in 1969, concerns how AI systems should represent which aspects of a situation remain unchanged when an action occurs. It remains a fundamental challenge in AI planning and reasoning.",
+          es: "El problema del marco, identificado en 1969, concierne cómo los sistemas de IA deben representar qué aspectos de una situación permanecen sin cambios cuando ocurre una acción.",
+          de: "Das Frame-Problem, 1969 identifiziert, betrifft wie KI-Systeme darstellen sollten welche Aspekte einer Situation unverändert bleiben wenn eine Aktion auftritt.",
+          nl: "Het frame probleem, geïdentificeerd in 1969, betreft hoe AI systemen moeten representeren welke aspecten van een situatie onveranderd blijven wanneer een actie optreedt."
+        }
+      },
+      {
+        question: {
+          en: "When was the backpropagation algorithm popularized for neural networks?",
+          es: "¿Cuándo se popularizó el algoritmo de retropropagación para redes neuronales?",
+          de: "Wann wurde der Backpropagation-Algorithmus für neuronale Netze populär?",
+          nl: "Wanneer werd het backpropagation algoritme gepopulariseerd voor neurale netwerken?"
+        },
+        options: [
+          { en: "1980s", es: "1980", de: "1980er", nl: "Jaren 1980" },
+          { en: "1950s", es: "1950", de: "1950er", nl: "Jaren 1950" },
+          { en: "1960s", es: "1960", de: "1960er", nl: "Jaren 1960" },
+          { en: "1990s", es: "1990", de: "1990er", nl: "Jaren 1990" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "While earlier versions existed, backpropagation was popularized in 1986 by Rumelhart, Hinton, and Williams. This algorithm enabled training multi-layer neural networks and helped revive neural network research.",
+          es: "Aunque existían versiones anteriores, la retropropagación fue popularizada en 1986 por Rumelhart, Hinton y Williams. Este algoritmo permitió entrenar redes neuronales multicapa.",
+          de: "Obwohl frühere Versionen existierten, wurde Backpropagation 1986 von Rumelhart, Hinton und Williams populär. Dieser Algorithmus ermöglichte das Training mehrschichtiger neuronaler Netze.",
+          nl: "Hoewel eerdere versies bestonden, werd backpropagation in 1986 gepopulariseerd door Rumelhart, Hinton en Williams. Dit algoritme maakte training van meerlaagse neurale netwerken mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What was the Stanford Cart project?",
+          es: "¿Qué fue el proyecto Stanford Cart?",
+          de: "Was war das Stanford Cart Projekt?",
+          nl: "Wat was het Stanford Cart project?"
+        },
+        options: [
+          { en: "An early autonomous vehicle experiment", es: "Un experimento temprano de vehículo autónomo", de: "Ein frühes autonomes Fahrzeugexperiment", nl: "Een vroeg autonoom voertuig experiment" },
+          { en: "A shopping cart tracking system", es: "Un sistema de seguimiento de carritos de compras", de: "Ein Einkaufswagenverfolgunssystem", nl: "Een winkelwagen volgsysteem" },
+          { en: "An online marketplace", es: "Un mercado en línea", de: "Ein Online-Marktplatz", nl: "Een online marktplaats" },
+          { en: "A library catalog system", es: "Un sistema de catálogo de biblioteca", de: "Ein Bibliothekskatalog-System", nl: "Een bibliotheek catalogussysteem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Stanford Cart, developed in the 1960s-1970s, was an early experiment in autonomous navigation using computer vision. It could navigate obstacle courses, pioneering self-driving vehicle technology.",
+          es: "El Stanford Cart, desarrollado en los 1960-1970, fue un experimento temprano en navegación autónoma usando visión por computadora. Podía navegar cursos de obstáculos.",
+          de: "Der Stanford Cart, in den 1960-1970ern entwickelt, war ein frühes Experiment in autonomer Navigation mit Computer Vision. Er konnte Hindernisparcours navigieren.",
+          nl: "De Stanford Cart, ontwikkeld in de jaren 1960-1970, was een vroeg experiment in autonome navigatie met computer vision. Het kon hindernisbanen navigeren."
+        }
+      },
+      {
+        question: {
+          en: "What is symbolic AI primarily based on?",
+          es: "¿En qué se basa principalmente la IA simbólica?",
+          de: "Worauf basiert symbolische KI hauptsächlich?",
+          nl: "Waar is symbolische AI vooral op gebaseerd?"
+        },
+        options: [
+          { en: "Logic and symbol manipulation", es: "Lógica y manipulación de símbolos", de: "Logik und Symbolmanipulation", nl: "Logica en symboolmanipulatie" },
+          { en: "Statistical learning", es: "Aprendizaje estadístico", de: "Statistisches Lernen", nl: "Statistisch leren" },
+          { en: "Genetic algorithms", es: "Algoritmos genéticos", de: "Genetische Algorithmen", nl: "Genetische algoritmen" },
+          { en: "Image processing", es: "Procesamiento de imágenes", de: "Bildverarbeitung", nl: "Beeldverwerking" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Symbolic AI, dominant from the 1950s-1980s, uses logic and symbol manipulation to represent knowledge and solve problems. It contrasts with modern connectionist approaches like neural networks.",
+          es: "La IA simbólica, dominante de los 1950-1980, usa lógica y manipulación de símbolos para representar conocimiento y resolver problemas. Contrasta con enfoques conexionistas modernos.",
+          de: "Symbolische KI, dominant von 1950-1980, verwendet Logik und Symbolmanipulation um Wissen darzustellen und Probleme zu lösen. Sie kontrastiert mit modernen konnektionistischen Ansätzen.",
+          nl: "Symbolische AI, dominant van de jaren 1950-1980, gebruikt logica en symboolmanipulatie om kennis te representeren en problemen op te lossen. Het contrasteert met moderne connectionistische benaderingen."
+        }
+      },
+      {
+        question: {
+          en: "What was the main goal of early AI researchers in the 1950s-60s?",
+          es: "¿Cuál fue el objetivo principal de investigadores tempranos de IA en los 1950-60?",
+          de: "Was war das Hauptziel früher KI-Forscher in den 1950-60ern?",
+          nl: "Wat was het hoofddoel van vroege AI onderzoekers in de jaren 1950-60?"
+        },
+        options: [
+          { en: "Creating machines that could think like humans", es: "Crear máquinas que pudieran pensar como humanos", de: "Maschinen schaffen die wie Menschen denken können", nl: "Machines creëren die konden denken zoals mensen" },
+          { en: "Building the internet", es: "Construir internet", de: "Das Internet bauen", nl: "Het internet bouwen" },
+          { en: "Developing video games", es: "Desarrollar videojuegos", de: "Videospiele entwickeln", nl: "Videogames ontwikkelen" },
+          { en: "Creating social media platforms", es: "Crear plataformas de redes sociales", de: "Social-Media-Plattformen erstellen", nl: "Social media platforms creëren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Early AI researchers believed they could create general artificial intelligence - machines capable of human-level thinking - within a few decades. While this proved overly optimistic, it drove fundamental research.",
+          es: "Los investigadores tempranos de IA creían que podían crear inteligencia artificial general - máquinas capaces de pensamiento a nivel humano - en pocas décadas.",
+          de: "Frühe KI-Forscher glaubten sie könnten allgemeine künstliche Intelligenz schaffen - Maschinen zu menschlichem Denken fähig - innerhalb weniger Jahrzehnte.",
+          nl: "Vroege AI onderzoekers geloofden dat ze algemene kunstmatige intelligentie konden creëren - machines capabel tot menselijk denkniveau - binnen enkele decennia."
+        }
+      },
+      {
+        question: {
+          en: "What computing limitation most restricted early AI research?",
+          es: "¿Qué limitación de computación restringió más la investigación temprana de IA?",
+          de: "Welche Rechenbeschränkung begrenzte frühe KI-Forschung am meisten?",
+          nl: "Welke computerbeperking beperkte vroeg AI onderzoek het meest?"
+        },
+        options: [
+          { en: "Limited processing power and memory", es: "Poder de procesamiento y memoria limitados", de: "Begrenzte Rechenleistung und Speicher", nl: "Beperkte verwerkingskracht en geheugen" },
+          { en: "Lack of internet connectivity", es: "Falta de conectividad a internet", de: "Fehlende Internetverbindung", nl: "Gebrek aan internetverbinding" },
+          { en: "No programming languages existed", es: "No existían lenguajes de programación", de: "Es gab keine Programmiersprachen", nl: "Er bestonden geen programmeertalen" },
+          { en: "Computer screens were too small", es: "Las pantallas de computadora eran demasiado pequeñas", de: "Computerbildschirme waren zu klein", nl: "Computerschermen waren te klein" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Early computers had extremely limited processing power and memory compared to today. Problems that seemed simple conceptually often required computational resources that wouldn't be available for decades.",
+          es: "Las computadoras tempranas tenían poder de procesamiento y memoria extremadamente limitados. Problemas que parecían simples conceptualmente a menudo requerían recursos que no estarían disponibles por décadas.",
+          de: "Frühe Computer hatten extrem begrenzte Rechenleistung und Speicher. Probleme die konzeptuell einfach schienen erforderten oft Ressourcen die für Jahrzehnte nicht verfügbar sein würden.",
+          nl: "Vroege computers hadden extreem beperkte verwerkingskracht en geheugen. Problemen die conceptueel simpel leken vereisten vaak computationele middelen die decennia niet beschikbaar zouden zijn."
+        }
+      },
+      {
+        question: {
+          en: "What was the importance of the 1956 Dartmouth workshop's duration?",
+          es: "¿Cuál fue la importancia de la duración del taller de Dartmouth de 1956?",
+          de: "Was war die Bedeutung der Dauer des Dartmouth-Workshops 1956?",
+          nl: "Wat was het belang van de duur van de Dartmouth workshop van 1956?"
+        },
+        options: [
+          { en: "It lasted 6-8 weeks for intensive collaboration", es: "Duró 6-8 semanas para colaboración intensiva", de: "Es dauerte 6-8 Wochen für intensive Zusammenarbeit", nl: "Het duurde 6-8 weken voor intensieve samenwerking" },
+          { en: "It was only one day", es: "Fue solo un día", de: "Es war nur ein Tag", nl: "Het was slechts één dag" },
+          { en: "It lasted an entire year", es: "Duró un año entero", de: "Es dauerte ein ganzes Jahr", nl: "Het duurde een heel jaar" },
+          { en: "It was a weekend event", es: "Fue un evento de fin de semana", de: "Es war ein Wochenend-Event", nl: "Het was een weekend evenement" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Dartmouth Summer Research Project on Artificial Intelligence lasted 6-8 weeks in summer 1956. This extended duration allowed researchers to collaborate intensively and develop foundational AI concepts.",
+          es: "El Proyecto de Investigación de Verano de Dartmouth sobre Inteligencia Artificial duró 6-8 semanas en verano 1956. Esta duración extendida permitió colaboración intensiva.",
+          de: "Das Dartmouth Summer Research Project on Artificial Intelligence dauerte 6-8 Wochen im Sommer 1956. Diese verlängerte Dauer ermöglichte intensive Zusammenarbeit.",
+          nl: "Het Dartmouth Summer Research Project on Artificial Intelligence duurde 6-8 weken in de zomer van 1956. Deze lange duur stelde onderzoekers in staat intensief samen te werken."
+        }
+      },
+      {
+        question: {
+          en: "What role did ARPA play in early AI development?",
+          es: "¿Qué papel jugó ARPA en el desarrollo temprano de IA?",
+          de: "Welche Rolle spielte ARPA in der frühen KI-Entwicklung?",
+          nl: "Welke rol speelde ARPA in de vroege AI ontwikkeling?"
+        },
+        options: [
+          { en: "Major funding source for AI research", es: "Fuente principal de financiamiento para investigación de IA", de: "Hauptfinanzierungsquelle für KI-Forschung", nl: "Belangrijkste financieringsbron voor AI onderzoek" },
+          { en: "Banned AI research", es: "Prohibió investigación de IA", de: "Verbot KI-Forschung", nl: "Verbood AI onderzoek" },
+          { en: "Created the first AI", es: "Creó la primera IA", de: "Schuf die erste KI", nl: "Creëerde de eerste AI" },
+          { en: "Had no involvement in AI", es: "No tuvo participación en IA", de: "Hatte keine Beteiligung an KI", nl: "Had geen betrokkenheid bij AI" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ARPA (Advanced Research Projects Agency, now DARPA) was a major funding source for AI research from the 1960s onward, supporting projects at MIT, Stanford, Carnegie Mellon, and other institutions.",
+          es: "ARPA fue una fuente principal de financiamiento para investigación de IA desde los 1960, apoyando proyectos en MIT, Stanford, Carnegie Mellon y otras instituciones.",
+          de: "ARPA war eine Hauptfinanzierungsquelle für KI-Forschung ab den 1960ern und unterstützte Projekte am MIT, Stanford, Carnegie Mellon und anderen Institutionen.",
+          nl: "ARPA was een belangrijke financieringsbron voor AI onderzoek vanaf de jaren 1960, ondersteunend projecten bij MIT, Stanford, Carnegie Mellon en andere instituten."
+        }
+      },
+      {
+        question: {
+          en: "What was the connection between cybernetics and early AI?",
+          es: "¿Cuál fue la conexión entre cibernética e IA temprana?",
+          de: "Was war die Verbindung zwischen Kybernetik und früher KI?",
+          nl: "Wat was de connectie tussen cybernetica en vroege AI?"
+        },
+        options: [
+          { en: "Both studied feedback and control in systems", es: "Ambos estudiaron retroalimentación y control en sistemas", de: "Beide studierten Feedback und Kontrolle in Systemen", nl: "Beide bestudeerden feedback en controle in systemen" },
+          { en: "They were competing fields with no overlap", es: "Fueron campos competidores sin superposición", de: "Sie waren konkurrierende Felder ohne Überschneidung", nl: "Het waren concurrerende velden zonder overlap" },
+          { en: "Cybernetics replaced AI in the 1960s", es: "La cibernética reemplazó a la IA en los 1960", de: "Kybernetik ersetzte KI in den 1960ern", nl: "Cybernetica verving AI in de jaren 1960" },
+          { en: "AI was created to disprove cybernetics", es: "La IA fue creada para refutar la cibernética", de: "KI wurde geschaffen um Kybernetik zu widerlegen", nl: "AI werd gecreëerd om cybernetica te weerleggen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cybernetics and early AI both emerged in the 1940s-50s and shared interests in feedback, control, and information processing in biological and artificial systems, though they eventually developed as distinct fields.",
+          es: "La cibernética y la IA temprana surgieron en los 1940-50 y compartieron intereses en retroalimentación, control y procesamiento de información en sistemas biológicos y artificiales.",
+          de: "Kybernetik und frühe KI entstanden beide in den 1940-50ern und teilten Interessen an Feedback, Kontrolle und Informationsverarbeitung in biologischen und künstlichen Systemen.",
+          nl: "Cybernetica en vroege AI ontstonden beide in de jaren 1940-50 en deelden interesses in feedback, controle en informatieverwerking in biologische en kunstmatige systemen."
+        }
       }
     ]
   };

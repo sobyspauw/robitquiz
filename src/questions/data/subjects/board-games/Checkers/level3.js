@@ -427,6 +427,426 @@
           de: "Eine scharfe Position ist eine mit hoher taktischer Komplexität, bei der präzise Züge kritisch sind und kleine Fehler zu unmittelbaren und bedeutenden Konsequenzen führen können, oft mit mehreren Schlagdrohungen.",
           nl: "Een scherpe positie is er een met hoge tactische complexiteit waarbij precieze zetten kritiek zijn en kleine fouten kunnen leiden tot onmiddellijke en significante consequenties, vaak met meerdere slagdreigingen."
         }
+      },
+      {
+        question: {
+          en: "What is the 'Laird and Lady opening'?",
+          es: "¿Qué es la apertura 'Laird and Lady'?",
+          de: "Was ist die 'Laird and Lady-Eröffnung'?",
+          nl: "Wat is de 'Laird and Lady-opening'?"
+        },
+        options: [
+          { en: "10-15, a balanced positional opening", es: "10-15, una apertura posicional equilibrada", de: "10-15, eine ausgewogene positionelle Eröffnung", nl: "10-15, een gebalanceerde positionele opening" },
+          { en: "11-15, the standard Bristol line", es: "11-15, la línea estándar de Bristol", de: "11-15, die Standard Bristol-Linie", nl: "11-15, de standaard Bristol-lijn" },
+          { en: "9-14, attacking the center", es: "9-14, atacando el centro", de: "9-14, Angriff auf das Zentrum", nl: "9-14, het centrum aanvallen" },
+          { en: "12-16, the flank development", es: "12-16, el desarrollo de flanco", de: "12-16, die Flankenentwicklung", nl: "12-16, de flank-ontwikkeling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Laird and Lady opening (10-15) is known for creating balanced positions with opportunities for both sides, offering strategic complexity without immediate tactical fireworks.",
+          es: "La apertura Laird and Lady (10-15) es conocida por crear posiciones equilibradas con oportunidades para ambos lados, ofreciendo complejidad estratégica sin fuegos artificiales tácticos inmediatos.",
+          de: "Die Laird and Lady-Eröffnung (10-15) ist bekannt dafür, ausgewogene Positionen mit Chancen für beide Seiten zu schaffen und strategische Komplexität ohne sofortige taktische Feuerwerke zu bieten.",
+          nl: "De Laird and Lady-opening (10-15) staat bekend om het creëren van gebalanceerde posities met kansen voor beide kanten, met strategische complexiteit zonder onmiddellijk tactisch vuurwerk."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'First Position' in endgame theory?",
+          es: "¿Qué es la 'Primera Posición' en la teoría del final?",
+          de: "Was ist die 'Erste Position' in der Endspieltheorie?",
+          nl: "Wat is de 'Eerste Positie' in eindspeltheorie?"
+        },
+        options: [
+          { en: "Starting position of the game", es: "Posición inicial del juego", de: "Startposition des Spiels", nl: "Startpositie van het spel" },
+          { en: "A theoretical win with one king vs one piece", es: "Una victoria teórica con un rey contra una pieza", de: "Ein theoretischer Gewinn mit einer Dame gegen einen Stein", nl: "Een theoretische winst met één dam tegen één steen" },
+          { en: "The player who moves first wins", es: "El jugador que mueve primero gana", de: "Der Spieler, der zuerst zieht, gewinnt", nl: "De speler die eerst zet wint" },
+          { en: "Leading position in a tournament", es: "Posición líder en un torneo", de: "Führende Position in einem Turnier", nl: "Leidende positie in een toernooi" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The First Position is a fundamental endgame scenario where one king versus one regular piece leads to a theoretical win for the king's side through precise play and understanding of key squares.",
+          es: "La Primera Posición es un escenario de final fundamental donde un rey contra una pieza regular lleva a una victoria teórica para el lado del rey mediante juego preciso y comprensión de casillas clave.",
+          de: "Die Erste Position ist ein fundamentales Endspielszenario, wo eine Dame gegen einen normalen Stein durch präzises Spiel und Verständnis der Schlüsselfelder zu einem theoretischen Gewinn für die Damenseite führt.",
+          nl: "De Eerste Positie is een fundamenteel eindspelscenario waarbij één dam tegen één gewone steen leidt tot een theoretische winst voor de damkant door nauwkeurig spel en begrip van sleutelvakjes."
+        }
+      },
+      {
+        question: {
+          en: "What is 'transposition' in checkers openings?",
+          es: "¿Qué es la 'transposición' en aperturas de damas?",
+          de: "Was ist 'Transposition' in Dame-Eröffnungen?",
+          nl: "Wat is 'transpositie' in dam-openingen?"
+        },
+        options: [
+          { en: "Moving pieces to opposite sides", es: "Mover piezas a lados opuestos", de: "Steine zu gegenüberliegenden Seiten bewegen", nl: "Stenen naar tegenovergestelde kanten bewegen" },
+          { en: "Reaching the same position through different move orders", es: "Alcanzar la misma posición mediante diferentes órdenes de movimiento", de: "Dieselbe Position durch verschiedene Zugfolgen erreichen", nl: "Dezelfde positie bereiken via verschillende zetvolgordes" },
+          { en: "Exchanging pieces equally", es: "Intercambiar piezas por igual", de: "Steine gleichwertig tauschen", nl: "Stenen gelijkwaardig ruilen" },
+          { en: "Switching from offense to defense", es: "Cambiar de ofensiva a defensiva", de: "Von Offensive zu Defensive wechseln", nl: "Wisselen van aanval naar verdediging" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Transposition occurs when different opening move sequences lead to the same position. Understanding transpositions allows players to reach favorable positions while avoiding opponent's prepared variations.",
+          es: "La transposición ocurre cuando diferentes secuencias de movimientos de apertura llevan a la misma posición. Entender las transposiciones permite a los jugadores alcanzar posiciones favorables mientras evitan las variaciones preparadas del oponente.",
+          de: "Transposition tritt auf, wenn verschiedene Eröffnungszugfolgen zur selben Position führen. Das Verständnis von Transpositionen ermöglicht Spielern, günstige Positionen zu erreichen und vorbereitete Varianten des Gegners zu vermeiden.",
+          nl: "Transpositie treedt op wanneer verschillende openingszet sequenties tot dezelfde positie leiden. Begrip van transposities stelt spelers in staat gunstige posities te bereiken terwijl ze voorbereide varianten van de tegenstander vermijden."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Third Position' endgame?",
+          es: "¿Qué es el final de 'Tercera Posición'?",
+          de: "Was ist das 'Dritte Position'-Endspiel?",
+          nl: "Wat is het 'Derde Positie'-eindspel?"
+        },
+        options: [
+          { en: "Three kings versus two", es: "Tres reyes contra dos", de: "Drei Damen gegen zwei", nl: "Drie dammen tegen twee" },
+          { en: "A specific drawn endgame configuration", es: "Una configuración de final tablas específica", de: "Eine spezifische remis Endspielkonfiguration", nl: "Een specifieke remise eindspelconfiguratie" },
+          { en: "Finishing third in a tournament", es: "Terminar tercero en un torneo", de: "Dritter in einem Turnier werden", nl: "Derde worden in een toernooi" },
+          { en: "Three pieces remaining total", es: "Tres piezas restantes en total", de: "Insgesamt drei verbleibende Steine", nl: "Totaal drie resterende stenen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Third Position is a classic drawn endgame where despite material imbalance, the defender can force a draw through precise defensive technique and understanding of the position's defensive resources.",
+          es: "La Tercera Posición es un final tablas clásico donde a pesar del desequilibrio material, el defensor puede forzar tablas mediante técnica defensiva precisa y comprensión de los recursos defensivos de la posición.",
+          de: "Die Dritte Position ist ein klassisches Remis-Endspiel, wo trotz materiellen Ungleichgewichts der Verteidiger durch präzise Verteidigungstechnik und Verständnis der defensiven Ressourcen der Position ein Remis erzwingen kann.",
+          nl: "De Derde Positie is een klassiek remise-eindspel waarbij ondanks materieel oneven, de verdediger remise kan forceren door precieze verdedigingstechniek en begrip van de defensieve middelen van de positie."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'thematic tournament' in checkers?",
+          es: "¿Qué es un 'torneo temático' en las damas?",
+          de: "Was ist ein 'Themen-Turnier' beim Dame?",
+          nl: "Wat is een 'thematisch toernooi' bij dammen?"
+        },
+        options: [
+          { en: "Tournament with a specific theme or topic", es: "Torneo con un tema específico", de: "Turnier mit einem bestimmten Thema", nl: "Toernooi met een specifiek thema" },
+          { en: "All games start from the same opening position", es: "Todos los juegos comienzan desde la misma posición de apertura", de: "Alle Spiele beginnen von derselben Eröffnungsposition", nl: "Alle spellen beginnen vanuit dezelfde openingspositie" },
+          { en: "Players dress in costumes", es: "Los jugadores se visten con disfraces", de: "Spieler tragen Kostüme", nl: "Spelers dragen kostuums" },
+          { en: "Only certain openings are allowed", es: "Solo ciertas aperturas están permitidas", de: "Nur bestimmte Eröffnungen sind erlaubt", nl: "Alleen bepaalde openingen zijn toegestaan" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A thematic tournament requires all games to begin from a predetermined opening position, testing players' understanding of specific positions and eliminating opening preparation advantages.",
+          es: "Un torneo temático requiere que todos los juegos comiencen desde una posición de apertura predeterminada, probando la comprensión de los jugadores de posiciones específicas y eliminando ventajas de preparación de apertura.",
+          de: "Ein Themen-Turnier erfordert, dass alle Spiele von einer vorgegebenen Eröffnungsposition beginnen, was das Verständnis der Spieler für spezifische Positionen testet und Eröffnungsvorbereitungsvorteile eliminiert.",
+          nl: "Een thematisch toernooi vereist dat alle spellen beginnen vanuit een vooraf bepaalde openingspositie, waarbij het begrip van spelers van specifieke posities wordt getest en openingsvoorbereidingsvoordelen worden geëlimineerd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'piece coordination' in checkers?",
+          es: "¿Qué es la 'coordinación de piezas' en las damas?",
+          de: "Was ist 'Steinkoordination' beim Dame?",
+          nl: "Wat is 'steencoördinatie' bij dammen?"
+        },
+        options: [
+          { en: "Pieces moving in synchronized patterns", es: "Piezas moviéndose en patrones sincronizados", de: "Steine, die sich in synchronisierten Mustern bewegen", nl: "Stenen die in gesynchroniseerde patronen bewegen" },
+          { en: "How effectively pieces work together", es: "Qué tan efectivamente trabajan las piezas juntas", de: "Wie effektiv Steine zusammenarbeiten", nl: "Hoe effectief stenen samenwerken" },
+          { en: "Planning moves in advance", es: "Planificar movimientos con anticipación", de: "Züge im Voraus planen", nl: "Zetten van tevoren plannen" },
+          { en: "Matching piece colors", es: "Igualar colores de piezas", de: "Steinfarben angleichen", nl: "Steenkleuren matchen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Piece coordination refers to how well your pieces support each other, create threats together, and work as a unified force rather than isolated units. Well-coordinated pieces multiply their effectiveness.",
+          es: "La coordinación de piezas se refiere a qué tan bien tus piezas se apoyan mutuamente, crean amenazas juntas y trabajan como una fuerza unificada en lugar de unidades aisladas. Las piezas bien coordinadas multiplican su efectividad.",
+          de: "Steinkoordination bezieht sich darauf, wie gut Ihre Steine sich gegenseitig unterstützen, gemeinsam Drohungen schaffen und als vereinte Kraft statt als isolierte Einheiten arbeiten. Gut koordinierte Steine vervielfachen ihre Effektivität.",
+          nl: "Steencoördinatie verwijst naar hoe goed je stenen elkaar ondersteunen, samen bedreigingen creëren en werken als een verenigde kracht in plaats van geïsoleerde eenheden. Goed gecoördineerde stenen verveelvoudigen hun effectiviteit."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Denny opening'?",
+          es: "¿Qué es la apertura 'Denny'?",
+          de: "Was ist die 'Denny-Eröffnung'?",
+          nl: "Wat is de 'Denny-opening'?"
+        },
+        options: [
+          { en: "10-14, solid and flexible", es: "10-14, sólida y flexible", de: "10-14, solide und flexibel", nl: "10-14, solide en flexibel" },
+          { en: "11-16, positional emphasis", es: "11-16, énfasis posicional", de: "11-16, positioneller Schwerpunkt", nl: "11-16, positionele nadruk" },
+          { en: "9-13, central control", es: "9-13, control central", de: "9-13, Zentrumskontrolle", nl: "9-13, centrumcontrole" },
+          { en: "12-16, wing expansion", es: "12-16, expansión de ala", de: "12-16, Flügelexpansion", nl: "12-16, vleugel expansie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Denny opening (10-14) offers solid development with flexibility to transpose into various structures, making it a favorite among players who value adaptability over forcing immediate confrontation.",
+          es: "La apertura Denny (10-14) ofrece desarrollo sólido con flexibilidad para transponer en varias estructuras, haciéndola favorita entre jugadores que valoran la adaptabilidad sobre forzar confrontación inmediata.",
+          de: "Die Denny-Eröffnung (10-14) bietet solide Entwicklung mit Flexibilität zur Transposition in verschiedene Strukturen, was sie zu einem Favoriten unter Spielern macht, die Anpassungsfähigkeit über das Erzwingen sofortiger Konfrontation schätzen.",
+          nl: "De Denny-opening (10-14) biedt solide ontwikkeling met flexibiliteit om te transponeren naar verschillende structuren, waardoor het een favoriet is onder spelers die aanpassingsvermogen waarderen boven het forceren van onmiddellijke confrontatie."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'phalanx' formation in checkers?",
+          es: "¿Qué es una formación de 'falange' en las damas?",
+          de: "Was ist eine 'Phalanx'-Formation beim Dame?",
+          nl: "Wat is een 'falanx'-formatie bij dammen?"
+        },
+        options: [
+          { en: "Pieces arranged in a defensive row", es: "Piezas dispuestas en una fila defensiva", de: "Steine in einer defensiven Reihe angeordnet", nl: "Stenen gerangschikt in een defensieve rij" },
+          { en: "All pieces advancing together", es: "Todas las piezas avanzando juntas", de: "Alle Steine rücken zusammen vor", nl: "Alle stenen rukken samen op" },
+          { en: "Side-by-side pieces supporting each other", es: "Piezas lado a lado apoyándose mutuamente", de: "Nebeneinander stehende Steine unterstützen sich gegenseitig", nl: "Zij-aan-zij stenen die elkaar ondersteunen" },
+          { en: "Pieces forming a V-shape", es: "Piezas formando una V", de: "Steine, die eine V-Form bilden", nl: "Stenen die een V-vorm vormen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "A phalanx is a formation where pieces are positioned side by side on adjacent squares, creating a strong wall that's difficult to break through and providing mutual support for advancement.",
+          es: "Una falange es una formación donde las piezas están posicionadas lado a lado en casillas adyacentes, creando una pared fuerte difícil de atravesar y proporcionando apoyo mutuo para el avance.",
+          de: "Eine Phalanx ist eine Formation, bei der Steine Seite an Seite auf benachbarten Feldern positioniert sind, was eine starke Mauer schafft, die schwer zu durchbrechen ist und gegenseitige Unterstützung für den Vormarsch bietet.",
+          nl: "Een falanx is een formatie waarbij stenen zij aan zij op aangrenzende vakjes zijn gepositioneerd, wat een sterke muur creëert die moeilijk te doorbreken is en wederzijdse ondersteuning biedt voor vooruitgang."
+        }
+      },
+      {
+        question: {
+          en: "What is 'piece value' in checkers?",
+          es: "¿Qué es el 'valor de pieza' en las damas?",
+          de: "Was ist der 'Steinwert' beim Dame?",
+          nl: "Wat is 'steenwaarde' bij dammen?"
+        },
+        options: [
+          { en: "A king is worth exactly two regular pieces", es: "Un rey vale exactamente dos piezas regulares", de: "Eine Dame ist genau zwei normale Steine wert", nl: "Een dam is precies twee gewone stenen waard" },
+          { en: "All pieces have equal value", es: "Todas las piezas tienen igual valor", de: "Alle Steine haben gleichen Wert", nl: "Alle stenen hebben gelijke waarde" },
+          { en: "Relative worth depending on position and activity", es: "Valor relativo dependiendo de posición y actividad", de: "Relativer Wert abhängig von Position und Aktivität", nl: "Relatieve waarde afhankelijk van positie en activiteit" },
+          { en: "Determined by how many captures made", es: "Determinado por cuántas capturas hechas", de: "Bestimmt durch wie viele Schläge gemacht wurden", nl: "Bepaald door hoeveel slagen gemaakt" }
+        },
+        correct: 2,
+        explanation: {
+          en: "Piece value in checkers isn't fixed; it depends on position, activity, and context. A well-placed regular piece can be more valuable than a poorly positioned king, and advanced pieces near promotion are worth more.",
+          es: "El valor de pieza en damas no es fijo; depende de posición, actividad y contexto. Una pieza regular bien colocada puede ser más valiosa que un rey mal posicionado, y piezas avanzadas cerca de promoción valen más.",
+          de: "Der Steinwert beim Dame ist nicht fest; er hängt von Position, Aktivität und Kontext ab. Ein gut platzierter normaler Stein kann wertvoller sein als eine schlecht positionierte Dame, und fortgeschrittene Steine nahe der Beförderung sind mehr wert.",
+          nl: "Steenwaarde bij dammen is niet vast; het hangt af van positie, activiteit en context. Een goed geplaatste gewone steen kan waardevoller zijn dan een slecht gepositioneerde dam, en gevorderde stenen nabij promotie zijn meer waard."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Old Fourteenth' opening?",
+          es: "¿Qué es la apertura 'Old Fourteenth'?",
+          de: "Was ist die 'Old Fourteenth'-Eröffnung?",
+          nl: "Wat is de 'Old Fourteenth'-opening'?"
+        },
+        options: [
+          { en: "11-15, one of the oldest recorded openings", es: "11-15, una de las aperturas más antiguas registradas", de: "11-15, eine der ältesten aufgezeichneten Eröffnungen", nl: "11-15, een van de oudste opgetekende openingen" },
+          { en: "10-14, the 14th move sequence discovered", es: "10-14, la 14ª secuencia de movimientos descubierta", de: "10-14, die 14. entdeckte Zugfolge", nl: "10-14, de 14e ontdekte zetreeks" },
+          { en: "9-14, dating from the 14th century", es: "9-14, que data del siglo XIV", de: "9-14, aus dem 14. Jahrhundert", nl: "9-14, daterend uit de 14e eeuw" },
+          { en: "12-16, created by a 14-year-old", es: "12-16, creada por un joven de 14 años", de: "12-16, von einem 14-Jährigen erstellt", nl: "12-16, gecreëerd door een 14-jarige" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Old Fourteenth (11-15) is one of the oldest and most extensively analyzed openings in checkers literature, with a rich history of theoretical development spanning centuries.",
+          es: "La Old Fourteenth (11-15) es una de las aperturas más antiguas y extensamente analizadas en la literatura de damas, con una rica historia de desarrollo teórico que abarca siglos.",
+          de: "Die Old Fourteenth (11-15) ist eine der ältesten und am umfassendsten analysierten Eröffnungen in der Dame-Literatur mit einer reichen Geschichte theoretischer Entwicklung über Jahrhunderte.",
+          nl: "De Old Fourteenth (11-15) is een van de oudste en meest uitgebreid geanalyseerde openingen in damliteratuur, met een rijke geschiedenis van theoretische ontwikkeling die eeuwen beslaat."
+        }
+      },
+      {
+        question: {
+          en: "What is 'breakthrough timing' in checkers?",
+          es: "¿Qué es el 'momento de avance' en las damas?",
+          de: "Was ist 'Durchbruch-Timing' beim Dame?",
+          nl: "Wat is 'doorbraak-timing' bij dammen?"
+        },
+        options: [
+          { en: "When to force pieces through opponent's defense", es: "Cuándo forzar piezas a través de la defensa del oponente", de: "Wann Steine durch die Verteidigung des Gegners erzwingen", nl: "Wanneer stenen door de verdediging van de tegenstander forceren" },
+          { en: "How long it takes to create a king", es: "Cuánto tiempo lleva crear un rey", de: "Wie lange es dauert, eine Dame zu schaffen", nl: "Hoe lang het duurt om een dam te maken" },
+          { en: "The speed of piece movement", es: "La velocidad del movimiento de piezas", de: "Die Geschwindigkeit der Steinbewegung", nl: "De snelheid van steenbeweging" },
+          { en: "Setting a clock for moves", es: "Configurar un reloj para movimientos", de: "Eine Uhr für Züge einstellen", nl: "Een klok instellen voor zetten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Breakthrough timing refers to knowing the optimal moment to sacrifice material or force pieces through the opponent's defenses to create a passed piece (runaway checker) that can promote to a king.",
+          es: "El momento de avance se refiere a saber el momento óptimo para sacrificar material o forzar piezas a través de las defensas del oponente para crear una pieza pasada que puede promocionar a rey.",
+          de: "Durchbruch-Timing bezieht sich darauf, den optimalen Moment zu kennen, um Material zu opfern oder Steine durch die Verteidigung des Gegners zu zwingen, um einen durchgehenden Stein zu schaffen, der zur Dame befördert werden kann.",
+          nl: "Doorbraak-timing verwijst naar het kennen van het optimale moment om materiaal te offeren of stenen door de verdediging van de tegenstander te forceren om een doorlopende steen te creëren die kan promoveren tot dam."
+        }
+      },
+      {
+        question: {
+          en: "What is 'backward movement advantage' of kings?",
+          es: "¿Qué es la 'ventaja de movimiento hacia atrás' de los reyes?",
+          de: "Was ist der 'Rückwärtsbewegungsvorteil' von Damen?",
+          nl: "Wat is het 'achterwaarts bewegingsvoordeel' van dammen?"
+        },
+        options: [
+          { en: "Kings can retreat to safety when threatened", es: "Los reyes pueden retirarse a seguridad cuando están amenazados", de: "Damen können sich bei Bedrohung in Sicherheit zurückziehen", nl: "Dammen kunnen terugtrekken naar veiligheid wanneer bedreigd" },
+          { en: "Kings move faster backwards", es: "Los reyes se mueven más rápido hacia atrás", de: "Damen bewegen sich rückwärts schneller", nl: "Dammen bewegen sneller achteruit" },
+          { en: "Backward moves don't count as turns", es: "Los movimientos hacia atrás no cuentan como turnos", de: "Rückwärtszüge zählen nicht als Züge", nl: "Achterwaartse zetten tellen niet als beurten" },
+          { en: "Kings can capture backward more effectively", es: "Los reyes pueden capturar hacia atrás más efectivamente", de: "Damen können rückwärts effektiver schlagen", nl: "Dammen kunnen achterwaarts effectiever slaan" }
+        },
+        correct: 0,
+        explanation: {
+          en: "The ability to move backward allows kings to retreat from threats, reposition tactically, participate in defense, and control both forward and backward diagonals, making them significantly more versatile than regular pieces.",
+          es: "La capacidad de moverse hacia atrás permite a los reyes retirarse de amenazas, reposicionarse tácticamente, participar en defensa y controlar diagonales tanto hacia adelante como hacia atrás, haciéndolos significativamente más versátiles que piezas regulares.",
+          de: "Die Fähigkeit, sich rückwärts zu bewegen, ermöglicht Damen, sich von Bedrohungen zurückzuziehen, sich taktisch neu zu positionieren, an der Verteidigung teilzunehmen und sowohl Vorwärts- als auch Rückwärtsdiagonalen zu kontrollieren, was sie deutlich vielseitiger macht als normale Steine.",
+          nl: "Het vermogen om achteruit te bewegen stelt dammen in staat om terug te trekken van bedreigingen, tactisch te herpositioneren, deel te nemen aan verdediging en zowel voorwaartse als achterwaartse diagonalen te controleren, waardoor ze aanzienlijk veelzijdiger zijn dan gewone stenen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Kelso Cross' opening?",
+          es: "¿Qué es la apertura 'Kelso Cross'?",
+          de: "Was ist die 'Kelso Cross'-Eröffnung?",
+          nl: "Wat is de 'Kelso Cross'-opening?"
+        },
+        options: [
+          { en: "A crossing pattern of pieces", es: "Un patrón de cruce de piezas", de: "Ein Kreuzmuster von Steinen", nl: "Een kruisingspatroon van stenen" },
+          { en: "9-13 followed by specific continuation", es: "9-13 seguido de continuación específica", de: "9-13 gefolgt von spezifischer Fortsetzung", nl: "9-13 gevolgd door specifieke voortzetting" },
+          { en: "A Scottish variant of Cross opening", es: "Una variante escocesa de la apertura Cross", de: "Eine schottische Variante der Cross-Eröffnung", nl: "Een Schotse variant van de Cross-opening" },
+          { en: "Named after a famous player from Kelso", es: "Nombrada por un jugador famoso de Kelso", de: "Benannt nach einem berühmten Spieler aus Kelso", nl: "Vernoemd naar een beroemde speler uit Kelso" }
+        },
+        correct: 1,
+        explanation: {
+          en: "The Kelso Cross is a specific variation of the Cross opening (9-13) with particular continuation lines that lead to characteristic pawn structures and middlegame plans.",
+          es: "El Kelso Cross es una variación específica de la apertura Cross (9-13) con líneas de continuación particulares que llevan a estructuras de peones características y planes de medio juego.",
+          de: "Der Kelso Cross ist eine spezifische Variation der Cross-Eröffnung (9-13) mit bestimmten Fortsetzungslinien, die zu charakteristischen Bauernstrukturen und Mittelspiel-Plänen führen.",
+          nl: "De Kelso Cross is een specifieke variatie van de Cross-opening (9-13) met bepaalde voorzettingslijnen die leiden tot karakteristieke pion structuren en middenspel plannen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'king row control' in checkers?",
+          es: "¿Qué es el 'control de fila del rey' en las damas?",
+          de: "Was ist 'Damenreihen-Kontrolle' beim Dame?",
+          nl: "Wat is 'damrij-controle' bij dammen?"
+        },
+        options: [
+          { en: "Having more kings than opponent", es: "Tener más reyes que el oponente", de: "Mehr Damen als der Gegner haben", nl: "Meer dammen hebben dan tegenstander" },
+          { en: "Occupying or guarding the opponent's back row", es: "Ocupar o guardar la fila trasera del oponente", de: "Die hintere Reihe des Gegners besetzen oder bewachen", nl: "De achterste rij van de tegenstander bezetten of bewaken" },
+          { en: "Kings controlling the center", es: "Reyes controlando el centro", de: "Damen kontrollieren das Zentrum", nl: "Dammen beheersen het centrum" },
+          { en: "Preventing opponent from moving kings", es: "Evitar que el oponente mueva reyes", de: "Verhindern, dass der Gegner Damen bewegt", nl: "Voorkomen dat tegenstander dammen beweegt" }
+        },
+        correct: 1,
+        explanation: {
+          en: "King row control means occupying or controlling squares on your opponent's back row, which prevents their pieces from promoting and can create tactical opportunities for combinations.",
+          es: "El control de fila del rey significa ocupar o controlar casillas en la fila trasera de tu oponente, lo que evita que sus piezas promocionen y puede crear oportunidades tácticas para combinaciones.",
+          de: "Damenreihen-Kontrolle bedeutet, Felder auf der hinteren Reihe des Gegners zu besetzen oder zu kontrollieren, was verhindert, dass seine Steine befördert werden und taktische Möglichkeiten für Kombinationen schaffen kann.",
+          nl: "Damrij-controle betekent het bezetten of controleren van vakjes op de achterste rij van je tegenstander, wat voorkomt dat hun stenen promoveren en tactische mogelijkheden voor combinaties kan creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'positional sacrifice' in checkers?",
+          es: "¿Qué es un 'sacrificio posicional' en las damas?",
+          de: "Was ist ein 'positionelles Opfer' beim Dame?",
+          nl: "Wat is een 'positioneel offer' bij dammen?"
+        },
+        options: [
+          { en: "Sacrificing material for better piece placement", es: "Sacrificar material por mejor ubicación de piezas", de: "Material opfern für bessere Steinplatzierung", nl: "Materiaal offeren voor betere steenplaatsing" },
+          { en: "Giving up the center position", es: "Renunciar a la posición central", de: "Die Zentrumsposition aufgeben", nl: "De centrumpositie opgeven" },
+          { en: "Trading pieces equally", es: "Intercambiar piezas por igual", de: "Steine gleichwertig tauschen", nl: "Stenen gelijkwaardig ruilen" },
+          { en: "Moving to a worse square temporarily", es: "Moverse a una casilla peor temporalmente", de: "Vorübergehend zu einem schlechteren Feld ziehen", nl: "Tijdelijk naar een slechter vakje bewegen" }
+        },
+        correct: 0,
+        explanation: {
+          en: "A positional sacrifice involves giving up material (usually one or more pieces) not for immediate tactical gain but to achieve superior piece placement, mobility, or long-term strategic advantage.",
+          es: "Un sacrificio posicional implica renunciar a material (usualmente una o más piezas) no por ganancia táctica inmediata sino para lograr ubicación de piezas superior, movilidad o ventaja estratégica a largo plazo.",
+          de: "Ein positionelles Opfer beinhaltet das Aufgeben von Material (normalerweise ein oder mehrere Steine) nicht für unmittelbaren taktischen Gewinn, sondern um überlegene Steinplatzierung, Mobilität oder langfristigen strategischen Vorteil zu erreichen.",
+          nl: "Een positioneel offer houdt in dat je materiaal opgeeft (meestal één of meer stenen) niet voor onmiddellijke tactische winst maar om superieure steenplaatsing, mobiliteit of strategisch voordeel op lange termijn te bereiken."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Single Corner' opening strategy?",
+          es: "¿Qué es la estrategia de apertura 'Single Corner'?",
+          de: "Was ist die 'Einzelecken'-Eröffnungsstrategie?",
+          nl: "Wat is de 'Enkele Hoek'-openingsstrategie?"
+        },
+        options: [
+          { en: "12-16, developing the single corner piece", es: "12-16, desarrollando la pieza de esquina simple", de: "12-16, Entwicklung des Einzelecken-Steins", nl: "12-16, ontwikkeling van de enkele hoeksteen" },
+          { en: "Focusing all pieces on one corner", es: "Enfocar todas las piezas en una esquina", de: "Alle Steine auf eine Ecke fokussieren", nl: "Alle stenen focussen op één hoek" },
+          { en: "Avoiding the double corner squares", es: "Evitar las casillas de esquina doble", de: "Die Doppelecken-Felder vermeiden", nl: "De dubbele hoek vakjes vermijden" },
+          { en: "Playing only with one piece initially", es: "Jugar solo con una pieza inicialmente", de: "Anfangs nur mit einem Stein spielen", nl: "Initieel alleen met één steen spelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Single Corner opening (12-16) emphasizes developing the piece from square 12, which sits in the 'single corner' (the corner that isn't the promotion square), leading to specific structural patterns.",
+          es: "La apertura Single Corner (12-16) enfatiza desarrollar la pieza desde la casilla 12, que se encuentra en la 'esquina simple' (la esquina que no es la casilla de promoción), llevando a patrones estructurales específicos.",
+          de: "Die Einzelecken-Eröffnung (12-16) betont die Entwicklung des Steins von Feld 12, das in der 'Einzelecke' sitzt (die Ecke, die nicht das Beförderungsfeld ist), was zu spezifischen strukturellen Mustern führt.",
+          nl: "De Enkele Hoek-opening (12-16) benadrukt het ontwikkelen van de steen vanaf vak 12, dat in de 'enkele hoek' zit (de hoek die niet het promotievakje is), leidend tot specifieke structurele patronen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tempo play' in checkers?",
+          es: "¿Qué es el 'juego de tempo' en las damas?",
+          de: "Was ist 'Tempo-Spiel' beim Dame?",
+          nl: "Wat is 'tempo-spel' bij dammen?"
+        },
+        options: [
+          { en: "Playing at a fast pace", es: "Jugar a un ritmo rápido", de: "In schnellem Tempo spielen", nl: "In een snel tempo spelen" },
+          { en: "Gaining time advantages through forcing moves", es: "Ganar ventajas de tiempo mediante movimientos forzados", de: "Zeitvorteile durch erzwingende Züge gewinnen", nl: "Tijdsvoordelen winnen door forcerende zetten" },
+          { en: "Following a rhythmic pattern", es: "Seguir un patrón rítmico", de: "Einem rhythmischen Muster folgen", nl: "Een ritmisch patroon volgen" },
+          { en: "Using a chess clock", es: "Usar un reloj de ajedrez", de: "Eine Schachuhr verwenden", nl: "Een schaakklok gebruiken" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Tempo play involves making moves that force your opponent to respond, effectively giving you extra moves or time to improve your position while they're occupied dealing with your threats.",
+          es: "El juego de tempo implica hacer movimientos que fuerzan a tu oponente a responder, efectivamente dándote movimientos extra o tiempo para mejorar tu posición mientras están ocupados lidiando con tus amenazas.",
+          de: "Tempo-Spiel beinhaltet Züge zu machen, die deinen Gegner zum Reagieren zwingen, was dir effektiv zusätzliche Züge oder Zeit gibt, um deine Position zu verbessern, während sie mit deinen Drohungen beschäftigt sind.",
+          nl: "Tempo-spel houdt in dat je zetten doet die je tegenstander dwingen te reageren, wat je effectief extra zetten of tijd geeft om je positie te verbeteren terwijl ze bezig zijn met je bedreigingen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Souter opening'?",
+          es: "¿Qué es la apertura 'Souter'?",
+          de: "Was ist die 'Souter-Eröffnung'?",
+          nl: "Wat is de 'Souter-opening'?"
+        },
+        options: [
+          { en: "10-15, conservative development", es: "10-15, desarrollo conservador", de: "10-15, konservative Entwicklung", nl: "10-15, conservatieve ontwikkeling" },
+          { en: "11-15, classical approach", es: "11-15, enfoque clásico", de: "11-15, klassischer Ansatz", nl: "11-15, klassieke aanpak" },
+          { en: "9-14, center control priority", es: "9-14, prioridad de control central", de: "9-14, Zentrumskontrolle Priorität", nl: "9-14, centrum controle prioriteit" },
+          { en: "12-16, flank development", es: "12-16, desarrollo de flanco", de: "12-16, Flankenentwicklung", nl: "12-16, flank ontwikkeling" }
+        },
+        correct: 0,
+        explanation: {
+          en: "The Souter opening (10-15) offers conservative, solid development that aims for safe, long-term advantages rather than sharp tactical complications, making it popular among positional players.",
+          es: "La apertura Souter (10-15) ofrece desarrollo conservador y sólido que apunta a ventajas seguras a largo plazo en lugar de complicaciones tácticas agudas, haciéndola popular entre jugadores posicionales.",
+          de: "Die Souter-Eröffnung (10-15) bietet konservative, solide Entwicklung, die auf sichere, langfristige Vorteile abzielt statt auf scharfe taktische Komplikationen, was sie unter Positionsspielern beliebt macht.",
+          nl: "De Souter-opening (10-15) biedt conservatieve, solide ontwikkeling die streeft naar veilige, langetermijnvoordelen in plaats van scherpe tactische complicaties, waardoor het populair is onder positionele spelers."
+        }
+      },
+      {
+        question: {
+          en: "What is 'prophylaxis' in checkers?",
+          es: "¿Qué es la 'profilaxis' en las damas?",
+          de: "Was ist 'Prophylaxe' beim Dame?",
+          nl: "Wat is 'profylaxe' bij dammen?"
+        },
+        options: [
+          { en: "Preventing injuries during play", es: "Prevenir lesiones durante el juego", de: "Verletzungen während des Spiels verhindern", nl: "Blessures tijdens het spel voorkomen" },
+          { en: "Preventing opponent's plans before they execute them", es: "Prevenir los planes del oponente antes de que los ejecuten", de: "Die Pläne des Gegners verhindern, bevor sie sie ausführen", nl: "De plannen van de tegenstander voorkomen voordat ze ze uitvoeren" },
+          { en: "Protecting pieces from capture", es: "Proteger piezas de captura", de: "Steine vor Schlägen schützen", nl: "Stenen beschermen tegen slaan" },
+          { en: "Following prevention strategies", es: "Seguir estrategias de prevención", de: "Präventionsstrategien folgen", nl: "Preventie strategieën volgen" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Prophylaxis is the strategic principle of preventing your opponent's plans and threats before they materialize, rather than waiting to react after they've created problems for you.",
+          es: "La profilaxis es el principio estratégico de prevenir los planes y amenazas de tu oponente antes de que se materialicen, en lugar de esperar para reaccionar después de que hayan creado problemas para ti.",
+          de: "Prophylaxe ist das strategische Prinzip, die Pläne und Drohungen deines Gegners zu verhindern, bevor sie sich materialisieren, anstatt zu warten und zu reagieren, nachdem sie Probleme für dich geschaffen haben.",
+          nl: "Profylaxe is het strategische principe van het voorkomen van de plannen en bedreigingen van je tegenstander voordat ze zich materialiseren, in plaats van te wachten om te reageren nadat ze problemen voor je hebben gecreëerd."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Fife opening'?",
+          es: "¿Qué es la apertura 'Fife'?",
+          de: "Was ist die 'Fife-Eröffnung'?",
+          nl: "Wat is de 'Fife-opening'?"
+        },
+        options: [
+          { en: "A musical-themed opening", es: "Una apertura con tema musical", de: "Eine musikalisch thematisierte Eröffnung", nl: "Een muzikaal thema opening" },
+          { en: "9-13, with specific continuation patterns", es: "9-13, con patrones de continuación específicos", de: "9-13, mit spezifischen Fortsetzungsmustern", nl: "9-13, met specifieke voorzettingspatronen" },
+          { en: "A Scottish regional variant", es: "Una variante regional escocesa", de: "Eine schottische regionale Variante", nl: "Een Schotse regionale variant" },
+          { en: "Named after the fifth move option", es: "Nombrada por la quinta opción de movimiento", de: "Benannt nach der fünften Zugoption", nl: "Vernoemd naar de vijfde zetoptie" }
+        },
+        correct: 1,
+        explanation: {
+          en: "The Fife opening is a specific variation within the Cross opening family (9-13) with particular continuation lines that create distinctive middlegame positions and strategic themes.",
+          es: "La apertura Fife es una variación específica dentro de la familia de apertura Cross (9-13) con líneas de continuación particulares que crean posiciones de medio juego distintivas y temas estratégicos.",
+          de: "Die Fife-Eröffnung ist eine spezifische Variation innerhalb der Cross-Eröffnungsfamilie (9-13) mit bestimmten Fortsetzungslinien, die markante Mittelspiel-Positionen und strategische Themen schaffen.",
+          nl: "De Fife-opening is een specifieke variatie binnen de Cross-openingsfamilie (9-13) met bepaalde voorzettingslijnen die onderscheidende middenspelposities en strategische thema's creëren."
+        }
       }
     ]
   };

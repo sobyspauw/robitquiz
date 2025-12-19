@@ -427,6 +427,405 @@
           de: "Eine Wildcard ist eine Karte, die als Ersatz für jede andere Karte dient und häufig in Spielen wie Poker-Varianten und Uno verwendet wird. Joker werden oft als Wildcards verwendet.",
           nl: "Een wildcard is een kaart die is aangewezen om elke andere kaart te vervangen, vaak gebruikt in spellen zoals Poker variaties en Uno. Jokers worden vaak als wildcards gebruikt."
         }
+      },
+      {
+        question: {
+          en: "In Texas Hold'em, what are the 'hole cards'?",
+          es: "En Texas Hold'em, ¿qué son las 'cartas ocultas'?",
+          de: "Was sind beim Texas Hold'em die 'Hole Cards'?",
+          nl: "Wat zijn de 'hole cards' bij Texas Hold'em?"
+        },
+        options: [
+          { en: "Cards dealt face-up to all players", es: "Cartas repartidas boca arriba a todos los jugadores", de: "Karten, die allen Spielern offen ausgeteilt werden", nl: "Kaarten open gedeeld aan alle spelers" },
+          { en: "The two private cards dealt to each player", es: "Las dos cartas privadas repartidas a cada jugador", de: "Die zwei privaten Karten, die jedem Spieler ausgeteilt werden", nl: "De twee privé kaarten gedeeld aan elke speler" },
+          { en: "The community cards on the table", es: "Las cartas comunitarias en la mesa", de: "Die Gemeinschaftskarten auf dem Tisch", nl: "De gemeenschapskaarten op tafel" },
+          { en: "Cards discarded during play", es: "Cartas descartadas durante el juego", de: "Karten, die während des Spiels abgeworfen werden", nl: "Kaarten weggegooid tijdens het spel" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Hole cards are the two private cards dealt face-down to each player at the start of a Texas Hold'em hand. Players combine these with community cards to make their best hand.",
+          es: "Las cartas ocultas son las dos cartas privadas repartidas boca abajo a cada jugador al inicio de una mano de Texas Hold'em. Los jugadores las combinan con cartas comunitarias para hacer su mejor mano.",
+          de: "Hole Cards sind die zwei privaten Karten, die jedem Spieler zu Beginn einer Texas Hold'em Hand verdeckt ausgeteilt werden. Spieler kombinieren diese mit Gemeinschaftskarten, um ihre beste Hand zu bilden.",
+          nl: "Hole cards zijn de twee privé kaarten gedekt gedeeld aan elke speler aan het begin van een Texas Hold'em hand. Spelers combineren deze met gemeenschapskaarten om hun beste hand te maken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'shooting the moon' in Hearts?",
+          es: "¿Qué es 'disparar a la luna' en Hearts?",
+          de: "Was ist 'Shoot the Moon' beim Hearts?",
+          nl: "Wat is 'shooting the moon' bij Hearts?"
+        },
+        options: [
+          { en: "Avoiding all Hearts cards", es: "Evitar todas las cartas de Corazones", de: "Alle Herz-Karten vermeiden", nl: "Alle Harten kaarten vermijden" },
+          { en: "Taking all penalty cards (26 pts total)", es: "Tomar todas las cartas de penalización (26 pts total)", de: "Alle Strafkarten nehmen (26 Punkte gesamt)", nl: "Alle strafkaarten nemen (26 pts totaal)" },
+          { en: "Winning without taking any tricks", es: "Ganar sin tomar ninguna baza", de: "Gewinnen ohne Stiche zu nehmen", nl: "Winnen zonder slagen te nemen" },
+          { en: "Playing the Queen of Spades first", es: "Jugar la Reina de Picas primero", de: "Die Pik-Dame zuerst spielen", nl: "De Schoppen Vrouw eerst spelen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Shooting the moon means taking all 26 penalty points (all Hearts plus the Queen of Spades). When successful, you score 0 and all opponents get 26 points instead.",
+          es: "Disparar a la luna significa tomar todos los 26 puntos de penalización (todos los Corazones más la Reina de Picas). Cuando tienes éxito, anotas 0 y todos los oponentes obtienen 26 puntos en su lugar.",
+          de: "Shoot the Moon bedeutet, alle 26 Strafpunkte zu nehmen (alle Herzen plus die Pik-Dame). Bei Erfolg erhältst du 0 Punkte und alle Gegner erhalten stattdessen 26 Punkte.",
+          nl: "Shooting the moon betekent alle 26 strafpunten nemen (alle Harten plus de Schoppen Vrouw). Bij succes scoor je 0 en krijgen alle tegenstanders in plaats daarvan 26 punten."
+        }
+      },
+      {
+        question: {
+          en: "In Blackjack, what is a 'natural' or 'blackjack'?",
+          es: "En Blackjack, ¿qué es un 'natural' o 'blackjack'?",
+          de: "Was ist beim Blackjack ein 'Natural' oder 'Blackjack'?",
+          nl: "Wat is een 'natural' of 'blackjack' bij Blackjack?"
+        },
+        options: [
+          { en: "Any hand totaling 21", es: "Cualquier mano que sume 21", de: "Jede Hand mit Summe 21", nl: "Elke hand met totaal 21" },
+          { en: "Ace and 10-value card as first two cards", es: "As y carta de valor 10 como primeras dos cartas", de: "Ass und 10-wertige Karte als erste zwei Karten", nl: "Aas en 10-waarde kaart als eerste twee kaarten" },
+          { en: "Three 7s of the same suit", es: "Tres 7s del mismo palo", de: "Drei 7er der gleichen Farbe", nl: "Drie 7's van dezelfde kleur" },
+          { en: "Winning without drawing any cards", es: "Ganar sin robar ninguna carta", de: "Gewinnen ohne Karten zu ziehen", nl: "Winnen zonder kaarten te trekken" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A natural blackjack is an Ace combined with any 10-value card (10, Jack, Queen, or King) as your first two cards. It typically pays 3:2 and beats any other 21.",
+          es: "Un blackjack natural es un As combinado con cualquier carta de valor 10 (10, Jota, Reina o Rey) como tus primeras dos cartas. Típicamente paga 3:2 y vence cualquier otro 21.",
+          de: "Ein natürlicher Blackjack ist ein Ass kombiniert mit einer beliebigen 10-wertigen Karte (10, Bube, Dame oder König) als deine ersten zwei Karten. Er zahlt typischerweise 3:2 und schlägt jede andere 21.",
+          nl: "Een natural blackjack is een Aas gecombineerd met elke 10-waarde kaart (10, Boer, Vrouw of Koning) als je eerste twee kaarten. Het betaalt meestal 3:2 en verslaat elke andere 21."
+        }
+      },
+      {
+        question: {
+          en: "In Poker, what is a 'straight flush'?",
+          es: "En Póker, ¿qué es una 'escalera de color'?",
+          de: "Was ist beim Poker ein 'Straight Flush'?",
+          nl: "Wat is een 'straight flush' bij Poker?"
+        },
+        options: [
+          { en: "Five cards of the same suit in sequence", es: "Cinco cartas del mismo palo en secuencia", de: "Fünf Karten der gleichen Farbe in Sequenz", nl: "Vijf kaarten van dezelfde kleur op volgorde" },
+          { en: "Four of a kind plus an ace", es: "Cuatro de un tipo más un as", de: "Vierling plus ein Ass", nl: "Vier van een soort plus een aas" },
+          { en: "Three pairs", es: "Tres pares", de: "Drei Paare", nl: "Drie paren" },
+          { en: "All face cards of one suit", es: "Todas las figuras de un palo", de: "Alle Bildkarten einer Farbe", nl: "Alle plaatjes van één kleur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A straight flush is five consecutive cards all of the same suit, such as 7-8-9-10-J of hearts. It's the second-highest hand in poker, beaten only by a royal flush.",
+          es: "Una escalera de color son cinco cartas consecutivas todas del mismo palo, como 7-8-9-10-J de corazones. Es la segunda mano más alta en póker, vencida solo por una escalera real.",
+          de: "Ein Straight Flush sind fünf aufeinanderfolgende Karten alle der gleichen Farbe, wie 7-8-9-10-B Herz. Es ist die zweithöchste Hand beim Poker, geschlagen nur von einem Royal Flush.",
+          nl: "Een straight flush is vijf opeenvolgende kaarten allemaal van dezelfde kleur, zoals 7-8-9-10-B van harten. Het is de op één na hoogste hand bij poker, alleen verslagen door een royal flush."
+        }
+      },
+      {
+        question: {
+          en: "What is 'sandbagging' in Spades?",
+          es: "¿Qué es 'sandbagging' en Spades?",
+          de: "Was ist 'Sandbagging' beim Spades?",
+          nl: "Wat is 'sandbagging' bij Spades?"
+        },
+        options: [
+          { en: "Deliberately underbidding to collect overtricks", es: "Subapostar deliberadamente para recoger bazas extra", de: "Absichtlich unterbieten, um Überstiche zu sammeln", nl: "Opzettelijk te laag bieden om overslagen te verzamelen" },
+          { en: "Blocking another player's moves", es: "Bloquear los movimientos de otro jugador", de: "Die Züge eines anderen Spielers blockieren", nl: "De zetten van een andere speler blokkeren" },
+          { en: "Playing slowly to annoy opponents", es: "Jugar lentamente para molestar a los oponentes", de: "Langsam spielen, um Gegner zu ärgern", nl: "Langzaam spelen om tegenstanders te irriteren" },
+          { en: "Hiding your best cards", es: "Ocultar tus mejores cartas", de: "Deine besten Karten verstecken", nl: "Je beste kaarten verbergen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Sandbagging is bidding lower than you expect to win to accumulate overtricks (bags). However, accumulating 10 bags results in a 100-point penalty, making it a risky strategy.",
+          es: "Sandbagging es apostar más bajo de lo que esperas ganar para acumular bazas extra (sacos). Sin embargo, acumular 10 sacos resulta en una penalización de 100 puntos, haciéndolo una estrategia arriesgada.",
+          de: "Sandbagging bedeutet, niedriger zu bieten als du zu gewinnen erwartest, um Überstiche (Bags) zu sammeln. Allerdings führt das Sammeln von 10 Bags zu einer 100-Punkte-Strafe, was es zu einer riskanten Strategie macht.",
+          nl: "Sandbagging is lager bieden dan je verwacht te winnen om overslagen (bags) te verzamelen. Echter, het verzamelen van 10 bags resulteert in een 100-punten straf, wat het een riskante strategie maakt."
+        }
+      },
+      {
+        question: {
+          en: "In Bridge, what is a 'finesse'?",
+          es: "En Bridge, ¿qué es un 'finesse'?",
+          de: "Was ist beim Bridge ein 'Finesse'?",
+          nl: "Wat is een 'finesse' bij Bridge?"
+        },
+        options: [
+          { en: "A high bid that ends the auction", es: "Una puja alta que termina la subasta", de: "Ein hohes Gebot, das die Auktion beendet", nl: "Een hoog bod dat de veiling beëindigt" },
+          { en: "A play attempting to win a trick with a lower card", es: "Una jugada que intenta ganar una baza con una carta más baja", de: "Ein Spiel, das versucht, einen Stich mit einer niedrigeren Karte zu gewinnen", nl: "Een spel dat probeert een slag te winnen met een lagere kaart" },
+          { en: "Discarding all cards of one suit", es: "Descartar todas las cartas de un palo", de: "Alle Karten einer Farbe abwerfen", nl: "Alle kaarten van één kleur weggooien" },
+          { en: "Winning all 13 tricks", es: "Ganar las 13 bazas", de: "Alle 13 Stiche gewinnen", nl: "Alle 13 slagen winnen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A finesse is a technique where you attempt to win a trick with a card that isn't the highest, hoping an opponent's higher card is favorably positioned. It's a fundamental Bridge strategy.",
+          es: "Un finesse es una técnica donde intentas ganar una baza con una carta que no es la más alta, esperando que una carta más alta del oponente esté favorablemente posicionada. Es una estrategia fundamental de Bridge.",
+          de: "Ein Finesse ist eine Technik, bei der du versuchst, einen Stich mit einer Karte zu gewinnen, die nicht die höchste ist, in der Hoffnung, dass eine höhere Karte des Gegners günstig positioniert ist. Es ist eine grundlegende Bridge-Strategie.",
+          nl: "Een finesse is een techniek waarbij je probeert een slag te winnen met een kaart die niet de hoogste is, hopend dat een hogere kaart van de tegenstander gunstig gepositioneerd is. Het is een fundamentele Bridge strategie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'bidding' in contract card games?",
+          es: "¿Qué es 'pujar' en juegos de cartas de contrato?",
+          de: "Was ist 'Bieten' bei Kontraktkartenspielen?",
+          nl: "Wat is 'bieden' bij contract kaartspellen?"
+        },
+        options: [
+          { en: "Offering money to buy cards", es: "Ofrecer dinero para comprar cartas", de: "Geld anbieten, um Karten zu kaufen", nl: "Geld aanbieden om kaarten te kopen" },
+          { en: "Predicting how many tricks you'll win", es: "Predecir cuántas bazas ganarás", de: "Vorhersagen, wie viele Stiche du gewinnen wirst", nl: "Voorspellen hoeveel slagen je zult winnen" },
+          { en: "Exchanging cards with opponents", es: "Intercambiar cartas con oponentes", de: "Karten mit Gegnern tauschen", nl: "Kaarten ruilen met tegenstanders" },
+          { en: "Challenging the dealer", es: "Desafiar al repartidor", de: "Den Geber herausfordern", nl: "De deler uitdagen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Bidding is the process of declaring how many tricks you expect to win in games like Bridge and Spades. Your bid determines your contract and scoring obligations for that hand.",
+          es: "Pujar es el proceso de declarar cuántas bazas esperas ganar en juegos como Bridge y Spades. Tu puja determina tu contrato y obligaciones de puntuación para esa mano.",
+          de: "Bieten ist der Prozess des Erklärens, wie viele Stiche du in Spielen wie Bridge und Spades zu gewinnen erwartest. Dein Gebot bestimmt deinen Kontrakt und deine Punkteverpflichtungen für diese Hand.",
+          nl: "Bieden is het proces van verklaren hoeveel slagen je verwacht te winnen in spellen zoals Bridge en Spades. Je bod bepaalt je contract en score verplichtingen voor die hand."
+        }
+      },
+      {
+        question: {
+          en: "In Rummy, what is 'deadwood'?",
+          es: "En Rummy, ¿qué es 'deadwood'?",
+          de: "Was ist beim Rummy 'Deadwood'?",
+          nl: "Wat is 'deadwood' bij Rummy?"
+        },
+        options: [
+          { en: "Cards that have been discarded", es: "Cartas que han sido descartadas", de: "Karten, die abgeworfen wurden", nl: "Kaarten die zijn weggegooid" },
+          { en: "Unmatched cards remaining in your hand", es: "Cartas no emparejadas que quedan en tu mano", de: "Nicht passende Karten, die in deiner Hand verbleiben", nl: "Niet-gepaarde kaarten die in je hand overblijven" },
+          { en: "Face cards only", es: "Solo cartas de figura", de: "Nur Bildkarten", nl: "Alleen plaatjes" },
+          { en: "Cards dealt but not used", es: "Cartas repartidas pero no usadas", de: "Ausgeteilte, aber nicht verwendete Karten", nl: "Gedeelde maar niet gebruikte kaarten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Deadwood refers to cards in your hand that are not part of any meld (set or run). In Gin Rummy, the goal is to minimize deadwood points when knocking or going gin.",
+          es: "Deadwood se refiere a cartas en tu mano que no son parte de ninguna combinación (conjunto o escalera). En Gin Rummy, el objetivo es minimizar los puntos de deadwood al tocar o hacer gin.",
+          de: "Deadwood bezieht sich auf Karten in deiner Hand, die nicht Teil einer Meldung (Set oder Lauf) sind. Beim Gin Rummy ist das Ziel, Deadwood-Punkte beim Klopfen oder Gin machen zu minimieren.",
+          nl: "Deadwood verwijst naar kaarten in je hand die geen deel uitmaken van een meld (set of run). Bij Gin Rummy is het doel om deadwood punten te minimaliseren bij het kloppen of gin gaan."
+        }
+      },
+      {
+        question: {
+          en: "What is 'pinochle' in the card game Pinochle?",
+          es: "¿Qué es 'pinochle' en el juego de cartas Pinochle?",
+          de: "Was ist 'Pinochle' im Kartenspiel Pinochle?",
+          nl: "Wat is 'pinochle' in het kaartspel Pinochle?"
+        },
+        options: [
+          { en: "Queen of Spades and Jack of Diamonds", es: "Reina de Picas y Jota de Diamantes", de: "Pik-Dame und Karo-Bube", nl: "Schoppen Vrouw en Ruiten Boer" },
+          { en: "Two Aces of the same suit", es: "Dos Ases del mismo palo", de: "Zwei Asse der gleichen Farbe", nl: "Twee Azen van dezelfde kleur" },
+          { en: "All four Kings", es: "Los cuatro Reyes", de: "Alle vier Könige", nl: "Alle vier Koningen" },
+          { en: "Ace through 10 of trump suit", es: "As a 10 del palo de triunfo", de: "Ass bis 10 der Trumpffarbe", nl: "Aas tot 10 van troefkleur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In Pinochle, a 'pinochle' is the meld of the Queen of Spades and Jack of Diamonds, worth 40 points. It's one of the most valuable common melds in the game.",
+          es: "En Pinochle, un 'pinochle' es la combinación de la Reina de Picas y la Jota de Diamantes, vale 40 puntos. Es una de las combinaciones comunes más valiosas del juego.",
+          de: "Beim Pinochle ist ein 'Pinochle' die Meldung von Pik-Dame und Karo-Bube, wert 40 Punkte. Es ist eine der wertvollsten gemeinsamen Meldungen im Spiel.",
+          nl: "Bij Pinochle is een 'pinochle' de meld van de Schoppen Vrouw en Ruiten Boer, waard 40 punten. Het is een van de meest waardevolle gewone melds in het spel."
+        }
+      },
+      {
+        question: {
+          en: "In Uno, what does a 'Reverse' card do?",
+          es: "En Uno, ¿qué hace una carta 'Reversa'?",
+          de: "Was macht eine 'Richtungswechsel'-Karte beim Uno?",
+          nl: "Wat doet een 'Omdraaien'-kaart bij Uno?"
+        },
+        options: [
+          { en: "Returns all cards to the deck", es: "Devuelve todas las cartas al mazo", de: "Gibt alle Karten zum Stapel zurück", nl: "Geeft alle kaarten terug aan het deck" },
+          { en: "Changes the direction of play", es: "Cambia la dirección del juego", de: "Ändert die Spielrichtung", nl: "Verandert de speelrichting" },
+          { en: "Reverses the card colors", es: "Invierte los colores de las cartas", de: "Kehrt die Kartenfarben um", nl: "Keert de kaart kleuren om" },
+          { en: "Allows you to play out of turn", es: "Te permite jugar fuera de turno", de: "Erlaubt dir, außer der Reihe zu spielen", nl: "Staat je toe buiten de beurt te spelen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A Reverse card changes the direction of play from clockwise to counterclockwise or vice versa. With only two players, it effectively acts like a Skip card.",
+          es: "Una carta Reversa cambia la dirección del juego de sentido horario a antihorario o viceversa. Con solo dos jugadores, actúa efectivamente como una carta Saltar.",
+          de: "Eine Richtungswechsel-Karte ändert die Spielrichtung von im Uhrzeigersinn zu gegen den Uhrzeigersinn oder umgekehrt. Mit nur zwei Spielern wirkt sie effektiv wie eine Aussetzen-Karte.",
+          nl: "Een Omdraaien-kaart verandert de speelrichting van met de klok mee naar tegen de klok in of vice versa. Met slechts twee spelers werkt het effectief als een Sla Over-kaart."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'run' in Cribbage?",
+          es: "¿Qué es una 'escalera' en Cribbage?",
+          de: "Was ist ein 'Lauf' beim Cribbage?",
+          nl: "Wat is een 'run' bij Cribbage?"
+        },
+        options: [
+          { en: "Three or more consecutive cards", es: "Tres o más cartas consecutivas", de: "Drei oder mehr aufeinanderfolgende Karten", nl: "Drie of meer opeenvolgende kaarten" },
+          { en: "Four cards of the same suit", es: "Cuatro cartas del mismo palo", de: "Vier Karten der gleichen Farbe", nl: "Vier kaarten van dezelfde kleur" },
+          { en: "Getting to 121 points first", es: "Llegar primero a 121 puntos", de: "Zuerst 121 Punkte erreichen", nl: "Als eerste 121 punten behalen" },
+          { en: "Playing all your cards", es: "Jugar todas tus cartas", de: "Alle deine Karten spielen", nl: "Al je kaarten spelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In Cribbage, a run is a sequence of three or more consecutive cards regardless of suit. A 3-card run scores 3 points, 4-card run scores 4 points, and so on.",
+          es: "En Cribbage, una escalera es una secuencia de tres o más cartas consecutivas independientemente del palo. Una escalera de 3 cartas puntúa 3 puntos, una de 4 cartas puntúa 4 puntos, y así sucesivamente.",
+          de: "Beim Cribbage ist ein Lauf eine Sequenz von drei oder mehr aufeinanderfolgenden Karten unabhängig von der Farbe. Ein 3-Karten-Lauf bringt 3 Punkte, ein 4-Karten-Lauf 4 Punkte, und so weiter.",
+          nl: "Bij Cribbage is een run een reeks van drie of meer opeenvolgende kaarten ongeacht de kleur. Een 3-kaarten run scoort 3 punten, een 4-kaarten run scoort 4 punten, enzovoort."
+        }
+      },
+      {
+        question: {
+          en: "In Poker, what does 'the river' refer to?",
+          es: "En Póker, ¿a qué se refiere 'el river'?",
+          de: "Worauf bezieht sich beim Poker 'der River'?",
+          nl: "Waar verwijst 'de river' naar bij Poker?"
+        },
+        options: [
+          { en: "The first three community cards", es: "Las primeras tres cartas comunitarias", de: "Die ersten drei Gemeinschaftskarten", nl: "De eerste drie gemeenschapskaarten" },
+          { en: "The fourth community card", es: "La cuarta carta comunitaria", de: "Die vierte Gemeinschaftskarte", nl: "De vierde gemeenschapskaart" },
+          { en: "The fifth and final community card", es: "La quinta y última carta comunitaria", de: "Die fünfte und letzte Gemeinschaftskarte", nl: "De vijfde en laatste gemeenschapskaart" },
+          { en: "The dealer's position", es: "La posición del repartidor", de: "Die Position des Gebers", nl: "De positie van de deler" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The river is the fifth and final community card dealt in Texas Hold'em and Omaha poker. It's followed by the final betting round before the showdown.",
+          es: "El river es la quinta y última carta comunitaria repartida en Texas Hold'em y Omaha póker. Es seguida por la ronda final de apuestas antes del showdown.",
+          de: "Der River ist die fünfte und letzte Gemeinschaftskarte, die beim Texas Hold'em und Omaha Poker ausgeteilt wird. Es folgt die letzte Wettrunde vor dem Showdown.",
+          nl: "De river is de vijfde en laatste gemeenschapskaart gedeeld bij Texas Hold'em en Omaha poker. Het wordt gevolgd door de laatste inzetronde voor de showdown."
+        }
+      },
+      {
+        question: {
+          en: "What is 'undertrumping' in trick-taking games?",
+          es: "¿Qué es 'undertrumping' en juegos de bazas?",
+          de: "Was ist 'Untertrumpfen' bei Stichspielen?",
+          nl: "Wat is 'undertrumping' bij troefspellen?"
+        },
+        options: [
+          { en: "Playing a lower trump when you can't win the trick", es: "Jugar un triunfo más bajo cuando no puedes ganar la baza", de: "Einen niedrigeren Trumpf spielen, wenn du den Stich nicht gewinnen kannst", nl: "Een lagere troef spelen wanneer je de slag niet kunt winnen" },
+          { en: "Not playing trump when required", es: "No jugar triunfo cuando se requiere", de: "Trumpf nicht spielen, wenn erforderlich", nl: "Troef niet spelen wanneer vereist" },
+          { en: "Playing the lowest card possible", es: "Jugar la carta más baja posible", de: "Die niedrigste mögliche Karte spielen", nl: "De laagst mogelijke kaart spelen" },
+          { en: "Bidding lower than expected", es: "Apostar más bajo de lo esperado", de: "Niedriger bieten als erwartet", nl: "Lager bieden dan verwacht" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Undertrumping is playing a trump card lower than one already played when you have no cards of the led suit. It's often done to avoid winning an unwanted trick or to signal to your partner.",
+          es: "Undertrumping es jugar una carta de triunfo más baja que una ya jugada cuando no tienes cartas del palo liderado. A menudo se hace para evitar ganar una baza no deseada o señalar a tu compañero.",
+          de: "Untertrumpfen bedeutet, eine Trumpfkarte niedriger als eine bereits gespielte zu spielen, wenn du keine Karten der angespielten Farbe hast. Es wird oft getan, um einen unerwünschten Stich zu vermeiden oder dem Partner zu signalisieren.",
+          nl: "Undertrumping is het spelen van een troefkaart lager dan één die al gespeeld is wanneer je geen kaarten hebt van de geleide kleur. Het wordt vaak gedaan om een ongewenste slag te vermijden of te seinen naar je partner."
+        }
+      },
+      {
+        question: {
+          en: "In Canasta, what is a 'canasta'?",
+          es: "En Canasta, ¿qué es una 'canasta'?",
+          de: "Was ist beim Canasta eine 'Canasta'?",
+          nl: "Wat is een 'canasta' bij Canasta?"
+        },
+        options: [
+          { en: "A meld of seven or more cards", es: "Una combinación de siete o más cartas", de: "Eine Meldung von sieben oder mehr Karten", nl: "Een meld van zeven of meer kaarten" },
+          { en: "The discard pile", es: "La pila de descarte", de: "Der Ablagestapel", nl: "De aflegstapel" },
+          { en: "A pair of jokers", es: "Un par de comodines", de: "Ein Paar Joker", nl: "Een paar jokers" },
+          { en: "Going out with no deadwood", es: "Salir sin deadwood", de: "Ausgehen ohne Deadwood", nl: "Uitgaan zonder deadwood" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A canasta is a meld of seven or more cards of the same rank. Natural canastas (no wild cards) score 500 points, while mixed canastas score 300 points. You need at least one canasta to go out.",
+          es: "Una canasta es una combinación de siete o más cartas del mismo rango. Las canastas naturales (sin comodines) puntúan 500 puntos, mientras que las canastas mixtas puntúan 300 puntos. Necesitas al menos una canasta para salir.",
+          de: "Eine Canasta ist eine Meldung von sieben oder mehr Karten des gleichen Ranges. Natürliche Canastas (keine Wildcards) bringen 500 Punkte, während gemischte Canastas 300 Punkte bringen. Du brauchst mindestens eine Canasta, um auszugehen.",
+          nl: "Een canasta is een meld van zeven of meer kaarten van dezelfde rang. Natuurlijke canasta's (geen wildcards) scoren 500 punten, terwijl gemengde canasta's 300 punten scoren. Je hebt minstens één canasta nodig om uit te gaan."
+        }
+      },
+      {
+        question: {
+          en: "What is 'the flop' in Texas Hold'em?",
+          es: "¿Qué es 'el flop' en Texas Hold'em?",
+          de: "Was ist 'der Flop' beim Texas Hold'em?",
+          nl: "Wat is 'de flop' bij Texas Hold'em?"
+        },
+        options: [
+          { en: "The first three community cards dealt", es: "Las primeras tres cartas comunitarias repartidas", de: "Die ersten drei ausgeteilten Gemeinschaftskarten", nl: "De eerste drie gedeelde gemeenschapskaarten" },
+          { en: "When all players fold", es: "Cuando todos los jugadores se retiran", de: "Wenn alle Spieler aussteigen", nl: "Wanneer alle spelers passen" },
+          { en: "The worst possible hand", es: "La peor mano posible", de: "Die schlechteste mögliche Hand", nl: "De slechtst mogelijke hand" },
+          { en: "The dealer button position", es: "La posición del botón del repartidor", de: "Die Dealer-Button-Position", nl: "De dealer button positie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The flop is the first three community cards dealt face-up simultaneously in Texas Hold'em, followed by a round of betting. It comes after the pre-flop betting round.",
+          es: "El flop son las primeras tres cartas comunitarias repartidas boca arriba simultáneamente en Texas Hold'em, seguidas de una ronda de apuestas. Viene después de la ronda de apuestas pre-flop.",
+          de: "Der Flop sind die ersten drei Gemeinschaftskarten, die beim Texas Hold'em gleichzeitig offen ausgeteilt werden, gefolgt von einer Wettrunde. Er kommt nach der Pre-Flop-Wettrunde.",
+          nl: "De flop is de eerste drie gemeenschapskaarten gelijktijdig open gedeeld bij Texas Hold'em, gevolgd door een inzetronde. Het komt na de pre-flop inzetronde."
+        }
+      },
+      {
+        question: {
+          en: "In Euchre, what is a 'bower'?",
+          es: "En Euchre, ¿qué es un 'bower'?",
+          de: "Was ist beim Euchre ein 'Bower'?",
+          nl: "Wat is een 'bower' bij Euchre?"
+        },
+        options: [
+          { en: "The trump Jacks (highest cards)", es: "Las Jotas de triunfo (cartas más altas)", de: "Die Trumpf-Buben (höchste Karten)", nl: "De troef Boeren (hoogste kaarten)" },
+          { en: "The player who deals", es: "El jugador que reparte", de: "Der Spieler, der gibt", nl: "De speler die deelt" },
+          { en: "A meld of three cards", es: "Una combinación de tres cartas", de: "Eine Meldung von drei Karten", nl: "Een meld van drie kaarten" },
+          { en: "The discard pile", es: "La pila de descarte", de: "Der Ablagestapel", nl: "De aflegstapel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Bowers are the two highest cards in Euchre. The 'right bower' is the Jack of trump, and the 'left bower' is the Jack of the same color as trump, which becomes trump too.",
+          es: "Los bowers son las dos cartas más altas en Euchre. El 'right bower' es la Jota de triunfo, y el 'left bower' es la Jota del mismo color que el triunfo, que también se convierte en triunfo.",
+          de: "Bowers sind die zwei höchsten Karten beim Euchre. Der 'Right Bower' ist der Bube der Trumpffarbe, und der 'Left Bower' ist der Bube derselben Farbe wie Trumpf, der auch zum Trumpf wird.",
+          nl: "Bowers zijn de twee hoogste kaarten bij Euchre. De 'right bower' is de Boer van troef, en de 'left bower' is de Boer van dezelfde kleur als troef, die ook troef wordt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'going gin' in Gin Rummy?",
+          es: "¿Qué es 'hacer gin' en Gin Rummy?",
+          de: "Was ist 'Gin machen' beim Gin Rummy?",
+          nl: "Wat is 'gin gaan' bij Gin Rummy?"
+        },
+        options: [
+          { en: "Forming all cards into melds with no deadwood", es: "Formar todas las cartas en combinaciones sin deadwood", de: "Alle Karten in Meldungen bilden ohne Deadwood", nl: "Alle kaarten in melds vormen zonder deadwood" },
+          { en: "Discarding your last card", es: "Descartar tu última carta", de: "Deine letzte Karte abwerfen", nl: "Je laatste kaart weggooien" },
+          { en: "Knocking with exactly 10 points", es: "Tocar con exactamente 10 puntos", de: "Klopfen mit genau 10 Punkten", nl: "Kloppen met precies 10 punten" },
+          { en: "Winning three hands in a row", es: "Ganar tres manos seguidas", de: "Drei Hände in Folge gewinnen", nl: "Drie handen op rij winnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Going gin means melding all 10 cards in your hand with no deadwood. This scores a 25-point bonus plus your opponent's deadwood points, and your opponent cannot lay off cards.",
+          es: "Hacer gin significa combinar todas las 10 cartas en tu mano sin deadwood. Esto puntúa un bono de 25 puntos más los puntos de deadwood de tu oponente, y tu oponente no puede descartar cartas.",
+          de: "Gin machen bedeutet, alle 10 Karten in deiner Hand ohne Deadwood zu melden. Dies bringt einen 25-Punkte-Bonus plus die Deadwood-Punkte deines Gegners, und dein Gegner kann keine Karten ablegen.",
+          nl: "Gin gaan betekent alle 10 kaarten in je hand melden zonder deadwood. Dit scoort een 25-punten bonus plus je tegenstanders deadwood punten, en je tegenstander kan geen kaarten afleggen."
+        }
+      },
+      {
+        question: {
+          en: "In Poker, what is 'four of a kind'?",
+          es: "En Póker, ¿qué es un 'póker'?",
+          de: "Was ist beim Poker ein 'Vierling'?",
+          nl: "Wat is 'vier van een soort' bij Poker?"
+        },
+        options: [
+          { en: "Four cards of the same rank", es: "Cuatro cartas del mismo rango", de: "Vier Karten des gleichen Ranges", nl: "Vier kaarten van dezelfde rang" },
+          { en: "Four consecutive cards", es: "Cuatro cartas consecutivas", de: "Vier aufeinanderfolgende Karten", nl: "Vier opeenvolgende kaarten" },
+          { en: "Two pairs", es: "Dos pares", de: "Zwei Paare", nl: "Twee paren" },
+          { en: "All face cards", es: "Todas las figuras", de: "Alle Bildkarten", nl: "Alle plaatjes" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Four of a kind (also called quads) is four cards of the same rank, such as four 8s. It ranks above a full house and below a straight flush in poker hand rankings.",
+          es: "Un póker (también llamado quads) son cuatro cartas del mismo rango, como cuatro 8s. Se clasifica por encima de un full house y por debajo de una escalera de color en las clasificaciones de manos de póker.",
+          de: "Ein Vierling (auch Quads genannt) sind vier Karten des gleichen Ranges, wie vier 8en. Er rangiert über einem Full House und unter einem Straight Flush in der Poker-Handrangliste.",
+          nl: "Vier van een soort (ook wel quads genoemd) is vier kaarten van dezelfde rang, zoals vier 8'en. Het rangschikt boven een full house en onder een straight flush in poker handranglijsten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'the turn' in Texas Hold'em?",
+          es: "¿Qué es 'el turn' en Texas Hold'em?",
+          de: "Was ist 'der Turn' beim Texas Hold'em?",
+          nl: "Wat is 'de turn' bij Texas Hold'em?"
+        },
+        options: [
+          { en: "The first betting round", es: "La primera ronda de apuestas", de: "Die erste Wettrunde", nl: "De eerste inzetronde" },
+          { en: "The second betting round", es: "La segunda ronda de apuestas", de: "Die zweite Wettrunde", nl: "De tweede inzetronde" },
+          { en: "The fourth community card", es: "La cuarta carta comunitaria", de: "Die vierte Gemeinschaftskarte", nl: "De vierde gemeenschapskaart" },
+          { en: "Passing the dealer button", es: "Pasar el botón del repartidor", de: "Den Dealer-Button weitergeben", nl: "De dealer button doorgeven" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The turn (also called fourth street) is the fourth community card dealt in Texas Hold'em and Omaha. It's dealt after the flop and followed by another betting round.",
+          es: "El turn (también llamado fourth street) es la cuarta carta comunitaria repartida en Texas Hold'em y Omaha. Se reparte después del flop y es seguida de otra ronda de apuestas.",
+          de: "Der Turn (auch Fourth Street genannt) ist die vierte Gemeinschaftskarte, die beim Texas Hold'em und Omaha ausgeteilt wird. Sie wird nach dem Flop ausgeteilt und von einer weiteren Wettrunde gefolgt.",
+          nl: "De turn (ook wel fourth street genoemd) is de vierde gemeenschapskaart gedeeld bij Texas Hold'em en Omaha. Het wordt gedeeld na de flop en gevolgd door een andere inzetronde."
+        }
       }
     ]
   };

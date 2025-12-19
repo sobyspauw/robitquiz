@@ -827,6 +827,785 @@
         de: "Es gibt 8 Dreifacher-Wortwert-Felder auf einem Standard-Scrabble-Brett, die sich an den Ecken und Rändern befinden.",
         nl: "Er zijn 8 Driedubbele Woordwaarde-vakken op een standaard Scrabble-bord, gelegen op de hoeken en randen."
       }
+    },
+    {
+      question: {
+        en: "How many points is the letter 'H' worth in Scrabble?",
+        es: "¿Cuántos puntos vale la letra 'H' en Scrabble?",
+        de: "Wie viele Punkte ist der Buchstabe 'H' im Scrabble wert?",
+        nl: "Hoeveel punten is de letter 'H' waard in Scrabble?"
+      },
+      options: [
+        {
+          en: "2 pts",
+          es: "2 puntos",
+          de: "2 Punkte",
+          nl: "2 punten"
+        },
+        {
+          en: "3 pts",
+          es: "3 puntos",
+          de: "3 Punkte",
+          nl: "3 punten"
+        },
+        {
+          en: "4 pts",
+          es: "4 puntos",
+          de: "4 Punkte",
+          nl: "4 punten"
+        },
+        {
+          en: "5 pts",
+          es: "5 puntos",
+          de: "5 Punkte",
+          nl: "5 punten"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "The letter 'H' is worth 4 points in Scrabble. It's a moderately valuable consonant commonly used in English words.",
+        es: "La letra 'H' vale 4 puntos en Scrabble. Es una consonante de valor moderado comúnmente usada en palabras en inglés.",
+        de: "Der Buchstabe 'H' ist 4 Punkte im Scrabble wert. Es ist ein mittelwertiger Konsonant, der häufig in englischen Wörtern verwendet wird.",
+        nl: "De letter 'H' is 4 punten waard in Scrabble. Het is een matig waardevolle medeklinker die veel wordt gebruikt in Engelse woorden."
+      }
+    },
+    {
+      question: {
+        en: "What color are Triple Letter Score squares?",
+        es: "¿De qué color son los cuadrados de Puntuación de Letra Triple?",
+        de: "Welche Farbe haben Dreifacher-Buchstabenwert-Felder?",
+        nl: "Welke kleur hebben Driedubbele Letterwaarde-vakken?"
+      },
+      options: [
+        {
+          en: "Light blue",
+          es: "Azul claro",
+          de: "Hellblau",
+          nl: "Lichtblauw"
+        },
+        {
+          en: "Dark blue",
+          es: "Azul oscuro",
+          de: "Dunkelblau",
+          nl: "Donkerblauw"
+        },
+        {
+          en: "Red",
+          es: "Rojo",
+          de: "Rot",
+          nl: "Rood"
+        },
+        {
+          en: "Green",
+          es: "Verde",
+          de: "Grün",
+          nl: "Groen"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Triple Letter Score squares are dark blue. They multiply the value of a single letter by 3 when a tile is first placed on them.",
+        es: "Los cuadrados de Puntuación de Letra Triple son azul oscuro. Multiplican el valor de una sola letra por 3 cuando se coloca una ficha por primera vez.",
+        de: "Dreifacher-Buchstabenwert-Felder sind dunkelblau. Sie multiplizieren den Wert eines einzelnen Buchstabens mit 3, wenn ein Stein zum ersten Mal platziert wird.",
+        nl: "Driedubbele Letterwaarde-vakken zijn donkerblauw. Ze vermenigvuldigen de waarde van een enkele letter met 3 wanneer een steen voor het eerst wordt geplaatst."
+      }
+    },
+    {
+      question: {
+        en: "Can you exchange tiles on your turn instead of playing a word?",
+        es: "¿Puedes intercambiar fichas en tu turno en lugar de jugar una palabra?",
+        de: "Können Sie in Ihrem Zug Steine austauschen, anstatt ein Wort zu spielen?",
+        nl: "Kun je stenen ruilen op je beurt in plaats van een woord te spelen?"
+      },
+      options: [
+        {
+          en: "Yes, but you lose your turn",
+          es: "Sí, pero pierdes tu turno",
+          de: "Ja, aber Sie verlieren Ihren Zug",
+          nl: "Ja, maar je verliest je beurt"
+        },
+        {
+          en: "No, never allowed",
+          es: "No, nunca permitido",
+          de: "Nein, niemals erlaubt",
+          nl: "Nee, nooit toegestaan"
+        },
+        {
+          en: "Yes, and keep your turn",
+          es: "Sí, y conservas tu turno",
+          de: "Ja, und Sie behalten Ihren Zug",
+          nl: "Ja, en je behoudt je beurt"
+        },
+        {
+          en: "Only in first 3 turns",
+          es: "Solo en los primeros 3 turnos",
+          de: "Nur in den ersten 3 Zügen",
+          nl: "Alleen in de eerste 3 beurten"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "You can exchange any number of tiles with the bag, but you forfeit that turn. This is useful for getting rid of difficult letters.",
+        es: "Puedes intercambiar cualquier número de fichas con la bolsa, pero pierdes ese turno. Esto es útil para deshacerse de letras difíciles.",
+        de: "Sie können beliebig viele Steine mit dem Beutel austauschen, aber Sie verlieren diesen Zug. Dies ist nützlich, um schwierige Buchstaben loszuwerden.",
+        nl: "Je kunt elk aantal stenen ruilen met de zak, maar je verliest die beurt. Dit is handig om van moeilijke letters af te komen."
+      }
+    },
+    {
+      question: {
+        en: "How many 'I' tiles are in a standard Scrabble set?",
+        es: "¿Cuántas fichas 'I' hay en un juego estándar de Scrabble?",
+        de: "Wie viele 'I'-Steine gibt es in einem Standard-Scrabble-Spiel?",
+        nl: "Hoeveel 'I'-stenen zitten er in een standaard Scrabble-set?"
+      },
+      options: [
+        {
+          en: "6",
+          es: "6",
+          de: "6",
+          nl: "6"
+        },
+        {
+          en: "8",
+          es: "8",
+          de: "8",
+          nl: "8"
+        },
+        {
+          en: "9",
+          es: "9",
+          de: "9",
+          nl: "9"
+        },
+        {
+          en: "12",
+          es: "12",
+          de: "12",
+          nl: "12"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "There are 9 'I' tiles in a standard Scrabble set, each worth 1 point. It's one of the most common vowels.",
+        es: "Hay 9 fichas 'I' en un juego estándar de Scrabble, cada una vale 1 punto. Es una de las vocales más comunes.",
+        de: "Es gibt 9 'I'-Steine in einem Standard-Scrabble-Spiel, jeder ist 1 Punkt wert. Es ist einer der häufigsten Vokale.",
+        nl: "Er zijn 9 'I'-stenen in een standaard Scrabble-set, elk 1 punt waard. Het is een van de meest voorkomende klinkers."
+      }
+    },
+    {
+      question: {
+        en: "What is the point value of the letter 'C'?",
+        es: "¿Cuál es el valor en puntos de la letra 'C'?",
+        de: "Welchen Punktwert hat der Buchstabe 'C'?",
+        nl: "Wat is de puntwaarde van de letter 'C'?"
+      },
+      options: [
+        {
+          en: "1 point",
+          es: "1 punto",
+          de: "1 Punkt",
+          nl: "1 punt"
+        },
+        {
+          en: "2 pts",
+          es: "2 puntos",
+          de: "2 Punkte",
+          nl: "2 punten"
+        },
+        {
+          en: "3 pts",
+          es: "3 puntos",
+          de: "3 Punkte",
+          nl: "3 punten"
+        },
+        {
+          en: "4 pts",
+          es: "4 puntos",
+          de: "4 Punkte",
+          nl: "4 punten"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "The letter 'C' is worth 3 points in Scrabble. There are 2 'C' tiles in a standard set.",
+        es: "La letra 'C' vale 3 puntos en Scrabble. Hay 2 fichas 'C' en un juego estándar.",
+        de: "Der Buchstabe 'C' ist 3 Punkte im Scrabble wert. Es gibt 2 'C'-Steine in einem Standard-Spiel.",
+        nl: "De letter 'C' is 3 punten waard in Scrabble. Er zijn 2 'C'-stenen in een standaard set."
+      }
+    },
+    {
+      question: {
+        en: "How many 'O' tiles are in a Scrabble set?",
+        es: "¿Cuántas fichas 'O' hay en un juego de Scrabble?",
+        de: "Wie viele 'O'-Steine gibt es in einem Scrabble-Spiel?",
+        nl: "Hoeveel 'O'-stenen zitten er in een Scrabble-set?"
+      },
+      options: [
+        {
+          en: "6",
+          es: "6",
+          de: "6",
+          nl: "6"
+        },
+        {
+          en: "7",
+          es: "7",
+          de: "7",
+          nl: "7"
+        },
+        {
+          en: "8",
+          es: "8",
+          de: "8",
+          nl: "8"
+        },
+        {
+          en: "9",
+          es: "9",
+          de: "9",
+          nl: "9"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "There are 8 'O' tiles in a standard Scrabble set. Each 'O' is worth 1 point and it's a common vowel.",
+        es: "Hay 8 fichas 'O' en un juego estándar de Scrabble. Cada 'O' vale 1 punto y es una vocal común.",
+        de: "Es gibt 8 'O'-Steine in einem Standard-Scrabble-Spiel. Jedes 'O' ist 1 Punkt wert und es ist ein häufiger Vokal.",
+        nl: "Er zijn 8 'O'-stenen in een standaard Scrabble-set. Elke 'O' is 1 punt waard en het is een veel voorkomende klinker."
+      }
+    },
+    {
+      question: {
+        en: "What is the official word for a 7-letter play in Scrabble?",
+        es: "¿Cuál es el término oficial para una jugada de 7 letras en Scrabble?",
+        de: "Was ist der offizielle Begriff für ein 7-Buchstaben-Spiel im Scrabble?",
+        nl: "Wat is de officiële term voor een 7-letter zet in Scrabble?"
+      },
+      options: [
+        {
+          en: "Jackpot",
+          es: "Jackpot",
+          de: "Jackpot",
+          nl: "Jackpot"
+        },
+        {
+          en: "Bingo",
+          es: "Bingo",
+          de: "Bingo",
+          nl: "Bingo"
+        },
+        {
+          en: "Strike",
+          es: "Strike",
+          de: "Strike",
+          nl: "Strike"
+        },
+        {
+          en: "Perfect",
+          es: "Perfect",
+          de: "Perfect",
+          nl: "Perfect"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "A 7-letter play using all tiles in one turn is called a 'bingo' and earns a 50-point bonus. It's a key strategy in competitive play.",
+        es: "Una jugada de 7 letras usando todas las fichas en un turno se llama 'bingo' y gana un bono de 50 puntos. Es una estrategia clave en el juego competitivo.",
+        de: "Ein 7-Buchstaben-Spiel mit allen Steinen in einem Zug wird 'Bingo' genannt und bringt einen 50-Punkte-Bonus. Es ist eine Schlüsselstrategie im kompetitiven Spiel.",
+        nl: "Een 7-letter zet waarbij alle stenen in één beurt worden gebruikt, wordt een 'bingo' genoemd en levert een bonus van 50 punten op. Het is een belangrijke strategie in competitief spel."
+      }
+    },
+    {
+      question: {
+        en: "How many points is the letter 'M' worth?",
+        es: "¿Cuántos puntos vale la letra 'M'?",
+        de: "Wie viele Punkte ist der Buchstabe 'M' wert?",
+        nl: "Hoeveel punten is de letter 'M' waard?"
+      },
+      options: [
+        {
+          en: "1 point",
+          es: "1 punto",
+          de: "1 Punkt",
+          nl: "1 punt"
+        },
+        {
+          en: "2 pts",
+          es: "2 puntos",
+          de: "2 Punkte",
+          nl: "2 punten"
+        },
+        {
+          en: "3 pts",
+          es: "3 puntos",
+          de: "3 Punkte",
+          nl: "3 punten"
+        },
+        {
+          en: "4 pts",
+          es: "4 puntos",
+          de: "4 Punkte",
+          nl: "4 punten"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "The letter 'M' is worth 3 points in Scrabble. There are 2 'M' tiles in a standard set.",
+        es: "La letra 'M' vale 3 puntos en Scrabble. Hay 2 fichas 'M' en un juego estándar.",
+        de: "Der Buchstabe 'M' ist 3 Punkte im Scrabble wert. Es gibt 2 'M'-Steine in einem Standard-Spiel.",
+        nl: "De letter 'M' is 3 punten waard in Scrabble. Er zijn 2 'M'-stenen in een standaard set."
+      }
+    },
+    {
+      question: {
+        en: "When was Scrabble first commercially released?",
+        es: "¿Cuándo se lanzó comercialmente Scrabble por primera vez?",
+        de: "Wann wurde Scrabble erstmals kommerziell veröffentlicht?",
+        nl: "Wanneer werd Scrabble voor het eerst commercieel uitgebracht?"
+      },
+      options: [
+        {
+          en: "1938",
+          es: "1938",
+          de: "1938",
+          nl: "1938"
+        },
+        {
+          en: "1948",
+          es: "1948",
+          de: "1948",
+          nl: "1948"
+        },
+        {
+          en: "1958",
+          es: "1958",
+          de: "1958",
+          nl: "1958"
+        },
+        {
+          en: "1968",
+          es: "1968",
+          de: "1968",
+          nl: "1968"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Scrabble was first commercially released in 1948, though it was invented in 1938 by Alfred Mosher Butts as 'Criss-Crosswords'.",
+        es: "Scrabble se lanzó comercialmente por primera vez en 1948, aunque fue inventado en 1938 por Alfred Mosher Butts como 'Criss-Crosswords'.",
+        de: "Scrabble wurde erstmals 1948 kommerziell veröffentlicht, obwohl es 1938 von Alfred Mosher Butts als 'Criss-Crosswords' erfunden wurde.",
+        nl: "Scrabble werd voor het eerst commercieel uitgebracht in 1948, hoewel het in 1938 werd uitgevonden door Alfred Mosher Butts als 'Criss-Crosswords'."
+      }
+    },
+    {
+      question: {
+        en: "What happens if both premium squares are covered in one word?",
+        es: "¿Qué sucede si se cubren dos cuadrados premium en una palabra?",
+        de: "Was passiert, wenn zwei Premium-Felder in einem Wort abgedeckt werden?",
+        nl: "Wat gebeurt er als twee premiumvakken in één woord worden bedekt?"
+      },
+      options: [
+        {
+          en: "Only first one counts",
+          es: "Solo cuenta el primero",
+          de: "Nur das erste zählt",
+          nl: "Alleen de eerste telt"
+        },
+        {
+          en: "Only highest one counts",
+          es: "Solo cuenta el más alto",
+          de: "Nur das höchste zählt",
+          nl: "Alleen de hoogste telt"
+        },
+        {
+          en: "Both bonuses apply",
+          es: "Ambas bonificaciones se aplican",
+          de: "Beide Boni gelten",
+          nl: "Beide bonussen zijn van toepassing"
+        },
+        {
+          en: "They cancel out",
+          es: "Se cancelan mutuamente",
+          de: "Sie heben sich auf",
+          nl: "Ze heffen elkaar op"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "If a word covers multiple premium squares, all bonuses apply. For example, two Double Word Scores would quadruple the word score.",
+        es: "Si una palabra cubre múltiples cuadrados premium, todas las bonificaciones se aplican. Por ejemplo, dos Puntuaciones de Palabra Doble cuadruplicarían la puntuación de la palabra.",
+        de: "Wenn ein Wort mehrere Premium-Felder abdeckt, gelten alle Boni. Zum Beispiel würden zwei Doppelte Wortwerte die Wortpunktzahl vervierfachen.",
+        nl: "Als een woord meerdere premiumvakken bedekt, zijn alle bonussen van toepassing. Bijvoorbeeld, twee Dubbele Woordwaarden zouden de woordscore verviervoudigen."
+      }
+    },
+    {
+      question: {
+        en: "How many 'U' tiles are in a Scrabble set?",
+        es: "¿Cuántas fichas 'U' hay en un juego de Scrabble?",
+        de: "Wie viele 'U'-Steine gibt es in einem Scrabble-Spiel?",
+        nl: "Hoeveel 'U'-stenen zitten er in een Scrabble-set?"
+      },
+      options: [
+        {
+          en: "2",
+          es: "2",
+          de: "2",
+          nl: "2"
+        },
+        {
+          en: "4",
+          es: "4",
+          de: "4",
+          nl: "4"
+        },
+        {
+          en: "6",
+          es: "6",
+          de: "6",
+          nl: "6"
+        },
+        {
+          en: "8",
+          es: "8",
+          de: "8",
+          nl: "8"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "There are 4 'U' tiles in a standard Scrabble set, each worth 1 point. U is the least common vowel in the set.",
+        es: "Hay 4 fichas 'U' en un juego estándar de Scrabble, cada una vale 1 punto. U es la vocal menos común en el juego.",
+        de: "Es gibt 4 'U'-Steine in einem Standard-Scrabble-Spiel, jeder ist 1 Punkt wert. U ist der seltenste Vokal im Set.",
+        nl: "Er zijn 4 'U'-stenen in een standaard Scrabble-set, elk 1 punt waard. U is de minst voorkomende klinker in de set."
+      }
+    },
+    {
+      question: {
+        en: "What is the point value of the letter 'B'?",
+        es: "¿Cuál es el valor en puntos de la letra 'B'?",
+        de: "Welchen Punktwert hat der Buchstabe 'B'?",
+        nl: "Wat is de puntwaarde van de letter 'B'?"
+      },
+      options: [
+        {
+          en: "2 pts",
+          es: "2 puntos",
+          de: "2 Punkte",
+          nl: "2 punten"
+        },
+        {
+          en: "3 pts",
+          es: "3 puntos",
+          de: "3 Punkte",
+          nl: "3 punten"
+        },
+        {
+          en: "4 pts",
+          es: "4 puntos",
+          de: "4 Punkte",
+          nl: "4 punten"
+        },
+        {
+          en: "5 pts",
+          es: "5 puntos",
+          de: "5 Punkte",
+          nl: "5 punten"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "The letter 'B' is worth 3 points in Scrabble. There are 2 'B' tiles in a standard set.",
+        es: "La letra 'B' vale 3 puntos en Scrabble. Hay 2 fichas 'B' en un juego estándar.",
+        de: "Der Buchstabe 'B' ist 3 Punkte im Scrabble wert. Es gibt 2 'B'-Steine in einem Standard-Spiel.",
+        nl: "De letter 'B' is 3 punten waard in Scrabble. Er zijn 2 'B'-stenen in een standaard set."
+      }
+    },
+    {
+      question: {
+        en: "Can you add a single letter to form a new word horizontally and vertically?",
+        es: "¿Puedes agregar una sola letra para formar una nueva palabra horizontal y verticalmente?",
+        de: "Können Sie einen einzelnen Buchstaben hinzufügen, um horizontal und vertikal ein neues Wort zu bilden?",
+        nl: "Kun je een enkele letter toevoegen om horizontaal en verticaal een nieuw woord te vormen?"
+      },
+      options: [
+        {
+          en: "No, not allowed",
+          es: "No, no permitido",
+          de: "Nein, nicht erlaubt",
+          nl: "Nee, niet toegestaan"
+        },
+        {
+          en: "Yes, both must be valid",
+          es: "Sí, ambas deben ser válidas",
+          de: "Ja, beide müssen gültig sein",
+          nl: "Ja, beide moeten geldig zijn"
+        },
+        {
+          en: "Only in corners",
+          es: "Solo en esquinas",
+          de: "Nur in Ecken",
+          nl: "Alleen in hoeken"
+        },
+        {
+          en: "Only with blanks",
+          es: "Solo con blancos",
+          de: "Nur mit Blanko-Steinen",
+          nl: "Alleen met blanco's"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Yes, when you place a tile that forms words in both directions, both words must be valid. You score points for both words created.",
+        es: "Sí, cuando colocas una ficha que forma palabras en ambas direcciones, ambas palabras deben ser válidas. Obtienes puntos por ambas palabras creadas.",
+        de: "Ja, wenn Sie einen Stein platzieren, der Wörter in beide Richtungen bildet, müssen beide Wörter gültig sein. Sie erzielen Punkte für beide erstellten Wörter.",
+        nl: "Ja, wanneer je een steen plaatst die woorden in beide richtingen vormt, moeten beide woorden geldig zijn. Je scoort punten voor beide gevormde woorden."
+      }
+    },
+    {
+      question: {
+        en: "How many Double Word Score squares are on the board?",
+        es: "¿Cuántos cuadrados de Puntuación de Palabra Doble hay en el tablero?",
+        de: "Wie viele Doppelter-Wortwert-Felder gibt es auf dem Brett?",
+        nl: "Hoeveel Dubbele Woordwaarde-vakken zijn er op het bord?"
+      },
+      options: [
+        {
+          en: "12",
+          es: "12",
+          de: "12",
+          nl: "12"
+        },
+        {
+          en: "16",
+          es: "16",
+          de: "16",
+          nl: "16"
+        },
+        {
+          en: "17",
+          es: "17",
+          de: "17",
+          nl: "17"
+        },
+        {
+          en: "20",
+          es: "20",
+          de: "20",
+          nl: "20"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "There are 17 Double Word Score squares on a standard Scrabble board, including the center star square which acts as one.",
+        es: "Hay 17 cuadrados de Puntuación de Palabra Doble en un tablero estándar de Scrabble, incluido el cuadrado de estrella central que actúa como uno.",
+        de: "Es gibt 17 Doppelter-Wortwert-Felder auf einem Standard-Scrabble-Brett, einschließlich des zentralen Sternfeldes, das als eines fungiert.",
+        nl: "Er zijn 17 Dubbele Woordwaarde-vakken op een standaard Scrabble-bord, inclusief het centrale stervak dat als één fungeert."
+      }
+    },
+    {
+      question: {
+        en: "What is the point value of the letter 'P'?",
+        es: "¿Cuál es el valor en puntos de la letra 'P'?",
+        de: "Welchen Punktwert hat der Buchstabe 'P'?",
+        nl: "Wat is de puntwaarde van de letter 'P'?"
+      },
+      options: [
+        {
+          en: "2 pts",
+          es: "2 puntos",
+          de: "2 Punkte",
+          nl: "2 punten"
+        },
+        {
+          en: "3 pts",
+          es: "3 puntos",
+          de: "3 Punkte",
+          nl: "3 punten"
+        },
+        {
+          en: "4 pts",
+          es: "4 puntos",
+          de: "4 Punkte",
+          nl: "4 punten"
+        },
+        {
+          en: "5 pts",
+          es: "5 puntos",
+          de: "5 Punkte",
+          nl: "5 punten"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "The letter 'P' is worth 3 points in Scrabble. There are 2 'P' tiles in a standard set.",
+        es: "La letra 'P' vale 3 puntos en Scrabble. Hay 2 fichas 'P' en un juego estándar.",
+        de: "Der Buchstabe 'P' ist 3 Punkte im Scrabble wert. Es gibt 2 'P'-Steine in einem Standard-Spiel.",
+        nl: "De letter 'P' is 3 punten waard in Scrabble. Er zijn 2 'P'-stenen in een standaard set."
+      }
+    },
+    {
+      question: {
+        en: "What is the international Scrabble dictionary called?",
+        es: "¿Cómo se llama el diccionario internacional de Scrabble?",
+        de: "Wie heißt das internationale Scrabble-Wörterbuch?",
+        nl: "Hoe heet het internationale Scrabble-woordenboek?"
+      },
+      options: [
+        {
+          en: "TWL",
+          es: "TWL",
+          de: "TWL",
+          nl: "TWL"
+        },
+        {
+          en: "SOWPODS",
+          es: "SOWPODS",
+          de: "SOWPODS",
+          nl: "SOWPODS"
+        },
+        {
+          en: "OWL",
+          es: "OWL",
+          de: "OWL",
+          nl: "OWL"
+        },
+        {
+          en: "CSW",
+          es: "CSW",
+          de: "CSW",
+          nl: "CSW"
+        }
+      ],
+      correct: 3,
+      explanation: {
+        en: "The Collins Scrabble Words (CSW) is the international dictionary. It's also known as SOWPODS, combining British and American word lists.",
+        es: "Collins Scrabble Words (CSW) es el diccionario internacional. También se conoce como SOWPODS, combinando listas de palabras británicas y americanas.",
+        de: "Collins Scrabble Words (CSW) ist das internationale Wörterbuch. Es ist auch als SOWPODS bekannt und kombiniert britische und amerikanische Wortlisten.",
+        nl: "Collins Scrabble Words (CSW) is het internationale woordenboek. Het is ook bekend als SOWPODS, een combinatie van Britse en Amerikaanse woordenlijsten."
+      }
+    },
+    {
+      question: {
+        en: "How many points is the letter 'W' worth?",
+        es: "¿Cuántos puntos vale la letra 'W'?",
+        de: "Wie viele Punkte ist der Buchstabe 'W' wert?",
+        nl: "Hoeveel punten is de letter 'W' waard?"
+      },
+      options: [
+        {
+          en: "2 pts",
+          es: "2 puntos",
+          de: "2 Punkte",
+          nl: "2 punten"
+        },
+        {
+          en: "3 pts",
+          es: "3 puntos",
+          de: "3 Punkte",
+          nl: "3 punten"
+        },
+        {
+          en: "4 pts",
+          es: "4 puntos",
+          de: "4 Punkte",
+          nl: "4 punten"
+        },
+        {
+          en: "5 pts",
+          es: "5 puntos",
+          de: "5 Punkte",
+          nl: "5 punten"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "The letter 'W' is worth 4 points in Scrabble. There are 2 'W' tiles in a standard set.",
+        es: "La letra 'W' vale 4 puntos en Scrabble. Hay 2 fichas 'W' en un juego estándar.",
+        de: "Der Buchstabe 'W' ist 4 Punkte im Scrabble wert. Es gibt 2 'W'-Steine in einem Standard-Spiel.",
+        nl: "De letter 'W' is 4 punten waard in Scrabble. Er zijn 2 'W'-stenen in een standaard set."
+      }
+    },
+    {
+      question: {
+        en: "Can you challenge a word after the next player has already played?",
+        es: "¿Puedes desafiar una palabra después de que el siguiente jugador ya haya jugado?",
+        de: "Können Sie ein Wort anfechten, nachdem der nächste Spieler bereits gespielt hat?",
+        nl: "Kun je een woord uitdagen nadat de volgende speler al heeft gespeeld?"
+      },
+      options: [
+        {
+          en: "Yes, anytime",
+          es: "Sí, en cualquier momento",
+          de: "Ja, jederzeit",
+          nl: "Ja, altijd"
+        },
+        {
+          en: "No, too late",
+          es: "No, es demasiado tarde",
+          de: "Nein, zu spät",
+          nl: "Nee, te laat"
+        },
+        {
+          en: "Only in tournaments",
+          es: "Solo en torneos",
+          de: "Nur in Turnieren",
+          nl: "Alleen in toernooien"
+        },
+        {
+          en: "Yes, within 2 turns",
+          es: "Sí, dentro de 2 turnos",
+          de: "Ja, innerhalb von 2 Zügen",
+          nl: "Ja, binnen 2 beurten"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "You must challenge a word before the next player takes their turn. Once the next play is made, the previous word is accepted.",
+        es: "Debes desafiar una palabra antes de que el siguiente jugador tome su turno. Una vez que se hace la siguiente jugada, la palabra anterior se acepta.",
+        de: "Sie müssen ein Wort anfechten, bevor der nächste Spieler seinen Zug macht. Sobald der nächste Spielzug gemacht ist, wird das vorherige Wort akzeptiert.",
+        nl: "Je moet een woord uitdagen voordat de volgende speler aan de beurt is. Zodra de volgende zet is gedaan, wordt het vorige woord geaccepteerd."
+      }
+    },
+    {
+      question: {
+        en: "How many 'N' tiles are in a Scrabble set?",
+        es: "¿Cuántas fichas 'N' hay en un juego de Scrabble?",
+        de: "Wie viele 'N'-Steine gibt es in einem Scrabble-Spiel?",
+        nl: "Hoeveel 'N'-stenen zitten er in een Scrabble-set?"
+      },
+      options: [
+        {
+          en: "4",
+          es: "4",
+          de: "4",
+          nl: "4"
+        },
+        {
+          en: "5",
+          es: "5",
+          de: "5",
+          nl: "5"
+        },
+        {
+          en: "6",
+          es: "6",
+          de: "6",
+          nl: "6"
+        },
+        {
+          en: "8",
+          es: "8",
+          de: "8",
+          nl: "8"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "There are 6 'N' tiles in a standard Scrabble set, each worth 1 point. 'N' is a common consonant in English.",
+        es: "Hay 6 fichas 'N' en un juego estándar de Scrabble, cada una vale 1 punto. 'N' es una consonante común en inglés.",
+        de: "Es gibt 6 'N'-Steine in einem Standard-Scrabble-Spiel, jeder ist 1 Punkt wert. 'N' ist ein häufiger Konsonant im Englischen.",
+        nl: "Er zijn 6 'N'-stenen in een standaard Scrabble-set, elk 1 punt waard. 'N' is een veel voorkomende medeklinker in het Engels."
+      }
     }
   ]
 };

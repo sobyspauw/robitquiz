@@ -427,6 +427,405 @@
           de: "Die Zahl 7 hat die höchste Wahrscheinlichkeit, mit zwei Würfeln gewürfelt zu werden (6 von 36 Kombinationen). Deshalb aktiviert das Würfeln einer 7 den Räuber, anstatt Ressourcen zu produzieren - sonst wäre es zu mächtig. Die Zahlen 6 und 8 haben die zweithöchste Wahrscheinlichkeit.",
           nl: "Het nummer 7 heeft de hoogste waarschijnlijkheid om met twee dobbelstenen gegooid te worden (6 van 36 combinaties). Daarom activeert het gooien van een 7 de rover in plaats van hulpbronnen te produceren - anders zou het te krachtig zijn. Nummers 6 en 8 hebben de op één na hoogste waarschijnlijkheid."
         }
+      },
+      {
+        question: {
+          en: "What is the total number of hexes in standard Catan?",
+          es: "¿Cuál es el número total de hexágonos en Catan estándar?",
+          de: "Wie viele Felder gibt es insgesamt im Standard-Catan?",
+          nl: "Wat is het totale aantal hexen in standaard Catan?"
+        },
+        options: [
+          { en: "17", es: "17", de: "17", nl: "17" },
+          { en: "19", es: "19", de: "19", nl: "19" },
+          { en: "21", es: "21", de: "21", nl: "21" },
+          { en: "23", es: "23", de: "23", nl: "23" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Standard Catan has 19 hexagonal terrain tiles: 4 fields (wheat), 4 forests (wood), 4 pastures (sheep), 3 hills (brick), 3 mountains (ore), and 1 desert (no resource).",
+          es: "El Catan estándar tiene 19 fichas de terreno hexagonales: 4 campos (trigo), 4 bosques (madera), 4 pastos (oveja), 3 colinas (ladrillo), 3 montañas (mineral) y 1 desierto (sin recurso).",
+          de: "Standard-Catan hat 19 sechseckige Geländefelder: 4 Felder (Getreide), 4 Wälder (Holz), 4 Weiden (Wolle), 3 Hügel (Lehm), 3 Berge (Erz) und 1 Wüste (keine Ressource).",
+          nl: "Standaard Catan heeft 19 hexagonale terreinvelden: 4 velden (tarwe), 4 bossen (hout), 4 weiden (schaap), 3 heuvels (baksteen), 3 bergen (erts) en 1 woestijn (geen hulpbron)."
+        }
+      },
+      {
+        question: {
+          en: "Can you build a settlement on an intersection already occupied by another player?",
+          es: "¿Puedes construir un asentamiento en una intersección ya ocupada por otro jugador?",
+          de: "Kannst du eine Siedlung auf einer Kreuzung bauen, die bereits von einem anderen Spieler besetzt ist?",
+          nl: "Kun je een nederzetting bouwen op een kruispunt dat al bezet is door een andere speler?"
+        },
+        options: [
+          { en: "Yes, always", es: "Sí, siempre", de: "Ja, immer", nl: "Ja, altijd" },
+          { en: "No, never", es: "No, nunca", de: "Nein, niemals", nl: "Nee, nooit" },
+          { en: "Only during setup", es: "Solo durante la preparación", de: "Nur während der Vorbereitung", nl: "Alleen tijdens opzet" },
+          { en: "Only with permission", es: "Solo con permiso", de: "Nur mit Erlaubnis", nl: "Alleen met toestemming" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "No settlement or city can be built on an intersection already occupied by another player's settlement or city. Each intersection can only hold one settlement or city.",
+          es: "Ningún asentamiento o ciudad puede construirse en una intersección ya ocupada por el asentamiento o ciudad de otro jugador. Cada intersección solo puede contener un asentamiento o ciudad.",
+          de: "Keine Siedlung oder Stadt kann auf einer Kreuzung gebaut werden, die bereits von der Siedlung oder Stadt eines anderen Spielers besetzt ist. Jede Kreuzung kann nur eine Siedlung oder Stadt aufnehmen.",
+          nl: "Geen nederzetting of stad kan worden gebouwd op een kruispunt dat al bezet is door de nederzetting of stad van een andere speler. Elk kruispunt kan maar één nederzetting of stad bevatten."
+        }
+      },
+      {
+        question: {
+          en: "What is the effect of placing the robber on a hex?",
+          es: "¿Cuál es el efecto de colocar al ladrón en un hexágono?",
+          de: "Was ist der Effekt, wenn man den Räuber auf ein Feld setzt?",
+          nl: "Wat is het effect van het plaatsen van de rover op een hex?"
+        },
+        options: [
+          { en: "That hex produces double resources", es: "Ese hexágono produce el doble de recursos", de: "Dieses Feld produziert doppelte Ressourcen", nl: "Die hex produceert dubbele hulpbronnen" },
+          { en: "That hex produces no resources when rolled", es: "Ese hexágono no produce recursos cuando se tira", de: "Dieses Feld produziert keine Ressourcen beim Würfeln", nl: "Die hex produceert geen hulpbronnen bij gooien" },
+          { en: "Players must pay to build there", es: "Los jugadores deben pagar para construir allí", de: "Spieler müssen zahlen, um dort zu bauen", nl: "Spelers moeten betalen om daar te bouwen" },
+          { en: "The hex is removed from play", es: "El hexágono se retira del juego", de: "Das Feld wird aus dem Spiel entfernt", nl: "De hex wordt uit het spel verwijderd" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "When the robber is on a hex, that hex produces no resources when its number is rolled, blocking production for all adjacent settlements and cities until the robber is moved.",
+          es: "Cuando el ladrón está en un hexágono, ese hexágono no produce recursos cuando se tira su número, bloqueando la producción para todos los asentamientos y ciudades adyacentes hasta que se mueva el ladrón.",
+          de: "Wenn der Räuber auf einem Feld steht, produziert dieses Feld keine Ressourcen, wenn seine Zahl gewürfelt wird, und blockiert die Produktion für alle angrenzenden Siedlungen und Städte, bis der Räuber bewegt wird.",
+          nl: "Wanneer de rover op een hex staat, produceert die hex geen hulpbronnen wanneer zijn nummer wordt gegooid, waardoor productie voor alle aangrenzende nederzettingen en steden wordt geblokkeerd totdat de rover wordt verplaatst."
+        }
+      },
+      {
+        question: {
+          en: "How many roads can each player build maximum?",
+          es: "¿Cuántos caminos puede construir cada jugador como máximo?",
+          de: "Wie viele Straßen kann jeder Spieler maximal bauen?",
+          nl: "Hoeveel wegen kan elke speler maximaal bouwen?"
+        },
+        options: [
+          { en: "10", es: "10", de: "10", nl: "10" },
+          { en: "12", es: "12", de: "12", nl: "12" },
+          { en: "15", es: "15", de: "15", nl: "15" },
+          { en: "Unlimited", es: "Ilimitado", de: "Unbegrenzt", nl: "Onbeperkt" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Each player has 15 road pieces in their color. Once all 15 are placed on the board, no more roads can be built unless you have spare pieces from roads being removed (which doesn't happen in standard rules).",
+          es: "Cada jugador tiene 15 piezas de camino de su color. Una vez que las 15 están colocadas en el tablero, no se pueden construir más caminos a menos que tengas piezas de repuesto de caminos eliminados (lo que no sucede en las reglas estándar).",
+          de: "Jeder Spieler hat 15 Straßenteile in seiner Farbe. Sobald alle 15 auf dem Brett platziert sind, können keine weiteren Straßen gebaut werden, es sei denn, du hast Ersatzteile von entfernten Straßen (was in den Standardregeln nicht vorkommt).",
+          nl: "Elke speler heeft 15 wegstukken in hun kleur. Zodra alle 15 op het bord zijn geplaatst, kunnen er geen wegen meer worden gebouwd, tenzij je reservestukken hebt van verwijderde wegen (wat niet gebeurt in standaardregels)."
+        }
+      },
+      {
+        question: {
+          en: "What happens when you steal a card from another player using the robber?",
+          es: "¿Qué pasa cuando robas una carta de otro jugador usando el ladrón?",
+          de: "Was passiert, wenn du mit dem Räuber eine Karte von einem anderen Spieler stiehlst?",
+          nl: "Wat gebeurt er wanneer je een kaart steelt van een andere speler met de rover?"
+        },
+        options: [
+          { en: "You see their hand and choose", es: "Ves su mano y eliges", de: "Du siehst ihre Hand und wählst", nl: "Je ziet hun hand en kiest" },
+          { en: "You take a random card blindly", es: "Tomas una carta al azar a ciegas", de: "Du nimmst eine zufällige Karte blind", nl: "Je neemt willekeurig een kaart blind" },
+          { en: "They choose which card to give", es: "Ellos eligen qué carta dar", de: "Sie wählen, welche Karte sie geben", nl: "Zij kiezen welke kaart te geven" },
+          { en: "You get a card from the bank instead", es: "Obtienes una carta del banco en su lugar", de: "Du bekommst stattdessen eine Karte von der Bank", nl: "Je krijgt in plaats daarvan een kaart van de bank" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "When you move the robber and steal from a player, you take one random card from their hand without looking. The victim does not choose which card you get - it's taken blindly.",
+          es: "Cuando mueves al ladrón y robas de un jugador, tomas una carta al azar de su mano sin mirar. La víctima no elige qué carta obtienes: se toma a ciegas.",
+          de: "Wenn du den Räuber bewegst und von einem Spieler stiehlst, nimmst du eine zufällige Karte aus seiner Hand, ohne hinzusehen. Das Opfer wählt nicht, welche Karte du bekommst - sie wird blind genommen.",
+          nl: "Wanneer je de rover verplaatst en van een speler steelt, neem je een willekeurige kaart uit hun hand zonder te kijken. Het slachtoffer kiest niet welke kaart je krijgt - het wordt blind genomen."
+        }
+      },
+      {
+        question: {
+          en: "How many Victory Point development cards are in the deck?",
+          es: "¿Cuántas cartas de desarrollo de Punto de Victoria hay en el mazo?",
+          de: "Wie viele Siegpunkt-Entwicklungskarten gibt es im Deck?",
+          nl: "Hoeveel Overwinningspunt ontwikkelingskaarten zitten er in het deck?"
+        },
+        options: [
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "5", es: "5", de: "5", nl: "5" },
+          { en: "7", es: "7", de: "7", nl: "7" },
+          { en: "10", es: "10", de: "10", nl: "10" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "There are 5 Victory Point development cards in the deck. These are kept secret until you reveal them to win (or when the game ends). They cannot be stolen or discarded.",
+          es: "Hay 5 cartas de desarrollo de Punto de Victoria en el mazo. Estas se mantienen en secreto hasta que las revelas para ganar (o cuando termina el juego). No pueden ser robadas ni descartadas.",
+          de: "Es gibt 5 Siegpunkt-Entwicklungskarten im Deck. Diese werden geheim gehalten, bis du sie offenbarst, um zu gewinnen (oder wenn das Spiel endet). Sie können nicht gestohlen oder abgeworfen werden.",
+          nl: "Er zijn 5 Overwinningspunt ontwikkelingskaarten in het deck. Deze worden geheim gehouden totdat je ze onthult om te winnen (of wanneer het spel eindigt). Ze kunnen niet worden gestolen of weggegooid."
+        }
+      },
+      {
+        question: {
+          en: "Can you trade development cards with other players?",
+          es: "¿Puedes intercambiar cartas de desarrollo con otros jugadores?",
+          de: "Kannst du Entwicklungskarten mit anderen Spielern tauschen?",
+          nl: "Kun je ontwikkelingskaarten ruilen met andere spelers?"
+        },
+        options: [
+          { en: "Yes, always", es: "Sí, siempre", de: "Ja, immer", nl: "Ja, altijd" },
+          { en: "No, never", es: "No, nunca", de: "Nein, niemals", nl: "Nee, nooit" },
+          { en: "Only Victory Point cards", es: "Solo cartas de Punto de Victoria", de: "Nur Siegpunkt-Karten", nl: "Alleen Overwinningspunt kaarten" },
+          { en: "Only Knight cards", es: "Solo cartas de Caballero", de: "Nur Ritterkarten", nl: "Alleen Ridderkaarten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Development cards cannot be traded with other players or with the bank. Only resource cards can be traded. Development cards are personal and stay with the player who bought them.",
+          es: "Las cartas de desarrollo no pueden intercambiarse con otros jugadores ni con el banco. Solo las cartas de recursos pueden intercambiarse. Las cartas de desarrollo son personales y permanecen con el jugador que las compró.",
+          de: "Entwicklungskarten können nicht mit anderen Spielern oder der Bank getauscht werden. Nur Ressourcenkarten können getauscht werden. Entwicklungskarten sind persönlich und bleiben beim Spieler, der sie gekauft hat.",
+          nl: "Ontwikkelingskaarten kunnen niet worden geruild met andere spelers of met de bank. Alleen hulpbronkaarten kunnen worden geruild. Ontwikkelingskaarten zijn persoonlijk en blijven bij de speler die ze heeft gekocht."
+        }
+      },
+      {
+        question: {
+          en: "What is the probability of rolling a 6 or 8 in Catan?",
+          es: "¿Cuál es la probabilidad de tirar un 6 u 8 en Catan?",
+          de: "Wie hoch ist die Wahrscheinlichkeit, eine 6 oder 8 in Catan zu würfeln?",
+          nl: "Wat is de waarschijnlijkheid om een 6 of 8 te gooien in Catan?"
+        },
+        options: [
+          { en: "1 in 6 (about 17%)", es: "1 en 6 (aproximadamente 17%)", de: "1 von 6 (etwa 17%)", nl: "1 op 6 (ongeveer 17%)" },
+          { en: "5 in 36 (about 14%)", es: "5 en 36 (aproximadamente 14%)", de: "5 von 36 (etwa 14%)", nl: "5 op 36 (ongeveer 14%)" },
+          { en: "1 in 9 (about 11%)", es: "1 en 9 (aproximadamente 11%)", de: "1 von 9 (etwa 11%)", nl: "1 op 9 (ongeveer 11%)" },
+          { en: "1 in 12 (about 8%)", es: "1 en 12 (aproximadamente 8%)", de: "1 von 12 (etwa 8%)", nl: "1 op 12 (ongeveer 8%)" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Both 6 and 8 have 5 ways to be rolled out of 36 possible combinations (5/36 ≈ 13.9% each). These are the most valuable numbers after 7 (which triggers the robber). That's why they have red numbers on the tokens.",
+          es: "Tanto el 6 como el 8 tienen 5 formas de ser tirados de 36 combinaciones posibles (5/36 ≈ 13,9% cada uno). Estos son los números más valiosos después del 7 (que activa al ladrón). Por eso tienen números rojos en las fichas.",
+          de: "Sowohl 6 als auch 8 haben 5 Möglichkeiten, von 36 möglichen Kombinationen gewürfelt zu werden (5/36 ≈ 13,9% jeweils). Dies sind die wertvollsten Zahlen nach 7 (die den Räuber auslöst). Deshalb haben sie rote Zahlen auf den Plättchen.",
+          nl: "Zowel 6 als 8 hebben 5 manieren om gegooid te worden uit 36 mogelijke combinaties (5/36 ≈ 13,9% elk). Dit zijn de meest waardevolle nummers na 7 (die de rover triggert). Daarom hebben ze rode nummers op de tokens."
+        }
+      },
+      {
+        question: {
+          en: "What happens if two players tie for Longest Road?",
+          es: "¿Qué pasa si dos jugadores empatan en el Camino Más Largo?",
+          de: "Was passiert, wenn zwei Spieler bei der längsten Straße gleichstehen?",
+          nl: "Wat gebeurt er als twee spelers gelijk staan voor Langste Weg?"
+        },
+        options: [
+          { en: "Both get 2 points", es: "Ambos obtienen 2 puntos", de: "Beide erhalten 2 Punkte", nl: "Beiden krijgen 2 punten" },
+          { en: "Both get 1 point", es: "Ambos obtienen 1 punto", de: "Beide erhalten 1 Punkt", nl: "Beiden krijgen 1 punt" },
+          { en: "Neither gets the card", es: "Ninguno obtiene la carta", de: "Keiner bekommt die Karte", nl: "Geen van beiden krijgt de kaart" },
+          { en: "Current holder keeps it", es: "El poseedor actual la mantiene", de: "Aktueller Besitzer behält sie", nl: "Huidige houder behoudt het" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "If players tie for Longest Road, the player who currently holds the card keeps it. To steal Longest Road, you must have a road strictly longer than the current holder's, not just equal.",
+          es: "Si los jugadores empatan en el Camino Más Largo, el jugador que actualmente tiene la carta la mantiene. Para robar el Camino Más Largo, debes tener un camino estrictamente más largo que el del poseedor actual, no solo igual.",
+          de: "Wenn Spieler bei der längsten Straße gleichstehen, behält der Spieler, der aktuell die Karte hält, sie. Um die längste Straße zu stehlen, musst du eine Straße haben, die streng länger ist als die des aktuellen Besitzers, nicht nur gleich.",
+          nl: "Als spelers gelijk staan voor Langste Weg, behoudt de speler die momenteel de kaart heeft deze. Om de Langste Weg te stelen, moet je een weg hebben die strikt langer is dan die van de huidige houder, niet alleen gelijk."
+        }
+      },
+      {
+        question: {
+          en: "Can you build a city without first having a settlement on that spot?",
+          es: "¿Puedes construir una ciudad sin tener primero un asentamiento en ese lugar?",
+          de: "Kannst du eine Stadt bauen, ohne zuerst eine Siedlung an dieser Stelle zu haben?",
+          nl: "Kun je een stad bouwen zonder eerst een nederzetting op die plek te hebben?"
+        },
+        options: [
+          { en: "Yes, cities can be built anywhere", es: "Sí, las ciudades pueden construirse en cualquier lugar", de: "Ja, Städte können überall gebaut werden", nl: "Ja, steden kunnen overal worden gebouwd" },
+          { en: "No, must upgrade existing settlement", es: "No, debes mejorar un asentamiento existente", de: "Nein, muss vorhandene Siedlung aufwerten", nl: "Nee, moet bestaande nederzetting upgraden" },
+          { en: "Only during setup", es: "Solo durante la preparación", de: "Nur während der Vorbereitung", nl: "Alleen tijdens opzet" },
+          { en: "Only with development card", es: "Solo con carta de desarrollo", de: "Nur mit Entwicklungskarte", nl: "Alleen met ontwikkelingskaart" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Cities can only be built by upgrading an existing settlement. You cannot build a city directly on an empty intersection. When you upgrade, the settlement returns to your supply.",
+          es: "Las ciudades solo pueden construirse mejorando un asentamiento existente. No puedes construir una ciudad directamente en una intersección vacía. Cuando mejoras, el asentamiento vuelve a tu suministro.",
+          de: "Städte können nur durch Aufwerten einer vorhandenen Siedlung gebaut werden. Du kannst keine Stadt direkt auf einer leeren Kreuzung bauen. Beim Aufwerten kehrt die Siedlung in deinen Vorrat zurück.",
+          nl: "Steden kunnen alleen worden gebouwd door een bestaande nederzetting te upgraden. Je kunt geen stad direct op een leeg kruispunt bouwen. Wanneer je upgradet, keert de nederzetting terug naar je voorraad."
+        }
+      },
+      {
+        question: {
+          en: "How many Knight cards are in the development card deck?",
+          es: "¿Cuántas cartas de Caballero hay en el mazo de cartas de desarrollo?",
+          de: "Wie viele Ritterkarten gibt es im Entwicklungskarten-Deck?",
+          nl: "Hoeveel Ridderkaarten zitten er in het ontwikkelingskaarten deck?"
+        },
+        options: [
+          { en: "10", es: "10", de: "10", nl: "10" },
+          { en: "12", es: "12", de: "12", nl: "12" },
+          { en: "14", es: "14", de: "14", nl: "14" },
+          { en: "16", es: "16", de: "16", nl: "16" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are 14 Knight cards in the development deck, making them the most common type. Knights move the robber and count toward Largest Army (need 3+ to claim it).",
+          es: "Hay 14 cartas de Caballero en el mazo de desarrollo, lo que las convierte en el tipo más común. Los caballeros mueven al ladrón y cuentan para el Ejército Más Grande (necesitas 3+ para reclamarlo).",
+          de: "Es gibt 14 Ritterkarten im Entwicklungsdeck, was sie zum häufigsten Typ macht. Ritter bewegen den Räuber und zählen zur größten Ritterarmee (braucht 3+, um sie zu beanspruchen).",
+          nl: "Er zijn 14 Ridderkaarten in het ontwikkelingsdeck, waardoor ze het meest voorkomende type zijn. Ridders verplaatsen de rover en tellen mee voor het Grootste Leger (heb 3+ nodig om het te claimen)."
+        }
+      },
+      {
+        question: {
+          en: "What must you do before placing the robber on a new hex?",
+          es: "¿Qué debes hacer antes de colocar al ladrón en un nuevo hexágono?",
+          de: "Was musst du tun, bevor du den Räuber auf ein neues Feld setzt?",
+          nl: "Wat moet je doen voordat je de rover op een nieuwe hex plaatst?"
+        },
+        options: [
+          { en: "Roll the dice again", es: "Tirar los dados de nuevo", de: "Noch einmal würfeln", nl: "Gooi opnieuw de dobbelstenen" },
+          { en: "Pay 1 resource", es: "Pagar 1 recurso", de: "1 Ressource bezahlen", nl: "Betaal 1 hulpbron" },
+          { en: "Nothing special required", es: "No se requiere nada especial", de: "Nichts Besonderes erforderlich", nl: "Niets speciaals vereist" },
+          { en: "Ask other players' permission", es: "Pedir permiso a otros jugadores", de: "Um Erlaubnis anderer Spieler bitten", nl: "Vraag toestemming aan andere spelers" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "You can move the robber to any hex (except the desert in some variants) without any special requirement. After placing it, you may steal a random card from a player with a settlement/city adjacent to that hex.",
+          es: "Puedes mover al ladrón a cualquier hexágono (excepto el desierto en algunas variantes) sin ningún requisito especial. Después de colocarlo, puedes robar una carta al azar de un jugador con un asentamiento/ciudad adyacente a ese hexágono.",
+          de: "Du kannst den Räuber auf jedes Feld bewegen (außer der Wüste in einigen Varianten) ohne besondere Anforderung. Nach dem Platzieren kannst du eine zufällige Karte von einem Spieler mit einer Siedlung/Stadt neben diesem Feld stehlen.",
+          nl: "Je kunt de rover naar elke hex verplaatsen (behalve de woestijn in sommige varianten) zonder speciale vereiste. Na plaatsing mag je een willekeurige kaart stelen van een speler met een nederzetting/stad naast die hex."
+        }
+      },
+      {
+        question: {
+          en: "How many total development cards are in the deck?",
+          es: "¿Cuántas cartas de desarrollo hay en total en el mazo?",
+          de: "Wie viele Entwicklungskarten gibt es insgesamt im Deck?",
+          nl: "Hoeveel ontwikkelingskaarten zitten er in totaal in het deck?"
+        },
+        options: [
+          { en: "20", es: "20", de: "20", nl: "20" },
+          { en: "22", es: "22", de: "22", nl: "22" },
+          { en: "25", es: "25", de: "25", nl: "25" },
+          { en: "30", es: "30", de: "30", nl: "30" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are 25 development cards total: 14 Knights, 5 Victory Points, 2 Road Building, 2 Year of Plenty, and 2 Monopoly cards. The deck is shuffled at the start and drawn from during the game.",
+          es: "Hay 25 cartas de desarrollo en total: 14 Caballeros, 5 Puntos de Victoria, 2 Construcción de Caminos, 2 Año de Abundancia y 2 Monopolio. El mazo se baraja al inicio y se roba durante el juego.",
+          de: "Es gibt insgesamt 25 Entwicklungskarten: 14 Ritter, 5 Siegpunkte, 2 Straßenbau, 2 Erfindung und 2 Monopol. Das Deck wird zu Beginn gemischt und während des Spiels gezogen.",
+          nl: "Er zijn in totaal 25 ontwikkelingskaarten: 14 Ridders, 5 Overwinningspunten, 2 Wegenbouw, 2 Jaar van Overvloed en 2 Monopolie. Het deck wordt aan het begin geschud en tijdens het spel getrokken."
+        }
+      },
+      {
+        question: {
+          en: "Can settlements be placed on the coast (water edges)?",
+          es: "¿Se pueden colocar asentamientos en la costa (bordes del agua)?",
+          de: "Können Siedlungen an der Küste (Wasserkanten) platziert werden?",
+          nl: "Kunnen nederzettingen op de kust (waterranden) worden geplaatst?"
+        },
+        options: [
+          { en: "No, only on land hexes", es: "No, solo en hexágonos terrestres", de: "Nein, nur auf Landfeldern", nl: "Nee, alleen op landhexen" },
+          { en: "Yes, coastal intersections are valid", es: "Sí, las intersecciones costeras son válidas", de: "Ja, Küstenkreuzungen sind gültig", nl: "Ja, kustkruispunten zijn geldig" },
+          { en: "Only during setup", es: "Solo durante la preparación", de: "Nur während der Vorbereitung", nl: "Alleen tijdens opzet" },
+          { en: "Only with harbors", es: "Solo con puertos", de: "Nur mit Häfen", nl: "Alleen met havens" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Settlements can be placed on coastal intersections (where land meets water). Building on harbor locations gives you special trading advantages (3:1 or 2:1 ratios) even though water hexes don't produce resources.",
+          es: "Los asentamientos pueden colocarse en intersecciones costeras (donde la tierra se encuentra con el agua). Construir en ubicaciones de puerto te da ventajas comerciales especiales (proporciones 3:1 o 2:1) aunque los hexágonos de agua no producen recursos.",
+          de: "Siedlungen können an Küstenkreuzungen (wo Land auf Wasser trifft) platziert werden. Das Bauen an Hafenstandorten gibt dir besondere Handelsvorteile (3:1 oder 2:1 Verhältnisse), obwohl Wasserfelder keine Ressourcen produzieren.",
+          nl: "Nederzettingen kunnen op kustkruispunten worden geplaatst (waar land water ontmoet). Bouwen op havenlocaties geeft je speciale handelsvoordelen (3:1 of 2:1 verhoudingen) ook al produceren waterhexen geen hulpbronnen."
+        }
+      },
+      {
+        question: {
+          en: "What happens if the development card deck runs out?",
+          es: "¿Qué pasa si el mazo de cartas de desarrollo se agota?",
+          de: "Was passiert, wenn das Entwicklungskarten-Deck leer ist?",
+          nl: "Wat gebeurt er als het ontwikkelingskaarten deck op is?"
+        },
+        options: [
+          { en: "Cards are reshuffled", es: "Las cartas se barajan de nuevo", de: "Karten werden neu gemischt", nl: "Kaarten worden opnieuw geschud" },
+          { en: "No more can be bought", es: "No se pueden comprar más", de: "Keine weiteren können gekauft werden", nl: "Geen meer kunnen worden gekocht" },
+          { en: "Game ends immediately", es: "El juego termina inmediatamente", de: "Spiel endet sofort", nl: "Spel eindigt onmiddellijk" },
+          { en: "Players share remaining cards", es: "Los jugadores comparten las cartas restantes", de: "Spieler teilen verbleibende Karten", nl: "Spelers delen resterende kaarten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Once all 25 development cards have been purchased, no more can be bought for the rest of the game. Players can still play cards they already own, but the deck is not reshuffled.",
+          es: "Una vez que se han comprado todas las 25 cartas de desarrollo, no se pueden comprar más durante el resto del juego. Los jugadores aún pueden jugar las cartas que ya poseen, pero el mazo no se baraja de nuevo.",
+          de: "Sobald alle 25 Entwicklungskarten gekauft wurden, können für den Rest des Spiels keine weiteren gekauft werden. Spieler können weiterhin Karten spielen, die sie bereits besitzen, aber das Deck wird nicht neu gemischt.",
+          nl: "Zodra alle 25 ontwikkelingskaarten zijn gekocht, kunnen er geen meer worden gekocht voor de rest van het spel. Spelers kunnen nog steeds kaarten spelen die ze al bezitten, maar het deck wordt niet opnieuw geschud."
+        }
+      },
+      {
+        question: {
+          en: "During setup, in what order do players place their second settlement?",
+          es: "Durante la preparación, ¿en qué orden colocan los jugadores su segundo asentamiento?",
+          de: "In welcher Reihenfolge platzieren die Spieler während der Vorbereitung ihre zweite Siedlung?",
+          nl: "In welke volgorde plaatsen spelers tijdens opzet hun tweede nederzetting?"
+        },
+        options: [
+          { en: "Same as first (1-2-3-4)", es: "Igual que la primera (1-2-3-4)", de: "Gleich wie die erste (1-2-3-4)", nl: "Hetzelfde als de eerste (1-2-3-4)" },
+          { en: "Reverse order (4-3-2-1)", es: "Orden inverso (4-3-2-1)", de: "Umgekehrte Reihenfolge (4-3-2-1)", nl: "Omgekeerde volgorde (4-3-2-1)" },
+          { en: "Random order", es: "Orden aleatorio", de: "Zufällige Reihenfolge", nl: "Willekeurige volgorde" },
+          { en: "Highest roll goes first", es: "La tirada más alta va primero", de: "Höchster Wurf geht zuerst", nl: "Hoogste worp gaat eerst" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Setup uses a 'snake draft': players place their first settlement in order (1-2-3-4), then place their second in reverse order (4-3-2-1). This balances the advantage of picking first, as the last player gets two picks in a row.",
+          es: "La preparación usa un 'draft de serpiente': los jugadores colocan su primer asentamiento en orden (1-2-3-4), luego colocan su segundo en orden inverso (4-3-2-1). Esto equilibra la ventaja de elegir primero, ya que el último jugador obtiene dos elecciones seguidas.",
+          de: "Das Setup verwendet einen 'Schlangen-Draft': Spieler platzieren ihre erste Siedlung in Reihenfolge (1-2-3-4), dann ihre zweite in umgekehrter Reihenfolge (4-3-2-1). Dies gleicht den Vorteil aus, zuerst zu wählen, da der letzte Spieler zwei Auswahlen hintereinander erhält.",
+          nl: "Opzet gebruikt een 'slang draft': spelers plaatsen hun eerste nederzetting op volgorde (1-2-3-4), dan plaatsen ze hun tweede in omgekeerde volgorde (4-3-2-1). Dit balanceert het voordeel van als eerste kiezen, omdat de laatste speler twee keuzes achter elkaar krijgt."
+        }
+      },
+      {
+        question: {
+          en: "Can you move the robber back to the desert?",
+          es: "¿Puedes mover al ladrón de vuelta al desierto?",
+          de: "Kannst du den Räuber zurück zur Wüste bewegen?",
+          nl: "Kun je de rover terug naar de woestijn verplaatsen?"
+        },
+        options: [
+          { en: "Yes, always allowed", es: "Sí, siempre permitido", de: "Ja, immer erlaubt", nl: "Ja, altijd toegestaan" },
+          { en: "No, never allowed", es: "No, nunca permitido", de: "Nein, niemals erlaubt", nl: "Nee, nooit toegestaan" },
+          { en: "Only in 2-player games", es: "Solo en juegos de 2 jugadores", de: "Nur in 2-Spieler-Spielen", nl: "Alleen in 2-speler spellen" },
+          { en: "Depends on house rules", es: "Depende de las reglas de la casa", de: "Hängt von Hausregeln ab", nl: "Hangt af van huisregels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In standard rules, you can move the robber to any hex including the desert (though the desert produces nothing anyway). Some house rules forbid returning to the desert to keep the robber more impactful.",
+          es: "En las reglas estándar, puedes mover al ladrón a cualquier hexágono, incluido el desierto (aunque el desierto no produce nada de todos modos). Algunas reglas caseras prohíben regresar al desierto para mantener al ladrón más impactante.",
+          de: "In den Standardregeln kannst du den Räuber auf jedes Feld bewegen, einschließlich der Wüste (obwohl die Wüste sowieso nichts produziert). Einige Hausregeln verbieten die Rückkehr zur Wüste, um den Räuber wirkungsvoller zu halten.",
+          nl: "In standaardregels kun je de rover naar elke hex verplaatsen, inclusief de woestijn (hoewel de woestijn toch niets produceert). Sommige huisregels verbieden terugkeer naar de woestijn om de rover impactvoller te houden."
+        }
+      },
+      {
+        question: {
+          en: "What is the total number of resource cards in Catan?",
+          es: "¿Cuál es el número total de cartas de recursos en Catan?",
+          de: "Wie viele Ressourcenkarten gibt es insgesamt in Catan?",
+          nl: "Wat is het totale aantal hulpbronkaarten in Catan?"
+        },
+        options: [
+          { en: "75", es: "75", de: "75", nl: "75" },
+          { en: "85", es: "85", de: "85", nl: "85" },
+          { en: "95", es: "95", de: "95", nl: "95" },
+          { en: "100", es: "100", de: "100", nl: "100" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are 95 total resource cards in base Catan: 19 of each resource type (wood, brick, wheat, sheep, ore). When the bank runs out of a resource, no more can be produced until cards return to the bank.",
+          es: "Hay 95 cartas de recursos en total en Catan básico: 19 de cada tipo de recurso (madera, ladrillo, trigo, oveja, mineral). Cuando el banco se queda sin un recurso, no se puede producir más hasta que las cartas regresen al banco.",
+          de: "Es gibt insgesamt 95 Ressourcenkarten im Basis-Catan: 19 von jedem Ressourcentyp (Holz, Lehm, Getreide, Wolle, Erz). Wenn der Bank eine Ressource ausgeht, kann keine mehr produziert werden, bis Karten zur Bank zurückkehren.",
+          nl: "Er zijn in totaal 95 hulpbronkaarten in basis Catan: 19 van elk hulpbrontype (hout, baksteen, tarwe, schaap, erts). Wanneer de bank zonder een hulpbron komt, kan er geen meer worden geproduceerd totdat kaarten terugkeren naar de bank."
+        }
+      },
+      {
+        question: {
+          en: "How many hexes of each terrain type are there (except desert)?",
+          es: "¿Cuántos hexágonos de cada tipo de terreno hay (excepto desierto)?",
+          de: "Wie viele Felder jedes Geländetyps gibt es (außer Wüste)?",
+          nl: "Hoeveel hexen van elk terreintype zijn er (behalve woestijn)?"
+        },
+        options: [
+          { en: "3 of each", es: "3 de cada", de: "3 von jedem", nl: "3 van elk" },
+          { en: "4 of each", es: "4 de cada", de: "4 von jedem", nl: "4 van elk" },
+          { en: "Varies by type", es: "Varía según el tipo", de: "Variiert nach Typ", nl: "Varieert per type" },
+          { en: "5 of each", es: "5 de cada", de: "5 von jedem", nl: "5 van elk" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "The terrain distribution varies: 4 fields (wheat), 4 forests (wood), 4 pastures (sheep), 3 hills (brick), 3 mountains (ore), and 1 desert. Wheat, wood, and sheep are more common because they're needed for settlements.",
+          es: "La distribución del terreno varía: 4 campos (trigo), 4 bosques (madera), 4 pastos (oveja), 3 colinas (ladrillo), 3 montañas (mineral) y 1 desierto. El trigo, la madera y la oveja son más comunes porque se necesitan para los asentamientos.",
+          de: "Die Geländeverteilung variiert: 4 Felder (Getreide), 4 Wälder (Holz), 4 Weiden (Wolle), 3 Hügel (Lehm), 3 Berge (Erz) und 1 Wüste. Getreide, Holz und Wolle sind häufiger, weil sie für Siedlungen benötigt werden.",
+          nl: "De terreindistributie varieert: 4 velden (tarwe), 4 bossen (hout), 4 weiden (schaap), 3 heuvels (baksteen), 3 bergen (erts) en 1 woestijn. Tarwe, hout en schaap zijn vaker omdat ze nodig zijn voor nederzettingen."
+        }
       }
     ]
   };

@@ -427,6 +427,405 @@
           de: "Ein weiches Blatt enthält ein Ass, das als 11 gezählt wird, was Flexibilität ermöglicht. Ein hartes Blatt hat entweder kein Ass oder das Ass muss als 1 gezählt werden.",
           nl: "Een zachte hand bevat een Aas geteld als 11, wat flexibiliteit biedt. Een harde hand heeft geen Aas of de Aas moet als 1 worden geteld."
         }
+      },
+      {
+        question: {
+          en: "What are 'face cards' in a deck?",
+          es: "¿Qué son las 'figuras' en una baraja?",
+          de: "Was sind 'Bildkarten' in einem Deck?",
+          nl: "Wat zijn 'plaatjeskaarten' in een deck?"
+        },
+        options: [
+          { en: "Aces only", es: "Solo ases", de: "Nur Asse", nl: "Alleen azen" },
+          { en: "Jack, Queen, King", es: "Jota, Reina, Rey", de: "Bube, Dame, König", nl: "Boer, Vrouw, Koning" },
+          { en: "All numbered cards", es: "Todas las cartas numeradas", de: "Alle nummerierten Karten", nl: "Alle genummerde kaarten" },
+          { en: "Jokers", es: "Comodines", de: "Joker", nl: "Jokers" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Face cards are the Jack, Queen, and King - the three cards in each suit that display human faces. Each is typically worth 10 points in games like Blackjack.",
+          es: "Las figuras son la Jota, Reina y Rey - las tres cartas en cada palo que muestran caras humanas. Cada una vale típicamente 10 puntos en juegos como Blackjack.",
+          de: "Bildkarten sind Bube, Dame und König - die drei Karten in jeder Farbe, die menschliche Gesichter zeigen. Jede ist typischerweise 10 Punkte wert in Spielen wie Blackjack.",
+          nl: "Plaatjeskaarten zijn de Boer, Vrouw en Koning - de drie kaarten in elke kleur die menselijke gezichten tonen. Elk is meestal 10 punten waard in spellen zoals Blackjack."
+        }
+      },
+      {
+        question: {
+          en: "In Crazy Eights, what happens when you play an 8?",
+          es: "En Crazy Eights, ¿qué pasa cuando juegas un 8?",
+          de: "Was passiert beim Crazy Eights, wenn man eine 8 spielt?",
+          nl: "Wat gebeurt er bij Crazy Eights als je een 8 speelt?"
+        },
+        options: [
+          { en: "You skip the next player", es: "Saltas al siguiente jugador", de: "Du überspringst den nächsten Spieler", nl: "Je slaat de volgende speler over" },
+          { en: "You can change the suit", es: "Puedes cambiar el palo", de: "Du kannst die Farbe ändern", nl: "Je kunt de kleur veranderen" },
+          { en: "You draw 8 cards", es: "Robas 8 cartas", de: "Du ziehst 8 Karten", nl: "Je trekt 8 kaarten" },
+          { en: "You win immediately", es: "Ganas inmediatamente", de: "Du gewinnst sofort", nl: "Je wint onmiddellijk" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "In Crazy Eights, playing an 8 allows you to change the suit to any suit you want, giving you strategic control of the game.",
+          es: "En Crazy Eights, jugar un 8 te permite cambiar el palo a cualquier palo que quieras, dándote control estratégico del juego.",
+          de: "Beim Crazy Eights ermöglicht das Spielen einer 8, die Farbe zu jeder gewünschten Farbe zu ändern, was strategische Kontrolle über das Spiel gibt.",
+          nl: "Bij Crazy Eights kun je door een 8 te spelen de kleur veranderen naar elke kleur die je wilt, wat je strategische controle over het spel geeft."
+        }
+      },
+      {
+        question: {
+          en: "How many red cards are in a standard deck?",
+          es: "¿Cuántas cartas rojas hay en una baraja estándar?",
+          de: "Wie viele rote Karten hat ein Standard-Deck?",
+          nl: "Hoeveel rode kaarten zitten er in een standaard deck?"
+        },
+        options: [
+          { en: "13", es: "13", de: "13", nl: "13" },
+          { en: "26", es: "26", de: "26", nl: "26" },
+          { en: "39", es: "39", de: "39", nl: "39" },
+          { en: "52", es: "52", de: "52", nl: "52" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "There are 26 red cards in a standard deck: 13 Hearts and 13 Diamonds. The other 26 cards are black (Clubs and Spades).",
+          es: "Hay 26 cartas rojas en una baraja estándar: 13 Corazones y 13 Diamantes. Las otras 26 cartas son negras (Tréboles y Picas).",
+          de: "Es gibt 26 rote Karten in einem Standard-Deck: 13 Herz und 13 Karo. Die anderen 26 Karten sind schwarz (Kreuz und Pik).",
+          nl: "Er zijn 26 rode kaarten in een standaard deck: 13 Harten en 13 Ruiten. De andere 26 kaarten zijn zwart (Klaveren en Schoppen)."
+        }
+      },
+      {
+        question: {
+          en: "What is 'doubling down' in Blackjack?",
+          es: "¿Qué es 'doblar' en Blackjack?",
+          de: "Was ist 'Verdoppeln' beim Blackjack?",
+          nl: "Wat is 'verdubbelen' bij Blackjack?"
+        },
+        options: [
+          { en: "Playing two hands at once", es: "Jugar dos manos a la vez", de: "Zwei Hände gleichzeitig spielen", nl: "Twee handen tegelijk spelen" },
+          { en: "Doubling your bet and taking one more card", es: "Doblar tu apuesta y tomar una carta más", de: "Deinen Einsatz verdoppeln und eine weitere Karte nehmen", nl: "Je inzet verdubbelen en één kaart meer nemen" },
+          { en: "Betting twice as much on the next hand", es: "Apostar el doble en la siguiente mano", de: "Das Doppelte in der nächsten Hand setzen", nl: "Twee keer zoveel inzetten op de volgende hand" },
+          { en: "Splitting a pair of cards", es: "Dividir un par de cartas", de: "Ein Paar Karten teilen", nl: "Een paar kaarten splitsen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Doubling down means doubling your original bet in exchange for receiving exactly one more card and then standing. It's typically done with strong starting hands.",
+          es: "Doblar significa doblar tu apuesta original a cambio de recibir exactamente una carta más y luego plantarse. Típicamente se hace con manos iniciales fuertes.",
+          de: "Verdoppeln bedeutet, deinen ursprünglichen Einsatz zu verdoppeln, im Austausch dafür genau eine weitere Karte zu erhalten und dann stehen zu bleiben. Es wird typischerweise mit starken Starthänden gemacht.",
+          nl: "Verdubbelen betekent je oorspronkelijke inzet verdubbelen in ruil voor het ontvangen van precies één kaart meer en dan passen. Het wordt meestal gedaan met sterke beginhanden."
+        }
+      },
+      {
+        question: {
+          en: "In Go Fish, what do you ask other players?",
+          es: "En Go Fish, ¿qué preguntas a otros jugadores?",
+          de: "Was fragt man beim Go Fish andere Spieler?",
+          nl: "Wat vraag je bij Go Fish aan andere spelers?"
+        },
+        options: [
+          { en: "If they have a specific rank you're looking for", es: "Si tienen un rango específico que buscas", de: "Ob sie einen bestimmten Rang haben, den du suchst", nl: "Of ze een specifieke rang hebben die je zoekt" },
+          { en: "Their total number of cards", es: "Su número total de cartas", de: "Ihre Gesamtzahl an Karten", nl: "Hun totaal aantal kaarten" },
+          { en: "What suit they prefer", es: "Qué palo prefieren", de: "Welche Farbe sie bevorzugen", nl: "Welke kleur ze prefereren" },
+          { en: "If they want to trade cards", es: "Si quieren intercambiar cartas", de: "Ob sie Karten tauschen möchten", nl: "Of ze kaarten willen ruilen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In Go Fish, you ask other players if they have cards of a specific rank (like 'Do you have any 7s?'). If they do, they must give them to you.",
+          es: "En Go Fish, preguntas a otros jugadores si tienen cartas de un rango específico (como '¿Tienes algún 7?'). Si lo tienen, deben dártelas.",
+          de: "Beim Go Fish fragt man andere Spieler, ob sie Karten eines bestimmten Ranges haben (wie 'Hast du irgendwelche 7en?'). Wenn ja, müssen sie diese abgeben.",
+          nl: "Bij Go Fish vraag je andere spelers of ze kaarten van een specifieke rang hebben (zoals 'Heb je zevens?'). Als ze die hebben, moeten ze ze aan jou geven."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'full house' in poker?",
+          es: "¿Qué es un 'full house' en el póker?",
+          de: "Was ist ein 'Full House' beim Poker?",
+          nl: "Wat is een 'full house' bij poker?"
+        },
+        options: [
+          { en: "Five cards of same suit", es: "Cinco cartas del mismo palo", de: "Fünf Karten derselben Farbe", nl: "Vijf kaarten van dezelfde kleur" },
+          { en: "Three of a kind plus a pair", es: "Trío más un par", de: "Drilling plus ein Paar", nl: "Drie van een soort plus een paar" },
+          { en: "Four of a kind", es: "Póker", de: "Vierling", nl: "Vier van een soort" },
+          { en: "All face cards", es: "Todas figuras", de: "Alle Bildkarten", nl: "Alle plaatjeskaarten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A full house consists of three cards of one rank and two cards of another rank, such as three 8s and two Kings.",
+          es: "Un full house consiste en tres cartas de un rango y dos cartas de otro rango, como tres 8 y dos Reyes.",
+          de: "Ein Full House besteht aus drei Karten eines Ranges und zwei Karten eines anderen Ranges, wie drei 8en und zwei Könige.",
+          nl: "Een full house bestaat uit drie kaarten van één rang en twee kaarten van een andere rang, zoals drie 8'en en twee Koningen."
+        }
+      },
+      {
+        question: {
+          en: "In War, what happens when both players play the same rank card?",
+          es: "En War, ¿qué pasa cuando ambos jugadores juegan la misma carta de rango?",
+          de: "Was passiert beim War, wenn beide Spieler dieselbe Rangkarte spielen?",
+          de: "Wat gebeurt er bij War als beide spelers dezelfde rangkaart spelen?"
+        },
+        options: [
+          { en: "The game ends", es: "El juego termina", de: "Das Spiel endet", nl: "Het spel eindigt" },
+          { en: "Both players draw a new card", es: "Ambos jugadores roban una nueva carta", de: "Beide Spieler ziehen eine neue Karte", nl: "Beide spelers trekken een nieuwe kaart" },
+          { en: "A 'war' happens with face-down and face-up cards", es: "Ocurre una 'guerra' con cartas boca abajo y boca arriba", de: "Es gibt einen 'Krieg' mit verdeckten und offenen Karten", nl: "Er gebeurt een 'oorlog' met gedekte en open kaarten" },
+          { en: "The suit determines the winner", es: "El palo determina el ganador", de: "Die Farbe bestimmt den Gewinner", nl: "De kleur bepaalt de winnaar" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "When both players play cards of equal rank, a 'war' occurs: each player places cards face-down, then face-up, and the higher face-up card wins all the cards.",
+          es: "Cuando ambos jugadores juegan cartas del mismo rango, ocurre una 'guerra': cada jugador coloca cartas boca abajo, luego boca arriba, y la carta boca arriba más alta gana todas las cartas.",
+          de: "Wenn beide Spieler Karten gleichen Ranges spielen, gibt es einen 'Krieg': Jeder Spieler legt Karten verdeckt, dann offen, und die höhere offene Karte gewinnt alle Karten.",
+          nl: "Als beide spelers kaarten van gelijke rang spelen, gebeurt er een 'oorlog': elke speler legt kaarten gedekt neer, dan open, en de hogere open kaart wint alle kaarten."
+        }
+      },
+      {
+        question: {
+          en: "What does 'following suit' mean in card games?",
+          es: "¿Qué significa 'seguir el palo' en juegos de cartas?",
+          de: "Was bedeutet 'Farbe bedienen' in Kartenspielen?",
+          nl: "Wat betekent 'kleur volgen' in kaartspellen?"
+        },
+        options: [
+          { en: "Playing a card of the same suit as led", es: "Jugar una carta del mismo palo que la jugada", de: "Eine Karte derselben Farbe wie ausgespielt spielen", nl: "Een kaart van dezelfde kleur spelen als uitgespeeld" },
+          { en: "Copying the previous player's action", es: "Copiar la acción del jugador anterior", de: "Die Aktion des vorherigen Spielers kopieren", nl: "De actie van de vorige speler kopiëren" },
+          { en: "Playing face cards only", es: "Jugar solo figuras", de: "Nur Bildkarten spielen", nl: "Alleen plaatjeskaarten spelen" },
+          { en: "Matching the card rank", es: "Coincidir con el rango de la carta", de: "Den Kartenrang angleichen", nl: "De kaartrang matchen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Following suit means playing a card of the same suit that was led (first played in the trick). Most trick-taking games require you to follow suit if possible.",
+          es: "Seguir el palo significa jugar una carta del mismo palo que se jugó primero (en la baza). La mayoría de juegos de bazas requieren seguir el palo si es posible.",
+          de: "Farbe bedienen bedeutet, eine Karte derselben Farbe zu spielen, die ausgespielt wurde (zuerst im Stich gespielt). Die meisten Stichspiele erfordern dies, wenn möglich.",
+          nl: "Kleur volgen betekent een kaart van dezelfde kleur spelen die is uitgespeeld (eerst gespeeld in de slag). De meeste slagenspellen vereisen dat je kleur volgt als het kan."
+        }
+      },
+      {
+        question: {
+          en: "In Old Maid, what is the goal of the game?",
+          es: "En Old Maid, ¿cuál es el objetivo del juego?",
+          de: "Was ist das Ziel beim Old Maid?",
+          nl: "Wat is het doel van Old Maid?"
+        },
+        options: [
+          { en: "Collect all the Queens", es: "Recoger todas las Reinas", de: "Alle Damen sammeln", nl: "Alle Vrouwen verzamelen" },
+          { en: "Avoid being left with the unmatchable card", es: "Evitar quedarte con la carta sin pareja", de: "Vermeiden, mit der unpassenden Karte übrig zu bleiben", nl: "Voorkomen dat je met de niet-matchbare kaart overblijft" },
+          { en: "Make as many pairs as possible", es: "Hacer tantos pares como sea posible", de: "So viele Paare wie möglich bilden", nl: "Zoveel mogelijk paren maken" },
+          { en: "Get rid of all red cards first", es: "Deshacerse primero de todas las cartas rojas", de: "Alle roten Karten zuerst loswerden", nl: "Eerst alle rode kaarten kwijtraken" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "In Old Maid, players match pairs and discard them. The goal is to avoid being the player left holding the unmatchable 'Old Maid' card at the end.",
+          es: "En Old Maid, los jugadores emparejan pares y los descartan. El objetivo es evitar ser el jugador que se queda con la carta 'Old Maid' sin pareja al final.",
+          de: "Beim Old Maid bilden Spieler Paare und legen sie ab. Das Ziel ist es, nicht der Spieler zu sein, der am Ende die unpassende 'Old Maid'-Karte hält.",
+          nl: "Bij Old Maid matchen spelers paren en leggen ze af. Het doel is te voorkomen dat je de speler bent die aan het einde met de niet-matchbare 'Old Maid'-kaart overblijft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'splitting' in Blackjack?",
+          es: "¿Qué es 'dividir' en Blackjack?",
+          de: "Was ist 'Teilen' beim Blackjack?",
+          nl: "Wat is 'splitsen' bij Blackjack?"
+        },
+        options: [
+          { en: "Dividing your bet between two dealers", es: "Dividir tu apuesta entre dos crupieres", de: "Deinen Einsatz auf zwei Dealer aufteilen", nl: "Je inzet verdelen over twee dealers" },
+          { en: "Separating a pair into two hands", es: "Separar un par en dos manos", de: "Ein Paar in zwei Hände teilen", nl: "Een paar in twee handen splitsen" },
+          { en: "Taking half your bet back", es: "Recuperar la mitad de tu apuesta", de: "Die Hälfte deines Einsatzes zurücknehmen", nl: "De helft van je inzet terugnemen" },
+          { en: "Sharing cards with another player", es: "Compartir cartas con otro jugador", de: "Karten mit einem anderen Spieler teilen", nl: "Kaarten delen met een andere speler" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Splitting allows you to separate a pair of cards with the same rank into two separate hands, each with its own bet, giving you two chances to beat the dealer.",
+          es: "Dividir te permite separar un par de cartas del mismo rango en dos manos separadas, cada una con su propia apuesta, dándote dos oportunidades de vencer al crupier.",
+          de: "Teilen ermöglicht es dir, ein Paar Karten gleichen Ranges in zwei separate Hände zu teilen, jede mit ihrem eigenen Einsatz, was dir zwei Chancen gibt, den Dealer zu schlagen.",
+          nl: "Splitsen stelt je in staat een paar kaarten van dezelfde rang te scheiden in twee aparte handen, elk met hun eigen inzet, wat je twee kansen geeft om de dealer te verslaan."
+        }
+      },
+      {
+        question: {
+          en: "In Spades, what is the trump suit?",
+          es: "En Spades, ¿cuál es el palo de triunfo?",
+          de: "Was ist die Trumpffarbe beim Spades?",
+          nl: "Wat is de troefkleur bij Spades?"
+        },
+        options: [
+          { en: "Hearts", es: "Corazones", de: "Herz", nl: "Harten" },
+          { en: "Diamonds", es: "Diamantes", de: "Karo", nl: "Ruiten" },
+          { en: "Spades", es: "Picas", de: "Pik", nl: "Schoppen" },
+          { en: "It varies each round", es: "Varía cada ronda", de: "Es variiert jede Runde", nl: "Het varieert elke ronde" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "In Spades, the Spades suit is always trump, meaning any Spade card beats any card of another suit regardless of rank.",
+          es: "En Spades, el palo de Picas es siempre triunfo, lo que significa que cualquier carta de Picas vence cualquier carta de otro palo independientemente del rango.",
+          de: "Beim Spades ist Pik immer Trumpf, was bedeutet, dass jede Pik-Karte jede Karte einer anderen Farbe schlägt, unabhängig vom Rang.",
+          nl: "Bij Spades is Schoppen altijd troef, wat betekent dat elke Schoppen kaart elke kaart van een andere kleur verslaat, ongeacht de rang."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'pair' in poker?",
+          es: "¿Qué es un 'par' en el póker?",
+          de: "Was ist ein 'Paar' beim Poker?",
+          nl: "Wat is een 'paar' bij poker?"
+        },
+        options: [
+          { en: "Two cards of the same suit", es: "Dos cartas del mismo palo", de: "Zwei Karten derselben Farbe", nl: "Twee kaarten van dezelfde kleur" },
+          { en: "Two cards of the same rank", es: "Dos cartas del mismo rango", de: "Zwei Karten gleichen Ranges", nl: "Twee kaarten van dezelfde rang" },
+          { en: "Two consecutive cards", es: "Dos cartas consecutivas", de: "Zwei aufeinanderfolgende Karten", nl: "Twee opeenvolgende kaarten" },
+          { en: "Two face cards", es: "Dos figuras", de: "Zwei Bildkarten", nl: "Twee plaatjeskaarten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A pair consists of two cards of the same rank, such as two 7s or two Queens. It's the lowest-ranking hand that contains matching cards.",
+          es: "Un par consiste en dos cartas del mismo rango, como dos 7 o dos Reinas. Es la mano de menor rango que contiene cartas coincidentes.",
+          de: "Ein Paar besteht aus zwei Karten gleichen Ranges, wie zwei 7en oder zwei Damen. Es ist das niedrigste Blatt, das passende Karten enthält.",
+          nl: "Een paar bestaat uit twee kaarten van dezelfde rang, zoals twee 7'en of twee Vrouwen. Het is de laagst gerangschikte hand die matchende kaarten bevat."
+        }
+      },
+      {
+        question: {
+          en: "In Uno, what type of deck is used?",
+          es: "En Uno, ¿qué tipo de baraja se usa?",
+          de: "Welche Art von Deck wird beim Uno verwendet?",
+          nl: "Welk type deck wordt gebruikt bij Uno?"
+        },
+        options: [
+          { en: "Standard 52-card deck", es: "Baraja estándar de 52 cartas", de: "Standard 52-Karten-Deck", nl: "Standaard 52-kaarten deck" },
+          { en: "Special Uno deck with colored number/action cards", es: "Baraja especial de Uno con cartas de número/acción de colores", de: "Spezielles Uno-Deck mit farbigen Zahlen-/Aktionskarten", nl: "Speciaal Uno deck met gekleurde nummer/actie kaarten" },
+          { en: "Tarot cards", es: "Cartas de tarot", de: "Tarot-Karten", nl: "Tarotkaarten" },
+          { en: "Playing cards without face cards", es: "Naipes sin figuras", de: "Spielkarten ohne Bildkarten", nl: "Speelkaarten zonder plaatjeskaarten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Uno uses a special deck with 108 cards featuring four colors (red, blue, green, yellow), numbers 0-9, and special action cards like Skip, Reverse, and Draw Two.",
+          es: "Uno usa una baraja especial con 108 cartas con cuatro colores (rojo, azul, verde, amarillo), números 0-9 y cartas de acción especiales como Saltar, Reversa y Robar Dos.",
+          de: "Uno verwendet ein spezielles Deck mit 108 Karten in vier Farben (rot, blau, grün, gelb), Zahlen 0-9 und speziellen Aktionskarten wie Aussetzen, Richtungswechsel und Zwei ziehen.",
+          nl: "Uno gebruikt een speciaal deck met 108 kaarten met vier kleuren (rood, blauw, groen, geel), nummers 0-9 en speciale actiekaarten zoals Sla Over, Omdraaien en Trek Twee."
+        }
+      },
+      {
+        question: {
+          en: "What is 'insurance' in Blackjack?",
+          es: "¿Qué es el 'seguro' en Blackjack?",
+          de: "Was ist 'Versicherung' beim Blackjack?",
+          nl: "Wat is 'verzekering' bij Blackjack?"
+        },
+        options: [
+          { en: "A side bet when dealer shows an Ace", es: "Una apuesta lateral cuando el crupier muestra un As", de: "Eine Nebenwette, wenn der Dealer ein Ass zeigt", nl: "Een zijweddenschap wanneer de dealer een Aas toont" },
+          { en: "Protection against losing your cards", es: "Protección contra perder tus cartas", de: "Schutz gegen den Verlust deiner Karten", nl: "Bescherming tegen het verliezen van je kaarten" },
+          { en: "Guarantee you won't bust", es: "Garantía de que no te pasarás", de: "Garantie, dass du nicht überkaufst", nl: "Garantie dat je niet dood gaat" },
+          { en: "A refund of your original bet", es: "Un reembolso de tu apuesta original", de: "Eine Rückerstattung deines ursprünglichen Einsatzes", nl: "Een terugbetaling van je oorspronkelijke inzet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Insurance is a side bet offered when the dealer's face-up card is an Ace. You bet that the dealer has Blackjack, and if correct, you win 2:1 on the insurance bet.",
+          es: "El seguro es una apuesta lateral ofrecida cuando la carta boca arriba del crupier es un As. Apuestas que el crupier tiene Blackjack, y si es correcto, ganas 2:1 en la apuesta de seguro.",
+          de: "Versicherung ist eine Nebenwette, die angeboten wird, wenn die offene Karte des Dealers ein Ass ist. Du wettest, dass der Dealer Blackjack hat, und wenn richtig, gewinnst du 2:1 auf die Versicherungswette.",
+          nl: "Verzekering is een zijweddenschap aangeboden wanneer de open kaart van de dealer een Aas is. Je wedt dat de dealer Blackjack heeft, en als dit klopt, win je 2:1 op de verzekeringsweddenschap."
+        }
+      },
+      {
+        question: {
+          en: "In Rummy, what is a 'run'?",
+          es: "En Rummy, ¿qué es una 'escalera'?",
+          de: "Was ist ein 'Lauf' beim Rummy?",
+          nl: "Wat is een 'run' bij Rummy?"
+        },
+        options: [
+          { en: "Three or more cards of same rank", es: "Tres o más cartas del mismo rango", de: "Drei oder mehr Karten gleichen Ranges", nl: "Drie of meer kaarten van dezelfde rang" },
+          { en: "Three or more consecutive cards of same suit", es: "Tres o más cartas consecutivas del mismo palo", de: "Drei oder mehr aufeinanderfolgende Karten derselben Farbe", nl: "Drie of meer opeenvolgende kaarten van dezelfde kleur" },
+          { en: "All face cards", es: "Todas las figuras", de: "Alle Bildkarten", nl: "Alle plaatjeskaarten" },
+          { en: "Any five cards", es: "Cualquier cinco cartas", de: "Beliebige fünf Karten", nl: "Elke vijf kaarten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A run (also called a sequence) in Rummy is three or more consecutive cards of the same suit, such as 4-5-6 of Hearts.",
+          es: "Una escalera (también llamada secuencia) en Rummy son tres o más cartas consecutivas del mismo palo, como 4-5-6 de Corazones.",
+          de: "Ein Lauf (auch Sequenz genannt) beim Rummy sind drei oder mehr aufeinanderfolgende Karten derselben Farbe, wie 4-5-6 Herz.",
+          nl: "Een run (ook wel reeks genoemd) bij Rummy zijn drie of meer opeenvolgende kaarten van dezelfde kleur, zoals 4-5-6 van Harten."
+        }
+      },
+      {
+        question: {
+          en: "What does 'busting' mean in Blackjack?",
+          es: "¿Qué significa 'quebrar' en Blackjack?",
+          de: "Was bedeutet 'sich überkaufen' beim Blackjack?",
+          nl: "Wat betekent 'dood gaan' bij Blackjack?"
+        },
+        options: [
+          { en: "Getting exactly 21", es: "Obtener exactamente 21", de: "Genau 21 erreichen", nl: "Precies 21 krijgen" },
+          { en: "Going over 21", es: "Pasarse de 21", de: "Über 21 gehen", nl: "Over 21 gaan" },
+          { en: "Tying with the dealer", es: "Empatar con el crupier", de: "Mit dem Dealer gleichstehen", nl: "Gelijkspelen met de dealer" },
+          { en: "Running out of cards", es: "Quedarse sin cartas", de: "Keine Karten mehr haben", nl: "Zonder kaarten komen te zitten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Busting occurs when your hand total exceeds 21, which means you automatically lose the round, regardless of what the dealer has.",
+          es: "Quebrar ocurre cuando el total de tu mano excede 21, lo que significa que pierdes automáticamente la ronda, independientemente de lo que tenga el crupier.",
+          de: "Sich überkaufen tritt auf, wenn die Gesamtsumme deiner Hand 21 übersteigt, was bedeutet, dass du die Runde automatisch verlierst, unabhängig davon, was der Dealer hat.",
+          nl: "Dood gaan treedt op wanneer je handtotaal 21 overschrijdt, wat betekent dat je automatisch de ronde verliest, ongeacht wat de dealer heeft."
+        }
+      },
+      {
+        question: {
+          en: "In Bridge, what are the two phases of play?",
+          es: "En Bridge, ¿cuáles son las dos fases de juego?",
+          de: "Was sind die zwei Spielphasen beim Bridge?",
+          nl: "Wat zijn de twee speelfasen bij Bridge?"
+        },
+        options: [
+          { en: "Dealing and discarding", es: "Repartir y descartar", de: "Geben und Ablegen", nl: "Delen en afleggen" },
+          { en: "Bidding and playing", es: "Pujar y jugar", de: "Bieten und Spielen", nl: "Bieden en spelen" },
+          { en: "Shuffling and sorting", es: "Barajar y ordenar", de: "Mischen und Sortieren", nl: "Schudden en sorteren" },
+          { en: "Drawing and melding", es: "Robar y combinar", de: "Ziehen und Melden", nl: "Trekken en melden" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Bridge has two main phases: bidding (where partnerships bid to determine the contract) and playing (where cards are played in tricks to fulfill or defeat the contract).",
+          es: "Bridge tiene dos fases principales: pujar (donde las parejas pujan para determinar el contrato) y jugar (donde se juegan cartas en bazas para cumplir o derrotar el contrato).",
+          de: "Bridge hat zwei Hauptphasen: Bieten (wo Partnerschaften bieten, um den Kontrakt zu bestimmen) und Spielen (wo Karten in Stichen gespielt werden, um den Kontrakt zu erfüllen oder zu besiegen).",
+          nl: "Bridge heeft twee hoofdfasen: bieden (waarbij partnerschappen bieden om het contract te bepalen) en spelen (waarbij kaarten in slagen worden gespeeld om het contract te vervullen of te verslaan)."
+        }
+      },
+      {
+        question: {
+          en: "What is the traditional name for the Jack of Spades and Jack of Hearts?",
+          es: "¿Cuál es el nombre tradicional para la Jota de Picas y la Jota de Corazones?",
+          de: "Wie ist der traditionelle Name für Pik-Bube und Herz-Bube?",
+          nl: "Wat is de traditionele naam voor de Schoppen Boer en Harten Boer?"
+        },
+        options: [
+          { en: "The Royal Jacks", es: "Los Jotas Reales", de: "Die Königlichen Buben", nl: "De Koninklijke Boeren" },
+          { en: "The One-Eyed Jacks", es: "Las Jotas de Un Ojo", de: "Die Einäugigen Buben", nl: "De Eenogige Boeren" },
+          { en: "The Twin Jacks", es: "Los Jotas Gemelos", de: "Die Zwillingsbuben", nl: "De Tweeling Boeren" },
+          { en: "The Noble Jacks", es: "Los Jotas Nobles", de: "Die Edlen Buben", nl: "De Nobele Boeren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Jack of Spades and Jack of Hearts are called 'One-Eyed Jacks' because in traditional card designs, they are shown in profile with only one eye visible.",
+          es: "La Jota de Picas y la Jota de Corazones se llaman 'Jotas de Un Ojo' porque en los diseños tradicionales de cartas, se muestran de perfil con solo un ojo visible.",
+          de: "Pik-Bube und Herz-Bube werden 'Einäugige Buben' genannt, weil sie in traditionellen Kartendesigns im Profil gezeigt werden mit nur einem sichtbaren Auge.",
+          nl: "De Schoppen Boer en Harten Boer worden 'Eenogige Boeren' genoemd omdat ze in traditionele kaartontwerpen in profiel worden getoond met slechts één zichtbaar oog."
+        }
+      },
+      {
+        question: {
+          en: "In Texas Hold'em poker, how many community cards are dealt?",
+          es: "En el póker Texas Hold'em, ¿cuántas cartas comunitarias se reparten?",
+          de: "Wie viele Gemeinschaftskarten werden beim Texas Hold'em Poker ausgeteilt?",
+          nl: "Hoeveel gemeenschapskaarten worden er gedeeld bij Texas Hold'em poker?"
+        },
+        options: [
+          { en: "3", es: "3", de: "3", nl: "3" },
+          { en: "4", es: "4", de: "4", nl: "4" },
+          { en: "5", es: "5", de: "5", nl: "5" },
+          { en: "7", es: "7", de: "7", nl: "7" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "In Texas Hold'em, five community cards are dealt face-up: three on the 'flop', one on the 'turn', and one on the 'river'. Players use these with their two hole cards.",
+          es: "En Texas Hold'em, se reparten cinco cartas comunitarias boca arriba: tres en el 'flop', una en el 'turn' y una en el 'river'. Los jugadores las usan con sus dos cartas de mano.",
+          de: "Beim Texas Hold'em werden fünf Gemeinschaftskarten offen ausgeteilt: drei beim 'Flop', eine beim 'Turn' und eine beim 'River'. Spieler verwenden diese mit ihren zwei verdeckten Karten.",
+          nl: "Bij Texas Hold'em worden vijf gemeenschapskaarten open gedeeld: drie bij de 'flop', één bij de 'turn' en één bij de 'river'. Spelers gebruiken deze met hun twee hole kaarten."
+        }
       }
     ]
   };

@@ -448,6 +448,426 @@
           de: "Es gibt 6 Möglichkeiten, mit zwei Würfeln eine 7 zu würfeln (1+6, 2+5, 3+4, 4+3, 5+2, 6+1) von insgesamt 36 Kombinationen, was es zum wahrscheinlichsten Wurf mit 6/36 oder 16.67% macht. Deshalb wird der Räuber relativ häufig aktiviert.",
           nl: "Er zijn 6 manieren om een 7 te gooien met twee dobbelstenen (1+6, 2+5, 3+4, 4+3, 5+2, 6+1) van 36 totale combinaties, waardoor het de meest waarschijnlijke worp is met 6/36 of 16.67%. Daarom wordt de rover relatief vaak geactiveerd."
         }
+      },
+      {
+        question: {
+          en: "What is 'resource denial' strategy?",
+          es: "¿Qué es la estrategia de 'negación de recursos'?",
+          de: "Was ist die 'Ressourcenverweigerungs'-Strategie?",
+          nl: "Wat is de 'hulpbronweigerings'-strategie?"
+        },
+        options: [
+          { en: "Using the robber to block high-production hexes of opponents", es: "Usar al ladrón para bloquear hexágonos de alta producción de oponentes", de: "Den Räuber verwenden um hochproduktive Felder der Gegner zu blockieren", nl: "De rover gebruiken om hoge productie hexen van tegenstanders te blokkeren" },
+          { en: "Refusing all trade offers", es: "Rechazar todas las ofertas comerciales", de: "Alle Handelsangebote ablehnen", nl: "Alle handelsaanbiedingen weigeren" },
+          { en: "Not collecting resources", es: "No recoger recursos", de: "Keine Ressourcen sammeln", nl: "Geen hulpbronnen verzamelen" },
+          { en: "Giving resources to opponents", es: "Dar recursos a los oponentes", de: "Gegnern Ressourcen geben", nl: "Hulpbronnen aan tegenstanders geven" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Resource denial involves strategically placing the robber on high-value hexes (especially 6s and 8s) that opponents rely on, particularly targeting the leading player. This slows their production while you catch up or maintain your lead.",
+          es: "La negación de recursos implica colocar estratégicamente al ladrón en hexágonos de alto valor (especialmente 6 y 8) de los que dependen los oponentes, especialmente dirigiéndose al jugador líder. Esto ralentiza su producción mientras te pones al día o mantienes tu ventaja.",
+          de: "Ressourcenverweigerung beinhaltet das strategische Platzieren des Räubers auf hochwertigen Feldern (besonders 6en und 8en), auf die Gegner angewiesen sind, insbesondere den führenden Spieler. Dies verlangsamt deren Produktion, während du aufholst oder deinen Vorsprung behältst.",
+          nl: "Hulpbronweigering houdt in dat je de rover strategisch plaatst op hoogwaardige hexen (vooral 6'en en 8'en) waar tegenstanders op vertrouwen, vooral gericht op de leidende speler. Dit vertraagt hun productie terwijl jij inhaalt of je voorsprong behoudt."
+        }
+      },
+      {
+        question: {
+          en: "How many roads can each player build maximum?",
+          es: "¿Cuántos caminos puede construir cada jugador como máximo?",
+          de: "Wie viele Straßen kann jeder Spieler maximal bauen?",
+          nl: "Hoeveel wegen kan elke speler maximaal bouwen?"
+        },
+        options: [
+          { en: "15", es: "15", de: "15", nl: "15" },
+          { en: "20", es: "20", de: "20", nl: "20" },
+          { en: "12", es: "12", de: "12", nl: "12" },
+          { en: "Unlimited", es: "Ilimitado", de: "Unbegrenzt", nl: "Onbeperkt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Each player has exactly 15 road pieces in their supply. Once you've placed all 15, you cannot build more roads unless you remove one (which is not allowed by the rules). This creates interesting strategic decisions about road placement.",
+          es: "Cada jugador tiene exactamente 15 piezas de camino en su suministro. Una vez que hayas colocado las 15, no puedes construir más caminos a menos que quites uno (lo cual no está permitido por las reglas). Esto crea decisiones estratégicas interesantes sobre la colocación de caminos.",
+          de: "Jeder Spieler hat genau 15 Straßenstücke in seinem Vorrat. Sobald du alle 15 platziert hast, kannst du keine weiteren Straßen bauen, es sei denn, du entfernst eine (was von den Regeln nicht erlaubt ist). Dies schafft interessante strategische Entscheidungen über die Straßenplatzierung.",
+          nl: "Elke speler heeft precies 15 wegstukken in zijn voorraad. Zodra je alle 15 hebt geplaatst, kun je geen wegen meer bouwen tenzij je er een verwijdert (wat niet is toegestaan door de regels). Dit creëert interessante strategische beslissingen over wegplaatsing."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'desert adjacent' settlement strategy?",
+          es: "¿Qué es la estrategia de asentamiento 'adyacente al desierto'?",
+          de: "Was ist die 'wüstennachbarliche' Siedlungsstrategie?",
+          nl: "Wat is de 'woestijn-aangrenzende' nederzettingsstrategie?"
+        },
+        options: [
+          { en: "Avoiding desert edges since they produce nothing, unless other hexes compensate", es: "Evitar los bordes del desierto ya que no producen nada, a menos que otros hexágonos compensen", de: "Wüstenränder vermeiden da sie nichts produzieren, es sei denn andere Felder kompensieren", nl: "Woestijnranden vermijden omdat ze niets produceren, tenzij andere hexen compenseren" },
+          { en: "Always settle next to desert", es: "Siempre asentarse junto al desierto", de: "Immer neben der Wüste siedeln", nl: "Altijd naast de woestijn vestigen" },
+          { en: "Desert produces extra resources", es: "El desierto produce recursos extra", de: "Wüste produziert zusätzliche Ressourcen", nl: "Woestijn produceert extra hulpbronnen" },
+          { en: "Desert hexes count as two hexes", es: "Los hexágonos de desierto cuentan como dos hexágonos", de: "Wüstenfelder zählen als zwei Felder", nl: "Woestijnhexen tellen als twee hexen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Desert-adjacent settlements are generally weaker since one of your three hexes produces nothing. However, if the other two hexes are excellent (like 6 and 8), the settlement can still be valuable. Desert placement also starts with the robber, adding slight early-game advantage.",
+          es: "Los asentamientos adyacentes al desierto son generalmente más débiles ya que uno de tus tres hexágonos no produce nada. Sin embargo, si los otros dos hexágonos son excelentes (como 6 y 8), el asentamiento aún puede ser valioso. La colocación del desierto también comienza con el ladrón, agregando una ligera ventaja al inicio del juego.",
+          de: "Wüstennachbarliche Siedlungen sind im Allgemeinen schwächer, da eines deiner drei Felder nichts produziert. Wenn jedoch die anderen beiden Felder ausgezeichnet sind (wie 6 und 8), kann die Siedlung dennoch wertvoll sein. Die Wüstenplatzierung beginnt auch mit dem Räuber, was einen leichten Frühspiel-Vorteil hinzufügt.",
+          nl: "Woestijn-aangrenzende nederzettingen zijn over het algemeen zwakker omdat een van je drie hexen niets produceert. Als de andere twee hexen echter uitstekend zijn (zoals 6 en 8), kan de nederzetting nog steeds waardevol zijn. Woestijnplaatsing begint ook met de rover, wat een licht vroegspelvoordeel toevoegt."
+        }
+      },
+      {
+        question: {
+          en: "What is the significance of the '3:1 harbor' vs '2:1 harbor'?",
+          es: "¿Cuál es la importancia del 'puerto 3:1' vs 'puerto 2:1'?",
+          de: "Was ist die Bedeutung des '3:1-Hafens' vs '2:1-Hafen'?",
+          nl: "Wat is de betekenis van de '3:1-haven' vs '2:1-haven'?"
+        },
+        options: [
+          { en: "3:1 trades any resource, 2:1 trades specific resource; 2:1 is more valuable if you produce that resource", es: "3:1 intercambia cualquier recurso, 2:1 intercambia recurso específico; 2:1 es más valioso si produces ese recurso", de: "3:1 tauscht jede Ressource, 2:1 tauscht spezifische Ressource; 2:1 ist wertvoller wenn du diese Ressource produzierst", nl: "3:1 ruilt elke hulpbron, 2:1 ruilt specifieke hulpbron; 2:1 is waardevoller als je die hulpbron produceert" },
+          { en: "3:1 is always better than 2:1", es: "3:1 es siempre mejor que 2:1", de: "3:1 ist immer besser als 2:1", nl: "3:1 is altijd beter dan 2:1" },
+          { en: "They function identically", es: "Funcionan idénticamente", de: "Sie funktionieren identisch", nl: "Ze functioneren identiek" },
+          { en: "2:1 requires two different resources", es: "2:1 requiere dos recursos diferentes", de: "2:1 erfordert zwei verschiedene Ressourcen", nl: "2:1 vereist twee verschillende hulpbronnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A 3:1 harbor lets you trade any 3 identical resources for 1 of any type (better than bank's 4:1). A 2:1 harbor lets you trade 2 of a specific resource for 1 of any type. If you consistently produce that specific resource, the 2:1 is much more valuable.",
+          es: "Un puerto 3:1 te permite intercambiar cualquier 3 recursos idénticos por 1 de cualquier tipo (mejor que el 4:1 del banco). Un puerto 2:1 te permite intercambiar 2 de un recurso específico por 1 de cualquier tipo. Si produces consistentemente ese recurso específico, el 2:1 es mucho más valioso.",
+          de: "Ein 3:1-Hafen lässt dich beliebige 3 identische Ressourcen gegen 1 von beliebigem Typ tauschen (besser als die 4:1 der Bank). Ein 2:1-Hafen lässt dich 2 einer bestimmten Ressource gegen 1 von beliebigem Typ tauschen. Wenn du diese spezifische Ressource konsistent produzierst, ist der 2:1 viel wertvoller.",
+          nl: "Een 3:1-haven laat je elke 3 identieke hulpbronnen ruilen voor 1 van elk type (beter dan 4:1 van de bank). Een 2:1-haven laat je 2 van een specifieke hulpbron ruilen voor 1 van elk type. Als je die specifieke hulpbron consistent produceert, is de 2:1 veel waardevoller."
+        }
+      },
+      {
+        question: {
+          en: "When should you 'road block' an opponent?",
+          es: "¿Cuándo debes 'bloquear con camino' a un oponente?",
+          de: "Wann solltest du einen Gegner 'straßenblockieren'?",
+          nl: "Wanneer moet je een tegenstander 'wegblokkeren'?"
+        },
+        options: [
+          { en: "When they're threatening Longest Road or expanding toward valuable spots", es: "Cuando están amenazando el Camino Más Largo o expandiéndose hacia lugares valiosos", de: "Wenn sie die längste Straße bedrohen oder sich zu wertvollen Orten ausdehnen", nl: "Wanneer ze de Langste Weg bedreigen of uitbreiden naar waardevolle plekken" },
+          { en: "Every turn without exception", es: "Cada turno sin excepción", de: "Jede Runde ohne Ausnahme", nl: "Elke beurt zonder uitzondering" },
+          { en: "Never block opponents", es: "Nunca bloquear a los oponentes", de: "Gegner niemals blockieren", nl: "Nooit tegenstanders blokkeren" },
+          { en: "Only in the first round", es: "Solo en la primera ronda", de: "Nur in der ersten Runde", nl: "Alleen in de eerste ronde" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Road blocking is a defensive tactic where you build a settlement in the path of an opponent's road network to prevent them from expanding further, especially useful when they're close to getting Longest Road or reaching a prime settlement location you want.",
+          es: "El bloqueo con camino es una táctica defensiva donde construyes un asentamiento en el camino de la red de caminos de un oponente para evitar que se expandan más, especialmente útil cuando están cerca de obtener el Camino Más Largo o alcanzar una ubicación de asentamiento principal que quieres.",
+          de: "Straßenblockieren ist eine defensive Taktik, bei der du eine Siedlung im Pfad des Straßennetzes eines Gegners baust, um zu verhindern, dass sie sich weiter ausdehnen, besonders nützlich, wenn sie kurz davor sind, die längste Straße zu bekommen oder einen erstklassigen Siedlungsstandort zu erreichen, den du willst.",
+          nl: "Wegblokkeren is een defensieve tactiek waarbij je een nederzetting bouwt in het pad van het wegennetwerk van een tegenstander om te voorkomen dat ze verder uitbreiden, vooral nuttig wanneer ze dicht bij het krijgen van de Langste Weg zijn of een prima nederzettingslocatie bereiken die jij wilt."
+        }
+      },
+      {
+        question: {
+          en: "How does the special 'special build phase' rule work in tournaments?",
+          es: "¿Cómo funciona la regla de 'fase de construcción especial' en torneos?",
+          de: "Wie funktioniert die 'spezielle Bauphase'-Regel in Turnieren?",
+          nl: "Hoe werkt de 'speciale bouwfase'-regel in toernooien?"
+        },
+        options: [
+          { en: "Between turns, players can build but not trade or use dev cards", es: "Entre turnos, los jugadores pueden construir pero no comerciar o usar cartas de desarrollo", de: "Zwischen den Zügen können Spieler bauen aber nicht handeln oder Entwicklungskarten verwenden", nl: "Tussen beurten kunnen spelers bouwen maar niet handelen of ontwikkelingskaarten gebruiken" },
+          { en: "Players get an extra turn", es: "Los jugadores obtienen un turno extra", de: "Spieler bekommen einen Extra-Zug", nl: "Spelers krijgen een extra beurt" },
+          { en: "Build two structures per turn", es: "Construye dos estructuras por turno", de: "Baue zwei Strukturen pro Zug", nl: "Bouw twee structuren per beurt" },
+          { en: "No building allowed", es: "No se permite construir", de: "Bauen nicht erlaubt", nl: "Bouwen niet toegestaan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Special Build Phase (optional tournament rule) occurs between each player's regular turns. Players can use resources to build settlements, cities, or roads, but cannot trade, buy development cards, or play development cards. This speeds up gameplay and reduces waiting time.",
+          es: "La Fase de Construcción Especial (regla de torneo opcional) ocurre entre los turnos regulares de cada jugador. Los jugadores pueden usar recursos para construir asentamientos, ciudades o caminos, pero no pueden comerciar, comprar cartas de desarrollo o jugar cartas de desarrollo. Esto acelera el juego y reduce el tiempo de espera.",
+          de: "Die Spezielle Bauphase (optionale Turnierregel) erfolgt zwischen den regulären Zügen jedes Spielers. Spieler können Ressourcen verwenden, um Siedlungen, Städte oder Straßen zu bauen, können aber nicht handeln, Entwicklungskarten kaufen oder Entwicklungskarten spielen. Dies beschleunigt das Gameplay und reduziert die Wartezeit.",
+          nl: "De Speciale Bouwfase (optionele toernooiregel) vindt plaats tussen de reguliere beurten van elke speler. Spelers kunnen hulpbronnen gebruiken om nederzettingen, steden of wegen te bouwen, maar kunnen niet handelen, ontwikkelingskaarten kopen of ontwikkelingskaarten spelen. Dit versnelt gameplay en vermindert wachttijd."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'balanced board' setup?",
+          es: "¿Qué es una configuración de tablero 'equilibrado'?",
+          de: "Was ist ein 'ausgeglichenes Brett'-Setup?",
+          nl: "Wat is een 'gebalanceerd bord'-opzet?"
+        },
+        options: [
+          { en: "Arranging numbers so no player has clear advantage; high-value numbers spread evenly", es: "Organizar números para que ningún jugador tenga ventaja clara; números de alto valor distribuidos uniformemente", de: "Zahlen so anordnen dass kein Spieler einen klaren Vorteil hat; hochwertige Zahlen gleichmäßig verteilt", nl: "Nummers zo rangschikken dat geen speler duidelijk voordeel heeft; hoogwaardige nummers gelijkmatig verspreid" },
+          { en: "All hexes have number 7", es: "Todos los hexágonos tienen el número 7", de: "Alle Felder haben Nummer 7", nl: "Alle hexen hebben nummer 7" },
+          { en: "Same resources in every position", es: "Mismos recursos en cada posición", de: "Gleiche Ressourcen an jeder Position", nl: "Dezelfde hulpbronnen op elke positie" },
+          { en: "Random placement regardless of fairness", es: "Colocación aleatoria sin importar la equidad", de: "Zufällige Platzierung unabhängig von Fairness", nl: "Willekeurige plaatsing ongeacht eerlijkheid" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A balanced board ensures fair starting positions by avoiding adjacent 6s and 8s, distributing high-probability numbers evenly across the board, and ensuring each starting position has roughly equal pip count potential. Many tournaments use standardized balanced setups.",
+          es: "Un tablero equilibrado asegura posiciones iniciales justas evitando 6 y 8 adyacentes, distribuyendo números de alta probabilidad uniformemente por el tablero, y asegurando que cada posición inicial tenga aproximadamente el mismo potencial de conteo de puntos. Muchos torneos usan configuraciones equilibradas estandarizadas.",
+          de: "Ein ausgeglichenes Brett gewährleistet faire Startpositionen, indem benachbarte 6en und 8en vermieden werden, Zahlen mit hoher Wahrscheinlichkeit gleichmäßig über das Brett verteilt werden und sichergestellt wird, dass jede Startposition ungefähr gleiches Punktzahlpotenzial hat. Viele Turniere verwenden standardisierte ausgeglichene Setups.",
+          nl: "Een gebalanceerd bord zorgt voor eerlijke startposities door aangrenzende 6'en en 8'en te vermijden, hoge-waarschijnlijkheidsnummers gelijkmatig over het bord te verdelen, en ervoor te zorgen dat elke startpositie ongeveer gelijk puntentellingspotentieel heeft. Veel toernooien gebruiken gestandaardiseerde gebalanceerde opstellingen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'settlement spacing rule' exactly?",
+          es: "¿Qué es exactamente la 'regla de espaciado de asentamientos'?",
+          de: "Was ist genau die 'Siedlungsabstandsregel'?",
+          nl: "Wat is precies de 'nederzettingsafstandsregel'?"
+        },
+        options: [
+          { en: "No settlements on adjacent vertices; must have at least 2 edges between settlements", es: "No hay asentamientos en vértices adyacentes; debe haber al menos 2 bordes entre asentamientos", de: "Keine Siedlungen auf angrenzenden Ecken; es müssen mindestens 2 Kanten zwischen Siedlungen liegen", nl: "Geen nederzettingen op aangrenzende hoekpunten; moet minstens 2 randen tussen nederzettingen hebben" },
+          { en: "All settlements must be 3 hexes apart", es: "Todos los asentamientos deben estar a 3 hexágonos de distancia", de: "Alle Siedlungen müssen 3 Felder voneinander entfernt sein", nl: "Alle nederzettingen moeten 3 hexen uit elkaar zijn" },
+          { en: "Only one settlement per hex", es: "Solo un asentamiento por hexágono", de: "Nur eine Siedlung pro Feld", nl: "Slechts één nederzetting per hex" },
+          { en: "Settlements can be placed anywhere", es: "Los asentamientos se pueden colocar en cualquier lugar", de: "Siedlungen können überall platziert werden", nl: "Nederzettingen kunnen overal worden geplaatst" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The distance rule states you cannot build a settlement on a vertex adjacent to any other settlement (yours or opponents'). There must be at least one empty vertex (2 road lengths) between any two settlements. This prevents clustering and ensures fair resource distribution.",
+          es: "La regla de distancia establece que no puedes construir un asentamiento en un vértice adyacente a cualquier otro asentamiento (tuyo o de oponentes). Debe haber al menos un vértice vacío (2 longitudes de camino) entre cualquier dos asentamientos. Esto previene la agrupación y asegura una distribución justa de recursos.",
+          de: "Die Distanzregel besagt, dass du keine Siedlung auf einer Ecke bauen kannst, die an eine andere Siedlung angrenzt (deine oder die der Gegner). Es muss mindestens eine leere Ecke (2 Straßenlängen) zwischen zwei Siedlungen liegen. Dies verhindert Clustering und gewährleistet eine faire Ressourcenverteilung.",
+          nl: "De afstandsregel stelt dat je geen nederzetting kunt bouwen op een hoekpunt dat grenst aan een andere nederzetting (van jou of tegenstanders). Er moet minstens één leeg hoekpunt (2 weglengte) tussen twee nederzettingen zijn. Dit voorkomt clustering en zorgt voor eerlijke hulpbronnenverdeling."
+        }
+      },
+      {
+        question: {
+          en: "What strategy should you employ when falling behind?",
+          es: "¿Qué estrategia debes emplear cuando estás quedando atrás?",
+          de: "Welche Strategie solltest du anwenden, wenn du zurückfällst?",
+          nl: "Welke strategie moet je toepassen wanneer je achterblijft?"
+        },
+        options: [
+          { en: "Focus on development cards for Largest Army or hidden VP, and block leader's expansion", es: "Enfocarse en cartas de desarrollo para Ejército Más Grande o VP ocultos, y bloquear la expansión del líder", de: "Auf Entwicklungskarten für größtes Ritterheer oder versteckte SP fokussieren, und Expansion des Anführers blockieren", nl: "Focus op ontwikkelingskaarten voor Grootste Leger of verborgen VP, en blokkeer expansie van de leider" },
+          { en: "Trade exclusively with the leader", es: "Comerciar exclusivamente con el líder", de: "Ausschließlich mit dem Anführer handeln", nl: "Exclusief handelen met de leider" },
+          { en: "Give up and help others win", es: "Rendirse y ayudar a otros a ganar", de: "Aufgeben und anderen beim Gewinnen helfen", nl: "Opgeven en anderen helpen winnen" },
+          { en: "Build only roads", es: "Construir solo caminos", de: "Nur Straßen bauen", nl: "Alleen wegen bouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "When behind, shift strategy to development cards (which can provide hidden victory points and knights for Largest Army), place the robber on the leader's best hexes, refuse trades that help the leader, and build settlements that block their expansion paths. Catch-up mechanics rely on tactical disruption.",
+          es: "Cuando estás atrás, cambia la estrategia a cartas de desarrollo (que pueden proporcionar puntos de victoria ocultos y caballeros para el Ejército Más Grande), coloca al ladrón en los mejores hexágonos del líder, rechaza intercambios que ayuden al líder y construye asentamientos que bloqueen sus rutas de expansión. Los mecanismos de recuperación dependen de la interrupción táctica.",
+          de: "Wenn du zurückliegst, wechsle die Strategie zu Entwicklungskarten (die versteckte Siegpunkte und Ritter für das größte Ritterheer bieten können), platziere den Räuber auf den besten Feldern des Anführers, lehne Tauschgeschäfte ab, die dem Anführer helfen, und baue Siedlungen, die ihre Expansionswege blockieren. Aufhol-Mechaniken basieren auf taktischer Störung.",
+          nl: "Wanneer je achterblijft, verander strategie naar ontwikkelingskaarten (die verborgen overwinningspunten en ridders voor het Grootste Leger kunnen bieden), plaats de rover op de beste hexen van de leider, weiger ruilen die de leider helpen, en bouw nederzettingen die hun uitbreidingspaden blokkeren. Inhaal-mechanismen vertrouwen op tactische verstoring."
+        }
+      },
+      {
+        question: {
+          en: "What is the strategic value of the 'Year of Plenty' development card?",
+          es: "¿Cuál es el valor estratégico de la carta de desarrollo 'Año de Abundancia'?",
+          de: "Was ist der strategische Wert der 'Erfindung'-Entwicklungskarte?",
+          nl: "Wat is de strategische waarde van de 'Jaar van Overvloed'-ontwikkelingskaart?"
+        },
+        options: [
+          { en: "Provides exactly the 2 resources needed to complete a build on your turn", es: "Proporciona exactamente los 2 recursos necesarios para completar una construcción en tu turno", de: "Liefert genau die 2 Ressourcen, die benötigt werden, um einen Bau in deinem Zug abzuschließen", nl: "Levert precies de 2 hulpbronnen die nodig zijn om een bouw op je beurt te voltooien" },
+          { en: "Doubles all resource production", es: "Duplica toda la producción de recursos", de: "Verdoppelt alle Ressourcenproduktion", nl: "Verdubbelt alle hulpbronnenproductie" },
+          { en: "Gives you 10 resources", es: "Te da 10 recursos", de: "Gibt dir 10 Ressourcen", nl: "Geeft je 10 hulpbronnen" },
+          { en: "Steals resources from opponents", es: "Roba recursos de los oponentes", de: "Stiehlt Ressourcen von Gegnern", nl: "Steelt hulpbronnen van tegenstanders" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Year of Plenty lets you take any 2 resource cards from the bank. Its main value is enabling surprise builds (getting exactly what you need to build a city or settlement immediately) or securing resources when you're close to winning and don't want to trade with opponents.",
+          es: "Año de Abundancia te permite tomar cualquier 2 cartas de recursos del banco. Su principal valor es permitir construcciones sorpresa (obtener exactamente lo que necesitas para construir una ciudad o asentamiento inmediatamente) o asegurar recursos cuando estás cerca de ganar y no quieres comerciar con oponentes.",
+          de: "Erfindung lässt dich beliebige 2 Ressourcenkarten von der Bank nehmen. Ihr Hauptwert liegt darin, Überraschungsbauten zu ermöglichen (genau das zu bekommen, was du brauchst, um sofort eine Stadt oder Siedlung zu bauen) oder Ressourcen zu sichern, wenn du kurz vor dem Sieg stehst und nicht mit Gegnern handeln möchtest.",
+          nl: "Jaar van Overvloed laat je elke 2 hulpbronkaarten van de bank nemen. De hoofdwaarde is het mogelijk maken van verrassende bouwwerken (precies krijgen wat je nodig hebt om onmiddellijk een stad of nederzetting te bouwen) of hulpbronnen veiligstellen wanneer je dicht bij winnen bent en niet wilt ruilen met tegenstanders."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'monopoly card timing' strategy?",
+          es: "¿Qué es la estrategia de 'sincronización de carta monopolio'?",
+          de: "Was ist die 'Monopolkarten-Timing'-Strategie?",
+          nl: "Wat is de 'monopoliekaart-timing'-strategie?"
+        },
+        options: [
+          { en: "Play it when opponents have many cards and you need a specific resource to win", es: "Jugarla cuando los oponentes tienen muchas cartas y necesitas un recurso específico para ganar", de: "Spiele sie wenn Gegner viele Karten haben und du eine bestimmte Ressource zum Gewinnen brauchst", nl: "Speel het wanneer tegenstanders veel kaarten hebben en je een specifieke hulpbron nodig hebt om te winnen" },
+          { en: "Play it immediately when drawn", es: "Jugarla inmediatamente al robarla", de: "Spiele sie sofort beim Ziehen", nl: "Speel het onmiddellijk wanneer getrokken" },
+          { en: "Never play monopoly cards", es: "Nunca jugar cartas de monopolio", de: "Spiele niemals Monopolkarten", nl: "Speel nooit monopoliekaarten" },
+          { en: "Only play it on the first turn", es: "Solo jugarla en el primer turno", de: "Spiele sie nur im ersten Zug", nl: "Speel het alleen in de eerste beurt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Monopoly card takes all cards of one resource type from all opponents. Best timing is when: (1) you've seen opponents receive/trade for that resource, (2) you need it to complete a winning move, (3) late game when players hold more cards. Calling wheat or ore often yields 4-8 cards.",
+          es: "La carta Monopolio toma todas las cartas de un tipo de recurso de todos los oponentes. El mejor momento es cuando: (1) has visto a oponentes recibir/intercambiar ese recurso, (2) lo necesitas para completar un movimiento ganador, (3) juego tardío cuando los jugadores tienen más cartas. Pedir trigo o mineral a menudo produce 4-8 cartas.",
+          de: "Die Monopolkarte nimmt alle Karten eines Ressourcentyps von allen Gegnern. Das beste Timing ist, wenn: (1) du gesehen hast, dass Gegner diese Ressource erhalten/tauschen, (2) du sie brauchst, um einen Gewinnzug abzuschließen, (3) Spätspiel, wenn Spieler mehr Karten halten. Getreide oder Erz anzufordern bringt oft 4-8 Karten.",
+          nl: "De Monopoliekaart neemt alle kaarten van één hulpbrontype van alle tegenstanders. Beste timing is wanneer: (1) je hebt gezien dat tegenstanders die hulpbron ontvangen/ruilen, (2) je het nodig hebt om een winnende zet te voltooien, (3) laat spel wanneer spelers meer kaarten hebben. Tarwe of erts vragen levert vaak 4-8 kaarten op."
+        }
+      },
+      {
+        question: {
+          en: "How many total settlements and cities can each player build?",
+          es: "¿Cuántos asentamientos y ciudades totales puede construir cada jugador?",
+          de: "Wie viele Siedlungen und Städte insgesamt kann jeder Spieler bauen?",
+          nl: "Hoeveel totale nederzettingen en steden kan elke speler bouwen?"
+        },
+        options: [
+          { en: "5 settlements + 4 cities (settlements can be upgraded)", es: "5 asentamientos + 4 ciudades (los asentamientos se pueden mejorar)", de: "5 Siedlungen + 4 Städte (Siedlungen können aufgewertet werden)", nl: "5 nederzettingen + 4 steden (nederzettingen kunnen worden geüpgraded)" },
+          { en: "10 settlements, no cities", es: "10 asentamientos, no ciudades", de: "10 Siedlungen, keine Städte", nl: "10 nederzettingen, geen steden" },
+          { en: "5 of each independently", es: "5 de cada uno independientemente", de: "5 von jedem unabhängig", nl: "5 van elk onafhankelijk" },
+          { en: "Unlimited of both", es: "Ilimitado de ambos", de: "Unbegrenzt von beiden", nl: "Onbeperkt van beide" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Each player starts with 5 settlement pieces and 4 city pieces. You can build up to 5 settlements. When you upgrade a settlement to a city, the settlement returns to your supply and can be built again elsewhere. Maximum configuration is 5 settlements OR 4 cities + 1 settlement.",
+          es: "Cada jugador comienza con 5 piezas de asentamiento y 4 piezas de ciudad. Puedes construir hasta 5 asentamientos. Cuando mejoras un asentamiento a una ciudad, el asentamiento regresa a tu suministro y puede construirse nuevamente en otro lugar. La configuración máxima es 5 asentamientos O 4 ciudades + 1 asentamiento.",
+          de: "Jeder Spieler beginnt mit 5 Siedlungsstücken und 4 Stadtstücken. Du kannst bis zu 5 Siedlungen bauen. Wenn du eine Siedlung zu einer Stadt aufrüstest, kehrt die Siedlung zu deinem Vorrat zurück und kann woanders wieder gebaut werden. Maximalkonfiguration ist 5 Siedlungen ODER 4 Städte + 1 Siedlung.",
+          nl: "Elke speler begint met 5 nederzettingsstukken en 4 stadsstukken. Je kunt tot 5 nederzettingen bouwen. Wanneer je een nederzetting upgradet naar een stad, keert de nederzetting terug naar je voorraad en kan elders opnieuw worden gebouwd. Maximale configuratie is 5 nederzettingen OF 4 steden + 1 nederzetting."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'diversification vs specialization' strategic debate?",
+          es: "¿Qué es el debate estratégico de 'diversificación vs especialización'?",
+          de: "Was ist die strategische Debatte 'Diversifikation vs Spezialisierung'?",
+          nl: "Wat is het 'diversificatie vs specialisatie' strategische debat?"
+        },
+        options: [
+          { en: "Diversification provides stable income; specialization + ports enables trading dominance", es: "La diversificación proporciona ingresos estables; la especialización + puertos permite dominio comercial", de: "Diversifikation bietet stabiles Einkommen; Spezialisierung + Häfen ermöglicht Handelsdominanz", nl: "Diversificatie biedt stabiel inkomen; specialisatie + havens maakt handelsdominantie mogelijk" },
+          { en: "Always diversify, never specialize", es: "Siempre diversificar, nunca especializarse", de: "Immer diversifizieren, niemals spezialisieren", nl: "Altijd diversifiëren, nooit specialiseren" },
+          { en: "Always specialize in one resource", es: "Siempre especializarse en un recurso", de: "Immer auf eine Ressource spezialisieren", nl: "Altijd specialiseren in één hulpbron" },
+          { en: "This debate doesn't exist in Catan", es: "Este debate no existe en Catan", de: "Diese Debatte existiert in Catan nicht", nl: "Dit debat bestaat niet in Catan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Diversification (touching all 5 resources) ensures you can build anything without trading. Specialization (heavy on 2-3 resources with ports) creates trade surpluses you can convert efficiently. Best strategy often combines both: early diversification, then specialized expansion with ports.",
+          es: "La diversificación (tocar los 5 recursos) asegura que puedas construir cualquier cosa sin comerciar. La especialización (fuerte en 2-3 recursos con puertos) crea excedentes comerciales que puedes convertir eficientemente. La mejor estrategia a menudo combina ambos: diversificación temprana, luego expansión especializada con puertos.",
+          de: "Diversifikation (alle 5 Ressourcen berühren) stellt sicher, dass du alles bauen kannst ohne zu handeln. Spezialisierung (stark in 2-3 Ressourcen mit Häfen) schafft Handelsüberschüsse, die du effizient umwandeln kannst. Die beste Strategie kombiniert oft beides: frühe Diversifikation, dann spezialisierte Expansion mit Häfen.",
+          nl: "Diversificatie (alle 5 hulpbronnen aanraken) zorgt ervoor dat je alles kunt bouwen zonder te ruilen. Specialisatie (zwaar in 2-3 hulpbronnen met havens) creëert handelsoverschotten die je efficiënt kunt omzetten. Beste strategie combineert vaak beide: vroege diversificatie, dan gespecialiseerde uitbreiding met havens."
+        }
+      },
+      {
+        question: {
+          en: "What does 'tempo' mean in Catan strategy?",
+          es: "¿Qué significa 'tempo' en la estrategia de Catan?",
+          de: "Was bedeutet 'Tempo' in der Catan-Strategie?",
+          nl: "Wat betekent 'tempo' in Catan-strategie?"
+        },
+        options: [
+          { en: "Speed of development; building quickly to gain early advantage", es: "Velocidad de desarrollo; construir rápidamente para obtener ventaja temprana", de: "Entwicklungsgeschwindigkeit; schnell bauen um frühen Vorteil zu erlangen", nl: "Ontwikkelingssnelheid; snel bouwen om vroeg voordeel te krijgen" },
+          { en: "How fast you roll the dice", es: "Qué tan rápido tiras los dados", de: "Wie schnell du würfelst", nl: "Hoe snel je de dobbelstenen gooit" },
+          { en: "Trading speed with other players", es: "Velocidad de intercambio con otros jugadores", de: "Handelsgeschwindigkeit mit anderen Spielern", nl: "Ruilsnelheid met andere spelers" },
+          { en: "Time limit for each turn", es: "Límite de tiempo para cada turno", de: "Zeitlimit für jeden Zug", nl: "Tijdslimiet voor elke beurt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tempo refers to the pace of your development relative to opponents. High tempo means building settlements/cities quickly to generate more resources and points before others catch up. Losing tempo (e.g., by buying dev cards that don't immediately help) can put you behind.",
+          es: "Tempo se refiere al ritmo de tu desarrollo en relación con los oponentes. Alto tempo significa construir asentamientos/ciudades rápidamente para generar más recursos y puntos antes de que otros se pongan al día. Perder tempo (por ejemplo, al comprar cartas de desarrollo que no ayudan inmediatamente) puede dejarte atrás.",
+          de: "Tempo bezieht sich auf das Tempo deiner Entwicklung im Vergleich zu Gegnern. Hohes Tempo bedeutet, Siedlungen/Städte schnell zu bauen, um mehr Ressourcen und Punkte zu generieren, bevor andere aufholen. Tempo zu verlieren (z.B. durch Kauf von Entwicklungskarten, die nicht sofort helfen) kann dich zurückwerfen.",
+          nl: "Tempo verwijst naar het tempo van je ontwikkeling ten opzichte van tegenstanders. Hoog tempo betekent snel nederzettingen/steden bouwen om meer hulpbronnen en punten te genereren voordat anderen bijkomen. Tempo verliezen (bijv. door ontwikkelingskaarten kopen die niet onmiddellijk helpen) kan je achterop zetten."
+        }
+      },
+      {
+        question: {
+          en: "Why is controlling the '6-8-5' intersection considered ideal?",
+          es: "¿Por qué controlar la intersección '6-8-5' se considera ideal?",
+          de: "Warum wird die Kontrolle der '6-8-5'-Kreuzung als ideal angesehen?",
+          nl: "Waarom wordt het beheersen van het '6-8-5'-kruispunt als ideaal beschouwd?"
+        },
+        options: [
+          { en: "These three numbers have the highest combined pip value (14 pips) and best production frequency", es: "Estos tres números tienen el valor de puntos combinado más alto (14 puntos) y mejor frecuencia de producción", de: "Diese drei Zahlen haben den höchsten kombinierten Punktwert (14 Punkte) und beste Produktionsfrequenz", nl: "Deze drie nummers hebben de hoogste gecombineerde stipwaarde (14 stippen) en beste productiefrequentie" },
+          { en: "They sum to 19", es: "Suman 19", de: "Sie summieren sich zu 19", nl: "Ze tellen op tot 19" },
+          { en: "They're the rarest numbers", es: "Son los números más raros", de: "Sie sind die seltensten Zahlen", nl: "Het zijn de zeldzaamste nummers" },
+          { en: "They produce special resources", es: "Producen recursos especiales", de: "Sie produzieren spezielle Ressourcen", nl: "Ze produceren speciale hulpbronnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "6 and 8 each have 5 pips (highest probability), and 5 has 4 pips, totaling 14 pips—the maximum possible for any settlement. This intersection will produce resources on approximately 39% of all rolls (14/36), making it the most productive settlement location possible.",
+          es: "6 y 8 tienen cada uno 5 puntos (probabilidad más alta), y 5 tiene 4 puntos, totalizando 14 puntos, el máximo posible para cualquier asentamiento. Esta intersección producirá recursos en aproximadamente el 39% de todas las tiradas (14/36), convirtiéndola en la ubicación de asentamiento más productiva posible.",
+          de: "6 und 8 haben jeweils 5 Punkte (höchste Wahrscheinlichkeit), und 5 hat 4 Punkte, insgesamt 14 Punkte—das Maximum für jede Siedlung. Diese Kreuzung wird bei etwa 39% aller Würfe Ressourcen produzieren (14/36), was sie zum produktivsten Siedlungsstandort macht.",
+          nl: "6 en 8 hebben elk 5 stippen (hoogste waarschijnlijkheid), en 5 heeft 4 stippen, in totaal 14 stippen—het maximum mogelijk voor elke nederzetting. Dit kruispunt zal bij ongeveer 39% van alle worpen hulpbronnen produceren (14/36), waardoor het de meest productieve nederzettingslocatie mogelijk is."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'robber-proof' settlement strategy?",
+          es: "¿Qué es la estrategia de asentamiento 'a prueba de ladrones'?",
+          de: "Was ist die 'räubersichere' Siedlungsstrategie?",
+          nl: "Wat is de 'rover-veilige' nederzettingsstrategie?"
+        },
+        options: [
+          { en: "Spreading settlements across many hexes so robber only blocks one source at a time", es: "Distribuir asentamientos en muchos hexágonos para que el ladrón solo bloquee una fuente a la vez", de: "Siedlungen über viele Felder verteilen damit der Räuber nur eine Quelle gleichzeitig blockiert", nl: "Nederzettingen over veel hexen verspreiden zodat rover slechts één bron tegelijk blokkeert" },
+          { en: "Building settlements that robber can never reach", es: "Construir asentamientos que el ladrón nunca puede alcanzar", de: "Siedlungen bauen die der Räuber nie erreichen kann", nl: "Nederzettingen bouwen die de rover nooit kan bereiken" },
+          { en: "All settlements on the same hex", es: "Todos los asentamientos en el mismo hexágono", de: "Alle Siedlungen auf demselben Feld", nl: "Alle nederzettingen op dezelfde hex" },
+          { en: "Building only on ports", es: "Construir solo en puertos", de: "Nur an Häfen bauen", nl: "Alleen op havens bouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A robber-proof strategy diversifies your settlements across multiple different hexes. If you have 3 settlements each touching different resource hexes, the robber can only block 1 out of 9 of your resource sources at a time, minimizing its impact on your overall production.",
+          es: "Una estrategia a prueba de ladrones diversifica tus asentamientos en múltiples hexágonos diferentes. Si tienes 3 asentamientos que tocan hexágonos de recursos diferentes, el ladrón solo puede bloquear 1 de 9 de tus fuentes de recursos a la vez, minimizando su impacto en tu producción general.",
+          de: "Eine räubersichere Strategie diversifiziert deine Siedlungen über mehrere verschiedene Felder. Wenn du 3 Siedlungen hast, die jeweils verschiedene Ressourcenfelder berühren, kann der Räuber nur 1 von 9 deiner Ressourcenquellen gleichzeitig blockieren, was seinen Einfluss auf deine Gesamtproduktion minimiert.",
+          nl: "Een rover-veilige strategie diversifieert je nederzettingen over meerdere verschillende hexen. Als je 3 nederzettingen hebt die elk verschillende hulpbronhexen raken, kan de rover slechts 1 van 9 van je hulpbronnenbronnen tegelijk blokkeren, waardoor de impact op je totale productie wordt geminimaliseerd."
+        }
+      },
+      {
+        question: {
+          en: "What is 'trading politics' and why is it important?",
+          es: "¿Qué es la 'política de intercambio' y por qué es importante?",
+          de: "Was ist 'Handelspolitik' und warum ist sie wichtig?",
+          nl: "Wat is 'handelspolitiek' en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Managing who you trade with to avoid helping the leader while maintaining good relationships", es: "Gestionar con quién comercias para evitar ayudar al líder mientras mantienes buenas relaciones", de: "Verwalten mit wem du handelst um zu vermeiden dem Anführer zu helfen während du gute Beziehungen pflegst", nl: "Beheren met wie je handelt om te voorkomen dat je de leider helpt terwijl je goede relaties onderhoudt" },
+          { en: "Government regulations on trading", es: "Regulaciones gubernamentales sobre comercio", de: "Regierungsvorschriften zum Handel", nl: "Overheidsregulering van handel" },
+          { en: "Trading only on even turns", es: "Comerciar solo en turnos pares", de: "Nur in geraden Zügen handeln", nl: "Alleen op even beurten handelen" },
+          { en: "Voting on trades", es: "Votar sobre intercambios", de: "Über Tauschgeschäfte abstimmen", nl: "Stemmen over ruilen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Trading politics involves strategic decisions about who to trade with. Refusing trades with the leader can slow them down, but being too aggressive can make others refuse to trade with you. Successful players balance competitive trading restrictions with maintaining enough goodwill to get needed resources.",
+          es: "La política de intercambio implica decisiones estratégicas sobre con quién comerciar. Rechazar intercambios con el líder puede ralentizarlo, pero ser demasiado agresivo puede hacer que otros se nieguen a comerciar contigo. Los jugadores exitosos equilibran las restricciones comerciales competitivas con mantener suficiente buena voluntad para obtener recursos necesarios.",
+          de: "Handelspolitik beinhaltet strategische Entscheidungen darüber, mit wem man handelt. Tauschgeschäfte mit dem Anführer abzulehnen kann ihn verlangsamen, aber zu aggressiv zu sein kann dazu führen, dass andere sich weigern, mit dir zu handeln. Erfolgreiche Spieler balancieren wettbewerbsfähige Handelsbeschränkungen mit der Aufrechterhaltung von genügend Wohlwollen, um benötigte Ressourcen zu erhalten.",
+          nl: "Handelspolitiek omvat strategische beslissingen over met wie je handelt. Ruilen met de leider weigeren kan hem vertragen, maar te agressief zijn kan ertoe leiden dat anderen weigeren met je te handelen. Succesvolle spelers balanceren competitieve handelsbeperkingen met het behouden van voldoende goodwill om benodigde hulpbronnen te krijgen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'hidden victory point rush'?",
+          es: "¿Qué es una 'prisa de puntos de victoria ocultos'?",
+          de: "Was ist ein 'versteckter Siegpunkt-Rush'?",
+          nl: "Wat is een 'verborgen overwinningspunt-rush'?"
+        },
+        options: [
+          { en: "Buying many dev cards to secretly accumulate VP cards and win unexpectedly", es: "Comprar muchas cartas de desarrollo para acumular secretamente cartas VP y ganar inesperadamente", de: "Viele Entwicklungskarten kaufen um heimlich SP-Karten zu sammeln und unerwartet zu gewinnen", nl: "Veel ontwikkelingskaarten kopen om stiekem VP-kaarten te verzamelen en onverwacht te winnen" },
+          { en: "Running across the board quickly", es: "Correr por el tablero rápidamente", de: "Schnell über das Brett laufen", nl: "Snel over het bord rennen" },
+          { en: "Hiding your score from opponents", es: "Ocultar tu puntuación de los oponentes", de: "Deine Punktzahl vor Gegnern verbergen", nl: "Je score verbergen voor tegenstanders" },
+          { en: "Stealing victory points directly", es: "Robar puntos de victoria directamente", de: "Siegpunkte direkt stehlen", nl: "Overwinningspunten direct stelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A hidden VP rush strategy involves buying numerous development cards (ore+sheep+wheat each) hoping to draw the 5 Victory Point cards in the deck. Since VP cards don't need to be revealed until you win, you can surprise opponents by suddenly declaring victory when they thought you were behind.",
+          es: "Una estrategia de prisa de VP ocultos implica comprar numerosas cartas de desarrollo (mineral+oveja+trigo cada una) esperando sacar las 5 cartas de Puntos de Victoria en el mazo. Dado que las cartas VP no necesitan revelarse hasta que ganes, puedes sorprender a los oponentes declarando repentinamente la victoria cuando pensaban que estabas atrás.",
+          de: "Eine versteckte SP-Rush-Strategie beinhaltet den Kauf zahlreicher Entwicklungskarten (je Erz+Schaf+Getreide) in der Hoffnung, die 5 Siegpunktkarten im Deck zu ziehen. Da SP-Karten nicht offenbart werden müssen, bis du gewinnst, kannst du Gegner überraschen, indem du plötzlich den Sieg erklärst, wenn sie dachten, du wärst zurück.",
+          nl: "Een verborgen VP-rush-strategie houdt in dat je talrijke ontwikkelingskaarten koopt (elk erts+schaap+tarwe) in de hoop de 5 Overwinningspuntkaarten in het deck te trekken. Aangezien VP-kaarten niet hoeven te worden onthuld totdat je wint, kun je tegenstanders verrassen door plotseling de overwinning te verklaren wanneer ze dachten dat je achterliep."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Road Building' development card best used for?",
+          es: "¿Para qué se usa mejor la carta de desarrollo 'Construcción de Caminos'?",
+          de: "Wofür wird die 'Straßenbau'-Entwicklungskarte am besten verwendet?",
+          nl: "Waarvoor wordt de 'Wegenbouw'-ontwikkelingskaart het beste gebruikt?"
+        },
+        options: [
+          { en: "Claiming Longest Road or reaching a critical settlement spot before opponents", es: "Reclamar el Camino Más Largo o alcanzar un lugar de asentamiento crítico antes que los oponentes", de: "Längste Straße beanspruchen oder einen kritischen Siedlungsplatz vor Gegnern erreichen", nl: "Langste Weg claimen of een kritieke nederzettingsplek bereiken vóór tegenstanders" },
+          { en: "Building cities faster", es: "Construir ciudades más rápido", de: "Städte schneller bauen", nl: "Steden sneller bouwen" },
+          { en: "Getting extra resources", es: "Obtener recursos extra", de: "Extra Ressourcen bekommen", nl: "Extra hulpbronnen krijgen" },
+          { en: "Blocking opponents permanently", es: "Bloquear a los oponentes permanentemente", de: "Gegner dauerhaft blockieren", nl: "Tegenstanders permanent blokkeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Road Building lets you place 2 free roads immediately. Its best strategic uses are: (1) securing Longest Road by jumping from 3 to 5 roads instantly, or (2) racing to reach a valuable settlement location before an opponent can block you. Saves 2 wood + 2 brick.",
+          es: "Construcción de Caminos te permite colocar 2 caminos gratis inmediatamente. Sus mejores usos estratégicos son: (1) asegurar el Camino Más Largo saltando de 3 a 5 caminos instantáneamente, o (2) competir para alcanzar una ubicación de asentamiento valiosa antes de que un oponente pueda bloquearte. Ahorra 2 maderas + 2 ladrillos.",
+          de: "Straßenbau lässt dich sofort 2 kostenlose Straßen platzieren. Seine besten strategischen Verwendungen sind: (1) die längste Straße zu sichern, indem du sofort von 3 auf 5 Straßen springst, oder (2) zu einem wertvollen Siedlungsstandort zu eilen, bevor ein Gegner dich blockieren kann. Spart 2 Holz + 2 Lehm.",
+          nl: "Wegenbouw laat je onmiddellijk 2 gratis wegen plaatsen. De beste strategische toepassingen zijn: (1) Langste Weg veiligstellen door instant van 3 naar 5 wegen te springen, of (2) racen om een waardevolle nederzettingslocatie te bereiken voordat een tegenstander je kan blokkeren. Bespaart 2 hout + 2 baksteen."
+        }
+      },
+      {
+        question: {
+          en: "Why is the second settlement placement (in reverse order) strategically important?",
+          es: "¿Por qué es estratégicamente importante la colocación del segundo asentamiento (en orden inverso)?",
+          de: "Warum ist die zweite Siedlungsplatzierung (in umgekehrter Reihenfolge) strategisch wichtig?",
+          nl: "Waarom is de tweede nederzettingsplaatsing (in omgekeerde volgorde) strategisch belangrijk?"
+        },
+        options: [
+          { en: "You get starting resources from it, and last player picks twice consecutively", es: "Obtienes recursos iniciales de ella, y el último jugador elige dos veces consecutivamente", de: "Du erhältst Startressourcen davon, und der letzte Spieler wählt zweimal hintereinander", nl: "Je krijgt starthulpbronnen ervan, en laatste speler kiest tweemaal achtereenvolgens" },
+          { en: "It's worth double victory points", es: "Vale el doble de puntos de victoria", de: "Sie ist doppelte Siegpunkte wert", nl: "Het is dubbele overwinningspunten waard" },
+          { en: "It can be placed anywhere without restrictions", es: "Se puede colocar en cualquier lugar sin restricciones", de: "Sie kann überall ohne Einschränkungen platziert werden", nl: "Het kan overal zonder beperkingen worden geplaatst" },
+          { en: "It always produces more resources", es: "Siempre produce más recursos", de: "Sie produziert immer mehr Ressourcen", nl: "Het produceert altijd meer hulpbronnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The second settlement gives you starting resources (one of each adjacent hex type), helping you build on turn 1. Additionally, going last in turn order means you place both your second and first settlement back-to-back, allowing you to secure two complementary locations without interference.",
+          es: "El segundo asentamiento te da recursos iniciales (uno de cada tipo de hexágono adyacente), ayudándote a construir en el turno 1. Además, ir último en el orden de turnos significa que colocas tu segundo y primer asentamiento consecutivamente, permitiéndote asegurar dos ubicaciones complementarias sin interferencia.",
+          de: "Die zweite Siedlung gibt dir Startressourcen (eine von jedem angrenzenden Feldtyp), was dir hilft, in Runde 1 zu bauen. Außerdem bedeutet das Gehen als Letzter in der Zugreihenfolge, dass du deine zweite und erste Siedlung hintereinander platzierst, was es dir ermöglicht, zwei komplementäre Standorte ohne Störung zu sichern.",
+          nl: "De tweede nederzetting geeft je starthulpbronnen (één van elk aangrenzend hextype), wat je helpt om in beurt 1 te bouwen. Bovendien betekent als laatste in beurtvolgorde gaan dat je zowel je tweede als eerste nederzetting achter elkaar plaatst, waardoor je twee complementaire locaties kunt beveiligen zonder storing."
+        }
       }
     ]
   };

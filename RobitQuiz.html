@@ -1094,57 +1094,66 @@
   </div>
 
   <!-- Settings Screen -->
-  <div id="settings-screen" class="screen hidden w-full max-w-md space-y-4 p-4">
-    <h2 id="settings-title" class="text-xl font-bold">Settings</h2>
-    <div class="flex items-center space-x-2 mb-4">
-      <label id="sfx-volume-label" for="sfx-volume-slider" class="text-lg font-bold w-32 flex-shrink-0">SFX Volume:</label>
-      <input
-        id="sfx-volume-slider"
-        type="range"
-        min="0"
-        max="1"
-        step="0.01"
-        value="0.5"
-        class="flex-1"
-      />
-    </div>
-    <div class="flex items-center space-x-2 mb-4">
-      <label id="music-volume-label" for="music-volume-slider" class="text-lg font-bold w-32 flex-shrink-0">Music Volume:</label>
-      <input
-        id="music-volume-slider"
-        type="range"
-        min="0"
-        max="1"
-        step="0.01"
-        value="0.5"
-        class="flex-1"
-      />
-    </div>
-    <label id="language-label" for="language-select" class="block mb-1 text-lg font-bold">Language:</label>
-      <select id="language-select" class="w-full border p-2 rounded mb-4">
-        <option value="en">English</option>
-        <option value="es">Español</option>
-        <option value="de">Deutsch</option>
-        <option value="nl">Nederlands</option>
-      </select>
-
-    <div class="flex items-center space-x-2 mb-4">
-      <input type="checkbox" id="explanations-toggle" class="w-4 h-4" checked>
-      <label id="explanations-label" for="explanations-toggle" class="text-lg font-bold">Show answer explanations</label>
-    </div>
-
-    <!-- Theme Toggle -->
-    <div class="flex items-center justify-between mb-4 p-3 rounded-lg">
-      <div class="flex items-center space-x-2">
-        <span id="theme-emoji" class="text-xl">🌙</span>
-        <label id="theme-label" for="theme-toggle" class="text-lg font-bold">Dark Mode</label>
+  <div id="settings-screen" class="screen hidden w-full max-w-md space-y-4">
+    <h2 id="settings-title" class="text-2xl font-bold mb-4 text-center">Settings</h2>
+    <div class="p-4">
+      <h3 id="audio-label" class="text-xl font-bold mb-3">Audio</h3>
+      <div class="flex items-center space-x-2 mb-4">
+        <label id="sfx-volume-label" for="sfx-volume-slider" class="text-lg font-bold w-32 flex-shrink-0">SFX Volume:</label>
+        <input
+          id="sfx-volume-slider"
+          type="range"
+          min="0"
+          max="1"
+          step="0.01"
+          value="0.5"
+          class="flex-1"
+        />
       </div>
-      <label class="relative inline-flex items-center cursor-pointer">
-        <input type="checkbox" id="theme-toggle" class="sr-only peer" checked>
-        <div class="w-11 h-6 bg-gray-300 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
-      </label>
-    </div>
+      <div class="flex items-center space-x-2 mb-4">
+        <label id="music-volume-label" for="music-volume-slider" class="text-lg font-bold w-32 flex-shrink-0">Music Volume:</label>
+        <input
+          id="music-volume-slider"
+          type="range"
+          min="0"
+          max="1"
+          step="0.01"
+          value="0.5"
+          class="flex-1"
+        />
+      </div>
+      <h3 id="language-label" class="text-xl font-bold mb-3">Language</h3>
+        <select id="language-select" class="w-full border p-2 rounded mb-4">
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="de">Deutsch</option>
+          <option value="nl">Nederlands</option>
+        </select>
 
+      <!-- Explanations Toggle -->
+      <div class="flex items-center justify-between mb-2 p-2 rounded-lg">
+        <div class="flex items-center space-x-2">
+          <span class="text-xl">✓</span>
+          <label id="explanations-label" for="explanations-toggle" class="text-lg font-bold">Show explanations</label>
+        </div>
+        <label class="relative inline-flex items-center cursor-pointer">
+          <input type="checkbox" id="explanations-toggle" class="sr-only peer" checked>
+          <div class="w-11 h-6 bg-gray-300 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
+        </label>
+      </div>
+
+      <!-- Theme Toggle -->
+      <div class="flex items-center justify-between mb-2 p-2 rounded-lg">
+        <div class="flex items-center space-x-2">
+          <span id="theme-emoji" class="text-xl">🌙</span>
+          <label id="theme-label" for="theme-toggle" class="text-lg font-bold">Dark Mode</label>
+        </div>
+        <label class="relative inline-flex items-center cursor-pointer">
+          <input type="checkbox" id="theme-toggle" class="sr-only peer" checked>
+          <div class="w-11 h-6 bg-gray-300 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
+        </label>
+      </div>
+    </div>
   </div>
 
   <!-- Achievements Screen -->

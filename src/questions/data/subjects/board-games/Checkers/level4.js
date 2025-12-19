@@ -827,6 +827,785 @@
           de: "Überlegene Steinkoordination bedeutet, dass Steine so positioniert sind, dass sie sich gegenseitig unterstützen, kritische Felder gemeinsam kontrollieren, taktische Kombinationen ermöglichen und mehrere Drohungen gleichzeitig schaffen, während defensive Solidität erhalten bleibt.",
           nl: "Superieure stuk coördinatie betekent dat stukken zo gepositioneerd zijn dat ze elkaar wederzijds ondersteunen, kritieke velden collectief controleren, tactische combinaties mogelijk maken en meerdere dreigingen tegelijkertijd creëren terwijl defensieve soliditeit behouden blijft."
         }
+      },
+      {
+        question: {
+          en: "What is the 'Dyke' formation in checkers defense?",
+          es: "¿Qué es la formación 'Dique' en la defensa de damas?",
+          de: "Was ist die 'Deich'-Formation in der Dame-Verteidigung?",
+          nl: "Wat is de 'Dijk' formatie in dammen verdediging?"
+        },
+        options: [
+          {
+            en: "A defensive wall of pieces blocking opponent's advance",
+            es: "Un muro defensivo de piezas bloqueando el avance del oponente",
+            de: "Eine Verteidigungsmauer aus Steinen, die den Vormarsch des Gegners blockiert",
+            nl: "Een verdedigingsmuur van stukken die de opmars van de tegenstander blokkeert"
+          },
+          {
+            en: "Pieces arranged in a line on the edge",
+            es: "Piezas dispuestas en línea en el borde",
+            de: "Steine in einer Linie am Rand angeordnet",
+            nl: "Stukken gerangschikt in een lijn aan de rand"
+          },
+          {
+            en: "A single king defending multiple squares",
+            es: "Una sola dama defendiendo múltiples casillas",
+            de: "Eine einzelne Dame, die mehrere Felder verteidigt",
+            nl: "Een enkele dam die meerdere velden verdedigt"
+          },
+          {
+            en: "Two kings working together",
+            es: "Dos damas trabajando juntas",
+            de: "Zwei Damen arbeiten zusammen",
+            nl: "Twee dammen die samenwerken"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Dyke formation is a defensive structure where pieces are arranged to create a barrier that prevents opponent pieces from advancing, similar to a levee holding back water, often used to consolidate a defensive position.",
+          es: "La formación Dique es una estructura defensiva donde las piezas están dispuestas para crear una barrera que evita que las piezas del oponente avancen, similar a un dique conteniendo agua, a menudo usada para consolidar una posición defensiva.",
+          de: "Die Deich-Formation ist eine Defensivstruktur, bei der Steine so angeordnet sind, dass sie eine Barriere bilden, die den Vormarsch gegnerischer Steine verhindert, ähnlich einem Deich, der Wasser zurückhält, oft verwendet, um eine Defensivposition zu konsolidieren.",
+          nl: "De Dijk formatie is een defensieve structuur waarbij stukken zijn gerangschikt om een barrière te creëren die voorkomt dat stukken van de tegenstander oprukken, vergelijkbaar met een dijk die water tegenhoudt, vaak gebruikt om een defensieve positie te consolideren."
+        }
+      },
+      {
+        question: {
+          en: "What characterizes 'squeeze play' in advanced tactics?",
+          es: "¿Qué caracteriza el 'juego de presión' en tácticas avanzadas?",
+          de: "Was charakterisiert 'Druckspiel' in fortgeschrittenen Taktiken?",
+          nl: "Wat kenmerkt 'drukspel' in geavanceerde tactieken?"
+        },
+        options: [
+          {
+            en: "Gradually restricting opponent's options until forced into losing moves",
+            es: "Restringir gradualmente las opciones del oponente hasta forzarlo a movimientos perdedores",
+            de: "Die Optionen des Gegners allmählich einschränken, bis er zu verlierenden Zügen gezwungen wird",
+            nl: "Geleidelijk de opties van de tegenstander beperken tot gedwongen verliezende zetten"
+          },
+          {
+            en: "Applying time pressure on the clock",
+            es: "Aplicar presión de tiempo en el reloj",
+            de: "Zeitdruck auf die Uhr ausüben",
+            nl: "Tijdsdruk op de klok uitoefenen"
+          },
+          {
+            en: "Compressing pieces into a small area",
+            es: "Comprimir piezas en un área pequeña",
+            de: "Steine in einen kleinen Bereich komprimieren",
+            nl: "Stukken samenpersen in een klein gebied"
+          },
+          {
+            en: "Quick successive captures",
+            es: "Capturas sucesivas rápidas",
+            de: "Schnelle aufeinanderfolgende Schläge",
+            nl: "Snelle opeenvolgende slagen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Squeeze play involves systematically limiting the opponent's mobility and options through superior positioning, eventually forcing them into zugzwang where any move worsens their position, leading to material loss or positional collapse.",
+          es: "El juego de presión implica limitar sistemáticamente la movilidad y opciones del oponente mediante posicionamiento superior, eventualmente forzándolo a zugzwang donde cualquier movimiento empeora su posición, llevando a pérdida material o colapso posicional.",
+          de: "Druckspiel beinhaltet die systematische Begrenzung der Mobilität und Optionen des Gegners durch überlegene Positionierung, was ihn schließlich in Zugzwang zwingt, wo jeder Zug seine Position verschlechtert und zu Materialverlust oder positionellem Zusammenbruch führt.",
+          nl: "Drukspel houdt in dat de mobiliteit en opties van de tegenstander systematisch worden beperkt door superieure positionering, waardoor ze uiteindelijk gedwongen worden in zugzwang waarbij elke zet hun positie verslechtert, leidend tot materiaalverlies of positionele ineenstorting."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'tempo sacrifice' in checkers?",
+          es: "¿Qué es un 'sacrificio de tempo' en damas?",
+          de: "Was ist ein 'Tempo-Opfer' beim Dame?",
+          nl: "Wat is een 'tempo offer' bij dammen?"
+        },
+        options: [
+          {
+            en: "Losing a move to gain positional advantage",
+            es: "Perder un movimiento para ganar ventaja posicional",
+            de: "Einen Zug verlieren, um Positionsvorteil zu erlangen",
+            nl: "Een zet verliezen om positioneel voordeel te verkrijgen"
+          },
+          {
+            en: "Playing quickly without thinking",
+            es: "Jugar rápidamente sin pensar",
+            de: "Schnell spielen ohne zu denken",
+            nl: "Snel spelen zonder te denken"
+          },
+          {
+            en: "Sacrificing material for time on the clock",
+            es: "Sacrificar material por tiempo en el reloj",
+            de: "Material für Zeit auf der Uhr opfern",
+            nl: "Materiaal opofferen voor tijd op de klok"
+          },
+          {
+            en: "Missing a forced capture deliberately",
+            es: "Perder una captura forzada deliberadamente",
+            de: "Einen erzwungenen Schlag absichtlich verpassen",
+            nl: "Een gedwongen slag opzettelijk missen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A tempo sacrifice involves making a move that appears to waste time or initiative but actually achieves superior piece placement or forces the opponent into an unfavorable position, exchanging tempo for positional gain.",
+          es: "Un sacrificio de tempo implica hacer un movimiento que parece desperdiciar tiempo o iniciativa pero que en realidad logra una mejor colocación de piezas o fuerza al oponente a una posición desfavorable, intercambiando tempo por ganancia posicional.",
+          de: "Ein Tempo-Opfer beinhaltet einen Zug, der Zeit oder Initiative zu verschwenden scheint, aber tatsächlich bessere Steinplatzierung erreicht oder den Gegner in eine ungünstige Position zwingt, wobei Tempo gegen positionellen Gewinn getauscht wird.",
+          nl: "Een tempo offer houdt in dat een zet wordt gedaan die tijd of initiatief lijkt te verspillen maar eigenlijk superieure stukplaatsing bereikt of de tegenstander dwingt in een ongunstige positie, waarbij tempo wordt geruild voor positionele winst."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'bridge' position in endgame theory?",
+          es: "¿Qué es la posición de 'puente' en la teoría del final?",
+          de: "Was ist die 'Brücken'-Position in der Endspieltheorie?",
+          nl: "Wat is de 'brug' positie in eindspeltheorie?"
+        },
+        options: [
+          {
+            en: "A configuration where one king can trap an opponent's piece",
+            es: "Una configuración donde una dama puede atrapar una pieza del oponente",
+            de: "Eine Konfiguration, bei der eine Dame einen gegnerischen Stein einfangen kann",
+            nl: "Een configuratie waarbij één dam een stuk van de tegenstander kan vangen"
+          },
+          {
+            en: "Two pieces connecting opposite sides",
+            es: "Dos piezas conectando lados opuestos",
+            de: "Zwei Steine verbinden gegenüberliegende Seiten",
+            nl: "Twee stukken die tegenovergestelde kanten verbinden"
+          },
+          {
+            en: "A crossover point for piece exchanges",
+            es: "Un punto de cruce para intercambios de piezas",
+            de: "Ein Kreuzungspunkt für Steintausche",
+            nl: "Een kruispunt voor stukruilen"
+          },
+          {
+            en: "A formation spanning both flanks",
+            es: "Una formación que abarca ambos flancos",
+            de: "Eine Formation, die beide Flügel überspannt",
+            nl: "Een formatie die beide flanken overspant"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The bridge position is a classic endgame configuration where a single king can prevent an opponent's piece from advancing by maintaining control of critical diagonal squares, effectively creating a 'bridge' the opponent cannot cross.",
+          es: "La posición de puente es una configuración de final clásica donde una sola dama puede evitar que una pieza del oponente avance manteniendo control de casillas diagonales críticas, efectivamente creando un 'puente' que el oponente no puede cruzar.",
+          de: "Die Brücken-Position ist eine klassische Endspielkonfiguration, bei der eine einzelne Dame das Vorrücken eines gegnerischen Steins verhindern kann, indem sie die Kontrolle über kritische Diagonalfelder behält und effektiv eine 'Brücke' schafft, die der Gegner nicht überqueren kann.",
+          nl: "De brug positie is een klassieke eindspel configuratie waarbij een enkele dam kan voorkomen dat een stuk van de tegenstander oprukt door controle te behouden over kritieke diagonale velden, effectief een 'brug' creërend die de tegenstander niet kan oversteken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'diagonal dominance' in expert play?",
+          es: "¿Qué es el 'dominio diagonal' en el juego experto?",
+          de: "Was ist 'Diagonal-Dominanz' im Expertenspiel?",
+          nl: "Wat is 'diagonale dominantie' in expert spel?"
+        },
+        options: [
+          {
+            en: "Controlling the long diagonals with superior piece placement",
+            es: "Controlar las diagonales largas con colocación superior de piezas",
+            de: "Die langen Diagonalen mit überlegener Steinplatzierung kontrollieren",
+            nl: "De lange diagonalen controleren met superieure stukplaatsing"
+          },
+          {
+            en: "Having more pieces on dark squares",
+            es: "Tener más piezas en casillas oscuras",
+            de: "Mehr Steine auf dunklen Feldern haben",
+            nl: "Meer stukken op donkere velden hebben"
+          },
+          {
+            en: "Moving only diagonally",
+            es: "Moverse solo diagonalmente",
+            de: "Sich nur diagonal bewegen",
+            nl: "Alleen diagonaal bewegen"
+          },
+          {
+            en: "Pieces arranged in diagonal lines",
+            es: "Piezas dispuestas en líneas diagonales",
+            de: "Steine in diagonalen Linien angeordnet",
+            nl: "Stukken gerangschikt in diagonale lijnen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Diagonal dominance means controlling the critical long diagonals of the board with well-placed pieces, restricting opponent mobility and creating opportunities for breakthrough combinations while maintaining structural integrity.",
+          es: "El dominio diagonal significa controlar las diagonales largas críticas del tablero con piezas bien colocadas, restringiendo la movilidad del oponente y creando oportunidades para combinaciones de ruptura mientras se mantiene la integridad estructural.",
+          de: "Diagonal-Dominanz bedeutet, die kritischen langen Diagonalen des Bretts mit gut platzierten Steinen zu kontrollieren, die Gegnermobilität einzuschränken und Möglichkeiten für Durchbruchkombinationen zu schaffen, während strukturelle Integrität erhalten bleibt.",
+          nl: "Diagonale dominantie betekent het controleren van de kritieke lange diagonalen van het bord met goed geplaatste stukken, het beperken van tegenstander mobiliteit en het creëren van mogelijkheden voor doorbraak combinaties terwijl structurele integriteit behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'petite combination' in checkers tactics?",
+          es: "¿Qué es la 'pequeña combinación' en tácticas de damas?",
+          de: "Was ist die 'kleine Kombination' in Dame-Taktiken?",
+          nl: "Wat is de 'kleine combinatie' in dammen tactieken?"
+        },
+        options: [
+          {
+            en: "A short 2-3 move tactical sequence winning material",
+            es: "Una secuencia táctica corta de 2-3 movimientos ganando material",
+            de: "Eine kurze 2-3-Zug taktische Sequenz, die Material gewinnt",
+            nl: "Een korte 2-3 zetten tactische reeks die materiaal wint"
+          },
+          {
+            en: "A combination using only regular pieces",
+            es: "Una combinación usando solo piezas regulares",
+            de: "Eine Kombination nur mit normalen Steinen",
+            nl: "Een combinatie met alleen gewone stukken"
+          },
+          {
+            en: "A beginner-level tactic",
+            es: "Una táctica de nivel principiante",
+            de: "Eine Taktik für Anfänger",
+            nl: "Een beginnerstactiek"
+          },
+          {
+            en: "Capturing a single piece",
+            es: "Capturar una sola pieza",
+            de: "Einen einzelnen Stein schlagen",
+            nl: "Een enkel stuk slaan"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A petite combination is a concise tactical sequence typically lasting 2-3 moves that achieves a concrete advantage such as winning material or gaining positional superiority, requiring less calculation than deeper combinations but precise execution.",
+          es: "Una pequeña combinación es una secuencia táctica concisa que típicamente dura 2-3 movimientos que logra una ventaja concreta como ganar material o obtener superioridad posicional, requiriendo menos cálculo que combinaciones más profundas pero ejecución precisa.",
+          de: "Eine kleine Kombination ist eine prägnante taktische Sequenz, die typischerweise 2-3 Züge dauert und einen konkreten Vorteil wie Materialgewinn oder positionelle Überlegenheit erreicht, weniger Berechnung als tiefere Kombinationen erfordert, aber präzise Ausführung.",
+          nl: "Een kleine combinatie is een beknopte tactische reeks die typisch 2-3 zetten duurt en een concreet voordeel bereikt zoals materiaalwinst of positionele superioriteit, waarbij minder berekening nodig is dan diepere combinaties maar precieze uitvoering."
+        }
+      },
+      {
+        question: {
+          en: "What is 'wing compression' in positional strategy?",
+          es: "¿Qué es la 'compresión de ala' en estrategia posicional?",
+          de: "Was ist 'Flügelkompression' in positioneller Strategie?",
+          nl: "Wat is 'vleugel compressie' in positionele strategie?"
+        },
+        options: [
+          {
+            en: "Forcing opponent's pieces into cramped positions on one flank",
+            es: "Forzar las piezas del oponente a posiciones apretadas en un flanco",
+            de: "Gegnerische Steine in enge Positionen auf einem Flügel zwingen",
+            nl: "Stukken van de tegenstander dwingen in krappe posities aan één flank"
+          },
+          {
+            en: "Removing pieces from the wings",
+            es: "Quitar piezas de las alas",
+            de: "Steine von den Flügeln entfernen",
+            nl: "Stukken van de vleugels verwijderen"
+          },
+          {
+            en: "Consolidating all pieces on one side",
+            es: "Consolidar todas las piezas en un lado",
+            de: "Alle Steine auf einer Seite konsolidieren",
+            nl: "Alle stukken aan één kant consolideren"
+          },
+          {
+            en: "Expanding on both flanks simultaneously",
+            es: "Expandir en ambos flancos simultáneamente",
+            de: "Gleichzeitig auf beiden Flügeln expandieren",
+            nl: "Gelijktijdig uitbreiden op beide flanken"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Wing compression is a strategic technique where you systematically restrict opponent pieces on one flank, limiting their mobility and creating vulnerabilities that can be exploited tactically while maintaining control of the center.",
+          es: "La compresión de ala es una técnica estratégica donde restringes sistemáticamente las piezas del oponente en un flanco, limitando su movilidad y creando vulnerabilidades que pueden ser explotadas tácticamente mientras mantienes control del centro.",
+          de: "Flügelkompression ist eine strategische Technik, bei der Sie gegnerische Steine auf einem Flügel systematisch einschränken, ihre Mobilität begrenzen und Schwächen schaffen, die taktisch ausgenutzt werden können, während die Kontrolle über das Zentrum erhalten bleibt.",
+          nl: "Vleugel compressie is een strategische techniek waarbij je systematisch stukken van de tegenstander aan één flank beperkt, hun mobiliteit limiteert en kwetsbaarheden creëert die tactisch kunnen worden uitgebuit terwijl controle over het centrum behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Tinsley Position' named after?",
+          es: "¿En honor a quién se nombra la 'Posición Tinsley'?",
+          de: "Nach wem ist die 'Tinsley-Position' benannt?",
+          nl: "Naar wie is de 'Tinsley Positie' genoemd?"
+        },
+        options: [
+          {
+            en: "Champion Marion Tinsley who analyzed it deeply",
+            es: "El campeón Marion Tinsley quien la analizó profundamente",
+            de: "Champion Marion Tinsley, der sie tiefgehend analysierte",
+            nl: "Kampioen Marion Tinsley die het diepgaand analyseerde"
+          },
+          {
+            en: "A town where it was first played",
+            es: "Un pueblo donde se jugó por primera vez",
+            de: "Eine Stadt, wo es zuerst gespielt wurde",
+            nl: "Een stad waar het voor het eerst werd gespeeld"
+          },
+          {
+            en: "The inventor of the position",
+            es: "El inventor de la posición",
+            de: "Der Erfinder der Position",
+            nl: "De uitvinder van de positie"
+          },
+          {
+            en: "A specific tournament",
+            es: "Un torneo específico",
+            de: "Ein bestimmtes Turnier",
+            nl: "Een specifiek toernooi"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Tinsley Position is named after Marion Tinsley, considered the greatest checkers player of all time, who deeply analyzed this complex endgame configuration and demonstrated winning techniques that revolutionized endgame theory.",
+          es: "La Posición Tinsley lleva el nombre de Marion Tinsley, considerado el mejor jugador de damas de todos los tiempos, quien analizó profundamente esta compleja configuración de final y demostró técnicas ganadoras que revolucionaron la teoría del final.",
+          de: "Die Tinsley-Position ist nach Marion Tinsley benannt, der als größter Dame-Spieler aller Zeiten gilt, der diese komplexe Endspielkonfiguration tiefgehend analysierte und Gewinnstechniken demonstrierte, die die Endspieltheorie revolutionierten.",
+          nl: "De Tinsley Positie is genoemd naar Marion Tinsley, beschouwd als de grootste damspeler aller tijden, die deze complexe eindspel configuratie diepgaand analyseerde en winnende technieken demonstreerde die de eindspeltheorie revolutioneerden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'structural weakness' in checkers?",
+          es: "¿Qué es una 'debilidad estructural' en damas?",
+          de: "Was ist eine 'strukturelle Schwäche' beim Dame?",
+          nl: "Wat is een 'structurele zwakte' bij dammen?"
+        },
+        options: [
+          {
+            en: "Long-term positional flaws that can be exploited",
+            es: "Defectos posicionales a largo plazo que pueden ser explotados",
+            de: "Langfristige positionelle Mängel, die ausgenutzt werden können",
+            nl: "Langetermijn positionele gebreken die kunnen worden uitgebuit"
+          },
+          {
+            en: "A physically damaged board",
+            es: "Un tablero físicamente dañado",
+            de: "Ein physisch beschädigtes Brett",
+            nl: "Een fysiek beschadigd bord"
+          },
+          {
+            en: "Pieces that are easily captured",
+            es: "Piezas que son fácilmente capturadas",
+            de: "Steine, die leicht geschlagen werden",
+            nl: "Stukken die gemakkelijk worden geslagen"
+          },
+          {
+            en: "Missing pieces from the set",
+            es: "Piezas faltantes del juego",
+            de: "Fehlende Steine vom Set",
+            nl: "Ontbrekende stukken uit de set"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Structural weakness refers to inherent positional flaws in piece arrangement, such as isolated pieces, weak squares, or poor piece coordination, that persist over multiple moves and can be systematically exploited for long-term advantage.",
+          es: "La debilidad estructural se refiere a defectos posicionales inherentes en la disposición de piezas, como piezas aisladas, casillas débiles o mala coordinación de piezas, que persisten durante múltiples movimientos y pueden ser sistemáticamente explotados para ventaja a largo plazo.",
+          de: "Strukturelle Schwäche bezieht sich auf inhärente positionelle Mängel in der Steinanordnung, wie isolierte Steine, schwache Felder oder schlechte Steinkoordination, die über mehrere Züge bestehen bleiben und systematisch für langfristigen Vorteil ausgenutzt werden können.",
+          nl: "Structurele zwakte verwijst naar inherente positionele gebreken in stukrangschikking, zoals geïsoleerde stukken, zwakke velden of slechte stukcoördinatie, die over meerdere zetten blijven bestaan en systematisch kunnen worden uitgebuit voor langetermijnvoordeel."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'clearance sacrifice' in checkers?",
+          es: "¿Qué es un 'sacrificio de despeje' en damas?",
+          de: "Was ist ein 'Räumungsopfer' beim Dame?",
+          nl: "Wat is een 'ontruimingsoffer' bij dammen?"
+        },
+        options: [
+          {
+            en: "Sacrificing a piece to open lines for tactical strikes",
+            es: "Sacrificar una pieza para abrir líneas para golpes tácticos",
+            de: "Einen Stein opfern, um Linien für taktische Schläge zu öffnen",
+            nl: "Een stuk opofferen om lijnen te openen voor tactische slagen"
+          },
+          {
+            en: "Clearing the board of all pieces",
+            es: "Limpiar el tablero de todas las piezas",
+            de: "Das Brett von allen Steinen räumen",
+            nl: "Het bord van alle stukken ontruimen"
+          },
+          {
+            en: "Removing captured pieces from the board",
+            es: "Quitar piezas capturadas del tablero",
+            de: "Geschlagene Steine vom Brett entfernen",
+            nl: "Geslagen stukken van het bord verwijderen"
+          },
+          {
+            en: "Simplifying to an endgame",
+            es: "Simplificar a un final",
+            de: "Zu einem Endspiel vereinfachen",
+            nl: "Vereenvoudigen naar een eindspel"
+          }
+        },
+        correct: 0,
+        explanation: {
+          en: "A clearance sacrifice involves deliberately giving up material to remove blocking pieces and open critical diagonals or squares, enabling a subsequent tactical blow that more than compensates for the sacrificed material.",
+          es: "Un sacrificio de despeje implica deliberadamente dar material para remover piezas bloqueadoras y abrir diagonales o casillas críticas, permitiendo un golpe táctico subsiguiente que más que compensa por el material sacrificado.",
+          de: "Ein Räumungsopfer beinhaltet das absichtliche Aufgeben von Material, um blockierende Steine zu entfernen und kritische Diagonalen oder Felder zu öffnen, was einen nachfolgenden taktischen Schlag ermöglicht, der das geopferte Material mehr als kompensiert.",
+          nl: "Een ontruimingsoffer houdt in dat opzettelijk materiaal wordt opgegeven om blokkerende stukken te verwijderen en kritieke diagonalen of velden te openen, waardoor een daaropvolgende tactische slag mogelijk wordt die het geofferde materiaal meer dan compenseert."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Wyllie' opening variation known for?",
+          es: "¿Por qué es conocida la variación de apertura 'Wyllie'?",
+          de: "Wofür ist die 'Wyllie'-Eröffnungsvariante bekannt?",
+          nl: "Waar staat de 'Wyllie' opening variatie om bekend?"
+        },
+        options: [
+          {
+            en: "Complex middlegame plans with delayed tactics",
+            es: "Planes complejos de medio juego con tácticas retrasadas",
+            de: "Komplexe Mittelspiel-Pläne mit verzögerten Taktiken",
+            nl: "Complexe middenspel plannen met vertraagde tactieken"
+          },
+          {
+            en: "Quick piece exchanges",
+            es: "Intercambios rápidos de piezas",
+            de: "Schnelle Steintausche",
+            nl: "Snelle stukruilen"
+          },
+          {
+            en: "Defensive solidity only",
+            es: "Solo solidez defensiva",
+            de: "Nur defensive Solidität",
+            nl: "Alleen defensieve soliditeit"
+          },
+          {
+            en: "Immediate king promotion",
+            es: "Promoción inmediata de damas",
+            de: "Sofortige Damenbeförderung",
+            nl: "Onmiddellijke dam promotie"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Wyllie variation is characterized by building a solid position with latent tactical possibilities that emerge in the middlegame, requiring deep strategic understanding and patience to navigate the complex plans properly.",
+          es: "La variación Wyllie se caracteriza por construir una posición sólida con posibilidades tácticas latentes que emergen en el medio juego, requiriendo comprensión estratégica profunda y paciencia para navegar los planes complejos apropiadamente.",
+          de: "Die Wyllie-Variante ist durch den Aufbau einer soliden Position mit latenten taktischen Möglichkeiten gekennzeichnet, die im Mittelspiel entstehen und tiefes strategisches Verständnis und Geduld erfordern, um die komplexen Pläne richtig zu navigieren.",
+          nl: "De Wyllie variatie wordt gekenmerkt door het bouwen van een solide positie met latente tactische mogelijkheden die in het middenspel naar voren komen, wat diep strategisch begrip en geduld vereist om de complexe plannen goed te navigeren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'opposition loss' in king endgames?",
+          es: "¿Qué es la 'pérdida de oposición' en finales de damas?",
+          de: "Was ist 'Oppositionsverlust' in Damen-Endspielen?",
+          nl: "Wat is 'oppositie verlies' in dam eindspelen?"
+        },
+        options: [
+          {
+            en: "Being forced to move when you'd prefer opponent moves first",
+            es: "Verse forzado a mover cuando preferirías que el oponente mueva primero",
+            de: "Gezwungen sein zu ziehen, wenn man lieber hätte, dass der Gegner zuerst zieht",
+            nl: "Gedwongen zijn te zetten wanneer je liever hebt dat tegenstander eerst zet"
+          },
+          {
+            en: "Losing the right to castle",
+            es: "Perder el derecho a enrocar",
+            de: "Das Recht zu rochieren verlieren",
+            nl: "Het recht om te rokeren verliezen"
+          },
+          {
+            en: "Having fewer kings than opponent",
+            es: "Tener menos damas que el oponente",
+            de: "Weniger Damen als der Gegner haben",
+            nl: "Minder dammen hebben dan tegenstander"
+          },
+          {
+            en: "Being on the defensive",
+            es: "Estar a la defensiva",
+            de: "In der Defensive sein",
+            nl: "In de verdediging zijn"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Opposition loss occurs in king endgames when you're forced to move in a position where moving first puts you at a disadvantage, often resulting in the opponent gaining control of key squares or achieving a winning tempo advantage.",
+          es: "La pérdida de oposición ocurre en finales de damas cuando te ves forzado a mover en una posición donde mover primero te pone en desventaja, a menudo resultando en que el oponente gana control de casillas clave o logra una ventaja de tempo ganadora.",
+          de: "Oppositionsverlust tritt in Damen-Endspielen auf, wenn man gezwungen ist, in einer Position zu ziehen, in der das Ziehen als Erster einen Nachteil bringt, was oft dazu führt, dass der Gegner die Kontrolle über Schlüsselfelder gewinnt oder einen gewinnenden Tempo-Vorteil erreicht.",
+          nl: "Oppositie verlies treedt op in dam eindspelen wanneer je gedwongen bent te zetten in een positie waar eerst zetten je in het nadeel brengt, vaak resulterend in de tegenstander die controle krijgt over sleutelvelden of een winnend tempo voordeel bereikt."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Fourth Position' in endgame theory?",
+          es: "¿Qué es la 'Cuarta Posición' en la teoría del final?",
+          de: "Was ist die 'Vierte Position' in der Endspieltheorie?",
+          nl: "Wat is de 'Vierde Positie' in eindspeltheorie?"
+        },
+        options: [
+          {
+            en: "A complex king versus men position with drawing techniques",
+            es: "Una posición compleja de dama contra piezas con técnicas de tablas",
+            de: "Eine komplexe Dame-gegen-Steine-Position mit Remistechniken",
+            nl: "Een complexe dam tegen stukken positie met remise technieken"
+          },
+          {
+            en: "Having four pieces remaining",
+            es: "Tener cuatro piezas restantes",
+            de: "Vier verbleibende Steine haben",
+            nl: "Vier resterende stukken hebben"
+          },
+          {
+            en: "Controlling four key squares",
+            es: "Controlar cuatro casillas clave",
+            de: "Vier Schlüsselfelder kontrollieren",
+            nl: "Vier sleutelvelden controleren"
+          },
+          {
+            en: "The fourth most common endgame",
+            es: "El cuarto final más común",
+            de: "Das vierthäufigste Endspiel",
+            nl: "Het vierde meest voorkomende eindspel"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Fourth Position is a theoretical endgame where one king faces multiple men, and despite material disadvantage, the defending side can achieve a draw through precise defensive technique and understanding of critical defensive squares.",
+          es: "La Cuarta Posición es un final teórico donde una dama enfrenta múltiples piezas, y a pesar de la desventaja material, el bando defensor puede lograr tablas mediante técnica defensiva precisa y comprensión de casillas defensivas críticas.",
+          de: "Die Vierte Position ist ein theoretisches Endspiel, bei dem eine Dame mehreren Steinen gegenübersteht und trotz materiellen Nachteils die verteidigende Seite durch präzise Verteidigungstechnik und Verständnis kritischer Verteidigungsfelder ein Remis erzielen kann.",
+          nl: "De Vierde Positie is een theoretisch eindspel waarbij één dam meerdere stukken tegenover zich heeft, en ondanks materieel nadeel kan de verdedigende kant remise bereiken door precieze verdedigingstechniek en begrip van kritieke defensieve velden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'piece strangulation' in expert tactics?",
+          es: "¿Qué es la 'estrangulación de piezas' en tácticas expertas?",
+          de: "Was ist 'Stein-Erstickung' in Experten-Taktiken?",
+          nl: "Wat is 'stuk verstikking' in expert tactieken?"
+        },
+        options: [
+          {
+            en: "Systematically cutting off piece mobility until helpless",
+            es: "Cortar sistemáticamente la movilidad de piezas hasta dejarlas indefensas",
+            de: "Systematisches Abschneiden der Steinmobilität bis zur Hilflosigkeit",
+            nl: "Systematisch stuk mobiliteit afsnijden tot hulpeloos"
+          },
+          {
+            en: "Capturing all opponent pieces",
+            es: "Capturar todas las piezas del oponente",
+            de: "Alle gegnerischen Steine schlagen",
+            nl: "Alle stukken van tegenstander slaan"
+          },
+          {
+            en: "Blocking pieces with your own",
+            es: "Bloquear piezas con las tuyas",
+            de: "Steine mit eigenen blockieren",
+            nl: "Stukken blokkeren met je eigen"
+          },
+          {
+            en: "Preventing any piece movement",
+            es: "Prevenir cualquier movimiento de pieza",
+            de: "Jede Steinbewegung verhindern",
+            nl: "Elke stukbeweging voorkomen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Piece strangulation is a sophisticated tactical technique where you systematically restrict opponent pieces' mobility through superior positioning, gradually eliminating their options until they become essentially useless and vulnerable to capture or zugzwang.",
+          es: "La estrangulación de piezas es una técnica táctica sofisticada donde restringes sistemáticamente la movilidad de las piezas del oponente mediante posicionamiento superior, gradualmente eliminando sus opciones hasta que se vuelven esencialmente inútiles y vulnerables a captura o zugzwang.",
+          de: "Stein-Erstickung ist eine ausgefeilte taktische Technik, bei der man die Mobilität gegnerischer Steine durch überlegene Positionierung systematisch einschränkt und ihre Optionen allmählich eliminiert, bis sie im Wesentlichen nutzlos und anfällig für Schläge oder Zugzwang werden.",
+          nl: "Stuk verstikking is een geavanceerde tactische techniek waarbij je systematisch de mobiliteit van stukken van de tegenstander beperkt door superieure positionering, geleidelijk hun opties eliminerend tot ze in wezen nutteloos en kwetsbaar worden voor slaan of zugzwang."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Nailer' position in checkers problems?",
+          es: "¿Qué es la posición 'Clavador' en problemas de damas?",
+          de: "Was ist die 'Nagler'-Position in Dame-Problemen?",
+          nl: "Wat is de 'Spijker' positie in dam problemen?"
+        },
+        options: [
+          {
+            en: "A tactical motif where a piece pins opponent's options",
+            es: "Un motivo táctico donde una pieza clava las opciones del oponente",
+            de: "Ein taktisches Motiv, bei dem ein Stein die Optionen des Gegners fesselt",
+            nl: "Een tactisch motief waarbij een stuk de opties van de tegenstander vastpint"
+          },
+          {
+            en: "A piece stuck in the corner",
+            es: "Una pieza atascada en la esquina",
+            de: "Ein Stein, der in der Ecke feststeckt",
+            nl: "Een stuk vastgezet in de hoek"
+          },
+          {
+            en: "Hammering pieces repeatedly",
+            es: "Golpear piezas repetidamente",
+            de: "Steine wiederholt hämmern",
+            nl: "Stukken herhaaldelijk hameren"
+          },
+          {
+            en: "A forced capture sequence",
+            es: "Una secuencia de captura forzada",
+            de: "Eine erzwungene Schlagsequenz",
+            nl: "Een gedwongen slagreeks"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Nailer is a tactical pattern where a piece is positioned so that it severely restricts or 'nails down' the opponent's piece mobility, often forcing them into positions where they become vulnerable to combinations or material loss.",
+          es: "El Clavador es un patrón táctico donde una pieza está posicionada de modo que restringe severamente o 'clava' la movilidad de las piezas del oponente, a menudo forzándolas a posiciones donde se vuelven vulnerables a combinaciones o pérdida material.",
+          de: "Der Nagler ist ein taktisches Muster, bei dem ein Stein so positioniert ist, dass er die Mobilität gegnerischer Steine stark einschränkt oder 'festnagelt', was sie oft in Positionen zwingt, wo sie anfällig für Kombinationen oder Materialverlust werden.",
+          nl: "De Spijker is een tactisch patroon waarbij een stuk zo gepositioneerd is dat het de mobiliteit van de stukken van de tegenstander ernstig beperkt of 'vastspijkert', vaak hen dwingend in posities waar ze kwetsbaar worden voor combinaties of materiaalverlies."
+        }
+      },
+      {
+        question: {
+          en: "What characterizes 'long-range planning' in expert checkers?",
+          es: "¿Qué caracteriza la 'planificación a largo plazo' en damas expertas?",
+          de: "Was charakterisiert 'Langfristplanung' im Experten-Dame?",
+          nl: "Wat kenmerkt 'lange termijn planning' in expert dammen?"
+        },
+        options: [
+          {
+            en: "Formulating strategies spanning multiple phases of the game",
+            es: "Formular estrategias que abarcan múltiples fases del juego",
+            de: "Strategien formulieren, die mehrere Spielphasen umfassen",
+            nl: "Strategieën formuleren die meerdere spelfasen omvatten"
+          },
+          {
+            en: "Planning many moves ahead",
+            es: "Planificar muchos movimientos por adelantado",
+            de: "Viele Züge im Voraus planen",
+            nl: "Veel zetten vooruit plannen"
+          },
+          {
+            en: "Thinking about future tournaments",
+            es: "Pensar en futuros torneos",
+            de: "An zukünftige Turniere denken",
+            nl: "Denken aan toekomstige toernooien"
+          },
+          {
+            en: "Memorizing opening sequences",
+            es: "Memorizar secuencias de apertura",
+            de: "Eröffnungssequenzen auswendig lernen",
+            nl: "Opening sequenties memoriseren"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Long-range planning involves developing strategic concepts that guide play through opening, middlegame, and endgame transitions, considering how current moves affect future possibilities and preparing for multiple contingencies rather than just calculating immediate tactics.",
+          es: "La planificación a largo plazo implica desarrollar conceptos estratégicos que guían el juego a través de transiciones de apertura, medio juego y final, considerando cómo los movimientos actuales afectan las posibilidades futuras y preparándose para múltiples contingencias en lugar de solo calcular tácticas inmediatas.",
+          de: "Langfristplanung beinhaltet die Entwicklung strategischer Konzepte, die das Spiel durch Eröffnungs-, Mittelspiel- und Endspielübergänge leiten, wobei berücksichtigt wird, wie aktuelle Züge zukünftige Möglichkeiten beeinflussen und sich auf mehrere Eventualitäten vorbereitet wird, anstatt nur unmittelbare Taktiken zu berechnen.",
+          nl: "Lange termijn planning houdt in dat strategische concepten worden ontwikkeld die het spel leiden door opening, middenspel en eindspel transities, overwegend hoe huidige zetten toekomstige mogelijkheden beïnvloeden en voorbereidend op meerdere eventualiteiten in plaats van alleen onmiddellijke tactieken te berekenen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'crossboard strike' in tactical play?",
+          es: "¿Qué es el 'golpe transversal' en el juego táctico?",
+          de: "Was ist der 'Brett-übergreifende Schlag' im taktischen Spiel?",
+          nl: "Wat is de 'kruisbord slag' in tactisch spel?"
+        },
+        options: [
+          {
+            en: "A diagonal attack spanning the entire board width",
+            es: "Un ataque diagonal que abarca todo el ancho del tablero",
+            de: "Ein diagonaler Angriff, der die gesamte Brettbreite umfasst",
+            nl: "Een diagonale aanval die de hele bordbreedte beslaat"
+          },
+          {
+            en: "Moving pieces horizontally",
+            es: "Mover piezas horizontalmente",
+            de: "Steine horizontal bewegen",
+            nl: "Stukken horizontaal verplaatsen"
+          },
+          {
+            en: "Attacking from opposite corners",
+            es: "Atacar desde esquinas opuestas",
+            de: "Von gegenüberliegenden Ecken angreifen",
+            nl: "Aanvallen vanuit tegenovergestelde hoeken"
+          },
+          {
+            en: "Multiple simultaneous captures",
+            es: "Múltiples capturas simultáneas",
+            de: "Mehrere gleichzeitige Schläge",
+            nl: "Meerdere gelijktijdige slagen"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A crossboard strike utilizes the long diagonal spanning the board's width to launch a penetrating attack, often involving sacrifices or piece maneuvers that exploit the diagonal's full range to create unstoppable threats.",
+          es: "Un golpe transversal utiliza la diagonal larga que abarca el ancho del tablero para lanzar un ataque penetrante, a menudo involucrando sacrificios o maniobras de piezas que explotan el rango completo de la diagonal para crear amenazas imparables.",
+          de: "Ein Brett-übergreifender Schlag nutzt die lange Diagonale, die die Brettbreite umfasst, um einen durchdringenden Angriff zu starten, oft mit Opfern oder Steinmanövern, die die volle Reichweite der Diagonale ausnutzen, um unaufhaltsame Drohungen zu schaffen.",
+          nl: "Een kruisbord slag gebruikt de lange diagonaal die de bordbreedte beslaat om een doordringende aanval te lanceren, vaak met offers of stuk manoeuvres die het volledige bereik van de diagonaal benutten om onstuitbare dreigingen te creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Dyson Draw' in checkers endgames?",
+          es: "¿Qué son las 'Tablas de Dyson' en finales de damas?",
+          de: "Was ist das 'Dyson-Remis' in Dame-Endspielen?",
+          nl: "Wat is de 'Dyson Remise' in dam eindspelen?"
+        },
+        options: [
+          {
+            en: "A specific defensive technique achieving draws in losing positions",
+            es: "Una técnica defensiva específica logrando tablas en posiciones perdedoras",
+            de: "Eine spezifische Verteidigungstechnik, die in verlierenden Positionen Remis erreicht",
+            nl: "Een specifieke verdedigingstechniek die remise bereikt in verliezende posities"
+          },
+          {
+            en: "Drawing the game on paper",
+            es: "Dibujar el juego en papel",
+            de: "Das Spiel auf Papier zeichnen",
+            nl: "Het spel op papier tekenen"
+          },
+          {
+            en: "A lottery for starting positions",
+            es: "Una lotería para posiciones iniciales",
+            de: "Eine Lotterie für Startpositionen",
+            nl: "Een loterij voor startposities"
+          },
+          {
+            en: "Offering a draw to opponent",
+            es: "Ofrecer tablas al oponente",
+            de: "Dem Gegner ein Remis anbieten",
+            nl: "Een remise aanbieden aan tegenstander"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Dyson Draw refers to defensive methods discovered by analyst Dyson that allow the inferior side to achieve draws in theoretically losing endgame positions through precise defensive play and exploitation of opponent errors.",
+          es: "Las Tablas de Dyson se refieren a métodos defensivos descubiertos por el analista Dyson que permiten al bando inferior lograr tablas en posiciones de final teóricamente perdedoras mediante juego defensivo preciso y explotación de errores del oponente.",
+          de: "Das Dyson-Remis bezieht sich auf Verteidigungsmethoden, die vom Analytiker Dyson entdeckt wurden und es der unterlegenen Seite ermöglichen, in theoretisch verlierenden Endspiel-Positionen durch präzises Verteidigungsspiel und Ausnutzung von Gegnerfehlern Remis zu erreichen.",
+          nl: "De Dyson Remise verwijst naar verdedigingsmethoden ontdekt door analist Dyson die de inferieure kant toestaan remise te bereiken in theoretisch verliezende eindspel posities door nauwkeurig verdedigend spel en exploitatie van tegenstander fouten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'zugzwang exploitation' in advanced play?",
+          es: "¿Qué es la 'explotación de zugzwang' en el juego avanzado?",
+          de: "Was ist 'Zugzwang-Ausnutzung' im fortgeschrittenen Spiel?",
+          nl: "Wat is 'zugzwang exploitatie' in gevorderd spel?"
+        },
+        options: [
+          {
+            en: "Maneuvering to force opponent into positions where any move loses",
+            es: "Maniobrar para forzar al oponente a posiciones donde cualquier movimiento pierde",
+            de: "Manövrieren, um den Gegner in Positionen zu zwingen, wo jeder Zug verliert",
+            nl: "Manoeuvreren om tegenstander te dwingen in posities waar elke zet verliest"
+          },
+          {
+            en: "Using zugzwang as an opening strategy",
+            es: "Usar zugzwang como estrategia de apertura",
+            de: "Zugzwang als Eröffnungsstrategie verwenden",
+            nl: "Zugzwang gebruiken als openingsstrategie"
+          },
+          {
+            en: "Avoiding all zugzwang positions",
+            es: "Evitar todas las posiciones de zugzwang",
+            de: "Alle Zugzwang-Positionen vermeiden",
+            nl: "Alle zugzwang posities vermijden"
+          },
+          {
+            en: "Creating mutual zugzwang",
+            es: "Crear zugzwang mutuo",
+            de: "Gegenseitigen Zugzwang schaffen",
+            nl: "Wederzijdse zugzwang creëren"
+          }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Zugzwang exploitation is the art of systematically maneuvering pieces to create positions where the opponent must move but any legal move worsens their position, effectively using the compulsion to move as a tactical weapon.",
+          es: "La explotación de zugzwang es el arte de maniobrar sistemáticamente piezas para crear posiciones donde el oponente debe mover pero cualquier movimiento legal empeora su posición, efectivamente usando la compulsión a mover como un arma táctica.",
+          de: "Zugzwang-Ausnutzung ist die Kunst, Steine systematisch zu manövrieren, um Positionen zu schaffen, in denen der Gegner ziehen muss, aber jeder legale Zug seine Position verschlechtert, wobei der Zwang zu ziehen effektiv als taktische Waffe eingesetzt wird.",
+          nl: "Zugzwang exploitatie is de kunst van systematisch stukken manoeuvreren om posities te creëren waar de tegenstander moet zetten maar elke legale zet hun positie verslechtert, effectief de dwang om te zetten gebruikend als tactisch wapen."
+        }
       }
     ]
   };

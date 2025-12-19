@@ -827,6 +827,405 @@
           de: "Damen-Hebelwirkung nutzt die überlegene Mobilität von Damen aus, um mehrere gleichzeitige Drohungen zu schaffen, die der Gegner nicht angemessen begegnen kann, wodurch materieller Gewinn oder positionelle Zugeständnisse erzwungen werden. Dieses Prinzip ist grundlegend für die Umwandlung von Damenvorteilen in Endspielen.",
           nl: "Dam hefboomwerking benut de superieure mobiliteit van dammen om meerdere gelijktijdige dreigingen te creëren die de tegenstander niet adequaat kan aanpakken, waarbij materiaal winst of positionele concessies afgedwongen worden. Dit principe is fundamenteel voor het omzetten van dam voordelen in eindspelen."
         }
+      },
+      {
+        question: {
+          en: "What is the 'Payne position' in checkers theory?",
+          es: "¿Qué es la 'posición Payne' en la teoría de damas?",
+          de: "Was ist die 'Payne-Position' in der Dame-Theorie?",
+          nl: "Wat is de 'Payne positie' in damtheorie?"
+        },
+        options: [
+          { en: "A theoretically drawn 2v1 king endgame with specific geometry", es: "Un final teórico de tablas 2 contra 1 damas con geometría específica", de: "Ein theoretisch remises 2-gegen-1-Damen-Endspiel mit spezifischer Geometrie", nl: "Een theoretisch remise 2 tegen 1 dam eindspel met specifieke geometrie" },
+          { en: "A painful losing position", es: "Una posición perdedora dolorosa", de: "Eine schmerzhafte Verlustposition", nl: "Een pijnlijke verliezende positie" },
+          { en: "An opening trap", es: "Una trampa de apertura", de: "Eine Eröffnungsfalle", nl: "Een openingsval" },
+          { en: "A midgame sacrifice", es: "Un sacrificio de medio juego", de: "Ein Mittelspielopfer", nl: "Een middenspel offer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Payne position demonstrates how two kings against one king with correct defensive technique can force a draw despite material superiority, through precise square control and opposition management.",
+          es: "La posición Payne demuestra cómo dos damas contra una dama con técnica defensiva correcta pueden forzar tablas a pesar de la superioridad material, mediante control preciso de casillas y gestión de oposición.",
+          de: "Die Payne-Position demonstriert, wie zwei Damen gegen eine Dame mit korrekter Verteidigungstechnik ein Remis erzwingen können trotz materieller Überlegenheit, durch präzise Feldkontrolle und Oppositionsmanagement.",
+          nl: "De Payne positie demonstreert hoe twee dammen tegen één dam met correcte verdedigingstechniek remise kunnen forceren ondanks materiële superioriteit, door precieze veld controle en oppositie management."
+        }
+      },
+      {
+        question: {
+          en: "What is 'critical timing' in breakthrough combinations?",
+          es: "¿Qué es el 'momento crítico' en combinaciones de ruptura?",
+          de: "Was ist 'kritisches Timing' bei Durchbruchkombinationen?",
+          nl: "Wat is 'kritieke timing' in doorbraak combinaties?"
+        },
+        options: [
+          { en: "Executing the breakthrough at the precise moment opponent cannot defend", es: "Ejecutar la ruptura en el momento preciso en que el oponente no puede defender", de: "Den Durchbruch im präzisen Moment ausführen, wo der Gegner nicht verteidigen kann", nl: "De doorbraak uitvoeren op het precieze moment dat tegenstander niet kan verdedigen" },
+          { en: "Using a chess clock", es: "Usar un reloj de ajedrez", de: "Eine Schachuhr verwenden", nl: "Een schaakklok gebruiken" },
+          { en: "Breaking through in opening", es: "Romper en la apertura", de: "In der Eröffnung durchbrechen", nl: "Doorbreken in de opening" },
+          { en: "Timing piece exchanges", es: "Temporizar intercambios de piezas", de: "Steintausche zeitlich abstimmen", nl: "Stukruilen timen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Critical timing involves recognizing the exact moment when opponent's pieces are misplaced or overloaded, making a breakthrough sacrifice or thrust decisive before defensive resources can be reorganized.",
+          es: "El momento crítico implica reconocer el momento exacto cuando las piezas del oponente están mal colocadas o sobrecargadas, haciendo decisivo un sacrificio o empuje de ruptura antes de que los recursos defensivos puedan reorganizarse.",
+          de: "Kritisches Timing beinhaltet das Erkennen des exakten Moments, wenn gegnerische Steine falsch platziert oder überlastet sind, wodurch ein Durchbruchopfer oder -stoß entscheidend wird, bevor defensive Ressourcen reorganisiert werden können.",
+          nl: "Kritieke timing houdt in dat het exacte moment wordt herkend wanneer stukken van de tegenstander verkeerd geplaatst of overbelast zijn, waardoor een doorbraakoffer of stoot beslissend wordt voordat defensieve middelen kunnen worden gereorganiseerd."
+        }
+      },
+      {
+        question: {
+          en: "What defines the 'Anderson sacrifice'?",
+          es: "¿Qué define el 'sacrificio Anderson'?",
+          de: "Was definiert das 'Anderson-Opfer'?",
+          nl: "Wat definieert het 'Anderson offer'?"
+        },
+        options: [
+          { en: "Sacrificing material to destroy opponent's pawn structure", es: "Sacrificar material para destruir la estructura de peones del oponente", de: "Material opfern, um die Bauernstruktur des Gegners zu zerstören", nl: "Materiaal opofferen om de pionstructuur van tegenstander te vernietigen" },
+          { en: "A specific opening trap", es: "Una trampa de apertura específica", de: "Eine spezifische Eröffnungsfalle", nl: "Een specifieke openingsval" },
+          { en: "Trading all pieces", es: "Intercambiar todas las piezas", de: "Alle Steine tauschen", nl: "Alle stukken ruilen" },
+          { en: "A defensive maneuver", es: "Una maniobra defensiva", de: "Ein Verteidigungsmanöver", nl: "Een verdedigingsmanoeuvre" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Anderson sacrifice involves giving up material specifically to disrupt opponent's piece coordination and structural integrity, creating long-term weaknesses that outweigh the material investment.",
+          es: "El sacrificio Anderson implica dar material específicamente para interrumpir la coordinación de piezas y la integridad estructural del oponente, creando debilidades a largo plazo que superan la inversión material.",
+          de: "Das Anderson-Opfer beinhaltet die Aufgabe von Material speziell zur Störung der gegnerischen Steinkoordination und strukturellen Integrität, wodurch langfristige Schwächen geschaffen werden, die die materielle Investition überwiegen.",
+          nl: "Het Anderson offer houdt in dat materiaal wordt opgegeven specifiek om de stukcoördinatie en structurele integriteit van de tegenstander te verstoren, waarbij langetermijn zwaktes worden gecreëerd die de materiële investering overtreffen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'positional domination' in master play?",
+          es: "¿Qué es la 'dominación posicional' en el juego maestro?",
+          de: "Was ist 'positionelle Dominierung' im Meisterspiel?",
+          nl: "Wat is 'positionele dominantie' in meester spel?"
+        },
+        options: [
+          { en: "Complete control of key squares restricting all opponent options", es: "Control completo de casillas clave restringiendo todas las opciones del oponente", de: "Vollständige Kontrolle von Schlüsselfeldern, die alle Gegneroptionen einschränkt", nl: "Volledige controle van sleutelvelden die alle tegenstander opties beperkt" },
+          { en: "Having more pieces", es: "Tener más piezas", de: "Mehr Steine haben", nl: "Meer stukken hebben" },
+          { en: "Controlling the center", es: "Controlar el centro", de: "Das Zentrum kontrollieren", nl: "Het centrum controleren" },
+          { en: "Winning material", es: "Ganar material", de: "Material gewinnen", nl: "Materiaal winnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Positional domination occurs when piece placement so thoroughly controls critical squares that opponent's pieces become virtually immobilized, unable to execute any meaningful plan without making further concessions.",
+          es: "La dominación posicional ocurre cuando la colocación de piezas controla tan completamente las casillas críticas que las piezas del oponente quedan virtualmente inmovilizadas, incapaces de ejecutar cualquier plan significativo sin hacer más concesiones.",
+          de: "Positionelle Dominierung tritt auf, wenn die Steinplatzierung kritische Felder so gründlich kontrolliert, dass gegnerische Steine praktisch immobilisiert werden und keinen bedeutungsvollen Plan ausführen können, ohne weitere Zugeständnisse zu machen.",
+          nl: "Positionele dominantie treedt op wanneer stukplaatsing kritieke velden zo grondig controleert dat stukken van de tegenstander vrijwel geïmmobiliseerd worden, niet in staat om een betekenisvol plan uit te voeren zonder verdere concessies te doen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Marshall position'?",
+          es: "¿Qué es la 'posición Marshall'?",
+          de: "Was ist die 'Marshall-Position'?",
+          nl: "Wat is de 'Marshall positie'?"
+        },
+        options: [
+          { en: "A complex endgame requiring precise technique to win or draw", es: "Un final complejo que requiere técnica precisa para ganar o empatar", de: "Ein komplexes Endspiel, das präzise Technik zum Gewinnen oder Remis erfordert", nl: "Een complex eindspel dat precieze techniek vereist om te winnen of remise" },
+          { en: "An opening variation", es: "Una variación de apertura", de: "Eine Eröffnungsvariante", nl: "Een opening variatie" },
+          { en: "A tournament format", es: "Un formato de torneo", de: "Ein Turnierformat", nl: "Een toernooi formaat" },
+          { en: "A defensive formation", es: "Una formación defensiva", de: "Eine Defensivformation", nl: "Een defensieve formatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Marshall position is a celebrated endgame study demonstrating subtle winning or drawing techniques in positions that appear hopeless, requiring deep calculation and understanding of piece cooperation.",
+          es: "La posición Marshall es un estudio de final celebrado que demuestra técnicas sutiles de victoria o empate en posiciones que parecen desesperadas, requiriendo cálculo profundo y comprensión de la cooperación de piezas.",
+          de: "Die Marshall-Position ist eine gefeierte Endspielstudie, die subtile Gewinn- oder Remistechniken in scheinbar hoffnungslosen Positionen demonstriert und tiefe Berechnung sowie Verständnis der Steinkooperation erfordert.",
+          nl: "De Marshall positie is een gevierde eindspelstudie die subtiele win- of remisetechnieken demonstreert in posities die hopeloos lijken, waarbij diepe berekening en begrip van stukcoöperatie vereist is."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tempo manipulation' in advanced play?",
+          es: "¿Qué es la 'manipulación de tempo' en el juego avanzado?",
+          de: "Was ist 'Tempo-Manipulation' im fortgeschrittenen Spiel?",
+          nl: "Wat is 'tempo manipulatie' in gevorderd spel?"
+        },
+        options: [
+          { en: "Controlling the move sequence to gain positional advantage", es: "Controlar la secuencia de movimientos para ganar ventaja posicional", de: "Die Zugfolge kontrollieren, um Positionsvorteil zu erlangen", nl: "De zetreeks controleren om positioneel voordeel te verkrijgen" },
+          { en: "Playing faster", es: "Jugar más rápido", de: "Schneller spielen", nl: "Sneller spelen" },
+          { en: "Changing game speed", es: "Cambiar la velocidad del juego", de: "Spielgeschwindigkeit ändern", nl: "Spelsnelheid veranderen" },
+          { en: "Using time controls", es: "Usar controles de tiempo", de: "Zeitkontrollen verwenden", nl: "Tijdscontroles gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Tempo manipulation involves strategically managing who moves when, sometimes sacrificing tempo to force opponent into disadvantageous positions or gaining tempo through forcing moves that improve your position.",
+          es: "La manipulación de tempo implica gestionar estratégicamente quién mueve cuándo, a veces sacrificando tempo para forzar al oponente a posiciones desventajosas o ganando tempo mediante movimientos forzados que mejoran tu posición.",
+          de: "Tempo-Manipulation beinhaltet das strategische Management, wer wann zieht, manchmal Tempo opfernd, um den Gegner in nachteilige Positionen zu zwingen, oder Tempo gewinnend durch erzwingende Züge, die die eigene Position verbessern.",
+          nl: "Tempo manipulatie houdt in dat strategisch wordt beheerd wie wanneer zet, soms tempo offerend om de tegenstander in nadelige posities te dwingen of tempo winnend door forcerende zetten die je positie verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What defines the 'Reynolds Draw'?",
+          es: "¿Qué define las 'Tablas de Reynolds'?",
+          de: "Was definiert das 'Reynolds-Remis'?",
+          nl: "Wat definieert de 'Reynolds Remise'?"
+        },
+        options: [
+          { en: "A defensive technique achieving draw against superior forces", es: "Una técnica defensiva logrando tablas contra fuerzas superiores", de: "Eine Verteidigungstechnik, die Remis gegen überlegene Kräfte erreicht", nl: "Een verdedigingstechniek die remise bereikt tegen superieure krachten" },
+          { en: "Drawing the position on paper", es: "Dibujar la posición en papel", de: "Die Position auf Papier zeichnen", nl: "De positie op papier tekenen" },
+          { en: "A lottery system", es: "Un sistema de lotería", de: "Ein Lotteriesystem", nl: "Een loterij systeem" },
+          { en: "Offering draws frequently", es: "Ofrecer tablas frecuentemente", de: "Häufig Remis anbieten", nl: "Vaak remises aanbieden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Reynolds Draw represents defensive methods that achieve draws in materially inferior positions through precise piece placement and exploitation of geometrical board properties.",
+          es: "Las Tablas de Reynolds representan métodos defensivos que logran tablas en posiciones materialmente inferiores mediante colocación precisa de piezas y explotación de propiedades geométricas del tablero.",
+          de: "Das Reynolds-Remis repräsentiert Verteidigungsmethoden, die in materiell unterlegenen Positionen Remis erreichen durch präzise Steinplatzierung und Ausnutzung geometrischer Bretteigenschaften.",
+          nl: "De Reynolds Remise vertegenwoordigt verdedigingsmethoden die remises bereiken in materieel inferieure posities door precieze stukplaatsing en exploitatie van geometrische bordeigenschappen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'diagonal isolation' in strategic play?",
+          es: "¿Qué es el 'aislamiento diagonal' en el juego estratégico?",
+          de: "Was ist 'Diagonal-Isolierung' im strategischen Spiel?",
+          nl: "Wat is 'diagonale isolatie' in strategisch spel?"
+        },
+        options: [
+          { en: "Cutting off opponent pieces from key diagonals", es: "Cortar las piezas del oponente de diagonales clave", de: "Gegnerische Steine von Schlüsseldiagonalen abschneiden", nl: "Stukken van tegenstander afsnijden van sleutel diagonalen" },
+          { en: "Playing on one diagonal only", es: "Jugar solo en una diagonal", de: "Nur auf einer Diagonale spielen", nl: "Alleen op één diagonaal spelen" },
+          { en: "Isolating corner pieces", es: "Aislar piezas de esquina", de: "Ecksteine isolieren", nl: "Hoek stukken isoleren" },
+          { en: "Avoiding diagonal moves", es: "Evitar movimientos diagonales", de: "Diagonale Züge vermeiden", nl: "Diagonale zetten vermijden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Diagonal isolation restricts opponent pieces' access to critical diagonals through blockades or piece placement, severely limiting their mobility and forcing them into passive positions.",
+          es: "El aislamiento diagonal restringe el acceso de las piezas del oponente a diagonales críticas mediante bloqueos o colocación de piezas, limitando severamente su movilidad y forzándolas a posiciones pasivas.",
+          de: "Diagonal-Isolierung schränkt den Zugang gegnerischer Steine zu kritischen Diagonalen durch Blockaden oder Steinplatzierung ein, begrenzt ihre Mobilität stark und zwingt sie in passive Positionen.",
+          nl: "Diagonale isolatie beperkt de toegang van stukken van de tegenstander tot kritieke diagonalen door blokkades of stukplaatsing, waarbij hun mobiliteit ernstig wordt beperkt en ze gedwongen worden in passieve posities."
+        }
+      },
+      {
+        question: {
+          en: "What characterizes the 'Banks position'?",
+          es: "¿Qué caracteriza la 'posición Banks'?",
+          de: "Was charakterisiert die 'Banks-Position'?",
+          nl: "Wat kenmerkt de 'Banks positie'?"
+        },
+        options: [
+          { en: "A theoretical king endgame with unique winning method", es: "Un final teórico de damas con método de victoria único", de: "Ein theoretisches Damen-Endspiel mit einzigartiger Gewinnmethode", nl: "Een theoretisch dam eindspel met unieke win methode" },
+          { en: "Banking pieces on edge", es: "Bancando piezas en el borde", de: "Steine am Rand stapeln", nl: "Stukken op de rand opstapelen" },
+          { en: "Financial strategy in tournaments", es: "Estrategia financiera en torneos", de: "Finanzstrategie in Turnieren", nl: "Financiële strategie in toernooien" },
+          { en: "Reserve piece formation", es: "Formación de pieza de reserva", de: "Reserve-Steinformation", nl: "Reserve stuk formatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Banks position demonstrates a counterintuitive winning technique in king endgames where the natural-looking moves lead to draws, requiring precise understanding of tempo and square control.",
+          es: "La posición Banks demuestra una técnica de victoria contraintuitiva en finales de damas donde los movimientos que parecen naturales llevan a tablas, requiriendo comprensión precisa de tempo y control de casillas.",
+          de: "Die Banks-Position demonstriert eine kontraintuitive Gewinntechnik in Damen-Endspielen, wo die natürlich erscheinenden Züge zu Remis führen und präzises Verständnis von Tempo und Feldkontrolle erfordern.",
+          nl: "De Banks positie demonstreert een contra-intuïtieve wintechniek in dam eindspelen waarbij de natuurlijk lijkende zetten tot remise leiden, wat nauwkeurig begrip van tempo en veld controle vereist."
+        }
+      },
+      {
+        question: {
+          en: "What is 'prophylactic restructuring'?",
+          es: "¿Qué es la 'reestructuración profiláctica'?",
+          de: "Was ist 'prophylaktische Umstrukturierung'?",
+          nl: "Wat is 'profylactische herstructurering'?"
+        },
+        options: [
+          { en: "Reorganizing pieces preemptively to prevent opponent threats", es: "Reorganizar piezas preventivamente para evitar amenazas del oponente", de: "Steine präventiv reorganisieren, um Gegnerdrohungen zu verhindern", nl: "Stukken preventief reorganiseren om tegenstander dreigingen te voorkomen" },
+          { en: "Medical preparation before games", es: "Preparación médica antes de juegos", de: "Medizinische Vorbereitung vor Spielen", nl: "Medische voorbereiding voor spellen" },
+          { en: "Changing opening repertoire", es: "Cambiar repertorio de apertura", de: "Eröffnungsrepertoire ändern", nl: "Opening repertoire veranderen" },
+          { en: "Defensive fortification", es: "Fortificación defensiva", de: "Defensive Befestigung", nl: "Defensieve versterking" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prophylactic restructuring involves anticipating opponent's tactical ideas and reorganizing your pieces to neutralize threats before they materialize, maintaining strategic flexibility while preventing opponent plans.",
+          es: "La reestructuración profiláctica implica anticipar las ideas tácticas del oponente y reorganizar tus piezas para neutralizar amenazas antes de que se materialicen, manteniendo flexibilidad estratégica mientras se previenen los planes del oponente.",
+          de: "Prophylaktische Umstrukturierung beinhaltet das Antizipieren gegnerischer taktischer Ideen und die Reorganisation der eigenen Steine, um Drohungen zu neutralisieren, bevor sie sich materialisieren, wobei strategische Flexibilität erhalten bleibt, während Gegnerpläne verhindert werden.",
+          nl: "Profylactische herstructurering houdt in dat tactische ideeën van de tegenstander worden geanticipeerd en je stukken worden gereorganiseerd om dreigingen te neutraliseren voordat ze zich materialiseren, waarbij strategische flexibiliteit behouden blijft terwijl tegenstander plannen worden voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What defines the 'Chamblee variation'?",
+          es: "¿Qué define la 'variación Chamblee'?",
+          de: "Was definiert die 'Chamblee-Variante'?",
+          nl: "Wat definieert de 'Chamblee variatie'?"
+        },
+        options: [
+          { en: "A middlegame plan involving wing pawn storms", es: "Un plan de medio juego involucrando tormentas de peones de ala", de: "Ein Mittelspielplan mit Flügelbauernstürmen", nl: "Een middenspel plan met vleugelpion stormen" },
+          { en: "An opening trap", es: "Una trampa de apertura", de: "Eine Eröffnungsfalle", nl: "Een openingsval" },
+          { en: "An endgame technique", es: "Una técnica de final", de: "Eine Endspieltechnik", nl: "Een eindspel techniek" },
+          { en: "A defensive setup", es: "Una configuración defensiva", de: "Eine Defensivaufstellung", nl: "Een defensieve opstelling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Chamblee variation features aggressive wing expansion in the middlegame, using pawn advances to create breakthroughs while maintaining central stability, requiring precise timing and calculation.",
+          es: "La variación Chamblee presenta expansión agresiva de ala en el medio juego, usando avances de peones para crear rupturas mientras se mantiene la estabilidad central, requiriendo momento preciso y cálculo.",
+          de: "Die Chamblee-Variante zeigt aggressive Flügelexpansion im Mittelspiel, wobei Bauernvorstellungen verwendet werden, um Durchbrüche zu schaffen, während zentrale Stabilität erhalten bleibt, was präzises Timing und Berechnung erfordert.",
+          nl: "De Chamblee variatie kenmerkt zich door agressieve vleugel expansie in het middenspel, waarbij pion opmars wordt gebruikt om doorbraken te creëren terwijl centrale stabiliteit behouden blijft, wat precieze timing en berekening vereist."
+        }
+      },
+      {
+        question: {
+          en: "What is 'forced simplification'?",
+          es: "¿Qué es la 'simplificación forzada'?",
+          de: "Was ist 'erzwungene Vereinfachung'?",
+          nl: "Wat is 'gedwongen vereenvoudiging'?"
+        },
+        options: [
+          { en: "Compelling opponent to trade pieces into favorable endgame", es: "Obligar al oponente a intercambiar piezas en un final favorable", de: "Den Gegner zwingen, Steine in ein günstiges Endspiel zu tauschen", nl: "Tegenstander dwingen stukken te ruilen naar gunstig eindspel" },
+          { en: "Making the game easier", es: "Hacer el juego más fácil", de: "Das Spiel einfacher machen", nl: "Het spel makkelijker maken" },
+          { en: "Playing simple moves", es: "Jugar movimientos simples", de: "Einfache Züge spielen", nl: "Simpele zetten spelen" },
+          { en: "Reducing thinking time", es: "Reducir tiempo de pensamiento", de: "Denkzeit reduzieren", nl: "Denktijd verminderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Forced simplification uses tactical threats to compel piece exchanges that lead to favorable simplified positions or endgames where your advantages are magnified and opponent's counterplay is eliminated.",
+          es: "La simplificación forzada usa amenazas tácticas para obligar intercambios de piezas que llevan a posiciones simplificadas favorables o finales donde tus ventajas se magnifican y el contrajuego del oponente se elimina.",
+          de: "Erzwungene Vereinfachung nutzt taktische Drohungen, um Steintausche zu erzwingen, die zu günstigen vereinfachten Positionen oder Endspielen führen, wo die eigenen Vorteile verstärkt werden und das Gegenspiel des Gegners eliminiert wird.",
+          nl: "Gedwongen vereenvoudiging gebruikt tactische dreigingen om stukruilen af te dwingen die leiden tot gunstige vereenvoudigde posities of eindspelen waarbij je voordelen worden vergroot en het tegenspel van de tegenstander wordt geëlimineerd."
+        }
+      },
+      {
+        question: {
+          en: "What characterizes 'hypermodern defense'?",
+          es: "¿Qué caracteriza la 'defensa hipermoderna'?",
+          de: "Was charakterisiert 'hypermoderne Verteidigung'?",
+          nl: "Wat kenmerkt 'hypermoderne verdediging'?"
+        },
+        options: [
+          { en: "Allowing opponent center control then undermining it", es: "Permitir control central del oponente luego socavarlo", de: "Gegnerische Zentrumskontrolle erlauben, dann untergraben", nl: "Tegenstander centrumcontrole toestaan en dan ondermijnen" },
+          { en: "Using only modern openings", es: "Usar solo aperturas modernas", de: "Nur moderne Eröffnungen verwenden", nl: "Alleen moderne openingen gebruiken" },
+          { en: "Advanced defensive tactics", es: "Tácticas defensivas avanzadas", de: "Fortgeschrittene Defensivtaktiken", nl: "Geavanceerde defensieve tactieken" },
+          { en: "Contemporary playing style", es: "Estilo de juego contemporáneo", de: "Zeitgenössischer Spielstil", nl: "Hedendaagse speelstijl" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hypermodern defense deliberately concedes central control, planning to attack it from the flanks once overextended, turning apparent positional weakness into dynamic counterplay opportunity.",
+          es: "La defensa hipermoderna concede deliberadamente el control central, planeando atacarlo desde los flancos una vez sobreextendido, convirtiendo aparente debilidad posicional en oportunidad de contrajuego dinámico.",
+          de: "Hypermoderne Verteidigung konzediert bewusst Zentrumskontrolle und plant, es von den Flügeln aus anzugreifen, sobald es überdehnt ist, wodurch scheinbare positionelle Schwäche in dynamische Gegenspielchance verwandelt wird.",
+          nl: "Hypermoderne verdediging staat opzettelijk centrumcontrole af, van plan om het vanaf de flanken aan te vallen zodra het overstrekt is, waarbij schijnbare positionele zwakte wordt omgezet in dynamische tegenspel kans."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Gordon position'?",
+          es: "¿Qué es la 'posición Gordon'?",
+          de: "Was ist die 'Gordon-Position'?",
+          nl: "Wat is de 'Gordon positie'?"
+        },
+        options: [
+          { en: "A specific 3v2 endgame with unique drawing technique", es: "Un final específico 3 contra 2 con técnica de tablas única", de: "Ein spezifisches 3-gegen-2-Endspiel mit einzigartiger Remistechnik", nl: "Een specifiek 3 tegen 2 eindspel met unieke remise techniek" },
+          { en: "A named opening", es: "Una apertura con nombre", de: "Eine benannte Eröffnung", nl: "Een genoemde opening" },
+          { en: "A tournament position", es: "Una posición de torneo", de: "Eine Turnierposition", nl: "Een toernooi positie" },
+          { en: "A theoretical middlegame", es: "Un medio juego teórico", de: "Ein theoretisches Mittelspiel", nl: "Een theoretisch middenspel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Gordon position demonstrates how three pieces against two can be held to a draw through precise defensive coordination and understanding of critical square relationships.",
+          es: "La posición Gordon demuestra cómo tres piezas contra dos pueden mantenerse en tablas mediante coordinación defensiva precisa y comprensión de relaciones de casillas críticas.",
+          de: "Die Gordon-Position demonstriert, wie drei Steine gegen zwei durch präzise defensive Koordination und Verständnis kritischer Feldbeziehungen zu einem Remis gehalten werden können.",
+          nl: "De Gordon positie demonstreert hoe drie stukken tegen twee op remise kunnen worden gehouden door precieze defensieve coördinatie en begrip van kritieke veld relaties."
+        }
+      },
+      {
+        question: {
+          en: "What is 'backward tempo play'?",
+          es: "¿Qué es el 'juego de tempo hacia atrás'?",
+          de: "Was ist 'Rückwärts-Tempospiel'?",
+          nl: "Wat is 'achterwaarts tempo spel'?"
+        },
+        options: [
+          { en: "Using king backward moves to gain tempo advantage", es: "Usar movimientos hacia atrás de dama para ganar ventaja de tempo", de: "Rückwärtszüge der Dame nutzen, um Tempo-Vorteil zu gewinnen", nl: "Achterwaartse dam zetten gebruiken om tempo voordeel te winnen" },
+          { en: "Playing in reverse order", es: "Jugar en orden inverso", de: "In umgekehrter Reihenfolge spielen", nl: "In omgekeerde volgorde spelen" },
+          { en: "Retreating pieces defensively", es: "Retirar piezas defensivamente", de: "Steine defensiv zurückziehen", nl: "Stukken defensief terugtrekken" },
+          { en: "Moving backwards only", es: "Moverse solo hacia atrás", de: "Nur rückwärts bewegen", nl: "Alleen achteruit bewegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Backward tempo play exploits kings' ability to move backward to create zugzwang, force opponent into disadvantageous positions, or gain critical tempo in endgames where direction of movement determines outcomes.",
+          es: "El juego de tempo hacia atrás explota la capacidad de las damas de moverse hacia atrás para crear zugzwang, forzar al oponente a posiciones desventajosas, o ganar tempo crítico en finales donde la dirección del movimiento determina los resultados.",
+          de: "Rückwärts-Tempospiel nutzt die Fähigkeit der Damen, sich rückwärts zu bewegen, um Zugzwang zu schaffen, den Gegner in nachteilige Positionen zu zwingen oder kritisches Tempo in Endspielen zu gewinnen, wo Bewegungsrichtung das Ergebnis bestimmt.",
+          nl: "Achterwaarts tempo spel benut het vermogen van dammen om achteruit te bewegen om zugzwang te creëren, tegenstander in nadelige posities te dwingen, of kritiek tempo te winnen in eindspelen waar bewegingsrichting de uitkomsten bepaalt."
+        }
+      },
+      {
+        question: {
+          en: "What defines 'positional inversion'?",
+          es: "¿Qué define la 'inversión posicional'?",
+          de: "Was definiert 'positionelle Inversion'?",
+          nl: "Wat definieert 'positionele inversie'?"
+        },
+        options: [
+          { en: "Transforming apparent weakness into strength through piece repositioning", es: "Transformar aparente debilidad en fortaleza mediante reposicionamiento de piezas", de: "Scheinbare Schwäche durch Steinneupositionierung in Stärke verwandeln", nl: "Schijnbare zwakte transformeren in sterkte door stuk herpositionering" },
+          { en: "Flipping the board", es: "Voltear el tablero", de: "Das Brett umdrehen", nl: "Het bord omdraaien" },
+          { en: "Reversing move order", es: "Invertir orden de movimientos", de: "Zugreihenfolge umkehren", nl: "Zet volgorde omkeren" },
+          { en: "Playing from opposite side", es: "Jugar desde el lado opuesto", de: "Von der gegenüberliegenden Seite spielen", nl: "Spelen vanaf tegenovergestelde kant" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Positional inversion converts seemingly unfavorable positions into advantageous ones through creative piece redeployment that reveals hidden tactical or strategic possibilities previously obscured.",
+          es: "La inversión posicional convierte posiciones aparentemente desfavorables en ventajosas mediante redespliegue creativo de piezas que revela posibilidades tácticas o estratégicas ocultas previamente oscurecidas.",
+          de: "Positionelle Inversion verwandelt scheinbar ungünstige Positionen in vorteilhafte durch kreative Steinneuverteilung, die verborgene taktische oder strategische Möglichkeiten offenbart, die zuvor verdeckt waren.",
+          nl: "Positionele inversie zet schijnbaar ongunstige posities om in voordelige door creatieve stuk herplaatsing die verborgen tactische of strategische mogelijkheden onthult die eerder verhuld waren."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Lees Draw'?",
+          es: "¿Qué son las 'Tablas de Lees'?",
+          de: "Was ist das 'Lees-Remis'?",
+          nl: "Wat is de 'Lees Remise'?"
+        },
+        options: [
+          { en: "A specific drawing technique in king and men endgames", es: "Una técnica específica de tablas en finales de dama y piezas", de: "Eine spezifische Remistechnik in Damen-und-Steine-Endspielen", nl: "Een specifieke remise techniek in dam en stukken eindspelen" },
+          { en: "Drawing games on purpose", es: "Empatar juegos a propósito", de: "Absichtlich remis spielen", nl: "Opzettelijk remise spelen" },
+          { en: "A named opening draw", es: "Un empate de apertura con nombre", de: "Eine benannte Eröffnungsremis", nl: "Een genoemde opening remise" },
+          { en: "Historical drawn games", es: "Juegos históricos empatados", de: "Historische remis Spiele", nl: "Historische remise spellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Lees Draw demonstrates defensive methods in materially inferior king-and-men endgames where precise piece coordination and understanding of blockade principles achieve draws against superior forces.",
+          es: "Las Tablas de Lees demuestran métodos defensivos en finales de dama-y-piezas materialmente inferiores donde la coordinación precisa de piezas y la comprensión de principios de bloqueo logran tablas contra fuerzas superiores.",
+          de: "Das Lees-Remis demonstriert Verteidigungsmethoden in materiell unterlegenen Damen-und-Steine-Endspielen, wo präzise Steinkoordination und Verständnis von Blockadeprinzipien Remis gegen überlegene Kräfte erreichen.",
+          nl: "De Lees Remise demonstreert verdedigingsmethoden in materieel inferieure dam-en-stukken eindspelen waarbij precieze stukcoördinatie en begrip van blokkade principes remises bereiken tegen superieure krachten."
+        }
+      },
+      {
+        question: {
+          en: "What characterizes 'systematic pressure'?",
+          es: "¿Qué caracteriza la 'presión sistemática'?",
+          de: "Was charakterisiert 'systematischen Druck'?",
+          nl: "Wat kenmerkt 'systematische druk'?"
+        },
+        options: [
+          { en: "Gradually increasing constraints on opponent's position", es: "Aumentar gradualmente las restricciones en la posición del oponente", de: "Allmähliche Erhöhung der Einschränkungen der Gegnerposition", nl: "Geleidelijk beperkingen op tegenstander positie verhogen" },
+          { en: "Using time pressure tactics", es: "Usar tácticas de presión de tiempo", de: "Zeitdruck-Taktiken verwenden", nl: "Tijdsdruk tactieken gebruiken" },
+          { en: "Physical pressure on pieces", es: "Presión física en piezas", de: "Physischer Druck auf Steine", nl: "Fysieke druk op stukken" },
+          { en: "Aggressive attacking only", es: "Solo ataque agresivo", de: "Nur aggressiver Angriff", nl: "Alleen agressieve aanval" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Systematic pressure involves methodically restricting opponent's options through cumulative small advantages, gradually transforming slight edges into decisive superiority without allowing counterplay opportunities.",
+          es: "La presión sistemática implica restringir metódicamente las opciones del oponente mediante ventajas pequeñas acumulativas, transformando gradualmente pequeñas ventajas en superioridad decisiva sin permitir oportunidades de contrajuego.",
+          de: "Systematischer Druck beinhaltet die methodische Einschränkung der Gegneroptionen durch kumulative kleine Vorteile, wobei leichte Vorsprünge allmählich in entscheidende Überlegenheit verwandelt werden, ohne Gegenspielchancen zuzulassen.",
+          nl: "Systematische druk houdt in dat methodisch de opties van de tegenstander worden beperkt door cumulatieve kleine voordelen, waarbij geleidelijk kleine voorsprong wordt getransformeerd in beslissende superioriteit zonder tegenspel kansen toe te staan."
+        }
+      },
+      {
+        question: {
+          en: "What is 'endgame transposition tactics'?",
+          es: "¿Qué son las 'tácticas de transposición de final'?",
+          de: "Was sind 'Endspiel-Transpositionstaktiken'?",
+          nl: "Wat zijn 'eindspel transpositie tactieken'?"
+        },
+        options: [
+          { en: "Steering positions into favorable known endgame configurations", es: "Dirigir posiciones hacia configuraciones de final conocidas favorables", de: "Positionen in günstige bekannte Endspielkonfigurationen lenken", nl: "Posities sturen naar gunstige bekende eindspel configuraties" },
+          { en: "Changing endgame type", es: "Cambiar tipo de final", de: "Endspieltyp wechseln", nl: "Eindspel type veranderen" },
+          { en: "Moving to different endings", es: "Moverse a diferentes finales", de: "Zu verschiedenen Endungen bewegen", nl: "Naar verschillende eindingen bewegen" },
+          { en: "Trading all pieces", es: "Intercambiar todas las piezas", de: "Alle Steine tauschen", nl: "Alle stukken ruilen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Endgame transposition tactics involve deliberately maneuvering to reach specific theoretical endgame positions where you know winning or drawing techniques, converting unclear positions into technically won or drawn outcomes.",
+          es: "Las tácticas de transposición de final implican maniobrar deliberadamente para alcanzar posiciones de final teóricas específicas donde conoces técnicas ganadoras o de tablas, convirtiendo posiciones poco claras en resultados técnicamente ganados o empatados.",
+          de: "Endspiel-Transpositionstaktiken beinhalten absichtliches Manövrieren, um spezifische theoretische Endspiel-Positionen zu erreichen, wo man Gewinn- oder Remistechniken kennt, wobei unklare Positionen in technisch gewonnene oder remise Ergebnisse verwandelt werden.",
+          nl: "Eindspel transpositie tactieken houden in dat opzettelijk wordt gemanoeuvreerd om specifieke theoretische eindspel posities te bereiken waar je win- of remise technieken kent, waarbij onduidelijke posities worden omgezet in technisch gewonnen of remise resultaten."
+        }
       }
     ]
   };

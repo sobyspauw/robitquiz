@@ -427,6 +427,426 @@
           de: "Der Lighthill-Bericht, 1973 von der britischen Regierung in Auftrag gegeben, kritisierte KI-Forschung scharf dafür ihre Versprechen nicht einzuhalten. Er kam zu dem Schluss dass KI wenig mehr erreicht hatte als konventionelle Programmierung leisten konnte, was zu dramatischen Finanzierungskürzungen im UK führte und zum ersten KI-Winter beitrug.",
           nl: "Het Lighthill Rapport, opgedragen door de Britse regering in 1973, bekritiseerde AI onderzoek hard voor het falen om beloftes waar te maken. Het concludeerde dat AI weinig meer had bereikt dan wat conventionele programmering kon bereiken, leidend tot dramatische financieringsbesnoeiingen in het VK en bijdragend aan de eerste AI winter."
         }
+      },
+      {
+        question: {
+          en: "What was the impact of Geoffrey Hinton's work on deep belief networks in 2006?",
+          es: "¿Cuál fue el impacto del trabajo de Geoffrey Hinton sobre redes de creencia profundas en 2006?",
+          de: "Was war die Auswirkung von Geoffrey Hintons Arbeit über Deep Belief Networks 2006?",
+          nl: "Wat was de impact van Geoffrey Hinton's werk aan deep belief networks in 2006?"
+        },
+        options: [
+          { en: "Showed deep neural networks could be trained effectively, sparking the deep learning revolution", es: "Mostró que las redes neuronales profundas podían entrenarse efectivamente, desencadenando la revolución del aprendizaje profundo", de: "Zeigte dass tiefe neuronale Netzwerke effektiv trainiert werden konnten und löste die Deep Learning Revolution aus", nl: "Toonde dat diepe neurale netwerken effectief getraind konden worden, wat de deep learning revolutie ontketende" },
+          { en: "Proved neural networks were impossible", es: "Probó que las redes neuronales eran imposibles", de: "Bewies dass neuronale Netzwerke unmöglich waren", nl: "Bewees dat neurale netwerken onmogelijk waren" },
+          { en: "Created the first computer", es: "Creó la primera computadora", de: "Schuf den ersten Computer", nl: "Creëerde de eerste computer" },
+          { en: "Invented the internet", es: "Inventó internet", de: "Erfand das Internet", nl: "Vond het internet uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hinton's 2006 paper on training deep belief networks through greedy layer-wise pretraining showed that deep networks could be trained effectively, overcoming previous training difficulties and launching the modern deep learning era.",
+          es: "El artículo de Hinton de 2006 sobre entrenar redes de creencia profundas através de preentrenamiento codicioso capa por capa mostró que las redes profundas podían entrenarse efectivamente, superando dificultades previas de entrenamiento y lanzando la era moderna del aprendizaje profundo.",
+          de: "Hintons 2006er Paper über das Training von Deep Belief Networks durch gieriges schichtweises Vortraining zeigte dass tiefe Netzwerke effektiv trainiert werden konnten, überwand frühere Trainingsschwierigkeiten und startete die moderne Deep Learning Ära.",
+          nl: "Hinton's 2006 paper over het trainen van deep belief networks door greedy laag-per-laag voortraining toonde dat diepe netwerken effectief getraind konden worden, wat eerdere trainingsmoeilijkheden overwon en het moderne deep learning tijdperk lanceerde."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of AlexNet winning ImageNet in 2012?",
+          es: "¿Cuál fue la importancia de que AlexNet ganara ImageNet en 2012?",
+          de: "Was war die Bedeutung von AlexNets ImageNet-Sieg 2012?",
+          nl: "Wat was de betekenis van AlexNet die ImageNet won in 2012?"
+        },
+        options: [
+          { en: "Demonstrated convolutional neural networks vastly outperformed traditional computer vision methods", es: "Demostró que las redes neuronales convolucionales superaban vastamente los métodos tradicionales de visión por computadora", de: "Demonstrierte dass Convolutional Neural Networks traditionelle Computer Vision Methoden bei weitem übertrafen", nl: "Toonde dat convolutionele neurale netwerken traditionele computer vision methoden ver overtroffen" },
+          { en: "First time a computer displayed any image", es: "Primera vez que una computadora mostró cualquier imagen", de: "Erstes Mal dass ein Computer irgendein Bild anzeigte", nl: "Eerste keer dat een computer een afbeelding toonde" },
+          { en: "Proved deep learning was useless", es: "Probó que el aprendizaje profundo era inútil", de: "Bewies dass Deep Learning nutzlos war", nl: "Bewees dat deep learning nutteloos was" },
+          { en: "Created artificial consciousness", es: "Creó conciencia artificial", de: "Schuf künstliches Bewusstsein", nl: "Creëerde kunstmatig bewustzijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AlexNet's dramatic ImageNet victory with a 15.3% error rate (versus 26% for second place) proved that deep convolutional networks trained on GPUs could achieve superhuman computer vision performance, catalyzing the deep learning revolution.",
+          es: "La victoria dramática de AlexNet en ImageNet con una tasa de error del 15.3% (versus 26% para el segundo lugar) probó que las redes convolucionales profundas entrenadas en GPUs podían lograr rendimiento de visión por computadora sobrehumano, catalizando la revolución del aprendizaje profundo.",
+          de: "AlexNets dramatischer ImageNet-Sieg mit 15,3% Fehlerrate (versus 26% für den Zweiten) bewies dass tiefe Convolutional Networks auf GPUs trainiert übermenschliche Computer Vision Leistung erreichen konnten und katalysierte die Deep Learning Revolution.",
+          nl: "AlexNet's dramatische ImageNet overwinning met een 15.3% foutpercentage (versus 26% voor tweede plaats) bewees dat diepe convolutionele netwerken getraind op GPU's bovenmenselijke computer vision prestaties konden bereiken, wat de deep learning revolutie katalyseerde."
+        }
+      },
+      {
+        question: {
+          en: "What was the Rete algorithm's contribution to expert systems?",
+          es: "¿Cuál fue la contribución del algoritmo Rete a los sistemas expertos?",
+          de: "Was war der Beitrag des Rete-Algorithmus zu Expertensystemen?",
+          nl: "Wat was de bijdrage van het Rete algoritme aan expertsystemen?"
+        },
+        options: [
+          { en: "Efficient pattern matching for production rules reducing redundant computations", es: "Coincidencia eficiente de patrones para reglas de producción reduciendo computaciones redundantes", de: "Effiziente Mustererkennung für Produktionsregeln die redundante Berechnungen reduzierte", nl: "Efficiënte patroonherkenning voor productieregels die redundante berekeningen verminderde" },
+          { en: "First neural network algorithm", es: "Primer algoritmo de red neuronal", de: "Erster neuronaler Netzwerk-Algorithmus", nl: "Eerste neurale netwerk algoritme" },
+          { en: "Invented backpropagation", es: "Inventó la retropropagación", de: "Erfand Backpropagation", nl: "Vond backpropagation uit" },
+          { en: "Created genetic algorithms", es: "Creó algoritmos genéticos", de: "Schuf genetische Algorithmen", nl: "Creëerde genetische algoritmen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Charles Forgy's Rete algorithm (1979) revolutionized expert systems by efficiently matching rules against facts, storing partial matches and avoiding redundant comparisons, making large rule-based systems practical.",
+          es: "El algoritmo Rete de Charles Forgy (1979) revolucionó los sistemas expertos al emparejar eficientemente reglas con hechos, almacenando coincidencias parciales y evitando comparaciones redundantes, haciendo prácticos sistemas basados en reglas grandes.",
+          de: "Charles Forgys Rete-Algorithmus (1979) revolutionierte Expertensysteme durch effizientes Abgleichen von Regeln mit Fakten, Speichern partieller Übereinstimmungen und Vermeiden redundanter Vergleiche, was große regelbasierte Systeme praktikabel machte.",
+          nl: "Charles Forgy's Rete algoritme (1979) revolutioneerde expertsystemen door efficiënt regels te matchen met feiten, gedeeltelijke matches op te slaan en redundante vergelijkingen te vermijden, wat grote op regels gebaseerde systemen praktisch maakte."
+        }
+      },
+      {
+        question: {
+          en: "What was the ALVINN (Autonomous Land Vehicle In a Neural Network) project?",
+          es: "¿Qué fue el proyecto ALVINN (Vehículo Terrestre Autónomo en una Red Neuronal)?",
+          de: "Was war das ALVINN (Autonomous Land Vehicle In a Neural Network) Projekt?",
+          nl: "Wat was het ALVINN (Autonomous Land Vehicle In a Neural Network) project?"
+        },
+        options: [
+          { en: "Early neural network autonomous driving system that learned to steer from human demonstrations", es: "Sistema temprano de conducción autónoma con red neuronal que aprendió a dirigir de demostraciones humanas", de: "Frühes neuronales Netzwerk autonomes Fahrsystem das aus menschlichen Demonstrationen lenken lernte", nl: "Vroeg neuraal netwerk autonoom rijsysteem dat leerde sturen van menselijke demonstraties" },
+          { en: "First commercial robot vacuum", es: "Primera aspiradora robot comercial", de: "Erster kommerzieller Roboterstaubsauger", nl: "Eerste commerciële robotstofzuiger" },
+          { en: "Expert system for medical diagnosis", es: "Sistema experto para diagnóstico médico", de: "Expertensystem für medizinische Diagnose", nl: "Expertsysteem voor medische diagnose" },
+          { en: "Chess-playing program", es: "Programa para jugar ajedrez", de: "Schachspielprogramm", nl: "Schaakspelprogramma" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ALVINN (1989) was a pioneering neural network system that learned to drive by watching a human driver, achieving highway speeds and demonstrating end-to-end learning for autonomous driving decades before modern self-driving cars.",
+          es: "ALVINN (1989) fue un sistema pionero de red neuronal que aprendió a conducir observando a un conductor humano, alcanzando velocidades de autopista y demostrando aprendizaje de extremo a extremo para conducción autónoma décadas antes de los autos autónomos modernos.",
+          de: "ALVINN (1989) war ein bahnbrechendes neuronales Netzwerksystem das Fahren lernte indem es einem menschlichen Fahrer zusah, Autobahngeschwindigkeiten erreichte und End-to-End-Lernen für autonomes Fahren Jahrzehnte vor modernen selbstfahrenden Autos demonstrierte.",
+          nl: "ALVINN (1989) was een baanbrekend neuraal netwerk systeem dat leerde rijden door een menselijke bestuurder te observeren, snelwegsnelheden bereikte en end-to-end learning voor autonoom rijden demonstreerde decennia voor moderne zelfrijdende auto's."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of the ImageNet dataset created by Fei-Fei Li?",
+          es: "¿Cuál fue la importancia del conjunto de datos ImageNet creado por Fei-Fei Li?",
+          de: "Was war die Bedeutung des ImageNet-Datensatzes von Fei-Fei Li?",
+          nl: "Wat was de betekenis van de ImageNet dataset gecreëerd door Fei-Fei Li?"
+        },
+        options: [
+          { en: "Provided large-scale labeled dataset enabling training of deep neural networks for vision", es: "Proporcionó conjunto de datos etiquetado a gran escala habilitando entrenamiento de redes neuronales profundas para visión", de: "Bot großangelegten beschrifteten Datensatz der Training tiefer neuronaler Netzwerke für Vision ermöglichte", nl: "Bood grootschalige gelabelde dataset die training van diepe neurale netwerken voor vision mogelijk maakte" },
+          { en: "Was the first photograph ever taken", es: "Fue la primera fotografía jamás tomada", de: "War die erste jemals aufgenommene Fotografie", nl: "Was de eerste foto ooit genomen" },
+          { en: "Created artificial reality", es: "Creó realidad artificial", de: "Schuf künstliche Realität", nl: "Creëerde kunstmatige realiteit" },
+          { en: "Invented digital cameras", es: "Inventó cámaras digitales", de: "Erfand Digitalkameras", nl: "Vond digitale camera's uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ImageNet (2009) provided 14+ million labeled images across 20,000+ categories, giving researchers the large-scale data needed to train deep neural networks effectively, catalyzing the computer vision revolution and modern deep learning.",
+          es: "ImageNet (2009) proporcionó 14+ millones de imágenes etiquetadas en 20,000+ categorías, dando a investigadores los datos a gran escala necesarios para entrenar redes neuronales profundas efectivamente, catalizando la revolución de visión por computadora y aprendizaje profundo moderno.",
+          de: "ImageNet (2009) bot 14+ Millionen beschriftete Bilder über 20.000+ Kategorien und gab Forschern die großangelegten Daten die nötig waren um tiefe neuronale Netzwerke effektiv zu trainieren, katalysierte die Computer Vision Revolution und modernes Deep Learning.",
+          nl: "ImageNet (2009) bood 14+ miljoen gelabelde afbeeldingen over 20.000+ categorieën, gaf onderzoekers de grootschalige data die nodig was om diepe neurale netwerken effectief te trainen, katalyseerde de computer vision revolutie en modern deep learning."
+        }
+      },
+      {
+        question: {
+          en: "What was the Monte Carlo Tree Search algorithm's impact on game AI?",
+          es: "¿Cuál fue el impacto del algoritmo de Búsqueda de Árbol Monte Carlo en IA de juegos?",
+          de: "Was war die Auswirkung des Monte Carlo Tree Search Algorithmus auf Spiel-KI?",
+          nl: "Wat was de impact van het Monte Carlo Tree Search algoritme op game AI?"
+        },
+        options: [
+          { en: "Enabled strong play in games with huge branching factors like Go before deep learning", es: "Habilitó juego fuerte en juegos con factores de ramificación enormes como Go antes del aprendizaje profundo", de: "Ermöglichte starkes Spiel in Spielen mit riesigen Verzweigungsfaktoren wie Go vor Deep Learning", nl: "Maakte sterk spel mogelijk in spellen met enorme vertakkingsfactoren zoals Go voor deep learning" },
+          { en: "Was only useful for chess", es: "Solo fue útil para ajedrez", de: "War nur für Schach nützlich", nl: "Was alleen nuttig voor schaak" },
+          { en: "Required perfect information", es: "Requirió información perfecta", de: "Erforderte perfekte Information", nl: "Vereiste perfecte informatie" },
+          { en: "Couldn't handle randomness", es: "No podía manejar aleatoriedad", de: "Konnte keine Zufälligkeit handhaben", nl: "Kon geen willekeur aan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MCTS (2006) revolutionized game AI by using random sampling and statistical analysis to evaluate moves, enabling strong computer Go play for the first time and influencing AlphaGo's eventual mastery of the game.",
+          es: "MCTS (2006) revolucionó la IA de juegos usando muestreo aleatorio y análisis estadístico para evaluar movimientos, habilitando por primera vez juego fuerte de Go por computadora e influyendo en el eventual dominio de AlphaGo del juego.",
+          de: "MCTS (2006) revolutionierte Spiel-KI durch Verwendung von Zufallsstichproben und statistischer Analyse zur Bewertung von Zügen, ermöglichte erstmals starkes Computer-Go-Spiel und beeinflusste AlphaGos eventuelle Meisterschaft des Spiels.",
+          nl: "MCTS (2006) revolutioneerde game AI door willekeurige sampling en statistische analyse te gebruiken om zetten te evalueren, maakte voor het eerst sterk computer Go spel mogelijk en beïnvloedde AlphaGo's uiteindelijke beheersing van het spel."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of word2vec released by Google in 2013?",
+          es: "¿Cuál fue la importancia de word2vec lanzado por Google en 2013?",
+          de: "Was war die Bedeutung von word2vec veröffentlicht von Google 2013?",
+          nl: "Wat was de betekenis van word2vec uitgebracht door Google in 2013?"
+        },
+        options: [
+          { en: "Learned dense word embeddings capturing semantic relationships from large text corpora", es: "Aprendió incrustaciones de palabras densas capturando relaciones semánticas de grandes corpus de texto", de: "Lernte dichte Worteinbettungen die semantische Beziehungen aus großen Textkorpora erfassten", nl: "Leerde dichte woord embeddings die semantische relaties vastlegden uit grote tekstcorpora" },
+          { en: "First spell checker program", es: "Primer programa de corrección ortográfica", de: "Erstes Rechtschreibprüfprogramm", nl: "Eerste spellingcontrole programma" },
+          { en: "Invented natural language", es: "Inventó lenguaje natural", de: "Erfand natürliche Sprache", nl: "Vond natuurlijke taal uit" },
+          { en: "Created the first dictionary", es: "Creó el primer diccionario", de: "Schuf das erste Wörterbuch", nl: "Creëerde het eerste woordenboek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "word2vec revolutionized NLP by learning vector representations where semantically similar words had similar vectors, enabling operations like 'king - man + woman = queen', and became foundational for modern language models.",
+          es: "word2vec revolucionó el procesamiento de lenguaje natural aprendiendo representaciones vectoriales donde palabras semánticamente similares tenían vectores similares, habilitando operaciones como 'rey - hombre + mujer = reina'.",
+          de: "word2vec revolutionierte NLP durch Lernen von Vektordarstellungen wo semantisch ähnliche Wörter ähnliche Vektoren hatten, ermöglichte Operationen wie 'König - Mann + Frau = Königin' und wurde grundlegend für moderne Sprachmodelle.",
+          nl: "word2vec revolutioneerde NLP door vector representaties te leren waar semantisch vergelijkbare woorden vergelijkbare vectoren hadden, maakte operaties mogelijk zoals 'koning - man + vrouw = koningin' en werd fundamenteel voor moderne taalmodellen."
+        }
+      },
+      {
+        question: {
+          en: "What was the DARPA Grand Challenge and its significance for autonomous vehicles?",
+          es: "¿Qué fue el DARPA Grand Challenge y su importancia para vehículos autónomos?",
+          de: "Was war die DARPA Grand Challenge und ihre Bedeutung für autonome Fahrzeuge?",
+          nl: "Wat was de DARPA Grand Challenge en zijn betekenis voor autonome voertuigen?"
+        },
+        options: [
+          { en: "Robot car race that catalyzed self-driving vehicle technology development from 2004-2007", es: "Carrera de autos robot que catalizó el desarrollo de tecnología de vehículos autónomos de 2004-2007", de: "Roboter-Auto-Rennen das Selbstfahrzeug-Technologie-Entwicklung von 2004-2007 katalysierte", nl: "Robot auto race die zelfrijdende voertuig technologie ontwikkeling katalyseerde van 2004-2007" },
+          { en: "First computer programming contest", es: "Primer concurso de programación de computadoras", de: "Erster Computerprogrammier-Wettbewerb", nl: "Eerste computer programmeer wedstrijd" },
+          { en: "Chess championship for computers", es: "Campeonato de ajedrez para computadoras", de: "Schachmeisterschaft für Computer", nl: "Schaakkampioenschap voor computers" },
+          { en: "AI safety conference", es: "Conferencia de seguridad de IA", de: "KI-Sicherheitskonferenz", nl: "AI veiligheidsconferentie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The DARPA Grand Challenges (2004-2007) challenged teams to build autonomous vehicles navigating desert terrain and urban environments, jumpstarting modern self-driving car technology and attracting major tech companies to the field.",
+          es: "Los DARPA Grand Challenges (2004-2007) desafiaron a equipos a construir vehículos autónomos navegando terreno desértico y ambientes urbanos, impulsando la tecnología moderna de autos autónomos y atrayendo grandes compañías tecnológicas al campo.",
+          de: "Die DARPA Grand Challenges (2004-2007) forderten Teams heraus autonome Fahrzeuge zu bauen die Wüstengelände und städtische Umgebungen navigierten, starteten moderne Selbstfahrauto-Technologie und zogen große Tech-Unternehmen in das Feld.",
+          nl: "De DARPA Grand Challenges (2004-2007) daagden teams uit om autonome voertuigen te bouwen die woestijnterrein en stedelijke omgevingen navigeerden, lanceerden moderne zelfrijdende auto technologie en trokken grote tech bedrijven naar het veld."
+        }
+      },
+      {
+        question: {
+          en: "What was the Semantic Web initiative and its relationship to AI?",
+          es: "¿Qué fue la iniciativa de Web Semántica y su relación con IA?",
+          de: "Was war die Semantic Web Initiative und ihre Beziehung zur KI?",
+          nl: "Wat was het Semantic Web initiatief en zijn relatie tot AI?"
+        },
+        options: [
+          { en: "Effort to make web data machine-readable through ontologies and reasoning", es: "Esfuerzo para hacer datos web legibles por máquina através de ontologías y razonamiento", de: "Bemühung Webdaten durch Ontologien und Denken maschinenlesbar zu machen", nl: "Inspanning om webdata machine-leesbaar te maken door ontologieën en redeneren" },
+          { en: "First web browser", es: "Primer navegador web", de: "Erster Webbrowser", nl: "Eerste webbrowser" },
+          { en: "Social media platform", es: "Plataforma de redes sociales", de: "Social Media Plattform", nl: "Social media platform" },
+          { en: "E-commerce system", es: "Sistema de comercio electrónico", de: "E-Commerce-System", nl: "E-commerce systeem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Semantic Web, championed by Tim Berners-Lee, aimed to structure web data using ontologies, RDF, and logic-based reasoning, enabling intelligent agents to process and integrate information automatically, though it faced challenges in widespread adoption.",
+          es: "La Web Semántica, defendida por Tim Berners-Lee, tuvo como objetivo estructurar datos web usando ontologías, RDF y razonamiento basado en lógica, habilitando agentes inteligentes para procesar e integrar información automáticamente.",
+          de: "Das Semantic Web, verfochten von Tim Berners-Lee, zielte darauf ab Webdaten unter Verwendung von Ontologien, RDF und logikbasiertem Denken zu strukturieren und intelligente Agenten zu befähigen Information automatisch zu verarbeiten und zu integrieren.",
+          nl: "Het Semantic Web, voorgestaan door Tim Berners-Lee, was gericht op het structureren van webdata met ontologieën, RDF en logisch gebaseerd redeneren, wat intelligente agenten in staat stelde informatie automatisch te verwerken en integreren."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of GANs (Generative Adversarial Networks) introduced by Ian Goodfellow in 2014?",
+          es: "¿Cuál fue la importancia de las GANs (Redes Adversarias Generativas) introducidas por Ian Goodfellow en 2014?",
+          de: "Was war die Bedeutung von GANs (Generative Adversarial Networks) eingeführt von Ian Goodfellow 2014?",
+          nl: "Wat was de betekenis van GANs (Generative Adversarial Networks) geïntroduceerd door Ian Goodfellow in 2014?"
+        },
+        options: [
+          { en: "Revolutionary approach to generating realistic synthetic data through adversarial training", es: "Enfoque revolucionario para generar datos sintéticos realistas através de entrenamiento adversarial", de: "Revolutionärer Ansatz zur Erzeugung realistischer synthetischer Daten durch adversariales Training", nl: "Revolutionaire benadering voor het genereren van realistische synthetische data door adversarial training" },
+          { en: "First classification algorithm", es: "Primer algoritmo de clasificación", de: "Erster Klassifikationsalgorithmus", nl: "Eerste classificatie algoritme" },
+          { en: "Invented supervised learning", es: "Inventó aprendizaje supervisado", de: "Erfand überwachtes Lernen", nl: "Vond supervised learning uit" },
+          { en: "Created symbolic AI", es: "Creó IA simbólica", de: "Schuf symbolische KI", nl: "Creëerde symbolische AI" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GANs pit a generator network against a discriminator network in a game-theoretic framework, enabling generation of remarkably realistic images, videos, and data, revolutionizing generative modeling and creative AI applications.",
+          es: "Las GANs enfrentan una red generadora contra una red discriminadora en un marco de teoría de juegos, habilitando generación de imágenes, videos y datos notablemente realistas, revolucionando el modelado generativo y aplicaciones creativas de IA.",
+          de: "GANs stellen ein Generator-Netzwerk gegen ein Diskriminator-Netzwerk in einem spieltheoretischen Rahmen und ermöglichen die Erzeugung bemerkenswert realistischer Bilder, Videos und Daten, revolutionierten generative Modellierung und kreative KI-Anwendungen.",
+          nl: "GANs zetten een generator netwerk tegen een discriminator netwerk in een speltheoretisch framework, wat generatie van opmerkelijk realistische beelden, video's en data mogelijk maakte, revolutioneerde generatief modelleren en creatieve AI toepassingen."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of ResNet (Residual Networks) introduced in 2015?",
+          es: "¿Cuál fue la importancia de ResNet (Redes Residuales) introducidas en 2015?",
+          de: "Was war die Bedeutung von ResNet (Residuale Netzwerke) eingeführt 2015?",
+          nl: "Wat was de betekenis van ResNet (Residuele Netwerken) geïntroduceerd in 2015?"
+        },
+        options: [
+          { en: "Skip connections enabled training of very deep networks with 100+ layers", es: "Conexiones de salto habilitaron entrenamiento de redes muy profundas con 100+ capas", de: "Skip-Verbindungen ermöglichten Training sehr tiefer Netzwerke mit 100+ Schichten", nl: "Skip verbindingen maakten training van zeer diepe netwerken met 100+ lagen mogelijk" },
+          { en: "First use of neural networks", es: "Primer uso de redes neuronales", de: "Erste Verwendung neuronaler Netzwerke", nl: "Eerste gebruik van neurale netwerken" },
+          { en: "Invented backpropagation", es: "Inventó la retropropagación", de: "Erfand Backpropagation", nl: "Vond backpropagation uit" },
+          { en: "Created reinforcement learning", es: "Creó aprendizaje por refuerzo", de: "Schuf Verstärkungslernen", nl: "Creëerde versterkingsleren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ResNet's residual connections solved the degradation problem in very deep networks, enabling architectures with 100+ layers that achieved unprecedented accuracy on ImageNet and other benchmarks, advancing computer vision significantly.",
+          es: "Las conexiones residuales de ResNet resolvieron el problema de degradación en redes muy profundas, habilitando arquitecturas con 100+ capas que lograron precisión sin precedentes en ImageNet y otros benchmarks.",
+          de: "ResNets residuale Verbindungen lösten das Degradationsproblem in sehr tiefen Netzwerken, ermöglichten Architekturen mit 100+ Schichten die beispiellose Genauigkeit auf ImageNet und anderen Benchmarks erreichten.",
+          nl: "ResNet's residuele verbindingen losten het degradatie probleem in zeer diepe netwerken op, maakten architecturen met 100+ lagen mogelijk die ongekende nauwkeurigheid bereikten op ImageNet en andere benchmarks."
+        }
+      },
+      {
+        question: {
+          en: "What was the Cyc project's approach to encoding common sense?",
+          es: "¿Cuál fue el enfoque del proyecto Cyc para codificar sentido común?",
+          de: "Was war der Ansatz des Cyc-Projekts zur Kodierung von gesundem Menschenverstand?",
+          nl: "Wat was de aanpak van het Cyc project voor het coderen van gezond verstand?"
+        },
+        options: [
+          { en: "Manual encoding of millions of facts and rules over decades", es: "Codificación manual de millones de hechos y reglas durante décadas", de: "Manuelle Kodierung von Millionen Fakten und Regeln über Jahrzehnte", nl: "Handmatige codering van miljoenen feiten en regels over decennia" },
+          { en: "Pure neural network learning", es: "Aprendizaje puro de redes neuronales", de: "Reines neuronales Netzwerk-Lernen", nl: "Puur neuraal netwerk leren" },
+          { en: "Genetic algorithms only", es: "Solo algoritmos genéticos", de: "Nur genetische Algorithmen", nl: "Alleen genetische algoritmen" },
+          { en: "Crowdsourced from social media", es: "Colaboración masiva de redes sociales", de: "Crowdsourced von sozialen Medien", nl: "Crowdsourced van social media" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cyc's massive knowledge engineering effort manually encoded millions of common sense facts and inference rules over 30+ years, representing one of the largest symbolic AI projects, though it faced challenges in coverage and brittleness.",
+          es: "El esfuerzo masivo de ingeniería de conocimiento de Cyc codificó manualmente millones de hechos de sentido común y reglas de inferencia durante 30+ años, representando uno de los proyectos de IA simbólica más grandes.",
+          de: "Cycs massives Wissenstechnik-Bemühen kodierte manuell Millionen von Common-Sense-Fakten und Inferenzregeln über 30+ Jahre und repräsentierte eines der größten symbolischen KI-Projekte.",
+          nl: "Cyc's massale kennistechniek inspanning codeerde handmatig miljoenen gezond verstand feiten en inferentieregels over 30+ jaar, wat een van de grootste symbolische AI projecten vertegenwoordigde."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of the Transformer architecture introduced in 2017?",
+          es: "¿Cuál fue la importancia de la arquitectura Transformer introducida en 2017?",
+          de: "Was war die Bedeutung der Transformer-Architektur eingeführt 2017?",
+          nl: "Wat was de betekenis van de Transformer architectuur geïntroduceerd in 2017?"
+        },
+        options: [
+          { en: "Attention mechanisms replaced recurrence, enabling parallel training and better long-range dependencies", es: "Mecanismos de atención reemplazaron recurrencia, habilitando entrenamiento paralelo y mejores dependencias de largo rango", de: "Aufmerksamkeitsmechanismen ersetzten Rekurrenz, ermöglichten paralleles Training und bessere Langstreckenabhängigkeiten", nl: "Aandachtsmechanismen vervingen recurrentie, maakten parallelle training en betere lange-afstands afhankelijkheden mogelijk" },
+          { en: "First neural network ever created", es: "Primera red neuronal jamás creada", de: "Erstes jemals erstelltes neuronales Netzwerk", nl: "Eerste neurale netwerk ooit gecreëerd" },
+          { en: "Invented computer vision", es: "Inventó visión por computadora", de: "Erfand Computer Vision", nl: "Vond computer vision uit" },
+          { en: "Created symbolic reasoning", es: "Creó razonamiento simbólico", de: "Schuf symbolisches Denken", nl: "Creëerde symbolisch redeneren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Transformer's self-attention mechanism eliminated recurrence, enabling efficient parallel training and better modeling of long-range dependencies, revolutionizing NLP and leading to models like BERT, GPT, and modern large language models.",
+          es: "El mecanismo de auto-atención del Transformer eliminó la recurrencia, habilitando entrenamiento paralelo eficiente y mejor modelado de dependencias de largo rango, revolucionando el procesamiento de lenguaje natural y llevando a modelos como BERT, GPT.",
+          de: "Der Self-Attention-Mechanismus des Transformers eliminierte Rekurrenz, ermöglichte effizientes paralleles Training und bessere Modellierung von Langstreckenabhängigkeiten, revolutionierte NLP und führte zu Modellen wie BERT, GPT.",
+          nl: "Het Transformer's self-attention mechanisme elimineerde recurrentie, maakte efficiënte parallelle training en betere modellering van lange-afstands afhankelijkheden mogelijk, revolutioneerde NLP en leidde tot modellen zoals BERT, GPT."
+        }
+      },
+      {
+        question: {
+          en: "What was the impact of transfer learning on deep learning practice?",
+          es: "¿Cuál fue el impacto del aprendizaje por transferencia en la práctica del aprendizaje profundo?",
+          de: "Was war die Auswirkung von Transfer Learning auf die Deep Learning Praxis?",
+          nl: "Wat was de impact van transfer learning op deep learning praktijk?"
+        },
+        options: [
+          { en: "Enabled reusing pretrained models for new tasks with limited data", es: "Habilitó reutilizar modelos preentrenados para nuevas tareas con datos limitados", de: "Ermöglichte Wiederverwendung vortrainierter Modelle für neue Aufgaben mit begrenzten Daten", nl: "Maakte hergebruik van voorgetrainde modellen mogelijk voor nieuwe taken met beperkte data" },
+          { en: "Made training slower", es: "Hizo el entrenamiento más lento", de: "Machte Training langsamer", nl: "Maakte training langzamer" },
+          { en: "Required more data", es: "Requirió más datos", de: "Erforderte mehr Daten", nl: "Vereiste meer data" },
+          { en: "Only worked for images", es: "Solo funcionó para imágenes", de: "Funktionierte nur für Bilder", nl: "Werkte alleen voor beelden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Transfer learning revolutionized practical deep learning by allowing models pretrained on large datasets to be fine-tuned for specific tasks with minimal data, democratizing AI and enabling small teams to achieve state-of-the-art results.",
+          es: "El aprendizaje por transferencia revolucionó el aprendizaje profundo práctico permitiendo que modelos preentrenados en grandes conjuntos de datos sean ajustados para tareas específicas con datos mínimos, democratizando la IA.",
+          de: "Transfer Learning revolutionierte praktisches Deep Learning indem es ermöglichte dass auf großen Datensätzen vortrainierte Modelle für spezifische Aufgaben mit minimalen Daten feinabgestimmt werden konnten, demokratisierte KI.",
+          nl: "Transfer learning revolutioneerde praktische deep learning door modellen voorgetraind op grote datasets mogelijk te maken om afgestemd te worden voor specifieke taken met minimale data, democratiseerde AI."
+        }
+      },
+      {
+        question: {
+          en: "What was the NELL (Never-Ending Language Learning) project?",
+          es: "¿Qué fue el proyecto NELL (Never-Ending Language Learning)?",
+          de: "Was war das NELL (Never-Ending Language Learning) Projekt?",
+          nl: "Wat was het NELL (Never-Ending Language Learning) project?"
+        },
+        options: [
+          { en: "CMU system continuously learning facts from web since 2010", es: "Sistema de CMU aprendiendo continuamente hechos de la web desde 2010", de: "CMU-System das seit 2010 kontinuierlich Fakten aus dem Web lernt", nl: "CMU systeem dat continu feiten leert van het web sinds 2010" },
+          { en: "First spell checker", es: "Primer corrector ortográfico", de: "Erster Rechtschreibprüfer", nl: "Eerste spellingcontrole" },
+          { en: "Social media platform", es: "Plataforma de redes sociales", de: "Social Media Plattform", nl: "Social media platform" },
+          { en: "Video game", es: "Videojuego", de: "Videospiel", nl: "Videospel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NELL demonstrates lifelong learning by continuously reading web pages since 2010, extracting facts and improving its knowledge base over time, representing an ongoing experiment in cumulative machine learning.",
+          es: "NELL demuestra aprendizaje de por vida leyendo continuamente páginas web desde 2010, extrayendo hechos y mejorando su base de conocimiento con el tiempo, representando un experimento continuo en aprendizaje automático acumulativo.",
+          de: "NELL demonstriert lebenslanges Lernen durch kontinuierliches Lesen von Webseiten seit 2010, extrahiert Fakten und verbessert seine Wissensbasis über Zeit, repräsentiert ein laufendes Experiment in kumulativem maschinellem Lernen.",
+          nl: "NELL demonstreert levenslang leren door continu webpagina's te lezen sinds 2010, feiten te extraheren en zijn kennisbank te verbeteren over tijd, vertegenwoordigt een doorlopend experiment in cumulatief machine learning."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of BERT (Bidirectional Encoder Representations from Transformers) in 2018?",
+          es: "¿Cuál fue la importancia de BERT en 2018?",
+          de: "Was war die Bedeutung von BERT 2018?",
+          nl: "Wat was de betekenis van BERT in 2018?"
+        },
+        options: [
+          { en: "Bidirectional pretraining achieved state-of-the-art on multiple NLP benchmarks", es: "Preentrenamiento bidireccional logró estado del arte en múltiples benchmarks de procesamiento de lenguaje natural", de: "Bidirektionales Vortraining erreichte State-of-the-Art auf mehreren NLP-Benchmarks", nl: "Bidirectionele voortraining behaalde state-of-the-art op meerdere NLP benchmarks" },
+          { en: "First computer program ever", es: "Primer programa de computadora jamás", de: "Erstes Computerprogramm überhaupt", nl: "Eerste computerprogramma ooit" },
+          { en: "Created consciousness", es: "Creó conciencia", de: "Schuf Bewusstsein", nl: "Creëerde bewustzijn" },
+          { en: "Invented language", es: "Inventó lenguaje", de: "Erfand Sprache", nl: "Vond taal uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "BERT's bidirectional training using masked language modeling enabled deep contextual understanding, achieving breakthrough performance across NLP tasks and demonstrating the power of pretrain-then-finetune approaches.",
+          es: "El entrenamiento bidireccional de BERT usando modelado de lenguaje enmascarado habilitó comprensión contextual profunda, logrando rendimiento revolucionario en tareas de procesamiento de lenguaje natural.",
+          de: "BERTs bidirektionales Training mit maskiertem Sprachmodellierung ermöglichte tiefes kontextuelles Verständnis, erreichte Durchbruchleistung über NLP-Aufgaben und demonstrierte die Kraft von Vortrain-dann-Feinabstimmungs-Ansätzen.",
+          nl: "BERT's bidirectionele training met gemaskeerde taalmodellering maakte diep contextueel begrip mogelijk, behaalde doorbraak prestaties over NLP taken en demonstreerde de kracht van pretrain-dan-finetune benaderingen."
+        }
+      },
+      {
+        question: {
+          en: "What was the role of GPUs in the deep learning revolution?",
+          es: "¿Cuál fue el rol de las GPUs en la revolución del aprendizaje profundo?",
+          de: "Was war die Rolle von GPUs in der Deep Learning Revolution?",
+          nl: "Wat was de rol van GPU's in de deep learning revolutie?"
+        },
+        options: [
+          { en: "Massively parallel architecture accelerated neural network training by 10-100x", es: "Arquitectura masivamente paralela aceleró entrenamiento de redes neuronales por 10-100x", de: "Massiv parallele Architektur beschleunigte neuronales Netzwerk-Training um das 10-100-fache", nl: "Massaal parallelle architectuur versnelde neurale netwerk training met 10-100x" },
+          { en: "Made training impossible", es: "Hizo el entrenamiento imposible", de: "Machte Training unmöglich", nl: "Maakte training onmogelijk" },
+          { en: "Only useful for graphics", es: "Solo útil para gráficos", de: "Nur nützlich für Grafik", nl: "Alleen nuttig voor graphics" },
+          { en: "Slowed down computations", es: "Ralentizó las computaciones", de: "Verlangsamte Berechnungen", nl: "Vertraagde berekeningen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GPUs' thousands of cores enabled massively parallel matrix operations crucial for neural networks, reducing training time from months to days, making deep learning practical and catalyzing the AI boom starting with AlexNet's 2012 ImageNet victory.",
+          es: "Los miles de núcleos de las GPUs habilitaron operaciones matriciales masivamente paralelas cruciales para redes neuronales, reduciendo tiempo de entrenamiento de meses a días, haciendo el aprendizaje profundo práctico.",
+          de: "GPUs Tausende von Kernen ermöglichten massiv parallele Matrixoperationen entscheidend für neuronale Netzwerke, reduzierten Trainingszeit von Monaten auf Tage, machten Deep Learning praktikabel und katalysierten den KI-Boom.",
+          nl: "GPU's duizenden cores maakten massaal parallelle matrix operaties mogelijk cruciaal voor neurale netwerken, reduceerden trainingstijd van maanden tot dagen, maakten deep learning praktisch en katalyseerden de AI boom."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of OpenAI's GPT (Generative Pre-trained Transformer) approach?",
+          es: "¿Cuál fue la importancia del enfoque GPT de OpenAI?",
+          de: "Was war die Bedeutung von OpenAIs GPT-Ansatz?",
+          nl: "Wat was de betekenis van OpenAI's GPT benadering?"
+        },
+        options: [
+          { en: "Showed unsupervised pretraining on text enabled few-shot and zero-shot learning", es: "Mostró que el preentrenamiento no supervisado en texto habilitó aprendizaje de pocos y cero ejemplos", de: "Zeigte dass unüberwachtes Vortraining auf Text Few-Shot und Zero-Shot Lernen ermöglichte", nl: "Toonde dat onbegeleid voortrainen op tekst few-shot en zero-shot leren mogelijk maakte" },
+          { en: "First computer ever built", es: "Primera computadora jamás construida", de: "Erster jemals gebauter Computer", nl: "Eerste computer ooit gebouwd" },
+          { en: "Invented electricity", es: "Inventó la electricidad", de: "Erfand Elektrizität", nl: "Vond elektriciteit uit" },
+          { en: "Created the internet", es: "Creó internet", de: "Schuf das Internet", nl: "Creëerde het internet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GPT demonstrated that language models pretrained on massive text corpora could perform diverse tasks with minimal or no task-specific training, pioneering the foundation model paradigm that led to GPT-3 and ChatGPT.",
+          es: "GPT demostró que modelos de lenguaje preentrenados en corpus masivos de texto podían realizar tareas diversas con entrenamiento mínimo o nulo específico de tarea, siendo pionero del paradigma de modelo fundacional que llevó a GPT-3 y ChatGPT.",
+          de: "GPT demonstrierte dass Sprachmodelle auf massiven Textkorpora vortrainiert diverse Aufgaben mit minimalem oder keinem aufgabenspezifischem Training ausführen konnten, war Pionier des Foundation-Model-Paradigmas das zu GPT-3 und ChatGPT führte.",
+          nl: "GPT toonde dat taalmodellen voorgetraind op massale tekstcorpora diverse taken konden uitvoeren met minimale of geen taak-specifieke training, was pionier van het foundation model paradigma dat leidde tot GPT-3 en ChatGPT."
+        }
+      },
+      {
+        question: {
+          en: "What was the Moravec paradox in AI history?",
+          es: "¿Qué fue la paradoja de Moravec en la historia de IA?",
+          de: "Was war das Moravec-Paradoxon in der KI-Geschichte?",
+          nl: "Wat was de Moravec paradox in AI geschiedenis?"
+        },
+        options: [
+          { en: "High-level reasoning is easier for AI than sensorimotor skills contrary to human experience", es: "Razonamiento de alto nivel es más fácil para IA que habilidades sensoriomotoras contrario a experiencia humana", de: "Hochrangiges Denken ist für KI einfacher als sensomotorische Fähigkeiten entgegen menschlicher Erfahrung", nl: "Hoog-niveau redeneren is makkelijker voor AI dan sensomotorische vaardigheden in tegenstelling tot menselijke ervaring" },
+          { en: "AI is impossible to build", es: "La IA es imposible de construir", de: "KI ist unmöglich zu bauen", nl: "AI is onmogelijk te bouwen" },
+          { en: "Computers are always faster than humans", es: "Las computadoras siempre son más rápidas que los humanos", de: "Computer sind immer schneller als Menschen", nl: "Computers zijn altijd sneller dan mensen" },
+          { en: "Humans and AI are identical", es: "Humanos e IA son idénticos", de: "Menschen und KI sind identisch", nl: "Mensen en AI zijn identiek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Moravec observed that AI found chess and theorem-proving easier than tasks like perception and motor control that toddlers master effortlessly, revealing that evolutionary ancient skills are harder to replicate than abstract reasoning.",
+          es: "Moravec observó que la IA encontró ajedrez y demostración de teoremas más fácil que tareas como percepción y control motor que los niños pequeños dominan sin esfuerzo, revelando que habilidades evolutivamente antiguas son más difíciles de replicar.",
+          de: "Moravec beobachtete dass KI Schach und Theorembeweis einfacher fand als Aufgaben wie Wahrnehmung und Motorkontrolle die Kleinkinder mühelos meistern, offenbarte dass evolutionär alte Fähigkeiten schwerer zu replizieren sind.",
+          nl: "Moravec observeerde dat AI schaken en stellingbewijs makkelijker vond dan taken zoals perceptie en motorische controle die peuters moeiteloos beheersen, onthulde dat evolutionair oude vaardigheden moeilijker te repliceren zijn."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of dropout as a regularization technique?",
+          es: "¿Cuál fue la importancia del dropout como técnica de regularización?",
+          de: "Was war die Bedeutung von Dropout als Regularisierungstechnik?",
+          nl: "Wat was de betekenis van dropout als regularisatie techniek?"
+        },
+        options: [
+          { en: "Randomly dropping neurons during training prevented overfitting in deep networks", es: "Descartar aleatoriamente neuronas durante entrenamiento previno sobreajuste en redes profundas", de: "Zufälliges Fallenlassen von Neuronen während des Trainings verhinderte Überanpassung in tiefen Netzwerken", nl: "Willekeurig laten vallen van neuronen tijdens training voorkwam overfitting in diepe netwerken" },
+          { en: "Made networks train slower always", es: "Hizo que las redes entrenaran más lento siempre", de: "Machte Netzwerke immer langsamer im Training", nl: "Maakte netwerken altijd langzamer trainen" },
+          { en: "Only worked for small networks", es: "Solo funcionó para redes pequeñas", de: "Funktionierte nur für kleine Netzwerke", nl: "Werkte alleen voor kleine netwerken" },
+          { en: "Required more data", es: "Requirió más datos", de: "Erforderte mehr Daten", nl: "Vereiste meer data" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dropout, introduced by Hinton et al. in 2012, randomly deactivates neurons during training, preventing co-adaptation and acting like training an ensemble of networks, becoming a standard technique for preventing overfitting in deep learning.",
+          es: "Dropout, introducido por Hinton et al. en 2012, desactiva aleatoriamente neuronas durante entrenamiento, previniendo co-adaptación y actuando como entrenar un conjunto de redes, convirtiéndose en técnica estándar para prevenir sobreajuste.",
+          de: "Dropout, eingeführt von Hinton et al. 2012, deaktiviert zufällig Neuronen während des Trainings, verhindert Ko-Adaptation und wirkt wie Training eines Ensembles von Netzwerken, wurde Standardtechnik zur Verhinderung von Überanpassung.",
+          nl: "Dropout, geïntroduceerd door Hinton et al. in 2012, deactiveert willekeurig neuronen tijdens training, voorkomt co-adaptatie en werkt als het trainen van een ensemble van netwerken, werd standaard techniek voor het voorkomen van overfitting."
+        }
       }
     ]
   };

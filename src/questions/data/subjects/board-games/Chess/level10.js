@@ -427,6 +427,405 @@
           de: "Die Abtausch-Variante (4.Lxc6) gibt Schwarz verdoppelte c-Bauern und das Läuferpaar, während Weiß einen leichten Raumvorteil und potenziell bessere Bauernstruktur erhält. Sie führt oft zu langen, strategischen Kämpfen.",
           nl: "De Ruil Variant (4.Lxc6) geeft zwart verdubbelde c-pionnen en het loperpaar, terwijl wit een licht ruimtevoordeel krijgt en mogelijk betere pionstructuur. Het leidt vaak tot lange, strategische gevechten."
         }
+      },
+      {
+        question: {
+          en: "What is the 'Lucena position'?",
+          es: "¿Qué es la 'posición de Lucena'?",
+          de: "Was ist die 'Lucena-Stellung'?",
+          nl: "Wat is de 'Lucena positie'?"
+        },
+        options: [
+          { en: "A fundamental rook-pawn endgame winning technique", es: "Una técnica ganadora fundamental de final de torre y peón", de: "Eine fundamentale Gewinn-Technik im Turm-Bauern-Endspiel", nl: "Een fundamentele winnende techniek in toren-pion eindspel" },
+          { en: "An opening trap", es: "Una trampa de apertura", de: "Eine Eröffnungsfalle", nl: "Een openingsval" },
+          { en: "A tactical motif", es: "Un motivo táctico", de: "Ein taktisches Motiv", nl: "Een tactisch motief" },
+          { en: "A pawn structure", es: "Una estructura de peones", de: "Eine Bauernstruktur", nl: "Een pionstructuur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Lucena position is one of the most important rook endgame positions. It's a winning technique where the stronger side builds a 'bridge' with the rook to shield the king from checks and promote the pawn.",
+          es: "La posición de Lucena es una de las posiciones de final de torres más importantes. Es una técnica ganadora donde el lado más fuerte construye un 'puente' con la torre para proteger al rey de los jaques y promocionar el peón.",
+          de: "Die Lucena-Stellung ist eine der wichtigsten Turm-Endspiel-Stellungen. Es ist eine Gewinn-Technik, bei der die stärkere Seite eine 'Brücke' mit dem Turm baut, um den König vor Schachs zu schützen und den Bauern umzuwandeln.",
+          nl: "De Lucena positie is een van de belangrijkste toren eindspel posities. Het is een winnende techniek waarbij de sterkere kant een 'brug' bouwt met de toren om de koning te beschermen tegen schaaks en de pion te promoveren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Philidor's position'?",
+          es: "¿Qué es la 'posición de Philidor'?",
+          de: "Was ist die 'Philidor-Stellung'?",
+          nl: "Wat is de 'Philidor positie'?"
+        },
+        options: [
+          { en: "A defensive rook endgame technique where the rook stays on the third rank", es: "Una técnica defensiva de final de torre donde la torre permanece en la tercera fila", de: "Eine defensive Turm-Endspiel-Technik, bei der der Turm auf der dritten Reihe bleibt", nl: "Een defensieve toren eindspel techniek waarbij de toren op de derde rij blijft" },
+          { en: "An attacking setup", es: "Una configuración de ataque", de: "Eine Angriffs-Aufstellung", nl: "Een aanvalsopstelling" },
+          { en: "A pawn breakthrough", es: "Una ruptura de peones", de: "Ein Bauerndurchbruch", nl: "Een piondoorbraak" },
+          { en: "A king maneuver", es: "Una maniobra del rey", de: "Ein König-Manöver", nl: "Een koningsmanoeuvre" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Philidor's position is a key defensive technique in rook-pawn endgames. The defending rook stays on the third rank to cut off the enemy king, only dropping to the first rank when the pawn advances to the sixth rank.",
+          es: "La posición de Philidor es una técnica defensiva clave en finales de torre y peón. La torre defensora permanece en la tercera fila para cortar al rey enemigo, solo bajando a la primera fila cuando el peón avanza a la sexta fila.",
+          de: "Die Philidor-Stellung ist eine wichtige defensive Technik in Turm-Bauern-Endspielen. Der verteidigende Turm bleibt auf der dritten Reihe, um den gegnerischen König abzuschneiden, und fällt nur auf die erste Reihe zurück, wenn der Bauer zur sechsten Reihe vorrückt.",
+          nl: "De Philidor positie is een belangrijke defensieve techniek in toren-pion eindspelen. De verdedigende toren blijft op de derde rij om de vijandelijke koning af te snijden, alleen naar de eerste rij vallend wanneer de pion naar de zesde rij oprukt."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Berlin Defense' in the Ruy Lopez?",
+          es: "¿Qué es la 'Defensa Berlinesa' en el Ruy López?",
+          de: "Was ist die 'Berliner Verteidigung' in der Spanischen Partie?",
+          nl: "Wat is de 'Berlijnse Verdediging' in de Ruy Lopez?"
+        },
+        options: [
+          { en: "3...Nf6, a solid defense often leading to an endgame", es: "3...Cf6, una defensa sólida que a menudo lleva a un final", de: "3...Sf6, eine solide Verteidigung, die oft zu einem Endspiel führt", nl: "3...Pf6, een solide verdediging die vaak leidt tot een eindspel" },
+          { en: "3...a6, the main line", es: "3...a6, la línea principal", de: "3...a6, die Hauptlinie", nl: "3...a6, de hoofdlijn" },
+          { en: "3...d6, the Steinitz Defense", es: "3...d6, la Defensa Steinitz", de: "3...d6, die Steinitz-Verteidigung", nl: "3...d6, de Steinitz Verdediging" },
+          { en: "3...Bc5, the classical line", es: "3...Ac5, la línea clásica", de: "3...Lc5, die klassische Linie", nl: "3...Lc5, de klassieke lijn" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Berlin Defense (3...Nf6) became popular after Kramnik used it successfully against Kasparov in 2000. After 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 dxc6 7.dxe5 Nf5 8.Qxd8+ Kxd8, Black gets a solid endgame position known as the 'Berlin Wall.'",
+          es: "La Defensa Berlinesa (3...Cf6) se volvió popular después de que Kramnik la usara exitosamente contra Kasparov en 2000. Después de 4.O-O Cxe4 5.d4 Cd6 6.Axc6 dxc6 7.dxe5 Cf5 8.Dxd8+ Rxd8, las negras obtienen una posición de final sólida conocida como el 'Muro de Berlín'.",
+          de: "Die Berliner Verteidigung (3...Sf6) wurde populär, nachdem Kramnik sie 2000 erfolgreich gegen Kasparov einsetzte. Nach 4.O-O Sxe4 5.d4 Sd6 6.Lxc6 dxc6 7.dxe5 Sf5 8.Dxd8+ Kxd8 erhält Schwarz eine solide Endspiel-Stellung, die als 'Berliner Mauer' bekannt ist.",
+          nl: "De Berlijnse Verdediging (3...Pf6) werd populair nadat Kramnik het in 2000 succesvol tegen Kasparov gebruikte. Na 4.O-O Pxe4 5.d4 Pd6 6.Lxc6 dxc6 7.dxe5 Pf5 8.Dxd8+ Kxd8 krijgt zwart een solide eindspel positie bekend als de 'Berlijnse Muur'."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Alekhine's Gun' formation?",
+          es: "¿Qué es la formación 'Cañón de Alekhine'?",
+          de: "Was ist die 'Aljechin-Kanone'-Formation?",
+          nl: "Wat is de 'Alekhine's Kanon' formatie?"
+        },
+        options: [
+          { en: "Queen and two rooks aligned on the same file or rank", es: "Dama y dos torres alineadas en la misma columna o fila", de: "Dame und zwei Türme auf derselben Linie oder Reihe ausgerichtet", nl: "Dame en twee torens uitgelijnd op dezelfde lijn of rij" },
+          { en: "Three knights positioned together", es: "Tres caballos posicionados juntos", de: "Drei Springer zusammen positioniert", nl: "Drie paarden samen gepositioneerd" },
+          { en: "Doubled bishops on a diagonal", es: "Alfiles doblados en una diagonal", de: "Verdoppelte Läufer auf einer Diagonale", nl: "Verdubbelde lopers op een diagonaal" },
+          { en: "A pawn chain formation", es: "Una formación de cadena de peones", de: "Eine Bauernketten-Formation", nl: "Een pioncadeau formatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Alekhine's Gun is a powerful attacking formation where the queen is placed behind two rooks on an open file, creating tremendous pressure. Named after Alexander Alekhine, who used this setup in his famous game against Nimzowitsch in 1930.",
+          es: "El Cañón de Alekhine es una poderosa formación de ataque donde la dama se coloca detrás de dos torres en una columna abierta, creando tremenda presión. Nombrado en honor a Alexander Alekhine, quien usó esta configuración en su famosa partida contra Nimzowitsch en 1930.",
+          de: "Die Aljechin-Kanone ist eine mächtige Angriffs-Formation, bei der die Dame hinter zwei Türmen auf einer offenen Linie platziert wird, was enormen Druck erzeugt. Benannt nach Alexander Aljechin, der diese Aufstellung in seiner berühmten Partie gegen Nimzowitsch 1930 verwendete.",
+          nl: "Alekhine's Kanon is een krachtige aanvalsformatie waarbij de dame achter twee torens op een open lijn wordt geplaatst, wat enorme druk creëert. Vernoemd naar Alexander Alekhine, die deze opstelling gebruikte in zijn beroemde partij tegen Nimzowitsch in 1930."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Tarrasch Defense'?",
+          es: "¿Qué es la 'Defensa Tarrasch'?",
+          de: "Was ist die 'Tarrasch-Verteidigung'?",
+          nl: "Wat is de 'Tarrasch Verdediging'?"
+        },
+        options: [
+          { en: "1.d4 d5 2.c4 e6 3.Nc3 c5, fighting for central control", es: "1.d4 d5 2.c4 e6 3.Cc3 c5, luchando por control central", de: "1.d4 d5 2.c4 e6 3.Sc3 c5, kämpft um zentrale Kontrolle", nl: "1.d4 d5 2.c4 e6 3.Pc3 c5, vechtend voor centrale controle" },
+          { en: "A Sicilian variation", es: "Una variación siciliana", de: "Eine sizilianische Variante", nl: "Een Siciliaanse variatie" },
+          { en: "A king's gambit line", es: "Una línea del gambito de rey", de: "Eine Königsgambit-Linie", nl: "Een koningsgambiet lijn" },
+          { en: "A fianchetto system", es: "Un sistema de fianchetto", de: "Ein Fianchetto-System", nl: "Een fianchettosysteem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Tarrasch Defense challenges White's center with ...c5, often accepting an isolated d5-pawn for active piece play. Named after Siegbert Tarrasch, it embodies classical principles of active play and central control.",
+          es: "La Defensa Tarrasch desafía el centro de las blancas con ...c5, a menudo aceptando un peón d5 aislado por juego de piezas activo. Nombrada en honor a Siegbert Tarrasch, encarna los principios clásicos de juego activo y control central.",
+          de: "Die Tarrasch-Verteidigung fordert Weiß' Zentrum mit ...c5 heraus und akzeptiert oft einen isolierten d5-Bauern für aktives Figurenspiel. Benannt nach Siegbert Tarrasch, verkörpert sie klassische Prinzipien von aktivem Spiel und zentraler Kontrolle.",
+          nl: "De Tarrasch Verdediging daagt wit's centrum uit met ...c5, vaak accepterend een geïsoleerde d5-pion voor actief stukspel. Vernoemd naar Siegbert Tarrasch, belichaamt het klassieke principes van actief spel en centrale controle."
+        }
+      },
+      {
+        question: {
+          en: "What is 'prophylaxis' in chess strategy?",
+          es: "¿Qué es la 'profilaxis' en estrategia de ajedrez?",
+          de: "Was ist 'Prophylaxe' in der Schachstrategie?",
+          nl: "Wat is 'profylaxe' in schaakstrategie?"
+        },
+        options: [
+          { en: "Preventing opponent's plans before they can be executed", es: "Prevenir los planes del oponente antes de que puedan ejecutarse", de: "Die Pläne des Gegners verhindern, bevor sie ausgeführt werden können", nl: "Plannen van tegenstander voorkomen voordat ze kunnen worden uitgevoerd" },
+          { en: "Planning your own strategy", es: "Planificar tu propia estrategia", de: "Die eigene Strategie planen", nl: "Je eigen strategie plannen" },
+          { en: "Defensive play only", es: "Solo juego defensivo", de: "Nur defensives Spiel", nl: "Alleen defensief spel" },
+          { en: "Calculating variations", es: "Calcular variaciones", de: "Varianten berechnen", nl: "Variaties berekenen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prophylaxis, a concept developed by Aron Nimzowitsch, means preventing opponent's ideas before they materialize. Rather than just making your own plans, you identify and neutralize the opponent's threats and ideas first.",
+          es: "La profilaxis, un concepto desarrollado por Aron Nimzowitsch, significa prevenir las ideas del oponente antes de que se materialicen. En lugar de solo hacer tus propios planes, identificas y neutralizas las amenazas e ideas del oponente primero.",
+          de: "Prophylaxe, ein von Aron Nimzowitsch entwickeltes Konzept, bedeutet, die Ideen des Gegners zu verhindern, bevor sie sich materialisieren. Anstatt nur eigene Pläne zu machen, identifiziert und neutralisiert man zuerst die Drohungen und Ideen des Gegners.",
+          nl: "Profylaxe, een concept ontwikkeld door Aron Nimzowitsch, betekent het voorkomen van ideeën van de tegenstander voordat ze zich materialiseren. In plaats van alleen je eigen plannen te maken, identificeer en neutraliseer je eerst de dreigingen en ideeën van de tegenstander."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Hedgehog System'?",
+          es: "¿Qué es el 'Sistema Erizo'?",
+          de: "Was ist das 'Igel-System'?",
+          nl: "Wat is het 'Egel Systeem'?"
+        },
+        options: [
+          { en: "A flexible defensive setup with pawns on a6, b6, d6, e6", es: "Una configuración defensiva flexible con peones en a6, b6, d6, e6", de: "Eine flexible defensive Aufstellung mit Bauern auf a6, b6, d6, e6", nl: "Een flexibele defensieve opstelling met pionnen op a6, b6, d6, e6" },
+          { en: "An aggressive pawn storm", es: "Una tormenta de peones agresiva", de: "Ein aggressiver Bauernsturm", nl: "Een agressieve pionstorm" },
+          { en: "A king's gambit line", es: "Una línea del gambito de rey", de: "Eine Königsgambit-Linie", nl: "Een koningsgambiet lijn" },
+          { en: "A rook endgame technique", es: "Una técnica de final de torre", de: "Eine Turm-Endspiel-Technik", nl: "Een toren eindspel techniek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Hedgehog is a flexible defensive formation where Black places pawns on the third rank (a6, b6, d6, e6). It resembles a hedgehog's spines. Black waits for White to overextend, then strikes back with breaks like ...b5, ...d5, or ...e5.",
+          es: "El Erizo es una formación defensiva flexible donde las negras colocan peones en la tercera fila (a6, b6, d6, e6). Se asemeja a las espinas de un erizo. Las negras esperan a que las blancas se sobreextiendan, luego contraatacan con rupturas como ...b5, ...d5 o ...e5.",
+          de: "Der Igel ist eine flexible defensive Formation, bei der Schwarz Bauern auf der dritten Reihe platziert (a6, b6, d6, e6). Es ähnelt den Stacheln eines Igels. Schwarz wartet, bis Weiß sich überdehnt, und schlägt dann mit Durchbrüchen wie ...b5, ...d5 oder ...e5 zurück.",
+          nl: "De Egel is een flexibele defensieve formatie waarbij zwart pionnen op de derde rij plaatst (a6, b6, d6, e6). Het lijkt op de stekels van een egel. Zwart wacht tot wit zich overstrekt, en slaat dan terug met doorbraken zoals ...b5, ...d5 of ...e5."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Nimzo-Indian Defense'?",
+          es: "¿Qué es la 'Defensa Nimzo-India'?",
+          de: "Was ist die 'Nimzo-Indische Verteidigung'?",
+          nl: "Wat is de 'Nimzo-Indische Verdediging'?"
+        },
+        options: [
+          { en: "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4, pinning the knight", es: "1.d4 Cf6 2.c4 e6 3.Cc3 Ab4, clavando el caballo", de: "1.d4 Sf6 2.c4 e6 3.Sc3 Lb4, fesselt den Springer", nl: "1.d4 Pf6 2.c4 e6 3.Pc3 Lb4, spijkerend het paard" },
+          { en: "A king's gambit variation", es: "Una variación del gambito de rey", de: "Eine Königsgambit-Variante", nl: "Een koningsgambiet variatie" },
+          { en: "A closed Sicilian line", es: "Una línea siciliana cerrada", de: "Eine geschlossene sizilianische Linie", nl: "Een gesloten Siciliaanse lijn" },
+          { en: "A rook endgame setup", es: "Una configuración de final de torre", de: "Eine Turm-Endspiel-Aufstellung", nl: "Een toren eindspel opstelling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Nimzo-Indian Defense (3...Bb4) pins the c3-knight and fights for central control. Named after Aron Nimzowitsch, it's one of the most popular and solid defenses to 1.d4, used at all levels including world championships.",
+          es: "La Defensa Nimzo-India (3...Ab4) clava el caballo de c3 y lucha por control central. Nombrada en honor a Aron Nimzowitsch, es una de las defensas más populares y sólidas contra 1.d4, usada en todos los niveles incluyendo campeonatos mundiales.",
+          de: "Die Nimzo-Indische Verteidigung (3...Lb4) fesselt den c3-Springer und kämpft um zentrale Kontrolle. Benannt nach Aron Nimzowitsch, ist sie eine der beliebtesten und solidesten Verteidigungen gegen 1.d4, auf allen Ebenen einschließlich Weltmeisterschaften verwendet.",
+          nl: "De Nimzo-Indische Verdediging (3...Lb4) spijkert het c3-paard en vecht voor centrale controle. Vernoemd naar Aron Nimzowitsch, is het een van de populairste en meest solide verdedigingen tegen 1.d4, gebruikt op alle niveaus inclusief wereldkampioenschappen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'fortress' in chess endgames?",
+          es: "¿Qué es una 'fortaleza' en finales de ajedrez?",
+          de: "Was ist eine 'Festung' in Schach-Endspielen?",
+          nl: "Wat is een 'vesting' in schaak eindspelen?"
+        },
+        options: [
+          { en: "A defensive setup that prevents the opponent from winning despite material advantage", es: "Una configuración defensiva que impide que el oponente gane a pesar de ventaja material", de: "Eine defensive Aufstellung, die den Gegner trotz materiellem Vorteil am Gewinnen hindert", nl: "Een defensieve opstelling die voorkomt dat de tegenstander wint ondanks materieel voordeel" },
+          { en: "A strong pawn chain", es: "Una cadena de peones fuerte", de: "Eine starke Bauernkette", nl: "Een sterke pioncadeau" },
+          { en: "Castling kingside", es: "Enroque corto", de: "Kurze Rochade", nl: "Korte rokade" },
+          { en: "Protected king position", es: "Posición de rey protegida", de: "Geschützte König-Position", nl: "Beschermde koningspositie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A fortress is an endgame defensive structure where the weaker side can hold a draw despite being down material. The position is set up so the stronger side cannot break through. Classic examples include opposite-colored bishop endgames.",
+          es: "Una fortaleza es una estructura defensiva de final donde el lado más débil puede mantener tablas a pesar de estar abajo en material. La posición se configura para que el lado más fuerte no pueda penetrar. Ejemplos clásicos incluyen finales de alfiles de colores opuestos.",
+          de: "Eine Festung ist eine defensive Endspiel-Struktur, bei der die schwächere Seite ein Remis halten kann, obwohl sie materiell unterlegen ist. Die Stellung ist so aufgebaut, dass die stärkere Seite nicht durchbrechen kann. Klassische Beispiele sind ungleichfarbige Läufer-Endspiele.",
+          nl: "Een vesting is een defensieve eindspelstructuur waarbij de zwakkere kant remise kan houden ondanks materieel achterstand. De positie is zo opgezet dat de sterkere kant niet kan doorbreken. Klassieke voorbeelden zijn tegengestelde kleuren loper eindspelen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Queen's Indian Defense'?",
+          es: "¿Qué es la 'Defensa India de Dama'?",
+          de: "Was ist die 'Damenindische Verteidigung'?",
+          nl: "Wat is de 'Dame-Indische Verdediging'?"
+        },
+        options: [
+          { en: "1.d4 Nf6 2.c4 e6 3.Nf3 b6, fianchettoing the queenside bishop", es: "1.d4 Cf6 2.c4 e6 3.Cf3 b6, fianchetto del alfil del flanco de dama", de: "1.d4 Sf6 2.c4 e6 3.Sf3 b6, Fianchetto des Damenflügel-Läufers", nl: "1.d4 Pf6 2.c4 e6 3.Pf3 b6, fianchetto van de damezijde loper" },
+          { en: "A Sicilian variation", es: "Una variación siciliana", de: "Eine sizilianische Variante", nl: "Een Siciliaanse variatie" },
+          { en: "A king's gambit line", es: "Una línea del gambito de rey", de: "Eine Königsgambit-Linie", nl: "Een koningsgambiet lijn" },
+          { en: "An aggressive pawn storm", es: "Una tormenta de peones agresiva", de: "Ein aggressiver Bauernsturm", nl: "Een agressieve pionstorm" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Queen's Indian Defense (3...b6) is a solid hypermodern defense that fianchettos the c8-bishop to control the central light squares, particularly e4. It's a flexible system avoiding the theoretical complexities of the Nimzo-Indian.",
+          es: "La Defensa India de Dama (3...b6) es una sólida defensa hipermoderna que hace fianchetto del alfil c8 para controlar las casillas centrales claras, particularmente e4. Es un sistema flexible que evita las complejidades teóricas de la Nimzo-India.",
+          de: "Die Damenindische Verteidigung (3...b6) ist eine solide hypermoderne Verteidigung, die den c8-Läufer fianchettiert, um die zentralen hellen Felder zu kontrollieren, insbesondere e4. Es ist ein flexibles System, das die theoretischen Komplexitäten der Nimzo-Indischen vermeidet.",
+          nl: "De Dame-Indische Verdediging (3...b6) is een solide hypermoderne verdediging die de c8-loper fianchetteert om de centrale lichte velden te controleren, met name e4. Het is een flexibel systeem dat de theoretische complexiteit van de Nimzo-Indische vermijdt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'king activity' in endgames?",
+          es: "¿Qué es la 'actividad del rey' en finales?",
+          de: "Was ist 'Königsaktivität' in Endspielen?",
+          nl: "Wat is 'koningsactiviteit' in eindspelen?"
+        },
+        options: [
+          { en: "The king's ability to participate actively in the endgame fight", es: "La capacidad del rey de participar activamente en la lucha del final", de: "Die Fähigkeit des Königs, aktiv am Endspielkampf teilzunehmen", nl: "Het vermogen van de koning om actief deel te nemen aan de eindspelstrijd" },
+          { en: "Castling the king", es: "Enrocar el rey", de: "Den König rochieren", nl: "De koning rokeren" },
+          { en: "Protecting the king", es: "Proteger al rey", de: "Den König schützen", nl: "De koning beschermen" },
+          { en: "Moving the king frequently", es: "Mover el rey frecuentemente", de: "Den König häufig bewegen", nl: "De koning vaak bewegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In endgames, the king transforms from a piece to protect into a powerful fighting piece. Active king play—centralizing, attacking pawns, supporting your own—is often the decisive factor in endgames. The saying goes: 'In the endgame, the king is a strong piece.'",
+          es: "En finales, el rey se transforma de una pieza a proteger en una pieza de combate poderosa. El juego activo del rey—centralizar, atacar peones, apoyar los propios—es a menudo el factor decisivo en finales. El dicho dice: 'En el final, el rey es una pieza fuerte'.",
+          de: "In Endspielen verwandelt sich der König von einer zu schützenden Figur in eine mächtige Kampffigur. Aktives Königsspiel—Zentralisierung, Angriff auf Bauern, Unterstützung der eigenen—ist oft der entscheidende Faktor in Endspielen. Das Sprichwort lautet: 'Im Endspiel ist der König eine starke Figur'.",
+          nl: "In eindspelen transformeert de koning van een te beschermen stuk naar een krachtig vechtend stuk. Actief koningspel—centraliseren, pionnen aanvallen, je eigen steunen—is vaak de beslissende factor in eindspelen. Het gezegde luidt: 'In het eindspel is de koning een sterk stuk'."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'French Defense Winawer Variation'?",
+          es: "¿Qué es la 'Variación Winawer de la Defensa Francesa'?",
+          de: "Was ist die 'Winawer-Variante der Französischen Verteidigung'?",
+          nl: "Wat is de 'Winawer Variatie van de Franse Verdediging'?"
+        },
+        options: [
+          { en: "3...Bb4, pinning the knight and creating sharp complications", es: "3...Ab4, clavando el caballo y creando complicaciones agudas", de: "3...Lb4, fesselt den Springer und schafft scharfe Komplikationen", nl: "3...Lb4, spijkerend het paard en creërend scherpe complicaties" },
+          { en: "3...Nf6, the classical variation", es: "3...Cf6, la variación clásica", de: "3...Sf6, die klassische Variante", nl: "3...Pf6, de klassieke variatie" },
+          { en: "3...dxe4, the Rubinstein", es: "3...dxe4, el Rubinstein", de: "3...dxe4, die Rubinstein", nl: "3...dxe4, de Rubinstein" },
+          { en: "3...c5, the Tarrasch", es: "3...c5, el Tarrasch", de: "3...c5, die Tarrasch", nl: "3...c5, de Tarrasch" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Winawer (3...Bb4 in the French Defense) is the sharpest variation. After 4.e5, Black gets a cramped but solid position with the bishop pair, while White gets central space. It leads to highly tactical, double-edged positions.",
+          es: "El Winawer (3...Ab4 en la Defensa Francesa) es la variación más aguda. Después de 4.e5, las negras obtienen una posición estrecha pero sólida con la pareja de alfiles, mientras las blancas obtienen espacio central. Conduce a posiciones altamente tácticas y de doble filo.",
+          de: "Das Winawer (3...Lb4 in der Französischen Verteidigung) ist die schärfste Variante. Nach 4.e5 erhält Schwarz eine beengte, aber solide Stellung mit dem Läuferpaar, während Weiß zentralen Raum bekommt. Es führt zu hochgradig taktischen, zweischneidigen Stellungen.",
+          nl: "De Winawer (3...Lb4 in de Franse Verdediging) is de scherpste variatie. Na 4.e5 krijgt zwart een krappe maar solide positie met het loperpaar, terwijl wit centrale ruimte krijgt. Het leidt tot zeer tactische, tweesnijdende posities."
+        }
+      },
+      {
+        question: {
+          en: "What is 'domination' in chess?",
+          es: "¿Qué es la 'dominación' en ajedrez?",
+          de: "Was ist 'Dominierung' im Schach?",
+          nl: "Wat is 'dominantie' in schaken?"
+        },
+        options: [
+          { en: "When a piece traps or severely restricts an opponent's piece", es: "Cuando una pieza atrapa o restringe severamente una pieza del oponente", de: "Wenn eine Figur eine gegnerische Figur einfängt oder stark einschränkt", nl: "Wanneer een stuk een stuk van de tegenstander vasthoudt of ernstig beperkt" },
+          { en: "Having more pieces", es: "Tener más piezas", de: "Mehr Figuren haben", nl: "Meer stukken hebben" },
+          { en: "Controlling the center", es: "Controlar el centro", de: "Das Zentrum kontrollieren", nl: "Het centrum controleren" },
+          { en: "Winning the game", es: "Ganar la partida", de: "Das Spiel gewinnen", nl: "De partij winnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Domination occurs when one piece completely traps or severely restricts another, often of greater value. Classic examples include a knight dominating a rook in the corner, or a bishop trapping a knight. The dominated piece becomes virtually useless.",
+          es: "La dominación ocurre cuando una pieza atrapa completamente o restringe severamente a otra, a menudo de mayor valor. Ejemplos clásicos incluyen un caballo dominando una torre en la esquina, o un alfil atrapando un caballo. La pieza dominada se vuelve virtualmente inútil.",
+          de: "Dominierung tritt auf, wenn eine Figur eine andere, oft wertvollere Figur vollständig einfängt oder stark einschränkt. Klassische Beispiele sind ein Springer, der einen Turm in der Ecke dominiert, oder ein Läufer, der einen Springer einfängt. Die dominierte Figur wird praktisch nutzlos.",
+          nl: "Dominantie treedt op wanneer één stuk een ander, vaak waardevoller stuk volledig vasthoudt of ernstig beperkt. Klassieke voorbeelden zijn een paard dat een toren in de hoek domineert, of een loper die een paard vasthoudt. Het gedomineerde stuk wordt praktisch nutteloos."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Scandinavian Defense'?",
+          es: "¿Qué es la 'Defensa Escandinava'?",
+          de: "Was ist die 'Skandinavische Verteidigung'?",
+          nl: "Wat is de 'Scandinavische Verdediging'?"
+        },
+        options: [
+          { en: "1.e4 d5, immediately challenging White's center pawn", es: "1.e4 d5, desafiando inmediatamente el peón central de las blancas", de: "1.e4 d5, fordert sofort Weiß' Zentralbauern heraus", nl: "1.e4 d5, onmiddellijk wit's centrale pion uitdagen" },
+          { en: "A queen's pawn opening", es: "Una apertura de peón de dama", de: "Eine Damenbauern-Eröffnung", nl: "Een damepionopening" },
+          { en: "A gambit line", es: "Una línea de gambito", de: "Eine Gambit-Linie", nl: "Een gambietlijn" },
+          { en: "A closed defense", es: "Una defensa cerrada", de: "Eine geschlossene Verteidigung", nl: "Een gesloten verdediging" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Scandinavian Defense (1...d5) is one of the oldest chess openings, immediately striking at White's e4-pawn. After 2.exd5 Qxd5 (or 2...Nf6), Black develops the queen early but gets quick development. Popular at club level for its simplicity.",
+          es: "La Defensa Escandinava (1...d5) es una de las aperturas de ajedrez más antiguas, atacando inmediatamente el peón e4 de las blancas. Después de 2.exd5 Dxd5 (o 2...Cf6), las negras desarrollan la dama temprano pero obtienen desarrollo rápido. Popular a nivel de club por su simplicidad.",
+          de: "Die Skandinavische Verteidigung (1...d5) ist eine der ältesten Schacheröffnungen und greift sofort Weiß' e4-Bauern an. Nach 2.exd5 Dxd5 (oder 2...Sf6) entwickelt Schwarz die Dame früh, bekommt aber schnelle Entwicklung. Auf Vereinsebene wegen ihrer Einfachheit beliebt.",
+          nl: "De Scandinavische Verdediging (1...d5) is een van de oudste schaakopeningen, die onmiddellijk wit's e4-pion aanvalt. Na 2.exd5 Dxd5 (of 2...Pf6) ontwikkelt zwart de dame vroeg maar krijgt snelle ontwikkeling. Populair op clubniveau vanwege de eenvoud."
+        }
+      },
+      {
+        question: {
+          en: "What is 'zwischenzug' (intermediate move)?",
+          es: "¿Qué es 'zwischenzug' (movimiento intermedio)?",
+          de: "Was ist ein 'Zwischenzug'?",
+          nl: "Wat is een 'tussenzet'?"
+        },
+        options: [
+          { en: "An in-between move that creates a threat before the expected recapture", es: "Un movimiento intermedio que crea una amenaza antes de la recaptura esperada", de: "Ein Zwischenzug, der eine Drohung schafft vor der erwarteten Rückeroberung", nl: "Een tussenzet die een dreiging creëert voor de verwachte terugslag" },
+          { en: "A forced move", es: "Un movimiento forzado", de: "Ein erzwungener Zug", nl: "Een geforceerde zet" },
+          { en: "The best move", es: "El mejor movimiento", de: "Der beste Zug", nl: "De beste zet" },
+          { en: "A quiet move", es: "Un movimiento silencioso", de: "Ein ruhiger Zug", nl: "Een stille zet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Zwischenzug (German for 'in-between move') is an unexpected intermediate move inserted before an expected sequence, often a check or threat. It's a common tactical motif that disrupts the opponent's plans and can win material or improve position.",
+          es: "Zwischenzug (alemán para 'movimiento intermedio') es un movimiento intermedio inesperado insertado antes de una secuencia esperada, a menudo un jaque o amenaza. Es un motivo táctico común que interrumpe los planes del oponente y puede ganar material o mejorar la posición.",
+          de: "Zwischenzug ist ein unerwarteter Zwischenzug, der vor einer erwarteten Sequenz eingefügt wird, oft ein Schach oder eine Drohung. Es ist ein häufiges taktisches Motiv, das die Pläne des Gegners stört und Material gewinnen oder die Stellung verbessern kann.",
+          nl: "Tussenzet is een onverwachte tussenzet ingevoegd voor een verwachte volgorde, vaak een schaak of dreiging. Het is een gebruikelijk tactisch motief dat de plannen van de tegenstander verstoort en materiaal kan winnen of de positie kan verbeteren."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Stonewall Attack'?",
+          es: "¿Qué es el 'Ataque Stonewall'?",
+          de: "Was ist der 'Stonewall-Angriff'?",
+          nl: "Wat is de 'Stonewall Aanval'?"
+        },
+        options: [
+          { en: "A setup with pawns on d4, e3, f4, c3 forming a solid structure", es: "Una configuración con peones en d4, e3, f4, c3 formando una estructura sólida", de: "Eine Aufstellung mit Bauern auf d4, e3, f4, c3, die eine solide Struktur bilden", nl: "Een opstelling met pionnen op d4, e3, f4, c3 die een solide structuur vormen" },
+          { en: "A pawn sacrifice", es: "Un sacrificio de peón", de: "Ein Bauernopfer", nl: "Een pionoffer" },
+          { en: "A tactical trap", es: "Una trampa táctica", de: "Eine taktische Falle", nl: "Een tactische val" },
+          { en: "An endgame technique", es: "Una técnica de final", de: "Eine Endspiel-Technik", nl: "Een eindspeltechniek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Stonewall Attack features a pawn chain on d4-e3-f4-c3, creating a solid but slightly passive structure. White typically plays for a kingside attack with pieces like Bd3, Qe1-h4, and sometimes Rf3-h3. The weak e4-square is a drawback.",
+          es: "El Ataque Stonewall presenta una cadena de peones en d4-e3-f4-c3, creando una estructura sólida pero ligeramente pasiva. Las blancas típicamente juegan para un ataque en el flanco de rey con piezas como Ad3, De1-h4 y a veces Tf3-h3. La casilla e4 débil es una desventaja.",
+          de: "Der Stonewall-Angriff zeigt eine Bauernkette auf d4-e3-f4-c3, die eine solide, aber etwas passive Struktur schafft. Weiß spielt typischerweise auf einen Königsflügel-Angriff mit Figuren wie Ld3, De1-h4 und manchmal Tf3-h3. Das schwache e4-Feld ist ein Nachteil.",
+          nl: "De Stonewall Aanval heeft een pioncadeau op d4-e3-f4-c3, wat een solide maar enigszins passieve structuur creëert. Wit speelt typisch voor een koningszijde aanval met stukken zoals Ld3, De1-h4 en soms Tf3-h3. Het zwakke e4-veld is een nadeel."
+        }
+      },
+      {
+        question: {
+          en: "What is 'permanent weakness' vs 'temporary weakness'?",
+          es: "¿Qué es 'debilidad permanente' vs 'debilidad temporal'?",
+          de: "Was ist 'permanente Schwäche' vs 'temporäre Schwäche'?",
+          nl: "Wat is 'permanente zwakte' vs 'tijdelijke zwakte'?"
+        },
+        options: [
+          { en: "Permanent weaknesses can't be fixed (bad pawns), temporary ones can be remedied", es: "Las debilidades permanentes no se pueden arreglar (peones malos), las temporales pueden remediarse", de: "Permanente Schwächen können nicht behoben werden (schlechte Bauern), temporäre schon", nl: "Permanente zwakheden kunnen niet worden verholpen (slechte pionnen), tijdelijke wel" },
+          { en: "All weaknesses are permanent", es: "Todas las debilidades son permanentes", de: "Alle Schwächen sind permanent", nl: "Alle zwakheden zijn permanent" },
+          { en: "They are the same thing", es: "Son lo mismo", de: "Sie sind dasselbe", nl: "Ze zijn hetzelfde" },
+          { en: "Temporary means one move, permanent means two", es: "Temporal significa un movimiento, permanente significa dos", de: "Temporär bedeutet ein Zug, permanent bedeutet zwei", nl: "Tijdelijk betekent één zet, permanent betekent twee" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Permanent weaknesses (like isolated pawns, backward pawns, weak squares) cannot be easily fixed and remain throughout the game. Temporary weaknesses (like undefended pieces, king exposure) can be remedied through accurate play. Recognizing the difference is crucial.",
+          es: "Las debilidades permanentes (como peones aislados, peones atrasados, casillas débiles) no pueden arreglarse fácilmente y permanecen durante todo el juego. Las debilidades temporales (como piezas sin defender, exposición del rey) pueden remediarse con juego preciso. Reconocer la diferencia es crucial.",
+          de: "Permanente Schwächen (wie isolierte Bauern, rückständige Bauern, schwache Felder) können nicht leicht behoben werden und bleiben das ganze Spiel über. Temporäre Schwächen (wie unverteidigte Figuren, Königsexposition) können durch genaues Spiel behoben werden. Den Unterschied zu erkennen ist entscheidend.",
+          nl: "Permanente zwakheden (zoals geïsoleerde pionnen, achtergebleven pionnen, zwakke velden) kunnen niet gemakkelijk worden verholpen en blijven gedurende het hele spel. Tijdelijke zwakheden (zoals onverdedigde stukken, koningsblootstelling) kunnen worden verholpen door nauwkeurig spel. Het verschil herkennen is cruciaal."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Petrov Defense' (Russian Game)?",
+          es: "¿Qué es la 'Defensa Petrov' (Juego Ruso)?",
+          de: "Was ist die 'Petrow-Verteidigung' (Russische Partie)?",
+          nl: "Wat is de 'Petrov Verdediging' (Russische Partij)?"
+        },
+        options: [
+          { en: "1.e4 e5 2.Nf3 Nf6, counterattacking the e4-pawn", es: "1.e4 e5 2.Cf3 Cf6, contraatacando el peón e4", de: "1.e4 e5 2.Sf3 Sf6, greift den e4-Bauern an", nl: "1.e4 e5 2.Pf3 Pf6, tegenaanval op de e4-pion" },
+          { en: "A gambit opening", es: "Una apertura de gambito", de: "Eine Gambit-Eröffnung", nl: "Een gambietopening" },
+          { en: "A closed defense", es: "Una defensa cerrada", de: "Eine geschlossene Verteidigung", nl: "Een gesloten verdediging" },
+          { en: "A queen's pawn opening", es: "Una apertura de peón de dama", de: "Eine Damenbauern-Eröffnung", nl: "Een damepionopening" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Petrov Defense (2...Nf6) is a solid, symmetrical opening where Black counterattacks e4 instead of defending e5. It leads to balanced, drawish positions and is popular at the highest level. Named after Alexander Petrov.",
+          es: "La Defensa Petrov (2...Cf6) es una apertura sólida y simétrica donde las negras contraatacan e4 en lugar de defender e5. Conduce a posiciones equilibradas con tendencia a tablas y es popular al más alto nivel. Nombrada en honor a Alexander Petrov.",
+          de: "Die Petrow-Verteidigung (2...Sf6) ist eine solide, symmetrische Eröffnung, bei der Schwarz e4 angreift, anstatt e5 zu verteidigen. Sie führt zu ausgeglichenen, remisträchtigen Stellungen und ist auf höchstem Niveau beliebt. Benannt nach Alexander Petrow.",
+          nl: "De Petrov Verdediging (2...Pf6) is een solide, symmetrische opening waarbij zwart e4 tegenaanvalt in plaats van e5 te verdedigen. Het leidt tot gebalanceerde, remise-achtige posities en is populair op het hoogste niveau. Vernoemd naar Alexander Petrov."
+        }
+      },
+      {
+        question: {
+          en: "What is 'passed pawn' evaluation in endgames?",
+          es: "¿Qué es la evaluación de 'peón pasado' en finales?",
+          de: "Was ist 'Freibauer'-Bewertung in Endspielen?",
+          nl: "Wat is 'vrijpion' evaluatie in eindspelen?"
+        },
+        options: [
+          { en: "Passed pawns increase in value as they advance and kings are removed", es: "Los peones pasados aumentan de valor a medida que avanzan y los reyes se alejan", de: "Freibauern steigen im Wert, je weiter sie vorrücken und Könige entfernt sind", nl: "Vrijpionnen stijgen in waarde naarmate ze oprukken en koningen verwijderd zijn" },
+          { en: "All passed pawns have equal value", es: "Todos los peones pasados tienen igual valor", de: "Alle Freibauern haben gleichen Wert", nl: "Alle vrijpionnen hebben gelijke waarde" },
+          { en: "Passed pawns only matter on the 7th rank", es: "Los peones pasados solo importan en la séptima fila", de: "Freibauern zählen nur auf der 7. Reihe", nl: "Vrijpionnen tellen alleen op de 7e rij" },
+          { en: "Passed pawns are weak", es: "Los peones pasados son débiles", de: "Freibauern sind schwach", nl: "Vrijpionnen zijn zwak" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In endgames, passed pawns become increasingly powerful the further they advance. Their strength multiplies when: 1) they're far from enemy king, 2) supported by your king, 3) close to promotion, 4) there are fewer pieces to blockade them. A far-advanced passed pawn can be worth a piece.",
+          es: "En finales, los peones pasados se vuelven cada vez más poderosos cuanto más avanzan. Su fuerza se multiplica cuando: 1) están lejos del rey enemigo, 2) son apoyados por tu rey, 3) cerca de la promoción, 4) hay menos piezas para bloquearlos. Un peón pasado muy avanzado puede valer una pieza.",
+          de: "In Endspielen werden Freibauern umso mächtiger, je weiter sie vorrücken. Ihre Stärke vervielfacht sich, wenn: 1) sie weit vom gegnerischen König entfernt sind, 2) vom eigenen König unterstützt, 3) nahe der Umwandlung, 4) weniger Figuren zum Blockieren da sind. Ein weit vorgerückter Freibauer kann eine Figur wert sein.",
+          nl: "In eindspelen worden vrijpionnen steeds krachtiger naarmate ze verder oprukken. Hun kracht vermenigvuldigt wanneer: 1) ze ver van vijandelijke koning zijn, 2) ondersteund door je koning, 3) dicht bij promotie, 4) er minder stukken zijn om ze te blokkeren. Een ver opgerukte vrijpion kan een stuk waard zijn."
+        }
       }
     ]
   };

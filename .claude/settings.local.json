@@ -297,7 +297,9 @@
       "Bash(else echo \"✓ Real questions\")",
       "Bash(if [ -f \"$filepath\" ])",
       "Bash(if grep -qi \"sample question\\|placeholder\\|question [0-9] for level\\|Option [A-D] for Q\" \"$filepath\")",
-      "Bash(else echo \"✓ OK\")"
+      "Bash(else echo \"✓ OK\")",
+      "Bash(then echo -n \"L$i: \")",
+      "Bash(git fetch:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

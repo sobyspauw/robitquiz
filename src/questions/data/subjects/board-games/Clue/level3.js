@@ -427,6 +427,426 @@
           de: "Informationsasymmetrie bedeutet, dass jeder Spieler einzigartiges Wissen hat: seine eigenen Karten, ihm gezeigte Karten und Beobachtungen der Interaktionen anderer Spieler. Das Management dieser asymmetrischen Information ist der Schlüssel zum Sieg.",
           nl: "Informatieasymmetrie betekent dat elke speler unieke kennis heeft: hun eigen kaarten, aan hen getoonde kaarten, en observaties van interacties van andere spelers. Het beheren van deze asymmetrische informatie is de sleutel tot winnen."
         }
+      },
+      {
+        question: {
+          en: "What advanced technique involves deliberately showing specific cards?",
+          es: "¿Qué técnica avanzada implica mostrar deliberadamente cartas específicas?",
+          de: "Welche fortgeschrittene Technik beinhaltet das absichtliche Zeigen bestimmter Karten?",
+          nl: "Welke geavanceerde techniek houdt in dat je opzettelijk specifieke kaarten toont?"
+        },
+        options: [
+          { en: "Card obscuring strategy", es: "Estrategia de oscurecimiento de cartas", de: "Kartenverschleierungsstrategie", nl: "Kaart verhullingstrategie" },
+          { en: "Selective information revelation", es: "Revelación selectiva de información", de: "Selektive Informationsoffenbarung", nl: "Selectieve informatie onthulling" },
+          { en: "Information control", es: "Control de información", de: "Informationskontrolle", nl: "Informatiecontrole" },
+          { en: "All refer to the same concept", es: "Todos se refieren al mismo concepto", de: "Alle beziehen sich auf dasselbe Konzept", nl: "Allemaal verwijzen naar hetzelfde concept" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "When you have multiple matching cards, strategically choosing which to show can control what information opponents gain. Showing commonly held cards reveals less than showing rare cards others might not have.",
+          es: "Cuando tienes múltiples cartas coincidentes, elegir estratégicamente cuál mostrar puede controlar qué información obtienen los oponentes. Mostrar cartas comunes revela menos que mostrar cartas raras que otros podrían no tener.",
+          de: "Wenn du mehrere passende Karten hast, kann die strategische Wahl, welche du zeigst, kontrollieren, welche Informationen Gegner erhalten. Häufig gehaltene Karten zu zeigen offenbart weniger als seltene Karten zu zeigen, die andere möglicherweise nicht haben.",
+          nl: "Wanneer je meerdere overeenkomende kaarten hebt, kun je door strategisch te kiezen welke je toont controleren welke informatie tegenstanders krijgen. Veelvoorkomende kaarten tonen onthult minder dan zeldzame kaarten tonen die anderen mogelijk niet hebben."
+        }
+      },
+      {
+        question: {
+          en: "How can tracking 'negative information' improve your game?",
+          es: "¿Cómo puede mejorar tu juego el seguimiento de 'información negativa'?",
+          de: "Wie kann das Verfolgen 'negativer Informationen' dein Spiel verbessern?",
+          nl: "Hoe kan het bijhouden van 'negatieve informatie' je spel verbeteren?"
+        },
+        options: [
+          { en: "Noting when players can't show cards", es: "Notar cuando los jugadores no pueden mostrar cartas", de: "Beachten, wenn Spieler keine Karten zeigen können", nl: "Opmerken wanneer spelers geen kaarten kunnen tonen" },
+          { en: "Tracking bad dice rolls", es: "Rastrear malas tiradas de dados", de: "Schlechte Würfelwürfe verfolgen", nl: "Slechte dobbelsteenworpen bijhouden" },
+          { en: "Recording failed suggestions", es: "Registrar sugerencias fallidas", de: "Gescheiterte Vorschläge aufzeichnen", nl: "Mislukte suggesties vastleggen" },
+          { en: "Monitoring room access problems", es: "Monitorear problemas de acceso a habitaciones", de: "Probleme beim Raumzugang überwachen", nl: "Kamertoegang problemen monitoren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Negative information - knowing what cards players DON'T have based on when they couldn't disprove suggestions - is as valuable as positive information about cards they showed.",
+          es: "La información negativa - saber qué cartas NO tienen los jugadores basándose en cuándo no pudieron refutar sugerencias - es tan valiosa como la información positiva sobre las cartas que mostraron.",
+          de: "Negative Informationen - zu wissen, welche Karten Spieler NICHT haben, basierend darauf, wann sie Vorschläge nicht widerlegen konnten - sind genauso wertvoll wie positive Informationen über gezeigte Karten.",
+          nl: "Negatieve informatie - weten welke kaarten spelers NIET hebben op basis van wanneer ze suggesties niet konden weerleggen - is net zo waardevol als positieve informatie over kaarten die ze toonden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'card counting' in Cluedo context?",
+          es: "¿Qué es 'contar cartas' en el contexto de Cluedo?",
+          de: "Was ist 'Kartenzählen' im Cluedo-Kontext?",
+          nl: "Wat is 'kaarten tellen' in Cluedo context?"
+        },
+        options: [
+          { en: "Tracking how many cards each player has", es: "Rastrear cuántas cartas tiene cada jugador", de: "Verfolgen, wie viele Karten jeder Spieler hat", nl: "Bijhouden hoeveel kaarten elke speler heeft" },
+          { en: "Counting eliminated cards per category", es: "Contar cartas eliminadas por categoría", de: "Eliminierte Karten pro Kategorie zählen", nl: "Geëlimineerde kaarten per categorie tellen" },
+          { en: "Tallying total suggestions made", es: "Contar el total de sugerencias hechas", de: "Die Gesamtzahl der gemachten Vorschläge zählen", nl: "Totaal aantal gemaakte suggesties tellen" },
+          { en: "Both A and B", es: "Tanto A como B", de: "Sowohl A als auch B", nl: "Zowel A als B" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Card counting in Cluedo involves both tracking how many cards each player holds AND how many cards have been eliminated in each category (suspects, weapons, rooms) to narrow down possibilities.",
+          es: "Contar cartas en Cluedo implica tanto rastrear cuántas cartas tiene cada jugador COMO cuántas cartas han sido eliminadas en cada categoría (sospechosos, armas, habitaciones) para reducir posibilidades.",
+          de: "Kartenzählen in Cluedo beinhaltet sowohl das Verfolgen, wie viele Karten jeder Spieler hält, ALS AUCH wie viele Karten in jeder Kategorie (Verdächtige, Waffen, Räume) eliminiert wurden, um Möglichkeiten einzugrenzen.",
+          nl: "Kaarten tellen in Cluedo houdt in zowel bijhouden hoeveel kaarten elke speler heeft ALS hoeveel kaarten geëlimineerd zijn in elke categorie (verdachten, wapens, kamers) om mogelijkheden te beperken."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'cross-reference deduction'?",
+          es: "¿Qué es una 'deducción por referencia cruzada'?",
+          de: "Was ist eine 'Kreuzreferenz-Deduktion'?",
+          nl: "Wat is een 'kruisverwijzing deductie'?"
+        },
+        options: [
+          { en: "Comparing multiple players' responses to find patterns", es: "Comparar respuestas de múltiples jugadores para encontrar patrones", de: "Antworten mehrerer Spieler vergleichen, um Muster zu finden", nl: "Antwoorden van meerdere spelers vergelijken om patronen te vinden" },
+          { en: "Checking your notes against the board", es: "Verificar tus notas contra el tablero", de: "Deine Notizen gegen das Brett prüfen", nl: "Je notities controleren tegen het bord" },
+          { en: "Asking about cards in different rooms", es: "Preguntar sobre cartas en diferentes habitaciones", de: "Nach Karten in verschiedenen Räumen fragen", nl: "Vragen over kaarten in verschillende kamers" },
+          { en: "Suggesting the same cards twice", es: "Sugerir las mismas cartas dos veces", de: "Die gleichen Karten zweimal vorschlagen", nl: "Dezelfde kaarten twee keer suggereren" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Cross-reference deduction involves analyzing how different players responded to various suggestions to deduce who has which cards, even if you never saw those cards yourself.",
+          es: "La deducción por referencia cruzada implica analizar cómo diferentes jugadores respondieron a varias sugerencias para deducir quién tiene qué cartas, incluso si nunca viste esas cartas tú mismo.",
+          de: "Kreuzreferenz-Deduktion beinhaltet die Analyse, wie verschiedene Spieler auf verschiedene Vorschläge reagiert haben, um abzuleiten, wer welche Karten hat, selbst wenn du diese Karten nie selbst gesehen hast.",
+          nl: "Kruisverwijzing deductie houdt in het analyseren hoe verschillende spelers op verschillende suggesties reageerden om af te leiden wie welke kaarten heeft, zelfs als je die kaarten zelf nooit zag."
+        }
+      },
+      {
+        question: {
+          en: "Why might an advanced player sometimes bluff in Cluedo?",
+          es: "¿Por qué un jugador avanzado podría a veces hacer un bluff en Cluedo?",
+          de: "Warum könnte ein fortgeschrittener Spieler manchmal in Cluedo bluffen?",
+          nl: "Waarom zou een gevorderde speler soms bluffen in Cluedo?"
+        },
+        options: [
+          { en: "To confuse opponents about solution cards", es: "Para confundir a oponentes sobre cartas de solución", de: "Um Gegner über Lösungskarten zu verwirren", nl: "Om tegenstanders te verwarren over oplossingskaarten" },
+          { en: "To misdirect attention from their deductions", es: "Para desviar la atención de sus deducciones", de: "Um die Aufmerksamkeit von ihren Deduktionen abzulenken", nl: "Om aandacht af te leiden van hun deducties" },
+          { en: "Bluffing is not effective in Cluedo", es: "El bluff no es efectivo en Cluedo", de: "Bluffen ist in Cluedo nicht effektiv", nl: "Bluffen is niet effectief in Cluedo" },
+          { en: "To make opponents doubt their notes", es: "Para hacer que los oponentes duden de sus notas", de: "Um Gegner an ihren Notizen zweifeln zu lassen", nl: "Om tegenstanders aan hun notities te laten twijfelen" }
+        },
+        correct: 2,
+        explanation: {
+          en: "Unlike poker, bluffing has limited use in Cluedo because the game is based on logical deduction from concrete information. Your suggestions and responses follow strict rules that can't be manipulated through bluffing.",
+          es: "A diferencia del póker, el bluff tiene uso limitado en Cluedo porque el juego se basa en deducción lógica de información concreta. Tus sugerencias y respuestas siguen reglas estrictas que no pueden manipularse mediante bluff.",
+          de: "Anders als beim Poker hat Bluffen in Cluedo begrenzten Nutzen, weil das Spiel auf logischer Deduktion aus konkreten Informationen basiert. Deine Vorschläge und Antworten folgen strengen Regeln, die nicht durch Bluffen manipuliert werden können.",
+          nl: "In tegenstelling tot poker heeft bluffen beperkt nut in Cluedo omdat het spel gebaseerd is op logische deductie uit concrete informatie. Je suggesties en antwoorden volgen strikte regels die niet gemanipuleerd kunnen worden door bluffen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'suggestion timing' strategy?",
+          es: "¿Qué es la estrategia de 'momento de sugerencia'?",
+          de: "Was ist die 'Vorschlagszeitpunkt'-Strategie?",
+          nl: "Wat is 'suggestie timing' strategie?"
+        },
+        options: [
+          { en: "Making suggestions at optimal points in turn order", es: "Hacer sugerencias en puntos óptimos en orden de turno", de: "Vorschläge an optimalen Punkten in der Zugreihenfolge machen", nl: "Suggesties doen op optimale punten in beurtvolgorde" },
+          { en: "Timing how long players take to respond", es: "Cronometrar cuánto tardan los jugadores en responder", de: "Messen, wie lange Spieler zum Antworten brauchen", nl: "Meten hoe lang spelers nodig hebben om te antwoorden" },
+          { en: "Making suggestions quickly", es: "Hacer sugerencias rápidamente", de: "Vorschläge schnell machen", nl: "Snel suggesties doen" },
+          { en: "Waiting until late game to suggest", es: "Esperar hasta el final del juego para sugerir", de: "Bis zum späten Spiel warten, um vorzuschlagen", nl: "Wachten tot laat in het spel om te suggereren" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Suggestion timing involves considering turn order when making suggestions - suggesting earlier in the rotation means more players can potentially disprove it, gathering more information for everyone.",
+          es: "El momento de sugerencia implica considerar el orden de turno al hacer sugerencias - sugerir más temprano en la rotación significa que más jugadores pueden potencialmente refutarla, recopilando más información para todos.",
+          de: "Vorschlagszeitpunkt beinhaltet die Berücksichtigung der Zugreihenfolge beim Machen von Vorschlägen - früher in der Rotation vorzuschlagen bedeutet, dass mehr Spieler ihn möglicherweise widerlegen können, was mehr Informationen für alle sammelt.",
+          nl: "Suggestie timing houdt in het overwegen van beurtvolgorde bij het doen van suggesties - eerder suggereren in de rotatie betekent dat meer spelers het mogelijk kunnen weerleggen, wat meer informatie verzamelt voor iedereen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'process of elimination by category' technique?",
+          es: "¿Qué es la técnica de 'proceso de eliminación por categoría'?",
+          de: "Was ist die 'Eliminierung nach Kategorie'-Technik?",
+          nl: "Wat is de 'eliminatie per categorie' techniek?"
+        },
+        options: [
+          { en: "Focusing deduction on one category at a time", es: "Enfocar la deducción en una categoría a la vez", de: "Deduktion auf eine Kategorie nach der anderen konzentrieren", nl: "Deductie focussen op één categorie tegelijk" },
+          { en: "Eliminating all suspects first", es: "Eliminar todos los sospechosos primero", de: "Alle Verdächtigen zuerst eliminieren", nl: "Alle verdachten eerst elimineren" },
+          { en: "Tracking which categories opponents focus on", es: "Rastrear en qué categorías se enfocan los oponentes", de: "Verfolgen, auf welche Kategorien sich Gegner konzentrieren", nl: "Bijhouden op welke categorieën tegenstanders focussen" },
+          { en: "Suggesting different categories each turn", es: "Sugerir diferentes categorías cada turno", de: "Jede Runde verschiedene Kategorien vorschlagen", nl: "Elke beurt verschillende categorieën suggereren" }
+        },
+        correct: 0,
+        explanation: {
+          en: "This technique involves systematically working to eliminate all but one card in a single category before moving to the next, which can be more efficient than trying to eliminate across all categories simultaneously.",
+          es: "Esta técnica implica trabajar sistemáticamente para eliminar todas menos una carta en una sola categoría antes de pasar a la siguiente, lo cual puede ser más eficiente que intentar eliminar en todas las categorías simultáneamente.",
+          de: "Diese Technik beinhaltet systematisches Arbeiten, um alle außer einer Karte in einer einzelnen Kategorie zu eliminieren, bevor zur nächsten übergegangen wird, was effizienter sein kann als der Versuch, über alle Kategorien gleichzeitig zu eliminieren.",
+          nl: "Deze techniek houdt in systematisch werken om alle behalve één kaart in een enkele categorie te elimineren voordat je naar de volgende gaat, wat efficiënter kan zijn dan proberen te elimineren over alle categorieën tegelijk."
+        }
+      },
+      {
+        question: {
+          en: "How can you use 'suggestion patterns' to gain advantage?",
+          es: "¿Cómo puedes usar 'patrones de sugerencia' para obtener ventaja?",
+          de: "Wie kannst du 'Vorschlagsmuster' nutzen, um einen Vorteil zu erlangen?",
+          nl: "Hoe kun je 'suggestiepatronen' gebruiken om voordeel te behalen?"
+        },
+        options: [
+          { en: "By analyzing which cards opponents repeatedly suggest", es: "Al analizar qué cartas sugieren repetidamente los oponentes", de: "Durch Analyse, welche Karten Gegner wiederholt vorschlagen", nl: "Door te analyseren welke kaarten tegenstanders herhaaldelijk suggereren" },
+          { en: "By creating your own predictable pattern", es: "Al crear tu propio patrón predecible", de: "Durch Erstellen eines eigenen vorhersehbaren Musters", nl: "Door je eigen voorspelbaar patroon te creëren" },
+          { en: "By randomizing all suggestions", es: "Al aleatorizar todas las sugerencias", de: "Durch Randomisierung aller Vorschläge", nl: "Door alle suggesties te randomiseren" },
+          { en: "Patterns are not useful in Cluedo", es: "Los patrones no son útiles en Cluedo", de: "Muster sind in Cluedo nicht nützlich", nl: "Patronen zijn niet nuttig in Cluedo" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Observing what cards opponents frequently suggest can reveal which cards they DON'T hold (since smart players often suggest their own cards to gain clearer information from responses).",
+          es: "Observar qué cartas sugieren frecuentemente los oponentes puede revelar qué cartas NO tienen (ya que los jugadores inteligentes a menudo sugieren sus propias cartas para obtener información más clara de las respuestas).",
+          de: "Das Beobachten, welche Karten Gegner häufig vorschlagen, kann offenbaren, welche Karten sie NICHT haben (da kluge Spieler oft ihre eigenen Karten vorschlagen, um klarere Informationen aus Antworten zu erhalten).",
+          nl: "Observeren welke kaarten tegenstanders vaak suggereren kan onthullen welke kaarten ze NIET hebben (aangezien slimme spelers vaak hun eigen kaarten suggereren om duidelijkere informatie uit antwoorden te krijgen)."
+        }
+      },
+      {
+        question: {
+          en: "What is 'positional awareness' in Cluedo?",
+          es: "¿Qué es la 'conciencia posicional' en Cluedo?",
+          de: "Was ist 'Positionsbewusstsein' in Cluedo?",
+          nl: "Wat is 'positiebewustzijn' in Cluedo?"
+        },
+        options: [
+          { en: "Knowing where all players are on the board", es: "Saber dónde están todos los jugadores en el tablero", de: "Wissen, wo sich alle Spieler auf dem Brett befinden", nl: "Weten waar alle spelers op het bord zijn" },
+          { en: "Understanding your turn order position's advantages", es: "Entender las ventajas de tu posición en el orden de turno", de: "Die Vorteile deiner Position in der Zugreihenfolge verstehen", nl: "De voordelen van je positie in beurtvolgorde begrijpen" },
+          { en: "Tracking weapon token locations", es: "Rastrear ubicaciones de fichas de armas", de: "Waffenfiguren-Standorte verfolgen", nl: "Wapenfiguur locaties bijhouden" },
+          { en: "Remembering which rooms you've visited", es: "Recordar qué habitaciones has visitado", de: "Sich erinnern, welche Räume du besucht hast", nl: "Onthouden welke kamers je hebt bezocht" }
+        },
+        correct: 1,
+        explanation: {
+          en: "Positional awareness means understanding how your position in turn order affects information flow - going later means you see more player interactions before your turn, but opponents gather more information first.",
+          es: "La conciencia posicional significa entender cómo tu posición en el orden de turno afecta el flujo de información - ir más tarde significa que ves más interacciones de jugadores antes de tu turno, pero los oponentes recopilan más información primero.",
+          de: "Positionsbewusstsein bedeutet zu verstehen, wie deine Position in der Zugreihenfolge den Informationsfluss beeinflusst - später zu gehen bedeutet, mehr Spielerinteraktionen vor deinem Zug zu sehen, aber Gegner sammeln zuerst mehr Informationen.",
+          nl: "Positiebewustzijn betekent begrijpen hoe je positie in beurtvolgorde de informatieflow beïnvloedt - later gaan betekent dat je meer spelerinteracties ziet voor je beurt, maar tegenstanders verzamelen eerst meer informatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'two-card inference' technique?",
+          es: "¿Qué es la técnica de 'inferencia de dos cartas'?",
+          de: "Was ist die 'Zwei-Karten-Inferenz'-Technik?",
+          nl: "Wat is de 'twee-kaarten gevolgtrekking' techniek?"
+        },
+        options: [
+          { en: "When someone shows a card, inferring they have at least one of two cards", es: "Cuando alguien muestra una carta, inferir que tienen al menos una de dos cartas", de: "Wenn jemand eine Karte zeigt, ableiten, dass er mindestens eine von zwei Karten hat", nl: "Wanneer iemand een kaart toont, afleiden dat ze minstens één van twee kaarten hebben" },
+          { en: "Always suggesting exactly two cards you know", es: "Siempre sugerir exactamente dos cartas que conoces", de: "Immer genau zwei Karten vorschlagen, die du kennst", nl: "Altijd precies twee kaarten suggereren die je kent" },
+          { en: "Tracking pairs of cards together", es: "Rastrear pares de cartas juntos", de: "Kartenpaare zusammen verfolgen", nl: "Paren kaarten samen bijhouden" },
+          { en: "Making two suggestions per turn", es: "Hacer dos sugerencias por turno", de: "Zwei Vorschläge pro Zug machen", nl: "Twee suggesties per beurt doen" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Two-card inference occurs when you suggest three cards and someone shows you one - you know they have that card, but they might also have one or both of the other two. Tracking these possibilities is crucial.",
+          es: "La inferencia de dos cartas ocurre cuando sugieres tres cartas y alguien te muestra una - sabes que tienen esa carta, pero también podrían tener una o ambas de las otras dos. Rastrear estas posibilidades es crucial.",
+          de: "Zwei-Karten-Inferenz tritt auf, wenn du drei Karten vorschlägst und jemand dir eine zeigt - du weißt, dass sie diese Karte haben, aber sie könnten auch eine oder beide der anderen zwei haben. Diese Möglichkeiten zu verfolgen ist entscheidend.",
+          nl: "Twee-kaarten gevolgtrekking treedt op wanneer je drie kaarten suggereert en iemand je er één toont - je weet dat ze die kaart hebben, maar ze kunnen ook één of beide andere twee hebben. Deze mogelijkheden bijhouden is cruciaal."
+        }
+      },
+      {
+        question: {
+          en: "How does 'probabilistic reasoning' apply to Cluedo?",
+          es: "¿Cómo se aplica el 'razonamiento probabilístico' a Cluedo?",
+          de: "Wie wird 'probabilistisches Denken' auf Cluedo angewendet?",
+          nl: "Hoe is 'probabilistisch redeneren' van toepassing op Cluedo?"
+        },
+        options: [
+          { en: "Calculating odds of dice rolls", es: "Calcular probabilidades de tiradas de dados", de: "Wahrscheinlichkeiten von Würfelwürfen berechnen", nl: "Kansen van dobbelsteenworpen berekenen" },
+          { en: "Estimating likelihood of which cards are in solution based on partial info", es: "Estimar la probabilidad de qué cartas están en la solución basándose en información parcial", de: "Wahrscheinlichkeit schätzen, welche Karten in der Lösung sind, basierend auf Teilinformationen", nl: "Waarschijnlijkheid schatten van welke kaarten in oplossing zitten op basis van gedeeltelijke info" },
+          { en: "Guessing randomly between options", es: "Adivinar aleatoriamente entre opciones", de: "Zufällig zwischen Optionen raten", nl: "Willekeurig raden tussen opties" },
+          { en: "Probability doesn't apply to deduction games", es: "La probabilidad no se aplica a juegos de deducción", de: "Wahrscheinlichkeit gilt nicht für Deduktionsspiele", nl: "Waarschijnlijkheid is niet van toepassing op deductiespellen" }
+        },
+        correct: 1,
+        explanation: {
+          en: "While Cluedo is primarily deductive, probabilistic reasoning helps when you have incomplete information - estimating which cards are more likely to be in the solution based on what you've learned and what remains unknown.",
+          es: "Aunque Cluedo es principalmente deductivo, el razonamiento probabilístico ayuda cuando tienes información incompleta - estimando qué cartas tienen más probabilidades de estar en la solución basándose en lo que has aprendido y lo que permanece desconocido.",
+          de: "Während Cluedo hauptsächlich deduktiv ist, hilft probabilistisches Denken, wenn du unvollständige Informationen hast - zu schätzen, welche Karten eher in der Lösung sind, basierend darauf, was du gelernt hast und was unbekannt bleibt.",
+          nl: "Hoewel Cluedo voornamelijk deductief is, helpt probabilistisch redeneren wanneer je onvolledige informatie hebt - schatten welke kaarten waarschijnlijk in de oplossing zitten op basis van wat je hebt geleerd en wat onbekend blijft."
+        }
+      },
+      {
+        question: {
+          en: "What is 'information cascade' in Cluedo?",
+          es: "¿Qué es la 'cascada de información' en Cluedo?",
+          de: "Was ist 'Informationskaskade' in Cluedo?",
+          nl: "Wat is 'informatie cascade' in Cluedo?"
+        },
+        options: [
+          { en: "When one deduction leads to multiple other deductions", es: "Cuando una deducción lleva a múltiples otras deducciones", de: "Wenn eine Deduktion zu mehreren anderen Deduktionen führt", nl: "Wanneer één gevolgtrekking leidt tot meerdere andere gevolgtrekkingen" },
+          { en: "When information flows from dealer to players", es: "Cuando la información fluye del repartidor a los jugadores", de: "Wenn Informationen vom Geber zu den Spielern fließen", nl: "Wanneer informatie van dealer naar spelers stroomt" },
+          { en: "Sharing all your cards with another player", es: "Compartir todas tus cartas con otro jugador", de: "Alle deine Karten mit einem anderen Spieler teilen", nl: "Al je kaarten delen met een andere speler" },
+          { en: "Revealing cards in sequence", es: "Revelar cartas en secuencia", de: "Karten nacheinander offenbaren", nl: "Kaarten in volgorde onthullen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "An information cascade occurs when discovering one piece of information allows you to deduce several other facts through logical chain reactions - for example, eliminating one suspect might reveal who holds certain weapon cards.",
+          es: "Una cascada de información ocurre cuando descubrir una pieza de información te permite deducir varios otros hechos a través de reacciones en cadena lógicas - por ejemplo, eliminar un sospechoso podría revelar quién tiene ciertas cartas de armas.",
+          de: "Eine Informationskaskade tritt auf, wenn das Entdecken einer Information es dir ermöglicht, mehrere andere Fakten durch logische Kettenreaktionen abzuleiten - zum Beispiel könnte das Eliminieren eines Verdächtigen offenbaren, wer bestimmte Waffenkarten hat.",
+          nl: "Een informatie cascade treedt op wanneer het ontdekken van één stuk informatie je in staat stelt verschillende andere feiten af te leiden door logische kettingreacties - bijvoorbeeld, het elimineren van een verdachte kan onthullen wie bepaalde wapenkaarten heeft."
+        }
+      },
+      {
+        question: {
+          en: "Why is early-game information gathering different from late-game?",
+          es: "¿Por qué la recopilación de información del juego temprano es diferente del juego tardío?",
+          de: "Warum unterscheidet sich das Sammeln von Informationen im frühen Spiel vom späten Spiel?",
+          nl: "Waarom verschilt vroeg-spel informatieverzameling van laat-spel?"
+        },
+        options: [
+          { en: "Early game should cast wide net, late game should target specific unknowns", es: "El juego temprano debe lanzar una red amplia, el juego tardío debe apuntar a desconocidos específicos", de: "Frühes Spiel sollte ein weites Netz auswerfen, spätes Spiel sollte auf spezifische Unbekannte zielen", nl: "Vroeg spel moet breed net uitwerpen, laat spel moet specifieke onbekenden targeten" },
+          { en: "They're the same - always suggest randomly", es: "Son lo mismo - siempre sugerir aleatoriamente", de: "Sie sind gleich - immer zufällig vorschlagen", nl: "Ze zijn hetzelfde - altijd willekeurig suggereren" },
+          { en: "Early game should be cautious, late game aggressive", es: "El juego temprano debe ser cauteloso, el juego tardío agresivo", de: "Frühes Spiel sollte vorsichtig sein, spätes Spiel aggressiv", nl: "Vroeg spel moet voorzichtig zijn, laat spel agressief" },
+          { en: "Late game gathering is less important", es: "La recopilación del juego tardío es menos importante", de: "Das Sammeln im späten Spiel ist weniger wichtig", nl: "Laat spel verzameling is minder belangrijk" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Early game benefits from broad suggestions to eliminate many possibilities quickly. Late game requires targeted suggestions focused on the few remaining unknowns to make your final deduction.",
+          es: "El juego temprano se beneficia de sugerencias amplias para eliminar muchas posibilidades rápidamente. El juego tardío requiere sugerencias dirigidas enfocadas en los pocos desconocidos restantes para hacer tu deducción final.",
+          de: "Das frühe Spiel profitiert von breiten Vorschlägen, um viele Möglichkeiten schnell zu eliminieren. Das späte Spiel erfordert gezielte Vorschläge, die sich auf die wenigen verbleibenden Unbekannten konzentrieren, um deine endgültige Deduktion zu machen.",
+          nl: "Vroeg spel profiteert van brede suggesties om veel mogelijkheden snel te elimineren. Laat spel vereist gerichte suggesties gericht op de weinige resterende onbekenden om je definitieve deductie te maken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'optimal suggestion composition'?",
+          es: "¿Qué es la 'composición óptima de sugerencias'?",
+          de: "Was ist 'optimale Vorschlagszusammensetzung'?",
+          nl: "Wat is 'optimale suggestie samenstelling'?"
+        },
+        options: [
+          { en: "Mixing known and unknown cards for maximum information gain", es: "Mezclar cartas conocidas y desconocidas para máxima ganancia de información", de: "Bekannte und unbekannte Karten mischen für maximalen Informationsgewinn", nl: "Bekende en onbekende kaarten mengen voor maximale informatie winst" },
+          { en: "Always suggesting three unknowns", es: "Siempre sugerir tres desconocidos", de: "Immer drei Unbekannte vorschlagen", nl: "Altijd drie onbekenden suggereren" },
+          { en: "Suggesting cards in alphabetical order", es: "Sugerir cartas en orden alfabético", de: "Karten in alphabetischer Reihenfolge vorschlagen", nl: "Kaarten in alfabetische volgorde suggereren" },
+          { en: "Composing suggestions based on room location", es: "Componer sugerencias basadas en ubicación de habitación", de: "Vorschläge basierend auf Raumposition komponieren", nl: "Suggesties samenstellen op basis van kamerlocatie" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Optimal composition balances known cards (to guarantee useful information from any response) with strategic unknown cards (to eliminate key possibilities). The exact mix depends on your current knowledge state.",
+          es: "La composición óptima equilibra cartas conocidas (para garantizar información útil de cualquier respuesta) con cartas desconocidas estratégicas (para eliminar posibilidades clave). La mezcla exacta depende de tu estado de conocimiento actual.",
+          de: "Optimale Zusammensetzung balanciert bekannte Karten (um nützliche Informationen aus jeder Antwort zu garantieren) mit strategisch unbekannten Karten (um Schlüsselmöglichkeiten zu eliminieren). Die genaue Mischung hängt von deinem aktuellen Wissenszustand ab.",
+          nl: "Optimale samenstelling balanceert bekende kaarten (om nuttige informatie uit elk antwoord te garanderen) met strategisch onbekende kaarten (om belangrijke mogelijkheden te elimineren). De exacte mix hangt af van je huidige kennistoestand."
+        }
+      },
+      {
+        question: {
+          en: "How can you exploit 'information leakage' from opponents?",
+          es: "¿Cómo puedes explotar la 'filtración de información' de los oponentes?",
+          de: "Wie kannst du 'Informationsleckage' von Gegnern ausnutzen?",
+          nl: "Hoe kun je 'informatie lekkage' van tegenstanders uitbuiten?"
+        },
+        options: [
+          { en: "Observing their body language and reaction times", es: "Observar su lenguaje corporal y tiempos de reacción", de: "Ihre Körpersprache und Reaktionszeiten beobachten", nl: "Hun lichaamstaal en reactietijden observeren" },
+          { en: "Listening for verbal hints", es: "Escuchar pistas verbales", de: "Auf verbale Hinweise hören", nl: "Luisteren naar verbale hints" },
+          { en: "Analyzing patterns in their suggestions", es: "Analizar patrones en sus sugerencias", de: "Muster in ihren Vorschlägen analysieren", nl: "Patronen in hun suggesties analyseren" },
+          { en: "All can provide useful information", es: "Todos pueden proporcionar información útil", de: "Alle können nützliche Informationen liefern", nl: "Allemaal kunnen nuttige informatie bieden" }
+        },
+        correct: 3,
+        explanation: {
+          en: "Information leakage occurs through multiple channels: hesitation when showing cards, patterns in suggestions, reaction to others' suggestions, and even physical tells. Advanced players watch for all these signals.",
+          es: "La filtración de información ocurre a través de múltiples canales: vacilación al mostrar cartas, patrones en sugerencias, reacción a sugerencias de otros, e incluso señales físicas. Los jugadores avanzados observan todas estas señales.",
+          de: "Informationsleckage tritt über mehrere Kanäle auf: Zögern beim Zeigen von Karten, Muster in Vorschlägen, Reaktion auf Vorschläge anderer und sogar physische Anzeichen. Fortgeschrittene Spieler achten auf all diese Signale.",
+          nl: "Informatie lekkage treedt op via meerdere kanalen: aarzeling bij het tonen van kaarten, patronen in suggesties, reactie op suggesties van anderen, en zelfs fysieke signalen. Gevorderde spelers letten op al deze signalen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'endgame convergence' phenomenon?",
+          es: "¿Qué es el fenómeno de 'convergencia de final de juego'?",
+          de: "Was ist das 'Endspiel-Konvergenz'-Phänomen?",
+          nl: "Wat is het 'eindspel convergentie' fenomeen?"
+        },
+        options: [
+          { en: "All players reaching similar conclusions simultaneously", es: "Todos los jugadores llegando a conclusiones similares simultáneamente", de: "Alle Spieler erreichen ähnliche Schlussfolgerungen gleichzeitig", nl: "Alle spelers bereiken gelijktijdig vergelijkbare conclusies" },
+          { en: "Players moving toward the same room", es: "Jugadores moviéndose hacia la misma habitación", de: "Spieler bewegen sich zum selben Raum", nl: "Spelers bewegen naar dezelfde kamer" },
+          { en: "The game ending in a tie", es: "El juego terminando en empate", de: "Das Spiel endet unentschieden", nl: "Het spel eindigt in een gelijkspel" },
+          { en: "Multiple accusations being made", es: "Se hacen múltiples acusaciones", de: "Mehrere Anschuldigungen werden gemacht", nl: "Meerdere beschuldigingen worden gemaakt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Endgame convergence occurs when all players have gathered similar information and begin reaching the same conclusions about the solution, creating a race to make the first correct accusation.",
+          es: "La convergencia de final de juego ocurre cuando todos los jugadores han recopilado información similar y comienzan a llegar a las mismas conclusiones sobre la solución, creando una carrera para hacer la primera acusación correcta.",
+          de: "Endspiel-Konvergenz tritt auf, wenn alle Spieler ähnliche Informationen gesammelt haben und beginnen, zu denselben Schlussfolgerungen über die Lösung zu gelangen, was ein Rennen um die erste richtige Anschuldigung schafft.",
+          nl: "Eindspel convergentie treedt op wanneer alle spelers vergelijkbare informatie hebben verzameld en beginnen dezelfde conclusies over de oplossing te bereiken, wat een race creëert om de eerste juiste beschuldiging te maken."
+        }
+      },
+      {
+        question: {
+          en: "How does 'Bayesian updating' apply to Cluedo strategy?",
+          es: "¿Cómo se aplica la 'actualización bayesiana' a la estrategia de Cluedo?",
+          de: "Wie wird 'Bayesianisches Updating' auf Cluedo-Strategie angewendet?",
+          nl: "Hoe is 'Bayesiaanse actualisatie' van toepassing op Cluedo strategie?"
+        },
+        options: [
+          { en: "Continuously updating probability estimates as new info arrives", es: "Actualizar continuamente estimaciones de probabilidad a medida que llega nueva información", de: "Wahrscheinlichkeitsschätzungen kontinuierlich aktualisieren, wenn neue Informationen eintreffen", nl: "Continu waarschijnlijkheidsschattingen bijwerken naarmate nieuwe info binnenkomt" },
+          { en: "Using Bayes' theorem to calculate dice probabilities", es: "Usar el teorema de Bayes para calcular probabilidades de dados", de: "Bayes-Theorem verwenden, um Würfelwahrscheinlichkeiten zu berechnen", nl: "Bayes' theorema gebruiken om dobbelsteenkansen te berekenen" },
+          { en: "It doesn't apply to Cluedo", es: "No se aplica a Cluedo", de: "Es gilt nicht für Cluedo", nl: "Het is niet van toepassing op Cluedo" },
+          { en: "Predicting opponents' next moves", es: "Predecir los próximos movimientos de los oponentes", de: "Die nächsten Züge der Gegner vorhersagen", nl: "Volgende zetten van tegenstanders voorspellen" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Bayesian updating means continuously revising your probability estimates about which cards are in the solution based on each new piece of evidence, rather than treating each clue in isolation.",
+          es: "La actualización bayesiana significa revisar continuamente tus estimaciones de probabilidad sobre qué cartas están en la solución basándose en cada nueva pieza de evidencia, en lugar de tratar cada pista de forma aislada.",
+          de: "Bayesianisches Updating bedeutet, deine Wahrscheinlichkeitsschätzungen darüber, welche Karten in der Lösung sind, kontinuierlich auf Basis jedes neuen Beweises zu revidieren, anstatt jeden Hinweis isoliert zu behandeln.",
+          nl: "Bayesiaanse actualisatie betekent continu je waarschijnlijkheidsschattingen herzien over welke kaarten in de oplossing zitten op basis van elk nieuw bewijs, in plaats van elke aanwijzing geïsoleerd te behandelen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'false accusation risk assessment'?",
+          es: "¿Qué es la 'evaluación de riesgo de acusación falsa'?",
+          de: "Was ist die 'Falsche-Anschuldigung-Risikobewertung'?",
+          nl: "Wat is de 'valse beschuldiging risicobeoordeling'?"
+        },
+        options: [
+          { en: "Calculating when to accuse based on confidence level vs opponent progress", es: "Calcular cuándo acusar basándose en nivel de confianza vs progreso del oponente", de: "Berechnen, wann man anklagen sollte basierend auf Vertrauensniveau vs. Gegnerprogress", nl: "Berekenen wanneer te beschuldigen op basis van vertrouwensniveau vs. tegenstander voortgang" },
+          { en: "Assessing penalty for wrong accusations", es: "Evaluar penalización por acusaciones incorrectas", de: "Strafe für falsche Anschuldigungen bewerten", nl: "Straf voor foute beschuldigingen beoordelen" },
+          { en: "Predicting opponents' likelihood to accuse", es: "Predecir la probabilidad de que los oponentes acusen", de: "Wahrscheinlichkeit vorhersagen, dass Gegner anklagen", nl: "Waarschijnlijkheid voorspellen dat tegenstanders beschuldigen" },
+          { en: "Risk assessment doesn't matter in Cluedo", es: "La evaluación de riesgo no importa en Cluedo", de: "Risikobewertung spielt in Cluedo keine Rolle", nl: "Risicobeoordeling doet er niet toe in Cluedo" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Advanced players weigh the risk of a wrong accusation (elimination) against the risk of waiting (opponent might solve first). This involves assessing both your confidence level and opponents' apparent progress.",
+          es: "Los jugadores avanzados sopesan el riesgo de una acusación incorrecta (eliminación) contra el riesgo de esperar (el oponente podría resolver primero). Esto implica evaluar tanto tu nivel de confianza como el progreso aparente de los oponentes.",
+          de: "Fortgeschrittene Spieler wägen das Risiko einer falschen Anschuldigung (Eliminierung) gegen das Risiko des Wartens (Gegner könnte zuerst lösen) ab. Dies beinhaltet die Bewertung sowohl deines Vertrauensniveaus als auch des scheinbaren Fortschritts der Gegner.",
+          nl: "Gevorderde spelers wegen het risico van een foute beschuldiging (eliminatie) af tegen het risico van wachten (tegenstander lost mogelijk eerst op). Dit houdt in het beoordelen van zowel je vertrouwensniveau als de schijnbare voortgang van tegenstanders."
+        }
+      },
+      {
+        question: {
+          en: "What advanced concept is 'constraint propagation' in Cluedo?",
+          es: "¿Qué concepto avanzado es la 'propagación de restricciones' en Cluedo?",
+          de: "Was ist das fortgeschrittene Konzept 'Constraint Propagation' in Cluedo?",
+          nl: "Wat is het geavanceerde concept 'constraint propagatie' in Cluedo?"
+        },
+        options: [
+          { en: "How one eliminated card constrains other possibilities throughout the game", es: "Cómo una carta eliminada restringe otras posibilidades en todo el juego", de: "Wie eine eliminierte Karte andere Möglichkeiten im gesamten Spiel einschränkt", nl: "Hoe één geëlimineerde kaart andere mogelijkheden door het hele spel beperkt" },
+          { en: "Spreading your suggestions across all rooms", es: "Distribuir tus sugerencias por todas las habitaciones", de: "Deine Vorschläge über alle Räume verteilen", nl: "Je suggesties verspreiden over alle kamers" },
+          { en: "Teaching other players strategy", es: "Enseñar estrategia a otros jugadores", de: "Anderen Spielern Strategie beibringen", nl: "Andere spelers strategie leren" },
+          { en: "Moving pieces efficiently", es: "Mover piezas eficientemente", de: "Figuren effizient bewegen", nl: "Stukken efficiënt bewegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Constraint propagation is recognizing how eliminating one card creates a cascade of logical constraints - if Player A doesn't have weapon X and you know they showed someone a weapon card, it must be weapon Y or Z.",
+          es: "La propagación de restricciones es reconocer cómo eliminar una carta crea una cascada de restricciones lógicas - si el Jugador A no tiene el arma X y sabes que mostró una carta de arma a alguien, debe ser el arma Y o Z.",
+          de: "Constraint Propagation bedeutet zu erkennen, wie das Eliminieren einer Karte eine Kaskade logischer Einschränkungen schafft - wenn Spieler A Waffe X nicht hat und du weißt, dass er jemandem eine Waffenkarte gezeigt hat, muss es Waffe Y oder Z sein.",
+          nl: "Constraint propagatie is herkennen hoe het elimineren van één kaart een cascade van logische beperkingen creëert - als Speler A wapen X niet heeft en je weet dat ze iemand een wapenkaart toonden, moet het wapen Y of Z zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'meta-game awareness' in competitive Cluedo?",
+          es: "¿Qué es la 'conciencia de meta-juego' en Cluedo competitivo?",
+          de: "Was ist 'Meta-Game-Bewusstsein' im kompetitiven Cluedo?",
+          nl: "Wat is 'meta-spel bewustzijn' in competitief Cluedo?"
+        },
+        options: [
+          { en: "Understanding opponents' skill levels and adapting strategy", es: "Entender los niveles de habilidad de los oponentes y adaptar la estrategia", de: "Fähigkeitsniveaus der Gegner verstehen und Strategie anpassen", nl: "Vaardigheidsniveaus van tegenstanders begrijpen en strategie aanpassen" },
+          { en: "Knowing the rules variations", es: "Conocer las variaciones de reglas", de: "Regelvariationen kennen", nl: "Regel variaties kennen" },
+          { en: "Understanding board layout", es: "Entender el diseño del tablero", de: "Brett-Layout verstehen", nl: "Bord layout begrijpen" },
+          { en: "Tracking game statistics", es: "Rastrear estadísticas del juego", de: "Spielstatistiken verfolgen", nl: "Spel statistieken bijhouden" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Meta-game awareness means understanding your opponents' skill levels, tendencies, and strategies, then adapting your play accordingly - aggressive against beginners, more defensive against advanced players.",
+          es: "La conciencia de meta-juego significa entender los niveles de habilidad, tendencias y estrategias de tus oponentes, luego adaptar tu juego en consecuencia - agresivo contra principiantes, más defensivo contra jugadores avanzados.",
+          de: "Meta-Game-Bewusstsein bedeutet, die Fähigkeitsniveaus, Tendenzen und Strategien deiner Gegner zu verstehen und dein Spiel entsprechend anzupassen - aggressiv gegen Anfänger, defensiver gegen fortgeschrittene Spieler.",
+          nl: "Meta-spel bewustzijn betekent de vaardigheidsniveaus, tendensen en strategieën van je tegenstanders begrijpen, en dan je spel dienovereenkomstig aanpassen - agressief tegen beginners, meer defensief tegen gevorderde spelers."
+        }
       }
     ]
   };

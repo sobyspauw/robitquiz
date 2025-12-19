@@ -427,6 +427,405 @@
           de: "Das Zentrum kontrollieren bedeutet, die vier zentralen Felder (d4, e4, d5, e5) zu dominieren, was größere Mobilität und Angriffschancen bietet.",
           nl: "Het centrum controleren betekent de vier centrale vakjes (d4, e4, d5, e5) domineren, wat grotere mobiliteit en aanvalskansen biedt."
         }
+      },
+      {
+        question: {
+          en: "What is a 'gambit' in chess?",
+          es: "¿Qué es un 'gambito' en ajedrez?",
+          de: "Was ist ein 'Gambit' im Schach?",
+          nl: "Wat is een 'gambiet' in schaken?"
+        },
+        options: [
+          { en: "Sacrificing material for positional advantage", es: "Sacrificar material por ventaja posicional", de: "Material opfern für positionellen Vorteil", nl: "Materiaal opofferen voor positioneel voordeel" },
+          { en: "A defensive strategy", es: "Una estrategia defensiva", de: "Eine Verteidigungsstrategie", nl: "Een verdedigingsstrategie" },
+          { en: "Trading pieces equally", es: "Intercambiar piezas equitativamente", de: "Figuren gleichwertig tauschen", nl: "Stukken gelijkwaardig ruilen" },
+          { en: "A type of checkmate", es: "Un tipo de jaque mate", de: "Eine Art Schachmatt", nl: "Een soort schaakmat" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A gambit is an opening where one player sacrifices material (usually a pawn) early to gain tempo, development, or attacking chances.",
+          es: "Un gambito es una apertura donde un jugador sacrifica material (usualmente un peón) temprano para ganar tempo, desarrollo u oportunidades de ataque.",
+          de: "Ein Gambit ist eine Eröffnung, bei der ein Spieler früh Material (meist einen Bauern) opfert, um Tempo, Entwicklung oder Angriffschancen zu gewinnen.",
+          nl: "Een gambiet is een opening waarbij een speler vroeg materiaal (meestal een pion) opoffert om tempo, ontwikkeling of aanvalskansen te winnen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Lucena position'?",
+          es: "¿Qué es la 'posición de Lucena'?",
+          de: "Was ist die 'Lucena-Stellung'?",
+          nl: "Wat is de 'Lucena-positie'?"
+        },
+        options: [
+          { en: "Famous rook endgame winning technique", es: "Técnica ganadora famosa en finales de torres", de: "Berühmte Gewinn-Technik im Turmendspiel", nl: "Beroemde wintechniek in toreneindspel" },
+          { en: "An opening trap", es: "Una trampa de apertura", de: "Eine Eröffnungsfalle", nl: "Een openingsval" },
+          { en: "A pawn structure", es: "Una estructura de peones", de: "Eine Bauernstruktur", nl: "Een pionstructuur" },
+          { en: "A checkmate pattern", es: "Un patrón de jaque mate", de: "Ein Schachmattmuster", nl: "Een schaakmatpatroon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Lucena position is one of the most important techniques in rook endgames, showing how to promote a pawn when your rook and king are better placed.",
+          es: "La posición de Lucena es una de las técnicas más importantes en finales de torres, mostrando cómo promover un peón cuando tu torre y rey están mejor ubicados.",
+          de: "Die Lucena-Stellung ist eine der wichtigsten Techniken im Turmendspiel und zeigt, wie man einen Bauern umwandelt, wenn Turm und König besser platziert sind.",
+          nl: "De Lucena-positie is een van de belangrijkste technieken in toreneindspelen, die laat zien hoe een pion te promoveren wanneer je toren en koning beter geplaatst zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is 'underpromotion'?",
+          es: "¿Qué es la 'subpromoción'?",
+          de: "Was ist 'Unterumwandlung'?",
+          nl: "Wat is 'onderpromotie'?"
+        },
+        options: [
+          { en: "Promoting pawn to piece other than queen", es: "Promover un peón a una pieza que no sea reina", de: "Einen Bauern zu einer anderen Figur als Dame umwandeln", nl: "Een pion promoveren tot een ander stuk dan koningin" },
+          { en: "Promoting a pawn too early", es: "Promover un peón demasiado pronto", de: "Einen Bauern zu früh umwandeln", nl: "Een pion te vroeg promoveren" },
+          { en: "Failed pawn promotion", es: "Promoción de peón fallida", de: "Gescheiterte Bauernumwandlung", nl: "Mislukte pionpromotie" },
+          { en: "Promoting on wrong square", es: "Promover en la casilla equivocada", de: "Auf dem falschen Feld umwandeln", nl: "Promoveren op het verkeerde vakje" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Underpromotion means promoting a pawn to a rook, bishop, or knight instead of a queen. This is rare but sometimes necessary to avoid stalemate or achieve a specific tactical goal.",
+          es: "La subpromoción significa promover un peón a torre, alfil o caballo en lugar de reina. Esto es raro pero a veces necesario para evitar ahogado o lograr un objetivo táctico específico.",
+          de: "Unterumwandlung bedeutet, einen Bauern zu Turm, Läufer oder Springer statt zu Dame umzuwandeln. Dies ist selten, aber manchmal nötig, um Patt zu vermeiden oder ein spezifisches taktisches Ziel zu erreichen.",
+          nl: "Onderpromotie betekent een pion promoveren tot toren, loper of paard in plaats van koningin. Dit is zeldzaam maar soms nodig om pat te vermijden of een specifiek tactisch doel te bereiken."
+        }
+      },
+      {
+        question: {
+          en: "What is 'algebraic notation'?",
+          es: "¿Qué es la 'notación algebraica'?",
+          de: "Was ist 'algebraische Notation'?",
+          nl: "Wat is 'algebraïsche notatie'?"
+        },
+        options: [
+          { en: "Standard system for recording chess moves", es: "Sistema estándar para registrar movimientos de ajedrez", de: "Standardsystem zur Aufzeichnung von Schachzügen", nl: "Standaardsysteem voor het noteren van schaakzetten" },
+          { en: "Mathematical chess analysis", es: "Análisis matemático del ajedrez", de: "Mathematische Schachanalyse", nl: "Wiskundige schaakanalyse" },
+          { en: "A type of chess opening", es: "Un tipo de apertura de ajedrez", de: "Eine Art Schacheröffnung", nl: "Een soort schaakopening" },
+          { en: "Computer chess programming", es: "Programación de ajedrez por computadora", de: "Computer-Schachprogrammierung", nl: "Computerschaakprogrammering" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Algebraic notation uses letters a-h for files and numbers 1-8 for ranks to record moves (e.g., e4, Nf3). It's the standard way to write down chess games.",
+          es: "La notación algebraica usa letras a-h para columnas y números 1-8 para filas para registrar movimientos (ej., e4, Nf3). Es la forma estándar de escribir partidas de ajedrez.",
+          de: "Die algebraische Notation verwendet Buchstaben a-h für Linien und Zahlen 1-8 für Reihen zur Aufzeichnung von Zügen (z.B. e4, Sf3). Sie ist die Standardmethode zum Notieren von Schachpartien.",
+          nl: "Algebraïsche notatie gebruikt letters a-h voor lijnen en nummers 1-8 voor rijen om zetten te noteren (bijv. e4, Pf3). Het is de standaardmanier om schaakpartijen op te schrijven."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'discovered attack'?",
+          es: "¿Qué es un 'ataque descubierto'?",
+          de: "Was ist ein 'Abzugsangriff'?",
+          nl: "Wat is een 'ontdekte aanval'?"
+        },
+        options: [
+          { en: "Moving piece reveals attack from piece behind", es: "Mover una pieza revela un ataque de una pieza detrás", de: "Eine Figur bewegen enthüllt Angriff von Figur dahinter", nl: "Een stuk bewegen onthult aanval van stuk erachter" },
+          { en: "Finding a hidden tactical shot", es: "Encontrar un golpe táctico oculto", de: "Einen versteckten taktischen Schlag finden", nl: "Een verborgen tactische slag vinden" },
+          { en: "Attacking with multiple pieces", es: "Atacar con múltiples piezas", de: "Mit mehreren Figuren angreifen", nl: "Aanvallen met meerdere stukken" },
+          { en: "Surprise opening move", es: "Movimiento de apertura sorpresa", de: "Überraschender Eröffnungszug", nl: "Verrassing openingszet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A discovered attack occurs when moving one piece unveils an attack from another piece that was blocked. The moving piece can also attack simultaneously.",
+          es: "Un ataque descubierto ocurre cuando mover una pieza revela un ataque de otra pieza que estaba bloqueada. La pieza en movimiento también puede atacar simultáneamente.",
+          de: "Ein Abzugsangriff tritt auf, wenn das Bewegen einer Figur einen Angriff von einer anderen, zuvor blockierten Figur enthüllt. Die bewegte Figur kann gleichzeitig auch angreifen.",
+          nl: "Een ontdekte aanval treedt op wanneer het bewegen van een stuk een aanval van een ander stuk dat geblokkeerd was onthult. Het bewegende stuk kan ook tegelijkertijd aanvallen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'initiative' in chess?",
+          es: "¿Qué es la 'iniciativa' en ajedrez?",
+          de: "Was ist die 'Initiative' im Schach?",
+          nl: "Wat is het 'initiatief' in schaken?"
+        },
+        options: [
+          { en: "Ability to make threats and control tempo", es: "Capacidad de hacer amenazas y controlar el tempo", de: "Fähigkeit, Drohungen zu machen und Tempo zu kontrollieren", nl: "Vermogen om dreigingen te maken en tempo te controleren" },
+          { en: "Making the first move", es: "Hacer el primer movimiento", de: "Den ersten Zug machen", nl: "De eerste zet doen" },
+          { en: "Having more pieces", es: "Tener más piezas", de: "Mehr Figuren haben", nl: "Meer stukken hebben" },
+          { en: "Attacking the king first", es: "Atacar al rey primero", de: "Den König zuerst angreifen", nl: "De koning eerst aanvallen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Having the initiative means your moves create threats that force your opponent to respond defensively rather than pursuing their own plans.",
+          es: "Tener la iniciativa significa que tus movimientos crean amenazas que obligan a tu oponente a responder defensivamente en lugar de perseguir sus propios planes.",
+          de: "Die Initiative zu haben bedeutet, dass Ihre Züge Drohungen schaffen, die Ihren Gegner zwingen, defensiv zu reagieren, anstatt eigene Pläne zu verfolgen.",
+          nl: "Het initiatief hebben betekent dat je zetten dreigingen creëren die je tegenstander dwingen defensief te reageren in plaats van hun eigen plannen na te streven."
+        }
+      },
+      {
+        question: {
+          en: "What are 'hanging pawns'?",
+          es: "¿Qué son 'peones colgantes'?",
+          de: "Was sind 'hängende Bauern'?",
+          nl: "Wat zijn 'hangende pionnen'?"
+        },
+        options: [
+          { en: "Two pawns side-by-side on 4th rank without pawn support", es: "Dos peones lado a lado en la 4ª fila sin apoyo de otros peones", de: "Zwei Bauern nebeneinander auf der 4. Reihe ohne Bauernunterstützung", nl: "Twee pionnen naast elkaar op de 4e rij zonder pionsteun" },
+          { en: "Pawns about to be captured", es: "Peones a punto de ser capturados", de: "Bauern kurz vor dem Geschlagenwerden", nl: "Pionnen op het punt om geslagen te worden" },
+          { en: "Undefended pawns", es: "Peones sin defensa", de: "Unverteidigte Bauern", nl: "Onverdedigde pionnen" },
+          { en: "Pawns on the edge files", es: "Peones en las columnas laterales", de: "Bauern auf den Randlinien", nl: "Pionnen op de randlijnen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Hanging pawns are typically two pawns side-by-side on the c and d files (or d and e) on the 4th rank, isolated from other pawns. They can be strong or weak depending on the position.",
+          es: "Los peones colgantes son típicamente dos peones lado a lado en las columnas c y d (o d y e) en la 4ª fila, aislados de otros peones. Pueden ser fuertes o débiles dependiendo de la posición.",
+          de: "Hängende Bauern sind typischerweise zwei Bauern nebeneinander auf den c- und d-Linien (oder d und e) auf der 4. Reihe, isoliert von anderen Bauern. Sie können stark oder schwach sein, je nach Stellung.",
+          nl: "Hangende pionnen zijn meestal twee pionnen naast elkaar op de c en d lijnen (of d en e) op de 4e rij, geïsoleerd van andere pionnen. Ze kunnen sterk of zwak zijn afhankelijk van de positie."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'perpetual check'?",
+          es: "¿Qué es un 'jaque perpetuo'?",
+          de: "Was ist ein 'Dauerschach'?",
+          nl: "Wat is 'eeuwig schaak'?"
+        },
+        options: [
+          { en: "Endless series of checks forcing a draw", es: "Serie interminable de jaques que fuerza empate", de: "Endlose Serie von Schachs, die Remis erzwingt", nl: "Eindeloze reeks schaken die remise afdwingt" },
+          { en: "Checking every move", es: "Dar jaque en cada movimiento", de: "Jeden Zug Schach geben", nl: "Elke zet schaak geven" },
+          { en: "Permanent check position", es: "Posición de jaque permanente", de: "Permanente Schachstellung", nl: "Permanente schaakpositie" },
+          { en: "Checking until mate", es: "Dar jaque hasta el mate", de: "Schach geben bis Matt", nl: "Schaak geven tot mat" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Perpetual check is a drawing technique where one player can check the opponent's king endlessly. The game is drawn by threefold repetition or mutual agreement.",
+          es: "El jaque perpetuo es una técnica de empate donde un jugador puede dar jaque al rey del oponente infinitamente. El juego termina en empate por triple repetición o acuerdo mutuo.",
+          de: "Dauerschach ist eine Remis-Technik, bei der ein Spieler den gegnerischen König endlos schach setzen kann. Das Spiel endet durch dreifache Wiederholung oder gegenseitige Vereinbarung remis.",
+          nl: "Eeuwig schaak is een remisetechniek waarbij een speler de koning van de tegenstander eindeloos schaak kan zetten. Het spel eindigt remise door drievoudige herhaling of wederzijdse overeenkomst."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Philidor position'?",
+          es: "¿Qué es la 'posición de Philidor'?",
+          de: "Was ist die 'Philidor-Stellung'?",
+          nl: "Wat is de 'Philidor-positie'?"
+        },
+        options: [
+          { en: "Defensive rook endgame holding technique", es: "Técnica defensiva para aguantar en finales de torres", de: "Defensive Haltetechnik im Turmendspiel", nl: "Defensieve houdtechniek in toreneindspel" },
+          { en: "An opening strategy", es: "Una estrategia de apertura", de: "Eine Eröffnungsstrategie", nl: "Een openingsstrategie" },
+          { en: "A pawn breakthrough", es: "Un avance de peón", de: "Ein Bauerndurchbruch", nl: "Een piondoorbraak" },
+          { en: "A mating pattern", es: "Un patrón de mate", de: "Ein Mattmuster", nl: "Een matpatroon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Philidor position shows how the defending side in a rook and pawn endgame can hold a draw by keeping the rook on the third rank and preventing the attacking king from advancing.",
+          es: "La posición de Philidor muestra cómo el lado defensor en un final de torre y peón puede mantener empate manteniendo la torre en la tercera fila y evitando que el rey atacante avance.",
+          de: "Die Philidor-Stellung zeigt, wie die verteidigende Seite in einem Turm-und-Bauer-Endspiel ein Remis halten kann, indem der Turm auf der dritten Reihe bleibt und der angreifende König am Vorrücken gehindert wird.",
+          nl: "De Philidor-positie toont hoe de verdedigende kant in een toren-en-pion-eindspel remise kan houden door de toren op de derde rij te houden en te voorkomen dat de aanvallende koning voortkomt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'queenside castling'?",
+          es: "¿Qué es el 'enroque largo'?",
+          de: "Was ist 'lange Rochade'?",
+          nl: "Wat is 'lange rokade'?"
+        },
+        options: [
+          { en: "Castling with the a-rook (O-O-O)", es: "Enrocar con la torre del lado de la reina (O-O-O)", de: "Rochade mit dem a-Turm (O-O-O)", nl: "Rokeren met de a-toren (O-O-O)" },
+          { en: "Moving queen early", es: "Mover la reina temprano", de: "Die Dame früh ziehen", nl: "De koningin vroeg bewegen" },
+          { en: "Castling toward the queen", es: "Enrocar hacia la reina", de: "Zur Dame rochieren", nl: "Naar de koningin rokeren" },
+          { en: "Special queen move", es: "Movimiento especial de reina", de: "Spezieller Damenzug", nl: "Speciale koninginzet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Queenside castling (O-O-O or 0-0-0) involves castling with the rook on the a-file. The king moves two squares toward the rook, and the rook jumps over to the d-file.",
+          es: "El enroque largo (O-O-O o 0-0-0) implica enrocar con la torre en la columna a. El rey se mueve dos casillas hacia la torre, y la torre salta a la columna d.",
+          de: "Lange Rochade (O-O-O oder 0-0-0) bedeutet Rochade mit dem Turm auf der a-Linie. Der König zieht zwei Felder zum Turm, und der Turm springt auf die d-Linie.",
+          nl: "Lange rokade (O-O-O of 0-0-0) betekent rokeren met de toren op de a-lijn. De koning beweegt twee vakjes naar de toren, en de toren springt naar de d-lijn."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'zwischenzug'?",
+          es: "¿Qué es un 'zwischenzug'?",
+          de: "Was ist ein 'Zwischenzug'?",
+          nl: "Wat is een 'zwischenzug'?"
+        },
+        options: [
+          { en: "In-between move before expected recapture", es: "Movimiento intermedio antes de la recaptura esperada", de: "Zwischenzug vor dem erwarteten Rückschlag", nl: "Tussenzet voor de verwachte terugslag" },
+          { en: "German opening move", es: "Movimiento de apertura alemán", de: "Deutscher Eröffnungszug", nl: "Duitse openingszet" },
+          { en: "Endgame technique", es: "Técnica de final", de: "Endspiel-Technik", nl: "Eindspeltechniek" },
+          { en: "Pawn promotion move", es: "Movimiento de promoción de peón", de: "Bauernumwandlungszug", nl: "Pionpromotiezet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Zwischenzug (German for 'in-between move') is an unexpected intermediate move played before the expected reply, often turning the tables tactically.",
+          es: "Zwischenzug (alemán para 'movimiento intermedio') es un movimiento intermedio inesperado jugado antes de la respuesta esperada, a menudo cambiando las tornas tácticamente.",
+          de: "Zwischenzug ist ein unerwarteter Zwischenzug, der vor der erwarteten Antwort gespielt wird und oft die Lage taktisch wendet.",
+          nl: "Zwischenzug (Duits voor 'tussenzet') is een onverwachte tussenzet gespeeld voor de verwachte reactie, vaak de zaak tactisch omdraaiend."
+        }
+      },
+      {
+        question: {
+          en: "What is 'compensation' in chess?",
+          es: "¿Qué es 'compensación' en ajedrez?",
+          de: "Was ist 'Kompensation' im Schach?",
+          nl: "Wat is 'compensatie' in schaken?"
+        },
+        options: [
+          { en: "Positional advantages offsetting material deficit", es: "Ventajas posicionales que compensan déficit material", de: "Positionelle Vorteile, die Materialdefizit ausgleichen", nl: "Positionele voordelen die materiaaldeficit compenseren" },
+          { en: "Equal material trade", es: "Intercambio de material igual", de: "Gleichwertiger Materialtausch", nl: "Gelijkwaardige materiaalruil" },
+          { en: "Getting pieces back", es: "Recuperar piezas", de: "Figuren zurückbekommen", nl: "Stukken terugkrijgen" },
+          { en: "Time bonus in endgame", es: "Bonificación de tiempo en el final", de: "Zeitbonus im Endspiel", nl: "Tijdbonus in eindspel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Compensation refers to positional factors (like piece activity, king safety, or pawn structure) that make up for being down material. For example, sacrificing a pawn for strong development.",
+          es: "La compensación se refiere a factores posicionales (como actividad de piezas, seguridad del rey o estructura de peones) que compensan estar abajo en material. Por ejemplo, sacrificar un peón por fuerte desarrollo.",
+          de: "Kompensation bezieht sich auf positionelle Faktoren (wie Figurenaktivität, Königssicherheit oder Bauernstruktur), die einen Materialrückstand ausgleichen. Zum Beispiel einen Bauern für starke Entwicklung opfern.",
+          nl: "Compensatie verwijst naar positionele factoren (zoals stukactiviteit, koningsveiligheid of pionstructuur) die materiaalachtterstand goedmaken. Bijvoorbeeld een pion opofferen voor sterke ontwikkeling."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'breakthrough' in chess?",
+          es: "¿Qué es un 'avance' en ajedrez?",
+          de: "Was ist ein 'Durchbruch' im Schach?",
+          nl: "Wat is een 'doorbraak' in schaken?"
+        },
+        options: [
+          { en: "Pawn sacrifice creating passed pawn", es: "Sacrificio de peón creando un peón pasado", de: "Bauernopfer, das Freibauern schafft", nl: "Pionoffer dat vrijpion creëert" },
+          { en: "Breaking opponent's defense", es: "Romper la defensa del oponente", de: "Die Verteidigung des Gegners brechen", nl: "De verdediging van de tegenstander doorbreken" },
+          { en: "Advancing to promotion", es: "Avanzar a la promoción", de: "Zur Umwandlung vorstoßen", nl: "Naar promotie vooruitkomen" },
+          { en: "First win in tournament", es: "Primera victoria en torneo", de: "Erster Turniersieg", nl: "Eerste overwinning in toernooi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A breakthrough is a pawn sacrifice (often in the endgame) where one or more pawns are sacrificed to create an unstoppable passed pawn.",
+          es: "Un avance es un sacrificio de peón (a menudo en el final) donde uno o más peones se sacrifican para crear un peón pasado imparable.",
+          de: "Ein Durchbruch ist ein Bauernopfer (oft im Endspiel), bei dem ein oder mehrere Bauern geopfert werden, um einen unaufhaltsamen Freibauern zu schaffen.",
+          nl: "Een doorbraak is een pionoffer (vaak in het eindspel) waarbij een of meer pionnen worden opgeofferd om een onstuitbare vrijpion te creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'exchange' in chess terminology?",
+          es: "¿Qué es el 'cambio' en terminología de ajedrez?",
+          de: "Was ist der 'Abtausch' in der Schachterminologie?",
+          nl: "Wat is de 'ruil' in schaakterminologie?"
+        },
+        options: [
+          { en: "Rook for bishop or knight", es: "Torre por alfil o caballo", de: "Turm gegen Läufer oder Springer", nl: "Toren voor loper of paard" },
+          { en: "Any piece trade", es: "Cualquier intercambio de piezas", de: "Jeder Figurentausch", nl: "Elke stukruil" },
+          { en: "Queen for two rooks", es: "Reina por dos torres", de: "Dame gegen zwei Türme", nl: "Koningin voor twee torens" },
+          { en: "Trading pawns", es: "Intercambiar peones", de: "Bauern tauschen", nl: "Pionnen ruilen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The exchange specifically means a rook for a bishop or knight. Winning the exchange means getting a rook for a minor piece (about 2 points advantage).",
+          es: "El cambio específicamente significa una torre por un alfil o caballo. Ganar el cambio significa obtener una torre por una pieza menor (aproximadamente 2 puntos de ventaja).",
+          de: "Der Abtausch bedeutet speziell ein Turm gegen Läufer oder Springer. Den Abtausch gewinnen bedeutet, einen Turm für eine Leichtfigur zu erhalten (etwa 2 Punkte Vorteil).",
+          nl: "De ruil betekent specifiek een toren voor een loper of paard. De ruil winnen betekent een toren krijgen voor een licht stuk (ongeveer 2 punten voordeel)."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'windmill' in chess?",
+          es: "¿Qué es un 'molino' en ajedrez?",
+          de: "Was ist eine 'Mühle' im Schach?",
+          nl: "Wat is een 'molen' in schaken?"
+        },
+        options: [
+          { en: "Repeated discovered checks winning material", es: "Jaques descubiertos repetidos ganando material", de: "Wiederholte Abzugsschachs, die Material gewinnen", nl: "Herhaalde ontdekte schaken die materiaal winnen" },
+          { en: "Circular pawn movement", es: "Movimiento circular de peones", de: "Kreisförmige Bauernbewegung", nl: "Cirkelvormige pionbeweging" },
+          { en: "Rotating piece positions", es: "Rotar posiciones de piezas", de: "Rotierende Figurenpositionen", nl: "Roterende stukposities" },
+          { en: "Spinning knight maneuver", es: "Maniobra de caballo giratorio", de: "Drehende Springermanöver", nl: "Draaiende paardmanoeuvre" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A windmill is a tactic using repeated discovered checks where a piece moves back and forth giving discovered check while capturing enemy pieces each time.",
+          es: "Un molino es una táctica usando jaques descubiertos repetidos donde una pieza se mueve de ida y vuelta dando jaque descubierto mientras captura piezas enemigas cada vez.",
+          de: "Eine Mühle ist eine Taktik mit wiederholten Abzugsschachs, bei der eine Figur hin und her zieht und dabei Abzugsschach gibt, während sie jedes Mal gegnerische Figuren schlägt.",
+          nl: "Een molen is een tactiek met herhaalde ontdekte schaken waarbij een stuk heen en weer beweegt en ontdekt schaak geeft terwijl het elke keer vijandelijke stukken slaat."
+        }
+      },
+      {
+        question: {
+          en: "What does 'consolidation' mean in chess?",
+          es: "¿Qué significa 'consolidación' en ajedrez?",
+          de: "Was bedeutet 'Konsolidierung' im Schach?",
+          nl: "Wat betekent 'consolidatie' in schaken?"
+        },
+        options: [
+          { en: "Securing gained advantage and defending position", es: "Asegurar ventaja ganada y defender posición", de: "Gewonnenen Vorteil sichern und Stellung verteidigen", nl: "Behaald voordeel veiligstellen en positie verdedigen" },
+          { en: "Combining pieces together", es: "Combinar piezas juntas", de: "Figuren zusammenbringen", nl: "Stukken samenbrengen" },
+          { en: "Simplifying the position", es: "Simplificar la posición", de: "Die Stellung vereinfachen", nl: "De positie vereenvoudigen" },
+          { en: "Building pawn chains", es: "Construir cadenas de peones", de: "Bauernketten bauen", nl: "Pionketens bouwen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Consolidation means securing and defending an advantage you've gained. After winning material or achieving a better position, you consolidate by improving piece placement and preventing counterplay.",
+          es: "La consolidación significa asegurar y defender una ventaja que has ganado. Después de ganar material o lograr una mejor posición, consolidas mejorando la colocación de piezas y previniendo contraataque.",
+          de: "Konsolidierung bedeutet, einen gewonnenen Vorteil zu sichern und zu verteidigen. Nach Materialgewinn oder Erreichen einer besseren Stellung konsolidieren Sie durch Verbesserung der Figurenplatzierung und Verhinderung von Gegenspiel.",
+          nl: "Consolidatie betekent het veiligstellen en verdedigen van een behaald voordeel. Na het winnen van materiaal of het bereiken van een betere positie, consolideer je door stukplaatsing te verbeteren en tegenaanval te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'opposite-colored bishops' endgame?",
+          es: "¿Qué es un final de 'alfiles de colores opuestos'?",
+          de: "Was ist ein 'gegenfarbige Läufer'-Endspiel?",
+          nl: "Wat is een 'ongelijkkleurige lopers'-eindspel?"
+        },
+        options: [
+          { en: "Bishops on different colors, often drawish", es: "Alfiles en colores diferentes, a menudo tablas", de: "Läufer auf verschiedenen Farben, oft remis", nl: "Lopers op verschillende kleuren, vaak remise" },
+          { en: "One white, one black bishop", es: "Un alfil blanco, un alfil negro", de: "Ein weißer, ein schwarzer Läufer", nl: "Eén witte, één zwarte loper" },
+          { en: "Bishops facing opposite directions", es: "Alfiles mirando direcciones opuestas", de: "Läufer in entgegengesetzte Richtungen", nl: "Lopers in tegenovergestelde richtingen" },
+          { en: "Trading bishops", es: "Intercambiar alfiles", de: "Läufer tauschen", nl: "Lopers ruilen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Opposite-colored bishops means each side has a bishop that operates on different colored squares. These endgames are notoriously drawish because bishops can't attack squares of the opposite color.",
+          es: "Alfiles de colores opuestos significa que cada lado tiene un alfil que opera en casillas de diferentes colores. Estos finales son notoriamente tablas porque los alfiles no pueden atacar casillas del color opuesto.",
+          de: "Gegenfarbige Läufer bedeutet, dass jede Seite einen Läufer hat, der auf verschiedenfarbigen Feldern operiert. Diese Endspiele sind berüchtigt remis, weil Läufer keine Felder der Gegenfarbe angreifen können.",
+          nl: "Ongelijkkleurige lopers betekent dat elke kant een loper heeft die op verschillende gekleurde vakjes opereert. Deze eindspelen zijn berucht remise omdat lopers geen vakjes van de tegengestelde kleur kunnen aanvallen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'deflection' in chess tactics?",
+          es: "¿Qué es una 'desviación' en tácticas de ajedrez?",
+          de: "Was ist eine 'Ablenkung' in Schachtaktiken?",
+          nl: "Wat is een 'afleiding' in schaaktactieken?"
+        },
+        options: [
+          { en: "Forcing piece away from defending crucial square", es: "Forzar pieza lejos de defender casilla crucial", de: "Figur von der Verteidigung eines wichtigen Feldes wegzwingen", nl: "Stuk wegdwingen van verdedigen van cruciaal vakje" },
+          { en: "Moving pieces to side of board", es: "Mover piezas al lado del tablero", de: "Figuren zur Brettseite bewegen", nl: "Stukken naar kant van bord bewegen" },
+          { en: "Changing opening plan", es: "Cambiar plan de apertura", de: "Eröffnungsplan ändern", nl: "Openingsplan wijzigen" },
+          { en: "Distracting opponent", es: "Distraer al oponente", de: "Gegner ablenken", nl: "Tegenstander afleiden" }
+        },
+        correct: 0,
+        explanation: {
+          en: "Deflection is a tactic where you force an opponent's piece to leave a square it's defending, typically by offering an attractive capture that the piece can't refuse.",
+          es: "La desviación es una táctica donde fuerzas a una pieza del oponente a dejar una casilla que está defendiendo, típicamente ofreciendo una captura atractiva que la pieza no puede rechazar.",
+          de: "Ablenkung ist eine Taktik, bei der Sie eine gegnerische Figur zwingen, ein Feld zu verlassen, das sie verteidigt, typischerweise durch Anbieten einer attraktiven Eroberung, die die Figur nicht ablehnen kann.",
+          nl: "Afleiding is een tactiek waarbij je een stuk van de tegenstander dwingt een vakje te verlaten dat het verdedigt, typisch door een aantrekkelijke slag aan te bieden die het stuk niet kan weigeren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'prophylaxis' in chess?",
+          es: "¿Qué es la 'profilaxis' en ajedrez?",
+          de: "Was ist 'Prophylaxe' im Schach?",
+          nl: "Wat is 'profylaxe' in schaken?"
+        },
+        options: [
+          { en: "Preventing opponent's plans before they occur", es: "Prevenir los planes del oponente antes de que ocurran", de: "Gegnerpläne verhindern bevor sie geschehen", nl: "Plannen van tegenstander voorkomen voordat ze gebeuren" },
+          { en: "Medical treatment for players", es: "Tratamiento médico para jugadores", de: "Medizinische Behandlung für Spieler", nl: "Medische behandeling voor spelers" },
+          { en: "Defensive opening preparation", es: "Preparación defensiva de apertura", de: "Defensive Eröffnungsvorbereitung", nl: "Defensieve openingsvoorbereiding" },
+          { en: "Protecting the king", es: "Proteger al rey", de: "Den König schützen", nl: "De koning beschermen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Prophylaxis (prophylactic thinking) means anticipating and preventing your opponent's plans before they can execute them. This concept was popularized by Nimzowitsch.",
+          es: "La profilaxis (pensamiento profiláctico) significa anticipar y prevenir los planes de tu oponente antes de que puedan ejecutarlos. Este concepto fue popularizado por Nimzowitsch.",
+          de: "Prophylaxe (prophylaktisches Denken) bedeutet, die Pläne des Gegners vorherzusehen und zu verhindern, bevor er sie ausführen kann. Dieses Konzept wurde von Nimzowitsch populär gemacht.",
+          nl: "Profylaxe (profylactisch denken) betekent de plannen van je tegenstander anticiperen en voorkomen voordat ze kunnen worden uitgevoerd. Dit concept werd gepopulariseerd door Nimzowitsch."
+        }
       }
     ]
   };

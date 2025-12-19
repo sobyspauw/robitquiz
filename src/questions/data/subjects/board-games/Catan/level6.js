@@ -427,6 +427,405 @@
           de: "Fortgeschrittene Spieler verfolgen jede sichtbare Transaktion: Würfelwürfe (öffentliche Produktion), Geschäfte (offenbart was Spieler haben/brauchen), und Bauten (verbraucht bekannte Ressourcen). Durch Deduzieren der Hände der Gegner können Sie deren nächste Züge vorhersagen, Räuberplatzierungen timen und Geschäfte mit perfekter Information verhandeln.",
           nl: "Geavanceerde spelers volgen elke zichtbare transactie: dobbelsteenworpen (publieke productie), handel (onthult wat spelers hebben/nodig hebben), en bouwsels (verbruikt bekende bronnen). Door tegenstanders' handen te deduceren, kun je hun volgende zetten voorspellen, roverplaatsingen timen en handel onderhandelen met perfecte informatie."
         }
+      },
+      {
+        question: {
+          en: "What is the 'knight activation timing' in Cities & Knights?",
+          es: "¿Qué es el 'tiempo de activación de caballero' en Ciudades & Caballeros?",
+          de: "Was ist das 'Ritter-Aktivierungs-Timing' in Städte & Ritter?",
+          nl: "Wat is de 'ridder activatie timing' in Steden & Ridders?"
+        },
+        options: [
+          { en: "Activate knights only when barbarians are 2-3 ships away or to displace opponent knight", es: "Activar caballeros solo cuando los bárbaros están a 2-3 barcos o para desplazar al caballero oponente", de: "Ritter nur aktivieren wenn Barbaren 2-3 Schiffe entfernt sind oder um Gegnerritter zu verdrängen", nl: "Ridders alleen activeren wanneer barbaren 2-3 schepen weg zijn of om tegenstander ridder te verdringen" },
+          { en: "Activate all knights immediately when built", es: "Activar todos los caballeros inmediatamente cuando se construyen", de: "Alle Ritter sofort nach dem Bau aktivieren", nl: "Alle ridders direct activeren wanneer gebouwd" },
+          { en: "Never activate knights to save grain", es: "Nunca activar caballeros para ahorrar grano", de: "Ritter nie aktivieren um Getreide zu sparen", nl: "Nooit ridders activeren om graan te sparen" },
+          { en: "Only activate on the final turn", es: "Solo activar en el turno final", de: "Nur im letzten Zug aktivieren", nl: "Alleen in de laatste beurt activeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In Cities & Knights, knights cost 1 grain to activate. Optimal timing is waiting until barbarians are close (2-3 event cards from attack) to conserve grain, or when you need to displace an opponent's active knight from a strategic hex. Activating too early wastes resources.",
+          es: "En Ciudades & Caballeros, los caballeros cuestan 1 grano para activar. El tiempo óptimo es esperar hasta que los bárbaros estén cerca (2-3 cartas de evento del ataque) para conservar grano, o cuando necesitas desplazar al caballero activo de un oponente de un hexágono estratégico. Activar demasiado temprano desperdicia recursos.",
+          de: "In Städte & Ritter kosten Ritter 1 Getreide zur Aktivierung. Optimales Timing ist zu warten bis Barbaren nahe sind (2-3 Ereigniskarten vom Angriff) um Getreide zu sparen, oder wenn man den aktiven Ritter eines Gegners von einem strategischen Hex verdrängen muss. Zu frühes Aktivieren verschwendet Ressourcen.",
+          nl: "In Steden & Ridders kosten ridders 1 graan om te activeren. Optimale timing is wachten tot barbaren dichtbij zijn (2-3 gebeurteniskaarten van aanval) om graan te besparen, of wanneer je de actieve ridder van een tegenstander van een strategische hex moet verdringen. Te vroeg activeren verspilt bronnen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'reverse auction' trading psychology?",
+          es: "¿Qué es la psicología de comercio de 'subasta inversa'?",
+          de: "Was ist die 'umgekehrte Auktions'-Handelspsychologie?",
+          nl: "Wat is de 'omgekeerde veiling' handelspsychologie?"
+        },
+        options: [
+          { en: "Announce need, let opponents compete to offer best rate", es: "Anunciar necesidad, dejar que los oponentes compitan para ofrecer la mejor tarifa", de: "Bedarf ankündigen, Gegner um bestes Angebot konkurrieren lassen", nl: "Behoefte aankondigen, tegenstanders laten concurreren om beste tarief te bieden" },
+          { en: "Accept only 1:1 trades always", es: "Aceptar solo intercambios 1:1 siempre", de: "Immer nur 1:1-Geschäfte akzeptieren", nl: "Alleen 1:1 handel accepteren altijd" },
+          { en: "Never announce your needs publicly", es: "Nunca anunciar tus necesidades públicamente", de: "Bedürfnisse nie öffentlich ankündigen", nl: "Nooit je behoeften publiekelijk aankondigen" },
+          { en: "Trade only with the bank at 4:1", es: "Comerciar solo con el banco a 4:1", de: "Nur mit der Bank zu 4:1 handeln", nl: "Alleen met de bank op 4:1 handelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Instead of making specific trade offers, announce 'I need 1 ore' and let multiple opponents bid against each other. This creates competition that can improve your trade ratio from 2:1 to 1:1 or even better, as players compete for your resources while you maintain negotiating power.",
+          es: "En lugar de hacer ofertas comerciales específicas, anuncia 'Necesito 1 mineral' y deja que múltiples oponentes compitan entre sí. Esto crea competencia que puede mejorar tu relación comercial de 2:1 a 1:1 o incluso mejor, ya que los jugadores compiten por tus recursos mientras mantienes el poder de negociación.",
+          de: "Anstatt spezifische Handelsangebote zu machen, kündigen Sie 'Ich brauche 1 Erz' an und lassen Sie mehrere Gegner gegeneinander bieten. Dies schafft Wettbewerb, der Ihr Handelsverhältnis von 2:1 auf 1:1 oder noch besser verbessern kann, da Spieler um Ihre Ressourcen konkurrieren, während Sie Verhandlungsmacht behalten.",
+          nl: "In plaats van specifieke handelsaanbiedingen te doen, kondig aan 'Ik heb 1 erts nodig' en laat meerdere tegenstanders tegen elkaar bieden. Dit creëert competitie die je handelsratio kan verbeteren van 2:1 naar 1:1 of zelfs beter, terwijl spelers concurreren voor je bronnen terwijl jij onderhandelingsmacht behoudt."
+        }
+      },
+      {
+        question: {
+          en: "How should you value metropolis control in Cities & Knights?",
+          es: "¿Cómo debes valorar el control de metrópolis en Ciudades & Caballeros?",
+          de: "Wie sollte man Metropolenkontrolle in Städte & Ritter bewerten?",
+          nl: "Hoe moet je metropool controle waarderen in Steden & Ridders?"
+        },
+        options: [
+          { en: "Worth 4 points total (2 base + potential 2-point swing from opponent)", es: "Vale 4 puntos totales (2 base + potencial cambio de 2 puntos del oponente)", de: "Wert von 4 Punkten insgesamt (2 Basis + potenzielle 2-Punkte-Schwankung vom Gegner)", nl: "Waard 4 punten totaal (2 basis + potentiële 2-punten swing van tegenstander)" },
+          { en: "Only worth 1 victory point", es: "Solo vale 1 punto de victoria", de: "Nur 1 Siegpunkt wert", nl: "Slechts 1 overwinningspunt waard" },
+          { en: "Worth 10 points automatically", es: "Vale 10 puntos automáticamente", de: "Automatisch 10 Punkte wert", nl: "Automatisch 10 punten waard" },
+          { en: "Has no victory point value", es: "No tiene valor de puntos de victoria", de: "Hat keinen Siegpunktwert", nl: "Heeft geen overwinningspuntwaarde" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Each metropolis grants 2 victory points. However, taking a metropolis from an opponent creates a 4-point swing (you gain 2, they lose 2). This makes metropolis competition extremely valuable in late game, similar to longest road/largest army but requiring commodity production strategy.",
+          es: "Cada metrópolis otorga 2 puntos de victoria. Sin embargo, tomar una metrópolis de un oponente crea un cambio de 4 puntos (ganas 2, ellos pierden 2). Esto hace que la competencia de metrópolis sea extremadamente valiosa en el final del juego, similar al camino más largo/ejército más grande pero requiriendo estrategia de producción de productos.",
+          de: "Jede Metropole gewährt 2 Siegpunkte. Das Übernehmen einer Metropole von einem Gegner schafft jedoch eine 4-Punkte-Schwankung (Sie gewinnen 2, sie verlieren 2). Dies macht Metropolenwettbewerb im Endspiel extrem wertvoll, ähnlich wie längste Straße/größte Armee, aber mit erforderlicher Rohstoffproduktionsstrategie.",
+          nl: "Elke metropool verleent 2 overwinningspunten. Het overnemen van een metropool van een tegenstander creëert echter een 4-punten swing (jij wint 2, zij verliezen 2). Dit maakt metropool competitie extreem waardevol in laat spel, vergelijkbaar met langste weg/grootste leger maar vereist grondstof productie strategie."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'settlement spacing offensive' in opening placement?",
+          es: "¿Qué es la 'ofensiva de espaciado de asentamiento' en la colocación de apertura?",
+          de: "Was ist die 'Siedlungsabstands-Offensive' bei der Eröffnungsplatzierung?",
+          nl: "Wat is de 'nederzettingsafstand offensief' in openingsplaatsing?"
+        },
+        options: [
+          { en: "Place settlements to block maximum opponent expansion routes early", es: "Colocar asentamientos para bloquear máximas rutas de expansión del oponente temprano", de: "Siedlungen platzieren um maximale Gegner-Expansionsrouten früh zu blockieren", nl: "Nederzettingen plaatsen om maximale tegenstander expansie routes vroeg te blokkeren" },
+          { en: "Place both settlements adjacent to each other", es: "Colocar ambos asentamientos adyacentes entre sí", de: "Beide Siedlungen nebeneinander platzieren", nl: "Beide nederzettingen naast elkaar plaatsen" },
+          { en: "Only focus on your own production, ignore opponents", es: "Solo enfocarse en tu propia producción, ignorar a los oponentes", de: "Nur auf eigene Produktion konzentrieren, Gegner ignorieren", nl: "Alleen focussen op je eigen productie, tegenstanders negeren" },
+          { en: "Always place on corners of the board", es: "Siempre colocar en las esquinas del tablero", de: "Immer auf Ecken des Bretts platzieren", nl: "Altijd op hoeken van het bord plaatsen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Strategic opening involves placing your second settlement to not only maximize your production but also block opponents' third settlement options. By controlling key intersections that limit opponent expansion paths, you force them into suboptimal locations while securing your territorial control.",
+          es: "La apertura estratégica implica colocar tu segundo asentamiento no solo para maximizar tu producción sino también para bloquear las opciones del tercer asentamiento de los oponentes. Al controlar intersecciones clave que limitan las rutas de expansión del oponente, los fuerzas a ubicaciones subóptimas mientras aseguras tu control territorial.",
+          de: "Strategische Eröffnung beinhaltet das Platzieren Ihrer zweiten Siedlung, um nicht nur Ihre Produktion zu maximieren, sondern auch die dritten Siedlungsoptionen der Gegner zu blockieren. Durch Kontrolle wichtiger Kreuzungen, die Gegner-Expansionspfade begrenzen, zwingen Sie sie in suboptimale Standorte, während Sie Ihre territoriale Kontrolle sichern.",
+          nl: "Strategische opening houdt in dat je je tweede nederzetting plaatst om niet alleen je productie te maximaliseren maar ook tegenstanders' derde nederzettingsopties te blokkeren. Door controle over cruciale kruispunten die tegenstander expansiepaden beperken, dwing je hen in suboptimale locaties terwijl je territoriale controle veiligstelt."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'late-game dev card hoarding' strategy?",
+          es: "¿Qué es la estrategia de 'acumulación de cartas de desarrollo de final de juego'?",
+          de: "Was ist die 'Endspiel-Entwicklungskarten-Hortungs'-Strategie?",
+          nl: "Wat is de 'laat-spel ontwikkelingskaart oppot' strategie?"
+        },
+        options: [
+          { en: "Buy multiple dev cards when at 7-8 points to create unpredictable winning options", es: "Comprar múltiples cartas de desarrollo cuando estás en 7-8 puntos para crear opciones de victoria impredecibles", de: "Mehrere Entwicklungskarten bei 7-8 Punkten kaufen um unvorhersehbare Gewinnoptionen zu schaffen", nl: "Meerdere ontwikkelingskaarten kopen bij 7-8 punten om onvoorspelbare winopties te creëren" },
+          { en: "Never buy development cards after turn 10", es: "Nunca comprar cartas de desarrollo después del turno 10", de: "Niemals Entwicklungskarten nach Zug 10 kaufen", nl: "Nooit ontwikkelingskaarten kopen na beurt 10" },
+          { en: "Sell all development cards back to bank", es: "Vender todas las cartas de desarrollo de vuelta al banco", de: "Alle Entwicklungskarten zurück an die Bank verkaufen", nl: "Alle ontwikkelingskaarten terug aan bank verkopen" },
+          { en: "Only buy cards in first 3 turns", es: "Solo comprar cartas en los primeros 3 turnos", de: "Nur in ersten 3 Zügen Karten kaufen", nl: "Alleen kaarten kopen in eerste 3 beurten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "At 7-8 visible points, buying 2-3 development cards creates multiple paths to 10 points: hidden VP cards, Monopoly/Year of Plenty enabling surprise builds, or knights for largest army. This unpredictability makes it harder for opponents to block your victory.",
+          es: "En 7-8 puntos visibles, comprar 2-3 cartas de desarrollo crea múltiples caminos a 10 puntos: cartas VP ocultas, Monopolio/Año de Abundancia permitiendo construcciones sorpresa, o caballeros para el ejército más grande. Esta imprevisibilidad hace más difícil para los oponentes bloquear tu victoria.",
+          de: "Bei 7-8 sichtbaren Punkten schafft der Kauf von 2-3 Entwicklungskarten mehrere Wege zu 10 Punkten: versteckte VP-Karten, Monopol/Jahr des Überflusses für Überraschungsbauten, oder Ritter für größte Armee. Diese Unvorhersehbarkeit macht es Gegnern schwerer, Ihren Sieg zu blockieren.",
+          nl: "Bij 7-8 zichtbare punten creëert het kopen van 2-3 ontwikkelingskaarten meerdere paden naar 10 punten: verborgen VP-kaarten, Monopolie/Jaar van Overvloed die verrassing bouwwerken mogelijk maken, of ridders voor grootste leger. Deze onvoorspelbaarheid maakt het moeilijker voor tegenstanders om je overwinning te blokkeren."
+        }
+      },
+      {
+        question: {
+          en: "How do you calculate 'effective pip value' with robber consideration?",
+          es: "¿Cómo calculas el 'valor de pip efectivo' con consideración del ladrón?",
+          de: "Wie berechnet man den 'effektiven Pip-Wert' unter Berücksichtigung des Räubers?",
+          nl: "Hoe bereken je 'effectieve pip waarde' met rover overweging?"
+        },
+        options: [
+          { en: "Reduce 6/8 pip value by 20-30% due to robber targeting probability", es: "Reducir valor de pip 6/8 en 20-30% debido a probabilidad de orientación del ladrón", de: "6/8-Pip-Wert um 20-30% reduzieren aufgrund Räuber-Zielwahrscheinlichkeit", nl: "6/8 pip waarde verlagen met 20-30% vanwege rover targeting waarschijnlijkheid" },
+          { en: "All pips have identical value regardless of robber", es: "Todos los pips tienen valor idéntico independientemente del ladrón", de: "Alle Pips haben identischen Wert unabhängig vom Räuber", nl: "Alle pips hebben identieke waarde ongeacht rover" },
+          { en: "Add 50% to 6/8 values for robber presence", es: "Agregar 50% a valores 6/8 por presencia del ladrón", de: "50% zu 6/8-Werten für Räuberpräsenz hinzufügen", nl: "50% toevoegen aan 6/8 waarden voor rover aanwezigheid" },
+          { en: "Robber has no impact on pip calculations", es: "El ladrón no tiene impacto en los cálculos de pip", de: "Räuber hat keinen Einfluss auf Pip-Berechnungen", nl: "Rover heeft geen impact op pip berekeningen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "While 6 and 8 hexes have the highest raw probability (5 pips each), they attract the robber more frequently, especially in competitive play where opponents target high-production hexes. Adjusting their effective value down by 20-30% provides more realistic settlement evaluation.",
+          es: "Mientras que los hexágonos 6 y 8 tienen la probabilidad bruta más alta (5 pips cada uno), atraen al ladrón con más frecuencia, especialmente en juego competitivo donde los oponentes apuntan a hexágonos de alta producción. Ajustar su valor efectivo hacia abajo en 20-30% proporciona una evaluación de asentamiento más realista.",
+          de: "Während 6- und 8-Hexe die höchste Rohwahrscheinlichkeit haben (je 5 Pips), ziehen sie den Räuber häufiger an, besonders im Wettkampfspiel, wo Gegner hochproduktive Hexe anvisieren. Eine Anpassung ihres effektiven Werts um 20-30% nach unten bietet eine realistischere Siedlungsbewertung.",
+          nl: "Hoewel 6 en 8 hexen de hoogste ruwe waarschijnlijkheid hebben (elk 5 pips), trekken ze de rover vaker aan, vooral in competitief spel waar tegenstanders hoge-productie hexen targeten. Hun effectieve waarde aanpassen met 20-30% naar beneden biedt realistischere nederzettingsevaluatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'initial placement asymmetry' advantage calculation?",
+          es: "¿Qué es el cálculo de ventaja de 'asimetría de colocación inicial'?",
+          de: "Was ist die Berechnung des 'anfänglichen Platzierungsasymmetrie'-Vorteils?",
+          nl: "Wat is de 'initiële plaatsings asymmetrie' voordeel berekening?"
+        },
+        options: [
+          { en: "First player gets best spot but last player gets consecutive picks and starting resources", es: "El primer jugador obtiene el mejor lugar pero el último jugador obtiene selecciones consecutivas y recursos iniciales", de: "Erster Spieler bekommt besten Platz aber letzter Spieler bekommt aufeinanderfolgende Picks und Startressourcen", nl: "Eerste speler krijgt beste plek maar laatste speler krijgt opeenvolgende keuzes en startbronnen" },
+          { en: "All positions have identical advantage", es: "Todas las posiciones tienen ventaja idéntica", de: "Alle Positionen haben identischen Vorteil", nl: "Alle posities hebben identiek voordeel" },
+          { en: "Last player always wins", es: "El último jugador siempre gana", de: "Letzter Spieler gewinnt immer", nl: "Laatste speler wint altijd" },
+          { en: "First player has insurmountable advantage", es: "El primer jugador tiene ventaja insuperable", de: "Erster Spieler hat unüberwindbaren Vorteil", nl: "Eerste speler heeft onoverkomelijk voordeel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Turn order creates strategic trade-offs: 1st player claims the single best location but 4th player places both settlements back-to-back (seeing all opponents' choices) AND receives starting resources from the second settlement. Studies show positions 2-3 often have slight statistical advantage.",
+          es: "El orden de turno crea compensaciones estratégicas: el 1er jugador reclama la mejor ubicación única pero el 4º jugador coloca ambos asentamientos consecutivamente (viendo todas las elecciones de los oponentes) Y recibe recursos iniciales del segundo asentamiento. Los estudios muestran que las posiciones 2-3 a menudo tienen una ligera ventaja estadística.",
+          de: "Zugreihenfolge schafft strategische Kompromisse: 1. Spieler beansprucht den einzelnen besten Standort, aber 4. Spieler platziert beide Siedlungen hintereinander (sieht alle Entscheidungen der Gegner) UND erhält Startressourcen von der zweiten Siedlung. Studien zeigen, dass Positionen 2-3 oft einen leichten statistischen Vorteil haben.",
+          nl: "Beurtvolgorde creëert strategische afwegingen: 1e speler claimt de enkele beste locatie maar 4e speler plaatst beide nederzettingen achter elkaar (ziet alle keuzes van tegenstanders) EN ontvangt startbronnen van de tweede nederzetting. Studies tonen dat posities 2-3 vaak licht statistisch voordeel hebben."
+        }
+      },
+      {
+        question: {
+          en: "What defines 'resource engine momentum' in mid-game?",
+          es: "¿Qué define el 'impulso del motor de recursos' a mitad de juego?",
+          de: "Was definiert 'Ressourcenmotor-Momentum' im Mittelspiel?",
+          nl: "Wat definieert 'bronmotor momentum' in het middenspel?"
+        },
+        options: [
+          { en: "When cities produce enough surplus to build every 2-3 turns without trading", es: "Cuando las ciudades producen suficiente excedente para construir cada 2-3 turnos sin comerciar", de: "Wenn Städte genug Überschuss produzieren um alle 2-3 Züge ohne Handel zu bauen", nl: "Wanneer steden genoeg surplus produceren om elke 2-3 beurten te bouwen zonder handelen" },
+          { en: "Having exactly 7 cards always", es: "Tener exactamente 7 cartas siempre", de: "Immer genau 7 Karten haben", nl: "Altijd precies 7 kaarten hebben" },
+          { en: "Never building anything to save resources", es: "Nunca construir nada para ahorrar recursos", de: "Nie etwas bauen um Ressourcen zu sparen", nl: "Nooit iets bouwen om bronnen te sparen" },
+          { en: "Only trading with bank at 4:1", es: "Solo comerciar con el banco a 4:1", de: "Nur mit der Bank zu 4:1 handeln", nl: "Alleen met de bank op 4:1 handelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Resource engine momentum occurs when your production (typically from 2-3 cities + settlements) generates enough resources to build settlements, roads, or buy development cards every 2-3 turns. This self-sustaining growth creates exponential advantage and often signals the path to victory.",
+          es: "El impulso del motor de recursos ocurre cuando tu producción (típicamente de 2-3 ciudades + asentamientos) genera suficientes recursos para construir asentamientos, caminos o comprar cartas de desarrollo cada 2-3 turnos. Este crecimiento autosostenible crea una ventaja exponencial y a menudo señala el camino hacia la victoria.",
+          de: "Ressourcenmotor-Momentum tritt auf, wenn Ihre Produktion (typischerweise von 2-3 Städten + Siedlungen) genug Ressourcen generiert, um alle 2-3 Züge Siedlungen, Straßen zu bauen oder Entwicklungskarten zu kaufen. Dieses selbsttragende Wachstum schafft exponentiellen Vorteil und signalisiert oft den Weg zum Sieg.",
+          nl: "Bronmotor momentum treedt op wanneer je productie (typisch van 2-3 steden + nederzettingen) genoeg bronnen genereert om elke 2-3 beurten nederzettingen, wegen te bouwen of ontwikkelingskaarten te kopen. Deze zelfonderhoudende groei creëert exponentieel voordeel en signaleert vaak het pad naar overwinning."
+        }
+      },
+      {
+        question: {
+          en: "How should you value the 'Desert' hex strategically?",
+          es: "¿Cómo debes valorar el hexágono 'Desierto' estratégicamente?",
+          de: "Wie sollte man das 'Wüsten'-Hex strategisch bewerten?",
+          nl: "Hoe moet je de 'Woestijn' hex strategisch waarderen?"
+        },
+        options: [
+          { en: "Slight positive value: robber starts there, freeing other hexes early game", es: "Valor ligeramente positivo: el ladrón comienza ahí, liberando otros hexágonos al inicio del juego", de: "Leicht positiver Wert: Räuber startet dort, befreit andere Hexe im Frühspiel", nl: "Licht positieve waarde: rover begint daar, bevrijdt andere hexen vroeg spel" },
+          { en: "Extremely valuable for production", es: "Extremadamente valioso para producción", de: "Extrem wertvoll für Produktion", nl: "Extreem waardevol voor productie" },
+          { en: "Worth -5 victory points", es: "Vale -5 puntos de victoria", de: "Wert -5 Siegpunkte", nl: "Waard -5 overwinningspunten" },
+          { en: "Must be avoided at all costs", es: "Debe evitarse a toda costa", de: "Muss um jeden Preis vermieden werden", nl: "Moet te allen tijde vermeden worden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "While desert produces no resources, it has minor strategic value: the robber begins there (affecting other players' hexes in early game), and desert-adjacent settlements can still be good if the other two hexes are excellent (like 6 and 8). It's not devastating to touch desert.",
+          es: "Aunque el desierto no produce recursos, tiene un valor estratégico menor: el ladrón comienza ahí (afectando los hexágonos de otros jugadores al inicio del juego), y los asentamientos adyacentes al desierto aún pueden ser buenos si los otros dos hexágonos son excelentes (como 6 y 8). No es devastador tocar el desierto.",
+          de: "Während die Wüste keine Ressourcen produziert, hat sie geringen strategischen Wert: Der Räuber beginnt dort (beeinflusst andere Spieler-Hexe im Frühspiel), und wüstennachbarliche Siedlungen können dennoch gut sein, wenn die anderen beiden Hexe ausgezeichnet sind (wie 6 und 8). Es ist nicht verheerend, die Wüste zu berühren.",
+          nl: "Hoewel woestijn geen bronnen produceert, heeft het geringe strategische waarde: de rover begint daar (beïnvloedt andere spelers' hexen in vroeg spel), en woestijn-aangrenzende nederzettingen kunnen nog steeds goed zijn als de andere twee hexen uitstekend zijn (zoals 6 en 8). Het is niet verwoestend om woestijn te raken."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'three-city endgame threshold'?",
+          es: "¿Qué es el 'umbral de final de juego de tres ciudades'?",
+          de: "Was ist die 'Drei-Städte-Endspiel-Schwelle'?",
+          nl: "Wat is de 'drie-steden eindspel drempel'?"
+        },
+        options: [
+          { en: "With 3 cities producing double resources, you can outpace opponents' settlement builds", es: "Con 3 ciudades produciendo doble recursos, puedes superar las construcciones de asentamientos de los oponentes", de: "Mit 3 Städten die doppelte Ressourcen produzieren, kann man Gegner-Siedlungsbauten überholen", nl: "Met 3 steden die dubbele bronnen produceren, kun je tegenstanders' nederzettingsbouwsels voorbijstreven" },
+          { en: "Exactly 3 cities guarantees victory", es: "Exactamente 3 ciudades garantiza victoria", de: "Genau 3 Städte garantieren Sieg", nl: "Precies 3 steden garandeert overwinning" },
+          { en: "Never build more than 2 cities", es: "Nunca construir más de 2 ciudades", de: "Nie mehr als 2 Städte bauen", nl: "Nooit meer dan 2 steden bouwen" },
+          { en: "Cities have no strategic value", es: "Las ciudades no tienen valor estratégico", de: "Städte haben keinen strategischen Wert", nl: "Steden hebben geen strategische waarde" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Three cities represent a critical mass where your production (3 cities × 2 resources each = 6 resource cards per matching roll) generates enough surplus to build faster than opponents. At this point, you typically have resource engine momentum and are positioned to win within 3-5 turns.",
+          es: "Tres ciudades representan una masa crítica donde tu producción (3 ciudades × 2 recursos cada una = 6 cartas de recursos por tirada coincidente) genera suficiente excedente para construir más rápido que los oponentes. En este punto, típicamente tienes impulso del motor de recursos y estás posicionado para ganar dentro de 3-5 turnos.",
+          de: "Drei Städte repräsentieren eine kritische Masse, wo Ihre Produktion (3 Städte × 2 Ressourcen je = 6 Ressourcenkarten pro passendem Wurf) genug Überschuss generiert, um schneller als Gegner zu bauen. Zu diesem Zeitpunkt haben Sie typischerweise Ressourcenmotor-Momentum und sind positioniert, um innerhalb von 3-5 Zügen zu gewinnen.",
+          nl: "Drie steden vertegenwoordigen een kritieke massa waar je productie (3 steden × 2 bronnen elk = 6 bronkaarten per overeenkomende worp) genoeg surplus genereert om sneller te bouwen dan tegenstanders. Op dit punt heb je typisch bronmotor momentum en ben je gepositioneerd om binnen 3-5 beurten te winnen."
+        }
+      },
+      {
+        question: {
+          en: "What is the optimal 'trade refusal threshold' in competitive play?",
+          es: "¿Cuál es el 'umbral óptimo de rechazo de intercambio' en el juego competitivo?",
+          de: "Was ist die optimale 'Handelsablehnungs-Schwelle' im Wettkampfspiel?",
+          nl: "Wat is de optimale 'handelsweigerings drempel' in competitief spel?"
+        },
+        options: [
+          { en: "Refuse trades that help players within 2 points of victory", es: "Rechazar intercambios que ayuden a jugadores a 2 puntos de la victoria", de: "Geschäfte ablehnen die Spielern innerhalb 2 Punkten vom Sieg helfen", nl: "Handel weigeren die spelers binnen 2 punten van overwinning helpt" },
+          { en: "Accept all trades always", es: "Aceptar todos los intercambios siempre", de: "Alle Geschäfte immer akzeptieren", nl: "Alle handel altijd accepteren" },
+          { en: "Never trade with anyone", es: "Nunca comerciar con nadie", de: "Niemals mit jemandem handeln", nl: "Nooit met iemand handelen" },
+          { en: "Only trade on even-numbered turns", es: "Solo comerciar en turnos de números pares", de: "Nur in geraden Zügen handeln", nl: "Alleen op even-genummerde beurten handelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Once a player reaches 8 visible points (2 from victory), the game enters critical phase where trades become kingmaking decisions. The threshold is refusing trades that could enable their final builds, while still trading with players at 6-7 points to maintain your own competitive position.",
+          es: "Una vez que un jugador alcanza 8 puntos visibles (2 de la victoria), el juego entra en fase crítica donde los intercambios se convierten en decisiones que hacen rey. El umbral es rechazar intercambios que podrían permitir sus construcciones finales, mientras aún comercias con jugadores en 6-7 puntos para mantener tu propia posición competitiva.",
+          de: "Sobald ein Spieler 8 sichtbare Punkte erreicht (2 vom Sieg), tritt das Spiel in die kritische Phase ein, wo Geschäfte zu königsmachenden Entscheidungen werden. Die Schwelle ist die Ablehnung von Geschäften, die ihre finalen Bauten ermöglichen könnten, während man noch mit Spielern bei 6-7 Punkten handelt, um die eigene Wettbewerbsposition zu halten.",
+          nl: "Zodra een speler 8 zichtbare punten bereikt (2 van overwinning), komt het spel in kritieke fase waar handel koning-makende beslissingen worden. De drempel is handel weigeren die hun laatste bouwwerken zou kunnen mogelijk maken, terwijl je nog handelt met spelers op 6-7 punten om je eigen competitieve positie te behouden."
+        }
+      },
+      {
+        question: {
+          en: "How does the 'hex diversity multiplier' affect settlement value?",
+          es: "¿Cómo afecta el 'multiplicador de diversidad de hexágonos' al valor del asentamiento?",
+          de: "Wie beeinflusst der 'Hex-Diversitäts-Multiplikator' den Siedlungswert?",
+          nl: "Hoe beïnvloedt de 'hex diversiteit vermenigvuldiger' nederzettingswaarde?"
+        },
+        options: [
+          { en: "Touching 3 different resources worth +15-20% value vs touching duplicates", es: "Tocar 3 recursos diferentes vale +15-20% de valor vs tocar duplicados", de: "3 verschiedene Ressourcen berühren wert +15-20% Wert vs Duplikate berühren", nl: "3 verschillende bronnen raken waard +15-20% waarde vs duplicaten raken" },
+          { en: "Diversity has no impact on value", es: "La diversidad no tiene impacto en el valor", de: "Diversität hat keinen Einfluss auf den Wert", nl: "Diversiteit heeft geen impact op waarde" },
+          { en: "Duplicates are always better than diversity", es: "Los duplicados son siempre mejores que la diversidad", de: "Duplikate sind immer besser als Diversität", nl: "Duplicaten zijn altijd beter dan diversiteit" },
+          { en: "Only single resource types matter", es: "Solo importan los tipos de recursos únicos", de: "Nur einzelne Ressourcentypen zählen", nl: "Alleen enkele brontypes tellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A settlement on brick-ore-wheat (3 different resources) provides trading flexibility and building options worth approximately 15-20% more than a settlement on brick-brick-wheat (duplicate resource). Diversity reduces trading dependency and enables multiple building strategies simultaneously.",
+          es: "Un asentamiento en ladrillo-mineral-trigo (3 recursos diferentes) proporciona flexibilidad comercial y opciones de construcción que valen aproximadamente 15-20% más que un asentamiento en ladrillo-ladrillo-trigo (recurso duplicado). La diversidad reduce la dependencia comercial y permite múltiples estrategias de construcción simultáneamente.",
+          de: "Eine Siedlung auf Ziegel-Erz-Weizen (3 verschiedene Ressourcen) bietet Handelsflexibilität und Bauoptionen im Wert von etwa 15-20% mehr als eine Siedlung auf Ziegel-Ziegel-Weizen (doppelte Ressource). Diversität reduziert Handelsabhängigkeit und ermöglicht mehrere Baustrategien gleichzeitig.",
+          nl: "Een nederzetting op baksteen-erts-tarwe (3 verschillende bronnen) biedt handelsflexibiliteit en bouwopties ter waarde van ongeveer 15-20% meer dan een nederzetting op baksteen-baksteen-tarwe (dubbele bron). Diversiteit vermindert handelsafhankelijkheid en maakt meerdere bouwstrategieën tegelijk mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What defines 'perfect information trading' at expert level?",
+          es: "¿Qué define el 'comercio de información perfecta' a nivel experto?",
+          de: "Was definiert 'perfekte Informations-Handel' auf Expertenniveau?",
+          nl: "Wat definieert 'perfecte informatie handel' op expert niveau?"
+        },
+        options: [
+          { en: "Tracking all visible cards to know exact opponent hands before proposing trades", es: "Rastrear todas las cartas visibles para conocer las manos exactas de los oponentes antes de proponer intercambios", de: "Alle sichtbaren Karten verfolgen um exakte Gegnerhände vor Handelsvorschlägen zu kennen", nl: "Alle zichtbare kaarten volgen om exacte tegenstander handen te kennen voor handelsvoorstellen" },
+          { en: "Making random trade offers", es: "Hacer ofertas comerciales aleatorias", de: "Zufällige Handelsangebote machen", nl: "Willekeurige handelsaanbiedingen doen" },
+          { en: "Never trading under any circumstances", es: "Nunca comerciar bajo ninguna circunstancia", de: "Niemals unter keinen Umständen handeln", nl: "Nooit handelen onder enige omstandigheid" },
+          { en: "Only accepting 1:1 trades blindly", es: "Solo aceptar intercambios 1:1 a ciegas", de: "Nur blind 1:1-Geschäfte akzeptieren", nl: "Alleen blindelings 1:1 handel accepteren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Expert players maintain mental models of opponent hands by tracking: production from rolls, resources spent on builds, cards traded, and cards lost to 7-rolls. With this information, they can propose trades knowing opponents have specific resources, maximizing favorable trade rates.",
+          es: "Los jugadores expertos mantienen modelos mentales de las manos de los oponentes rastreando: producción de tiradas, recursos gastados en construcciones, cartas intercambiadas y cartas perdidas en tiradas de 7. Con esta información, pueden proponer intercambios sabiendo que los oponentes tienen recursos específicos, maximizando tasas comerciales favorables.",
+          de: "Experten pflegen mentale Modelle von Gegnerhänden durch Verfolgung: Produktion aus Würfen, Ressourcen ausgegeben für Bauten, getauschte Karten und Karten verloren bei 7-Würfen. Mit dieser Information können sie Geschäfte vorschlagen im Wissen, dass Gegner spezifische Ressourcen haben, wodurch günstige Handelsraten maximiert werden.",
+          nl: "Expertspelers onderhouden mentale modellen van tegenstander handen door te volgen: productie van worpen, bronnen uitgegeven aan bouwwerken, geruild kaarten en kaarten verloren bij 7-worpen. Met deze informatie kunnen ze handel voorstellen wetende dat tegenstanders specifieke bronnen hebben, waardoor gunstige handelsratio's gemaximaliseerd worden."
+        }
+      },
+      {
+        question: {
+          en: "What is the strategic value of the 'Bishop' progress card in Cities & Knights?",
+          es: "¿Cuál es el valor estratégico de la carta de progreso 'Obispo' en Ciudades & Caballeros?",
+          de: "Was ist der strategische Wert der 'Bischof'-Fortschrittskarte in Städte & Ritter?",
+          nl: "Wat is de strategische waarde van de 'Bisschop' vooruitgangskaart in Steden & Ridders?"
+        },
+        options: [
+          { en: "Move robber and take 2 resource cards from any single player", es: "Mover al ladrón y tomar 2 cartas de recursos de cualquier jugador individual", de: "Räuber bewegen und 2 Ressourcenkarten von einem einzelnen Spieler nehmen", nl: "Rover verplaatsen en 2 bronkaarten van een enkele speler nemen" },
+          { en: "Gain 5 victory points immediately", es: "Ganar 5 puntos de victoria inmediatamente", de: "Sofort 5 Siegpunkte gewinnen", nl: "Direct 5 overwinningspunten winnen" },
+          { en: "Build a free city", es: "Construir una ciudad gratis", de: "Eine kostenlose Stadt bauen", nl: "Gratis stad bouwen" },
+          { en: "Steal all opponent commodities", es: "Robar todas las mercancías del oponente", de: "Alle Gegner-Rohstoffe stehlen", nl: "Alle tegenstander grondstoffen stelen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Bishop (Politics progress card) is extremely powerful: you move the robber to any hex and take 2 resource cards from one player on that hex (instead of the normal 1). This is roughly equivalent to a super-charged knight card, worth 2-3 resources in value when timed correctly.",
+          es: "El Obispo (carta de progreso Política) es extremadamente poderoso: mueves al ladrón a cualquier hexágono y tomas 2 cartas de recursos de un jugador en ese hexágono (en lugar del 1 normal). Esto es aproximadamente equivalente a una carta de caballero supercargada, con un valor de 2-3 recursos cuando se cronometra correctamente.",
+          de: "Der Bischof (Politik-Fortschrittskarte) ist extrem mächtig: Sie bewegen den Räuber auf ein beliebiges Hex und nehmen 2 Ressourcenkarten von einem Spieler auf diesem Hex (statt der normalen 1). Dies entspricht ungefähr einer supergeladenen Ritterkarte, im Wert von 2-3 Ressourcen bei korrektem Timing.",
+          nl: "De Bisschop (Politiek vooruitgangskaart) is extreem krachtig: je verplaatst de rover naar elke hex en neemt 2 bronkaarten van één speler op die hex (in plaats van de normale 1). Dit is ongeveer gelijk aan een super-opgeladen ridderkaart, 2-3 bronnen waard in waarde wanneer correct getimed."
+        }
+      },
+      {
+        question: {
+          en: "How should you evaluate 'tempo loss' from robber blocking?",
+          es: "¿Cómo debes evaluar la 'pérdida de tempo' por bloqueo del ladrón?",
+          de: "Wie sollte man 'Tempoverlust' durch Räuberblockierung bewerten?",
+          nl: "Hoe moet je 'tempo verlies' van rover blokkering evalueren?"
+        },
+        options: [
+          { en: "Each turn blocked on high-pip hex = 1-2 turns delayed on your building timeline", es: "Cada turno bloqueado en hexágono de alto pip = 1-2 turnos retrasados en tu línea de tiempo de construcción", de: "Jeder blockierte Zug auf High-Pip-Hex = 1-2 Züge verzögert auf Ihrer Bauzeitlinie", nl: "Elke beurt geblokkeerd op hoge-pip hex = 1-2 beurten vertraagd op je bouwtijdlijn" },
+          { en: "Robber blocking has zero impact", es: "El bloqueo del ladrón tiene cero impacto", de: "Räuberblockierung hat null Auswirkung", nl: "Rover blokkering heeft nul impact" },
+          { en: "Every blocked turn adds 10 points", es: "Cada turno bloqueado agrega 10 puntos", de: "Jeder blockierte Zug fügt 10 Punkte hinzu", nl: "Elke geblokkeerde beurt voegt 10 punten toe" },
+          { en: "Tempo loss only applies to first player", es: "La pérdida de tempo solo se aplica al primer jugador", de: "Tempoverlust gilt nur für ersten Spieler", nl: "Tempo verlies geldt alleen voor eerste speler" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "When the robber blocks your 6 or 8 hex (especially one attached to a city producing 2 resources), you lose approximately 0.28-0.56 resources per turn. This compounds: 3 turns blocked ≈ 1-2 resources lost ≈ 1-2 turns delayed on building your next structure. Tempo loss multiplies over time.",
+          es: "Cuando el ladrón bloquea tu hexágono 6 u 8 (especialmente uno adjunto a una ciudad que produce 2 recursos), pierdes aproximadamente 0.28-0.56 recursos por turno. Esto se agrava: 3 turnos bloqueados ≈ 1-2 recursos perdidos ≈ 1-2 turnos retrasados en construir tu próxima estructura. La pérdida de tempo se multiplica con el tiempo.",
+          de: "Wenn der Räuber Ihr 6- oder 8-Hex blockiert (besonders eines an einer Stadt, die 2 Ressourcen produziert), verlieren Sie etwa 0,28-0,56 Ressourcen pro Zug. Dies kumuliert: 3 blockierte Züge ≈ 1-2 verlorene Ressourcen ≈ 1-2 Züge verzögert beim Bau Ihrer nächsten Struktur. Tempoverlust multipliziert sich über die Zeit.",
+          nl: "Wanneer de rover je 6 of 8 hex blokkeert (vooral een aan een stad die 2 bronnen produceert), verlies je ongeveer 0,28-0,56 bronnen per beurt. Dit verergert: 3 beurten geblokkeerd ≈ 1-2 bronnen verloren ≈ 1-2 beurten vertraagd bij het bouwen van je volgende structuur. Tempo verlies vermenigvuldigt over tijd."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'mutual assured destruction' defensive pact strategy?",
+          es: "¿Qué es la estrategia de pacto defensivo de 'destrucción mutua asegurada'?",
+          de: "Was ist die 'gegenseitig gesicherte Zerstörungs'-Verteidigungspakt-Strategie?",
+          nl: "Wat is de 'wederzijds verzekerde vernietiging' defensief pact strategie?"
+        },
+        options: [
+          { en: "Informal alliance where 2nd/3rd place agree not to trade with or robber the leader", es: "Alianza informal donde 2º/3º lugar acuerdan no comerciar ni ladronear al líder", de: "Informelle Allianz wo 2./3. Platz vereinbaren nicht mit Anführer zu handeln oder zu räubern", nl: "Informele alliantie waar 2e/3e plaats afspreken niet te handelen met of rover op leider" },
+          { en: "Everyone attacks everyone equally", es: "Todos atacan a todos por igual", de: "Alle greifen alle gleichmäßig an", nl: "Iedereen valt iedereen gelijk aan" },
+          { en: "Always help the leader win", es: "Siempre ayudar al líder a ganar", de: "Immer dem Anführer zum Sieg helfen", nl: "Altijd de leider helpen winnen" },
+          { en: "No player makes any moves", es: "Ningún jugador hace ningún movimiento", de: "Kein Spieler macht einen Zug", nl: "Geen speler maakt een zet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "When one player leads significantly (9+ points), the 2nd and 3rd place players sometimes form implicit cooperation: refusing leader's trades, targeting leader with robber, and trading between themselves. This 'ganging up' strategy prevents leader from closing out the game and keeps competition alive.",
+          es: "Cuando un jugador lidera significativamente (9+ puntos), los jugadores de 2º y 3º lugar a veces forman cooperación implícita: rechazando intercambios del líder, apuntando al líder con el ladrón y comerciando entre ellos. Esta estrategia de 'agruparse' evita que el líder cierre el juego y mantiene viva la competencia.",
+          de: "Wenn ein Spieler deutlich führt (9+ Punkte), bilden die 2.- und 3.-Platz-Spieler manchmal implizite Zusammenarbeit: Ablehnung der Geschäfte des Anführers, Anvisierung des Anführers mit Räuber und Handel untereinander. Diese 'Zusammenrottungs'-Strategie verhindert, dass der Anführer das Spiel abschließt und hält den Wettbewerb am Leben.",
+          nl: "Wanneer één speler significant leidt (9+ punten), vormen de 2e en 3e plaats spelers soms impliciete samenwerking: weigering van leider's handel, leider targeten met rover, en onderling handelen. Deze 'samenscholings' strategie voorkomt dat leider het spel afsluit en houdt competitie levend."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'probability cliff' at 7 cards?",
+          es: "¿Qué es el 'acantilado de probabilidad' en 7 cartas?",
+          de: "Was ist die 'Wahrscheinlichkeitsklippe' bei 7 Karten?",
+          nl: "Wat is de 'waarschijnlijkheidsklif' bij 7 kaarten?"
+        },
+        options: [
+          { en: "16.67% chance per turn of losing half your cards creates high-risk situation", es: "16.67% de probabilidad por turno de perder la mitad de tus cartas crea situación de alto riesgo", de: "16,67% Chance pro Zug die Hälfte Ihrer Karten zu verlieren schafft Hochrisiko-Situation", nl: "16.67% kans per beurt om de helft van je kaarten te verliezen creëert hoog-risico situatie" },
+          { en: "Having 7 cards guarantees victory", es: "Tener 7 cartas garantiza victoria", de: "7 Karten zu haben garantiert Sieg", nl: "7 kaarten hebben garandeert overwinning" },
+          { en: "7 cards provides complete safety", es: "7 cartas proporciona seguridad completa", de: "7 Karten bieten vollständige Sicherheit", nl: "7 kaarten biedt complete veiligheid" },
+          { en: "No risk exists at 7 cards", es: "No existe riesgo en 7 cartas", de: "Kein Risiko existiert bei 7 Karten", nl: "Geen risico bestaat bij 7 kaarten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "At exactly 7 cards, each roll has 1/6 probability of being a 7, forcing you to discard half (rounded down = 3 cards). With 4 players rolling, probability of at least one 7 before your next turn approaches ~50%. This makes hoarding 7+ cards extremely risky without immediate building plans.",
+          es: "En exactamente 7 cartas, cada tirada tiene 1/6 de probabilidad de ser un 7, obligándote a descartar la mitad (redondeado hacia abajo = 3 cartas). Con 4 jugadores tirando, la probabilidad de al menos un 7 antes de tu próximo turno se acerca a ~50%. Esto hace que acumular 7+ cartas sea extremadamente arriesgado sin planes de construcción inmediatos.",
+          de: "Bei genau 7 Karten hat jeder Wurf 1/6 Wahrscheinlichkeit eine 7 zu sein, was Sie zwingt die Hälfte abzuwerfen (abgerundet = 3 Karten). Mit 4 Spielern die würfeln, nähert sich die Wahrscheinlichkeit von mindestens einer 7 vor Ihrem nächsten Zug ~50%. Dies macht das Horten von 7+ Karten extrem riskant ohne sofortige Baupläne.",
+          nl: "Bij precies 7 kaarten heeft elke worp 1/6 waarschijnlijkheid een 7 te zijn, wat je dwingt de helft weg te gooien (naar beneden afgerond = 3 kaarten). Met 4 spelers die gooien, nadert de waarschijnlijkheid van ten minste één 7 voor je volgende beurt ~50%. Dit maakt het oppotten van 7+ kaarten extreem riskant zonder onmiddellijke bouwplannen."
+        }
+      },
+      {
+        question: {
+          en: "What defines mastery-level 'settlement efficiency ratio'?",
+          es: "¿Qué define la 'relación de eficiencia de asentamiento' de nivel maestría?",
+          de: "Was definiert das 'Siedlungseffizienz-Verhältnis' auf Meisterniveau?",
+          nl: "Wat definieert meesterschap-niveau 'nederzettings efficiëntie ratio'?"
+        },
+        options: [
+          { en: "Average 11+ pips per settlement with 4+ different resources across all settlements", es: "Promedio de 11+ pips por asentamiento con 4+ recursos diferentes en todos los asentamientos", de: "Durchschnitt 11+ Pips pro Siedlung mit 4+ verschiedenen Ressourcen über alle Siedlungen", nl: "Gemiddeld 11+ pips per nederzetting met 4+ verschillende bronnen over alle nederzettingen" },
+          { en: "Any settlement placement is equally good", es: "Cualquier colocación de asentamiento es igualmente buena", de: "Jede Siedlungsplatzierung ist gleich gut", nl: "Elke nederzettingsplaatsing is even goed" },
+          { en: "Only build on 2 and 12 hexes", es: "Solo construir en hexágonos 2 y 12", de: "Nur auf 2- und 12-Hexen bauen", nl: "Alleen bouwen op 2 en 12 hexen" },
+          { en: "Build settlements randomly without calculation", es: "Construir asentamientos aleatoriamente sin cálculo", de: "Siedlungen zufällig ohne Berechnung bauen", nl: "Nederzettingen willekeurig bouwen zonder berekening" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Expert settlement placement averages 11+ pips per settlement (e.g., three settlements of 6-8-5, 6-9-4, 5-9-3 = 14+13+11 pips) while ensuring access to all 5 resource types. This maximizes production while maintaining strategic flexibility for any victory path.",
+          es: "La colocación de asentamientos experta promedia 11+ pips por asentamiento (p. ej., tres asentamientos de 6-8-5, 6-9-4, 5-9-3 = 14+13+11 pips) mientras asegura acceso a los 5 tipos de recursos. Esto maximiza la producción mientras mantiene flexibilidad estratégica para cualquier camino de victoria.",
+          de: "Experten-Siedlungsplatzierung mittelt 11+ Pips pro Siedlung (z.B. drei Siedlungen von 6-8-5, 6-9-4, 5-9-3 = 14+13+11 Pips) während Zugang zu allen 5 Ressourcentypen sichergestellt wird. Dies maximiert Produktion bei Beibehaltung strategischer Flexibilität für jeden Siegpfad.",
+          nl: "Expert nederzettingsplaatsing gemiddeld 11+ pips per nederzetting (bijv. drie nederzettingen van 6-8-5, 6-9-4, 5-9-3 = 14+13+11 pips) terwijl toegang tot alle 5 brontypes gewaarborgd wordt. Dit maximaliseert productie terwijl strategische flexibiliteit voor elk overwinningspad behouden blijft."
+        }
+      },
+      {
+        question: {
+          en: "How does the 'cascading advantage' phenomenon work?",
+          es: "¿Cómo funciona el fenómeno de 'ventaja en cascada'?",
+          de: "Wie funktioniert das 'kaskadierende Vorteils'-Phänomen?",
+          nl: "Hoe werkt het 'cascaderende voordeel' fenomeen?"
+        },
+        options: [
+          { en: "Early lead → more builds → better positions → faster growth → exponential advantage", es: "Ventaja temprana → más construcciones → mejores posiciones → crecimiento más rápido → ventaja exponencial", de: "Früher Vorsprung → mehr Bauten → bessere Positionen → schnelleres Wachstum → exponentieller Vorteil", nl: "Vroege voorsprong → meer bouwwerken → betere posities → snellere groei → exponentieel voordeel" },
+          { en: "All players maintain perfect balance always", es: "Todos los jugadores mantienen equilibrio perfecto siempre", de: "Alle Spieler halten perfekte Balance immer", nl: "Alle spelers behouden perfecte balans altijd" },
+          { en: "Late game players always catch up automatically", es: "Los jugadores de juego tardío siempre se ponen al día automáticamente", de: "Späte Spieler holen immer automatisch auf", nl: "Late game spelers halen altijd automatisch in" },
+          { en: "No advantage compounds over time", es: "Ninguna ventaja se acumula con el tiempo", de: "Kein Vorteil kumuliert über die Zeit", nl: "Geen voordeel verergert over tijd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Catan exhibits positive feedback loops: early settlements → more resources → faster city upgrades → doubled production → more frequent builds → territorial control → victory. This is why early tempo and settlement placement are critical—small advantages compound exponentially throughout the game.",
+          es: "Catan exhibe bucles de retroalimentación positiva: asentamientos tempranos → más recursos → mejoras de ciudad más rápidas → producción duplicada → construcciones más frecuentes → control territorial → victoria. Por eso el tempo temprano y la colocación de asentamientos son críticos: las pequeñas ventajas se acumulan exponencialmente durante el juego.",
+          de: "Catan zeigt positive Rückkopplungsschleifen: frühe Siedlungen → mehr Ressourcen → schnellere Stadt-Upgrades → verdoppelte Produktion → häufigere Bauten → territoriale Kontrolle → Sieg. Deshalb sind frühes Tempo und Siedlungsplatzierung kritisch—kleine Vorteile kumulieren exponentiell während des Spiels.",
+          nl: "Catan vertoont positieve feedback loops: vroege nederzettingen → meer bronnen → snellere stadsupgrades → verdubbelde productie → frequentere bouwwerken → territoriale controle → overwinning. Daarom zijn vroeg tempo en nederzettingsplaatsing kritiek—kleine voordelen verergeren exponentieel gedurende het spel."
+        }
       }
     ]
   };

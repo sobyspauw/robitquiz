@@ -427,6 +427,426 @@
           de: "ReLU-Aktivierung (f(x) = max(0,x)) ersetzte Sigmoid- und Tanh-Funktionen in tiefen Netzwerken weil sie für positive Werte nicht sättigt und Gradienten während Backpropagation aufrechterhält. Diese einfache Änderung war entscheidend für effektives Training viel tieferer Netzwerke und trug erheblich zur Deep Learning-Revolution bei.",
           nl: "ReLU activatie (f(x) = max(0,x)) verving sigmoid en tanh functies in diepe netwerken omdat het niet verzadigt voor positieve waarden, waardoor gradiënten behouden blijven tijdens backpropagation. Deze eenvoudige verandering was cruciaal voor het effectief trainen van veel diepere netwerken, wat significant bijdroeg aan de deep learning revolutie."
         }
+      },
+      {
+        question: {
+          en: "What was dropout and why was it important for deep learning?",
+          es: "¿Qué fue dropout y por qué fue importante para aprendizaje profundo?",
+          de: "Was war Dropout und warum war es wichtig für Deep Learning?",
+          nl: "Wat was dropout en waarom was het belangrijk voor deep learning?"
+        },
+        options: [
+          { en: "A regularization technique randomly deactivating neurons during training to prevent overfitting", es: "Una técnica de regularización desactivando aleatoriamente neuronas durante entrenamiento para prevenir sobreajuste", de: "Eine Regularisierungstechnik die Neuronen zufällig während Training deaktiviert um Overfitting zu verhindern", nl: "Een regularisatie techniek die willekeurig neuronen deactiveert tijdens training om overfitting te voorkomen" },
+          { en: "A database backup method", es: "Un método de respaldo de base de datos", de: "Eine Datenbank-Backup-Methode", nl: "Een database backup methode" },
+          { en: "A programming language feature", es: "Una característica de lenguaje de programación", de: "Ein Programmiersprachen-Feature", nl: "Een programmeertaal functie" },
+          { en: "A computer hardware component", es: "Un componente de hardware de computadora", de: "Eine Computer-Hardware-Komponente", nl: "Een computer hardware component" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Dropout, introduced by Hinton et al. in 2012, randomly drops neurons during training, forcing the network to learn redundant representations. This simple technique dramatically reduced overfitting in deep networks, enabling better generalization and becoming standard practice in deep learning architectures.",
+          es: "Dropout, introducido por Hinton et al. en 2012, descarta aleatoriamente neuronas durante entrenamiento, forzando a la red a aprender representaciones redundantes. Esta técnica simple redujo dramáticamente el sobreajuste en redes profundas.",
+          de: "Dropout, eingeführt von Hinton et al. 2012, lässt zufällig Neuronen während Training fallen und zwingt das Netzwerk redundante Repräsentationen zu lernen. Diese einfache Technik reduzierte Overfitting in tiefen Netzwerken dramatisch.",
+          nl: "Dropout, geïntroduceerd door Hinton et al. in 2012, laat willekeurig neuronen vallen tijdens training, wat het netwerk dwingt redundante representaties te leren. Deze eenvoudige techniek verminderde overfitting in diepe netwerken dramatisch."
+        }
+      },
+      {
+        question: {
+          en: "What was batch normalization's contribution to deep learning?",
+          es: "¿Cuál fue la contribución de normalización por lotes al aprendizaje profundo?",
+          de: "Was war Batch Normalization's Beitrag zu Deep Learning?",
+          nl: "Wat was de bijdrage van batch normalisatie aan deep learning?"
+        },
+        options: [
+          { en: "It stabilized training by normalizing layer inputs, enabling faster learning and deeper networks", es: "Estabilizó entrenamiento normalizando entradas de capa, permitiendo aprendizaje más rápido y redes más profundas", de: "Es stabilisierte Training durch Normalisierung von Layer-Eingaben und ermöglichte schnelleres Lernen und tiefere Netzwerke", nl: "Het stabiliseerde training door laag inputs te normaliseren, wat sneller leren en diepere netwerken mogelijk maakte" },
+          { en: "It was a data storage technique", es: "Fue una técnica de almacenamiento de datos", de: "Es war eine Datenspeicherungstechnik", nl: "Het was een data opslag techniek" },
+          { en: "It created new neural networks", es: "Creó nuevas redes neuronales", de: "Es schuf neue neuronale Netzwerke", nl: "Het creëerde nieuwe neurale netwerken" },
+          { en: "It was a programming language", es: "Fue un lenguaje de programación", de: "Es war eine Programmiersprache", nl: "Het was een programmeertaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Batch normalization (2015) normalized activations at each layer, reducing internal covariate shift. This stabilized training, allowed higher learning rates, reduced sensitivity to initialization, and acted as regularization. It became essential for training very deep networks and is now standard in most architectures.",
+          es: "La normalización por lotes (2015) normalizó activaciones en cada capa, reduciendo el cambio de covarianza interno. Esto estabilizó entrenamiento, permitió tasas de aprendizaje más altas y se volvió esencial para entrenar redes muy profundas.",
+          de: "Batch-Normalisierung (2015) normalisierte Aktivierungen in jeder Schicht und reduzierte interne Kovarianzenverschiebung. Dies stabilisierte Training, erlaubte höhere Lernraten und wurde essentiell für Training sehr tiefer Netzwerke.",
+          nl: "Batch normalisatie (2015) normaliseerde activaties bij elke laag, wat interne covariate shift verminderde. Dit stabiliseerde training, stond hogere leersnelheden toe en werd essentieel voor het trainen van zeer diepe netwerken."
+        }
+      },
+      {
+        question: {
+          en: "What was Faster R-CNN's contribution to object detection?",
+          es: "¿Cuál fue la contribución de Faster R-CNN a detección de objetos?",
+          de: "Was war Faster R-CNN's Beitrag zur Objekterkennung?",
+          nl: "Wat was de bijdrage van Faster R-CNN aan objectdetectie?"
+        },
+        options: [
+          { en: "It introduced Region Proposal Networks enabling fast, accurate, end-to-end object detection", es: "Introdujo Redes de Propuesta de Región permitiendo detección de objetos rápida, precisa y de extremo a extremo", de: "Es führte Region Proposal Networks ein die schnelle, genaue End-to-End-Objekterkennung ermöglichten", nl: "Het introduceerde Region Proposal Networks die snelle, nauwkeurige, end-to-end objectdetectie mogelijk maakten" },
+          { en: "It was a racing car", es: "Fue un auto de carreras", de: "Es war ein Rennwagen", nl: "Het was een raceauto" },
+          { en: "It created social media", es: "Creó redes sociales", de: "Es schuf soziale Medien", nl: "Het creëerde sociale media" },
+          { en: "It was a database system", es: "Fue un sistema de base de datos", de: "Es war ein Datenbanksystem", nl: "Het was een database systeem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Faster R-CNN (2015) revolutionized object detection by replacing slow selective search with learned Region Proposal Networks (RPNs). This made the entire detection pipeline differentiable and trainable end-to-end, dramatically improving speed while maintaining high accuracy. It became the foundation for modern object detection systems.",
+          es: "Faster R-CNN (2015) revolucionó detección de objetos reemplazando búsqueda selectiva lenta con Redes de Propuesta de Región aprendidas. Esto hizo diferenciable todo el pipeline de detección y entrenable de extremo a extremo.",
+          de: "Faster R-CNN (2015) revolutionierte Objekterkennung durch Ersetzen langsamer selektiver Suche mit gelernten Region Proposal Networks. Dies machte die gesamte Erkennungspipeline differenzierbar und End-to-End trainierbar.",
+          nl: "Faster R-CNN (2015) revolutioneerde objectdetectie door trage selectieve zoektocht te vervangen met geleerde Region Proposal Networks. Dit maakte de hele detectiepijplijn differentieerbaar en end-to-end trainbaar."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of word2vec and word embeddings in NLP?",
+          es: "¿Cuál fue la importancia de word2vec y embeddings de palabras en NLP?",
+          de: "Was war die Bedeutung von word2vec und Wort-Embeddings in NLP?",
+          nl: "Wat was de betekenis van word2vec en woord embeddings in NLP?"
+        },
+        options: [
+          { en: "They represented words as dense vectors capturing semantic relationships and enabling neural NLP", es: "Representaron palabras como vectores densos capturando relaciones semánticas y permitiendo NLP neuronal", de: "Sie repräsentierten Wörter als dichte Vektoren die semantische Beziehungen erfassen und neuronales NLP ermöglichen", nl: "Ze representeerden woorden als dense vectors die semantische relaties vastleggen en neuraal NLP mogelijk maken" },
+          { en: "They were programming languages", es: "Fueron lenguajes de programación", de: "Sie waren Programmiersprachen", nl: "Ze waren programmeertalen" },
+          { en: "They created databases", es: "Crearon bases de datos", de: "Sie schufen Datenbanken", nl: "Ze creëerden databases" },
+          { en: "They were computer hardware", es: "Fueron hardware de computadora", de: "Sie waren Computer-Hardware", nl: "Ze waren computer hardware" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Word2vec (2013) learned distributed representations where semantically similar words have similar vectors, enabling algebraic operations like king-man+woman≈queen. This revolutionized NLP by providing better input representations for neural networks than one-hot encoding, laying groundwork for modern language models.",
+          es: "Word2vec (2013) aprendió representaciones distribuidas donde palabras semánticamente similares tienen vectores similares, permitiendo operaciones algebraicas como rey-hombre+mujer≈reina. Esto revolucionó NLP proporcionando mejores representaciones de entrada para redes neuronales.",
+          de: "Word2vec (2013) lernte verteilte Repräsentationen wo semantisch ähnliche Wörter ähnliche Vektoren haben und algebraische Operationen wie König-Mann+Frau≈Königin ermöglichen. Dies revolutionierte NLP durch bessere Eingaberepräsentationen für neuronale Netzwerke.",
+          nl: "Word2vec (2013) leerde gedistribueerde representaties waarbij semantisch vergelijkbare woorden vergelijkbare vectors hebben, wat algebraïsche operaties mogelijk maakt zoals koning-man+vrouw≈koningin. Dit revolutioneerde NLP door betere invoer representaties voor neurale netwerken."
+        }
+      },
+      {
+        question: {
+          en: "What was DeepMind's AlphaGo achievement in 2016?",
+          es: "¿Cuál fue el logro de AlphaGo de DeepMind en 2016?",
+          de: "Was war DeepMinds AlphaGo Leistung 2016?",
+          nl: "Wat was DeepMind's AlphaGo prestatie in 2016?"
+        },
+        options: [
+          { en: "It defeated world champion Lee Sedol at Go using deep reinforcement learning", es: "Derrotó al campeón mundial Lee Sedol en Go usando aprendizaje por refuerzo profundo", de: "Es besiegte Weltmeister Lee Sedol in Go mit Deep Reinforcement Learning", nl: "Het versloeg wereldkampioen Lee Sedol in Go met behulp van deep reinforcement learning" },
+          { en: "It was the first neural network", es: "Fue la primera red neuronal", de: "Es war das erste neuronale Netzwerk", nl: "Het was het eerste neurale netwerk" },
+          { en: "It created the internet", es: "Creó internet", de: "Es schuf das Internet", nl: "Het creëerde het internet" },
+          { en: "It was a programming language", es: "Fue un lenguaje de programación", de: "Es war eine Programmiersprache", nl: "Het was een programmeertaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "AlphaGo's 4-1 victory over Lee Sedol shocked the world, as Go was considered too complex for computers due to its vast search space. AlphaGo combined deep CNNs for position evaluation, Monte Carlo tree search, and reinforcement learning, demonstrating that deep learning could master extremely complex strategic domains.",
+          es: "La victoria 4-1 de AlphaGo sobre Lee Sedol impactó al mundo, ya que Go se consideraba demasiado complejo para computadoras. AlphaGo combinó CNN profundas para evaluación de posición, búsqueda de árbol Monte Carlo y aprendizaje por refuerzo.",
+          de: "AlphaGos 4-1 Sieg über Lee Sedol schockierte die Welt, da Go als zu komplex für Computer galt. AlphaGo kombinierte tiefe CNNs für Positionsevaluierung, Monte Carlo Baumsuche und Reinforcement Learning.",
+          nl: "AlphaGo's 4-1 overwinning op Lee Sedol schokte de wereld, omdat Go als te complex voor computers werd beschouwd. AlphaGo combineerde diepe CNNs voor positie evaluatie, Monte Carlo boom zoektocht en reinforcement learning."
+        }
+      },
+      {
+        question: {
+          en: "What was VGGNet's contribution to deep learning architecture?",
+          es: "¿Cuál fue la contribución de VGGNet a arquitectura de aprendizaje profundo?",
+          de: "Was war VGGNets Beitrag zur Deep Learning-Architektur?",
+          nl: "Wat was VGGNet's bijdrage aan deep learning architectuur?"
+        },
+        options: [
+          { en: "It showed that very deep networks with small 3x3 filters could achieve excellent performance", es: "Mostró que redes muy profundas con filtros pequeños 3x3 podían lograr excelente rendimiento", de: "Es zeigte dass sehr tiefe Netzwerke mit kleinen 3x3 Filtern exzellente Leistung erreichen konnten", nl: "Het toonde aan dat zeer diepe netwerken met kleine 3x3 filters uitstekende prestaties konden bereiken" },
+          { en: "It was a programming language", es: "Fue un lenguaje de programación", de: "Es war eine Programmiersprache", nl: "Het was een programmeertaal" },
+          { en: "It created databases", es: "Creó bases de datos", de: "Es schuf Datenbanken", nl: "Het creëerde databases" },
+          { en: "It was a computer game", es: "Fue un juego de computadora", de: "Es war ein Computerspiel", nl: "Het was een computerspel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "VGGNet (2014) demonstrated that network depth is crucial by stacking many convolutional layers with small 3x3 filters rather than using larger filters. Its simple, homogeneous architecture (16-19 layers) achieved excellent ImageNet performance and became widely adopted for transfer learning despite high computational cost.",
+          es: "VGGNet (2014) demostró que la profundidad de red es crucial apilando muchas capas convolucionales con filtros pequeños 3x3. Su arquitectura simple y homogénea (16-19 capas) logró excelente rendimiento ImageNet y se adoptó ampliamente para aprendizaje por transferencia.",
+          de: "VGGNet (2014) demonstrierte dass Netzwerktiefe entscheidend ist durch Stapeln vieler Convolutional Layers mit kleinen 3x3 Filtern. Seine einfache, homogene Architektur (16-19 Schichten) erreichte exzellente ImageNet-Leistung.",
+          nl: "VGGNet (2014) toonde aan dat netwerkdiepte cruciaal is door veel convolutionele lagen te stapelen met kleine 3x3 filters. Zijn eenvoudige, homogene architectuur (16-19 lagen) bereikte uitstekende ImageNet prestaties."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of Xavier/He initialization methods?",
+          es: "¿Cuál fue la importancia de los métodos de inicialización Xavier/He?",
+          de: "Was war die Bedeutung der Xavier/He Initialisierungsmethoden?",
+          nl: "Wat was de betekenis van Xavier/He initialisatie methoden?"
+        },
+        options: [
+          { en: "They provided proper weight initialization preventing vanishing/exploding gradients in deep networks", es: "Proporcionaron inicialización adecuada de pesos previniendo gradientes que desaparecen/explotan en redes profundas", de: "Sie boten angemessene Gewichtsinitialisierung die verschwindende/explodierende Gradienten in tiefen Netzwerken verhinderte", nl: "Ze boden goede gewichtsinitialisatie die verdwijnende/exploderende gradiënten in diepe netwerken voorkwam" },
+          { en: "They were programming languages", es: "Fueron lenguajes de programación", de: "Sie waren Programmiersprachen", nl: "Ze waren programmeertalen" },
+          { en: "They created social media", es: "Crearon redes sociales", de: "Sie schufen soziale Medien", nl: "Ze creëerden sociale media" },
+          { en: "They were database systems", es: "Fueron sistemas de base de datos", de: "Sie waren Datenbanksysteme", nl: "Ze waren database systemen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Xavier (Glorot) initialization (2010) and He initialization (2015) set initial weights based on layer sizes to maintain variance of activations and gradients across layers. This solved training instability in deep networks and became standard practice, with He init especially important for ReLU activations.",
+          es: "La inicialización Xavier (Glorot) (2010) y He (2015) establecieron pesos iniciales basados en tamaños de capa para mantener varianza de activaciones y gradientes. Esto resolvió inestabilidad de entrenamiento en redes profundas y se volvió práctica estándar.",
+          de: "Xavier (Glorot) Initialisierung (2010) und He Initialisierung (2015) setzten initiale Gewichte basierend auf Layer-Größen um Varianz von Aktivierungen und Gradienten zu erhalten. Dies löste Trainingsinstabilität in tiefen Netzwerken.",
+          nl: "Xavier (Glorot) initialisatie (2010) en He initialisatie (2015) stelden initiële gewichten in gebaseerd op laaggroottes om variantie van activaties en gradiënten te behouden. Dit loste trainingsinstabiliteit in diepe netwerken op."
+        }
+      },
+      {
+        question: {
+          en: "What was the impact of semantic segmentation networks like FCN and U-Net?",
+          es: "¿Cuál fue el impacto de redes de segmentación semántica como FCN y U-Net?",
+          de: "Was war die Auswirkung von semantischen Segmentierungsnetzwerken wie FCN und U-Net?",
+          nl: "Wat was de impact van semantische segmentatie netwerken zoals FCN en U-Net?"
+        },
+        options: [
+          { en: "They enabled pixel-level image understanding for medical imaging, autonomous driving, and scene understanding", es: "Permitieron comprensión de imagen a nivel de píxel para imágenes médicas, conducción autónoma y comprensión de escenas", de: "Sie ermöglichten Bildverständnis auf Pixelebene für medizinische Bildgebung, autonomes Fahren und Szenenverständnis", nl: "Ze maakten beeldinterpretatie op pixelniveau mogelijk voor medische beeldvorming, autonoom rijden en scène begrip" },
+          { en: "They were video game consoles", es: "Fueron consolas de videojuegos", de: "Sie waren Videospielkonsolen", nl: "Ze waren videogame consoles" },
+          { en: "They created cryptocurrencies", es: "Crearon criptomonedas", de: "Sie schufen Kryptowährungen", nl: "Ze creëerden cryptocurrencies" },
+          { en: "They were programming languages", es: "Fueron lenguajes de programación", de: "Sie waren Programmiersprachen", nl: "Ze waren programmeertalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Fully Convolutional Networks (FCN, 2015) and U-Net (2015) enabled dense prediction by classifying every pixel. U-Net's encoder-decoder architecture with skip connections became especially influential in medical image segmentation. These architectures enabled applications requiring detailed pixel-level understanding of images.",
+          es: "Las Redes Completamente Convolucionales (FCN, 2015) y U-Net (2015) permitieron predicción densa clasificando cada píxel. La arquitectura encoder-decoder de U-Net con conexiones de salto se volvió especialmente influyente en segmentación de imágenes médicas.",
+          de: "Fully Convolutional Networks (FCN, 2015) und U-Net (2015) ermöglichten dichte Vorhersage durch Klassifizierung jedes Pixels. U-Nets Encoder-Decoder-Architektur mit Skip-Verbindungen wurde besonders einflussreich in medizinischer Bildsegmentierung.",
+          nl: "Fully Convolutional Networks (FCN, 2015) en U-Net (2015) maakten dense voorspelling mogelijk door elk pixel te classificeren. U-Net's encoder-decoder architectuur met skip connecties werd vooral invloedrijk in medische beeldsegmentatie."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of Adam optimizer to deep learning?",
+          es: "¿Cuál fue la contribución del optimizador Adam al aprendizaje profundo?",
+          de: "Was war der Beitrag des Adam-Optimierers zu Deep Learning?",
+          nl: "Wat was de bijdrage van de Adam optimizer aan deep learning?"
+        },
+        options: [
+          { en: "It combined momentum and adaptive learning rates, becoming the default optimizer for many applications", es: "Combinó momentum y tasas de aprendizaje adaptativas, convirtiéndose en el optimizador predeterminado para muchas aplicaciones", de: "Es kombinierte Momentum und adaptive Lernraten und wurde zum Standard-Optimierer für viele Anwendungen", nl: "Het combineerde momentum en adaptieve leersnelheden, en werd de standaard optimizer voor veel toepassingen" },
+          { en: "It was a programming language", es: "Fue un lenguaje de programación", de: "Es war eine Programmiersprache", nl: "Het was een programmeertaal" },
+          { en: "It created neural networks", es: "Creó redes neuronales", de: "Es schuf neuronale Netzwerke", nl: "Het creëerde neurale netwerken" },
+          { en: "It was a database system", es: "Fue un sistema de base de datos", de: "Es war ein Datenbanksystem", nl: "Het was een database systeem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Adam optimizer (2014) combined ideas from RMSprop and momentum, maintaining per-parameter adaptive learning rates and momentum terms. It required minimal tuning, worked well across diverse problems, and became extremely popular in deep learning, often serving as the default optimizer for neural network training.",
+          es: "El optimizador Adam (2014) combinó ideas de RMSprop y momentum, manteniendo tasas de aprendizaje adaptativas por parámetro y términos de momentum. Requirió ajuste mínimo, funcionó bien en problemas diversos y se volvió extremadamente popular en aprendizaje profundo.",
+          de: "Adam-Optimierer (2014) kombinierte Ideen von RMSprop und Momentum und behielt parameter-spezifische adaptive Lernraten und Momentum-Terme bei. Er benötigte minimales Tuning, funktionierte gut über diverse Probleme und wurde extrem populär in Deep Learning.",
+          nl: "Adam optimizer (2014) combineerde ideeën van RMSprop en momentum, waarbij per-parameter adaptieve leersnelheden en momentum termen behouden bleven. Het vereiste minimale afstemming, werkte goed over diverse problemen en werd extreem populair in deep learning."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of data augmentation in deep learning's success?",
+          es: "¿Cuál fue la importancia del aumento de datos en el éxito del aprendizaje profundo?",
+          de: "Was war die Bedeutung von Datenaugmentation für den Erfolg des Deep Learning?",
+          nl: "Wat was de betekenis van data augmentatie in het succes van deep learning?"
+        },
+        options: [
+          { en: "It artificially expanded training datasets through transformations, reducing overfitting and improving generalization", es: "Expandió artificialmente conjuntos de datos de entrenamiento mediante transformaciones, reduciendo sobreajuste y mejorando generalización", de: "Es erweiterte künstlich Trainingsdatensätze durch Transformationen, reduzierte Overfitting und verbesserte Generalisierung", nl: "Het breidde kunstmatig trainings datasets uit door transformaties, wat overfitting verminderde en generalisatie verbeterde" },
+          { en: "It was a database management technique", es: "Fue una técnica de gestión de base de datos", de: "Es war eine Datenbankverwaltungstechnik", nl: "Het was een database beheertechniek" },
+          { en: "It created programming languages", es: "Creó lenguajes de programación", de: "Es schuf Programmiersprachen", nl: "Het creëerde programmeertalen" },
+          { en: "It was a computer hardware improvement", es: "Fue una mejora de hardware de computadora", de: "Es war eine Computer-Hardware-Verbesserung", nl: "Het was een computer hardware verbetering" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Data augmentation (random crops, flips, rotations, color jittering) became crucial for deep learning success by artificially increasing training data diversity. AlexNet extensively used augmentation, and it became standard practice. By exposing networks to varied versions of training examples, it improved robustness and generalization without collecting more data.",
+          es: "El aumento de datos (recortes aleatorios, volteos, rotaciones, variación de color) se volvió crucial para el éxito del aprendizaje profundo aumentando artificialmente la diversidad de datos de entrenamiento. AlexNet usó extensivamente aumento y se convirtió en práctica estándar.",
+          de: "Datenaugmentation (zufällige Zuschnitte, Spiegelungen, Rotationen, Farbvariationen) wurde entscheidend für Deep Learning-Erfolg durch künstliche Erhöhung der Trainingsdaten-Diversität. AlexNet nutzte extensiv Augmentation und es wurde Standardpraxis.",
+          nl: "Data augmentatie (willekeurige uitsnedes, spiegelingen, rotaties, kleurvariaties) werd cruciaal voor deep learning succes door kunstmatig trainingsdatadiversiteit te verhogen. AlexNet gebruikte uitgebreid augmentatie en het werd standaardpraktijk."
+        }
+      },
+      {
+        question: {
+          en: "What was the role of GPUs in enabling the deep learning revolution?",
+          es: "¿Cuál fue el papel de las GPU en habilitar la revolución del aprendizaje profundo?",
+          de: "Was war die Rolle von GPUs bei der Ermöglichung der Deep Learning-Revolution?",
+          nl: "Wat was de rol van GPUs bij het mogelijk maken van de deep learning revolutie?"
+        },
+        options: [
+          { en: "They provided massive parallel processing enabling training of large neural networks in reasonable time", es: "Proporcionaron procesamiento masivamente paralelo permitiendo entrenar grandes redes neuronales en tiempo razonable", de: "Sie boten massiv parallele Verarbeitung die Training großer neuronaler Netzwerke in angemessener Zeit ermöglichte", nl: "Ze boden massaal parallelle verwerking die training van grote neurale netwerken in redelijke tijd mogelijk maakte" },
+          { en: "They created artificial consciousness", es: "Crearon conciencia artificial", de: "Sie schufen künstliches Bewusstsein", nl: "Ze creëerden kunstmatig bewustzijn" },
+          { en: "They invented neural networks", es: "Inventaron redes neuronales", de: "Sie erfanden neuronale Netzwerke", nl: "Ze vonden neurale netwerken uit" },
+          { en: "They were programming languages", es: "Fueron lenguajes de programación", de: "Sie waren Programmiersprachen", nl: "Ze waren programmeertalen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GPUs revolutionized deep learning by providing massive parallelization perfect for matrix operations in neural networks. AlexNet's use of GPUs enabled 10-50x speedups over CPUs. NVIDIA's CUDA and later cuDNN libraries made GPU programming accessible, allowing researchers to train deeper networks on larger datasets, fundamentally enabling the deep learning revolution.",
+          es: "Las GPU revolucionaron el aprendizaje profundo proporcionando paralelización masiva perfecta para operaciones matriciales en redes neuronales. El uso de GPU por AlexNet permitió aceleraciones de 10-50x sobre CPU. Las bibliotecas CUDA y cuDNN de NVIDIA hicieron accesible la programación GPU.",
+          de: "GPUs revolutionierten Deep Learning durch massive Parallelisierung perfekt für Matrixoperationen in neuronalen Netzwerken. AlexNets GPU-Nutzung ermöglichte 10-50x Beschleunigungen über CPUs. NVIDIAs CUDA und später cuDNN-Bibliotheken machten GPU-Programmierung zugänglich.",
+          nl: "GPUs revolutioneerden deep learning door massale parallellisatie perfect voor matrix operaties in neurale netwerken te bieden. AlexNet's gebruik van GPUs maakte 10-50x snelheidsverbeteringen over CPUs mogelijk. NVIDIA's CUDA en later cuDNN bibliotheken maakten GPU programmering toegankelijk."
+        }
+      },
+      {
+        question: {
+          en: "What was the impact of ImageNet Large Scale Visual Recognition Challenge (ILSVRC)?",
+          es: "¿Cuál fue el impacto del Desafío de Reconocimiento Visual a Gran Escala ImageNet (ILSVRC)?",
+          de: "Was war die Auswirkung der ImageNet Large Scale Visual Recognition Challenge (ILSVRC)?",
+          nl: "Wat was de impact van de ImageNet Large Scale Visual Recognition Challenge (ILSVRC)?"
+        },
+        options: [
+          { en: "It provided standardized benchmark driving computer vision progress and deep learning advances", es: "Proporcionó benchmark estandarizado impulsando progreso de visión por computadora y avances de aprendizaje profundo", de: "Es bot standardisiertes Benchmark das Computer Vision-Fortschritt und Deep Learning-Fortschritte antrieb", nl: "Het bood gestandaardiseerde benchmark die computer vision vooruitgang en deep learning vooruitgang stimuleerde" },
+          { en: "It was a video game tournament", es: "Fue un torneo de videojuegos", de: "Es war ein Videospiel-Turnier", nl: "Het was een videogame toernooi" },
+          { en: "It created social media", es: "Creó redes sociales", de: "Es schuf soziale Medien", nl: "Het creëerde sociale media" },
+          { en: "It was a programming competition", es: "Fue una competencia de programación", de: "Es war ein Programmierwettbewerb", nl: "Het was een programmeer competitie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "ILSVRC (2010-2017) provided a standardized benchmark with 1.2M training images across 1000 categories. AlexNet's dramatic 2012 victory launched the deep learning era. Annual competitions drove rapid progress: error rates dropped from 28% (2010) to 2.3% (2017, below human performance), spurring innovations in architectures, optimization, and training techniques.",
+          es: "ILSVRC (2010-2017) proporcionó benchmark estandarizado con 1.2M imágenes de entrenamiento en 1000 categorías. La victoria dramática de AlexNet en 2012 lanzó la era del aprendizaje profundo. Las competencias anuales impulsaron progreso rápido: tasas de error cayeron de 28% (2010) a 2.3% (2017).",
+          de: "ILSVRC (2010-2017) bot standardisiertes Benchmark mit 1,2M Trainingsbildern über 1000 Kategorien. AlexNets dramatischer 2012-Sieg startete die Deep Learning-Ära. Jährliche Wettbewerbe trieben raschen Fortschritt an: Fehlerraten fielen von 28% (2010) auf 2,3% (2017).",
+          nl: "ILSVRC (2010-2017) bood gestandaardiseerde benchmark met 1,2M trainingsafbeeldingen over 1000 categorieën. AlexNet's dramatische overwinning in 2012 lanceerde het deep learning tijdperk. Jaarlijkse competities dreven snelle vooruitgang aan: foutpercentages daalden van 28% (2010) naar 2,3% (2017)."
+        }
+      },
+      {
+        question: {
+          en: "What was the contribution of transfer learning to deep learning's practical success?",
+          es: "¿Cuál fue la contribución del aprendizaje por transferencia al éxito práctico del aprendizaje profundo?",
+          de: "Was war der Beitrag von Transfer Learning zum praktischen Erfolg des Deep Learning?",
+          nl: "Wat was de bijdrage van transfer learning aan het praktische succes van deep learning?"
+        },
+        options: [
+          { en: "It enabled reusing pretrained models for new tasks with limited data, democratizing deep learning", es: "Permitió reutilizar modelos preentrenados para nuevas tareas con datos limitados, democratizando aprendizaje profundo", de: "Es ermöglichte Wiederverwendung vortrainierter Modelle für neue Aufgaben mit begrenzten Daten und demokratisierte Deep Learning", nl: "Het maakte hergebruik van voorgetrainde modellen voor nieuwe taken met beperkte data mogelijk, wat deep learning democratiseerde" },
+          { en: "It was a file transfer protocol", es: "Fue un protocolo de transferencia de archivos", de: "Es war ein Dateiübertragungsprotokoll", nl: "Het was een bestandsoverdracht protocol" },
+          { en: "It created social media", es: "Creó redes sociales", de: "Es schuf soziale Medien", nl: "Het creëerde sociale media" },
+          { en: "It was a programming language", es: "Fue un lenguaje de programación", de: "Es war eine Programmiersprache", nl: "Het was een programmeertaal" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Transfer learning allowed practitioners to use ImageNet-pretrained models (VGG, ResNet, etc.) as starting points for custom tasks, fine-tuning on smaller domain-specific datasets. This dramatically reduced data and compute requirements, enabling deep learning applications in fields lacking massive labeled datasets and making the technology accessible to broader audiences.",
+          es: "El aprendizaje por transferencia permitió a practicantes usar modelos preentrenados en ImageNet como puntos de partida para tareas personalizadas, ajustando en conjuntos de datos más pequeños. Esto redujo dramáticamente requisitos de datos y cómputo.",
+          de: "Transfer Learning erlaubte Praktikern ImageNet-vortrainierte Modelle als Ausgangspunkte für individuelle Aufgaben zu nutzen und auf kleineren domänenspezifischen Datensätzen feinabzustimmen. Dies reduzierte Daten- und Rechenanforderungen dramatisch.",
+          nl: "Transfer learning stelde praktijkmensen in staat om ImageNet-voorgetrainde modellen te gebruiken als startpunten voor aangepaste taken, waarbij ze fijnafgestemd werden op kleinere domein-specifieke datasets. Dit verminderde data- en rekenbehoeften dramatisch."
+        }
+      },
+      {
+        question: {
+          en: "What was Inception (GoogLeNet) architecture's innovation?",
+          es: "¿Cuál fue la innovación de la arquitectura Inception (GoogLeNet)?",
+          de: "Was war die Innovation der Inception (GoogLeNet) Architektur?",
+          nl: "Wat was de innovatie van de Inception (GoogLeNet) architectuur?"
+        },
+        options: [
+          { en: "It used multi-scale inception modules processing inputs at multiple resolutions simultaneously", es: "Usó módulos inception multi-escala procesando entradas en múltiples resoluciones simultáneamente", de: "Es nutzte Multi-Scale Inception-Module die Eingaben auf mehreren Auflösungen gleichzeitig verarbeiteten", nl: "Het gebruikte multi-schaal inception modules die invoer op meerdere resoluties tegelijkertijd verwerkten" },
+          { en: "It was a movie production technique", es: "Fue una técnica de producción cinematográfica", de: "Es war eine Filmproduktions-Technik", nl: "Het was een filmproductie techniek" },
+          { en: "It created programming languages", es: "Creó lenguajes de programación", de: "Es schuf Programmiersprachen", nl: "Het creëerde programmeertalen" },
+          { en: "It was a database system", es: "Fue un sistema de base de datos", de: "Es war ein Datenbanksystem", nl: "Het was een database systeem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "GoogLeNet/Inception (2014) introduced inception modules that applied convolutions of different sizes (1x1, 3x3, 5x5) in parallel, allowing the network to capture features at multiple scales efficiently. This design achieved excellent performance while being computationally efficient, winning ILSVRC 2014 and inspiring many subsequent architectures.",
+          es: "GoogLeNet/Inception (2014) introdujo módulos inception que aplicaron convoluciones de diferentes tamaños en paralelo, permitiendo a la red capturar características en múltiples escalas eficientemente. Este diseño logró excelente rendimiento siendo computacionalmente eficiente.",
+          de: "GoogLeNet/Inception (2014) führte Inception-Module ein die Faltungen verschiedener Größen parallel anwendeten und dem Netzwerk ermöglichten Features auf mehreren Skalen effizient zu erfassen. Dieses Design erreichte exzellente Leistung bei Recheneffizienz.",
+          nl: "GoogLeNet/Inception (2014) introduceerde inception modules die convoluties van verschillende groottes parallel toepasten, waardoor het netwerk features op meerdere schalen efficiënt kon vastleggen. Dit ontwerp bereikte uitstekende prestaties met computationele efficiëntie."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of residual connections (skip connections) beyond ResNet?",
+          es: "¿Cuál fue la importancia de conexiones residuales más allá de ResNet?",
+          de: "Was war die Bedeutung von Residualverbindungen über ResNet hinaus?",
+          nl: "Wat was de betekenis van residuele connecties (skip connecties) verder dan ResNet?"
+        },
+        options: [
+          { en: "They became fundamental architectural component used in transformers, U-Net, and many modern architectures", es: "Se convirtieron en componente arquitectónico fundamental usado en transformers, U-Net y muchas arquitecturas modernas", de: "Sie wurden fundamentale architektonische Komponente in Transformers, U-Net und vielen modernen Architekturen", nl: "Ze werden fundamenteel architecturaal component gebruikt in transformers, U-Net en vele moderne architecturen" },
+          { en: "They were only used in ResNet", es: "Solo se usaron en ResNet", de: "Sie wurden nur in ResNet verwendet", nl: "Ze werden alleen in ResNet gebruikt" },
+          { en: "They created social media", es: "Crearon redes sociales", de: "Sie schufen soziale Medien", nl: "Ze creëerden sociale media" },
+          { en: "They were programming tools", es: "Fueron herramientas de programación", de: "Sie waren Programmierwerkzeuge", nl: "Ze waren programmeertools" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Skip connections proved broadly useful beyond ResNet. U-Net used them for medical segmentation, DenseNet connected all layers, and transformers employ residual connections around attention layers. The principle of adding identity shortcuts to facilitate gradient flow and feature reuse became a fundamental design pattern in modern deep architectures.",
+          es: "Las conexiones de salto demostraron ser ampliamente útiles más allá de ResNet. U-Net las usó para segmentación médica, DenseNet conectó todas las capas, y los transformers emplean conexiones residuales alrededor de capas de atención. El principio se volvió patrón de diseño fundamental.",
+          de: "Skip-Verbindungen erwiesen sich über ResNet hinaus als breit nützlich. U-Net nutzte sie für medizinische Segmentierung, DenseNet verband alle Schichten, und Transformer verwenden Residualverbindungen um Attention-Layer. Das Prinzip wurde fundamentales Designmuster.",
+          nl: "Skip connecties bleken breed nuttig voorbij ResNet. U-Net gebruikte ze voor medische segmentatie, DenseNet verbond alle lagen, en transformers gebruiken residuele connecties rond attention lagen. Het principe werd een fundamenteel ontwerppatroon."
+        }
+      },
+      {
+        question: {
+          en: "What was the role of large labeled datasets in the deep learning revolution?",
+          es: "¿Cuál fue el papel de grandes conjuntos de datos etiquetados en la revolución del aprendizaje profundo?",
+          de: "Was war die Rolle großer gelabelter Datensätze in der Deep Learning-Revolution?",
+          nl: "Wat was de rol van grote gelabelde datasets in de deep learning revolutie?"
+        },
+        options: [
+          { en: "They provided training data needed for deep networks to learn complex representations and generalize well", es: "Proporcionaron datos de entrenamiento necesarios para que redes profundas aprendieran representaciones complejas y generalizaran bien", de: "Sie boten Trainingsdaten die tiefe Netzwerke brauchten um komplexe Repräsentationen zu lernen und gut zu generalisieren", nl: "Ze boden trainingsdata die diepe netwerken nodig hadden om complexe representaties te leren en goed te generaliseren" },
+          { en: "They were storage systems", es: "Fueron sistemas de almacenamiento", de: "Sie waren Speichersysteme", nl: "Ze waren opslagsystemen" },
+          { en: "They created programming languages", es: "Crearon lenguajes de programación", de: "Sie schufen Programmiersprachen", nl: "Ze creëerden programmeertalen" },
+          { en: "They were computer hardware", es: "Fueron hardware de computadora", de: "Sie waren Computer-Hardware", nl: "Ze waren computer hardware" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Large labeled datasets (ImageNet: 1.2M images, MS COCO, etc.) were crucial for deep learning success. Deep networks' massive parameter counts required enormous training data to avoid overfitting. Creating, curating, and labeling these datasets involved massive human effort but enabled training networks that could learn hierarchical features and generalize to real-world scenarios.",
+          es: "Grandes conjuntos de datos etiquetados (ImageNet: 1.2M imágenes, MS COCO, etc.) fueron cruciales para el éxito del aprendizaje profundo. Los enormes recuentos de parámetros de redes profundas requerían datos de entrenamiento enormes para evitar sobreajuste.",
+          de: "Große gelabelte Datensätze (ImageNet: 1,2M Bilder, MS COCO, etc.) waren entscheidend für Deep Learning-Erfolg. Die massiven Parameterzahlen tiefer Netzwerke erforderten enorme Trainingsdaten um Overfitting zu vermeiden.",
+          nl: "Grote gelabelde datasets (ImageNet: 1,2M afbeeldingen, MS COCO, etc.) waren cruciaal voor deep learning succes. De massale parameter aantallen van diepe netwerken vereisten enorme trainingsdata om overfitting te voorkomen."
+        }
+      },
+      {
+        question: {
+          en: "What was DenseNet's architectural contribution?",
+          es: "¿Cuál fue la contribución arquitectónica de DenseNet?",
+          de: "Was war DenseNets architektonischer Beitrag?",
+          nl: "Wat was DenseNet's architectonische bijdrage?"
+        },
+        options: [
+          { en: "It connected each layer to all subsequent layers, maximizing feature reuse and gradient flow", es: "Conectó cada capa con todas las capas subsiguientes, maximizando reutilización de características y flujo de gradiente", de: "Es verband jede Schicht mit allen nachfolgenden Schichten und maximierte Feature-Wiederverwendung und Gradientenfluss", nl: "Het verbond elke laag met alle volgende lagen, wat feature hergebruik en gradiënt flow maximaliseerde" },
+          { en: "It was a compression algorithm", es: "Fue un algoritmo de compresión", de: "Es war ein Kompressionsalgorithmus", nl: "Het was een compressie algoritme" },
+          { en: "It created databases", es: "Creó bases de datos", de: "Es schuf Datenbanken", nl: "Het creëerde databases" },
+          { en: "It was a programming paradigm", es: "Fue un paradigma de programación", de: "Es war ein Programmierparadigma", nl: "Het was een programmeerparadigma" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "DenseNet (2017) took skip connections to the extreme: each layer received inputs from all previous layers and passed its output to all subsequent layers. This dense connectivity pattern improved feature propagation, encouraged feature reuse, and reduced parameters while achieving excellent performance, though at higher memory cost.",
+          es: "DenseNet (2017) llevó las conexiones de salto al extremo: cada capa recibió entradas de todas las capas anteriores. Este patrón de conectividad densa mejoró propagación de características, fomentó reutilización de características y redujo parámetros logrando excelente rendimiento.",
+          de: "DenseNet (2017) trieb Skip-Verbindungen zum Extrem: jede Schicht erhielt Eingaben von allen vorherigen Schichten. Dieses dichte Konnektivitätsmuster verbesserte Feature-Propagierung, förderte Feature-Wiederverwendung und reduzierte Parameter bei exzellenter Leistung.",
+          nl: "DenseNet (2017) dreef skip connecties naar het uiterste: elke laag ontving invoer van alle vorige lagen. Dit dichte connectiviteitspatroon verbeterde feature propagatie, moedigde feature hergebruik aan en verminderde parameters met uitstekende prestaties."
+        }
+      },
+      {
+        question: {
+          en: "What was the impact of MobileNet and efficient architectures?",
+          es: "¿Cuál fue el impacto de MobileNet y arquitecturas eficientes?",
+          de: "Was war die Auswirkung von MobileNet und effizienten Architekturen?",
+          nl: "Wat was de impact van MobileNet en efficiënte architecturen?"
+        },
+        options: [
+          { en: "They enabled deep learning on mobile devices and edge computing through depthwise separable convolutions", es: "Permitieron aprendizaje profundo en dispositivos móviles y edge computing mediante convoluciones separables en profundidad", de: "Sie ermöglichten Deep Learning auf Mobilgeräten und Edge Computing durch depthwise separable Faltungen", nl: "Ze maakten deep learning op mobiele apparaten en edge computing mogelijk door depthwise separable convoluties" },
+          { en: "They created mobile phones", es: "Crearon teléfonos móviles", de: "Sie schufen Mobiltelefone", nl: "Ze creëerden mobiele telefoons" },
+          { en: "They were social media apps", es: "Fueron aplicaciones de redes sociales", de: "Sie waren Social-Media-Apps", nl: "Ze waren sociale media apps" },
+          { en: "They invented databases", es: "Inventaron bases de datos", de: "Sie erfanden Datenbanken", nl: "Ze vonden databases uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MobileNet (2017) and similar efficient architectures (ShuffleNet, EfficientNet) used depthwise separable convolutions and neural architecture search to dramatically reduce computation while maintaining accuracy. This enabled on-device inference for smartphones and IoT devices, expanding deep learning's applicability beyond cloud servers to edge deployment.",
+          es: "MobileNet (2017) y arquitecturas eficientes similares usaron convoluciones separables en profundidad y búsqueda de arquitectura neuronal para reducir dramáticamente el cómputo manteniendo precisión. Esto permitió inferencia en dispositivo para smartphones y dispositivos IoT.",
+          de: "MobileNet (2017) und ähnliche effiziente Architekturen nutzten depthwise separable Faltungen und Neural Architecture Search um Berechnung dramatisch zu reduzieren bei erhaltener Genauigkeit. Dies ermöglichte On-Device-Inferenz für Smartphones und IoT-Geräte.",
+          nl: "MobileNet (2017) en vergelijkbare efficiënte architecturen gebruikten depthwise separable convoluties en neural architecture search om berekening dramatisch te verminderen met behoud van nauwkeurigheid. Dit maakte on-device inferentie voor smartphones en IoT apparaten mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "What was the significance of neural architecture search (NAS)?",
+          es: "¿Cuál fue la importancia de la búsqueda de arquitectura neuronal (NAS)?",
+          de: "Was war die Bedeutung von Neural Architecture Search (NAS)?",
+          nl: "Wat was de betekenis van neural architecture search (NAS)?"
+        },
+        options: [
+          { en: "It automated architecture design using ML to discover architectures, sometimes outperforming human designs", es: "Automatizó diseño de arquitectura usando ML para descubrir arquitecturas, a veces superando diseños humanos", de: "Es automatisierte Architektur-Design mit ML um Architekturen zu entdecken, manchmal besser als menschliche Designs", nl: "Het automatiseerde architectuurontwerp met ML om architecturen te ontdekken, soms beter dan menselijke ontwerpen" },
+          { en: "It was a web search engine", es: "Fue un motor de búsqueda web", de: "Es war eine Web-Suchmaschine", nl: "Het was een web zoekmachine" },
+          { en: "It created databases", es: "Creó bases de datos", de: "Es schuf Datenbanken", nl: "Het creëerde databases" },
+          { en: "It was a programming tool", es: "Fue una herramienta de programación", de: "Es war ein Programmierwerkzeug", nl: "Het was een programmeertool" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "NAS (2017+) used reinforcement learning, evolutionary algorithms, or gradient-based methods to automatically search for optimal network architectures. While computationally expensive initially, NAS discovered architectures like NASNet and EfficientNet that matched or exceeded human-designed networks, opening possibilities for automated ML system design.",
+          es: "NAS (2017+) usó aprendizaje por refuerzo, algoritmos evolutivos o métodos basados en gradiente para buscar automáticamente arquitecturas de red óptimas. Aunque inicialmente costoso computacionalmente, NAS descubrió arquitecturas como NASNet y EfficientNet.",
+          de: "NAS (2017+) nutzte Reinforcement Learning, evolutionäre Algorithmen oder gradientenbasierte Methoden um automatisch optimale Netzwerkarchitekturen zu suchen. Obwohl initial rechenintensiv, entdeckte NAS Architekturen wie NASNet und EfficientNet.",
+          nl: "NAS (2017+) gebruikte reinforcement learning, evolutionaire algoritmen of gradiënt-gebaseerde methoden om automatisch te zoeken naar optimale netwerk architecturen. Hoewel initieel computationeel duur, ontdekte NAS architecturen zoals NASNet en EfficientNet."
+        }
+      },
+      {
+        question: {
+          en: "What was the legacy of the 2010s deep learning revolution?",
+          es: "¿Cuál fue el legado de la revolución del aprendizaje profundo de los 2010?",
+          de: "Was war das Vermächtnis der Deep Learning-Revolution der 2010er?",
+          nl: "Wat was de erfenis van de deep learning revolutie van de jaren 2010?"
+        },
+        options: [
+          { en: "It established neural networks as dominant AI approach, enabling modern applications from GPT to self-driving cars", es: "Estableció redes neuronales como enfoque dominante de IA, permitiendo aplicaciones modernas desde GPT hasta autos autónomos", de: "Es etablierte neuronale Netzwerke als dominanten KI-Ansatz und ermöglichte moderne Anwendungen von GPT bis selbstfahrende Autos", nl: "Het vestigde neurale netwerken als dominante AI benadering, wat moderne toepassingen mogelijk maakte van GPT tot zelfrijdende auto's" },
+          { en: "It only improved image quality", es: "Solo mejoró la calidad de imagen", de: "Es verbesserte nur Bildqualität", nl: "Het verbeterde alleen beeldkwaliteit" },
+          { en: "It created social media", es: "Creó redes sociales", de: "Es schuf soziale Medien", nl: "Het creëerde sociale media" },
+          { en: "It invented the internet", es: "Inventó internet", de: "Es erfand das Internet", nl: "Het vond het internet uit" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The 2010s deep learning revolution fundamentally transformed AI from niche academic pursuit to transformative technology. It established foundations for modern systems: computer vision (object detection, face recognition), NLP (language models, translation), speech (Alexa, Siri), gaming (AlphaGo), autonomous vehicles, medical diagnosis, and generative AI. Deep learning became the dominant paradigm for AI research and applications.",
+          es: "La revolución del aprendizaje profundo de los 2010 transformó fundamentalmente IA de búsqueda académica de nicho a tecnología transformadora. Estableció fundamentos para sistemas modernos: visión por computadora, NLP, voz, juegos, vehículos autónomos, diagnóstico médico e IA generativa.",
+          de: "Die Deep Learning-Revolution der 2010er transformierte KI fundamental von akademischer Nische zu transformativer Technologie. Sie etablierte Grundlagen für moderne Systeme: Computer Vision, NLP, Sprache, Gaming, autonome Fahrzeuge, medizinische Diagnose und generative KI.",
+          nl: "De deep learning revolutie van de jaren 2010 transformeerde AI fundamenteel van niche academische bezigheid tot transformatieve technologie. Het vestigde fundamenten voor moderne systemen: computer vision, NLP, spraak, gaming, autonome voertuigen, medische diagnose en generatieve AI."
+        }
       }
     ]
   };

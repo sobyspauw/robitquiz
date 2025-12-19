@@ -425,9 +425,439 @@
           en: "Temperature (or volatility) measures how much a position's equity can change on the next exchange. High-temperature positions (blitzes, contact positions) have big equity swings; low-temperature positions (races, bearoffs) are more stable. Temperature affects cube decisions significantly.",
           es: "La temperatura (o volatilidad) mide cuánto puede cambiar la equidad de una posición en el siguiente intercambio. Las posiciones de alta temperatura (blitzes, posiciones de contacto) tienen grandes cambios de equidad; las posiciones de baja temperatura (carreras, bearoffs) son más estables. La temperatura afecta significativamente las decisiones del cubo.",
           de: "Temperatur (oder Volatilität) misst, wie stark sich die Equity einer Position beim nächsten Austausch ändern kann. Hochtemperatur-Positionen (Blitze, Kontaktpositionen) haben große Equity-Schwankungen; Niedrigtemperatur-Positionen (Rennen, Auswürfel) sind stabiler. Temperatur beeinflusst Würfelentscheidungen erheblich.",
-          nl: "Temperatuur (of volatiliteit) meet hoeveel de equity van een positie kan veranderen bij de volgende uitwisseling. Hoge-temperatuur posities (blitzes, contactposities) hebben grote equity-schommelingen; lage-temperatuur posities (races, bearoffs) zijn stabieler. Temperatuur beïnvloedt dobbelsbeslissingen aanzienlijk."
+          nl: "Temperatuur (of volatiliteit) meet hoeveel de equity van een positie kan veranderen bij de volgende uitwisseling. Hoge-temperatuur posities (blitzes, contactposities) hebben grote equity-schommelingen; lage-temperatuur posities (races, bearoffs) zijn stabieler. Temperatuur beïnvloedt dobbelsbeslissings aanzienlijk."
+        }
+      },
+      {
+        question: {
+          en: "What is 'rollout variance' and why does it matter?",
+          es: "¿Qué es la 'varianza de rollout' y por qué importa?",
+          de: "Was ist 'Rollout-Varianz' und warum ist sie wichtig?",
+          nl: "Wat is 'rollout-variantie' en waarom is het belangrijk?"
+        },
+        options: [
+          { en: "Statistical uncertainty in rollout results - more trials reduce variance", es: "Incertidumbre estadística en resultados de rollout - más pruebas reducen la varianza", de: "Statistische Unsicherheit in Rollout-Ergebnissen - mehr Versuche reduzieren Varianz", nl: "Statistische onzekerheid in rollout-resultaten - meer proeven verminderen variantie" },
+          { en: "The difference between best and worst moves", es: "La diferencia entre las mejores y peores jugadas", de: "Der Unterschied zwischen besten und schlechtesten Zügen", nl: "Het verschil tussen beste en slechtste zetten" },
+          { en: "How much positions differ from each other", es: "Cuánto difieren las posiciones entre sí", de: "Wie stark sich Positionen voneinander unterscheiden", nl: "Hoeveel posities van elkaar verschillen" },
+          { en: "The speed variation in analysis time", es: "La variación de velocidad en tiempo de análisis", de: "Die Geschwindigkeitsvariation in der Analysezeit", nl: "De snelheidsvariantie in analysetijd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Rollout variance measures the statistical uncertainty in rollout results. Higher variance means less confidence in the exact equity values. Running more trials (longer rollouts) reduces variance and provides more reliable results, especially important for close decisions.",
+          es: "La varianza de rollout mide la incertidumbre estadística en los resultados de rollout. Mayor varianza significa menos confianza en los valores exactos de equidad. Ejecutar más pruebas (rollouts más largos) reduce la varianza y proporciona resultados más confiables, especialmente importante para decisiones cercanas.",
+          de: "Rollout-Varianz misst die statistische Unsicherheit in Rollout-Ergebnissen. Höhere Varianz bedeutet weniger Vertrauen in die genauen Equity-Werte. Mehr Versuche durchführen (längere Rollouts) reduziert Varianz und liefert zuverlässigere Ergebnisse, besonders wichtig für knappe Entscheidungen.",
+          nl: "Rollout-variantie meet de statistische onzekerheid in rollout-resultaten. Hogere variantie betekent minder vertrouwen in de exacte equity-waarden. Meer proeven uitvoeren (langere rollouts) vermindert variantie en levert betrouwbaardere resultaten, vooral belangrijk voor krappe beslissingen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'isight' formula in backgammon racing decisions?",
+          es: "¿Qué es la fórmula 'isight' en decisiones de carreras de backgammon?",
+          de: "Was ist die 'isight'-Formel bei Backgammon-Rennentscheidungen?",
+          nl: "Wat is de 'isight' formule in backgammon racing beslissingen?"
+        },
+        options: [
+          { en: "Advanced racing formula: (pip count + 3 x wastage) - adjusts for distribution", es: "Fórmula avanzada de carreras: (pip count + 3 x desperdicio) - ajusta por distribución", de: "Fortgeschrittene Rennformel: (Pip-Count + 3 x Verschwendung) - passt für Verteilung an", nl: "Geavanceerde race formule: (pip count + 3 x verspilling) - past aan voor verdeling" },
+          { en: "A cube decision calculator for match play", es: "Una calculadora de decisión de cubo para juego de match", de: "Ein Würfelentscheidungsrechner für Match-Spiel", nl: "Een dobbelsbeslissingscalculator voor wedstrijdspel" },
+          { en: "Formula for calculating gammon chances", es: "Fórmula para calcular posibilidades de gammon", de: "Formel zur Berechnung von Gammon-Chancen", nl: "Formule voor het berekenen van gammon-kansen" },
+          { en: "Opening move database lookup system", es: "Sistema de búsqueda de base de datos de movimiento de apertura", de: "Eröffnungszug-Datenbank-Suchsystem", nl: "Openingszet database opzoeksysteem" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The isight formula adjusts pip count for distribution inefficiency: Adjusted pip count = raw pip count + (3 × wastage). Wastage counts checkers on higher points when lower points are empty. This gives more accurate racing equity than simple pip count.",
+          es: "La fórmula isight ajusta el pip count por ineficiencia de distribución: Pip count ajustado = pip count bruto + (3 × desperdicio). El desperdicio cuenta fichas en puntos más altos cuando los puntos más bajos están vacíos. Esto da una equidad de carrera más precisa que el simple pip count.",
+          de: "Die isight-Formel passt Pip-Count für Verteilungsineffizienz an: Angepasster Pip-Count = roher Pip-Count + (3 × Verschwendung). Verschwendung zählt Steine auf höheren Punkten, wenn niedrigere Punkte leer sind. Dies gibt genauere Renn-Equity als einfacher Pip-Count.",
+          nl: "De isight formule past pip count aan voor verdelingsinefficiëntie: Aangepaste pip count = ruwe pip count + (3 × verspilling). Verspilling telt schijven op hogere punten wanneer lagere punten leeg zijn. Dit geeft nauwkeurigere race equity dan simpele pip count."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'joker' sequence and how does it affect cube decisions?",
+          es: "¿Qué es una secuencia 'joker' y cómo afecta las decisiones del cubo?",
+          de: "Was ist eine 'Joker'-Sequenz und wie beeinflusst sie Würfelentscheidungen?",
+          nl: "Wat is een 'joker' reeks en hoe beïnvloedt het dobbelsbeslissingen?"
+        },
+        options: [
+          { en: "Lucky sequence allowing opponent to turn the game - wait for joker-less position before doubling", es: "Secuencia afortunada que permite al oponente cambiar el juego - esperar posición sin joker antes de doblar", de: "Glückssequenz die Gegner erlaubt Spiel zu drehen - auf Joker-lose Position warten vor Verdoppeln", nl: "Geluksreeks die tegenstander toestaat spel te draaien - wachten op joker-loze positie voor verdubbelen" },
+          { en: "A specific dice combination (double-6, double-5, etc.)", es: "Una combinación específica de dados (doble-6, doble-5, etc.)", de: "Eine spezifische Würfelkombination (Pasch-6, Pasch-5 usw.)", nl: "Een specifieke dobbelsteencombinatie (dubbel-6, dubbel-5, enz.)" },
+          { en: "An opening roll wildcard strategy", es: "Una estrategia de comodín de tiro de apertura", de: "Eine Eröffnungswurf-Joker-Strategie", nl: "Een openingsworp wildcard strategie" },
+          { en: "Any roll that hits multiple checkers", es: "Cualquier tiro que golpea múltiples fichas", de: "Jeder Wurf der mehrere Steine schlägt", nl: "Elke worp die meerdere schijven slaat" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A joker is a lucky roll sequence (often specific doubles) that would allow the trailing player to turn the position around dramatically. Before doubling in volatile positions, wait until the opponent has no joker sequences left that could swing the game. Once joker-less, it's often a powerful double.",
+          es: "Un joker es una secuencia de tiradas afortunadas (a menudo dobles específicos) que permitiría al jugador que va perdiendo cambiar dramáticamente la posición. Antes de doblar en posiciones volátiles, espera hasta que el oponente no tenga secuencias joker que puedan cambiar el juego. Una vez sin joker, es a menudo un doble poderoso.",
+          de: "Ein Joker ist eine Glückswurfsequenz (oft spezifische Paschs), die dem zurückliegenden Spieler ermöglichen würde, die Position dramatisch zu drehen. Vor dem Verdoppeln in volatilen Positionen warte, bis der Gegner keine Joker-Sequenzen mehr hat, die das Spiel drehen könnten. Sobald Joker-los, ist es oft eine starke Verdopplung.",
+          nl: "Een joker is een geluksworpreeks (vaak specifieke dubbels) die de achterliggende speler zou toestaan de positie dramatisch om te draaien. Voor het verdubbelen in volatiele posities, wacht tot de tegenstander geen joker-reeksen meer heeft die het spel kunnen draaien. Eenmaal joker-loos, is het vaak een krachtige verdubbeling."
+        }
+      },
+      {
+        question: {
+          en: "What is 'checker distribution duplication' in advanced play?",
+          es: "¿Qué es la 'duplicación de distribución de fichas' en juego avanzado?",
+          de: "Was ist 'Steinverteilungs-Duplikation' im fortgeschrittenen Spiel?",
+          nl: "Wat is 'schijfverdeling duplicatie' in gevorderd spel?"
+        },
+        options: [
+          { en: "Arranging checkers so opponent needs same numbers for different tasks", es: "Organizar fichas para que el oponente necesite los mismos números para diferentes tareas", de: "Steine so anordnen dass Gegner dieselben Zahlen für verschiedene Aufgaben braucht", nl: "Schijven zo rangschikken dat tegenstander dezelfde nummers nodig heeft voor verschillende taken" },
+          { en: "Having two checkers on the same point", es: "Tener dos fichas en el mismo punto", de: "Zwei Steine auf demselben Punkt haben", nl: "Twee schijven op hetzelfde punt hebben" },
+          { en: "Copying opponent's board structure", es: "Copiar la estructura del tablero del oponente", de: "Gegners Brettstruktur kopieren", nl: "Bordstructuur van tegenstander kopiëren" },
+          { en: "Making identical points on both sides", es: "Hacer puntos idénticos en ambos lados", de: "Identische Punkte auf beiden Seiten machen", nl: "Identieke punten aan beide kanten maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Distribution duplication (or number duplication) is positioning your checkers so that your opponent needs the same roll numbers to accomplish different objectives - for example, needing 6's both to escape AND to enter from the bar. This reduces their effective rolls.",
+          es: "La duplicación de distribución (o duplicación de números) es posicionar tus fichas para que tu oponente necesite los mismos números de tirada para lograr diferentes objetivos - por ejemplo, necesitar 6's tanto para escapar COMO para entrar desde la barra. Esto reduce sus tiradas efectivas.",
+          de: "Verteilungs-Duplikation (oder Zahlen-Duplikation) ist das Positionieren deiner Steine, sodass dein Gegner dieselben Wurfzahlen für verschiedene Ziele braucht - zum Beispiel 6en sowohl zum Entkommen ALS AUCH zum Eintreten von der Bar. Dies reduziert ihre effektiven Würfe.",
+          nl: "Verdeling duplicatie (of nummer duplicatie) is je schijven zo positioneren dat je tegenstander dezelfde worpnummers nodig heeft om verschillende doelstellingen te bereiken - bijvoorbeeld, 6en nodig hebben om zowel te ontsnappen ALS om binnen te komen vanaf de bar. Dit vermindert hun effectieve worpen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Trice count' method for bearing off?",
+          es: "¿Qué es el método 'Trice count' para sacar fichas?",
+          de: "Was ist die 'Trice-Count'-Methode zum Auswürfeln?",
+          nl: "Wat is de 'Trice count' methode voor uitnemen?"
+        },
+        options: [
+          { en: "Count checkers on each point: 1-pt gets 1, 2-pt gets 2, etc. - estimates rolls needed", es: "Contar fichas en cada punto: 1-pt obtiene 1, 2-pt obtiene 2, etc. - estima tiradas necesarias", de: "Steine auf jedem Punkt zählen: 1-Punkt bekommt 1, 2-Punkt bekommt 2 usw. - schätzt benötigte Würfe", nl: "Schijven tellen op elk punt: 1-pt krijgt 1, 2-pt krijgt 2, enz. - schat benodigde worpen" },
+          { en: "Three-roll lookahead calculation", es: "Cálculo de anticipación de tres tiradas", de: "Drei-Wurf-Vorausberechnung", nl: "Drie-worpen vooruitkijkberekening" },
+          { en: "Triple the pip count for accuracy", es: "Triplicar el pip count para mayor precisión", de: "Pip-Count verdreifachen für Genauigkeit", nl: "Pip count verdrievoudigen voor nauwkeurigheid" },
+          { en: "Count only top three points", es: "Contar solo los tres puntos superiores", de: "Nur die oberen drei Punkte zählen", nl: "Tel alleen de bovenste drie punten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Trice count estimates rolls needed to bear off by assigning each point its number value (1-point=1, 2-point=2, etc.), then counting checkers × point value. Divide total by 8 to get approximate rolls needed. More accurate than simple pip count for bearoff races.",
+          es: "El Trice count estima las tiradas necesarias para sacar fichas asignando a cada punto su valor numérico (1-punto=1, 2-punto=2, etc.), luego contando fichas × valor de punto. Dividir total por 8 para obtener tiradas aproximadas necesarias. Más preciso que el simple pip count para carreras de bearoff.",
+          de: "Der Trice-Count schätzt benötigte Würfe zum Auswürfeln durch Zuweisen jedes Punktes seines Zahlenwerts (1-Punkt=1, 2-Punkt=2 usw.), dann Zählen von Steinen × Punktwert. Teile Gesamt durch 8 um ungefähre benötigte Würfe zu erhalten. Genauer als einfacher Pip-Count für Auswürfelrennen.",
+          nl: "De Trice count schat worpen nodig om uit te nemen door elk punt zijn nummerwaarde toe te kennen (1-punt=1, 2-punt=2, enz.), dan schijven × puntwaarde tellen. Deel totaal door 8 om geschatte benodigde worpen te krijgen. Nauwkeuriger dan simpele pip count voor bearoff-races."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Naccel' rating system in backgammon?",
+          es: "¿Qué es el sistema de calificación 'Naccel' en backgammon?",
+          de: "Was ist das 'Naccel'-Bewertungssystem im Backgammon?",
+          nl: "Wat is het 'Naccel' ratingsysteem in backgammon?"
+        },
+        options: [
+          { en: "Network for Accumulating Competitive Chess ELO-like ratings for backgammon players", es: "Red para Acumular calificaciones tipo ELO de Ajedrez Competitivo para jugadores de backgammon", de: "Netzwerk zur Akkumulierung von Schach-ELO-ähnlichen Bewertungen für Backgammon-Spieler", nl: "Netwerk voor het Accumuleren van Competitieve schaak-ELO-achtige ratings voor backgammon spelers" },
+          { en: "National acceleration tournament format", es: "Formato de torneo de aceleración nacional", de: "Nationales Beschleunigungsturnier-Format", nl: "Nationaal versnelling toernooi formaat" },
+          { en: "Neural network AI training system", es: "Sistema de entrenamiento de IA de red neuronal", de: "Neuronales Netzwerk KI-Trainingssystem", nl: "Neuraal netwerk AI trainingssysteem" },
+          { en: "New acceptance criteria calculation", es: "Nuevo cálculo de criterios de aceptación", de: "Neue Annahmekriterien-Berechnung", nl: "Nieuwe acceptatiecriteria berekening" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Naccel (and similar systems like FIBS rating) provides ELO-style ratings for backgammon players based on match results. Higher ratings indicate stronger players. Unlike chess, backgammon ratings account for match length and luck factors in the calculations.",
+          es: "Naccel (y sistemas similares como la calificación FIBS) proporciona calificaciones estilo ELO para jugadores de backgammon basadas en resultados de matches. Calificaciones más altas indican jugadores más fuertes. A diferencia del ajedrez, las calificaciones de backgammon tienen en cuenta la longitud del match y factores de suerte en los cálculos.",
+          de: "Naccel (und ähnliche Systeme wie FIBS-Bewertung) bietet ELO-ähnliche Bewertungen für Backgammon-Spieler basierend auf Match-Ergebnissen. Höhere Bewertungen zeigen stärkere Spieler an. Anders als Schach berücksichtigen Backgammon-Bewertungen Match-Länge und Glücksfaktoren in den Berechnungen.",
+          nl: "Naccel (en vergelijkbare systemen zoals FIBS rating) biedt ELO-stijl ratings voor backgammon spelers gebaseerd op wedstrijdresultaten. Hogere ratings duiden op sterkere spelers. In tegenstelling tot schaken, houden backgammon ratings rekening met wedstrijdlengte en geluksfactoren in de berekeningen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cube provocation' in advanced strategy?",
+          es: "¿Qué es la 'provocación de cubo' en estrategia avanzada?",
+          de: "Was ist 'Würfel-Provokation' in fortgeschrittener Strategie?",
+          nl: "Wat is 'dobbels provocatie' in geavanceerde strategie?"
+        },
+        options: [
+          { en: "Making aggressive plays to induce opponent to double prematurely", es: "Hacer jugadas agresivas para inducir al oponente a doblar prematuramente", de: "Aggressive Züge machen um Gegner zu vorzeitiger Verdopplung zu verleiten", nl: "Aggressieve zetten doen om tegenstander te verleiden voortijdig te verdubbelen" },
+          { en: "Threatening to double to force errors", es: "Amenazar con doblar para forzar errores", de: "Mit Verdoppeln drohen um Fehler zu erzwingen", nl: "Dreigen te verdubbelen om fouten af te dwingen" },
+          { en: "Taunting opponent during cube decisions", es: "Provocar al oponente durante decisiones de cubo", de: "Gegner während Würfelentscheidungen reizen", nl: "Tegenstander uitdagen tijdens dobbelsbeslissingen" },
+          { en: "Deliberately showing weak position", es: "Mostrar deliberadamente posición débil", de: "Absichtlich schwache Position zeigen", nl: "Opzettelijk zwakke positie tonen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Cube provocation involves making aggressive checker plays (like hitting loose or slotting) specifically to induce your opponent to double before they should. If they double too early and you take, you gain valuable cube ownership in a playable position.",
+          es: "La provocación de cubo implica hacer jugadas agresivas de fichas (como golpear suelto o hacer slots) específicamente para inducir a tu oponente a doblar antes de que deba. Si doblan demasiado pronto y aceptas, ganas valiosa propiedad del cubo en una posición jugable.",
+          de: "Würfel-Provokation beinhaltet aggressive Steinzüge (wie loses Schlagen oder Slotten) speziell um deinen Gegner zu verleiten, zu früh zu verdoppeln. Wenn sie zu früh verdoppeln und du annimmst, gewinnst du wertvollen Würfelbesitz in einer spielbaren Position.",
+          nl: "Dobbels provocatie houdt in het maken van aggressieve schijfzetten (zoals los slaan of slotten) specifiek om je tegenstander te verleiden te verdubbelen voordat ze zouden moeten. Als ze te vroeg verdubbelen en je accepteert, krijg je waardevol dobbelsbezit in een speelbare positie."
+        }
+      },
+      {
+        question: {
+          en: "What is 'market losing' vs 'market gaining' in cube theory?",
+          es: "¿Qué es 'perder mercado' vs 'ganar mercado' en la teoría del cubo?",
+          de: "Was ist 'Markt verlieren' vs 'Markt gewinnen' in der Würfeltheorie?",
+          nl: "Wat is 'markt verliezen' vs 'markt winnen' in dobbelstheorie?"
+        },
+        options: [
+          { en: "Market losing: position improves so much opponent passes; Market gaining: stays in take range", es: "Perder mercado: posición mejora tanto que oponente pasa; Ganar mercado: permanece en rango de aceptación", de: "Markt verlieren: Position verbessert sich so sehr dass Gegner passt; Markt gewinnen: bleibt im Annahmebereich", nl: "Markt verliezen: positie verbetert zo veel dat tegenstander past; Markt winnen: blijft in acceptatiebereik" },
+          { en: "Gaining equity vs losing equity on next roll", es: "Ganar equidad vs perder equidad en el siguiente tiro", de: "Equity gewinnen vs Equity verlieren beim nächsten Wurf", nl: "Equity winnen vs equity verliezen bij volgende worp" },
+          { en: "Increasing vs decreasing match equity", es: "Aumentar vs disminuir equidad de match", de: "Match-Equity erhöhen vs verringern", nl: "Wedstrijd-equity verhogen vs verlagen" },
+          { en: "Going up vs down in tournament standings", es: "Subir vs bajar en clasificación del torneo", de: "Aufsteigen vs Absteigen in Turnierwertung", nl: "Omhoog vs omlaag gaan in toernooi-ranglijst" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Market losing positions improve so rapidly that if you wait, opponent will pass your double (losing 'market'). Double now. Market gaining positions stay in opponent's take range - you can wait for a better doubling point. Understanding this helps optimize cube timing.",
+          es: "Las posiciones que pierden mercado mejoran tan rápidamente que si esperas, el oponente pasará tu doble (perdiendo 'mercado'). Dobla ahora. Las posiciones que ganan mercado permanecen en el rango de aceptación del oponente - puedes esperar un mejor punto de doblaje. Entender esto ayuda a optimizar el timing del cubo.",
+          de: "Markt verlierende Positionen verbessern sich so schnell dass wenn du wartest, Gegner deine Verdopplung passt ('Markt' verlieren). Verdopple jetzt. Markt gewinnende Positionen bleiben im Annahmebereich des Gegners - du kannst auf besseren Verdopplungspunkt warten. Dies verstehen hilft Würfel-Timing zu optimieren.",
+          nl: "Markt verliezende posities verbeteren zo snel dat als je wacht, tegenstander je verdubbeling past ('markt' verliezen). Verdubbel nu. Markt winnende posities blijven in het acceptatiebereik van tegenstander - je kunt wachten op een beter verdubbelpunt. Dit begrijpen helpt dobbels-timing optimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'thorp count' in backgammon?",
+          es: "¿Qué es un 'thorp count' en backgammon?",
+          de: "Was ist ein 'Thorp-Count' im Backgammon?",
+          nl: "Wat is een 'thorp count' in backgammon?"
+        },
+        options: [
+          { en: "Advanced racing count that weights checkers differently based on position", es: "Conteo avanzado de carreras que pondera fichas de manera diferente según posición", de: "Fortgeschrittener Renn-Count der Steine unterschiedlich nach Position gewichtet", nl: "Geavanceerde race telling die schijven verschillend weegt op basis van positie" },
+          { en: "Count of opponent's home board points made", es: "Conteo de puntos del tablero interior del oponente hechos", de: "Zählung der gemachten Heimfeld-Punkte des Gegners", nl: "Telling van gemaakte thuisbordpunten van tegenstander" },
+          { en: "Number of crossovers in bearoff", es: "Número de cruces en bearoff", de: "Anzahl der Überquerungen beim Auswürfeln", nl: "Aantal kruisingen bij bearoff" },
+          { en: "Total blots exposed during game", es: "Total de blots expuestos durante el juego", de: "Gesamte Blots während des Spiels exponiert", nl: "Totaal blots blootgesteld tijdens spel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Thorp count is an advanced racing formula that assigns different weights to checkers based on their position and distribution. It's more sophisticated than simple pip counting and accounts for wastage, gaps, and crossovers to give better racing equity estimates.",
+          es: "El Thorp count es una fórmula avanzada de carreras que asigna diferentes pesos a las fichas según su posición y distribución. Es más sofisticado que el simple conteo de pips y tiene en cuenta el desperdicio, huecos y cruces para dar mejores estimaciones de equidad de carrera.",
+          de: "Der Thorp-Count ist eine fortgeschrittene Rennformel, die Steinen unterschiedliche Gewichte basierend auf ihrer Position und Verteilung zuweist. Er ist ausgefeilter als einfaches Pip-Zählen und berücksichtigt Verschwendung, Lücken und Überquerungen für bessere Renn-Equity-Schätzungen.",
+          nl: "De Thorp count is een geavanceerde race formule die verschillende gewichten toekent aan schijven op basis van hun positie en verdeling. Het is geavanceerder dan simpel pip tellen en houdt rekening met verspilling, gaten en kruisingen om betere race equity schattingen te geven."
+        }
+      },
+      {
+        question: {
+          en: "What is 'position class' analysis in modern backgammon?",
+          es: "¿Qué es el análisis de 'clase de posición' en backgammon moderno?",
+          de: "Was ist 'Positions-Klassen'-Analyse im modernen Backgammon?",
+          nl: "Wat is 'positieklasse' analyse in modern backgammon?"
+        },
+        options: [
+          { en: "Categorizing positions by type (race, blitz, prime, etc.) for pattern recognition", es: "Categorizar posiciones por tipo (carrera, blitz, prime, etc.) para reconocimiento de patrones", de: "Positionen nach Typ kategorisieren (Rennen, Blitz, Prime usw.) für Mustererkennung", nl: "Posities categoriseren op type (race, blitz, prime, enz.) voor patroonherkenning" },
+          { en: "Rating the quality of a position from A to F", es: "Calificar la calidad de una posición de A a F", de: "Qualität einer Position von A bis F bewerten", nl: "Kwaliteit van een positie beoordelen van A tot F" },
+          { en: "Determining skill level needed for position", es: "Determinar nivel de habilidad necesario para posición", de: "Bestimmen des für Position benötigten Skill-Levels", nl: "Bepalen van vaardigheidsniveau nodig voor positie" },
+          { en: "Social class analogy for checker placement", es: "Analogía de clase social para colocación de fichas", de: "Soziale Klassen-Analogie für Steinplatzierung", nl: "Sociale klasse analogie voor schijfplaatsing" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Position class analysis categorizes positions into types (racing, blitz, prime vs prime, holding game, back game, etc.). Recognizing the position class helps apply appropriate strategies and principles. Neural nets and AI also classify positions this way for training.",
+          es: "El análisis de clase de posición categoriza posiciones en tipos (carrera, blitz, prime vs prime, juego de retención, back game, etc.). Reconocer la clase de posición ayuda a aplicar estrategias y principios apropiados. Las redes neuronales e IA también clasifican posiciones de esta manera para entrenamiento.",
+          de: "Positions-Klassen-Analyse kategorisiert Positionen in Typen (Rennen, Blitz, Prime vs Prime, Haltespiel, Back Game usw.). Das Erkennen der Positionsklasse hilft, geeignete Strategien und Prinzipien anzuwenden. Neuronale Netze und KI klassifizieren Positionen auch so für Training.",
+          nl: "Positieklasse analyse categoriseert posities in types (racing, blitz, prime vs prime, houdspel, back game, enz.). Het herkennen van de positieklasse helpt bij het toepassen van geschikte strategieën en principes. Neurale netwerken en AI classificeren posities ook zo voor training."
+        }
+      },
+      {
+        question: {
+          en: "What is 'Kazaross XG2' adjustment in match play analysis?",
+          es: "¿Qué es el ajuste 'Kazaross XG2' en análisis de juego de match?",
+          de: "Was ist die 'Kazaross XG2'-Anpassung in der Match-Spiel-Analyse?",
+          nl: "Wat is 'Kazaross XG2' aanpassing in wedstrijdspel analyse?"
+        },
+        options: [
+          { en: "Formula adjusting XG rollout results for match equity table accuracy", es: "Fórmula que ajusta resultados de rollout de XG para precisión de tabla de equidad de match", de: "Formel die XG-Rollout-Ergebnisse für Match-Equity-Tabellen-Genauigkeit anpasst", nl: "Formule die XG rollout resultaten aanpast voor match equity tabel nauwkeurigheid" },
+          { en: "Double analysis speed-up technique", es: "Técnica de aceleración de análisis doble", de: "Doppel-Analyse-Beschleunigungstechnik", nl: "Dubbele analyse versnellingstechniek" },
+          { en: "Checker play correction for opening moves", es: "Corrección de juego de fichas para movimientos de apertura", de: "Steinzug-Korrektur für Eröffnungszüge", nl: "Schijfspel correctie voor openingszetten" },
+          { en: "Gammon percentage calculator", es: "Calculadora de porcentaje de gammon", de: "Gammon-Prozentsatz-Rechner", nl: "Gammon percentage calculator" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Kazaross discovered that XG's match equity table (MET) had slight inaccuracies. His XG2 formula adjusts rollout results to compensate for these MET errors, providing more accurate match play analysis. This is particularly important for checker play decisions at certain match scores.",
+          es: "Kazaross descubrió que la tabla de equidad de match (MET) de XG tenía ligeras inexactitudes. Su fórmula XG2 ajusta los resultados de rollout para compensar estos errores de MET, proporcionando análisis de juego de match más preciso. Esto es particularmente importante para decisiones de juego de fichas en ciertas puntuaciones de match.",
+          de: "Kazaross entdeckte dass XGs Match-Equity-Tabelle (MET) leichte Ungenauigkeiten hatte. Seine XG2-Formel passt Rollout-Ergebnisse an um diese MET-Fehler zu kompensieren und genauere Match-Spiel-Analyse zu liefern. Dies ist besonders wichtig für Steinzug-Entscheidungen bei bestimmten Match-Punkteständen.",
+          nl: "Kazaross ontdekte dat XG's match equity tabel (MET) lichte onnauwkeurigheden had. Zijn XG2 formule past rollout resultaten aan om deze MET fouten te compenseren, wat nauwkeurigere wedstrijdspel analyse biedt. Dit is bijzonder belangrijk voor schijfspel beslissingen bij bepaalde wedstrijdscores."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'double/take, double/pass' position paradox?",
+          es: "¿Qué es una paradoja de posición 'doble/acepta, doble/pasa'?",
+          de: "Was ist ein 'Verdoppeln/Annehmen, Verdoppeln/Passen'-Positions-Paradoxon?",
+          nl: "Wat is een 'verdubbel/accepteer, verdubbel/pas' positie paradox?"
+        },
+        options: [
+          { en: "Position correct to double for both players - whoever doubles first gets advantage", es: "Posición correcta para doblar para ambos jugadores - quien dobla primero obtiene ventaja", de: "Position korrekt zu verdoppeln für beide Spieler - wer zuerst verdoppelt bekommt Vorteil", nl: "Positie correct om te verdubbelen voor beide spelers - wie eerst verdubbelt krijgt voordeel" },
+          { en: "Opponent makes wrong decision regardless of choice", es: "Oponente toma decisión incorrecta independientemente de la elección", de: "Gegner trifft falsche Entscheidung unabhängig von Wahl", nl: "Tegenstander maakt verkeerde beslissing ongeacht keuze" },
+          { en: "Double is correct but take is also correct", es: "Doble es correcto pero aceptar también es correcto", de: "Verdoppeln ist korrekt aber Annahme ist auch korrekt", nl: "Verdubbelen is correct maar accepteren is ook correct" },
+          { en: "Both players should pass the cube", es: "Ambos jugadores deben pasar el cubo", de: "Beide Spieler sollten den Würfel passen", nl: "Beide spelers moeten de dobbel passen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In certain positions, it's correct for BOTH players to double (if they own the cube). This creates a 'race to double' where whoever doubles first gains advantage. The opponent should take, but once taken, they would also want to immediately redouble if they could.",
+          es: "En ciertas posiciones, es correcto para AMBOS jugadores doblar (si poseen el cubo). Esto crea una 'carrera para doblar' donde quien dobla primero gana ventaja. El oponente debe aceptar, pero una vez aceptado, también querrían redoblar inmediatamente si pudieran.",
+          de: "In bestimmten Positionen ist es für BEIDE Spieler korrekt zu verdoppeln (wenn sie den Würfel besitzen). Dies schafft ein 'Wettrennen zum Verdoppeln' wo wer zuerst verdoppelt Vorteil erhält. Der Gegner sollte annehmen, aber sobald angenommen, würden sie auch sofort rückverdoppeln wollen wenn sie könnten.",
+          nl: "In bepaalde posities is het correct voor BEIDE spelers om te verdubbelen (als ze de dobbel bezitten). Dit creëert een 'race om te verdubbelen' waarbij wie eerst verdubbelt voordeel krijgt. De tegenstander moet accepteren, maar eenmaal geaccepteerd, zouden ze ook onmiddellijk willen herverdubbelen als ze konden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'luck normalization' in backgammon performance analysis?",
+          es: "¿Qué es la 'normalización de suerte' en análisis de rendimiento de backgammon?",
+          de: "Was ist 'Glücks-Normalisierung' in der Backgammon-Leistungsanalyse?",
+          nl: "Wat is 'geluk normalisatie' in backgammon prestatie-analyse?"
+        },
+        options: [
+          { en: "Adjusting results to show performance independent of dice luck", es: "Ajustar resultados para mostrar rendimiento independiente de la suerte de dados", de: "Ergebnisse anpassen um Leistung unabhängig von Würfelglück zu zeigen", nl: "Resultaten aanpassen om prestaties onafhankelijk van dobbelsteen-geluk te tonen" },
+          { en: "Making all dice rolls perfectly average", es: "Hacer que todas las tiradas de dados sean perfectamente promedio", de: "Alle Würfelwürfe perfekt durchschnittlich machen", nl: "Alle dobbelworpen perfect gemiddeld maken" },
+          { en: "Removing outlier games from statistics", es: "Eliminar juegos atípicos de las estadísticas", de: "Ausreißer-Spiele aus Statistiken entfernen", nl: "Uitschieters verwijderen uit statistieken" },
+          { en: "Setting equal win chances for both players", es: "Establecer probabilidades de ganar iguales para ambos jugadores", de: "Gleiche Gewinnchancen für beide Spieler setzen", nl: "Gelijke winkansen voor beide spelers instellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Luck normalization (or 'luck-adjusted' results) calculates what the match result would have been if both players had received average dice luck. This separates skill from luck, showing true playing strength. Software like XG can show both actual and luck-adjusted ratings.",
+          es: "La normalización de suerte (o resultados 'ajustados por suerte') calcula cuál habría sido el resultado del match si ambos jugadores hubieran recibido suerte de dados promedio. Esto separa la habilidad de la suerte, mostrando la verdadera fuerza de juego. Software como XG puede mostrar calificaciones tanto reales como ajustadas por suerte.",
+          de: "Glücks-Normalisierung (oder 'glücks-angepasste' Ergebnisse) berechnet was das Match-Ergebnis gewesen wäre wenn beide Spieler durchschnittliches Würfelglück erhalten hätten. Dies trennt Können von Glück und zeigt wahre Spielstärke. Software wie XG kann sowohl tatsächliche als auch glücks-angepasste Bewertungen zeigen.",
+          nl: "Geluk normalisatie (of 'geluk-aangepaste' resultaten) berekent wat het wedstrijdresultaat zou zijn geweest als beide spelers gemiddeld dobbelsteen-geluk hadden ontvangen. Dit scheidt vaardigheid van geluk, en toont ware speelsterkte. Software zoals XG kan zowel werkelijke als geluk-aangepaste ratings tonen."
+        }
+      },
+      {
+        question: {
+          en: "What is 'pruning' in backgammon neural network rollouts?",
+          es: "¿Qué es la 'poda' en rollouts de red neuronal de backgammon?",
+          de: "Was ist 'Pruning' in Backgammon-Neuronales-Netzwerk-Rollouts?",
+          nl: "Wat is 'pruning' in backgammon neuraal netwerk rollouts?"
+        },
+        options: [
+          { en: "Stopping rollout of clearly inferior moves early to save computation time", es: "Detener rollout de movimientos claramente inferiores temprano para ahorrar tiempo de cómputo", de: "Rollout eindeutig unterlegener Züge früh stoppen um Rechenzeit zu sparen", nl: "Rollout van duidelijk inferieure zetten vroeg stoppen om rekentijd te besparen" },
+          { en: "Removing bad positions from training data", es: "Eliminar posiciones malas de datos de entrenamiento", de: "Schlechte Positionen aus Trainingsdaten entfernen", nl: "Slechte posities verwijderen uit trainingsgegevens" },
+          { en: "Trimming neural network layers for speed", es: "Recortar capas de red neuronal para velocidad", de: "Neuronale Netzwerk-Schichten für Geschwindigkeit trimmen", nl: "Neurale netwerk lagen bijsnijden voor snelheid" },
+          { en: "Limiting analysis depth on each ply", es: "Limitar profundidad de análisis en cada capa", de: "Analysetiefe auf jeder Ebene begrenzen", nl: "Analysediepte op elke ply beperken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pruning in rollouts means stopping the evaluation of clearly inferior moves before completing full trials. If a move is statistically proven worse, the bot stops rolling it out and allocates those trials to closer alternatives. This dramatically speeds up analysis without sacrificing accuracy.",
+          es: "La poda en rollouts significa detener la evaluación de movimientos claramente inferiores antes de completar pruebas completas. Si un movimiento es estadísticamente probado peor, el bot deja de hacer rollout y asigna esas pruebas a alternativas más cercanas. Esto acelera dramáticamente el análisis sin sacrificar precisión.",
+          de: "Pruning in Rollouts bedeutet die Bewertung eindeutig unterlegener Züge zu stoppen bevor vollständige Versuche abgeschlossen sind. Wenn ein Zug statistisch nachweislich schlechter ist, stoppt der Bot dessen Rollout und weist diese Versuche näheren Alternativen zu. Dies beschleunigt Analyse dramatisch ohne Genauigkeit zu opfern.",
+          nl: "Pruning in rollouts betekent het stoppen van de evaluatie van duidelijk inferieure zetten voordat volledige proeven zijn voltooid. Als een zet statistisch bewezen slechter is, stopt de bot met het uitrollen ervan en wijst die proeven toe aan dichterbij liggende alternatieven. Dit versnelt de analyse dramatisch zonder nauwkeurigheid op te offeren."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'trailer's cube advantage' in match play?",
+          es: "¿Qué es la 'ventaja del cubo del que va detrás' en juego de match?",
+          de: "Was ist der 'Würfel-Vorteil des Nachzüglers' im Match-Spiel?",
+          nl: "Wat is het 'dobbelvoordeel van de achterligger' in wedstrijdspel?"
+        },
+        options: [
+          { en: "Player behind in score can double more aggressively at certain match scores", es: "El jugador que va detrás en puntuación puede doblar más agresivamente en ciertas puntuaciones de match", de: "Spieler der im Punktestand zurückliegt kann bei bestimmten Match-Punkteständen aggressiver verdoppeln", nl: "Speler achter in score kan agressiever verdubbelen bij bepaalde wedstrijdscores" },
+          { en: "Trailing player always gets the cube first", es: "El jugador que va detrás siempre obtiene el cubo primero", de: "Nachzügler bekommt immer zuerst den Würfel", nl: "Achterligger krijgt altijd eerst de dobbel" },
+          { en: "Opponent must accept all doubles from trailer", es: "Oponente debe aceptar todos los dobles del que va detrás", de: "Gegner muss alle Verdopplungen vom Nachzügler annehmen", nl: "Tegenstander moet alle verdubbeling van achterligger accepteren" },
+          { en: "Behind player can beaver more often", es: "El jugador que va detrás puede hacer beaver más a menudo", de: "Zurückliegender Spieler kann öfter beavern", nl: "Achterliggende speler kan vaker beaveren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "At certain match scores, the trailer (player behind) gains cube efficiency advantages. For example, at 2-away 3-away, the trailer should double very aggressively (~55% wins) because losing brings Crawford, while winning ties the match. This asymmetry creates trailer's cube advantage.",
+          es: "En ciertas puntuaciones de match, el que va detrás obtiene ventajas de eficiencia del cubo. Por ejemplo, en 2-away 3-away, el que va detrás debe doblar muy agresivamente (~55% victorias) porque perder trae Crawford, mientras que ganar empata el match. Esta asimetría crea la ventaja del cubo del que va detrás.",
+          de: "Bei bestimmten Match-Punkteständen erhält der Nachzügler Würfel-Effizienz-Vorteile. Zum Beispiel bei 2-away 3-away sollte der Nachzügler sehr aggressiv verdoppeln (~55% Siege) weil Verlieren Crawford bringt, während Gewinnen das Match ausgleicht. Diese Asymmetrie schafft Nachzüglers Würfel-Vorteil.",
+          nl: "Bij bepaalde wedstrijdscores krijgt de achterligger dobbelefficiëntie voordelen. Bijvoorbeeld bij 2-away 3-away moet de achterligger zeer aggressief verdubbelen (~55% overwinningen) omdat verliezen Crawford brengt, terwijl winnen de wedstrijd gelijk trekt. Deze asymmetrie creëert achterliggers dobbelvoordeel."
+        }
+      },
+      {
+        question: {
+          en: "What is 'TD-Gammon' and its historical significance?",
+          es: "¿Qué es 'TD-Gammon' y su significado histórico?",
+          de: "Was ist 'TD-Gammon' und seine historische Bedeutung?",
+          nl: "Wat is 'TD-Gammon' en zijn historische betekenis?"
+        },
+        options: [
+          { en: "First neural network to reach world-class backgammon by self-play (1992, Tesauro)", es: "Primera red neuronal en alcanzar backgammon de clase mundial por auto-juego (1992, Tesauro)", de: "Erstes neuronales Netzwerk das Weltklasse-Backgammon durch Selbstspiel erreichte (1992, Tesauro)", nl: "Eerste neuraal netwerk dat wereldklasse backgammon bereikte door zelfspel (1992, Tesauro)" },
+          { en: "Tournament director software for organizing matches", es: "Software de director de torneo para organizar matches", de: "Turnierdirektor-Software zur Organisation von Matches", nl: "Toernooidirecteur software voor het organiseren van wedstrijden" },
+          { en: "Temporal difference algorithm for cube decisions", es: "Algoritmo de diferencia temporal para decisiones de cubo", de: "Zeitdifferenz-Algorithmus für Würfelentscheidungen", nl: "Temporeel verschil algoritme voor dobbelsbeslissingen" },
+          { en: "Database of grandmaster games", es: "Base de datos de juegos de gran maestro", de: "Datenbank von Großmeister-Spielen", nl: "Database van grootmeester spellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "TD-Gammon (1992, by Gerald Tesauro) was revolutionary - the first neural network to achieve world-class play through self-play reinforcement learning, without human game databases. It used temporal difference learning and influenced modern AI development, including AlphaGo.",
+          es: "TD-Gammon (1992, por Gerald Tesauro) fue revolucionario - la primera red neuronal en lograr juego de clase mundial a través de aprendizaje por refuerzo de auto-juego, sin bases de datos de juegos humanos. Usó aprendizaje de diferencia temporal e influyó en el desarrollo de IA moderna, incluyendo AlphaGo.",
+          de: "TD-Gammon (1992, von Gerald Tesauro) war revolutionär - das erste neuronale Netzwerk das Weltklasse-Spiel durch Selbstspiel-Verstärkungslernen erreichte, ohne menschliche Spieldatenbanken. Es nutzte temporales Differenz-Lernen und beeinflusste moderne KI-Entwicklung einschließlich AlphaGo.",
+          nl: "TD-Gammon (1992, door Gerald Tesauro) was revolutionair - het eerste neurale netwerk dat wereldklasse spel bereikte door zelfspel versterkend leren, zonder menselijke speldatabases. Het gebruikte temporeel verschil leren en beïnvloedde moderne AI ontwikkeling, inclusief AlphaGo."
+        }
+      },
+      {
+        question: {
+          en: "What is 'match variance' and why do players care?",
+          es: "¿Qué es la 'varianza de match' y por qué les importa a los jugadores?",
+          de: "Was ist 'Match-Varianz' und warum kümmert es Spieler?",
+          nl: "Wat is 'wedstrijd-variantie' en waarom geeft het spelers iets om?"
+        },
+        options: [
+          { en: "Statistical fluctuation in results - longer matches reduce luck factor", es: "Fluctuación estadística en resultados - matches más largos reducen factor suerte", de: "Statistische Schwankung in Ergebnissen - längere Matches reduzieren Glücksfaktor", nl: "Statistische fluctuatie in resultaten - langere wedstrijden verminderen geluksfactor" },
+          { en: "Difference between player skill levels", es: "Diferencia entre niveles de habilidad de jugadores", de: "Unterschied zwischen Spieler-Skill-Levels", nl: "Verschil tussen speler vaardigheidsniveaus" },
+          { en: "Score volatility during single match", es: "Volatilidad de puntuación durante un solo match", de: "Punktestand-Volatilität während eines einzelnen Matches", nl: "Score volatiliteit tijdens enkele wedstrijd" },
+          { en: "Variety of positions encountered", es: "Variedad de posiciones encontradas", de: "Vielfalt der begegneten Positionen", nl: "Variëteit van aangetroffen posities" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Match variance measures how much luck affects outcomes. In backgammon, even weaker players can win short matches due to lucky dice. Longer matches (11, 15, 21 points) reduce variance, allowing skill to dominate. Top players prefer longer matches to minimize luck's impact.",
+          es: "La varianza de match mide cuánto afecta la suerte a los resultados. En backgammon, incluso jugadores más débiles pueden ganar matches cortos debido a dados afortunados. Matches más largos (11, 15, 21 puntos) reducen la varianza, permitiendo que la habilidad domine. Los mejores jugadores prefieren matches más largos para minimizar el impacto de la suerte.",
+          de: "Match-Varianz misst wie viel Glück Ergebnisse beeinflusst. Im Backgammon können selbst schwächere Spieler kurze Matches durch glückliche Würfel gewinnen. Längere Matches (11, 15, 21 Punkte) reduzieren Varianz und ermöglichen Können zu dominieren. Top-Spieler bevorzugen längere Matches um Glückseinfluss zu minimieren.",
+          nl: "Wedstrijd-variantie meet hoeveel geluk de uitkomsten beïnvloedt. In backgammon kunnen zelfs zwakkere spelers korte wedstrijden winnen door gelukskige dobbelstenen. Langere wedstrijden (11, 15, 21 punten) verminderen variantie, waardoor vaardigheid kan domineren. Top spelers geven de voorkeur aan langere wedstrijden om geluksimpact te minimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Turner take point' adjustment?",
+          es: "¿Qué es el ajuste del 'punto de aceptación de Turner'?",
+          de: "Was ist die 'Turner-Annahmepunkt'-Anpassung?",
+          nl: "Wat is de 'Turner acceptatiepunt' aanpassing?"
+        },
+        options: [
+          { en: "Adjusting take/pass threshold based on gammon percentages in position", es: "Ajustar umbral de aceptar/pasar basado en porcentajes de gammon en posición", de: "Annahme/Pass-Schwelle basierend auf Gammon-Prozentsätzen in Position anpassen", nl: "Accepteer/pas drempel aanpassen op basis van gammon percentages in positie" },
+          { en: "Speed adjustment for online time controls", es: "Ajuste de velocidad para controles de tiempo en línea", de: "Geschwindigkeitsanpassung für Online-Zeitkontrollen", nl: "Snelheidsaanpassing voor online tijdscontroles" },
+          { en: "Cube decision formula for match play only", es: "Fórmula de decisión de cubo solo para juego de match", de: "Würfelentscheidungsformel nur für Match-Spiel", nl: "Dobbelsbeslissingsformule alleen voor wedstrijdspel" },
+          { en: "Opening move probability table", es: "Tabla de probabilidad de movimiento de apertura", de: "Eröffnungszug-Wahrscheinlichkeitstabelle", nl: "Openingszet waarschijnlijkheidstabel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Turner take point adjusts the basic 25% take threshold based on gammon percentages. When gammons are likely, you need better winning chances to take. Formula: Take point = (G+0.5)/(G+1) where G = opponent's gammon percentage. Higher gammon threat = higher take point needed.",
+          es: "El punto de aceptación de Turner ajusta el umbral básico de aceptación del 25% basado en porcentajes de gammon. Cuando los gammons son probables, necesitas mejores posibilidades de ganar para aceptar. Fórmula: Punto de aceptación = (G+0.5)/(G+1) donde G = porcentaje de gammon del oponente. Mayor amenaza de gammon = mayor punto de aceptación necesario.",
+          de: "Der Turner-Annahmepunkt passt die grundlegende 25%-Annahmeschwelle basierend auf Gammon-Prozentsätzen an. Wenn Gammons wahrscheinlich sind, brauchst du bessere Gewinnchancen zum Annehmen. Formel: Annahmepunkt = (G+0.5)/(G+1) wobei G = Gammon-Prozentsatz des Gegners. Höhere Gammon-Bedrohung = höherer Annahmepunkt benötigt.",
+          nl: "Het Turner acceptatiepunt past de basis 25% acceptatiedrempel aan op basis van gammon percentages. Wanneer gammons waarschijnlijk zijn, heb je betere winkansen nodig om te accepteren. Formule: Acceptatiepunt = (G+0.5)/(G+1) waarbij G = gammon percentage van tegenstander. Hogere gammon dreiging = hoger acceptatiepunt nodig."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'redouble window' in backgammon strategy?",
+          es: "¿Qué es una 'ventana de redoblaje' en estrategia de backgammon?",
+          de: "Was ist ein 'Rückverdopplungsfenster' in der Backgammon-Strategie?",
+          nl: "Wat is een 'herverdubbel-venster' in backgammon strategie?"
+        },
+        options: [
+          { en: "The equity range where holding cube ownership is more valuable than redoubling immediately", es: "El rango de equidad donde mantener propiedad del cubo es más valioso que redoblar inmediatamente", de: "Der Equity-Bereich wo Würfelbesitz behalten wertvoller ist als sofort rückzuverdoppeln", nl: "Het equity-bereik waarin dobbelsbezit behouden waardevoller is dan onmiddellijk herverdubbelen" },
+          { en: "Time period allowed for redouble decisions", es: "Período de tiempo permitido para decisiones de redoblaje", de: "Zeitraum für Rückverdopplungsentscheidungen erlaubt", nl: "Tijdsperiode toegestaan voor herverdubbel beslissingen" },
+          { en: "Screen display for showing cube position", es: "Pantalla para mostrar posición del cubo", de: "Bildschirmanzeige für Würfelposition", nl: "Schermweergave voor het tonen van dobbelspositie" },
+          { en: "Opportunity to redouble after opponent's error", es: "Oportunidad de redoblar después del error del oponente", de: "Gelegenheit rückzuverdoppeln nach Gegnerfehler", nl: "Kans om te herverdubbelen na fout van tegenstander" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The redouble window is when you own the cube but shouldn't redouble yet because cube ownership is more valuable than cashing immediately. Wait until your position improves enough that redoubling becomes optimal. This is related to cube leverage and recube vig concepts.",
+          es: "La ventana de redoblaje es cuando posees el cubo pero no debes redoblar aún porque la propiedad del cubo es más valiosa que cobrar inmediatamente. Espera hasta que tu posición mejore lo suficiente como para que redoblar se vuelva óptimo. Esto está relacionado con conceptos de apalancamiento del cubo y recube vig.",
+          de: "Das Rückverdopplungsfenster ist wenn du den Würfel besitzt aber noch nicht rückverdoppeln solltest weil Würfelbesitz wertvoller ist als sofort einzulösen. Warte bis deine Position sich genug verbessert dass Rückverdoppeln optimal wird. Dies hängt mit Würfel-Leverage und Recube-Vig-Konzepten zusammen.",
+          nl: "Het herverdubbel-venster is wanneer je de dobbel bezit maar nog niet moet herverdubbelen omdat dobbelsbezit waardevoller is dan onmiddellijk verzilveren. Wacht tot je positie genoeg verbetert dat herverdubbelen optimaal wordt. Dit is gerelateerd aan dobbels leverage en recube vig concepten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'recube vig' (recube vigorish)?",
+          es: "¿Qué es 'recube vig' (vigorish de recube)?",
+          de: "Was ist 'Recube-Vig' (Recube-Vigorish)?",
+          nl: "Wat is 'recube vig' (recube vigorish)?"
+        },
+        options: [
+          { en: "The equity value of owning the cube - ability to redouble when position improves", es: "El valor de equidad de poseer el cubo - capacidad de redoblar cuando la posición mejora", de: "Der Equity-Wert des Würfelbesitzes - Fähigkeit rückzuverdoppeln wenn Position sich verbessert", nl: "De equity-waarde van het bezitten van de dobbel - vermogen om te herverdubbelen wanneer positie verbetert" },
+          { en: "Commission charged in online backgammon for money", es: "Comisión cobrada en backgammon en línea por dinero", de: "Provision für Online-Backgammon um Geld", nl: "Commissie in rekening gebracht bij online backgammon voor geld" },
+          { en: "Vigorous redoubling strategy", es: "Estrategia vigorosa de redoblaje", de: "Kräftige Rückverdopplungsstrategie", nl: "Krachtige herverdubbel strategie" },
+          { en: "Energy spent on cube decisions", es: "Energía gastada en decisiones de cubo", de: "Energie für Würfelentscheidungen aufgewendet", nl: "Energie besteed aan dobbelsbeslissingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Recube vig (vigorish) is the equity advantage from owning the doubling cube. When you own the cube, you can redouble when your position improves, but your opponent cannot. This ownership has real value, often worth 0.05-0.15 points of equity depending on position volatility.",
+          es: "Recube vig (vigorish) es la ventaja de equidad de poseer el cubo de doblaje. Cuando posees el cubo, puedes redoblar cuando tu posición mejora, pero tu oponente no puede. Esta propiedad tiene valor real, a menudo vale 0.05-0.15 puntos de equidad dependiendo de la volatilidad de la posición.",
+          de: "Recube-Vig (Vigorish) ist der Equity-Vorteil aus dem Besitz des Verdopplungswürfels. Wenn du den Würfel besitzt, kannst du rückverdoppeln wenn deine Position sich verbessert, aber dein Gegner nicht. Dieser Besitz hat echten Wert, oft 0.05-0.15 Equity-Punkte wert je nach Positions-Volatilität.",
+          nl: "Recube vig (vigorish) is het equity-voordeel van het bezitten van de verdubbeldobbel. Wanneer je de dobbel bezit, kun je herverdubbelen wanneer je positie verbetert, maar je tegenstander niet. Dit bezit heeft echte waarde, vaak 0.05-0.15 equity-punten waard afhankelijk van positie-volatiliteit."
         }
       }
+    ]
+  };
+
+  // Export for use in the quiz application
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = level7;
+  } else if (typeof window !== 'undefined') {
+    window.level7 = level7;
+  }
+})();
     ]
   };
 

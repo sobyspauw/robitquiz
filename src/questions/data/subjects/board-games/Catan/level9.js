@@ -427,6 +427,237 @@
           de: "Verhaltens-Spieltheorie: Empirische Turnieranalyse zeigt 8 Punkte repräsentiert kritische psychologische Schwelle. Unter 8 verfolgen Spieler weitgehend individuelle Strategien. Bei 8+ erkennen Gegner drohende Siegesbedrohung (2 Punkte vom Sieg) und wechseln verhaltensbedingt zu Koalitionsbildung. Dies schafft erhöhte Räuberanvisierung, Handelsablehnungen und koordinierte Unterdrückung. Elite-Spieler verwalten dies: (1) bei 7 Punkten bleiben während versteckte VP-Karten aufgebaut werden, oder (2) explosiver 8→10-Punkte-Sprung in einem Zug um Koalitionsreaktionsfenster zu minimieren.",
           nl: "Gedrags speltheorie: Empirische toernooi analyse toont 8 punten vertegenwoordigt kritieke psychologische drempel. Onder 8, achtervolgen spelers grotendeels individuele strategieën. Bij 8+, herkennen tegenstanders dreigende overwinningsdreiging (2 punten van winnen) en wisselen gedragsmatig naar coalitie vorming. Dit creëert verhoogde rover targeting, handels weigeringen en gecoördineerde onderdrukking. Elite spelers managen dit door ofwel: (1) blijven op 7 punten terwijl verborgen VP kaarten bouwen, of (2) explosieve 8→10 punten sprong in enkele beurt om coalitie reactie venster te minimaliseren."
         }
+      },
+      {
+        question: {
+          en: "What is the 'resource arbitrage window' in harbor-based strategies?",
+          es: "¿Qué es la 'ventana de arbitraje de recursos' en estrategias basadas en puertos?",
+          de: "Was ist das 'Ressourcenarbitrage-Fenster' in hafenbasierten Strategien?",
+          nl: "Wat is het 'bron arbitrage venster' in haven-gebaseerde strategieën?"
+        },
+        options: [
+          { en: "Brief periods when harbor trades yield more value than 4:1 bank due to scarcity", es: "Períodos breves cuando los intercambios de puerto producen más valor que el banco 4:1 debido a la escasez", de: "Kurze Perioden wenn Hafengeschäfte mehr Wert als 4:1-Bank aufgrund von Knappheit bringen", nl: "Korte periodes wanneer haven ruilen meer waarde opleveren dan 4:1 bank door schaarste" },
+          { en: "Harbors always inferior to bank trading", es: "Los puertos siempre inferiores al comercio bancario", de: "Häfen immer unterlegen gegenüber Bankhandel", nl: "Havens altijd inferieur aan bank handel" },
+          { en: "Only exists in 6-player games", es: "Solo existe en juegos de 6 jugadores", de: "Existiert nur in 6-Spieler-Spielen", nl: "Bestaat alleen in 6-speler spellen" },
+          { en: "Arbitrage prohibited by tournament rules", es: "Arbitraje prohibido por reglas de torneo", de: "Arbitrage durch Turnierregeln verboten", nl: "Arbitrage verboden door toernooi regels" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Economic theory application: When specific resources become scarce (e.g., ore shortage), 2:1 harbor value temporarily exceeds 4:1 bank. If opponents need ore desperately, your 2:1 ore harbor converts 2 sheep → 1 ore, then you can trade that ore for 3-4 other resources (effective 2:3 or 2:4 ratio). This arbitrage window closes when scarcity resolves. Elite players exploit these temporal inefficiencies for resource multiplication.",
+          es: "Aplicación de teoría económica: Cuando recursos específicos se vuelven escasos (ej., escasez de mineral), el valor del puerto 2:1 excede temporalmente al banco 4:1. Si los oponentes necesitan mineral desesperadamente, tu puerto de mineral 2:1 convierte 2 ovejas → 1 mineral, luego puedes intercambiar ese mineral por 3-4 otros recursos (ratio efectivo 2:3 o 2:4). Esta ventana de arbitraje se cierra cuando la escasez se resuelve. Los jugadores de élite explotan estas ineficiencias temporales para multiplicación de recursos.",
+          de: "Wirtschaftstheorie-Anwendung: Wenn spezifische Ressourcen knapp werden (z.B. Erzknappheit), übersteigt 2:1-Hafenwert vorübergehend 4:1-Bank. Wenn Gegner Erz dringend brauchen, wandelt Ihr 2:1-Erzhafen 2 Schafe → 1 Erz um, dann können Sie dieses Erz für 3-4 andere Ressourcen tauschen (effektives 2:3- oder 2:4-Verhältnis). Dieses Arbitragefenster schließt sich, wenn Knappheit sich auflöst. Elite-Spieler nutzen diese zeitlichen Ineffizienzen für Ressourcenvervielfachung.",
+          nl: "Economische theorie toepassing: Wanneer specifieke bronnen schaars worden (bijv. erts schaarste), overschrijdt 2:1 haven waarde tijdelijk 4:1 bank. Als tegenstanders erts dringend nodig hebben, converteert je 2:1 erts haven 2 schapen → 1 erts, dan kun je dat erts ruilen voor 3-4 andere bronnen (effectieve 2:3 of 2:4 ratio). Dit arbitrage venster sluit wanneer schaarste oplost. Elite spelers exploiteren deze tijdelijke inefficiënties voor bron vermenigvuldiging."
+        }
+      },
+      {
+        question: {
+          en: "Calculate expected value difference between 3:1 harbor and no harbor over 30-turn game.",
+          es: "Calcula la diferencia de valor esperado entre puerto 3:1 y sin puerto durante un juego de 30 turnos.",
+          de: "Berechnen Sie Erwartungswert-Differenz zwischen 3:1-Hafen und ohne Hafen über 30-Züge-Spiel.",
+          nl: "Bereken verwachte waarde verschil tussen 3:1 haven en geen haven over 30-beurt spel."
+        },
+        options: [
+          { en: "~8-12 effective resource advantage (each 3:1 trade saves 1 resource vs 4:1)", es: "~8-12 ventaja de recursos efectiva (cada intercambio 3:1 ahorra 1 recurso vs 4:1)", de: "~8-12 effektiver Ressourcenvorteil (jeder 3:1-Tausch spart 1 Ressource vs 4:1)", nl: "~8-12 effectief bron voordeel (elke 3:1 ruil bespaart 1 bron vs 4:1)" },
+          { en: "No measurable advantage exists", es: "No existe ventaja medible", de: "Kein messbarer Vorteil existiert", nl: "Geen meetbaar voordeel bestaat" },
+          { en: "Exactly 30 resource advantage", es: "Exactamente 30 recursos de ventaja", de: "Genau 30 Ressourcenvorteil", nl: "Precies 30 bron voordeel" },
+          { en: "3:1 harbor disadvantage vs bank", es: "Desventaja de puerto 3:1 vs banco", de: "3:1-Hafen-Nachteil vs Bank", nl: "3:1 haven nadeel vs bank" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mathematical modeling: Average player makes 10-15 bank trades per 30-turn game. With 3:1 harbor, each trade costs 3 instead of 4 (1 resource saved). Over 10-15 trades, this accumulates to 10-15 resources saved. However, not all trades use harbor (some use player trades), reducing actual benefit to 8-12 resources. This 20-25% efficiency gain significantly impacts resource availability for final victory push.",
+          es: "Modelado matemático: El jugador promedio hace 10-15 intercambios bancarios por juego de 30 turnos. Con puerto 3:1, cada intercambio cuesta 3 en lugar de 4 (1 recurso ahorrado). Durante 10-15 intercambios, esto se acumula a 10-15 recursos ahorrados. Sin embargo, no todos los intercambios usan puerto (algunos usan intercambios de jugadores), reduciendo el beneficio real a 8-12 recursos. Esta ganancia de eficiencia del 20-25% impacta significativamente la disponibilidad de recursos para el empujón final de victoria.",
+          de: "Mathematische Modellierung: Durchschnittlicher Spieler macht 10-15 Bankgeschäfte pro 30-Züge-Spiel. Mit 3:1-Hafen kostet jeder Tausch 3 statt 4 (1 Ressource gespart). Über 10-15 Tausche akkumuliert dies zu 10-15 gesparten Ressourcen. Jedoch nutzen nicht alle Tausche Hafen (einige nutzen Spielertausche), reduziert tatsächlichen Nutzen auf 8-12 Ressourcen. Dieser 20-25% Effizienzgewinn beeinflusst Ressourcenverfügbarkeit für finalen Siegesstoß signifikant.",
+          nl: "Wiskundige modellering: Gemiddelde speler maakt 10-15 bank ruilen per 30-beurt spel. Met 3:1 haven kost elke ruil 3 in plaats van 4 (1 bron bespaard). Over 10-15 ruilen accumuleert dit tot 10-15 bronnen bespaard. Echter, niet alle ruilen gebruiken haven (sommige gebruiken speler ruilen), vermindert werkelijk voordeel naar 8-12 bronnen. Deze 20-25% efficiëntie winst beïnvloedt significant bron beschikbaarheid voor finale overwinning push."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'tempo sacrifice' principle in strategic positioning?",
+          es: "¿Qué es el principio de 'sacrificio de tempo' en posicionamiento estratégico?",
+          de: "Was ist das 'Tempo-Opfer'-Prinzip in strategischer Positionierung?",
+          nl: "Wat is het 'tempo offer' principe in strategische positionering?"
+        },
+        options: [
+          { en: "Accepting 1-2 turn delay to secure superior board position worth 3+ turns advantage", es: "Aceptar retraso de 1-2 turnos para asegurar posición de tablero superior que vale 3+ turnos de ventaja", de: "1-2 Züge Verzögerung akzeptieren um überlegene Brettposition zu sichern die 3+ Züge Vorteil wert ist", nl: "Accepteren 1-2 beurt vertraging om superieure bordpositie te beveiligen waard 3+ beurten voordeel" },
+          { en: "Always maximize tempo at any cost", es: "Siempre maximizar tempo a cualquier costo", de: "Tempo immer um jeden Preis maximieren", nl: "Altijd tempo maximaliseren tegen elke prijs" },
+          { en: "Tempo cannot be traded for position", es: "El tempo no puede intercambiarse por posición", de: "Tempo kann nicht gegen Position getauscht werden", nl: "Tempo kan niet geruild worden voor positie" },
+          { en: "Only applies to opening moves", es: "Solo se aplica a movimientos de apertura", de: "Gilt nur für Eröffnungszüge", nl: "Geldt alleen voor openingszetten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Strategic trade-off analysis: Sometimes spending extra turns to secure critical positions (2:1 harbors, high-pip intersections) yields net positive despite tempo loss. Example: Taking 2 extra turns to reach wheat/ore 2:1 harbor instead of building settlement immediately appears slow, but the harbor's long-term efficiency (20+ turns remaining) provides 3-4 turns of equivalent resource value. Net benefit: -2 turns + 3-4 turns = +1-2 turn advantage overall.",
+          es: "Análisis de compensación estratégica: A veces gastar turnos extra para asegurar posiciones críticas (puertos 2:1, intersecciones de alto pip) produce neto positivo a pesar de pérdida de tempo. Ejemplo: Tomar 2 turnos extra para alcanzar puerto 2:1 de trigo/mineral en lugar de construir asentamiento inmediatamente parece lento, pero la eficiencia a largo plazo del puerto (20+ turnos restantes) proporciona 3-4 turnos de valor de recurso equivalente. Beneficio neto: -2 turnos + 3-4 turnos = +1-2 turnos de ventaja general.",
+          de: "Strategische Kompromissanalyse: Manchmal bringt Extra-Züge ausgeben um kritische Positionen zu sichern (2:1-Häfen, hohe-Pip-Schnittpunkte) trotz Tempoverlust Nettogewinn. Beispiel: 2 Extra-Züge nehmen um Weizen/Erz-2:1-Hafen zu erreichen statt sofort Siedlung zu bauen erscheint langsam, aber Hafen-Langzeiteffizienz (20+ Züge verbleibend) liefert 3-4 Züge äquivalenten Ressourcenwert. Nettonutzen: -2 Züge + 3-4 Züge = +1-2 Züge Vorteil insgesamt.",
+          nl: "Strategische afweging analyse: Soms levert extra beurten besteden om kritieke posities te beveiligen (2:1 havens, hoge-pip kruispunten) netto positief op ondanks tempo verlies. Voorbeeld: 2 extra beurten nemen om tarwe/erts 2:1 haven te bereiken in plaats van direct nederzetting bouwen lijkt langzaam, maar de haven's lange-termijn efficiëntie (20+ beurten resterend) biedt 3-4 beurten equivalente bron waarde. Netto voordeel: -2 beurten + 3-4 beurten = +1-2 beurt voordeel totaal."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'compounding growth differential' in city-vs-settlement strategies?",
+          es: "¿Qué es el 'diferencial de crecimiento compuesto' en estrategias de ciudad vs asentamiento?",
+          de: "Was ist das 'zusammengesetzte Wachstumsdifferential' in Stadt-vs-Siedlungs-Strategien?",
+          nl: "Wat is het 'samengesteld groei verschil' in stad-vs-nederzetting strategieën?"
+        },
+        options: [
+          { en: "Cities create exponential resource growth (2^n) while settlements remain linear (n)", es: "Las ciudades crean crecimiento exponencial de recursos (2^n) mientras los asentamientos permanecen lineales (n)", de: "Städte schaffen exponentielles Ressourcenwachstum (2^n) während Siedlungen linear bleiben (n)", nl: "Steden creëren exponentiële bron groei (2^n) terwijl nederzettingen lineair blijven (n)" },
+          { en: "No mathematical difference exists", es: "No existe diferencia matemática", de: "Kein mathematischer Unterschied existiert", nl: "Geen wiskundig verschil bestaat" },
+          { en: "Settlements grow faster than cities", es: "Los asentamientos crecen más rápido que las ciudades", de: "Siedlungen wachsen schneller als Städte", nl: "Nederzettingen groeien sneller dan steden" },
+          { en: "Both follow identical growth curves", es: "Ambos siguen curvas de crecimiento idénticas", de: "Beide folgen identischen Wachstumskurven", nl: "Beide volgen identieke groei curves" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Mathematical growth theory: Settlement strategy produces linear growth: 3 settlements = 3 points, resource rate constant. City strategy produces compound growth: 1 city doubles production → enables faster 2nd city → exponentially faster 3rd city. After 15 turns, settlement path yields ~4-5 points linear; city path yields ~6-8 points exponential. The growth differential widens each turn: cities enable cities faster while settlements just add constant increments.",
+          es: "Teoría de crecimiento matemático: La estrategia de asentamiento produce crecimiento lineal: 3 asentamientos = 3 puntos, tasa de recursos constante. La estrategia de ciudad produce crecimiento compuesto: 1 ciudad duplica producción → permite 2ª ciudad más rápida → 3ª ciudad exponencialmente más rápida. Después de 15 turnos, el camino de asentamiento produce ~4-5 puntos lineales; el camino de ciudad produce ~6-8 puntos exponenciales. El diferencial de crecimiento se amplía cada turno: las ciudades permiten ciudades más rápido mientras los asentamientos solo agregan incrementos constantes.",
+          de: "Mathematische Wachstumstheorie: Siedlungsstrategie produziert lineares Wachstum: 3 Siedlungen = 3 Punkte, Ressourcenrate konstant. Stadtstrategie produziert zusammengesetztes Wachstum: 1 Stadt verdoppelt Produktion → ermöglicht schnellere 2. Stadt → exponentiell schnellere 3. Stadt. Nach 15 Zügen bringt Siedlungspfad ~4-5 Punkte linear; Stadtpfad bringt ~6-8 Punkte exponentiell. Das Wachstumsdifferential weitet sich jeden Zug: Städte ermöglichen Städte schneller während Siedlungen nur konstante Inkremente addieren.",
+          nl: "Wiskundige groei theorie: Nederzetting strategie produceert lineaire groei: 3 nederzettingen = 3 punten, bron snelheid constant. Stad strategie produceert samengestelde groei: 1 stad verdubbelt productie → maakt snellere 2e stad mogelijk → exponentieel snellere 3e stad. Na 15 beurten levert nederzetting pad ~4-5 punten lineair op; stad pad levert ~6-8 punten exponentieel op. Het groei verschil verbreed elke beurt: steden maken steden sneller mogelijk terwijl nederzettingen alleen constante stappen toevoegen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Pareto efficiency frontier' in resource trading?",
+          es: "¿Qué es la 'frontera de eficiencia de Pareto' en el comercio de recursos?",
+          de: "Was ist die 'Pareto-Effizienz-Grenze' im Ressourcenhandel?",
+          nl: "Wat is de 'Pareto efficiëntie grens' in bron handel?"
+        },
+        options: [
+          { en: "Trade ratios where both players gain value but further improvement helps one while harming other", es: "Ratios de comercio donde ambos jugadores ganan valor pero mejora adicional ayuda a uno mientras daña al otro", de: "Handelsverhältnisse wo beide Spieler Wert gewinnen aber weitere Verbesserung einem hilft während anderen schadet", nl: "Ruil ratio's waar beide spelers waarde winnen maar verdere verbetering één helpt terwijl ander schaadt" },
+          { en: "All trades must be exactly 1:1", es: "Todos los intercambios deben ser exactamente 1:1", de: "Alle Geschäfte müssen genau 1:1 sein", nl: "Alle ruilen moeten precies 1:1 zijn" },
+          { en: "Pareto efficiency doesn't apply to games", es: "La eficiencia de Pareto no se aplica a juegos", de: "Pareto-Effizienz gilt nicht für Spiele", nl: "Pareto efficiëntie geldt niet voor spellen" },
+          { en: "Only leader can achieve efficiency", es: "Solo el líder puede lograr eficiencia", de: "Nur Anführer kann Effizienz erreichen", nl: "Alleen leider kan efficiëntie bereiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Game theory economics: A trade is Pareto efficient when both players gain and no alternative trade improves one without worsening the other. Example: 1 wheat for 1 ore (both need what they get) is efficient. Changing to 1 wheat for 2 ore helps receiver but harms giver, moving off the frontier. Elite players seek Pareto-efficient trades when cooperating (mutual benefit) but demand off-frontier trades when targeting opponents (extracting asymmetric value), especially from desperate players near victory.",
+          es: "Economía de teoría de juegos: Un intercambio es eficiente de Pareto cuando ambos jugadores ganan y ningún intercambio alternativo mejora a uno sin empeorar al otro. Ejemplo: 1 trigo por 1 mineral (ambos necesitan lo que obtienen) es eficiente. Cambiar a 1 trigo por 2 minerales ayuda al receptor pero daña al donante, moviéndose fuera de la frontera. Los jugadores de élite buscan intercambios eficientes de Pareto al cooperar (beneficio mutuo) pero exigen intercambios fuera de la frontera al apuntar a oponentes (extrayendo valor asimétrico), especialmente de jugadores desesperados cerca de la victoria.",
+          de: "Spieltheorie-Ökonomie: Ein Geschäft ist Pareto-effizient wenn beide Spieler gewinnen und kein alternatives Geschäft einem verbessert ohne anderen zu verschlechtern. Beispiel: 1 Weizen für 1 Erz (beide brauchen was sie bekommen) ist effizient. Änderung zu 1 Weizen für 2 Erz hilft Empfänger aber schadet Geber, bewegt von Grenze weg. Elite-Spieler suchen Pareto-effiziente Geschäfte beim Kooperieren (gegenseitiger Nutzen) aber fordern außerhalb-Grenze-Geschäfte beim Anvisieren von Gegnern (asymmetrischen Wert extrahieren), besonders von verzweifelten Spielern nahe Sieg.",
+          nl: "Speltheorie economie: Een ruil is Pareto efficiënt wanneer beide spelers winnen en geen alternatieve ruil één verbetert zonder ander te verslechteren. Voorbeeld: 1 tarwe voor 1 erts (beide hebben nodig wat ze krijgen) is efficiënt. Veranderen naar 1 tarwe voor 2 erts helpt ontvanger maar schaadt gever, beweegt van grens af. Elite spelers zoeken Pareto-efficiënte ruilen bij samenwerken (wederzijds voordeel) maar eisen buiten-grens ruilen bij targeten tegenstanders (asymmetrische waarde extraheren), vooral van wanhopige spelers dichtbij overwinning."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'stochastic dominance' principle in settlement location evaluation?",
+          es: "¿Qué es el principio de 'dominancia estocástica' en evaluación de ubicación de asentamientos?",
+          de: "Was ist das 'stochastische Dominanz'-Prinzip in Siedlungsstandort-Bewertung?",
+          nl: "Wat is het 'stochastische dominantie' principe in nederzetting locatie evaluatie?"
+        },
+        options: [
+          { en: "Location A stochastically dominates B if A yields better outcomes across all probability scenarios", es: "Ubicación A domina estocásticamente a B si A produce mejores resultados en todos los escenarios de probabilidad", de: "Standort A dominiert B stochastisch wenn A bessere Ergebnisse über alle Wahrscheinlichkeitsszenarien liefert", nl: "Locatie A domineert B stochastisch als A betere uitkomsten levert over alle waarschijnlijkheidsscenario's" },
+          { en: "All locations equally valuable statistically", es: "Todas las ubicaciones igualmente valiosas estadísticamente", de: "Alle Standorte statistisch gleichwertig", nl: "Alle locaties statistisch even waardevol" },
+          { en: "Only applies to city placements", es: "Solo se aplica a colocaciones de ciudad", de: "Gilt nur für Stadtplatzierungen", nl: "Geldt alleen voor stadsplaatsingen" },
+          { en: "Dominance requires identical pip values", es: "La dominancia requiere valores de pip idénticos", de: "Dominanz erfordert identische Pip-Werte", nl: "Dominantie vereist identieke pip waarden" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Advanced probability theory: Location A (6-8-5, 14 pips) stochastically dominates Location B (4-9-10, 12 pips) because: (1) same expected value OR higher, AND (2) better outcomes in worst-case scenarios. Even if both average 1.2 resources/turn, A's distribution has higher probability of productive turns (less variance). This cumulative distribution function dominance guides elite settlement choices: prefer locations that win across all dice scenarios, not just average cases.",
+          es: "Teoría de probabilidad avanzada: Ubicación A (6-8-5, 14 pips) domina estocásticamente Ubicación B (4-9-10, 12 pips) porque: (1) valor esperado igual O mayor, Y (2) mejores resultados en escenarios de peor caso. Incluso si ambos promedian 1.2 recursos/turno, la distribución de A tiene mayor probabilidad de turnos productivos (menos varianza). Esta dominancia de función de distribución acumulativa guía elecciones de asentamiento de élite: prefiere ubicaciones que ganan en todos los escenarios de dados, no solo casos promedio.",
+          de: "Fortgeschrittene Wahrscheinlichkeitstheorie: Standort A (6-8-5, 14 Pips) dominiert B (4-9-10, 12 Pips) stochastisch weil: (1) gleicher Erwartungswert ODER höher, UND (2) bessere Ergebnisse in Worst-Case-Szenarien. Selbst wenn beide 1,2 Ressourcen/Zug durchschnittlich, hat A's Verteilung höhere Wahrscheinlichkeit produktiver Züge (weniger Varianz). Diese kumulative Verteilungsfunktions-Dominanz leitet Elite-Siedlungswahlen: bevorzuge Standorte die über alle Würfelszenarien gewinnen, nicht nur Durchschnittsfälle.",
+          nl: "Geavanceerde waarschijnlijkheidstheorie: Locatie A (6-8-5, 14 pips) domineert B (4-9-10, 12 pips) stochastisch omdat: (1) zelfde verwachte waarde OF hoger, EN (2) betere uitkomsten in slechtste-geval scenario's. Zelfs als beide gemiddeld 1,2 bronnen/beurt, heeft A's verdeling hogere waarschijnlijkheid van productieve beurten (minder variantie). Deze cumulatieve verdelingsfunctie dominantie leidt elite nederzetting keuzes: geef voorkeur aan locaties die winnen over alle dobbelsteen scenario's, niet alleen gemiddelde gevallen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'coalition instability threshold' in 4-player endgames?",
+          es: "¿Qué es el 'umbral de inestabilidad de coalición' en finales de juego de 4 jugadores?",
+          de: "Was ist die 'Koalitionsinstabilitätsschwelle' in 4-Spieler-Endspielen?",
+          nl: "Wat is de 'coalitie instabiliteits drempel' in 4-speler eindspellen?"
+        },
+        options: [
+          { en: "When 2nd place reaches within 1 point of leader, coalition fractures as 2nd pursues solo win", es: "Cuando el 2° lugar alcanza dentro de 1 punto del líder, la coalición se fractura ya que el 2° persigue victoria solo", de: "Wenn Zweitplatzierter innerhalb 1 Punkt von Anführer kommt, bricht Koalition da Zweiter Solo-Sieg verfolgt", nl: "Wanneer 2e plaats binnen 1 punt van leider komt, breekt coalitie omdat 2e solo winst nastreeft" },
+          { en: "Coalitions never fracture in Catan", es: "Las coaliciones nunca se fracturan en Catan", de: "Koalitionen brechen nie in Catan", nl: "Coalities breken nooit in Catan" },
+          { en: "Only at exactly 9 points", es: "Solo en exactamente 9 puntos", de: "Nur bei genau 9 Punkten", nl: "Alleen bij precies 9 punten" },
+          { en: "Threshold exists only in 6-player games", es: "El umbral existe solo en juegos de 6 jugadores", de: "Schwelle existiert nur in 6-Spieler-Spielen", nl: "Drempel bestaat alleen in 6-speler spellen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Game theory dynamics: Anti-leader coalitions remain stable while participants believe blocking the leader maximizes their win probability. But when 2nd place closes gap to 1 point, their calculation shifts: probability of winning themselves (if they race) exceeds probability of long-term coalition success. This triggers coalition breakdown. Leader at 8, 2nd at 7, 3rd/4th at 5 = stable coalition. Leader at 8, 2nd at 7, gap closes = instability. Elite players exploit this by either maintaining 2-point gaps (stability) or deliberately creating 1-point scenarios (chaos).",
+          es: "Dinámica de teoría de juegos: Las coaliciones anti-líder permanecen estables mientras los participantes creen que bloquear al líder maximiza su probabilidad de victoria. Pero cuando el 2° lugar cierra brecha a 1 punto, su cálculo cambia: probabilidad de ganar ellos mismos (si corren) excede probabilidad de éxito de coalición a largo plazo. Esto desencadena colapso de coalición. Líder en 8, 2° en 7, 3°/4° en 5 = coalición estable. Líder en 8, 2° en 7, brecha se cierra = inestabilidad. Los jugadores de élite explotan esto manteniendo brechas de 2 puntos (estabilidad) o creando deliberadamente escenarios de 1 punto (caos).",
+          de: "Spieltheorie-Dynamik: Anti-Anführer-Koalitionen bleiben stabil während Teilnehmer glauben, Anführer zu blockieren maximiert ihre Gewinnwahrscheinlichkeit. Aber wenn Zweitplatzierter Lücke auf 1 Punkt schließt, wechselt ihre Berechnung: Wahrscheinlichkeit selbst zu gewinnen (wenn sie rennen) übersteigt Wahrscheinlichkeit langfristigen Koalitionserfolgs. Dies löst Koalitionszerfall aus. Anführer bei 8, Zweiter bei 7, Dritter/Vierter bei 5 = stabile Koalition. Anführer bei 8, Zweiter bei 7, Lücke schließt = Instabilität. Elite-Spieler nutzen dies durch Aufrechterhalten 2-Punkt-Lücken (Stabilität) oder absichtliches Schaffen 1-Punkt-Szenarien (Chaos).",
+          nl: "Speltheorie dynamica: Anti-leider coalities blijven stabiel terwijl deelnemers geloven dat leider blokkeren hun winkans maximaliseert. Maar wanneer 2e plaats kloof sluit naar 1 punt, verschuift hun berekening: waarschijnlijkheid om zelf te winnen (als ze racen) overschrijdt waarschijnlijkheid van lange-termijn coalitie succes. Dit triggert coalitie afbraak. Leider op 8, 2e op 7, 3e/4e op 5 = stabiele coalitie. Leider op 8, 2e op 7, kloof sluit = instabiliteit. Elite spelers exploiteren dit door ofwel 2-punt kloven te behouden (stabiliteit) of opzettelijk 1-punt scenario's te creëren (chaos)."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'risk-neutral vs risk-averse' decision framework in Catan strategy?",
+          es: "¿Qué es el marco de decisión 'neutral al riesgo vs adverso al riesgo' en la estrategia de Catan?",
+          de: "Was ist der 'risikoneutrale vs risikoaverse' Entscheidungsrahmen in Catan-Strategie?",
+          nl: "Wat is het 'risico-neutraal vs risico-afkerig' beslissings raamwerk in Catan strategie?"
+        },
+        options: [
+          { en: "Risk-neutral maximizes expected value; risk-averse minimizes variance even at EV cost", es: "Neutral al riesgo maximiza valor esperado; adverso al riesgo minimiza varianza incluso a costo de VE", de: "Risikoneutral maximiert Erwartungswert; risikoavers minimiert Varianz selbst zu EV-Kosten", nl: "Risico-neutraal maximaliseert verwachte waarde; risico-afkerig minimaliseert variantie zelfs tegen EV kosten" },
+          { en: "All players should be purely risk-neutral", es: "Todos los jugadores deben ser puramente neutrales al riesgo", de: "Alle Spieler sollten rein risikoneutral sein", nl: "Alle spelers moeten puur risico-neutraal zijn" },
+          { en: "Risk preference doesn't affect Catan", es: "La preferencia de riesgo no afecta a Catan", de: "Risikopräferenz beeinflusst Catan nicht", nl: "Risico voorkeur beïnvloedt Catan niet" },
+          { en: "Only applies to development card purchases", es: "Solo se aplica a compras de cartas de desarrollo", de: "Gilt nur für Entwicklungskartenkäufe", nl: "Geldt alleen voor ontwikkelingskaart aankopen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Decision theory application: Risk-neutral players choose high-variance strategies (all 6s and 8s) maximizing expected value regardless of outcome distribution. Risk-averse players accept slightly lower expected value (spreading across 4-5-6-8-9-10) to ensure consistent production and reduce bankruptcy risk from unlucky dice sequences. Optimal strategy depends on position: leaders should be risk-averse (protect advantage), trailing players should be risk-neutral or risk-seeking (need variance to catch up). Context determines risk preference.",
+          es: "Aplicación de teoría de decisión: Los jugadores neutrales al riesgo eligen estrategias de alta varianza (todos 6s y 8s) maximizando valor esperado independientemente de la distribución de resultados. Los jugadores adversos al riesgo aceptan valor esperado ligeramente menor (distribuyendo en 4-5-6-8-9-10) para asegurar producción consistente y reducir riesgo de quiebra por secuencias de dados desafortunadas. La estrategia óptima depende de posición: los líderes deben ser adversos al riesgo (proteger ventaja), los jugadores rezagados deben ser neutrales o buscadores de riesgo (necesitan varianza para alcanzar). El contexto determina preferencia de riesgo.",
+          de: "Entscheidungstheorieanwendung: Risikoneutrale Spieler wählen Hochvarianz-Strategien (alle 6en und 8en) maximierend Erwartungswert unabhängig von Ergebnisverteilung. Risikoaverse Spieler akzeptieren leicht niedrigeren Erwartungswert (Verteilung über 4-5-6-8-9-10) um konsistente Produktion sicherzustellen und Insolvenzrisiko von unglücklichen Würfelsequenzen zu reduzieren. Optimale Strategie hängt von Position ab: Anführer sollten risikoavers sein (Vorteil schützen), zurückliegende Spieler sollten risikoneutral oder risikosuchend sein (brauchen Varianz zum Aufholen). Kontext bestimmt Risikopräferenz.",
+          nl: "Beslissingstheorie toepassing: Risico-neutrale spelers kiezen hoge-variantie strategieën (alle 6'en en 8'en) maximaliseren verwachte waarde ongeacht uitkomstverdeling. Risico-afkerige spelers accepteren iets lagere verwachte waarde (spreiden over 4-5-6-8-9-10) om consistente productie te verzekeren en faillissementsrisico van ongelukkige dobbelsteen sequenties te verminderen. Optimale strategie hangt af van positie: leiders moeten risico-afkerig zijn (voordeel beschermen), achterop rakende spelers moeten risico-neutraal of risico-zoekend zijn (hebben variantie nodig om in te halen). Context bepaalt risico voorkeur."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'information asymmetry exploitation' in hidden VP card strategies?",
+          es: "¿Qué es la 'explotación de asimetría de información' en estrategias de cartas VP ocultas?",
+          de: "Was ist die 'Informationsasymmetrie-Ausbeutung' in versteckten VP-Kartenstrategien?",
+          nl: "Wat is de 'informatie asymmetrie exploitatie' in verborgen VP kaart strategieën?"
+        },
+        options: [
+          { en: "Deliberately maintain 7 visible points while holding 2-3 VP cards to exploit opponent miscalculation", es: "Mantener deliberadamente 7 puntos visibles mientras se sostienen 2-3 cartas VP para explotar error de cálculo del oponente", de: "Absichtlich 7 sichtbare Punkte halten während 2-3 VP-Karten gehalten werden um Gegner-Fehlberechnung auszunutzen", nl: "Opzettelijk 7 zichtbare punten behouden terwijl 2-3 VP kaarten vasthouden om tegenstander misrekening te exploiteren" },
+          { en: "Always reveal all information immediately", es: "Siempre revelar toda la información inmediatamente", de: "Immer alle Informationen sofort offenbaren", nl: "Altijd alle informatie direct onthullen" },
+          { en: "VP cards should never be held", es: "Las cartas VP nunca deben mantenerse", de: "VP-Karten sollten nie gehalten werden", nl: "VP kaarten moeten nooit vastgehouden worden" },
+          { en: "Information asymmetry illegal in tournaments", es: "Asimetría de información ilegal en torneos", de: "Informationsasymmetrie illegal in Turnieren", nl: "Informatie asymmetrie illegaal in toernooien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Strategic deception theory: Opponents make decisions based on visible scores. By displaying 7 visible points while holding 2 VP cards (actual: 9), you create information asymmetry: opponents underestimate your threat level, avoiding coalition formation. This window (1-3 turns) allows accumulating final resources for 10-point victory before opponents recognize the threat. The deception succeeds because Catan's hidden information (dev cards) creates legitimate uncertainty that expert players weaponize through strategic non-disclosure.",
+          es: "Teoría de engaño estratégico: Los oponentes toman decisiones basadas en puntuaciones visibles. Al mostrar 7 puntos visibles mientras se sostienen 2 cartas VP (real: 9), creas asimetría de información: los oponentes subestiman tu nivel de amenaza, evitando formación de coalición. Esta ventana (1-3 turnos) permite acumular recursos finales para victoria de 10 puntos antes de que los oponentes reconozcan la amenaza. El engaño tiene éxito porque la información oculta de Catan (cartas de desarrollo) crea incertidumbre legítima que los jugadores expertos armonizan mediante no divulgación estratégica.",
+          de: "Strategische Täuschungstheorie: Gegner treffen Entscheidungen basierend auf sichtbaren Punkten. Durch Anzeigen 7 sichtbarer Punkte während 2 VP-Karten gehalten werden (tatsächlich: 9), schafft man Informationsasymmetrie: Gegner unterschätzen Ihr Bedrohungsniveau, vermeiden Koalitionsbildung. Dieses Fenster (1-3 Züge) erlaubt Ansammeln finaler Ressourcen für 10-Punkt-Sieg bevor Gegner Bedrohung erkennen. Die Täuschung gelingt weil Catans versteckte Information (Dev-Karten) legitime Unsicherheit schafft die Experten durch strategische Nichtoffenlegung bewaffnen.",
+          nl: "Strategische misleiding theorie: Tegenstanders maken beslissingen gebaseerd op zichtbare scores. Door 7 zichtbare punten te tonen terwijl 2 VP kaarten vasthouden (werkelijk: 9), creëer je informatie asymmetrie: tegenstanders onderschatten je dreigingsniveau, vermijden coalitie vorming. Dit venster (1-3 beurten) maakt accumuleren finale bronnen mogelijk voor 10-punt overwinning voordat tegenstanders de dreiging herkennen. De misleiding slaagt omdat Catan's verborgen informatie (dev kaarten) legitieme onzekerheid creëert die expert spelers bewapenen door strategische niet-openbaarmaking."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'dynamic programming path' to victory in tournament analysis?",
+          es: "¿Qué es el 'camino de programación dinámica' a la victoria en análisis de torneo?",
+          de: "Was ist der 'dynamische Programmierungs-Pfad' zum Sieg in Turnieranalyse?",
+          nl: "Wat is het 'dynamische programmering pad' naar overwinning in toernooi analyse?"
+        },
+        options: [
+          { en: "Work backward from 10 points calculating optimal move sequences at each state", es: "Trabajar hacia atrás desde 10 puntos calculando secuencias de movimiento óptimas en cada estado", de: "Von 10 Punkten rückwärts arbeiten und optimale Zugsequenzen in jedem Zustand berechnen", nl: "Werk achterwaarts vanaf 10 punten bereken optimale zet sequenties bij elke staat" },
+          { en: "Random moves without planning", es: "Movimientos aleatorios sin planificación", de: "Zufällige Züge ohne Planung", nl: "Willekeurige zetten zonder planning" },
+          { en: "Always build settlements first", es: "Siempre construir asentamientos primero", de: "Immer zuerst Siedlungen bauen", nl: "Altijd eerst nederzettingen bouwen" },
+          { en: "Dynamic programming doesn't apply to Catan", es: "La programación dinámica no se aplica a Catan", de: "Dynamische Programmierung gilt nicht für Catan", nl: "Dynamische programmering geldt niet voor Catan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Computational optimization: Dynamic programming solves Catan by working backward from victory (10 points) to current state, calculating optimal actions at each point level. Example: At 8 points, DP evaluates all paths (settlement+city=10, dev cards+city=10, longest road+settlement=10) and selects minimum expected turns. This backward induction reveals non-obvious strategies like 'skip settlement 4, rush cities instead' that forward planning misses. Elite players intuitively apply this backward-thinking framework.",
+          es: "Optimización computacional: La programación dinámica resuelve Catan trabajando hacia atrás desde la victoria (10 puntos) hasta el estado actual, calculando acciones óptimas en cada nivel de puntos. Ejemplo: En 8 puntos, PD evalúa todos los caminos (asentamiento+ciudad=10, cartas de desarrollo+ciudad=10, camino más largo+asentamiento=10) y selecciona turnos esperados mínimos. Esta inducción hacia atrás revela estrategias no obvias como 'omitir asentamiento 4, apresurarse a ciudades en su lugar' que la planificación hacia adelante pierde. Los jugadores de élite aplican intuitivamente este marco de pensamiento hacia atrás.",
+          de: "Computationale Optimierung: Dynamische Programmierung löst Catan durch Rückwärtsarbeiten vom Sieg (10 Punkte) zum aktuellen Zustand, berechnet optimale Aktionen auf jedem Punktelevel. Beispiel: Bei 8 Punkten evaluiert DP alle Pfade (Siedlung+Stadt=10, Dev-Karten+Stadt=10, längste Straße+Siedlung=10) und wählt minimale erwartete Züge. Diese Rückwärtsinduktion offenbart nicht-offensichtliche Strategien wie 'Siedlung 4 überspringen, stattdessen Städte eilen' die Vorwärtsplanung verfehlt. Elite-Spieler wenden dieses Rückwärtsdenk-Framework intuitiv an.",
+          nl: "Computationele optimalisatie: Dynamische programmering lost Catan op door achterwaarts te werken vanaf overwinning (10 punten) naar huidige staat, bereken optimale acties op elk puntenniveau. Voorbeeld: Bij 8 punten evalueert DP alle paden (nederzetting+stad=10, dev kaarten+stad=10, langste weg+nederzetting=10) en selecteert minimum verwachte beurten. Deze achterwaartse inductie onthult niet-voor-de-hand-liggende strategieën zoals 'sla nederzetting 4 over, haast steden in plaats daarvan' die voorwaartse planning mist. Elite spelers passen dit achterwaarts-denk raamwerk intuïtief toe."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'expected regret minimization' principle in robber placement decisions?",
+          es: "¿Qué es el principio de 'minimización de arrepentimiento esperado' en decisiones de colocación del ladrón?",
+          de: "Was ist das 'erwartetes Bedauern Minimierungs'-Prinzip in Räuberplatzierungsentscheidungen?",
+          nl: "Wat is het 'verwachte spijt minimalisatie' principe in rover plaatsings beslissingen?"
+        },
+        options: [
+          { en: "Place robber to minimize maximum potential regret if opponent wins next turn", es: "Colocar ladrón para minimizar el arrepentimiento potencial máximo si el oponente gana el próximo turno", de: "Räuber platzieren um maximales potentielles Bedauern zu minimieren wenn Gegner nächsten Zug gewinnt", nl: "Plaats rover om maximum potentiële spijt te minimaliseren als tegenstander volgende beurt wint" },
+          { en: "Ignore regret, always maximize personal gain", es: "Ignorar arrepentimiento, siempre maximizar ganancia personal", de: "Bedauern ignorieren, immer persönlichen Gewinn maximieren", nl: "Negeer spijt, altijd persoonlijke winst maximaliseren" },
+          { en: "Random robber placement to avoid patterns", es: "Colocación aleatoria del ladrón para evitar patrones", de: "Zufällige Räuberplatzierung um Muster zu vermeiden", nl: "Willekeurige rover plaatsing om patronen te vermijden" },
+          { en: "Regret minimization doesn't apply to Catan", es: "La minimización de arrepentimiento no se aplica a Catan", de: "Bedauernminimierung gilt nicht für Catan", nl: "Spijt minimalisatie geldt niet voor Catan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Decision theory under uncertainty: When placing robber, evaluate potential regret: 'If I block Player A but Player B wins next turn, how much will I regret not blocking B?' Expected regret = P(opponent wins) × (your position loss if they win). By minimizing maximum regret (minimax regret), you make decisions robust to uncertainty. Example: Leader at 9 points generates high regret if not blocked; 2nd place at 7 points generates low regret. Block the 9-point player to minimize catastrophic regret, even if 7-point player offers better immediate resource steal.",
+          es: "Teoría de decisión bajo incertidumbre: Al colocar ladrón, evalúa arrepentimiento potencial: 'Si bloqueo Jugador A pero Jugador B gana próximo turno, ¿cuánto me arrepentiré de no haber bloqueado B?' Arrepentimiento esperado = P(oponente gana) × (tu pérdida de posición si ganan). Al minimizar arrepentimiento máximo (minimax arrepentimiento), tomas decisiones robustas a incertidumbre. Ejemplo: Líder en 9 puntos genera alto arrepentimiento si no se bloquea; 2° lugar en 7 puntos genera bajo arrepentimiento. Bloquea al jugador de 9 puntos para minimizar arrepentimiento catastrófico, incluso si jugador de 7 puntos ofrece mejor robo inmediato de recursos.",
+          de: "Entscheidungstheorie unter Unsicherheit: Beim Platzieren des Räubers potentielles Bedauern evaluieren: 'Wenn ich Spieler A blockiere aber Spieler B nächsten Zug gewinnt, wie sehr werde ich bedauern B nicht blockiert zu haben?' Erwartetes Bedauern = P(Gegner gewinnt) × (Ihr Positionsverlust wenn sie gewinnen). Durch Minimieren maximalen Bedauerns (Minimax-Bedauern) trifft man Entscheidungen robust gegen Unsicherheit. Beispiel: Anführer bei 9 Punkten generiert hohes Bedauern wenn nicht blockiert; Zweitplatzierter bei 7 Punkten generiert niedriges Bedauern. Blockiere 9-Punkte-Spieler um katastrophales Bedauern zu minimieren, selbst wenn 7-Punkte-Spieler besseren sofortigen Ressourcendiebstahl bietet.",
+          nl: "Beslissingstheorie onder onzekerheid: Bij plaatsen rover, evalueer potentiële spijt: 'Als ik Speler A blokkeer maar Speler B wint volgende beurt, hoeveel zal ik spijt hebben B niet geblokkeerd te hebben?' Verwachte spijt = P(tegenstander wint) × (jouw positie verlies als ze winnen). Door maximum spijt te minimaliseren (minimax spijt), maak je beslissingen robuust tegen onzekerheid. Voorbeeld: Leider bij 9 punten genereert hoge spijt als niet geblokkeerd; 2e plaats bij 7 punten genereert lage spijt. Blokkeer de 9-punten speler om catastrofale spijt te minimaliseren, zelfs als 7-punten speler betere directe bron diefstal biedt."
+        }
       }
     ]
   };

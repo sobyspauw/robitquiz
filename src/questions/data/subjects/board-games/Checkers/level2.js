@@ -427,6 +427,426 @@
           de: "Steine auf der letzten Reihe zu halten ('die Damenreihe bewachen') verhindert, dass der Gegner seine Steine leicht zu Damen befördert, was ein entscheidendes defensives Prinzip ist.",
           nl: "Stenen op je achterste rij houden ('de damrij bewaken') voorkomt dat je tegenstander gemakkelijk zijn stenen promoveert tot dammen, wat een cruciaal defensief principe is."
         }
+      },
+      {
+        question: {
+          en: "What is 'the exchange' in checkers strategy?",
+          es: "¿Qué es 'el intercambio' en estrategia de damas?",
+          de: "Was ist 'der Tausch' in der Dame-Strategie?",
+          nl: "Wat is 'de ruil' in damstrategie?"
+        },
+        options: [
+          { en: "Trading equal pieces", es: "Intercambiar piezas iguales", de: "Gleichwertige Steine tauschen", nl: "Gelijke stenen ruilen" },
+          { en: "Swapping board positions", es: "Intercambiar posiciones del tablero", de: "Brettpositionen tauschen", nl: "Bordposities wisselen" },
+          { en: "Changing game variants", es: "Cambiar variantes del juego", de: "Spielvarianten wechseln", nl: "Spelvarianten veranderen" },
+          { en: "Rotating the board", es: "Rotar el tablero", de: "Das Brett drehen", nl: "Het bord draaien" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The exchange refers to trading pieces with your opponent, typically capturing one of their pieces while allowing them to capture one of yours. Strategic players consider whether exchanges benefit their position.",
+          es: "El intercambio se refiere a intercambiar piezas con tu oponente, típicamente capturando una de sus piezas mientras permites que capture una tuya. Los jugadores estratégicos consideran si los intercambios benefician su posición.",
+          de: "Der Tausch bezieht sich auf das Handeln von Steinen mit dem Gegner, typischerweise das Schlagen eines seiner Steine, während man ihm erlaubt, einen eigenen zu schlagen. Strategische Spieler überlegen, ob Tausche ihrer Position nützen.",
+          nl: "De ruil verwijst naar het ruilen van stenen met je tegenstander, typisch het slaan van één van hun stenen terwijl je toestaat dat ze één van jou slaan. Strategische spelers overwegen of ruilen hun positie ten goede komt."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'cramp' in checkers?",
+          es: "¿Qué es un 'apretón' en las damas?",
+          de: "Was ist eine 'Verkrampfung' beim Dame?",
+          nl: "Wat is een 'kramp' bij dammen?"
+        },
+        options: [
+          { en: "When pieces have limited mobility", es: "Cuando las piezas tienen movilidad limitada", de: "Wenn Steine begrenzte Mobilität haben", nl: "Wanneer stenen beperkte mobiliteit hebben" },
+          { en: "A physical injury from playing too long", es: "Una lesión física por jugar demasiado tiempo", de: "Eine körperliche Verletzung vom zu langen Spielen", nl: "Een fysieke blessure van te lang spelen" },
+          { en: "Capturing three pieces at once", es: "Capturar tres piezas a la vez", de: "Drei Steine auf einmal schlagen", nl: "Drie stenen tegelijk slaan" },
+          { en: "A time pressure situation", es: "Una situación de presión de tiempo", de: "Eine Zeitdruck-Situation", nl: "Een tijdsdruk situatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A cramp occurs when your pieces are restricted and have limited mobility due to opponent's positioning, making it difficult to execute your plans or defend effectively.",
+          es: "Un apretón ocurre cuando tus piezas están restringidas y tienen movilidad limitada debido al posicionamiento del oponente, dificultando ejecutar tus planes o defender efectivamente.",
+          de: "Eine Verkrampfung tritt auf, wenn deine Steine eingeschränkt sind und aufgrund der Positionierung des Gegners begrenzte Mobilität haben, was es schwierig macht, Pläne auszuführen oder effektiv zu verteidigen.",
+          nl: "Een kramp treedt op wanneer je stenen beperkt zijn en beperkte mobiliteit hebben door de positionering van de tegenstander, waardoor het moeilijk is om je plannen uit te voeren of effectief te verdedigen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'majority' principle in checkers endgames?",
+          es: "¿Qué es el principio de 'mayoría' en finales de damas?",
+          de: "Was ist das 'Mehrheits'-Prinzip in Dame-Endspielen?",
+          nl: "Wat is het 'meerderheids'-principe in dam-eindspelen?"
+        },
+        options: [
+          { en: "Having more pieces on one side of the board", es: "Tener más piezas en un lado del tablero", de: "Mehr Steine auf einer Seite des Bretts haben", nl: "Meer stenen aan één kant van het bord hebben" },
+          { en: "Controlling more than half the squares", es: "Controlar más de la mitad de las casillas", de: "Mehr als die Hälfte der Felder kontrollieren", nl: "Meer dan de helft van de vakjes beheersen" },
+          { en: "Having won the most games", es: "Haber ganado la mayoría de los juegos", de: "Die meisten Spiele gewonnen haben", nl: "De meeste spellen gewonnen hebben" },
+          { en: "Using democratic voting for moves", es: "Usar votación democrática para movimientos", de: "Demokratische Abstimmung für Züge verwenden", nl: "Democratische stemming voor zetten gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The majority principle involves creating a numerical advantage on one side of the board (wing), which can then be used to break through and create a king while the opponent is occupied elsewhere.",
+          es: "El principio de mayoría implica crear una ventaja numérica en un lado del tablero (ala), que luego puede usarse para atravesar y crear un rey mientras el oponente está ocupado en otro lugar.",
+          de: "Das Mehrheitsprinzip beinhaltet die Schaffung eines zahlenmäßigen Vorteils auf einer Seite des Bretts (Flügel), der dann genutzt werden kann, um durchzubrechen und eine Dame zu schaffen, während der Gegner anderswo beschäftigt ist.",
+          nl: "Het meerderheidssprincipe houdt in dat je een numeriek voordeel creëert aan één kant van het bord (vleugel), dat vervolgens kan worden gebruikt om door te breken en een dam te maken terwijl de tegenstander elders bezig is."
+        }
+      },
+      {
+        question: {
+          en: "What does it mean to 'strand' a piece?",
+          es: "¿Qué significa 'varar' una pieza?",
+          de: "Was bedeutet es, einen Stein zu 'stranden'?",
+          nl: "Wat betekent het om een steen te 'stranden'?"
+        },
+        options: [
+          { en: "Isolate it from supporting pieces", es: "Aislarla de piezas de apoyo", de: "Ihn von unterstützenden Steinen isolieren", nl: "Hem isoleren van ondersteunende stenen" },
+          { en: "Place it on the edge of the board", es: "Colocarla en el borde del tablero", de: "Ihn an den Rand des Bretts platzieren", nl: "Hem aan de rand van het bord plaatsen" },
+          { en: "Promote it to a king", es: "Promocionarla a rey", de: "Ihn zur Dame befördern", nl: "Hem promoveren tot dam" },
+          { en: "Capture it with multiple pieces", es: "Capturarla con múltiples piezas", de: "Ihn mit mehreren Steinen schlagen", nl: "Hem met meerdere stenen slaan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Stranding a piece means isolating it away from your other pieces, making it vulnerable to capture or unable to contribute effectively to your position.",
+          es: "Varar una pieza significa aislarla lejos de tus otras piezas, haciéndola vulnerable a captura o incapaz de contribuir efectivamente a tu posición.",
+          de: "Einen Stein zu stranden bedeutet, ihn von deinen anderen Steinen zu isolieren, was ihn anfällig für Schläge macht oder unfähig, effektiv zu deiner Position beizutragen.",
+          nl: "Een steen stranden betekent hem isoleren van je andere stenen, waardoor hij kwetsbaar is voor slaan of niet effectief kan bijdragen aan je positie."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'second position' in checkers openings?",
+          es: "¿Qué es la 'segunda posición' en aperturas de damas?",
+          de: "Was ist die 'zweite Position' in Dame-Eröffnungen?",
+          nl: "Wat is de 'tweede positie' in dam-openingen?"
+        },
+        options: [
+          { en: "The position after two moves", es: "La posición después de dos movimientos", de: "Die Position nach zwei Zügen", nl: "De positie na twee zetten" },
+          { en: "Controlling squares behind center squares", es: "Controlar casillas detrás de las casillas centrales", de: "Kontrolle der Felder hinter den zentralen Feldern", nl: "Vakjes achter de centrale vakjes beheersen" },
+          { en: "The runner-up player's position", es: "La posición del segundo jugador", de: "Die Position des Zweitplatzierten", nl: "De positie van de tweede speler" },
+          { en: "Having pieces in the second row", es: "Tener piezas en la segunda fila", de: "Steine in der zweiten Reihe haben", nl: "Stenen in de tweede rij hebben" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The second position refers to controlling the squares immediately behind the center squares, providing support and flexibility for pieces advancing to or occupying the center.",
+          es: "La segunda posición se refiere a controlar las casillas inmediatamente detrás de las casillas centrales, proporcionando apoyo y flexibilidad para piezas que avanzan o ocupan el centro.",
+          de: "Die zweite Position bezieht sich auf die Kontrolle der Felder unmittelbar hinter den zentralen Feldern, was Unterstützung und Flexibilität für Steine bietet, die zum Zentrum vorrücken oder es besetzen.",
+          nl: "De tweede positie verwijst naar het beheersen van de vakjes direct achter de centrale vakjes, wat ondersteuning en flexibiliteit biedt voor stenen die naar het centrum oprukken of het bezetten."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'runaway checker'?",
+          es: "¿Qué es una 'dama fugitiva'?",
+          de: "Was ist ein 'Ausreißer-Stein'?",
+          nl: "Wat is een 'weglopende dam'?"
+        },
+        options: [
+          { en: "A piece that advances rapidly toward promotion", es: "Una pieza que avanza rápidamente hacia la promoción", de: "Ein Stein, der schnell zur Beförderung vorrückt", nl: "Een steen die snel opruk naar promotie" },
+          { en: "A king escaping capture", es: "Un rey escapando de captura", de: "Eine Dame, die einem Schlag entkommt", nl: "Een dam die aan slaan ontsnapt" },
+          { en: "A piece that violates the rules", es: "Una pieza que viola las reglas", de: "Ein Stein, der die Regeln verletzt", nl: "Een steen die de regels overtreedt" },
+          { en: "A piece moving backward illegally", es: "Una pieza moviéndose ilegalmente hacia atrás", de: "Ein Stein, der sich illegal rückwärts bewegt", nl: "Een steen die illegaal achteruit beweegt" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A runaway checker is a piece that has a clear path to the opponent's king row with no enemy pieces able to stop it from promoting, often creating a decisive advantage.",
+          es: "Una dama fugitiva es una pieza que tiene un camino claro hacia la fila del rey del oponente sin piezas enemigas capaces de detener su promoción, a menudo creando una ventaja decisiva.",
+          de: "Ein Ausreißer-Stein ist ein Stein, der einen freien Weg zur Damenreihe des Gegners hat, ohne dass gegnerische Steine ihn von der Beförderung abhalten können, was oft einen entscheidenden Vorteil schafft.",
+          nl: "Een weglopende dam is een steen die een vrije weg heeft naar de damrij van de tegenstander zonder dat vijandelijke stenen hem kunnen stoppen van promoveren, wat vaak een beslissend voordeel creëert."
+        }
+      },
+      {
+        question: {
+          en: "What is the purpose of the 'blockade' strategy?",
+          es: "¿Cuál es el propósito de la estrategia de 'bloqueo'?",
+          de: "Was ist der Zweck der 'Blockade'-Strategie?",
+          nl: "Wat is het doel van de 'blokkade'-strategie?"
+        },
+        options: [
+          { en: "Prevent opponent pieces from advancing", es: "Evitar que las piezas del oponente avancen", de: "Verhindern, dass gegnerische Steine vorrücken", nl: "Voorkomen dat stenen van de tegenstander oprukken" },
+          { en: "Block your own retreat", es: "Bloquear tu propia retirada", de: "Den eigenen Rückzug blockieren", nl: "Je eigen terugtocht blokkeren" },
+          { en: "Stop the game clock", es: "Detener el reloj del juego", de: "Die Spieluhr anhalten", nl: "De spelklok stoppen" },
+          { en: "Create a wall on one edge", es: "Crear una pared en un borde", de: "Eine Mauer an einem Rand bilden", nl: "Een muur aan één rand creëren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A blockade strategy involves positioning your pieces to restrict the opponent's mobility and prevent their pieces from advancing, especially blocking potential kings from reaching your back row.",
+          es: "Una estrategia de bloqueo implica posicionar tus piezas para restringir la movilidad del oponente y evitar que sus piezas avancen, especialmente bloqueando reyes potenciales de llegar a tu última fila.",
+          de: "Eine Blockade-Strategie beinhaltet das Positionieren deiner Steine, um die Mobilität des Gegners einzuschränken und zu verhindern, dass seine Steine vorrücken, besonders das Blockieren potenzieller Damen vom Erreichen deiner letzten Reihe.",
+          nl: "Een blokkade-strategie houdt in dat je je stenen positioneert om de mobiliteit van de tegenstander te beperken en te voorkomen dat hun stenen oprukken, vooral het blokkeren van potentiële dammen van het bereiken van je achterste rij."
+        }
+      },
+      {
+        question: {
+          en: "What does 'the move' refer to in positional play?",
+          es: "¿A qué se refiere 'el movimiento' en el juego posicional?",
+          de: "Worauf bezieht sich 'der Zug' im Positionsspiel?",
+          nl: "Waar verwijst 'de zet' naar in positioneel spel?"
+        },
+        options: [
+          { en: "Who has the turn to play", es: "Quién tiene el turno de jugar", de: "Wer am Zug ist", nl: "Wie er aan de beurt is" },
+          { en: "The best possible move", es: "El mejor movimiento posible", de: "Der bestmögliche Zug", nl: "De best mogelijke zet" },
+          { en: "A mandatory capture", es: "Una captura obligatoria", de: "Ein obligatorischer Schlag", nl: "Een verplichte slag" },
+          { en: "The final winning move", es: "El movimiento ganador final", de: "Der finale gewinnende Zug", nl: "De finale winnende zet" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "In positional play, 'having the move' means it's your turn, which is significant because in many positions, the player to move has a decisive advantage or can force a favorable outcome.",
+          es: "En el juego posicional, 'tener el movimiento' significa que es tu turno, lo cual es significativo porque en muchas posiciones, el jugador que mueve tiene una ventaja decisiva o puede forzar un resultado favorable.",
+          de: "Im Positionsspiel bedeutet 'den Zug haben', dass du am Zug bist, was bedeutend ist, weil in vielen Positionen der Spieler am Zug einen entscheidenden Vorteil hat oder ein günstiges Ergebnis erzwingen kann.",
+          nl: "In positioneel spel betekent 'de zet hebben' dat het jouw beurt is, wat belangrijk is omdat in veel posities de speler aan zet een beslissend voordeel heeft of een gunstig resultaat kan forceren."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'checker squeeze'?",
+          es: "¿Qué es un 'apretón de damas'?",
+          de: "Was ist ein 'Dame-Druck'?",
+          nl: "Wat is een 'dam-knel'?"
+        },
+        options: [
+          { en: "Forcing opponent into zugzwang", es: "Forzar al oponente a zugzwang", de: "Den Gegner in Zugzwang zwingen", nl: "De tegenstander in zugzwang dwingen" },
+          { en: "Compressing pieces into corner", es: "Comprimir piezas en la esquina", de: "Steine in die Ecke komprimieren", nl: "Stenen in de hoek samenpersen" },
+          { en: "Physically squeezing the pieces", es: "Apretar físicamente las piezas", de: "Die Steine physisch drücken", nl: "De stenen fysiek knijpen" },
+          { en: "Reducing time on the clock", es: "Reducir tiempo en el reloj", de: "Zeit auf der Uhr reduzieren", nl: "Tijd op de klok verminderen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A checker squeeze forces your opponent into a position where any move they make worsens their position (zugzwang), giving you a tactical or strategic advantage.",
+          es: "Un apretón de damas fuerza a tu oponente a una posición donde cualquier movimiento que haga empeora su posición (zugzwang), dándote una ventaja táctica o estratégica.",
+          de: "Ein Dame-Druck zwingt deinen Gegner in eine Position, wo jeder Zug, den er macht, seine Position verschlechtert (Zugzwang), was dir einen taktischen oder strategischen Vorteil gibt.",
+          nl: "Een dam-knel dwingt je tegenstander in een positie waar elke zet die hij doet zijn positie verslechtert (zugzwang), wat jou een tactisch of strategisch voordeel geeft."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'pairing' principle in checkers?",
+          es: "¿Qué es el principio de 'emparejamiento' en las damas?",
+          de: "Was ist das 'Paarungs'-Prinzip beim Dame?",
+          nl: "Wat is het 'koppel'-principe bij dammen?"
+        },
+        options: [
+          { en: "Keeping pieces in mutual support pairs", es: "Mantener piezas en pares de apoyo mutuo", de: "Steine in gegenseitigen Unterstützungspaaren halten", nl: "Stenen in wederzijdse ondersteunende paren houden" },
+          { en: "Playing in doubles format", es: "Jugar en formato de dobles", de: "Im Doppelformat spielen", nl: "In dubbel formaat spelen" },
+          { en: "Matching opponent's every move", es: "Igualar cada movimiento del oponente", de: "Jeden Zug des Gegners nachahmen", nl: "Elke zet van de tegenstander matchen" },
+          { en: "Grouping pieces by color", es: "Agrupar piezas por color", de: "Steine nach Farbe gruppieren", nl: "Stenen groeperen op kleur" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The pairing principle involves keeping pieces close together in mutually supportive positions, where they can protect each other and create stronger defensive or offensive formations.",
+          es: "El principio de emparejamiento implica mantener piezas cerca juntas en posiciones de apoyo mutuo, donde pueden protegerse mutuamente y crear formaciones defensivas u ofensivas más fuertes.",
+          de: "Das Paarungsprinzip beinhaltet, Steine in gegenseitiger Unterstützung zusammenzuhalten, wo sie sich gegenseitig schützen und stärkere defensive oder offensive Formationen schaffen können.",
+          nl: "Het koppelprincipe houdt in dat je stenen dicht bij elkaar houdt in wederzijds ondersteunende posities, waar ze elkaar kunnen beschermen en sterkere defensieve of offensieve formaties kunnen creëren."
+        }
+      },
+      {
+        question: {
+          en: "What is 'zugzwang' in checkers?",
+          es: "¿Qué es 'zugzwang' en las damas?",
+          de: "Was ist 'Zugzwang' beim Dame?",
+          nl: "Wat is 'zugzwang' bij dammen?"
+        },
+        options: [
+          { en: "Being forced to move when any move worsens position", es: "Verse forzado a mover cuando cualquier movimiento empeora la posición", de: "Gezwungen sein zu ziehen, wenn jeder Zug die Position verschlechtert", nl: "Gedwongen zijn te zetten wanneer elke zet de positie verslechtert" },
+          { en: "A German opening strategy", es: "Una estrategia de apertura alemana", de: "Eine deutsche Eröffnungsstrategie", nl: "Een Duitse openingsstrategie" },
+          { en: "Capturing with a king", es: "Capturar con un rey", de: "Mit einer Dame schlagen", nl: "Slaan met een dam" },
+          { en: "A mandatory jump rule", es: "Una regla de salto obligatorio", de: "Eine obligatorische Sprung-Regel", nl: "Een verplichte sprong-regel" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Zugzwang is a situation where a player is forced to move but any legal move will worsen their position, often leading to a loss of material or the game.",
+          es: "Zugzwang es una situación donde un jugador se ve forzado a mover pero cualquier movimiento legal empeorará su posición, a menudo llevando a la pérdida de material o del juego.",
+          de: "Zugzwang ist eine Situation, in der ein Spieler gezwungen ist zu ziehen, aber jeder legale Zug seine Position verschlechtert, was oft zum Verlust von Material oder des Spiels führt.",
+          nl: "Zugzwang is een situatie waarbij een speler gedwongen is te zetten maar elke legale zet zijn positie verslechtert, vaak leidend tot verlies van materiaal of het spel."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'triangle' formation?",
+          es: "¿Qué es la formación de 'triángulo'?",
+          de: "Was ist die 'Dreieck'-Formation?",
+          nl: "Wat is de 'driehoek'-formatie?"
+        },
+        options: [
+          { en: "Three pieces arranged in mutual support", es: "Tres piezas dispuestas en apoyo mutuo", de: "Drei Steine in gegenseitiger Unterstützung angeordnet", nl: "Drie stenen gerangschikt in wederzijdse ondersteuning" },
+          { en: "A three-player game variant", es: "Una variante de juego de tres jugadores", de: "Eine Drei-Spieler-Spielvariante", nl: "Een drie-spelers spelvariant" },
+          { en: "Pieces in three rows", es: "Piezas en tres filas", de: "Steine in drei Reihen", nl: "Stenen in drie rijen" },
+          { en: "A three-move combination", es: "Una combinación de tres movimientos", de: "Eine Drei-Zug-Kombination", nl: "Een drie-zetten combinatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The triangle formation consists of three pieces arranged to protect each other, creating a strong defensive structure that's difficult for opponents to break through.",
+          es: "La formación de triángulo consiste en tres piezas dispuestas para protegerse mutuamente, creando una estructura defensiva fuerte que es difícil de atravesar para los oponentes.",
+          de: "Die Dreieck-Formation besteht aus drei Steinen, die so angeordnet sind, dass sie sich gegenseitig schützen und eine starke Defensivstruktur schaffen, die für Gegner schwer zu durchbrechen ist.",
+          nl: "De driehoek-formatie bestaat uit drie stenen die zo gerangschikt zijn dat ze elkaar beschermen, wat een sterke defensieve structuur creëert die moeilijk te doorbreken is voor tegenstanders."
+        }
+      },
+      {
+        question: {
+          en: "What is meant by 'initiative' in checkers?",
+          es: "¿Qué se entiende por 'iniciativa' en las damas?",
+          de: "Was bedeutet 'Initiative' beim Dame?",
+          nl: "Wat wordt bedoeld met 'initiatief' bij dammen?"
+        },
+        options: [
+          { en: "Making the first move of the game", es: "Hacer el primer movimiento del juego", de: "Den ersten Zug des Spiels machen", nl: "De eerste zet van het spel doen" },
+          { en: "Controlling the flow and forcing opponent to react", es: "Controlar el flujo y forzar al oponente a reaccionar", de: "Den Spielfluss kontrollieren und den Gegner zum Reagieren zwingen", nl: "De flow controleren en de tegenstander dwingen te reageren" },
+          { en: "Starting a new game", es: "Comenzar un nuevo juego", de: "Ein neues Spiel beginnen", nl: "Een nieuw spel starten" },
+          { en: "Proposing rule changes", es: "Proponer cambios de reglas", de: "Regeländerungen vorschlagen", nl: "Regelwijzigingen voorstellen" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Having the initiative means you're making threats and forcing your opponent to respond defensively, controlling the tempo and direction of the game rather than reacting to their moves.",
+          es: "Tener la iniciativa significa que estás haciendo amenazas y forzando a tu oponente a responder defensivamente, controlando el tempo y dirección del juego en lugar de reaccionar a sus movimientos.",
+          de: "Die Initiative zu haben bedeutet, dass du Drohungen machst und deinen Gegner zwingst, defensiv zu reagieren, wobei du das Tempo und die Richtung des Spiels kontrollierst, anstatt auf seine Züge zu reagieren.",
+          nl: "Het initiatief hebben betekent dat je bedreigingen maakt en je tegenstander dwingt defensief te reageren, waarbij je het tempo en de richting van het spel controleert in plaats van te reageren op hun zetten."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'free move' in checkers?",
+          es: "¿Qué es un 'movimiento libre' en las damas?",
+          de: "Was ist ein 'freier Zug' beim Dame?",
+          nl: "Wat is een 'vrije zet' bij dammen?"
+        },
+        options: [
+          { en: "A move that doesn't cost material or position", es: "Un movimiento que no cuesta material o posición", de: "Ein Zug, der kein Material oder Position kostet", nl: "Een zet die geen materiaal of positie kost" },
+          { en: "Moving without the opponent watching", es: "Moverse sin que el oponente mire", de: "Ziehen ohne dass der Gegner zuschaut", nl: "Zetten zonder dat de tegenstander kijkt" },
+          { en: "A bonus turn", es: "Un turno de bonificación", de: "Ein Bonus-Zug", nl: "Een bonus beurt" },
+          { en: "Skipping a mandatory capture", es: "Saltarse una captura obligatoria", de: "Einen obligatorischen Schlag überspringen", nl: "Een verplichte slag overslaan" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A free move is one that improves your position or maintains it without any cost in material or positional disadvantage, essentially gaining tempo or improving your setup without sacrifice.",
+          es: "Un movimiento libre es uno que mejora tu posición o la mantiene sin ningún costo en material o desventaja posicional, esencialmente ganando tempo o mejorando tu configuración sin sacrificio.",
+          de: "Ein freier Zug ist einer, der deine Position verbessert oder aufrechterhält ohne Kosten in Material oder Positionsnachteil, im Wesentlichen Tempo gewinnend oder deine Aufstellung verbessernd ohne Opfer.",
+          nl: "Een vrije zet is er één die je positie verbetert of behoudt zonder enige kosten in materiaal of positioneel nadeel, in wezen tempo winnend of je opstelling verbeterend zonder offer."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'opposition of kings' endgame concept?",
+          es: "¿Qué es el concepto de final de 'oposición de reyes'?",
+          de: "Was ist das 'Opposition der Damen'-Endspielkonzept?",
+          nl: "Wat is het 'oppositie van dammen'-eindspel concept?"
+        },
+        options: [
+          { en: "Two kings facing each other with the move deciding the outcome", es: "Dos reyes enfrentándose con el movimiento decidiendo el resultado", de: "Zwei Damen gegenüber mit dem Zug, der das Ergebnis entscheidet", nl: "Twee dammen tegenover elkaar met de zet die de uitkomst bepaalt" },
+          { en: "Kings on opposite sides of the board", es: "Reyes en lados opuestos del tablero", de: "Damen auf gegenüberliegenden Seiten des Bretts", nl: "Dammen aan tegenovergestelde kanten van het bord" },
+          { en: "Kings of different colors", es: "Reyes de diferentes colores", de: "Damen verschiedener Farben", nl: "Dammen van verschillende kleuren" },
+          { en: "Disagreement between two players", es: "Desacuerdo entre dos jugadores", de: "Meinungsverschiedenheit zwischen zwei Spielern", nl: "Meningsverschil tussen twee spelers" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Opposition of kings occurs in endgames where two kings face each other diagonally and whoever has the move (or doesn't have it, depending on position) wins, making tempo crucial.",
+          es: "La oposición de reyes ocurre en finales donde dos reyes se enfrentan diagonalmente y quien tiene el movimiento (o no lo tiene, dependiendo de la posición) gana, haciendo el tempo crucial.",
+          de: "Opposition der Damen tritt in Endspielen auf, wo zwei Damen sich diagonal gegenüberstehen und wer den Zug hat (oder nicht hat, je nach Position) gewinnt, was Tempo entscheidend macht.",
+          nl: "Oppositie van dammen treedt op in eindspelen waar twee dammen elkaar diagonaal tegenoverstaan en wie de zet heeft (of niet heeft, afhankelijk van de positie) wint, wat tempo cruciaal maakt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'counting tempo' in checkers?",
+          es: "¿Qué es 'contar tempo' en las damas?",
+          de: "Was ist 'Tempo zählen' beim Dame?",
+          nl: "Wat is 'tempo tellen' bij dammen?"
+        },
+        options: [
+          { en: "Calculating how many moves to reach a goal", es: "Calcular cuántos movimientos para alcanzar un objetivo", de: "Berechnen, wie viele Züge ein Ziel erreicht wird", nl: "Berekenen hoeveel zetten nodig zijn om een doel te bereiken" },
+          { en: "Timing moves with music", es: "Cronometrar movimientos con música", de: "Züge mit Musik timen", nl: "Zetten timen met muziek" },
+          { en: "Measuring game speed", es: "Medir la velocidad del juego", de: "Spielgeschwindigkeit messen", nl: "Spelsnelheid meten" },
+          { en: "Using a chess clock", es: "Usar un reloj de ajedrez", de: "Eine Schachuhr verwenden", nl: "Een schaakklok gebruiken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Counting tempo means calculating the number of moves needed for each side to achieve their goal (like promoting a piece), which helps determine who will win a race to promotion or other objectives.",
+          es: "Contar tempo significa calcular el número de movimientos necesarios para que cada lado logre su objetivo (como promocionar una pieza), lo que ayuda a determinar quién ganará una carrera hacia la promoción u otros objetivos.",
+          de: "Tempo zählen bedeutet die Anzahl der Züge zu berechnen, die jede Seite benötigt, um ihr Ziel zu erreichen (wie einen Stein zu befördern), was hilft zu bestimmen, wer ein Rennen zur Beförderung oder andere Ziele gewinnt.",
+          nl: "Tempo tellen betekent het aantal zetten berekenen dat elke kant nodig heeft om hun doel te bereiken (zoals een steen promoveren), wat helpt bepalen wie een race naar promotie of andere doelstellingen zal winnen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'key square' in checkers endgames?",
+          es: "¿Qué es una 'casilla clave' en finales de damas?",
+          de: "Was ist ein 'Schlüsselfeld' in Dame-Endspielen?",
+          nl: "Wat is een 'sleutelvakje' in dam-eindspelen?"
+        },
+        options: [
+          { en: "A square that controls the outcome if occupied", es: "Una casilla que controla el resultado si es ocupada", de: "Ein Feld, das das Ergebnis kontrolliert, wenn es besetzt wird", nl: "Een vakje dat de uitkomst controleert als het bezet is" },
+          { en: "The square with a key symbol", es: "La casilla con un símbolo de llave", de: "Das Feld mit einem Schlüsselsymbol", nl: "Het vakje met een sleutelsymbool" },
+          { en: "The center square of the board", es: "La casilla central del tablero", de: "Das zentrale Feld des Bretts", nl: "Het centrale vakje van het bord" },
+          { en: "Where pieces are stored off-board", es: "Donde se guardan las piezas fuera del tablero", de: "Wo Steine außerhalb des Bretts aufbewahrt werden", nl: "Waar stenen buiten het bord worden bewaard" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A key square is a critical square in an endgame that, when controlled or occupied by a piece, determines the outcome of the game, often securing a win or forcing a draw.",
+          es: "Una casilla clave es una casilla crítica en un final que, cuando es controlada u ocupada por una pieza, determina el resultado del juego, a menudo asegurando una victoria o forzando un empate.",
+          de: "Ein Schlüsselfeld ist ein kritisches Feld in einem Endspiel, das, wenn es von einem Stein kontrolliert oder besetzt wird, das Ergebnis des Spiels bestimmt, oft einen Sieg sichert oder ein Unentschieden erzwingt.",
+          nl: "Een sleutelvakje is een kritiek vakje in een eindspel dat, wanneer het gecontroleerd of bezet wordt door een steen, de uitkomst van het spel bepaalt, vaak een overwinning veiligstelt of een remise forceert."
+        }
+      },
+      {
+        question: {
+          en: "What does it mean to 'develop' pieces in the opening?",
+          es: "¿Qué significa 'desarrollar' piezas en la apertura?",
+          de: "Was bedeutet es, Steine in der Eröffnung zu 'entwickeln'?",
+          nl: "Wat betekent het om stenen te 'ontwikkelen' in de opening?"
+        },
+        options: [
+          { en: "Move them from starting position toward the center", es: "Moverlas desde la posición inicial hacia el centro", de: "Sie von der Startposition zur Mitte bewegen", nl: "Ze van de startpositie naar het centrum bewegen" },
+          { en: "Promote them to kings quickly", es: "Promocionarlas a reyes rápidamente", de: "Sie schnell zu Damen befördern", nl: "Ze snel tot dammen promoveren" },
+          { en: "Capture opponent pieces early", es: "Capturar piezas del oponente temprano", de: "Früh gegnerische Steine schlagen", nl: "Vroeg stenen van tegenstander slaan" },
+          { en: "Arrange them in formation", es: "Organizarlas en formación", de: "Sie in Formation anordnen", nl: "Ze in formatie rangschikken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Developing pieces means moving them from their starting positions toward more active squares, typically toward the center where they have more influence and mobility.",
+          es: "Desarrollar piezas significa moverlas desde sus posiciones iniciales hacia casillas más activas, típicamente hacia el centro donde tienen más influencia y movilidad.",
+          de: "Steine entwickeln bedeutet, sie von ihren Startpositionen zu aktiveren Feldern zu bewegen, typischerweise zum Zentrum, wo sie mehr Einfluss und Mobilität haben.",
+          nl: "Stenen ontwikkelen betekent ze van hun startposities naar meer actieve vakjes bewegen, typisch naar het centrum waar ze meer invloed en mobiliteit hebben."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'minority attack' strategy?",
+          es: "¿Qué es la estrategia de 'ataque minoritario'?",
+          de: "Was ist die 'Minderheitsangriffs'-Strategie?",
+          nl: "Wat is de 'minderheidsaanval'-strategie?"
+        },
+        options: [
+          { en: "Attacking with fewer pieces against opponent's majority", es: "Atacar con menos piezas contra la mayoría del oponente", de: "Mit weniger Steinen gegen die Mehrheit des Gegners angreifen", nl: "Aanvallen met minder stenen tegen de meerderheid van de tegenstander" },
+          { en: "Only using regular pieces to attack", es: "Solo usar piezas regulares para atacar", de: "Nur normale Steine zum Angreifen verwenden", nl: "Alleen gewone stenen gebruiken om aan te vallen" },
+          { en: "Attacking with young players", es: "Atacar con jugadores jóvenes", de: "Mit jungen Spielern angreifen", nl: "Aanvallen met jonge spelers" },
+          { en: "Making small, incremental threats", es: "Hacer amenazas pequeñas e incrementales", de: "Kleine, inkrementelle Drohungen machen", nl: "Kleine, incrementele bedreigingen maken" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The minority attack involves using a smaller group of pieces on one wing to attack the opponent's larger group there, aiming to create weaknesses or force favorable exchanges.",
+          es: "El ataque minoritario implica usar un grupo más pequeño de piezas en un ala para atacar el grupo más grande del oponente allí, con el objetivo de crear debilidades o forzar intercambios favorables.",
+          de: "Der Minderheitsangriff beinhaltet die Verwendung einer kleineren Gruppe von Steinen auf einem Flügel, um die größere Gruppe des Gegners dort anzugreifen, mit dem Ziel, Schwächen zu schaffen oder günstige Tausche zu erzwingen.",
+          nl: "De minderheidsaanval houdt in dat je een kleinere groep stenen op één vleugel gebruikt om de grotere groep van de tegenstander daar aan te vallen, met als doel zwaktes te creëren of gunstige ruilen te forceren."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'quiet move' in checkers?",
+          es: "¿Qué es un 'movimiento silencioso' en las damas?",
+          de: "Was ist ein 'ruhiger Zug' beim Dame?",
+          nl: "Wat is een 'rustige zet' bij dammen?"
+        },
+        options: [
+          { en: "A non-capturing move that improves position subtly", es: "Un movimiento sin captura que mejora la posición sutilmente", de: "Ein nicht-schlagender Zug, der die Position subtil verbessert", nl: "Een niet-slaande zet die de positie subtiel verbetert" },
+          { en: "Moving without making noise", es: "Moverse sin hacer ruido", de: "Sich bewegen ohne Geräusche zu machen", nl: "Bewegen zonder geluid te maken" },
+          { en: "A move in the back row", es: "Un movimiento en la fila trasera", de: "Ein Zug in der hinteren Reihe", nl: "Een zet in de achterste rij" },
+          { en: "Passing your turn", es: "Pasar tu turno", de: "Deinen Zug passen", nl: "Je beurt passen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A quiet move is a non-forcing, non-capturing move that subtly improves your position, prepares a combination, or strengthens your structure without making immediate threats.",
+          es: "Un movimiento silencioso es un movimiento no forzado, sin captura que sutilmente mejora tu posición, prepara una combinación, o fortalece tu estructura sin hacer amenazas inmediatas.",
+          de: "Ein ruhiger Zug ist ein nicht-erzwingender, nicht-schlagender Zug, der deine Position subtil verbessert, eine Kombination vorbereitet oder deine Struktur stärkt, ohne unmittelbare Drohungen zu machen.",
+          nl: "Een rustige zet is een niet-forceerende, niet-slaande zet die subtiel je positie verbetert, een combinatie voorbereidt, of je structuur versterkt zonder onmiddellijke bedreigingen te maken."
+        }
       }
     ]
   };

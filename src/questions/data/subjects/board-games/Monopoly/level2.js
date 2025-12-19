@@ -827,6 +827,826 @@
         de: "Nach offiziellen Monopoly-Regeln passiert beim Landen auf Freies Parken nichts - es ist nur ein Ruheplatz.",
         nl: "Volgens de officiële Monopoly-regels gebeurt er niets als je op Gratis Parkeren landt - het is gewoon een rustplek."
       }
+    },
+    {
+      question: {
+        en: "What is the rent on Park Place with no houses?",
+        es: "¿Cuál es el alquiler de Park Place sin casas?",
+        de: "Wie hoch ist die Miete auf Park Place ohne Häuser?",
+        nl: "Wat is de huur op Park Place zonder huizen?"
+      },
+      options: [
+        {
+          en: "$25",
+          es: "$25",
+          de: "$25",
+          nl: "$25"
+        },
+        {
+          en: "$35",
+          es: "$35",
+          de: "$35",
+          nl: "$35"
+        },
+        {
+          en: "$50",
+          es: "$50",
+          de: "$50",
+          nl: "$50"
+        },
+        {
+          en: "$70",
+          es: "$70",
+          de: "$70",
+          nl: "$70"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Park Place charges $35 rent with no houses. With a monopoly (both dark blue properties), rent doubles to $70.",
+        es: "Park Place cobra $35 de alquiler sin casas. Con un monopolio (ambas propiedades azul oscuro), el alquiler se duplica a $70.",
+        de: "Park Place verlangt 35 $ Miete ohne Häuser. Mit einem Monopol (beide dunkelblauen Grundstücke) verdoppelt sich die Miete auf 70 $.",
+        nl: "Park Place vraagt $35 huur zonder huizen. Met een monopolie (beide donkerblauwe eigendommen) verdubbelt de huur naar $70."
+      }
+    },
+    {
+      question: {
+        en: "How much does it cost to buy Baltic Avenue?",
+        es: "¿Cuánto cuesta comprar Baltic Avenue?",
+        de: "Wie viel kostet es, Baltic Avenue zu kaufen?",
+        nl: "Hoeveel kost het om Baltic Avenue te kopen?"
+      },
+      options: [
+        {
+          en: "$50",
+          es: "$50",
+          de: "$50",
+          nl: "$50"
+        },
+        {
+          en: "$60",
+          es: "$60",
+          de: "$60",
+          nl: "$60"
+        },
+        {
+          en: "$80",
+          es: "$80",
+          de: "$80",
+          nl: "$80"
+        },
+        {
+          en: "$100",
+          es: "$100",
+          de: "$100",
+          nl: "$100"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Baltic Avenue costs $60 to purchase, making it one of the cheapest properties along with Mediterranean Avenue.",
+        es: "Baltic Avenue cuesta $60 comprar, lo que la convierte en una de las propiedades más baratas junto con Mediterranean Avenue.",
+        de: "Baltic Avenue kostet 60 $ zum Kauf, was sie zusammen mit Mediterranean Avenue zu einem der billigsten Grundstücke macht.",
+        nl: "Baltic Avenue kost $60 om te kopen, waardoor het een van de goedkoopste eigendommen is samen met Mediterranean Avenue."
+      }
+    },
+    {
+      question: {
+        en: "What color group is St. Charles Place in?",
+        es: "¿En qué grupo de color está St. Charles Place?",
+        de: "Zu welcher Farbgruppe gehört St. Charles Place?",
+        nl: "In welke kleurgroep zit St. Charles Place?"
+      },
+      options: [
+        {
+          en: "Orange",
+          es: "Naranja",
+          de: "Orange",
+          nl: "Oranje"
+        },
+        {
+          en: "Pink",
+          es: "Rosa",
+          de: "Rosa",
+          nl: "Roze"
+        },
+        {
+          en: "Purple",
+          es: "Morado",
+          de: "Lila",
+          nl: "Paars"
+        },
+        {
+          en: "Red",
+          es: "Rojo",
+          de: "Rot",
+          nl: "Rood"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "St. Charles Place is part of the pink (magenta) property group, along with States Avenue and Virginia Avenue.",
+        es: "St. Charles Place es parte del grupo de propiedades rosa (magenta), junto con States Avenue y Virginia Avenue.",
+        de: "St. Charles Place gehört zur rosa (magenta) Grundstücksgruppe, zusammen mit States Avenue und Virginia Avenue.",
+        nl: "St. Charles Place maakt deel uit van de roze (magenta) eigendomsgroep, samen met States Avenue en Virginia Avenue."
+      }
+    },
+    {
+      question: {
+        en: "Which railroad comes first after GO?",
+        es: "¿Qué ferrocarril viene primero después de SALIDA?",
+        de: "Welche Eisenbahn kommt zuerst nach LOS?",
+        nl: "Welke spoorweg komt als eerste na START?"
+      },
+      options: [
+        {
+          en: "Pennsylvania Railroad",
+          es: "Pennsylvania Railroad",
+          de: "Pennsylvania Railroad",
+          nl: "Pennsylvania Railroad"
+        },
+        {
+          en: "Reading Railroad",
+          es: "Reading Railroad",
+          de: "Reading Railroad",
+          nl: "Reading Railroad"
+        },
+        {
+          en: "B&O Railroad",
+          es: "B&O Railroad",
+          de: "B&O Railroad",
+          nl: "B&O Railroad"
+        },
+        {
+          en: "Short Line",
+          es: "Short Line",
+          de: "Short Line",
+          nl: "Short Line"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Reading Railroad is the first railroad on the board, located between the light blue and orange property groups.",
+        es: "Reading Railroad es el primer ferrocarril en el tablero, ubicado entre los grupos de propiedades azul claro y naranja.",
+        de: "Reading Railroad ist die erste Eisenbahn auf dem Brett, zwischen den hellblauen und orangenen Grundstücksgruppen.",
+        nl: "Reading Railroad is de eerste spoorweg op het bord, gelegen tussen de lichtblauwe en oranje eigendomsgroepen."
+      }
+    },
+    {
+      question: {
+        en: "How much is the Luxury Tax?",
+        es: "¿Cuánto es el Impuesto de Lujo?",
+        de: "Wie hoch ist die Luxussteuer?",
+        nl: "Hoeveel is de Luxebelasting?"
+      },
+      options: [
+        {
+          en: "$50",
+          es: "$50",
+          de: "$50",
+          nl: "$50"
+        },
+        {
+          en: "$75",
+          es: "$75",
+          de: "$75",
+          nl: "$75"
+        },
+        {
+          en: "$100",
+          es: "$100",
+          de: "$100",
+          nl: "$100"
+        },
+        {
+          en: "$150",
+          es: "$150",
+          de: "$150",
+          nl: "$150"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Luxury Tax costs $100 when you land on it. It's located between Park Place and Boardwalk.",
+        es: "El Impuesto de Lujo cuesta $100 cuando caes en él. Está ubicado entre Park Place y Boardwalk.",
+        de: "Die Luxussteuer kostet 100 $, wenn man darauf landet. Sie befindet sich zwischen Park Place und Boardwalk.",
+        nl: "Luxebelasting kost $100 wanneer je erop landt. Het bevindt zich tussen Park Place en Boardwalk."
+      }
+    },
+    {
+      question: {
+        en: "What happens if you land on an unowned property and choose not to buy it?",
+        es: "¿Qué sucede si caes en una propiedad sin dueño y decides no comprarla?",
+        de: "Was passiert, wenn Sie auf einem unbewohnten Grundstück landen und es nicht kaufen möchten?",
+        nl: "Wat gebeurt er als je op een onbezet eigendom landt en ervoor kiest het niet te kopen?"
+      },
+      options: [
+        {
+          en: "Nothing, it stays unowned",
+          es: "Nada, sigue sin dueño",
+          de: "Nichts, es bleibt unbewohnt",
+          nl: "Niets, het blijft onbezet"
+        },
+        {
+          en: "It goes to auction",
+          es: "Va a subasta",
+          de: "Es wird versteigert",
+          nl: "Het gaat naar veiling"
+        },
+        {
+          en: "The next player gets it free",
+          es: "El siguiente jugador lo obtiene gratis",
+          de: "Der nächste Spieler bekommt es kostenlos",
+          nl: "De volgende speler krijgt het gratis"
+        },
+        {
+          en: "The bank keeps it",
+          es: "El banco se lo queda",
+          de: "Die Bank behält es",
+          nl: "De bank houdt het"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "According to official rules, if you don't buy an unowned property, it must be auctioned to all players, starting at any price.",
+        es: "Según las reglas oficiales, si no compras una propiedad sin dueño, debe subastarse a todos los jugadores, comenzando en cualquier precio.",
+        de: "Nach offiziellen Regeln muss ein unbewohntes Grundstück, das nicht gekauft wird, an alle Spieler versteigert werden, beginnend bei jedem Preis.",
+        nl: "Volgens de officiële regels moet een onbezet eigendom dat je niet koopt, worden geveild aan alle spelers, beginnend bij elke prijs."
+      }
+    },
+    {
+      question: {
+        en: "How many turns can you stay in jail before you must pay or use a card?",
+        es: "¿Cuántos turnos puedes permanecer en la cárcel antes de tener que pagar o usar una tarjeta?",
+        de: "Wie viele Runden können Sie im Gefängnis bleiben, bevor Sie zahlen oder eine Karte verwenden müssen?",
+        nl: "Hoeveel beurten kun je in de gevangenis blijven voordat je moet betalen of een kaart moet gebruiken?"
+      },
+      options: [
+        {
+          en: "1 turn",
+          es: "1 turno",
+          de: "1 Runde",
+          nl: "1 beurt"
+        },
+        {
+          en: "2 turns",
+          es: "2 turnos",
+          de: "2 Runden",
+          nl: "2 beurten"
+        },
+        {
+          en: "3 turns",
+          es: "3 turnos",
+          de: "3 Runden",
+          nl: "3 beurten"
+        },
+        {
+          en: "4 turns",
+          es: "4 turnos",
+          de: "4 Runden",
+          nl: "4 beurten"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "You can try to roll doubles for up to 3 turns. If you don't roll doubles by the third turn, you must pay $50 or use a Get Out of Jail Free card.",
+        es: "Puedes intentar sacar dobles hasta 3 turnos. Si no sacas dobles en el tercer turno, debes pagar $50 o usar una tarjeta de Salir de la Cárcel Gratis.",
+        de: "Sie können bis zu 3 Runden versuchen, einen Pasch zu würfeln. Wenn Sie bis zur dritten Runde keinen Pasch würfeln, müssen Sie 50 $ zahlen oder eine Frei-aus-dem-Gefängnis-Karte verwenden.",
+        nl: "Je kunt tot 3 beurten proberen dubbel te gooien. Als je niet dubbel gooit tegen de derde beurt, moet je $50 betalen of een Uit de Gevangenis Vrij-kaart gebruiken."
+      }
+    },
+    {
+      question: {
+        en: "What is the base rent for owning all four railroads?",
+        es: "¿Cuál es el alquiler base por poseer los cuatro ferrocarriles?",
+        de: "Wie hoch ist die Grundmiete für den Besitz aller vier Eisenbahnen?",
+        nl: "Wat is de basishuur voor het bezitten van alle vier spoorwegen?"
+      },
+      options: [
+        {
+          en: "$100",
+          es: "$100",
+          de: "$100",
+          nl: "$100"
+        },
+        {
+          en: "$150",
+          es: "$150",
+          de: "$150",
+          nl: "$150"
+        },
+        {
+          en: "$200",
+          es: "$200",
+          de: "$200",
+          nl: "$200"
+        },
+        {
+          en: "$250",
+          es: "$250",
+          de: "$250",
+          nl: "$250"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "If you own all four railroads, the rent is $200 per railroad. Rent is $25 for one, $50 for two, $100 for three, and $200 for all four.",
+        es: "Si posees los cuatro ferrocarriles, el alquiler es de $200 por ferrocarril. El alquiler es $25 por uno, $50 por dos, $100 por tres y $200 por los cuatro.",
+        de: "Wenn Sie alle vier Eisenbahnen besitzen, beträgt die Miete 200 $ pro Eisenbahn. Die Miete beträgt 25 $ für eine, 50 $ für zwei, 100 $ für drei und 200 $ für alle vier.",
+        nl: "Als je alle vier spoorwegen bezit, is de huur $200 per spoorweg. Huur is $25 voor één, $50 voor twee, $100 voor drie en $200 voor alle vier."
+      }
+    },
+    {
+      question: {
+        en: "Which property is directly before GO on the board?",
+        es: "¿Qué propiedad está directamente antes de SALIDA en el tablero?",
+        de: "Welches Grundstück befindet sich direkt vor LOS auf dem Brett?",
+        nl: "Welk eigendom ligt direct voor START op het bord?"
+      },
+      options: [
+        {
+          en: "Boardwalk",
+          es: "Boardwalk",
+          de: "Boardwalk",
+          nl: "Boardwalk"
+        },
+        {
+          en: "Park Place",
+          es: "Park Place",
+          de: "Park Place",
+          nl: "Park Place"
+        },
+        {
+          en: "Short Line",
+          es: "Short Line",
+          de: "Short Line",
+          nl: "Short Line"
+        },
+        {
+          en: "Luxury Tax",
+          es: "Impuesto de Lujo",
+          de: "Luxussteuer",
+          nl: "Luxebelasting"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Boardwalk is the last property before GO. Going clockwise: Boardwalk, then GO, then Community Chest, then Mediterranean Avenue.",
+        es: "Boardwalk es la última propiedad antes de SALIDA. En sentido horario: Boardwalk, luego SALIDA, luego Arca Comunal, luego Mediterranean Avenue.",
+        de: "Boardwalk ist das letzte Grundstück vor LOS. Im Uhrzeigersinn: Boardwalk, dann LOS, dann Gemeinschaftskasse, dann Mediterranean Avenue.",
+        nl: "Boardwalk is het laatste eigendom voor START. Met de klok mee: Boardwalk, dan START, dan Algemeen Fonds, dan Mediterranean Avenue."
+      }
+    },
+    {
+      question: {
+        en: "What must you own before you can build houses?",
+        es: "¿Qué debes poseer antes de poder construir casas?",
+        de: "Was müssen Sie besitzen, bevor Sie Häuser bauen können?",
+        nl: "Wat moet je bezitten voordat je huizen kunt bouwen?"
+      },
+      options: [
+        {
+          en: "At least two properties",
+          es: "Al menos dos propiedades",
+          de: "Mindestens zwei Grundstücke",
+          nl: "Minstens twee eigendommen"
+        },
+        {
+          en: "All properties of one color group",
+          es: "Todas las propiedades de un grupo de color",
+          de: "Alle Grundstücke einer Farbgruppe",
+          nl: "Alle eigendommen van één kleurgroep"
+        },
+        {
+          en: "A railroad",
+          es: "Un ferrocarril",
+          de: "Eine Eisenbahn",
+          nl: "Een spoorweg"
+        },
+        {
+          en: "Both utilities",
+          es: "Ambos servicios públicos",
+          de: "Beide Versorgungsunternehmen",
+          nl: "Beide nutsbedrijven"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "You must own all properties of one complete color group (a monopoly) before you can build houses on any of them.",
+        es: "Debes poseer todas las propiedades de un grupo de color completo (un monopolio) antes de poder construir casas en cualquiera de ellas.",
+        de: "Sie müssen alle Grundstücke einer vollständigen Farbgruppe (ein Monopol) besitzen, bevor Sie auf einem von ihnen Häuser bauen können.",
+        nl: "Je moet alle eigendommen van één complete kleurgroep (een monopolie) bezitten voordat je huizen kunt bouwen op een ervan."
+      }
+    },
+    {
+      question: {
+        en: "How many houses are in a standard Monopoly set?",
+        es: "¿Cuántas casas hay en un set estándar de Monopoly?",
+        de: "Wie viele Häuser gibt es in einem Standard-Monopoly-Set?",
+        nl: "Hoeveel huizen zitten er in een standaard Monopoly-set?"
+      },
+      options: [
+        {
+          en: "24",
+          es: "24",
+          de: "24",
+          nl: "24"
+        },
+        {
+          en: "28",
+          es: "28",
+          de: "28",
+          nl: "28"
+        },
+        {
+          en: "32",
+          es: "32",
+          de: "32",
+          nl: "32"
+        },
+        {
+          en: "36",
+          es: "36",
+          de: "36",
+          nl: "36"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "A standard Monopoly set contains 32 houses (green plastic buildings). When they run out, no more can be built until some are sold back.",
+        es: "Un set estándar de Monopoly contiene 32 casas (edificios de plástico verde). Cuando se agotan, no se pueden construir más hasta que algunas se vendan de vuelta.",
+        de: "Ein Standard-Monopoly-Set enthält 32 Häuser (grüne Plastikgebäude). Wenn sie ausgehen, können keine weiteren gebaut werden, bis einige zurückverkauft werden.",
+        nl: "Een standaard Monopoly-set bevat 32 huizen (groene plastic gebouwen). Als ze op zijn, kunnen er geen meer worden gebouwd totdat er een aantal worden terugverkocht."
+      }
+    },
+    {
+      question: {
+        en: "How many hotels are in a standard Monopoly set?",
+        es: "¿Cuántos hoteles hay en un set estándar de Monopoly?",
+        de: "Wie viele Hotels gibt es in einem Standard-Monopoly-Set?",
+        nl: "Hoeveel hotels zitten er in een standaard Monopoly-set?"
+      },
+      options: [
+        {
+          en: "8",
+          es: "8",
+          de: "8",
+          nl: "8"
+        },
+        {
+          en: "10",
+          es: "10",
+          de: "10",
+          nl: "10"
+        },
+        {
+          en: "12",
+          es: "12",
+          de: "12",
+          nl: "12"
+        },
+        {
+          en: "16",
+          es: "16",
+          de: "16",
+          nl: "16"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "There are 12 hotels (red plastic buildings) in a standard Monopoly set. Like houses, when they run out, no more can be built.",
+        es: "Hay 12 hoteles (edificios de plástico rojo) en un set estándar de Monopoly. Como las casas, cuando se agotan, no se pueden construir más.",
+        de: "Es gibt 12 Hotels (rote Plastikgebäude) in einem Standard-Monopoly-Set. Wie bei Häusern können keine weiteren gebaut werden, wenn sie ausgehen.",
+        nl: "Er zijn 12 hotels (rode plastic gebouwen) in een standaard Monopoly-set. Net als huizen, als ze op zijn, kunnen er geen meer worden gebouwd."
+      }
+    },
+    {
+      question: {
+        en: "What color is Pennsylvania Avenue?",
+        es: "¿De qué color es Pennsylvania Avenue?",
+        de: "Welche Farbe hat Pennsylvania Avenue?",
+        nl: "Welke kleur is Pennsylvania Avenue?"
+      },
+      options: [
+        {
+          en: "Yellow",
+          es: "Amarillo",
+          de: "Gelb",
+          nl: "Geel"
+        },
+        {
+          en: "Red",
+          es: "Rojo",
+          de: "Rot",
+          nl: "Rood"
+        },
+        {
+          en: "Green",
+          es: "Verde",
+          de: "Grün",
+          nl: "Groen"
+        },
+        {
+          en: "Orange",
+          es: "Naranja",
+          de: "Orange",
+          nl: "Oranje"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Pennsylvania Avenue is part of the green property group, along with Pacific Avenue and North Carolina Avenue.",
+        es: "Pennsylvania Avenue es parte del grupo de propiedades verdes, junto con Pacific Avenue y North Carolina Avenue.",
+        de: "Pennsylvania Avenue gehört zur grünen Grundstücksgruppe, zusammen mit Pacific Avenue und North Carolina Avenue.",
+        nl: "Pennsylvania Avenue maakt deel uit van de groene eigendomsgroep, samen met Pacific Avenue en North Carolina Avenue."
+      }
+    },
+    {
+      question: {
+        en: "If you mortgage a property, how much do you receive?",
+        es: "Si hipotecas una propiedad, ¿cuánto recibes?",
+        de: "Wenn Sie ein Grundstück beleihen, wie viel erhalten Sie?",
+        nl: "Als je een eigendom hypothekeert, hoeveel ontvang je dan?"
+      },
+      options: [
+        {
+          en: "Full purchase price",
+          es: "Precio de compra completo",
+          de: "Voller Kaufpreis",
+          nl: "Volledige aankoopprijs"
+        },
+        {
+          en: "Half the purchase price",
+          es: "La mitad del precio de compra",
+          de: "Halber Kaufpreis",
+          nl: "Helft van de aankoopprijs"
+        },
+        {
+          en: "Quarter of the purchase price",
+          es: "Un cuarto del precio de compra",
+          de: "Viertel des Kaufpreises",
+          nl: "Kwart van de aankoopprijs"
+        },
+        {
+          en: "Double the purchase price",
+          es: "El doble del precio de compra",
+          de: "Doppelter Kaufpreis",
+          nl: "Dubbele aankoopprijs"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "When you mortgage a property, you receive half of its purchase price from the bank. To unmortgage it, you pay back the mortgage plus 10% interest.",
+        es: "Cuando hipotecas una propiedad, recibes la mitad de su precio de compra del banco. Para deshipotecarla, pagas la hipoteca más un 10% de interés.",
+        de: "Wenn Sie ein Grundstück beleihen, erhalten Sie die Hälfte des Kaufpreises von der Bank. Um es zu entpfänden, zahlen Sie die Hypothek plus 10% Zinsen zurück.",
+        nl: "Wanneer je een eigendom hypothekeert, ontvang je de helft van de aankoopprijs van de bank. Om het te onthypothekeren, betaal je de hypotheek plus 10% rente terug."
+      }
+    },
+    {
+      question: {
+        en: "What is the second-most expensive property after Boardwalk?",
+        es: "¿Cuál es la segunda propiedad más cara después de Boardwalk?",
+        de: "Was ist das zweitteuerste Grundstück nach Boardwalk?",
+        nl: "Wat is het op één na duurste eigendom na Boardwalk?"
+      },
+      options: [
+        {
+          en: "Park Place",
+          es: "Park Place",
+          de: "Park Place",
+          nl: "Park Place"
+        },
+        {
+          en: "Pennsylvania Avenue",
+          es: "Pennsylvania Avenue",
+          de: "Pennsylvania Avenue",
+          nl: "Pennsylvania Avenue"
+        },
+        {
+          en: "Pacific Avenue",
+          es: "Pacific Avenue",
+          de: "Pacific Avenue",
+          nl: "Pacific Avenue"
+        },
+        {
+          en: "North Carolina Avenue",
+          es: "North Carolina Avenue",
+          de: "North Carolina Avenue",
+          nl: "North Carolina Avenue"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Park Place is the second-most expensive property at $350, just behind Boardwalk at $400. Both are in the dark blue group.",
+        es: "Park Place es la segunda propiedad más cara a $350, justo detrás de Boardwalk a $400. Ambas están en el grupo azul oscuro.",
+        de: "Park Place ist das zweitteuerste Grundstück mit 350 $, knapp hinter Boardwalk mit 400 $. Beide sind in der dunkelblauen Gruppe.",
+        nl: "Park Place is het op één na duurste eigendom voor $350, net achter Boardwalk voor $400. Beide zijn in de donkerblauwe groep."
+      }
+    },
+    {
+      question: {
+        en: "How much does a house cost on the orange properties?",
+        es: "¿Cuánto cuesta una casa en las propiedades naranjas?",
+        de: "Wie viel kostet ein Haus auf den orangenen Grundstücken?",
+        nl: "Hoeveel kost een huis op de oranje eigendommen?"
+      },
+      options: [
+        {
+          en: "$50",
+          es: "$50",
+          de: "$50",
+          nl: "$50"
+        },
+        {
+          en: "$100",
+          es: "$100",
+          de: "$100",
+          nl: "$100"
+        },
+        {
+          en: "$150",
+          es: "$150",
+          de: "$150",
+          nl: "$150"
+        },
+        {
+          en: "$200",
+          es: "$200",
+          de: "$200",
+          nl: "$200"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Houses on the orange properties (St. James Place, Tennessee Avenue, New York Avenue) cost $100 each. The orange group is considered very valuable strategically.",
+        es: "Las casas en las propiedades naranjas (St. James Place, Tennessee Avenue, New York Avenue) cuestan $100 cada una. El grupo naranja se considera muy valioso estratégicamente.",
+        de: "Häuser auf den orangenen Grundstücken (St. James Place, Tennessee Avenue, New York Avenue) kosten jeweils 100 $. Die orangene Gruppe gilt als strategisch sehr wertvoll.",
+        nl: "Huizen op de oranje eigendommen (St. James Place, Tennessee Avenue, New York Avenue) kosten elk $100. De oranje groep wordt als zeer waardevol beschouwd strategisch."
+      }
+    },
+    {
+      question: {
+        en: "Can you collect rent while in jail?",
+        es: "¿Puedes cobrar alquiler mientras estás en la cárcel?",
+        de: "Können Sie Miete einziehen, während Sie im Gefängnis sind?",
+        nl: "Kun je huur innen terwijl je in de gevangenis zit?"
+      },
+      options: [
+        {
+          en: "No, you cannot collect any money",
+          es: "No, no puedes cobrar ningún dinero",
+          de: "Nein, Sie können kein Geld einziehen",
+          nl: "Nee, je kunt geen geld innen"
+        },
+        {
+          en: "Yes, you can still collect rent",
+          es: "Sí, aún puedes cobrar alquiler",
+          de: "Ja, Sie können weiterhin Miete einziehen",
+          nl: "Ja, je kunt nog steeds huur innen"
+        },
+        {
+          en: "Only if you own a monopoly",
+          es: "Solo si tienes un monopolio",
+          de: "Nur wenn Sie ein Monopol besitzen",
+          nl: "Alleen als je een monopolie bezit"
+        },
+        {
+          en: "Only on railroads and utilities",
+          es: "Solo en ferrocarriles y servicios públicos",
+          de: "Nur auf Eisenbahnen und Versorgungsunternehmen",
+          nl: "Alleen op spoorwegen en nutsbedrijven"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Yes, you can still collect rent, buy and sell properties, and build houses while in jail. Being in jail only restricts your movement.",
+        es: "Sí, aún puedes cobrar alquiler, comprar y vender propiedades, y construir casas mientras estás en la cárcel. Estar en la cárcel solo restringe tu movimiento.",
+        de: "Ja, Sie können weiterhin Miete einziehen, Grundstücke kaufen und verkaufen und Häuser bauen, während Sie im Gefängnis sind. Im Gefängnis zu sein beschränkt nur Ihre Bewegung.",
+        nl: "Ja, je kunt nog steeds huur innen, eigendommen kopen en verkopen, en huizen bouwen terwijl je in de gevangenis zit. In de gevangenis zitten beperkt alleen je beweging."
+      }
+    },
+    {
+      question: {
+        en: "How many Chance spaces are on the board?",
+        es: "¿Cuántos espacios de Suerte hay en el tablero?",
+        de: "Wie viele Ereignisfelder gibt es auf dem Brett?",
+        nl: "Hoeveel Kans-vakken zijn er op het bord?"
+      },
+      options: [
+        {
+          en: "2",
+          es: "2",
+          de: "2",
+          nl: "2"
+        },
+        {
+          en: "3",
+          es: "3",
+          de: "3",
+          nl: "3"
+        },
+        {
+          en: "4",
+          es: "4",
+          de: "4",
+          nl: "4"
+        },
+        {
+          en: "5",
+          es: "5",
+          de: "5",
+          nl: "5"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "There are 3 Chance spaces on a standard Monopoly board, just like Community Chest spaces.",
+        es: "Hay 3 espacios de Suerte en un tablero estándar de Monopoly, al igual que los espacios de Arca Comunal.",
+        de: "Es gibt 3 Ereignisfelder auf einem Standard-Monopoly-Brett, genau wie Gemeinschaftsfelder.",
+        nl: "Er zijn 3 Kans-vakken op een standaard Monopoly-bord, net als Algemeen Fonds-vakken."
+      }
+    },
+    {
+      question: {
+        en: "What is the cheapest property in the game?",
+        es: "¿Cuál es la propiedad más barata del juego?",
+        de: "Was ist das billigste Grundstück im Spiel?",
+        nl: "Wat is het goedkoopste eigendom in het spel?"
+      },
+      options: [
+        {
+          en: "Baltic Avenue",
+          es: "Baltic Avenue",
+          de: "Baltic Avenue",
+          nl: "Baltic Avenue"
+        },
+        {
+          en: "Mediterranean Avenue",
+          es: "Mediterranean Avenue",
+          de: "Mediterranean Avenue",
+          nl: "Mediterranean Avenue"
+        },
+        {
+          en: "Oriental Avenue",
+          es: "Oriental Avenue",
+          de: "Oriental Avenue",
+          nl: "Oriental Avenue"
+        },
+        {
+          en: "Connecticut Avenue",
+          es: "Connecticut Avenue",
+          de: "Connecticut Avenue",
+          nl: "Connecticut Avenue"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Mediterranean Avenue and Baltic Avenue both cost $60, making them tied as the cheapest properties. Mediterranean comes first on the board.",
+        es: "Mediterranean Avenue y Baltic Avenue cuestan $60, lo que las convierte en las propiedades más baratas empatadas. Mediterranean viene primero en el tablero.",
+        de: "Mediterranean Avenue und Baltic Avenue kosten beide 60 $ und sind damit die billigsten Grundstücke. Mediterranean kommt zuerst auf dem Brett.",
+        nl: "Mediterranean Avenue en Baltic Avenue kosten beide $60, waardoor ze gelijk staan als de goedkoopste eigendommen. Mediterranean komt eerst op het bord."
+      }
+    },
+    {
+      question: {
+        en: "How much money do you collect for passing GO?",
+        es: "¿Cuánto dinero cobras por pasar SALIDA?",
+        de: "Wie viel Geld sammeln Sie für das Passieren von LOS?",
+        nl: "Hoeveel geld ontvang je voor het passeren van START?"
+      },
+      options: [
+        {
+          en: "$100",
+          es: "$100",
+          de: "$100",
+          nl: "$100"
+        },
+        {
+          en: "$150",
+          es: "$150",
+          de: "$150",
+          nl: "$150"
+        },
+        {
+          en: "$200",
+          es: "$200",
+          de: "$200",
+          nl: "$200"
+        },
+        {
+          en: "$250",
+          es: "$250",
+          de: "$250",
+          nl: "$250"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Players collect $200 each time they pass or land on GO. This is one of the main sources of income in the game.",
+        es: "Los jugadores cobran $200 cada vez que pasan o caen en SALIDA. Esta es una de las principales fuentes de ingresos en el juego.",
+        de: "Spieler sammeln 200 $ jedes Mal, wenn sie LOS passieren oder darauf landen. Dies ist eine der Haupteinnahmequellen im Spiel.",
+        nl: "Spelers ontvangen $200 elke keer dat ze START passeren of erop landen. Dit is een van de belangrijkste inkomensbronnen in het spel."
+      }
     }
   ]
 };

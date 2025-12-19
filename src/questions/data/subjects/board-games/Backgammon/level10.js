@@ -427,6 +427,426 @@
           de: "Ein Phantom-Double bezieht sich darauf, in einer Position, in der man theoretisch verdoppeln sollte, absichtlich NICHT zu verdoppeln, weil Verdoppeln die Konzentration des Gegners erhöhen und dessen Fehlerrate reduzieren würde. Dieses fortgeschrittene psychologische Konzept legt nahe, dass man in einigen Positionen gegen schwächere Spieler besser dran ist, nicht zu verdoppeln und zu hoffen, dass sie Checker-Play-Fehler machen, anstatt zu verdoppeln und ihren Fokus zu schärfen. Obwohl kontrovers und auf höchstem Niveau selten anwendbar, kann es in bestimmten Turniersituationen relevant sein, in denen der Skill-Nachteil des Gegners der Hauptvorteil ist.",
           nl: "Een fantoom verdubbeling verwijst naar opzettelijk NIET verdubbelen in een positie waar je theoretisch zou moeten, omdat verdubbelen de concentratie van je tegenstander zou verhogen en hun foutpercentage zou verminderen. Dit geavanceerde psychologische concept suggereert dat je in sommige posities tegen zwakkere spelers beter af bent door niet te verdubbelen en te hopen dat ze checker play fouten maken, in plaats van verdubbelen en hun focus aan te scherpen. Hoewel controversieel en zelden toepasbaar op het hoogste niveau, kan het relevant zijn in bepaalde toernooi situaties waar het vaardigheidsnacheel van je tegenstander je belangrijkste voordeel is."
         }
+      },
+      {
+        question: {
+          en: "What is 'PropCount' in modern backgammon analysis?",
+          es: "¿Qué es 'PropCount' en el análisis moderno del backgammon?",
+          de: "Was ist 'PropCount' in der modernen Backgammon-Analyse?",
+          nl: "Wat is 'PropCount' in moderne backgammon analyse?"
+        },
+        options: [
+          { en: "Proportion of gammon wins to total wins", es: "Proporción de victorias gammon sobre victorias totales", de: "Verhältnis von Gammon-Siegen zu Gesamtsiegen", nl: "Verhouding van gammon overwinningen tot totale overwinningen" },
+          { en: "Proprietary pip count algorithm", es: "Algoritmo de conteo de pips propietario", de: "Proprietärer Pip-Count-Algorithmus", nl: "Eigen pip count algoritme" },
+          { en: "Tournament performance metric", es: "Métrica de rendimiento de torneo", de: "Turnier-Leistungsmetrik", nl: "Toernooi prestatiemeting" },
+          { en: "Percentage of proper cube decisions", es: "Porcentaje de decisiones correctas del cubo", de: "Prozentsatz korrekter Würfelentscheidungen", nl: "Percentage juiste dobbelsteenbeslissingen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "PropCount (Proportion Count) measures the ratio of gammon wins to total wins in a position. It's calculated as: gammons/(wins + gammons). This metric is critical for cube decisions because high PropCount positions (>50%) mean gammons are frequent when you win, which drastically changes take points and double points. For example, a position with 70% wins and 40% gammons has PropCount = 40/(70+40) = 36%. Understanding PropCount helps evaluate cube action in complex tactical positions.",
+          es: "PropCount (Conteo de Proporción) mide la relación de victorias gammon sobre victorias totales en una posición. Se calcula como: gammons/(victorias + gammons). Esta métrica es crítica para las decisiones del cubo porque posiciones con PropCount alto (>50%) significan que los gammons son frecuentes cuando ganas, lo que cambia drásticamente los puntos de aceptación y puntos de doble. Por ejemplo, una posición con 70% de victorias y 40% de gammons tiene PropCount = 40/(70+40) = 36%. Entender PropCount ayuda a evaluar la acción del cubo en posiciones tácticas complejas.",
+          de: "PropCount (Proportionszählung) misst das Verhältnis von Gammon-Siegen zu Gesamtsiegen in einer Position. Es wird berechnet als: Gammons/(Siege + Gammons). Diese Metrik ist kritisch für Würfelentscheidungen, weil Positionen mit hohem PropCount (>50%) bedeuten, dass Gammons häufig sind, wenn man gewinnt, was Take-Points und Double-Points drastisch ändert. Zum Beispiel hat eine Position mit 70% Siegen und 40% Gammons PropCount = 40/(70+40) = 36%. Das Verständnis von PropCount hilft bei der Bewertung von Würfelaktionen in komplexen taktischen Positionen.",
+          nl: "PropCount (Proportie Count) meet de verhouding van gammon overwinningen tot totale overwinningen in een positie. Het wordt berekend als: gammons/(overwinningen + gammons). Deze metriek is cruciaal voor dobbelsteenbeslissingen omdat hoge PropCount posities (>50%) betekenen dat gammons frequent zijn wanneer je wint, wat acceptatiepunten en verdubbelpunten drastisch verandert. Bijvoorbeeld, een positie met 70% overwinningen en 40% gammons heeft PropCount = 40/(70+40) = 36%. Het begrijpen van PropCount helpt bij het evalueren van dobbelsteenactie in complexe tactische posities."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'symmetric position' fallacy in cube theory?",
+          es: "¿Qué es la falacia de 'posición simétrica' en la teoría del cubo?",
+          de: "Was ist der 'symmetrische Positions'-Trugschluss in der Würfeltheorie?",
+          nl: "Wat is de 'symmetrische positie' drogreden in dobbelsteentheorie?"
+        },
+        options: [
+          { en: "Symmetric positions always have 50/50 equity", es: "Las posiciones simétricas siempre tienen equity 50/50", de: "Symmetrische Positionen haben immer 50/50 Equity", nl: "Symmetrische posities hebben altijd 50/50 equity" },
+          { en: "Cube ownership breaks symmetry - leader should double", es: "La propiedad del cubo rompe la simetría - el líder debe doblar", de: "Würfelbesitz bricht Symmetrie - Führer sollte verdoppeln", nl: "Dobbelsteenbezit breekt symmetrie - leider moet verdubbelen" },
+          { en: "Equal pip counts mean equal chances", es: "Conteos de pips iguales significan chances iguales", de: "Gleiche Pip-Counts bedeuten gleiche Chancen", nl: "Gelijke pip counts betekenen gelijke kansen" },
+          { en: "Both players should pass all doubles", es: "Ambos jugadores deberían pasar todos los dobles", de: "Beide Spieler sollten alle Doubles passen", nl: "Beide spelers moeten alle verdubbeling weigeren" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The symmetric position fallacy is the mistaken belief that in perfectly symmetric positions, neither player should double. In reality, whoever owns the cube in a symmetric position (50/50 equity) should redouble immediately in money games, because cube ownership has value and they can force a dead cube by doubling. The opponent should take, creating a dead 4-cube. This counterintuitive principle shows that cube ownership itself has equity value even in equal positions. In match play, this principle varies based on score.",
+          es: "La falacia de posición simétrica es la creencia errónea de que en posiciones perfectamente simétricas, ningún jugador debería doblar. En realidad, quien posea el cubo en una posición simétrica (equity 50/50) debería redoblar inmediatamente en juegos por dinero, porque la propiedad del cubo tiene valor y pueden forzar un cubo muerto al doblar. El oponente debería aceptar, creando un cubo muerto de 4. Este principio contraintuitivo muestra que la propiedad del cubo en sí tiene valor de equity incluso en posiciones iguales. En match play, este principio varía según la puntuación.",
+          de: "Der symmetrische Positions-Trugschluss ist der irrtümliche Glaube, dass in perfekt symmetrischen Positionen kein Spieler verdoppeln sollte. In Wirklichkeit sollte derjenige, der den Würfel in einer symmetrischen Position (50/50 Equity) besitzt, in Geldspielen sofort wiederverdoppeln, weil Würfelbesitz Wert hat und man einen toten Würfel erzwingen kann. Der Gegner sollte annehmen und einen toten 4-Würfel schaffen. Dieses kontraintuitive Prinzip zeigt, dass Würfelbesitz selbst Equity-Wert hat, auch in gleichen Positionen. Im Match-Spiel variiert dieses Prinzip je nach Stand.",
+          nl: "De symmetrische positie drogreden is de onjuiste overtuiging dat in perfect symmetrische posities, geen van beide spelers moet verdubbelen. In werkelijkheid moet degene die de dobbelsteen bezit in een symmetrische positie (50/50 equity) onmiddellijk herverdubbelen in geldspellen, omdat dobbelsteenbezit waarde heeft en ze een dode dobbelsteen kunnen forceren door te verdubbelen. De tegenstander moet accepteren, wat een dode 4-dobbelsteen creëert. Dit contra-intuïtieve principe toont dat dobbelsteenbezit zelf equity waarde heeft, zelfs in gelijke posities. In match play varieert dit principe op basis van score."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'last roll position' concept in bearoff analysis?",
+          es: "¿Qué es el concepto de 'posición de última tirada' en el análisis del bear-off?",
+          de: "Was ist das Konzept der 'letzten Wurf-Position' in der Bearoff-Analyse?",
+          nl: "Wat is het 'laatste worp positie' concept in uitspeel analyse?"
+        },
+        options: [
+          { en: "Position where one roll wins or loses", es: "Posición donde una tirada gana o pierde", de: "Position, wo ein Wurf gewinnt oder verliert", nl: "Positie waar één worp wint of verliest" },
+          { en: "Final checker to bear off", es: "Ficha final para sacar", de: "Letzter Stein zum Auswürfeln", nl: "Laatste steen om uit te spelen" },
+          { en: "Calculating outs in contact-less race", es: "Calcular salidas en carrera sin contacto", de: "Berechnung von Outs im kontaktlosen Rennen", nl: "Berekenen van outs in contactloze race" },
+          { en: "Position after opponent's last move", es: "Posición después del último movimiento del oponente", de: "Position nach dem letzten Zug des Gegners", nl: "Positie na laatste zet van tegenstander" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A last roll position is one where the outcome will be determined by the very next roll - you either bear off your last checkers and win, or fail and lose. These positions require precise calculation of 'outs' (winning numbers) versus 'failures' (losing numbers). For example, with 2 checkers left on the 3-point and 5-point, you have 20/36 winning rolls (any combination totaling 8+). Last roll positions are critical for cube decisions in bearoff races, as you can precisely calculate equity rather than estimating.",
+          es: "Una posición de última tirada es aquella donde el resultado será determinado por la próxima tirada: o sacas tus últimas fichas y ganas, o fallas y pierdes. Estas posiciones requieren cálculo preciso de 'salidas' (números ganadores) versus 'fallos' (números perdedores). Por ejemplo, con 2 fichas restantes en el punto 3 y punto 5, tienes 20/36 tiradas ganadoras (cualquier combinación que totalice 8+). Las posiciones de última tirada son críticas para decisiones del cubo en carreras de bear-off, ya que puedes calcular equity con precisión en lugar de estimar.",
+          de: "Eine letzte Wurf-Position ist eine, bei der das Ergebnis durch den allernächsten Wurf bestimmt wird - man würfelt entweder die letzten Steine aus und gewinnt, oder scheitert und verliert. Diese Positionen erfordern präzise Berechnung von 'Outs' (Gewinnzahlen) versus 'Fehlschlägen' (Verlustzahlen). Zum Beispiel hat man mit 2 Steinen auf dem 3-Punkt und 5-Punkt 20/36 Gewinnwürfe (jede Kombination mit Summe 8+). Letzte Wurf-Positionen sind kritisch für Würfelentscheidungen in Bearoff-Rennen, da man Equity präzise berechnen kann, anstatt zu schätzen.",
+          nl: "Een laatste worp positie is een positie waar de uitkomst wordt bepaald door de allervolgende worp - je speelt je laatste stenen uit en wint, of faalt en verliest. Deze posities vereisen precieze berekening van 'outs' (winnende getallen) versus 'mislukkingen' (verliezende getallen). Bijvoorbeeld, met 2 stenen over op het 3-punt en 5-punt, heb je 20/36 winnende worpen (elke combinatie die optelt tot 8+). Laatste worp posities zijn cruciaal voor dobbelsteenbeslissingen in uitspeel races, omdat je equity precies kunt berekenen in plaats van schatten."
+        }
+      },
+      {
+        question: {
+          en: "What is 'pip wastage' versus 'positional wastage' in racing evaluation?",
+          es: "¿Qué es el 'desperdicio de pips' versus 'desperdicio posicional' en la evaluación de carreras?",
+          de: "Was ist 'Pip-Verschwendung' versus 'Positions-Verschwendung' in der Rennbewertung?",
+          nl: "Wat is 'pip verspilling' versus 'positionele verspilling' in race evaluatie?"
+        },
+        options: [
+          { en: "Stacked checkers vs poor distribution", es: "Fichas apiladas vs mala distribución", de: "Gestapelte Steine vs. schlechte Verteilung", nl: "Gestapelde stenen vs slechte distributie" },
+          { en: "Raw pips vs effective pips", es: "Pips brutos vs pips efectivos", de: "Rohe Pips vs. effektive Pips", nl: "Ruwe pips vs effectieve pips" },
+          { en: "Crossovers vs checker stacking", es: "Cruces vs apilamiento de fichas", de: "Crossovers vs. Steinstapelung", nl: "Kruispunten vs steen stapeling" },
+          { en: "Time lost vs space wasted", es: "Tiempo perdido vs espacio desperdiciado", de: "Verlorene Zeit vs. verschwendeter Raum", nl: "Verloren tijd vs verspilde ruimte" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Pip wastage refers to inefficiency from stacked checkers - having multiple checkers on the same point wastes pips because only one can bear off per die number. Positional wastage refers to poor distribution requiring extra crossovers - checkers distributed unevenly across points require more moves to bear off smoothly. A position with 5 checkers on the 6-point has high pip wastage (4 wasted pips). A position with all checkers on the 6-point and 1-point has high positional wastage (gaps force inefficient moves). Elite players optimize both to minimize total wastage.",
+          es: "El desperdicio de pips se refiere a la ineficiencia de las fichas apiladas: tener múltiples fichas en el mismo punto desperdicia pips porque solo una puede sacarse por número de dado. El desperdicio posicional se refiere a la mala distribución que requiere cruces extra: fichas distribuidas de manera desigual entre puntos requieren más movimientos para sacar suavemente. Una posición con 5 fichas en el punto 6 tiene alto desperdicio de pips (4 pips desperdiciados). Una posición con todas las fichas en el punto 6 y punto 1 tiene alto desperdicio posicional (los huecos fuerzan movimientos ineficientes). Los jugadores élite optimizan ambos para minimizar el desperdicio total.",
+          de: "Pip-Verschwendung bezieht sich auf Ineffizienz durch gestapelte Steine - mehrere Steine auf demselben Punkt verschwenden Pips, weil nur einer pro Würfelzahl ausgewürfelt werden kann. Positions-Verschwendung bezieht sich auf schlechte Verteilung, die zusätzliche Crossovers erfordert - ungleichmäßig verteilte Steine benötigen mehr Züge zum glatten Auswürfeln. Eine Position mit 5 Steinen auf dem 6-Punkt hat hohe Pip-Verschwendung (4 verschwendete Pips). Eine Position mit allen Steinen auf dem 6-Punkt und 1-Punkt hat hohe Positions-Verschwendung (Lücken erzwingen ineffiziente Züge). Elite-Spieler optimieren beide, um die Gesamtverschwendung zu minimieren.",
+          nl: "Pip verspilling verwijst naar inefficiëntie van gestapelde stenen - meerdere stenen op hetzelfde punt verspillen pips omdat er maar één per dobbelsteengetal uit kan spelen. Positionele verspilling verwijst naar slechte distributie die extra kruispunten vereist - stenen die ongelijk verdeeld zijn over punten vereisen meer zetten om soepel uit te spelen. Een positie met 5 stenen op het 6-punt heeft hoge pip verspilling (4 verspilde pips). Een positie met alle stenen op het 6-punt en 1-punt heeft hoge positionele verspilling (gaten forceren inefficiënte zetten). Elite spelers optimaliseren beide om totale verspilling te minimaliseren."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Magriel safe-bold criterion' for checker play decisions?",
+          es: "¿Qué es el 'criterio de seguridad-audacia de Magriel' para decisiones de juego de fichas?",
+          de: "Was ist das 'Magriel Sicher-Mutig-Kriterium' für Checker-Play-Entscheidungen?",
+          nl: "Wat is het 'Magriel veilig-gedurfd criterium' voor checker play beslissingen?"
+        },
+        options: [
+          { en: "Play safe when leading, bold when trailing", es: "Jugar seguro cuando lideras, audaz cuando vas atrás", de: "Sicher spielen beim Führen, mutig beim Zurückliegen", nl: "Speel veilig bij leiden, gedurfd bij achterstaan" },
+          { en: "Always maximize winning chances", es: "Siempre maximizar chances de ganar", de: "Immer Gewinnchancen maximieren", nl: "Altijd winkansen maximaliseren" },
+          { en: "Bold in money, safe in matches", es: "Audaz en dinero, seguro en matches", de: "Mutig im Geldspiel, sicher in Matches", nl: "Gedurfd in geldspel, veilig in matches" },
+          { en: "Minimize gammon risk always", es: "Minimizar riesgo de gammon siempre", de: "Gammon-Risiko immer minimieren", nl: "Minimaliseer gammon risico altijd" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Magriel safe-bold criterion, proposed by Paul Magriel, states that when leading in a race, you should play safe (avoid leaving shots, play solid) because you can win by simply bringing checkers home safely. When trailing, you should play bold (take calculated risks, hit loose, create complications) because playing safe will likely lead to a loss anyway. This principle applies primarily in racing and holding game positions. Modern analysis shows this is generally correct, though gammon considerations and cube ownership can modify the optimal strategy.",
+          es: "El criterio de seguridad-audacia de Magriel, propuesto por Paul Magriel, establece que cuando lideras en una carrera, debes jugar seguro (evitar dejar golpes, jugar sólido) porque puedes ganar simplemente trayendo fichas a casa de manera segura. Cuando vas atrás, debes jugar audaz (tomar riesgos calculados, golpear suelto, crear complicaciones) porque jugar seguro probablemente conducirá a una pérdida de todos modos. Este principio se aplica principalmente en carreras y posiciones de juego de retención. El análisis moderno muestra que esto es generalmente correcto, aunque las consideraciones de gammon y la propiedad del cubo pueden modificar la estrategia óptima.",
+          de: "Das Magriel Sicher-Mutig-Kriterium, vorgeschlagen von Paul Magriel, besagt, dass man beim Führen in einem Rennen sicher spielen sollte (Schüsse vermeiden, solide spielen), weil man gewinnen kann, indem man einfach Steine sicher nach Hause bringt. Beim Zurückliegen sollte man mutig spielen (kalkulierte Risiken eingehen, lose schlagen, Komplikationen schaffen), weil sicheres Spielen wahrscheinlich sowieso zu einer Niederlage führt. Dieses Prinzip gilt hauptsächlich in Renn- und Holding-Game-Positionen. Moderne Analysen zeigen, dass dies im Allgemeinen korrekt ist, obwohl Gammon-Überlegungen und Würfelbesitz die optimale Strategie modifizieren können.",
+          nl: "Het Magriel veilig-gedurfd criterium, voorgesteld door Paul Magriel, stelt dat wanneer je leidt in een race, je veilig moet spelen (vermijd schoten, speel solide) omdat je kunt winnen door gewoon stenen veilig naar huis te brengen. Wanneer je achterligt, moet je gedurfd spelen (neem berekende risico's, raak los, creëer complicaties) omdat veilig spelen waarschijnlijk toch tot verlies zal leiden. Dit principe geldt voornamelijk in race en holding game posities. Moderne analyse toont dat dit over het algemeen correct is, hoewel gammon overwegingen en dobbelsteenbezit de optimale strategie kunnen wijzigen."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'joker' in backgammon terminology?",
+          es: "¿Qué es un 'joker' en la terminología del backgammon?",
+          de: "Was ist ein 'Joker' in der Backgammon-Terminologie?",
+          nl: "Wat is een 'joker' in backgammon terminologie?"
+        },
+        options: [
+          { en: "Wild card doubling opportunity", es: "Oportunidad de doblaje comodín", de: "Wildcard-Verdopplungsmöglichkeit", nl: "Wildcard verdubbel kans" },
+          { en: "Extremely lucky roll that wins unexpectedly", es: "Tirada extremadamente afortunada que gana inesperadamente", de: "Extrem glücklicher Wurf, der unerwartet gewinnt", nl: "Extreem gelukkige worp die onverwacht wint" },
+          { en: "Opponent's blunder creating winning chance", es: "Error del oponente que crea oportunidad ganadora", de: "Fehler des Gegners, der Gewinnchance schafft", nl: "Blunder van tegenstander die winkans creëert" },
+          { en: "Illegal move not caught by opponent", es: "Movimiento ilegal no detectado por el oponente", de: "Illegaler Zug, der vom Gegner nicht erkannt wurde", nl: "Illegale zet niet gezien door tegenstander" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A joker is a very lucky roll that dramatically changes the outcome of a game - typically turning a losing position into a winning one through exceptional luck. For example, rolling the exact double needed to escape from a prime, or hitting a miracle shot on the last possible turn. The term comes from card games where a joker can substitute for any card. In cube decisions, you must account for potential jokers when evaluating volatile positions - sometimes you should double before the opponent gets their joker roll.",
+          es: "Un joker es una tirada muy afortunada que cambia dramáticamente el resultado de un juego, típicamente convirtiendo una posición perdedora en una ganadora a través de suerte excepcional. Por ejemplo, sacar el doble exacto necesario para escapar de una prime, o golpear un tiro milagroso en el último turno posible. El término proviene de los juegos de cartas donde un joker puede sustituir cualquier carta. En decisiones del cubo, debes tener en cuenta los jokers potenciales al evaluar posiciones volátiles: a veces debes doblar antes de que el oponente obtenga su tirada joker.",
+          de: "Ein Joker ist ein sehr glücklicher Wurf, der das Ergebnis eines Spiels dramatisch ändert - typischerweise eine Verlustposition durch außergewöhnliches Glück in eine Gewinnposition verwandelt. Zum Beispiel genau das Doppel zu würfeln, das zum Entkommen aus einer Prime benötigt wird, oder einen Wunderschuss im letzten möglichen Zug zu treffen. Der Begriff kommt von Kartenspielen, wo ein Joker jede Karte ersetzen kann. Bei Würfelentscheidungen muss man potenzielle Joker bei der Bewertung volatiler Positionen berücksichtigen - manchmal sollte man verdoppeln, bevor der Gegner seinen Joker-Wurf bekommt.",
+          nl: "Een joker is een zeer gelukkige worp die de uitkomst van een spel dramatisch verandert - typisch een verliezende positie in een winnende verandert door uitzonderlijk geluk. Bijvoorbeeld, precies het dubbel gooien dat nodig is om te ontsnappen uit een prime, of een wonderschot raken op de laatst mogelijke beurt. De term komt van kaartspellen waar een joker voor elke kaart kan vervangen. In dobbelsteenbeslissingen moet je rekening houden met potentiële jokers bij het evalueren van volatiele posities - soms moet je verdubbelen voordat de tegenstander hun joker worp krijgt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'contact equity' versus 'racing equity' in position evaluation?",
+          es: "¿Qué es la 'equity de contacto' versus 'equity de carrera' en la evaluación de posiciones?",
+          de: "Was ist 'Kontakt-Equity' versus 'Renn-Equity' in der Positionsbewertung?",
+          nl: "Wat is 'contact equity' versus 'race equity' in positie evaluatie?"
+        },
+        options: [
+          { en: "Equity from hitting vs equity from pure race", es: "Equity de golpear vs equity de carrera pura", de: "Equity vom Schlagen vs. Equity vom reinen Rennen", nl: "Equity van raken vs equity van pure race" },
+          { en: "Checker touching vs separated", es: "Fichas tocándose vs separadas", de: "Steine sich berührend vs. getrennt", nl: "Stenen rakend vs gescheiden" },
+          { en: "Physical contact required to win", es: "Contacto físico requerido para ganar", de: "Physischer Kontakt erforderlich zum Gewinnen", nl: "Fysiek contact vereist om te winnen" },
+          { en: "Gammon equity vs single game equity", es: "Equity de gammon vs equity de juego simple", de: "Gammon-Equity vs. Einzelspiel-Equity", nl: "Gammon equity vs enkel spel equity" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Contact equity is the equity derived from potential hitting opportunities - the value of your position if you hit opponent's blots. Racing equity is the equity from simply outrunning your opponent with no further contact. In complex positions, total equity = contact equity + racing equity. For example, in a holding game, you have minimal racing equity (you're behind in pips) but significant contact equity (you have an anchor and can hit if opponent breaks). Understanding this split helps evaluate whether to play for contact or try to avoid it.",
+          es: "La equity de contacto es la equity derivada de oportunidades potenciales de golpeo: el valor de tu posición si golpeas blots del oponente. La equity de carrera es la equity de simplemente superar a tu oponente sin más contacto. En posiciones complejas, equity total = equity de contacto + equity de carrera. Por ejemplo, en un juego de retención, tienes equity de carrera mínima (estás atrás en pips) pero equity de contacto significativa (tienes un ancla y puedes golpear si el oponente rompe). Entender esta división ayuda a evaluar si jugar para contacto o intentar evitarlo.",
+          de: "Kontakt-Equity ist die Equity aus potenziellen Schlag-Möglichkeiten - der Wert deiner Position, wenn du Blots des Gegners schlägst. Renn-Equity ist die Equity, den Gegner einfach zu überholen, ohne weiteren Kontakt. In komplexen Positionen gilt: Gesamt-Equity = Kontakt-Equity + Renn-Equity. Zum Beispiel hat man in einem Holding-Game minimale Renn-Equity (man liegt bei Pips zurück), aber signifikante Kontakt-Equity (man hat einen Anker und kann schlagen, wenn der Gegner aufbricht). Das Verständnis dieser Aufteilung hilft zu bewerten, ob man auf Kontakt spielen oder ihn vermeiden sollte.",
+          nl: "Contact equity is de equity afgeleid van potentiële raakkansen - de waarde van je positie als je blots van de tegenstander raakt. Race equity is de equity van simpelweg je tegenstander voorbij rennen zonder verder contact. In complexe posities geldt: totale equity = contact equity + race equity. Bijvoorbeeld, in een holding game heb je minimale race equity (je ligt achter in pips) maar aanzienlijke contact equity (je hebt een anker en kunt raken als tegenstander breekt). Het begrijpen van deze splitsing helpt evalueren of je voor contact moet spelen of het moet vermijden."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'match winning chance' (MWC) calculation method?",
+          es: "¿Qué es el método de cálculo de 'probabilidad de ganar el match' (MWC)?",
+          de: "Was ist die Berechnungsmethode für 'Match-Gewinnchance' (MWC)?",
+          nl: "Wat is de 'match winkans' (MWC) berekeningsmethode?"
+        },
+        options: [
+          { en: "Adding all possible game outcomes weighted by probability", es: "Sumar todos los resultados posibles ponderados por probabilidad", de: "Alle möglichen Spielausgänge gewichtet nach Wahrscheinlichkeit addieren", nl: "Alle mogelijke speluitkomsten optellen gewogen naar waarschijnlijkheid" },
+          { en: "50% + (equity × match score adjustment)", es: "50% + (equity × ajuste de puntuación del match)", de: "50% + (Equity × Match-Stand-Anpassung)", nl: "50% + (equity × match score aanpassing)" },
+          { en: "Win% - gammon% + backgammon%", es: "Win% - gammon% + backgammon%", de: "Gewinn% - Gammon% + Backgammon%", nl: "Win% - gammon% + backgammon%" },
+          { en: "Current score ÷ match length", es: "Puntuación actual ÷ longitud del match", de: "Aktueller Stand ÷ Match-Länge", nl: "Huidige score ÷ match lengte" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "MWC is calculated by summing all possible game outcomes (win, win gammon, win backgammon, lose, lose gammon, lose backgammon) weighted by their probabilities and the resulting match equity. Formula: MWC = (P(W)×MET(win) + P(WG)×MET(win+gammon) + P(WB)×MET(win+bg) + P(L)×MET(lose) + P(LG)×MET(lose+gammon) + P(LB)×MET(lose+bg)), where MET is the Match Equity Table value at the resulting score. This precise calculation is essential for optimal cube decisions in match play.",
+          es: "MWC se calcula sumando todos los resultados posibles del juego (ganar, ganar gammon, ganar backgammon, perder, perder gammon, perder backgammon) ponderados por sus probabilidades y la equidad de match resultante. Fórmula: MWC = (P(W)×MET(ganar) + P(WG)×MET(ganar+gammon) + P(WB)×MET(ganar+bg) + P(L)×MET(perder) + P(LG)×MET(perder+gammon) + P(LB)×MET(perder+bg)), donde MET es el valor de la tabla de equidad de match en la puntuación resultante. Este cálculo preciso es esencial para decisiones óptimas del cubo en match play.",
+          de: "MWC wird berechnet, indem alle möglichen Spielausgänge (Sieg, Sieg mit Gammon, Sieg mit Backgammon, Niederlage, Niederlage mit Gammon, Niederlage mit Backgammon) gewichtet nach ihren Wahrscheinlichkeiten und der resultierenden Match-Equity summiert werden. Formel: MWC = (P(W)×MET(Sieg) + P(WG)×MET(Sieg+Gammon) + P(WB)×MET(Sieg+BG) + P(L)×MET(Niederlage) + P(LG)×MET(Niederlage+Gammon) + P(LB)×MET(Niederlage+BG)), wobei MET der Match-Equity-Tabellenwert beim resultierenden Stand ist. Diese präzise Berechnung ist für optimale Würfelentscheidungen im Match-Spiel unerlässlich.",
+          nl: "MWC wordt berekend door alle mogelijke speluitkomsten (winnen, winnen gammon, winnen backgammon, verliezen, verliezen gammon, verliezen backgammon) op te tellen gewogen naar hun waarschijnlijkheden en de resulterende match equity. Formule: MWC = (P(W)×MET(winnen) + P(WG)×MET(winnen+gammon) + P(WB)×MET(winnen+bg) + P(L)×MET(verliezen) + P(LG)×MET(verliezen+gammon) + P(LB)×MET(verliezen+bg)), waarbij MET de Match Equity Table waarde is bij de resulterende score. Deze precieze berekening is essentieel voor optimale dobbelsteenbeslissingen in match play."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'priming game' versus 'blitzing game' strategic difference?",
+          es: "¿Cuál es la diferencia estratégica entre 'juego de priming' versus 'juego de blitzing'?",
+          de: "Was ist der strategische Unterschied zwischen 'Priming-Spiel' und 'Blitzing-Spiel'?",
+          nl: "Wat is een 'priming game' versus 'blitzen game' strategisch verschil?"
+        },
+        options: [
+          { en: "Building consecutive points vs hitting aggressively", es: "Construir puntos consecutivos vs golpear agresivamente", de: "Aufeinanderfolgende Punkte bauen vs. aggressiv schlagen", nl: "Opeenvolgende punten bouwen vs agressief raken" },
+          { en: "Slow buildup vs quick closeout", es: "Acumulación lenta vs cierre rápido", de: "Langsamer Aufbau vs. schneller Closeout", nl: "Langzame opbouw vs snelle closeout" },
+          { en: "5-prime vs 6-prime strategy", es: "Estrategia de 5-prime vs 6-prime", de: "5-Prime- vs. 6-Prime-Strategie", nl: "5-prime vs 6-prime strategie" },
+          { en: "Timing-dependent vs timing-independent", es: "Dependiente del timing vs independiente del timing", de: "Timing-abhängig vs. Timing-unabhängig", nl: "Timing-afhankelijk vs timing-onafhankelijk" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Priming games focus on building consecutive points (ideally a 6-prime) to trap opponent's back checkers, requiring patience and careful timing. Success depends on maintaining the prime until opponent runs out of constructive moves. Blitzing games emphasize hitting multiple opponent checkers quickly and closing out the board before they can escape, relying on aggressive tempo play. Priming requires slower buildup and precise timing; blitzing requires speed and board closure. The key strategic choice: prime when you have time to build, blitz when you have immediate attacking chances.",
+          es: "Los juegos de priming se enfocan en construir puntos consecutivos (idealmente un 6-prime) para atrapar fichas traseras del oponente, requiriendo paciencia y timing cuidadoso. El éxito depende de mantener la prime hasta que el oponente se quede sin movimientos constructivos. Los juegos de blitzing enfatizan golpear múltiples fichas del oponente rápidamente y cerrar el tablero antes de que puedan escapar, confiando en juego de tempo agresivo. Priming requiere acumulación más lenta y timing preciso; blitzing requiere velocidad y cierre del tablero. La elección estratégica clave: prime cuando tienes tiempo para construir, blitz cuando tienes oportunidades de ataque inmediatas.",
+          de: "Priming-Spiele konzentrieren sich auf den Aufbau aufeinanderfolgender Punkte (idealerweise eine 6-Prime), um die hinteren Steine des Gegners einzufangen, was Geduld und sorgfältiges Timing erfordert. Erfolg hängt davon ab, die Prime aufrechtzuerhalten, bis dem Gegner die konstruktiven Züge ausgehen. Blitzing-Spiele betonen das schnelle Schlagen mehrerer gegnerischer Steine und das Schließen des Bretts, bevor sie entkommen können, mit aggressivem Tempo-Spiel. Priming erfordert langsameren Aufbau und präzises Timing; Blitzing erfordert Geschwindigkeit und Brett-Schließung. Die strategische Schlüsselwahl: Prime, wenn man Zeit zum Aufbauen hat, Blitz, wenn man sofortige Angriffschancen hat.",
+          nl: "Priming games richten zich op het bouwen van opeenvolgende punten (ideaal een 6-prime) om achterste stenen van de tegenstander te vangen, wat geduld en zorgvuldige timing vereist. Succes hangt af van het behouden van de prime tot de tegenstander geen constructieve zetten meer heeft. Blitzen games benadrukken het snel raken van meerdere tegenstander stenen en het sluiten van het bord voordat ze kunnen ontsnappen, vertrouwend op agressief tempo spel. Priming vereist langzamere opbouw en precieze timing; blitzen vereist snelheid en bordsluiting. De strategische sleutelkeuze: prime wanneer je tijd hebt om te bouwen, blitz wanneer je onmiddellijke aanvalskansen hebt."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'dead cube' in money game versus match play implications?",
+          es: "¿Cuáles son las implicaciones del 'cubo muerto' en el juego por dinero versus match play?",
+          de: "Was sind die Implikationen des 'toten Würfels' im Geldspiel versus Match-Spiel?",
+          nl: "Wat zijn de 'dode dobbelsteen' implicaties in geldspel versus match play?"
+        },
+        options: [
+          { en: "Same effect in both - cube cannot be used further", es: "Mismo efecto en ambos - el cubo no puede usarse más", de: "Gleicher Effekt in beiden - Würfel kann nicht weiter verwendet werden", nl: "Zelfde effect in beide - dobbelsteen kan niet verder worden gebruikt" },
+          { en: "Dead cube changes checker play in money, not matches", es: "Cubo muerto cambia juego de fichas en dinero, no en matches", de: "Toter Würfel ändert Checker-Play im Geldspiel, nicht in Matches", nl: "Dode dobbelsteen verandert checker play in geld, niet in matches" },
+          { en: "Dead cube = gammon value changes differently", es: "Cubo muerto = valor de gammon cambia de manera diferente", de: "Toter Würfel = Gammon-Wert ändert sich unterschiedlich", nl: "Dode dobbelsteen = gammon waarde verandert anders" },
+          { en: "Match play dead cubes are worth more", es: "Cubos muertos en match play valen más", de: "Match-Spiel tote Würfel sind mehr wert", nl: "Match play dode dobbelstenen zijn meer waard" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "With a dead cube (maxed out at 4, 8, etc. where neither player can redouble), gammon values change dramatically but differently in money vs matches. In money games, gammons are always worth exactly 2x stake. In match play, gammon value depends entirely on match score - at some scores (e.g., 2-away/3-away), gammons barely matter; at others (e.g., 3-away/4-away), they're critical. This creates completely different optimal checker play strategies. With a dead cube in money games, you always play for/against gammons equally; in matches, you may save/go for gammons aggressively based on score.",
+          es: "Con un cubo muerto (maximizado en 4, 8, etc. donde ningún jugador puede redoblar), los valores de gammon cambian drásticamente pero de manera diferente en dinero vs matches. En juegos por dinero, los gammons siempre valen exactamente 2x apuesta. En match play, el valor del gammon depende enteramente de la puntuación del match: en algunas puntuaciones (ej., 2-away/3-away), los gammons apenas importan; en otras (ej., 3-away/4-away), son críticos. Esto crea estrategias de juego de fichas completamente diferentes. Con cubo muerto en juegos por dinero, siempre juegas por/contra gammons equitativamente; en matches, puedes salvar/ir por gammons agresivamente según la puntuación.",
+          de: "Mit einem toten Würfel (maximal bei 4, 8 usw., wo kein Spieler mehr wiederverdoppeln kann) ändern sich Gammon-Werte dramatisch, aber unterschiedlich in Geld- vs. Match-Spielen. In Geldspielen sind Gammons immer genau 2x Einsatz wert. Im Match-Spiel hängt der Gammon-Wert vollständig vom Match-Stand ab - bei einigen Ständen (z.B. 2-away/3-away) spielen Gammons kaum eine Rolle; bei anderen (z.B. 3-away/4-away) sind sie kritisch. Dies schafft völlig unterschiedliche optimale Checker-Play-Strategien. Mit totem Würfel in Geldspielen spielt man immer gleichermaßen für/gegen Gammons; in Matches kann man Gammons je nach Stand aggressiv sichern/anstreben.",
+          nl: "Met een dode dobbelsteen (gemaximeerd op 4, 8, enz. waar geen speler kan herverdubbelen), veranderen gammon waarden dramatisch maar anders in geld vs matches. In geldspellen zijn gammons altijd precies 2x inzet waard. In match play hangt gammon waarde volledig af van match score - bij sommige scores (bijv. 2-away/3-away), doen gammons er nauwelijks toe; bij andere (bijv. 3-away/4-away), zijn ze cruciaal. Dit creëert volledig verschillende optimale checker play strategieën. Met een dode dobbelsteen in geldspellen speel je altijd gelijk voor/tegen gammons; in matches kun je gammons agressief redden/najagen op basis van score."
+        }
+      },
+      {
+        question: {
+          en: "What is 'cube efficiency' in position evaluation?",
+          es: "¿Qué es la 'eficiencia del cubo' en la evaluación de posiciones?",
+          de: "Was ist 'Würfel-Effizienz' in der Positionsbewertung?",
+          nl: "Wat is 'dobbelsteenefficiëntie' in positie evaluatie?"
+        },
+        options: [
+          { en: "How often the cube can be doubled", es: "Con qué frecuencia se puede doblar el cubo", de: "Wie oft der Würfel verdoppelt werden kann", nl: "Hoe vaak de dobbelsteen kan worden verdubbeld" },
+          { en: "Ratio of actual equity to theoretical max with cube", es: "Proporción de equity real al máximo teórico con cubo", de: "Verhältnis von tatsächlicher Equity zu theoretischem Maximum mit Würfel", nl: "Verhouding van werkelijke equity tot theoretisch maximum met dobbelsteen" },
+          { en: "Speed of cube rotation in tournament", es: "Velocidad de rotación del cubo en torneo", de: "Geschwindigkeit der Würfelrotation im Turnier", nl: "Snelheid van dobbelsteenrotatie in toernooi" },
+          { en: "Percentage of correct cube decisions made", es: "Porcentaje de decisiones correctas del cubo realizadas", de: "Prozentsatz korrekter Würfelentscheidungen", nl: "Percentage juiste dobbelsteenbeslissingen gemaakt" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Cube efficiency measures how effectively a lead translates into cube leverage. It's the ratio of your actual equity to the theoretical maximum equity you could have with perfect cube usage. A position with high cube efficiency (close to 100%) means you can effectively use your advantage to generate cube action - volatile positions have high efficiency. Low cube efficiency (60-70%) means your advantage is 'locked in' and can't easily be leveraged via the cube - slow, grinding positions have low efficiency. This affects doubling points: lower efficiency requires stronger equity to double.",
+          es: "La eficiencia del cubo mide cuán efectivamente una ventaja se traduce en apalancamiento del cubo. Es la proporción de tu equity real al equity máximo teórico que podrías tener con uso perfecto del cubo. Una posición con alta eficiencia del cubo (cerca del 100%) significa que puedes usar efectivamente tu ventaja para generar acción del cubo - posiciones volátiles tienen alta eficiencia. Baja eficiencia del cubo (60-70%) significa que tu ventaja está 'bloqueada' y no puede apalancarse fácilmente vía el cubo - posiciones lentas y de desgaste tienen baja eficiencia. Esto afecta los puntos de doble: menor eficiencia requiere equity más fuerte para doblar.",
+          de: "Würfel-Effizienz misst, wie effektiv ein Vorsprung in Würfel-Leverage übersetzt wird. Es ist das Verhältnis deiner tatsächlichen Equity zur theoretischen maximalen Equity, die du mit perfekter Würfelnutzung haben könntest. Eine Position mit hoher Würfel-Effizienz (nahe 100%) bedeutet, dass du deinen Vorteil effektiv nutzen kannst, um Würfel-Aktion zu erzeugen - volatile Positionen haben hohe Effizienz. Niedrige Würfel-Effizienz (60-70%) bedeutet, dass dein Vorteil 'eingeschlossen' ist und nicht leicht über den Würfel gehebelt werden kann - langsame, zermürbende Positionen haben niedrige Effizienz. Dies beeinflusst Verdopplungspunkte: niedrigere Effizienz erfordert stärkere Equity zum Verdoppeln.",
+          nl: "Dobbelsteenefficiëntie meet hoe effectief een voorsprong zich vertaalt naar dobbelsteenhefboomwerking. Het is de verhouding van je werkelijke equity tot de theoretische maximale equity die je zou kunnen hebben met perfect dobbelsteengebruik. Een positie met hoge dobbelsteenefficiëntie (dicht bij 100%) betekent dat je je voordeel effectief kunt gebruiken om dobbelsteenactie te genereren - volatiele posities hebben hoge efficiëntie. Lage dobbelsteenefficiëntie (60-70%) betekent dat je voordeel 'vastgezet' is en niet gemakkelijk kan worden benut via de dobbelsteen - langzame, slijpende posities hebben lage efficiëntie. Dit beïnvloedt verdubbelpunten: lagere efficiëntie vereist sterkere equity om te verdubbelen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'golden point' in backgammon strategy?",
+          es: "¿Qué es el 'punto dorado' en la estrategia del backgammon?",
+          de: "Was ist der 'goldene Punkt' in der Backgammon-Strategie?",
+          nl: "Wat is het 'gouden punt' in backgammon strategie?"
+        },
+        options: [
+          { en: "The 5-point in your home board", es: "El punto 5 en tu tablero de casa", de: "Der 5-Punkt im Heimfeld", nl: "Het 5-punt in je thuisbord" },
+          { en: "The 20-point (opponent's 5-point)", es: "El punto 20 (punto 5 del oponente)", de: "Der 20-Punkt (5-Punkt des Gegners)", nl: "Het 20-punt (tegenstander's 5-punt)" },
+          { en: "Midpoint (13-point for both players)", es: "Punto medio (punto 13 para ambos jugadores)", de: "Mittelpunkt (13-Punkt für beide Spieler)", nl: "Middelpunt (13-punt voor beide spelers)" },
+          { en: "Bar point (7-point)", es: "Punto de barra (punto 7)", de: "Bar-Punkt (7-Punkt)", nl: "Bar punt (7-punt)" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The golden point is the 5-point in your home board - considered the single most valuable point to own. It serves multiple strategic purposes: creates a strong anchor for the opponent's back checkers to avoid, forms the base of primes (builder for 6-prime), provides excellent coverage for blots in your inner board, and is ideally positioned for bearing off efficiently. The opening priority in backgammon is usually to make your 5-point. Many opening strategies and slot plays revolve around controlling this critical point.",
+          es: "El punto dorado es el punto 5 en tu tablero de casa, considerado el punto individual más valioso para poseer. Sirve múltiples propósitos estratégicos: crea un ancla fuerte que las fichas traseras del oponente deben evitar, forma la base de primes (constructor para 6-prime), proporciona excelente cobertura para blots en tu tablero interior, y está idealmente posicionado para sacar eficientemente. La prioridad de apertura en backgammon es usualmente hacer tu punto 5. Muchas estrategias de apertura y jugadas de slot giran en torno a controlar este punto crítico.",
+          de: "Der goldene Punkt ist der 5-Punkt im Heimfeld - gilt als der einzeln wertvollste zu besitzende Punkt. Er dient mehreren strategischen Zwecken: schafft einen starken Anker, den die hinteren Steine des Gegners vermeiden müssen, bildet die Basis von Primes (Baustein für 6-Prime), bietet ausgezeichnete Abdeckung für Blots im Innenfeld und ist ideal für effizientes Auswürfeln positioniert. Die Eröffnungspriorität im Backgammon ist normalerweise, den 5-Punkt zu machen. Viele Eröffnungsstrategien und Slot-Plays drehen sich um die Kontrolle dieses kritischen Punkts.",
+          nl: "Het gouden punt is het 5-punt in je thuisbord - beschouwd als het individueel meest waardevolle punt om te bezitten. Het dient meerdere strategische doelen: creëert een sterk anker dat achterste stenen van de tegenstander moeten vermijden, vormt de basis van primes (bouwer voor 6-prime), biedt uitstekende dekking voor blots in je binnenste bord, en is ideaal gepositioneerd voor efficiënt uitspelen. De openingsprioriteit in backgammon is meestal om je 5-punt te maken. Veel openingsstrategieën en slot plays draaien om het beheersen van dit kritieke punt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'normalized score' in match equity calculations?",
+          es: "¿Qué es la 'puntuación normalizada' en los cálculos de equidad de match?",
+          de: "Was ist 'normalisierter Stand' in Match-Equity-Berechnungen?",
+          nl: "Wat is 'genormaliseerde score' in match equity berekeningen?"
+        },
+        options: [
+          { en: "Converting match score to percentage remaining", es: "Convertir puntuación del match a porcentaje restante", de: "Match-Stand in verbleibenden Prozentsatz umwandeln", nl: "Match score omzetten naar resterende percentage" },
+          { en: "Adjusting for skill difference between players", es: "Ajustar por diferencia de habilidad entre jugadores", de: "Anpassung für Skill-Unterschied zwischen Spielern", nl: "Aanpassen voor vaardigheid verschil tussen spelers" },
+          { en: "Average equity across all match lengths", es: "Equity promedio en todas las longitudes de match", de: "Durchschnittliche Equity über alle Match-Längen", nl: "Gemiddelde equity over alle match lengtes" },
+          { en: "Standard deviation of match outcomes", es: "Desviación estándar de resultados del match", de: "Standardabweichung der Match-Ergebnisse", nl: "Standaarddeviatie van match uitkomsten" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Normalized score expresses match position as a percentage of points remaining to win, making it easier to compare equity across different match lengths. For example, in a 7-point match with score 5-3, you're 2-away and opponent is 4-away. The normalized score is 2/(2+4) = 33.3% for you (you need 33.3% of remaining points). Match equity tables can be normalized this way to apply to any match length. This standardization helps pattern recognition - '2-away/4-away' equity is similar regardless of whether it's from 5-3 in a 7-match or 9-5 in an 11-match.",
+          es: "La puntuación normalizada expresa la posición del match como un porcentaje de puntos restantes para ganar, facilitando comparar equity entre diferentes longitudes de match. Por ejemplo, en un match de 7 puntos con puntuación 5-3, estás 2-away y el oponente está 4-away. La puntuación normalizada es 2/(2+4) = 33,3% para ti (necesitas el 33,3% de los puntos restantes). Las tablas de equity de match pueden normalizarse de esta manera para aplicarse a cualquier longitud de match. Esta estandarización ayuda al reconocimiento de patrones: la equity '2-away/4-away' es similar independientemente de si es de 5-3 en un match de 7 o 9-5 en un match de 11.",
+          de: "Der normalisierte Stand drückt die Match-Position als Prozentsatz der verbleibenden Punkte zum Sieg aus, was den Vergleich von Equity über verschiedene Match-Längen erleichtert. Zum Beispiel, in einem 7-Punkt-Match mit Stand 5-3 ist man 2-away und der Gegner 4-away. Der normalisierte Stand ist 2/(2+4) = 33,3% für dich (du brauchst 33,3% der verbleibenden Punkte). Match-Equity-Tabellen können so normalisiert werden, um auf jede Match-Länge anwendbar zu sein. Diese Standardisierung hilft bei der Mustererkennung - '2-away/4-away' Equity ist ähnlich, unabhängig davon, ob es von 5-3 in einem 7-Match oder 9-5 in einem 11-Match stammt.",
+          nl: "Genormaliseerde score drukt match positie uit als een percentage van resterende punten om te winnen, wat het gemakkelijker maakt om equity te vergelijken over verschillende match lengtes. Bijvoorbeeld, in een 7-punts match met score 5-3, ben je 2-away en tegenstander is 4-away. De genormaliseerde score is 2/(2+4) = 33,3% voor jou (je hebt 33,3% van resterende punten nodig). Match equity tabellen kunnen op deze manier worden genormaliseerd om toe te passen op elke match lengte. Deze standaardisatie helpt patroonherkenning - '2-away/4-away' equity is vergelijkbaar ongeacht of het van 5-3 in een 7-match of 9-5 in een 11-match komt."
+        }
+      },
+      {
+        question: {
+          en: "What is 'rollout standard error' in neural network analysis?",
+          es: "¿Qué es el 'error estándar de rollout' en el análisis de red neuronal?",
+          de: "Was ist 'Rollout-Standardfehler' in der neuronalen Netzwerkanalyse?",
+          nl: "Wat is 'rollout standaardfout' in neurale netwerk analyse?"
+        },
+        options: [
+          { en: "Average mistake rate by the bot", es: "Tasa de error promedio del bot", de: "Durchschnittliche Fehlerrate des Bots", nl: "Gemiddelde foutpercentage van de bot" },
+          { en: "Statistical confidence interval of rollout results", es: "Intervalo de confianza estadístico de resultados de rollout", de: "Statistisches Konfidenzintervall der Rollout-Ergebnisse", nl: "Statistisch betrouwbaarheidsinterval van rollout resultaten" },
+          { en: "Difference between 1-ply and 2-ply evaluation", es: "Diferencia entre evaluación de 1 capa y 2 capas", de: "Unterschied zwischen 1-Ply- und 2-Ply-Bewertung", nl: "Verschil tussen 1-laags en 2-laags evaluatie" },
+          { en: "Bug detection metric in software", es: "Métrica de detección de errores en software", de: "Fehlererkennungsmetrik in Software", nl: "Bug detectie metriek in software" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Rollout standard error (SE) measures the statistical reliability of rollout results. Because rollouts simulate random dice sequences, results vary between runs. SE indicates the confidence interval - smaller SE means more reliable results. For example, if a rollout shows equity = 0.550 ± 0.008 SE, you can be ~68% confident the true equity is between 0.542-0.558, and ~95% confident it's between 0.534-0.566. To reduce SE, you need more trials (typically thousands). SE is critical for evaluating close decisions - a 0.001 equity difference means nothing if SE is 0.010.",
+          es: "El error estándar de rollout (SE) mide la confiabilidad estadística de los resultados de rollout. Como los rollouts simulan secuencias de dados aleatorias, los resultados varían entre ejecuciones. SE indica el intervalo de confianza: menor SE significa resultados más confiables. Por ejemplo, si un rollout muestra equity = 0,550 ± 0,008 SE, puedes estar ~68% seguro de que la equity real está entre 0,542-0,558, y ~95% seguro de que está entre 0,534-0,566. Para reducir SE, necesitas más pruebas (típicamente miles). SE es crítico para evaluar decisiones cercanas: una diferencia de equity de 0,001 no significa nada si SE es 0,010.",
+          de: "Der Rollout-Standardfehler (SE) misst die statistische Zuverlässigkeit von Rollout-Ergebnissen. Da Rollouts zufällige Würfelsequenzen simulieren, variieren die Ergebnisse zwischen Durchläufen. SE zeigt das Konfidenzintervall an - kleinerer SE bedeutet zuverlässigere Ergebnisse. Zum Beispiel, wenn ein Rollout Equity = 0,550 ± 0,008 SE zeigt, können Sie zu ~68% sicher sein, dass die wahre Equity zwischen 0,542-0,558 liegt, und zu ~95% sicher, dass sie zwischen 0,534-0,566 liegt. Um SE zu reduzieren, braucht man mehr Versuche (typischerweise Tausende). SE ist kritisch für die Bewertung knapper Entscheidungen - ein 0,001 Equity-Unterschied bedeutet nichts, wenn SE 0,010 ist.",
+          nl: "Rollout standaardfout (SE) meet de statistische betrouwbaarheid van rollout resultaten. Omdat rollouts willekeurige dobbelsteensequenties simuleren, variëren resultaten tussen runs. SE geeft het betrouwbaarheidsinterval aan - kleinere SE betekent betrouwbaardere resultaten. Bijvoorbeeld, als een rollout equity = 0,550 ± 0,008 SE toont, kun je ~68% zeker zijn dat de echte equity tussen 0,542-0,558 ligt, en ~95% zeker dat het tussen 0,534-0,566 ligt. Om SE te verminderen, heb je meer proeven nodig (typisch duizenden). SE is cruciaal voor het evalueren van krappe beslissingen - een 0,001 equity verschil betekent niets als SE 0,010 is."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'beaver' rule and when is it advantageous?",
+          es: "¿Qué es la regla del 'beaver' y cuándo es ventajosa?",
+          de: "Was ist die 'Beaver'-Regel und wann ist sie vorteilhaft?",
+          nl: "Wat is de 'beaver' regel en wanneer is het voordelig?"
+        },
+        options: [
+          { en: "Immediate redouble after taking, keeping cube ownership", es: "Redoble inmediato después de aceptar, manteniendo propiedad del cubo", de: "Sofortige Wiederverdopplung nach Annahme, Würfelbesitz behaltend", nl: "Onmiddellijke herverdubbeling na accepteren, dobbelsteenbezit behoudend" },
+          { en: "Passing cube to avoid gammon", es: "Pasar cubo para evitar gammon", de: "Würfel passen, um Gammon zu vermeiden", nl: "Dobbelsteen weigeren om gammon te vermijden" },
+          { en: "Doubling when exactly 50% equity", es: "Doblar cuando exactamente 50% de equity", de: "Verdoppeln bei genau 50% Equity", nl: "Verdubbelen bij precies 50% equity" },
+          { en: "Wild card move allowing any checker play", es: "Movimiento comodín que permite cualquier jugada de ficha", de: "Wildcard-Zug, der jedes Checker-Play erlaubt", nl: "Wildcard zet die elke checker play toestaat" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The beaver is an optional rule (not used in tournaments) where if you're doubled, you can accept AND immediately redouble to the next level while retaining cube ownership. For example, opponent doubles to 2, you beaver to 4 and keep the cube. Beavers are advantageous when you believe your opponent's double was premature or incorrect - you're saying 'not only do I take, but I'm actually the favorite.' The beaver rule discourages loose doubles in money games, as an incorrect double can be severely punished by an immediate beaver.",
+          es: "El beaver es una regla opcional (no usada en torneos) donde si te doblan, puedes aceptar E inmediatamente redoblar al siguiente nivel mientras retienes la propiedad del cubo. Por ejemplo, el oponente dobla a 2, tú beaver a 4 y mantienes el cubo. Los beavers son ventajosos cuando crees que el doble de tu oponente fue prematuro o incorrecto: estás diciendo 'no solo acepto, sino que en realidad soy el favorito.' La regla del beaver desalienta dobles sueltos en juegos por dinero, ya que un doble incorrecto puede ser severamente castigado con un beaver inmediato.",
+          de: "Der Beaver ist eine optionale Regel (nicht in Turnieren verwendet), bei der man, wenn man verdoppelt wird, annehmen UND sofort auf die nächste Stufe wiederverdoppeln kann, während man den Würfelbesitz behält. Zum Beispiel verdoppelt der Gegner auf 2, man beavert auf 4 und behält den Würfel. Beavers sind vorteilhaft, wenn man glaubt, dass die Verdopplung des Gegners verfrüht oder falsch war - man sagt 'ich nehme nicht nur an, sondern bin tatsächlich der Favorit.' Die Beaver-Regel entmutigt lose Verdopplungen in Geldspielen, da eine falsche Verdopplung durch einen sofortigen Beaver schwer bestraft werden kann.",
+          nl: "De beaver is een optionele regel (niet gebruikt in toernooien) waarbij als je verdubbeld wordt, je kunt accepteren EN onmiddellijk herverdubbelen naar het volgende niveau terwijl je dobbelsteenbezit behoudt. Bijvoorbeeld, tegenstander verdubbelt naar 2, jij beavert naar 4 en houdt de dobbelsteen. Beavers zijn voordelig wanneer je gelooft dat de verdubbeling van je tegenstander voorbarig of incorrect was - je zegt 'niet alleen accepteer ik, maar ik ben eigenlijk de favoriet.' De beaver regel ontmoedigt losse verdubbeling in geldspellen, omdat een incorrecte verdubbeling zwaar gestraft kan worden door een onmiddellijke beaver."
+        }
+      },
+      {
+        question: {
+          en: "What is 'temperature' in backgammon game theory?",
+          es: "¿Qué es la 'temperatura' en la teoría de juegos del backgammon?",
+          de: "Was ist 'Temperatur' in der Backgammon-Spieltheorie?",
+          nl: "Wat is 'temperatuur' in backgammon speltheorie?"
+        },
+        options: [
+          { en: "Rate of equity swing per roll - volatility measure", es: "Tasa de oscilación de equity por tirada - medida de volatilidad", de: "Rate des Equity-Schwungs pro Wurf - Volatilitätsmaß", nl: "Snelheid van equity schommeling per worp - volatiliteit meting" },
+          { en: "Player emotion level during match", es: "Nivel de emoción del jugador durante el match", de: "Emotionsniveau des Spielers während des Matches", nl: "Emotie niveau van speler tijdens match" },
+          { en: "Clock pressure in timed tournaments", es: "Presión del reloj en torneos cronometrados", de: "Uhrdruck in zeitgesteuerten Turnieren", nl: "Klokdruk in getimede toernooien" },
+          { en: "Gammon frequency relative to match score", es: "Frecuencia de gammon relativa a la puntuación del match", de: "Gammon-Häufigkeit relativ zum Match-Stand", nl: "Gammon frequentie relatief aan match score" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Temperature measures how quickly equity changes in a position - essentially, positional volatility. High-temperature positions (blitzes, mutual contact, many hitting chances) have equity swings of 20-40% per exchange. Low-temperature positions (pure races, settled positions) change slowly, maybe 2-5% per roll. Temperature directly affects cube strategy: high-temperature positions require earlier doubling (to avoid market losers), while low-temperature positions allow waiting for higher equity. The concept comes from combinatorial game theory and is critical for optimal cube timing.",
+          es: "La temperatura mide qué tan rápido cambia la equity en una posición, esencialmente, la volatilidad posicional. Posiciones de alta temperatura (blitzes, contacto mutuo, muchas oportunidades de golpeo) tienen oscilaciones de equity de 20-40% por intercambio. Posiciones de baja temperatura (carreras puras, posiciones establecidas) cambian lentamente, tal vez 2-5% por tirada. La temperatura afecta directamente la estrategia del cubo: posiciones de alta temperatura requieren doblaje más temprano (para evitar perdedores del mercado), mientras que posiciones de baja temperatura permiten esperar mayor equity. El concepto proviene de la teoría de juegos combinatorios y es crítico para el timing óptimo del cubo.",
+          de: "Temperatur misst, wie schnell sich Equity in einer Position ändert - im Wesentlichen positionelle Volatilität. Hochtemperatur-Positionen (Blitzes, gegenseitiger Kontakt, viele Schlagchancen) haben Equity-Schwankungen von 20-40% pro Austausch. Niedrigtemperatur-Positionen (reine Rennen, gesetzte Positionen) ändern sich langsam, vielleicht 2-5% pro Wurf. Temperatur beeinflusst direkt die Würfelstrategie: Hochtemperatur-Positionen erfordern früheres Verdoppeln (um Market Loser zu vermeiden), während Niedrigtemperatur-Positionen das Warten auf höhere Equity erlauben. Das Konzept stammt aus der kombinatorischen Spieltheorie und ist kritisch für optimales Würfel-Timing.",
+          nl: "Temperatuur meet hoe snel equity verandert in een positie - in essentie, positionele volatiliteit. Hoge-temperatuur posities (blitzes, wederzijds contact, veel raakkansen) hebben equity schommelingen van 20-40% per uitwisseling. Lage-temperatuur posities (pure races, gevestigde posities) veranderen langzaam, misschien 2-5% per worp. Temperatuur beïnvloedt direct dobbelsteenstrategie: hoge-temperatuur posities vereisen eerdere verdubbeling (om market losers te vermijden), terwijl lage-temperatuur posities wachten op hogere equity toestaan. Het concept komt van combinatorische speltheorie en is cruciaal voor optimale dobbelsteen timing."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Naccel 2' position refinement in modern theory?",
+          es: "¿Qué es el refinamiento de posición 'Naccel 2' en la teoría moderna?",
+          de: "Was ist die 'Naccel 2'-Positionsverfeinerung in der modernen Theorie?",
+          nl: "Wat is de 'Naccel 2' positie verfijning in moderne theorie?"
+        },
+        options: [
+          { en: "Position where equity won't change for 2+ rolls", es: "Posición donde la equity no cambiará durante 2+ tiradas", de: "Position, wo sich Equity für 2+ Würfe nicht ändert", nl: "Positie waar equity niet zal veranderen gedurende 2+ worpen" },
+          { en: "Second version of neural network software", es: "Segunda versión del software de red neuronal", de: "Zweite Version der neuronalen Netzwerksoftware", nl: "Tweede versie van neurale netwerk software" },
+          { en: "2-away/2-away specific cube strategy", es: "Estrategia específica del cubo 2-away/2-away", de: "2-away/2-away-spezifische Würfelstrategie", nl: "2-away/2-away specifieke dobbelsteenstrategie" },
+          { en: "Double Naccel - even slower equity change", es: "Doble Naccel - cambio de equity aún más lento", de: "Doppel-Naccel - noch langsamere Equity-Änderung", nl: "Dubbele Naccel - nog langzamere equity verandering" }
+        ],
+        correct: 3,
+        explanation: {
+          en: "Naccel 2 (or 'Double Naccel') is an extreme refinement where the position is so locked-up that equity changes glacially even over multiple rolls. While regular Naccel means 'don't double yet because equity won't jump suddenly,' Naccel 2 means 'you can wait several rolls with virtually no market-losing risk.' These occur in deeply locked priming games or mutual holding positions where both players have minimal constructive moves. In Naccel 2 positions, you can safely delay cube action to gather more information, as the position's temperature is near zero.",
+          es: "Naccel 2 (o 'Doble Naccel') es un refinamiento extremo donde la posición está tan bloqueada que la equity cambia glacialmente incluso durante múltiples tiradas. Mientras que Naccel regular significa 'no dobles aún porque la equity no saltará repentinamente,' Naccel 2 significa 'puedes esperar varias tiradas con virtualmente ningún riesgo de perder el mercado.' Estos ocurren en juegos de priming profundamente bloqueados o posiciones de retención mutua donde ambos jugadores tienen movimientos constructivos mínimos. En posiciones Naccel 2, puedes retrasar con seguridad la acción del cubo para reunir más información, ya que la temperatura de la posición está cerca de cero.",
+          de: "Naccel 2 (oder 'Doppel-Naccel') ist eine extreme Verfeinerung, bei der die Position so festgefahren ist, dass sich die Equity selbst über mehrere Würfe hinweg eiszeitlich langsam ändert. Während normales Naccel bedeutet 'verdopple noch nicht, weil Equity nicht plötzlich springt,' bedeutet Naccel 2 'du kannst mehrere Würfe warten mit praktisch keinem Markt-Verlust-Risiko.' Diese treten in tief festgefahrenen Priming-Spielen oder gegenseitigen Holding-Positionen auf, wo beide Spieler minimale konstruktive Züge haben. In Naccel-2-Positionen kann man Würfel-Aktion sicher verzögern, um mehr Informationen zu sammeln, da die Temperatur der Position nahe Null ist.",
+          nl: "Naccel 2 (of 'Dubbele Naccel') is een extreme verfijning waar de positie zo vastgelopen is dat equity ijselijk langzaam verandert, zelfs over meerdere worpen. Terwijl reguliere Naccel betekent 'verdubbel nog niet omdat equity niet plotseling zal springen,' betekent Naccel 2 'je kunt meerdere worpen wachten met vrijwel geen markt-verlies risico.' Deze komen voor in diep vastgelopen priming games of wederzijdse holding posities waar beide spelers minimale constructieve zetten hebben. In Naccel 2 posities kun je veilig dobbelsteenactie uitstellen om meer informatie te verzamelen, omdat de temperatuur van de positie bijna nul is."
+        }
+      },
+      {
+        question: {
+          en: "What is 'match equity table convergence' at extreme scores?",
+          es: "¿Qué es la 'convergencia de tabla de equity de match' en puntuaciones extremas?",
+          de: "Was ist 'Match-Equity-Tabellen-Konvergenz' bei extremen Ständen?",
+          nl: "Wat is 'match equity tabel convergentie' bij extreme scores?"
+        },
+        options: [
+          { en: "All positions approach 50/50 at high scores", es: "Todas las posiciones se acercan a 50/50 en puntuaciones altas", de: "Alle Positionen nähern sich 50/50 bei hohen Ständen", nl: "Alle posities naderen 50/50 bij hoge scores" },
+          { en: "Large leads become insurmountable", es: "Las grandes ventajas se vuelven insuperables", de: "Große Vorsprünge werden unüberwindbar", nl: "Grote voorsprongen worden onoverkomelijk" },
+          { en: "Gammon values approach money game levels", es: "Los valores de gammon se acercan a niveles de juego por dinero", de: "Gammon-Werte nähern sich Geldspiel-Niveaus", nl: "Gammon waarden naderen geldspel niveaus" },
+          { en: "Match equity equals pip differential", es: "La equity de match es igual al diferencial de pips", de: "Match-Equity gleicht Pip-Differenz", nl: "Match equity gelijk aan pip verschil" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Match equity table convergence means that at very high match scores (both players many points away from victory), match equity values converge toward money game values. For example, at 15-away/15-away, cube actions and gammon values behave almost identically to money play because the match is so long that individual games matter less. Conversely, at extreme disparities (like 2-away/15-away), the trailing player has huge gammon-go incentive. Understanding convergence helps: you can apply money game strategy at high symmetric scores, but must use match equity tables at asymmetric or low scores.",
+          es: "La convergencia de tabla de equity de match significa que en puntuaciones de match muy altas (ambos jugadores muchos puntos lejos de la victoria), los valores de equity de match convergen hacia los valores de juego por dinero. Por ejemplo, en 15-away/15-away, las acciones del cubo y los valores de gammon se comportan casi idénticamente al juego por dinero porque el match es tan largo que los juegos individuales importan menos. Por el contrario, en disparidades extremas (como 2-away/15-away), el jugador rezagado tiene un enorme incentivo de gammon-go. Entender la convergencia ayuda: puedes aplicar estrategia de juego por dinero en puntuaciones simétricas altas, pero debes usar tablas de equity de match en puntuaciones asimétricas o bajas.",
+          de: "Match-Equity-Tabellen-Konvergenz bedeutet, dass bei sehr hohen Match-Ständen (beide Spieler viele Punkte vom Sieg entfernt) Match-Equity-Werte gegen Geldspiel-Werte konvergieren. Zum Beispiel verhalten sich bei 15-away/15-away Würfel-Aktionen und Gammon-Werte fast identisch zum Geldspiel, weil das Match so lang ist, dass einzelne Spiele weniger wichtig sind. Umgekehrt hat bei extremen Disparitäten (wie 2-away/15-away) der zurückliegende Spieler enormen Gammon-Go-Anreiz. Das Verständnis der Konvergenz hilft: Man kann Geldspiel-Strategie bei hohen symmetrischen Ständen anwenden, muss aber Match-Equity-Tabellen bei asymmetrischen oder niedrigen Ständen verwenden.",
+          nl: "Match equity tabel convergentie betekent dat bij zeer hoge match scores (beide spelers vele punten verwijderd van overwinning), match equity waarden convergeren naar geldspel waarden. Bijvoorbeeld, bij 15-away/15-away gedragen dobbelsteenacties en gammon waarden zich bijna identiek aan geldspel omdat de match zo lang is dat individuele spellen minder uitmaken. Omgekeerd heeft bij extreme verschillen (zoals 2-away/15-away), de achterliggende speler enorme gammon-go stimulans. Het begrijpen van convergentie helpt: je kunt geldspel strategie toepassen bij hoge symmetrische scores, maar moet match equity tabellen gebruiken bij asymmetrische of lage scores."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'clearance number' in bearing off analysis?",
+          es: "¿Qué es un 'número de despeje' en el análisis del bear-off?",
+          de: "Was ist eine 'Clearance-Zahl' in der Bearoff-Analyse?",
+          nl: "Wat is een 'ontruimingsnummer' in uitspeel analyse?"
+        },
+        options: [
+          { en: "Number of pips to clear opponent's anchor", es: "Número de pips para despejar el ancla del oponente", de: "Anzahl der Pips zum Räumen des gegnerischen Ankers", nl: "Aantal pips om anker van tegenstander op te ruimen" },
+          { en: "Exact roll needed to bear off all checkers", es: "Tirada exacta necesaria para sacar todas las fichas", de: "Exakter Wurf zum Auswürfeln aller Steine", nl: "Exacte worp nodig om alle stenen uit te spelen" },
+          { en: "How many checkers to remove from a point before wasting pips", es: "Cuántas fichas quitar de un punto antes de desperdiciar pips", de: "Wie viele Steine von einem Punkt zu entfernen, bevor Pips verschwendet werden", nl: "Hoeveel stenen van een punt te verwijderen voordat pips verspild worden" },
+          { en: "Minimum rolls to empty home board", es: "Tiradas mínimas para vaciar el tablero de casa", de: "Minimale Würfe zum Leeren des Heimfelds", nl: "Minimale worpen om thuisbord te legen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "A clearance number indicates how many checkers you should bear off from a point before moving checkers elsewhere to avoid wastage. For example, with 5 checkers on the 6-point, the clearance number is 1 - you should bear off at least 1 checker before the position wastes pips. With 3 checkers on the 5-point and 4 on the 6-point, you should clear some from the 6-point first. Clearance numbers optimize bearoff efficiency by preventing excessive stacking. This advanced concept helps make the mathematically optimal bearoff plays in racing situations.",
+          es: "Un número de despeje indica cuántas fichas debes sacar de un punto antes de mover fichas a otro lugar para evitar desperdicio. Por ejemplo, con 5 fichas en el punto 6, el número de despeje es 1: debes sacar al menos 1 ficha antes de que la posición desperdicie pips. Con 3 fichas en el punto 5 y 4 en el punto 6, debes despejar algunas del punto 6 primero. Los números de despeje optimizan la eficiencia del bear-off al prevenir el apilamiento excesivo. Este concepto avanzado ayuda a hacer las jugadas de bear-off matemáticamente óptimas en situaciones de carrera.",
+          de: "Eine Clearance-Zahl gibt an, wie viele Steine man von einem Punkt auswürfeln sollte, bevor man Steine woanders hinbewegt, um Verschwendung zu vermeiden. Zum Beispiel ist bei 5 Steinen auf dem 6-Punkt die Clearance-Zahl 1 - man sollte mindestens 1 Stein auswürfeln, bevor die Position Pips verschwendet. Mit 3 Steinen auf dem 5-Punkt und 4 auf dem 6-Punkt sollte man zuerst einige vom 6-Punkt räumen. Clearance-Zahlen optimieren die Auswürfel-Effizienz, indem sie übermäßiges Stapeln verhindern. Dieses fortgeschrittene Konzept hilft, mathematisch optimale Auswürfel-Plays in Rennsituationen zu machen.",
+          nl: "Een ontruimingsnummer geeft aan hoeveel stenen je van een punt moet uitspelen voordat je stenen elders naartoe beweegt om verspilling te voorkomen. Bijvoorbeeld, met 5 stenen op het 6-punt, is het ontruimingsnummer 1 - je moet minstens 1 steen uitspelen voordat de positie pips verspilt. Met 3 stenen op het 5-punt en 4 op het 6-punt, moet je eerst enkele van het 6-punt ontruimen. Ontruimingsnummers optimaliseren uitspeel efficiëntie door overmatige stapeling te voorkomen. Dit geavanceerde concept helpt de wiskundig optimale uitspeel plays te maken in race situaties."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Zorba' position in backgammon theory?",
+          es: "¿Qué es la posición 'Zorba' en la teoría del backgammon?",
+          de: "Was ist die 'Zorba'-Position in der Backgammon-Theorie?",
+          nl: "Wat is de 'Zorba' positie in backgammon theorie?"
+        },
+        options: [
+          { en: "Greek opening variation", es: "Variación de apertura griega", de: "Griechische Eröffnungsvariante", nl: "Griekse openingsvariatie" },
+          { en: "Mutual 2-point back game reference position", es: "Posición de referencia de back game mutuo de 2 puntos", de: "Gegenseitige 2-Punkt-Back-Game-Referenzposition", nl: "Wederzijdse 2-punts back game referentiepositie" },
+          { en: "Dance position - both players on bar", es: "Posición de baile - ambos jugadores en barra", de: "Tanz-Position - beide Spieler auf Bar", nl: "Dans positie - beide spelers op bar" },
+          { en: "Cube action at double match point", es: "Acción del cubo en doble punto de match", de: "Würfel-Aktion beim Doppel-Match-Punkt", nl: "Dobbelsteenactie bij dubbel match punt" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The Zorba position is a classic reference position in backgammon theory, representing a symmetrical mutual 2-point back game where both players hold their opponent's 1-point and 3-point (or similar low anchors). Named after Nack Ballard's article analyzing this position type, it demonstrates key back game principles: timing is critical (need sufficient spare checkers to wait), hitting opportunities are mutual (both players have shots when opponent breaks), and the player who breaks first usually loses. Studying Zorba helps understand back game timing and when to commit to or avoid back game strategies.",
+          es: "La posición Zorba es una posición de referencia clásica en la teoría del backgammon, representando un back game mutuo simétrico de 2 puntos donde ambos jugadores mantienen el punto 1 y punto 3 de su oponente (o anclas bajas similares). Nombrada en honor al artículo de Nack Ballard que analiza este tipo de posición, demuestra principios clave del back game: el timing es crítico (necesitas suficientes fichas de repuesto para esperar), las oportunidades de golpeo son mutuas (ambos jugadores tienen golpes cuando el oponente rompe), y el jugador que rompe primero generalmente pierde. Estudiar Zorba ayuda a entender el timing del back game y cuándo comprometerse o evitar estrategias de back game.",
+          de: "Die Zorba-Position ist eine klassische Referenzposition in der Backgammon-Theorie, die ein symmetrisches gegenseitiges 2-Punkt-Back-Game darstellt, bei dem beide Spieler den 1-Punkt und 3-Punkt des Gegners halten (oder ähnliche niedrige Anker). Nach Nack Ballards Artikel benannt, der diesen Positionstyp analysiert, demonstriert sie wichtige Back-Game-Prinzipien: Timing ist kritisch (man braucht ausreichend Ersatzsteine zum Warten), Schlagmöglichkeiten sind gegenseitig (beide Spieler haben Schüsse, wenn der Gegner aufbricht), und der Spieler, der zuerst aufbricht, verliert normalerweise. Das Studium von Zorba hilft, Back-Game-Timing zu verstehen und wann man sich für Back-Game-Strategien entscheiden oder sie vermeiden sollte.",
+          nl: "De Zorba positie is een klassieke referentiepositie in backgammon theorie, die een symmetrisch wederzijds 2-punts back game vertegenwoordigt waar beide spelers het 1-punt en 3-punt van hun tegenstander houden (of vergelijkbare lage ankers). Vernoemd naar Nack Ballard's artikel dat dit positietype analyseert, demonstreert het belangrijke back game principes: timing is cruciaal (je hebt voldoende reserve stenen nodig om te wachten), raakkansen zijn wederzijds (beide spelers hebben schoten wanneer tegenstander breekt), en de speler die eerst breekt verliest meestal. Zorba bestuderen helpt back game timing te begrijpen en wanneer je je moet committeren aan of back game strategieën moet vermijden."
+        }
       }
     ]
   };

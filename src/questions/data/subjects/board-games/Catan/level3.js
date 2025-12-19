@@ -427,6 +427,426 @@
           de: "Wenn du während der Aufstellung deine zweite Siedlung platzierst, erhältst du sofort eine Ressourcenkarte für jedes Geländefeld neben dieser Siedlung. Dies hilft Spielern, mit verschiedenen Ressourcen basierend auf ihrer Platzierungsstrategie zu beginnen.",
           nl: "Wanneer je je tweede nederzetting plaatst tijdens de opzet, ontvang je onmiddellijk één hulpbronkaart voor elke terreinhex naast die nederzetting. Dit helpt spelers om te beginnen met verschillende hulpbronnen op basis van hun plaatsingsstrategie."
         }
+      },
+      {
+        question: {
+          en: "What is the strategic value of controlling a 2:1 harbor?",
+          es: "¿Cuál es el valor estratégico de controlar un puerto 2:1?",
+          de: "Was ist der strategische Wert, einen 2:1-Hafen zu kontrollieren?",
+          nl: "Wat is de strategische waarde van het beheersen van een 2:1 haven?"
+        },
+        options: [
+          { en: "Trade that specific resource at 2:1 ratio", es: "Intercambiar ese recurso específico a razón 2:1", de: "Diesen spezifischen Ressourcentyp zu 2:1 tauschen", nl: "Ruil die specifieke hulpbron tegen 2:1 verhouding" },
+          { en: "Get 2 victory points", es: "Obtener 2 puntos de victoria", de: "2 Siegpunkte erhalten", nl: "Krijg 2 overwinningspunten" },
+          { en: "Build ships for free", es: "Construir barcos gratis", de: "Schiffe kostenlos bauen", nl: "Bouw schepen gratis" },
+          { en: "Trade any resource at 2:1", es: "Intercambiar cualquier recurso a 2:1", de: "Jede Ressource zu 2:1 tauschen", nl: "Ruil elke hulpbron tegen 2:1" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A 2:1 specialized harbor allows you to trade 2 of the specific resource shown on the harbor for 1 of any other resource. This is very powerful if you have good production of that resource, effectively doubling its value. There's one 2:1 harbor for each of the 5 resource types.",
+          es: "Un puerto especializado 2:1 te permite intercambiar 2 del recurso específico que se muestra en el puerto por 1 de cualquier otro recurso. Esto es muy poderoso si tienes buena producción de ese recurso, duplicando efectivamente su valor. Hay un puerto 2:1 para cada uno de los 5 tipos de recursos.",
+          de: "Ein spezialisierter 2:1-Hafen ermöglicht es dir, 2 der spezifischen Ressource, die auf dem Hafen angezeigt wird, gegen 1 einer anderen Ressource zu tauschen. Dies ist sehr mächtig, wenn du eine gute Produktion dieser Ressource hast, und verdoppelt effektiv ihren Wert. Es gibt einen 2:1-Hafen für jeden der 5 Ressourcentypen.",
+          nl: "Een gespecialiseerde 2:1 haven stelt je in staat om 2 van de specifieke hulpbron die op de haven wordt getoond te ruilen voor 1 van elke andere hulpbron. Dit is zeer krachtig als je goede productie van die hulpbron hebt, wat effectief de waarde verdubbelt. Er is één 2:1 haven voor elk van de 5 hulpbrontypes."
+        }
+      },
+      {
+        question: {
+          en: "What happens if you play a Knight card?",
+          es: "¿Qué pasa si juegas una carta de Caballero?",
+          de: "Was passiert, wenn du eine Ritterkarte spielst?",
+          nl: "Wat gebeurt er als je een Ridderkaart speelt?"
+        },
+        options: [
+          { en: "Move robber, steal card, counts toward Largest Army", es: "Mueve al ladrón, roba carta, cuenta para Ejército Más Grande", de: "Räuber bewegen, Karte stehlen, zählt zur größten Armee", nl: "Verplaats rover, steel kaart, telt mee voor Grootste Leger" },
+          { en: "Get 2 free resources", es: "Obtén 2 recursos gratis", de: "Erhalte 2 kostenlose Ressourcen", nl: "Krijg 2 gratis hulpbronnen" },
+          { en: "Build 2 free roads", es: "Construye 2 caminos gratis", de: "Baue 2 kostenlose Straßen", nl: "Bouw 2 gratis wegen" },
+          { en: "Block opponent's turn", es: "Bloquea el turno del oponente", de: "Blockiere den Zug des Gegners", nl: "Blokkeer beurt van tegenstander" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Playing a Knight card allows you to move the robber to any hex, then steal a random resource card from a player with a settlement/city adjacent to that hex. The played Knight also counts toward Largest Army (need 3+ knights to claim the 2 victory points).",
+          es: "Jugar una carta de Caballero te permite mover al ladrón a cualquier hexágono, luego robar una carta de recurso aleatoria de un jugador con un asentamiento/ciudad adyacente a ese hexágono. El Caballero jugado también cuenta para el Ejército Más Grande (necesitas 3+ caballeros para reclamar los 2 puntos de victoria).",
+          de: "Das Spielen einer Ritterkarte ermöglicht es dir, den Räuber auf ein beliebiges Feld zu bewegen und dann eine zufällige Ressourcenkarte von einem Spieler mit einer Siedlung/Stadt neben diesem Feld zu stehlen. Der gespielte Ritter zählt auch zur größten Armee (benötigt 3+ Ritter, um die 2 Siegpunkte zu beanspruchen).",
+          nl: "Het spelen van een Ridderkaart stelt je in staat de rover naar elke hex te verplaatsen, dan een willekeurige hulpbronkaart te stelen van een speler met een nederzetting/stad naast die hex. De gespeelde Ridder telt ook mee voor het Grootste Leger (heb 3+ ridders nodig om de 2 overwinningspunten te claimen)."
+        }
+      },
+      {
+        question: {
+          en: "Can you break another player's road to shorten their Longest Road?",
+          es: "¿Puedes romper el camino de otro jugador para acortar su Camino Más Largo?",
+          de: "Kannst du die Straße eines anderen Spielers unterbrechen, um seine längste Straße zu verkürzen?",
+          nl: "Kun je de weg van een andere speler doorbreken om hun Langste Weg te verkorten?"
+        },
+        options: [
+          { en: "No, roads are permanent", es: "No, los caminos son permanentes", de: "Nein, Straßen sind dauerhaft", nl: "Nee, wegen zijn permanent" },
+          { en: "Yes, by building a settlement on their road", es: "Sí, construyendo un asentamiento en su camino", de: "Ja, indem du eine Siedlung auf ihrer Straße baust", nl: "Ja, door een nederzetting op hun weg te bouwen" },
+          { en: "Only with development card", es: "Solo con carta de desarrollo", de: "Nur mit Entwicklungskarte", nl: "Alleen met ontwikkelingskaart" },
+          { en: "Only during setup", es: "Solo durante la preparación", de: "Nur während der Aufstellung", nl: "Alleen tijdens opzet" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Yes! If you build a settlement on an intersection that's part of another player's road network, you break their road into two separate segments. This can make them lose Longest Road if it reduces their continuous road below the current longest. This is a key strategic move.",
+          es: "¡Sí! Si construyes un asentamiento en una intersección que es parte de la red de caminos de otro jugador, rompes su camino en dos segmentos separados. Esto puede hacer que pierdan el Camino Más Largo si reduce su camino continuo por debajo del más largo actual. Este es un movimiento estratégico clave.",
+          de: "Ja! Wenn du eine Siedlung auf einer Kreuzung baust, die Teil des Straßennetzwerks eines anderen Spielers ist, unterbrichst du seine Straße in zwei separate Segmente. Dies kann dazu führen, dass sie die längste Straße verlieren, wenn ihre durchgehende Straße unter die aktuell längste reduziert wird. Dies ist ein wichtiger strategischer Zug.",
+          nl: "Ja! Als je een nederzetting bouwt op een kruispunt dat deel uitmaakt van het wegennetwerk van een andere speler, breek je hun weg in twee aparte segmenten. Dit kan ervoor zorgen dat ze de Langste Weg verliezen als het hun doorlopende weg verkort tot onder de huidige langste. Dit is een belangrijke strategische zet."
+        }
+      },
+      {
+        question: {
+          en: "What is the probability of rolling a 2 or 12 in Catan?",
+          es: "¿Cuál es la probabilidad de tirar un 2 o 12 en Catan?",
+          de: "Wie hoch ist die Wahrscheinlichkeit, eine 2 oder 12 in Catan zu würfeln?",
+          nl: "Wat is de waarschijnlijkheid om een 2 of 12 te gooien in Catan?"
+        },
+        options: [
+          { en: "1 in 36 (about 2.8%) each", es: "1 en 36 (aproximadamente 2,8%) cada uno", de: "1 von 36 (etwa 2,8%) jeweils", nl: "1 op 36 (ongeveer 2,8%) elk" },
+          { en: "2 in 36 (about 5.6%) each", es: "2 en 36 (aproximadamente 5,6%) cada uno", de: "2 von 36 (etwa 5,6%) jeweils", nl: "2 op 36 (ongeveer 5,6%) elk" },
+          { en: "3 in 36 (about 8.3%) each", es: "3 en 36 (aproximadamente 8,3%) cada uno", de: "3 von 36 (etwa 8,3%) jeweils", nl: "3 op 36 (ongeveer 8,3%) elk" },
+          { en: "5 in 36 (about 13.9%) each", es: "5 en 36 (aproximadamente 13,9%) cada uno", de: "5 von 36 (etwa 13,9%) jeweils", nl: "5 op 36 (ongeveer 13,9%) elk" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Both 2 and 12 have only 1 way to be rolled (1+1 and 6+6 respectively), making them the rarest numbers with 1/36 probability each (about 2.8%). These hexes are least productive but can still be valuable in certain strategies, especially if they have scarce resources.",
+          es: "Tanto el 2 como el 12 tienen solo 1 forma de ser tirados (1+1 y 6+6 respectivamente), haciéndolos los números más raros con probabilidad de 1/36 cada uno (aproximadamente 2,8%). Estos hexágonos son los menos productivos pero aún pueden ser valiosos en ciertas estrategias, especialmente si tienen recursos escasos.",
+          de: "Sowohl 2 als auch 12 haben nur 1 Möglichkeit, gewürfelt zu werden (1+1 bzw. 6+6), was sie zu den seltensten Zahlen mit jeweils 1/36 Wahrscheinlichkeit macht (etwa 2,8%). Diese Felder sind am wenigsten produktiv, können aber in bestimmten Strategien dennoch wertvoll sein, besonders wenn sie knappe Ressourcen haben.",
+          nl: "Zowel 2 als 12 hebben slechts 1 manier om gegooid te worden (respectievelijk 1+1 en 6+6), waardoor ze de zeldzaamste nummers zijn met elk 1/36 waarschijnlijkheid (ongeveer 2,8%). Deze hexen zijn het minst productief maar kunnen nog steeds waardevol zijn in bepaalde strategieën, vooral als ze schaarse hulpbronnen hebben."
+        }
+      },
+      {
+        question: {
+          en: "How many number tokens are in standard Catan?",
+          es: "¿Cuántas fichas numéricas hay en Catan estándar?",
+          de: "Wie viele Zahlenplättchen gibt es im Standard-Catan?",
+          nl: "Hoeveel nummerfiches zijn er in standaard Catan?"
+        },
+        options: [
+          { en: "17", es: "17", de: "17", nl: "17" },
+          { en: "18", es: "18", de: "18", nl: "18" },
+          { en: "19", es: "19", de: "19", nl: "19" },
+          { en: "20", es: "20", de: "20", nl: "20" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "There are 18 number tokens in standard Catan (one for each resource hex except the desert). The numbers are: two each of 3, 4, 5, 6, 8, 9, 10, 11, and one each of 2 and 12. No token for 7 since it activates the robber.",
+          es: "Hay 18 fichas numéricas en Catan estándar (una para cada hexágono de recurso excepto el desierto). Los números son: dos de cada 3, 4, 5, 6, 8, 9, 10, 11, y uno de cada 2 y 12. No hay ficha para el 7 ya que activa al ladrón.",
+          de: "Es gibt 18 Zahlenplättchen im Standard-Catan (eines für jedes Ressourcenfeld außer der Wüste). Die Zahlen sind: jeweils zwei von 3, 4, 5, 6, 8, 9, 10, 11 und jeweils eines von 2 und 12. Kein Plättchen für 7, da es den Räuber aktiviert.",
+          nl: "Er zijn 18 nummerfiches in standaard Catan (één voor elke hulpbronhex behalve de woestijn). De nummers zijn: twee van elk 3, 4, 5, 6, 8, 9, 10, 11, en één van elk 2 en 12. Geen fiche voor 7 omdat het de rover activeert."
+        }
+      },
+      {
+        question: {
+          en: "Can you play multiple development cards in one turn?",
+          es: "¿Puedes jugar múltiples cartas de desarrollo en un turno?",
+          de: "Kannst du mehrere Entwicklungskarten in einem Zug spielen?",
+          nl: "Kun je meerdere ontwikkelingskaarten in één beurt spelen?"
+        },
+        options: [
+          { en: "Yes, as many as you want", es: "Sí, tantas como quieras", de: "Ja, so viele du willst", nl: "Ja, zoveel als je wilt" },
+          { en: "No, maximum one per turn", es: "No, máximo una por turno", de: "Nein, maximal eine pro Zug", nl: "Nee, maximaal één per beurt" },
+          { en: "Only if they're different types", es: "Solo si son tipos diferentes", de: "Nur wenn sie verschiedene Typen sind", nl: "Alleen als het verschillende types zijn" },
+          { en: "Yes, but only Knight cards", es: "Sí, pero solo cartas de Caballero", de: "Ja, aber nur Ritterkarten", nl: "Ja, maar alleen Ridderkaarten" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "You can only play one development card per turn (except Victory Point cards which are played immediately when they give you the win). This limit prevents powerful combinations. However, you can buy multiple development cards in one turn if you have the resources.",
+          es: "Solo puedes jugar una carta de desarrollo por turno (excepto las cartas de Punto de Victoria que se juegan inmediatamente cuando te dan la victoria). Este límite previene combinaciones poderosas. Sin embargo, puedes comprar múltiples cartas de desarrollo en un turno si tienes los recursos.",
+          de: "Du kannst nur eine Entwicklungskarte pro Zug spielen (außer Siegpunkt-Karten, die sofort gespielt werden, wenn sie dir den Sieg geben). Diese Begrenzung verhindert mächtige Kombinationen. Du kannst jedoch mehrere Entwicklungskarten in einem Zug kaufen, wenn du die Ressourcen hast.",
+          nl: "Je kunt slechts één ontwikkelingskaart per beurt spelen (behalve Overwinningspunt kaarten die onmiddellijk worden gespeeld wanneer ze je de overwinning geven). Deze limiet voorkomt krachtige combinaties. Je kunt echter meerdere ontwikkelingskaarten in één beurt kopen als je de hulpbronnen hebt."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'dot value' system on number tokens?",
+          es: "¿Qué es el sistema de 'valor de puntos' en las fichas numéricas?",
+          de: "Was ist das 'Punktwert'-System auf Zahlenplättchen?",
+          nl: "Wat is het 'stippenwaardesysteem' op nummerfiches?"
+        },
+        options: [
+          { en: "Dots show how many resources you get", es: "Los puntos muestran cuántos recursos obtienes", de: "Punkte zeigen, wie viele Ressourcen du bekommst", nl: "Stippen tonen hoeveel hulpbronnen je krijgt" },
+          { en: "Dots indicate probability of rolling that number", es: "Los puntos indican la probabilidad de tirar ese número", de: "Punkte zeigen die Wahrscheinlichkeit, diese Zahl zu würfeln", nl: "Stippen geven waarschijnlijkheid aan om dat nummer te gooien" },
+          { en: "Dots show victory points", es: "Los puntos muestran puntos de victoria", de: "Punkte zeigen Siegpunkte", nl: "Stippen tonen overwinningspunten" },
+          { en: "Dots are just decorative", es: "Los puntos son solo decorativos", de: "Punkte sind nur dekorativ", nl: "Stippen zijn alleen decoratief" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The dots (or pips) on number tokens indicate the statistical probability of that number being rolled with two dice. More dots = more likely. 6 and 8 have 5 dots (most common after 7), while 2 and 12 have 1 dot (least common). This helps players quickly assess hex productivity during setup.",
+          es: "Los puntos en las fichas numéricas indican la probabilidad estadística de que se tire ese número con dos dados. Más puntos = más probable. 6 y 8 tienen 5 puntos (más comunes después del 7), mientras que 2 y 12 tienen 1 punto (menos comunes). Esto ayuda a los jugadores a evaluar rápidamente la productividad del hexágono durante la preparación.",
+          de: "Die Punkte auf den Zahlenplättchen zeigen die statistische Wahrscheinlichkeit an, dass diese Zahl mit zwei Würfeln gewürfelt wird. Mehr Punkte = wahrscheinlicher. 6 und 8 haben 5 Punkte (am häufigsten nach 7), während 2 und 12 1 Punkt haben (am seltensten). Dies hilft Spielern, die Feldproduktivität während der Aufstellung schnell einzuschätzen.",
+          nl: "De stippen op nummerfiches geven de statistische waarschijnlijkheid aan dat dat nummer met twee dobbelstenen wordt gegooid. Meer stippen = waarschijnlijker. 6 en 8 hebben 5 stippen (meest voorkomend na 7), terwijl 2 en 12 1 stip hebben (minst voorkomend). Dit helpt spelers snel de hex-productiviteit tijdens opzet te beoordelen."
+        }
+      },
+      {
+        question: {
+          en: "What happens if multiple players want to steal from the same victim when moving the robber?",
+          es: "¿Qué pasa si múltiples jugadores quieren robar de la misma víctima al mover al ladrón?",
+          de: "Was passiert, wenn mehrere Spieler vom selben Opfer stehlen wollen, wenn der Räuber bewegt wird?",
+          nl: "Wat gebeurt er als meerdere spelers van hetzelfde slachtoffer willen stelen bij het verplaatsen van de rover?"
+        },
+        options: [
+          { en: "All players steal one card each", es: "Todos los jugadores roban una carta cada uno", de: "Alle Spieler stehlen je eine Karte", nl: "Alle spelers stelen elk één kaart" },
+          { en: "Only the active player steals", es: "Solo el jugador activo roba", de: "Nur der aktive Spieler stiehlt", nl: "Alleen de actieve speler steelt" },
+          { en: "Players vote on who steals", es: "Los jugadores votan sobre quién roba", de: "Spieler stimmen ab, wer stiehlt", nl: "Spelers stemmen wie steelt" },
+          { en: "Highest roll steals", es: "La tirada más alta roba", de: "Höchster Wurf stiehlt", nl: "Hoogste worp steelt" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Only the active player (the one whose turn it is and who moved the robber) can steal a card. Even if multiple players have settlements/cities adjacent to the robber's new location, only the player who moved the robber gets to steal from one victim of their choice.",
+          es: "Solo el jugador activo (aquel cuyo turno es y quien movió al ladrón) puede robar una carta. Incluso si múltiples jugadores tienen asentamientos/ciudades adyacentes a la nueva ubicación del ladrón, solo el jugador que movió al ladrón puede robar de una víctima de su elección.",
+          de: "Nur der aktive Spieler (derjenige, der am Zug ist und den Räuber bewegt hat) kann eine Karte stehlen. Selbst wenn mehrere Spieler Siedlungen/Städte neben dem neuen Standort des Räubers haben, kann nur der Spieler, der den Räuber bewegt hat, von einem Opfer seiner Wahl stehlen.",
+          nl: "Alleen de actieve speler (degene wiens beurt het is en die de rover heeft verplaatst) kan een kaart stelen. Zelfs als meerdere spelers nederzettingen/steden hebben naast de nieuwe locatie van de rover, kan alleen de speler die de rover heeft verplaatst van één slachtoffer naar keuze stelen."
+        }
+      },
+      {
+        question: {
+          en: "What is the total pip value considered 'good' for a starting settlement placement?",
+          es: "¿Qué valor total de pips se considera 'bueno' para la colocación inicial de un asentamiento?",
+          de: "Welcher Gesamt-Pip-Wert wird als 'gut' für eine anfängliche Siedlungsplatzierung angesehen?",
+          nl: "Wat is de totale pip-waarde die als 'goed' wordt beschouwd voor een startende nederzettingsplaatsing?"
+        },
+        options: [
+          { en: "5-7 pips", es: "5-7 pips", de: "5-7 Pips", nl: "5-7 pips" },
+          { en: "8-10 pips", es: "8-10 pips", de: "8-10 Pips", nl: "8-10 pips" },
+          { en: "11-13 pips", es: "11-13 pips", de: "11-13 Pips", nl: "11-13 pips" },
+          { en: "14-15 pips", es: "14-15 pips", de: "14-15 Pips", nl: "14-15 pips" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "A settlement placement with 8-10 total pips across its three adjacent hexes is generally considered good. Maximum possible is 15 (5+5+5 from three hexes with 6 or 8). However, resource diversity and harbor access are also important factors beyond just pip count.",
+          es: "Una colocación de asentamiento con 8-10 pips totales en sus tres hexágonos adyacentes se considera generalmente buena. El máximo posible es 15 (5+5+5 de tres hexágonos con 6 u 8). Sin embargo, la diversidad de recursos y el acceso a puertos también son factores importantes más allá del simple conteo de pips.",
+          de: "Eine Siedlungsplatzierung mit insgesamt 8-10 Pips über ihre drei angrenzenden Felder wird allgemein als gut angesehen. Das mögliche Maximum ist 15 (5+5+5 von drei Feldern mit 6 oder 8). Ressourcenvielfalt und Hafenzugang sind jedoch auch wichtige Faktoren jenseits der bloßen Pip-Anzahl.",
+          nl: "Een nederzettingsplaatsing met 8-10 totale pips over zijn drie aangrenzende hexen wordt over het algemeen als goed beschouwd. Het maximaal mogelijke is 15 (5+5+5 van drie hexen met 6 of 8). Hulpbrondiversiteit en haventoegang zijn echter ook belangrijke factoren naast alleen pip-telling."
+        }
+      },
+      {
+        question: {
+          en: "Can you trade resources during another player's turn?",
+          es: "¿Puedes intercambiar recursos durante el turno de otro jugador?",
+          de: "Kannst du während des Zugs eines anderen Spielers Ressourcen tauschen?",
+          nl: "Kun je hulpbronnen ruilen tijdens de beurt van een andere speler?"
+        },
+        options: [
+          { en: "Yes, with any player anytime", es: "Sí, con cualquier jugador en cualquier momento", de: "Ja, mit jedem Spieler jederzeit", nl: "Ja, met elke speler op elk moment" },
+          { en: "Yes, but only with the active player", es: "Sí, pero solo con el jugador activo", de: "Ja, aber nur mit dem aktiven Spieler", nl: "Ja, maar alleen met de actieve speler" },
+          { en: "No, never", es: "No, nunca", de: "Nein, niemals", nl: "Nee, nooit" },
+          { en: "Only with bank, not players", es: "Solo con el banco, no con jugadores", de: "Nur mit der Bank, nicht mit Spielern", nl: "Alleen met bank, niet met spelers" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Non-active players can only trade with the active player (whose turn it is), not with each other or the bank. The active player can negotiate and complete multiple trades during their turn, creating opportunities for strategic bargaining and diplomacy.",
+          es: "Los jugadores no activos solo pueden comerciar con el jugador activo (de quien es el turno), no entre ellos ni con el banco. El jugador activo puede negociar y completar múltiples intercambios durante su turno, creando oportunidades para negociación estratégica y diplomacia.",
+          de: "Nicht-aktive Spieler können nur mit dem aktiven Spieler (der am Zug ist) handeln, nicht untereinander oder mit der Bank. Der aktive Spieler kann während seines Zugs mehrere Geschäfte verhandeln und abschließen, was Möglichkeiten für strategisches Verhandeln und Diplomatie schafft.",
+          nl: "Niet-actieve spelers kunnen alleen handelen met de actieve speler (wiens beurt het is), niet met elkaar of met de bank. De actieve speler kan tijdens hun beurt meerdere handelingen onderhandelen en voltooien, wat kansen creëert voor strategisch onderhandelen en diplomatie."
+        }
+      },
+      {
+        question: {
+          en: "How many harbors are there in standard Catan?",
+          es: "¿Cuántos puertos hay en Catan estándar?",
+          de: "Wie viele Häfen gibt es im Standard-Catan?",
+          nl: "Hoeveel havens zijn er in standaard Catan?"
+        },
+        options: [
+          { en: "7 (4 generic 3:1, 3 specialized 2:1)", es: "7 (4 genéricos 3:1, 3 especializados 2:1)", de: "7 (4 generisch 3:1, 3 spezialisiert 2:1)", nl: "7 (4 generiek 3:1, 3 gespecialiseerd 2:1)" },
+          { en: "8 (3 generic 3:1, 5 specialized 2:1)", es: "8 (3 genéricos 3:1, 5 especializados 2:1)", de: "8 (3 generisch 3:1, 5 spezialisiert 2:1)", nl: "8 (3 generiek 3:1, 5 gespecialiseerd 2:1)" },
+          { en: "9 (4 generic 3:1, 5 specialized 2:1)", es: "9 (4 genéricos 3:1, 5 especializados 2:1)", de: "9 (4 generisch 3:1, 5 spezialisiert 2:1)", nl: "9 (4 generiek 3:1, 5 gespecialiseerd 2:1)" },
+          { en: "10 (5 generic 3:1, 5 specialized 2:1)", es: "10 (5 genéricos 3:1, 5 especializados 2:1)", de: "10 (5 generisch 3:1, 5 spezialisiert 2:1)", nl: "10 (5 generiek 3:1, 5 gespecialiseerd 2:1)" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "There are 9 harbors total in standard Catan: 4 generic harbors (3:1 trade for any resource) and 5 specialized harbors (2:1 trade for specific resources - one for each resource type: wood, brick, wheat, sheep, ore).",
+          es: "Hay 9 puertos en total en Catan estándar: 4 puertos genéricos (comercio 3:1 por cualquier recurso) y 5 puertos especializados (comercio 2:1 para recursos específicos - uno para cada tipo de recurso: madera, ladrillo, trigo, oveja, mineral).",
+          de: "Es gibt insgesamt 9 Häfen im Standard-Catan: 4 generische Häfen (3:1-Handel für jede Ressource) und 5 spezialisierte Häfen (2:1-Handel für spezifische Ressourcen - einen für jeden Ressourcentyp: Holz, Lehm, Getreide, Wolle, Erz).",
+          nl: "Er zijn in totaal 9 havens in standaard Catan: 4 generieke havens (3:1 ruil voor elke hulpbron) en 5 gespecialiseerde havens (2:1 ruil voor specifieke hulpbronnen - één voor elk hulpbrontype: hout, baksteen, tarwe, schaap, erts)."
+        }
+      },
+      {
+        question: {
+          en: "What happens if a player has exactly 7 cards when a 7 is rolled?",
+          es: "¿Qué pasa si un jugador tiene exactamente 7 cartas cuando se tira un 7?",
+          de: "Was passiert, wenn ein Spieler genau 7 Karten hat, wenn eine 7 gewürfelt wird?",
+          nl: "Wat gebeurt er als een speler precies 7 kaarten heeft wanneer een 7 wordt gegooid?"
+        },
+        options: [
+          { en: "Must discard half (3 cards)", es: "Debe descartar la mitad (3 cartas)", de: "Muss die Hälfte abwerfen (3 Karten)", nl: "Moet de helft weggooien (3 kaarten)" },
+          { en: "Nothing, keeps all cards", es: "Nada, mantiene todas las cartas", de: "Nichts, behält alle Karten", nl: "Niets, behoudt alle kaarten" },
+          { en: "Must discard 1 card", es: "Debe descartar 1 carta", de: "Muss 1 Karte abwerfen", nl: "Moet 1 kaart weggooien" },
+          { en: "Gets to steal from another player", es: "Puede robar de otro jugador", de: "Kann von einem anderen Spieler stehlen", nl: "Mag stelen van een andere speler" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "If you have exactly 7 cards, you do NOT have to discard. The discard rule only applies to players with 8 or more resource cards. This makes 7 a 'safe' number to hold, though still risky if you're close to the limit.",
+          es: "Si tienes exactamente 7 cartas, NO tienes que descartar. La regla de descarte solo se aplica a jugadores con 8 o más cartas de recursos. Esto hace que 7 sea un número 'seguro' para mantener, aunque sigue siendo arriesgado si estás cerca del límite.",
+          de: "Wenn du genau 7 Karten hast, musst du NICHT abwerfen. Die Abwurfregel gilt nur für Spieler mit 8 oder mehr Ressourcenkarten. Dies macht 7 zu einer 'sicheren' Anzahl zum Halten, obwohl es immer noch riskant ist, wenn du nahe am Limit bist.",
+          nl: "Als je precies 7 kaarten hebt, hoef je NIET weg te gooien. De weggooi regel geldt alleen voor spelers met 8 of meer hulpbronkaarten. Dit maakt 7 een 'veilig' aantal om te houden, hoewel nog steeds riskant als je dicht bij de limiet zit."
+        }
+      },
+      {
+        question: {
+          en: "Can you win on another player's turn?",
+          es: "¿Puedes ganar durante el turno de otro jugador?",
+          de: "Kannst du während des Zugs eines anderen Spielers gewinnen?",
+          nl: "Kun je winnen tijdens de beurt van een andere speler?"
+        },
+        options: [
+          { en: "No, only on your own turn", es: "No, solo en tu propio turno", de: "Nein, nur in deinem eigenen Zug", nl: "Nee, alleen tijdens je eigen beurt" },
+          { en: "Yes, if someone steals Longest Road/Largest Army from you", es: "Sí, si alguien te roba Camino Más Largo/Ejército Más Grande", de: "Ja, wenn jemand dir längste Straße/größte Armee stiehlt", nl: "Ja, als iemand Langste Weg/Grootste Leger van je steelt" },
+          { en: "Yes, if you reach 10 points anytime", es: "Sí, si alcanzas 10 puntos en cualquier momento", de: "Ja, wenn du jederzeit 10 Punkte erreichst", nl: "Ja, als je op elk moment 10 punten bereikt" },
+          { en: "Only in special game modes", es: "Solo en modos de juego especiales", de: "Nur in speziellen Spielmodi", nl: "Alleen in speciale spelmodi" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "You can only win on your own turn. Even if you have 10+ victory points, you must wait until your turn to declare victory. This is why Victory Point development cards are often kept hidden until your winning turn to prevent opponents from blocking you.",
+          es: "Solo puedes ganar en tu propio turno. Incluso si tienes 10+ puntos de victoria, debes esperar hasta tu turno para declarar la victoria. Por eso las cartas de desarrollo de Punto de Victoria a menudo se mantienen ocultas hasta tu turno de victoria para evitar que los oponentes te bloqueen.",
+          de: "Du kannst nur in deinem eigenen Zug gewinnen. Selbst wenn du 10+ Siegpunkte hast, musst du bis zu deinem Zug warten, um den Sieg zu erklären. Deshalb werden Siegpunkt-Entwicklungskarten oft bis zu deinem Siegzug versteckt gehalten, um zu verhindern, dass Gegner dich blockieren.",
+          nl: "Je kunt alleen winnen tijdens je eigen beurt. Zelfs als je 10+ overwinningspunten hebt, moet je wachten tot je beurt om de overwinning te verklaren. Daarom worden Overwinningspunt ontwikkelingskaarten vaak verborgen gehouden tot je winnende beurt om te voorkomen dat tegenstanders je blokkeren."
+        }
+      },
+      {
+        question: {
+          en: "What is the maximum number of resources a single settlement can produce in one roll?",
+          es: "¿Cuál es el número máximo de recursos que un solo asentamiento puede producir en una tirada?",
+          de: "Was ist die maximale Anzahl von Ressourcen, die eine einzelne Siedlung in einem Wurf produzieren kann?",
+          nl: "Wat is het maximale aantal hulpbronnen dat een enkele nederzetting in één worp kan produceren?"
+        },
+        options: [
+          { en: "1 resource", es: "1 recurso", de: "1 Ressource", nl: "1 hulpbron" },
+          { en: "2 resources", es: "2 recursos", de: "2 Ressourcen", nl: "2 hulpbronnen" },
+          { en: "3 resources", es: "3 recursos", de: "3 Ressourcen", nl: "3 hulpbronnen" },
+          { en: "4 resources", es: "4 recursos", de: "4 Ressourcen", nl: "4 hulpbronnen" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "A settlement can produce a maximum of 3 resources in one roll if all three adjacent hexes have the same number token and that number is rolled. For example, if a settlement touches three hexes all showing '6', rolling a 6 would give 3 resources. This is very rare but possible.",
+          es: "Un asentamiento puede producir un máximo de 3 recursos en una tirada si los tres hexágonos adyacentes tienen la misma ficha numérica y se tira ese número. Por ejemplo, si un asentamiento toca tres hexágonos que muestran '6', tirar un 6 daría 3 recursos. Esto es muy raro pero posible.",
+          de: "Eine Siedlung kann maximal 3 Ressourcen in einem Wurf produzieren, wenn alle drei angrenzenden Felder das gleiche Zahlenplättchen haben und diese Zahl gewürfelt wird. Zum Beispiel würde eine Siedlung, die drei Felder mit '6' berührt, beim Würfeln einer 6 drei Ressourcen geben. Dies ist sehr selten, aber möglich.",
+          nl: "Een nederzetting kan maximaal 3 hulpbronnen in één worp produceren als alle drie aangrenzende hexen hetzelfde nummerfiche hebben en dat nummer wordt gegooid. Bijvoorbeeld, als een nederzetting drie hexen raakt die allemaal '6' tonen, zou het gooien van een 6 drie hulpbronnen geven. Dit is zeer zeldzaam maar mogelijk."
+        }
+      },
+      {
+        question: {
+          en: "How does the 'distance rule' work for settlement placement?",
+          es: "¿Cómo funciona la 'regla de distancia' para la colocación de asentamientos?",
+          de: "Wie funktioniert die 'Abstandsregel' für die Siedlungsplatzierung?",
+          nl: "Hoe werkt de 'afstandsregel' voor nederzettingsplaatsing?"
+        },
+        options: [
+          { en: "Settlements must be 3 hexes apart", es: "Los asentamientos deben estar separados por 3 hexágonos", de: "Siedlungen müssen 3 Felder auseinander liegen", nl: "Nederzettingen moeten 3 hexen uit elkaar liggen" },
+          { en: "Settlements must be 2 edges apart", es: "Los asentamientos deben estar separados por 2 aristas", de: "Siedlungen müssen 2 Kanten auseinander liegen", nl: "Nederzettingen moeten 2 randen uit elkaar liggen" },
+          { en: "Settlements must be on different hexes", es: "Los asentamientos deben estar en diferentes hexágonos", de: "Siedlungen müssen auf verschiedenen Feldern sein", nl: "Nederzettingen moeten op verschillende hexen zijn" },
+          { en: "No distance requirement", es: "Sin requisito de distancia", de: "Keine Abstandsanforderung", nl: "Geen afstandsvereiste" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "The distance rule states that settlements must be at least 2 edges apart. This means there must be at least one vacant intersection between any two settlements. No two settlements (from any players) can be on adjacent intersections. This prevents overcrowding and ensures fair resource distribution.",
+          es: "La regla de distancia establece que los asentamientos deben estar separados por al menos 2 aristas. Esto significa que debe haber al menos una intersección vacante entre dos asentamientos. Ningún dos asentamientos (de cualquier jugador) pueden estar en intersecciones adyacentes. Esto previene el hacinamiento y asegura una distribución justa de recursos.",
+          de: "Die Abstandsregel besagt, dass Siedlungen mindestens 2 Kanten auseinander liegen müssen. Das bedeutet, dass zwischen zwei Siedlungen mindestens eine freie Kreuzung liegen muss. Keine zwei Siedlungen (von beliebigen Spielern) können auf angrenzenden Kreuzungen sein. Dies verhindert Überfüllung und gewährleistet eine faire Ressourcenverteilung.",
+          nl: "De afstandsregel stelt dat nederzettingen minstens 2 randen uit elkaar moeten liggen. Dit betekent dat er minstens één leeg kruispunt tussen twee nederzettingen moet zijn. Geen twee nederzettingen (van welke spelers dan ook) kunnen op aangrenzende kruispunten zijn. Dit voorkomt overbevolking en zorgt voor eerlijke hulpbrondistributie."
+        }
+      },
+      {
+        question: {
+          en: "What advantage does going last in setup provide?",
+          es: "¿Qué ventaja proporciona ir último en la preparación?",
+          de: "Welchen Vorteil bietet es, bei der Aufstellung als Letzter zu gehen?",
+          nl: "Welk voordeel biedt het om als laatste te gaan in de opzet?"
+        },
+        options: [
+          { en: "Extra resources", es: "Recursos extra", de: "Extra Ressourcen", nl: "Extra hulpbronnen" },
+          { en: "Two consecutive placements", es: "Dos colocaciones consecutivas", de: "Zwei aufeinanderfolgende Platzierungen", nl: "Twee opeenvolgende plaatsingen" },
+          { en: "Free development card", es: "Carta de desarrollo gratis", de: "Kostenlose Entwicklungskarte", nl: "Gratis ontwikkelingskaart" },
+          { en: "First turn advantage", es: "Ventaja del primer turno", de: "Erster-Zug-Vorteil", nl: "Eerste beurt voordeel" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Going last in setup means you place your first settlement last (4th), but then immediately place your second settlement first (reverse order). This gives you two back-to-back placements, allowing you to secure a strong position or grab complementary resources without opponents interfering between your picks.",
+          es: "Ir último en la preparación significa que colocas tu primer asentamiento último (4°), pero luego inmediatamente colocas tu segundo asentamiento primero (orden inverso). Esto te da dos colocaciones consecutivas, permitiéndote asegurar una posición fuerte u obtener recursos complementarios sin que los oponentes interfieran entre tus elecciones.",
+          de: "Als Letzter in der Aufstellung zu gehen bedeutet, dass du deine erste Siedlung als Letzter (4.) platzierst, aber dann sofort deine zweite Siedlung als Erster (umgekehrte Reihenfolge) platzierst. Dies gibt dir zwei aufeinanderfolgende Platzierungen, sodass du eine starke Position sichern oder komplementäre Ressourcen ergattern kannst, ohne dass Gegner zwischen deinen Auswahlen eingreifen.",
+          nl: "Als laatste gaan in de opzet betekent dat je je eerste nederzetting als laatste (4e) plaatst, maar dan onmiddellijk je tweede nederzetting als eerste plaatst (omgekeerde volgorde). Dit geeft je twee achtereenvolgende plaatsingen, waardoor je een sterke positie kunt veiligstellen of complementaire hulpbronnen kunt pakken zonder dat tegenstanders tussen je keuzes ingrijpen."
+        }
+      },
+      {
+        question: {
+          en: "Can you trade with the bank on another player's turn?",
+          es: "¿Puedes comerciar con el banco durante el turno de otro jugador?",
+          de: "Kannst du während des Zugs eines anderen Spielers mit der Bank handeln?",
+          nl: "Kun je met de bank handelen tijdens de beurt van een andere speler?"
+        },
+        options: [
+          { en: "Yes, anytime", es: "Sí, en cualquier momento", de: "Ja, jederzeit", nl: "Ja, op elk moment" },
+          { en: "No, only on your turn", es: "No, solo en tu turno", de: "Nein, nur in deinem Zug", nl: "Nee, alleen tijdens je beurt" },
+          { en: "Only with harbors", es: "Solo con puertos", de: "Nur mit Häfen", nl: "Alleen met havens" },
+          { en: "Only after rolling", es: "Solo después de tirar", de: "Nur nach dem Würfeln", nl: "Alleen na het gooien" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "You can only trade with the bank (maritime trade) during your own turn. This includes both standard 4:1 trades and improved harbor trades (3:1 or 2:1). All trading activities - with bank or other players - happen only during the active player's turn.",
+          es: "Solo puedes comerciar con el banco (comercio marítimo) durante tu propio turno. Esto incluye tanto los intercambios estándar 4:1 como los intercambios mejorados de puerto (3:1 o 2:1). Todas las actividades comerciales, con el banco u otros jugadores, ocurren solo durante el turno del jugador activo.",
+          de: "Du kannst nur während deines eigenen Zugs mit der Bank (maritimer Handel) handeln. Dies umfasst sowohl Standard-4:1-Geschäfte als auch verbesserte Hafengeschäfte (3:1 oder 2:1). Alle Handelsaktivitäten - mit der Bank oder anderen Spielern - finden nur während des Zugs des aktiven Spielers statt.",
+          nl: "Je kunt alleen met de bank (maritieme handel) handelen tijdens je eigen beurt. Dit omvat zowel standaard 4:1 handelingen als verbeterde havenhandelingen (3:1 of 2:1). Alle handelsactiviteiten - met de bank of andere spelers - gebeuren alleen tijdens de beurt van de actieve speler."
+        }
+      },
+      {
+        question: {
+          en: "What is the strategic importance of wheat in Catan?",
+          es: "¿Cuál es la importancia estratégica del trigo en Catan?",
+          de: "Was ist die strategische Bedeutung von Getreide in Catan?",
+          nl: "Wat is het strategische belang van tarwe in Catan?"
+        },
+        options: [
+          { en: "Most common resource", es: "Recurso más común", de: "Häufigste Ressource", nl: "Meest voorkomende hulpbron" },
+          { en: "Required for all building types", es: "Requerido para todos los tipos de construcción", de: "Erforderlich für alle Bautypen", nl: "Vereist voor alle bouwtypes" },
+          { en: "Needed for settlements, cities, and dev cards", es: "Necesario para asentamientos, ciudades y cartas de desarrollo", de: "Benötigt für Siedlungen, Städte und Entwicklungskarten", nl: "Nodig voor nederzettingen, steden en ontwikkelingskaarten" },
+          { en: "Worth double victory points", es: "Vale el doble de puntos de victoria", de: "Doppelte Siegpunkte wert", nl: "Dubbele overwinningspunten waard" }
+        ],
+        correct: 2,
+        explanation: {
+          en: "Wheat is strategically crucial because it's required for settlements (1 wheat), cities (2 wheat), and development cards (1 wheat). This makes it needed throughout the entire game, from early expansion to late-game development. Players who secure good wheat production have more strategic flexibility.",
+          es: "El trigo es estratégicamente crucial porque se requiere para asentamientos (1 trigo), ciudades (2 trigo) y cartas de desarrollo (1 trigo). Esto lo hace necesario durante todo el juego, desde la expansión temprana hasta el desarrollo de final del juego. Los jugadores que aseguran buena producción de trigo tienen más flexibilidad estratégica.",
+          de: "Getreide ist strategisch entscheidend, weil es für Siedlungen (1 Getreide), Städte (2 Getreide) und Entwicklungskarten (1 Getreide) benötigt wird. Dies macht es während des gesamten Spiels erforderlich, von der frühen Expansion bis zur späten Entwicklung. Spieler, die gute Getreideproduktion sichern, haben mehr strategische Flexibilität.",
+          nl: "Tarwe is strategisch cruciaal omdat het nodig is voor nederzettingen (1 tarwe), steden (2 tarwe) en ontwikkelingskaarten (1 tarwe). Dit maakt het nodig gedurende het hele spel, van vroege expansie tot late-game ontwikkeling. Spelers die goede tarweproductie veiligstellen hebben meer strategische flexibiliteit."
+        }
+      },
+      {
+        question: {
+          en: "How many cities can a player have simultaneously?",
+          es: "¿Cuántas ciudades puede tener un jugador simultáneamente?",
+          de: "Wie viele Städte kann ein Spieler gleichzeitig haben?",
+          nl: "Hoeveel steden kan een speler gelijktijdig hebben?"
+        },
+        options: [
+          { en: "Maximum 3", es: "Máximo 3", de: "Maximal 3", nl: "Maximaal 3" },
+          { en: "Maximum 4", es: "Máximo 4", de: "Maximal 4", nl: "Maximaal 4" },
+          { en: "Maximum 5", es: "Máximo 5", de: "Maximal 5", nl: "Maximaal 5" },
+          { en: "Unlimited", es: "Ilimitado", de: "Unbegrenzt", nl: "Onbeperkt" }
+        ],
+        correct: 1,
+        explanation: {
+          en: "Each player has exactly 4 city pieces, so you can have a maximum of 4 cities on the board simultaneously. Since cities are built by upgrading settlements, having 4 cities means you can have at most 1 settlement remaining (from your initial 5 settlement pieces).",
+          es: "Cada jugador tiene exactamente 4 piezas de ciudad, por lo que puedes tener un máximo de 4 ciudades en el tablero simultáneamente. Dado que las ciudades se construyen mejorando asentamientos, tener 4 ciudades significa que puedes tener como máximo 1 asentamiento restante (de tus 5 piezas de asentamiento iniciales).",
+          de: "Jeder Spieler hat genau 4 Stadtteile, sodass du maximal 4 Städte gleichzeitig auf dem Brett haben kannst. Da Städte durch Aufwerten von Siedlungen gebaut werden, bedeutet 4 Städte zu haben, dass du höchstens 1 Siedlung übrig haben kannst (von deinen anfänglichen 5 Siedlungsteilen).",
+          nl: "Elke speler heeft precies 4 stadsstukken, dus je kunt maximaal 4 steden gelijktijdig op het bord hebben. Omdat steden worden gebouwd door nederzettingen te upgraden, betekent het hebben van 4 steden dat je hoogstens 1 nederzetting over kunt hebben (van je aanvankelijke 5 nederzettingsstukken)."
+        }
+      },
+      {
+        question: {
+          en: "What happens when the bank runs out of a specific resource?",
+          es: "¿Qué pasa cuando el banco se queda sin un recurso específico?",
+          de: "Was passiert, wenn der Bank eine bestimmte Ressource ausgeht?",
+          nl: "Wat gebeurt er wanneer de bank zonder een specifieke hulpbron komt?"
+        },
+        options: [
+          { en: "Players can no longer produce that resource", es: "Los jugadores ya no pueden producir ese recurso", de: "Spieler können diese Ressource nicht mehr produzieren", nl: "Spelers kunnen die hulpbron niet meer produceren" },
+          { en: "Use substitute tokens", es: "Usa fichas sustitutas", de: "Verwende Ersatzmarken", nl: "Gebruik vervangende tokens" },
+          { en: "Game must end", es: "El juego debe terminar", de: "Spiel muss enden", nl: "Spel moet eindigen" },
+          { en: "Players trade among themselves", es: "Los jugadores comercian entre ellos", de: "Spieler handeln untereinander", nl: "Spelers handelen onderling" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "When the bank runs out of a specific resource, players can no longer receive that resource from production until some cards are returned to the bank (through trading, building, or discarding). This scarcity can significantly affect game strategy and makes resource management crucial.",
+          es: "Cuando el banco se queda sin un recurso específico, los jugadores ya no pueden recibir ese recurso de la producción hasta que algunas cartas regresen al banco (a través del comercio, construcción o descarte). Esta escasez puede afectar significativamente la estrategia del juego y hace que la gestión de recursos sea crucial.",
+          de: "Wenn der Bank eine bestimmte Ressource ausgeht, können Spieler diese Ressource nicht mehr aus der Produktion erhalten, bis einige Karten zur Bank zurückgegeben werden (durch Handel, Bauen oder Abwerfen). Diese Knappheit kann die Spielstrategie erheblich beeinflussen und macht Ressourcenmanagement entscheidend.",
+          nl: "Wanneer de bank zonder een specifieke hulpbron komt, kunnen spelers die hulpbron niet meer ontvangen uit productie totdat sommige kaarten terugkeren naar de bank (door handel, bouwen of weggooien). Deze schaarste kan de spelstrategie aanzienlijk beïnvloeden en maakt hulpbronnenbeheer cruciaal."
+        }
       }
     ]
   };

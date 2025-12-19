@@ -827,6 +827,785 @@
         de: "Schlossallee ist das dunkelblaue Grundstück, das Boardwalk entspricht, in der deutschen Version und kostet 400 DM (jetzt Euro in neueren Ausgaben).",
         nl: "Schlossallee is het donkerblauwe eigendom gelijkwaardig aan Boardwalk in de Duitse versie, kostte 400 DM (nu Euro's in nieuwere edities)."
       }
+    },
+    {
+      question: {
+        en: "What is the total value of all bank money at the start of a standard Monopoly game?",
+        es: "¿Cuál es el valor total de todo el dinero del banco al inicio de un juego estándar de Monopoly?",
+        de: "Was ist der Gesamtwert aller Banknoten zu Beginn eines Standard-Monopoly-Spiels?",
+        nl: "Wat is de totale waarde van al het bankgeld aan het begin van een standaard Monopoly-spel?"
+      },
+      options: [
+        {
+          en: "$15,140",
+          es: "$15,140",
+          de: "$15,140",
+          nl: "$15,140"
+        },
+        {
+          en: "$20,580",
+          es: "$20,580",
+          de: "$20,580",
+          nl: "$20,580"
+        },
+        {
+          en: "$25,000",
+          es: "$25,000",
+          de: "$25,000",
+          nl: "$25,000"
+        },
+        {
+          en: "$30,000",
+          es: "$30,000",
+          de: "$30,000",
+          nl: "$30,000"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "The standard Monopoly bank contains $20,580 in total currency across all denominations ($1 to $500 bills).",
+        es: "El banco estándar de Monopoly contiene $20,580 en moneda total en todas las denominaciones (billetes de $1 a $500).",
+        de: "Die Standard-Monopoly-Bank enthält insgesamt 20.580 $ an Währung über alle Stückelungen ($1 bis $500 Scheine).",
+        nl: "De standaard Monopoly-bank bevat in totaal $20,580 aan valuta over alle coupures (biljetten van $1 tot $500)."
+      }
+    },
+    {
+      question: {
+        en: "Which Monopoly edition features properties from all around the world instead of city streets?",
+        es: "¿Qué edición de Monopoly presenta propiedades de todo el mundo en lugar de calles de la ciudad?",
+        de: "Welche Monopoly-Edition zeigt Grundstücke aus der ganzen Welt statt Stadtstraßen?",
+        nl: "Welke Monopoly-editie bevat eigendommen van over de hele wereld in plaats van stadsstraten?"
+      },
+      options: [
+        {
+          en: "Monopoly World Edition",
+          es: "Monopoly World Edition",
+          de: "Monopoly World Edition",
+          nl: "Monopoly World Edition"
+        },
+        {
+          en: "Monopoly Here & Now",
+          es: "Monopoly Here & Now",
+          de: "Monopoly Here & Now",
+          nl: "Monopoly Here & Now"
+        },
+        {
+          en: "Monopoly Global",
+          es: "Monopoly Global",
+          de: "Monopoly Global",
+          nl: "Monopoly Global"
+        },
+        {
+          en: "Monopoly Ultimate",
+          es: "Monopoly Ultimate",
+          de: "Monopoly Ultimate",
+          nl: "Monopoly Ultimate"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Monopoly Here & Now features iconic world locations like Paris, London, and Sydney instead of traditional Atlantic City streets.",
+        es: "Monopoly Here & Now presenta ubicaciones mundiales icónicas como París, Londres y Sydney en lugar de las calles tradicionales de Atlantic City.",
+        de: "Monopoly Here & Now zeigt ikonische Weltstandorte wie Paris, London und Sydney statt traditioneller Atlantic City-Straßen.",
+        nl: "Monopoly Here & Now bevat iconische wereldlocaties zoals Parijs, Londen en Sydney in plaats van traditionele Atlantic City-straten."
+      }
+    },
+    {
+      question: {
+        en: "In tournament play, what is the maximum time limit for a single turn?",
+        es: "En juego de torneo, ¿cuál es el límite de tiempo máximo para un solo turno?",
+        de: "Im Turnierplay, was ist das maximale Zeitlimit für einen einzelnen Zug?",
+        nl: "In toernooispel, wat is de maximale tijdslimiet voor één beurt?"
+      },
+      options: [
+        {
+          en: "30 seconds",
+          es: "30 segundos",
+          de: "30 Sekunden",
+          nl: "30 seconden"
+        },
+        {
+          en: "1 minute",
+          es: "1 minuto",
+          de: "1 Minute",
+          nl: "1 minuut"
+        },
+        {
+          en: "2 minutes",
+          es: "2 minutos",
+          de: "2 Minuten",
+          nl: "2 minuten"
+        },
+        {
+          en: "5 minutes",
+          es: "5 minutos",
+          de: "5 Minuten",
+          nl: "5 minuten"
+        }
+      ],
+      correct: 3,
+      explanation: {
+        en: "Official Monopoly tournament rules set a 5-minute time limit per turn to keep games moving and ensure timely competition.",
+        es: "Las reglas oficiales de torneos de Monopoly establecen un límite de 5 minutos por turno para mantener los juegos en movimiento y asegurar competencia oportuna.",
+        de: "Offizielle Monopoly-Turnierregeln setzen ein 5-Minuten-Zeitlimit pro Zug, um Spiele am Laufen zu halten und rechtzeitigen Wettbewerb zu gewährleisten.",
+        nl: "Officiële Monopoly-toernooiregels stellen een tijdslimiet van 5 minuten per beurt om spellen voortgang te laten maken en tijdige competitie te garanderen."
+      }
+    },
+    {
+      question: {
+        en: "What percentage of Monopoly games end before all players except one go bankrupt?",
+        es: "¿Qué porcentaje de juegos de Monopoly terminan antes de que todos los jugadores excepto uno quiebren?",
+        de: "Welcher Prozentsatz der Monopoly-Spiele endet, bevor alle Spieler außer einem bankrott gehen?",
+        nl: "Welk percentage van Monopoly-spellen eindigt voordat alle spelers behalve één failliet gaan?"
+      },
+      options: [
+        {
+          en: "Approximately 15%",
+          es: "Aproximadamente 15%",
+          de: "Ungefähr 15%",
+          nl: "Ongeveer 15%"
+        },
+        {
+          en: "Approximately 35%",
+          es: "Aproximadamente 35%",
+          de: "Ungefähr 35%",
+          nl: "Ongeveer 35%"
+        },
+        {
+          en: "Approximately 55%",
+          es: "Aproximadamente 55%",
+          de: "Ungefähr 55%",
+          nl: "Ongeveer 55%"
+        },
+        {
+          en: "Approximately 75%",
+          es: "Aproximadamente 75%",
+          de: "Ungefähr 75%",
+          nl: "Ongeveer 75%"
+        }
+      ],
+      correct: 3,
+      explanation: {
+        en: "Studies show about 75% of casual Monopoly games end by agreement or quitting before a decisive winner emerges through bankruptcy.",
+        es: "Los estudios muestran que alrededor del 75% de los juegos casuales de Monopoly terminan por acuerdo o abandono antes de que surja un ganador decisivo por quiebra.",
+        de: "Studien zeigen, dass etwa 75% der Gelegenheits-Monopoly-Spiele durch Vereinbarung oder Aufgabe enden, bevor ein entscheidender Gewinner durch Bankrott entsteht.",
+        nl: "Studies tonen aan dat ongeveer 75% van casual Monopoly-spellen eindigt door overeenstemming of stoppen voordat een beslissende winnaar ontstaat door faillissement."
+      }
+    },
+    {
+      question: {
+        en: "In 'Monopoly: Electronic Banking' edition, what replaces paper money?",
+        es: "En la edición 'Monopoly: Electronic Banking', ¿qué reemplaza el dinero en papel?",
+        de: "In der 'Monopoly: Electronic Banking'-Edition, was ersetzt Papiergeld?",
+        nl: "In de 'Monopoly: Electronic Banking'-editie, wat vervangt papiergeld?"
+      },
+      options: [
+        {
+          en: "Banking cards with electronic reader",
+          es: "Tarjetas bancarias con lector electrónico",
+          de: "Bankkarten mit elektronischem Lesegerät",
+          nl: "Bankkaarten met elektronische lezer"
+        },
+        {
+          en: "Mobile phone app",
+          es: "Aplicación de teléfono móvil",
+          de: "Handy-App",
+          nl: "Mobiele telefoon-app"
+        },
+        {
+          en: "Plastic chips like poker",
+          es: "Fichas de plástico como el póker",
+          de: "Plastikchips wie Poker",
+          nl: "Plastic fiches zoals poker"
+        },
+        {
+          en: "Voice-activated banking",
+          es: "Banca activada por voz",
+          de: "Sprachaktiviertes Banking",
+          nl: "Spraakgestuurde bankieren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Electronic Banking uses banking cards that players insert into an electronic unit to manage all financial transactions digitally.",
+        es: "Electronic Banking usa tarjetas bancarias que los jugadores insertan en una unidad electrónica para gestionar todas las transacciones financieras digitalmente.",
+        de: "Electronic Banking verwendet Bankkarten, die Spieler in ein elektronisches Gerät einführen, um alle Finanztransaktionen digital zu verwalten.",
+        nl: "Electronic Banking gebruikt bankkaarten die spelers in een elektronische eenheid invoegen om alle financiële transacties digitaal te beheren."
+      }
+    },
+    {
+      question: {
+        en: "What is the optimal strategy for trading in competitive Monopoly?",
+        es: "¿Cuál es la estrategia óptima para comerciar en Monopoly competitivo?",
+        de: "Was ist die optimale Strategie für den Handel in Wettbewerbs-Monopoly?",
+        nl: "Wat is de optimale strategie voor handelen in competitief Monopoly?"
+      },
+      options: [
+        {
+          en: "Never trade - accumulate properties individually",
+          es: "Nunca comerciar - acumular propiedades individualmente",
+          de: "Nie handeln - Grundstücke einzeln ansammeln",
+          nl: "Nooit handelen - eigendommen individueel verzamelen"
+        },
+        {
+          en: "Trade to complete monopolies even if giving opponent a monopoly",
+          es: "Comerciar para completar monopolios incluso si das a un oponente un monopolio",
+          de: "Handeln, um Monopole zu vervollständigen, auch wenn man einem Gegner ein Monopol gibt",
+          nl: "Handelen om monopolies te voltooien zelfs als je een tegenstander een monopolie geeft"
+        },
+        {
+          en: "Only trade with the weakest player",
+          es: "Solo comerciar con el jugador más débil",
+          de: "Nur mit dem schwächsten Spieler handeln",
+          nl: "Alleen handelen met de zwakste speler"
+        },
+        {
+          en: "Wait until late game before any trades",
+          es: "Esperar hasta el juego tardío antes de cualquier comercio",
+          de: "Warten Sie bis zum späten Spiel vor jedem Handel",
+          nl: "Wachten tot laat in het spel voor eventuele handel"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Expert play favors aggressive trading to complete monopolies early, as having any monopoly with houses is better than having no monopolies.",
+        es: "El juego experto favorece el comercio agresivo para completar monopolios temprano, ya que tener cualquier monopolio con casas es mejor que no tener monopolios.",
+        de: "Expertenspiel bevorzugt aggressiven Handel, um Monopole früh zu vervollständigen, da ein Monopol mit Häusern besser ist als keine Monopole.",
+        nl: "Expertspel geeft de voorkeur aan agressief handelen om monopolies vroeg te voltooien, omdat elk monopolie met huizen beter is dan geen monopolies."
+      }
+    },
+    {
+      question: {
+        en: "What is the 'three house rule' strategy in advanced play?",
+        es: "¿Qué es la estrategia de la 'regla de tres casas' en juego avanzado?",
+        de: "Was ist die 'Drei-Häuser-Regel'-Strategie im fortgeschrittenen Spiel?",
+        nl: "Wat is de 'drie huizen regel'-strategie in gevorderd spel?"
+      },
+      options: [
+        {
+          en: "Never build more than 3 houses per property",
+          es: "Nunca construir más de 3 casas por propiedad",
+          de: "Niemals mehr als 3 Häuser pro Grundstück bauen",
+          nl: "Nooit meer dan 3 huizen per eigendom bouwen"
+        },
+        {
+          en: "Build 3 houses on each property to maximize ROI before hotels",
+          es: "Construir 3 casas en cada propiedad para maximizar ROI antes de hoteles",
+          de: "Bauen Sie 3 Häuser auf jedem Grundstück, um ROI vor Hotels zu maximieren",
+          nl: "Bouw 3 huizen op elk eigendom om ROI te maximaliseren voor hotels"
+        },
+        {
+          en: "Keep 3 houses in reserve for future purchases",
+          es: "Mantener 3 casas en reserva para futuras compras",
+          de: "Halten Sie 3 Häuser in Reserve für zukünftige Käufe",
+          nl: "Houd 3 huizen in reserve voor toekomstige aankopen"
+        },
+        {
+          en: "Only build on your best 3 properties",
+          es: "Solo construir en tus mejores 3 propiedades",
+          de: "Nur auf Ihren besten 3 Grundstücken bauen",
+          nl: "Alleen bouwen op je beste 3 eigendommen"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "The optimal strategy is 3 houses per property as it provides the best rent-to-cost ratio; the 4th house and hotel increase cost more than rent.",
+        es: "La estrategia óptima es 3 casas por propiedad ya que proporciona la mejor relación alquiler-costo; la cuarta casa y el hotel aumentan el costo más que el alquiler.",
+        de: "Die optimale Strategie sind 3 Häuser pro Grundstück, da dies das beste Miete-Kosten-Verhältnis bietet; das 4. Haus und Hotel erhöhen Kosten mehr als Miete.",
+        nl: "De optimale strategie is 3 huizen per eigendom omdat dit de beste huur-kosten-verhouding biedt; het 4e huis en hotel verhogen kosten meer dan huur."
+      }
+    },
+    {
+      question: {
+        en: "In 'Monopoly Ultimate Banking' edition, what can the electronic unit do?",
+        es: "En la edición 'Monopoly Ultimate Banking', ¿qué puede hacer la unidad electrónica?",
+        de: "In der 'Monopoly Ultimate Banking'-Edition, was kann die elektronische Einheit tun?",
+        nl: "In de 'Monopoly Ultimate Banking'-editie, wat kan de elektronische eenheid doen?"
+      },
+      options: [
+        {
+          en: "Only track money balances",
+          es: "Solo rastrear saldos de dinero",
+          de: "Nur Geldguthaben verfolgen",
+          nl: "Alleen geldsaldi bijhouden"
+        },
+        {
+          en: "Track money, properties, and automatically deduct rent",
+          es: "Rastrear dinero, propiedades y deducir automáticamente el alquiler",
+          de: "Geld, Grundstücke verfolgen und Miete automatisch abziehen",
+          nl: "Geld, eigendommen bijhouden en automatisch huur aftrekken"
+        },
+        {
+          en: "Play music and sound effects only",
+          es: "Reproducir música y efectos de sonido solamente",
+          de: "Nur Musik und Soundeffekte abspielen",
+          nl: "Alleen muziek en geluidseffecten afspelen"
+        },
+        {
+          en: "Generate random game events",
+          es: "Generar eventos de juego aleatorios",
+          de: "Zufällige Spielereignisse generieren",
+          nl: "Willekeurige spelevenementen genereren"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Ultimate Banking's electronic unit automatically tracks all finances, property ownership, and deducts rent when players scan their cards on properties.",
+        es: "La unidad electrónica de Ultimate Banking rastrea automáticamente todas las finanzas, propiedad de propiedades y deduce el alquiler cuando los jugadores escanean sus tarjetas en las propiedades.",
+        de: "Die elektronische Einheit von Ultimate Banking verfolgt automatisch alle Finanzen, Grundstücksbesitz und zieht Miete ab, wenn Spieler ihre Karten auf Grundstücken scannen.",
+        nl: "De elektronische eenheid van Ultimate Banking houdt automatisch alle financiën, eigendomsbezit bij en trekt huur af wanneer spelers hun kaarten op eigendommen scannen."
+      }
+    },
+    {
+      question: {
+        en: "What special property exists in 'Monopoly City' edition?",
+        es: "¿Qué propiedad especial existe en la edición 'Monopoly City'?",
+        de: "Welche besondere Eigenschaft gibt es in der 'Monopoly City'-Edition?",
+        nl: "Welk speciaal eigendom bestaat er in de 'Monopoly City'-editie?"
+      },
+      options: [
+        {
+          en: "Players can build skyscrapers instead of hotels",
+          es: "Los jugadores pueden construir rascacielos en lugar de hoteles",
+          de: "Spieler können Wolkenkratzer statt Hotels bauen",
+          nl: "Spelers kunnen wolkenkrabbers bouwen in plaats van hotels"
+        },
+        {
+          en: "Properties can be upgraded to entire districts",
+          es: "Las propiedades se pueden actualizar a distritos enteros",
+          de: "Grundstücke können zu ganzen Bezirken aufgewertet werden",
+          nl: "Eigendommen kunnen worden geüpgraded naar hele districten"
+        },
+        {
+          en: "All properties are cities instead of streets",
+          es: "Todas las propiedades son ciudades en lugar de calles",
+          de: "Alle Grundstücke sind Städte statt Straßen",
+          nl: "Alle eigendommen zijn steden in plaats van straten"
+        },
+        {
+          en: "Players must manage city services and utilities",
+          es: "Los jugadores deben gestionar servicios de ciudad y servicios públicos",
+          de: "Spieler müssen Stadtdienste und Versorgungsunternehmen verwalten",
+          nl: "Spelers moeten stadsdiensten en nutsvoorzieningen beheren"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Monopoly City replaces flat houses/hotels with 3D buildings including skyscrapers, stadiums, and industrial complexes for vertical city-building gameplay.",
+        es: "Monopoly City reemplaza las casas/hoteles planos con edificios 3D incluyendo rascacielos, estadios y complejos industriales para juego de construcción de ciudades vertical.",
+        de: "Monopoly City ersetzt flache Häuser/Hotels durch 3D-Gebäude einschließlich Wolkenkratzer, Stadien und Industriekomplexe für vertikales Städtebau-Gameplay.",
+        nl: "Monopoly City vervangt platte huizen/hotels door 3D-gebouwen inclusief wolkenkrabbers, stadions en industriële complexen voor verticale stadsbouwgameplay."
+      }
+    },
+    {
+      question: {
+        en: "What is the probability of rolling doubles three times in a row?",
+        es: "¿Cuál es la probabilidad de sacar dobles tres veces seguidas?",
+        de: "Was ist die Wahrscheinlichkeit, dreimal hintereinander einen Pasch zu würfeln?",
+        nl: "Wat is de waarschijnlijkheid om drie keer achter elkaar een dubbel te gooien?"
+      },
+      options: [
+        {
+          en: "1 in 36 (2.78%)",
+          es: "1 en 36 (2.78%)",
+          de: "1 zu 36 (2,78%)",
+          nl: "1 op 36 (2,78%)"
+        },
+        {
+          en: "1 in 108 (0.93%)",
+          es: "1 en 108 (0.93%)",
+          de: "1 zu 108 (0,93%)",
+          nl: "1 op 108 (0,93%)"
+        },
+        {
+          en: "1 in 216 (0.46%)",
+          es: "1 en 216 (0.46%)",
+          de: "1 zu 216 (0,46%)",
+          nl: "1 op 216 (0,46%)"
+        },
+        {
+          en: "1 in 648 (0.15%)",
+          es: "1 en 648 (0.15%)",
+          de: "1 zu 648 (0,15%)",
+          nl: "1 op 648 (0,15%)"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "The probability is (1/6)³ = 1/216 or 0.46%, as each doubles roll has 1/6 chance and three consecutive rolls multiply the odds.",
+        es: "La probabilidad es (1/6)³ = 1/216 o 0.46%, ya que cada tirada de dobles tiene 1/6 de probabilidad y tres tiradas consecutivas multiplican las probabilidades.",
+        de: "Die Wahrscheinlichkeit beträgt (1/6)³ = 1/216 oder 0,46%, da jeder Pasch eine 1/6 Chance hat und drei aufeinanderfolgende Würfe die Chancen multiplizieren.",
+        nl: "De waarschijnlijkheid is (1/6)³ = 1/216 of 0,46%, omdat elke dubbelworp 1/6 kans heeft en drie opeenvolgende worpen de kansen vermenigvuldigen."
+      }
+    },
+    {
+      question: {
+        en: "In 'Monopoly: Cheaters Edition', what happens when you're caught cheating?",
+        es: "En 'Monopoly: Cheaters Edition', ¿qué sucede cuando te atrapan haciendo trampa?",
+        de: "In 'Monopoly: Cheaters Edition', was passiert, wenn Sie beim Betrügen erwischt werden?",
+        nl: "In 'Monopoly: Cheaters Edition', wat gebeurt er als je wordt betrapt op vals spelen?"
+      },
+      options: [
+        {
+          en: "You're eliminated from the game",
+          es: "Eres eliminado del juego",
+          de: "Sie werden aus dem Spiel eliminiert",
+          nl: "Je wordt uit het spel geëlimineerd"
+        },
+        {
+          en: "You wear handcuffs that restrict play",
+          es: "Usas esposas que restringen el juego",
+          de: "Sie tragen Handschellen, die das Spiel einschränken",
+          nl: "Je draagt handboeien die het spel beperken"
+        },
+        {
+          en: "You lose all your properties",
+          es: "Pierdes todas tus propiedades",
+          de: "Sie verlieren alle Ihre Grundstücke",
+          nl: "Je verliest al je eigendommen"
+        },
+        {
+          en: "You pay double rent for 5 turns",
+          es: "Pagas el doble de alquiler por 5 turnos",
+          de: "Sie zahlen 5 Runden lang doppelte Miete",
+          nl: "Je betaalt dubbele huur voor 5 beurten"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "In Cheaters Edition, caught cheaters must wear plastic handcuffs that restrict their ability to handle money and properties until freed.",
+        es: "En Cheaters Edition, los tramposos atrapados deben usar esposas de plástico que restringen su capacidad de manejar dinero y propiedades hasta ser liberados.",
+        de: "In der Cheaters Edition müssen erwischte Betrüger Plastikhandschellen tragen, die ihre Fähigkeit einschränken, Geld und Grundstücke zu handhaben, bis sie befreit werden.",
+        nl: "In Cheaters Edition moeten betrapte valsspelers plastic handboeien dragen die hun vermogen beperken om geld en eigendommen te behandelen tot ze worden bevrijd."
+      }
+    },
+    {
+      question: {
+        en: "What is the most frequently landed-on property in Monopoly based on probability?",
+        es: "¿Cuál es la propiedad en la que se cae con más frecuencia en Monopoly según la probabilidad?",
+        de: "Was ist das am häufigsten angelaufene Grundstück in Monopoly basierend auf Wahrscheinlichkeit?",
+        nl: "Wat is het meest frequent bezochte eigendom in Monopoly op basis van waarschijnlijkheid?"
+      },
+      options: [
+        {
+          en: "Illinois Avenue (red)",
+          es: "Illinois Avenue (rojo)",
+          de: "Illinois Avenue (rot)",
+          nl: "Illinois Avenue (rood)"
+        },
+        {
+          en: "New York Avenue (orange)",
+          es: "New York Avenue (naranja)",
+          de: "New York Avenue (orange)",
+          nl: "New York Avenue (oranje)"
+        },
+        {
+          en: "Boardwalk (dark blue)",
+          es: "Boardwalk (azul oscuro)",
+          de: "Boardwalk (dunkelblau)",
+          nl: "Boardwalk (donkerblauw)"
+        },
+        {
+          en: "Park Place (dark blue)",
+          es: "Park Place (azul oscuro)",
+          de: "Park Place (dunkelblau)",
+          nl: "Park Place (donkerblauw)"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Illinois Avenue is statistically most landed-on due to being 6-9 spaces from Jail (common dice rolls) and Chance/Community Chest card effects.",
+        es: "Illinois Avenue es estadísticamente el más visitado debido a estar 6-9 espacios de la Cárcel (tiradas de dados comunes) y efectos de cartas de Suerte/Caja de Comunidad.",
+        de: "Illinois Avenue wird statistisch am häufigsten angelaufen, da es 6-9 Felder vom Gefängnis entfernt ist (häufige Würfelwürfe) und Ereignis-/Gemeinschaftskarteneffekte.",
+        nl: "Illinois Avenue wordt statistisch het meest bezocht omdat het 6-9 vakken van de gevangenis ligt (veelvoorkomende dobbelworpen) en Kans/Algemeen Fonds-kaarteffecten."
+      }
+    },
+    {
+      question: {
+        en: "Which property color group has the best return on investment in standard Monopoly?",
+        es: "¿Qué grupo de colores de propiedad tiene el mejor retorno de inversión en Monopoly estándar?",
+        de: "Welche Grundstücksfarbgruppe hat die beste Kapitalrendite im Standard-Monopoly?",
+        nl: "Welke eigendomskleurgroep heeft het beste rendement op investering in standaard Monopoly?"
+      },
+      options: [
+        {
+          en: "Orange properties",
+          es: "Propiedades naranjas",
+          de: "Orange Grundstücke",
+          nl: "Oranje eigendommen"
+        },
+        {
+          en: "Red properties",
+          es: "Propiedades rojas",
+          de: "Rote Grundstücke",
+          nl: "Rode eigendommen"
+        },
+        {
+          en: "Light blue properties",
+          es: "Propiedades azul claro",
+          de: "Hellblaue Grundstücke",
+          nl: "Lichtblauwe eigendommen"
+        },
+        {
+          en: "Dark blue properties",
+          es: "Propiedades azul oscuro",
+          de: "Dunkelblaue Grundstücke",
+          nl: "Donkerblauwe eigendommen"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Orange properties offer the best ROI with moderate cost, high traffic (post-Jail position), and excellent rent-to-investment ratio with houses.",
+        es: "Las propiedades naranjas ofrecen el mejor ROI con costo moderado, alto tráfico (posición post-Cárcel), y excelente relación alquiler-inversión con casas.",
+        de: "Orange Grundstücke bieten die beste Rendite mit moderaten Kosten, hohem Verkehr (Post-Gefängnis-Position) und ausgezeichnetem Miete-Investitions-Verhältnis mit Häusern.",
+        nl: "Oranje eigendommen bieden het beste rendement met gematigde kosten, hoog verkeer (post-gevangenis positie), en uitstekende huur-investerings-verhouding met huizen."
+      }
+    },
+    {
+      question: {
+        en: "In championship tournaments, what determines the winner if time expires?",
+        es: "En torneos de campeonato, ¿qué determina el ganador si el tiempo expira?",
+        de: "In Meisterschaftsturnieren, was bestimmt den Gewinner, wenn die Zeit abläuft?",
+        nl: "In kampioenschapstoernooien, wat bepaalt de winnaar als de tijd afloopt?"
+      },
+      options: [
+        {
+          en: "Total property value only",
+          es: "Solo valor total de la propiedad",
+          de: "Nur Gesamtgrundstückswert",
+          nl: "Alleen totale eigendomswaarde"
+        },
+        {
+          en: "Total cash only",
+          es: "Solo efectivo total",
+          de: "Nur Gesamtbargeld",
+          nl: "Alleen totaal contant geld"
+        },
+        {
+          en: "Net worth (cash + property value + buildings)",
+          es: "Patrimonio neto (efectivo + valor de propiedad + edificios)",
+          de: "Nettovermögen (Bargeld + Grundstückswert + Gebäude)",
+          nl: "Nettovermogen (contant geld + eigendomswaarde + gebouwen)"
+        },
+        {
+          en: "Number of complete monopolies owned",
+          es: "Número de monopolios completos poseídos",
+          de: "Anzahl der vollständigen Monopole im Besitz",
+          nl: "Aantal volledige monopolies in bezit"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Tournament rules determine winners by total net worth: cash on hand plus property values (at printed prices) plus building costs (houses/hotels).",
+        es: "Las reglas del torneo determinan ganadores por patrimonio neto total: efectivo en mano más valores de propiedad (a precios impresos) más costos de edificios (casas/hoteles).",
+        de: "Turnierregeln bestimmen Gewinner nach Gesamtnettovermögen: Bargeld plus Grundstückswerte (zu gedruckten Preisen) plus Gebäudekosten (Häuser/Hotels).",
+        nl: "Toernooiregels bepalen winnaars door totaal nettovermogen: contant geld plus eigendomswaarden (tegen gedrukte prijzen) plus gebouwkosten (huizen/hotels)."
+      }
+    },
+    {
+      question: {
+        en: "What unique rule exists in 'Monopoly: Socialism' edition?",
+        es: "¿Qué regla única existe en la edición 'Monopoly: Socialism'?",
+        de: "Welche einzigartige Regel gibt es in der 'Monopoly: Socialism'-Edition?",
+        nl: "Welke unieke regel bestaat er in de 'Monopoly: Socialism'-editie?"
+      },
+      options: [
+        {
+          en: "All players win or lose together as a collective",
+          es: "Todos los jugadores ganan o pierden juntos como colectivo",
+          de: "Alle Spieler gewinnen oder verlieren gemeinsam als Kollektiv",
+          nl: "Alle spelers winnen of verliezen samen als collectief"
+        },
+        {
+          en: "Players redistribute wealth every 5 turns",
+          es: "Los jugadores redistribuyen la riqueza cada 5 turnos",
+          de: "Spieler verteilen Reichtum alle 5 Runden um",
+          nl: "Spelers herverdelen rijkdom elke 5 beurten"
+        },
+        {
+          en: "Government takes 50% of all rents",
+          es: "El gobierno toma el 50% de todos los alquileres",
+          de: "Regierung nimmt 50% aller Mieten",
+          nl: "Overheid neemt 50% van alle huren"
+        },
+        {
+          en: "Properties cannot be privately owned",
+          es: "Las propiedades no pueden ser de propiedad privada",
+          de: "Grundstücke können nicht privat besessen werden",
+          nl: "Eigendommen kunnen niet privaat worden bezeten"
+        }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Monopoly: Socialism is a cooperative game where players work together to complete community projects; all win together or lose to 'the system'.",
+        es: "Monopoly: Socialism es un juego cooperativo donde los jugadores trabajan juntos para completar proyectos comunitarios; todos ganan juntos o pierden contra 'el sistema'.",
+        de: "Monopoly: Socialism ist ein kooperatives Spiel, bei dem Spieler zusammenarbeiten, um Gemeinschaftsprojekte abzuschließen; alle gewinnen zusammen oder verlieren gegen 'das System'.",
+        nl: "Monopoly: Socialism is een coöperatief spel waarbij spelers samenwerken om gemeenschapsprojecten te voltooien; allen winnen samen of verliezen tegen 'het systeem'."
+      }
+    },
+    {
+      question: {
+        en: "What modification exists in 'Monopoly: Fortnite' edition?",
+        es: "¿Qué modificación existe en la edición 'Monopoly: Fortnite'?",
+        de: "Welche Modifikation gibt es in der 'Monopoly: Fortnite'-Edition?",
+        nl: "Welke wijziging bestaat er in de 'Monopoly: Fortnite'-editie?"
+      },
+      options: [
+        {
+          en: "Properties are eliminated throughout the game like 'the storm'",
+          es: "Las propiedades se eliminan a lo largo del juego como 'la tormenta'",
+          de: "Grundstücke werden im Laufe des Spiels eliminiert wie 'der Sturm'",
+          nl: "Eigendommen worden gedurende het spel geëlimineerd zoals 'de storm'"
+        },
+        {
+          en: "Players can build forts instead of houses",
+          es: "Los jugadores pueden construir fortalezas en lugar de casas",
+          de: "Spieler können Festungen statt Häuser bauen",
+          nl: "Spelers kunnen forten bouwen in plaats van huizen"
+        },
+        {
+          en: "Last player standing wins (elimination-based)",
+          es: "El último jugador en pie gana (basado en eliminación)",
+          de: "Letzter verbleibender Spieler gewinnt (eliminierungsbasiert)",
+          nl: "Laatste overgebleven speler wint (op basis van eliminatie)"
+        },
+        {
+          en: "Players collect health points instead of money",
+          es: "Los jugadores recolectan puntos de salud en lugar de dinero",
+          de: "Spieler sammeln Gesundheitspunkte statt Geld",
+          nl: "Spelers verzamelen gezondheidspunten in plaats van geld"
+        }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Monopoly: Fortnite uses elimination mechanics - when players run out of health points, they're eliminated; last player standing wins.",
+        es: "Monopoly: Fortnite usa mecánicas de eliminación - cuando los jugadores se quedan sin puntos de salud, son eliminados; el último jugador en pie gana.",
+        de: "Monopoly: Fortnite verwendet Eliminierungsmechaniken - wenn Spielern die Gesundheitspunkte ausgehen, werden sie eliminiert; letzter Spieler gewinnt.",
+        nl: "Monopoly: Fortnite gebruikt eliminatiemechanismen - wanneer spelers geen gezondheidspunten meer hebben, worden ze geëlimineerd; laatste speler wint."
+      }
+    },
+    {
+      question: {
+        en: "What is 'housing shortage' strategy in expert play?",
+        es: "¿Qué es la estrategia de 'escasez de vivienda' en juego experto?",
+        de: "Was ist die 'Wohnungsknappheits'-Strategie im Expertenspiel?",
+        nl: "Wat is de 'woningtekort'-strategie in expertspel?"
+      },
+      options: [
+        {
+          en: "Buy all available houses to prevent opponents from building",
+          es: "Comprar todas las casas disponibles para evitar que los oponentes construyan",
+          de: "Alle verfügbaren Häuser kaufen, um Gegner am Bauen zu hindern",
+          nl: "Alle beschikbare huizen kopen om tegenstanders te verhinderen te bouwen"
+        },
+        {
+          en: "Only build houses on one monopoly to save money",
+          es: "Solo construir casas en un monopolio para ahorrar dinero",
+          de: "Nur auf einem Monopol Häuser bauen, um Geld zu sparen",
+          nl: "Alleen huizen bouwen op één monopolie om geld te besparen"
+        },
+        {
+          en: "Trade away house-building rights to opponents",
+          es: "Intercambiar derechos de construcción de casas a oponentes",
+          de: "Hausbaurechte an Gegner handeln",
+          nl: "Huisbouwrechten aan tegenstanders verhandelen"
+        },
+        {
+          en: "Refuse to upgrade to hotels to monopolize houses",
+          es: "Rechazar actualizar a hoteles para monopolizar casas",
+          de: "Ablehnen auf Hotels aufzurüsten, um Häuser zu monopolisieren",
+          nl: "Weigeren te upgraden naar hotels om huizen te monopoliseren"
+        }
+      ],
+      correct: 3,
+      explanation: {
+        en: "Expert strategy: keep 4 houses on each property instead of upgrading to hotels, exhausting the limited house supply and blocking opponents from building.",
+        es: "Estrategia experta: mantener 4 casas en cada propiedad en lugar de actualizar a hoteles, agotando el suministro limitado de casas y bloqueando a oponentes de construir.",
+        de: "Expertenstrategie: 4 Häuser auf jedem Grundstück behalten statt auf Hotels aufzurüsten, das begrenzte Häuserangebot erschöpfen und Gegner am Bauen hindern.",
+        nl: "Expertstrategie: 4 huizen op elk eigendom houden in plaats van upgraden naar hotels, de beperkte huizenvoorraad uitputten en tegenstanders blokkeren van bouwen."
+      }
+    },
+    {
+      question: {
+        en: "In 'Monopoly: Gamer' (Mario edition), how do players move around the board?",
+        es: "En 'Monopoly: Gamer' (edición Mario), ¿cómo se mueven los jugadores por el tablero?",
+        de: "In 'Monopoly: Gamer' (Mario-Edition), wie bewegen sich Spieler auf dem Brett?",
+        nl: "In 'Monopoly: Gamer' (Mario-editie), hoe bewegen spelers zich over het bord?"
+      },
+      options: [
+        {
+          en: "Standard two dice",
+          es: "Dos dados estándar",
+          de: "Standard zwei Würfel",
+          nl: "Standaard twee dobbelstenen"
+        },
+        {
+          en: "Power-up die that determines movement",
+          es: "Dado de potenciador que determina el movimiento",
+          de: "Power-up-Würfel, der Bewegung bestimmt",
+          nl: "Power-up dobbelsteen die beweging bepaalt"
+        },
+        {
+          en: "Cards that dictate spaces moved",
+          es: "Cartas que dictan espacios movidos",
+          de: "Karten, die bewegte Felder vorschreiben",
+          nl: "Kaarten die verplaatste vakken bepalen"
+        },
+        {
+          en: "Single die only",
+          es: "Solo un dado",
+          de: "Nur ein einzelner Würfel",
+          nl: "Alleen één dobbelsteen"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Monopoly: Gamer uses a special Power-up die showing numbers 1-6 that determines movement, replacing traditional two-dice rolling.",
+        es: "Monopoly: Gamer usa un dado especial de Power-up que muestra números 1-6 que determina el movimiento, reemplazando la tirada tradicional de dos dados.",
+        de: "Monopoly: Gamer verwendet einen speziellen Power-up-Würfel mit Zahlen 1-6, der Bewegung bestimmt und das traditionelle Würfeln mit zwei Würfeln ersetzt.",
+        nl: "Monopoly: Gamer gebruikt een speciale Power-up dobbelsteen met cijfers 1-6 die beweging bepaalt, ter vervanging van traditioneel gooien met twee dobbelstenen."
+      }
+    },
+    {
+      question: {
+        en: "What is the statistical probability of landing on 'Go to Jail' in a single circuit of the board?",
+        es: "¿Cuál es la probabilidad estadística de caer en 'Ir a la Cárcel' en un solo circuito del tablero?",
+        de: "Was ist die statistische Wahrscheinlichkeit, in einer einzigen Brettumrundung auf 'Gehen Sie ins Gefängnis' zu landen?",
+        nl: "Wat is de statistische waarschijnlijkheid om op 'Ga naar de Gevangenis' te landen in één ronde van het bord?"
+      },
+      options: [
+        {
+          en: "Approximately 15%",
+          es: "Aproximadamente 15%",
+          de: "Ungefähr 15%",
+          nl: "Ongeveer 15%"
+        },
+        {
+          en: "Approximately 25%",
+          es: "Aproximadamente 25%",
+          de: "Ungefähr 25%",
+          nl: "Ongeveer 25%"
+        },
+        {
+          en: "Approximately 35%",
+          es: "Aproximadamente 35%",
+          de: "Ungefähr 35%",
+          nl: "Ongeveer 35%"
+        },
+        {
+          en: "Approximately 45%",
+          es: "Aproximadamente 45%",
+          de: "Ungefähr 45%",
+          nl: "Ongeveer 45%"
+        }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Studies show approximately 25% probability of jail per circuit due to: Go to Jail space, three doubles, and Chance/Community Chest cards sending to jail.",
+        es: "Los estudios muestran aproximadamente 25% de probabilidad de cárcel por circuito debido a: espacio Ir a la Cárcel, tres dobles, y cartas de Suerte/Caja de Comunidad enviando a la cárcel.",
+        de: "Studien zeigen etwa 25% Wahrscheinlichkeit für Gefängnis pro Umrundung aufgrund von: Gehen Sie ins Gefängnis-Feld, drei Paschs und Ereignis-/Gemeinschaftskarten ins Gefängnis.",
+        nl: "Studies tonen ongeveer 25% waarschijnlijkheid van gevangenis per ronde vanwege: Ga naar de Gevangenis-vak, drie dubbels, en Kans/Algemeen Fonds-kaarten naar gevangenis."
+      }
     }
   ]
 };

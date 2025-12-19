@@ -427,6 +427,405 @@
           de: "Farbkomplex-Schwäche tritt auf, wenn Felder einer Farbe (hell oder dunkel) chronisch schwach werden, oft nachdem Bauern auf der entgegengesetzten Farbe fixiert sind. Der Gegner kann dies mit einem Läufer ausnutzen, der diese Felder kontrolliert.",
           nl: "Kleurcomplexzwakte treedt op wanneer velden van één kleur (licht of donker) chronisch zwak worden, vaak nadat pionnen op de tegenovergestelde kleur zijn gefixeerd. De tegenstander kan dit uitbuiten met een loper die die velden controleert."
         }
+      },
+      {
+        question: {
+          en: "What is the 'Marshall Attack' in the Ruy Lopez?",
+          es: "¿Qué es el 'Ataque Marshall' en la Ruy López?",
+          de: "Was ist der 'Marshall-Angriff' in der Spanischen Partie?",
+          nl: "Wat is de 'Marshall Aanval' in de Ruy Lopez?"
+        },
+        options: [
+          { en: "8...d5, sacrificing a pawn for initiative", es: "8...d5, sacrificando un peón por iniciativa", de: "8...d5, Opfern eines Bauern für Initiative", nl: "8...d5, een pion offeren voor initiatief" },
+          { en: "A queenside attack", es: "Un ataque en el flanco de dama", de: "Ein Damenflügel-Angriff", nl: "Een damezijde aanval" },
+          { en: "A king's gambit variation", es: "Una variación del gambito de rey", de: "Eine Königsgambit-Variante", nl: "Een koningsgambiet variatie" },
+          { en: "An endgame technique", es: "Una técnica de final", de: "Eine Endspiel-Technik", nl: "Een eindspel techniek" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Marshall Attack (8...d5 in the Ruy Lopez) is a sharp gambit where Black sacrifices a pawn for rapid development and attacking chances. Discovered by Frank Marshall in 1918, it remains popular at all levels.",
+          es: "El Ataque Marshall (8...d5 en la Ruy López) es un gambito agudo donde las negras sacrifican un peón por desarrollo rápido y chances de ataque. Descubierto por Frank Marshall en 1918, sigue siendo popular en todos los niveles.",
+          de: "Der Marshall-Angriff (8...d5 in der Spanischen Partie) ist ein scharfes Gambit, bei dem Schwarz einen Bauern für schnelle Entwicklung und Angriffschancen opfert. Von Frank Marshall 1918 entdeckt, bleibt es auf allen Ebenen beliebt.",
+          nl: "De Marshall Aanval (8...d5 in de Ruy Lopez) is een scherp gambiet waarbij zwart een pion offert voor snelle ontwikkeling en aanvalskansen. Ontdekt door Frank Marshall in 1918, blijft het populair op alle niveaus."
+        }
+      },
+      {
+        question: {
+          en: "What is 'minority attack'?",
+          es: "¿Qué es el 'ataque de minoría'?",
+          de: "Was ist ein 'Minoritätsangriff'?",
+          nl: "Wat is een 'minderheidsaanval'?"
+        },
+        options: [
+          { en: "Advancing fewer pawns against opponent's pawn chain to create weaknesses", es: "Avanzar menos peones contra la cadena de peones del oponente para crear debilidades", de: "Vorrücken weniger Bauern gegen die gegnerische Bauernkette um Schwächen zu schaffen", nl: "Minder pionnen vooruitschuiven tegen pioncadeau van tegenstander om zwakheden te creëren" },
+          { en: "Attacking with fewer pieces", es: "Atacar con menos piezas", de: "Mit weniger Figuren angreifen", nl: "Aanvallen met minder stukken" },
+          { en: "A tactical trick", es: "Un truco táctico", de: "Ein taktischer Trick", nl: "Een tactische truc" },
+          { en: "Defending a weak position", es: "Defender una posición débil", de: "Eine schwache Stellung verteidigen", nl: "Een zwakke positie verdedigen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A minority attack uses fewer pawns (usually 2 vs 3) on a flank to undermine the opponent's pawn majority, creating weaknesses. Common in the Queen's Gambit Declined where White plays b4-b5 on the queenside.",
+          es: "Un ataque de minoría usa menos peones (usualmente 2 vs 3) en un flanco para socavar la mayoría de peones del oponente, creando debilidades. Común en el Gambito de Dama Rehusado donde las blancas juegan b4-b5 en el flanco de dama.",
+          de: "Ein Minoritätsangriff verwendet weniger Bauern (normalerweise 2 vs 3) auf einem Flügel, um die Bauernmehrheit des Gegners zu untergraben und Schwächen zu schaffen. Üblich im Abgelehnten Damengambit, wo Weiß b4-b5 am Damenflügel spielt.",
+          nl: "Een minderheidsaanval gebruikt minder pionnen (meestal 2 vs 3) op een vleugel om de pionmeerderheid van de tegenstander te ondermijnen en zwakheden te creëren. Gebruikelijk in het Afgewezen Damegambiet waar wit b4-b5 speelt op de damezijde."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Maroczy Bind'?",
+          es: "¿Qué es el 'Atadura Maróczy'?",
+          de: "Was ist die 'Maróczy-Bindung'?",
+          nl: "Wat is de 'Maroczy Bind'?"
+        },
+        options: [
+          { en: "A pawn structure with pawns on c4 and e4 controlling d5", es: "Una estructura de peones con peones en c4 y e4 controlando d5", de: "Eine Bauernstruktur mit Bauern auf c4 und e4, die d5 kontrollieren", nl: "Een pionstructuur met pionnen op c4 en e4 die d5 controleren" },
+          { en: "A tactical trap", es: "Una trampa táctica", de: "Eine taktische Falle", nl: "Een tactische val" },
+          { en: "An endgame position", es: "Una posición de final", de: "Eine Endspiel-Stellung", nl: "Een eindspel positie" },
+          { en: "A piece maneuver", es: "Una maniobra de piezas", de: "Ein Figurenmanöver", nl: "Een stukmanoeuvre" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Maroczy Bind is a pawn formation with pawns on c4 and e4, restricting Black's central break ...d5. It arises mainly in the Sicilian Defense and gives White spatial advantage but potentially weak d4/d3 squares.",
+          es: "El Atadura Maróczy es una formación de peones con peones en c4 y e4, restringiendo la ruptura central de las negras ...d5. Surge principalmente en la Defensa Siciliana y da a las blancas ventaja espacial pero potencialmente casillas débiles d4/d3.",
+          de: "Die Maróczy-Bindung ist eine Bauernformation mit Bauern auf c4 und e4, die Schwarz' zentralen Durchbruch ...d5 einschränkt. Sie entsteht hauptsächlich in der Sizilianischen Verteidigung und gibt Weiß Raumvorteil aber potenziell schwache d4/d3-Felder.",
+          nl: "De Maroczy Bind is een pionformatie met pionnen op c4 en e4, die zwart's centrale doorbraak ...d5 beperkt. Het ontstaat voornamelijk in de Siciliaanse Verdediging en geeft wit ruimtevoordeel maar mogelijk zwakke d4/d3 velden."
+        }
+      },
+      {
+        question: {
+          en: "What is 'tempo' in chess?",
+          es: "¿Qué es el 'tiempo' en ajedrez?",
+          de: "Was ist 'Tempo' im Schach?",
+          nl: "Wat is 'tempo' in schaken?"
+        },
+        options: [
+          { en: "A unit of time representing one move in development or initiative", es: "Una unidad de tiempo que representa un movimiento en desarrollo o iniciativa", de: "Eine Zeiteinheit, die einen Zug in Entwicklung oder Initiative darstellt", nl: "Een tijdseenheid die één zet in ontwikkeling of initiatief vertegenwoordigt" },
+          { en: "The clock time remaining", es: "El tiempo restante en el reloj", de: "Die verbleibende Bedenkzeit", nl: "De resterende kloktijd" },
+          { en: "Speed of play", es: "Velocidad de juego", de: "Spielgeschwindigkeit", nl: "Speelsnelheid" },
+          { en: "Moving quickly", es: "Moverse rápidamente", de: "Schnell bewegen", nl: "Snel bewegen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A tempo in chess is a unit measuring time advantage in development. Gaining a tempo means achieving a goal in fewer moves. Losing a tempo means wasting a move. Example: forcing opponent to move the same piece twice gains tempo.",
+          es: "Un tiempo en ajedrez es una unidad que mide la ventaja de tiempo en desarrollo. Ganar un tiempo significa lograr un objetivo en menos movimientos. Perder un tiempo significa desperdiciar un movimiento. Ejemplo: forzar al oponente a mover la misma pieza dos veces gana tiempo.",
+          de: "Ein Tempo im Schach ist eine Einheit, die Zeitvorteil in der Entwicklung misst. Tempo gewinnen bedeutet, ein Ziel in weniger Zügen zu erreichen. Tempo verlieren bedeutet, einen Zug zu verschwenden. Beispiel: Den Gegner zu zwingen, dieselbe Figur zweimal zu bewegen, gewinnt Tempo.",
+          nl: "Een tempo in schaken is een eenheid die tijdvoordeel in ontwikkeling meet. Tempo winnen betekent een doel in minder zetten bereiken. Tempo verliezen betekent een zet verspillen. Voorbeeld: de tegenstander dwingen hetzelfde stuk tweemaal te bewegen wint tempo."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'English Opening'?",
+          es: "¿Qué es la 'Apertura Inglesa'?",
+          de: "Was ist die 'Englische Eröffnung'?",
+          nl: "Wat is de 'Engelse Opening'?"
+        },
+        options: [
+          { en: "1.c4, a flexible hypermodern opening", es: "1.c4, una apertura hipermoderna flexible", de: "1.c4, eine flexible hypermoderne Eröffnung", nl: "1.c4, een flexibele hypermoderne opening" },
+          { en: "1.e4 e5 2.Nf3", es: "1.e4 e5 2.Cf3", de: "1.e4 e5 2.Sf3", nl: "1.e4 e5 2.Pf3" },
+          { en: "A queenside gambit", es: "Un gambito de flanco de dama", de: "Ein Damenflügel-Gambit", nl: "Een damezijde gambiet" },
+          { en: "A classical opening", es: "Una apertura clásica", de: "Eine klassische Eröffnung", nl: "Een klassieke opening" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The English Opening (1.c4) is a hypermodern opening controlling d5 from the side. It's extremely flexible, transposing to many systems. Popular at top level, used extensively by players like Botvinnik and Kasparov.",
+          es: "La Apertura Inglesa (1.c4) es una apertura hipermoderna que controla d5 desde el lado. Es extremadamente flexible, transpone a muchos sistemas. Popular al más alto nivel, usada extensivamente por jugadores como Botvinnik y Kasparov.",
+          de: "Die Englische Eröffnung (1.c4) ist eine hypermoderne Eröffnung, die d5 von der Seite kontrolliert. Sie ist äußerst flexibel und transponiert in viele Systeme. Auf höchstem Niveau beliebt, von Spielern wie Botvinnik und Kasparov ausgiebig verwendet.",
+          nl: "De Engelse Opening (1.c4) is een hypermoderne opening die d5 van de zijkant controleert. Het is extreem flexibel en transponeert naar vele systemen. Populair op topniveau, uitgebreid gebruikt door spelers als Botvinnik en Kasparov."
+        }
+      },
+      {
+        question: {
+          en: "What is 'piece coordination'?",
+          es: "¿Qué es la 'coordinación de piezas'?",
+          de: "Was ist 'Figurenkoordination'?",
+          nl: "Wat is 'stukcoördinatie'?"
+        },
+        options: [
+          { en: "Pieces working together harmoniously toward common goals", es: "Piezas trabajando juntas armoniosamente hacia objetivos comunes", de: "Figuren, die harmonisch auf gemeinsame Ziele hinarbeiten", nl: "Stukken die harmonieus samenwerken naar gemeenschappelijke doelen" },
+          { en: "Moving pieces in sequence", es: "Mover piezas en secuencia", de: "Figuren nacheinander bewegen", nl: "Stukken in volgorde verplaatsen" },
+          { en: "Developing all pieces", es: "Desarrollar todas las piezas", de: "Alle Figuren entwickeln", nl: "Alle stukken ontwikkelen" },
+          { en: "Placing pieces on good squares", es: "Colocar piezas en buenas casillas", de: "Figuren auf gute Felder stellen", nl: "Stukken op goede velden plaatsen" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Piece coordination means pieces working together effectively, protecting each other and controlling important squares or files. Well-coordinated pieces multiply their effectiveness, while uncoordinated pieces are vulnerable and ineffective.",
+          es: "La coordinación de piezas significa que las piezas trabajan juntas efectivamente, protegiéndose mutuamente y controlando casillas o columnas importantes. Las piezas bien coordinadas multiplican su efectividad, mientras que las piezas no coordinadas son vulnerables e ineficaces.",
+          de: "Figurenkoordination bedeutet, dass Figuren effektiv zusammenarbeiten, sich gegenseitig schützen und wichtige Felder oder Linien kontrollieren. Gut koordinierte Figuren vervielfachen ihre Wirksamkeit, während unkoordinierte Figuren verwundbar und ineffektiv sind.",
+          nl: "Stukcoördinatie betekent dat stukken effectief samenwerken, elkaar beschermen en belangrijke velden of lijnen controleren. Goed gecoördineerde stukken vermenigvuldigen hun effectiviteit, terwijl ongecoördineerde stukken kwetsbaar en ineffectief zijn."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Grunfeld Defense'?",
+          es: "¿Qué es la 'Defensa Grünfeld'?",
+          de: "Was ist die 'Grünfeld-Verteidigung'?",
+          nl: "Wat is de 'Grunfeld Verdediging'?"
+        },
+        options: [
+          { en: "1.d4 Nf6 2.c4 g6 3.Nc3 d5, attacking White's center", es: "1.d4 Cf6 2.c4 g6 3.Cc3 d5, atacando el centro de las blancas", de: "1.d4 Sf6 2.c4 g6 3.Sc3 d5, greift Weiß' Zentrum an", nl: "1.d4 Pf6 2.c4 g6 3.Pc3 d5, aanvallend wit's centrum" },
+          { en: "A king's gambit variation", es: "Una variación del gambito de rey", de: "Eine Königsgambit-Variante", nl: "Een koningsgambiet variatie" },
+          { en: "A passive defensive system", es: "Un sistema defensivo pasivo", de: "Ein passives Verteidigungssystem", nl: "Een passief verdedigingssysteem" },
+          { en: "A queenside counterattack", es: "Un contraataque en el flanco de dama", de: "Ein Damenflügel-Gegenangriff", nl: "Een damezijde tegenaanval" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Grunfeld Defense is a hypermodern opening where Black allows White a big center then attacks it with ...d5. Named after Ernst Grünfeld (1920s), it's favored by aggressive players and leads to sharp, tactical positions.",
+          es: "La Defensa Grünfeld es una apertura hipermoderna donde las negras permiten a las blancas un gran centro y luego lo atacan con ...d5. Nombrada en honor a Ernst Grünfeld (años 1920), es favorecida por jugadores agresivos y conduce a posiciones agudas y tácticas.",
+          de: "Die Grünfeld-Verteidigung ist eine hypermoderne Eröffnung, bei der Schwarz Weiß ein großes Zentrum erlaubt und es dann mit ...d5 angreift. Benannt nach Ernst Grünfeld (1920er), wird sie von aggressiven Spielern bevorzugt und führt zu scharfen, taktischen Stellungen.",
+          nl: "De Grunfeld Verdediging is een hypermoderne opening waarbij zwart wit een groot centrum toestaat en het dan aanvalt met ...d5. Vernoemd naar Ernst Grünfeld (jaren 1920), wordt het geprefereerd door agressieve spelers en leidt tot scherpe, tactische posities."
+        }
+      },
+      {
+        question: {
+          en: "What is 'static vs dynamic advantage'?",
+          es: "¿Qué es 'ventaja estática vs dinámica'?",
+          de: "Was ist 'statischer vs dynamischer Vorteil'?",
+          nl: "Wat is 'statisch vs dynamisch voordeel'?"
+        },
+        options: [
+          { en: "Permanent structural features vs temporary initiative-based advantages", es: "Características estructurales permanentes vs ventajas temporales basadas en iniciativa", de: "Permanente strukturelle Merkmale vs temporäre initiativbasierte Vorteile", nl: "Permanente structurele kenmerken vs tijdelijke initiatief-gebaseerde voordelen" },
+          { en: "Material vs positional advantage", es: "Ventaja material vs posicional", de: "Materieller vs positioneller Vorteil", nl: "Materieel vs positioneel voordeel" },
+          { en: "Opening vs endgame advantage", es: "Ventaja de apertura vs final", de: "Eröffnungs- vs Endspiel-Vorteil", nl: "Opening vs eindspel voordeel" },
+          { en: "Attack vs defense", es: "Ataque vs defensa", de: "Angriff vs Verteidigung", nl: "Aanval vs verdediging" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Static advantages are permanent (better pawn structure, material, space) and remain unless exchanged. Dynamic advantages are temporary (initiative, attack, tactics) and must be used quickly or they fade. Balancing both is key to strong play.",
+          es: "Las ventajas estáticas son permanentes (mejor estructura de peones, material, espacio) y permanecen a menos que se intercambien. Las ventajas dinámicas son temporales (iniciativa, ataque, tácticas) y deben usarse rápidamente o se desvanecen. Equilibrar ambas es clave para un juego fuerte.",
+          de: "Statische Vorteile sind permanent (bessere Bauernstruktur, Material, Raum) und bleiben, sofern nicht getauscht. Dynamische Vorteile sind temporär (Initiative, Angriff, Taktiken) und müssen schnell genutzt werden oder sie verschwinden. Beide zu balancieren ist der Schlüssel zu starkem Spiel.",
+          nl: "Statische voordelen zijn permanent (betere pionstructuur, materiaal, ruimte) en blijven tenzij geruild. Dynamische voordelen zijn tijdelijk (initiatief, aanval, tactieken) en moeten snel gebruikt worden of ze verdwijnen. Beide balanceren is de sleutel tot sterk spel."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Najdorf Variation' of the Sicilian Defense?",
+          es: "¿Qué es la 'Variante Najdorf' de la Defensa Siciliana?",
+          de: "Was ist die 'Najdorf-Variante' der Sizilianischen Verteidigung?",
+          nl: "Wat is de 'Najdorf Variatie' van de Siciliaanse Verdediging?"
+        },
+        options: [
+          { en: "5...a6, creating flexibility and preventing Nb5", es: "5...a6, creando flexibilidad y previniendo Cb5", de: "5...a6, schafft Flexibilität und verhindert Sb5", nl: "5...a6, creërend flexibiliteit en voorkomend Pb5" },
+          { en: "5...e6, the Scheveningen variation", es: "5...e6, la variación Scheveningen", de: "5...e6, die Scheveningen-Variante", nl: "5...e6, de Scheveningen variatie" },
+          { en: "5...Nc6, the classical variation", es: "5...Cc6, la variación clásica", de: "5...Sc6, die klassische Variante", nl: "5...Pc6, de klassieke variatie" },
+          { en: "5...g6, the Dragon variation", es: "5...g6, la variación del Dragón", de: "5...g6, die Drachen-Variante", nl: "5...g6, de Dragon variatie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Najdorf (5...a6) is the most popular Sicilian variation. Named after Miguel Najdorf, it prevents Nb5, prepares ...e5, and keeps maximum flexibility. Used by Fischer, Kasparov, and countless top players.",
+          es: "El Najdorf (5...a6) es la variación siciliana más popular. Nombrada en honor a Miguel Najdorf, previene Cb5, prepara ...e5 y mantiene máxima flexibilidad. Usada por Fischer, Kasparov y innumerables jugadores de alto nivel.",
+          de: "Das Najdorf (5...a6) ist die beliebteste sizilianische Variante. Benannt nach Miguel Najdorf, verhindert es Sb5, bereitet ...e5 vor und hält maximale Flexibilität. Von Fischer, Kasparov und zahllosen Spitzenspielern verwendet.",
+          nl: "De Najdorf (5...a6) is de populairste Siciliaanse variatie. Vernoemd naar Miguel Najdorf, voorkomt het Pb5, bereidt ...e5 voor en houdt maximale flexibiliteit. Gebruikt door Fischer, Kasparov en talloze topspelers."
+        }
+      },
+      {
+        question: {
+          en: "What is 'triangulation' in endgames?",
+          es: "¿Qué es la 'triangulación' en finales?",
+          de: "Was ist 'Triangulation' in Endspielen?",
+          nl: "Wat is 'triangulatie' in eindspelen?"
+        },
+        options: [
+          { en: "King maneuver losing a tempo to put opponent in zugzwang", es: "Maniobra del rey perdiendo un tiempo para poner al oponente en zugzwang", de: "König-Manöver, das ein Tempo verliert um den Gegner in Zugzwang zu bringen", nl: "Koningsmanoeuvre waarbij een tempo verloren gaat om tegenstander in zugzwang te brengen" },
+          { en: "Moving in a triangle pattern", es: "Moverse en un patrón triangular", de: "In einem dreieckigen Muster bewegen", nl: "Bewegen in een driehoekspatroon" },
+          { en: "Three-piece coordination", es: "Coordinación de tres piezas", de: "Drei-Figuren-Koordination", nl: "Drie-stukken coördinatie" },
+          { en: "A tactical pattern", es: "Un patrón táctico", de: "Ein taktisches Muster", nl: "Een tactisch patroon" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Triangulation is an endgame technique where one king moves in a triangle (e.g. Kf1-Ke1-Kd1-Kf1) while the opponent's king can only move back and forth, losing a tempo to create zugzwang. Critical in king and pawn endgames.",
+          es: "La triangulación es una técnica de final donde un rey se mueve en un triángulo (ej. Rf1-Re1-Rd1-Rf1) mientras el rey del oponente solo puede moverse de un lado a otro, perdiendo un tiempo para crear zugzwang. Crítico en finales de rey y peón.",
+          de: "Triangulation ist eine Endspiel-Technik, bei der ein König in einem Dreieck zieht (z.B. Kf1-Ke1-Kd1-Kf1), während der gegnerische König nur hin und her ziehen kann, ein Tempo verliert um Zugzwang zu schaffen. Entscheidend in König-und-Bauern-Endspielen.",
+          nl: "Triangulatie is een eindspel techniek waarbij één koning in een driehoek beweegt (bijv. Kf1-Ke1-Kd1-Kf1) terwijl de koning van de tegenstander alleen heen en weer kan bewegen, een tempo verliezend om zugzwang te creëren. Cruciaal in koning-en-pion eindspelen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Sveshnikov Variation' in the Sicilian?",
+          es: "¿Qué es la 'Variante Sveshnikov' en la Siciliana?",
+          de: "Was ist die 'Sweschnikow-Variante' in der Sizilianischen?",
+          nl: "Wat is de 'Sveshnikov Variatie' in de Siciliaanse?"
+        },
+        options: [
+          { en: "5...e5, accepting a backward d6 pawn for active play", es: "5...e5, aceptando un peón atrasado d6 por juego activo", de: "5...e5, akzeptiert einen rückständigen d6-Bauern für aktives Spiel", nl: "5...e5, accepterend een achtergebleven d6 pion voor actief spel" },
+          { en: "5...a6, the Najdorf", es: "5...a6, el Najdorf", de: "5...a6, das Najdorf", nl: "5...a6, de Najdorf" },
+          { en: "5...g6, the Dragon", es: "5...g6, el Dragón", de: "5...g6, der Drache", nl: "5...g6, de Dragon" },
+          { en: "5...Nc6, classical Sicilian", es: "5...Cc6, Siciliana clásica", de: "5...Sc6, klassisches Sizilianisch", nl: "5...Pc6, klassieke Siciliaanse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Sveshnikov (5...e5 after 1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3) accepts a weak d6 pawn for active pieces and attacking chances. Pioneered by Evgeny Sveshnikov, it's popular at all levels today.",
+          es: "El Sveshnikov (5...e5 después de 1.e4 c5 2.Cf3 Cc6 3.d4 cxd4 4.Cxd4 Cf6 5.Cc3) acepta un peón d6 débil por piezas activas y chances de ataque. Pionero de Evgeny Sveshnikov, es popular en todos los niveles hoy.",
+          de: "Das Sweschnikow (5...e5 nach 1.e4 c5 2.Sf3 Sc6 3.d4 cxd4 4.Sxd4 Sf6 5.Sc3) akzeptiert einen schwachen d6-Bauern für aktive Figuren und Angriffschancen. Von Evgeny Sweschnikow entwickelt, ist es heute auf allen Ebenen beliebt.",
+          nl: "De Sveshnikov (5...e5 na 1.e4 c5 2.Pf3 Pc6 3.d4 cxd4 4.Pxd4 Pf6 5.Pc3) accepteert een zwakke d6 pion voor actieve stukken en aanvalskansen. Gepioniert door Evgeny Sveshnikov, is het vandaag populair op alle niveaus."
+        }
+      },
+      {
+        question: {
+          en: "What is 'compensation' in chess?",
+          es: "¿Qué es la 'compensación' en ajedrez?",
+          de: "Was ist 'Kompensation' im Schach?",
+          nl: "Wat is 'compensatie' in schaken?"
+        },
+        options: [
+          { en: "Advantages offsetting a disadvantage, like activity for material", es: "Ventajas que compensan una desventaja, como actividad por material", de: "Vorteile, die einen Nachteil ausgleichen, wie Aktivität für Material", nl: "Voordelen die een nadeel compenseren, zoals activiteit voor materiaal" },
+          { en: "Equal material trade", es: "Intercambio de material igual", de: "Gleichwertiger Materialtausch", nl: "Gelijke materiaalruil" },
+          { en: "Time on the clock", es: "Tiempo en el reloj", de: "Zeit auf der Uhr", nl: "Tijd op de klok" },
+          { en: "Pawn promotion", es: "Promoción de peón", de: "Bauernumwandlung", nl: "Pionpromotie" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Compensation means having advantages that offset a disadvantage. For example, being down material but having better piece activity, initiative, or attacking chances. Strong players often sacrifice material for compensation.",
+          es: "La compensación significa tener ventajas que compensan una desventaja. Por ejemplo, estar abajo en material pero tener mejor actividad de piezas, iniciativa o chances de ataque. Los jugadores fuertes a menudo sacrifican material por compensación.",
+          de: "Kompensation bedeutet, Vorteile zu haben, die einen Nachteil ausgleichen. Zum Beispiel materiell im Nachteil zu sein, aber bessere Figurenaktivität, Initiative oder Angriffschancen zu haben. Starke Spieler opfern oft Material für Kompensation.",
+          nl: "Compensatie betekent voordelen hebben die een nadeel compenseren. Bijvoorbeeld materieel achter zijn maar betere stukactiviteit, initiatief of aanvalskansen hebben. Sterke spelers offeren vaak materiaal voor compensatie."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Benko Gambit'?",
+          es: "¿Qué es el 'Gambito Benko'?",
+          de: "Was ist das 'Benko-Gambit'?",
+          nl: "Wat is het 'Benko Gambiet'?"
+        },
+        options: [
+          { en: "1.d4 Nf6 2.c4 c5 3.d5 b5, sacrificing a pawn for queenside pressure", es: "1.d4 Cf6 2.c4 c5 3.d5 b5, sacrificando un peón por presión en el flanco de dama", de: "1.d4 Sf6 2.c4 c5 3.d5 b5, opfert einen Bauern für Damenflügel-Druck", nl: "1.d4 Pf6 2.c4 c5 3.d5 b5, een pion offerend voor damezijde druk" },
+          { en: "A king's gambit variation", es: "Una variación del gambito de rey", de: "Eine Königsgambit-Variante", nl: "Een koningsgambiet variatie" },
+          { en: "A tactical trap", es: "Una trampa táctica", de: "Eine taktische Falle", nl: "Een tactische val" },
+          { en: "An endgame sacrifice", es: "Un sacrificio de final", de: "Ein Endspiel-Opfer", nl: "Een eindspel offer" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Benko Gambit sacrifices the b5 pawn for long-term queenside pressure on the a- and b-files. Black gets excellent piece play and compensation. Named after Pal Benko, it's popular among aggressive positional players.",
+          es: "El Gambito Benko sacrifica el peón b5 por presión a largo plazo en el flanco de dama en las columnas a y b. Las negras obtienen excelente juego de piezas y compensación. Nombrado en honor a Pal Benko, es popular entre jugadores posicionales agresivos.",
+          de: "Das Benko-Gambit opfert den b5-Bauern für langfristigen Damenflügel-Druck auf der a- und b-Linie. Schwarz erhält ausgezeichnetes Figurenspiel und Kompensation. Benannt nach Pal Benko, ist es bei aggressiven Positionsspielern beliebt.",
+          nl: "Het Benko Gambiet offert de b5 pion voor langdurige damezijde druk op de a- en b-lijnen. Zwart krijgt uitstekend stukspel en compensatie. Vernoemd naar Pal Benko, is het populair onder agressieve positionele spelers."
+        }
+      },
+      {
+        question: {
+          en: "What is 'opposite-colored bishops' in endgames?",
+          es: "¿Qué es 'alfiles de colores opuestos' en finales?",
+          de: "Was sind 'ungleichfarbige Läufer' in Endspielen?",
+          nl: "Wat zijn 'tegengestelde kleurlopers' in eindspelen?"
+        },
+        options: [
+          { en: "Each side has a bishop on different colored squares, often leading to draws", es: "Cada lado tiene un alfil en casillas de diferente color, a menudo llevando a tablas", de: "Jede Seite hat einen Läufer auf andersfarbigen Feldern, führt oft zu Remis", nl: "Elke kant heeft een loper op anders gekleurde velden, vaak leidend tot remise" },
+          { en: "Bishops attacking each other", es: "Alfiles atacándose mutuamente", de: "Läufer greifen sich gegenseitig an", nl: "Lopers die elkaar aanvallen" },
+          { en: "Having two bishops vs one", es: "Tener dos alfiles contra uno", de: "Zwei Läufer gegen einen haben", nl: "Twee lopers tegen één hebben" },
+          { en: "Bishops on opposite sides of the board", es: "Alfiles en lados opuestos del tablero", de: "Läufer auf gegenüberliegenden Seiten des Bretts", nl: "Lopers aan tegenovergestelde kanten van het bord" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Opposite-colored bishops occur when one player has a light-squared bishop and the other a dark-squared bishop. In endgames, this often leads to draws even with material advantage, as bishops can't attack each other's colored squares.",
+          es: "Los alfiles de colores opuestos ocurren cuando un jugador tiene un alfil de casillas claras y el otro un alfil de casillas oscuras. En finales, esto a menudo lleva a tablas incluso con ventaja material, ya que los alfiles no pueden atacar las casillas del color del otro.",
+          de: "Ungleichfarbige Läufer treten auf, wenn ein Spieler einen Weißfeld-Läufer und der andere einen Schwarzfeld-Läufer hat. In Endspielen führt dies oft zu Remis, selbst bei materiellem Vorteil, da Läufer nicht die Felder der anderen Farbe angreifen können.",
+          nl: "Tegengestelde kleurlopers komen voor wanneer één speler een witvelderloper heeft en de ander een zwartvelderloper. In eindspelen leidt dit vaak tot remise, zelfs met materieel voordeel, omdat lopers elkaars gekleurde velden niet kunnen aanvallen."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Dragon Variation' of the Sicilian Defense?",
+          es: "¿Qué es la 'Variante del Dragón' de la Defensa Siciliana?",
+          de: "Was ist die 'Drachen-Variante' der Sizilianischen Verteidigung?",
+          nl: "Wat is de 'Dragon Variatie' van de Siciliaanse Verdediging?"
+        },
+        options: [
+          { en: "5...g6, fianchettoing the bishop and creating sharp play", es: "5...g6, fianchetto del alfil y creando juego agudo", de: "5...g6, Fianchetto des Läufers und scharfes Spiel", nl: "5...g6, fianchetto van de loper en scherp spel creërend" },
+          { en: "5...a6, the Najdorf", es: "5...a6, el Najdorf", de: "5...a6, das Najdorf", nl: "5...a6, de Najdorf" },
+          { en: "5...e6, the Scheveningen", es: "5...e6, el Scheveningen", de: "5...e6, das Scheveningen", nl: "5...e6, de Scheveningen" },
+          { en: "5...Nc6, the classical", es: "5...Cc6, la clásica", de: "5...Sc6, die klassische", nl: "5...Pc6, de klassieke" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Dragon Variation (5...g6 followed by ...Bg7) creates a powerful fianchettoed bishop on g7. It often leads to opposite-side castling and sharp mutual attacks. The pawn structure resembles a dragon, hence the name.",
+          es: "La Variante del Dragón (5...g6 seguido de ...Ag7) crea un poderoso alfil en fianchetto en g7. A menudo lleva a enroques en lados opuestos y ataques mutuos agudos. La estructura de peones se asemeja a un dragón, de ahí el nombre.",
+          de: "Die Drachen-Variante (5...g6 gefolgt von ...Lg7) schafft einen mächtigen fiankettierten Läufer auf g7. Sie führt oft zu gegenüberliegenden Rochaden und scharfen gegenseitigen Angriffen. Die Bauernstruktur ähnelt einem Drachen, daher der Name.",
+          nl: "De Dragon Variatie (5...g6 gevolgd door ...Lg7) creëert een krachtige gefianchetteerde loper op g7. Het leidt vaak tot tegenovergestelde rokades en scherpe wederzijdse aanvallen. De pionstructuur lijkt op een draak, vandaar de naam."
+        }
+      },
+      {
+        question: {
+          en: "What is a 'pawn break'?",
+          es: "¿Qué es una 'ruptura de peones'?",
+          de: "Was ist ein 'Bauerndurchbruch'?",
+          nl: "Wat is een 'piondoorbraak'?"
+        },
+        options: [
+          { en: "Advancing a pawn to challenge opponent's pawn chain and open lines", es: "Avanzar un peón para desafiar la cadena de peones del oponente y abrir líneas", de: "Einen Bauern vorschieben um die gegnerische Bauernkette herauszufordern und Linien zu öffnen", nl: "Een pion vooruitschuiven om de pioncadeau van de tegenstander uit te dagen en lijnen te openen" },
+          { en: "Promoting a pawn", es: "Promocionar un peón", de: "Einen Bauern umwandeln", nl: "Een pion promoveren" },
+          { en: "Capturing with a pawn", es: "Capturar con un peón", de: "Mit einem Bauern schlagen", nl: "Slaan met een pion" },
+          { en: "Sacrificing a pawn", es: "Sacrificar un peón", de: "Einen Bauern opfern", nl: "Een pion offeren" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "A pawn break is a pawn advance that challenges the opponent's pawn structure, aiming to open lines, create weaknesses, or gain space. Examples: ...d5 break in the Sicilian, or e4-e5 break in many positions. Timing is crucial.",
+          es: "Una ruptura de peones es un avance de peón que desafía la estructura de peones del oponente, con el objetivo de abrir líneas, crear debilidades o ganar espacio. Ejemplos: ruptura ...d5 en la Siciliana, o ruptura e4-e5 en muchas posiciones. El momento es crucial.",
+          de: "Ein Bauerndurchbruch ist ein Bauernvorstoß, der die gegnerische Bauernstruktur herausfordert, mit dem Ziel, Linien zu öffnen, Schwächen zu schaffen oder Raum zu gewinnen. Beispiele: ...d5-Durchbruch in der Sizilianischen, oder e4-e5-Durchbruch in vielen Stellungen. Das Timing ist entscheidend.",
+          nl: "Een piondoorbraak is een pionvooruitgang die de pionstructuur van de tegenstander uitdaagt, met als doel lijnen te openen, zwakheden te creëren of ruimte te winnen. Voorbeelden: ...d5 doorbraak in de Siciliaanse, of e4-e5 doorbraak in veel posities. Timing is cruciaal."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Caro-Kann Defense'?",
+          es: "¿Qué es la 'Defensa Caro-Kann'?",
+          de: "Was ist die 'Caro-Kann-Verteidigung'?",
+          nl: "Wat is de 'Caro-Kann Verdediging'?"
+        },
+        options: [
+          { en: "1.e4 c6, preparing ...d5 without blocking the light-squared bishop", es: "1.e4 c6, preparando ...d5 sin bloquear el alfil de casillas claras", de: "1.e4 c6, bereitet ...d5 vor ohne den Weißfeld-Läufer zu blockieren", nl: "1.e4 c6, voorbereidend ...d5 zonder de witvelderloper te blokkeren" },
+          { en: "1.e4 e5, the open game", es: "1.e4 e5, el juego abierto", de: "1.e4 e5, das offene Spiel", nl: "1.e4 e5, het open spel" },
+          { en: "1.e4 c5, the Sicilian", es: "1.e4 c5, la Siciliana", de: "1.e4 c5, die Sizilianische", nl: "1.e4 c5, de Siciliaanse" },
+          { en: "1.e4 e6, the French", es: "1.e4 e6, la Francesa", de: "1.e4 e6, die Französische", nl: "1.e4 e6, de Franse" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Caro-Kann (1.e4 c6 2.d4 d5) is a solid defense that doesn't trap the light-squared bishop like the French Defense does. It's known for leading to safe, slightly passive but very sound positions. Popular at all levels.",
+          es: "La Caro-Kann (1.e4 c6 2.d4 d5) es una defensa sólida que no atrapa al alfil de casillas claras como lo hace la Defensa Francesa. Es conocida por llevar a posiciones seguras, ligeramente pasivas pero muy sólidas. Popular en todos los niveles.",
+          de: "Die Caro-Kann (1.e4 c6 2.d4 d5) ist eine solide Verteidigung, die den Weißfeld-Läufer nicht einsperrt wie die Französische Verteidigung. Sie ist bekannt dafür, zu sicheren, etwas passiven aber sehr gesunden Stellungen zu führen. Auf allen Ebenen beliebt.",
+          nl: "De Caro-Kann (1.e4 c6 2.d4 d5) is een solide verdediging die de witvelderloper niet vasthoudt zoals de Franse Verdediging doet. Het staat bekend om het leiden naar veilige, licht passieve maar zeer gezonde posities. Populair op alle niveaus."
+        }
+      },
+      {
+        question: {
+          en: "What is 'space advantage' in chess?",
+          es: "¿Qué es la 'ventaja de espacio' en ajedrez?",
+          de: "Was ist 'Raumvorteil' im Schach?",
+          nl: "Wat is 'ruimtevoordeel' in schaken?"
+        },
+        options: [
+          { en: "Controlling more of the board, giving pieces greater mobility", es: "Controlar más del tablero, dando a las piezas mayor movilidad", de: "Mehr vom Brett kontrollieren, was den Figuren größere Mobilität gibt", nl: "Meer van het bord controleren, wat stukken grotere mobiliteit geeft" },
+          { en: "Having more pieces on the board", es: "Tener más piezas en el tablero", de: "Mehr Figuren auf dem Brett haben", nl: "Meer stukken op het bord hebben" },
+          { en: "Controlling the center only", es: "Controlar solo el centro", de: "Nur das Zentrum kontrollieren", nl: "Alleen het centrum controleren" },
+          { en: "Having advanced pawns", es: "Tener peones avanzados", de: "Fortgeschrittene Bauern haben", nl: "Vergevorderde pionnen hebben" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "Space advantage means controlling more squares on the board, usually indicated by advanced pawns. It gives your pieces more room to maneuver while restricting opponent's pieces. However, too much space can become difficult to defend.",
+          es: "La ventaja de espacio significa controlar más casillas en el tablero, usualmente indicado por peones avanzados. Da a tus piezas más espacio para maniobrar mientras restringe las piezas del oponente. Sin embargo, demasiado espacio puede volverse difícil de defender.",
+          de: "Raumvorteil bedeutet, mehr Felder auf dem Brett zu kontrollieren, normalerweise durch vorgerückte Bauern angezeigt. Es gibt Ihren Figuren mehr Raum zum Manövrieren, während es gegnerische Figuren einschränkt. Zu viel Raum kann jedoch schwer zu verteidigen sein.",
+          nl: "Ruimtevoordeel betekent meer velden op het bord controleren, meestal aangegeven door vergevorderde pionnen. Het geeft je stukken meer ruimte om te manoeuvreren terwijl het de stukken van de tegenstander beperkt. Te veel ruimte kan echter moeilijk te verdedigen worden."
+        }
+      },
+      {
+        question: {
+          en: "What is the 'Slav Defense'?",
+          es: "¿Qué es la 'Defensa Eslava'?",
+          de: "Was ist die 'Slawische Verteidigung'?",
+          nl: "Wat is de 'Slavische Verdediging'?"
+        },
+        options: [
+          { en: "1.d4 d5 2.c4 c6, supporting d5 while keeping bishop options open", es: "1.d4 d5 2.c4 c6, apoyando d5 mientras mantiene abiertas las opciones del alfil", de: "1.d4 d5 2.c4 c6, unterstützt d5 während Läufer-Optionen offen bleiben", nl: "1.d4 d5 2.c4 c6, ondersteunend d5 terwijl loperopties open blijven" },
+          { en: "A variation of the Sicilian", es: "Una variación de la Siciliana", de: "Eine Variante der Sizilianischen", nl: "Een variatie van de Siciliaanse" },
+          { en: "An aggressive gambit", es: "Un gambito agresivo", de: "Ein aggressives Gambit", nl: "Een agressief gambiet" },
+          { en: "A king's pawn opening", es: "Una apertura de peón de rey", de: "Eine Königsbauern-Eröffnung", nl: "Een koningspion opening" }
+        ],
+        correct: 0,
+        explanation: {
+          en: "The Slav Defense (1.d4 d5 2.c4 c6) is a solid Queen's Gambit defense that supports the d5 pawn with ...c6 instead of ...e6. This avoids blocking the light-squared bishop. Popular at all levels including world championship matches.",
+          es: "La Defensa Eslava (1.d4 d5 2.c4 c6) es una sólida defensa del Gambito de Dama que apoya el peón d5 con ...c6 en lugar de ...e6. Esto evita bloquear el alfil de casillas claras. Popular en todos los niveles incluyendo partidas del campeonato mundial.",
+          de: "Die Slawische Verteidigung (1.d4 d5 2.c4 c6) ist eine solide Damengambit-Verteidigung, die den d5-Bauern mit ...c6 statt ...e6 unterstützt. Dies vermeidet das Blockieren des Weißfeld-Läufers. Auf allen Ebenen einschließlich Weltmeisterschaftspartien beliebt.",
+          nl: "De Slavische Verdediging (1.d4 d5 2.c4 c6) is een solide Damegambiet verdediging die de d5 pion ondersteunt met ...c6 in plaats van ...e6. Dit vermijdt het blokkeren van de witvelderloper. Populair op alle niveaus inclusief wereldkampioenschapswedstrijden."
+        }
       }
     ]
   };
