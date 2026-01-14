@@ -234,7 +234,7 @@
       <div id="tutorial-backdrop" class="fixed inset-0 bg-black bg-opacity-50 pointer-events-auto"></div>
 
       <!-- Highlight for targeted elements (punch-through for the backdrop) -->
-      <div id="tutorial-highlight" class="fixed border-4 border-yellow-400 rounded-lg transition-all duration-300 bg-transparent pointer-events-none" style="display: none;"></div>
+      <div id="tutorial-highlight" class="fixed rounded-lg transition-all duration-300 bg-transparent pointer-events-none" style="display: none; box-sizing: border-box;"></div>
 
       <!-- Click layer for highlighted element (sits above backdrop, allows clicks only on highlighted area) -->
       <div id="tutorial-click-layer" class="fixed pointer-events-auto" style="display: none; z-index: 10001;"></div>
@@ -377,7 +377,7 @@
     highlight.style.top = y + 'px';
     highlight.style.width = width + 'px';
     highlight.style.height = height + 'px';
-    highlight.style.zIndex = '10002';
+    highlight.style.zIndex = '9998';  // Lower z-index to prevent overlapping text
 
     // If not in top bar, clip the highlight so it doesn't go over the top bar
     if (!isInTopBar && topBar) {

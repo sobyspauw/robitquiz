@@ -63,15 +63,20 @@ body.light-mode #loading-screen .bg-gray-700 {
 #tutorial-highlight {
   z-index: 9998;
   animation: highlightPulse 2s ease-in-out infinite;
+  box-sizing: border-box;
+  /* Use outline instead of border to avoid content overlap */
+  outline: 4px solid rgb(250, 204, 21) !important;
+  outline-offset: 2px;
+  border: none !important;
 }
 
 @keyframes highlightPulse {
   0%, 100% {
-    border-color: rgb(250, 204, 21);
+    outline-color: rgb(250, 204, 21);
     box-shadow: 0 0 20px rgba(250, 204, 21, 0.6);
   }
   50% {
-    border-color: rgb(34, 211, 238);
+    outline-color: rgb(34, 211, 238);
     box-shadow: 0 0 30px rgba(34, 211, 238, 0.8);
   }
 }
