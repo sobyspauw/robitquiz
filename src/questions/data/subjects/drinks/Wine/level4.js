@@ -1458,6 +1458,216 @@ eren" },
         de: "Delestage lässt gärenden Wein aus dem Tank ab und belüftet ihn, während sich der trockene Hut auflöst. Wein wird dann zurückgepumpt, was sanfte Extraktion und Sauerstoffzufuhr ermöglicht.",
         nl: "Delestage tapt gistende wijn af uit de tank, waarbij het wordt belucht, terwijl de droge kap uit elkaar valt. Wijn wordt dan teruggepompt, wat zachte extractie en zuurstofblootstelling biedt."
       }
+    },
+    {
+      question: {
+        en: "What is cold stabilization in winemaking?",
+        es: "¿Qué es la estabilización en frío en la vinificación?",
+        de: "Was ist Kältestabilisierung in der Weinherstellung?",
+        nl: "Wat is koude stabilisatie bij wijnmaken?"
+      },
+      options: [
+        { en: "Preventing tartrate crystal formation", es: "Prevenir la formación de cristales de tartrato", de: "Verhindern von Weinsteinbildung", nl: "Voorkomen van wijnsteenvorming" },
+        { en: "Freezing grapes before harvest", es: "Congelar uvas antes de la cosecha", de: "Trauben vor der Ernte einfrieren", nl: "Druiven bevriezen voor de oogst" },
+        { en: "Cold fermentation process", es: "Proceso de fermentación en frío", de: "Kalter Gärungsprozess", nl: "Koud fermentatieproces" },
+        { en: "Storing wine in cold cellars", es: "Almacenar vino en bodegas frías", de: "Wein in kalten Kellern lagern", nl: "Wijn opslaan in koude kelders" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Cold stabilization chills wine to near freezing, causing tartrate crystals to precipitate out before bottling, preventing crystal formation in the bottle.",
+        es: "La estabilización en frío enfría el vino casi hasta congelación, causando que los cristales de tartrato precipiten antes del embotellado.",
+        de: "Kältestabilisierung kühlt Wein fast bis zum Gefrierpunkt, wodurch Weinsteinkristalle vor der Abfüllung ausfallen.",
+        nl: "Koude stabilisatie koelt wijn tot bijna het vriespunt, waardoor wijnsteen kristalliseert voor het bottelen."
+      }
+    },
+    {
+      question: {
+        en: "What is micro-oxygenation (MOX)?",
+        es: "¿Qué es la microoxigenación (MOX)?",
+        de: "Was ist Mikrooxygenierung (MOX)?",
+        nl: "Wat is micro-oxygenatie (MOX)?"
+      },
+      options: [
+        { en: "Adding pure oxygen to wine", es: "Añadir oxígeno puro al vino", de: "Reinen Sauerstoff zum Wein hinzufügen", nl: "Pure zuurstof aan wijn toevoegen" },
+        { en: "Controlled oxygen exposure through tiny bubbles", es: "Exposición controlada de oxígeno a través de burbujas diminutas", de: "Kontrollierte Sauerstoffzufuhr durch winzige Blasen", nl: "Gecontroleerde zuurstofblootstelling via kleine belletjes" },
+        { en: "Natural oxidation in barrels", es: "Oxidación natural en barricas", de: "Natürliche Oxidation in Fässern", nl: "Natuurlijke oxidatie in vaten" },
+        { en: "Removing oxygen from wine", es: "Eliminar oxígeno del vino", de: "Sauerstoff aus Wein entfernen", nl: "Zuurstof uit wijn verwijderen" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Micro-oxygenation introduces controlled amounts of oxygen through tiny bubbles, mimicking barrel aging to soften tannins and stabilize color.",
+        es: "La microoxigenación introduce cantidades controladas de oxígeno a través de burbujas diminutas, imitando el envejecimiento en barrica.",
+        de: "Mikrooxygenierung führt kontrollierte Sauerstoffmengen durch winzige Blasen zu, um Fasslagerung nachzuahmen.",
+        nl: "Micro-oxygenatie voegt gecontroleerd zuurstof toe via kleine belletjes, wat vatrijping nabootst."
+      }
+    },
+    {
+      question: {
+        en: "What is sur lie aging?",
+        es: "¿Qué es el envejecimiento sobre lías?",
+        de: "Was ist Sur-Lie-Reifung?",
+        nl: "Wat is sur lie rijping?"
+      },
+      options: [
+        { en: "Aging in underground caves", es: "Envejecer en cuevas subterráneas", de: "Reifung in unterirdischen Höhlen", nl: "Rijpen in ondergrondse grotten" },
+        { en: "Using special oak barrels", es: "Usar barricas especiales de roble", de: "Spezielle Eichenfässer verwenden", nl: "Speciale eiken vaten gebruiken" },
+        { en: "Aging wine on dead yeast cells", es: "Envejecer vino sobre células de levadura muertas", de: "Wein auf abgestorbenen Hefezellen reifen", nl: "Wijn rijpen op dode gistcellen" },
+        { en: "Blending young and old wines", es: "Mezclar vinos jóvenes y viejos", de: "Junge und alte Weine mischen", nl: "Jonge en oude wijnen mengen" }
+      ],
+      correct: 2,
+      explanation: {
+        en: "Sur lie aging keeps wine in contact with dead yeast cells (lees) after fermentation, adding complexity, creaminess, and protecting against oxidation.",
+        es: "El envejecimiento sobre lías mantiene el vino en contacto con células de levadura muertas después de la fermentación, añadiendo complejidad.",
+        de: "Sur-Lie-Reifung hält Wein in Kontakt mit abgestorbenen Hefezellen nach der Gärung, was Komplexität hinzufügt.",
+        nl: "Sur lie rijping houdt wijn in contact met dode gistcellen na fermentatie, wat complexiteit toevoegt."
+      }
+    },
+    {
+      question: {
+        en: "What is carbonic maceration?",
+        es: "¿Qué es la maceración carbónica?",
+        de: "Was ist Kohlensäuremaischung?",
+        nl: "Wat is koolzuurmaceratie?"
+      },
+      options: [
+        { en: "Whole grape fermentation in CO2", es: "Fermentación de uvas enteras en CO2", de: "Ganztraubengärung in CO2", nl: "Hele druiven fermentatie in CO2" },
+        { en: "Adding carbonation to wine", es: "Añadir carbonatación al vino", de: "Kohlensäure zum Wein hinzufügen", nl: "Koolzuur aan wijn toevoegen" },
+        { en: "Crushing grapes with CO2", es: "Triturar uvas con CO2", de: "Trauben mit CO2 zerkleinern", nl: "Druiven kneuzen met CO2" },
+        { en: "Removing CO2 from wine", es: "Eliminar CO2 del vino", de: "CO2 aus Wein entfernen", nl: "CO2 uit wijn verwijderen" }
+      ],
+      correct: 0,
+      explanation: {
+        en: "Carbonic maceration ferments whole grapes in a CO2-rich environment, creating fruity, low-tannin wines, famously used in Beaujolais Nouveau.",
+        es: "La maceración carbónica fermenta uvas enteras en un ambiente rico en CO2, creando vinos afrutados con taninos bajos.",
+        de: "Kohlensäuremaischung vergärt ganze Trauben in CO2-reicher Umgebung, was fruchtige, tanninarme Weine ergibt.",
+        nl: "Koolzuurmaceratie vergist hele druiven in een CO2-rijke omgeving, wat fruitige wijnen met lage tannines oplevert."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of fining in winemaking?",
+        es: "¿Cuál es el propósito de la clarificación en la vinificación?",
+        de: "Was ist der Zweck der Schönung in der Weinherstellung?",
+        nl: "Wat is het doel van klaring bij wijnmaken?"
+      },
+      options: [
+        { en: "Adding flavor compounds", es: "Añadir compuestos de sabor", de: "Geschmacksverbindungen hinzufügen", nl: "Smaakcomponenten toevoegen" },
+        { en: "Removing unwanted particles and proteins", es: "Eliminar partículas y proteínas no deseadas", de: "Unerwünschte Partikel und Proteine entfernen", nl: "Ongewenste deeltjes en eiwitten verwijderen" },
+        { en: "Increasing alcohol content", es: "Aumentar el contenido de alcohol", de: "Alkoholgehalt erhöhen", nl: "Alcoholgehalte verhogen" },
+        { en: "Adding sugar to wine", es: "Añadir azúcar al vino", de: "Zucker zum Wein hinzufügen", nl: "Suiker aan wijn toevoegen" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Fining uses agents like egg whites or bentonite clay to bind with unwanted particles and proteins, making them large enough to filter out for clarity.",
+        es: "La clarificación usa agentes como claras de huevo o bentonita para unirse con partículas no deseadas y proteínas.",
+        de: "Schönung verwendet Mittel wie Eiweiß oder Bentonit, um unerwünschte Partikel und Proteine zu binden.",
+        nl: "Klaring gebruikt middelen zoals eiwit of bentoniet om ongewenste deeltjes en eiwitten te binden."
+      }
+    },
+    {
+      question: {
+        en: "What is chaptalization?",
+        es: "¿Qué es la chaptalización?",
+        de: "Was ist Chaptalisierung?",
+        nl: "Wat is chaptalisatie?"
+      },
+      options: [
+        { en: "Removing sugar from must", es: "Eliminar azúcar del mosto", de: "Zucker aus Most entfernen", nl: "Suiker uit most verwijderen" },
+        { en: "Adding sugar to increase alcohol potential", es: "Añadir azúcar para aumentar el potencial de alcohol", de: "Zucker hinzufügen um Alkoholpotential zu erhöhen", nl: "Suiker toevoegen om alcoholpotentieel te verhogen" },
+        { en: "Natural sugar concentration", es: "Concentración natural de azúcar", de: "Natürliche Zuckerkonzentration", nl: "Natuurlijke suikerconcentratie" },
+        { en: "Measuring sugar levels", es: "Medir niveles de azúcar", de: "Zuckerspiegel messen", nl: "Suikerniveaus meten" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Chaptalization adds sugar to grape must before fermentation to increase potential alcohol, commonly used in cooler climates where grapes may not fully ripen.",
+        es: "La chaptalización añade azúcar al mosto antes de la fermentación para aumentar el alcohol potencial.",
+        de: "Chaptalisierung fügt Most vor der Gärung Zucker hinzu, um potentiellen Alkohol zu erhöhen.",
+        nl: "Chaptalisatie voegt suiker toe aan most voor fermentatie om potentieel alcohol te verhogen."
+      }
+    },
+    {
+      question: {
+        en: "What is reverse osmosis used for in winemaking?",
+        es: "¿Para qué se usa la ósmosis inversa en la vinificación?",
+        de: "Wofür wird Umkehrosmose in der Weinherstellung verwendet?",
+        nl: "Waarvoor wordt omgekeerde osmose gebruikt bij wijnmaken?"
+      },
+      options: [
+        { en: "Adding water to wine", es: "Añadir agua al vino", de: "Wasser zum Wein hinzufügen", nl: "Water aan wijn toevoegen" },
+        { en: "Removing water to concentrate wine", es: "Eliminar agua para concentrar el vino", de: "Wasser entfernen um Wein zu konzentrieren", nl: "Water verwijderen om wijn te concentreren" },
+        { en: "Filtering yeast cells", es: "Filtrar células de levadura", de: "Hefezellen filtern", nl: "Gistcellen filteren" },
+        { en: "Adding minerals", es: "Añadir minerales", de: "Mineralien hinzufügen", nl: "Mineralen toevoegen" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Reverse osmosis removes water from wine to concentrate flavors and alcohol, or can selectively remove alcohol or volatile acidity.",
+        es: "La ósmosis inversa elimina agua del vino para concentrar sabores y alcohol, o puede eliminar selectivamente alcohol o acidez volátil.",
+        de: "Umkehrosmose entfernt Wasser aus Wein um Aromen und Alkohol zu konzentrieren.",
+        nl: "Omgekeerde osmose verwijdert water uit wijn om smaken en alcohol te concentreren."
+      }
+    },
+    {
+      question: {
+        en: "What is the purpose of riddling (remuage) in sparkling wine?",
+        es: "¿Cuál es el propósito del removido (remuage) en vino espumoso?",
+        de: "Was ist der Zweck des Rüttelns (Remuage) bei Schaumwein?",
+        nl: "Wat is het doel van remuage bij mousserende wijn?"
+      },
+      options: [
+        { en: "Creating bubbles", es: "Crear burbujas", de: "Blasen erzeugen", nl: "Bubbels creëren" },
+        { en: "Moving sediment to the neck for removal", es: "Mover sedimento al cuello para eliminarlo", de: "Sediment zum Hals bewegen zur Entfernung", nl: "Bezinksel naar de hals bewegen voor verwijdering" },
+        { en: "Mixing the wine", es: "Mezclar el vino", de: "Wein mischen", nl: "Wijn mengen" },
+        { en: "Adding sugar", es: "Añadir azúcar", de: "Zucker hinzufügen", nl: "Suiker toevoegen" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Riddling gradually rotates and tilts bottles to move yeast sediment from secondary fermentation to the neck for removal by disgorgement.",
+        es: "El removido gira y inclina gradualmente las botellas para mover el sedimento de levadura al cuello para su eliminación.",
+        de: "Rütteln dreht und neigt Flaschen allmählich, um Hefesediment zum Hals zu bewegen für die Entfernung.",
+        nl: "Remuage draait en kantelt flessen geleidelijk om gistbezinksel naar de hals te bewegen voor verwijdering."
+      }
+    },
+    {
+      question: {
+        en: "What is dosage in Champagne production?",
+        es: "¿Qué es el dosaje en la producción de Champagne?",
+        de: "Was ist Dosage in der Champagnerherstellung?",
+        nl: "Wat is dosage bij Champagne productie?"
+      },
+      options: [
+        { en: "Initial grape pressing", es: "Prensado inicial de uvas", de: "Erstes Traubenpressen", nl: "Eerste druivenpersing" },
+        { en: "Adding wine-sugar mixture after disgorgement", es: "Añadir mezcla de vino y azúcar después del degüelle", de: "Wein-Zucker-Mischung nach Degorgieren hinzufügen", nl: "Wijn-suikermengsel toevoegen na dégorgement" },
+        { en: "Measuring alcohol content", es: "Medir el contenido de alcohol", de: "Alkoholgehalt messen", nl: "Alcoholgehalte meten" },
+        { en: "Bottle aging period", es: "Período de envejecimiento en botella", de: "Flaschenreifungsperiode", nl: "Flesrijpingsperiode" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Dosage is a mixture of wine and sugar added after disgorgement to determine the final sweetness level of Champagne, from Brut Nature to Doux.",
+        es: "El dosaje es una mezcla de vino y azúcar añadida después del degüelle para determinar el nivel de dulzor final del Champagne.",
+        de: "Dosage ist eine Mischung aus Wein und Zucker, die nach dem Degorgieren hinzugefügt wird, um die finale Süße zu bestimmen.",
+        nl: "Dosage is een mengsel van wijn en suiker toegevoegd na dégorgement om het uiteindelijke zoetheidsniveau te bepalen."
+      }
+    },
+    {
+      question: {
+        en: "What is autolysis in sparkling wine production?",
+        es: "¿Qué es la autólisis en la producción de vino espumoso?",
+        de: "Was ist Autolyse bei der Schaumweinherstellung?",
+        nl: "Wat is autolyse bij mousserende wijnproductie?"
+      },
+      options: [
+        { en: "Automatic bottle turning", es: "Giro automático de botellas", de: "Automatisches Flaschendrehen", nl: "Automatisch flessen draaien" },
+        { en: "Yeast cell breakdown releasing flavors", es: "Descomposición de células de levadura liberando sabores", de: "Hefezellabbau der Aromen freisetzt", nl: "Afbraak van gistcellen die smaken vrijgeeft" },
+        { en: "Sugar fermentation", es: "Fermentación del azúcar", de: "Zuckergärung", nl: "Suikerfermentatie" },
+        { en: "Bottle cleaning process", es: "Proceso de limpieza de botellas", de: "Flaschenreinigungsprozess", nl: "Flesreinigingsproces" }
+      ],
+      correct: 1,
+      explanation: {
+        en: "Autolysis is the breakdown of dead yeast cells during aging on lees, releasing compounds that add complexity, creating bready, biscuity flavors.",
+        es: "La autólisis es la descomposición de células de levadura muertas durante el envejecimiento sobre lías, liberando compuestos que añaden complejidad.",
+        de: "Autolyse ist der Abbau abgestorbener Hefezellen während der Hefelagerung, der Verbindungen freisetzt die Komplexität hinzufügen.",
+        nl: "Autolyse is de afbraak van dode gistcellen tijdens rijping op droesem, waarbij stoffen vrijkomen die complexiteit toevoegen."
+      }
     }
   ]
   };
